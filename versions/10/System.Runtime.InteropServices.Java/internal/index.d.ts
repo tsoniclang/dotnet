@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -59,7 +59,7 @@ export const StronglyConnectedComponent: {
 export type StronglyConnectedComponent = StronglyConnectedComponent$instance;
 
 export abstract class JavaMarshal$instance {
-    static CreateReferenceTrackingHandle(obj: JsValue, context: ptr<void>): GCHandle;
+    static CreateReferenceTrackingHandle(obj: unknown, context: ptr<void>): GCHandle;
     static FinishCrossReferenceProcessing(crossReferences: ptr<MarkCrossReferencesArgs>, unreachableObjectHandles: ReadOnlySpan_1<GCHandle>): void;
     static GetContext(obj: GCHandle): ptr<void>;
     static Initialize(markCrossReferences: fnptr<[ptr<MarkCrossReferencesArgs>], void>): void;

@@ -43,7 +43,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67113238,
+          "metadataToken": 67113233,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -55,7 +55,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::NoneSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "None",
-          "metadataToken": 67113239,
+          "metadataToken": 67113234,
           "normalizedSignature": "None|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::ExchangeSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "Exchange",
-          "metadataToken": 67113240,
+          "metadataToken": 67113235,
           "normalizedSignature": "Exchange|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -79,7 +79,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::StableSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "Stable",
-          "metadataToken": 67113241,
+          "metadataToken": 67113236,
           "normalizedSignature": "Stable|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::SideBySideSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "SideBySide",
-          "metadataToken": 67113242,
+          "metadataToken": 67113237,
           "normalizedSignature": "SideBySide|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -143,7 +143,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67113256,
+          "metadataToken": 67113251,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::NoneSystem.Runtime.Versioning.ResourceScope",
           "clrName": "None",
-          "metadataToken": 67113257,
+          "metadataToken": 67113252,
           "normalizedSignature": "None|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -167,7 +167,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::MachineSystem.Runtime.Versioning.ResourceScope",
           "clrName": "Machine",
-          "metadataToken": 67113258,
+          "metadataToken": 67113253,
           "normalizedSignature": "Machine|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -179,7 +179,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::ProcessSystem.Runtime.Versioning.ResourceScope",
           "clrName": "Process",
-          "metadataToken": 67113259,
+          "metadataToken": 67113254,
           "normalizedSignature": "Process|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -191,7 +191,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::AppDomainSystem.Runtime.Versioning.ResourceScope",
           "clrName": "AppDomain",
-          "metadataToken": 67113260,
+          "metadataToken": 67113255,
           "normalizedSignature": "AppDomain|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -203,7 +203,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::LibrarySystem.Runtime.Versioning.ResourceScope",
           "clrName": "Library",
-          "metadataToken": 67113261,
+          "metadataToken": 67113256,
           "normalizedSignature": "Library|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -215,7 +215,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::PrivateSystem.Runtime.Versioning.ResourceScope",
           "clrName": "Private",
-          "metadataToken": 67113262,
+          "metadataToken": 67113257,
           "normalizedSignature": "Private|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -227,7 +227,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::AssemblySystem.Runtime.Versioning.ResourceScope",
           "clrName": "Assembly",
-          "metadataToken": 67113263,
+          "metadataToken": 67113258,
           "normalizedSignature": "Assembly|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

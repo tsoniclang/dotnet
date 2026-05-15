@@ -3,7 +3,7 @@
 // Assembly: System.Private.Xml.Linq
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -65,13 +65,13 @@ export interface XAttribute$instance extends XObject$instance, System_Xml_Intern
     readonly PreviousAttribute: XAttribute | null;
     Value: string;
     Remove(): void;
-    SetValue(value: JsValue): void;
+    SetValue(value: unknown): void;
     ToString(): string;
 }
 
 
 export const XAttribute: {
-    new(name: XName, value: JsValue): XAttribute;
+    new(name: XName, value: unknown): XAttribute;
     new(other: XAttribute): XAttribute;
     readonly EmptySequence: IEnumerable_1<XAttribute>;
 };
@@ -140,10 +140,10 @@ export interface XContainer$instance extends XNode$instance, System_Xml_Internal
 
     readonly FirstNode: XNode | null;
     readonly LastNode: XNode | null;
-    Add(content: JsValue | null): void;
-    Add(...content: (JsValue | null)[]): void;
-    AddFirst(content: JsValue | null): void;
-    AddFirst(...content: (JsValue | null)[]): void;
+    Add(content: unknown | null): void;
+    Add(...content: (unknown | null)[]): void;
+    AddFirst(content: unknown | null): void;
+    AddFirst(...content: (unknown | null)[]): void;
     CreateWriter(): XmlWriter;
     DescendantNodes(): IEnumerable_1<XNode>;
     Descendants(): IEnumerable_1<XElement>;
@@ -153,8 +153,8 @@ export interface XContainer$instance extends XNode$instance, System_Xml_Internal
     Elements(name: XName | null): IEnumerable_1<XElement>;
     Nodes(): IEnumerable_1<XNode>;
     RemoveNodes(): void;
-    ReplaceNodes(content: JsValue | null): void;
-    ReplaceNodes(...content: (JsValue | null)[]): void;
+    ReplaceNodes(content: unknown | null): void;
+    ReplaceNodes(...content: (unknown | null)[]): void;
 }
 
 
@@ -217,8 +217,8 @@ export interface XDocument$instance extends XContainer$instance, System_Xml_Inte
 
 export const XDocument: {
     new(): XDocument;
-    new(content: (JsValue | null)[]): XDocument;
-    new(declaration: XDeclaration | null, content: (JsValue | null)[]): XDocument;
+    new(content: (unknown | null)[]): XDocument;
+    new(declaration: XDeclaration | null, content: (unknown | null)[]): XDocument;
     new(other: XDocument): XDocument;
     Load(stream: Stream, options: LoadOptions): XDocument;
     Load(stream: Stream): XDocument;
@@ -301,10 +301,10 @@ export interface XElement$instance extends XContainer$instance, System_Xml_Inter
     GetPrefixOfNamespace(ns: XNamespace): string | null;
     RemoveAll(): void;
     RemoveAttributes(): void;
-    ReplaceAll(content: JsValue | null): void;
-    ReplaceAll(...content: (JsValue | null)[]): void;
-    ReplaceAttributes(content: JsValue | null): void;
-    ReplaceAttributes(...content: (JsValue | null)[]): void;
+    ReplaceAll(content: unknown | null): void;
+    ReplaceAll(...content: (unknown | null)[]): void;
+    ReplaceAttributes(content: unknown | null): void;
+    ReplaceAttributes(...content: (unknown | null)[]): void;
     Save(fileName: string): void;
     Save(fileName: string, options: SaveOptions): void;
     Save(stream: Stream): void;
@@ -315,9 +315,9 @@ export interface XElement$instance extends XContainer$instance, System_Xml_Inter
     SaveAsync(stream: Stream, options: SaveOptions, cancellationToken: CancellationToken): Task;
     SaveAsync(textWriter: TextWriter, options: SaveOptions, cancellationToken: CancellationToken): Task;
     SaveAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
-    SetAttributeValue(name: XName, value: JsValue | null): void;
-    SetElementValue(name: XName, value: JsValue | null): void;
-    SetValue(value: JsValue): void;
+    SetAttributeValue(name: XName, value: unknown | null): void;
+    SetElementValue(name: XName, value: unknown | null): void;
+    SetValue(value: unknown): void;
     WriteTo(writer: XmlWriter): void;
     WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
@@ -325,8 +325,8 @@ export interface XElement$instance extends XContainer$instance, System_Xml_Inter
 
 export const XElement: {
     new(name: XName): XElement;
-    new(name: XName, content: JsValue | null): XElement;
-    new(name: XName, content: (JsValue | null)[]): XElement;
+    new(name: XName, content: unknown | null): XElement;
+    new(name: XName, content: (unknown | null)[]): XElement;
     new(other: XElement): XElement;
     new(other: XStreamingElement): XElement;
     readonly EmptySequence: IEnumerable_1<XElement>;
@@ -363,7 +363,7 @@ export interface XName$instance extends System_Runtime_Serialization_Internal.IS
     readonly LocalName: string;
     readonly Namespace: XNamespace;
     readonly NamespaceName: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -390,7 +390,7 @@ export interface XNamespace$instance {
     readonly __tsonic_type_System_Xml_Linq_XNamespace: never;
 
     readonly NamespaceName: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     GetName(localName: string): XName;
     ToString(): string;
@@ -414,10 +414,10 @@ export interface XNode$instance extends XObject$instance, System_Xml_Internal.IX
 
     readonly NextNode: XNode | null;
     readonly PreviousNode: XNode | null;
-    AddAfterSelf(content: JsValue | null): void;
-    AddAfterSelf(...content: (JsValue | null)[]): void;
-    AddBeforeSelf(content: JsValue | null): void;
-    AddBeforeSelf(...content: (JsValue | null)[]): void;
+    AddAfterSelf(content: unknown | null): void;
+    AddAfterSelf(...content: (unknown | null)[]): void;
+    AddBeforeSelf(content: unknown | null): void;
+    AddBeforeSelf(...content: (unknown | null)[]): void;
     Ancestors(): IEnumerable_1<XElement>;
     Ancestors(name: XName | null): IEnumerable_1<XElement>;
     CreateReader(): XmlReader;
@@ -431,8 +431,8 @@ export interface XNode$instance extends XObject$instance, System_Xml_Internal.IX
     NodesAfterSelf(): IEnumerable_1<XNode>;
     NodesBeforeSelf(): IEnumerable_1<XNode>;
     Remove(): void;
-    ReplaceWith(content: JsValue | null): void;
-    ReplaceWith(...content: (JsValue | null)[]): void;
+    ReplaceWith(content: unknown | null): void;
+    ReplaceWith(...content: (unknown | null)[]): void;
     ToString(): string;
     ToString(options: SaveOptions): string;
     WriteTo(writer: XmlWriter): void;
@@ -487,7 +487,7 @@ export interface XNodeEqualityComparer$instance {
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
     Equals(x: XNode | null, y: XNode | null): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(obj: XNode): int;
     GetHashCode(): int;
 }
@@ -515,13 +515,13 @@ export interface XObject$instance extends System_Xml_Internal.IXmlLineInfo$insta
     readonly Document: XDocument | null;
     readonly NodeType: XmlNodeType;
     readonly Parent: XElement | null;
-    AddAnnotation(annotation: JsValue): void;
-    Annotation(type: Type): JsValue | null;
-    Annotation<T>(): T | null;
-    Annotations(type: Type): IEnumerable_1<JsValue>;
-    Annotations<T>(): IEnumerable_1<T>;
+    AddAnnotation(annotation: unknown): void;
+    Annotation(type: Type): unknown | null;
+    Annotation<T extends (object | null)>(): T | null;
+    Annotations(type: Type): IEnumerable_1<unknown>;
+    Annotations<T extends (object | null)>(): IEnumerable_1<T>;
     RemoveAnnotations(type: Type): void;
-    RemoveAnnotations<T>(): void;
+    RemoveAnnotations<T extends (object | null)>(): void;
 }
 
 
@@ -584,8 +584,8 @@ export interface XStreamingElement$instance {
     readonly __tsonic_type_System_Xml_Linq_XStreamingElement: never;
 
     Name: XName;
-    Add(content: JsValue | null): void;
-    Add(...content: (JsValue | null)[]): void;
+    Add(content: unknown | null): void;
+    Add(...content: (unknown | null)[]): void;
     Save(stream: Stream): void;
     Save(stream: Stream, options: SaveOptions): void;
     Save(textWriter: TextWriter): void;
@@ -601,8 +601,8 @@ export interface XStreamingElement$instance {
 
 export const XStreamingElement: {
     new(name: XName): XStreamingElement;
-    new(name: XName, content: JsValue | null): XStreamingElement;
-    new(name: XName, content: (JsValue | null)[]): XStreamingElement;
+    new(name: XName, content: unknown | null): XStreamingElement;
+    new(name: XName, content: (unknown | null)[]): XStreamingElement;
 };
 
 
@@ -634,23 +634,23 @@ export type XText = XText$instance & __XText$views;
 
 
 export abstract class Extensions$instance {
-    static Ancestors<T extends XNode>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
-    static Ancestors<T extends XNode>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
+    static Ancestors<T extends unknown & XNode>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
+    static Ancestors<T extends unknown & XNode>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
     static AncestorsAndSelf(source: IEnumerable_1<XElement | null>, name: XName | null): IEnumerable_1<XElement>;
     static AncestorsAndSelf(source: IEnumerable_1<XElement | null>): IEnumerable_1<XElement>;
     static Attributes(source: IEnumerable_1<XElement | null>, name: XName | null): IEnumerable_1<XAttribute>;
     static Attributes(source: IEnumerable_1<XElement | null>): IEnumerable_1<XAttribute>;
-    static DescendantNodes<T extends XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XNode>;
+    static DescendantNodes<T extends unknown & XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XNode>;
     static DescendantNodesAndSelf(source: IEnumerable_1<XElement | null>): IEnumerable_1<XNode>;
-    static Descendants<T extends XContainer>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
-    static Descendants<T extends XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
+    static Descendants<T extends unknown & XContainer>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
+    static Descendants<T extends unknown & XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
     static DescendantsAndSelf(source: IEnumerable_1<XElement | null>, name: XName | null): IEnumerable_1<XElement>;
     static DescendantsAndSelf(source: IEnumerable_1<XElement | null>): IEnumerable_1<XElement>;
-    static Elements<T extends XContainer>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
-    static Elements<T extends XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
-    static InDocumentOrder<T extends XNode>(source: IEnumerable_1<T>): IEnumerable_1<T>;
-    static Nodes<T extends XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XNode>;
-    static Remove<T extends XNode>(source: IEnumerable_1<T | null>): void;
+    static Elements<T extends unknown & XContainer>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
+    static Elements<T extends unknown & XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
+    static InDocumentOrder<T extends unknown & XNode>(source: IEnumerable_1<T>): IEnumerable_1<T>;
+    static Nodes<T extends unknown & XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XNode>;
+    static Remove<T extends unknown & XNode>(source: IEnumerable_1<T | null>): void;
     static Remove(source: IEnumerable_1<XAttribute | null>): void;
 }
 

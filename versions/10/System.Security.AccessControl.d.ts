@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Security.AccessControl/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';
 import type { MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
@@ -87,20 +91,20 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type AccessRule<
-  T1 = __,
+  T1 extends NonNullable<unknown> | __ = __,
 > =
   [T1] extends [__] ? Internal.AccessRule :
-  [T1] extends [NonNullable<JsValue>] ? Internal.AccessRule_1<T1> : never;
+  [T1] extends [NonNullable<unknown>] ? Internal.AccessRule_1<T1> : never;
 
 export type AuditRule<
-  T1 = __,
+  T1 extends NonNullable<unknown> | __ = __,
 > =
   [T1] extends [__] ? Internal.AuditRule :
-  [T1] extends [NonNullable<JsValue>] ? Internal.AuditRule_1<T1> : never;
+  [T1] extends [NonNullable<unknown>] ? Internal.AuditRule_1<T1> : never;
 
 export type ObjectSecurity<
-  T1 = __,
+  T1 extends NonNullable<unknown> | __ = __,
 > =
   [T1] extends [__] ? Internal.ObjectSecurity :
-  [T1] extends [NonNullable<JsValue>] ? Internal.ObjectSecurity_1<T1> : never;
+  [T1] extends [NonNullable<unknown>] ? Internal.ObjectSecurity_1<T1> : never;
 

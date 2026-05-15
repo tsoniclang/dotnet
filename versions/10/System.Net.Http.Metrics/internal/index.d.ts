@@ -3,7 +3,7 @@
 // Assembly: System.Net.Http
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -17,7 +17,7 @@ export interface HttpMetricsEnrichmentContext$instance {
     readonly Exception: Exception | null;
     readonly Request: HttpRequestMessage;
     readonly Response: HttpResponseMessage | null;
-    AddCustomTag(name: string, value: JsValue | null): void;
+    AddCustomTag(name: string, value: unknown | null): void;
 }
 
 

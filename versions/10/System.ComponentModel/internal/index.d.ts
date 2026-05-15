@@ -3,7 +3,7 @@
 // Assembly: System.ComponentModel, System.ComponentModel.EventBasedAsync, System.ComponentModel.Primitives, System.ComponentModel.TypeConverter, System.ObjectModel, System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -143,40 +143,40 @@ export enum ToolboxItemFilterType {
 }
 
 
-export type AddingNewEventHandler = (sender: JsValue | null, e: AddingNewEventArgs) => void;
+export type AddingNewEventHandler = (sender: unknown | null, e: AddingNewEventArgs) => void;
 
 
-export type AsyncCompletedEventHandler = (sender: JsValue | null, e: AsyncCompletedEventArgs) => void;
+export type AsyncCompletedEventHandler = (sender: unknown | null, e: AsyncCompletedEventArgs) => void;
 
 
-export type CancelEventHandler = (sender: JsValue | null, e: CancelEventArgs) => void;
+export type CancelEventHandler = (sender: unknown | null, e: CancelEventArgs) => void;
 
 
-export type CollectionChangeEventHandler = (sender: JsValue | null, e: CollectionChangeEventArgs) => void;
+export type CollectionChangeEventHandler = (sender: unknown | null, e: CollectionChangeEventArgs) => void;
 
 
-export type DoWorkEventHandler = (sender: JsValue | null, e: DoWorkEventArgs) => void;
+export type DoWorkEventHandler = (sender: unknown | null, e: DoWorkEventArgs) => void;
 
 
-export type HandledEventHandler = (sender: JsValue | null, e: HandledEventArgs) => void;
+export type HandledEventHandler = (sender: unknown | null, e: HandledEventArgs) => void;
 
 
-export type ListChangedEventHandler = (sender: JsValue | null, e: ListChangedEventArgs) => void;
+export type ListChangedEventHandler = (sender: unknown | null, e: ListChangedEventArgs) => void;
 
 
-export type ProgressChangedEventHandler = (sender: JsValue | null, e: ProgressChangedEventArgs) => void;
+export type ProgressChangedEventHandler = (sender: unknown | null, e: ProgressChangedEventArgs) => void;
 
 
-export type PropertyChangedEventHandler = (sender: JsValue | null, e: PropertyChangedEventArgs) => void;
+export type PropertyChangedEventHandler = (sender: unknown | null, e: PropertyChangedEventArgs) => void;
 
 
-export type PropertyChangingEventHandler = (sender: JsValue | null, e: PropertyChangingEventArgs) => void;
+export type PropertyChangingEventHandler = (sender: unknown | null, e: PropertyChangingEventArgs) => void;
 
 
 export type RefreshEventHandler = (e: RefreshEventArgs) => void;
 
 
-export type RunWorkerCompletedEventHandler = (sender: JsValue | null, e: RunWorkerCompletedEventArgs) => void;
+export type RunWorkerCompletedEventHandler = (sender: unknown | null, e: RunWorkerCompletedEventArgs) => void;
 
 
 export interface IBindingList$instance extends IList, ICollection, IEnumerable {
@@ -194,25 +194,25 @@ export interface IBindingList$instance extends IList, ICollection, IEnumerable {
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     readonly IsSynchronized: boolean;
-    Add(value: JsValue | null): int;
+    Add(value: unknown | null): int;
     AddIndex(property: PropertyDescriptor): void;
-    AddNew(): JsValue;
+    AddNew(): unknown;
     ApplySort(property: PropertyDescriptor, direction: ListSortDirection): void;
-    Contains(value: JsValue | null): boolean;
+    Contains(value: unknown | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    Find(property: PropertyDescriptor, key: JsValue): int;
+    Find(property: PropertyDescriptor, key: unknown): int;
     GetEnumerator(): IEnumerator;
-    Insert(index: int, value: JsValue | null): void;
-    Remove(value: JsValue | null): void;
+    Insert(index: int, value: unknown | null): void;
+    Remove(value: unknown | null): void;
     RemoveAt(index: int): void;
     RemoveSort(): void;
     Clear(): void;
 }
 
 
-export type IBindingList = IBindingList$instance & { [index: number]: JsValue; };
+export type IBindingList = IBindingList$instance & { [index: number]: unknown; };
 
 export interface IBindingListView$instance extends IBindingList, IList, ICollection, IEnumerable {
     readonly __tsonic_iface_System_ComponentModel_IBindingListView: never;
@@ -234,19 +234,19 @@ export interface IBindingListView$instance extends IBindingList, IList, ICollect
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     readonly IsSynchronized: boolean;
-    Add(value: JsValue | null): int;
+    Add(value: unknown | null): int;
     AddIndex(property: PropertyDescriptor): void;
-    AddNew(): JsValue;
+    AddNew(): unknown;
     ApplySort(property: PropertyDescriptor, direction: ListSortDirection): void;
     ApplySort(sorts: ListSortDescriptionCollection): void;
-    Contains(value: JsValue | null): boolean;
+    Contains(value: unknown | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    Find(property: PropertyDescriptor, key: JsValue): int;
+    Find(property: PropertyDescriptor, key: unknown): int;
     GetEnumerator(): IEnumerator;
-    Insert(index: int, value: JsValue | null): void;
-    Remove(value: JsValue | null): void;
+    Insert(index: int, value: unknown | null): void;
+    Remove(value: unknown | null): void;
     RemoveAt(index: int): void;
     RemoveFilter(): void;
     Clear(): void;
@@ -254,7 +254,7 @@ export interface IBindingListView$instance extends IBindingList, IList, ICollect
 }
 
 
-export type IBindingListView = IBindingListView$instance & { [index: number]: JsValue; };
+export type IBindingListView = IBindingListView$instance & { [index: number]: unknown; };
 
 export interface ICancelAddNew$instance {
     readonly __tsonic_iface_System_ComponentModel_ICancelAddNew: never;
@@ -278,17 +278,17 @@ export type IChangeTracking = IChangeTracking$instance;
 export interface IComNativeDescriptorHandler$instance {
     readonly __tsonic_iface_System_ComponentModel_IComNativeDescriptorHandler: never;
 
-    GetAttributes(component: JsValue): AttributeCollection;
-    GetClassName(component: JsValue): string;
-    GetConverter(component: JsValue): TypeConverter;
-    GetDefaultEvent(component: JsValue): EventDescriptor;
-    GetDefaultProperty(component: JsValue): PropertyDescriptor;
-    GetEditor(component: JsValue, baseEditorType: Type): JsValue;
-    GetEvents(component: JsValue, attributes: Attribute[] | null): EventDescriptorCollection;
-    GetEvents(component: JsValue): EventDescriptorCollection;
-    GetProperties(component: JsValue, attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetPropertyValue(component: JsValue, dispid: int, success: boolean): JsValue;
-    GetPropertyValue(component: JsValue, propertyName: string, success: boolean): JsValue;
+    GetAttributes(component: unknown): AttributeCollection;
+    GetClassName(component: unknown): string;
+    GetConverter(component: unknown): TypeConverter;
+    GetDefaultEvent(component: unknown): EventDescriptor;
+    GetDefaultProperty(component: unknown): PropertyDescriptor;
+    GetEditor(component: unknown, baseEditorType: Type): unknown;
+    GetEvents(component: unknown, attributes: Attribute[] | null): EventDescriptorCollection;
+    GetEvents(component: unknown): EventDescriptorCollection;
+    GetProperties(component: unknown, attributes: Attribute[] | null): PropertyDescriptorCollection;
+    GetPropertyValue(component: unknown, dispid: int, success: boolean): unknown;
+    GetPropertyValue(component: unknown, propertyName: string, success: boolean): unknown;
 }
 
 
@@ -330,12 +330,12 @@ export interface ICustomTypeDescriptor$instance {
     GetConverter(): TypeConverter | null;
     GetDefaultEvent(): EventDescriptor | null;
     GetDefaultProperty(): PropertyDescriptor | null;
-    GetEditor(editorBaseType: Type): JsValue | null;
+    GetEditor(editorBaseType: Type): unknown | null;
     GetEvents(): EventDescriptorCollection;
     GetEvents(attributes: Attribute[] | null): EventDescriptorCollection;
     GetProperties(): PropertyDescriptorCollection;
     GetProperties(attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetPropertyOwner(pd: PropertyDescriptor | null): JsValue | null;
+    GetPropertyOwner(pd: PropertyDescriptor | null): unknown | null;
 }
 
 
@@ -362,7 +362,7 @@ export type IEditableObject = IEditableObject$instance;
 export interface IExtenderProvider$instance {
     readonly __tsonic_iface_System_ComponentModel_IExtenderProvider: never;
 
-    CanExtend(extendee: JsValue): boolean;
+    CanExtend(extendee: unknown): boolean;
 }
 
 
@@ -399,6 +399,8 @@ export interface INestedContainer$instance extends IContainer, IDisposable {
 }
 
 
+export interface INestedContainer$instance extends IContainer$instance {}
+
 export type INestedContainer = INestedContainer$instance;
 
 export interface INestedSite$instance extends ISite, IServiceProvider {
@@ -410,9 +412,11 @@ export interface INestedSite$instance extends ISite, IServiceProvider {
     readonly DesignMode: boolean;
     get Name(): string | null;
     set Name(value: string | null);
-    GetService(serviceType: Type): JsValue | null;
+    GetService(serviceType: Type): unknown | null;
 }
 
+
+export interface INestedSite$instance extends ISite$instance {}
 
 export type INestedSite = INestedSite$instance;
 
@@ -472,7 +476,7 @@ export interface ISite$instance extends IServiceProvider {
     readonly DesignMode: boolean;
     get Name(): string | null;
     set Name(value: string | null);
-    GetService(serviceType: Type): JsValue | null;
+    GetService(serviceType: Type): unknown | null;
 }
 
 
@@ -505,9 +509,9 @@ export interface ISynchronizeInvoke$instance {
     readonly __tsonic_iface_System_ComponentModel_ISynchronizeInvoke: never;
 
     readonly InvokeRequired: boolean;
-    BeginInvoke(method: Function, args: (JsValue | null)[] | null): IAsyncResult;
-    EndInvoke(result: IAsyncResult): JsValue | null;
-    Invoke(method: Function, args: (JsValue | null)[] | null): JsValue | null;
+    BeginInvoke(method: Function, args: (unknown | null)[] | null): IAsyncResult;
+    EndInvoke(result: IAsyncResult): unknown | null;
+    Invoke(method: Function, args: (unknown | null)[] | null): unknown | null;
 }
 
 
@@ -517,9 +521,9 @@ export interface ITypeDescriptorContext$instance extends IServiceProvider {
     readonly __tsonic_iface_System_ComponentModel_ITypeDescriptorContext: never;
 
     readonly Container: IContainer | null;
-    readonly Instance: JsValue | null;
+    readonly Instance: unknown | null;
     readonly PropertyDescriptor: PropertyDescriptor | null;
-    GetService(serviceType: Type): JsValue | null;
+    GetService(serviceType: Type): unknown | null;
     OnComponentChanged(): void;
     OnComponentChanging(): boolean;
 }
@@ -542,14 +546,14 @@ export type ITypedList = ITypedList$instance;
 export interface AddingNewEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_ComponentModel_AddingNewEventArgs: never;
 
-    get NewObject(): JsValue | null;
-    set NewObject(value: JsValue | null);
+    get NewObject(): unknown | null;
+    set NewObject(value: unknown | null);
 }
 
 
 export const AddingNewEventArgs: {
     new(): AddingNewEventArgs;
-    new(newObject: JsValue | null): AddingNewEventArgs;
+    new(newObject: unknown | null): AddingNewEventArgs;
 };
 
 
@@ -558,8 +562,8 @@ export type AddingNewEventArgs = AddingNewEventArgs$instance;
 export interface AmbientValueAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_AmbientValueAttribute: never;
 
-    readonly Value: JsValue | null;
-    Equals(obj: JsValue | null): boolean;
+    readonly Value: unknown | null;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -575,7 +579,7 @@ export const AmbientValueAttribute: {
     new(value: double): AmbientValueAttribute;
     new(value: boolean): AmbientValueAttribute;
     new(value: string | null): AmbientValueAttribute;
-    new(value: JsValue | null): AmbientValueAttribute;
+    new(value: unknown | null): AmbientValueAttribute;
 };
 
 
@@ -584,11 +588,11 @@ export type AmbientValueAttribute = AmbientValueAttribute$instance;
 export interface ArrayConverter$instance extends CollectionConverter {
     readonly __tsonic_type_System_ComponentModel_ArrayConverter: never;
 
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue | null, attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown | null, attributes: Attribute[] | null): PropertyDescriptorCollection;
+    GetProperties(value: unknown): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
     GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
     GetPropertiesSupported(): boolean;
 }
@@ -606,12 +610,12 @@ export interface AsyncCompletedEventArgs$instance extends EventArgs {
 
     readonly Cancelled: boolean;
     readonly Error: Exception | null;
-    readonly UserState: JsValue | null;
+    readonly UserState: unknown | null;
 }
 
 
 export const AsyncCompletedEventArgs: {
-    new(error: Exception | null, cancelled: boolean, userState: JsValue | null): AsyncCompletedEventArgs;
+    new(error: Exception | null, cancelled: boolean, userState: unknown | null): AsyncCompletedEventArgs;
 };
 
 
@@ -621,11 +625,11 @@ export interface AsyncOperation$instance {
     readonly __tsonic_type_System_ComponentModel_AsyncOperation: never;
 
     readonly SynchronizationContext: SynchronizationContext;
-    readonly UserSuppliedState: JsValue | null;
+    readonly UserSuppliedState: unknown | null;
     Finalize(): void;
     OperationCompleted(): void;
-    Post(d: SendOrPostCallback, arg: JsValue | null): void;
-    PostOperationCompleted(d: SendOrPostCallback, arg: JsValue | null): void;
+    Post(d: SendOrPostCallback, arg: unknown | null): void;
+    PostOperationCompleted(d: SendOrPostCallback, arg: unknown | null): void;
 }
 
 
@@ -657,7 +661,8 @@ export interface AttributeCollection$instance {
 export const AttributeCollection: {
     new(attributes: Attribute[] | null): AttributeCollection;
     readonly Empty: AttributeCollection;
-    FromExisting(existing: AttributeCollection, ...newAttributes: Attribute[] | null): AttributeCollection;
+    FromExisting(existing: AttributeCollection, ...newAttributes: Attribute[]): AttributeCollection;
+    FromExisting(existing: AttributeCollection, newAttributes: Attribute[] | null): AttributeCollection;
 };
 
 
@@ -703,9 +708,9 @@ export interface BackgroundWorker$instance extends Component$instance {
     OnProgressChanged(e: ProgressChangedEventArgs): void;
     OnRunWorkerCompleted(e: RunWorkerCompletedEventArgs): void;
     ReportProgress(percentProgress: int): void;
-    ReportProgress(percentProgress: int, userState: JsValue | null): void;
+    ReportProgress(percentProgress: int, userState: unknown | null): void;
     RunWorkerAsync(): void;
-    RunWorkerAsync(argument: JsValue | null): void;
+    RunWorkerAsync(argument: unknown | null): void;
 }
 
 
@@ -729,10 +734,10 @@ export interface BaseNumberConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
 }
 
 
@@ -747,7 +752,7 @@ export interface BindableAttribute$instance extends Attribute {
 
     readonly Bindable: boolean;
     readonly Direction: BindingDirection;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -766,7 +771,7 @@ export const BindableAttribute: {
 
 export type BindableAttribute = BindableAttribute$instance;
 
-export interface BindingList_1$instance<T> extends Collection_1<T>, ICancelAddNew$instance, IRaiseItemChangedEvents$instance {
+export interface BindingList_1$instance<T extends unknown> extends Collection_1<T>, ICancelAddNew$instance, IRaiseItemChangedEvents$instance {
     readonly __tsonic_type_System_ComponentModel_BindingList_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -792,12 +797,12 @@ export interface BindingList_1$instance<T> extends Collection_1<T>, ICancelAddNe
     readonly SupportsSearchingCore: boolean;
     readonly SupportsSortingCore: boolean;
     AddNew(): T;
-    AddNewCore(): JsValue | null;
+    AddNewCore(): unknown | null;
     ApplySortCore(prop: PropertyDescriptor, direction: ListSortDirection): void;
     CancelNew(itemIndex: int): void;
     ClearItems(): void;
     EndNew(itemIndex: int): void;
-    FindCore(prop: PropertyDescriptor, key: JsValue): int;
+    FindCore(prop: PropertyDescriptor, key: unknown): int;
     InsertItem(index: int, item: T): void;
     OnAddingNew(e: AddingNewEventArgs): void;
     OnListChanged(e: ListChangedEventArgs): void;
@@ -810,12 +815,12 @@ export interface BindingList_1$instance<T> extends Collection_1<T>, ICancelAddNe
 
 
 export const BindingList_1: {
-    new<T>(): BindingList_1<T>;
-    new<T>(list: IList_1<T>): BindingList_1<T>;
+    new<T extends unknown>(): BindingList_1<T>;
+    new<T extends unknown>(list: IList_1<T>): BindingList_1<T>;
 };
 
 
-export interface __BindingList_1$views<T> {
+export interface __BindingList_1$views<T extends unknown> {
     As_IBindingList(): IBindingList$instance;
     As_ICancelAddNew(): ICancelAddNew$instance;
     As_IRaiseItemChangedEvents(): IRaiseItemChangedEvents$instance;
@@ -828,7 +833,7 @@ export interface __BindingList_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type BindingList_1<T> = BindingList_1$instance<T> & __BindingList_1$views<T>;
+export type BindingList_1<T extends unknown> = BindingList_1$instance<T> & __BindingList_1$views<T>;
 
 
 export interface BooleanConverter$instance extends TypeConverter {
@@ -836,8 +841,8 @@ export interface BooleanConverter$instance extends TypeConverter {
 
     CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
     GetStandardValues(context: ITypeDescriptorContext | null): TypeConverter_StandardValuesCollection;
     GetStandardValues(): ICollection | null;
     GetStandardValuesExclusive(context: ITypeDescriptorContext | null): boolean;
@@ -858,7 +863,7 @@ export interface BrowsableAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_BrowsableAttribute: never;
 
     readonly Browsable: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -906,7 +911,7 @@ export interface CategoryAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_CategoryAttribute: never;
 
     readonly Category: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     GetLocalizedString(value: string): string | null;
     IsDefaultAttribute(): boolean;
@@ -940,10 +945,10 @@ export interface CharConverter$instance extends TypeConverter {
 
     CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
 }
 
 
@@ -958,12 +963,12 @@ export interface CollectionChangeEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_ComponentModel_CollectionChangeEventArgs: never;
 
     readonly Action: CollectionChangeAction;
-    readonly Element: JsValue | null;
+    readonly Element: unknown | null;
 }
 
 
 export const CollectionChangeEventArgs: {
-    new(action: CollectionChangeAction, element: JsValue | null): CollectionChangeEventArgs;
+    new(action: CollectionChangeAction, element: unknown | null): CollectionChangeEventArgs;
 };
 
 
@@ -972,11 +977,11 @@ export type CollectionChangeEventArgs = CollectionChangeEventArgs$instance;
 export interface CollectionConverter$instance extends TypeConverter {
     readonly __tsonic_type_System_ComponentModel_CollectionConverter: never;
 
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue, attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown, attributes: Attribute[] | null): PropertyDescriptorCollection;
+    GetProperties(value: unknown): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
 }
 
 
@@ -992,7 +997,7 @@ export interface ComplexBindingPropertiesAttribute$instance extends Attribute {
 
     readonly DataMember: string | null;
     readonly DataSource: string | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1020,7 +1025,7 @@ export interface Component$instance extends MarshalByRefObject {
     Dispose(): void;
     Dispose(disposing: boolean): void;
     Finalize(): void;
-    GetService(service: Type): JsValue | null;
+    GetService(service: Type): unknown | null;
     ToString(): string;
 }
 
@@ -1066,9 +1071,9 @@ export type ComponentCollection = ComponentCollection$instance & __ComponentColl
 export interface ComponentConverter$instance extends ReferenceConverter {
     readonly __tsonic_type_System_ComponentModel_ComponentConverter: never;
 
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue, attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown, attributes: Attribute[] | null): PropertyDescriptorCollection;
+    GetProperties(value: unknown): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
     GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
     GetPropertiesSupported(): boolean;
 }
@@ -1084,8 +1089,8 @@ export type ComponentConverter = ComponentConverter$instance;
 export interface ComponentEditor$instance {
     readonly __tsonic_type_System_ComponentModel_ComponentEditor: never;
 
-    EditComponent(component: JsValue): boolean;
-    EditComponent(context: ITypeDescriptorContext | null, component: JsValue): boolean;
+    EditComponent(component: unknown): boolean;
+    EditComponent(context: ITypeDescriptorContext | null, component: unknown): boolean;
 }
 
 
@@ -1098,9 +1103,9 @@ export type ComponentEditor = ComponentEditor$instance;
 export interface ComponentResourceManager$instance extends ResourceManager {
     readonly __tsonic_type_System_ComponentModel_ComponentResourceManager: never;
 
-    ApplyResources(value: JsValue, objectName: string): void;
-    ApplyResources(value: JsValue, objectName: string, culture: CultureInfo | null): void;
-    ApplyResourcesToRegisteredType(value: JsValue, objectName: string, culture: CultureInfo | null): void;
+    ApplyResources(value: unknown, objectName: string): void;
+    ApplyResources(value: unknown, objectName: string, culture: CultureInfo | null): void;
+    ApplyResourcesToRegisteredType(value: unknown, objectName: string, culture: CultureInfo | null): void;
 }
 
 
@@ -1125,7 +1130,7 @@ export interface Container$instance {
     Dispose(): void;
     Dispose(disposing: boolean): void;
     Finalize(): void;
-    GetService(service: Type): JsValue | null;
+    GetService(service: Type): unknown | null;
     Remove(component: IComponent | null): void;
     ValidateName(component: IComponent, name: string | null): void;
 }
@@ -1164,10 +1169,10 @@ export interface CultureInfoConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
     GetCultureName(culture: CultureInfo): string;
     GetStandardValues(context: ITypeDescriptorContext | null): TypeConverter_StandardValuesCollection;
     GetStandardValues(): ICollection | null;
@@ -1198,14 +1203,14 @@ export interface CustomTypeDescriptor$instance extends ICustomTypeDescriptor$ins
     GetConverterFromRegisteredType(): TypeConverter | null;
     GetDefaultEvent(): EventDescriptor | null;
     GetDefaultProperty(): PropertyDescriptor | null;
-    GetEditor(editorBaseType: Type): JsValue | null;
+    GetEditor(editorBaseType: Type): unknown | null;
     GetEvents(): EventDescriptorCollection;
     GetEvents(attributes: Attribute[] | null): EventDescriptorCollection;
     GetEventsFromRegisteredType(): EventDescriptorCollection;
     GetProperties(): PropertyDescriptorCollection;
     GetProperties(attributes: Attribute[] | null): PropertyDescriptorCollection;
     GetPropertiesFromRegisteredType(): PropertyDescriptorCollection;
-    GetPropertyOwner(pd: PropertyDescriptor | null): JsValue | null;
+    GetPropertyOwner(pd: PropertyDescriptor | null): unknown | null;
 }
 
 
@@ -1238,7 +1243,7 @@ export interface DataObjectAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DataObjectAttribute: never;
 
     readonly IsDataObject: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -1262,7 +1267,7 @@ export interface DataObjectFieldAttribute$instance extends Attribute {
     readonly IsNullable: boolean;
     readonly Length: int;
     readonly PrimaryKey: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1282,9 +1287,9 @@ export interface DataObjectMethodAttribute$instance extends Attribute {
 
     readonly IsDefault: boolean;
     readonly MethodType: DataObjectMethodType;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
-    Match(obj: JsValue | null): boolean;
+    Match(obj: unknown | null): boolean;
 }
 
 
@@ -1303,10 +1308,10 @@ export interface DateOnlyConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
 }
 
 
@@ -1324,10 +1329,10 @@ export interface DateTimeConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
 }
 
 
@@ -1345,10 +1350,10 @@ export interface DateTimeOffsetConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
 }
 
 
@@ -1364,8 +1369,8 @@ export interface DecimalConverter$instance extends BaseNumberConverter {
 
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
 }
 
 
@@ -1380,7 +1385,7 @@ export interface DefaultBindingPropertyAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DefaultBindingPropertyAttribute: never;
 
     readonly Name: string | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1398,7 +1403,7 @@ export interface DefaultEventAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DefaultEventAttribute: never;
 
     readonly Name: string | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1415,7 +1420,7 @@ export interface DefaultPropertyAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DefaultPropertyAttribute: never;
 
     readonly Name: string | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1431,8 +1436,8 @@ export type DefaultPropertyAttribute = DefaultPropertyAttribute$instance;
 export interface DefaultValueAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DefaultValueAttribute: never;
 
-    readonly Value: JsValue | null;
-    Equals(obj: JsValue | null): boolean;
+    readonly Value: unknown | null;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1448,7 +1453,7 @@ export const DefaultValueAttribute: {
     new(value: double): DefaultValueAttribute;
     new(value: boolean): DefaultValueAttribute;
     new(value: string | null): DefaultValueAttribute;
-    new(value: JsValue | null): DefaultValueAttribute;
+    new(value: unknown | null): DefaultValueAttribute;
     new(value: sbyte): DefaultValueAttribute;
     new(value: ushort): DefaultValueAttribute;
     new(value: uint): DefaultValueAttribute;
@@ -1462,7 +1467,7 @@ export interface DescriptionAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DescriptionAttribute: never;
 
     readonly Description: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -1482,8 +1487,8 @@ export interface DesignerAttribute$instance extends Attribute {
 
     readonly DesignerBaseTypeName: string;
     readonly DesignerTypeName: string;
-    readonly TypeId: JsValue;
-    Equals(obj: JsValue | null): boolean;
+    readonly TypeId: unknown;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1503,8 +1508,8 @@ export interface DesignerCategoryAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DesignerCategoryAttribute: never;
 
     readonly Category: string;
-    readonly TypeId: JsValue;
-    Equals(obj: JsValue | null): boolean;
+    readonly TypeId: unknown;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -1526,7 +1531,7 @@ export interface DesignerSerializationVisibilityAttribute$instance extends Attri
     readonly __tsonic_type_System_ComponentModel_DesignerSerializationVisibilityAttribute: never;
 
     readonly Visibility: DesignerSerializationVisibility;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -1547,7 +1552,7 @@ export interface DesignOnlyAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DesignOnlyAttribute: never;
 
     readonly IsDesignOnly: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -1567,7 +1572,7 @@ export interface DesignTimeVisibleAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DesignTimeVisibleAttribute: never;
 
     readonly Visible: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -1588,7 +1593,7 @@ export interface DisplayNameAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DisplayNameAttribute: never;
 
     readonly DisplayName: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -1619,14 +1624,14 @@ export type DoubleConverter = DoubleConverter$instance;
 export interface DoWorkEventArgs$instance extends CancelEventArgs {
     readonly __tsonic_type_System_ComponentModel_DoWorkEventArgs: never;
 
-    readonly Argument: JsValue | null;
-    get Result(): JsValue | null;
-    set Result(value: JsValue | null);
+    readonly Argument: unknown | null;
+    get Result(): unknown | null;
+    set Result(value: unknown | null);
 }
 
 
 export const DoWorkEventArgs: {
-    new(argument: JsValue | null): DoWorkEventArgs;
+    new(argument: unknown | null): DoWorkEventArgs;
 };
 
 
@@ -1637,8 +1642,8 @@ export interface EditorAttribute$instance extends Attribute {
 
     readonly EditorBaseTypeName: string | null;
     readonly EditorTypeName: string;
-    readonly TypeId: JsValue;
-    Equals(obj: JsValue | null): boolean;
+    readonly TypeId: unknown;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1657,7 +1662,7 @@ export interface EditorBrowsableAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_EditorBrowsableAttribute: never;
 
     readonly State: EditorBrowsableState;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1678,18 +1683,18 @@ export interface EnumConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
     GetStandardValues(context: ITypeDescriptorContext | null): TypeConverter_StandardValuesCollection;
     GetStandardValues(): ICollection | null;
     GetStandardValuesExclusive(context: ITypeDescriptorContext | null): boolean;
     GetStandardValuesExclusive(): boolean;
     GetStandardValuesSupported(context: ITypeDescriptorContext | null): boolean;
     GetStandardValuesSupported(): boolean;
-    IsValid(context: ITypeDescriptorContext | null, value: JsValue | null): boolean;
-    IsValid(value: JsValue): boolean;
+    IsValid(context: ITypeDescriptorContext | null, value: unknown | null): boolean;
+    IsValid(value: unknown): boolean;
 }
 
 
@@ -1706,8 +1711,8 @@ export interface EventDescriptor$instance extends MemberDescriptor {
     readonly ComponentType: Type;
     readonly EventType: Type;
     readonly IsMulticast: boolean;
-    AddEventHandler(component: JsValue, value: Function): void;
-    RemoveEventHandler(component: JsValue, value: Function): void;
+    AddEventHandler(component: unknown, value: Function): void;
+    RemoveEventHandler(component: unknown, value: Function): void;
 }
 
 
@@ -1766,10 +1771,10 @@ export interface EventHandlerList$instance extends System_Internal.IDisposable$i
 
     get Item(): Function | null;
     set Item(value: Function | null);
-    AddHandler(key: JsValue, value: Function | null): void;
+    AddHandler(key: unknown, value: Function | null): void;
     AddHandlers(listToAddFrom: EventHandlerList): void;
     Dispose(): void;
-    RemoveHandler(key: JsValue, value: Function | null): void;
+    RemoveHandler(key: unknown, value: Function | null): void;
 }
 
 
@@ -1788,9 +1793,9 @@ export type EventHandlerList = EventHandlerList$instance & __EventHandlerList$vi
 export interface ExpandableObjectConverter$instance extends TypeConverter {
     readonly __tsonic_type_System_ComponentModel_ExpandableObjectConverter: never;
 
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue, attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown, attributes: Attribute[] | null): PropertyDescriptorCollection;
+    GetProperties(value: unknown): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
     GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
     GetPropertiesSupported(): boolean;
 }
@@ -1812,7 +1817,7 @@ export interface ExtenderProvidedPropertyAttribute$instance extends Attribute {
     set Provider(value: IExtenderProvider | null);
     get ReceiverType(): Type | null;
     set ReceiverType(value: Type | null);
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -1832,10 +1837,10 @@ export interface GuidConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
 }
 
 
@@ -1878,7 +1883,7 @@ export interface ImmutableObjectAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_ImmutableObjectAttribute: never;
 
     readonly Immutable: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -1898,7 +1903,7 @@ export interface InheritanceAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_InheritanceAttribute: never;
 
     readonly InheritanceLevel: InheritanceLevel;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
     ToString(): string;
@@ -1935,7 +1940,7 @@ export interface InstallerTypeAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_InstallerTypeAttribute: never;
 
     readonly InstallerType: Type | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1952,7 +1957,7 @@ export interface InstanceCreationEditor$instance {
     readonly __tsonic_type_System_ComponentModel_InstanceCreationEditor: never;
 
     readonly Text: string;
-    CreateInstance(context: ITypeDescriptorContext, instanceType: Type): JsValue | null;
+    CreateInstance(context: ITypeDescriptorContext, instanceType: Type): unknown | null;
 }
 
 
@@ -2014,7 +2019,7 @@ export const Int64Converter: {
 
 export type Int64Converter = Int64Converter$instance;
 
-export interface InvalidAsynchronousStateException$instance extends ArgumentException {
+export interface InvalidAsynchronousStateException$instance extends ArgumentException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ComponentModel_InvalidAsynchronousStateException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -2036,7 +2041,7 @@ export interface __InvalidAsynchronousStateException$views {
 export type InvalidAsynchronousStateException = InvalidAsynchronousStateException$instance & __InvalidAsynchronousStateException$views;
 
 
-export interface InvalidEnumArgumentException$instance extends ArgumentException {
+export interface InvalidEnumArgumentException$instance extends ArgumentException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ComponentModel_InvalidEnumArgumentException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -2087,7 +2092,7 @@ export interface LicenseContext$instance extends System_Internal.IServiceProvide
 
     readonly UsageMode: LicenseUsageMode;
     GetSavedLicenseKey(type: Type, resourceAssembly: Assembly | null): string | null;
-    GetService(type: Type): JsValue | null;
+    GetService(type: Type): unknown | null;
     SetSavedLicenseKey(type: Type, key: string): void;
 }
 
@@ -2104,7 +2109,7 @@ export interface __LicenseContext$views {
 export type LicenseContext = LicenseContext$instance & __LicenseContext$views;
 
 
-export interface LicenseException$instance extends SystemException {
+export interface LicenseException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ComponentModel_LicenseException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -2116,9 +2121,9 @@ export interface LicenseException$instance extends SystemException {
 
 export const LicenseException: {
     new(type: Type | null): LicenseException;
-    new(type: Type | null, instance: JsValue | null): LicenseException;
-    new(type: Type | null, instance: JsValue | null, message: string | null): LicenseException;
-    new(type: Type | null, instance: JsValue | null, message: string | null, innerException: Exception | null): LicenseException;
+    new(type: Type | null, instance: unknown | null): LicenseException;
+    new(type: Type | null, instance: unknown | null, message: string | null): LicenseException;
+    new(type: Type | null, instance: unknown | null, message: string | null, innerException: Exception | null): LicenseException;
 };
 
 
@@ -2138,14 +2143,14 @@ export interface LicenseManager$instance {
 export const LicenseManager: {
     CurrentContext: LicenseContext;
     readonly UsageMode: LicenseUsageMode;
-    CreateWithContext(type: Type, creationContext: LicenseContext, args: JsValue[]): JsValue | null;
-    CreateWithContext(type: Type, creationContext: LicenseContext): JsValue | null;
+    CreateWithContext(type: Type, creationContext: LicenseContext, args: unknown[]): unknown | null;
+    CreateWithContext(type: Type, creationContext: LicenseContext): unknown | null;
     IsLicensed(type: Type): boolean;
-    IsValid(type: Type, instance: JsValue | null, license: License | null): boolean;
+    IsValid(type: Type, instance: unknown | null, license: License | null): boolean;
     IsValid(type: Type): boolean;
-    LockContext(contextUser: JsValue): void;
-    UnlockContext(contextUser: JsValue): void;
-    Validate(type: Type, instance: JsValue | null): License | null;
+    LockContext(contextUser: unknown): void;
+    UnlockContext(contextUser: unknown): void;
+    Validate(type: Type, instance: unknown | null): License | null;
     Validate(type: Type): void;
 };
 
@@ -2155,7 +2160,7 @@ export type LicenseManager = LicenseManager$instance;
 export interface LicenseProvider$instance {
     readonly __tsonic_type_System_ComponentModel_LicenseProvider: never;
 
-    GetLicense(context: LicenseContext, type: Type, instance: JsValue | null, allowExceptions: boolean): License | null;
+    GetLicense(context: LicenseContext, type: Type, instance: unknown | null, allowExceptions: boolean): License | null;
 }
 
 
@@ -2169,8 +2174,8 @@ export interface LicenseProviderAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_LicenseProviderAttribute: never;
 
     readonly LicenseProvider: Type | null;
-    readonly TypeId: JsValue;
-    Equals(value: JsValue | null): boolean;
+    readonly TypeId: unknown;
+    Equals(value: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -2189,7 +2194,7 @@ export interface LicFileLicenseProvider$instance extends LicenseProvider {
     readonly __tsonic_type_System_ComponentModel_LicFileLicenseProvider: never;
 
     GetKey(type: Type): string;
-    GetLicense(context: LicenseContext, type: Type, instance: JsValue | null, allowExceptions: boolean): License | null;
+    GetLicense(context: LicenseContext, type: Type, instance: unknown | null, allowExceptions: boolean): License | null;
     IsKeyValid(key: string | null, type: Type): boolean;
 }
 
@@ -2205,7 +2210,7 @@ export interface ListBindableAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_ListBindableAttribute: never;
 
     readonly ListBindable: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -2266,9 +2271,9 @@ export interface ListSortDescriptionCollection$instance {
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly Count: int;
-    Contains(value: JsValue | null): boolean;
+    Contains(value: unknown | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    IndexOf(value: JsValue | null): int;
+    IndexOf(value: unknown | null): int;
 }
 
 
@@ -2291,7 +2296,7 @@ export interface LocalizableAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_LocalizableAttribute: never;
 
     readonly IsLocalizable: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -2314,7 +2319,7 @@ export interface LookupBindingPropertiesAttribute$instance extends Attribute {
     readonly DisplayMember: string | null;
     readonly LookupMember: string | null;
     readonly ValueMember: string | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -2342,7 +2347,7 @@ export interface MarshalByValueComponent$instance extends System_Internal.IServi
     Dispose(): void;
     Dispose(disposing: boolean): void;
     Finalize(): void;
-    GetService(service: Type): JsValue | null;
+    GetService(service: Type): unknown | null;
     ToString(): string | null;
 }
 
@@ -2392,7 +2397,7 @@ export interface MaskedTextProvider$instance extends System_Internal.ICloneable$
     Add(input: string, testPosition: int, resultHint: MaskedTextResultHint): boolean;
     Clear(): void;
     Clear(resultHint: MaskedTextResultHint): void;
-    Clone(): JsValue;
+    Clone(): unknown;
     FindAssignedEditPositionFrom(position: int, direction: boolean): int;
     FindAssignedEditPositionInRange(startPosition: int, endPosition: int, direction: boolean): int;
     FindEditPositionFrom(position: int, direction: boolean): int;
@@ -2473,18 +2478,18 @@ export interface MemberDescriptor$instance {
     readonly Name: string;
     readonly NameHashCode: int;
     CreateAttributeCollection(): AttributeCollection;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     FillAttributes(attributeList: IList): void;
     GetHashCode(): int;
-    GetInvocationTarget(type: Type, instance: JsValue): JsValue | null;
+    GetInvocationTarget(type: Type, instance: unknown): unknown | null;
 }
 
 
 export const MemberDescriptor: (abstract new(name: string) => MemberDescriptor) & (abstract new(name: string, attributes: Attribute[] | null) => MemberDescriptor) & (abstract new(descr: MemberDescriptor) => MemberDescriptor) & (abstract new(oldMemberDescriptor: MemberDescriptor, newAttributes: Attribute[] | null) => MemberDescriptor) & {
     FindMethod(componentClass: Type, name: string, args: Type[], returnType: Type, publicOnly: boolean): MethodInfo | null;
     FindMethod(componentClass: Type, name: string, args: Type[], returnType: Type): MethodInfo | null;
-    GetInvokee(componentClass: Type, component: JsValue): JsValue;
-    GetSite(component: JsValue | null): ISite | null;
+    GetInvokee(componentClass: Type, component: unknown): unknown;
+    GetSite(component: unknown | null): ISite | null;
 };
 
 
@@ -2494,7 +2499,7 @@ export interface MergablePropertyAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_MergablePropertyAttribute: never;
 
     readonly AllowMerge: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -2513,11 +2518,11 @@ export type MergablePropertyAttribute = MergablePropertyAttribute$instance;
 export interface MultilineStringConverter$instance extends TypeConverter {
     readonly __tsonic_type_System_ComponentModel_MultilineStringConverter: never;
 
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue, attributes: Attribute[] | null): PropertyDescriptorCollection | null;
-    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown, attributes: Attribute[] | null): PropertyDescriptorCollection | null;
+    GetProperties(value: unknown): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
     GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
     GetPropertiesSupported(): boolean;
 }
@@ -2542,7 +2547,7 @@ export interface NestedContainer$instance extends Container$instance {
     CreateSite(component: IComponent, name: string | null): ISite;
     Dispose(disposing: boolean): void;
     Dispose(): void;
-    GetService(service: Type): JsValue | null;
+    GetService(service: Type): unknown | null;
 }
 
 
@@ -2564,7 +2569,7 @@ export interface NotifyParentPropertyAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_NotifyParentPropertyAttribute: never;
 
     readonly NotifyParent: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -2590,17 +2595,17 @@ export interface NullableConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
-    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): JsValue | null;
-    CreateInstance(propertyValues: IDictionary): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
+    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): unknown | null;
+    CreateInstance(propertyValues: IDictionary): unknown | null;
     GetCreateInstanceSupported(context: ITypeDescriptorContext | null): boolean;
     GetCreateInstanceSupported(): boolean;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue, attributes: Attribute[] | null): PropertyDescriptorCollection | null;
-    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown, attributes: Attribute[] | null): PropertyDescriptorCollection | null;
+    GetProperties(value: unknown): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
     GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
     GetPropertiesSupported(): boolean;
     GetStandardValues(context: ITypeDescriptorContext | null): TypeConverter_StandardValuesCollection | null;
@@ -2609,8 +2614,8 @@ export interface NullableConverter$instance extends TypeConverter {
     GetStandardValuesExclusive(): boolean;
     GetStandardValuesSupported(context: ITypeDescriptorContext | null): boolean;
     GetStandardValuesSupported(): boolean;
-    IsValid(context: ITypeDescriptorContext | null, value: JsValue): boolean;
-    IsValid(value: JsValue): boolean;
+    IsValid(context: ITypeDescriptorContext | null, value: unknown): boolean;
+    IsValid(value: unknown): boolean;
 }
 
 
@@ -2625,7 +2630,7 @@ export interface ParenthesizePropertyNameAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_ParenthesizePropertyNameAttribute: never;
 
     readonly NeedParenthesis: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -2644,7 +2649,7 @@ export interface PasswordPropertyTextAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_PasswordPropertyTextAttribute: never;
 
     readonly Password: boolean;
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -2665,12 +2670,12 @@ export interface ProgressChangedEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_ComponentModel_ProgressChangedEventArgs: never;
 
     readonly ProgressPercentage: int;
-    readonly UserState: JsValue | null;
+    readonly UserState: unknown | null;
 }
 
 
 export const ProgressChangedEventArgs: {
-    new(progressPercentage: int, userState: JsValue | null): ProgressChangedEventArgs;
+    new(progressPercentage: int, userState: unknown | null): ProgressChangedEventArgs;
 };
 
 
@@ -2715,23 +2720,23 @@ export interface PropertyDescriptor$instance extends MemberDescriptor {
     readonly PropertyType: Type;
     readonly SerializationVisibility: DesignerSerializationVisibility;
     readonly SupportsChangeEvents: boolean;
-    AddValueChanged(component: JsValue, handler: EventHandler): void;
-    CanResetValue(component: JsValue): boolean;
-    Equals(obj: JsValue | null): boolean;
+    AddValueChanged(component: unknown, handler: EventHandler): void;
+    CanResetValue(component: unknown): boolean;
+    Equals(obj: unknown | null): boolean;
     FillAttributes(attributeList: IList): void;
     GetChildProperties(): PropertyDescriptorCollection;
     GetChildProperties(filter: Attribute[]): PropertyDescriptorCollection;
-    GetChildProperties(instance: JsValue): PropertyDescriptorCollection;
-    GetChildProperties(instance: JsValue | null, filter: Attribute[] | null): PropertyDescriptorCollection;
-    GetEditor(editorBaseType: Type): JsValue | null;
+    GetChildProperties(instance: unknown): PropertyDescriptorCollection;
+    GetChildProperties(instance: unknown | null, filter: Attribute[] | null): PropertyDescriptorCollection;
+    GetEditor(editorBaseType: Type): unknown | null;
     GetHashCode(): int;
-    GetInvocationTarget(type: Type, instance: JsValue): JsValue | null;
-    GetValue(component: JsValue | null): JsValue | null;
-    OnValueChanged(component: JsValue | null, e: EventArgs): void;
-    RemoveValueChanged(component: JsValue, handler: EventHandler): void;
-    ResetValue(component: JsValue): void;
-    SetValue(component: JsValue | null, value: JsValue | null): void;
-    ShouldSerializeValue(component: JsValue): boolean;
+    GetInvocationTarget(type: Type, instance: unknown): unknown | null;
+    GetValue(component: unknown | null): unknown | null;
+    OnValueChanged(component: unknown | null, e: EventArgs): void;
+    RemoveValueChanged(component: unknown, handler: EventHandler): void;
+    ResetValue(component: unknown): void;
+    SetValue(component: unknown | null, value: unknown | null): void;
+    ShouldSerializeValue(component: unknown): boolean;
 }
 
 
@@ -2791,7 +2796,7 @@ export interface PropertyTabAttribute$instance extends Attribute {
 
     readonly TabClasses: Type[];
     TabScopes: PropertyTabScope[];
-    Equals(other: JsValue | null): boolean;
+    Equals(other: unknown | null): boolean;
     Equals(other: PropertyTabAttribute | null): boolean;
     GetHashCode(): int;
 }
@@ -2813,8 +2818,8 @@ export interface ProvidePropertyAttribute$instance extends Attribute {
 
     readonly PropertyName: string;
     readonly ReceiverTypeName: string;
-    readonly TypeId: JsValue;
-    Equals(obj: JsValue | null): boolean;
+    readonly TypeId: unknown;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -2831,7 +2836,7 @@ export interface ReadOnlyAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_ReadOnlyAttribute: never;
 
     readonly IsReadOnly: boolean;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -2851,7 +2856,7 @@ export interface RecommendedAsConfigurableAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_RecommendedAsConfigurableAttribute: never;
 
     readonly RecommendedAsConfigurable: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -2872,17 +2877,17 @@ export interface ReferenceConverter$instance extends TypeConverter {
 
     CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
     GetStandardValues(context: ITypeDescriptorContext | null): TypeConverter_StandardValuesCollection;
     GetStandardValues(): ICollection | null;
     GetStandardValuesExclusive(context: ITypeDescriptorContext | null): boolean;
     GetStandardValuesExclusive(): boolean;
     GetStandardValuesSupported(context: ITypeDescriptorContext | null): boolean;
     GetStandardValuesSupported(): boolean;
-    IsValueAllowed(context: ITypeDescriptorContext, value: JsValue): boolean;
+    IsValueAllowed(context: ITypeDescriptorContext, value: unknown): boolean;
 }
 
 
@@ -2896,13 +2901,13 @@ export type ReferenceConverter = ReferenceConverter$instance;
 export interface RefreshEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_ComponentModel_RefreshEventArgs: never;
 
-    readonly ComponentChanged: JsValue | null;
+    readonly ComponentChanged: unknown | null;
     readonly TypeChanged: Type | null;
 }
 
 
 export const RefreshEventArgs: {
-    new(componentChanged: JsValue | null): RefreshEventArgs;
+    new(componentChanged: unknown | null): RefreshEventArgs;
     new(typeChanged: Type | null): RefreshEventArgs;
 };
 
@@ -2913,7 +2918,7 @@ export interface RefreshPropertiesAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_RefreshPropertiesAttribute: never;
 
     readonly RefreshProperties: RefreshProperties;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -2933,7 +2938,7 @@ export interface RunInstallerAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_RunInstallerAttribute: never;
 
     readonly RunInstaller: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -2952,13 +2957,13 @@ export type RunInstallerAttribute = RunInstallerAttribute$instance;
 export interface RunWorkerCompletedEventArgs$instance extends AsyncCompletedEventArgs {
     readonly __tsonic_type_System_ComponentModel_RunWorkerCompletedEventArgs: never;
 
-    readonly Result: JsValue | null;
-    readonly UserState: JsValue | null;
+    readonly Result: unknown | null;
+    readonly UserState: unknown | null;
 }
 
 
 export const RunWorkerCompletedEventArgs: {
-    new(result: JsValue | null, error: Exception | null, cancelled: boolean): RunWorkerCompletedEventArgs;
+    new(result: unknown | null, error: Exception | null, cancelled: boolean): RunWorkerCompletedEventArgs;
 };
 
 
@@ -2981,7 +2986,7 @@ export interface SettingsBindableAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_SettingsBindableAttribute: never;
 
     readonly Bindable: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -3013,8 +3018,8 @@ export interface StringConverter$instance extends TypeConverter {
 
     CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
     CanConvertFrom(sourceType: Type): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
 }
 
 
@@ -3032,10 +3037,10 @@ export interface TimeOnlyConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
 }
 
 
@@ -3053,10 +3058,10 @@ export interface TimeSpanConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
 }
 
 
@@ -3072,7 +3077,7 @@ export interface ToolboxItemAttribute$instance extends Attribute {
 
     readonly ToolboxItemType: Type | null;
     readonly ToolboxItemTypeName: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
 }
@@ -3094,10 +3099,10 @@ export interface ToolboxItemFilterAttribute$instance extends Attribute {
 
     readonly FilterString: string;
     readonly FilterType: ToolboxItemFilterType;
-    readonly TypeId: JsValue;
-    Equals(obj: JsValue | null): boolean;
+    readonly TypeId: unknown;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
-    Match(obj: JsValue | null): boolean;
+    Match(obj: unknown | null): boolean;
     ToString(): string;
 }
 
@@ -3117,27 +3122,27 @@ export interface TypeConverter$instance {
     CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFromInvariantString(text: string): JsValue | null;
-    ConvertFromInvariantString(context: ITypeDescriptorContext | null, text: string): JsValue | null;
-    ConvertFromString(text: string): JsValue | null;
-    ConvertFromString(context: ITypeDescriptorContext | null, text: string): JsValue | null;
-    ConvertFromString(context: ITypeDescriptorContext | null, culture: CultureInfo | null, text: string): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertToInvariantString(value: JsValue | null): string | null;
-    ConvertToInvariantString(context: ITypeDescriptorContext | null, value: JsValue | null): string | null;
-    ConvertToString(value: JsValue | null): string | null;
-    ConvertToString(context: ITypeDescriptorContext | null, value: JsValue | null): string | null;
-    ConvertToString(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null): string | null;
-    CreateInstance(propertyValues: IDictionary): JsValue | null;
-    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): JsValue | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFromInvariantString(text: string): unknown | null;
+    ConvertFromInvariantString(context: ITypeDescriptorContext | null, text: string): unknown | null;
+    ConvertFromString(text: string): unknown | null;
+    ConvertFromString(context: ITypeDescriptorContext | null, text: string): unknown | null;
+    ConvertFromString(context: ITypeDescriptorContext | null, culture: CultureInfo | null, text: string): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertToInvariantString(value: unknown | null): string | null;
+    ConvertToInvariantString(context: ITypeDescriptorContext | null, value: unknown | null): string | null;
+    ConvertToString(value: unknown | null): string | null;
+    ConvertToString(context: ITypeDescriptorContext | null, value: unknown | null): string | null;
+    ConvertToString(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null): string | null;
+    CreateInstance(propertyValues: IDictionary): unknown | null;
+    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): unknown | null;
     GetCreateInstanceSupported(): boolean;
     GetCreateInstanceSupported(context: ITypeDescriptorContext | null): boolean;
-    GetProperties(value: JsValue): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: JsValue, attributes: Attribute[] | null): PropertyDescriptorCollection | null;
+    GetProperties(value: unknown): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
+    GetProperties(context: ITypeDescriptorContext | null, value: unknown, attributes: Attribute[] | null): PropertyDescriptorCollection | null;
     GetPropertiesSupported(): boolean;
     GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
     GetStandardValues(): ICollection | null;
@@ -3146,8 +3151,8 @@ export interface TypeConverter$instance {
     GetStandardValuesExclusive(context: ITypeDescriptorContext | null): boolean;
     GetStandardValuesSupported(): boolean;
     GetStandardValuesSupported(context: ITypeDescriptorContext | null): boolean;
-    IsValid(value: JsValue): boolean;
-    IsValid(context: ITypeDescriptorContext | null, value: JsValue): boolean;
+    IsValid(value: unknown): boolean;
+    IsValid(context: ITypeDescriptorContext | null, value: unknown): boolean;
 }
 
 
@@ -3164,9 +3169,9 @@ export interface TypeConverter_SimplePropertyDescriptor$instance extends Propert
     readonly ComponentType: Type;
     readonly IsReadOnly: boolean;
     readonly PropertyType: Type;
-    CanResetValue(component: JsValue): boolean;
-    ResetValue(component: JsValue): void;
-    ShouldSerializeValue(component: JsValue): boolean;
+    CanResetValue(component: unknown): boolean;
+    ResetValue(component: unknown): void;
+    ShouldSerializeValue(component: unknown): boolean;
 }
 
 
@@ -3176,7 +3181,7 @@ export const TypeConverter_SimplePropertyDescriptor: (abstract new(componentType
 
 export type TypeConverter_SimplePropertyDescriptor = TypeConverter_SimplePropertyDescriptor$instance;
 
-export interface TypeConverter_StandardValuesCollection$instance extends ICollection, IEnumerable {
+export interface TypeConverter_StandardValuesCollection$instance {
     readonly __tsonic_type_System_ComponentModel_TypeConverter_StandardValuesCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -3193,13 +3198,13 @@ export const TypeConverter_StandardValuesCollection: {
 };
 
 
-export type TypeConverter_StandardValuesCollection = TypeConverter_StandardValuesCollection$instance & { readonly [index: number]: JsValue | null; };
+export type TypeConverter_StandardValuesCollection = TypeConverter_StandardValuesCollection$instance & { readonly [index: number]: unknown | null; };
 
 export interface TypeConverterAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_TypeConverterAttribute: never;
 
     readonly ConverterTypeName: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -3218,25 +3223,25 @@ export interface TypeDescriptionProvider$instance {
     readonly __tsonic_type_System_ComponentModel_TypeDescriptionProvider: never;
 
     readonly RequireRegisteredTypes: Nullable_1<System_Internal.Boolean>;
-    CreateInstance(provider: IServiceProvider | null, objectType: Type, argTypes: Type[] | null, args: (JsValue | null)[] | null): JsValue | null;
-    GetCache(instance: JsValue): IDictionary | null;
-    GetExtendedTypeDescriptor(instance: JsValue): ICustomTypeDescriptor;
-    GetExtendedTypeDescriptorFromRegisteredType(instance: JsValue): ICustomTypeDescriptor;
-    GetExtenderProviders(instance: JsValue): IExtenderProvider[];
-    GetFullComponentName(component: JsValue): string | null;
+    CreateInstance(provider: IServiceProvider | null, objectType: Type, argTypes: Type[] | null, args: (unknown | null)[] | null): unknown | null;
+    GetCache(instance: unknown): IDictionary | null;
+    GetExtendedTypeDescriptor(instance: unknown): ICustomTypeDescriptor;
+    GetExtendedTypeDescriptorFromRegisteredType(instance: unknown): ICustomTypeDescriptor;
+    GetExtenderProviders(instance: unknown): IExtenderProvider[];
+    GetFullComponentName(component: unknown): string | null;
     GetReflectionType(objectType: Type): Type;
-    GetReflectionType(instance: JsValue): Type;
-    GetReflectionType(objectType: Type, instance: JsValue | null): Type;
+    GetReflectionType(instance: unknown): Type;
+    GetReflectionType(objectType: Type, instance: unknown | null): Type;
     GetRuntimeType(reflectionType: Type): Type;
     GetTypeDescriptor(objectType: Type): ICustomTypeDescriptor | null;
-    GetTypeDescriptor(instance: JsValue): ICustomTypeDescriptor | null;
-    GetTypeDescriptor(objectType: Type, instance: JsValue | null): ICustomTypeDescriptor | null;
+    GetTypeDescriptor(instance: unknown): ICustomTypeDescriptor | null;
+    GetTypeDescriptor(objectType: Type, instance: unknown | null): ICustomTypeDescriptor | null;
     GetTypeDescriptorFromRegisteredType(objectType: Type): ICustomTypeDescriptor | null;
-    GetTypeDescriptorFromRegisteredType(instance: JsValue): ICustomTypeDescriptor | null;
-    GetTypeDescriptorFromRegisteredType(objectType: Type, instance: JsValue | null): ICustomTypeDescriptor | null;
+    GetTypeDescriptorFromRegisteredType(instance: unknown): ICustomTypeDescriptor | null;
+    GetTypeDescriptorFromRegisteredType(objectType: Type, instance: unknown | null): ICustomTypeDescriptor | null;
     IsRegisteredType(type: Type): boolean;
     IsSupportedType(type: Type): boolean;
-    RegisterType<T>(): void;
+    RegisterType<T extends unknown>(): void;
 }
 
 
@@ -3272,73 +3277,73 @@ export const TypeDescriptor: {
     readonly ComObjectType: Type;
     get ComNativeDescriptorHandler(): IComNativeDescriptorHandler | null;
     set ComNativeDescriptorHandler(value: IComNativeDescriptorHandler | null);
-    AddAttributes(instance: JsValue, ...attributes: Attribute[]): TypeDescriptionProvider;
+    AddAttributes(instance: unknown, ...attributes: Attribute[]): TypeDescriptionProvider;
     AddAttributes(type: Type, ...attributes: Attribute[]): TypeDescriptionProvider;
     AddEditorTable(editorBaseType: Type, table: Hashtable): void;
-    AddProvider(provider: TypeDescriptionProvider, instance: JsValue): void;
+    AddProvider(provider: TypeDescriptionProvider, instance: unknown): void;
     AddProvider(provider: TypeDescriptionProvider, type: Type): void;
-    AddProviderTransparent(provider: TypeDescriptionProvider, instance: JsValue): void;
+    AddProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
     AddProviderTransparent(provider: TypeDescriptionProvider, type: Type): void;
-    CreateAssociation(primary: JsValue, secondary: JsValue): void;
+    CreateAssociation(primary: unknown, secondary: unknown): void;
     CreateDesigner(component: IComponent, designerBaseType: Type): IDesigner | null;
     CreateEvent(componentType: Type, oldEventDescriptor: EventDescriptor, ...attributes: Attribute[]): EventDescriptor;
     CreateEvent(componentType: Type, name: string, type: Type, ...attributes: Attribute[]): EventDescriptor;
-    CreateInstance(provider: IServiceProvider | null, objectType: Type, argTypes: Type[] | null, args: (JsValue | null)[] | null): JsValue | null;
+    CreateInstance(provider: IServiceProvider | null, objectType: Type, argTypes: Type[] | null, args: (unknown | null)[] | null): unknown | null;
     CreateProperty(componentType: Type, oldPropertyDescriptor: PropertyDescriptor, ...attributes: Attribute[]): PropertyDescriptor;
     CreateProperty(componentType: Type, name: string, type: Type, ...attributes: Attribute[]): PropertyDescriptor;
-    GetAssociation(type: Type, primary: JsValue): JsValue;
-    GetAttributes(component: JsValue, noCustomTypeDesc: boolean): AttributeCollection;
-    GetAttributes(component: JsValue): AttributeCollection;
+    GetAssociation(type: Type, primary: unknown): unknown;
+    GetAttributes(component: unknown, noCustomTypeDesc: boolean): AttributeCollection;
+    GetAttributes(component: unknown): AttributeCollection;
     GetAttributes(componentType: Type): AttributeCollection;
-    GetClassName(component: JsValue, noCustomTypeDesc: boolean): string | null;
-    GetClassName(component: JsValue): string | null;
+    GetClassName(component: unknown, noCustomTypeDesc: boolean): string | null;
+    GetClassName(component: unknown): string | null;
     GetClassName(componentType: Type): string | null;
-    GetComponentName(component: JsValue, noCustomTypeDesc: boolean): string | null;
-    GetComponentName(component: JsValue): string | null;
-    GetConverter(component: JsValue, noCustomTypeDesc: boolean): TypeConverter;
-    GetConverter(component: JsValue): TypeConverter;
+    GetComponentName(component: unknown, noCustomTypeDesc: boolean): string | null;
+    GetComponentName(component: unknown): string | null;
+    GetConverter(component: unknown, noCustomTypeDesc: boolean): TypeConverter;
+    GetConverter(component: unknown): TypeConverter;
     GetConverter(type: Type): TypeConverter;
-    GetConverterFromRegisteredType(component: JsValue): TypeConverter;
+    GetConverterFromRegisteredType(component: unknown): TypeConverter;
     GetConverterFromRegisteredType(type: Type): TypeConverter;
-    GetDefaultEvent(component: JsValue, noCustomTypeDesc: boolean): EventDescriptor | null;
-    GetDefaultEvent(component: JsValue): EventDescriptor | null;
+    GetDefaultEvent(component: unknown, noCustomTypeDesc: boolean): EventDescriptor | null;
+    GetDefaultEvent(component: unknown): EventDescriptor | null;
     GetDefaultEvent(componentType: Type): EventDescriptor | null;
-    GetDefaultProperty(component: JsValue, noCustomTypeDesc: boolean): PropertyDescriptor | null;
-    GetDefaultProperty(component: JsValue): PropertyDescriptor | null;
+    GetDefaultProperty(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptor | null;
+    GetDefaultProperty(component: unknown): PropertyDescriptor | null;
     GetDefaultProperty(componentType: Type): PropertyDescriptor | null;
-    GetEditor(component: JsValue, editorBaseType: Type, noCustomTypeDesc: boolean): JsValue | null;
-    GetEditor(component: JsValue, editorBaseType: Type): JsValue | null;
-    GetEditor(type: Type, editorBaseType: Type): JsValue | null;
-    GetEvents(component: JsValue, attributes: Attribute[] | null, noCustomTypeDesc: boolean): EventDescriptorCollection;
-    GetEvents(component: JsValue, attributes: Attribute[]): EventDescriptorCollection;
-    GetEvents(component: JsValue, noCustomTypeDesc: boolean): EventDescriptorCollection;
-    GetEvents(component: JsValue): EventDescriptorCollection;
+    GetEditor(component: unknown, editorBaseType: Type, noCustomTypeDesc: boolean): unknown | null;
+    GetEditor(component: unknown, editorBaseType: Type): unknown | null;
+    GetEditor(type: Type, editorBaseType: Type): unknown | null;
+    GetEvents(component: unknown, attributes: Attribute[] | null, noCustomTypeDesc: boolean): EventDescriptorCollection;
+    GetEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
+    GetEvents(component: unknown, noCustomTypeDesc: boolean): EventDescriptorCollection;
+    GetEvents(component: unknown): EventDescriptorCollection;
     GetEvents(componentType: Type, attributes: Attribute[]): EventDescriptorCollection;
     GetEvents(componentType: Type): EventDescriptorCollection;
     GetEventsFromRegisteredType(componentType: Type): EventDescriptorCollection;
-    GetFullComponentName(component: JsValue): string | null;
-    GetProperties(component: JsValue, attributes: Attribute[] | null, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
-    GetProperties(component: JsValue, attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetProperties(component: JsValue, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
-    GetProperties(component: JsValue): PropertyDescriptorCollection;
+    GetFullComponentName(component: unknown): string | null;
+    GetProperties(component: unknown, attributes: Attribute[] | null, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
+    GetProperties(component: unknown, attributes: Attribute[] | null): PropertyDescriptorCollection;
+    GetProperties(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
+    GetProperties(component: unknown): PropertyDescriptorCollection;
     GetProperties(componentType: Type, attributes: Attribute[] | null): PropertyDescriptorCollection;
     GetProperties(componentType: Type): PropertyDescriptorCollection;
-    GetPropertiesFromRegisteredType(component: JsValue): PropertyDescriptorCollection;
+    GetPropertiesFromRegisteredType(component: unknown): PropertyDescriptorCollection;
     GetPropertiesFromRegisteredType(componentType: Type): PropertyDescriptorCollection;
-    GetProvider(instance: JsValue): TypeDescriptionProvider;
+    GetProvider(instance: unknown): TypeDescriptionProvider;
     GetProvider(type: Type): TypeDescriptionProvider;
-    GetReflectionType(instance: JsValue): Type;
+    GetReflectionType(instance: unknown): Type;
     GetReflectionType(type: Type): Type;
-    Refresh(component: JsValue): void;
+    Refresh(component: unknown): void;
     Refresh(assembly: Assembly): void;
     Refresh(module: Module): void;
     Refresh(type: Type): void;
-    RegisterType<T>(): void;
-    RemoveAssociation(primary: JsValue, secondary: JsValue): void;
-    RemoveAssociations(primary: JsValue): void;
-    RemoveProvider(provider: TypeDescriptionProvider, instance: JsValue): void;
+    RegisterType<T extends unknown>(): void;
+    RemoveAssociation(primary: unknown, secondary: unknown): void;
+    RemoveAssociations(primary: unknown): void;
+    RemoveProvider(provider: TypeDescriptionProvider, instance: unknown): void;
     RemoveProvider(provider: TypeDescriptionProvider, type: Type): void;
-    RemoveProviderTransparent(provider: TypeDescriptionProvider, instance: JsValue): void;
+    RemoveProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
     RemoveProviderTransparent(provider: TypeDescriptionProvider, type: Type): void;
     SortDescriptorArray(infos: IList): void;
 };
@@ -3353,10 +3358,10 @@ export interface TypeListConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
     GetStandardValues(context: ITypeDescriptorContext | null): TypeConverter_StandardValuesCollection;
     GetStandardValues(): ICollection | null;
     GetStandardValuesExclusive(context: ITypeDescriptorContext | null): boolean;
@@ -3431,12 +3436,12 @@ export interface VersionConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
-    IsValid(context: ITypeDescriptorContext | null, value: JsValue | null): boolean;
-    IsValid(value: JsValue): boolean;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
+    IsValid(context: ITypeDescriptorContext | null, value: unknown | null): boolean;
+    IsValid(value: unknown): boolean;
 }
 
 
@@ -3447,7 +3452,7 @@ export const VersionConverter: {
 
 export type VersionConverter = VersionConverter$instance;
 
-export interface WarningException$instance extends SystemException {
+export interface WarningException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ComponentModel_WarningException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -3474,7 +3479,7 @@ export interface __WarningException$views {
 export type WarningException = WarningException$instance & __WarningException$views;
 
 
-export interface Win32Exception$instance extends ExternalException {
+export interface Win32Exception$instance extends ExternalException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ComponentModel_Win32Exception: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -3503,7 +3508,7 @@ export type Win32Exception = Win32Exception$instance & __Win32Exception$views;
 
 export abstract class AsyncOperationManager$instance {
     static SynchronizationContext: SynchronizationContext;
-    static CreateOperation(userSuppliedState: JsValue | null): AsyncOperation;
+    static CreateOperation(userSuppliedState: unknown | null): AsyncOperation;
 }
 
 

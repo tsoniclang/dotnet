@@ -180,7 +180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67114130,
+          "metadataToken": 67114125,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -192,7 +192,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_CDECLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_CDECL",
-          "metadataToken": 67114131,
+          "metadataToken": 67114126,
           "normalizedSignature": "CC_CDECL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -204,7 +204,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MSCPASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MSCPASCAL",
-          "metadataToken": 67114132,
+          "metadataToken": 67114127,
           "normalizedSignature": "CC_MSCPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -216,7 +216,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_PASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_PASCAL",
-          "metadataToken": 67114133,
+          "metadataToken": 67114128,
           "normalizedSignature": "CC_PASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -228,7 +228,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MACPASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MACPASCAL",
-          "metadataToken": 67114134,
+          "metadataToken": 67114129,
           "normalizedSignature": "CC_MACPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -240,7 +240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_STDCALLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_STDCALL",
-          "metadataToken": 67114135,
+          "metadataToken": 67114130,
           "normalizedSignature": "CC_STDCALL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -252,7 +252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_RESERVEDSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_RESERVED",
-          "metadataToken": 67114136,
+          "metadataToken": 67114131,
           "normalizedSignature": "CC_RESERVED|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -264,7 +264,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_SYSCALLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_SYSCALL",
-          "metadataToken": 67114137,
+          "metadataToken": 67114132,
           "normalizedSignature": "CC_SYSCALL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -276,7 +276,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MPWCDECLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MPWCDECL",
-          "metadataToken": 67114138,
+          "metadataToken": 67114133,
           "normalizedSignature": "CC_MPWCDECL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -288,7 +288,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MPWPASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MPWPASCAL",
-          "metadataToken": 67114139,
+          "metadataToken": 67114134,
           "normalizedSignature": "CC_MPWPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -300,7 +300,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MAXSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MAX",
-          "metadataToken": 67114140,
+          "metadataToken": 67114135,
           "normalizedSignature": "CC_MAX|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -428,7 +428,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67113996,
+          "metadataToken": 67113991,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -440,7 +440,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_NONESystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_NONE",
-          "metadataToken": 67113997,
+          "metadataToken": 67113992,
           "normalizedSignature": "DESCKIND_NONE|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -452,7 +452,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_FUNCDESCSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_FUNCDESC",
-          "metadataToken": 67113998,
+          "metadataToken": 67113993,
           "normalizedSignature": "DESCKIND_FUNCDESC|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -464,7 +464,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_VARDESCSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_VARDESC",
-          "metadataToken": 67113999,
+          "metadataToken": 67113994,
           "normalizedSignature": "DESCKIND_VARDESC|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -476,7 +476,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_TYPECOMPSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_TYPECOMP",
-          "metadataToken": 67114000,
+          "metadataToken": 67113995,
           "normalizedSignature": "DESCKIND_TYPECOMP|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -488,7 +488,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_IMPLICITAPPOBJSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_IMPLICITAPPOBJ",
-          "metadataToken": 67114001,
+          "metadataToken": 67113996,
           "normalizedSignature": "DESCKIND_IMPLICITAPPOBJ|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -500,7 +500,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_MAXSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_MAX",
-          "metadataToken": 67114002,
+          "metadataToken": 67113997,
           "normalizedSignature": "DESCKIND_MAX|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -652,7 +652,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::value__System.Int16",
           "clrName": "value__",
-          "metadataToken": 67114141,
+          "metadataToken": 67114136,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -664,7 +664,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FRESTRICTED",
-          "metadataToken": 67114142,
+          "metadataToken": 67114137,
           "normalizedSignature": "FUNCFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -676,7 +676,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FSOURCESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FSOURCE",
-          "metadataToken": 67114143,
+          "metadataToken": 67114138,
           "normalizedSignature": "FUNCFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -688,7 +688,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FBINDABLESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FBINDABLE",
-          "metadataToken": 67114144,
+          "metadataToken": 67114139,
           "normalizedSignature": "FUNCFLAG_FBINDABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -700,7 +700,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FREQUESTEDITSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FREQUESTEDIT",
-          "metadataToken": 67114145,
+          "metadataToken": 67114140,
           "normalizedSignature": "FUNCFLAG_FREQUESTEDIT|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -712,7 +712,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FDISPLAYBINDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FDISPLAYBIND",
-          "metadataToken": 67114146,
+          "metadataToken": 67114141,
           "normalizedSignature": "FUNCFLAG_FDISPLAYBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -724,7 +724,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FDEFAULTBINDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FDEFAULTBIND",
-          "metadataToken": 67114147,
+          "metadataToken": 67114142,
           "normalizedSignature": "FUNCFLAG_FDEFAULTBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -736,7 +736,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FHIDDEN",
-          "metadataToken": 67114148,
+          "metadataToken": 67114143,
           "normalizedSignature": "FUNCFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -748,7 +748,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FUSESGETLASTERRORSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FUSESGETLASTERROR",
-          "metadataToken": 67114149,
+          "metadataToken": 67114144,
           "normalizedSignature": "FUNCFLAG_FUSESGETLASTERROR|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -760,7 +760,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FDEFAULTCOLLELEMSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FDEFAULTCOLLELEM",
-          "metadataToken": 67114150,
+          "metadataToken": 67114145,
           "normalizedSignature": "FUNCFLAG_FDEFAULTCOLLELEM|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -772,7 +772,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FUIDEFAULTSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FUIDEFAULT",
-          "metadataToken": 67114151,
+          "metadataToken": 67114146,
           "normalizedSignature": "FUNCFLAG_FUIDEFAULT|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -784,7 +784,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FNONBROWSABLESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FNONBROWSABLE",
-          "metadataToken": 67114152,
+          "metadataToken": 67114147,
           "normalizedSignature": "FUNCFLAG_FNONBROWSABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -796,7 +796,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FREPLACEABLESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FREPLACEABLE",
-          "metadataToken": 67114153,
+          "metadataToken": 67114148,
           "normalizedSignature": "FUNCFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -808,7 +808,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FIMMEDIATEBINDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FIMMEDIATEBIND",
-          "metadataToken": 67114154,
+          "metadataToken": 67114149,
           "normalizedSignature": "FUNCFLAG_FIMMEDIATEBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -860,7 +860,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67114119,
+          "metadataToken": 67114114,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -872,7 +872,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_VIRTUALSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_VIRTUAL",
-          "metadataToken": 67114120,
+          "metadataToken": 67114115,
           "normalizedSignature": "FUNC_VIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -884,7 +884,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_PUREVIRTUALSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_PUREVIRTUAL",
-          "metadataToken": 67114121,
+          "metadataToken": 67114116,
           "normalizedSignature": "FUNC_PUREVIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -896,7 +896,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_NONVIRTUALSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_NONVIRTUAL",
-          "metadataToken": 67114122,
+          "metadataToken": 67114117,
           "normalizedSignature": "FUNC_NONVIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -908,7 +908,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_STATICSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_STATIC",
-          "metadataToken": 67114123,
+          "metadataToken": 67114118,
           "normalizedSignature": "FUNC_STATIC|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -920,7 +920,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_DISPATCHSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_DISPATCH",
-          "metadataToken": 67114124,
+          "metadataToken": 67114119,
           "normalizedSignature": "FUNC_DISPATCH|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -972,7 +972,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::value__System.Int16",
           "clrName": "value__",
-          "metadataToken": 67114068,
+          "metadataToken": 67114063,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -984,7 +984,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_NONESystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_NONE",
-          "metadataToken": 67114069,
+          "metadataToken": 67114064,
           "normalizedSignature": "IDLFLAG_NONE|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -996,7 +996,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FINSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FIN",
-          "metadataToken": 67114070,
+          "metadataToken": 67114065,
           "normalizedSignature": "IDLFLAG_FIN|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1008,7 +1008,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FOUTSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FOUT",
-          "metadataToken": 67114071,
+          "metadataToken": 67114066,
           "normalizedSignature": "IDLFLAG_FOUT|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1020,7 +1020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FLCIDSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FLCID",
-          "metadataToken": 67114072,
+          "metadataToken": 67114067,
           "normalizedSignature": "IDLFLAG_FLCID|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1032,7 +1032,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FRETVALSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FRETVAL",
-          "metadataToken": 67114073,
+          "metadataToken": 67114068,
           "normalizedSignature": "IDLFLAG_FRETVAL|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1084,7 +1084,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67114032,
+          "metadataToken": 67114027,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1096,7 +1096,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FDEFAULTSystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FDEFAULT",
-          "metadataToken": 67114033,
+          "metadataToken": 67114028,
           "normalizedSignature": "IMPLTYPEFLAG_FDEFAULT|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1108,7 +1108,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FSOURCESystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FSOURCE",
-          "metadataToken": 67114034,
+          "metadataToken": 67114029,
           "normalizedSignature": "IMPLTYPEFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1120,7 +1120,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FRESTRICTED",
-          "metadataToken": 67114035,
+          "metadataToken": 67114030,
           "normalizedSignature": "IMPLTYPEFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1132,7 +1132,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FDEFAULTVTABLESystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FDEFAULTVTABLE",
-          "metadataToken": 67114036,
+          "metadataToken": 67114031,
           "normalizedSignature": "IMPLTYPEFLAG_FDEFAULTVTABLE|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1184,7 +1184,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67114125,
+          "metadataToken": 67114120,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1196,7 +1196,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_FUNCSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_FUNC",
-          "metadataToken": 67114126,
+          "metadataToken": 67114121,
           "normalizedSignature": "INVOKE_FUNC|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1208,7 +1208,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_PROPERTYGETSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_PROPERTYGET",
-          "metadataToken": 67114127,
+          "metadataToken": 67114122,
           "normalizedSignature": "INVOKE_PROPERTYGET|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1220,7 +1220,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_PROPERTYPUTSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_PROPERTYPUT",
-          "metadataToken": 67114128,
+          "metadataToken": 67114123,
           "normalizedSignature": "INVOKE_PROPERTYPUT|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1232,7 +1232,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_PROPERTYPUTREFSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_PROPERTYPUTREF",
-          "metadataToken": 67114129,
+          "metadataToken": 67114124,
           "normalizedSignature": "INVOKE_PROPERTYPUTREF|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1284,7 +1284,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::value__System.Int16",
           "clrName": "value__",
-          "metadataToken": 67114174,
+          "metadataToken": 67114169,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1296,7 +1296,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FRESTRICTED",
-          "metadataToken": 67114175,
+          "metadataToken": 67114170,
           "normalizedSignature": "LIBFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1308,7 +1308,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FCONTROLSystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FCONTROL",
-          "metadataToken": 67114176,
+          "metadataToken": 67114171,
           "normalizedSignature": "LIBFLAG_FCONTROL|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1320,7 +1320,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FHIDDEN",
-          "metadataToken": 67114177,
+          "metadataToken": 67114172,
           "normalizedSignature": "LIBFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1332,7 +1332,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FHASDISKIMAGESystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FHASDISKIMAGE",
-          "metadataToken": 67114178,
+          "metadataToken": 67114173,
           "normalizedSignature": "LIBFLAG_FHASDISKIMAGE|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1384,7 +1384,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::value__System.Int16",
           "clrName": "value__",
-          "metadataToken": 67114076,
+          "metadataToken": 67114071,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1396,7 +1396,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_NONESystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_NONE",
-          "metadataToken": 67114077,
+          "metadataToken": 67114072,
           "normalizedSignature": "PARAMFLAG_NONE|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1408,7 +1408,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FINSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FIN",
-          "metadataToken": 67114078,
+          "metadataToken": 67114073,
           "normalizedSignature": "PARAMFLAG_FIN|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1420,7 +1420,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FOUTSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FOUT",
-          "metadataToken": 67114079,
+          "metadataToken": 67114074,
           "normalizedSignature": "PARAMFLAG_FOUT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1432,7 +1432,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FLCIDSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FLCID",
-          "metadataToken": 67114080,
+          "metadataToken": 67114075,
           "normalizedSignature": "PARAMFLAG_FLCID|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1444,7 +1444,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FRETVALSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FRETVAL",
-          "metadataToken": 67114081,
+          "metadataToken": 67114076,
           "normalizedSignature": "PARAMFLAG_FRETVAL|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1456,7 +1456,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FOPTSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FOPT",
-          "metadataToken": 67114082,
+          "metadataToken": 67114077,
           "normalizedSignature": "PARAMFLAG_FOPT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1468,7 +1468,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FHASDEFAULTSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FHASDEFAULT",
-          "metadataToken": 67114083,
+          "metadataToken": 67114078,
           "normalizedSignature": "PARAMFLAG_FHASDEFAULT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1480,7 +1480,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FHASCUSTDATASystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FHASCUSTDATA",
-          "metadataToken": 67114084,
+          "metadataToken": 67114079,
           "normalizedSignature": "PARAMFLAG_FHASCUSTDATA|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1532,7 +1532,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67114169,
+          "metadataToken": 67114164,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1544,7 +1544,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_WIN16System.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_WIN16",
-          "metadataToken": 67114170,
+          "metadataToken": 67114165,
           "normalizedSignature": "SYS_WIN16|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1556,7 +1556,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_WIN32System.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_WIN32",
-          "metadataToken": 67114171,
+          "metadataToken": 67114166,
           "normalizedSignature": "SYS_WIN32|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1568,7 +1568,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_MACSystem.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_MAC",
-          "metadataToken": 67114172,
+          "metadataToken": 67114167,
           "normalizedSignature": "SYS_MAC|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1580,7 +1580,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_WIN64System.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_WIN64",
-          "metadataToken": 67114173,
+          "metadataToken": 67114168,
           "normalizedSignature": "SYS_WIN64|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1780,7 +1780,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::value__System.Int16",
           "clrName": "value__",
-          "metadataToken": 67114016,
+          "metadataToken": 67114011,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1792,7 +1792,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FAPPOBJECTSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FAPPOBJECT",
-          "metadataToken": 67114017,
+          "metadataToken": 67114012,
           "normalizedSignature": "TYPEFLAG_FAPPOBJECT|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1804,7 +1804,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FCANCREATESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FCANCREATE",
-          "metadataToken": 67114018,
+          "metadataToken": 67114013,
           "normalizedSignature": "TYPEFLAG_FCANCREATE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1816,7 +1816,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FLICENSEDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FLICENSED",
-          "metadataToken": 67114019,
+          "metadataToken": 67114014,
           "normalizedSignature": "TYPEFLAG_FLICENSED|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1828,7 +1828,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FPREDECLIDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FPREDECLID",
-          "metadataToken": 67114020,
+          "metadataToken": 67114015,
           "normalizedSignature": "TYPEFLAG_FPREDECLID|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1840,7 +1840,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FHIDDEN",
-          "metadataToken": 67114021,
+          "metadataToken": 67114016,
           "normalizedSignature": "TYPEFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1852,7 +1852,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FCONTROLSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FCONTROL",
-          "metadataToken": 67114022,
+          "metadataToken": 67114017,
           "normalizedSignature": "TYPEFLAG_FCONTROL|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1864,7 +1864,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FDUALSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FDUAL",
-          "metadataToken": 67114023,
+          "metadataToken": 67114018,
           "normalizedSignature": "TYPEFLAG_FDUAL|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1876,7 +1876,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FNONEXTENSIBLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FNONEXTENSIBLE",
-          "metadataToken": 67114024,
+          "metadataToken": 67114019,
           "normalizedSignature": "TYPEFLAG_FNONEXTENSIBLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1888,7 +1888,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FOLEAUTOMATIONSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FOLEAUTOMATION",
-          "metadataToken": 67114025,
+          "metadataToken": 67114020,
           "normalizedSignature": "TYPEFLAG_FOLEAUTOMATION|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1900,7 +1900,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FRESTRICTED",
-          "metadataToken": 67114026,
+          "metadataToken": 67114021,
           "normalizedSignature": "TYPEFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1912,7 +1912,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FAGGREGATABLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FAGGREGATABLE",
-          "metadataToken": 67114027,
+          "metadataToken": 67114022,
           "normalizedSignature": "TYPEFLAG_FAGGREGATABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1924,7 +1924,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FREPLACEABLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FREPLACEABLE",
-          "metadataToken": 67114028,
+          "metadataToken": 67114023,
           "normalizedSignature": "TYPEFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1936,7 +1936,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FDISPATCHABLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FDISPATCHABLE",
-          "metadataToken": 67114029,
+          "metadataToken": 67114024,
           "normalizedSignature": "TYPEFLAG_FDISPATCHABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1948,7 +1948,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FREVERSEBINDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FREVERSEBIND",
-          "metadataToken": 67114030,
+          "metadataToken": 67114025,
           "normalizedSignature": "TYPEFLAG_FREVERSEBIND|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1960,7 +1960,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FPROXYSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FPROXY",
-          "metadataToken": 67114031,
+          "metadataToken": 67114026,
           "normalizedSignature": "TYPEFLAG_FPROXY|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2012,7 +2012,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67114006,
+          "metadataToken": 67114001,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2024,7 +2024,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_ENUMSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_ENUM",
-          "metadataToken": 67114007,
+          "metadataToken": 67114002,
           "normalizedSignature": "TKIND_ENUM|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2036,7 +2036,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_RECORDSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_RECORD",
-          "metadataToken": 67114008,
+          "metadataToken": 67114003,
           "normalizedSignature": "TKIND_RECORD|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2048,7 +2048,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_MODULESystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_MODULE",
-          "metadataToken": 67114009,
+          "metadataToken": 67114004,
           "normalizedSignature": "TKIND_MODULE|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2060,7 +2060,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_INTERFACESystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_INTERFACE",
-          "metadataToken": 67114010,
+          "metadataToken": 67114005,
           "normalizedSignature": "TKIND_INTERFACE|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2072,7 +2072,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_DISPATCHSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_DISPATCH",
-          "metadataToken": 67114011,
+          "metadataToken": 67114006,
           "normalizedSignature": "TKIND_DISPATCH|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2084,7 +2084,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_COCLASSSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_COCLASS",
-          "metadataToken": 67114012,
+          "metadataToken": 67114007,
           "normalizedSignature": "TKIND_COCLASS|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2096,7 +2096,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_ALIASSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_ALIAS",
-          "metadataToken": 67114013,
+          "metadataToken": 67114008,
           "normalizedSignature": "TKIND_ALIAS|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2108,7 +2108,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_UNIONSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_UNION",
-          "metadataToken": 67114014,
+          "metadataToken": 67114009,
           "normalizedSignature": "TKIND_UNION|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2120,7 +2120,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_MAXSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_MAX",
-          "metadataToken": 67114015,
+          "metadataToken": 67114010,
           "normalizedSignature": "TKIND_MAX|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2172,7 +2172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::value__System.Int16",
           "clrName": "value__",
-          "metadataToken": 67114155,
+          "metadataToken": 67114150,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2184,7 +2184,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FREADONLYSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FREADONLY",
-          "metadataToken": 67114156,
+          "metadataToken": 67114151,
           "normalizedSignature": "VARFLAG_FREADONLY|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2196,7 +2196,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FSOURCESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FSOURCE",
-          "metadataToken": 67114157,
+          "metadataToken": 67114152,
           "normalizedSignature": "VARFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2208,7 +2208,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FBINDABLESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FBINDABLE",
-          "metadataToken": 67114158,
+          "metadataToken": 67114153,
           "normalizedSignature": "VARFLAG_FBINDABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2220,7 +2220,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FREQUESTEDITSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FREQUESTEDIT",
-          "metadataToken": 67114159,
+          "metadataToken": 67114154,
           "normalizedSignature": "VARFLAG_FREQUESTEDIT|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2232,7 +2232,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FDISPLAYBINDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FDISPLAYBIND",
-          "metadataToken": 67114160,
+          "metadataToken": 67114155,
           "normalizedSignature": "VARFLAG_FDISPLAYBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2244,7 +2244,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FDEFAULTBINDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FDEFAULTBIND",
-          "metadataToken": 67114161,
+          "metadataToken": 67114156,
           "normalizedSignature": "VARFLAG_FDEFAULTBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2256,7 +2256,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FHIDDEN",
-          "metadataToken": 67114162,
+          "metadataToken": 67114157,
           "normalizedSignature": "VARFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2268,7 +2268,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FRESTRICTED",
-          "metadataToken": 67114163,
+          "metadataToken": 67114158,
           "normalizedSignature": "VARFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2280,7 +2280,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FDEFAULTCOLLELEMSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FDEFAULTCOLLELEM",
-          "metadataToken": 67114164,
+          "metadataToken": 67114159,
           "normalizedSignature": "VARFLAG_FDEFAULTCOLLELEM|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2292,7 +2292,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FUIDEFAULTSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FUIDEFAULT",
-          "metadataToken": 67114165,
+          "metadataToken": 67114160,
           "normalizedSignature": "VARFLAG_FUIDEFAULT|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2304,7 +2304,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FNONBROWSABLESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FNONBROWSABLE",
-          "metadataToken": 67114166,
+          "metadataToken": 67114161,
           "normalizedSignature": "VARFLAG_FNONBROWSABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2316,7 +2316,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FREPLACEABLESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FREPLACEABLE",
-          "metadataToken": 67114167,
+          "metadataToken": 67114162,
           "normalizedSignature": "VARFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2328,7 +2328,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FIMMEDIATEBINDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FIMMEDIATEBIND",
-          "metadataToken": 67114168,
+          "metadataToken": 67114163,
           "normalizedSignature": "VARFLAG_FIMMEDIATEBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2380,7 +2380,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67114093,
+          "metadataToken": 67114088,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2392,7 +2392,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_PERINSTANCESystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_PERINSTANCE",
-          "metadataToken": 67114094,
+          "metadataToken": 67114089,
           "normalizedSignature": "VAR_PERINSTANCE|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2404,7 +2404,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_STATICSystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_STATIC",
-          "metadataToken": 67114095,
+          "metadataToken": 67114090,
           "normalizedSignature": "VAR_STATIC|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2416,7 +2416,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_CONSTSystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_CONST",
-          "metadataToken": 67114096,
+          "metadataToken": 67114091,
           "normalizedSignature": "VAR_CONST|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2428,7 +2428,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_DISPATCHSystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_DISPATCH",
-          "metadataToken": 67114097,
+          "metadataToken": 67114092,
           "normalizedSignature": "VAR_DISPATCH|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2564,7 +2564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::RegisterObjectBound(System.Object):System.Void",
           "clrName": "RegisterObjectBound",
-          "metadataToken": 100695338,
+          "metadataToken": 100695340,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "RegisterObjectBound|(System.Object):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2584,7 +2584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::ReleaseBoundObjects():System.Void",
           "clrName": "ReleaseBoundObjects",
-          "metadataToken": 100695340,
+          "metadataToken": 100695342,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "ReleaseBoundObjects|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2604,7 +2604,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::SetBindOptions(System.Runtime.InteropServices.ComTypes.BIND_OPTS\u0026):System.Void",
           "clrName": "SetBindOptions",
-          "metadataToken": 100695341,
+          "metadataToken": 100695343,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.BIND_OPTS\u0026):System.Void",
           "normalizedSignature": "SetBindOptions|(System.Runtime.InteropServices.ComTypes.BIND_OPTS\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2630,7 +2630,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::GetRunningObjectTable(System.Runtime.InteropServices.ComTypes.IRunningObjectTable\u0026):System.Void",
           "clrName": "GetRunningObjectTable",
-          "metadataToken": 100695343,
+          "metadataToken": 100695345,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IRunningObjectTable\u0026):System.Void",
           "normalizedSignature": "GetRunningObjectTable|(System.Runtime.InteropServices.ComTypes.IRunningObjectTable\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2656,7 +2656,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::RegisterObjectParam(System.String,System.Object):System.Void",
           "clrName": "RegisterObjectParam",
-          "metadataToken": 100695344,
+          "metadataToken": 100695346,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "RegisterObjectParam|(System.String,System.Object):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2676,7 +2676,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::GetObjectParam(System.String,System.Object\u0026):System.Void",
           "clrName": "GetObjectParam",
-          "metadataToken": 100695345,
+          "metadataToken": 100695347,
           "canonicalSignature": "(System.String,System.Object\u0026):System.Void",
           "normalizedSignature": "GetObjectParam|(System.String,System.Object\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2702,7 +2702,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::EnumObjectParam(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void",
           "clrName": "EnumObjectParam",
-          "metadataToken": 100695346,
+          "metadataToken": 100695348,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void",
           "normalizedSignature": "EnumObjectParam|(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2728,7 +2728,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IBindCtx::RevokeObjectParam(System.String):System.Int32",
           "clrName": "RevokeObjectParam",
-          "metadataToken": 100695347,
+          "metadataToken": 100695349,
           "canonicalSignature": "(System.String):System.Int32",
           "normalizedSignature": "RevokeObjectParam|(System.String):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -2766,7 +2766,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPoint::GetConnectionInterface(System.Guid\u0026):System.Void",
           "clrName": "GetConnectionInterface",
-          "metadataToken": 100695348,
+          "metadataToken": 100695350,
           "canonicalSignature": "(System.Guid\u0026):System.Void",
           "normalizedSignature": "GetConnectionInterface|(System.Guid\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2792,7 +2792,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPoint::GetConnectionPointContainer(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer\u0026):System.Void",
           "clrName": "GetConnectionPointContainer",
-          "metadataToken": 100695349,
+          "metadataToken": 100695351,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer\u0026):System.Void",
           "normalizedSignature": "GetConnectionPointContainer|(System.Runtime.InteropServices.ComTypes.IConnectionPointContainer\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2818,7 +2818,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPoint::Advise(System.Object,System.Int32\u0026):System.Void",
           "clrName": "Advise",
-          "metadataToken": 100695350,
+          "metadataToken": 100695352,
           "canonicalSignature": "(System.Object,System.Int32\u0026):System.Void",
           "normalizedSignature": "Advise|(System.Object,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2844,7 +2844,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPoint::Unadvise(System.Int32):System.Void",
           "clrName": "Unadvise",
-          "metadataToken": 100695351,
+          "metadataToken": 100695353,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Unadvise|(System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2864,7 +2864,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPoint::EnumConnections(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void",
           "clrName": "EnumConnections",
-          "metadataToken": 100695352,
+          "metadataToken": 100695354,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void",
           "normalizedSignature": "EnumConnections|(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2908,7 +2908,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer::EnumConnectionPoints(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void",
           "clrName": "EnumConnectionPoints",
-          "metadataToken": 100695353,
+          "metadataToken": 100695355,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void",
           "normalizedSignature": "EnumConnectionPoints|(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2934,7 +2934,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer::FindConnectionPoint(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.IConnectionPoint\u0026):System.Void",
           "clrName": "FindConnectionPoint",
-          "metadataToken": 100695354,
+          "metadataToken": 100695356,
           "canonicalSignature": "(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.IConnectionPoint\u0026):System.Void",
           "normalizedSignature": "FindConnectionPoint|(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.IConnectionPoint\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3212,7 +3212,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints::Next(System.Int32,System.Runtime.InteropServices.ComTypes.IConnectionPoint[],System.IntPtr):System.Int32",
           "clrName": "Next",
-          "metadataToken": 100695355,
+          "metadataToken": 100695357,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.IConnectionPoint[],System.IntPtr):System.Int32",
           "normalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.IConnectionPoint[],System.IntPtr):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3232,7 +3232,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "metadataToken": 100695356,
+          "metadataToken": 100695358,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3252,7 +3252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100695357,
+          "metadataToken": 100695359,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3272,7 +3272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints::Clone(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void",
           "clrName": "Clone",
-          "metadataToken": 100695358,
+          "metadataToken": 100695360,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3316,7 +3316,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnections::Next(System.Int32,System.Runtime.InteropServices.ComTypes.CONNECTDATA[],System.IntPtr):System.Int32",
           "clrName": "Next",
-          "metadataToken": 100695359,
+          "metadataToken": 100695361,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.CONNECTDATA[],System.IntPtr):System.Int32",
           "normalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.CONNECTDATA[],System.IntPtr):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3336,7 +3336,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnections::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "metadataToken": 100695360,
+          "metadataToken": 100695362,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3356,7 +3356,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnections::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100695361,
+          "metadataToken": 100695363,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3376,7 +3376,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumConnections::Clone(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void",
           "clrName": "Clone",
-          "metadataToken": 100695362,
+          "metadataToken": 100695364,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumConnections\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3524,7 +3524,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumMoniker::Next(System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker[],System.IntPtr):System.Int32",
           "clrName": "Next",
-          "metadataToken": 100695363,
+          "metadataToken": 100695365,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker[],System.IntPtr):System.Int32",
           "normalizedSignature": "Next|(System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker[],System.IntPtr):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3544,7 +3544,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumMoniker::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "metadataToken": 100695364,
+          "metadataToken": 100695366,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3564,7 +3564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumMoniker::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100695365,
+          "metadataToken": 100695367,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3584,7 +3584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumMoniker::Clone(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "clrName": "Clone",
-          "metadataToken": 100695366,
+          "metadataToken": 100695368,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3732,7 +3732,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumString::Next(System.Int32,System.String[],System.IntPtr):System.Int32",
           "clrName": "Next",
-          "metadataToken": 100695367,
+          "metadataToken": 100695369,
           "canonicalSignature": "(System.Int32,System.String[],System.IntPtr):System.Int32",
           "normalizedSignature": "Next|(System.Int32,System.String[],System.IntPtr):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3752,7 +3752,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumString::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "metadataToken": 100695368,
+          "metadataToken": 100695370,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3772,7 +3772,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumString::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100695369,
+          "metadataToken": 100695371,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3792,7 +3792,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumString::Clone(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void",
           "clrName": "Clone",
-          "metadataToken": 100695370,
+          "metadataToken": 100695372,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IEnumString\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3836,7 +3836,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumVARIANT::Next(System.Int32,System.Object[],System.IntPtr):System.Int32",
           "clrName": "Next",
-          "metadataToken": 100695371,
+          "metadataToken": 100695373,
           "canonicalSignature": "(System.Int32,System.Object[],System.IntPtr):System.Int32",
           "normalizedSignature": "Next|(System.Int32,System.Object[],System.IntPtr):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3856,7 +3856,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumVARIANT::Skip(System.Int32):System.Int32",
           "clrName": "Skip",
-          "metadataToken": 100695372,
+          "metadataToken": 100695374,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "Skip|(System.Int32):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3876,7 +3876,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumVARIANT::Reset():System.Int32",
           "clrName": "Reset",
-          "metadataToken": 100695373,
+          "metadataToken": 100695375,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "Reset|():System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3896,7 +3896,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IEnumVARIANT::Clone():System.Runtime.InteropServices.ComTypes.IEnumVARIANT",
           "clrName": "Clone",
-          "metadataToken": 100695374,
+          "metadataToken": 100695376,
           "canonicalSignature": "():System.Runtime.InteropServices.ComTypes.IEnumVARIANT",
           "normalizedSignature": "Clone|():System.Runtime.InteropServices.ComTypes.IEnumVARIANT|static=false",
           "emitScope": "ClassSurface",
@@ -3934,7 +3934,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::GetClassID(System.Guid\u0026):System.Void",
           "clrName": "GetClassID",
-          "metadataToken": 100695375,
+          "metadataToken": 100695377,
           "canonicalSignature": "(System.Guid\u0026):System.Void",
           "normalizedSignature": "GetClassID|(System.Guid\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3960,7 +3960,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::IsDirty():System.Int32",
           "clrName": "IsDirty",
-          "metadataToken": 100695376,
+          "metadataToken": 100695378,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "IsDirty|():System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -3980,7 +3980,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Load(System.Runtime.InteropServices.ComTypes.IStream):System.Void",
           "clrName": "Load",
-          "metadataToken": 100695377,
+          "metadataToken": 100695379,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IStream):System.Void",
           "normalizedSignature": "Load|(System.Runtime.InteropServices.ComTypes.IStream):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4000,7 +4000,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Save(System.Runtime.InteropServices.ComTypes.IStream,System.Boolean):System.Void",
           "clrName": "Save",
-          "metadataToken": 100695378,
+          "metadataToken": 100695380,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IStream,System.Boolean):System.Void",
           "normalizedSignature": "Save|(System.Runtime.InteropServices.ComTypes.IStream,System.Boolean):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4020,7 +4020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::GetSizeMax(System.Int64\u0026):System.Void",
           "clrName": "GetSizeMax",
-          "metadataToken": 100695379,
+          "metadataToken": 100695381,
           "canonicalSignature": "(System.Int64\u0026):System.Void",
           "normalizedSignature": "GetSizeMax|(System.Int64\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4046,7 +4046,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::BindToObject(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "BindToObject",
-          "metadataToken": 100695380,
+          "metadataToken": 100695382,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Guid\u0026,System.Object\u0026):System.Void",
           "normalizedSignature": "BindToObject|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4076,7 +4076,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Reduce(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "clrName": "Reduce",
-          "metadataToken": 100695382,
+          "metadataToken": 100695384,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "normalizedSignature": "Reduce|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4106,7 +4106,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::ComposeWith(System.Runtime.InteropServices.ComTypes.IMoniker,System.Boolean,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "clrName": "ComposeWith",
-          "metadataToken": 100695383,
+          "metadataToken": 100695385,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IMoniker,System.Boolean,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "normalizedSignature": "ComposeWith|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Boolean,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4132,7 +4132,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Enum(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "clrName": "Enum",
-          "metadataToken": 100695384,
+          "metadataToken": 100695386,
           "canonicalSignature": "(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "normalizedSignature": "Enum|(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4158,7 +4158,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::IsEqual(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "clrName": "IsEqual",
-          "metadataToken": 100695385,
+          "metadataToken": 100695387,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "normalizedSignature": "IsEqual|(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -4178,7 +4178,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Hash(System.Int32\u0026):System.Void",
           "clrName": "Hash",
-          "metadataToken": 100695386,
+          "metadataToken": 100695388,
           "canonicalSignature": "(System.Int32\u0026):System.Void",
           "normalizedSignature": "Hash|(System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4204,7 +4204,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::IsRunning(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "clrName": "IsRunning",
-          "metadataToken": 100695387,
+          "metadataToken": 100695389,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "normalizedSignature": "IsRunning|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -4224,7 +4224,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::GetTimeOfLastChange(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void",
           "clrName": "GetTimeOfLastChange",
-          "metadataToken": 100695388,
+          "metadataToken": 100695390,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void",
           "normalizedSignature": "GetTimeOfLastChange|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4250,7 +4250,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Inverse(System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "clrName": "Inverse",
-          "metadataToken": 100695389,
+          "metadataToken": 100695391,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "normalizedSignature": "Inverse|(System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4276,7 +4276,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::CommonPrefixWith(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "clrName": "CommonPrefixWith",
-          "metadataToken": 100695390,
+          "metadataToken": 100695392,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "normalizedSignature": "CommonPrefixWith|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4302,7 +4302,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::GetDisplayName(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String\u0026):System.Void",
           "clrName": "GetDisplayName",
-          "metadataToken": 100695392,
+          "metadataToken": 100695394,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String\u0026):System.Void",
           "normalizedSignature": "GetDisplayName|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4328,7 +4328,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::ParseDisplayName(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String,System.Int32\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "clrName": "ParseDisplayName",
-          "metadataToken": 100695393,
+          "metadataToken": 100695395,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String,System.Int32\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void",
           "normalizedSignature": "ParseDisplayName|(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String,System.Int32\u0026,System.Runtime.InteropServices.ComTypes.IMoniker\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4358,7 +4358,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::IsSystemMoniker(System.Int32\u0026):System.Int32",
           "clrName": "IsSystemMoniker",
-          "metadataToken": 100695394,
+          "metadataToken": 100695396,
           "canonicalSignature": "(System.Int32\u0026):System.Int32",
           "normalizedSignature": "IsSystemMoniker|(System.Int32\u0026):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -4402,7 +4402,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::GetClassID(System.Guid\u0026):System.Void",
           "clrName": "GetClassID",
-          "metadataToken": 100695395,
+          "metadataToken": 100695397,
           "canonicalSignature": "(System.Guid\u0026):System.Void",
           "normalizedSignature": "GetClassID|(System.Guid\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4428,7 +4428,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::IsDirty():System.Int32",
           "clrName": "IsDirty",
-          "metadataToken": 100695396,
+          "metadataToken": 100695398,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "IsDirty|():System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -4448,7 +4448,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::Load(System.String,System.Int32):System.Void",
           "clrName": "Load",
-          "metadataToken": 100695397,
+          "metadataToken": 100695399,
           "canonicalSignature": "(System.String,System.Int32):System.Void",
           "normalizedSignature": "Load|(System.String,System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4468,7 +4468,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::Save(System.String,System.Boolean):System.Void",
           "clrName": "Save",
-          "metadataToken": 100695398,
+          "metadataToken": 100695400,
           "canonicalSignature": "(System.String,System.Boolean):System.Void",
           "normalizedSignature": "Save|(System.String,System.Boolean):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4488,7 +4488,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::SaveCompleted(System.String):System.Void",
           "clrName": "SaveCompleted",
-          "metadataToken": 100695399,
+          "metadataToken": 100695401,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "SaveCompleted|(System.String):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4508,7 +4508,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IPersistFile::GetCurFile(System.String\u0026):System.Void",
           "clrName": "GetCurFile",
-          "metadataToken": 100695400,
+          "metadataToken": 100695402,
           "canonicalSignature": "(System.String\u0026):System.Void",
           "normalizedSignature": "GetCurFile|(System.String\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4552,7 +4552,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::Register(System.Int32,System.Object,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "clrName": "Register",
-          "metadataToken": 100695401,
+          "metadataToken": 100695403,
           "canonicalSignature": "(System.Int32,System.Object,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "normalizedSignature": "Register|(System.Int32,System.Object,System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -4572,7 +4572,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::Revoke(System.Int32):System.Void",
           "clrName": "Revoke",
-          "metadataToken": 100695402,
+          "metadataToken": 100695404,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Revoke|(System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4592,7 +4592,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::IsRunning(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "clrName": "IsRunning",
-          "metadataToken": 100695403,
+          "metadataToken": 100695405,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32",
           "normalizedSignature": "IsRunning|(System.Runtime.InteropServices.ComTypes.IMoniker):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -4612,7 +4612,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::GetObject(System.Runtime.InteropServices.ComTypes.IMoniker,System.Object\u0026):System.Int32",
           "clrName": "GetObject",
-          "metadataToken": 100695404,
+          "metadataToken": 100695406,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IMoniker,System.Object\u0026):System.Int32",
           "normalizedSignature": "GetObject|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Object\u0026):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -4638,7 +4638,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::NoteChangeTime(System.Int32,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void",
           "clrName": "NoteChangeTime",
-          "metadataToken": 100695405,
+          "metadataToken": 100695407,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void",
           "normalizedSignature": "NoteChangeTime|(System.Int32,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4664,7 +4664,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::GetTimeOfLastChange(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Int32",
           "clrName": "GetTimeOfLastChange",
-          "metadataToken": 100695406,
+          "metadataToken": 100695408,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Int32",
           "normalizedSignature": "GetTimeOfLastChange|(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.FILETIME\u0026):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -4690,7 +4690,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IRunningObjectTable::EnumRunning(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "clrName": "EnumRunning",
-          "metadataToken": 100695407,
+          "metadataToken": 100695409,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "normalizedSignature": "EnumRunning|(System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4734,7 +4734,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Read(System.Byte[],System.Int32,System.IntPtr):System.Void",
           "clrName": "Read",
-          "metadataToken": 100695408,
+          "metadataToken": 100695410,
           "canonicalSignature": "(System.Byte[],System.Int32,System.IntPtr):System.Void",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4754,7 +4754,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Seek(System.Int64,System.Int32,System.IntPtr):System.Void",
           "clrName": "Seek",
-          "metadataToken": 100695410,
+          "metadataToken": 100695412,
           "canonicalSignature": "(System.Int64,System.Int32,System.IntPtr):System.Void",
           "normalizedSignature": "Seek|(System.Int64,System.Int32,System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4774,7 +4774,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::SetSize(System.Int64):System.Void",
           "clrName": "SetSize",
-          "metadataToken": 100695411,
+          "metadataToken": 100695413,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "SetSize|(System.Int64):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4794,7 +4794,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::CopyTo(System.Runtime.InteropServices.ComTypes.IStream,System.Int64,System.IntPtr,System.IntPtr):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100695412,
+          "metadataToken": 100695414,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IStream,System.Int64,System.IntPtr,System.IntPtr):System.Void",
           "normalizedSignature": "CopyTo|(System.Runtime.InteropServices.ComTypes.IStream,System.Int64,System.IntPtr,System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4814,7 +4814,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Commit(System.Int32):System.Void",
           "clrName": "Commit",
-          "metadataToken": 100695413,
+          "metadataToken": 100695415,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Commit|(System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4834,7 +4834,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Revert():System.Void",
           "clrName": "Revert",
-          "metadataToken": 100695414,
+          "metadataToken": 100695416,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Revert|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4854,7 +4854,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::LockRegion(System.Int64,System.Int64,System.Int32):System.Void",
           "clrName": "LockRegion",
-          "metadataToken": 100695415,
+          "metadataToken": 100695417,
           "canonicalSignature": "(System.Int64,System.Int64,System.Int32):System.Void",
           "normalizedSignature": "LockRegion|(System.Int64,System.Int64,System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4874,7 +4874,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Stat(System.Runtime.InteropServices.ComTypes.STATSTG\u0026,System.Int32):System.Void",
           "clrName": "Stat",
-          "metadataToken": 100695417,
+          "metadataToken": 100695419,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.STATSTG\u0026,System.Int32):System.Void",
           "normalizedSignature": "Stat|(System.Runtime.InteropServices.ComTypes.STATSTG\u0026,System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4900,7 +4900,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IStream::Clone(System.Runtime.InteropServices.ComTypes.IStream\u0026):System.Void",
           "clrName": "Clone",
-          "metadataToken": 100695418,
+          "metadataToken": 100695420,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.IStream\u0026):System.Void",
           "normalizedSignature": "Clone|(System.Runtime.InteropServices.ComTypes.IStream\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4944,7 +4944,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeComp::Bind(System.String,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.DESCKIND\u0026,System.Runtime.InteropServices.ComTypes.BINDPTR\u0026):System.Void",
           "clrName": "Bind",
-          "metadataToken": 100695419,
+          "metadataToken": 100695421,
           "canonicalSignature": "(System.String,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.DESCKIND\u0026,System.Runtime.InteropServices.ComTypes.BINDPTR\u0026):System.Void",
           "normalizedSignature": "Bind|(System.String,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.DESCKIND\u0026,System.Runtime.InteropServices.ComTypes.BINDPTR\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4978,7 +4978,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeComp::BindType(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "clrName": "BindType",
-          "metadataToken": 100695420,
+          "metadataToken": 100695422,
           "canonicalSignature": "(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "normalizedSignature": "BindType|(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026,System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5026,7 +5026,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetTypeAttr(System.IntPtr\u0026):System.Void",
           "clrName": "GetTypeAttr",
-          "metadataToken": 100695421,
+          "metadataToken": 100695423,
           "canonicalSignature": "(System.IntPtr\u0026):System.Void",
           "normalizedSignature": "GetTypeAttr|(System.IntPtr\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5052,7 +5052,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetTypeComp(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "clrName": "GetTypeComp",
-          "metadataToken": 100695422,
+          "metadataToken": 100695424,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "normalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5078,7 +5078,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetFuncDesc(System.Int32,System.IntPtr\u0026):System.Void",
           "clrName": "GetFuncDesc",
-          "metadataToken": 100695423,
+          "metadataToken": 100695425,
           "canonicalSignature": "(System.Int32,System.IntPtr\u0026):System.Void",
           "normalizedSignature": "GetFuncDesc|(System.Int32,System.IntPtr\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5104,7 +5104,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetNames(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void",
           "clrName": "GetNames",
-          "metadataToken": 100695425,
+          "metadataToken": 100695427,
           "canonicalSignature": "(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void",
           "normalizedSignature": "GetNames|(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5130,7 +5130,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetRefTypeOfImplType(System.Int32,System.Int32\u0026):System.Void",
           "clrName": "GetRefTypeOfImplType",
-          "metadataToken": 100695426,
+          "metadataToken": 100695428,
           "canonicalSignature": "(System.Int32,System.Int32\u0026):System.Void",
           "normalizedSignature": "GetRefTypeOfImplType|(System.Int32,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5156,7 +5156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetImplTypeFlags(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void",
           "clrName": "GetImplTypeFlags",
-          "metadataToken": 100695427,
+          "metadataToken": 100695429,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void",
           "normalizedSignature": "GetImplTypeFlags|(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5182,7 +5182,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetIDsOfNames(System.String[],System.Int32,System.Int32[]):System.Void",
           "clrName": "GetIDsOfNames",
-          "metadataToken": 100695428,
+          "metadataToken": 100695430,
           "canonicalSignature": "(System.String[],System.Int32,System.Int32[]):System.Void",
           "normalizedSignature": "GetIDsOfNames|(System.String[],System.Int32,System.Int32[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5202,7 +5202,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::Invoke(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void",
           "clrName": "Invoke",
-          "metadataToken": 100695429,
+          "metadataToken": 100695431,
           "canonicalSignature": "(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void",
           "normalizedSignature": "Invoke|(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5232,7 +5232,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetDocumentation(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation",
-          "metadataToken": 100695430,
+          "metadataToken": 100695432,
           "canonicalSignature": "(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "normalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5270,7 +5270,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetDllEntry(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void",
           "clrName": "GetDllEntry",
-          "metadataToken": 100695431,
+          "metadataToken": 100695433,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void",
           "normalizedSignature": "GetDllEntry|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5290,7 +5290,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetRefTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetRefTypeInfo",
-          "metadataToken": 100695432,
+          "metadataToken": 100695434,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "normalizedSignature": "GetRefTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5316,7 +5316,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::AddressOfMember(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void",
           "clrName": "AddressOfMember",
-          "metadataToken": 100695433,
+          "metadataToken": 100695435,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void",
           "normalizedSignature": "AddressOfMember|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5342,7 +5342,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::CreateInstance(System.Object,System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "CreateInstance",
-          "metadataToken": 100695434,
+          "metadataToken": 100695436,
           "canonicalSignature": "(System.Object,System.Guid\u0026,System.Object\u0026):System.Void",
           "normalizedSignature": "CreateInstance|(System.Object,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5372,7 +5372,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetMops(System.Int32,System.String\u0026):System.Void",
           "clrName": "GetMops",
-          "metadataToken": 100695435,
+          "metadataToken": 100695437,
           "canonicalSignature": "(System.Int32,System.String\u0026):System.Void",
           "normalizedSignature": "GetMops|(System.Int32,System.String\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5398,7 +5398,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::GetContainingTypeLib(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void",
           "clrName": "GetContainingTypeLib",
-          "metadataToken": 100695436,
+          "metadataToken": 100695438,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void",
           "normalizedSignature": "GetContainingTypeLib|(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5428,7 +5428,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo::ReleaseTypeAttr(System.IntPtr):System.Void",
           "clrName": "ReleaseTypeAttr",
-          "metadataToken": 100695437,
+          "metadataToken": 100695439,
           "canonicalSignature": "(System.IntPtr):System.Void",
           "normalizedSignature": "ReleaseTypeAttr|(System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5472,7 +5472,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetTypeAttr(System.IntPtr\u0026):System.Void",
           "clrName": "GetTypeAttr",
-          "metadataToken": 100695440,
+          "metadataToken": 100695442,
           "canonicalSignature": "(System.IntPtr\u0026):System.Void",
           "normalizedSignature": "GetTypeAttr|(System.IntPtr\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5498,7 +5498,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetTypeComp(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "clrName": "GetTypeComp",
-          "metadataToken": 100695441,
+          "metadataToken": 100695443,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "normalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5524,7 +5524,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetFuncDesc(System.Int32,System.IntPtr\u0026):System.Void",
           "clrName": "GetFuncDesc",
-          "metadataToken": 100695442,
+          "metadataToken": 100695444,
           "canonicalSignature": "(System.Int32,System.IntPtr\u0026):System.Void",
           "normalizedSignature": "GetFuncDesc|(System.Int32,System.IntPtr\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5550,7 +5550,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetNames(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void",
           "clrName": "GetNames",
-          "metadataToken": 100695444,
+          "metadataToken": 100695446,
           "canonicalSignature": "(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void",
           "normalizedSignature": "GetNames|(System.Int32,System.String[],System.Int32,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5576,7 +5576,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetRefTypeOfImplType(System.Int32,System.Int32\u0026):System.Void",
           "clrName": "GetRefTypeOfImplType",
-          "metadataToken": 100695445,
+          "metadataToken": 100695447,
           "canonicalSignature": "(System.Int32,System.Int32\u0026):System.Void",
           "normalizedSignature": "GetRefTypeOfImplType|(System.Int32,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5602,7 +5602,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetImplTypeFlags(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void",
           "clrName": "GetImplTypeFlags",
-          "metadataToken": 100695446,
+          "metadataToken": 100695448,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void",
           "normalizedSignature": "GetImplTypeFlags|(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5628,7 +5628,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetIDsOfNames(System.String[],System.Int32,System.Int32[]):System.Void",
           "clrName": "GetIDsOfNames",
-          "metadataToken": 100695447,
+          "metadataToken": 100695449,
           "canonicalSignature": "(System.String[],System.Int32,System.Int32[]):System.Void",
           "normalizedSignature": "GetIDsOfNames|(System.String[],System.Int32,System.Int32[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5648,7 +5648,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::Invoke(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void",
           "clrName": "Invoke",
-          "metadataToken": 100695448,
+          "metadataToken": 100695450,
           "canonicalSignature": "(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void",
           "normalizedSignature": "Invoke|(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS\u0026,System.IntPtr,System.IntPtr,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5678,7 +5678,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetDocumentation(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation",
-          "metadataToken": 100695449,
+          "metadataToken": 100695451,
           "canonicalSignature": "(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "normalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5716,7 +5716,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetDllEntry(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void",
           "clrName": "GetDllEntry",
-          "metadataToken": 100695450,
+          "metadataToken": 100695452,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void",
           "normalizedSignature": "GetDllEntry|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5736,7 +5736,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetRefTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetRefTypeInfo",
-          "metadataToken": 100695451,
+          "metadataToken": 100695453,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "normalizedSignature": "GetRefTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5762,7 +5762,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::AddressOfMember(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void",
           "clrName": "AddressOfMember",
-          "metadataToken": 100695452,
+          "metadataToken": 100695454,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void",
           "normalizedSignature": "AddressOfMember|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5788,7 +5788,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::CreateInstance(System.Object,System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "CreateInstance",
-          "metadataToken": 100695453,
+          "metadataToken": 100695455,
           "canonicalSignature": "(System.Object,System.Guid\u0026,System.Object\u0026):System.Void",
           "normalizedSignature": "CreateInstance|(System.Object,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5818,7 +5818,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetMops(System.Int32,System.String\u0026):System.Void",
           "clrName": "GetMops",
-          "metadataToken": 100695454,
+          "metadataToken": 100695456,
           "canonicalSignature": "(System.Int32,System.String\u0026):System.Void",
           "normalizedSignature": "GetMops|(System.Int32,System.String\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5844,7 +5844,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetContainingTypeLib(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void",
           "clrName": "GetContainingTypeLib",
-          "metadataToken": 100695455,
+          "metadataToken": 100695457,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void",
           "normalizedSignature": "GetContainingTypeLib|(System.Runtime.InteropServices.ComTypes.ITypeLib\u0026,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5874,7 +5874,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::ReleaseTypeAttr(System.IntPtr):System.Void",
           "clrName": "ReleaseTypeAttr",
-          "metadataToken": 100695456,
+          "metadataToken": 100695458,
           "canonicalSignature": "(System.IntPtr):System.Void",
           "normalizedSignature": "ReleaseTypeAttr|(System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5894,7 +5894,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetTypeKind(System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void",
           "clrName": "GetTypeKind",
-          "metadataToken": 100695459,
+          "metadataToken": 100695461,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void",
           "normalizedSignature": "GetTypeKind|(System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5920,7 +5920,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetTypeFlags(System.Int32\u0026):System.Void",
           "clrName": "GetTypeFlags",
-          "metadataToken": 100695460,
+          "metadataToken": 100695462,
           "canonicalSignature": "(System.Int32\u0026):System.Void",
           "normalizedSignature": "GetTypeFlags|(System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5946,7 +5946,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetFuncIndexOfMemId(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.Int32\u0026):System.Void",
           "clrName": "GetFuncIndexOfMemId",
-          "metadataToken": 100695461,
+          "metadataToken": 100695463,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.Int32\u0026):System.Void",
           "normalizedSignature": "GetFuncIndexOfMemId|(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5972,7 +5972,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetCustData(System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "GetCustData",
-          "metadataToken": 100695463,
+          "metadataToken": 100695465,
           "canonicalSignature": "(System.Guid\u0026,System.Object\u0026):System.Void",
           "normalizedSignature": "GetCustData|(System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6002,7 +6002,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetFuncCustData(System.Int32,System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "GetFuncCustData",
-          "metadataToken": 100695464,
+          "metadataToken": 100695466,
           "canonicalSignature": "(System.Int32,System.Guid\u0026,System.Object\u0026):System.Void",
           "normalizedSignature": "GetFuncCustData|(System.Int32,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6032,7 +6032,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetParamCustData(System.Int32,System.Int32,System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "GetParamCustData",
-          "metadataToken": 100695465,
+          "metadataToken": 100695467,
           "canonicalSignature": "(System.Int32,System.Int32,System.Guid\u0026,System.Object\u0026):System.Void",
           "normalizedSignature": "GetParamCustData|(System.Int32,System.Int32,System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6062,7 +6062,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetDocumentation2(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation2",
-          "metadataToken": 100695468,
+          "metadataToken": 100695470,
           "canonicalSignature": "(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "normalizedSignature": "GetDocumentation2|(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6096,7 +6096,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetAllFuncCustData(System.Int32,System.IntPtr):System.Void",
           "clrName": "GetAllFuncCustData",
-          "metadataToken": 100695470,
+          "metadataToken": 100695472,
           "canonicalSignature": "(System.Int32,System.IntPtr):System.Void",
           "normalizedSignature": "GetAllFuncCustData|(System.Int32,System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6116,7 +6116,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeInfo2::GetAllParamCustData(System.Int32,System.Int32,System.IntPtr):System.Void",
           "clrName": "GetAllParamCustData",
-          "metadataToken": 100695471,
+          "metadataToken": 100695473,
           "canonicalSignature": "(System.Int32,System.Int32,System.IntPtr):System.Void",
           "normalizedSignature": "GetAllParamCustData|(System.Int32,System.Int32,System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6154,7 +6154,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetTypeInfoCount():System.Int32",
           "clrName": "GetTypeInfoCount",
-          "metadataToken": 100695474,
+          "metadataToken": 100695476,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetTypeInfoCount|():System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -6174,7 +6174,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetTypeInfo",
-          "metadataToken": 100695475,
+          "metadataToken": 100695477,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "normalizedSignature": "GetTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6200,7 +6200,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetTypeInfoType(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void",
           "clrName": "GetTypeInfoType",
-          "metadataToken": 100695476,
+          "metadataToken": 100695478,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void",
           "normalizedSignature": "GetTypeInfoType|(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6226,7 +6226,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetTypeInfoOfGuid(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetTypeInfoOfGuid",
-          "metadataToken": 100695477,
+          "metadataToken": 100695479,
           "canonicalSignature": "(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "normalizedSignature": "GetTypeInfoOfGuid|(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6256,7 +6256,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetLibAttr(System.IntPtr\u0026):System.Void",
           "clrName": "GetLibAttr",
-          "metadataToken": 100695478,
+          "metadataToken": 100695480,
           "canonicalSignature": "(System.IntPtr\u0026):System.Void",
           "normalizedSignature": "GetLibAttr|(System.IntPtr\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6282,7 +6282,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetTypeComp(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "clrName": "GetTypeComp",
-          "metadataToken": 100695479,
+          "metadataToken": 100695481,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "normalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6308,7 +6308,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::GetDocumentation(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation",
-          "metadataToken": 100695480,
+          "metadataToken": 100695482,
           "canonicalSignature": "(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "normalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6346,7 +6346,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::IsName(System.String,System.Int32):System.Boolean",
           "clrName": "IsName",
-          "metadataToken": 100695481,
+          "metadataToken": 100695483,
           "canonicalSignature": "(System.String,System.Int32):System.Boolean",
           "normalizedSignature": "IsName|(System.String,System.Int32):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -6366,7 +6366,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::FindName(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void",
           "clrName": "FindName",
-          "metadataToken": 100695482,
+          "metadataToken": 100695484,
           "canonicalSignature": "(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void",
           "normalizedSignature": "FindName|(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6392,7 +6392,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib::ReleaseTLibAttr(System.IntPtr):System.Void",
           "clrName": "ReleaseTLibAttr",
-          "metadataToken": 100695483,
+          "metadataToken": 100695485,
           "canonicalSignature": "(System.IntPtr):System.Void",
           "normalizedSignature": "ReleaseTLibAttr|(System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6436,7 +6436,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetTypeInfoCount():System.Int32",
           "clrName": "GetTypeInfoCount",
-          "metadataToken": 100695484,
+          "metadataToken": 100695486,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetTypeInfoCount|():System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -6456,7 +6456,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetTypeInfo",
-          "metadataToken": 100695485,
+          "metadataToken": 100695487,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "normalizedSignature": "GetTypeInfo|(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6482,7 +6482,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetTypeInfoType(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void",
           "clrName": "GetTypeInfoType",
-          "metadataToken": 100695486,
+          "metadataToken": 100695488,
           "canonicalSignature": "(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void",
           "normalizedSignature": "GetTypeInfoType|(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6508,7 +6508,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetTypeInfoOfGuid(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "clrName": "GetTypeInfoOfGuid",
-          "metadataToken": 100695487,
+          "metadataToken": 100695489,
           "canonicalSignature": "(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void",
           "normalizedSignature": "GetTypeInfoOfGuid|(System.Guid\u0026,System.Runtime.InteropServices.ComTypes.ITypeInfo\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6538,7 +6538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetLibAttr(System.IntPtr\u0026):System.Void",
           "clrName": "GetLibAttr",
-          "metadataToken": 100695488,
+          "metadataToken": 100695490,
           "canonicalSignature": "(System.IntPtr\u0026):System.Void",
           "normalizedSignature": "GetLibAttr|(System.IntPtr\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6564,7 +6564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetTypeComp(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "clrName": "GetTypeComp",
-          "metadataToken": 100695489,
+          "metadataToken": 100695491,
           "canonicalSignature": "(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void",
           "normalizedSignature": "GetTypeComp|(System.Runtime.InteropServices.ComTypes.ITypeComp\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6590,7 +6590,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetDocumentation(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation",
-          "metadataToken": 100695490,
+          "metadataToken": 100695492,
           "canonicalSignature": "(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "normalizedSignature": "GetDocumentation|(System.Int32,System.String\u0026,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6628,7 +6628,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::IsName(System.String,System.Int32):System.Boolean",
           "clrName": "IsName",
-          "metadataToken": 100695491,
+          "metadataToken": 100695493,
           "canonicalSignature": "(System.String,System.Int32):System.Boolean",
           "normalizedSignature": "IsName|(System.String,System.Int32):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -6648,7 +6648,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::FindName(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void",
           "clrName": "FindName",
-          "metadataToken": 100695492,
+          "metadataToken": 100695494,
           "canonicalSignature": "(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void",
           "normalizedSignature": "FindName|(System.String,System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo[],System.Int32[],System.Int16\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6674,7 +6674,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::ReleaseTLibAttr(System.IntPtr):System.Void",
           "clrName": "ReleaseTLibAttr",
-          "metadataToken": 100695493,
+          "metadataToken": 100695495,
           "canonicalSignature": "(System.IntPtr):System.Void",
           "normalizedSignature": "ReleaseTLibAttr|(System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6694,7 +6694,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetCustData(System.Guid\u0026,System.Object\u0026):System.Void",
           "clrName": "GetCustData",
-          "metadataToken": 100695494,
+          "metadataToken": 100695496,
           "canonicalSignature": "(System.Guid\u0026,System.Object\u0026):System.Void",
           "normalizedSignature": "GetCustData|(System.Guid\u0026,System.Object\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6724,7 +6724,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetLibStatistics(System.IntPtr,System.Int32\u0026):System.Void",
           "clrName": "GetLibStatistics",
-          "metadataToken": 100695495,
+          "metadataToken": 100695497,
           "canonicalSignature": "(System.IntPtr,System.Int32\u0026):System.Void",
           "normalizedSignature": "GetLibStatistics|(System.IntPtr,System.Int32\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6750,7 +6750,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ITypeLib2::GetDocumentation2(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "clrName": "GetDocumentation2",
-          "metadataToken": 100695496,
+          "metadataToken": 100695498,
           "canonicalSignature": "(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void",
           "normalizedSignature": "GetDocumentation2|(System.Int32,System.String\u0026,System.Int32\u0026,System.String\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6808,7 +6808,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.BIND_OPTS::cbStructSystem.Int32",
           "clrName": "cbStruct",
-          "metadataToken": 67113977,
+          "metadataToken": 67113972,
           "normalizedSignature": "cbStruct|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6820,7 +6820,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.BIND_OPTS::grfFlagsSystem.Int32",
           "clrName": "grfFlags",
-          "metadataToken": 67113978,
+          "metadataToken": 67113973,
           "normalizedSignature": "grfFlags|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6832,7 +6832,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.BIND_OPTS::grfModeSystem.Int32",
           "clrName": "grfMode",
-          "metadataToken": 67113979,
+          "metadataToken": 67113974,
           "normalizedSignature": "grfMode|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6844,7 +6844,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.BIND_OPTS::dwTickCountDeadlineSystem.Int32",
           "clrName": "dwTickCountDeadline",
-          "metadataToken": 67113980,
+          "metadataToken": 67113975,
           "normalizedSignature": "dwTickCountDeadline|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6878,7 +6878,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.BINDPTR::lpfuncdescSystem.IntPtr",
           "clrName": "lpfuncdesc",
-          "metadataToken": 67114003,
+          "metadataToken": 67113998,
           "normalizedSignature": "lpfuncdesc|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6890,7 +6890,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.BINDPTR::lpvardescSystem.IntPtr",
           "clrName": "lpvardesc",
-          "metadataToken": 67114004,
+          "metadataToken": 67113999,
           "normalizedSignature": "lpvardesc|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6902,7 +6902,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.BINDPTR::lptcompSystem.IntPtr",
           "clrName": "lptcomp",
-          "metadataToken": 67114005,
+          "metadataToken": 67114000,
           "normalizedSignature": "lptcomp|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6936,7 +6936,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CONNECTDATA::pUnkSystem.Object",
           "clrName": "pUnk",
-          "metadataToken": 67113981,
+          "metadataToken": 67113976,
           "normalizedSignature": "pUnk|System.Object|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6948,7 +6948,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CONNECTDATA::dwCookieSystem.Int32",
           "clrName": "dwCookie",
-          "metadataToken": 67113982,
+          "metadataToken": 67113977,
           "normalizedSignature": "dwCookie|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6982,7 +6982,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DISPPARAMS::rgvargSystem.IntPtr",
           "clrName": "rgvarg",
-          "metadataToken": 67114106,
+          "metadataToken": 67114101,
           "normalizedSignature": "rgvarg|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6994,7 +6994,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DISPPARAMS::rgdispidNamedArgsSystem.IntPtr",
           "clrName": "rgdispidNamedArgs",
-          "metadataToken": 67114107,
+          "metadataToken": 67114102,
           "normalizedSignature": "rgdispidNamedArgs|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7006,7 +7006,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DISPPARAMS::cArgsSystem.Int32",
           "clrName": "cArgs",
-          "metadataToken": 67114108,
+          "metadataToken": 67114103,
           "normalizedSignature": "cArgs|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7018,7 +7018,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DISPPARAMS::cNamedArgsSystem.Int32",
           "clrName": "cNamedArgs",
-          "metadataToken": 67114109,
+          "metadataToken": 67114104,
           "normalizedSignature": "cNamedArgs|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7052,7 +7052,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ELEMDESC::tdescSystem.Runtime.InteropServices.ComTypes.TYPEDESC",
           "clrName": "tdesc",
-          "metadataToken": 67114089,
+          "metadataToken": 67114084,
           "normalizedSignature": "tdesc|System.Runtime.InteropServices.ComTypes.TYPEDESC|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7064,7 +7064,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ELEMDESC::descSystem.Runtime.InteropServices.ComTypes.ELEMDESC\u002BDESCUNION",
           "clrName": "desc",
-          "metadataToken": 67114090,
+          "metadataToken": 67114085,
           "normalizedSignature": "desc|System.Runtime.InteropServices.ComTypes.ELEMDESC\u002BDESCUNION|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7098,7 +7098,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ELEMDESC\u002BDESCUNION::idldescSystem.Runtime.InteropServices.ComTypes.IDLDESC",
           "clrName": "idldesc",
-          "metadataToken": 67114091,
+          "metadataToken": 67114086,
           "normalizedSignature": "idldesc|System.Runtime.InteropServices.ComTypes.IDLDESC|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7110,7 +7110,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.ELEMDESC\u002BDESCUNION::paramdescSystem.Runtime.InteropServices.ComTypes.PARAMDESC",
           "clrName": "paramdesc",
-          "metadataToken": 67114092,
+          "metadataToken": 67114087,
           "normalizedSignature": "paramdesc|System.Runtime.InteropServices.ComTypes.PARAMDESC|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7144,7 +7144,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.EXCEPINFO::wCodeSystem.Int16",
           "clrName": "wCode",
-          "metadataToken": 67114110,
+          "metadataToken": 67114105,
           "normalizedSignature": "wCode|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7156,7 +7156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.EXCEPINFO::wReservedSystem.Int16",
           "clrName": "wReserved",
-          "metadataToken": 67114111,
+          "metadataToken": 67114106,
           "normalizedSignature": "wReserved|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7168,7 +7168,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.EXCEPINFO::bstrSourceSystem.String",
           "clrName": "bstrSource",
-          "metadataToken": 67114112,
+          "metadataToken": 67114107,
           "normalizedSignature": "bstrSource|System.String|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7180,7 +7180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.EXCEPINFO::bstrDescriptionSystem.String",
           "clrName": "bstrDescription",
-          "metadataToken": 67114113,
+          "metadataToken": 67114108,
           "normalizedSignature": "bstrDescription|System.String|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7192,7 +7192,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.EXCEPINFO::bstrHelpFileSystem.String",
           "clrName": "bstrHelpFile",
-          "metadataToken": 67114114,
+          "metadataToken": 67114109,
           "normalizedSignature": "bstrHelpFile|System.String|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7204,7 +7204,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.EXCEPINFO::dwHelpContextSystem.Int32",
           "clrName": "dwHelpContext",
-          "metadataToken": 67114115,
+          "metadataToken": 67114110,
           "normalizedSignature": "dwHelpContext|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7216,7 +7216,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.EXCEPINFO::pvReservedSystem.IntPtr",
           "clrName": "pvReserved",
-          "metadataToken": 67114116,
+          "metadataToken": 67114111,
           "normalizedSignature": "pvReserved|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7228,7 +7228,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.EXCEPINFO::pfnDeferredFillInSystem.IntPtr",
           "clrName": "pfnDeferredFillIn",
-          "metadataToken": 67114117,
+          "metadataToken": 67114112,
           "normalizedSignature": "pfnDeferredFillIn|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7240,7 +7240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.EXCEPINFO::scodeSystem.Int32",
           "clrName": "scode",
-          "metadataToken": 67114118,
+          "metadataToken": 67114113,
           "normalizedSignature": "scode|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7274,7 +7274,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FILETIME::dwLowDateTimeSystem.Int32",
           "clrName": "dwLowDateTime",
-          "metadataToken": 67113983,
+          "metadataToken": 67113978,
           "normalizedSignature": "dwLowDateTime|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7286,7 +7286,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FILETIME::dwHighDateTimeSystem.Int32",
           "clrName": "dwHighDateTime",
-          "metadataToken": 67113984,
+          "metadataToken": 67113979,
           "normalizedSignature": "dwHighDateTime|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7402,7 +7402,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::memidSystem.Int32",
           "clrName": "memid",
-          "metadataToken": 67114056,
+          "metadataToken": 67114051,
           "normalizedSignature": "memid|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7414,7 +7414,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::lprgscodeSystem.IntPtr",
           "clrName": "lprgscode",
-          "metadataToken": 67114057,
+          "metadataToken": 67114052,
           "normalizedSignature": "lprgscode|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7426,7 +7426,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::lprgelemdescParamSystem.IntPtr",
           "clrName": "lprgelemdescParam",
-          "metadataToken": 67114058,
+          "metadataToken": 67114053,
           "normalizedSignature": "lprgelemdescParam|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7438,7 +7438,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::funckindSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "funckind",
-          "metadataToken": 67114059,
+          "metadataToken": 67114054,
           "normalizedSignature": "funckind|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7450,7 +7450,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::invkindSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "invkind",
-          "metadataToken": 67114060,
+          "metadataToken": 67114055,
           "normalizedSignature": "invkind|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7462,7 +7462,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::callconvSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "callconv",
-          "metadataToken": 67114061,
+          "metadataToken": 67114056,
           "normalizedSignature": "callconv|System.Runtime.InteropServices.ComTypes.CALLCONV|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7474,7 +7474,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::cParamsSystem.Int16",
           "clrName": "cParams",
-          "metadataToken": 67114062,
+          "metadataToken": 67114057,
           "normalizedSignature": "cParams|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7486,7 +7486,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::cParamsOptSystem.Int16",
           "clrName": "cParamsOpt",
-          "metadataToken": 67114063,
+          "metadataToken": 67114058,
           "normalizedSignature": "cParamsOpt|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7498,7 +7498,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::oVftSystem.Int16",
           "clrName": "oVft",
-          "metadataToken": 67114064,
+          "metadataToken": 67114059,
           "normalizedSignature": "oVft|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7510,7 +7510,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::cScodesSystem.Int16",
           "clrName": "cScodes",
-          "metadataToken": 67114065,
+          "metadataToken": 67114060,
           "normalizedSignature": "cScodes|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7522,7 +7522,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::elemdescFuncSystem.Runtime.InteropServices.ComTypes.ELEMDESC",
           "clrName": "elemdescFunc",
-          "metadataToken": 67114066,
+          "metadataToken": 67114061,
           "normalizedSignature": "elemdescFunc|System.Runtime.InteropServices.ComTypes.ELEMDESC|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7534,7 +7534,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCDESC::wFuncFlagsSystem.Int16",
           "clrName": "wFuncFlags",
-          "metadataToken": 67114067,
+          "metadataToken": 67114062,
           "normalizedSignature": "wFuncFlags|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7568,7 +7568,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLDESC::dwReservedSystem.IntPtr",
           "clrName": "dwReserved",
-          "metadataToken": 67114074,
+          "metadataToken": 67114069,
           "normalizedSignature": "dwReserved|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7580,7 +7580,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLDESC::wIDLFlagsSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "wIDLFlags",
-          "metadataToken": 67114075,
+          "metadataToken": 67114070,
           "normalizedSignature": "wIDLFlags|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7614,7 +7614,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMDESC::lpVarValueSystem.IntPtr",
           "clrName": "lpVarValue",
-          "metadataToken": 67114085,
+          "metadataToken": 67114080,
           "normalizedSignature": "lpVarValue|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7626,7 +7626,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMDESC::wParamFlagsSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "wParamFlags",
-          "metadataToken": 67114086,
+          "metadataToken": 67114081,
           "normalizedSignature": "wParamFlags|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7730,7 +7730,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::pwcsNameSystem.String",
           "clrName": "pwcsName",
-          "metadataToken": 67113985,
+          "metadataToken": 67113980,
           "normalizedSignature": "pwcsName|System.String|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7742,7 +7742,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::typeSystem.Int32",
           "clrName": "type",
-          "metadataToken": 67113986,
+          "metadataToken": 67113981,
           "normalizedSignature": "type|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7754,7 +7754,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::cbSizeSystem.Int64",
           "clrName": "cbSize",
-          "metadataToken": 67113987,
+          "metadataToken": 67113982,
           "normalizedSignature": "cbSize|System.Int64|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7766,7 +7766,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::mtimeSystem.Runtime.InteropServices.ComTypes.FILETIME",
           "clrName": "mtime",
-          "metadataToken": 67113988,
+          "metadataToken": 67113983,
           "normalizedSignature": "mtime|System.Runtime.InteropServices.ComTypes.FILETIME|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7778,7 +7778,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::ctimeSystem.Runtime.InteropServices.ComTypes.FILETIME",
           "clrName": "ctime",
-          "metadataToken": 67113989,
+          "metadataToken": 67113984,
           "normalizedSignature": "ctime|System.Runtime.InteropServices.ComTypes.FILETIME|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7790,7 +7790,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::atimeSystem.Runtime.InteropServices.ComTypes.FILETIME",
           "clrName": "atime",
-          "metadataToken": 67113990,
+          "metadataToken": 67113985,
           "normalizedSignature": "atime|System.Runtime.InteropServices.ComTypes.FILETIME|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7802,7 +7802,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::grfModeSystem.Int32",
           "clrName": "grfMode",
-          "metadataToken": 67113991,
+          "metadataToken": 67113986,
           "normalizedSignature": "grfMode|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7814,7 +7814,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::grfLocksSupportedSystem.Int32",
           "clrName": "grfLocksSupported",
-          "metadataToken": 67113992,
+          "metadataToken": 67113987,
           "normalizedSignature": "grfLocksSupported|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7826,7 +7826,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::clsidSystem.Guid",
           "clrName": "clsid",
-          "metadataToken": 67113993,
+          "metadataToken": 67113988,
           "normalizedSignature": "clsid|System.Guid|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7838,7 +7838,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::grfStateBitsSystem.Int32",
           "clrName": "grfStateBits",
-          "metadataToken": 67113994,
+          "metadataToken": 67113989,
           "normalizedSignature": "grfStateBits|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7850,7 +7850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::reservedSystem.Int32",
           "clrName": "reserved",
-          "metadataToken": 67113995,
+          "metadataToken": 67113990,
           "normalizedSignature": "reserved|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7942,7 +7942,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::MEMBER_ID_NILSystem.Int32",
           "clrName": "MEMBER_ID_NIL",
-          "metadataToken": 67114037,
+          "metadataToken": 67114032,
           "normalizedSignature": "MEMBER_ID_NIL|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -7954,7 +7954,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::guidSystem.Guid",
           "clrName": "guid",
-          "metadataToken": 67114038,
+          "metadataToken": 67114033,
           "normalizedSignature": "guid|System.Guid|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7966,7 +7966,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::lcidSystem.Int32",
           "clrName": "lcid",
-          "metadataToken": 67114039,
+          "metadataToken": 67114034,
           "normalizedSignature": "lcid|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7978,7 +7978,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::dwReservedSystem.Int32",
           "clrName": "dwReserved",
-          "metadataToken": 67114040,
+          "metadataToken": 67114035,
           "normalizedSignature": "dwReserved|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7990,7 +7990,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::memidConstructorSystem.Int32",
           "clrName": "memidConstructor",
-          "metadataToken": 67114041,
+          "metadataToken": 67114036,
           "normalizedSignature": "memidConstructor|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8002,7 +8002,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::memidDestructorSystem.Int32",
           "clrName": "memidDestructor",
-          "metadataToken": 67114042,
+          "metadataToken": 67114037,
           "normalizedSignature": "memidDestructor|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8014,7 +8014,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::lpstrSchemaSystem.IntPtr",
           "clrName": "lpstrSchema",
-          "metadataToken": 67114043,
+          "metadataToken": 67114038,
           "normalizedSignature": "lpstrSchema|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8026,7 +8026,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::cbSizeInstanceSystem.Int32",
           "clrName": "cbSizeInstance",
-          "metadataToken": 67114044,
+          "metadataToken": 67114039,
           "normalizedSignature": "cbSizeInstance|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8038,7 +8038,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::typekindSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "typekind",
-          "metadataToken": 67114045,
+          "metadataToken": 67114040,
           "normalizedSignature": "typekind|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8050,7 +8050,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::cFuncsSystem.Int16",
           "clrName": "cFuncs",
-          "metadataToken": 67114046,
+          "metadataToken": 67114041,
           "normalizedSignature": "cFuncs|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8062,7 +8062,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::cVarsSystem.Int16",
           "clrName": "cVars",
-          "metadataToken": 67114047,
+          "metadataToken": 67114042,
           "normalizedSignature": "cVars|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8074,7 +8074,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::cImplTypesSystem.Int16",
           "clrName": "cImplTypes",
-          "metadataToken": 67114048,
+          "metadataToken": 67114043,
           "normalizedSignature": "cImplTypes|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8086,7 +8086,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::cbSizeVftSystem.Int16",
           "clrName": "cbSizeVft",
-          "metadataToken": 67114049,
+          "metadataToken": 67114044,
           "normalizedSignature": "cbSizeVft|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8098,7 +8098,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::cbAlignmentSystem.Int16",
           "clrName": "cbAlignment",
-          "metadataToken": 67114050,
+          "metadataToken": 67114045,
           "normalizedSignature": "cbAlignment|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8110,7 +8110,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::wTypeFlagsSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "wTypeFlags",
-          "metadataToken": 67114051,
+          "metadataToken": 67114046,
           "normalizedSignature": "wTypeFlags|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8122,7 +8122,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::wMajorVerNumSystem.Int16",
           "clrName": "wMajorVerNum",
-          "metadataToken": 67114052,
+          "metadataToken": 67114047,
           "normalizedSignature": "wMajorVerNum|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8134,7 +8134,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::wMinorVerNumSystem.Int16",
           "clrName": "wMinorVerNum",
-          "metadataToken": 67114053,
+          "metadataToken": 67114048,
           "normalizedSignature": "wMinorVerNum|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8146,7 +8146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::tdescAliasSystem.Runtime.InteropServices.ComTypes.TYPEDESC",
           "clrName": "tdescAlias",
-          "metadataToken": 67114054,
+          "metadataToken": 67114049,
           "normalizedSignature": "tdescAlias|System.Runtime.InteropServices.ComTypes.TYPEDESC|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8158,7 +8158,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::idldescTypeSystem.Runtime.InteropServices.ComTypes.IDLDESC",
           "clrName": "idldescType",
-          "metadataToken": 67114055,
+          "metadataToken": 67114050,
           "normalizedSignature": "idldescType|System.Runtime.InteropServices.ComTypes.IDLDESC|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8192,7 +8192,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEDESC::lpValueSystem.IntPtr",
           "clrName": "lpValue",
-          "metadataToken": 67114087,
+          "metadataToken": 67114082,
           "normalizedSignature": "lpValue|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8204,7 +8204,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEDESC::vtSystem.Int16",
           "clrName": "vt",
-          "metadataToken": 67114088,
+          "metadataToken": 67114083,
           "normalizedSignature": "vt|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8238,7 +8238,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPELIBATTR::guidSystem.Guid",
           "clrName": "guid",
-          "metadataToken": 67114179,
+          "metadataToken": 67114174,
           "normalizedSignature": "guid|System.Guid|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8250,7 +8250,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPELIBATTR::lcidSystem.Int32",
           "clrName": "lcid",
-          "metadataToken": 67114180,
+          "metadataToken": 67114175,
           "normalizedSignature": "lcid|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8262,7 +8262,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPELIBATTR::syskindSystem.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "syskind",
-          "metadataToken": 67114181,
+          "metadataToken": 67114176,
           "normalizedSignature": "syskind|System.Runtime.InteropServices.ComTypes.SYSKIND|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8274,7 +8274,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPELIBATTR::wMajorVerNumSystem.Int16",
           "clrName": "wMajorVerNum",
-          "metadataToken": 67114182,
+          "metadataToken": 67114177,
           "normalizedSignature": "wMajorVerNum|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8286,7 +8286,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPELIBATTR::wMinorVerNumSystem.Int16",
           "clrName": "wMinorVerNum",
-          "metadataToken": 67114183,
+          "metadataToken": 67114178,
           "normalizedSignature": "wMinorVerNum|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8298,7 +8298,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPELIBATTR::wLibFlagsSystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "wLibFlags",
-          "metadataToken": 67114184,
+          "metadataToken": 67114179,
           "normalizedSignature": "wLibFlags|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8332,7 +8332,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARDESC::memidSystem.Int32",
           "clrName": "memid",
-          "metadataToken": 67114098,
+          "metadataToken": 67114093,
           "normalizedSignature": "memid|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8344,7 +8344,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARDESC::lpstrSchemaSystem.String",
           "clrName": "lpstrSchema",
-          "metadataToken": 67114099,
+          "metadataToken": 67114094,
           "normalizedSignature": "lpstrSchema|System.String|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8356,7 +8356,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARDESC::descSystem.Runtime.InteropServices.ComTypes.VARDESC\u002BDESCUNION",
           "clrName": "desc",
-          "metadataToken": 67114100,
+          "metadataToken": 67114095,
           "normalizedSignature": "desc|System.Runtime.InteropServices.ComTypes.VARDESC\u002BDESCUNION|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8368,7 +8368,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARDESC::elemdescVarSystem.Runtime.InteropServices.ComTypes.ELEMDESC",
           "clrName": "elemdescVar",
-          "metadataToken": 67114101,
+          "metadataToken": 67114096,
           "normalizedSignature": "elemdescVar|System.Runtime.InteropServices.ComTypes.ELEMDESC|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8380,7 +8380,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARDESC::wVarFlagsSystem.Int16",
           "clrName": "wVarFlags",
-          "metadataToken": 67114102,
+          "metadataToken": 67114097,
           "normalizedSignature": "wVarFlags|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8392,7 +8392,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARDESC::varkindSystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "varkind",
-          "metadataToken": 67114103,
+          "metadataToken": 67114098,
           "normalizedSignature": "varkind|System.Runtime.InteropServices.ComTypes.VARKIND|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8426,7 +8426,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARDESC\u002BDESCUNION::oInstSystem.Int32",
           "clrName": "oInst",
-          "metadataToken": 67114104,
+          "metadataToken": 67114099,
           "normalizedSignature": "oInst|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8438,7 +8438,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARDESC\u002BDESCUNION::lpvarValueSystem.IntPtr",
           "clrName": "lpvarValue",
-          "metadataToken": 67114105,
+          "metadataToken": 67114100,
           "normalizedSignature": "lpvarValue|System.IntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

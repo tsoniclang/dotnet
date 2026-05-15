@@ -3,7 +3,7 @@
 // Assembly: System.Linq.Expressions
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -13,8 +13,8 @@ import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrSt
 export interface LightLambda$instance {
     readonly __tsonic_type_System_Linq_Expressions_Interpreter_LightLambda: never;
 
-    Run(...arguments: (JsValue | null)[]): JsValue | null;
-    RunVoid(...arguments: (JsValue | null)[]): JsValue | null;
+    Run(...arguments: (unknown | null)[]): unknown | null;
+    RunVoid(...arguments: (unknown | null)[]): unknown | null;
 }
 
 

@@ -3,7 +3,7 @@
 // Assembly: System.Net.Mail
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -86,7 +86,7 @@ export enum SmtpStatusCode {
 }
 
 
-export type SendCompletedEventHandler = (sender: JsValue, e: AsyncCompletedEventArgs) => void;
+export type SendCompletedEventHandler = (sender: unknown, e: AsyncCompletedEventArgs) => void;
 
 
 export interface AlternateView$instance extends AttachmentBase$instance {
@@ -334,7 +334,7 @@ export interface MailAddress$instance {
     readonly DisplayName: string;
     readonly Host: string;
     readonly User: string;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -465,8 +465,8 @@ export interface SmtpClient$instance {
     Dispose(disposing: boolean): void;
     Send(from: string, recipients: string, subject: string | null, body: string | null): void;
     Send(message: MailMessage): void;
-    SendAsync(from: string, recipients: string, subject: string | null, body: string | null, userToken: JsValue | null): void;
-    SendAsync(message: MailMessage, userToken: JsValue | null): void;
+    SendAsync(from: string, recipients: string, subject: string | null, body: string | null, userToken: unknown | null): void;
+    SendAsync(message: MailMessage, userToken: unknown | null): void;
     SendAsyncCancel(): void;
     SendMailAsync(from: string, recipients: string, subject: string | null, body: string | null): Task;
     SendMailAsync(message: MailMessage): Task;
@@ -489,7 +489,7 @@ export interface __SmtpClient$views {
 export type SmtpClient = SmtpClient$instance & __SmtpClient$views;
 
 
-export interface SmtpException$instance extends Exception {
+export interface SmtpException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_Mail_SmtpException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -515,7 +515,7 @@ export interface __SmtpException$views {
 export type SmtpException = SmtpException$instance & __SmtpException$views;
 
 
-export interface SmtpFailedRecipientException$instance extends SmtpException$instance {
+export interface SmtpFailedRecipientException$instance extends SmtpException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_Mail_SmtpFailedRecipientException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -542,7 +542,7 @@ export interface __SmtpFailedRecipientException$views {
 export type SmtpFailedRecipientException = SmtpFailedRecipientException$instance & __SmtpFailedRecipientException$views;
 
 
-export interface SmtpFailedRecipientsException$instance extends SmtpFailedRecipientException$instance {
+export interface SmtpFailedRecipientsException$instance extends SmtpFailedRecipientException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_Mail_SmtpFailedRecipientsException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;

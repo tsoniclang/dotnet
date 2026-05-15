@@ -3,7 +3,7 @@
 // Assembly: System.IO.FileSystem.AccessControl, System.IO.FileSystem.DriveInfo, System.IO.FileSystem.Watcher, System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -164,13 +164,13 @@ export enum WatcherChangeTypes {
 }
 
 
-export type ErrorEventHandler = (sender: JsValue, e: ErrorEventArgs) => void;
+export type ErrorEventHandler = (sender: unknown, e: ErrorEventArgs) => void;
 
 
-export type FileSystemEventHandler = (sender: JsValue, e: FileSystemEventArgs) => void;
+export type FileSystemEventHandler = (sender: unknown, e: FileSystemEventArgs) => void;
 
 
-export type RenamedEventHandler = (sender: JsValue, e: RenamedEventArgs) => void;
+export type RenamedEventHandler = (sender: unknown, e: RenamedEventArgs) => void;
 
 
 export interface WaitForChangedResult$instance {
@@ -300,7 +300,7 @@ export interface __BinaryWriter$views {
 export type BinaryWriter = BinaryWriter$instance & __BinaryWriter$views;
 
 
-export interface BufferedStream$instance extends Stream$instance {
+export interface BufferedStream$instance extends Stream$instance, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_IO_BufferedStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -313,8 +313,8 @@ export interface BufferedStream$instance extends Stream$instance {
     readonly Length: long;
     Position: long;
     readonly UnderlyingStream: Stream;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     CopyTo(destination: Stream, bufferSize: int): void;
     CopyTo(destination: Stream): void;
     CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
@@ -590,7 +590,7 @@ export interface __FileInfo$views {
 export type FileInfo = FileInfo$instance & __FileInfo$views;
 
 
-export interface FileLoadException$instance extends IOException$instance {
+export interface FileLoadException$instance extends IOException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_IO_FileLoadException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -619,7 +619,7 @@ export interface __FileLoadException$views {
 export type FileLoadException = FileLoadException$instance & __FileLoadException$views;
 
 
-export interface FileNotFoundException$instance extends IOException$instance {
+export interface FileNotFoundException$instance extends IOException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_IO_FileNotFoundException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -648,7 +648,7 @@ export interface __FileNotFoundException$views {
 export type FileNotFoundException = FileNotFoundException$instance & __FileNotFoundException$views;
 
 
-export interface FileStream$instance extends Stream$instance {
+export interface FileStream$instance extends Stream$instance, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_IO_FileStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -663,8 +663,8 @@ export interface FileStream$instance extends Stream$instance {
     readonly Name: string;
     Position: long;
     readonly SafeFileHandle: SafeFileHandle;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     CopyTo(destination: Stream, bufferSize: int): void;
     CopyTo(destination: Stream): void;
     CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
@@ -1026,8 +1026,8 @@ export interface Stream$instance extends MarshalByRefObject, System_Internal.IAs
     Position: long;
     ReadTimeout: int;
     WriteTimeout: int;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     Close(): void;
     CopyTo(destination: Stream): void;
     CopyTo(destination: Stream, bufferSize: int): void;
@@ -1139,7 +1139,7 @@ export interface __StreamReader$views {
 export type StreamReader = StreamReader$instance & __StreamReader$views;
 
 
-export interface StreamWriter$instance extends TextWriter$instance {
+export interface StreamWriter$instance extends TextWriter$instance, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_IO_StreamWriter: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -1160,11 +1160,11 @@ export interface StreamWriter$instance extends TextWriter$instance {
     Write(buffer: char[], index: int, count: int): void;
     Write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     Write(value: string | null): void;
-    Write(format: string, arg0: JsValue | null): void;
-    Write(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
-    Write(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
-    Write(format: string, ...arg: (JsValue | null)[]): void;
-    Write(format: string, arg: ReadOnlySpan_1<JsValue>): void;
+    Write(format: string, arg0: unknown | null): void;
+    Write(format: string, arg0: unknown | null, arg1: unknown | null): void;
+    Write(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
+    Write(format: string, ...arg: (unknown | null)[]): void;
+    Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     Write(value: boolean): void;
     Write(value: int): void;
     Write(value: uint): void;
@@ -1173,7 +1173,7 @@ export interface StreamWriter$instance extends TextWriter$instance {
     Write(value: float): void;
     Write(value: double): void;
     Write(value: decimal): void;
-    Write(value: JsValue | null): void;
+    Write(value: unknown | null): void;
     Write(value: StringBuilder | null): void;
     WriteAsync(value: char): Task;
     WriteAsync(value: string | null): Task;
@@ -1183,11 +1183,11 @@ export interface StreamWriter$instance extends TextWriter$instance {
     WriteAsync(buffer: char[] | null): Task;
     WriteLine(value: string | null): void;
     WriteLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
-    WriteLine(format: string, arg0: JsValue | null): void;
-    WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
-    WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
-    WriteLine(format: string, ...arg: (JsValue | null)[]): void;
-    WriteLine(format: string, arg: ReadOnlySpan_1<JsValue>): void;
+    WriteLine(format: string, arg0: unknown | null): void;
+    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null): void;
+    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
+    WriteLine(format: string, ...arg: (unknown | null)[]): void;
+    WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     WriteLine(): void;
     WriteLine(value: char): void;
     WriteLine(buffer: char[] | null): void;
@@ -1201,7 +1201,7 @@ export interface StreamWriter$instance extends TextWriter$instance {
     WriteLine(value: double): void;
     WriteLine(value: decimal): void;
     WriteLine(value: StringBuilder | null): void;
-    WriteLine(value: JsValue | null): void;
+    WriteLine(value: unknown | null): void;
     WriteLineAsync(): Task;
     WriteLineAsync(value: char): Task;
     WriteLineAsync(value: string | null): Task;
@@ -1301,12 +1301,12 @@ export interface StringWriter$instance extends TextWriter$instance, System_Inter
     Write(value: float): void;
     Write(value: double): void;
     Write(value: decimal): void;
-    Write(value: JsValue | null): void;
-    Write(format: string, arg0: JsValue | null): void;
-    Write(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
-    Write(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
-    Write(format: string, ...arg: (JsValue | null)[]): void;
-    Write(format: string, arg: ReadOnlySpan_1<JsValue>): void;
+    Write(value: unknown | null): void;
+    Write(format: string, arg0: unknown | null): void;
+    Write(format: string, arg0: unknown | null, arg1: unknown | null): void;
+    Write(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
+    Write(format: string, ...arg: (unknown | null)[]): void;
+    Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     WriteAsync(value: char): Task;
     WriteAsync(value: string | null): Task;
     WriteAsync(buffer: char[], index: int, count: int): Task;
@@ -1328,12 +1328,12 @@ export interface StringWriter$instance extends TextWriter$instance, System_Inter
     WriteLine(value: double): void;
     WriteLine(value: decimal): void;
     WriteLine(value: string | null): void;
-    WriteLine(value: JsValue | null): void;
-    WriteLine(format: string, arg0: JsValue | null): void;
-    WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
-    WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
-    WriteLine(format: string, ...arg: (JsValue | null)[]): void;
-    WriteLine(format: string, arg: ReadOnlySpan_1<JsValue>): void;
+    WriteLine(value: unknown | null): void;
+    WriteLine(format: string, arg0: unknown | null): void;
+    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null): void;
+    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
+    WriteLine(format: string, ...arg: (unknown | null)[]): void;
+    WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     WriteLineAsync(value: char): Task;
     WriteLineAsync(value: string | null): Task;
     WriteLineAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
@@ -1429,13 +1429,13 @@ export interface TextWriter$instance extends MarshalByRefObject, System_Internal
     Write(value: double): void;
     Write(value: decimal): void;
     Write(value: string | null): void;
-    Write(value: JsValue | null): void;
+    Write(value: unknown | null): void;
     Write(value: StringBuilder | null): void;
-    Write(format: string, arg0: JsValue | null): void;
-    Write(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
-    Write(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
-    Write(format: string, ...arg: (JsValue | null)[]): void;
-    Write(format: string, arg: ReadOnlySpan_1<JsValue>): void;
+    Write(format: string, arg0: unknown | null): void;
+    Write(format: string, arg0: unknown | null, arg1: unknown | null): void;
+    Write(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
+    Write(format: string, ...arg: (unknown | null)[]): void;
+    Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     WriteAsync(value: char): Task;
     WriteAsync(value: string | null): Task;
     WriteAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
@@ -1457,12 +1457,12 @@ export interface TextWriter$instance extends MarshalByRefObject, System_Internal
     WriteLine(value: decimal): void;
     WriteLine(value: string | null): void;
     WriteLine(value: StringBuilder | null): void;
-    WriteLine(value: JsValue | null): void;
-    WriteLine(format: string, arg0: JsValue | null): void;
-    WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
-    WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
-    WriteLine(format: string, ...arg: (JsValue | null)[]): void;
-    WriteLine(format: string, arg: ReadOnlySpan_1<JsValue>): void;
+    WriteLine(value: unknown | null): void;
+    WriteLine(format: string, arg0: unknown | null): void;
+    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null): void;
+    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
+    WriteLine(format: string, ...arg: (unknown | null)[]): void;
+    WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     WriteLineAsync(value: char): Task;
     WriteLineAsync(value: string | null): Task;
     WriteLineAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
@@ -1498,8 +1498,8 @@ export interface UnmanagedMemoryAccessor$instance {
     readonly Capacity: long;
     Dispose(disposing: boolean): void;
     Dispose(): void;
-    Read<T extends NonNullable<JsValue>>(position: long, structure: T): void;
-    ReadArray<T extends NonNullable<JsValue>>(position: long, array: T[], offset: int, count: int): int;
+    Read<T extends NonNullable<unknown>>(position: long, structure: T): void;
+    ReadArray<T extends NonNullable<unknown>>(position: long, array: T[], offset: int, count: int): int;
     ReadBoolean(position: long): boolean;
     ReadByte(position: long): byte;
     ReadChar(position: long): char;
@@ -1526,8 +1526,8 @@ export interface UnmanagedMemoryAccessor$instance {
     Write(position: long, value: ushort): void;
     Write(position: long, value: uint): void;
     Write(position: long, value: ulong): void;
-    Write<T extends NonNullable<JsValue>>(position: long, structure: T): void;
-    WriteArray<T extends NonNullable<JsValue>>(position: long, array: T[], offset: int, count: int): void;
+    Write<T extends NonNullable<unknown>>(position: long, structure: T): void;
+    WriteArray<T extends NonNullable<unknown>>(position: long, array: T[], offset: int, count: int): void;
 }
 
 

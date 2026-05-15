@@ -727,7 +727,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110382,
+          "metadataToken": 67110379,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -739,7 +739,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::NoErrorSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "NoError",
-          "metadataToken": 67110383,
+          "metadataToken": 67110380,
           "normalizedSignature": "NoError|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -751,7 +751,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::NotTimeValidSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "NotTimeValid",
-          "metadataToken": 67110384,
+          "metadataToken": 67110381,
           "normalizedSignature": "NotTimeValid|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -763,7 +763,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::NotTimeNestedSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "NotTimeNested",
-          "metadataToken": 67110385,
+          "metadataToken": 67110382,
           "normalizedSignature": "NotTimeNested|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -775,7 +775,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::RevokedSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "Revoked",
-          "metadataToken": 67110386,
+          "metadataToken": 67110383,
           "normalizedSignature": "Revoked|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -787,7 +787,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::NotSignatureValidSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "NotSignatureValid",
-          "metadataToken": 67110387,
+          "metadataToken": 67110384,
           "normalizedSignature": "NotSignatureValid|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -799,7 +799,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::NotValidForUsageSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "NotValidForUsage",
-          "metadataToken": 67110388,
+          "metadataToken": 67110385,
           "normalizedSignature": "NotValidForUsage|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -811,7 +811,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::UntrustedRootSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "UntrustedRoot",
-          "metadataToken": 67110389,
+          "metadataToken": 67110386,
           "normalizedSignature": "UntrustedRoot|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -823,7 +823,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::RevocationStatusUnknownSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "RevocationStatusUnknown",
-          "metadataToken": 67110390,
+          "metadataToken": 67110387,
           "normalizedSignature": "RevocationStatusUnknown|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -835,7 +835,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::CyclicSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "Cyclic",
-          "metadataToken": 67110391,
+          "metadataToken": 67110388,
           "normalizedSignature": "Cyclic|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -847,7 +847,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::InvalidExtensionSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "InvalidExtension",
-          "metadataToken": 67110392,
+          "metadataToken": 67110389,
           "normalizedSignature": "InvalidExtension|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -859,7 +859,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::InvalidPolicyConstraintsSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "InvalidPolicyConstraints",
-          "metadataToken": 67110393,
+          "metadataToken": 67110390,
           "normalizedSignature": "InvalidPolicyConstraints|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -871,7 +871,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::InvalidBasicConstraintsSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "InvalidBasicConstraints",
-          "metadataToken": 67110394,
+          "metadataToken": 67110391,
           "normalizedSignature": "InvalidBasicConstraints|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -883,7 +883,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::InvalidNameConstraintsSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "InvalidNameConstraints",
-          "metadataToken": 67110395,
+          "metadataToken": 67110392,
           "normalizedSignature": "InvalidNameConstraints|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -895,7 +895,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::HasNotSupportedNameConstraintSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "HasNotSupportedNameConstraint",
-          "metadataToken": 67110396,
+          "metadataToken": 67110393,
           "normalizedSignature": "HasNotSupportedNameConstraint|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -907,7 +907,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::HasNotDefinedNameConstraintSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "HasNotDefinedNameConstraint",
-          "metadataToken": 67110397,
+          "metadataToken": 67110394,
           "normalizedSignature": "HasNotDefinedNameConstraint|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -919,7 +919,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::HasNotPermittedNameConstraintSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "HasNotPermittedNameConstraint",
-          "metadataToken": 67110398,
+          "metadataToken": 67110395,
           "normalizedSignature": "HasNotPermittedNameConstraint|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -931,7 +931,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::HasExcludedNameConstraintSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "HasExcludedNameConstraint",
-          "metadataToken": 67110399,
+          "metadataToken": 67110396,
           "normalizedSignature": "HasExcludedNameConstraint|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -943,7 +943,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::PartialChainSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "PartialChain",
-          "metadataToken": 67110400,
+          "metadataToken": 67110397,
           "normalizedSignature": "PartialChain|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -955,7 +955,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::CtlNotTimeValidSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "CtlNotTimeValid",
-          "metadataToken": 67110401,
+          "metadataToken": 67110398,
           "normalizedSignature": "CtlNotTimeValid|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -967,7 +967,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::CtlNotSignatureValidSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "CtlNotSignatureValid",
-          "metadataToken": 67110402,
+          "metadataToken": 67110399,
           "normalizedSignature": "CtlNotSignatureValid|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -979,7 +979,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::CtlNotValidForUsageSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "CtlNotValidForUsage",
-          "metadataToken": 67110403,
+          "metadataToken": 67110400,
           "normalizedSignature": "CtlNotValidForUsage|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -991,7 +991,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::OfflineRevocationSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "OfflineRevocation",
-          "metadataToken": 67110404,
+          "metadataToken": 67110401,
           "normalizedSignature": "OfflineRevocation|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1003,7 +1003,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::NoIssuanceChainPolicySystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "NoIssuanceChainPolicy",
-          "metadataToken": 67110405,
+          "metadataToken": 67110402,
           "normalizedSignature": "NoIssuanceChainPolicy|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1015,7 +1015,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::ExplicitDistrustSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "ExplicitDistrust",
-          "metadataToken": 67110406,
+          "metadataToken": 67110403,
           "normalizedSignature": "ExplicitDistrust|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1027,7 +1027,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::HasNotSupportedCriticalExtensionSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "HasNotSupportedCriticalExtension",
-          "metadataToken": 67110407,
+          "metadataToken": 67110404,
           "normalizedSignature": "HasNotSupportedCriticalExtension|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1039,7 +1039,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::HasWeakSignatureSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags",
           "clrName": "HasWeakSignature",
-          "metadataToken": 67110408,
+          "metadataToken": 67110405,
           "normalizedSignature": "HasWeakSignature|System.Security.Cryptography.X509Certificates.X509ChainStatusFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1091,7 +1091,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainTrustMode::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110409,
+          "metadataToken": 67110406,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1103,7 +1103,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainTrustMode::SystemSystem.Security.Cryptography.X509Certificates.X509ChainTrustMode",
           "clrName": "System",
-          "metadataToken": 67110410,
+          "metadataToken": 67110407,
           "normalizedSignature": "System|System.Security.Cryptography.X509Certificates.X509ChainTrustMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1115,7 +1115,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainTrustMode::CustomRootTrustSystem.Security.Cryptography.X509Certificates.X509ChainTrustMode",
           "clrName": "CustomRootTrust",
-          "metadataToken": 67110411,
+          "metadataToken": 67110408,
           "normalizedSignature": "CustomRootTrust|System.Security.Cryptography.X509Certificates.X509ChainTrustMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1167,7 +1167,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110412,
+          "metadataToken": 67110409,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1179,7 +1179,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::UnknownSystem.Security.Cryptography.X509Certificates.X509ContentType",
           "clrName": "Unknown",
-          "metadataToken": 67110413,
+          "metadataToken": 67110410,
           "normalizedSignature": "Unknown|System.Security.Cryptography.X509Certificates.X509ContentType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1191,7 +1191,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::CertSystem.Security.Cryptography.X509Certificates.X509ContentType",
           "clrName": "Cert",
-          "metadataToken": 67110414,
+          "metadataToken": 67110411,
           "normalizedSignature": "Cert|System.Security.Cryptography.X509Certificates.X509ContentType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1203,7 +1203,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::SerializedCertSystem.Security.Cryptography.X509Certificates.X509ContentType",
           "clrName": "SerializedCert",
-          "metadataToken": 67110415,
+          "metadataToken": 67110412,
           "normalizedSignature": "SerializedCert|System.Security.Cryptography.X509Certificates.X509ContentType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1215,7 +1215,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::PfxSystem.Security.Cryptography.X509Certificates.X509ContentType",
           "clrName": "Pfx",
-          "metadataToken": 67110416,
+          "metadataToken": 67110413,
           "normalizedSignature": "Pfx|System.Security.Cryptography.X509Certificates.X509ContentType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1227,7 +1227,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::Pkcs12System.Security.Cryptography.X509Certificates.X509ContentType",
           "clrName": "Pkcs12",
-          "metadataToken": 67110417,
+          "metadataToken": 67110414,
           "normalizedSignature": "Pkcs12|System.Security.Cryptography.X509Certificates.X509ContentType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1239,7 +1239,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::SerializedStoreSystem.Security.Cryptography.X509Certificates.X509ContentType",
           "clrName": "SerializedStore",
-          "metadataToken": 67110418,
+          "metadataToken": 67110415,
           "normalizedSignature": "SerializedStore|System.Security.Cryptography.X509Certificates.X509ContentType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1251,7 +1251,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::Pkcs7System.Security.Cryptography.X509Certificates.X509ContentType",
           "clrName": "Pkcs7",
-          "metadataToken": 67110419,
+          "metadataToken": 67110416,
           "normalizedSignature": "Pkcs7|System.Security.Cryptography.X509Certificates.X509ContentType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1263,7 +1263,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::AuthenticodeSystem.Security.Cryptography.X509Certificates.X509ContentType",
           "clrName": "Authenticode",
-          "metadataToken": 67110420,
+          "metadataToken": 67110417,
           "normalizedSignature": "Authenticode|System.Security.Cryptography.X509Certificates.X509ContentType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1315,7 +1315,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110427,
+          "metadataToken": 67110424,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1327,7 +1327,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByThumbprintSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByThumbprint",
-          "metadataToken": 67110428,
+          "metadataToken": 67110425,
           "normalizedSignature": "FindByThumbprint|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1339,7 +1339,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindBySubjectNameSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindBySubjectName",
-          "metadataToken": 67110429,
+          "metadataToken": 67110426,
           "normalizedSignature": "FindBySubjectName|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1351,7 +1351,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindBySubjectDistinguishedNameSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindBySubjectDistinguishedName",
-          "metadataToken": 67110430,
+          "metadataToken": 67110427,
           "normalizedSignature": "FindBySubjectDistinguishedName|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1363,7 +1363,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByIssuerNameSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByIssuerName",
-          "metadataToken": 67110431,
+          "metadataToken": 67110428,
           "normalizedSignature": "FindByIssuerName|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1375,7 +1375,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByIssuerDistinguishedNameSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByIssuerDistinguishedName",
-          "metadataToken": 67110432,
+          "metadataToken": 67110429,
           "normalizedSignature": "FindByIssuerDistinguishedName|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1387,7 +1387,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindBySerialNumberSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindBySerialNumber",
-          "metadataToken": 67110433,
+          "metadataToken": 67110430,
           "normalizedSignature": "FindBySerialNumber|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1399,7 +1399,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByTimeValidSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByTimeValid",
-          "metadataToken": 67110434,
+          "metadataToken": 67110431,
           "normalizedSignature": "FindByTimeValid|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1411,7 +1411,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByTimeNotYetValidSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByTimeNotYetValid",
-          "metadataToken": 67110435,
+          "metadataToken": 67110432,
           "normalizedSignature": "FindByTimeNotYetValid|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1423,7 +1423,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByTimeExpiredSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByTimeExpired",
-          "metadataToken": 67110436,
+          "metadataToken": 67110433,
           "normalizedSignature": "FindByTimeExpired|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1435,7 +1435,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByTemplateNameSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByTemplateName",
-          "metadataToken": 67110437,
+          "metadataToken": 67110434,
           "normalizedSignature": "FindByTemplateName|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1447,7 +1447,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByApplicationPolicySystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByApplicationPolicy",
-          "metadataToken": 67110438,
+          "metadataToken": 67110435,
           "normalizedSignature": "FindByApplicationPolicy|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1459,7 +1459,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByCertificatePolicySystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByCertificatePolicy",
-          "metadataToken": 67110439,
+          "metadataToken": 67110436,
           "normalizedSignature": "FindByCertificatePolicy|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1471,7 +1471,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByExtensionSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByExtension",
-          "metadataToken": 67110440,
+          "metadataToken": 67110437,
           "normalizedSignature": "FindByExtension|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1483,7 +1483,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindByKeyUsageSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindByKeyUsage",
-          "metadataToken": 67110441,
+          "metadataToken": 67110438,
           "normalizedSignature": "FindByKeyUsage|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1495,7 +1495,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::FindBySubjectKeyIdentifierSystem.Security.Cryptography.X509Certificates.X509FindType",
           "clrName": "FindBySubjectKeyIdentifier",
-          "metadataToken": 67110442,
+          "metadataToken": 67110439,
           "normalizedSignature": "FindBySubjectKeyIdentifier|System.Security.Cryptography.X509Certificates.X509FindType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1547,7 +1547,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509IncludeOption::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110443,
+          "metadataToken": 67110440,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1559,7 +1559,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509IncludeOption::NoneSystem.Security.Cryptography.X509Certificates.X509IncludeOption",
           "clrName": "None",
-          "metadataToken": 67110444,
+          "metadataToken": 67110441,
           "normalizedSignature": "None|System.Security.Cryptography.X509Certificates.X509IncludeOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1571,7 +1571,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509IncludeOption::ExcludeRootSystem.Security.Cryptography.X509Certificates.X509IncludeOption",
           "clrName": "ExcludeRoot",
-          "metadataToken": 67110445,
+          "metadataToken": 67110442,
           "normalizedSignature": "ExcludeRoot|System.Security.Cryptography.X509Certificates.X509IncludeOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1583,7 +1583,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509IncludeOption::EndCertOnlySystem.Security.Cryptography.X509Certificates.X509IncludeOption",
           "clrName": "EndCertOnly",
-          "metadataToken": 67110446,
+          "metadataToken": 67110443,
           "normalizedSignature": "EndCertOnly|System.Security.Cryptography.X509Certificates.X509IncludeOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1595,7 +1595,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509IncludeOption::WholeChainSystem.Security.Cryptography.X509Certificates.X509IncludeOption",
           "clrName": "WholeChain",
-          "metadataToken": 67110447,
+          "metadataToken": 67110444,
           "normalizedSignature": "WholeChain|System.Security.Cryptography.X509Certificates.X509IncludeOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1647,7 +1647,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110448,
+          "metadataToken": 67110445,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1659,7 +1659,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::DefaultKeySetSystem.Security.Cryptography.X509Certificates.X509KeyStorageFlags",
           "clrName": "DefaultKeySet",
-          "metadataToken": 67110449,
+          "metadataToken": 67110446,
           "normalizedSignature": "DefaultKeySet|System.Security.Cryptography.X509Certificates.X509KeyStorageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1671,7 +1671,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::UserKeySetSystem.Security.Cryptography.X509Certificates.X509KeyStorageFlags",
           "clrName": "UserKeySet",
-          "metadataToken": 67110450,
+          "metadataToken": 67110447,
           "normalizedSignature": "UserKeySet|System.Security.Cryptography.X509Certificates.X509KeyStorageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1683,7 +1683,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::MachineKeySetSystem.Security.Cryptography.X509Certificates.X509KeyStorageFlags",
           "clrName": "MachineKeySet",
-          "metadataToken": 67110451,
+          "metadataToken": 67110448,
           "normalizedSignature": "MachineKeySet|System.Security.Cryptography.X509Certificates.X509KeyStorageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1695,7 +1695,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::ExportableSystem.Security.Cryptography.X509Certificates.X509KeyStorageFlags",
           "clrName": "Exportable",
-          "metadataToken": 67110452,
+          "metadataToken": 67110449,
           "normalizedSignature": "Exportable|System.Security.Cryptography.X509Certificates.X509KeyStorageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1707,7 +1707,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::UserProtectedSystem.Security.Cryptography.X509Certificates.X509KeyStorageFlags",
           "clrName": "UserProtected",
-          "metadataToken": 67110453,
+          "metadataToken": 67110450,
           "normalizedSignature": "UserProtected|System.Security.Cryptography.X509Certificates.X509KeyStorageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1719,7 +1719,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::PersistKeySetSystem.Security.Cryptography.X509Certificates.X509KeyStorageFlags",
           "clrName": "PersistKeySet",
-          "metadataToken": 67110454,
+          "metadataToken": 67110451,
           "normalizedSignature": "PersistKeySet|System.Security.Cryptography.X509Certificates.X509KeyStorageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1731,7 +1731,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::EphemeralKeySetSystem.Security.Cryptography.X509Certificates.X509KeyStorageFlags",
           "clrName": "EphemeralKeySet",
-          "metadataToken": 67110455,
+          "metadataToken": 67110452,
           "normalizedSignature": "EphemeralKeySet|System.Security.Cryptography.X509Certificates.X509KeyStorageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1783,7 +1783,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110458,
+          "metadataToken": 67110455,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1795,7 +1795,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::NoneSystem.Security.Cryptography.X509Certificates.X509KeyUsageFlags",
           "clrName": "None",
-          "metadataToken": 67110459,
+          "metadataToken": 67110456,
           "normalizedSignature": "None|System.Security.Cryptography.X509Certificates.X509KeyUsageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1807,7 +1807,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::EncipherOnlySystem.Security.Cryptography.X509Certificates.X509KeyUsageFlags",
           "clrName": "EncipherOnly",
-          "metadataToken": 67110460,
+          "metadataToken": 67110457,
           "normalizedSignature": "EncipherOnly|System.Security.Cryptography.X509Certificates.X509KeyUsageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1819,7 +1819,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::CrlSignSystem.Security.Cryptography.X509Certificates.X509KeyUsageFlags",
           "clrName": "CrlSign",
-          "metadataToken": 67110461,
+          "metadataToken": 67110458,
           "normalizedSignature": "CrlSign|System.Security.Cryptography.X509Certificates.X509KeyUsageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1831,7 +1831,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::KeyCertSignSystem.Security.Cryptography.X509Certificates.X509KeyUsageFlags",
           "clrName": "KeyCertSign",
-          "metadataToken": 67110462,
+          "metadataToken": 67110459,
           "normalizedSignature": "KeyCertSign|System.Security.Cryptography.X509Certificates.X509KeyUsageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1843,7 +1843,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::KeyAgreementSystem.Security.Cryptography.X509Certificates.X509KeyUsageFlags",
           "clrName": "KeyAgreement",
-          "metadataToken": 67110463,
+          "metadataToken": 67110460,
           "normalizedSignature": "KeyAgreement|System.Security.Cryptography.X509Certificates.X509KeyUsageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1855,7 +1855,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::DataEnciphermentSystem.Security.Cryptography.X509Certificates.X509KeyUsageFlags",
           "clrName": "DataEncipherment",
-          "metadataToken": 67110464,
+          "metadataToken": 67110461,
           "normalizedSignature": "DataEncipherment|System.Security.Cryptography.X509Certificates.X509KeyUsageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1867,7 +1867,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::KeyEnciphermentSystem.Security.Cryptography.X509Certificates.X509KeyUsageFlags",
           "clrName": "KeyEncipherment",
-          "metadataToken": 67110465,
+          "metadataToken": 67110462,
           "normalizedSignature": "KeyEncipherment|System.Security.Cryptography.X509Certificates.X509KeyUsageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1879,7 +1879,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::NonRepudiationSystem.Security.Cryptography.X509Certificates.X509KeyUsageFlags",
           "clrName": "NonRepudiation",
-          "metadataToken": 67110466,
+          "metadataToken": 67110463,
           "normalizedSignature": "NonRepudiation|System.Security.Cryptography.X509Certificates.X509KeyUsageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1891,7 +1891,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::DigitalSignatureSystem.Security.Cryptography.X509Certificates.X509KeyUsageFlags",
           "clrName": "DigitalSignature",
-          "metadataToken": 67110467,
+          "metadataToken": 67110464,
           "normalizedSignature": "DigitalSignature|System.Security.Cryptography.X509Certificates.X509KeyUsageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1903,7 +1903,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::DecipherOnlySystem.Security.Cryptography.X509Certificates.X509KeyUsageFlags",
           "clrName": "DecipherOnly",
-          "metadataToken": 67110468,
+          "metadataToken": 67110465,
           "normalizedSignature": "DecipherOnly|System.Security.Cryptography.X509Certificates.X509KeyUsageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1955,7 +1955,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509NameType::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110469,
+          "metadataToken": 67110466,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1967,7 +1967,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509NameType::SimpleNameSystem.Security.Cryptography.X509Certificates.X509NameType",
           "clrName": "SimpleName",
-          "metadataToken": 67110470,
+          "metadataToken": 67110467,
           "normalizedSignature": "SimpleName|System.Security.Cryptography.X509Certificates.X509NameType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1979,7 +1979,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509NameType::EmailNameSystem.Security.Cryptography.X509Certificates.X509NameType",
           "clrName": "EmailName",
-          "metadataToken": 67110471,
+          "metadataToken": 67110468,
           "normalizedSignature": "EmailName|System.Security.Cryptography.X509Certificates.X509NameType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1991,7 +1991,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509NameType::UpnNameSystem.Security.Cryptography.X509Certificates.X509NameType",
           "clrName": "UpnName",
-          "metadataToken": 67110472,
+          "metadataToken": 67110469,
           "normalizedSignature": "UpnName|System.Security.Cryptography.X509Certificates.X509NameType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2003,7 +2003,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509NameType::DnsNameSystem.Security.Cryptography.X509Certificates.X509NameType",
           "clrName": "DnsName",
-          "metadataToken": 67110473,
+          "metadataToken": 67110470,
           "normalizedSignature": "DnsName|System.Security.Cryptography.X509Certificates.X509NameType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2015,7 +2015,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509NameType::DnsFromAlternativeNameSystem.Security.Cryptography.X509Certificates.X509NameType",
           "clrName": "DnsFromAlternativeName",
-          "metadataToken": 67110474,
+          "metadataToken": 67110471,
           "normalizedSignature": "DnsFromAlternativeName|System.Security.Cryptography.X509Certificates.X509NameType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2027,7 +2027,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509NameType::UrlNameSystem.Security.Cryptography.X509Certificates.X509NameType",
           "clrName": "UrlName",
-          "metadataToken": 67110475,
+          "metadataToken": 67110472,
           "normalizedSignature": "UrlName|System.Security.Cryptography.X509Certificates.X509NameType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2079,7 +2079,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationFlag::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110477,
+          "metadataToken": 67110474,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2091,7 +2091,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationFlag::EndCertificateOnlySystem.Security.Cryptography.X509Certificates.X509RevocationFlag",
           "clrName": "EndCertificateOnly",
-          "metadataToken": 67110478,
+          "metadataToken": 67110475,
           "normalizedSignature": "EndCertificateOnly|System.Security.Cryptography.X509Certificates.X509RevocationFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2103,7 +2103,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationFlag::EntireChainSystem.Security.Cryptography.X509Certificates.X509RevocationFlag",
           "clrName": "EntireChain",
-          "metadataToken": 67110479,
+          "metadataToken": 67110476,
           "normalizedSignature": "EntireChain|System.Security.Cryptography.X509Certificates.X509RevocationFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2115,7 +2115,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationFlag::ExcludeRootSystem.Security.Cryptography.X509Certificates.X509RevocationFlag",
           "clrName": "ExcludeRoot",
-          "metadataToken": 67110480,
+          "metadataToken": 67110477,
           "normalizedSignature": "ExcludeRoot|System.Security.Cryptography.X509Certificates.X509RevocationFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2167,7 +2167,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationMode::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110481,
+          "metadataToken": 67110478,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2179,7 +2179,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationMode::NoCheckSystem.Security.Cryptography.X509Certificates.X509RevocationMode",
           "clrName": "NoCheck",
-          "metadataToken": 67110482,
+          "metadataToken": 67110479,
           "normalizedSignature": "NoCheck|System.Security.Cryptography.X509Certificates.X509RevocationMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2191,7 +2191,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationMode::OnlineSystem.Security.Cryptography.X509Certificates.X509RevocationMode",
           "clrName": "Online",
-          "metadataToken": 67110483,
+          "metadataToken": 67110480,
           "normalizedSignature": "Online|System.Security.Cryptography.X509Certificates.X509RevocationMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2203,7 +2203,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationMode::OfflineSystem.Security.Cryptography.X509Certificates.X509RevocationMode",
           "clrName": "Offline",
-          "metadataToken": 67110484,
+          "metadataToken": 67110481,
           "normalizedSignature": "Offline|System.Security.Cryptography.X509Certificates.X509RevocationMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2255,7 +2255,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110485,
+          "metadataToken": 67110482,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2267,7 +2267,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::UnspecifiedSystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "Unspecified",
-          "metadataToken": 67110486,
+          "metadataToken": 67110483,
           "normalizedSignature": "Unspecified|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2279,7 +2279,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::KeyCompromiseSystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "KeyCompromise",
-          "metadataToken": 67110487,
+          "metadataToken": 67110484,
           "normalizedSignature": "KeyCompromise|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2291,7 +2291,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::CACompromiseSystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "CACompromise",
-          "metadataToken": 67110488,
+          "metadataToken": 67110485,
           "normalizedSignature": "CACompromise|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2303,7 +2303,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::AffiliationChangedSystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "AffiliationChanged",
-          "metadataToken": 67110489,
+          "metadataToken": 67110486,
           "normalizedSignature": "AffiliationChanged|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2315,7 +2315,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::SupersededSystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "Superseded",
-          "metadataToken": 67110490,
+          "metadataToken": 67110487,
           "normalizedSignature": "Superseded|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2327,7 +2327,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::CessationOfOperationSystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "CessationOfOperation",
-          "metadataToken": 67110491,
+          "metadataToken": 67110488,
           "normalizedSignature": "CessationOfOperation|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2339,7 +2339,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::CertificateHoldSystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "CertificateHold",
-          "metadataToken": 67110492,
+          "metadataToken": 67110489,
           "normalizedSignature": "CertificateHold|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2351,7 +2351,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::RemoveFromCrlSystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "RemoveFromCrl",
-          "metadataToken": 67110493,
+          "metadataToken": 67110490,
           "normalizedSignature": "RemoveFromCrl|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2363,7 +2363,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::PrivilegeWithdrawnSystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "PrivilegeWithdrawn",
-          "metadataToken": 67110494,
+          "metadataToken": 67110491,
           "normalizedSignature": "PrivilegeWithdrawn|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2375,7 +2375,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::AACompromiseSystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "AACompromise",
-          "metadataToken": 67110495,
+          "metadataToken": 67110492,
           "normalizedSignature": "AACompromise|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2387,7 +2387,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::WeakAlgorithmOrKeySystem.Security.Cryptography.X509Certificates.X509RevocationReason",
           "clrName": "WeakAlgorithmOrKey",
-          "metadataToken": 67110496,
+          "metadataToken": 67110493,
           "normalizedSignature": "WeakAlgorithmOrKey|System.Security.Cryptography.X509Certificates.X509RevocationReason|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2439,7 +2439,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110519,
+          "metadataToken": 67110516,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2451,7 +2451,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::Sha1System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm",
           "clrName": "Sha1",
-          "metadataToken": 67110520,
+          "metadataToken": 67110517,
           "normalizedSignature": "Sha1|System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2463,7 +2463,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::ShortSha1System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm",
           "clrName": "ShortSha1",
-          "metadataToken": 67110521,
+          "metadataToken": 67110518,
           "normalizedSignature": "ShortSha1|System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2475,7 +2475,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::CapiSha1System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm",
           "clrName": "CapiSha1",
-          "metadataToken": 67110522,
+          "metadataToken": 67110519,
           "normalizedSignature": "CapiSha1|System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2487,7 +2487,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::Sha256System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm",
           "clrName": "Sha256",
-          "metadataToken": 67110523,
+          "metadataToken": 67110520,
           "normalizedSignature": "Sha256|System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2499,7 +2499,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::Sha384System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm",
           "clrName": "Sha384",
-          "metadataToken": 67110524,
+          "metadataToken": 67110521,
           "normalizedSignature": "Sha384|System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2511,7 +2511,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::Sha512System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm",
           "clrName": "Sha512",
-          "metadataToken": 67110525,
+          "metadataToken": 67110522,
           "normalizedSignature": "Sha512|System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2523,7 +2523,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::ShortSha256System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm",
           "clrName": "ShortSha256",
-          "metadataToken": 67110526,
+          "metadataToken": 67110523,
           "normalizedSignature": "ShortSha256|System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2535,7 +2535,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::ShortSha384System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm",
           "clrName": "ShortSha384",
-          "metadataToken": 67110527,
+          "metadataToken": 67110524,
           "normalizedSignature": "ShortSha384|System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2547,7 +2547,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::ShortSha512System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm",
           "clrName": "ShortSha512",
-          "metadataToken": 67110528,
+          "metadataToken": 67110525,
           "normalizedSignature": "ShortSha512|System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2599,7 +2599,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67110529,
+          "metadataToken": 67110526,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2611,7 +2611,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::NoFlagSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "NoFlag",
-          "metadataToken": 67110530,
+          "metadataToken": 67110527,
           "normalizedSignature": "NoFlag|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2623,7 +2623,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreNotTimeValidSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreNotTimeValid",
-          "metadataToken": 67110531,
+          "metadataToken": 67110528,
           "normalizedSignature": "IgnoreNotTimeValid|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2635,7 +2635,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreCtlNotTimeValidSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreCtlNotTimeValid",
-          "metadataToken": 67110532,
+          "metadataToken": 67110529,
           "normalizedSignature": "IgnoreCtlNotTimeValid|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2647,7 +2647,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreNotTimeNestedSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreNotTimeNested",
-          "metadataToken": 67110533,
+          "metadataToken": 67110530,
           "normalizedSignature": "IgnoreNotTimeNested|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2659,7 +2659,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreInvalidBasicConstraintsSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreInvalidBasicConstraints",
-          "metadataToken": 67110534,
+          "metadataToken": 67110531,
           "normalizedSignature": "IgnoreInvalidBasicConstraints|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2671,7 +2671,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::AllowUnknownCertificateAuthoritySystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "AllowUnknownCertificateAuthority",
-          "metadataToken": 67110535,
+          "metadataToken": 67110532,
           "normalizedSignature": "AllowUnknownCertificateAuthority|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2683,7 +2683,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreWrongUsageSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreWrongUsage",
-          "metadataToken": 67110536,
+          "metadataToken": 67110533,
           "normalizedSignature": "IgnoreWrongUsage|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2695,7 +2695,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreInvalidNameSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreInvalidName",
-          "metadataToken": 67110537,
+          "metadataToken": 67110534,
           "normalizedSignature": "IgnoreInvalidName|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2707,7 +2707,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreInvalidPolicySystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreInvalidPolicy",
-          "metadataToken": 67110538,
+          "metadataToken": 67110535,
           "normalizedSignature": "IgnoreInvalidPolicy|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2719,7 +2719,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreEndRevocationUnknownSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreEndRevocationUnknown",
-          "metadataToken": 67110539,
+          "metadataToken": 67110536,
           "normalizedSignature": "IgnoreEndRevocationUnknown|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2731,7 +2731,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreCtlSignerRevocationUnknownSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreCtlSignerRevocationUnknown",
-          "metadataToken": 67110540,
+          "metadataToken": 67110537,
           "normalizedSignature": "IgnoreCtlSignerRevocationUnknown|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2743,7 +2743,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreCertificateAuthorityRevocationUnknownSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreCertificateAuthorityRevocationUnknown",
-          "metadataToken": 67110541,
+          "metadataToken": 67110538,
           "normalizedSignature": "IgnoreCertificateAuthorityRevocationUnknown|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2755,7 +2755,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::IgnoreRootRevocationUnknownSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "IgnoreRootRevocationUnknown",
-          "metadataToken": 67110542,
+          "metadataToken": 67110539,
           "normalizedSignature": "IgnoreRootRevocationUnknown|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2767,7 +2767,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::AllFlagsSystem.Security.Cryptography.X509Certificates.X509VerificationFlags",
           "clrName": "AllFlags",
-          "metadataToken": 67110543,
+          "metadataToken": 67110540,
           "normalizedSignature": "AllFlags|System.Security.Cryptography.X509Certificates.X509VerificationFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -8336,7 +8336,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Add(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Int32",
           "clrName": "Add",
-          "metadataToken": 100668995,
+          "metadataToken": 100668998,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Int32",
           "normalizedSignature": "Add|(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -8356,7 +8356,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::AddRange(System.Security.Cryptography.X509Certificates.X509Certificate2[]):System.Void",
           "clrName": "AddRange",
-          "metadataToken": 100668996,
+          "metadataToken": 100668999,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2[]):System.Void",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509Certificate2[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8376,7 +8376,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::AddRange(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "clrName": "AddRange",
-          "metadataToken": 100668997,
+          "metadataToken": 100669000,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8396,7 +8396,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Contains(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Boolean",
           "clrName": "Contains",
-          "metadataToken": 100668998,
+          "metadataToken": 100669001,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Boolean",
           "normalizedSignature": "Contains|(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -8416,7 +8416,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Export(System.Security.Cryptography.X509Certificates.X509ContentType):System.Byte[]",
           "clrName": "Export",
-          "metadataToken": 100668999,
+          "metadataToken": 100669002,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509ContentType):System.Byte[]",
           "normalizedSignature": "Export|(System.Security.Cryptography.X509Certificates.X509ContentType):System.Byte[]|static=false",
           "emitScope": "ClassSurface",
@@ -8436,7 +8436,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::ExportPkcs12(System.Security.Cryptography.X509Certificates.Pkcs12ExportPbeParameters,System.String):System.Byte[]",
           "clrName": "ExportPkcs12",
-          "metadataToken": 100669000,
+          "metadataToken": 100669003,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.Pkcs12ExportPbeParameters,System.String):System.Byte[]",
           "normalizedSignature": "ExportPkcs12|(System.Security.Cryptography.X509Certificates.Pkcs12ExportPbeParameters,System.String):System.Byte[]|static=false",
           "emitScope": "ClassSurface",
@@ -8456,7 +8456,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::ExportPkcs12(System.Security.Cryptography.PbeParameters,System.String):System.Byte[]",
           "clrName": "ExportPkcs12",
-          "metadataToken": 100669001,
+          "metadataToken": 100669004,
           "canonicalSignature": "(System.Security.Cryptography.PbeParameters,System.String):System.Byte[]",
           "normalizedSignature": "ExportPkcs12|(System.Security.Cryptography.PbeParameters,System.String):System.Byte[]|static=false",
           "emitScope": "ClassSurface",
@@ -8476,7 +8476,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.String):System.Byte[]",
           "clrName": "Export",
-          "metadataToken": 100669002,
+          "metadataToken": 100669005,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509ContentType,System.String):System.Byte[]",
           "normalizedSignature": "Export|(System.Security.Cryptography.X509Certificates.X509ContentType,System.String):System.Byte[]|static=false",
           "emitScope": "ClassSurface",
@@ -8496,7 +8496,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Find(System.Security.Cryptography.X509Certificates.X509FindType,System.Object,System.Boolean):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "clrName": "Find",
-          "metadataToken": 100669003,
+          "metadataToken": 100669006,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509FindType,System.Object,System.Boolean):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "normalizedSignature": "Find|(System.Security.Cryptography.X509Certificates.X509FindType,System.Object,System.Boolean):System.Security.Cryptography.X509Certificates.X509Certificate2Collection|static=false",
           "emitScope": "ClassSurface",
@@ -8516,7 +8516,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::GetEnumerator():System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100669004,
+          "metadataToken": 100669007,
           "canonicalSignature": "():System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator|static=false",
           "emitScope": "ClassSurface",
@@ -8536,7 +8536,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.Byte[]):System.Void",
           "clrName": "Import",
-          "metadataToken": 100669006,
+          "metadataToken": 100669009,
           "canonicalSignature": "(System.Byte[]):System.Void",
           "normalizedSignature": "Import|(System.Byte[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8556,7 +8556,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Import",
-          "metadataToken": 100669007,
+          "metadataToken": 100669010,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Import|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8576,7 +8576,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "metadataToken": 100669008,
+          "metadataToken": 100669011,
           "canonicalSignature": "(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "normalizedSignature": "Import|(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8596,7 +8596,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "metadataToken": 100669009,
+          "metadataToken": 100669012,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "normalizedSignature": "Import|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8616,7 +8616,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "metadataToken": 100669010,
+          "metadataToken": 100669013,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "normalizedSignature": "Import|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8636,7 +8636,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.String):System.Void",
           "clrName": "Import",
-          "metadataToken": 100669011,
+          "metadataToken": 100669014,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Import|(System.String):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8656,7 +8656,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "metadataToken": 100669012,
+          "metadataToken": 100669015,
           "canonicalSignature": "(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "normalizedSignature": "Import|(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8676,7 +8676,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "metadataToken": 100669013,
+          "metadataToken": 100669016,
           "canonicalSignature": "(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "normalizedSignature": "Import|(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8696,7 +8696,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Insert(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void",
           "clrName": "Insert",
-          "metadataToken": 100669014,
+          "metadataToken": 100669017,
           "canonicalSignature": "(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8716,7 +8716,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Remove(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void",
           "clrName": "Remove",
-          "metadataToken": 100669015,
+          "metadataToken": 100669018,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void",
           "normalizedSignature": "Remove|(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8736,7 +8736,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::RemoveRange(System.Security.Cryptography.X509Certificates.X509Certificate2[]):System.Void",
           "clrName": "RemoveRange",
-          "metadataToken": 100669016,
+          "metadataToken": 100669019,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2[]):System.Void",
           "normalizedSignature": "RemoveRange|(System.Security.Cryptography.X509Certificates.X509Certificate2[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8756,7 +8756,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::RemoveRange(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "clrName": "RemoveRange",
-          "metadataToken": 100669017,
+          "metadataToken": 100669020,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "normalizedSignature": "RemoveRange|(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8776,7 +8776,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::ImportFromPemFile(System.String):System.Void",
           "clrName": "ImportFromPemFile",
-          "metadataToken": 100669018,
+          "metadataToken": 100669021,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "ImportFromPemFile|(System.String):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8796,7 +8796,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::ImportFromPem(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ImportFromPem",
-          "metadataToken": 100669019,
+          "metadataToken": 100669022,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ImportFromPem|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8816,7 +8816,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::ExportPkcs7Pem():System.String",
           "clrName": "ExportPkcs7Pem",
-          "metadataToken": 100669020,
+          "metadataToken": 100669023,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ExportPkcs7Pem|():System.String|static=false",
           "emitScope": "ClassSurface",
@@ -8836,7 +8836,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::TryExportPkcs7Pem(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryExportPkcs7Pem",
-          "metadataToken": 100669021,
+          "metadataToken": 100669024,
           "canonicalSignature": "(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryExportPkcs7Pem|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -8862,7 +8862,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::ExportCertificatePems():System.String",
           "clrName": "ExportCertificatePems",
-          "metadataToken": 100669022,
+          "metadataToken": 100669025,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ExportCertificatePems|():System.String|static=false",
           "emitScope": "ClassSurface",
@@ -8882,7 +8882,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::TryExportCertificatePems(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryExportCertificatePems",
-          "metadataToken": 100669023,
+          "metadataToken": 100669026,
           "canonicalSignature": "(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryExportCertificatePems|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -8908,7 +8908,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::FindByThumbprint(System.Security.Cryptography.HashAlgorithmName,System.String):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "clrName": "FindByThumbprint",
-          "metadataToken": 100669024,
+          "metadataToken": 100669027,
           "canonicalSignature": "(System.Security.Cryptography.HashAlgorithmName,System.String):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "normalizedSignature": "FindByThumbprint|(System.Security.Cryptography.HashAlgorithmName,System.String):System.Security.Cryptography.X509Certificates.X509Certificate2Collection|static=false",
           "emitScope": "ClassSurface",
@@ -8928,7 +8928,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::FindByThumbprint(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "clrName": "FindByThumbprint",
-          "metadataToken": 100669025,
+          "metadataToken": 100669028,
           "canonicalSignature": "(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "normalizedSignature": "FindByThumbprint|(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2Collection|static=false",
           "emitScope": "ClassSurface",
@@ -8948,7 +8948,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::FindByThumbprint(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "clrName": "FindByThumbprint",
-          "metadataToken": 100669026,
+          "metadataToken": 100669029,
           "canonicalSignature": "(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "normalizedSignature": "FindByThumbprint|(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2Collection|static=false",
           "emitScope": "ClassSurface",
@@ -8968,7 +8968,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "metadataToken": 100703856,
+          "metadataToken": 100703861,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -8989,7 +8989,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IndexOf(System.Object):System.Int32",
           "clrName": "IndexOf",
-          "metadataToken": 100703859,
+          "metadataToken": 100703864,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "IndexOf|(System.Object):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -9010,7 +9010,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "metadataToken": 100703862,
+          "metadataToken": 100703867,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -9031,7 +9031,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100703826,
+          "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -9052,7 +9052,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100703845,
+          "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -9073,7 +9073,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "metadataToken": 100704560,
+          "metadataToken": 100704565,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -9094,7 +9094,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "metadataToken": 100703854,
+          "metadataToken": 100703859,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -9115,7 +9115,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "metadataToken": 100703855,
+          "metadataToken": 100703860,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -9136,7 +9136,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "metadataToken": 100703860,
+          "metadataToken": 100703865,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -9157,7 +9157,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "metadataToken": 100703861,
+          "metadataToken": 100703866,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -9339,7 +9339,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "metadataToken": 385881269,
+          "metadataToken": 385881271,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -9359,7 +9359,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881256,
+          "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -9379,7 +9379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "metadataToken": 385881257,
+          "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -9399,7 +9399,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "metadataToken": 385881270,
+          "metadataToken": 385881272,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -9419,7 +9419,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "metadataToken": 385881258,
+          "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -9442,7 +9442,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::.ctor():void",
-          "metadataToken": 100668989,
+          "metadataToken": 100668992,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -9453,7 +9453,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::.ctor(System.Security.Cryptography.X509Certificates.X509Certificate2):void",
-          "metadataToken": 100668990,
+          "metadataToken": 100668993,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.X509Certificate2):void|static=false",
           "isStatic": false,
@@ -9464,7 +9464,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::.ctor(System.Security.Cryptography.X509Certificates.X509Certificate2[]):void",
-          "metadataToken": 100668991,
+          "metadataToken": 100668994,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2[]):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.X509Certificate2[]):void|static=false",
           "isStatic": false,
@@ -9475,7 +9475,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::.ctor(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):void",
-          "metadataToken": 100668992,
+          "metadataToken": 100668995,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):void|static=false",
           "isStatic": false,
@@ -9522,7 +9522,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100669035,
+          "metadataToken": 100669038,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -9542,7 +9542,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100669037,
+          "metadataToken": 100669040,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -9583,7 +9583,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100703846,
+          "metadataToken": 100703851,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -9604,7 +9604,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100703848,
+          "metadataToken": 100703853,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -9646,7 +9646,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
           "clrName": "Current",
-          "metadataToken": 385881426,
+          "metadataToken": 385881428,
           "canonicalSignature": ":T",
           "normalizedSignature": "Current|:T|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -9666,7 +9666,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
           "clrName": "Current",
-          "metadataToken": 385881267,
+          "metadataToken": 385881269,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -9721,7 +9721,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Add(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32",
           "clrName": "Add",
-          "metadataToken": 100669045,
+          "metadataToken": 100669048,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32",
           "normalizedSignature": "Add|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -9741,7 +9741,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::AddRange(System.Security.Cryptography.X509Certificates.X509Certificate[]):System.Void",
           "clrName": "AddRange",
-          "metadataToken": 100669046,
+          "metadataToken": 100669049,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate[]):System.Void",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509Certificate[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -9761,7 +9761,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::AddRange(System.Security.Cryptography.X509Certificates.X509CertificateCollection):System.Void",
           "clrName": "AddRange",
-          "metadataToken": 100669047,
+          "metadataToken": 100669050,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509CertificateCollection):System.Void",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509CertificateCollection):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -9781,7 +9781,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Contains(System.Security.Cryptography.X509Certificates.X509Certificate):System.Boolean",
           "clrName": "Contains",
-          "metadataToken": 100669048,
+          "metadataToken": 100669051,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate):System.Boolean",
           "normalizedSignature": "Contains|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -9801,7 +9801,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::CopyTo(System.Security.Cryptography.X509Certificates.X509Certificate[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100669049,
+          "metadataToken": 100669052,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Security.Cryptography.X509Certificates.X509Certificate[],System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -9821,7 +9821,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::GetEnumerator():System.Security.Cryptography.X509Certificates.X509CertificateCollection\u002BX509CertificateEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100669050,
+          "metadataToken": 100669053,
           "canonicalSignature": "():System.Security.Cryptography.X509Certificates.X509CertificateCollection\u002BX509CertificateEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.Cryptography.X509Certificates.X509CertificateCollection\u002BX509CertificateEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -9841,7 +9841,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
-          "metadataToken": 100669051,
+          "metadataToken": 100669054,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -9861,7 +9861,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::IndexOf(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32",
           "clrName": "IndexOf",
-          "metadataToken": 100669052,
+          "metadataToken": 100669055,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32",
           "normalizedSignature": "IndexOf|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -9881,7 +9881,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Insert(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate):System.Void",
           "clrName": "Insert",
-          "metadataToken": 100669053,
+          "metadataToken": 100669056,
           "canonicalSignature": "(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Security.Cryptography.X509Certificates.X509Certificate):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -9901,7 +9901,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::Remove(System.Security.Cryptography.X509Certificates.X509Certificate):System.Void",
           "clrName": "Remove",
-          "metadataToken": 100669054,
+          "metadataToken": 100669057,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate):System.Void",
           "normalizedSignature": "Remove|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -9921,7 +9921,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::OnValidate(System.Object):System.Void",
           "clrName": "OnValidate",
-          "metadataToken": 100669055,
+          "metadataToken": 100669058,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "OnValidate|(System.Object):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -9941,7 +9941,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "metadataToken": 100703856,
+          "metadataToken": 100703861,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -9962,7 +9962,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "metadataToken": 100703862,
+          "metadataToken": 100703867,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -9983,7 +9983,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100703826,
+          "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -10004,7 +10004,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100703845,
+          "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -10025,7 +10025,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "metadataToken": 100703854,
+          "metadataToken": 100703859,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -10046,7 +10046,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "metadataToken": 100703855,
+          "metadataToken": 100703860,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -10067,7 +10067,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "metadataToken": 100703860,
+          "metadataToken": 100703865,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -10088,7 +10088,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "metadataToken": 100703861,
+          "metadataToken": 100703866,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -10130,7 +10130,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "metadataToken": 385881269,
+          "metadataToken": 385881271,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -10150,7 +10150,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881256,
+          "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -10170,7 +10170,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "metadataToken": 385881257,
+          "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -10190,7 +10190,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "metadataToken": 385881270,
+          "metadataToken": 385881272,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -10210,7 +10210,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "metadataToken": 385881258,
+          "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -10233,7 +10233,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::.ctor():void",
-          "metadataToken": 100669040,
+          "metadataToken": 100669043,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -10244,7 +10244,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::.ctor(System.Security.Cryptography.X509Certificates.X509Certificate[]):void",
-          "metadataToken": 100669041,
+          "metadataToken": 100669044,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate[]):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.X509Certificate[]):void|static=false",
           "isStatic": false,
@@ -10255,7 +10255,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::.ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection):void",
-          "metadataToken": 100669042,
+          "metadataToken": 100669045,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509CertificateCollection):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.X509CertificateCollection):void|static=false",
           "isStatic": false,
@@ -10291,7 +10291,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection\u002BX509CertificateEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100669059,
+          "metadataToken": 100669062,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -10311,7 +10311,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection\u002BX509CertificateEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100669061,
+          "metadataToken": 100669064,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10355,7 +10355,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection\u002BX509CertificateEnumerator::.ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection):void",
-          "metadataToken": 100669056,
+          "metadataToken": 100669059,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509CertificateCollection):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.X509CertificateCollection):void|static=false",
           "isStatic": false,
@@ -10391,7 +10391,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Chain::Create():System.Security.Cryptography.X509Certificates.X509Chain",
           "clrName": "Create",
-          "metadataToken": 100669066,
+          "metadataToken": 100669069,
           "canonicalSignature": "():System.Security.Cryptography.X509Certificates.X509Chain",
           "normalizedSignature": "Create|():System.Security.Cryptography.X509Certificates.X509Chain|static=true",
           "emitScope": "ClassSurface",
@@ -10411,7 +10411,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Chain::Build(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Boolean",
           "clrName": "Build",
-          "metadataToken": 100669073,
+          "metadataToken": 100669076,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Boolean",
           "normalizedSignature": "Build|(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -10431,7 +10431,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Chain::Dispose():System.Void",
           "clrName": "Dispose",
-          "metadataToken": 100669075,
+          "metadataToken": 100669078,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10451,7 +10451,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Chain::Dispose(System.Boolean):System.Void",
           "clrName": "Dispose",
-          "metadataToken": 100669076,
+          "metadataToken": 100669079,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10471,7 +10471,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Chain::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100669077,
+          "metadataToken": 100669080,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10612,7 +10612,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Chain::.ctor():void",
-          "metadataToken": 100669063,
+          "metadataToken": 100669066,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -10623,7 +10623,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Chain::.ctor(System.Boolean):void",
-          "metadataToken": 100669064,
+          "metadataToken": 100669067,
           "canonicalSignature": "(System.Boolean):void",
           "normalizedSignature": "constructor|(System.Boolean):void|static=false",
           "isStatic": false,
@@ -10634,7 +10634,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Chain::.ctor(System.IntPtr):void",
-          "metadataToken": 100669065,
+          "metadataToken": 100669068,
           "canonicalSignature": "(System.IntPtr):void",
           "normalizedSignature": "constructor|(System.IntPtr):void|static=false",
           "isStatic": false,
@@ -10760,7 +10760,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainElementCollection::CopyTo(System.Security.Cryptography.X509Certificates.X509ChainElement[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100669088,
+          "metadataToken": 100669091,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509ChainElement[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Security.Cryptography.X509Certificates.X509ChainElement[],System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10780,7 +10780,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainElementCollection::GetEnumerator():System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100669090,
+          "metadataToken": 100669093,
           "canonicalSignature": "():System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -10800,7 +10800,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100703826,
+          "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -10821,7 +10821,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100703845,
+          "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -10842,7 +10842,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "metadataToken": 100704560,
+          "metadataToken": 100704565,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -10941,7 +10941,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881256,
+          "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -10961,7 +10961,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "metadataToken": 385881257,
+          "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -10981,7 +10981,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "metadataToken": 385881258,
+          "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -11039,7 +11039,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100669097,
+          "metadataToken": 100669100,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -11059,7 +11059,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100669098,
+          "metadataToken": 100669101,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -11100,7 +11100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100703846,
+          "metadataToken": 100703851,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -11121,7 +11121,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100703848,
+          "metadataToken": 100703853,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -11163,7 +11163,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
           "clrName": "Current",
-          "metadataToken": 385881426,
+          "metadataToken": 385881428,
           "canonicalSignature": ":T",
           "normalizedSignature": "Current|:T|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -11183,7 +11183,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
           "clrName": "Current",
-          "metadataToken": 385881267,
+          "metadataToken": 385881269,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -11224,7 +11224,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainPolicy::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100669120,
+          "metadataToken": 100669123,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -11244,7 +11244,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainPolicy::Clone():System.Security.Cryptography.X509Certificates.X509ChainPolicy",
           "clrName": "Clone",
-          "metadataToken": 100669121,
+          "metadataToken": 100669124,
           "canonicalSignature": "():System.Security.Cryptography.X509Certificates.X509ChainPolicy",
           "normalizedSignature": "Clone|():System.Security.Cryptography.X509Certificates.X509ChainPolicy|static=false",
           "emitScope": "ClassSurface",
@@ -11497,7 +11497,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainPolicy::.ctor():void",
-          "metadataToken": 100669099,
+          "metadataToken": 100669102,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -11527,7 +11527,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData):System.Void",
           "clrName": "CopyFrom",
-          "metadataToken": 100669130,
+          "metadataToken": 100669133,
           "canonicalSignature": "(System.Security.Cryptography.AsnEncodedData):System.Void",
           "normalizedSignature": "CopyFrom|(System.Security.Cryptography.AsnEncodedData):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -11571,7 +11571,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::.ctor():void",
-          "metadataToken": 100669126,
+          "metadataToken": 100669129,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -11582,7 +11582,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean):void",
-          "metadataToken": 100669127,
+          "metadataToken": 100669130,
           "canonicalSignature": "(System.Security.Cryptography.AsnEncodedData,System.Boolean):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.AsnEncodedData,System.Boolean):void|static=false",
           "isStatic": false,
@@ -11593,7 +11593,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::.ctor(System.Security.Cryptography.OidCollection,System.Boolean):void",
-          "metadataToken": 100669128,
+          "metadataToken": 100669131,
           "canonicalSignature": "(System.Security.Cryptography.OidCollection,System.Boolean):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.OidCollection,System.Boolean):void|static=false",
           "isStatic": false,
@@ -11623,7 +11623,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData):System.Void",
           "clrName": "CopyFrom",
-          "metadataToken": 100669142,
+          "metadataToken": 100669145,
           "canonicalSignature": "(System.Security.Cryptography.AsnEncodedData):System.Void",
           "normalizedSignature": "CopyFrom|(System.Security.Cryptography.AsnEncodedData):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -11667,7 +11667,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Extension::.ctor():void",
-          "metadataToken": 100669133,
+          "metadataToken": 100669136,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -11678,7 +11678,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Extension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean):void",
-          "metadataToken": 100669134,
+          "metadataToken": 100669137,
           "canonicalSignature": "(System.Security.Cryptography.AsnEncodedData,System.Boolean):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.AsnEncodedData,System.Boolean):void|static=false",
           "isStatic": false,
@@ -11689,7 +11689,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Extension::.ctor(System.Security.Cryptography.Oid,System.Byte[],System.Boolean):void",
-          "metadataToken": 100669135,
+          "metadataToken": 100669138,
           "canonicalSignature": "(System.Security.Cryptography.Oid,System.Byte[],System.Boolean):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.Oid,System.Byte[],System.Boolean):void|static=false",
           "isStatic": false,
@@ -11700,7 +11700,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Extension::.ctor(System.Security.Cryptography.Oid,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void",
-          "metadataToken": 100669136,
+          "metadataToken": 100669139,
           "canonicalSignature": "(System.Security.Cryptography.Oid,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.Oid,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void|static=false",
           "isStatic": false,
@@ -11711,7 +11711,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Extension::.ctor(System.String,System.Byte[],System.Boolean):void",
-          "metadataToken": 100669137,
+          "metadataToken": 100669140,
           "canonicalSignature": "(System.String,System.Byte[],System.Boolean):void",
           "normalizedSignature": "constructor|(System.String,System.Byte[],System.Boolean):void|static=false",
           "isStatic": false,
@@ -11722,7 +11722,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Extension::.ctor(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void",
-          "metadataToken": 100669138,
+          "metadataToken": 100669141,
           "canonicalSignature": "(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void",
           "normalizedSignature": "constructor|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void|static=false",
           "isStatic": false,
@@ -11769,7 +11769,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ExtensionCollection::Add(System.Security.Cryptography.X509Certificates.X509Extension):System.Int32",
           "clrName": "Add",
-          "metadataToken": 100669150,
+          "metadataToken": 100669153,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Extension):System.Int32",
           "normalizedSignature": "Add|(System.Security.Cryptography.X509Certificates.X509Extension):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -11789,7 +11789,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ExtensionCollection::CopyTo(System.Security.Cryptography.X509Certificates.X509Extension[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100669151,
+          "metadataToken": 100669154,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Extension[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Security.Cryptography.X509Certificates.X509Extension[],System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -11809,7 +11809,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ExtensionCollection::GetEnumerator():System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100669153,
+          "metadataToken": 100669156,
           "canonicalSignature": "():System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -11829,7 +11829,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100703826,
+          "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -11850,7 +11850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100703845,
+          "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -11871,7 +11871,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "metadataToken": 100704560,
+          "metadataToken": 100704565,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -11991,7 +11991,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881256,
+          "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -12011,7 +12011,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "metadataToken": 385881257,
+          "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -12031,7 +12031,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "metadataToken": 385881258,
+          "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -12054,7 +12054,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ExtensionCollection::.ctor():void",
-          "metadataToken": 100669144,
+          "metadataToken": 100669147,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -12101,7 +12101,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100669159,
+          "metadataToken": 100669162,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -12121,7 +12121,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100669160,
+          "metadataToken": 100669163,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -12162,7 +12162,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100703846,
+          "metadataToken": 100703851,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -12183,7 +12183,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100703848,
+          "metadataToken": 100703853,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -12225,7 +12225,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
           "clrName": "Current",
-          "metadataToken": 385881426,
+          "metadataToken": 385881428,
           "canonicalSignature": ":T",
           "normalizedSignature": "Current|:T|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -12245,7 +12245,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
           "clrName": "Current",
-          "metadataToken": 385881267,
+          "metadataToken": 385881269,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -12286,7 +12286,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData):System.Void",
           "clrName": "CopyFrom",
-          "metadataToken": 100669166,
+          "metadataToken": 100669169,
           "canonicalSignature": "(System.Security.Cryptography.AsnEncodedData):System.Void",
           "normalizedSignature": "CopyFrom|(System.Security.Cryptography.AsnEncodedData):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -12330,7 +12330,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor():void",
-          "metadataToken": 100669162,
+          "metadataToken": 100669165,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -12341,7 +12341,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean):void",
-          "metadataToken": 100669163,
+          "metadataToken": 100669166,
           "canonicalSignature": "(System.Security.Cryptography.AsnEncodedData,System.Boolean):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.AsnEncodedData,System.Boolean):void|static=false",
           "isStatic": false,
@@ -12352,7 +12352,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags,System.Boolean):void",
-          "metadataToken": 100669164,
+          "metadataToken": 100669167,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags,System.Boolean):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags,System.Boolean):void|static=false",
           "isStatic": false,
@@ -12382,7 +12382,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SignatureGenerator::GetSignatureAlgorithmIdentifier(System.Security.Cryptography.HashAlgorithmName):System.Byte[]",
           "clrName": "GetSignatureAlgorithmIdentifier",
-          "metadataToken": 100669174,
+          "metadataToken": 100669177,
           "canonicalSignature": "(System.Security.Cryptography.HashAlgorithmName):System.Byte[]",
           "normalizedSignature": "GetSignatureAlgorithmIdentifier|(System.Security.Cryptography.HashAlgorithmName):System.Byte[]|static=false",
           "emitScope": "ClassSurface",
@@ -12402,7 +12402,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SignatureGenerator::SignData(System.Byte[],System.Security.Cryptography.HashAlgorithmName):System.Byte[]",
           "clrName": "SignData",
-          "metadataToken": 100669175,
+          "metadataToken": 100669178,
           "canonicalSignature": "(System.Byte[],System.Security.Cryptography.HashAlgorithmName):System.Byte[]",
           "normalizedSignature": "SignData|(System.Byte[],System.Security.Cryptography.HashAlgorithmName):System.Byte[]|static=false",
           "emitScope": "ClassSurface",
@@ -12422,7 +12422,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SignatureGenerator::BuildPublicKey():System.Security.Cryptography.X509Certificates.PublicKey",
           "clrName": "BuildPublicKey",
-          "metadataToken": 100669176,
+          "metadataToken": 100669179,
           "canonicalSignature": "():System.Security.Cryptography.X509Certificates.PublicKey",
           "normalizedSignature": "BuildPublicKey|():System.Security.Cryptography.X509Certificates.PublicKey|static=false",
           "emitScope": "ClassSurface",
@@ -12442,7 +12442,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SignatureGenerator::CreateForECDsa(System.Security.Cryptography.ECDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
           "clrName": "CreateForECDsa",
-          "metadataToken": 100669177,
+          "metadataToken": 100669180,
           "canonicalSignature": "(System.Security.Cryptography.ECDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
           "normalizedSignature": "CreateForECDsa|(System.Security.Cryptography.ECDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator|static=true",
           "emitScope": "ClassSurface",
@@ -12462,7 +12462,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SignatureGenerator::CreateForRSA(System.Security.Cryptography.RSA,System.Security.Cryptography.RSASignaturePadding):System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
           "clrName": "CreateForRSA",
-          "metadataToken": 100669178,
+          "metadataToken": 100669181,
           "canonicalSignature": "(System.Security.Cryptography.RSA,System.Security.Cryptography.RSASignaturePadding):System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
           "normalizedSignature": "CreateForRSA|(System.Security.Cryptography.RSA,System.Security.Cryptography.RSASignaturePadding):System.Security.Cryptography.X509Certificates.X509SignatureGenerator|static=true",
           "emitScope": "ClassSurface",
@@ -12482,7 +12482,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SignatureGenerator::CreateForMLDsa(System.Security.Cryptography.MLDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
           "clrName": "CreateForMLDsa",
-          "metadataToken": 100669179,
+          "metadataToken": 100669182,
           "canonicalSignature": "(System.Security.Cryptography.MLDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
           "normalizedSignature": "CreateForMLDsa|(System.Security.Cryptography.MLDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator|static=true",
           "emitScope": "ClassSurface",
@@ -12502,7 +12502,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SignatureGenerator::CreateForSlhDsa(System.Security.Cryptography.SlhDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
           "clrName": "CreateForSlhDsa",
-          "metadataToken": 100669180,
+          "metadataToken": 100669183,
           "canonicalSignature": "(System.Security.Cryptography.SlhDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
           "normalizedSignature": "CreateForSlhDsa|(System.Security.Cryptography.SlhDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator|static=true",
           "emitScope": "ClassSurface",
@@ -12522,7 +12522,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SignatureGenerator::CreateForCompositeMLDsa(System.Security.Cryptography.CompositeMLDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
           "clrName": "CreateForCompositeMLDsa",
-          "metadataToken": 100669181,
+          "metadataToken": 100669184,
           "canonicalSignature": "(System.Security.Cryptography.CompositeMLDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
           "normalizedSignature": "CreateForCompositeMLDsa|(System.Security.Cryptography.CompositeMLDsa):System.Security.Cryptography.X509Certificates.X509SignatureGenerator|static=true",
           "emitScope": "ClassSurface",
@@ -12566,7 +12566,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SignatureGenerator::.ctor():void",
-          "metadataToken": 100669182,
+          "metadataToken": 100669185,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -12602,7 +12602,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::Open(System.Security.Cryptography.X509Certificates.OpenFlags):System.Void",
           "clrName": "Open",
-          "metadataToken": 100669195,
+          "metadataToken": 100669198,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.OpenFlags):System.Void",
           "normalizedSignature": "Open|(System.Security.Cryptography.X509Certificates.OpenFlags):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -12622,7 +12622,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::Add(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void",
           "clrName": "Add",
-          "metadataToken": 100669198,
+          "metadataToken": 100669201,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void",
           "normalizedSignature": "Add|(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -12642,7 +12642,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::AddRange(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "clrName": "AddRange",
-          "metadataToken": 100669199,
+          "metadataToken": 100669202,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -12662,7 +12662,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::Remove(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void",
           "clrName": "Remove",
-          "metadataToken": 100669200,
+          "metadataToken": 100669203,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void",
           "normalizedSignature": "Remove|(System.Security.Cryptography.X509Certificates.X509Certificate2):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -12682,7 +12682,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::RemoveRange(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "clrName": "RemoveRange",
-          "metadataToken": 100669201,
+          "metadataToken": 100669204,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "normalizedSignature": "RemoveRange|(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -12702,7 +12702,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::Dispose():System.Void",
           "clrName": "Dispose",
-          "metadataToken": 100669202,
+          "metadataToken": 100669205,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -12722,7 +12722,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::Close():System.Void",
           "clrName": "Close",
-          "metadataToken": 100669203,
+          "metadataToken": 100669206,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -12863,7 +12863,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::.ctor():void",
-          "metadataToken": 100669183,
+          "metadataToken": 100669186,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -12874,7 +12874,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::.ctor(System.String):void",
-          "metadataToken": 100669184,
+          "metadataToken": 100669187,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -12885,7 +12885,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::.ctor(System.Security.Cryptography.X509Certificates.StoreName):void",
-          "metadataToken": 100669185,
+          "metadataToken": 100669188,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.StoreName):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.StoreName):void|static=false",
           "isStatic": false,
@@ -12896,7 +12896,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::.ctor(System.Security.Cryptography.X509Certificates.StoreLocation):void",
-          "metadataToken": 100669186,
+          "metadataToken": 100669189,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.StoreLocation):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.StoreLocation):void|static=false",
           "isStatic": false,
@@ -12907,7 +12907,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::.ctor(System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.StoreLocation):void",
-          "metadataToken": 100669187,
+          "metadataToken": 100669190,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.StoreLocation):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.StoreLocation):void|static=false",
           "isStatic": false,
@@ -12918,7 +12918,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::.ctor(System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.StoreLocation,System.Security.Cryptography.X509Certificates.OpenFlags):void",
-          "metadataToken": 100669188,
+          "metadataToken": 100669191,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.StoreLocation,System.Security.Cryptography.X509Certificates.OpenFlags):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.StoreLocation,System.Security.Cryptography.X509Certificates.OpenFlags):void|static=false",
           "isStatic": false,
@@ -12929,7 +12929,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::.ctor(System.String,System.Security.Cryptography.X509Certificates.StoreLocation):void",
-          "metadataToken": 100669189,
+          "metadataToken": 100669192,
           "canonicalSignature": "(System.String,System.Security.Cryptography.X509Certificates.StoreLocation):void",
           "normalizedSignature": "constructor|(System.String,System.Security.Cryptography.X509Certificates.StoreLocation):void|static=false",
           "isStatic": false,
@@ -12940,7 +12940,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::.ctor(System.String,System.Security.Cryptography.X509Certificates.StoreLocation,System.Security.Cryptography.X509Certificates.OpenFlags):void",
-          "metadataToken": 100669190,
+          "metadataToken": 100669193,
           "canonicalSignature": "(System.String,System.Security.Cryptography.X509Certificates.StoreLocation,System.Security.Cryptography.X509Certificates.OpenFlags):void",
           "normalizedSignature": "constructor|(System.String,System.Security.Cryptography.X509Certificates.StoreLocation,System.Security.Cryptography.X509Certificates.OpenFlags):void|static=false",
           "isStatic": false,
@@ -12951,7 +12951,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store::.ctor(System.IntPtr):void",
-          "metadataToken": 100669191,
+          "metadataToken": 100669194,
           "canonicalSignature": "(System.IntPtr):void",
           "normalizedSignature": "constructor|(System.IntPtr):void|static=false",
           "isStatic": false,
@@ -12981,7 +12981,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectAlternativeNameExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData):System.Void",
           "clrName": "CopyFrom",
-          "metadataToken": 100669207,
+          "metadataToken": 100669210,
           "canonicalSignature": "(System.Security.Cryptography.AsnEncodedData):System.Void",
           "normalizedSignature": "CopyFrom|(System.Security.Cryptography.AsnEncodedData):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -13001,7 +13001,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectAlternativeNameExtension::EnumerateDnsNames():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateDnsNames",
-          "metadataToken": 100669208,
+          "metadataToken": 100669211,
           "canonicalSignature": "():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "EnumerateDnsNames|():System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "emitScope": "ClassSurface",
@@ -13021,7 +13021,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectAlternativeNameExtension::EnumerateIPAddresses():System.Collections.Generic.IEnumerable_1[[System.Net.IPAddress,System.Net.Primitives,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "EnumerateIPAddresses",
-          "metadataToken": 100669210,
+          "metadataToken": 100669213,
           "canonicalSignature": "():System.Collections.Generic.IEnumerable_1[[System.Net.IPAddress,System.Net.Primitives,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "EnumerateIPAddresses|():System.Collections.Generic.IEnumerable_1[[System.Net.IPAddress,System.Net.Primitives,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "emitScope": "ClassSurface",
@@ -13045,7 +13045,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectAlternativeNameExtension::.ctor():void",
-          "metadataToken": 100669204,
+          "metadataToken": 100669207,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -13056,7 +13056,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectAlternativeNameExtension::.ctor(System.Byte[],System.Boolean):void",
-          "metadataToken": 100669205,
+          "metadataToken": 100669208,
           "canonicalSignature": "(System.Byte[],System.Boolean):void",
           "normalizedSignature": "constructor|(System.Byte[],System.Boolean):void|static=false",
           "isStatic": false,
@@ -13067,7 +13067,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectAlternativeNameExtension::.ctor(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void",
-          "metadataToken": 100669206,
+          "metadataToken": 100669209,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void",
           "normalizedSignature": "constructor|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void|static=false",
           "isStatic": false,
@@ -13097,7 +13097,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData):System.Void",
           "clrName": "CopyFrom",
-          "metadataToken": 100669240,
+          "metadataToken": 100669243,
           "canonicalSignature": "(System.Security.Cryptography.AsnEncodedData):System.Void",
           "normalizedSignature": "CopyFrom|(System.Security.Cryptography.AsnEncodedData):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -13160,7 +13160,7 @@
       "constructors": [
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor():void",
-          "metadataToken": 100669231,
+          "metadataToken": 100669234,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -13171,7 +13171,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean):void",
-          "metadataToken": 100669232,
+          "metadataToken": 100669235,
           "canonicalSignature": "(System.Security.Cryptography.AsnEncodedData,System.Boolean):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.AsnEncodedData,System.Boolean):void|static=false",
           "isStatic": false,
@@ -13182,7 +13182,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Byte[],System.Boolean):void",
-          "metadataToken": 100669233,
+          "metadataToken": 100669236,
           "canonicalSignature": "(System.Byte[],System.Boolean):void",
           "normalizedSignature": "constructor|(System.Byte[],System.Boolean):void|static=false",
           "isStatic": false,
@@ -13193,7 +13193,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void",
-          "metadataToken": 100669234,
+          "metadataToken": 100669237,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void",
           "normalizedSignature": "constructor|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):void|static=false",
           "isStatic": false,
@@ -13204,7 +13204,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.X509Certificates.PublicKey,System.Boolean):void",
-          "metadataToken": 100669235,
+          "metadataToken": 100669238,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.PublicKey,System.Boolean):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.PublicKey,System.Boolean):void|static=false",
           "isStatic": false,
@@ -13215,7 +13215,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.X509Certificates.PublicKey,System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm,System.Boolean):void",
-          "metadataToken": 100669236,
+          "metadataToken": 100669239,
           "canonicalSignature": "(System.Security.Cryptography.X509Certificates.PublicKey,System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm,System.Boolean):void",
           "normalizedSignature": "constructor|(System.Security.Cryptography.X509Certificates.PublicKey,System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm,System.Boolean):void|static=false",
           "isStatic": false,
@@ -13226,7 +13226,7 @@
         },
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.String,System.Boolean):void",
-          "metadataToken": 100669237,
+          "metadataToken": 100669240,
           "canonicalSignature": "(System.String,System.Boolean):void",
           "normalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
           "isStatic": false,

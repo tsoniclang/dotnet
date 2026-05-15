@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Runtime.Intrinsics/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { IAdditionOperators_3, IBitwiseOperators_3, IDivisionOperators_3, IEqualityOperators_3, IMultiplyOperators_3, IShiftOperators_3, ISubtractionOperators_3, IUnaryNegationOperators_2, IUnaryPlusOperators_2, Plane, Quaternion, Vector_1, Vector2, Vector3, Vector4 } from './System.Numerics/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Double, IEquatable_1, Int16, Int32, Int64, IntPtr, MidpointRounding, Object as ClrObject, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, UInt16, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueType, Void } from './System/internal/index.js';
@@ -22,28 +26,28 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type Vector128<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Vector128 :
-  Internal.Vector128_1<T1>;
+  [T1] extends [unknown] ? Internal.Vector128_1<T1> : never;
 
 export type Vector256<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Vector256 :
-  Internal.Vector256_1<T1>;
+  [T1] extends [unknown] ? Internal.Vector256_1<T1> : never;
 
 export type Vector512<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Vector512 :
-  Internal.Vector512_1<T1>;
+  [T1] extends [unknown] ? Internal.Vector512_1<T1> : never;
 
 export type Vector64<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Vector64 :
-  Internal.Vector64_1<T1>;
+  [T1] extends [unknown] ? Internal.Vector64_1<T1> : never;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Runtime_Intrinsics as ExtensionMethods } from './__internal/extensions/index.js';

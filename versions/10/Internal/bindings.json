@@ -23,7 +23,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "metadataToken": 100704799,
+          "metadataToken": 100704804,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -43,7 +43,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "metadataToken": 100704800,
+          "metadataToken": 100704805,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -63,7 +63,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console::Write(System.String):System.Void",
           "clrName": "Write",
-          "metadataToken": 100704801,
+          "metadataToken": 100704806,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -105,7 +105,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console\u002BError::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "metadataToken": 100704802,
+          "metadataToken": 100704807,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -125,7 +125,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console\u002BError::Write(System.String):System.Void",
           "clrName": "Write",
-          "metadataToken": 100704803,
+          "metadataToken": 100704808,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",

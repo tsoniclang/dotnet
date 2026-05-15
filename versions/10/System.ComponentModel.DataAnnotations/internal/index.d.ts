@@ -3,7 +3,7 @@
 // Assembly: System.ComponentModel.Annotations
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -50,14 +50,14 @@ export type IValidatableObject = IValidatableObject$instance;
 export interface AllowedValuesAttribute$instance extends ValidationAttribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_AllowedValuesAttribute: never;
 
-    readonly Values: (JsValue | null)[];
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    readonly Values: (unknown | null)[];
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
 export const AllowedValuesAttribute: {
-    new(values: (JsValue | null)[]): AllowedValuesAttribute;
+    new(values: (unknown | null)[]): AllowedValuesAttribute;
 };
 
 
@@ -66,9 +66,9 @@ export type AllowedValuesAttribute = AllowedValuesAttribute$instance;
 export interface AssociatedMetadataTypeTypeDescriptionProvider$instance extends TypeDescriptionProvider {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_AssociatedMetadataTypeTypeDescriptionProvider: never;
 
-    GetTypeDescriptor(objectType: Type, instance: JsValue | null): ICustomTypeDescriptor;
+    GetTypeDescriptor(objectType: Type, instance: unknown | null): ICustomTypeDescriptor;
     GetTypeDescriptor(objectType: Type): ICustomTypeDescriptor | null;
-    GetTypeDescriptor(instance: JsValue): ICustomTypeDescriptor | null;
+    GetTypeDescriptor(instance: unknown): ICustomTypeDescriptor | null;
 }
 
 
@@ -102,8 +102,8 @@ export type AssociationAttribute = AssociationAttribute$instance;
 export interface Base64StringAttribute$instance extends ValidationAttribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_Base64StringAttribute: never;
 
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -122,8 +122,8 @@ export interface CompareAttribute$instance extends ValidationAttribute {
     set OtherPropertyDisplayName(value: string | null);
     readonly RequiresValidationContext: boolean;
     FormatErrorMessage(name: string): string;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
-    IsValid(value: JsValue | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
 }
 
 
@@ -150,8 +150,8 @@ export type ConcurrencyCheckAttribute = ConcurrencyCheckAttribute$instance;
 export interface CreditCardAttribute$instance extends DataTypeAttribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_CreditCardAttribute: never;
 
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -167,11 +167,11 @@ export interface CustomValidationAttribute$instance extends ValidationAttribute 
 
     readonly Method: string;
     readonly RequiresValidationContext: boolean;
-    readonly TypeId: JsValue;
+    readonly TypeId: unknown;
     readonly ValidatorType: Type;
     FormatErrorMessage(name: string): string;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
-    IsValid(value: JsValue | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
 }
 
 
@@ -190,8 +190,8 @@ export interface DataTypeAttribute$instance extends ValidationAttribute {
     get DisplayFormat(): DisplayFormatAttribute | null;
     set DisplayFormat(value: DisplayFormatAttribute | null);
     GetDataTypeName(): string;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -206,14 +206,14 @@ export type DataTypeAttribute = DataTypeAttribute$instance;
 export interface DeniedValuesAttribute$instance extends ValidationAttribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_DeniedValuesAttribute: never;
 
-    readonly Values: (JsValue | null)[];
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    readonly Values: (unknown | null)[];
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
 export const DeniedValuesAttribute: {
-    new(values: (JsValue | null)[]): DeniedValuesAttribute;
+    new(values: (unknown | null)[]): DeniedValuesAttribute;
 };
 
 
@@ -314,8 +314,8 @@ export type EditableAttribute = EditableAttribute$instance;
 export interface EmailAddressAttribute$instance extends DataTypeAttribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_EmailAddressAttribute: never;
 
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -330,8 +330,8 @@ export interface EnumDataTypeAttribute$instance extends DataTypeAttribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_EnumDataTypeAttribute: never;
 
     readonly EnumType: Type;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -347,8 +347,8 @@ export interface FileExtensionsAttribute$instance extends DataTypeAttribute {
 
     Extensions: string;
     FormatErrorMessage(name: string): string;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -362,10 +362,10 @@ export type FileExtensionsAttribute = FileExtensionsAttribute$instance;
 export interface FilterUIHintAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_FilterUIHintAttribute: never;
 
-    readonly ControlParameters: IDictionary_2<System_Internal.String, JsValue | null>;
+    readonly ControlParameters: IDictionary_2<System_Internal.String, unknown | null>;
     readonly FilterUIHint: string;
     readonly PresentationLayer: string | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -373,7 +373,7 @@ export interface FilterUIHintAttribute$instance extends Attribute {
 export const FilterUIHintAttribute: {
     new(filterUIHint: string): FilterUIHintAttribute;
     new(filterUIHint: string, presentationLayer: string | null): FilterUIHintAttribute;
-    new(filterUIHint: string, presentationLayer: string | null, controlParameters: (JsValue | null)[]): FilterUIHintAttribute;
+    new(filterUIHint: string, presentationLayer: string | null, controlParameters: (unknown | null)[]): FilterUIHintAttribute;
 };
 
 
@@ -398,8 +398,8 @@ export interface LengthAttribute$instance extends ValidationAttribute {
     readonly MaximumLength: int;
     readonly MinimumLength: int;
     FormatErrorMessage(name: string): string;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -415,8 +415,8 @@ export interface MaxLengthAttribute$instance extends ValidationAttribute {
 
     readonly Length: int;
     FormatErrorMessage(name: string): string;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -447,8 +447,8 @@ export interface MinLengthAttribute$instance extends ValidationAttribute {
 
     readonly Length: int;
     FormatErrorMessage(name: string): string;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -462,8 +462,8 @@ export type MinLengthAttribute = MinLengthAttribute$instance;
 export interface PhoneAttribute$instance extends DataTypeAttribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_PhoneAttribute: never;
 
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -478,15 +478,15 @@ export interface RangeAttribute$instance extends ValidationAttribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_RangeAttribute: never;
 
     ConvertValueInInvariantCulture: boolean;
-    Maximum: JsValue;
+    Maximum: unknown;
     MaximumIsExclusive: boolean;
-    Minimum: JsValue;
+    Minimum: unknown;
     MinimumIsExclusive: boolean;
     readonly OperandType: Type;
     ParseLimitsInInvariantCulture: boolean;
     FormatErrorMessage(name: string): string;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -506,8 +506,8 @@ export interface RegularExpressionAttribute$instance extends ValidationAttribute
     MatchTimeoutInMilliseconds: int;
     readonly Pattern: string;
     FormatErrorMessage(name: string): string;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -522,8 +522,8 @@ export interface RequiredAttribute$instance extends ValidationAttribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_RequiredAttribute: never;
 
     AllowEmptyStrings: boolean;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -554,8 +554,8 @@ export interface StringLengthAttribute$instance extends ValidationAttribute {
     readonly MaximumLength: int;
     MinimumLength: int;
     FormatErrorMessage(name: string): string;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -582,10 +582,10 @@ export type TimestampAttribute = TimestampAttribute$instance;
 export interface UIHintAttribute$instance extends Attribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_UIHintAttribute: never;
 
-    readonly ControlParameters: IDictionary_2<System_Internal.String, JsValue | null>;
+    readonly ControlParameters: IDictionary_2<System_Internal.String, unknown | null>;
     readonly PresentationLayer: string | null;
     readonly UIHint: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -593,7 +593,7 @@ export interface UIHintAttribute$instance extends Attribute {
 export const UIHintAttribute: {
     new(uiHint: string): UIHintAttribute;
     new(uiHint: string, presentationLayer: string | null): UIHintAttribute;
-    new(uiHint: string, presentationLayer: string | null, controlParameters: (JsValue | null)[] | null): UIHintAttribute;
+    new(uiHint: string, presentationLayer: string | null, controlParameters: (unknown | null)[] | null): UIHintAttribute;
 };
 
 
@@ -602,8 +602,8 @@ export type UIHintAttribute = UIHintAttribute$instance;
 export interface UrlAttribute$instance extends DataTypeAttribute {
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_UrlAttribute: never;
 
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
 }
 
 
@@ -625,11 +625,11 @@ export interface ValidationAttribute$instance extends Attribute {
     set ErrorMessageResourceType(value: Type | null);
     readonly RequiresValidationContext: boolean;
     FormatErrorMessage(name: string): string;
-    GetValidationResult(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
-    IsValid(value: JsValue | null): boolean;
-    IsValid(value: JsValue | null, validationContext: ValidationContext): ValidationResult | null;
-    Validate(value: JsValue | null, name: string): void;
-    Validate(value: JsValue | null, validationContext: ValidationContext): void;
+    GetValidationResult(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
+    IsValid(value: unknown | null): boolean;
+    IsValid(value: unknown | null, validationContext: ValidationContext): ValidationResult | null;
+    Validate(value: unknown | null, name: string): void;
+    Validate(value: unknown | null, validationContext: ValidationContext): void;
 }
 
 
@@ -645,21 +645,21 @@ export interface ValidationContext$instance extends System_Internal.IServiceProv
     readonly __tsonic_iface_System_IServiceProvider: never;
 
     DisplayName: string;
-    readonly Items: IDictionary_2<JsValue, JsValue | null>;
+    readonly Items: IDictionary_2<unknown, unknown | null>;
     get MemberName(): string | null;
     set MemberName(value: string | null);
-    readonly ObjectInstance: JsValue;
+    readonly ObjectInstance: unknown;
     readonly ObjectType: Type;
-    GetService(serviceType: Type): JsValue | null;
-    InitializeServiceProvider(serviceProvider: Func_2<Type, JsValue | null>): void;
+    GetService(serviceType: Type): unknown | null;
+    InitializeServiceProvider(serviceProvider: Func_2<Type, unknown | null>): void;
 }
 
 
 export const ValidationContext: {
-    new(instance: JsValue): ValidationContext;
-    new(instance: JsValue, items: IDictionary_2<JsValue, JsValue | null> | null): ValidationContext;
-    new(instance: JsValue, serviceProvider: IServiceProvider | null, items: IDictionary_2<JsValue, JsValue | null> | null): ValidationContext;
-    new(instance: JsValue, displayName: string, serviceProvider: IServiceProvider | null, items: IDictionary_2<JsValue, JsValue | null> | null): ValidationContext;
+    new(instance: unknown): ValidationContext;
+    new(instance: unknown, items: IDictionary_2<unknown, unknown | null> | null): ValidationContext;
+    new(instance: unknown, serviceProvider: IServiceProvider | null, items: IDictionary_2<unknown, unknown | null> | null): ValidationContext;
+    new(instance: unknown, displayName: string, serviceProvider: IServiceProvider | null, items: IDictionary_2<unknown, unknown | null> | null): ValidationContext;
 };
 
 
@@ -677,13 +677,13 @@ export interface ValidationException$instance extends Exception, System_Runtime_
 
     readonly ValidationAttribute: ValidationAttribute | null;
     readonly ValidationResult: ValidationResult;
-    readonly Value: JsValue | null;
+    readonly Value: unknown | null;
 }
 
 
 export const ValidationException: {
-    new(validationResult: ValidationResult, validatingAttribute: ValidationAttribute | null, value: JsValue | null): ValidationException;
-    new(errorMessage: string | null, validatingAttribute: ValidationAttribute | null, value: JsValue | null): ValidationException;
+    new(validationResult: ValidationResult, validatingAttribute: ValidationAttribute | null, value: unknown | null): ValidationException;
+    new(errorMessage: string | null, validatingAttribute: ValidationAttribute | null, value: unknown | null): ValidationException;
     new(): ValidationException;
     new(message: string | null): ValidationException;
     new(message: string | null, innerException: Exception | null): ValidationException;
@@ -717,14 +717,14 @@ export const ValidationResult: {
 export type ValidationResult = ValidationResult$instance;
 
 export abstract class Validator$instance {
-    static TryValidateObject(instance: JsValue, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult> | null, validateAllProperties: boolean): boolean;
-    static TryValidateObject(instance: JsValue, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult> | null): boolean;
-    static TryValidateProperty(value: JsValue | null, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult> | null): boolean;
-    static TryValidateValue(value: JsValue | null, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult> | null, validationAttributes: IEnumerable_1<ValidationAttribute>): boolean;
-    static ValidateObject(instance: JsValue, validationContext: ValidationContext, validateAllProperties: boolean): void;
-    static ValidateObject(instance: JsValue, validationContext: ValidationContext): void;
-    static ValidateProperty(value: JsValue | null, validationContext: ValidationContext): void;
-    static ValidateValue(value: JsValue | null, validationContext: ValidationContext, validationAttributes: IEnumerable_1<ValidationAttribute>): void;
+    static TryValidateObject(instance: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult> | null, validateAllProperties: boolean): boolean;
+    static TryValidateObject(instance: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult> | null): boolean;
+    static TryValidateProperty(value: unknown | null, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult> | null): boolean;
+    static TryValidateValue(value: unknown | null, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult> | null, validationAttributes: IEnumerable_1<ValidationAttribute>): boolean;
+    static ValidateObject(instance: unknown, validationContext: ValidationContext, validateAllProperties: boolean): void;
+    static ValidateObject(instance: unknown, validationContext: ValidationContext): void;
+    static ValidateProperty(value: unknown | null, validationContext: ValidationContext): void;
+    static ValidateValue(value: unknown | null, validationContext: ValidationContext, validationAttributes: IEnumerable_1<ValidationAttribute>): void;
 }
 
 

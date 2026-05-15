@@ -3,7 +3,7 @@
 // Assembly: System.Net.Mail
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -32,7 +32,7 @@ export interface ContentDisposition$instance {
     readonly Parameters: StringDictionary;
     ReadDate: DateTime;
     Size: long;
-    Equals(rparam: JsValue | null): boolean;
+    Equals(rparam: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -56,7 +56,7 @@ export interface ContentType$instance {
     MediaType: string;
     Name: string;
     readonly Parameters: StringDictionary;
-    Equals(rparam: JsValue | null): boolean;
+    Equals(rparam: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }

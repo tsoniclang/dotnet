@@ -3,7 +3,7 @@
 // Assembly: System.Private.DataContractSerialization
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -49,21 +49,21 @@ export interface DataContractJsonSerializer$instance extends XmlObjectSerializer
     GetSerializationSurrogateProvider(): ISerializationSurrogateProvider | null;
     IsStartObject(reader: XmlReader): boolean;
     IsStartObject(reader: XmlDictionaryReader): boolean;
-    ReadObject(stream: Stream): JsValue | null;
-    ReadObject(reader: XmlReader): JsValue | null;
-    ReadObject(reader: XmlReader, verifyObjectName: boolean): JsValue | null;
-    ReadObject(reader: XmlDictionaryReader): JsValue | null;
-    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): JsValue | null;
+    ReadObject(stream: Stream): unknown | null;
+    ReadObject(reader: XmlReader): unknown | null;
+    ReadObject(reader: XmlReader, verifyObjectName: boolean): unknown | null;
+    ReadObject(reader: XmlDictionaryReader): unknown | null;
+    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | null;
     SetSerializationSurrogateProvider(provider: ISerializationSurrogateProvider | null): void;
     WriteEndObject(writer: XmlWriter): void;
     WriteEndObject(writer: XmlDictionaryWriter): void;
-    WriteObject(stream: Stream, graph: JsValue | null): void;
-    WriteObject(writer: XmlWriter, graph: JsValue | null): void;
-    WriteObject(writer: XmlDictionaryWriter, graph: JsValue | null): void;
-    WriteObjectContent(writer: XmlWriter, graph: JsValue | null): void;
-    WriteObjectContent(writer: XmlDictionaryWriter, graph: JsValue | null): void;
-    WriteStartObject(writer: XmlWriter, graph: JsValue | null): void;
-    WriteStartObject(writer: XmlDictionaryWriter, graph: JsValue | null): void;
+    WriteObject(stream: Stream, graph: unknown | null): void;
+    WriteObject(writer: XmlWriter, graph: unknown | null): void;
+    WriteObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
+    WriteObjectContent(writer: XmlWriter, graph: unknown | null): void;
+    WriteObjectContent(writer: XmlDictionaryWriter, graph: unknown | null): void;
+    WriteStartObject(writer: XmlWriter, graph: unknown | null): void;
+    WriteStartObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
 }
 
 

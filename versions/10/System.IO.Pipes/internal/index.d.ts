@@ -3,7 +3,7 @@
 // Assembly: System.IO.Pipes, System.IO.Pipes.AccessControl
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -179,7 +179,7 @@ export interface NamedPipeServerStream$instance extends PipeStream$instance, Sys
 
     readonly InBufferSize: int;
     readonly OutBufferSize: int;
-    BeginWaitForConnection(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginWaitForConnection(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     Disconnect(): void;
     EndWaitForConnection(asyncResult: IAsyncResult): void;
     Finalize(): void;
@@ -291,8 +291,8 @@ export interface PipeStream$instance extends Stream, System_Internal.IAsyncDispo
     ReadMode: PipeTransmissionMode;
     readonly SafePipeHandle: SafePipeHandle;
     readonly TransmissionMode: PipeTransmissionMode;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     CheckPipePropertyOperations(): void;
     Dispose(disposing: boolean): void;
     Dispose(): void;

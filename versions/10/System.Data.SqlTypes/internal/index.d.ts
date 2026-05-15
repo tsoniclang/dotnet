@@ -3,7 +3,7 @@
 // Assembly: System.Data.Common
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -58,9 +58,9 @@ export interface SqlBinary$instance extends INullable$instance, System_Xml_Seria
     readonly IsNull: boolean;
     readonly Length: int;
     readonly Value: byte[];
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlBinary): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlBinary): boolean;
     GetHashCode(): int;
     ToSqlGuid(): SqlGuid;
@@ -92,7 +92,7 @@ export interface __SqlBinary$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlBinary): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlBinary = SqlBinary$instance & __SqlBinary$views & { readonly [index: number]: byte; };
@@ -111,9 +111,9 @@ export interface SqlBoolean$instance extends INullable$instance, System_Xml_Seri
     readonly IsNull: boolean;
     readonly IsTrue: boolean;
     readonly Value: boolean;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlBoolean): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlBoolean): boolean;
     GetHashCode(): int;
     ToSqlByte(): SqlByte;
@@ -160,7 +160,7 @@ export interface __SqlBoolean$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlBoolean): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlBoolean = SqlBoolean$instance & __SqlBoolean$views;
@@ -176,9 +176,9 @@ export interface SqlByte$instance extends INullable$instance, System_Xml_Seriali
 
     readonly IsNull: boolean;
     readonly Value: byte;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlByte): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlByte): boolean;
     GetHashCode(): int;
     ToSqlBoolean(): SqlBoolean;
@@ -229,7 +229,7 @@ export interface __SqlByte$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlByte): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlByte = SqlByte$instance & __SqlByte$views;
@@ -247,9 +247,9 @@ export interface SqlDateTime$instance extends INullable$instance, System_Xml_Ser
     readonly IsNull: boolean;
     readonly TimeTicks: int;
     readonly Value: DateTime;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlDateTime): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlDateTime): boolean;
     GetHashCode(): int;
     ToSqlString(): SqlString;
@@ -291,7 +291,7 @@ export interface __SqlDateTime$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlDateTime): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlDateTime = SqlDateTime$instance & __SqlDateTime$views;
@@ -312,9 +312,9 @@ export interface SqlDecimal$instance extends INullable$instance, System_Xml_Seri
     readonly Precision: byte;
     readonly Scale: byte;
     readonly Value: decimal;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlDecimal): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlDecimal): boolean;
     GetHashCode(): int;
     ToDouble(): double;
@@ -376,7 +376,7 @@ export interface __SqlDecimal$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlDecimal): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlDecimal = SqlDecimal$instance & __SqlDecimal$views;
@@ -392,9 +392,9 @@ export interface SqlDouble$instance extends INullable$instance, System_Xml_Seria
 
     readonly IsNull: boolean;
     readonly Value: double;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlDouble): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlDouble): boolean;
     GetHashCode(): int;
     ToSqlBoolean(): SqlBoolean;
@@ -439,7 +439,7 @@ export interface __SqlDouble$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlDouble): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlDouble = SqlDouble$instance & __SqlDouble$views;
@@ -456,9 +456,9 @@ export interface SqlGuid$instance extends INullable$instance, System_Runtime_Ser
 
     readonly IsNull: boolean;
     readonly Value: Guid;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlGuid): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlGuid): boolean;
     GetHashCode(): int;
     ToByteArray(): byte[] | null;
@@ -494,7 +494,7 @@ export interface __SqlGuid$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlGuid): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlGuid = SqlGuid$instance & __SqlGuid$views;
@@ -510,9 +510,9 @@ export interface SqlInt16$instance extends INullable$instance, System_Xml_Serial
 
     readonly IsNull: boolean;
     readonly Value: short;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlInt16): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlInt16): boolean;
     GetHashCode(): int;
     ToSqlBoolean(): SqlBoolean;
@@ -563,7 +563,7 @@ export interface __SqlInt16$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlInt16): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlInt16 = SqlInt16$instance & __SqlInt16$views;
@@ -579,9 +579,9 @@ export interface SqlInt32$instance extends INullable$instance, System_Xml_Serial
 
     readonly IsNull: boolean;
     readonly Value: int;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlInt32): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlInt32): boolean;
     GetHashCode(): int;
     ToSqlBoolean(): SqlBoolean;
@@ -632,7 +632,7 @@ export interface __SqlInt32$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlInt32): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlInt32 = SqlInt32$instance & __SqlInt32$views;
@@ -648,9 +648,9 @@ export interface SqlInt64$instance extends INullable$instance, System_Xml_Serial
 
     readonly IsNull: boolean;
     readonly Value: long;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlInt64): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlInt64): boolean;
     GetHashCode(): int;
     ToSqlBoolean(): SqlBoolean;
@@ -701,7 +701,7 @@ export interface __SqlInt64$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlInt64): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlInt64 = SqlInt64$instance & __SqlInt64$views;
@@ -717,9 +717,9 @@ export interface SqlMoney$instance extends INullable$instance, System_Xml_Serial
 
     readonly IsNull: boolean;
     readonly Value: decimal;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlMoney): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlMoney): boolean;
     GetHashCode(): int;
     GetTdsValue(): long;
@@ -773,7 +773,7 @@ export interface __SqlMoney$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlMoney): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlMoney = SqlMoney$instance & __SqlMoney$views;
@@ -789,9 +789,9 @@ export interface SqlSingle$instance extends INullable$instance, System_Xml_Seria
 
     readonly IsNull: boolean;
     readonly Value: float;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlSingle): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlSingle): boolean;
     GetHashCode(): int;
     ToSqlBoolean(): SqlBoolean;
@@ -837,7 +837,7 @@ export interface __SqlSingle$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlSingle): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlSingle = SqlSingle$instance & __SqlSingle$views;
@@ -858,9 +858,9 @@ export interface SqlString$instance extends INullable$instance, System_Xml_Seria
     readonly SqlCompareOptions: SqlCompareOptions;
     readonly Value: string;
     Clone(): SqlString;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: SqlString): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: SqlString): boolean;
     GetHashCode(): int;
     GetNonUnicodeBytes(): byte[] | null;
@@ -916,7 +916,7 @@ export interface __SqlString$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlString): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SqlString = SqlString$instance & __SqlString$views;

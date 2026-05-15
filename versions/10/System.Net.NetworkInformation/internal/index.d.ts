@@ -3,7 +3,7 @@
 // Assembly: System.Net.NetworkInformation, System.Net.Ping, System.Net.Primitives
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -166,13 +166,13 @@ export enum TcpState {
 }
 
 
-export type NetworkAddressChangedEventHandler = (sender: JsValue | null, e: EventArgs) => void;
+export type NetworkAddressChangedEventHandler = (sender: unknown | null, e: EventArgs) => void;
 
 
-export type NetworkAvailabilityChangedEventHandler = (sender: JsValue | null, e: NetworkAvailabilityEventArgs) => void;
+export type NetworkAvailabilityChangedEventHandler = (sender: unknown | null, e: NetworkAvailabilityEventArgs) => void;
 
 
-export type PingCompletedEventHandler = (sender: JsValue, e: PingCompletedEventArgs) => void;
+export type PingCompletedEventHandler = (sender: unknown, e: PingCompletedEventArgs) => void;
 
 
 export interface GatewayIPAddressInformation$instance {
@@ -386,7 +386,7 @@ export interface IPGlobalProperties$instance {
     readonly HostName: string;
     readonly IsWinsProxy: boolean;
     readonly NodeType: NetBiosNodeType;
-    BeginGetUnicastAddresses(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginGetUnicastAddresses(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     EndGetUnicastAddresses(asyncResult: IAsyncResult): UnicastIPAddressInformationCollection;
     GetActiveTcpConnections(): TcpConnectionInformation[];
     GetActiveTcpListeners(): IPEndPoint[];
@@ -627,7 +627,7 @@ export const NetworkChange: {
 
 export type NetworkChange = NetworkChange$instance;
 
-export interface NetworkInformationException$instance extends Win32Exception {
+export interface NetworkInformationException$instance extends Win32Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_NetworkInformation_NetworkInformationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -681,7 +681,7 @@ export type NetworkInterface = NetworkInterface$instance;
 export interface PhysicalAddress$instance {
     readonly __tsonic_type_System_Net_NetworkInformation_PhysicalAddress: never;
 
-    Equals(comparand: JsValue | null): boolean;
+    Equals(comparand: unknown | null): boolean;
     GetAddressBytes(): byte[];
     GetHashCode(): int;
     ToString(): string;
@@ -718,14 +718,14 @@ export interface Ping$instance extends Component {
     Send(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null): PingReply;
     Send(address: IPAddress, timeout: TimeSpan, buffer?: byte[] | null, options?: PingOptions | null): PingReply;
     Send(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[] | null, options?: PingOptions | null): PingReply;
-    SendAsync(hostNameOrAddress: string, userToken: JsValue | null): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, userToken: JsValue | null): void;
-    SendAsync(address: IPAddress, userToken: JsValue | null): void;
-    SendAsync(address: IPAddress, timeout: int, userToken: JsValue | null): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], userToken: JsValue | null): void;
-    SendAsync(address: IPAddress, timeout: int, buffer: byte[], userToken: JsValue | null): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null, userToken: JsValue | null): void;
-    SendAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null, userToken: JsValue | null): void;
+    SendAsync(hostNameOrAddress: string, userToken: unknown | null): void;
+    SendAsync(hostNameOrAddress: string, timeout: int, userToken: unknown | null): void;
+    SendAsync(address: IPAddress, userToken: unknown | null): void;
+    SendAsync(address: IPAddress, timeout: int, userToken: unknown | null): void;
+    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], userToken: unknown | null): void;
+    SendAsync(address: IPAddress, timeout: int, buffer: byte[], userToken: unknown | null): void;
+    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null, userToken: unknown | null): void;
+    SendAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null, userToken: unknown | null): void;
     SendAsyncCancel(): void;
     SendPingAsync(address: IPAddress): Task_1<PingReply>;
     SendPingAsync(hostNameOrAddress: string): Task_1<PingReply>;

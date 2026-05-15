@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Runtime.CompilerServices/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { ICollection_1, IEnumerable_1, IEnumerator_1, IList_1, KeyValuePair_2 } from './System.Collections.Generic/internal/index.js';
 import type { ReadOnlyCollection_1 } from './System.Collections.ObjectModel/internal/index.js';
@@ -183,50 +187,50 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type AsyncTaskMethodBuilder<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.AsyncTaskMethodBuilder :
-  Internal.AsyncTaskMethodBuilder_1<T1>;
+  [T1] extends [unknown] ? Internal.AsyncTaskMethodBuilder_1<T1> : never;
 
 export type AsyncValueTaskMethodBuilder<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.AsyncValueTaskMethodBuilder :
-  Internal.AsyncValueTaskMethodBuilder_1<T1>;
+  [T1] extends [unknown] ? Internal.AsyncValueTaskMethodBuilder_1<T1> : never;
 
 export type CallSite<
-  T1 = __,
+  T1 extends (object | null) | __ = __,
 > =
   [T1] extends [__] ? Internal.CallSite :
-  Internal.CallSite_1<T1>;
+  [T1] extends [(object | null)] ? Internal.CallSite_1<T1> : never;
 
 export type ConfiguredTaskAwaitable<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ConfiguredTaskAwaitable :
-  Internal.ConfiguredTaskAwaitable_1<T1>;
+  [T1] extends [unknown] ? Internal.ConfiguredTaskAwaitable_1<T1> : never;
 
 export type ConfiguredValueTaskAwaitable<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ConfiguredValueTaskAwaitable :
-  Internal.ConfiguredValueTaskAwaitable_1<T1>;
+  [T1] extends [unknown] ? Internal.ConfiguredValueTaskAwaitable_1<T1> : never;
 
 export type PoolingAsyncValueTaskMethodBuilder<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.PoolingAsyncValueTaskMethodBuilder :
-  Internal.PoolingAsyncValueTaskMethodBuilder_1<T1>;
+  [T1] extends [unknown] ? Internal.PoolingAsyncValueTaskMethodBuilder_1<T1> : never;
 
 export type TaskAwaiter<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.TaskAwaiter :
-  Internal.TaskAwaiter_1<T1>;
+  [T1] extends [unknown] ? Internal.TaskAwaiter_1<T1> : never;
 
 export type ValueTaskAwaiter<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ValueTaskAwaiter :
-  Internal.ValueTaskAwaiter_1<T1>;
+  [T1] extends [unknown] ? Internal.ValueTaskAwaiter_1<T1> : never;
 

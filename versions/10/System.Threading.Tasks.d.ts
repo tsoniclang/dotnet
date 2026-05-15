@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Threading.Tasks/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { OrderablePartitioner_1, Partitioner_1 } from './System.Collections.Concurrent/internal/index.js';
 import type { IAsyncEnumerable_1, IEnumerable_1 } from './System.Collections.Generic/internal/index.js';
@@ -46,28 +50,28 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type Task<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Task :
-  Internal.Task_1<T1>;
+  [T1] extends [unknown] ? Internal.Task_1<T1> : never;
 
 export type TaskCompletionSource<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.TaskCompletionSource :
-  Internal.TaskCompletionSource_1<T1>;
+  [T1] extends [unknown] ? Internal.TaskCompletionSource_1<T1> : never;
 
 export type TaskFactory<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.TaskFactory :
-  Internal.TaskFactory_1<T1>;
+  [T1] extends [unknown] ? Internal.TaskFactory_1<T1> : never;
 
 export type ValueTask<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ValueTask :
-  Internal.ValueTask_1<T1>;
+  [T1] extends [unknown] ? Internal.ValueTask_1<T1> : never;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Threading_Tasks as ExtensionMethods } from './__internal/extensions/index.js';

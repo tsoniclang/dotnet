@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib, System.Threading, System.Threading.AccessControl
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -72,31 +72,31 @@ export enum ThreadState {
 }
 
 
-export type ContextCallback = (state: JsValue | null) => void;
+export type ContextCallback = (state: unknown | null) => void;
 
 
 export type IOCompletionCallback = (errorCode: uint, numBytes: uint, pOVERLAP: ptr<NativeOverlapped>) => void;
 
 
-export type ParameterizedThreadStart = (obj: JsValue | null) => void;
+export type ParameterizedThreadStart = (obj: unknown | null) => void;
 
 
-export type SendOrPostCallback = (state: JsValue | null) => void;
+export type SendOrPostCallback = (state: unknown | null) => void;
 
 
-export type ThreadExceptionEventHandler = (sender: JsValue, e: ThreadExceptionEventArgs) => void;
+export type ThreadExceptionEventHandler = (sender: unknown, e: ThreadExceptionEventArgs) => void;
 
 
 export type ThreadStart = () => void;
 
 
-export type TimerCallback = (state: JsValue | null) => void;
+export type TimerCallback = (state: unknown | null) => void;
 
 
-export type WaitCallback = (state: JsValue | null) => void;
+export type WaitCallback = (state: unknown | null) => void;
 
 
-export type WaitOrTimerCallback = (state: JsValue | null, timedOut: boolean) => void;
+export type WaitOrTimerCallback = (state: unknown | null, timedOut: boolean) => void;
 
 
 export interface IThreadPoolWorkItem$instance {
@@ -128,7 +128,7 @@ export interface AsyncFlowControl$instance extends System_Internal.IDisposable$i
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     Dispose(): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: AsyncFlowControl): boolean;
     GetHashCode(): int;
     Undo(): void;
@@ -151,7 +151,7 @@ export interface __AsyncFlowControl$views {
 export type AsyncFlowControl = AsyncFlowControl$instance & __AsyncFlowControl$views;
 
 
-export interface AsyncLocalValueChangedArgs_1$instance<T> {
+export interface AsyncLocalValueChangedArgs_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Threading_AsyncLocalValueChangedArgs_1: never;
 
     readonly CurrentValue: T | null;
@@ -161,11 +161,11 @@ export interface AsyncLocalValueChangedArgs_1$instance<T> {
 
 
 export const AsyncLocalValueChangedArgs_1: {
-    new<T>(): AsyncLocalValueChangedArgs_1<T>;
+    new<T extends unknown>(): AsyncLocalValueChangedArgs_1<T>;
 };
 
 
-export type AsyncLocalValueChangedArgs_1<T> = AsyncLocalValueChangedArgs_1$instance<T>;
+export type AsyncLocalValueChangedArgs_1<T extends unknown> = AsyncLocalValueChangedArgs_1$instance<T>;
 
 export interface CancellationToken$instance {
     readonly __tsonic_type_System_Threading_CancellationToken: never;
@@ -176,16 +176,16 @@ export interface CancellationToken$instance {
     readonly IsCancellationRequested: boolean;
     readonly WaitHandle: WaitHandle;
     Equals(other: CancellationToken): boolean;
-    Equals(other: JsValue | null): boolean;
+    Equals(other: unknown | null): boolean;
     GetHashCode(): int;
     Register(callback: Action): CancellationTokenRegistration;
     Register(callback: Action, useSynchronizationContext: boolean): CancellationTokenRegistration;
-    Register(callback: Action_1<JsValue | null>, state: JsValue | null): CancellationTokenRegistration;
-    Register(callback: Action_2<JsValue | null, CancellationToken>, state: JsValue | null): CancellationTokenRegistration;
-    Register(callback: Action_1<JsValue | null>, state: JsValue | null, useSynchronizationContext: boolean): CancellationTokenRegistration;
+    Register(callback: Action_1<unknown | null>, state: unknown | null): CancellationTokenRegistration;
+    Register(callback: Action_2<unknown | null, CancellationToken>, state: unknown | null): CancellationTokenRegistration;
+    Register(callback: Action_1<unknown | null>, state: unknown | null, useSynchronizationContext: boolean): CancellationTokenRegistration;
     ThrowIfCancellationRequested(): void;
-    UnsafeRegister(callback: Action_1<JsValue | null>, state: JsValue | null): CancellationTokenRegistration;
-    UnsafeRegister(callback: Action_2<JsValue | null, CancellationToken>, state: JsValue | null): CancellationTokenRegistration;
+    UnsafeRegister(callback: Action_1<unknown | null>, state: unknown | null): CancellationTokenRegistration;
+    UnsafeRegister(callback: Action_2<unknown | null, CancellationToken>, state: unknown | null): CancellationTokenRegistration;
 }
 
 
@@ -215,7 +215,7 @@ export interface CancellationTokenRegistration$instance extends System_Internal.
     readonly Token: CancellationToken;
     Dispose(): void;
     DisposeAsync(): ValueTask;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: CancellationTokenRegistration): boolean;
     GetHashCode(): int;
     Unregister(): boolean;
@@ -244,7 +244,7 @@ export interface LockCookie$instance {
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: LockCookie): boolean;
     GetHashCode(): int;
 }
@@ -368,7 +368,7 @@ export interface __AbandonedMutexException$views {
 export type AbandonedMutexException = AbandonedMutexException$instance & __AbandonedMutexException$views;
 
 
-export interface AsyncLocal_1$instance<T> {
+export interface AsyncLocal_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Threading_AsyncLocal_1: never;
 
     readonly __tsonic_iface_System_Threading_IAsyncLocal: never;
@@ -378,12 +378,12 @@ export interface AsyncLocal_1$instance<T> {
 
 
 export const AsyncLocal_1: {
-    new<T>(): AsyncLocal_1<T>;
-    new<T>(valueChangedHandler: Action_1<AsyncLocalValueChangedArgs_1<T>> | null): AsyncLocal_1<T>;
+    new<T extends unknown>(): AsyncLocal_1<T>;
+    new<T extends unknown>(valueChangedHandler: Action_1<AsyncLocalValueChangedArgs_1<T>> | null): AsyncLocal_1<T>;
 };
 
 
-export type AsyncLocal_1<T> = AsyncLocal_1$instance<T>;
+export type AsyncLocal_1<T extends unknown> = AsyncLocal_1$instance<T>;
 
 export interface AutoResetEvent$instance extends EventWaitHandle$instance {
     readonly __tsonic_type_System_Threading_AutoResetEvent: never;
@@ -514,7 +514,7 @@ export interface CompressedStack$instance extends System_Runtime_Serialization_I
 export const CompressedStack: {
     Capture(): CompressedStack;
     GetCompressedStack(): CompressedStack;
-    Run(compressedStack: CompressedStack, callback: ContextCallback, state: JsValue | null): void;
+    Run(compressedStack: CompressedStack, callback: ContextCallback, state: unknown | null): void;
 };
 
 
@@ -612,7 +612,7 @@ export const ExecutionContext: {
     IsFlowSuppressed(): boolean;
     Restore(executionContext: ExecutionContext): void;
     RestoreFlow(): void;
-    Run(executionContext: ExecutionContext, callback: ContextCallback, state: JsValue | null): void;
+    Run(executionContext: ExecutionContext, callback: ContextCallback, state: unknown | null): void;
     SuppressFlow(): AsyncFlowControl;
 };
 
@@ -638,7 +638,7 @@ export interface HostExecutionContext$instance {
 
 export const HostExecutionContext: {
     new(): HostExecutionContext;
-    new(state: JsValue | null): HostExecutionContext;
+    new(state: unknown | null): HostExecutionContext;
 };
 
 
@@ -653,8 +653,8 @@ export interface HostExecutionContextManager$instance {
     readonly __tsonic_type_System_Threading_HostExecutionContextManager: never;
 
     Capture(): HostExecutionContext | null;
-    Revert(previousState: JsValue): void;
-    SetHostExecutionContext(hostExecutionContext: HostExecutionContext): JsValue;
+    Revert(previousState: unknown): void;
+    SetHostExecutionContext(hostExecutionContext: HostExecutionContext): unknown;
 }
 
 
@@ -816,9 +816,9 @@ export interface Overlapped$instance {
     OffsetHigh: int;
     OffsetLow: int;
     Pack(iocb: IOCompletionCallback | null): ptr<NativeOverlapped>;
-    Pack(iocb: IOCompletionCallback | null, userData: JsValue | null): ptr<NativeOverlapped>;
+    Pack(iocb: IOCompletionCallback | null, userData: unknown | null): ptr<NativeOverlapped>;
     UnsafePack(iocb: IOCompletionCallback | null): ptr<NativeOverlapped>;
-    UnsafePack(iocb: IOCompletionCallback | null, userData: JsValue | null): ptr<NativeOverlapped>;
+    UnsafePack(iocb: IOCompletionCallback | null, userData: unknown | null): ptr<NativeOverlapped>;
 }
 
 
@@ -868,8 +868,8 @@ export interface PreAllocatedOverlapped$instance extends System_Internal.IDispos
 
 
 export const PreAllocatedOverlapped: {
-    new(callback: IOCompletionCallback, state: JsValue | null, pinData: JsValue | null): PreAllocatedOverlapped;
-    UnsafeCreate(callback: IOCompletionCallback, state: JsValue | null, pinData: JsValue | null): PreAllocatedOverlapped;
+    new(callback: IOCompletionCallback, state: unknown | null, pinData: unknown | null): PreAllocatedOverlapped;
+    UnsafeCreate(callback: IOCompletionCallback, state: unknown | null, pinData: unknown | null): PreAllocatedOverlapped;
 };
 
 
@@ -1064,8 +1064,8 @@ export interface SynchronizationContext$instance {
     IsWaitNotificationRequired(): boolean;
     OperationCompleted(): void;
     OperationStarted(): void;
-    Post(d: SendOrPostCallback, state: JsValue | null): void;
-    Send(d: SendOrPostCallback, state: JsValue | null): void;
+    Post(d: SendOrPostCallback, state: unknown | null): void;
+    Send(d: SendOrPostCallback, state: unknown | null): void;
     Wait(waitHandles: nint[], waitAll: boolean, millisecondsTimeout: int): int;
 }
 
@@ -1118,7 +1118,7 @@ export interface Thread$instance extends CriticalFinalizerObject {
     Priority: ThreadPriority;
     readonly ThreadState: ThreadState;
     Abort(): void;
-    Abort(stateInfo: JsValue | null): void;
+    Abort(stateInfo: unknown | null): void;
     DisableComObjectEagerCleanup(): void;
     Finalize(): void;
     GetApartmentState(): ApartmentState;
@@ -1131,11 +1131,11 @@ export interface Thread$instance extends CriticalFinalizerObject {
     Resume(): void;
     SetApartmentState(state: ApartmentState): void;
     SetCompressedStack(stack: CompressedStack): void;
-    Start(parameter: JsValue | null): void;
+    Start(parameter: unknown | null): void;
     Start(): void;
     Suspend(): void;
     TrySetApartmentState(state: ApartmentState): boolean;
-    UnsafeStart(parameter: JsValue | null): void;
+    UnsafeStart(parameter: unknown | null): void;
     UnsafeStart(): void;
 }
 
@@ -1156,13 +1156,13 @@ export const Thread: {
     EndThreadAffinity(): void;
     FreeNamedDataSlot(name: string): void;
     GetCurrentProcessorId(): int;
-    GetData(slot: LocalDataStoreSlot): JsValue | null;
+    GetData(slot: LocalDataStoreSlot): unknown | null;
     GetDomain(): AppDomain;
     GetDomainID(): int;
     GetNamedDataSlot(name: string): LocalDataStoreSlot;
     MemoryBarrier(): void;
     ResetAbort(): void;
-    SetData(slot: LocalDataStoreSlot, data: JsValue | null): void;
+    SetData(slot: LocalDataStoreSlot, data: unknown | null): void;
     Sleep(millisecondsTimeout: int): void;
     Sleep(timeout: TimeSpan): void;
     SpinWait(iterations: int): void;
@@ -1172,7 +1172,7 @@ export const Thread: {
     VolatileRead(address: int): int;
     VolatileRead(address: long): long;
     VolatileRead(address: nint): nint;
-    VolatileRead(address: JsValue | null): JsValue | null;
+    VolatileRead(address: unknown | null): unknown | null;
     VolatileRead(address: sbyte): sbyte;
     VolatileRead(address: float): float;
     VolatileRead(address: ushort): ushort;
@@ -1185,7 +1185,7 @@ export const Thread: {
     VolatileWrite(address: int, value: int): void;
     VolatileWrite(address: long, value: long): void;
     VolatileWrite(address: nint, value: nint): void;
-    VolatileWrite(address: JsValue | null, value: JsValue | null): void;
+    VolatileWrite(address: unknown | null, value: unknown | null): void;
     VolatileWrite(address: sbyte, value: sbyte): void;
     VolatileWrite(address: float, value: float): void;
     VolatileWrite(address: ushort, value: ushort): void;
@@ -1203,7 +1203,7 @@ export interface ThreadAbortException$instance extends SystemException, System_R
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly ExceptionState: JsValue | null;
+    readonly ExceptionState: unknown | null;
 }
 
 
@@ -1254,7 +1254,7 @@ export interface __ThreadInterruptedException$views {
 export type ThreadInterruptedException = ThreadInterruptedException$instance & __ThreadInterruptedException$views;
 
 
-export interface ThreadLocal_1$instance<T> {
+export interface ThreadLocal_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Threading_ThreadLocal_1: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1270,18 +1270,18 @@ export interface ThreadLocal_1$instance<T> {
 
 
 export const ThreadLocal_1: {
-    new<T>(): ThreadLocal_1<T>;
-    new<T>(trackAllValues: boolean): ThreadLocal_1<T>;
-    new<T>(valueFactory: Func_1<T>): ThreadLocal_1<T>;
-    new<T>(valueFactory: Func_1<T>, trackAllValues: boolean): ThreadLocal_1<T>;
+    new<T extends unknown>(): ThreadLocal_1<T>;
+    new<T extends unknown>(trackAllValues: boolean): ThreadLocal_1<T>;
+    new<T extends unknown>(valueFactory: Func_1<T>): ThreadLocal_1<T>;
+    new<T extends unknown>(valueFactory: Func_1<T>, trackAllValues: boolean): ThreadLocal_1<T>;
 };
 
 
-export interface __ThreadLocal_1$views<T> {
+export interface __ThreadLocal_1$views<T extends unknown> {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export type ThreadLocal_1<T> = ThreadLocal_1$instance<T> & __ThreadLocal_1$views<T>;
+export type ThreadLocal_1<T extends unknown> = ThreadLocal_1$instance<T> & __ThreadLocal_1$views<T>;
 
 
 export interface ThreadPoolBoundHandle$instance extends System_Internal.IDisposable$instance {
@@ -1290,17 +1290,17 @@ export interface ThreadPoolBoundHandle$instance extends System_Internal.IDisposa
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Handle: SafeHandle;
-    AllocateNativeOverlapped(callback: IOCompletionCallback, state: JsValue | null, pinData: JsValue | null): ptr<NativeOverlapped>;
+    AllocateNativeOverlapped(callback: IOCompletionCallback, state: unknown | null, pinData: unknown | null): ptr<NativeOverlapped>;
     AllocateNativeOverlapped(preAllocated: PreAllocatedOverlapped): ptr<NativeOverlapped>;
     Dispose(): void;
     FreeNativeOverlapped(overlapped: ptr<NativeOverlapped>): void;
-    UnsafeAllocateNativeOverlapped(callback: IOCompletionCallback, state: JsValue | null, pinData: JsValue | null): ptr<NativeOverlapped>;
+    UnsafeAllocateNativeOverlapped(callback: IOCompletionCallback, state: unknown | null, pinData: unknown | null): ptr<NativeOverlapped>;
 }
 
 
 export const ThreadPoolBoundHandle: {
     BindHandle(handle: SafeHandle): ThreadPoolBoundHandle;
-    GetNativeOverlappedState(overlapped: ptr<NativeOverlapped>): JsValue | null;
+    GetNativeOverlappedState(overlapped: ptr<NativeOverlapped>): unknown | null;
 };
 
 
@@ -1370,10 +1370,10 @@ export interface Timer$instance extends MarshalByRefObject {
 
 
 export const Timer: {
-    new(callback: TimerCallback, state: JsValue | null, dueTime: int, period: int): Timer;
-    new(callback: TimerCallback, state: JsValue | null, dueTime: TimeSpan, period: TimeSpan): Timer;
-    new(callback: TimerCallback, state: JsValue | null, dueTime: uint, period: uint): Timer;
-    new(callback: TimerCallback, state: JsValue | null, dueTime: long, period: long): Timer;
+    new(callback: TimerCallback, state: unknown | null, dueTime: int, period: int): Timer;
+    new(callback: TimerCallback, state: unknown | null, dueTime: TimeSpan, period: TimeSpan): Timer;
+    new(callback: TimerCallback, state: unknown | null, dueTime: uint, period: uint): Timer;
+    new(callback: TimerCallback, state: unknown | null, dueTime: long, period: long): Timer;
     new(callback: TimerCallback): Timer;
     readonly ActiveCount: long;
 };
@@ -1478,14 +1478,14 @@ export abstract class Interlocked$instance {
     static CompareExchange(location1: int, value: int, comparand: int): int;
     static CompareExchange(location1: long, value: long, comparand: long): long;
     static CompareExchange(location1: nint, value: nint, comparand: nint): nint;
-    static CompareExchange(location1: JsValue | null, value: JsValue | null, comparand: JsValue | null): JsValue | null;
+    static CompareExchange(location1: unknown | null, value: unknown | null, comparand: unknown | null): unknown | null;
     static CompareExchange(location1: sbyte, value: sbyte, comparand: sbyte): sbyte;
     static CompareExchange(location1: float, value: float, comparand: float): float;
     static CompareExchange(location1: ushort, value: ushort, comparand: ushort): ushort;
     static CompareExchange(location1: uint, value: uint, comparand: uint): uint;
     static CompareExchange(location1: ulong, value: ulong, comparand: ulong): ulong;
     static CompareExchange(location1: nuint, value: nuint, comparand: nuint): nuint;
-    static CompareExchange<T>(location1: T, value: T, comparand: T): T;
+    static CompareExchange<T extends unknown>(location1: T, value: T, comparand: T): T;
     static Decrement(location: int): int;
     static Decrement(location: long): long;
     static Decrement(location: uint): uint;
@@ -1496,14 +1496,14 @@ export abstract class Interlocked$instance {
     static Exchange(location1: int, value: int): int;
     static Exchange(location1: long, value: long): long;
     static Exchange(location1: nint, value: nint): nint;
-    static Exchange(location1: JsValue | null, value: JsValue | null): JsValue | null;
+    static Exchange(location1: unknown | null, value: unknown | null): unknown | null;
     static Exchange(location1: sbyte, value: sbyte): sbyte;
     static Exchange(location1: float, value: float): float;
     static Exchange(location1: ushort, value: ushort): ushort;
     static Exchange(location1: uint, value: uint): uint;
     static Exchange(location1: ulong, value: ulong): ulong;
     static Exchange(location1: nuint, value: nuint): nuint;
-    static Exchange<T>(location1: T, value: T): T;
+    static Exchange<T extends unknown>(location1: T, value: T): T;
     static Increment(location: int): int;
     static Increment(location: long): long;
     static Increment(location: uint): uint;
@@ -1522,11 +1522,11 @@ export abstract class Interlocked$instance {
 export type Interlocked = Interlocked$instance;
 
 export abstract class LazyInitializer$instance {
-    static EnsureInitialized<T>(target: T | null, valueFactory: Func_1<T>): T;
-    static EnsureInitialized<T>(target: T, initialized: boolean, syncLock: JsValue | null, valueFactory: Func_1<T>): T;
-    static EnsureInitialized<T>(target: T, initialized: boolean, syncLock: JsValue | null): T;
-    static EnsureInitialized<T>(target: T | null, syncLock: JsValue | null, valueFactory: Func_1<T>): T;
-    static EnsureInitialized<T>(target: T | null): T;
+    static EnsureInitialized<T extends (object | null)>(target: T | null, valueFactory: Func_1<T>): T;
+    static EnsureInitialized<T extends unknown>(target: T, initialized: boolean, syncLock: unknown | null, valueFactory: Func_1<T>): T;
+    static EnsureInitialized<T extends unknown>(target: T, initialized: boolean, syncLock: unknown | null): T;
+    static EnsureInitialized<T extends (object | null)>(target: T | null, syncLock: unknown | null, valueFactory: Func_1<T>): T;
+    static EnsureInitialized<T extends (object | null)>(target: T | null): T;
 }
 
 
@@ -1534,23 +1534,23 @@ export type LazyInitializer = LazyInitializer$instance;
 
 export abstract class Monitor$instance {
     static readonly LockContentionCount: long;
-    static Enter(obj: JsValue, lockTaken: boolean): void;
-    static Enter(obj: JsValue): void;
-    static Exit(obj: JsValue): void;
-    static IsEntered(obj: JsValue): boolean;
-    static Pulse(obj: JsValue): void;
-    static PulseAll(obj: JsValue): void;
-    static TryEnter(obj: JsValue, lockTaken: boolean): void;
-    static TryEnter(obj: JsValue, millisecondsTimeout: int, lockTaken: boolean): void;
-    static TryEnter(obj: JsValue, millisecondsTimeout: int): boolean;
-    static TryEnter(obj: JsValue, timeout: TimeSpan, lockTaken: boolean): void;
-    static TryEnter(obj: JsValue, timeout: TimeSpan): boolean;
-    static TryEnter(obj: JsValue): boolean;
-    static Wait(obj: JsValue, millisecondsTimeout: int, exitContext: boolean): boolean;
-    static Wait(obj: JsValue, millisecondsTimeout: int): boolean;
-    static Wait(obj: JsValue, timeout: TimeSpan, exitContext: boolean): boolean;
-    static Wait(obj: JsValue, timeout: TimeSpan): boolean;
-    static Wait(obj: JsValue): boolean;
+    static Enter(obj: unknown, lockTaken: boolean): void;
+    static Enter(obj: unknown): void;
+    static Exit(obj: unknown): void;
+    static IsEntered(obj: unknown): boolean;
+    static Pulse(obj: unknown): void;
+    static PulseAll(obj: unknown): void;
+    static TryEnter(obj: unknown, lockTaken: boolean): void;
+    static TryEnter(obj: unknown, millisecondsTimeout: int, lockTaken: boolean): void;
+    static TryEnter(obj: unknown, millisecondsTimeout: int): boolean;
+    static TryEnter(obj: unknown, timeout: TimeSpan, lockTaken: boolean): void;
+    static TryEnter(obj: unknown, timeout: TimeSpan): boolean;
+    static TryEnter(obj: unknown): boolean;
+    static Wait(obj: unknown, millisecondsTimeout: int, exitContext: boolean): boolean;
+    static Wait(obj: unknown, millisecondsTimeout: int): boolean;
+    static Wait(obj: unknown, timeout: TimeSpan, exitContext: boolean): boolean;
+    static Wait(obj: unknown, timeout: TimeSpan): boolean;
+    static Wait(obj: unknown): boolean;
 }
 
 
@@ -1595,23 +1595,23 @@ export abstract class ThreadPool$instance {
     static GetAvailableThreads(workerThreads: int, completionPortThreads: int): void;
     static GetMaxThreads(workerThreads: int, completionPortThreads: int): void;
     static GetMinThreads(workerThreads: int, completionPortThreads: int): void;
-    static QueueUserWorkItem<TState>(callBack: Action_1<TState>, state: TState, preferLocal: boolean): boolean;
-    static QueueUserWorkItem(callBack: WaitCallback, state: JsValue | null): boolean;
+    static QueueUserWorkItem<TState extends unknown>(callBack: Action_1<TState>, state: TState, preferLocal: boolean): boolean;
+    static QueueUserWorkItem(callBack: WaitCallback, state: unknown | null): boolean;
     static QueueUserWorkItem(callBack: WaitCallback): boolean;
-    static RegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: JsValue | null, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static RegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: JsValue | null, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static RegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: JsValue | null, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static RegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: JsValue | null, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static RegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown | null, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static RegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown | null, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static RegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown | null, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static RegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown | null, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
     static SetMaxThreads(workerThreads: int, completionPortThreads: int): boolean;
     static SetMinThreads(workerThreads: int, completionPortThreads: int): boolean;
     static UnsafeQueueNativeOverlapped(overlapped: ptr<NativeOverlapped>): boolean;
-    static UnsafeQueueUserWorkItem<TState>(callBack: Action_1<TState>, state: TState, preferLocal: boolean): boolean;
+    static UnsafeQueueUserWorkItem<TState extends unknown>(callBack: Action_1<TState>, state: TState, preferLocal: boolean): boolean;
     static UnsafeQueueUserWorkItem(callBack: IThreadPoolWorkItem, preferLocal: boolean): boolean;
-    static UnsafeQueueUserWorkItem(callBack: WaitCallback, state: JsValue | null): boolean;
-    static UnsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: JsValue | null, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static UnsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: JsValue | null, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static UnsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: JsValue | null, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static UnsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: JsValue | null, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static UnsafeQueueUserWorkItem(callBack: WaitCallback, state: unknown | null): boolean;
+    static UnsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown | null, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static UnsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown | null, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static UnsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown | null, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static UnsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown | null, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
 }
 
 
@@ -1639,7 +1639,7 @@ export abstract class Volatile$instance {
     static Read(location: uint): uint;
     static Read(location: ulong): ulong;
     static Read(location: nuint): nuint;
-    static Read<T>(location: T): T;
+    static Read<T extends (object | null)>(location: T): T;
     static ReadBarrier(): void;
     static Write(location: boolean, value: boolean): void;
     static Write(location: byte, value: byte): void;
@@ -1654,7 +1654,7 @@ export abstract class Volatile$instance {
     static Write(location: uint, value: uint): void;
     static Write(location: ulong, value: ulong): void;
     static Write(location: nuint, value: nuint): void;
-    static Write<T>(location: T, value: T): void;
+    static Write<T extends (object | null)>(location: T, value: T): void;
     static WriteBarrier(): void;
 }
 

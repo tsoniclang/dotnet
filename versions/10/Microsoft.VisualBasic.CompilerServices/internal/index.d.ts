@@ -3,7 +3,7 @@
 // Assembly: Microsoft.VisualBasic.Core
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -23,7 +23,7 @@ export interface BooleanType$instance {
 
 
 export const BooleanType: {
-    FromObject(Value: JsValue): boolean;
+    FromObject(Value: unknown): boolean;
     FromString(Value: string): boolean;
 };
 
@@ -37,7 +37,7 @@ export interface ByteType$instance {
 
 
 export const ByteType: {
-    FromObject(Value: JsValue): byte;
+    FromObject(Value: unknown): byte;
     FromString(Value: string): byte;
 };
 
@@ -51,7 +51,7 @@ export interface CharArrayType$instance {
 
 
 export const CharArrayType: {
-    FromObject(Value: JsValue): char[];
+    FromObject(Value: unknown): char[];
     FromString(Value: string): char[];
 };
 
@@ -65,7 +65,7 @@ export interface CharType$instance {
 
 
 export const CharType: {
-    FromObject(Value: JsValue): char;
+    FromObject(Value: unknown): char;
     FromString(Value: string): char;
 };
 
@@ -79,36 +79,36 @@ export interface Conversions$instance {
 
 
 export const Conversions: {
-    ChangeType(Expression: JsValue, TargetType: Type): JsValue;
-    FallbackUserDefinedConversion(Expression: JsValue, TargetType: Type): JsValue;
+    ChangeType(Expression: unknown, TargetType: Type): unknown;
+    FallbackUserDefinedConversion(Expression: unknown, TargetType: Type): unknown;
     FromCharAndCount(Value: char, Count: int): string;
     FromCharArray(Value: char[]): string;
     FromCharArraySubset(Value: char[], StartIndex: int, Length: int): string;
-    ToBoolean(Value: JsValue): boolean;
+    ToBoolean(Value: unknown): boolean;
     ToBoolean(Value: string): boolean;
-    ToByte(Value: JsValue): byte;
+    ToByte(Value: unknown): byte;
     ToByte(Value: string): byte;
-    ToChar(Value: JsValue): char;
+    ToChar(Value: unknown): char;
     ToChar(Value: string): char;
-    ToCharArrayRankOne(Value: JsValue): char[];
+    ToCharArrayRankOne(Value: unknown): char[];
     ToCharArrayRankOne(Value: string): char[];
-    ToDate(Value: JsValue): DateTime;
+    ToDate(Value: unknown): DateTime;
     ToDate(Value: string): DateTime;
     ToDecimal(Value: boolean): decimal;
-    ToDecimal(Value: JsValue): decimal;
+    ToDecimal(Value: unknown): decimal;
     ToDecimal(Value: string): decimal;
-    ToDouble(Value: JsValue): double;
+    ToDouble(Value: unknown): double;
     ToDouble(Value: string): double;
-    ToGenericParameter<T>(Value: JsValue): T;
-    ToInteger(Value: JsValue): int;
+    ToGenericParameter<T extends unknown>(Value: unknown): T;
+    ToInteger(Value: unknown): int;
     ToInteger(Value: string): int;
-    ToLong(Value: JsValue): long;
+    ToLong(Value: unknown): long;
     ToLong(Value: string): long;
-    ToSByte(Value: JsValue): sbyte;
+    ToSByte(Value: unknown): sbyte;
     ToSByte(Value: string): sbyte;
-    ToShort(Value: JsValue): short;
+    ToShort(Value: unknown): short;
     ToShort(Value: string): short;
-    ToSingle(Value: JsValue): float;
+    ToSingle(Value: unknown): float;
     ToSingle(Value: string): float;
     ToString(Value: boolean): string;
     ToString(Value: byte): string;
@@ -121,16 +121,16 @@ export const Conversions: {
     ToString(Value: short): string;
     ToString(Value: int): string;
     ToString(Value: long): string;
-    ToString(Value: JsValue): string;
+    ToString(Value: unknown): string;
     ToString(Value: float, NumberFormat: NumberFormatInfo): string;
     ToString(Value: float): string;
     ToString(Value: uint): string;
     ToString(Value: ulong): string;
-    ToUInteger(Value: JsValue): uint;
+    ToUInteger(Value: unknown): uint;
     ToUInteger(Value: string): uint;
-    ToULong(Value: JsValue): ulong;
+    ToULong(Value: unknown): ulong;
     ToULong(Value: string): ulong;
-    ToUShort(Value: JsValue): ushort;
+    ToUShort(Value: unknown): ushort;
     ToUShort(Value: string): ushort;
 };
 
@@ -144,7 +144,7 @@ export interface DateType$instance {
 
 
 export const DateType: {
-    FromObject(Value: JsValue): DateTime;
+    FromObject(Value: unknown): DateTime;
     FromString(Value: string, culture: CultureInfo): DateTime;
     FromString(Value: string): DateTime;
 };
@@ -160,8 +160,8 @@ export interface DecimalType$instance {
 
 export const DecimalType: {
     FromBoolean(Value: boolean): decimal;
-    FromObject(Value: JsValue, NumberFormat: NumberFormatInfo): decimal;
-    FromObject(Value: JsValue): decimal;
+    FromObject(Value: unknown, NumberFormat: NumberFormatInfo): decimal;
+    FromObject(Value: unknown): decimal;
     FromString(Value: string, NumberFormat: NumberFormatInfo): decimal;
     FromString(Value: string): decimal;
     Parse(Value: string, NumberFormat: NumberFormatInfo): decimal;
@@ -190,8 +190,8 @@ export interface DoubleType$instance {
 
 
 export const DoubleType: {
-    FromObject(Value: JsValue, NumberFormat: NumberFormatInfo): double;
-    FromObject(Value: JsValue): double;
+    FromObject(Value: unknown, NumberFormat: NumberFormatInfo): double;
+    FromObject(Value: unknown): double;
     FromString(Value: string, NumberFormat: NumberFormatInfo): double;
     FromString(Value: string): double;
     Parse(Value: string, NumberFormat: NumberFormatInfo): double;
@@ -228,7 +228,7 @@ export interface IntegerType$instance {
 
 
 export const IntegerType: {
-    FromObject(Value: JsValue): int;
+    FromObject(Value: unknown): int;
     FromString(Value: string): int;
 };
 
@@ -242,13 +242,13 @@ export interface LateBinding$instance {
 
 
 export const LateBinding: {
-    LateCall(o: JsValue, objType: Type, name: string, args: JsValue[], paramnames: string[], CopyBack: boolean[]): void;
-    LateGet(o: JsValue, objType: Type, name: string, args: JsValue[], paramnames: string[], CopyBack: boolean[]): JsValue;
-    LateIndexGet(o: JsValue, args: JsValue[], paramnames: string[]): JsValue;
-    LateIndexSet(o: JsValue, args: JsValue[], paramnames: string[]): void;
-    LateIndexSetComplex(o: JsValue, args: JsValue[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
-    LateSet(o: JsValue, objType: Type, name: string, args: JsValue[], paramnames: string[]): void;
-    LateSetComplex(o: JsValue, objType: Type, name: string, args: JsValue[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    LateCall(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): void;
+    LateGet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): unknown;
+    LateIndexGet(o: unknown, args: unknown[], paramnames: string[]): unknown;
+    LateIndexSet(o: unknown, args: unknown[], paramnames: string[]): void;
+    LateIndexSetComplex(o: unknown, args: unknown[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    LateSet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[]): void;
+    LateSetComplex(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
 };
 
 
@@ -261,7 +261,7 @@ export interface LikeOperator$instance {
 
 
 export const LikeOperator: {
-    LikeObject(Source: JsValue, Pattern: JsValue, CompareOption: CompareMethod): JsValue;
+    LikeObject(Source: unknown, Pattern: unknown, CompareOption: CompareMethod): unknown;
     LikeString(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
 };
 
@@ -275,7 +275,7 @@ export interface LongType$instance {
 
 
 export const LongType: {
-    FromObject(Value: JsValue): long;
+    FromObject(Value: unknown): long;
     FromString(Value: string): long;
 };
 
@@ -289,24 +289,24 @@ export interface NewLateBinding$instance {
 
 
 export const NewLateBinding: {
-    FallbackCall(Instance: JsValue, MemberName: string, Arguments: JsValue[], ArgumentNames: string[], IgnoreReturn: boolean): JsValue;
-    FallbackGet(Instance: JsValue, MemberName: string, Arguments: JsValue[], ArgumentNames: string[]): JsValue;
-    FallbackIndexSet(Instance: JsValue, Arguments: JsValue[], ArgumentNames: string[]): void;
-    FallbackIndexSetComplex(Instance: JsValue, Arguments: JsValue[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
-    FallbackInvokeDefault1(Instance: JsValue, Arguments: JsValue[], ArgumentNames: string[], ReportErrors: boolean): JsValue;
-    FallbackInvokeDefault2(Instance: JsValue, Arguments: JsValue[], ArgumentNames: string[], ReportErrors: boolean): JsValue;
-    FallbackSet(Instance: JsValue, MemberName: string, Arguments: JsValue[]): void;
-    FallbackSetComplex(Instance: JsValue, MemberName: string, Arguments: JsValue[], OptimisticSet: boolean, RValueBase: boolean): void;
-    LateCall(Instance: JsValue, Type: Type, MemberName: string, Arguments: JsValue[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[], IgnoreReturn: boolean): JsValue;
-    LateCallInvokeDefault(Instance: JsValue, Arguments: JsValue[], ArgumentNames: string[], ReportErrors: boolean): JsValue;
-    LateGet(Instance: JsValue, Type: Type, MemberName: string, Arguments: JsValue[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[]): JsValue;
-    LateGetInvokeDefault(Instance: JsValue, Arguments: JsValue[], ArgumentNames: string[], ReportErrors: boolean): JsValue;
-    LateIndexGet(Instance: JsValue, Arguments: JsValue[], ArgumentNames: string[]): JsValue;
-    LateIndexSet(Instance: JsValue, Arguments: JsValue[], ArgumentNames: string[]): void;
-    LateIndexSetComplex(Instance: JsValue, Arguments: JsValue[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
-    LateSet(Instance: JsValue, Type: Type, MemberName: string, Arguments: JsValue[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean, CallType: CallType): void;
-    LateSet(Instance: JsValue, Type: Type, MemberName: string, Arguments: JsValue[], ArgumentNames: string[], TypeArguments: Type[]): void;
-    LateSetComplex(Instance: JsValue, Type: Type, MemberName: string, Arguments: JsValue[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean): void;
+    FallbackCall(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[], IgnoreReturn: boolean): unknown;
+    FallbackGet(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[]): unknown;
+    FallbackIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
+    FallbackIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    FallbackInvokeDefault1(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    FallbackInvokeDefault2(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    FallbackSet(Instance: unknown, MemberName: string, Arguments: unknown[]): void;
+    FallbackSetComplex(Instance: unknown, MemberName: string, Arguments: unknown[], OptimisticSet: boolean, RValueBase: boolean): void;
+    LateCall(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[], IgnoreReturn: boolean): unknown;
+    LateCallInvokeDefault(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    LateGet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[]): unknown;
+    LateGetInvokeDefault(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    LateIndexGet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): unknown;
+    LateIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
+    LateIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    LateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean, CallType: CallType): void;
+    LateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[]): void;
+    LateSetComplex(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean): void;
 };
 
 
@@ -319,7 +319,7 @@ export interface ObjectFlowControl$instance {
 
 
 export const ObjectFlowControl: {
-    CheckForSyncLockOnValueType(Expression: JsValue): void;
+    CheckForSyncLockOnValueType(Expression: unknown): void;
 };
 
 
@@ -332,9 +332,9 @@ export interface ObjectFlowControl_ForLoopControl$instance {
 
 
 export const ObjectFlowControl_ForLoopControl: {
-    ForLoopInitObj(Counter: JsValue, Start: JsValue, Limit: JsValue, StepValue: JsValue, LoopForResult: JsValue, CounterResult: JsValue): boolean;
+    ForLoopInitObj(Counter: unknown, Start: unknown, Limit: unknown, StepValue: unknown, LoopForResult: unknown, CounterResult: unknown): boolean;
     ForNextCheckDec(count: decimal, limit: decimal, StepValue: decimal): boolean;
-    ForNextCheckObj(Counter: JsValue, LoopObj: JsValue, CounterResult: JsValue): boolean;
+    ForNextCheckObj(Counter: unknown, LoopObj: unknown, CounterResult: unknown): boolean;
     ForNextCheckR4(count: float, limit: float, StepValue: float): boolean;
     ForNextCheckR8(count: double, limit: double, StepValue: double): boolean;
 };
@@ -350,26 +350,26 @@ export interface ObjectType$instance {
 
 export const ObjectType: {
     new(): ObjectType;
-    AddObj(o1: JsValue, o2: JsValue): JsValue;
-    BitAndObj(obj1: JsValue, obj2: JsValue): JsValue;
-    BitOrObj(obj1: JsValue, obj2: JsValue): JsValue;
-    BitXorObj(obj1: JsValue, obj2: JsValue): JsValue;
-    DivObj(o1: JsValue, o2: JsValue): JsValue;
-    GetObjectValuePrimitive(o: JsValue): JsValue;
-    IDivObj(o1: JsValue, o2: JsValue): JsValue;
-    LikeObj(vLeft: JsValue, vRight: JsValue, CompareOption: CompareMethod): boolean;
-    ModObj(o1: JsValue, o2: JsValue): JsValue;
-    MulObj(o1: JsValue, o2: JsValue): JsValue;
-    NegObj(obj: JsValue): JsValue;
-    NotObj(obj: JsValue): JsValue;
-    ObjTst(o1: JsValue, o2: JsValue, TextCompare: boolean): int;
-    PlusObj(obj: JsValue): JsValue;
-    PowObj(obj1: JsValue, obj2: JsValue): JsValue;
-    ShiftLeftObj(o1: JsValue, amount: int): JsValue;
-    ShiftRightObj(o1: JsValue, amount: int): JsValue;
-    StrCatObj(vLeft: JsValue, vRight: JsValue): JsValue;
-    SubObj(o1: JsValue, o2: JsValue): JsValue;
-    XorObj(obj1: JsValue, obj2: JsValue): JsValue;
+    AddObj(o1: unknown, o2: unknown): unknown;
+    BitAndObj(obj1: unknown, obj2: unknown): unknown;
+    BitOrObj(obj1: unknown, obj2: unknown): unknown;
+    BitXorObj(obj1: unknown, obj2: unknown): unknown;
+    DivObj(o1: unknown, o2: unknown): unknown;
+    GetObjectValuePrimitive(o: unknown): unknown;
+    IDivObj(o1: unknown, o2: unknown): unknown;
+    LikeObj(vLeft: unknown, vRight: unknown, CompareOption: CompareMethod): boolean;
+    ModObj(o1: unknown, o2: unknown): unknown;
+    MulObj(o1: unknown, o2: unknown): unknown;
+    NegObj(obj: unknown): unknown;
+    NotObj(obj: unknown): unknown;
+    ObjTst(o1: unknown, o2: unknown, TextCompare: boolean): int;
+    PlusObj(obj: unknown): unknown;
+    PowObj(obj1: unknown, obj2: unknown): unknown;
+    ShiftLeftObj(o1: unknown, amount: int): unknown;
+    ShiftRightObj(o1: unknown, amount: int): unknown;
+    StrCatObj(vLeft: unknown, vRight: unknown): unknown;
+    SubObj(o1: unknown, o2: unknown): unknown;
+    XorObj(obj1: unknown, obj2: unknown): unknown;
 };
 
 
@@ -382,36 +382,36 @@ export interface Operators$instance {
 
 
 export const Operators: {
-    AddObject(Left: JsValue, Right: JsValue): JsValue;
-    AndObject(Left: JsValue, Right: JsValue): JsValue;
-    CompareObjectEqual(Left: JsValue, Right: JsValue, TextCompare: boolean): JsValue;
-    CompareObjectGreater(Left: JsValue, Right: JsValue, TextCompare: boolean): JsValue;
-    CompareObjectGreaterEqual(Left: JsValue, Right: JsValue, TextCompare: boolean): JsValue;
-    CompareObjectLess(Left: JsValue, Right: JsValue, TextCompare: boolean): JsValue;
-    CompareObjectLessEqual(Left: JsValue, Right: JsValue, TextCompare: boolean): JsValue;
-    CompareObjectNotEqual(Left: JsValue, Right: JsValue, TextCompare: boolean): JsValue;
+    AddObject(Left: unknown, Right: unknown): unknown;
+    AndObject(Left: unknown, Right: unknown): unknown;
+    CompareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareObjectGreater(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareObjectGreaterEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareObjectLess(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareObjectLessEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    CompareObjectNotEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
     CompareString(Left: string, Right: string, TextCompare: boolean): int;
-    ConcatenateObject(Left: JsValue, Right: JsValue): JsValue;
-    ConditionalCompareObjectEqual(Left: JsValue, Right: JsValue, TextCompare: boolean): boolean;
-    ConditionalCompareObjectGreater(Left: JsValue, Right: JsValue, TextCompare: boolean): boolean;
-    ConditionalCompareObjectGreaterEqual(Left: JsValue, Right: JsValue, TextCompare: boolean): boolean;
-    ConditionalCompareObjectLess(Left: JsValue, Right: JsValue, TextCompare: boolean): boolean;
-    ConditionalCompareObjectLessEqual(Left: JsValue, Right: JsValue, TextCompare: boolean): boolean;
-    ConditionalCompareObjectNotEqual(Left: JsValue, Right: JsValue, TextCompare: boolean): boolean;
-    DivideObject(Left: JsValue, Right: JsValue): JsValue;
-    ExponentObject(Left: JsValue, Right: JsValue): JsValue;
-    FallbackInvokeUserDefinedOperator(vbOp: JsValue, arguments: JsValue[]): JsValue;
-    IntDivideObject(Left: JsValue, Right: JsValue): JsValue;
-    LeftShiftObject(Operand: JsValue, Amount: JsValue): JsValue;
-    ModObject(Left: JsValue, Right: JsValue): JsValue;
-    MultiplyObject(Left: JsValue, Right: JsValue): JsValue;
-    NegateObject(Operand: JsValue): JsValue;
-    NotObject(Operand: JsValue): JsValue;
-    OrObject(Left: JsValue, Right: JsValue): JsValue;
-    PlusObject(Operand: JsValue): JsValue;
-    RightShiftObject(Operand: JsValue, Amount: JsValue): JsValue;
-    SubtractObject(Left: JsValue, Right: JsValue): JsValue;
-    XorObject(Left: JsValue, Right: JsValue): JsValue;
+    ConcatenateObject(Left: unknown, Right: unknown): unknown;
+    ConditionalCompareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    ConditionalCompareObjectGreater(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    ConditionalCompareObjectGreaterEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    ConditionalCompareObjectLess(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    ConditionalCompareObjectLessEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    ConditionalCompareObjectNotEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    DivideObject(Left: unknown, Right: unknown): unknown;
+    ExponentObject(Left: unknown, Right: unknown): unknown;
+    FallbackInvokeUserDefinedOperator(vbOp: unknown, arguments: unknown[]): unknown;
+    IntDivideObject(Left: unknown, Right: unknown): unknown;
+    LeftShiftObject(Operand: unknown, Amount: unknown): unknown;
+    ModObject(Left: unknown, Right: unknown): unknown;
+    MultiplyObject(Left: unknown, Right: unknown): unknown;
+    NegateObject(Operand: unknown): unknown;
+    NotObject(Operand: unknown): unknown;
+    OrObject(Left: unknown, Right: unknown): unknown;
+    PlusObject(Operand: unknown): unknown;
+    RightShiftObject(Operand: unknown, Amount: unknown): unknown;
+    SubtractObject(Left: unknown, Right: unknown): unknown;
+    XorObject(Left: unknown, Right: unknown): unknown;
 };
 
 
@@ -467,7 +467,7 @@ export interface ShortType$instance {
 
 
 export const ShortType: {
-    FromObject(Value: JsValue): short;
+    FromObject(Value: unknown): short;
     FromString(Value: string): short;
 };
 
@@ -481,8 +481,8 @@ export interface SingleType$instance {
 
 
 export const SingleType: {
-    FromObject(Value: JsValue, NumberFormat: NumberFormatInfo): float;
-    FromObject(Value: JsValue): float;
+    FromObject(Value: unknown, NumberFormat: NumberFormatInfo): float;
+    FromObject(Value: unknown): float;
     FromString(Value: string, NumberFormat: NumberFormatInfo): float;
     FromString(Value: string): float;
 };
@@ -534,7 +534,7 @@ export const StringType: {
     FromDouble(Value: double): string;
     FromInteger(Value: int): string;
     FromLong(Value: long): string;
-    FromObject(Value: JsValue): string;
+    FromObject(Value: unknown): string;
     FromShort(Value: short): string;
     FromSingle(Value: float, NumberFormat: NumberFormatInfo): string;
     FromSingle(Value: float): string;
@@ -569,10 +569,10 @@ export interface Versioned$instance {
 
 
 export const Versioned: {
-    CallByName(Instance: JsValue, MethodName: string, UseCallType: CallType, ...Arguments: JsValue[]): JsValue;
-    IsNumeric(Expression: JsValue): boolean;
+    CallByName(Instance: unknown, MethodName: string, UseCallType: CallType, ...Arguments: unknown[]): unknown;
+    IsNumeric(Expression: unknown): boolean;
     SystemTypeName(VbName: string): string;
-    TypeName(Expression: JsValue): string;
+    TypeName(Expression: unknown): string;
     VbTypeName(SystemName: string): string;
 };
 

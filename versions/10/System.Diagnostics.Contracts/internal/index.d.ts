@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -79,7 +79,7 @@ export const ContractClassForAttribute: {
 
 export type ContractClassForAttribute = ContractClassForAttribute$instance;
 
-export interface ContractException$instance extends Exception {
+export interface ContractException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -231,19 +231,19 @@ export abstract class Contract$instance {
     static EndContractBlock(): void;
     static Ensures(condition: boolean, userMessage: string | null): void;
     static Ensures(condition: boolean): void;
-    static EnsuresOnThrow<TException extends Exception>(condition: boolean, userMessage: string | null): void;
-    static EnsuresOnThrow<TException extends Exception>(condition: boolean): void;
-    static Exists<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
+    static EnsuresOnThrow<TException extends unknown & Exception>(condition: boolean, userMessage: string | null): void;
+    static EnsuresOnThrow<TException extends unknown & Exception>(condition: boolean): void;
+    static Exists<T extends unknown>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
     static Exists(fromInclusive: int, toExclusive: int, predicate: Predicate_1<System_Internal.Int32>): boolean;
-    static ForAll<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
+    static ForAll<T extends unknown>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
     static ForAll(fromInclusive: int, toExclusive: int, predicate: Predicate_1<System_Internal.Int32>): boolean;
     static Invariant(condition: boolean, userMessage: string | null): void;
     static Invariant(condition: boolean): void;
-    static OldValue<T>(value: T): T;
+    static OldValue<T extends unknown>(value: T): T;
     static Requires(condition: boolean, userMessage: string | null): void;
     static Requires(condition: boolean): void;
-    static Result<T>(): T;
-    static ValueAtReturn<T>(value: T): T;
+    static Result<T extends unknown>(): T;
+    static ValueAtReturn<T extends unknown>(value: T): T;
 }
 
 

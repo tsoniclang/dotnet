@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Runtime.Intrinsics.Wasm/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { Vector128_1 } from './System.Runtime.Intrinsics/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Double, Int16, Int32, Int64, IntPtr, Object as ClrObject, SByte, Single, String as ClrString, Type, UInt16, UInt32, UInt64, UIntPtr, Void } from './System/internal/index.js';

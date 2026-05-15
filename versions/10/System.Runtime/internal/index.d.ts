@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -37,18 +37,18 @@ export interface DependentHandle$instance extends System_Internal.IDisposable$in
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    get Dependent(): JsValue | null;
-    set Dependent(value: JsValue | null);
+    get Dependent(): unknown | null;
+    set Dependent(value: unknown | null);
     readonly IsAllocated: boolean;
-    get Target(): JsValue | null;
-    set Target(value: JsValue | null);
-    readonly TargetAndDependent: ValueTuple_2<JsValue, JsValue>;
+    get Target(): unknown | null;
+    set Target(value: unknown | null);
+    readonly TargetAndDependent: ValueTuple_2<unknown, unknown>;
     Dispose(): void;
 }
 
 
 export const DependentHandle: {
-    new(target: JsValue | null, dependent: JsValue | null): DependentHandle;
+    new(target: unknown | null, dependent: unknown | null): DependentHandle;
 };
 
 

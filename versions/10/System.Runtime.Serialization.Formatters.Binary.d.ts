@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Runtime.Serialization.Formatters.Binary/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { Stream } from './System.IO/internal/index.js';
 import type { FormatterAssemblyStyle, FormatterTypeStyle, TypeFilterLevel } from './System.Runtime.Serialization.Formatters/internal/index.js';

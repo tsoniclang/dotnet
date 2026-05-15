@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { MemoryHandle, OperationStatus, SearchValues_1, SpanAction_2 } from './System.Buffers/internal/index.js';
 import type { IAlternateEqualityComparer_2, ICollection_1, IComparer_1, IEnumerable_1, IEnumerator_1, IEqualityComparer_1, IList_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, IReadOnlyList_1 } from './System.Collections.Generic/internal/index.js';
@@ -71,9 +75,9 @@ export { TypedReference as TypedReference } from './System/internal/index.js';
 export { TypeLoadException as TypeLoadException } from './System/internal/index.js';
 export { ValueType as ValueType } from './System/internal/index.js';
 export { AccessViolationException as AccessViolationException } from './System/internal/index.js';
-export type Comparison<T> = Internal.Comparison_1<T>;
-export type Converter<TInput, TOutput> = Internal.Converter_2<TInput, TOutput>;
-export type Predicate<T> = Internal.Predicate_1<T>;
+export type Comparison<T extends unknown> = Internal.Comparison_1<T>;
+export type Converter<TInput extends unknown, TOutput extends unknown> = Internal.Converter_2<TInput, TOutput>;
+export type Predicate<T extends unknown> = Internal.Predicate_1<T>;
 export { Activator$instance as Activator } from './System/internal/index.js';
 export { AggregateException as AggregateException } from './System/internal/index.js';
 export { AppContext$instance as AppContext } from './System/internal/index.js';
@@ -136,7 +140,7 @@ export type ICloneable = Internal.ICloneable;
 export type IConvertible = Internal.IConvertible;
 export type ICustomFormatter = Internal.ICustomFormatter;
 export type IDisposable = Internal.IDisposable;
-export type IEquatable<T> = Internal.IEquatable_1<T>;
+export type IEquatable<T extends unknown> = Internal.IEquatable_1<T>;
 export type IFormatProvider = Internal.IFormatProvider;
 export type IFormattable = Internal.IFormattable;
 export { Index as Index } from './System/internal/index.js';
@@ -152,12 +156,12 @@ export { InvalidCastException as InvalidCastException } from './System/internal/
 export { InvalidOperationException as InvalidOperationException } from './System/internal/index.js';
 export { InvalidProgramException as InvalidProgramException } from './System/internal/index.js';
 export { InvalidTimeZoneException as InvalidTimeZoneException } from './System/internal/index.js';
-export type IObservable<T> = Internal.IObservable_1<T>;
-export type IObserver<T> = Internal.IObserver_1<T>;
-export type IProgress<T> = Internal.IProgress_1<T>;
+export type IObservable<T extends unknown> = Internal.IObservable_1<T>;
+export type IObserver<T extends unknown> = Internal.IObserver_1<T>;
+export type IProgress<T extends unknown> = Internal.IProgress_1<T>;
 export type ISpanFormattable = Internal.ISpanFormattable;
 export type IUtf8SpanFormattable = Internal.IUtf8SpanFormattable;
-export type IUtf8SpanParsable<TSelf extends Internal.IUtf8SpanParsable_1<TSelf>> = Internal.IUtf8SpanParsable_1<TSelf>;
+export type IUtf8SpanParsable<TSelf extends unknown & Internal.IUtf8SpanParsable_1<TSelf>> = Internal.IUtf8SpanParsable_1<TSelf>;
 export { LoaderOptimization as LoaderOptimization } from './System/internal/index.js';
 export { LoaderOptimizationAttribute as LoaderOptimizationAttribute } from './System/internal/index.js';
 export { LocalDataStoreSlot as LocalDataStoreSlot } from './System/internal/index.js';
@@ -235,8 +239,8 @@ export { UnitySerializationHolder as UnitySerializationHolder } from './System/i
 export { Version as Version } from './System/internal/index.js';
 export { Void as Void } from './System/internal/index.js';
 export { TimeProvider as TimeProvider } from './System/internal/index.js';
-export type IParsable<TSelf extends Internal.IParsable_1<TSelf>> = Internal.IParsable_1<TSelf>;
-export type ISpanParsable<TSelf extends Internal.ISpanParsable_1<TSelf>> = Internal.ISpanParsable_1<TSelf>;
+export type IParsable<TSelf extends unknown & Internal.IParsable_1<TSelf>> = Internal.IParsable_1<TSelf>;
+export type ISpanParsable<TSelf extends unknown & Internal.ISpanParsable_1<TSelf>> = Internal.ISpanParsable_1<TSelf>;
 export { GenericUriParserOptions as GenericUriParserOptions } from './System/internal/index.js';
 export { GenericUriParser as GenericUriParser } from './System/internal/index.js';
 export { Uri as Uri } from './System/internal/index.js';
@@ -269,150 +273,150 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type Action<
-  T1 = __,
-  T2 = __,
-  T3 = __,
-  T4 = __,
-  T5 = __,
-  T6 = __,
-  T7 = __,
-  T8 = __,
-  T9 = __,
-  T10 = __,
-  T11 = __,
-  T12 = __,
-  T13 = __,
-  T14 = __,
-  T15 = __,
-  T16 = __,
+  T1 extends unknown | __ = __,
+  T2 extends unknown | __ = __,
+  T3 extends unknown | __ = __,
+  T4 extends unknown | __ = __,
+  T5 extends unknown | __ = __,
+  T6 extends unknown | __ = __,
+  T7 extends unknown | __ = __,
+  T8 extends unknown | __ = __,
+  T9 extends unknown | __ = __,
+  T10 extends unknown | __ = __,
+  T11 extends unknown | __ = __,
+  T12 extends unknown | __ = __,
+  T13 extends unknown | __ = __,
+  T14 extends unknown | __ = __,
+  T15 extends unknown | __ = __,
+  T16 extends unknown | __ = __,
 > =
   [T1] extends [__] ? ((() => void) | Internal.Action) :
-  [T2] extends [__] ? (((arg1: T1) => void) | Internal.Action_1<T1>) :
-  [T3] extends [__] ? (((arg1: T1, arg2: T2) => void) | Internal.Action_2<T1, T2>) :
-  [T4] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3) => void) | Internal.Action_3<T1, T2, T3>) :
-  [T5] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4) => void) | Internal.Action_4<T1, T2, T3, T4>) :
-  [T6] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) => void) | Internal.Action_5<T1, T2, T3, T4, T5>) :
-  [T7] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) => void) | Internal.Action_6<T1, T2, T3, T4, T5, T6>) :
-  [T8] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7) => void) | Internal.Action_7<T1, T2, T3, T4, T5, T6, T7>) :
-  [T9] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8) => void) | Internal.Action_8<T1, T2, T3, T4, T5, T6, T7, T8>) :
-  [T10] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => void) | Internal.Action_9<T1, T2, T3, T4, T5, T6, T7, T8, T9>) :
-  [T11] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10) => void) | Internal.Action_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>) :
-  [T12] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11) => void) | Internal.Action_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>) :
-  [T13] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12) => void) | Internal.Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>) :
-  [T14] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13) => void) | Internal.Action_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>) :
-  [T15] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14) => void) | Internal.Action_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>) :
-  [T16] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15) => void) | Internal.Action_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>) :
-  (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16) => void) | Internal.Action_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>);
+  [T2] extends [__] ? [T1] extends [unknown] ? (((arg1: T1) => void) | Internal.Action_1<T1>) : never :
+  [T3] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? (((arg1: T1, arg2: T2) => void) | Internal.Action_2<T1, T2>) : never : never :
+  [T4] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3) => void) | Internal.Action_3<T1, T2, T3>) : never : never : never :
+  [T5] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4) => void) | Internal.Action_4<T1, T2, T3, T4>) : never : never : never : never :
+  [T6] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) => void) | Internal.Action_5<T1, T2, T3, T4, T5>) : never : never : never : never : never :
+  [T7] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) => void) | Internal.Action_6<T1, T2, T3, T4, T5, T6>) : never : never : never : never : never : never :
+  [T8] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7) => void) | Internal.Action_7<T1, T2, T3, T4, T5, T6, T7>) : never : never : never : never : never : never : never :
+  [T9] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8) => void) | Internal.Action_8<T1, T2, T3, T4, T5, T6, T7, T8>) : never : never : never : never : never : never : never : never :
+  [T10] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => void) | Internal.Action_9<T1, T2, T3, T4, T5, T6, T7, T8, T9>) : never : never : never : never : never : never : never : never : never :
+  [T11] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10) => void) | Internal.Action_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>) : never : never : never : never : never : never : never : never : never : never :
+  [T12] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11) => void) | Internal.Action_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>) : never : never : never : never : never : never : never : never : never : never : never :
+  [T13] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12) => void) | Internal.Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>) : never : never : never : never : never : never : never : never : never : never : never : never :
+  [T14] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? [T13] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13) => void) | Internal.Action_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>) : never : never : never : never : never : never : never : never : never : never : never : never : never :
+  [T15] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? [T13] extends [unknown] ? [T14] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14) => void) | Internal.Action_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>) : never : never : never : never : never : never : never : never : never : never : never : never : never : never :
+  [T16] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? [T13] extends [unknown] ? [T14] extends [unknown] ? [T15] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15) => void) | Internal.Action_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>) : never : never : never : never : never : never : never : never : never : never : never : never : never : never : never :
+  [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? [T13] extends [unknown] ? [T14] extends [unknown] ? [T15] extends [unknown] ? [T16] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16) => void) | Internal.Action_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>) : never : never : never : never : never : never : never : never : never : never : never : never : never : never : never : never;
 
 export type EventHandler<
-  T1 = __,
-  T2 = __,
+  T1 extends unknown | __ = __,
+  T2 extends unknown | __ = __,
 > =
   [T1] extends [__] ? ((() => void) | Internal.EventHandler) :
-  [T2] extends [__] ? (((arg1: T1) => void) | Internal.EventHandler_1<T1>) :
-  (((arg1: T1, arg2: T2) => void) | Internal.EventHandler_2<T1, T2>);
+  [T2] extends [__] ? [T1] extends [unknown] ? (((arg1: T1) => void) | Internal.EventHandler_1<T1>) : never :
+  [T1] extends [unknown] ? [T2] extends [unknown] ? (((arg1: T1, arg2: T2) => void) | Internal.EventHandler_2<T1, T2>) : never : never;
 
 export type Func<
-  T1 = __,
-  T2 = __,
-  T3 = __,
-  T4 = __,
-  T5 = __,
-  T6 = __,
-  T7 = __,
-  T8 = __,
-  T9 = __,
-  T10 = __,
-  T11 = __,
-  T12 = __,
-  T13 = __,
-  T14 = __,
-  T15 = __,
-  T16 = __,
-  T17 = __,
+  T1 extends unknown | __ = __,
+  T2 extends unknown | __ = __,
+  T3 extends unknown | __ = __,
+  T4 extends unknown | __ = __,
+  T5 extends unknown | __ = __,
+  T6 extends unknown | __ = __,
+  T7 extends unknown | __ = __,
+  T8 extends unknown | __ = __,
+  T9 extends unknown | __ = __,
+  T10 extends unknown | __ = __,
+  T11 extends unknown | __ = __,
+  T12 extends unknown | __ = __,
+  T13 extends unknown | __ = __,
+  T14 extends unknown | __ = __,
+  T15 extends unknown | __ = __,
+  T16 extends unknown | __ = __,
+  T17 extends unknown | __ = __,
 > =
-  [T2] extends [__] ? ((() => T1) | Internal.Func_1<T1>) :
-  [T3] extends [__] ? (((arg1: T1) => T2) | Internal.Func_2<T1, T2>) :
-  [T4] extends [__] ? (((arg1: T1, arg2: T2) => T3) | Internal.Func_3<T1, T2, T3>) :
-  [T5] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3) => T4) | Internal.Func_4<T1, T2, T3, T4>) :
-  [T6] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4) => T5) | Internal.Func_5<T1, T2, T3, T4, T5>) :
-  [T7] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) => T6) | Internal.Func_6<T1, T2, T3, T4, T5, T6>) :
-  [T8] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) => T7) | Internal.Func_7<T1, T2, T3, T4, T5, T6, T7>) :
-  [T9] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7) => T8) | Internal.Func_8<T1, T2, T3, T4, T5, T6, T7, T8>) :
-  [T10] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8) => T9) | Internal.Func_9<T1, T2, T3, T4, T5, T6, T7, T8, T9>) :
-  [T11] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => T10) | Internal.Func_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>) :
-  [T12] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10) => T11) | Internal.Func_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>) :
-  [T13] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11) => T12) | Internal.Func_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>) :
-  [T14] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12) => T13) | Internal.Func_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>) :
-  [T15] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13) => T14) | Internal.Func_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>) :
-  [T16] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14) => T15) | Internal.Func_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>) :
-  [T17] extends [__] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15) => T16) | Internal.Func_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>) :
-  (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16) => T17) | Internal.Func_17<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17>);
+  [T2] extends [__] ? [T1] extends [unknown] ? ((() => T1) | Internal.Func_1<T1>) : never :
+  [T3] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? (((arg1: T1) => T2) | Internal.Func_2<T1, T2>) : never : never :
+  [T4] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? (((arg1: T1, arg2: T2) => T3) | Internal.Func_3<T1, T2, T3>) : never : never : never :
+  [T5] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3) => T4) | Internal.Func_4<T1, T2, T3, T4>) : never : never : never : never :
+  [T6] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4) => T5) | Internal.Func_5<T1, T2, T3, T4, T5>) : never : never : never : never : never :
+  [T7] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) => T6) | Internal.Func_6<T1, T2, T3, T4, T5, T6>) : never : never : never : never : never : never :
+  [T8] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) => T7) | Internal.Func_7<T1, T2, T3, T4, T5, T6, T7>) : never : never : never : never : never : never : never :
+  [T9] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7) => T8) | Internal.Func_8<T1, T2, T3, T4, T5, T6, T7, T8>) : never : never : never : never : never : never : never : never :
+  [T10] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8) => T9) | Internal.Func_9<T1, T2, T3, T4, T5, T6, T7, T8, T9>) : never : never : never : never : never : never : never : never : never :
+  [T11] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => T10) | Internal.Func_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>) : never : never : never : never : never : never : never : never : never : never :
+  [T12] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10) => T11) | Internal.Func_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>) : never : never : never : never : never : never : never : never : never : never : never :
+  [T13] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11) => T12) | Internal.Func_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>) : never : never : never : never : never : never : never : never : never : never : never : never :
+  [T14] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? [T13] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12) => T13) | Internal.Func_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>) : never : never : never : never : never : never : never : never : never : never : never : never : never :
+  [T15] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? [T13] extends [unknown] ? [T14] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13) => T14) | Internal.Func_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>) : never : never : never : never : never : never : never : never : never : never : never : never : never : never :
+  [T16] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? [T13] extends [unknown] ? [T14] extends [unknown] ? [T15] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14) => T15) | Internal.Func_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>) : never : never : never : never : never : never : never : never : never : never : never : never : never : never : never :
+  [T17] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? [T13] extends [unknown] ? [T14] extends [unknown] ? [T15] extends [unknown] ? [T16] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15) => T16) | Internal.Func_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>) : never : never : never : never : never : never : never : never : never : never : never : never : never : never : never : never :
+  [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? [T9] extends [unknown] ? [T10] extends [unknown] ? [T11] extends [unknown] ? [T12] extends [unknown] ? [T13] extends [unknown] ? [T14] extends [unknown] ? [T15] extends [unknown] ? [T16] extends [unknown] ? [T17] extends [unknown] ? (((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16) => T17) | Internal.Func_17<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17>) : never : never : never : never : never : never : never : never : never : never : never : never : never : never : never : never : never;
 
 export type IComparable<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.IComparable :
-  Internal.IComparable_1<T1>;
+  [T1] extends [unknown] ? Internal.IComparable_1<T1> : never;
 
 export type Lazy<
-  T1 = __,
-  T2 = __,
+  T1 extends unknown | __ = __,
+  T2 extends unknown | __ = __,
 > =
-  [T2] extends [__] ? Internal.Lazy_1<T1> :
-  Internal.Lazy_2<T1, T2>;
+  [T2] extends [__] ? [T1] extends [unknown] ? Internal.Lazy_1<T1> : never :
+  [T1] extends [unknown] ? [T2] extends [unknown] ? Internal.Lazy_2<T1, T2> : never : never;
 
 export type Nullable<
-  T1 = __,
+  T1 extends NonNullable<unknown> | __ = __,
 > =
   [T1] extends [__] ? Internal.Nullable :
-  [T1] extends [Internal.NonNullable<JsValue>] ? Internal.Nullable_1<T1> : never;
+  [T1] extends [NonNullable<unknown>] ? Internal.Nullable_1<T1> : never;
 
 export type Tuple<
-  T1 = __,
-  T2 = __,
-  T3 = __,
-  T4 = __,
-  T5 = __,
-  T6 = __,
-  T7 = __,
-  T8 = __,
+  T1 extends unknown | __ = __,
+  T2 extends unknown | __ = __,
+  T3 extends unknown | __ = __,
+  T4 extends unknown | __ = __,
+  T5 extends unknown | __ = __,
+  T6 extends unknown | __ = __,
+  T7 extends unknown | __ = __,
+  T8 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Tuple :
-  [T2] extends [__] ? Internal.Tuple_1<T1> :
-  [T3] extends [__] ? Internal.Tuple_2<T1, T2> :
-  [T4] extends [__] ? Internal.Tuple_3<T1, T2, T3> :
-  [T5] extends [__] ? Internal.Tuple_4<T1, T2, T3, T4> :
-  [T6] extends [__] ? Internal.Tuple_5<T1, T2, T3, T4, T5> :
-  [T7] extends [__] ? Internal.Tuple_6<T1, T2, T3, T4, T5, T6> :
-  [T8] extends [__] ? Internal.Tuple_7<T1, T2, T3, T4, T5, T6, T7> :
-  Internal.Tuple_8<T1, T2, T3, T4, T5, T6, T7, T8>;
+  [T2] extends [__] ? [T1] extends [unknown] ? Internal.Tuple_1<T1> : never :
+  [T3] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? Internal.Tuple_2<T1, T2> : never : never :
+  [T4] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? Internal.Tuple_3<T1, T2, T3> : never : never : never :
+  [T5] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? Internal.Tuple_4<T1, T2, T3, T4> : never : never : never : never :
+  [T6] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? Internal.Tuple_5<T1, T2, T3, T4, T5> : never : never : never : never : never :
+  [T7] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? Internal.Tuple_6<T1, T2, T3, T4, T5, T6> : never : never : never : never : never : never :
+  [T8] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? Internal.Tuple_7<T1, T2, T3, T4, T5, T6, T7> : never : never : never : never : never : never : never :
+  [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [unknown] ? Internal.Tuple_8<T1, T2, T3, T4, T5, T6, T7, T8> : never : never : never : never : never : never : never : never;
 
 export type ValueTuple<
-  T1 = __,
-  T2 = __,
-  T3 = __,
-  T4 = __,
-  T5 = __,
-  T6 = __,
-  T7 = __,
-  T8 = __,
+  T1 extends unknown | __ = __,
+  T2 extends unknown | __ = __,
+  T3 extends unknown | __ = __,
+  T4 extends unknown | __ = __,
+  T5 extends unknown | __ = __,
+  T6 extends unknown | __ = __,
+  T7 extends unknown | __ = __,
+  T8 extends NonNullable<unknown> | __ = __,
 > =
   [T1] extends [__] ? Internal.ValueTuple :
-  [T2] extends [__] ? Internal.ValueTuple_1<T1> :
-  [T3] extends [__] ? Internal.ValueTuple_2<T1, T2> :
-  [T4] extends [__] ? Internal.ValueTuple_3<T1, T2, T3> :
-  [T5] extends [__] ? Internal.ValueTuple_4<T1, T2, T3, T4> :
-  [T6] extends [__] ? Internal.ValueTuple_5<T1, T2, T3, T4, T5> :
-  [T7] extends [__] ? Internal.ValueTuple_6<T1, T2, T3, T4, T5, T6> :
-  [T8] extends [__] ? Internal.ValueTuple_7<T1, T2, T3, T4, T5, T6, T7> :
-  [T8] extends [Internal.NonNullable<JsValue>] ? Internal.ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, T8> : never;
+  [T2] extends [__] ? [T1] extends [unknown] ? Internal.ValueTuple_1<T1> : never :
+  [T3] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? Internal.ValueTuple_2<T1, T2> : never : never :
+  [T4] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? Internal.ValueTuple_3<T1, T2, T3> : never : never : never :
+  [T5] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? Internal.ValueTuple_4<T1, T2, T3, T4> : never : never : never : never :
+  [T6] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? Internal.ValueTuple_5<T1, T2, T3, T4, T5> : never : never : never : never : never :
+  [T7] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? Internal.ValueTuple_6<T1, T2, T3, T4, T5, T6> : never : never : never : never : never : never :
+  [T8] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? Internal.ValueTuple_7<T1, T2, T3, T4, T5, T6, T7> : never : never : never : never : never : never : never :
+  [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? [T4] extends [unknown] ? [T5] extends [unknown] ? [T6] extends [unknown] ? [T7] extends [unknown] ? [T8] extends [NonNullable<unknown>] ? Internal.ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, T8> : never : never : never : never : never : never : never : never;
 
 export type WeakReference<
-  T1 = __,
+  T1 extends (object | null) | __ = __,
 > =
   [T1] extends [__] ? Internal.WeakReference :
-  Internal.WeakReference_1<T1>;
+  [T1] extends [(object | null)] ? Internal.WeakReference_1<T1> : never;
 
 
 // Primitive $instance interfaces for global type augmentation (@tsonic/globals)

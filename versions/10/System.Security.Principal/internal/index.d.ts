@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib, System.Security.Claims, System.Security.Principal.Windows
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -245,7 +245,7 @@ export interface __GenericPrincipal$views {
 export type GenericPrincipal = GenericPrincipal$instance & __GenericPrincipal$views;
 
 
-export interface IdentityNotMappedException$instance extends SystemException {
+export interface IdentityNotMappedException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Security_Principal_IdentityNotMappedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -273,7 +273,7 @@ export interface IdentityReference$instance {
     readonly __tsonic_type_System_Security_Principal_IdentityReference: never;
 
     readonly Value: string;
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     GetHashCode(): int;
     IsValidTargetType(targetType: Type): boolean;
     ToString(): string;
@@ -325,7 +325,7 @@ export interface NTAccount$instance extends IdentityReference {
     readonly __tsonic_type_System_Security_Principal_NTAccount: never;
 
     readonly Value: string;
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     GetHashCode(): int;
     IsValidTargetType(targetType: Type): boolean;
     ToString(): string;
@@ -350,7 +350,7 @@ export interface SecurityIdentifier$instance extends IdentityReference {
     readonly BinaryLength: int;
     readonly Value: string;
     CompareTo(sid: SecurityIdentifier | null): int;
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     Equals(sid: SecurityIdentifier): boolean;
     GetBinaryForm(binaryForm: byte[], offset: int): void;
     GetHashCode(): int;
@@ -377,7 +377,7 @@ export interface __SecurityIdentifier$views {
     As_IComparable_1(): System_Internal.IComparable_1$instance<SecurityIdentifier>;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentifier$views;
@@ -424,9 +424,9 @@ export const WindowsIdentity: {
     GetCurrent(): WindowsIdentity;
     GetCurrent(ifImpersonating: boolean): WindowsIdentity | null;
     GetCurrent(desiredAccess: TokenAccessLevels): WindowsIdentity;
-    RunImpersonated<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
+    RunImpersonated<T extends unknown>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
     RunImpersonated(safeAccessTokenHandle: SafeAccessTokenHandle, action: Action): void;
-    RunImpersonatedAsync<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task_1<T>>): Task_1<T>;
+    RunImpersonatedAsync<T extends unknown>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task_1<T>>): Task_1<T>;
     RunImpersonatedAsync(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task>): Task;
 };
 

@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Diagnostics/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { SafeProcessHandle } from './Microsoft.Win32.SafeHandles/internal/index.js';
 import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IList_1, IReadOnlyCollection_1, IReadOnlyList_1, KeyValuePair_2 } from './System.Collections.Generic/internal/index.js';
@@ -38,7 +42,7 @@ export { ActivitySamplingResult as ActivitySamplingResult } from './System.Diagn
 export { ActivityEvent as ActivityEvent } from './System.Diagnostics/internal/index.js';
 export { ActivityKind as ActivityKind } from './System.Diagnostics/internal/index.js';
 export { ActivityLink as ActivityLink } from './System.Diagnostics/internal/index.js';
-export type SampleActivity<T> = Internal.SampleActivity_1<T>;
+export type SampleActivity<T extends unknown> = Internal.SampleActivity_1<T>;
 export type ExceptionRecorder = Internal.ExceptionRecorder;
 export { ActivityListener as ActivityListener } from './System.Diagnostics/internal/index.js';
 export { ActivitySource as ActivitySource } from './System.Diagnostics/internal/index.js';

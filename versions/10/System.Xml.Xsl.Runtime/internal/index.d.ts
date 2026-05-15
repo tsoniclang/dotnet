@@ -3,7 +3,7 @@
 // Assembly: System.Private.Xml
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -620,7 +620,7 @@ export type XPathPrecedingMergeIterator = XPathPrecedingMergeIterator$instance;
 export interface XmlCollation$instance {
     readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlCollation: never;
 
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -670,8 +670,8 @@ export interface XmlQueryContext$instance {
     readonly DefaultNameTable: XmlNameTable | null;
     readonly QueryNameTable: XmlNameTable;
     GetDataSource(uriRelative: string, uriBase: string | null): XPathNavigator | null;
-    GetLateBoundObject(namespaceUri: string): JsValue | null;
-    GetParameter(localName: string, namespaceUri: string): JsValue | null;
+    GetLateBoundObject(namespaceUri: string): unknown | null;
+    GetParameter(localName: string, namespaceUri: string): unknown | null;
     InvokeXsltLateBoundFunction(name: string, namespaceUri: string, args: IList_1<XPathItem>[]): IList_1<XPathItem>;
     LateBoundFunctionExists(name: string, namespaceUri: string): boolean;
     OnXsltMessageEncountered(message: string): void;
@@ -854,14 +854,14 @@ export interface XmlQueryRuntime$instance {
     readonly Output: XmlQueryOutput;
     readonly XsltFunctions: XsltLibrary;
     AddNewIndex(context: XPathNavigator, indexId: int, index: XmlILIndex): void;
-    ChangeTypeXsltArgument(indexType: int, value: JsValue, destinationType: Type): JsValue;
-    ChangeTypeXsltResult(indexType: int, value: JsValue): JsValue;
+    ChangeTypeXsltArgument(indexType: int, value: unknown, destinationType: Type): unknown;
+    ChangeTypeXsltResult(indexType: int, value: unknown): unknown;
     ComparePosition(navigatorThis: XPathNavigator, navigatorThat: XPathNavigator): int;
     CreateCollation(collation: string): XmlCollation | null;
     DebugGetGlobalNames(): string[] | null;
     DebugGetGlobalValue(name: string): IList | null;
-    DebugGetXsltValue(seq: IList | null): JsValue | null;
-    DebugSetGlobalValue(name: string, value: JsValue): void;
+    DebugGetXsltValue(seq: IList | null): unknown | null;
+    DebugSetGlobalValue(name: string, value: unknown): void;
     DocOrderDistinct(seq: IList_1<XPathNavigator>): IList_1<XPathNavigator>;
     EarlyBoundFunctionExists(name: string, namespaceUri: string): boolean;
     EndRtfConstruction(output: XmlQueryOutput): XPathNavigator;
@@ -870,8 +870,8 @@ export interface XmlQueryRuntime$instance {
     GenerateId(navigator: XPathNavigator): string;
     GetAtomizedName(index: int): string;
     GetCollation(index: int): XmlCollation;
-    GetEarlyBoundObject(index: int): JsValue;
-    GetGlobalValue(index: int): JsValue;
+    GetEarlyBoundObject(index: int): unknown;
+    GetGlobalValue(index: int): unknown;
     GetNameFilter(index: int): XmlNavigatorFilter;
     GetTypeFilter(nodeType: XPathNodeType): XmlNavigatorFilter;
     IsGlobalComputed(index: int): boolean;
@@ -884,7 +884,7 @@ export interface XmlQueryRuntime$instance {
     ParseTagName(tagName: string, indexPrefixMappings: int): XmlQualifiedName;
     ParseTagName(tagName: string, ns: string): XmlQualifiedName;
     SendMessage(message: string): void;
-    SetGlobalValue(index: int, value: JsValue): void;
+    SetGlobalValue(index: int, value: unknown): void;
     StartRtfConstruction(baseUri: string, output: XmlQueryOutput): void;
     StartSequenceConstruction(output: XmlQueryOutput): void;
     TextRtfConstruction(text: string, baseUri: string): XPathNavigator;
@@ -899,7 +899,7 @@ export const XmlQueryRuntime: {
 
 export type XmlQueryRuntime = XmlQueryRuntime$instance;
 
-export interface XmlQuerySequence_1$instance<T> {
+export interface XmlQuerySequence_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Xml_Xsl_Runtime_XmlQuerySequence_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -922,17 +922,17 @@ export interface XmlQuerySequence_1$instance<T> {
 
 
 export const XmlQuerySequence_1: {
-    new<T>(): XmlQuerySequence_1<T>;
-    new<T>(capacity: int): XmlQuerySequence_1<T>;
-    new<T>(array: T[], size: int): XmlQuerySequence_1<T>;
-    new<T>(value: T): XmlQuerySequence_1<T>;
-    readonly Empty: <T>() => XmlQuerySequence_1<T>;
-    CreateOrReuse<T>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
-    CreateOrReuse<T>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
+    new<T extends unknown>(): XmlQuerySequence_1<T>;
+    new<T extends unknown>(capacity: int): XmlQuerySequence_1<T>;
+    new<T extends unknown>(array: T[], size: int): XmlQuerySequence_1<T>;
+    new<T extends unknown>(value: T): XmlQuerySequence_1<T>;
+    readonly Empty: <T extends unknown>() => XmlQuerySequence_1<T>;
+    CreateOrReuse<T extends unknown>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
+    CreateOrReuse<T extends unknown>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
 };
 
 
-export interface __XmlQuerySequence_1$views<T> {
+export interface __XmlQuerySequence_1$views<T extends unknown> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
@@ -941,7 +941,7 @@ export interface __XmlQuerySequence_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type XmlQuerySequence_1<T> = XmlQuerySequence_1$instance<T> & __XmlQuerySequence_1$views<T> & { [index: number]: T; };
+export type XmlQuerySequence_1<T extends unknown> = XmlQuerySequence_1$instance<T> & __XmlQuerySequence_1$views<T> & { [index: number]: T; };
 
 
 export interface XsltLibrary$instance {

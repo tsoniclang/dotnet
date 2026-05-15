@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -320,10 +320,10 @@ export interface EventSource$instance {
     ToString(): string;
     Write(eventName: string | null): void;
     Write(eventName: string | null, options: EventSourceOptions): void;
-    Write<T>(eventName: string | null, data: T): void;
-    Write<T>(eventName: string | null, options: EventSourceOptions, data: T): void;
-    Write<T>(eventName: string | null, options: EventSourceOptions, data: T): void;
-    Write<T>(eventName: string | null, options: EventSourceOptions, activityId: Guid, relatedActivityId: Guid, data: T): void;
+    Write<T extends unknown>(eventName: string | null, data: T): void;
+    Write<T extends unknown>(eventName: string | null, options: EventSourceOptions, data: T): void;
+    Write<T extends unknown>(eventName: string | null, options: EventSourceOptions, data: T): void;
+    Write<T extends unknown>(eventName: string | null, options: EventSourceOptions, activityId: Guid, relatedActivityId: Guid, data: T): void;
 }
 
 
@@ -449,8 +449,8 @@ export interface EventWrittenEventArgs$instance extends EventArgs {
     set Message(value: string | null);
     Opcode: EventOpcode;
     OSThreadId: long;
-    get Payload(): ReadOnlyCollection_1<JsValue | null> | null;
-    set Payload(value: ReadOnlyCollection_1<JsValue | null> | null);
+    get Payload(): ReadOnlyCollection_1<unknown | null> | null;
+    set Payload(value: ReadOnlyCollection_1<unknown | null> | null);
     get PayloadNames(): ReadOnlyCollection_1<System_Internal.String> | null;
     set PayloadNames(value: ReadOnlyCollection_1<System_Internal.String> | null);
     readonly RelatedActivityId: Guid;

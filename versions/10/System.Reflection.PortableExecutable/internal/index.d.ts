@@ -3,7 +3,7 @@
 // Assembly: System.Reflection.Metadata
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -364,7 +364,7 @@ export interface DebugDirectoryBuilder$instance {
     AddCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort, age: int): void;
     AddEmbeddedPortablePdbEntry(debugMetadata: BlobBuilder, portablePdbVersion: ushort): void;
     AddEntry(type: DebugDirectoryEntryType, version: uint, stamp: uint): void;
-    AddEntry<TData>(type: DebugDirectoryEntryType, version: uint, stamp: uint, data: TData, dataSerializer: Action_2<BlobBuilder, TData>): void;
+    AddEntry<TData extends unknown>(type: DebugDirectoryEntryType, version: uint, stamp: uint, data: TData, dataSerializer: Action_2<BlobBuilder, TData>): void;
     AddPdbChecksumEntry(algorithmName: string, checksum: ImmutableArray_1<System_Internal.Byte>): void;
     AddReproducibleEntry(): void;
 }

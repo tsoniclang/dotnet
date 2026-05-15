@@ -3,7 +3,7 @@
 // Assembly: System.Reflection.Metadata
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -225,7 +225,7 @@ export interface EditAndContinueLogEntry$instance {
 
     readonly Handle: EntityHandle;
     readonly Operation: EditAndContinueOperation;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: EditAndContinueLogEntry): boolean;
     GetHashCode(): int;
 }
@@ -362,7 +362,7 @@ export interface LabelHandle$instance {
     readonly Id: int;
     readonly IsNil: boolean;
     Equals(other: LabelHandle): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -620,7 +620,7 @@ export interface ScalarEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_ScalarEncoder: never;
 
     readonly Builder: BlobBuilder;
-    Constant(value: JsValue | null): void;
+    Constant(value: unknown | null): void;
     NullArray(): void;
     SystemType(serializedTypeName: string | null): void;
 }
@@ -633,7 +633,7 @@ export const ScalarEncoder: {
 
 export type ScalarEncoder = ScalarEncoder$instance;
 
-export interface SignatureDecoder_2$instance<TType, TGenericContext> {
+export interface SignatureDecoder_2$instance<TType extends unknown, TGenericContext extends unknown> {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_SignatureDecoder_2: never;
 
     DecodeFieldSignature(blobReader: BlobReader): TType;
@@ -645,11 +645,11 @@ export interface SignatureDecoder_2$instance<TType, TGenericContext> {
 
 
 export const SignatureDecoder_2: {
-    new<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, metadataReader: MetadataReader, genericContext: TGenericContext): SignatureDecoder_2<TType, TGenericContext>;
+    new<TType extends unknown, TGenericContext extends unknown>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, metadataReader: MetadataReader, genericContext: TGenericContext): SignatureDecoder_2<TType, TGenericContext>;
 };
 
 
-export type SignatureDecoder_2<TType, TGenericContext> = SignatureDecoder_2$instance<TType, TGenericContext>;
+export type SignatureDecoder_2<TType extends unknown, TGenericContext extends unknown> = SignatureDecoder_2$instance<TType, TGenericContext>;
 
 export interface SignatureTypeEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_SignatureTypeEncoder: never;
@@ -762,7 +762,7 @@ export interface MetadataBuilder$instance {
     AddAssembly(name: StringHandle, version: Version, culture: StringHandle, publicKey: BlobHandle, flags: AssemblyFlags, hashAlgorithm: AssemblyHashAlgorithm): AssemblyDefinitionHandle;
     AddAssemblyFile(name: StringHandle, hashValue: BlobHandle, containsMetadata: boolean): AssemblyFileHandle;
     AddAssemblyReference(name: StringHandle, version: Version, culture: StringHandle, publicKeyOrToken: BlobHandle, flags: AssemblyFlags, hashValue: BlobHandle): AssemblyReferenceHandle;
-    AddConstant(parent: EntityHandle, value: JsValue | null): ConstantHandle;
+    AddConstant(parent: EntityHandle, value: unknown | null): ConstantHandle;
     AddCustomAttribute(parent: EntityHandle, constructor: EntityHandle, value: BlobHandle): CustomAttributeHandle;
     AddCustomDebugInformation(parent: EntityHandle, kind: GuidHandle, value: BlobHandle): CustomDebugInformationHandle;
     AddDeclarativeSecurityAttribute(parent: EntityHandle, action: DeclarativeSecurityAction, permissionSet: BlobHandle): DeclarativeSecurityAttributeHandle;
@@ -808,7 +808,7 @@ export interface MetadataBuilder$instance {
     GetOrAddBlob(value: ImmutableArray_1<System_Internal.Byte>): BlobHandle;
     GetOrAddBlobUTF16(value: string): BlobHandle;
     GetOrAddBlobUTF8(value: string, allowUnpairedSurrogates?: boolean): BlobHandle;
-    GetOrAddConstantBlob(value: JsValue | null): BlobHandle;
+    GetOrAddConstantBlob(value: unknown | null): BlobHandle;
     GetOrAddDocumentName(value: string): BlobHandle;
     GetOrAddGuid(guid: Guid): GuidHandle;
     GetOrAddString(value: string): StringHandle;

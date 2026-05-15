@@ -3,7 +3,7 @@
 // Assembly: System.Formats.Asn1
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -88,7 +88,7 @@ export interface Asn1Tag$instance {
     CalculateEncodedSize(): int;
     Encode(destination: Span_1<System_Internal.Byte>): int;
     Equals(other: Asn1Tag): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     HasSameClassAndValue(other: Asn1Tag): boolean;
     ToString(): string;
@@ -178,13 +178,13 @@ export interface AsnReader$instance {
     ReadCharacterString(encodingType: UniversalTagNumber, expectedTag?: Nullable_1<Asn1Tag>): string;
     ReadEncodedValue(): ReadOnlyMemory_1<System_Internal.Byte>;
     ReadEnumeratedBytes(expectedTag?: Nullable_1<Asn1Tag>): ReadOnlyMemory_1<System_Internal.Byte>;
-    ReadEnumeratedValue<TEnum extends number>(expectedTag?: Nullable_1<Asn1Tag>): TEnum;
+    ReadEnumeratedValue<TEnum extends unknown & number>(expectedTag?: Nullable_1<Asn1Tag>): TEnum;
     ReadEnumeratedValue(enumType: Type, expectedTag?: Nullable_1<Asn1Tag>): number;
     ReadGeneralizedTime(expectedTag?: Nullable_1<Asn1Tag>): DateTimeOffset;
     ReadInteger(expectedTag?: Nullable_1<Asn1Tag>): BigInteger;
     ReadIntegerBytes(expectedTag?: Nullable_1<Asn1Tag>): ReadOnlyMemory_1<System_Internal.Byte>;
     ReadNamedBitList(expectedTag?: Nullable_1<Asn1Tag>): BitArray;
-    ReadNamedBitListValue<TFlagsEnum extends number>(expectedTag?: Nullable_1<Asn1Tag>): TFlagsEnum;
+    ReadNamedBitListValue<TFlagsEnum extends unknown & number>(expectedTag?: Nullable_1<Asn1Tag>): TFlagsEnum;
     ReadNamedBitListValue(flagsEnumType: Type, expectedTag?: Nullable_1<Asn1Tag>): number;
     ReadNull(expectedTag?: Nullable_1<Asn1Tag>): void;
     ReadObjectIdentifier(expectedTag?: Nullable_1<Asn1Tag>): string;
@@ -223,9 +223,9 @@ export interface AsnWriter$instance {
     CopyTo(destination: AsnWriter): void;
     Encode(destination: Span_1<System_Internal.Byte>): int;
     Encode(): byte[];
-    Encode<TReturn>(encodeCallback: Func_2<ReadOnlySpan_1<System_Internal.Byte>, TReturn>): TReturn;
-    Encode<TState, TReturn>(state: TState, encodeCallback: Func_3<TState, ReadOnlySpan_1<System_Internal.Byte>, TReturn>): TReturn;
-    Encode<TState>(state: TState, encodeCallback: Action_2<TState, ReadOnlySpan_1<System_Internal.Byte>>): void;
+    Encode<TReturn extends unknown>(encodeCallback: Func_2<ReadOnlySpan_1<System_Internal.Byte>, TReturn>): TReturn;
+    Encode<TState extends unknown, TReturn extends unknown>(state: TState, encodeCallback: Func_3<TState, ReadOnlySpan_1<System_Internal.Byte>, TReturn>): TReturn;
+    Encode<TState extends unknown>(state: TState, encodeCallback: Action_2<TState, ReadOnlySpan_1<System_Internal.Byte>>): void;
     EncodedValueEquals(other: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     EncodedValueEquals(other: AsnWriter): boolean;
     GetEncodedLength(): int;
@@ -243,7 +243,7 @@ export interface AsnWriter$instance {
     WriteCharacterString(encodingType: UniversalTagNumber, str: ReadOnlySpan_1<System_Internal.Char>, tag?: Nullable_1<Asn1Tag>): void;
     WriteEncodedValue(value: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteEnumeratedValue(value: number, tag?: Nullable_1<Asn1Tag>): void;
-    WriteEnumeratedValue<TEnum extends number>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
+    WriteEnumeratedValue<TEnum extends unknown & number>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
     WriteGeneralizedTime(value: DateTimeOffset, omitFractionalSeconds?: boolean, tag?: Nullable_1<Asn1Tag>): void;
     WriteInteger(value: long, tag?: Nullable_1<Asn1Tag>): void;
     WriteInteger(value: ulong, tag?: Nullable_1<Asn1Tag>): void;
@@ -251,7 +251,7 @@ export interface AsnWriter$instance {
     WriteInteger(value: ReadOnlySpan_1<System_Internal.Byte>, tag?: Nullable_1<Asn1Tag>): void;
     WriteIntegerUnsigned(value: ReadOnlySpan_1<System_Internal.Byte>, tag?: Nullable_1<Asn1Tag>): void;
     WriteNamedBitList(value: number, tag?: Nullable_1<Asn1Tag>): void;
-    WriteNamedBitList<TEnum extends number>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
+    WriteNamedBitList<TEnum extends unknown & number>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
     WriteNamedBitList(value: BitArray, tag?: Nullable_1<Asn1Tag>): void;
     WriteNull(tag?: Nullable_1<Asn1Tag>): void;
     WriteObjectIdentifier(oidValue: string, tag?: Nullable_1<Asn1Tag>): void;
@@ -293,13 +293,13 @@ export abstract class AsnDecoder$instance {
     static ReadCharacterString(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, encodingType: UniversalTagNumber, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): string;
     static ReadEncodedValue(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, contentOffset: int, contentLength: int, bytesConsumed: int): Asn1Tag;
     static ReadEnumeratedBytes(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): ReadOnlySpan_1<System_Internal.Byte>;
-    static ReadEnumeratedValue<TEnum extends number>(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): TEnum;
+    static ReadEnumeratedValue<TEnum extends unknown & number>(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): TEnum;
     static ReadEnumeratedValue(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, enumType: Type, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): number;
     static ReadGeneralizedTime(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): DateTimeOffset;
     static ReadInteger(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): BigInteger;
     static ReadIntegerBytes(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): ReadOnlySpan_1<System_Internal.Byte>;
     static ReadNamedBitList(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): BitArray;
-    static ReadNamedBitListValue<TFlagsEnum extends number>(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): TFlagsEnum;
+    static ReadNamedBitListValue<TFlagsEnum extends unknown & number>(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): TFlagsEnum;
     static ReadNamedBitListValue(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, flagsEnumType: Type, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): number;
     static ReadNull(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): void;
     static ReadObjectIdentifier(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): string;

@@ -3,7 +3,7 @@
 // Assembly: System.Net.Primitives, System.Net.Security
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -415,16 +415,16 @@ export enum TlsCipherSuite {
 }
 
 
-export type LocalCertificateSelectionCallback = (sender: JsValue, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate | null, acceptableIssuers: string[]) => X509Certificate | null;
+export type LocalCertificateSelectionCallback = (sender: unknown, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate | null, acceptableIssuers: string[]) => X509Certificate | null;
 
 
-export type RemoteCertificateValidationCallback = (sender: JsValue, certificate: X509Certificate | null, chain: X509Chain | null, sslPolicyErrors: SslPolicyErrors) => boolean;
+export type RemoteCertificateValidationCallback = (sender: unknown, certificate: X509Certificate | null, chain: X509Chain | null, sslPolicyErrors: SslPolicyErrors) => boolean;
 
 
-export type ServerCertificateSelectionCallback = (sender: JsValue, hostName: string | null) => X509Certificate;
+export type ServerCertificateSelectionCallback = (sender: unknown, hostName: string | null) => X509Certificate;
 
 
-export type ServerOptionsSelectionCallback = (stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: JsValue | null, cancellationToken: CancellationToken) => ValueTask_1<SslServerAuthenticationOptions>;
+export type ServerOptionsSelectionCallback = (stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: unknown | null, cancellationToken: CancellationToken) => ValueTask_1<SslServerAuthenticationOptions>;
 
 
 export interface SslApplicationProtocol$instance {
@@ -434,7 +434,7 @@ export interface SslApplicationProtocol$instance {
 
     readonly Protocol: ReadOnlyMemory_1<System_Internal.Byte>;
     Equals(other: SslApplicationProtocol): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -474,7 +474,7 @@ export const SslClientHelloInfo: {
 
 export type SslClientHelloInfo = SslClientHelloInfo$instance;
 
-export interface AuthenticatedStream$instance extends Stream {
+export interface AuthenticatedStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_Net_Security_AuthenticatedStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -600,7 +600,7 @@ export const NegotiateAuthenticationServerOptions: {
 
 export type NegotiateAuthenticationServerOptions = NegotiateAuthenticationServerOptions$instance;
 
-export interface NegotiateStream$instance extends AuthenticatedStream$instance {
+export interface NegotiateStream$instance extends AuthenticatedStream$instance, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_Net_Security_NegotiateStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -639,17 +639,17 @@ export interface NegotiateStream$instance extends AuthenticatedStream$instance {
     AuthenticateAsServerAsync(policy: ExtendedProtectionPolicy | null): Task;
     AuthenticateAsServerAsync(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
     AuthenticateAsServerAsync(credential: NetworkCredential, policy: ExtendedProtectionPolicy | null, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
-    BeginAuthenticateAsClient(asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsServer(asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsServer(policy: ExtendedProtectionPolicy | null, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy | null, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginAuthenticateAsClient(asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsServer(asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsServer(policy: ExtendedProtectionPolicy | null, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy | null, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
@@ -774,7 +774,7 @@ export const SslServerAuthenticationOptions: {
 
 export type SslServerAuthenticationOptions = SslServerAuthenticationOptions$instance;
 
-export interface SslStream$instance extends AuthenticatedStream$instance {
+export interface SslStream$instance extends AuthenticatedStream$instance, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_Net_Security_SslStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -823,15 +823,15 @@ export interface SslStream$instance extends AuthenticatedStream$instance {
     AuthenticateAsServerAsync(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean): Task;
     AuthenticateAsServerAsync(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): Task;
     AuthenticateAsServerAsync(sslServerAuthenticationOptions: SslServerAuthenticationOptions, cancellationToken?: CancellationToken): Task;
-    AuthenticateAsServerAsync(optionsCallback: ServerOptionsSelectionCallback, state: JsValue | null, cancellationToken?: CancellationToken): Task;
-    BeginAuthenticateAsClient(targetHost: string, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsServer(serverCertificate: X509Certificate, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    AuthenticateAsServerAsync(optionsCallback: ServerOptionsSelectionCallback, state: unknown | null, cancellationToken?: CancellationToken): Task;
+    BeginAuthenticateAsClient(targetHost: string, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsServer(serverCertificate: X509Certificate, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;

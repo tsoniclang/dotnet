@@ -3,7 +3,7 @@
 // Assembly: Microsoft.VisualBasic.Core
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -121,7 +121,7 @@ export const FileSystem: {
 
 export type FileSystem = FileSystem$instance;
 
-export interface MalformedLineException$instance extends Exception {
+export interface MalformedLineException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_FileIO_MalformedLineException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;

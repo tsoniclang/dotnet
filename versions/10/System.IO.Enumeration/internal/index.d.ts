@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -47,7 +47,7 @@ export const FileSystemEntry: {
 
 export type FileSystemEntry = FileSystemEntry$instance;
 
-export interface FileSystemEnumerable_1$instance<TResult> {
+export interface FileSystemEnumerable_1$instance<TResult extends unknown> {
     readonly __tsonic_type_System_IO_Enumeration_FileSystemEnumerable_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -62,25 +62,25 @@ export interface FileSystemEnumerable_1$instance<TResult> {
 
 
 export const FileSystemEnumerable_1: {
-    new<TResult>(directory: string, transform: FileSystemEnumerable_1_FindTransform<TResult>, options: EnumerationOptions | null): FileSystemEnumerable_1<TResult>;
+    new<TResult extends unknown>(directory: string, transform: FileSystemEnumerable_1_FindTransform<TResult>, options: EnumerationOptions | null): FileSystemEnumerable_1<TResult>;
 };
 
 
-export interface __FileSystemEnumerable_1$views<TResult> {
+export interface __FileSystemEnumerable_1$views<TResult extends unknown> {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TResult>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TResult> & __FileSystemEnumerable_1$views<TResult>;
+export type FileSystemEnumerable_1<TResult extends unknown> = FileSystemEnumerable_1$instance<TResult> & __FileSystemEnumerable_1$views<TResult>;
 
 
-export type FileSystemEnumerable_1_FindPredicate<TResult> = (entry: FileSystemEntry) => boolean;
+export type FileSystemEnumerable_1_FindPredicate<TResult extends unknown> = (entry: FileSystemEntry) => boolean;
 
 
-export type FileSystemEnumerable_1_FindTransform<TResult> = (entry: FileSystemEntry) => TResult;
+export type FileSystemEnumerable_1_FindTransform<TResult extends unknown> = (entry: FileSystemEntry) => TResult;
 
 
-export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinalizerObject, IDisposable {
+export interface FileSystemEnumerator_1$instance<TResult extends unknown> extends CriticalFinalizerObject {
     readonly __tsonic_type_System_IO_Enumeration_FileSystemEnumerator_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -101,16 +101,16 @@ export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinali
 }
 
 
-export const FileSystemEnumerator_1: (abstract new<TResult>(directory: string, options: EnumerationOptions | null) => FileSystemEnumerator_1<TResult>) & {
+export const FileSystemEnumerator_1: (abstract new<TResult extends unknown>(directory: string, options: EnumerationOptions | null) => FileSystemEnumerator_1<TResult>) & {
 };
 
 
-export interface __FileSystemEnumerator_1$views<TResult> {
+export interface __FileSystemEnumerator_1$views<TResult extends unknown> {
     As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<TResult>;
     As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
-export type FileSystemEnumerator_1<TResult> = FileSystemEnumerator_1$instance<TResult> & __FileSystemEnumerator_1$views<TResult>;
+export type FileSystemEnumerator_1<TResult extends unknown> = FileSystemEnumerator_1$instance<TResult> & __FileSystemEnumerator_1$views<TResult>;
 
 
 export abstract class FileSystemName$instance {

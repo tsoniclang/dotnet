@@ -43,7 +43,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67113312,
+          "metadataToken": 67113307,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -55,7 +55,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::NoneSystem.Runtime.ConstrainedExecution.Cer",
           "clrName": "None",
-          "metadataToken": 67113313,
+          "metadataToken": 67113308,
           "normalizedSignature": "None|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::MayFailSystem.Runtime.ConstrainedExecution.Cer",
           "clrName": "MayFail",
-          "metadataToken": 67113314,
+          "metadataToken": 67113309,
           "normalizedSignature": "MayFail|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -79,7 +79,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::SuccessSystem.Runtime.ConstrainedExecution.Cer",
           "clrName": "Success",
-          "metadataToken": 67113315,
+          "metadataToken": 67113310,
           "normalizedSignature": "Success|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -131,7 +131,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67113316,
+          "metadataToken": 67113311,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -143,7 +143,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::MayCorruptProcessSystem.Runtime.ConstrainedExecution.Consistency",
           "clrName": "MayCorruptProcess",
-          "metadataToken": 67113317,
+          "metadataToken": 67113312,
           "normalizedSignature": "MayCorruptProcess|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::MayCorruptAppDomainSystem.Runtime.ConstrainedExecution.Consistency",
           "clrName": "MayCorruptAppDomain",
-          "metadataToken": 67113318,
+          "metadataToken": 67113313,
           "normalizedSignature": "MayCorruptAppDomain|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -167,7 +167,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::MayCorruptInstanceSystem.Runtime.ConstrainedExecution.Consistency",
           "clrName": "MayCorruptInstance",
-          "metadataToken": 67113319,
+          "metadataToken": 67113314,
           "normalizedSignature": "MayCorruptInstance|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -179,7 +179,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::WillNotCorruptStateSystem.Runtime.ConstrainedExecution.Consistency",
           "clrName": "WillNotCorruptState",
-          "metadataToken": 67113320,
+          "metadataToken": 67113315,
           "normalizedSignature": "WillNotCorruptState|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

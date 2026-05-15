@@ -373,7 +373,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadPriority::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67112298,
+          "metadataToken": 67112293,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -385,7 +385,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadPriority::LowestSystem.Threading.ThreadPriority",
           "clrName": "Lowest",
-          "metadataToken": 67112299,
+          "metadataToken": 67112294,
           "normalizedSignature": "Lowest|System.Threading.ThreadPriority|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -397,7 +397,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadPriority::BelowNormalSystem.Threading.ThreadPriority",
           "clrName": "BelowNormal",
-          "metadataToken": 67112300,
+          "metadataToken": 67112295,
           "normalizedSignature": "BelowNormal|System.Threading.ThreadPriority|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -409,7 +409,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadPriority::NormalSystem.Threading.ThreadPriority",
           "clrName": "Normal",
-          "metadataToken": 67112301,
+          "metadataToken": 67112296,
           "normalizedSignature": "Normal|System.Threading.ThreadPriority|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -421,7 +421,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadPriority::AboveNormalSystem.Threading.ThreadPriority",
           "clrName": "AboveNormal",
-          "metadataToken": 67112302,
+          "metadataToken": 67112297,
           "normalizedSignature": "AboveNormal|System.Threading.ThreadPriority|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -433,7 +433,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadPriority::HighestSystem.Threading.ThreadPriority",
           "clrName": "Highest",
-          "metadataToken": 67112303,
+          "metadataToken": 67112298,
           "normalizedSignature": "Highest|System.Threading.ThreadPriority|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -485,7 +485,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67112304,
+          "metadataToken": 67112299,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -497,7 +497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::RunningSystem.Threading.ThreadState",
           "clrName": "Running",
-          "metadataToken": 67112305,
+          "metadataToken": 67112300,
           "normalizedSignature": "Running|System.Threading.ThreadState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -509,7 +509,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::StopRequestedSystem.Threading.ThreadState",
           "clrName": "StopRequested",
-          "metadataToken": 67112306,
+          "metadataToken": 67112301,
           "normalizedSignature": "StopRequested|System.Threading.ThreadState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -521,7 +521,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::SuspendRequestedSystem.Threading.ThreadState",
           "clrName": "SuspendRequested",
-          "metadataToken": 67112307,
+          "metadataToken": 67112302,
           "normalizedSignature": "SuspendRequested|System.Threading.ThreadState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -533,7 +533,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::BackgroundSystem.Threading.ThreadState",
           "clrName": "Background",
-          "metadataToken": 67112308,
+          "metadataToken": 67112303,
           "normalizedSignature": "Background|System.Threading.ThreadState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -545,7 +545,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::UnstartedSystem.Threading.ThreadState",
           "clrName": "Unstarted",
-          "metadataToken": 67112309,
+          "metadataToken": 67112304,
           "normalizedSignature": "Unstarted|System.Threading.ThreadState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -557,7 +557,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::StoppedSystem.Threading.ThreadState",
           "clrName": "Stopped",
-          "metadataToken": 67112310,
+          "metadataToken": 67112305,
           "normalizedSignature": "Stopped|System.Threading.ThreadState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -569,7 +569,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::WaitSleepJoinSystem.Threading.ThreadState",
           "clrName": "WaitSleepJoin",
-          "metadataToken": 67112311,
+          "metadataToken": 67112306,
           "normalizedSignature": "WaitSleepJoin|System.Threading.ThreadState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -581,7 +581,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::SuspendedSystem.Threading.ThreadState",
           "clrName": "Suspended",
-          "metadataToken": 67112312,
+          "metadataToken": 67112307,
           "normalizedSignature": "Suspended|System.Threading.ThreadState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -593,7 +593,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::AbortRequestedSystem.Threading.ThreadState",
           "clrName": "AbortRequested",
-          "metadataToken": 67112313,
+          "metadataToken": 67112308,
           "normalizedSignature": "AbortRequested|System.Threading.ThreadState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -605,7 +605,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::AbortedSystem.Threading.ThreadState",
           "clrName": "Aborted",
-          "metadataToken": 67112314,
+          "metadataToken": 67112309,
           "normalizedSignature": "Aborted|System.Threading.ThreadState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -15718,7 +15718,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Timeout::InfiniteTimeSpanSystem.TimeSpan",
           "clrName": "InfiniteTimeSpan",
-          "metadataToken": 67112315,
+          "metadataToken": 67112310,
           "normalizedSignature": "InfiniteTimeSpan|System.TimeSpan|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -15730,7 +15730,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Timeout::InfiniteSystem.Int32",
           "clrName": "Infinite",
-          "metadataToken": 67112316,
+          "metadataToken": 67112311,
           "normalizedSignature": "Infinite|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

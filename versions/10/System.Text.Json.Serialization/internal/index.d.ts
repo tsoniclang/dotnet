@@ -3,7 +3,7 @@
 // Assembly: System.Text.Json
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -155,7 +155,7 @@ export const JsonConverter: {
 
 export type JsonConverter = JsonConverter$instance;
 
-export interface JsonConverter_1$instance<T> extends JsonConverter {
+export interface JsonConverter_1$instance<T extends unknown> extends JsonConverter {
     readonly __tsonic_type_System_Text_Json_Serialization_JsonConverter_1: never;
 
     readonly HandleNull: boolean;
@@ -168,11 +168,11 @@ export interface JsonConverter_1$instance<T> extends JsonConverter {
 }
 
 
-export const JsonConverter_1: (abstract new<T>() => JsonConverter_1<T>) & {
+export const JsonConverter_1: (abstract new<T extends unknown>() => JsonConverter_1<T>) & {
 };
 
 
-export type JsonConverter_1<T> = JsonConverter_1$instance<T>;
+export type JsonConverter_1<T extends unknown> = JsonConverter_1$instance<T>;
 
 export interface JsonConverterAttribute$instance extends JsonAttribute {
     readonly __tsonic_type_System_Text_Json_Serialization_JsonConverterAttribute: never;
@@ -207,7 +207,7 @@ export interface JsonDerivedTypeAttribute$instance extends JsonAttribute {
     readonly __tsonic_type_System_Text_Json_Serialization_JsonDerivedTypeAttribute: never;
 
     readonly DerivedType: Type;
-    readonly TypeDiscriminator: JsValue | null;
+    readonly TypeDiscriminator: unknown | null;
 }
 
 
@@ -260,7 +260,7 @@ export const JsonIncludeAttribute: {
 
 export type JsonIncludeAttribute = JsonIncludeAttribute$instance;
 
-export interface JsonNumberEnumConverter_1$instance<TEnum extends number & NonNullable<JsValue>> extends JsonConverterFactory {
+export interface JsonNumberEnumConverter_1$instance<TEnum extends NonNullable<unknown> & number> extends JsonConverterFactory {
     readonly __tsonic_type_System_Text_Json_Serialization_JsonNumberEnumConverter_1: never;
 
     CanConvert(typeToConvert: Type): boolean;
@@ -269,11 +269,11 @@ export interface JsonNumberEnumConverter_1$instance<TEnum extends number & NonNu
 
 
 export const JsonNumberEnumConverter_1: {
-    new<TEnum extends number & NonNullable<JsValue>>(): JsonNumberEnumConverter_1<TEnum>;
+    new<TEnum extends NonNullable<unknown> & number>(): JsonNumberEnumConverter_1<TEnum>;
 };
 
 
-export type JsonNumberEnumConverter_1<TEnum extends number> = JsonNumberEnumConverter_1$instance<TEnum>;
+export type JsonNumberEnumConverter_1<TEnum extends NonNullable<unknown> & number> = JsonNumberEnumConverter_1$instance<TEnum>;
 
 export interface JsonNumberHandlingAttribute$instance extends JsonAttribute {
     readonly __tsonic_type_System_Text_Json_Serialization_JsonNumberHandlingAttribute: never;
@@ -458,7 +458,7 @@ export const JsonStringEnumConverter: {
 
 export type JsonStringEnumConverter = JsonStringEnumConverter$instance;
 
-export interface JsonStringEnumConverter_1$instance<TEnum extends number & NonNullable<JsValue>> extends JsonConverterFactory {
+export interface JsonStringEnumConverter_1$instance<TEnum extends NonNullable<unknown> & number> extends JsonConverterFactory {
     readonly __tsonic_type_System_Text_Json_Serialization_JsonStringEnumConverter_1: never;
 
     CanConvert(typeToConvert: Type): boolean;
@@ -467,12 +467,12 @@ export interface JsonStringEnumConverter_1$instance<TEnum extends number & NonNu
 
 
 export const JsonStringEnumConverter_1: {
-    new<TEnum extends number & NonNullable<JsValue>>(): JsonStringEnumConverter_1<TEnum>;
-    new<TEnum extends number & NonNullable<JsValue>>(namingPolicy: JsonNamingPolicy | null, allowIntegerValues: boolean): JsonStringEnumConverter_1<TEnum>;
+    new<TEnum extends NonNullable<unknown> & number>(): JsonStringEnumConverter_1<TEnum>;
+    new<TEnum extends NonNullable<unknown> & number>(namingPolicy: JsonNamingPolicy | null, allowIntegerValues: boolean): JsonStringEnumConverter_1<TEnum>;
 };
 
 
-export type JsonStringEnumConverter_1<TEnum extends number> = JsonStringEnumConverter_1$instance<TEnum>;
+export type JsonStringEnumConverter_1<TEnum extends NonNullable<unknown> & number> = JsonStringEnumConverter_1$instance<TEnum>;
 
 export interface JsonStringEnumMemberNameAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Text_Json_Serialization_JsonStringEnumMemberNameAttribute: never;
@@ -517,7 +517,7 @@ export const ReferenceHandler: (abstract new() => ReferenceHandler) & {
 
 export type ReferenceHandler = ReferenceHandler$instance;
 
-export interface ReferenceHandler_1$instance<T extends ReferenceResolver> extends ReferenceHandler {
+export interface ReferenceHandler_1$instance<T extends unknown & ReferenceResolver> extends ReferenceHandler {
     readonly __tsonic_type_System_Text_Json_Serialization_ReferenceHandler_1: never;
 
     CreateResolver(): ReferenceResolver;
@@ -525,18 +525,18 @@ export interface ReferenceHandler_1$instance<T extends ReferenceResolver> extend
 
 
 export const ReferenceHandler_1: {
-    new<T extends ReferenceResolver>(): ReferenceHandler_1<T>;
+    new<T extends unknown & ReferenceResolver>(): ReferenceHandler_1<T>;
 };
 
 
-export type ReferenceHandler_1<T extends ReferenceResolver> = ReferenceHandler_1$instance<T>;
+export type ReferenceHandler_1<T extends unknown & ReferenceResolver> = ReferenceHandler_1$instance<T>;
 
 export interface ReferenceResolver$instance {
     readonly __tsonic_type_System_Text_Json_Serialization_ReferenceResolver: never;
 
-    AddReference(referenceId: string, value: JsValue): void;
-    GetReference(value: JsValue, alreadyExists: boolean): string;
-    ResolveReference(referenceId: string): JsValue;
+    AddReference(referenceId: string, value: unknown): void;
+    GetReference(value: unknown, alreadyExists: boolean): string;
+    ResolveReference(referenceId: string): unknown;
 }
 
 

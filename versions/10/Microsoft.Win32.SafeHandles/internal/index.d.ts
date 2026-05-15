@@ -3,7 +3,7 @@
 // Assembly: Microsoft.Win32.Registry, System.Diagnostics.Process, System.IO.MemoryMappedFiles, System.IO.Pipes, System.Private.CoreLib, System.Security.Cryptography, System.Security.Principal.Windows
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces

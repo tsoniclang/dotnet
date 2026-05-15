@@ -3,7 +3,7 @@
 // Assembly: System.Collections.Concurrent, System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -21,11 +21,11 @@ export enum EnumerablePartitionerOptions {
 }
 
 
-export interface IProducerConsumerCollection_1$instance<T> extends IEnumerable_1<T>, IEnumerable, ICollection {
+export interface IProducerConsumerCollection_1$instance<T extends unknown> extends IEnumerable_1<T>, IEnumerable, ICollection {
     readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
 
     readonly Count: int;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     readonly IsSynchronized: boolean;
     CopyTo(array: T[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
@@ -38,9 +38,9 @@ export interface IProducerConsumerCollection_1$instance<T> extends IEnumerable_1
 }
 
 
-export type IProducerConsumerCollection_1<T> = IProducerConsumerCollection_1$instance<T>;
+export type IProducerConsumerCollection_1<T extends unknown> = IProducerConsumerCollection_1$instance<T>;
 
-export interface BlockingCollection_1$instance<T> extends System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T> {
+export interface BlockingCollection_1$instance<T extends unknown> extends System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T> {
     readonly __tsonic_type_System_Collections_Concurrent_BlockingCollection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -76,26 +76,26 @@ export interface BlockingCollection_1$instance<T> extends System_Collections_Gen
 
 
 export const BlockingCollection_1: {
-    new<T>(): BlockingCollection_1<T>;
-    new<T>(boundedCapacity: int): BlockingCollection_1<T>;
-    new<T>(collection: IProducerConsumerCollection_1<T>, boundedCapacity: int): BlockingCollection_1<T>;
-    new<T>(collection: IProducerConsumerCollection_1<T>): BlockingCollection_1<T>;
-    AddToAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
-    AddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    TakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null, cancellationToken: CancellationToken): int;
-    TakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null): int;
-    TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
-    TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
-    TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null, millisecondsTimeout: int): int;
-    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null, timeout: TimeSpan): int;
-    TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | null): int;
+    new<T extends unknown>(): BlockingCollection_1<T>;
+    new<T extends unknown>(boundedCapacity: int): BlockingCollection_1<T>;
+    new<T extends unknown>(collection: IProducerConsumerCollection_1<T>, boundedCapacity: int): BlockingCollection_1<T>;
+    new<T extends unknown>(collection: IProducerConsumerCollection_1<T>): BlockingCollection_1<T>;
+    AddToAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
+    AddToAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T): int;
+    TakeFromAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T | null, cancellationToken: CancellationToken): int;
+    TakeFromAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T | null): int;
+    TryAddToAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    TryAddToAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
+    TryAddToAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
+    TryAddToAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T): int;
+    TryTakeFromAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T | null, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    TryTakeFromAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T | null, millisecondsTimeout: int): int;
+    TryTakeFromAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T | null, timeout: TimeSpan): int;
+    TryTakeFromAny<T extends unknown>(collections: BlockingCollection_1<T>[], item: T | null): int;
 };
 
 
-export interface __BlockingCollection_1$views<T> {
+export interface __BlockingCollection_1$views<T extends unknown> {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
     As_ICollection(): System_Collections_Internal.ICollection$instance;
@@ -103,10 +103,10 @@ export interface __BlockingCollection_1$views<T> {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export type BlockingCollection_1<T> = BlockingCollection_1$instance<T> & __BlockingCollection_1$views<T>;
+export type BlockingCollection_1<T extends unknown> = BlockingCollection_1$instance<T> & __BlockingCollection_1$views<T>;
 
 
-export interface ConcurrentBag_1$instance<T> {
+export interface ConcurrentBag_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_Concurrent_ConcurrentBag_1: never;
 
     readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
@@ -128,12 +128,12 @@ export interface ConcurrentBag_1$instance<T> {
 
 
 export const ConcurrentBag_1: {
-    new<T>(): ConcurrentBag_1<T>;
-    new<T>(collection: IEnumerable_1<T>): ConcurrentBag_1<T>;
+    new<T extends unknown>(): ConcurrentBag_1<T>;
+    new<T extends unknown>(collection: IEnumerable_1<T>): ConcurrentBag_1<T>;
 };
 
 
-export interface __ConcurrentBag_1$views<T> {
+export interface __ConcurrentBag_1$views<T extends unknown> {
     As_IProducerConsumerCollection_1(): IProducerConsumerCollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
@@ -141,10 +141,10 @@ export interface __ConcurrentBag_1$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ConcurrentBag_1<T> = ConcurrentBag_1$instance<T> & __ConcurrentBag_1$views<T>;
+export type ConcurrentBag_1<T extends unknown> = ConcurrentBag_1$instance<T> & __ConcurrentBag_1$views<T>;
 
 
-export interface ConcurrentDictionary_2$instance<TKey, TValue> {
+export interface ConcurrentDictionary_2$instance<TKey extends unknown, TValue extends unknown> {
     readonly __tsonic_type_System_Collections_Concurrent_ConcurrentDictionary_2: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -162,19 +162,19 @@ export interface ConcurrentDictionary_2$instance<TKey, TValue> {
     Item: TValue;
     readonly Keys: ICollection_1<TKey>;
     readonly Values: ICollection_1<TValue>;
-    AddOrUpdate<TArg>(key: TKey, addValueFactory: Func_3<TKey, TArg, TValue>, updateValueFactory: Func_4<TKey, TValue, TArg, TValue>, factoryArgument: TArg): TValue;
+    AddOrUpdate<TArg extends unknown>(key: TKey, addValueFactory: Func_3<TKey, TArg, TValue>, updateValueFactory: Func_4<TKey, TValue, TArg, TValue>, factoryArgument: TArg): TValue;
     AddOrUpdate(key: TKey, addValueFactory: Func_2<TKey, TValue>, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
     AddOrUpdate(key: TKey, addValue: TValue, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
     Clear(): void;
     ContainsKey(key: TKey): boolean;
-    GetAlternateLookup<TAlternateKey>(): ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
+    GetAlternateLookup<TAlternateKey extends unknown>(): ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
     GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
     GetOrAdd(key: TKey, valueFactory: Func_2<TKey, TValue>): TValue;
-    GetOrAdd<TArg>(key: TKey, valueFactory: Func_3<TKey, TArg, TValue>, factoryArgument: TArg): TValue;
+    GetOrAdd<TArg extends unknown>(key: TKey, valueFactory: Func_3<TKey, TArg, TValue>, factoryArgument: TArg): TValue;
     GetOrAdd(key: TKey, value: TValue): TValue;
     ToArray(): KeyValuePair_2<TKey, TValue>[];
     TryAdd(key: TKey, value: TValue): boolean;
-    TryGetAlternateLookup<TAlternateKey>(lookup: ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>): boolean;
+    TryGetAlternateLookup<TAlternateKey extends unknown>(lookup: ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>): boolean;
     TryGetValue(key: TKey, value: TValue): boolean;
     TryRemove(key: TKey, value: TValue): boolean;
     TryRemove(item: KeyValuePair_2<TKey, TValue>): boolean;
@@ -183,17 +183,17 @@ export interface ConcurrentDictionary_2$instance<TKey, TValue> {
 
 
 export const ConcurrentDictionary_2: {
-    new<TKey, TValue>(): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(concurrencyLevel: int, capacity: int): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(concurrencyLevel: int, collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(concurrencyLevel: int, capacity: int, comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey extends unknown, TValue extends unknown>(): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey extends unknown, TValue extends unknown>(concurrencyLevel: int, capacity: int): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey extends unknown, TValue extends unknown>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey extends unknown, TValue extends unknown>(comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey extends unknown, TValue extends unknown>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey extends unknown, TValue extends unknown>(concurrencyLevel: int, collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey extends unknown, TValue extends unknown>(concurrencyLevel: int, capacity: int, comparer: IEqualityComparer_1<TKey> | null): ConcurrentDictionary_2<TKey, TValue>;
 };
 
 
-export interface __ConcurrentDictionary_2$views<TKey, TValue> {
+export interface __ConcurrentDictionary_2$views<TKey extends unknown, TValue extends unknown> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
@@ -204,10 +204,10 @@ export interface __ConcurrentDictionary_2$views<TKey, TValue> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ConcurrentDictionary_2<TKey, TValue> = ConcurrentDictionary_2$instance<TKey, TValue> & __ConcurrentDictionary_2$views<TKey, TValue>;
+export type ConcurrentDictionary_2<TKey extends unknown, TValue extends unknown> = ConcurrentDictionary_2$instance<TKey, TValue> & __ConcurrentDictionary_2$views<TKey, TValue>;
 
 
-export interface ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
+export interface ConcurrentDictionary_2_AlternateLookup_1$instance<TKey extends unknown, TValue extends unknown, TAlternateKey extends unknown> {
     readonly __tsonic_type_System_Collections_Concurrent_ConcurrentDictionary_2_AlternateLookup_1: never;
 
     readonly Dictionary: ConcurrentDictionary_2<TKey, TValue>;
@@ -222,13 +222,13 @@ export interface ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue,
 
 
 export const ConcurrentDictionary_2_AlternateLookup_1: {
-    new<TKey, TValue, TAlternateKey>(): ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
+    new<TKey extends unknown, TValue extends unknown, TAlternateKey extends unknown>(): ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
 };
 
 
-export type ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
+export type ConcurrentDictionary_2_AlternateLookup_1<TKey extends unknown, TValue extends unknown, TAlternateKey extends unknown> = ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
-export interface ConcurrentQueue_1$instance<T> {
+export interface ConcurrentQueue_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_Concurrent_ConcurrentQueue_1: never;
 
     readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
@@ -250,12 +250,12 @@ export interface ConcurrentQueue_1$instance<T> {
 
 
 export const ConcurrentQueue_1: {
-    new<T>(): ConcurrentQueue_1<T>;
-    new<T>(collection: IEnumerable_1<T>): ConcurrentQueue_1<T>;
+    new<T extends unknown>(): ConcurrentQueue_1<T>;
+    new<T extends unknown>(collection: IEnumerable_1<T>): ConcurrentQueue_1<T>;
 };
 
 
-export interface __ConcurrentQueue_1$views<T> {
+export interface __ConcurrentQueue_1$views<T extends unknown> {
     As_IProducerConsumerCollection_1(): IProducerConsumerCollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
@@ -263,10 +263,10 @@ export interface __ConcurrentQueue_1$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ConcurrentQueue_1<T> = ConcurrentQueue_1$instance<T> & __ConcurrentQueue_1$views<T>;
+export type ConcurrentQueue_1<T extends unknown> = ConcurrentQueue_1$instance<T> & __ConcurrentQueue_1$views<T>;
 
 
-export interface ConcurrentStack_1$instance<T> {
+export interface ConcurrentStack_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_Concurrent_ConcurrentStack_1: never;
 
     readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
@@ -292,12 +292,12 @@ export interface ConcurrentStack_1$instance<T> {
 
 
 export const ConcurrentStack_1: {
-    new<T>(): ConcurrentStack_1<T>;
-    new<T>(collection: IEnumerable_1<T>): ConcurrentStack_1<T>;
+    new<T extends unknown>(): ConcurrentStack_1<T>;
+    new<T extends unknown>(collection: IEnumerable_1<T>): ConcurrentStack_1<T>;
 };
 
 
-export interface __ConcurrentStack_1$views<T> {
+export interface __ConcurrentStack_1$views<T extends unknown> {
     As_IProducerConsumerCollection_1(): IProducerConsumerCollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
@@ -305,10 +305,10 @@ export interface __ConcurrentStack_1$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ConcurrentStack_1<T> = ConcurrentStack_1$instance<T> & __ConcurrentStack_1$views<T>;
+export type ConcurrentStack_1<T extends unknown> = ConcurrentStack_1$instance<T> & __ConcurrentStack_1$views<T>;
 
 
-export interface OrderablePartitioner_1$instance<TSource> extends Partitioner_1<TSource> {
+export interface OrderablePartitioner_1$instance<TSource extends unknown> extends Partitioner_1<TSource> {
     readonly __tsonic_type_System_Collections_Concurrent_OrderablePartitioner_1: never;
 
     readonly KeysNormalized: boolean;
@@ -321,13 +321,13 @@ export interface OrderablePartitioner_1$instance<TSource> extends Partitioner_1<
 }
 
 
-export const OrderablePartitioner_1: (abstract new<TSource>(keysOrderedInEachPartition: boolean, keysOrderedAcrossPartitions: boolean, keysNormalized: boolean) => OrderablePartitioner_1<TSource>) & {
+export const OrderablePartitioner_1: (abstract new<TSource extends unknown>(keysOrderedInEachPartition: boolean, keysOrderedAcrossPartitions: boolean, keysNormalized: boolean) => OrderablePartitioner_1<TSource>) & {
 };
 
 
-export type OrderablePartitioner_1<TSource> = OrderablePartitioner_1$instance<TSource>;
+export type OrderablePartitioner_1<TSource extends unknown> = OrderablePartitioner_1$instance<TSource>;
 
-export interface Partitioner_1$instance<TSource> {
+export interface Partitioner_1$instance<TSource extends unknown> {
     readonly __tsonic_type_System_Collections_Concurrent_Partitioner_1: never;
 
     readonly SupportsDynamicPartitions: boolean;
@@ -336,21 +336,21 @@ export interface Partitioner_1$instance<TSource> {
 }
 
 
-export const Partitioner_1: (abstract new<TSource>() => Partitioner_1<TSource>) & {
+export const Partitioner_1: (abstract new<TSource extends unknown>() => Partitioner_1<TSource>) & {
 };
 
 
-export type Partitioner_1<TSource> = Partitioner_1$instance<TSource>;
+export type Partitioner_1<TSource extends unknown> = Partitioner_1$instance<TSource>;
 
 export abstract class Partitioner$instance {
-    static Create<TSource>(source: IEnumerable_1<TSource>, partitionerOptions: EnumerablePartitionerOptions): OrderablePartitioner_1<TSource>;
-    static Create<TSource>(source: IEnumerable_1<TSource>): OrderablePartitioner_1<TSource>;
-    static Create<TSource>(list: IList_1<TSource>, loadBalance: boolean): OrderablePartitioner_1<TSource>;
+    static Create<TSource extends unknown>(source: IEnumerable_1<TSource>, partitionerOptions: EnumerablePartitionerOptions): OrderablePartitioner_1<TSource>;
+    static Create<TSource extends unknown>(source: IEnumerable_1<TSource>): OrderablePartitioner_1<TSource>;
+    static Create<TSource extends unknown>(list: IList_1<TSource>, loadBalance: boolean): OrderablePartitioner_1<TSource>;
     static Create(fromInclusive: int, toExclusive: int, rangeSize: int): OrderablePartitioner_1<Tuple_2<System_Internal.Int32, System_Internal.Int32>>;
     static Create(fromInclusive: int, toExclusive: int): OrderablePartitioner_1<Tuple_2<System_Internal.Int32, System_Internal.Int32>>;
     static Create(fromInclusive: long, toExclusive: long, rangeSize: long): OrderablePartitioner_1<Tuple_2<System_Internal.Int64, System_Internal.Int64>>;
     static Create(fromInclusive: long, toExclusive: long): OrderablePartitioner_1<Tuple_2<System_Internal.Int64, System_Internal.Int64>>;
-    static Create<TSource>(array: TSource[], loadBalance: boolean): OrderablePartitioner_1<TSource>;
+    static Create<TSource extends unknown>(array: TSource[], loadBalance: boolean): OrderablePartitioner_1<TSource>;
 }
 
 

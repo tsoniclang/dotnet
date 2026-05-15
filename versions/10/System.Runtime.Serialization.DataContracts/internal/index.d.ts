@@ -3,7 +3,7 @@
 // Assembly: System.Private.DataContractSerialization
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -35,7 +35,7 @@ export interface DataContract$instance {
     set TopLevelElementNamespace(value: XmlDictionaryString | null);
     readonly UnderlyingType: Type;
     XmlName: XmlQualifiedName;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetArrayTypeName(isNullable: boolean): XmlQualifiedName;
     GetHashCode(): int;
     IsDictionaryLike(keyName: string | null, valueName: string | null, itemName: string | null): boolean;
@@ -56,11 +56,11 @@ export interface DataContractSet$instance {
     readonly Contracts: Dictionary_2<XmlQualifiedName, DataContract>;
     get KnownTypesForObject(): Dictionary_2<XmlQualifiedName, DataContract> | null;
     set KnownTypesForObject(value: Dictionary_2<XmlQualifiedName, DataContract> | null);
-    readonly ProcessedContracts: Dictionary_2<DataContract, JsValue>;
+    readonly ProcessedContracts: Dictionary_2<DataContract, unknown>;
     readonly SurrogateData: Hashtable;
     GetDataContract(type: Type): DataContract;
     GetDataContract(key: XmlQualifiedName): DataContract | null;
-    GetReferencedType(xmlName: XmlQualifiedName, dataContract: DataContract, referencedContract: DataContract | null, genericParameters: JsValue[] | null, supportGenericTypes?: Nullable_1<System_Internal.Boolean>): Type | null;
+    GetReferencedType(xmlName: XmlQualifiedName, dataContract: DataContract, referencedContract: DataContract | null, genericParameters: unknown[] | null, supportGenericTypes?: Nullable_1<System_Internal.Boolean>): Type | null;
     ImportSchemaSet(schemaSet: XmlSchemaSet, typeNames: IEnumerable_1<XmlQualifiedName> | null, importXmlDataType: boolean): void;
     ImportSchemaSet(schemaSet: XmlSchemaSet, elements: IEnumerable_1<XmlSchemaElement>, importXmlDataType: boolean): List_1<XmlQualifiedName>;
 }

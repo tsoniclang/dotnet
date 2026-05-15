@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Text.Json.Serialization.Metadata/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { ConcurrentQueue_1, ConcurrentStack_1 } from './System.Collections.Concurrent/internal/index.js';
 import type { Dictionary_2, IAsyncEnumerable_1, ICollection_1, IDictionary_2, IEnumerable_1, IList_1, IReadOnlyDictionary_2, ISet_1, KeyValuePair_2, List_1, Queue_1, Stack_1 } from './System.Collections.Generic/internal/index.js';
@@ -38,10 +42,10 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type JsonTypeInfo<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.JsonTypeInfo :
-  Internal.JsonTypeInfo_1<T1>;
+  [T1] extends [unknown] ? Internal.JsonTypeInfo_1<T1> : never;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Text_Json_Serialization_Metadata as ExtensionMethods } from './__internal/extensions/index.js';

@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -30,7 +30,7 @@ export const GeneratedCodeAttribute: {
 
 export type GeneratedCodeAttribute = GeneratedCodeAttribute$instance;
 
-export interface IndentedTextWriter$instance extends TextWriter {
+export interface IndentedTextWriter$instance extends TextWriter, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_CodeDom_Compiler_IndentedTextWriter: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -56,17 +56,17 @@ export interface IndentedTextWriter$instance extends TextWriter {
     Write(value: float): void;
     Write(value: int): void;
     Write(value: long): void;
-    Write(value: JsValue | null): void;
-    Write(format: string, arg0: JsValue | null): void;
-    Write(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
-    Write(format: string, ...arg: (JsValue | null)[]): void;
-    Write(format: string, arg: ReadOnlySpan_1<JsValue>): void;
+    Write(value: unknown | null): void;
+    Write(format: string, arg0: unknown | null): void;
+    Write(format: string, arg0: unknown | null, arg1: unknown | null): void;
+    Write(format: string, ...arg: (unknown | null)[]): void;
+    Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     Write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     Write(value: uint): void;
     Write(value: ulong): void;
     Write(value: decimal): void;
     Write(value: StringBuilder | null): void;
-    Write(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
+    Write(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
     WriteAsync(value: char): Task;
     WriteAsync(buffer: char[], index: int, count: int): Task;
     WriteAsync(value: string | null): Task;
@@ -83,17 +83,17 @@ export interface IndentedTextWriter$instance extends TextWriter {
     WriteLine(value: float): void;
     WriteLine(value: int): void;
     WriteLine(value: long): void;
-    WriteLine(value: JsValue | null): void;
-    WriteLine(format: string, arg0: JsValue | null): void;
-    WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
-    WriteLine(format: string, ...arg: (JsValue | null)[]): void;
-    WriteLine(format: string, arg: ReadOnlySpan_1<JsValue>): void;
+    WriteLine(value: unknown | null): void;
+    WriteLine(format: string, arg0: unknown | null): void;
+    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null): void;
+    WriteLine(format: string, ...arg: (unknown | null)[]): void;
+    WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     WriteLine(value: uint): void;
     WriteLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     WriteLine(value: ulong): void;
     WriteLine(value: decimal): void;
     WriteLine(value: StringBuilder | null): void;
-    WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
+    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
     WriteLineAsync(): Task;
     WriteLineAsync(value: char): Task;
     WriteLineAsync(buffer: char[], index: int, count: int): Task;

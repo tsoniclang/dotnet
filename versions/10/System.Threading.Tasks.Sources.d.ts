@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Threading.Tasks.Sources/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { Action_1, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
@@ -20,8 +24,8 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type IValueTaskSource<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.IValueTaskSource :
-  Internal.IValueTaskSource_1<T1>;
+  [T1] extends [unknown] ? Internal.IValueTaskSource_1<T1> : never;
 

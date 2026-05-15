@@ -3,7 +3,7 @@
 // Assembly: System.Private.Xml
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -39,28 +39,28 @@ export enum XmlMappingAccess {
 }
 
 
-export type UnreferencedObjectEventHandler = (sender: JsValue | null, e: UnreferencedObjectEventArgs) => void;
+export type UnreferencedObjectEventHandler = (sender: unknown | null, e: UnreferencedObjectEventArgs) => void;
 
 
-export type XmlAttributeEventHandler = (sender: JsValue | null, e: XmlAttributeEventArgs) => void;
+export type XmlAttributeEventHandler = (sender: unknown | null, e: XmlAttributeEventArgs) => void;
 
 
-export type XmlElementEventHandler = (sender: JsValue | null, e: XmlElementEventArgs) => void;
+export type XmlElementEventHandler = (sender: unknown | null, e: XmlElementEventArgs) => void;
 
 
-export type XmlNodeEventHandler = (sender: JsValue | null, e: XmlNodeEventArgs) => void;
+export type XmlNodeEventHandler = (sender: unknown | null, e: XmlNodeEventArgs) => void;
 
 
-export type XmlSerializationCollectionFixupCallback = (collection: JsValue | null, collectionItems: JsValue | null) => void;
+export type XmlSerializationCollectionFixupCallback = (collection: unknown | null, collectionItems: unknown | null) => void;
 
 
-export type XmlSerializationFixupCallback = (fixup: JsValue) => void;
+export type XmlSerializationFixupCallback = (fixup: unknown) => void;
 
 
-export type XmlSerializationReadCallback = () => JsValue | null;
+export type XmlSerializationReadCallback = () => unknown | null;
 
 
-export type XmlSerializationWriteCallback = (o: JsValue) => void;
+export type XmlSerializationWriteCallback = (o: unknown) => void;
 
 
 export interface IXmlSerializable$instance {
@@ -125,16 +125,16 @@ export interface CodeIdentifiers$instance {
     readonly __tsonic_type_System_Xml_Serialization_CodeIdentifiers: never;
 
     UseCamelCasing: boolean;
-    Add(identifier: string, value: JsValue | null): void;
+    Add(identifier: string, value: unknown | null): void;
     AddReserved(identifier: string): void;
-    AddUnique(identifier: string, value: JsValue | null): string;
+    AddUnique(identifier: string, value: unknown | null): string;
     Clear(): void;
     IsInUse(identifier: string): boolean;
     MakeRightCase(identifier: string): string;
     MakeUnique(identifier: string): string;
     Remove(identifier: string): void;
     RemoveReserved(identifier: string): void;
-    ToArray(type: Type): JsValue;
+    ToArray(type: Type): unknown;
 }
 
 
@@ -214,8 +214,8 @@ export interface SoapAttributes$instance {
 
     get SoapAttribute(): SoapAttributeAttribute | null;
     set SoapAttribute(value: SoapAttributeAttribute | null);
-    get SoapDefaultValue(): JsValue | null;
-    set SoapDefaultValue(value: JsValue | null);
+    get SoapDefaultValue(): unknown | null;
+    set SoapDefaultValue(value: unknown | null);
     get SoapElement(): SoapElementAttribute | null;
     set SoapElement(value: SoapElementAttribute | null);
     get SoapEnum(): SoapEnumAttribute | null;
@@ -356,12 +356,12 @@ export interface UnreferencedObjectEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_Xml_Serialization_UnreferencedObjectEventArgs: never;
 
     readonly UnreferencedId: string | null;
-    readonly UnreferencedObject: JsValue | null;
+    readonly UnreferencedObject: unknown | null;
 }
 
 
 export const UnreferencedObjectEventArgs: {
-    new(o: JsValue | null, id: string | null): UnreferencedObjectEventArgs;
+    new(o: unknown | null, id: string | null): UnreferencedObjectEventArgs;
 };
 
 
@@ -534,7 +534,7 @@ export interface XmlAttributeEventArgs$instance extends EventArgs {
     readonly ExpectedAttributes: string;
     readonly LineNumber: int;
     readonly LinePosition: int;
-    readonly ObjectBeingDeserialized: JsValue | null;
+    readonly ObjectBeingDeserialized: unknown | null;
 }
 
 
@@ -573,8 +573,8 @@ export interface XmlAttributes$instance {
     get XmlAttribute(): XmlAttributeAttribute | null;
     set XmlAttribute(value: XmlAttributeAttribute | null);
     readonly XmlChoiceIdentifier: XmlChoiceIdentifierAttribute | null;
-    get XmlDefaultValue(): JsValue | null;
-    set XmlDefaultValue(value: JsValue | null);
+    get XmlDefaultValue(): unknown | null;
+    set XmlDefaultValue(value: unknown | null);
     readonly XmlElements: XmlElementAttributes;
     get XmlEnum(): XmlEnumAttribute | null;
     set XmlEnum(value: XmlEnumAttribute | null);
@@ -674,7 +674,7 @@ export interface XmlElementEventArgs$instance extends EventArgs {
     readonly ExpectedElements: string;
     readonly LineNumber: int;
     readonly LinePosition: int;
-    readonly ObjectBeingDeserialized: JsValue | null;
+    readonly ObjectBeingDeserialized: unknown | null;
 }
 
 
@@ -802,7 +802,7 @@ export interface XmlNodeEventArgs$instance extends EventArgs {
     readonly Name: string;
     readonly NamespaceURI: string;
     readonly NodeType: XmlNodeType;
-    readonly ObjectBeingDeserialized: JsValue | null;
+    readonly ObjectBeingDeserialized: unknown | null;
     readonly Text: string | null;
 }
 
@@ -878,7 +878,7 @@ export const XmlRootAttribute: {
 
 export type XmlRootAttribute = XmlRootAttribute$instance;
 
-export interface XmlSchemaEnumerator$instance extends IDisposable {
+export interface XmlSchemaEnumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<XmlSchema> {
     readonly __tsonic_type_System_Xml_Serialization_XmlSchemaEnumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -981,16 +981,16 @@ export interface XmlSchemas$instance extends CollectionBase {
     Contains(schema: XmlSchema): boolean;
     Contains(targetNamespace: string | null): boolean;
     CopyTo(array: XmlSchema[], index: int): void;
-    Find(name: XmlQualifiedName, type: Type): JsValue | null;
+    Find(name: XmlQualifiedName, type: Type): unknown | null;
     get_Item(index: int): XmlSchema;
     get_Item(ns: string): XmlSchema | null;
     GetSchemas(ns: string | null): IList;
     IndexOf(schema: XmlSchema): int;
     Insert(index: int, schema: XmlSchema): void;
     OnClear(): void;
-    OnInsert(index: int, value: JsValue | null): void;
-    OnRemove(index: int, value: JsValue | null): void;
-    OnSet(index: int, oldValue: JsValue | null, newValue: JsValue | null): void;
+    OnInsert(index: int, value: unknown | null): void;
+    OnRemove(index: int, value: unknown | null): void;
+    OnSet(index: int, oldValue: unknown | null, newValue: unknown | null): void;
     Remove(schema: XmlSchema): void;
     set_Item(index: int, value: XmlSchema): void;
 }
@@ -1057,13 +1057,13 @@ export interface XmlSerializationReader_CollectionFixup$instance {
     readonly __tsonic_type_System_Xml_Serialization_XmlSerializationReader_CollectionFixup: never;
 
     readonly Callback: XmlSerializationCollectionFixupCallback;
-    readonly Collection: JsValue | null;
-    readonly CollectionItems: JsValue;
+    readonly Collection: unknown | null;
+    readonly CollectionItems: unknown;
 }
 
 
 export const XmlSerializationReader_CollectionFixup: {
-    new(collection: JsValue | null, callback: XmlSerializationCollectionFixupCallback, collectionItems: JsValue): XmlSerializationReader_CollectionFixup;
+    new(collection: unknown | null, callback: XmlSerializationCollectionFixupCallback, collectionItems: unknown): XmlSerializationReader_CollectionFixup;
 };
 
 
@@ -1074,14 +1074,14 @@ export interface XmlSerializationReader_Fixup$instance {
 
     readonly Callback: XmlSerializationFixupCallback;
     readonly Ids: (string | null)[] | null;
-    get Source(): JsValue | null;
-    set Source(value: JsValue | null);
+    get Source(): unknown | null;
+    set Source(value: unknown | null);
 }
 
 
 export const XmlSerializationReader_Fixup: {
-    new(o: JsValue | null, callback: XmlSerializationFixupCallback, count: int): XmlSerializationReader_Fixup;
-    new(o: JsValue | null, callback: XmlSerializationFixupCallback, ids: (string | null)[] | null): XmlSerializationReader_Fixup;
+    new(o: unknown | null, callback: XmlSerializationFixupCallback, count: int): XmlSerializationReader_Fixup;
+    new(o: unknown | null, callback: XmlSerializationFixupCallback, ids: (string | null)[] | null): XmlSerializationReader_Fixup;
 };
 
 
@@ -1122,22 +1122,22 @@ export interface XmlSerializer$instance {
     CanDeserialize(xmlReader: XmlReader): boolean;
     CreateReader(): XmlSerializationReader;
     CreateWriter(): XmlSerializationWriter;
-    Deserialize(stream: Stream): JsValue | null;
-    Deserialize(textReader: TextReader): JsValue | null;
-    Deserialize(xmlReader: XmlReader): JsValue | null;
-    Deserialize(xmlReader: XmlReader, events: XmlDeserializationEvents): JsValue | null;
-    Deserialize(xmlReader: XmlReader, encodingStyle: string | null): JsValue | null;
-    Deserialize(xmlReader: XmlReader, encodingStyle: string | null, events: XmlDeserializationEvents): JsValue | null;
-    Deserialize(reader: XmlSerializationReader): JsValue;
-    Serialize(textWriter: TextWriter, o: JsValue | null): void;
-    Serialize(textWriter: TextWriter, o: JsValue | null, namespaces: XmlSerializerNamespaces | null): void;
-    Serialize(stream: Stream, o: JsValue | null): void;
-    Serialize(stream: Stream, o: JsValue | null, namespaces: XmlSerializerNamespaces | null): void;
-    Serialize(xmlWriter: XmlWriter, o: JsValue | null): void;
-    Serialize(xmlWriter: XmlWriter, o: JsValue | null, namespaces: XmlSerializerNamespaces | null): void;
-    Serialize(xmlWriter: XmlWriter, o: JsValue | null, namespaces: XmlSerializerNamespaces | null, encodingStyle: string | null): void;
-    Serialize(xmlWriter: XmlWriter, o: JsValue | null, namespaces: XmlSerializerNamespaces | null, encodingStyle: string | null, id: string | null): void;
-    Serialize(o: JsValue | null, writer: XmlSerializationWriter): void;
+    Deserialize(stream: Stream): unknown | null;
+    Deserialize(textReader: TextReader): unknown | null;
+    Deserialize(xmlReader: XmlReader): unknown | null;
+    Deserialize(xmlReader: XmlReader, events: XmlDeserializationEvents): unknown | null;
+    Deserialize(xmlReader: XmlReader, encodingStyle: string | null): unknown | null;
+    Deserialize(xmlReader: XmlReader, encodingStyle: string | null, events: XmlDeserializationEvents): unknown | null;
+    Deserialize(reader: XmlSerializationReader): unknown;
+    Serialize(textWriter: TextWriter, o: unknown | null): void;
+    Serialize(textWriter: TextWriter, o: unknown | null, namespaces: XmlSerializerNamespaces | null): void;
+    Serialize(stream: Stream, o: unknown | null): void;
+    Serialize(stream: Stream, o: unknown | null, namespaces: XmlSerializerNamespaces | null): void;
+    Serialize(xmlWriter: XmlWriter, o: unknown | null): void;
+    Serialize(xmlWriter: XmlWriter, o: unknown | null, namespaces: XmlSerializerNamespaces | null): void;
+    Serialize(xmlWriter: XmlWriter, o: unknown | null, namespaces: XmlSerializerNamespaces | null, encodingStyle: string | null): void;
+    Serialize(xmlWriter: XmlWriter, o: unknown | null, namespaces: XmlSerializerNamespaces | null, encodingStyle: string | null, id: string | null): void;
+    Serialize(o: unknown | null, writer: XmlSerializationWriter): void;
 }
 
 

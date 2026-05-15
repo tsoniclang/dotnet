@@ -3,7 +3,7 @@
 // Assembly: System.Security.Cryptography
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -584,7 +584,7 @@ export interface X509Certificate$instance extends System_Runtime_Serialization_I
     readonly Subject: string;
     Dispose(): void;
     Dispose(disposing: boolean): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: X509Certificate | null): boolean;
     Export(contentType: X509ContentType): byte[];
     Export(contentType: X509ContentType, password: string | null): byte[];
@@ -768,7 +768,7 @@ export interface X509Certificate2Collection$instance extends X509CertificateColl
     ExportPkcs12(exportParameters: Pkcs12ExportPbeParameters, password: string | null): byte[];
     ExportPkcs12(exportParameters: PbeParameters, password: string | null): byte[];
     ExportPkcs7Pem(): string;
-    Find(findType: X509FindType, findValue: JsValue, validOnly: boolean): X509Certificate2Collection;
+    Find(findType: X509FindType, findValue: unknown, validOnly: boolean): X509Certificate2Collection;
     FindByThumbprint(hashAlgorithm: HashAlgorithmName, thumbprintHex: string): X509Certificate2Collection;
     FindByThumbprint(hashAlgorithm: HashAlgorithmName, thumbprintHex: ReadOnlySpan_1<System_Internal.Char>): X509Certificate2Collection;
     FindByThumbprint(hashAlgorithm: HashAlgorithmName, thumbprintBytes: ReadOnlySpan_1<System_Internal.Byte>): X509Certificate2Collection;
@@ -814,7 +814,7 @@ export interface __X509Certificate2Collection$views {
 export type X509Certificate2Collection = X509Certificate2Collection$instance & __X509Certificate2Collection$views & { [index: number]: X509Certificate2; };
 
 
-export interface X509Certificate2Enumerator$instance {
+export interface X509Certificate2Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<X509Certificate2> {
     readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509Certificate2Enumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -857,7 +857,7 @@ export interface X509CertificateCollection$instance extends CollectionBase {
     GetHashCode(): int;
     IndexOf(value: X509Certificate): int;
     Insert(index: int, value: X509Certificate): void;
-    OnValidate(value: JsValue): void;
+    OnValidate(value: unknown): void;
     Remove(value: X509Certificate): void;
 }
 
@@ -878,7 +878,7 @@ export interface __X509CertificateCollection$views {
 export type X509CertificateCollection = X509CertificateCollection$instance & __X509CertificateCollection$views & { [index: number]: X509Certificate; };
 
 
-export interface X509CertificateCollection_X509CertificateEnumerator$instance extends IEnumerator {
+export interface X509CertificateCollection_X509CertificateEnumerator$instance {
     readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509CertificateCollection_X509CertificateEnumerator: never;
 
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -952,7 +952,7 @@ export interface X509ChainElementCollection$instance {
 
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     CopyTo(array: X509ChainElement[], index: int): void;
     GetEnumerator(): X509ChainElementEnumerator;
 }
@@ -971,7 +971,7 @@ export interface __X509ChainElementCollection$views {
 export type X509ChainElementCollection = X509ChainElementCollection$instance & __X509ChainElementCollection$views & { readonly [index: number]: X509ChainElement; };
 
 
-export interface X509ChainElementEnumerator$instance {
+export interface X509ChainElementEnumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<X509ChainElement> {
     readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509ChainElementEnumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -1069,7 +1069,7 @@ export interface X509ExtensionCollection$instance {
 
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     Add(extension: X509Extension): int;
     CopyTo(array: X509Extension[], index: int): void;
     get_Item(index: int): X509Extension;
@@ -1092,7 +1092,7 @@ export interface __X509ExtensionCollection$views {
 export type X509ExtensionCollection = X509ExtensionCollection$instance & __X509ExtensionCollection$views;
 
 
-export interface X509ExtensionEnumerator$instance {
+export interface X509ExtensionEnumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<X509Extension> {
     readonly __tsonic_type_System_Security_Cryptography_X509Certificates_X509ExtensionEnumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;

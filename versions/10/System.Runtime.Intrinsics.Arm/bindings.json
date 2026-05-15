@@ -43,7 +43,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::value__System.Byte",
           "clrName": "value__",
-          "metadataToken": 67113387,
+          "metadataToken": 67113382,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -55,7 +55,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::LargestPowerOf2System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "LargestPowerOf2",
-          "metadataToken": 67113388,
+          "metadataToken": 67113383,
           "normalizedSignature": "LargestPowerOf2|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount1System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount1",
-          "metadataToken": 67113389,
+          "metadataToken": 67113384,
           "normalizedSignature": "VectorCount1|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -79,7 +79,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount2System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount2",
-          "metadataToken": 67113390,
+          "metadataToken": 67113385,
           "normalizedSignature": "VectorCount2|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount3System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount3",
-          "metadataToken": 67113391,
+          "metadataToken": 67113386,
           "normalizedSignature": "VectorCount3|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -103,7 +103,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount4System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount4",
-          "metadataToken": 67113392,
+          "metadataToken": 67113387,
           "normalizedSignature": "VectorCount4|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -115,7 +115,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount5System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount5",
-          "metadataToken": 67113393,
+          "metadataToken": 67113388,
           "normalizedSignature": "VectorCount5|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -127,7 +127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount6System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount6",
-          "metadataToken": 67113394,
+          "metadataToken": 67113389,
           "normalizedSignature": "VectorCount6|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -139,7 +139,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount7System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount7",
-          "metadataToken": 67113395,
+          "metadataToken": 67113390,
           "normalizedSignature": "VectorCount7|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -151,7 +151,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount8System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount8",
-          "metadataToken": 67113396,
+          "metadataToken": 67113391,
           "normalizedSignature": "VectorCount8|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -163,7 +163,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount16System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount16",
-          "metadataToken": 67113397,
+          "metadataToken": 67113392,
           "normalizedSignature": "VectorCount16|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -175,7 +175,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount32System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount32",
-          "metadataToken": 67113398,
+          "metadataToken": 67113393,
           "normalizedSignature": "VectorCount32|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -187,7 +187,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount64System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount64",
-          "metadataToken": 67113399,
+          "metadataToken": 67113394,
           "normalizedSignature": "VectorCount64|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -199,7 +199,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount128System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount128",
-          "metadataToken": 67113400,
+          "metadataToken": 67113395,
           "normalizedSignature": "VectorCount128|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -211,7 +211,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::VectorCount256System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "VectorCount256",
-          "metadataToken": 67113401,
+          "metadataToken": 67113396,
           "normalizedSignature": "VectorCount256|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -223,7 +223,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::LargestMultipleOf4System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "LargestMultipleOf4",
-          "metadataToken": 67113402,
+          "metadataToken": 67113397,
           "normalizedSignature": "LargestMultipleOf4|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -235,7 +235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::LargestMultipleOf3System.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "LargestMultipleOf3",
-          "metadataToken": 67113403,
+          "metadataToken": 67113398,
           "normalizedSignature": "LargestMultipleOf3|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -247,7 +247,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SveMaskPattern::AllSystem.Runtime.Intrinsics.Arm.SveMaskPattern",
           "clrName": "All",
-          "metadataToken": 67113404,
+          "metadataToken": 67113399,
           "normalizedSignature": "All|System.Runtime.Intrinsics.Arm.SveMaskPattern|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -299,7 +299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::value__System.Byte",
           "clrName": "value__",
-          "metadataToken": 67113405,
+          "metadataToken": 67113400,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -311,7 +311,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::LoadL1TemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "LoadL1Temporal",
-          "metadataToken": 67113406,
+          "metadataToken": 67113401,
           "normalizedSignature": "LoadL1Temporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -323,7 +323,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::LoadL1NonTemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "LoadL1NonTemporal",
-          "metadataToken": 67113407,
+          "metadataToken": 67113402,
           "normalizedSignature": "LoadL1NonTemporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -335,7 +335,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::LoadL2TemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "LoadL2Temporal",
-          "metadataToken": 67113408,
+          "metadataToken": 67113403,
           "normalizedSignature": "LoadL2Temporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -347,7 +347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::LoadL2NonTemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "LoadL2NonTemporal",
-          "metadataToken": 67113409,
+          "metadataToken": 67113404,
           "normalizedSignature": "LoadL2NonTemporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -359,7 +359,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::LoadL3TemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "LoadL3Temporal",
-          "metadataToken": 67113410,
+          "metadataToken": 67113405,
           "normalizedSignature": "LoadL3Temporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -371,7 +371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::LoadL3NonTemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "LoadL3NonTemporal",
-          "metadataToken": 67113411,
+          "metadataToken": 67113406,
           "normalizedSignature": "LoadL3NonTemporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -383,7 +383,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::StoreL1TemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "StoreL1Temporal",
-          "metadataToken": 67113412,
+          "metadataToken": 67113407,
           "normalizedSignature": "StoreL1Temporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -395,7 +395,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::StoreL1NonTemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "StoreL1NonTemporal",
-          "metadataToken": 67113413,
+          "metadataToken": 67113408,
           "normalizedSignature": "StoreL1NonTemporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -407,7 +407,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::StoreL2TemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "StoreL2Temporal",
-          "metadataToken": 67113414,
+          "metadataToken": 67113409,
           "normalizedSignature": "StoreL2Temporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -419,7 +419,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::StoreL2NonTemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "StoreL2NonTemporal",
-          "metadataToken": 67113415,
+          "metadataToken": 67113410,
           "normalizedSignature": "StoreL2NonTemporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -431,7 +431,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::StoreL3TemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "StoreL3Temporal",
-          "metadataToken": 67113416,
+          "metadataToken": 67113411,
           "normalizedSignature": "StoreL3Temporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -443,7 +443,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.SvePrefetchType::StoreL3NonTemporalSystem.Runtime.Intrinsics.Arm.SvePrefetchType",
           "clrName": "StoreL3NonTemporal",
-          "metadataToken": 67113417,
+          "metadataToken": 67113412,
           "normalizedSignature": "StoreL3NonTemporal|System.Runtime.Intrinsics.Arm.SvePrefetchType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

@@ -3,7 +3,7 @@
 // Assembly: System.Net.Quic
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -235,7 +235,7 @@ export const QuicServerConnectionOptions: {
 
 export type QuicServerConnectionOptions = QuicServerConnectionOptions$instance;
 
-export interface QuicStream$instance extends Stream {
+export interface QuicStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_Net_Quic_QuicStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -254,8 +254,8 @@ export interface QuicStream$instance extends Stream {
     readonly WritesClosed: Task;
     WriteTimeout: int;
     Abort(abortDirection: QuicAbortDirection, errorCode: long): void;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     CompleteWrites(): void;
     Dispose(disposing: boolean): void;
     Dispose(): void;

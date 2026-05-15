@@ -3,7 +3,7 @@
 // Assembly: System.Diagnostics.DiagnosticSource, System.Diagnostics.FileVersionInfo, System.Diagnostics.Process, System.Diagnostics.TextWriterTraceListener, System.Diagnostics.TraceSource, System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -176,13 +176,13 @@ export enum TraceOptions {
 }
 
 
-export type DataReceivedEventHandler = (sender: JsValue, e: DataReceivedEventArgs) => void;
+export type DataReceivedEventHandler = (sender: unknown, e: DataReceivedEventArgs) => void;
 
 
 export type ExceptionRecorder = (activity: Activity, exception: Exception, tags: TagList) => void;
 
 
-export type SampleActivity_1<T> = (options: ActivityCreationOptions_1<T>) => ActivitySamplingResult;
+export type SampleActivity_1<T extends unknown> = (options: ActivityCreationOptions_1<T>) => ActivitySamplingResult;
 
 
 export interface ActivityChangedEventArgs$instance {
@@ -213,7 +213,7 @@ export interface ActivityContext$instance {
     readonly TraceId: ActivityTraceId;
     readonly TraceState: string | null;
     Equals(value: ActivityContext): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -236,7 +236,7 @@ export interface __ActivityContext$views {
 export type ActivityContext = ActivityContext$instance & __ActivityContext$views;
 
 
-export interface ActivityCreationOptions_1$instance<T> {
+export interface ActivityCreationOptions_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Diagnostics_ActivityCreationOptions_1: never;
 
     readonly Kind: ActivityKind;
@@ -245,7 +245,7 @@ export interface ActivityCreationOptions_1$instance<T> {
     readonly Parent: T;
     readonly SamplingTags: ActivityTagsCollection;
     readonly Source: ActivitySource;
-    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null;
+    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null;
     readonly TraceId: ActivityTraceId;
     get TraceState(): string | null;
     set TraceState(value: string | null);
@@ -253,19 +253,19 @@ export interface ActivityCreationOptions_1$instance<T> {
 
 
 export const ActivityCreationOptions_1: {
-    new<T>(): ActivityCreationOptions_1<T>;
+    new<T extends unknown>(): ActivityCreationOptions_1<T>;
 };
 
 
-export type ActivityCreationOptions_1<T> = ActivityCreationOptions_1$instance<T>;
+export type ActivityCreationOptions_1<T extends unknown> = ActivityCreationOptions_1$instance<T>;
 
 export interface ActivityEvent$instance {
     readonly __tsonic_type_System_Diagnostics_ActivityEvent: never;
 
     readonly Name: string;
-    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>>;
+    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
     readonly Timestamp: DateTimeOffset;
-    EnumerateTagObjects(): Activity_Enumerator_1<KeyValuePair_2<System_Internal.String, JsValue>>;
+    EnumerateTagObjects(): Activity_Enumerator_1<KeyValuePair_2<System_Internal.String, unknown>>;
 }
 
 
@@ -283,9 +283,9 @@ export interface ActivityLink$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Context: ActivityContext;
-    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null;
-    EnumerateTagObjects(): Activity_Enumerator_1<KeyValuePair_2<System_Internal.String, JsValue>>;
-    Equals(obj: JsValue | null): boolean;
+    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null;
+    EnumerateTagObjects(): Activity_Enumerator_1<KeyValuePair_2<System_Internal.String, unknown>>;
+    Equals(obj: unknown | null): boolean;
     Equals(value: ActivityLink): boolean;
     GetHashCode(): int;
 }
@@ -313,7 +313,7 @@ export interface ActivitySpanId$instance {
 
     CopyTo(destination: Span_1<System_Internal.Byte>): void;
     Equals(spanId: ActivitySpanId): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToHexString(): string;
     ToString(): string;
@@ -346,7 +346,7 @@ export interface ActivityTraceId$instance {
 
     CopyTo(destination: Span_1<System_Internal.Byte>): void;
     Equals(traceId: ActivityTraceId): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToHexString(): string;
     ToString(): string;
@@ -384,44 +384,44 @@ export interface TagList$instance {
 
     readonly Count: int;
     readonly IsReadOnly: boolean;
-    Add(key: string, value: JsValue | null): void;
-    Add(tag: KeyValuePair_2<System_Internal.String, JsValue>): void;
+    Add(key: string, value: unknown | null): void;
+    Add(tag: KeyValuePair_2<System_Internal.String, unknown>): void;
     Clear(): void;
-    Contains(item: KeyValuePair_2<System_Internal.String, JsValue>): boolean;
-    CopyTo(tags: Span_1<KeyValuePair_2<System_Internal.String, JsValue>>): void;
-    CopyTo(array: KeyValuePair_2<System_Internal.String, JsValue>[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<System_Internal.String, JsValue>>;
-    IndexOf(item: KeyValuePair_2<System_Internal.String, JsValue>): int;
-    Insert(index: int, item: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Remove(item: KeyValuePair_2<System_Internal.String, JsValue>): boolean;
+    Contains(item: KeyValuePair_2<System_Internal.String, unknown>): boolean;
+    CopyTo(tags: Span_1<KeyValuePair_2<System_Internal.String, unknown>>): void;
+    CopyTo(array: KeyValuePair_2<System_Internal.String, unknown>[], arrayIndex: int): void;
+    GetEnumerator(): IEnumerator_1<KeyValuePair_2<System_Internal.String, unknown>>;
+    IndexOf(item: KeyValuePair_2<System_Internal.String, unknown>): int;
+    Insert(index: int, item: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Remove(item: KeyValuePair_2<System_Internal.String, unknown>): boolean;
     RemoveAt(index: int): void;
 }
 
 
 export const TagList: {
-    new(tagList: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, JsValue>>): TagList;
+    new(tagList: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, unknown>>): TagList;
 };
 
 
 export interface __TagList$views {
-    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
-    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
-    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
-    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type TagList = TagList$instance & __TagList$views & { [index: number]: KeyValuePair_2<System_Internal.String, JsValue>; };
+export type TagList = TagList$instance & __TagList$views & { [index: number]: KeyValuePair_2<System_Internal.String, unknown>; };
 
 
-export interface TagList_Enumerator$instance extends IEnumerator_1<KeyValuePair_2<System_Internal.String, JsValue>>, IEnumerator, IDisposable {
+export interface TagList_Enumerator$instance extends IEnumerator_1<KeyValuePair_2<System_Internal.String, unknown>> {
     readonly __tsonic_type_System_Diagnostics_TagList_Enumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly Current: KeyValuePair_2<System_Internal.String, JsValue>;
+    readonly Current: KeyValuePair_2<System_Internal.String, unknown>;
     Dispose(): void;
     MoveNext(): boolean;
     Reset(): void;
@@ -465,7 +465,7 @@ export interface Activity$instance {
     StartTimeUtc: DateTime;
     readonly Status: ActivityStatusCode;
     readonly StatusDescription: string | null;
-    readonly TagObjects: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>>;
+    readonly TagObjects: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
     readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, System_Internal.String>>;
     readonly TraceId: ActivityTraceId;
     get TraceStateString(): string | null;
@@ -475,24 +475,24 @@ export interface Activity$instance {
     AddException(exception: Exception, tags?: TagList, timestamp?: DateTimeOffset): Activity;
     AddLink(link: ActivityLink): Activity;
     AddTag(key: string, value: string | null): Activity;
-    AddTag(key: string, value: JsValue | null): Activity;
+    AddTag(key: string, value: unknown | null): Activity;
     Dispose(): void;
     Dispose(disposing: boolean): void;
     EnumerateEvents(): Activity_Enumerator_1<ActivityEvent>;
     EnumerateLinks(): Activity_Enumerator_1<ActivityLink>;
-    EnumerateTagObjects(): Activity_Enumerator_1<KeyValuePair_2<System_Internal.String, JsValue>>;
+    EnumerateTagObjects(): Activity_Enumerator_1<KeyValuePair_2<System_Internal.String, unknown>>;
     GetBaggageItem(key: string): string | null;
-    GetCustomProperty(propertyName: string): JsValue | null;
-    GetTagItem(key: string): JsValue | null;
+    GetCustomProperty(propertyName: string): unknown | null;
+    GetTagItem(key: string): unknown | null;
     SetBaggage(key: string, value: string | null): Activity;
-    SetCustomProperty(propertyName: string, propertyValue: JsValue | null): void;
+    SetCustomProperty(propertyName: string, propertyValue: unknown | null): void;
     SetEndTime(endTimeUtc: DateTime): Activity;
     SetIdFormat(format: ActivityIdFormat): Activity;
     SetParentId(parentId: string): Activity;
     SetParentId(traceId: ActivityTraceId, spanId: ActivitySpanId, activityTraceFlags?: ActivityTraceFlags): Activity;
     SetStartTime(startTimeUtc: DateTime): Activity;
     SetStatus(code: ActivityStatusCode, description?: string | null): Activity;
-    SetTag(key: string, value: JsValue | null): Activity;
+    SetTag(key: string, value: unknown | null): Activity;
     Start(): Activity;
     Stop(): void;
 }
@@ -516,7 +516,7 @@ export interface __Activity$views {
 export type Activity = Activity$instance & __Activity$views;
 
 
-export interface Activity_Enumerator_1$instance<T> {
+export interface Activity_Enumerator_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Diagnostics_Activity_Enumerator_1: never;
 
     readonly Current: T;
@@ -526,11 +526,11 @@ export interface Activity_Enumerator_1$instance<T> {
 
 
 export const Activity_Enumerator_1: {
-    new<T>(): Activity_Enumerator_1<T>;
+    new<T extends unknown>(): Activity_Enumerator_1<T>;
 };
 
 
-export type Activity_Enumerator_1<T> = Activity_Enumerator_1$instance<T>;
+export type Activity_Enumerator_1<T extends unknown> = Activity_Enumerator_1$instance<T>;
 
 export interface ActivityListener$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Diagnostics_ActivityListener: never;
@@ -571,25 +571,25 @@ export interface ActivitySource$instance extends System_Internal.IDisposable$ins
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Name: string;
-    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null;
+    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null;
     readonly TelemetrySchemaUrl: string | null;
     readonly Version: string | null;
     CreateActivity(name: string, kind: ActivityKind): Activity | null;
-    CreateActivity(name: string, kind: ActivityKind, parentContext: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null, links?: IEnumerable_1<ActivityLink> | null, idFormat?: ActivityIdFormat): Activity | null;
-    CreateActivity(name: string, kind: ActivityKind, parentId: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null, links?: IEnumerable_1<ActivityLink> | null, idFormat?: ActivityIdFormat): Activity | null;
+    CreateActivity(name: string, kind: ActivityKind, parentContext: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, links?: IEnumerable_1<ActivityLink> | null, idFormat?: ActivityIdFormat): Activity | null;
+    CreateActivity(name: string, kind: ActivityKind, parentId: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, links?: IEnumerable_1<ActivityLink> | null, idFormat?: ActivityIdFormat): Activity | null;
     Dispose(): void;
     HasListeners(): boolean;
     StartActivity(name?: string, kind?: ActivityKind): Activity | null;
-    StartActivity(name: string, kind: ActivityKind, parentContext: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null, links?: IEnumerable_1<ActivityLink> | null, startTime?: DateTimeOffset): Activity | null;
-    StartActivity(name: string, kind: ActivityKind, parentId: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null, links?: IEnumerable_1<ActivityLink> | null, startTime?: DateTimeOffset): Activity | null;
-    StartActivity(kind: ActivityKind, parentContext?: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null, links?: IEnumerable_1<ActivityLink> | null, startTime?: DateTimeOffset, name?: string): Activity | null;
+    StartActivity(name: string, kind: ActivityKind, parentContext: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, links?: IEnumerable_1<ActivityLink> | null, startTime?: DateTimeOffset): Activity | null;
+    StartActivity(name: string, kind: ActivityKind, parentId: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, links?: IEnumerable_1<ActivityLink> | null, startTime?: DateTimeOffset): Activity | null;
+    StartActivity(kind: ActivityKind, parentContext?: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, links?: IEnumerable_1<ActivityLink> | null, startTime?: DateTimeOffset, name?: string): Activity | null;
 }
 
 
 export const ActivitySource: {
     new(name: string): ActivitySource;
     new(name: string, version: string | null): ActivitySource;
-    new(name: string, version: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null): ActivitySource;
+    new(name: string, version: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null): ActivitySource;
     new(options: ActivitySourceOptions): ActivitySource;
     AddActivityListener(listener: ActivityListener): void;
 };
@@ -606,8 +606,8 @@ export interface ActivitySourceOptions$instance {
     readonly __tsonic_type_System_Diagnostics_ActivitySourceOptions: never;
 
     Name: string;
-    get Tags(): IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null;
-    set Tags(value: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null);
+    get Tags(): IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null;
+    set Tags(value: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null);
     get TelemetrySchemaUrl(): string | null;
     set TelemetrySchemaUrl(value: string | null);
     get Version(): string | null;
@@ -633,46 +633,47 @@ export interface ActivityTagsCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly Keys: ICollection_1<System_Internal.String>;
-    readonly Values: ICollection_1<JsValue | null>;
-    Add(key: string, value: JsValue | null): void;
-    Add(item: KeyValuePair_2<System_Internal.String, JsValue>): void;
+    readonly Values: ICollection_1<unknown | null>;
+    Add(key: string, value: unknown | null): void;
+    Add(item: KeyValuePair_2<System_Internal.String, unknown>): void;
     Clear(): void;
-    Contains(item: KeyValuePair_2<System_Internal.String, JsValue>): boolean;
+    Contains(item: KeyValuePair_2<System_Internal.String, unknown>): boolean;
     ContainsKey(key: string): boolean;
-    CopyTo(array: KeyValuePair_2<System_Internal.String, JsValue>[], arrayIndex: int): void;
+    CopyTo(array: KeyValuePair_2<System_Internal.String, unknown>[], arrayIndex: int): void;
     GetEnumerator(): ActivityTagsCollection_Enumerator;
     Remove(key: string): boolean;
-    Remove(item: KeyValuePair_2<System_Internal.String, JsValue>): boolean;
-    TryGetValue(key: string, value: JsValue | null): boolean;
+    Remove(item: KeyValuePair_2<System_Internal.String, unknown>): boolean;
+    TryGetValue(key: string, value: unknown | null): boolean;
 }
 
 
 export const ActivityTagsCollection: {
     new(): ActivityTagsCollection;
-    new(list: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>>): ActivityTagsCollection;
+    new(list: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>): ActivityTagsCollection;
 };
 
 
 export interface __ActivityTagsCollection$views {
-    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
-    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<System_Internal.String, JsValue>;
-    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<System_Internal.String, unknown>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ActivityTagsCollection = ActivityTagsCollection$instance & __ActivityTagsCollection$views & { [key: string]: JsValue | null; };
+export type ActivityTagsCollection = ActivityTagsCollection$instance & __ActivityTagsCollection$views & { [key: string]: unknown | null; };
 
 
-export interface ActivityTagsCollection_Enumerator$instance extends IEnumerator_1<KeyValuePair_2<System_Internal.String, JsValue>>, IEnumerator, IDisposable {
+export interface ActivityTagsCollection_Enumerator$instance extends IEnumerator_1<KeyValuePair_2<System_Internal.String, unknown>> {
     readonly __tsonic_type_System_Diagnostics_ActivityTagsCollection_Enumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly Current: KeyValuePair_2<System_Internal.String, JsValue>;
+    readonly Current: KeyValuePair_2<System_Internal.String, unknown>;
     Dispose(): void;
     MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -741,7 +742,7 @@ export interface CorrelationManager$instance {
     ActivityId: Guid;
     readonly LogicalOperationStack: Stack;
     StartLogicalOperation(): void;
-    StartLogicalOperation(operationId: JsValue): void;
+    StartLogicalOperation(operationId: unknown): void;
     StopLogicalOperation(): void;
 }
 
@@ -968,13 +969,13 @@ export interface DefaultTraceListener$instance extends TraceListener$instance {
     Fail(message: string | null): void;
     Fail(message: string | null, detailMessage: string | null): void;
     Write(message: string | null): void;
-    Write(o: JsValue | null): void;
+    Write(o: unknown | null): void;
     Write(message: string | null, category: string | null): void;
-    Write(o: JsValue | null, category: string | null): void;
+    Write(o: unknown | null, category: string | null): void;
     WriteLine(message: string | null): void;
-    WriteLine(o: JsValue | null): void;
+    WriteLine(o: unknown | null): void;
     WriteLine(message: string | null, category: string | null): void;
-    WriteLine(o: JsValue | null, category: string | null): void;
+    WriteLine(o: unknown | null, category: string | null): void;
 }
 
 
@@ -997,9 +998,11 @@ export interface DelimitedListTraceListener$instance extends TextWriterTraceList
 
     Delimiter: string;
     GetSupportedAttributes(): string[];
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: JsValue | null): void;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (JsValue | null)[] | null): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (JsValue | null)[] | null): void;
+    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: unknown | null): void;
+    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (unknown | null)[]): void;
+    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: (unknown | null)[] | null): void;
+    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (unknown | null)[]): void;
+    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, args: (unknown | null)[] | null): void;
     TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, message: string | null): void;
     TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int): void;
 }
@@ -1032,16 +1035,16 @@ export interface DiagnosticListener$instance extends DiagnosticSource, System_In
     Dispose(): void;
     IsEnabled(): boolean;
     IsEnabled(name: string): boolean;
-    IsEnabled(name: string, arg1: JsValue | null, arg2?: JsValue | null): boolean;
-    OnActivityExport(activity: Activity, payload: JsValue | null): void;
-    OnActivityImport(activity: Activity, payload: JsValue | null): void;
-    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, JsValue>>, isEnabled: Func_4<System_Internal.String, JsValue | null, JsValue | null, System_Internal.Boolean> | null, onActivityImport?: Action_2<Activity, JsValue | null> | null, onActivityExport?: Action_2<Activity, JsValue | null> | null): IDisposable;
-    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, JsValue>>, isEnabled: Predicate_1<System_Internal.String> | null): IDisposable;
-    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, JsValue>>, isEnabled: Func_4<System_Internal.String, JsValue | null, JsValue | null, System_Internal.Boolean> | null): IDisposable;
-    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, JsValue>>): IDisposable;
+    IsEnabled(name: string, arg1: unknown | null, arg2?: unknown | null): boolean;
+    OnActivityExport(activity: Activity, payload: unknown | null): void;
+    OnActivityImport(activity: Activity, payload: unknown | null): void;
+    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, unknown>>, isEnabled: Func_4<System_Internal.String, unknown | null, unknown | null, System_Internal.Boolean> | null, onActivityImport?: Action_2<Activity, unknown | null> | null, onActivityExport?: Action_2<Activity, unknown | null> | null): IDisposable;
+    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, unknown>>, isEnabled: Predicate_1<System_Internal.String> | null): IDisposable;
+    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, unknown>>, isEnabled: Func_4<System_Internal.String, unknown | null, unknown | null, System_Internal.Boolean> | null): IDisposable;
+    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, unknown>>): IDisposable;
     ToString(): string;
-    Write(name: string, value: JsValue | null): void;
-    Write<T>(name: string, value: T): void;
+    Write(name: string, value: unknown | null): void;
+    Write<T extends unknown>(name: string, value: T): void;
 }
 
 
@@ -1053,7 +1056,7 @@ export const DiagnosticListener: {
 
 export interface __DiagnosticListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
-    As_IObservable_1(): System_Internal.IObservable_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
+    As_IObservable_1(): System_Internal.IObservable_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
 }
 
 export type DiagnosticListener = DiagnosticListener$instance & __DiagnosticListener$views;
@@ -1080,15 +1083,15 @@ export interface DiagnosticSource$instance {
     readonly __tsonic_type_System_Diagnostics_DiagnosticSource: never;
 
     IsEnabled(name: string): boolean;
-    IsEnabled(name: string, arg1: JsValue | null, arg2?: JsValue | null): boolean;
-    OnActivityExport(activity: Activity, payload: JsValue | null): void;
-    OnActivityImport(activity: Activity, payload: JsValue | null): void;
-    StartActivity(activity: Activity, args: JsValue | null): Activity;
-    StartActivity<T>(activity: Activity, args: T): Activity;
-    StopActivity(activity: Activity, args: JsValue | null): void;
-    StopActivity<T>(activity: Activity, args: T): void;
-    Write(name: string, value: JsValue | null): void;
-    Write<T>(name: string, value: T): void;
+    IsEnabled(name: string, arg1: unknown | null, arg2?: unknown | null): boolean;
+    OnActivityExport(activity: Activity, payload: unknown | null): void;
+    OnActivityImport(activity: Activity, payload: unknown | null): void;
+    StartActivity(activity: Activity, args: unknown | null): Activity;
+    StartActivity<T extends unknown>(activity: Activity, args: T): Activity;
+    StopActivity(activity: Activity, args: unknown | null): void;
+    StopActivity<T extends unknown>(activity: Activity, args: T): void;
+    Write(name: string, value: unknown | null): void;
+    Write<T extends unknown>(name: string, value: T): void;
 }
 
 
@@ -1102,9 +1105,9 @@ export interface DistributedContextPropagator$instance {
     readonly __tsonic_type_System_Diagnostics_DistributedContextPropagator: never;
 
     readonly Fields: IReadOnlyCollection_1<System_Internal.String>;
-    ExtractBaggage(carrier: JsValue | null, getter: DistributedContextPropagator_PropagatorGetterCallback | null): IEnumerable_1<KeyValuePair_2<System_Internal.String, System_Internal.String>> | null;
-    ExtractTraceIdAndState(carrier: JsValue | null, getter: DistributedContextPropagator_PropagatorGetterCallback | null, traceId: string | null, traceState: string | null): void;
-    Inject(activity: Activity | null, carrier: JsValue | null, setter: DistributedContextPropagator_PropagatorSetterCallback | null): void;
+    ExtractBaggage(carrier: unknown | null, getter: DistributedContextPropagator_PropagatorGetterCallback | null): IEnumerable_1<KeyValuePair_2<System_Internal.String, System_Internal.String>> | null;
+    ExtractTraceIdAndState(carrier: unknown | null, getter: DistributedContextPropagator_PropagatorGetterCallback | null, traceId: string | null, traceState: string | null): void;
+    Inject(activity: Activity | null, carrier: unknown | null, setter: DistributedContextPropagator_PropagatorSetterCallback | null): void;
 }
 
 
@@ -1120,17 +1123,17 @@ export const DistributedContextPropagator: (abstract new() => DistributedContext
 
 export type DistributedContextPropagator = DistributedContextPropagator$instance;
 
-export type DistributedContextPropagator_PropagatorGetterCallback = (carrier: JsValue | null, fieldName: string, fieldValue: string | null, fieldValues: IEnumerable_1<System_Internal.String> | null) => void;
+export type DistributedContextPropagator_PropagatorGetterCallback = (carrier: unknown | null, fieldName: string, fieldValue: string | null, fieldValues: IEnumerable_1<System_Internal.String> | null) => void;
 
 
-export type DistributedContextPropagator_PropagatorSetterCallback = (carrier: JsValue | null, fieldName: string, fieldValue: string) => void;
+export type DistributedContextPropagator_PropagatorSetterCallback = (carrier: unknown | null, fieldName: string, fieldValue: string) => void;
 
 
 export interface EventTypeFilter$instance extends TraceFilter {
     readonly __tsonic_type_System_Diagnostics_EventTypeFilter: never;
 
     EventType: SourceLevels;
-    ShouldTrace(cache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, formatOrMessage: string | null, args: (JsValue | null)[] | null, data1: JsValue | null, data: (JsValue | null)[] | null): boolean;
+    ShouldTrace(cache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, formatOrMessage: string | null, args: (unknown | null)[] | null, data1: unknown | null, data: (unknown | null)[] | null): boolean;
 }
 
 
@@ -1501,7 +1504,7 @@ export interface SourceFilter$instance extends TraceFilter {
     readonly __tsonic_type_System_Diagnostics_SourceFilter: never;
 
     Source: string;
-    ShouldTrace(cache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, formatOrMessage: string | null, args: (JsValue | null)[] | null, data1: JsValue | null, data: (JsValue | null)[] | null): boolean;
+    ShouldTrace(cache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, formatOrMessage: string | null, args: (unknown | null)[] | null, data1: unknown | null, data: (unknown | null)[] | null): boolean;
 }
 
 
@@ -1688,13 +1691,13 @@ export interface TextWriterTraceListener$instance extends TraceListener$instance
     Dispose(): void;
     Flush(): void;
     Write(message: string | null): void;
-    Write(o: JsValue | null): void;
+    Write(o: unknown | null): void;
     Write(message: string | null, category: string | null): void;
-    Write(o: JsValue | null, category: string | null): void;
+    Write(o: unknown | null, category: string | null): void;
     WriteLine(message: string | null): void;
-    WriteLine(o: JsValue | null): void;
+    WriteLine(o: unknown | null): void;
     WriteLine(message: string | null, category: string | null): void;
-    WriteLine(o: JsValue | null, category: string | null): void;
+    WriteLine(o: unknown | null, category: string | null): void;
 }
 
 
@@ -1738,27 +1741,30 @@ export const Trace: {
     Flush(): void;
     Indent(): void;
     Refresh(): void;
-    TraceError(format: string, ...args: (JsValue | null)[] | null): void;
+    TraceError(format: string, ...args: (unknown | null)[]): void;
+    TraceError(format: string, args: (unknown | null)[] | null): void;
     TraceError(message: string | null): void;
-    TraceInformation(format: string, ...args: (JsValue | null)[] | null): void;
+    TraceInformation(format: string, ...args: (unknown | null)[]): void;
+    TraceInformation(format: string, args: (unknown | null)[] | null): void;
     TraceInformation(message: string | null): void;
-    TraceWarning(format: string, ...args: (JsValue | null)[] | null): void;
+    TraceWarning(format: string, ...args: (unknown | null)[]): void;
+    TraceWarning(format: string, args: (unknown | null)[] | null): void;
     TraceWarning(message: string | null): void;
     Unindent(): void;
-    Write(value: JsValue | null, category: string | null): void;
-    Write(value: JsValue | null): void;
+    Write(value: unknown | null, category: string | null): void;
+    Write(value: unknown | null): void;
     Write(message: string | null, category: string | null): void;
     Write(message: string | null): void;
-    WriteIf(condition: boolean, value: JsValue | null, category: string | null): void;
-    WriteIf(condition: boolean, value: JsValue | null): void;
+    WriteIf(condition: boolean, value: unknown | null, category: string | null): void;
+    WriteIf(condition: boolean, value: unknown | null): void;
     WriteIf(condition: boolean, message: string | null, category: string | null): void;
     WriteIf(condition: boolean, message: string | null): void;
-    WriteLine(value: JsValue | null, category: string | null): void;
-    WriteLine(value: JsValue | null): void;
+    WriteLine(value: unknown | null, category: string | null): void;
+    WriteLine(value: unknown | null): void;
     WriteLine(message: string | null, category: string | null): void;
     WriteLine(message: string | null): void;
-    WriteLineIf(condition: boolean, value: JsValue | null, category: string | null): void;
-    WriteLineIf(condition: boolean, value: JsValue | null): void;
+    WriteLineIf(condition: boolean, value: unknown | null, category: string | null): void;
+    WriteLineIf(condition: boolean, value: unknown | null): void;
     WriteLineIf(condition: boolean, message: string | null, category: string | null): void;
     WriteLineIf(condition: boolean, message: string | null): void;
 };
@@ -1788,7 +1794,7 @@ export type TraceEventCache = TraceEventCache$instance;
 export interface TraceFilter$instance {
     readonly __tsonic_type_System_Diagnostics_TraceFilter: never;
 
-    ShouldTrace(cache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, formatOrMessage: string | null, args: (JsValue | null)[] | null, data1: JsValue | null, data: (JsValue | null)[] | null): boolean;
+    ShouldTrace(cache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, formatOrMessage: string | null, args: (unknown | null)[] | null, data1: unknown | null, data: (unknown | null)[] | null): boolean;
 }
 
 
@@ -1818,21 +1824,23 @@ export interface TraceListener$instance extends MarshalByRefObject {
     Fail(message: string | null, detailMessage: string | null): void;
     Flush(): void;
     GetSupportedAttributes(): string[] | null;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: JsValue | null): void;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (JsValue | null)[] | null): void;
+    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: unknown | null): void;
+    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (unknown | null)[]): void;
+    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: (unknown | null)[] | null): void;
     TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int): void;
     TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, message: string | null): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (JsValue | null)[] | null): void;
+    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (unknown | null)[]): void;
+    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, args: (unknown | null)[] | null): void;
     TraceTransfer(eventCache: TraceEventCache | null, source: string, id: int, message: string | null, relatedActivityId: Guid): void;
     Write(message: string | null): void;
-    Write(o: JsValue | null): void;
+    Write(o: unknown | null): void;
     Write(message: string | null, category: string | null): void;
-    Write(o: JsValue | null, category: string | null): void;
+    Write(o: unknown | null, category: string | null): void;
     WriteIndent(): void;
     WriteLine(message: string | null): void;
-    WriteLine(o: JsValue | null): void;
+    WriteLine(o: unknown | null): void;
     WriteLine(message: string | null, category: string | null): void;
-    WriteLine(o: JsValue | null, category: string | null): void;
+    WriteLine(o: unknown | null, category: string | null): void;
 }
 
 
@@ -1897,13 +1905,16 @@ export interface TraceSource$instance {
     Close(): void;
     Flush(): void;
     GetSupportedAttributes(): string[] | null;
-    TraceData(eventType: TraceEventType, id: int, data: JsValue | null): void;
-    TraceData(eventType: TraceEventType, id: int, ...data: (JsValue | null)[] | null): void;
+    TraceData(eventType: TraceEventType, id: int, data: unknown | null): void;
+    TraceData(eventType: TraceEventType, id: int, ...data: (unknown | null)[]): void;
+    TraceData(eventType: TraceEventType, id: int, data: (unknown | null)[] | null): void;
     TraceEvent(eventType: TraceEventType, id: int): void;
     TraceEvent(eventType: TraceEventType, id: int, message: string | null): void;
-    TraceEvent(eventType: TraceEventType, id: int, format: string | null, ...args: (JsValue | null)[] | null): void;
+    TraceEvent(eventType: TraceEventType, id: int, format: string | null, ...args: (unknown | null)[]): void;
+    TraceEvent(eventType: TraceEventType, id: int, format: string | null, args: (unknown | null)[] | null): void;
     TraceInformation(message: string | null): void;
-    TraceInformation(format: string | null, ...args: (JsValue | null)[] | null): void;
+    TraceInformation(format: string | null, ...args: (unknown | null)[]): void;
+    TraceInformation(format: string | null, args: (unknown | null)[] | null): void;
     TraceTransfer(id: int, message: string | null, relatedActivityId: Guid): void;
 }
 
@@ -1967,20 +1978,22 @@ export interface XmlWriterTraceListener$instance extends TextWriterTraceListener
     Close(): void;
     Fail(message: string | null, detailMessage: string | null): void;
     Fail(message: string | null): void;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: JsValue | null): void;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (JsValue | null)[] | null): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (JsValue | null)[] | null): void;
+    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: unknown | null): void;
+    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (unknown | null)[]): void;
+    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: (unknown | null)[] | null): void;
+    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (unknown | null)[]): void;
+    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, args: (unknown | null)[] | null): void;
     TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, message: string | null): void;
     TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int): void;
     TraceTransfer(eventCache: TraceEventCache | null, source: string, id: int, message: string | null, relatedActivityId: Guid): void;
     Write(message: string | null): void;
-    Write(o: JsValue | null): void;
+    Write(o: unknown | null): void;
     Write(message: string | null, category: string | null): void;
-    Write(o: JsValue | null, category: string | null): void;
+    Write(o: unknown | null, category: string | null): void;
     WriteLine(message: string | null): void;
-    WriteLine(o: JsValue | null): void;
+    WriteLine(o: unknown | null): void;
     WriteLine(message: string | null, category: string | null): void;
-    WriteLine(o: JsValue | null, category: string | null): void;
+    WriteLine(o: unknown | null, category: string | null): void;
 }
 
 
@@ -2007,7 +2020,7 @@ export abstract class Debug$instance {
     static IndentSize: int;
     static Assert(condition: boolean, message: Debug_AssertInterpolatedStringHandler, detailMessage: Debug_AssertInterpolatedStringHandler): void;
     static Assert(condition: boolean, message: Debug_AssertInterpolatedStringHandler): void;
-    static Assert(condition: boolean, message: string | null, detailMessageFormat: string, ...args: (JsValue | null)[]): void;
+    static Assert(condition: boolean, message: string | null, detailMessageFormat: string, ...args: (unknown | null)[]): void;
     static Assert(condition: boolean, message: string | null, detailMessage: string | null): void;
     static Assert(condition: boolean, message?: string | null): void;
     static Assert(condition: boolean): void;
@@ -2016,29 +2029,29 @@ export abstract class Debug$instance {
     static Fail(message: string | null): void;
     static Flush(): void;
     static Indent(): void;
-    static Print(format: string, ...args: (JsValue | null)[]): void;
+    static Print(format: string, ...args: (unknown | null)[]): void;
     static Print(message: string | null): void;
     static SetProvider(provider: DebugProvider): DebugProvider;
     static Unindent(): void;
-    static Write(value: JsValue | null, category: string | null): void;
-    static Write(value: JsValue | null): void;
+    static Write(value: unknown | null, category: string | null): void;
+    static Write(value: unknown | null): void;
     static Write(message: string | null, category: string | null): void;
     static Write(message: string | null): void;
     static WriteIf(condition: boolean, message: Debug_WriteIfInterpolatedStringHandler, category: string | null): void;
     static WriteIf(condition: boolean, message: Debug_WriteIfInterpolatedStringHandler): void;
-    static WriteIf(condition: boolean, value: JsValue | null, category: string | null): void;
-    static WriteIf(condition: boolean, value: JsValue | null): void;
+    static WriteIf(condition: boolean, value: unknown | null, category: string | null): void;
+    static WriteIf(condition: boolean, value: unknown | null): void;
     static WriteIf(condition: boolean, message: string | null, category: string | null): void;
     static WriteIf(condition: boolean, message: string | null): void;
-    static WriteLine(value: JsValue | null, category: string | null): void;
-    static WriteLine(value: JsValue | null): void;
-    static WriteLine(format: string, ...args: (JsValue | null)[]): void;
+    static WriteLine(value: unknown | null, category: string | null): void;
+    static WriteLine(value: unknown | null): void;
+    static WriteLine(format: string, ...args: (unknown | null)[]): void;
     static WriteLine(message: string | null, category: string | null): void;
     static WriteLine(message: string | null): void;
     static WriteLineIf(condition: boolean, message: Debug_WriteIfInterpolatedStringHandler, category: string | null): void;
     static WriteLineIf(condition: boolean, message: Debug_WriteIfInterpolatedStringHandler): void;
-    static WriteLineIf(condition: boolean, value: JsValue | null, category: string | null): void;
-    static WriteLineIf(condition: boolean, value: JsValue | null): void;
+    static WriteLineIf(condition: boolean, value: unknown | null, category: string | null): void;
+    static WriteLineIf(condition: boolean, value: unknown | null): void;
     static WriteLineIf(condition: boolean, message: string | null, category: string | null): void;
     static WriteLineIf(condition: boolean, message: string | null): void;
 }
@@ -2049,15 +2062,15 @@ export type Debug = Debug$instance;
 export interface Debug_AssertInterpolatedStringHandler$instance {
     readonly __tsonic_type_System_Diagnostics_Debug_AssertInterpolatedStringHandler: never;
 
-    AppendFormatted<T>(value: T): void;
-    AppendFormatted<T>(value: T, format: string | null): void;
-    AppendFormatted<T>(value: T, alignment: int): void;
-    AppendFormatted<T>(value: T, alignment: int, format: string | null): void;
+    AppendFormatted<T extends unknown>(value: T): void;
+    AppendFormatted<T extends unknown>(value: T, format: string | null): void;
+    AppendFormatted<T extends unknown>(value: T, alignment: int): void;
+    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): void;
     AppendFormatted(value: string | null): void;
     AppendFormatted(value: string | null, alignment?: int, format?: string | null): void;
-    AppendFormatted(value: JsValue | null, alignment?: int, format?: string | null): void;
+    AppendFormatted(value: unknown | null, alignment?: int, format?: string | null): void;
     AppendLiteral(value: string): void;
 }
 
@@ -2072,15 +2085,15 @@ export type Debug_AssertInterpolatedStringHandler = Debug_AssertInterpolatedStri
 export interface Debug_WriteIfInterpolatedStringHandler$instance {
     readonly __tsonic_type_System_Diagnostics_Debug_WriteIfInterpolatedStringHandler: never;
 
-    AppendFormatted<T>(value: T): void;
-    AppendFormatted<T>(value: T, format: string | null): void;
-    AppendFormatted<T>(value: T, alignment: int): void;
-    AppendFormatted<T>(value: T, alignment: int, format: string | null): void;
+    AppendFormatted<T extends unknown>(value: T): void;
+    AppendFormatted<T extends unknown>(value: T, format: string | null): void;
+    AppendFormatted<T extends unknown>(value: T, alignment: int): void;
+    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): void;
     AppendFormatted(value: string | null): void;
     AppendFormatted(value: string | null, alignment?: int, format?: string | null): void;
-    AppendFormatted(value: JsValue | null, alignment?: int, format?: string | null): void;
+    AppendFormatted(value: unknown | null, alignment?: int, format?: string | null): void;
     AppendLiteral(value: string): void;
 }
 

@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib, System.Resources.Writer
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -41,7 +41,7 @@ export interface IResourceWriter$instance extends IDisposable {
     readonly __tsonic_iface_System_Resources_IResourceWriter: never;
 
     AddResource(name: string, value: byte[] | null): void;
-    AddResource(name: string, value: JsValue | null): void;
+    AddResource(name: string, value: unknown | null): void;
     AddResource(name: string, value: string | null): void;
     Close(): void;
     Dispose(): void;
@@ -120,8 +120,8 @@ export interface ResourceManager$instance {
     readonly BaseName: string;
     IgnoreCase: boolean;
     readonly ResourceSetType: Type;
-    GetObject(name: string): JsValue | null;
-    GetObject(name: string, culture: CultureInfo | null): JsValue | null;
+    GetObject(name: string): unknown | null;
+    GetObject(name: string, culture: CultureInfo | null): unknown | null;
     GetResourceFileName(culture: CultureInfo): string;
     GetResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet | null;
     GetStream(name: string): UnmanagedMemoryStream | null;
@@ -188,8 +188,8 @@ export interface ResourceSet$instance {
     GetDefaultReader(): Type;
     GetDefaultWriter(): Type;
     GetEnumerator(): IDictionaryEnumerator;
-    GetObject(name: string): JsValue | null;
-    GetObject(name: string, ignoreCase: boolean): JsValue | null;
+    GetObject(name: string): unknown | null;
+    GetObject(name: string, ignoreCase: boolean): unknown | null;
     GetString(name: string): string | null;
     GetString(name: string, ignoreCase: boolean): string | null;
     ReadResources(): void;
@@ -221,7 +221,7 @@ export interface ResourceWriter$instance {
     set TypeNameConverter(value: Func_2<Type, System_Internal.String> | null);
     AddResource(name: string, value: Stream | null): void;
     AddResource(name: string, value: string | null): void;
-    AddResource(name: string, value: JsValue | null): void;
+    AddResource(name: string, value: unknown | null): void;
     AddResource(name: string, value: Stream | null, closeAfterWrite?: boolean): void;
     AddResource(name: string, value: byte[] | null): void;
     AddResourceData(name: string, typeName: string, serializedData: byte[]): void;

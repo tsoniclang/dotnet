@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib, System.Runtime.Numerics
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -13,26 +13,26 @@ import type { NumberStyles } from "../../System.Globalization/internal/index.js"
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Char, Decimal, Double, IComparable, IComparable_1, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MidpointRounding, Object as ClrObject, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, UInt16, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
 
-export interface IAdditionOperators_3$instance<TSelf extends IAdditionOperators_3<TSelf, TOther, TResult>, TOther, TResult> {
+export interface IAdditionOperators_3$instance<TSelf extends unknown & IAdditionOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never;
 
 }
 
 
-export type IAdditionOperators_3<TSelf extends IAdditionOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IAdditionOperators_3$instance<TSelf, TOther, TResult>;
+export type IAdditionOperators_3<TSelf extends unknown & IAdditionOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = IAdditionOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface IAdditiveIdentity_2$instance<TSelf extends IAdditiveIdentity_2<TSelf, TResult>, TResult> {
+export interface IAdditiveIdentity_2$instance<TSelf extends unknown & IAdditiveIdentity_2<TSelf, TResult>, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never;
 
 }
 
 
-export type IAdditiveIdentity_2<TSelf extends IAdditiveIdentity_2<TSelf, TResult>, TResult> = IAdditiveIdentity_2$instance<TSelf, TResult>;
+export type IAdditiveIdentity_2<TSelf extends unknown & IAdditiveIdentity_2<TSelf, TResult>, TResult extends unknown> = IAdditiveIdentity_2$instance<TSelf, TResult>;
 
-export interface IBinaryFloatingPointIeee754_1$instance<TSelf extends IBinaryFloatingPointIeee754_1<TSelf>> extends IBinaryNumber_1<TSelf>, IBitwiseOperators_3<TSelf, TSelf, TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, IFloatingPointIeee754_1<TSelf>, IExponentialFunctions_1<TSelf>, IFloatingPointConstants_1<TSelf>, IFloatingPoint_1<TSelf>, ISignedNumber_1<TSelf>, IHyperbolicFunctions_1<TSelf>, ILogarithmicFunctions_1<TSelf>, IPowerFunctions_1<TSelf>, IRootFunctions_1<TSelf>, ITrigonometricFunctions_1<TSelf> {
+export interface IBinaryFloatingPointIeee754_1$instance<TSelf extends unknown & IBinaryFloatingPointIeee754_1<TSelf>> extends IBinaryNumber_1<TSelf>, IBitwiseOperators_3<TSelf, TSelf, TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, IFloatingPointIeee754_1<TSelf>, IExponentialFunctions_1<TSelf>, IFloatingPointConstants_1<TSelf>, IFloatingPoint_1<TSelf>, ISignedNumber_1<TSelf>, IHyperbolicFunctions_1<TSelf>, ILogarithmicFunctions_1<TSelf>, IPowerFunctions_1<TSelf>, IRootFunctions_1<TSelf>, ITrigonometricFunctions_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_IBinaryFloatingPointIeee754_1: never;
 
-    CompareTo(obj: JsValue | null): int;
+    CompareTo(obj: unknown | null): int;
     CompareTo(other: TSelf): int;
     GetExponentByteCount(): int;
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -46,12 +46,12 @@ export interface IBinaryFloatingPointIeee754_1$instance<TSelf extends IBinaryFlo
 }
 
 
-export type IBinaryFloatingPointIeee754_1<TSelf extends IBinaryFloatingPointIeee754_1<TSelf>> = IBinaryFloatingPointIeee754_1$instance<TSelf>;
+export type IBinaryFloatingPointIeee754_1<TSelf extends unknown & IBinaryFloatingPointIeee754_1<TSelf>> = IBinaryFloatingPointIeee754_1$instance<TSelf>;
 
-export interface IBinaryInteger_1$instance<TSelf extends IBinaryInteger_1<TSelf>> extends IBinaryNumber_1<TSelf>, IBitwiseOperators_3<TSelf, TSelf, TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, IShiftOperators_3<TSelf, System_Internal.Int32, TSelf> {
+export interface IBinaryInteger_1$instance<TSelf extends unknown & IBinaryInteger_1<TSelf>> extends IBinaryNumber_1<TSelf>, IBitwiseOperators_3<TSelf, TSelf, TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, IShiftOperators_3<TSelf, System_Internal.Int32, TSelf> {
     readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never;
 
-    CompareTo(obj: JsValue | null): int;
+    CompareTo(obj: unknown | null): int;
     CompareTo(other: TSelf): int;
     GetByteCount(): int;
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -65,14 +65,14 @@ export interface IBinaryInteger_1$instance<TSelf extends IBinaryInteger_1<TSelf>
 }
 
 
-export interface IBinaryInteger_1$instance<TSelf extends IBinaryInteger_1<TSelf>> extends IShiftOperators_3$instance<TSelf, System_Internal.Int32, TSelf> {}
+export interface IBinaryInteger_1$instance<TSelf extends unknown & IBinaryInteger_1<TSelf>> extends IShiftOperators_3$instance<TSelf, System_Internal.Int32, TSelf> {}
 
-export type IBinaryInteger_1<TSelf extends IBinaryInteger_1<TSelf>> = IBinaryInteger_1$instance<TSelf>;
+export type IBinaryInteger_1<TSelf extends unknown & IBinaryInteger_1<TSelf>> = IBinaryInteger_1$instance<TSelf>;
 
-export interface IBinaryNumber_1$instance<TSelf extends IBinaryNumber_1<TSelf>> extends IBitwiseOperators_3<TSelf, TSelf, TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface IBinaryNumber_1$instance<TSelf extends unknown & IBinaryNumber_1<TSelf>> extends IBitwiseOperators_3<TSelf, TSelf, TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never;
 
-    CompareTo(obj: JsValue | null): int;
+    CompareTo(obj: unknown | null): int;
     CompareTo(other: TSelf): int;
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
     TryFormat(destination: Span_1<System_Internal.Char>, charsWritten: int, format: ReadOnlySpan_1<System_Internal.Char>, provider: IFormatProvider | null): boolean;
@@ -81,53 +81,53 @@ export interface IBinaryNumber_1$instance<TSelf extends IBinaryNumber_1<TSelf>> 
 }
 
 
-export interface IBinaryNumber_1$instance<TSelf extends IBinaryNumber_1<TSelf>> extends IBitwiseOperators_3$instance<TSelf, TSelf, TSelf> {}
+export interface IBinaryNumber_1$instance<TSelf extends unknown & IBinaryNumber_1<TSelf>> extends IBitwiseOperators_3$instance<TSelf, TSelf, TSelf> {}
 
-export type IBinaryNumber_1<TSelf extends IBinaryNumber_1<TSelf>> = IBinaryNumber_1$instance<TSelf>;
+export type IBinaryNumber_1<TSelf extends unknown & IBinaryNumber_1<TSelf>> = IBinaryNumber_1$instance<TSelf>;
 
-export interface IBitwiseOperators_3$instance<TSelf extends IBitwiseOperators_3<TSelf, TOther, TResult>, TOther, TResult> {
+export interface IBitwiseOperators_3$instance<TSelf extends unknown & IBitwiseOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never;
 
 }
 
 
-export type IBitwiseOperators_3<TSelf extends IBitwiseOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IBitwiseOperators_3$instance<TSelf, TOther, TResult>;
+export type IBitwiseOperators_3<TSelf extends unknown & IBitwiseOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = IBitwiseOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface IComparisonOperators_3$instance<TSelf extends IComparisonOperators_3<TSelf, TOther, TResult>, TOther, TResult> extends IEqualityOperators_3<TSelf, TOther, TResult> {
+export interface IComparisonOperators_3$instance<TSelf extends unknown & IComparisonOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> extends IEqualityOperators_3<TSelf, TOther, TResult> {
     readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never;
 
 }
 
 
-export interface IComparisonOperators_3$instance<TSelf extends IComparisonOperators_3<TSelf, TOther, TResult>, TOther, TResult> extends IEqualityOperators_3$instance<TSelf, TOther, TResult> {}
+export interface IComparisonOperators_3$instance<TSelf extends unknown & IComparisonOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> extends IEqualityOperators_3$instance<TSelf, TOther, TResult> {}
 
-export type IComparisonOperators_3<TSelf extends IComparisonOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IComparisonOperators_3$instance<TSelf, TOther, TResult>;
+export type IComparisonOperators_3<TSelf extends unknown & IComparisonOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = IComparisonOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface IDecrementOperators_1$instance<TSelf extends IDecrementOperators_1<TSelf>> {
+export interface IDecrementOperators_1$instance<TSelf extends unknown & IDecrementOperators_1<TSelf>> {
     readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never;
 
 }
 
 
-export type IDecrementOperators_1<TSelf extends IDecrementOperators_1<TSelf>> = IDecrementOperators_1$instance<TSelf>;
+export type IDecrementOperators_1<TSelf extends unknown & IDecrementOperators_1<TSelf>> = IDecrementOperators_1$instance<TSelf>;
 
-export interface IDivisionOperators_3$instance<TSelf extends IDivisionOperators_3<TSelf, TOther, TResult>, TOther, TResult> {
+export interface IDivisionOperators_3$instance<TSelf extends unknown & IDivisionOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never;
 
 }
 
 
-export type IDivisionOperators_3<TSelf extends IDivisionOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IDivisionOperators_3$instance<TSelf, TOther, TResult>;
+export type IDivisionOperators_3<TSelf extends unknown & IDivisionOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = IDivisionOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface IEqualityOperators_3$instance<TSelf extends IEqualityOperators_3<TSelf, TOther, TResult>, TOther, TResult> {
+export interface IEqualityOperators_3$instance<TSelf extends unknown & IEqualityOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never;
 
 }
 
 
-export type IEqualityOperators_3<TSelf extends IEqualityOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IEqualityOperators_3$instance<TSelf, TOther, TResult>;
+export type IEqualityOperators_3<TSelf extends unknown & IEqualityOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = IEqualityOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface IExponentialFunctions_1$instance<TSelf extends IExponentialFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface IExponentialFunctions_1$instance<TSelf extends unknown & IExponentialFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_IExponentialFunctions_1: never;
 
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -137,12 +137,12 @@ export interface IExponentialFunctions_1$instance<TSelf extends IExponentialFunc
 }
 
 
-export type IExponentialFunctions_1<TSelf extends IExponentialFunctions_1<TSelf>> = IExponentialFunctions_1$instance<TSelf>;
+export type IExponentialFunctions_1<TSelf extends unknown & IExponentialFunctions_1<TSelf>> = IExponentialFunctions_1$instance<TSelf>;
 
-export interface IFloatingPoint_1$instance<TSelf extends IFloatingPoint_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, ISignedNumber_1<TSelf> {
+export interface IFloatingPoint_1$instance<TSelf extends unknown & IFloatingPoint_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, ISignedNumber_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_IFloatingPoint_1: never;
 
-    CompareTo(obj: JsValue | null): int;
+    CompareTo(obj: unknown | null): int;
     CompareTo(other: TSelf): int;
     GetExponentByteCount(): int;
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -156,9 +156,9 @@ export interface IFloatingPoint_1$instance<TSelf extends IFloatingPoint_1<TSelf>
 }
 
 
-export type IFloatingPoint_1<TSelf extends IFloatingPoint_1<TSelf>> = IFloatingPoint_1$instance<TSelf>;
+export type IFloatingPoint_1<TSelf extends unknown & IFloatingPoint_1<TSelf>> = IFloatingPoint_1$instance<TSelf>;
 
-export interface IFloatingPointConstants_1$instance<TSelf extends IFloatingPointConstants_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface IFloatingPointConstants_1$instance<TSelf extends unknown & IFloatingPointConstants_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_IFloatingPointConstants_1: never;
 
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -168,12 +168,12 @@ export interface IFloatingPointConstants_1$instance<TSelf extends IFloatingPoint
 }
 
 
-export type IFloatingPointConstants_1<TSelf extends IFloatingPointConstants_1<TSelf>> = IFloatingPointConstants_1$instance<TSelf>;
+export type IFloatingPointConstants_1<TSelf extends unknown & IFloatingPointConstants_1<TSelf>> = IFloatingPointConstants_1$instance<TSelf>;
 
-export interface IFloatingPointIeee754_1$instance<TSelf extends IFloatingPointIeee754_1<TSelf>> extends IExponentialFunctions_1<TSelf>, IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, IFloatingPoint_1<TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, ISignedNumber_1<TSelf>, IHyperbolicFunctions_1<TSelf>, ILogarithmicFunctions_1<TSelf>, IPowerFunctions_1<TSelf>, IRootFunctions_1<TSelf>, ITrigonometricFunctions_1<TSelf> {
+export interface IFloatingPointIeee754_1$instance<TSelf extends unknown & IFloatingPointIeee754_1<TSelf>> extends IExponentialFunctions_1<TSelf>, IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, IFloatingPoint_1<TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, ISignedNumber_1<TSelf>, IHyperbolicFunctions_1<TSelf>, ILogarithmicFunctions_1<TSelf>, IPowerFunctions_1<TSelf>, IRootFunctions_1<TSelf>, ITrigonometricFunctions_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_IFloatingPointIeee754_1: never;
 
-    CompareTo(obj: JsValue | null): int;
+    CompareTo(obj: unknown | null): int;
     CompareTo(other: TSelf): int;
     GetExponentByteCount(): int;
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -187,9 +187,9 @@ export interface IFloatingPointIeee754_1$instance<TSelf extends IFloatingPointIe
 }
 
 
-export type IFloatingPointIeee754_1<TSelf extends IFloatingPointIeee754_1<TSelf>> = IFloatingPointIeee754_1$instance<TSelf>;
+export type IFloatingPointIeee754_1<TSelf extends unknown & IFloatingPointIeee754_1<TSelf>> = IFloatingPointIeee754_1$instance<TSelf>;
 
-export interface IHyperbolicFunctions_1$instance<TSelf extends IHyperbolicFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface IHyperbolicFunctions_1$instance<TSelf extends unknown & IHyperbolicFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_IHyperbolicFunctions_1: never;
 
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -199,17 +199,17 @@ export interface IHyperbolicFunctions_1$instance<TSelf extends IHyperbolicFuncti
 }
 
 
-export type IHyperbolicFunctions_1<TSelf extends IHyperbolicFunctions_1<TSelf>> = IHyperbolicFunctions_1$instance<TSelf>;
+export type IHyperbolicFunctions_1<TSelf extends unknown & IHyperbolicFunctions_1<TSelf>> = IHyperbolicFunctions_1$instance<TSelf>;
 
-export interface IIncrementOperators_1$instance<TSelf extends IIncrementOperators_1<TSelf>> {
+export interface IIncrementOperators_1$instance<TSelf extends unknown & IIncrementOperators_1<TSelf>> {
     readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never;
 
 }
 
 
-export type IIncrementOperators_1<TSelf extends IIncrementOperators_1<TSelf>> = IIncrementOperators_1$instance<TSelf>;
+export type IIncrementOperators_1<TSelf extends unknown & IIncrementOperators_1<TSelf>> = IIncrementOperators_1$instance<TSelf>;
 
-export interface ILogarithmicFunctions_1$instance<TSelf extends ILogarithmicFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface ILogarithmicFunctions_1$instance<TSelf extends unknown & ILogarithmicFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_ILogarithmicFunctions_1: never;
 
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -219,44 +219,44 @@ export interface ILogarithmicFunctions_1$instance<TSelf extends ILogarithmicFunc
 }
 
 
-export type ILogarithmicFunctions_1<TSelf extends ILogarithmicFunctions_1<TSelf>> = ILogarithmicFunctions_1$instance<TSelf>;
+export type ILogarithmicFunctions_1<TSelf extends unknown & ILogarithmicFunctions_1<TSelf>> = ILogarithmicFunctions_1$instance<TSelf>;
 
-export interface IMinMaxValue_1$instance<TSelf extends IMinMaxValue_1<TSelf>> {
+export interface IMinMaxValue_1$instance<TSelf extends unknown & IMinMaxValue_1<TSelf>> {
     readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never;
 
 }
 
 
-export type IMinMaxValue_1<TSelf extends IMinMaxValue_1<TSelf>> = IMinMaxValue_1$instance<TSelf>;
+export type IMinMaxValue_1<TSelf extends unknown & IMinMaxValue_1<TSelf>> = IMinMaxValue_1$instance<TSelf>;
 
-export interface IModulusOperators_3$instance<TSelf extends IModulusOperators_3<TSelf, TOther, TResult>, TOther, TResult> {
+export interface IModulusOperators_3$instance<TSelf extends unknown & IModulusOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never;
 
 }
 
 
-export type IModulusOperators_3<TSelf extends IModulusOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IModulusOperators_3$instance<TSelf, TOther, TResult>;
+export type IModulusOperators_3<TSelf extends unknown & IModulusOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = IModulusOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface IMultiplicativeIdentity_2$instance<TSelf extends IMultiplicativeIdentity_2<TSelf, TResult>, TResult> {
+export interface IMultiplicativeIdentity_2$instance<TSelf extends unknown & IMultiplicativeIdentity_2<TSelf, TResult>, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never;
 
 }
 
 
-export type IMultiplicativeIdentity_2<TSelf extends IMultiplicativeIdentity_2<TSelf, TResult>, TResult> = IMultiplicativeIdentity_2$instance<TSelf, TResult>;
+export type IMultiplicativeIdentity_2<TSelf extends unknown & IMultiplicativeIdentity_2<TSelf, TResult>, TResult extends unknown> = IMultiplicativeIdentity_2$instance<TSelf, TResult>;
 
-export interface IMultiplyOperators_3$instance<TSelf extends IMultiplyOperators_3<TSelf, TOther, TResult>, TOther, TResult> {
+export interface IMultiplyOperators_3$instance<TSelf extends unknown & IMultiplyOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never;
 
 }
 
 
-export type IMultiplyOperators_3<TSelf extends IMultiplyOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IMultiplyOperators_3$instance<TSelf, TOther, TResult>;
+export type IMultiplyOperators_3<TSelf extends unknown & IMultiplyOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = IMultiplyOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface INumber_1$instance<TSelf extends INumber_1<TSelf>> extends IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface INumber_1$instance<TSelf extends unknown & INumber_1<TSelf>> extends IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, System_Internal.Boolean>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_INumber_1: never;
 
-    CompareTo(obj: JsValue | null): int;
+    CompareTo(obj: unknown | null): int;
     CompareTo(other: TSelf): int;
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
     TryFormat(destination: Span_1<System_Internal.Char>, charsWritten: int, format: ReadOnlySpan_1<System_Internal.Char>, provider: IFormatProvider | null): boolean;
@@ -265,11 +265,11 @@ export interface INumber_1$instance<TSelf extends INumber_1<TSelf>> extends ICom
 }
 
 
-export interface INumber_1$instance<TSelf extends INumber_1<TSelf>> extends IComparisonOperators_3$instance<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3$instance<TSelf, TSelf, TSelf> {}
+export interface INumber_1$instance<TSelf extends unknown & INumber_1<TSelf>> extends IComparisonOperators_3$instance<TSelf, TSelf, System_Internal.Boolean>, IModulusOperators_3$instance<TSelf, TSelf, TSelf> {}
 
-export type INumber_1<TSelf extends INumber_1<TSelf>> = INumber_1$instance<TSelf>;
+export type INumber_1<TSelf extends unknown & INumber_1<TSelf>> = INumber_1$instance<TSelf>;
 
-export interface INumberBase_1$instance<TSelf extends INumberBase_1<TSelf>> extends IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface INumberBase_1$instance<TSelf extends unknown & INumberBase_1<TSelf>> extends IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_INumberBase_1: never;
 
     Equals(other: TSelf): boolean;
@@ -279,11 +279,11 @@ export interface INumberBase_1$instance<TSelf extends INumberBase_1<TSelf>> exte
 }
 
 
-export interface INumberBase_1$instance<TSelf extends INumberBase_1<TSelf>> extends System_Internal.IEquatable_1$instance<TSelf>, System_Internal.ISpanParsable_1$instance<TSelf>, IAdditionOperators_3$instance<TSelf, TSelf, TSelf>, IAdditiveIdentity_2$instance<TSelf, TSelf>, IDecrementOperators_1$instance<TSelf>, IDivisionOperators_3$instance<TSelf, TSelf, TSelf>, IEqualityOperators_3$instance<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1$instance<TSelf>, IMultiplicativeIdentity_2$instance<TSelf, TSelf>, IMultiplyOperators_3$instance<TSelf, TSelf, TSelf>, ISubtractionOperators_3$instance<TSelf, TSelf, TSelf>, IUnaryNegationOperators_2$instance<TSelf, TSelf>, IUnaryPlusOperators_2$instance<TSelf, TSelf> {}
+export interface INumberBase_1$instance<TSelf extends unknown & INumberBase_1<TSelf>> extends System_Internal.IEquatable_1$instance<TSelf>, System_Internal.ISpanFormattable$instance, System_Internal.ISpanParsable_1$instance<TSelf>, IAdditionOperators_3$instance<TSelf, TSelf, TSelf>, IAdditiveIdentity_2$instance<TSelf, TSelf>, IDecrementOperators_1$instance<TSelf>, IDivisionOperators_3$instance<TSelf, TSelf, TSelf>, IEqualityOperators_3$instance<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1$instance<TSelf>, IMultiplicativeIdentity_2$instance<TSelf, TSelf>, IMultiplyOperators_3$instance<TSelf, TSelf, TSelf>, ISubtractionOperators_3$instance<TSelf, TSelf, TSelf>, IUnaryNegationOperators_2$instance<TSelf, TSelf>, IUnaryPlusOperators_2$instance<TSelf, TSelf> {}
 
-export type INumberBase_1<TSelf extends INumberBase_1<TSelf>> = INumberBase_1$instance<TSelf>;
+export type INumberBase_1<TSelf extends unknown & INumberBase_1<TSelf>> = INumberBase_1$instance<TSelf>;
 
-export interface IPowerFunctions_1$instance<TSelf extends IPowerFunctions_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface IPowerFunctions_1$instance<TSelf extends unknown & IPowerFunctions_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_IPowerFunctions_1: never;
 
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -293,9 +293,9 @@ export interface IPowerFunctions_1$instance<TSelf extends IPowerFunctions_1<TSel
 }
 
 
-export type IPowerFunctions_1<TSelf extends IPowerFunctions_1<TSelf>> = IPowerFunctions_1$instance<TSelf>;
+export type IPowerFunctions_1<TSelf extends unknown & IPowerFunctions_1<TSelf>> = IPowerFunctions_1$instance<TSelf>;
 
-export interface IRootFunctions_1$instance<TSelf extends IRootFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface IRootFunctions_1$instance<TSelf extends unknown & IRootFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_IRootFunctions_1: never;
 
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -305,17 +305,17 @@ export interface IRootFunctions_1$instance<TSelf extends IRootFunctions_1<TSelf>
 }
 
 
-export type IRootFunctions_1<TSelf extends IRootFunctions_1<TSelf>> = IRootFunctions_1$instance<TSelf>;
+export type IRootFunctions_1<TSelf extends unknown & IRootFunctions_1<TSelf>> = IRootFunctions_1$instance<TSelf>;
 
-export interface IShiftOperators_3$instance<TSelf extends IShiftOperators_3<TSelf, TOther, TResult>, TOther, TResult> {
+export interface IShiftOperators_3$instance<TSelf extends unknown & IShiftOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never;
 
 }
 
 
-export type IShiftOperators_3<TSelf extends IShiftOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IShiftOperators_3$instance<TSelf, TOther, TResult>;
+export type IShiftOperators_3<TSelf extends unknown & IShiftOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = IShiftOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface ISignedNumber_1$instance<TSelf extends ISignedNumber_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface ISignedNumber_1$instance<TSelf extends unknown & ISignedNumber_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never;
 
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -325,17 +325,17 @@ export interface ISignedNumber_1$instance<TSelf extends ISignedNumber_1<TSelf>> 
 }
 
 
-export type ISignedNumber_1<TSelf extends ISignedNumber_1<TSelf>> = ISignedNumber_1$instance<TSelf>;
+export type ISignedNumber_1<TSelf extends unknown & ISignedNumber_1<TSelf>> = ISignedNumber_1$instance<TSelf>;
 
-export interface ISubtractionOperators_3$instance<TSelf extends ISubtractionOperators_3<TSelf, TOther, TResult>, TOther, TResult> {
+export interface ISubtractionOperators_3$instance<TSelf extends unknown & ISubtractionOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never;
 
 }
 
 
-export type ISubtractionOperators_3<TSelf extends ISubtractionOperators_3<TSelf, TOther, TResult>, TOther, TResult> = ISubtractionOperators_3$instance<TSelf, TOther, TResult>;
+export type ISubtractionOperators_3<TSelf extends unknown & ISubtractionOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = ISubtractionOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface ITrigonometricFunctions_1$instance<TSelf extends ITrigonometricFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface ITrigonometricFunctions_1$instance<TSelf extends unknown & ITrigonometricFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_ITrigonometricFunctions_1: never;
 
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -345,25 +345,25 @@ export interface ITrigonometricFunctions_1$instance<TSelf extends ITrigonometric
 }
 
 
-export type ITrigonometricFunctions_1<TSelf extends ITrigonometricFunctions_1<TSelf>> = ITrigonometricFunctions_1$instance<TSelf>;
+export type ITrigonometricFunctions_1<TSelf extends unknown & ITrigonometricFunctions_1<TSelf>> = ITrigonometricFunctions_1$instance<TSelf>;
 
-export interface IUnaryNegationOperators_2$instance<TSelf extends IUnaryNegationOperators_2<TSelf, TResult>, TResult> {
+export interface IUnaryNegationOperators_2$instance<TSelf extends unknown & IUnaryNegationOperators_2<TSelf, TResult>, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
 
 }
 
 
-export type IUnaryNegationOperators_2<TSelf extends IUnaryNegationOperators_2<TSelf, TResult>, TResult> = IUnaryNegationOperators_2$instance<TSelf, TResult>;
+export type IUnaryNegationOperators_2<TSelf extends unknown & IUnaryNegationOperators_2<TSelf, TResult>, TResult extends unknown> = IUnaryNegationOperators_2$instance<TSelf, TResult>;
 
-export interface IUnaryPlusOperators_2$instance<TSelf extends IUnaryPlusOperators_2<TSelf, TResult>, TResult> {
+export interface IUnaryPlusOperators_2$instance<TSelf extends unknown & IUnaryPlusOperators_2<TSelf, TResult>, TResult extends unknown> {
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
 }
 
 
-export type IUnaryPlusOperators_2<TSelf extends IUnaryPlusOperators_2<TSelf, TResult>, TResult> = IUnaryPlusOperators_2$instance<TSelf, TResult>;
+export type IUnaryPlusOperators_2<TSelf extends unknown & IUnaryPlusOperators_2<TSelf, TResult>, TResult extends unknown> = IUnaryPlusOperators_2$instance<TSelf, TResult>;
 
-export interface IUnsignedNumber_1$instance<TSelf extends IUnsignedNumber_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+export interface IUnsignedNumber_1$instance<TSelf extends unknown & IUnsignedNumber_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, System_Internal.Boolean>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
     readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
 
     ToString(format: string | null, formatProvider: IFormatProvider | null): string;
@@ -373,9 +373,9 @@ export interface IUnsignedNumber_1$instance<TSelf extends IUnsignedNumber_1<TSel
 }
 
 
-export type IUnsignedNumber_1<TSelf extends IUnsignedNumber_1<TSelf>> = IUnsignedNumber_1$instance<TSelf>;
+export type IUnsignedNumber_1<TSelf extends unknown & IUnsignedNumber_1<TSelf>> = IUnsignedNumber_1$instance<TSelf>;
 
-export interface BigInteger$instance extends IAdditionOperators_3<BigInteger, BigInteger, BigInteger>, IBitwiseOperators_3<BigInteger, BigInteger, BigInteger>, IComparisonOperators_3<BigInteger, BigInteger, System_Internal.Boolean>, IEqualityOperators_3<BigInteger, BigInteger, System_Internal.Boolean>, IDecrementOperators_1<BigInteger>, IDivisionOperators_3<BigInteger, BigInteger, BigInteger>, IIncrementOperators_1<BigInteger>, IModulusOperators_3<BigInteger, BigInteger, BigInteger>, IMultiplyOperators_3<BigInteger, BigInteger, BigInteger>, ISubtractionOperators_3<BigInteger, BigInteger, BigInteger>, IUnaryNegationOperators_2<BigInteger, BigInteger>, IUnaryPlusOperators_2<BigInteger, BigInteger>, IShiftOperators_3<BigInteger, System_Internal.Int32, BigInteger> {
+export interface BigInteger$instance {
     readonly __tsonic_type_System_Numerics_BigInteger: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -416,8 +416,8 @@ export interface BigInteger$instance extends IAdditionOperators_3<BigInteger, Bi
     CompareTo(other: long): int;
     CompareTo(other: ulong): int;
     CompareTo(other: BigInteger): int;
-    CompareTo(obj: JsValue | null): int;
-    Equals(obj: JsValue | null): boolean;
+    CompareTo(obj: unknown | null): int;
+    Equals(obj: unknown | null): boolean;
     Equals(other: long): boolean;
     Equals(other: ulong): boolean;
     Equals(other: BigInteger): boolean;
@@ -453,9 +453,9 @@ export const BigInteger: {
     Clamp(value: BigInteger, min: BigInteger, max: BigInteger): BigInteger;
     Compare(left: BigInteger, right: BigInteger): int;
     CopySign(value: BigInteger, sign: BigInteger): BigInteger;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): BigInteger;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): BigInteger;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): BigInteger;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): BigInteger;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): BigInteger;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): BigInteger;
     Divide(dividend: BigInteger, divisor: BigInteger): BigInteger;
     DivRem(dividend: BigInteger, divisor: BigInteger, remainder: BigInteger): BigInteger;
     DivRem(left: BigInteger, right: BigInteger): ValueTuple_2<BigInteger, BigInteger>;
@@ -516,7 +516,7 @@ export interface __BigInteger$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: BigInteger): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: import("../../System/internal/index").IFormatProvider): string;
     TryFormat(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Char>, charsWritten: int, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").Char>, provider: import("../../System/internal/index").IFormatProvider): boolean;
     TryFormat(utf8Destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>, bytesWritten: int, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").Char>, provider: import("../../System/internal/index").IFormatProvider): boolean;
@@ -530,7 +530,7 @@ export interface __BigInteger$views {
 export type BigInteger = BigInteger$instance & __BigInteger$views;
 
 
-export interface Complex$instance extends IAdditionOperators_3<Complex, Complex, Complex>, IDecrementOperators_1<Complex>, IDivisionOperators_3<Complex, Complex, Complex>, IEqualityOperators_3<Complex, Complex, System_Internal.Boolean>, IIncrementOperators_1<Complex>, IMultiplyOperators_3<Complex, Complex, Complex>, ISubtractionOperators_3<Complex, Complex, Complex>, IUnaryNegationOperators_2<Complex, Complex>, IUnaryPlusOperators_2<Complex, Complex> {
+export interface Complex$instance {
     readonly __tsonic_type_System_Numerics_Complex: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -558,7 +558,7 @@ export interface Complex$instance extends IAdditionOperators_3<Complex, Complex,
     readonly Magnitude: double;
     readonly Phase: double;
     readonly Real: double;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(value: Complex): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -587,9 +587,9 @@ export const Complex: {
     Conjugate(value: Complex): Complex;
     Cos(value: Complex): Complex;
     Cosh(value: Complex): Complex;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): Complex;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): Complex;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): Complex;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): Complex;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): Complex;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): Complex;
     Divide(dividend: double, divisor: Complex): Complex;
     Divide(dividend: Complex, divisor: double): Complex;
     Divide(dividend: Complex, divisor: Complex): Complex;
@@ -677,7 +677,7 @@ export interface Matrix3x2$instance {
     X: Vector2;
     Y: Vector2;
     Z: Vector2;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: Matrix3x2): boolean;
     get_Item(row: int): Vector2;
     get_Item(row: int, column: int): float;
@@ -759,7 +759,7 @@ export interface Matrix4x4$instance {
     X: Vector4;
     Y: Vector4;
     Z: Vector4;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: Matrix4x4): boolean;
     get_Item(row: int): Vector4;
     get_Item(row: int, column: int): float;
@@ -854,7 +854,7 @@ export interface Plane$instance {
 
     Normal: Vector3;
     D: float;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: Plane): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -898,7 +898,7 @@ export interface Quaternion$instance {
     Z: float;
     W: float;
     readonly IsIdentity: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: Quaternion): boolean;
     GetHashCode(): int;
     Length(): float;
@@ -943,7 +943,7 @@ export interface __Quaternion$views {
 export type Quaternion = Quaternion$instance & __Quaternion$views & { [index: number]: float; };
 
 
-export interface TotalOrderIeee754Comparer_1$instance<T extends IFloatingPointIeee754_1<T>> {
+export interface TotalOrderIeee754Comparer_1$instance<T extends unknown & IFloatingPointIeee754_1<T>> {
     readonly __tsonic_type_System_Numerics_TotalOrderIeee754Comparer_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
@@ -953,18 +953,18 @@ export interface TotalOrderIeee754Comparer_1$instance<T extends IFloatingPointIe
     Compare(x: T | null, y: T | null): int;
     Equals(x: T | null, y: T | null): boolean;
     Equals(other: TotalOrderIeee754Comparer_1<T>): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(obj: T): int;
     GetHashCode(): int;
 }
 
 
 export const TotalOrderIeee754Comparer_1: {
-    new<T extends IFloatingPointIeee754_1<T>>(): TotalOrderIeee754Comparer_1<T>;
+    new<T extends unknown & IFloatingPointIeee754_1<T>>(): TotalOrderIeee754Comparer_1<T>;
 };
 
 
-export interface __TotalOrderIeee754Comparer_1$views<T extends IFloatingPointIeee754_1<T>> {
+export interface __TotalOrderIeee754Comparer_1$views<T extends unknown & IFloatingPointIeee754_1<T>> {
     As_IComparer_1(): System_Collections_Generic_Internal.IComparer_1$instance<T>;
     As_IEqualityComparer_1(): System_Collections_Generic_Internal.IEqualityComparer_1$instance<T>;
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<TotalOrderIeee754Comparer_1<T>>;
@@ -973,10 +973,10 @@ export interface __TotalOrderIeee754Comparer_1$views<T extends IFloatingPointIee
     Equals(other: TotalOrderIeee754Comparer_1<T>): boolean;
 }
 
-export type TotalOrderIeee754Comparer_1<T extends IFloatingPointIeee754_1<T>> = TotalOrderIeee754Comparer_1$instance<T> & __TotalOrderIeee754Comparer_1$views<T>;
+export type TotalOrderIeee754Comparer_1<T extends unknown & IFloatingPointIeee754_1<T>> = TotalOrderIeee754Comparer_1$instance<T> & __TotalOrderIeee754Comparer_1$views<T>;
 
 
-export interface Vector_1$instance<T> extends IAdditionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3<Vector_1<T>, Vector_1<T>, System_Internal.Boolean>, IMultiplyOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3<Vector_1<T>, System_Internal.Int32, Vector_1<T>>, ISubtractionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2<Vector_1<T>, Vector_1<T>>, IAdditionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3$instance<Vector_1<T>, Vector_1<T>, System_Internal.Boolean>, IMultiplyOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3$instance<Vector_1<T>, System_Internal.Int32, Vector_1<T>>, ISubtractionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2$instance<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2$instance<Vector_1<T>, Vector_1<T>> {
+export interface Vector_1$instance<T extends unknown> extends IAdditionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3<Vector_1<T>, Vector_1<T>, System_Internal.Boolean>, IMultiplyOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3<Vector_1<T>, System_Internal.Int32, Vector_1<T>>, ISubtractionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2<Vector_1<T>, Vector_1<T>>, IAdditionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3$instance<Vector_1<T>, Vector_1<T>, System_Internal.Boolean>, IMultiplyOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3$instance<Vector_1<T>, System_Internal.Int32, Vector_1<T>>, ISubtractionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2$instance<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2$instance<Vector_1<T>, Vector_1<T>> {
     readonly __tsonic_type_System_Numerics_Vector_1: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -995,7 +995,7 @@ export interface Vector_1$instance<T> extends IAdditionOperators_3<Vector_1<T>, 
     CopyTo(destination: T[], startIndex: int): void;
     CopyTo(destination: Span_1<System_Internal.Byte>): void;
     CopyTo(destination: Span_1<T>): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: Vector_1<T>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -1007,22 +1007,22 @@ export interface Vector_1$instance<T> extends IAdditionOperators_3<Vector_1<T>, 
 
 
 export const Vector_1: {
-    new<T>(value: T): Vector_1<T>;
-    new<T>(values: T[]): Vector_1<T>;
-    new<T>(values: T[], index: int): Vector_1<T>;
-    new<T>(values: ReadOnlySpan_1<T>): Vector_1<T>;
-    new<T>(values: ReadOnlySpan_1<System_Internal.Byte>): Vector_1<T>;
-    new<T>(values: Span_1<T>): Vector_1<T>;
-    readonly AllBitsSet: <T>() => Vector_1<T>;
+    new<T extends unknown>(value: T): Vector_1<T>;
+    new<T extends unknown>(values: T[]): Vector_1<T>;
+    new<T extends unknown>(values: T[], index: int): Vector_1<T>;
+    new<T extends unknown>(values: ReadOnlySpan_1<T>): Vector_1<T>;
+    new<T extends unknown>(values: ReadOnlySpan_1<System_Internal.Byte>): Vector_1<T>;
+    new<T extends unknown>(values: Span_1<T>): Vector_1<T>;
+    readonly AllBitsSet: <T extends unknown>() => Vector_1<T>;
     readonly Count: int;
-    readonly Indices: <T>() => Vector_1<T>;
+    readonly Indices: <T extends unknown>() => Vector_1<T>;
     readonly IsSupported: boolean;
-    readonly One: <T>() => Vector_1<T>;
-    readonly Zero: <T>() => Vector_1<T>;
+    readonly One: <T extends unknown>() => Vector_1<T>;
+    readonly Zero: <T extends unknown>() => Vector_1<T>;
 };
 
 
-export interface __Vector_1$views<T> {
+export interface __Vector_1$views<T extends unknown> {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<Vector_1<T>>;
     As_IFormattable(): System_Internal.IFormattable$instance;
 
@@ -1030,7 +1030,7 @@ export interface __Vector_1$views<T> {
     Equals(other: Vector_1<T>): boolean;
 }
 
-export type Vector_1<T> = Vector_1$instance<T> & __Vector_1$views<T> & { readonly [index: number]: T; };
+export type Vector_1<T extends unknown> = Vector_1$instance<T> & __Vector_1$views<T> & { readonly [index: number]: T; };
 
 
 export interface Vector2$instance {
@@ -1044,7 +1044,7 @@ export interface Vector2$instance {
     CopyTo(array: float[]): void;
     CopyTo(array: float[], index: int): void;
     CopyTo(destination: Span_1<System_Internal.Single>): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: Vector2): boolean;
     GetHashCode(): int;
     Length(): float;
@@ -1207,7 +1207,7 @@ export interface Vector3$instance {
     CopyTo(array: float[]): void;
     CopyTo(array: float[], index: int): void;
     CopyTo(destination: Span_1<System_Internal.Single>): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: Vector3): boolean;
     GetHashCode(): int;
     Length(): float;
@@ -1373,7 +1373,7 @@ export interface Vector4$instance {
     CopyTo(array: float[], index: int): void;
     CopyTo(destination: Span_1<System_Internal.Single>): void;
     Equals(other: Vector4): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     Length(): float;
     LengthSquared(): float;
@@ -1571,15 +1571,15 @@ export type BitOperations = BitOperations$instance;
 
 export abstract class Vector$instance {
     static readonly IsHardwareAccelerated: boolean;
-    static Abs<T>(value: Vector_1<T>): Vector_1<T>;
-    static Add<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static AddSaturate<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static All<T>(vector: Vector_1<T>, value: T): boolean;
-    static AllWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
-    static AndNot<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Any<T>(vector: Vector_1<T>, value: T): boolean;
-    static AnyWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
-    static As<TFrom, TTo>(vector: Vector_1<TFrom>): Vector_1<TTo>;
+    static Abs<T extends unknown>(value: Vector_1<T>): Vector_1<T>;
+    static Add<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static AddSaturate<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static All<T extends unknown>(vector: Vector_1<T>, value: T): boolean;
+    static AllWhereAllBitsSet<T extends unknown>(vector: Vector_1<T>): boolean;
+    static AndNot<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static Any<T extends unknown>(vector: Vector_1<T>, value: T): boolean;
+    static AnyWhereAllBitsSet<T extends unknown>(vector: Vector_1<T>): boolean;
+    static As<TFrom extends unknown, TTo extends unknown>(vector: Vector_1<TFrom>): Vector_1<TTo>;
     static AsPlane(value: Vector4): Plane;
     static AsQuaternion(value: Vector4): Quaternion;
     static AsVector2(value: Vector3): Vector2;
@@ -1593,27 +1593,27 @@ export abstract class Vector$instance {
     static AsVector4(value: Vector3): Vector4;
     static AsVector4Unsafe(value: Vector2): Vector4;
     static AsVector4Unsafe(value: Vector3): Vector4;
-    static AsVectorByte<T>(value: Vector_1<T>): Vector_1<System_Internal.Byte>;
-    static AsVectorDouble<T>(value: Vector_1<T>): Vector_1<System_Internal.Double>;
-    static AsVectorInt16<T>(value: Vector_1<T>): Vector_1<System_Internal.Int16>;
-    static AsVectorInt32<T>(value: Vector_1<T>): Vector_1<System_Internal.Int32>;
-    static AsVectorInt64<T>(value: Vector_1<T>): Vector_1<System_Internal.Int64>;
-    static AsVectorNInt<T>(value: Vector_1<T>): Vector_1<System_Internal.IntPtr>;
-    static AsVectorNUInt<T>(value: Vector_1<T>): Vector_1<System_Internal.UIntPtr>;
-    static AsVectorSByte<T>(value: Vector_1<T>): Vector_1<System_Internal.SByte>;
-    static AsVectorSingle<T>(value: Vector_1<T>): Vector_1<System_Internal.Single>;
-    static AsVectorUInt16<T>(value: Vector_1<T>): Vector_1<System_Internal.UInt16>;
-    static AsVectorUInt32<T>(value: Vector_1<T>): Vector_1<System_Internal.UInt32>;
-    static AsVectorUInt64<T>(value: Vector_1<T>): Vector_1<System_Internal.UInt64>;
-    static BitwiseAnd<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static BitwiseOr<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static AsVectorByte<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.Byte>;
+    static AsVectorDouble<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.Double>;
+    static AsVectorInt16<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.Int16>;
+    static AsVectorInt32<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.Int32>;
+    static AsVectorInt64<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.Int64>;
+    static AsVectorNInt<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.IntPtr>;
+    static AsVectorNUInt<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.UIntPtr>;
+    static AsVectorSByte<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.SByte>;
+    static AsVectorSingle<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.Single>;
+    static AsVectorUInt16<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.UInt16>;
+    static AsVectorUInt32<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.UInt32>;
+    static AsVectorUInt64<T extends unknown>(value: Vector_1<T>): Vector_1<System_Internal.UInt64>;
+    static BitwiseAnd<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static BitwiseOr<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
     static Ceiling(value: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static Ceiling(value: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
-    static Clamp<T>(value: Vector_1<T>, min: Vector_1<T>, max: Vector_1<T>): Vector_1<T>;
-    static ClampNative<T>(value: Vector_1<T>, min: Vector_1<T>, max: Vector_1<T>): Vector_1<T>;
+    static Clamp<T extends unknown>(value: Vector_1<T>, min: Vector_1<T>, max: Vector_1<T>): Vector_1<T>;
+    static ClampNative<T extends unknown>(value: Vector_1<T>, min: Vector_1<T>, max: Vector_1<T>): Vector_1<T>;
     static ConditionalSelect(condition: Vector_1<System_Internal.Int32>, left: Vector_1<System_Internal.Single>, right: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
     static ConditionalSelect(condition: Vector_1<System_Internal.Int64>, left: Vector_1<System_Internal.Double>, right: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
-    static ConditionalSelect<T>(condition: Vector_1<T>, left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static ConditionalSelect<T extends unknown>(condition: Vector_1<T>, left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
     static ConvertToDouble(value: Vector_1<System_Internal.Int64>): Vector_1<System_Internal.Double>;
     static ConvertToDouble(value: Vector_1<System_Internal.UInt64>): Vector_1<System_Internal.Double>;
     static ConvertToInt32(value: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Int32>;
@@ -1626,28 +1626,28 @@ export abstract class Vector$instance {
     static ConvertToUInt32Native(value: Vector_1<System_Internal.Single>): Vector_1<System_Internal.UInt32>;
     static ConvertToUInt64(value: Vector_1<System_Internal.Double>): Vector_1<System_Internal.UInt64>;
     static ConvertToUInt64Native(value: Vector_1<System_Internal.Double>): Vector_1<System_Internal.UInt64>;
-    static CopySign<T>(value: Vector_1<T>, sign: Vector_1<T>): Vector_1<T>;
+    static CopySign<T extends unknown>(value: Vector_1<T>, sign: Vector_1<T>): Vector_1<T>;
     static Cos(vector: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static Cos(vector: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
-    static Count<T>(vector: Vector_1<T>, value: T): int;
-    static CountWhereAllBitsSet<T>(vector: Vector_1<T>): int;
-    static Create<T>(values: ReadOnlySpan_1<T>): Vector_1<T>;
-    static Create<T>(value: T): Vector_1<T>;
-    static CreateScalar<T>(value: T): Vector_1<T>;
-    static CreateScalarUnsafe<T>(value: T): Vector_1<T>;
-    static CreateSequence<T>(start: T, step: T): Vector_1<T>;
+    static Count<T extends unknown>(vector: Vector_1<T>, value: T): int;
+    static CountWhereAllBitsSet<T extends unknown>(vector: Vector_1<T>): int;
+    static Create<T extends unknown>(values: ReadOnlySpan_1<T>): Vector_1<T>;
+    static Create<T extends unknown>(value: T): Vector_1<T>;
+    static CreateScalar<T extends unknown>(value: T): Vector_1<T>;
+    static CreateScalarUnsafe<T extends unknown>(value: T): Vector_1<T>;
+    static CreateSequence<T extends unknown>(start: T, step: T): Vector_1<T>;
     static DegreesToRadians(degrees: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static DegreesToRadians(degrees: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
-    static Divide<T>(left: Vector_1<T>, right: T): Vector_1<T>;
-    static Divide<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Dot<T>(left: Vector_1<T>, right: Vector_1<T>): T;
+    static Divide<T extends unknown>(left: Vector_1<T>, right: T): Vector_1<T>;
+    static Divide<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static Dot<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): T;
     static Equals(left: Vector_1<System_Internal.Double>, right: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Int64>;
     static Equals(left: Vector_1<System_Internal.Int32>, right: Vector_1<System_Internal.Int32>): Vector_1<System_Internal.Int32>;
     static Equals(left: Vector_1<System_Internal.Int64>, right: Vector_1<System_Internal.Int64>): Vector_1<System_Internal.Int64>;
     static Equals(left: Vector_1<System_Internal.Single>, right: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Int32>;
-    static Equals<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static EqualsAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static EqualsAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static Equals<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static EqualsAll<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static EqualsAny<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): boolean;
     static Exp(vector: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static Exp(vector: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
     static ExtractMostSignificantBits(vector: Vector2): uint;
@@ -1660,78 +1660,78 @@ export abstract class Vector$instance {
     static GetElement(vector: Vector2, index: int): float;
     static GetElement(vector: Vector3, index: int): float;
     static GetElement(vector: Vector4, index: int): float;
-    static GetElement<T>(vector: Vector_1<T>, index: int): T;
+    static GetElement<T extends unknown>(vector: Vector_1<T>, index: int): T;
     static GreaterThan(left: Vector_1<System_Internal.Double>, right: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Int64>;
     static GreaterThan(left: Vector_1<System_Internal.Int32>, right: Vector_1<System_Internal.Int32>): Vector_1<System_Internal.Int32>;
     static GreaterThan(left: Vector_1<System_Internal.Int64>, right: Vector_1<System_Internal.Int64>): Vector_1<System_Internal.Int64>;
     static GreaterThan(left: Vector_1<System_Internal.Single>, right: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Int32>;
-    static GreaterThan<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static GreaterThanAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static GreaterThanAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static GreaterThan<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static GreaterThanAll<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static GreaterThanAny<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): boolean;
     static GreaterThanOrEqual(left: Vector_1<System_Internal.Double>, right: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Int64>;
     static GreaterThanOrEqual(left: Vector_1<System_Internal.Int32>, right: Vector_1<System_Internal.Int32>): Vector_1<System_Internal.Int32>;
     static GreaterThanOrEqual(left: Vector_1<System_Internal.Int64>, right: Vector_1<System_Internal.Int64>): Vector_1<System_Internal.Int64>;
     static GreaterThanOrEqual(left: Vector_1<System_Internal.Single>, right: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Int32>;
-    static GreaterThanOrEqual<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static GreaterThanOrEqualAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static GreaterThanOrEqualAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static GreaterThanOrEqual<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static GreaterThanOrEqualAll<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static GreaterThanOrEqualAny<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): boolean;
     static Hypot(x: Vector_1<System_Internal.Double>, y: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static Hypot(x: Vector_1<System_Internal.Single>, y: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
-    static IndexOf<T>(vector: Vector_1<T>, value: T): int;
-    static IndexOfWhereAllBitsSet<T>(vector: Vector_1<T>): int;
-    static IsEvenInteger<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsFinite<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsInfinity<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsInteger<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsNaN<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsNegative<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsNegativeInfinity<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsNormal<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsOddInteger<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsPositive<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsPositiveInfinity<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsSubnormal<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsZero<T>(vector: Vector_1<T>): Vector_1<T>;
-    static LastIndexOf<T>(vector: Vector_1<T>, value: T): int;
-    static LastIndexOfWhereAllBitsSet<T>(vector: Vector_1<T>): int;
+    static IndexOf<T extends unknown>(vector: Vector_1<T>, value: T): int;
+    static IndexOfWhereAllBitsSet<T extends unknown>(vector: Vector_1<T>): int;
+    static IsEvenInteger<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsFinite<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsInfinity<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsInteger<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsNaN<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsNegative<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsNegativeInfinity<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsNormal<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsOddInteger<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsPositive<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsPositiveInfinity<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsSubnormal<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static IsZero<T extends unknown>(vector: Vector_1<T>): Vector_1<T>;
+    static LastIndexOf<T extends unknown>(vector: Vector_1<T>, value: T): int;
+    static LastIndexOfWhereAllBitsSet<T extends unknown>(vector: Vector_1<T>): int;
     static Lerp(x: Vector_1<System_Internal.Double>, y: Vector_1<System_Internal.Double>, amount: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static Lerp(x: Vector_1<System_Internal.Single>, y: Vector_1<System_Internal.Single>, amount: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
     static LessThan(left: Vector_1<System_Internal.Double>, right: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Int64>;
     static LessThan(left: Vector_1<System_Internal.Int32>, right: Vector_1<System_Internal.Int32>): Vector_1<System_Internal.Int32>;
     static LessThan(left: Vector_1<System_Internal.Int64>, right: Vector_1<System_Internal.Int64>): Vector_1<System_Internal.Int64>;
     static LessThan(left: Vector_1<System_Internal.Single>, right: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Int32>;
-    static LessThan<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static LessThanAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static LessThanAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static LessThan<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static LessThanAll<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static LessThanAny<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): boolean;
     static LessThanOrEqual(left: Vector_1<System_Internal.Double>, right: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Int64>;
     static LessThanOrEqual(left: Vector_1<System_Internal.Int32>, right: Vector_1<System_Internal.Int32>): Vector_1<System_Internal.Int32>;
     static LessThanOrEqual(left: Vector_1<System_Internal.Int64>, right: Vector_1<System_Internal.Int64>): Vector_1<System_Internal.Int64>;
     static LessThanOrEqual(left: Vector_1<System_Internal.Single>, right: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Int32>;
-    static LessThanOrEqual<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static LessThanOrEqualAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static LessThanOrEqualAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static Load<T>(source: ptr<T>): Vector_1<T>;
-    static LoadAligned<T>(source: ptr<T>): Vector_1<T>;
-    static LoadAlignedNonTemporal<T>(source: ptr<T>): Vector_1<T>;
-    static LoadUnsafe<T>(source: T, elementOffset: nuint): Vector_1<T>;
-    static LoadUnsafe<T>(source: T): Vector_1<T>;
+    static LessThanOrEqual<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static LessThanOrEqualAll<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static LessThanOrEqualAny<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static Load<T extends unknown>(source: ptr<T>): Vector_1<T>;
+    static LoadAligned<T extends unknown>(source: ptr<T>): Vector_1<T>;
+    static LoadAlignedNonTemporal<T extends unknown>(source: ptr<T>): Vector_1<T>;
+    static LoadUnsafe<T extends unknown>(source: T, elementOffset: nuint): Vector_1<T>;
+    static LoadUnsafe<T extends unknown>(source: T): Vector_1<T>;
     static Log(vector: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static Log(vector: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
     static Log2(vector: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static Log2(vector: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
-    static Max<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MaxMagnitude<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MaxMagnitudeNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MaxNative<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MaxNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Min<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MinMagnitude<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MinMagnitudeNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MinNative<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MinNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Multiply<T>(left: T, right: Vector_1<T>): Vector_1<T>;
-    static Multiply<T>(left: Vector_1<T>, right: T): Vector_1<T>;
-    static Multiply<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static Max<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static MaxMagnitude<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static MaxMagnitudeNumber<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static MaxNative<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static MaxNumber<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static Min<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static MinMagnitude<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static MinMagnitudeNumber<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static MinNative<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static MinNumber<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static Multiply<T extends unknown>(left: T, right: Vector_1<T>): Vector_1<T>;
+    static Multiply<T extends unknown>(left: Vector_1<T>, right: T): Vector_1<T>;
+    static Multiply<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
     static MultiplyAddEstimate(left: Vector_1<System_Internal.Double>, right: Vector_1<System_Internal.Double>, addend: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static MultiplyAddEstimate(left: Vector_1<System_Internal.Single>, right: Vector_1<System_Internal.Single>, addend: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
     static Narrow(low: Vector_1<System_Internal.Double>, high: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Single>;
@@ -1748,10 +1748,10 @@ export abstract class Vector$instance {
     static NarrowWithSaturation(low: Vector_1<System_Internal.UInt16>, high: Vector_1<System_Internal.UInt16>): Vector_1<System_Internal.Byte>;
     static NarrowWithSaturation(low: Vector_1<System_Internal.UInt32>, high: Vector_1<System_Internal.UInt32>): Vector_1<System_Internal.UInt16>;
     static NarrowWithSaturation(low: Vector_1<System_Internal.UInt64>, high: Vector_1<System_Internal.UInt64>): Vector_1<System_Internal.UInt32>;
-    static Negate<T>(value: Vector_1<T>): Vector_1<T>;
-    static None<T>(vector: Vector_1<T>, value: T): boolean;
-    static NoneWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
-    static OnesComplement<T>(value: Vector_1<T>): Vector_1<T>;
+    static Negate<T extends unknown>(value: Vector_1<T>): Vector_1<T>;
+    static None<T extends unknown>(vector: Vector_1<T>, value: T): boolean;
+    static NoneWhereAllBitsSet<T extends unknown>(vector: Vector_1<T>): boolean;
+    static OnesComplement<T extends unknown>(value: Vector_1<T>): Vector_1<T>;
     static RadiansToDegrees(radians: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static RadiansToDegrees(radians: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
     static Round(vector: Vector_1<System_Internal.Double>, mode: MidpointRounding): Vector_1<System_Internal.Double>;
@@ -1787,34 +1787,34 @@ export abstract class Vector$instance {
     static Sin(vector: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
     static SinCos(vector: Vector_1<System_Internal.Double>): ValueTuple_2<Vector_1<System_Internal.Double>, Vector_1<System_Internal.Double>>;
     static SinCos(vector: Vector_1<System_Internal.Single>): ValueTuple_2<Vector_1<System_Internal.Single>, Vector_1<System_Internal.Single>>;
-    static SquareRoot<T>(value: Vector_1<T>): Vector_1<T>;
+    static SquareRoot<T extends unknown>(value: Vector_1<T>): Vector_1<T>;
     static Store(source: Vector2, destination: ptr<float>): void;
     static Store(source: Vector3, destination: ptr<float>): void;
     static Store(source: Vector4, destination: ptr<float>): void;
-    static Store<T>(source: Vector_1<T>, destination: ptr<T>): void;
+    static Store<T extends unknown>(source: Vector_1<T>, destination: ptr<T>): void;
     static StoreAligned(source: Vector2, destination: ptr<float>): void;
     static StoreAligned(source: Vector3, destination: ptr<float>): void;
     static StoreAligned(source: Vector4, destination: ptr<float>): void;
-    static StoreAligned<T>(source: Vector_1<T>, destination: ptr<T>): void;
+    static StoreAligned<T extends unknown>(source: Vector_1<T>, destination: ptr<T>): void;
     static StoreAlignedNonTemporal(source: Vector2, destination: ptr<float>): void;
     static StoreAlignedNonTemporal(source: Vector3, destination: ptr<float>): void;
     static StoreAlignedNonTemporal(source: Vector4, destination: ptr<float>): void;
-    static StoreAlignedNonTemporal<T>(source: Vector_1<T>, destination: ptr<T>): void;
+    static StoreAlignedNonTemporal<T extends unknown>(source: Vector_1<T>, destination: ptr<T>): void;
     static StoreUnsafe(source: Vector2, destination: float, elementOffset: nuint): void;
     static StoreUnsafe(source: Vector2, destination: float): void;
     static StoreUnsafe(source: Vector3, destination: float, elementOffset: nuint): void;
     static StoreUnsafe(source: Vector3, destination: float): void;
     static StoreUnsafe(source: Vector4, destination: float, elementOffset: nuint): void;
     static StoreUnsafe(source: Vector4, destination: float): void;
-    static StoreUnsafe<T>(source: Vector_1<T>, destination: T, elementOffset: nuint): void;
-    static StoreUnsafe<T>(source: Vector_1<T>, destination: T): void;
-    static Subtract<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static SubtractSaturate<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Sum<T>(value: Vector_1<T>): T;
+    static StoreUnsafe<T extends unknown>(source: Vector_1<T>, destination: T, elementOffset: nuint): void;
+    static StoreUnsafe<T extends unknown>(source: Vector_1<T>, destination: T): void;
+    static Subtract<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static SubtractSaturate<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static Sum<T extends unknown>(value: Vector_1<T>): T;
     static ToScalar(vector: Vector2): float;
     static ToScalar(vector: Vector3): float;
     static ToScalar(vector: Vector4): float;
-    static ToScalar<T>(vector: Vector_1<T>): T;
+    static ToScalar<T extends unknown>(vector: Vector_1<T>): T;
     static Truncate(vector: Vector_1<System_Internal.Double>): Vector_1<System_Internal.Double>;
     static Truncate(vector: Vector_1<System_Internal.Single>): Vector_1<System_Internal.Single>;
     static Widen(source: Vector_1<System_Internal.Byte>, low: Vector_1<System_Internal.UInt16>, high: Vector_1<System_Internal.UInt16>): void;
@@ -1841,8 +1841,8 @@ export abstract class Vector$instance {
     static WithElement(vector: Vector2, index: int, value: float): Vector2;
     static WithElement(vector: Vector3, index: int, value: float): Vector3;
     static WithElement(vector: Vector4, index: int, value: float): Vector4;
-    static WithElement<T>(vector: Vector_1<T>, index: int, value: T): Vector_1<T>;
-    static Xor<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static WithElement<T extends unknown>(vector: Vector_1<T>, index: int, value: T): Vector_1<T>;
+    static Xor<T extends unknown>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
 }
 
 

@@ -45,7 +45,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.NormalizationForm::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67112989,
+          "metadataToken": 67112984,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -57,7 +57,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.NormalizationForm::FormCSystem.Text.NormalizationForm",
           "clrName": "FormC",
-          "metadataToken": 67112990,
+          "metadataToken": 67112985,
           "normalizedSignature": "FormC|System.Text.NormalizationForm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -69,7 +69,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.NormalizationForm::FormDSystem.Text.NormalizationForm",
           "clrName": "FormD",
-          "metadataToken": 67112991,
+          "metadataToken": 67112986,
           "normalizedSignature": "FormD|System.Text.NormalizationForm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -81,7 +81,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.NormalizationForm::FormKCSystem.Text.NormalizationForm",
           "clrName": "FormKC",
-          "metadataToken": 67112992,
+          "metadataToken": 67112987,
           "normalizedSignature": "FormKC|System.Text.NormalizationForm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -93,7 +93,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.NormalizationForm::FormKDSystem.Text.NormalizationForm",
           "clrName": "FormKD",
-          "metadataToken": 67112993,
+          "metadataToken": 67112988,
           "normalizedSignature": "FormKD|System.Text.NormalizationForm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1471,7 +1471,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100703846,
+          "metadataToken": 100703851,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -1492,7 +1492,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100703848,
+          "metadataToken": 100703853,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -1533,7 +1533,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
           "clrName": "Current",
-          "metadataToken": 385881426,
+          "metadataToken": 385881428,
           "canonicalSignature": ":T",
           "normalizedSignature": "Current|:T|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1553,7 +1553,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
           "clrName": "Current",
-          "metadataToken": 385881267,
+          "metadataToken": 385881269,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1672,7 +1672,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100703846,
+          "metadataToken": 100703851,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -1693,7 +1693,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100703848,
+          "metadataToken": 100703853,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -1734,7 +1734,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
           "clrName": "Current",
-          "metadataToken": 385881426,
+          "metadataToken": 385881428,
           "canonicalSignature": ":T",
           "normalizedSignature": "Current|:T|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1754,7 +1754,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
           "clrName": "Current",
-          "metadataToken": 385881267,
+          "metadataToken": 385881269,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1863,7 +1863,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "metadataToken": 100704560,
+          "metadataToken": 100704565,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -1884,7 +1884,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100703845,
+          "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -1926,7 +1926,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100703846,
+          "metadataToken": 100703851,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -1947,7 +1947,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100703848,
+          "metadataToken": 100703853,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -1988,7 +1988,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601::Current:T",
           "clrName": "Current",
-          "metadataToken": 385881426,
+          "metadataToken": 385881428,
           "canonicalSignature": ":T",
           "normalizedSignature": "Current|:T|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2008,7 +2008,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
           "clrName": "Current",
-          "metadataToken": 385881267,
+          "metadataToken": 385881269,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -10425,7 +10425,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.UnicodeEncoding::CharSizeSystem.Int32",
           "clrName": "CharSize",
-          "metadataToken": 67113049,
+          "metadataToken": 67113044,
           "normalizedSignature": "CharSize|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

@@ -3,7 +3,7 @@
 // Assembly: System.Net.HttpListener, System.Net.WebSockets, System.Net.WebSockets.Client
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -96,7 +96,7 @@ export const ValueWebSocketReceiveResult: {
 
 export type ValueWebSocketReceiveResult = ValueWebSocketReceiveResult$instance;
 
-export interface ClientWebSocket$instance extends WebSocket$instance {
+export interface ClientWebSocket$instance extends WebSocket$instance, System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Net_WebSockets_ClientWebSocket: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -296,7 +296,7 @@ export const WebSocketDeflateOptions: {
 
 export type WebSocketDeflateOptions = WebSocketDeflateOptions$instance;
 
-export interface WebSocketException$instance extends Win32Exception {
+export interface WebSocketException$instance extends Win32Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_WebSockets_WebSocketException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -363,8 +363,8 @@ export interface WebSocketStream$instance extends Stream, System_Internal.IAsync
     readonly Length: long;
     Position: long;
     readonly WebSocket: WebSocket;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     Dispose(disposing: boolean): void;
     Dispose(): void;
     EndRead(asyncResult: IAsyncResult): int;

@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -171,7 +171,7 @@ export interface Calendar$instance extends System_Internal.ICloneable$instance {
     AddSeconds(time: DateTime, seconds: int): DateTime;
     AddWeeks(time: DateTime, weeks: int): DateTime;
     AddYears(time: DateTime, years: int): DateTime;
-    Clone(): JsValue;
+    Clone(): unknown;
     GetDayOfMonth(time: DateTime): int;
     GetDayOfWeek(time: DateTime): DayOfWeek;
     GetDayOfYear(time: DateTime): int;
@@ -257,7 +257,7 @@ export interface CompareInfo$instance extends System_Runtime_Serialization_Inter
     Compare(string1: string | null, offset1: int, string2: string | null, offset2: int): int;
     Compare(string1: string | null, offset1: int, length1: int, string2: string | null, offset2: int, length2: int, options: CompareOptions): int;
     Compare(string1: ReadOnlySpan_1<System_Internal.Char>, string2: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     GetHashCode(): int;
     GetHashCode(source: string, options: CompareOptions): int;
     GetHashCode(source: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions): int;
@@ -354,10 +354,10 @@ export interface CultureInfo$instance extends System_Internal.ICloneable$instanc
     readonly TwoLetterISOLanguageName: string;
     readonly UseUserOverride: boolean;
     ClearCachedData(): void;
-    Clone(): JsValue;
-    Equals(value: JsValue | null): boolean;
+    Clone(): unknown;
+    Equals(value: unknown | null): boolean;
     GetConsoleFallbackUICulture(): CultureInfo;
-    GetFormat(formatType: Type | null): JsValue | null;
+    GetFormat(formatType: Type | null): unknown | null;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -395,7 +395,7 @@ export interface __CultureInfo$views {
 export type CultureInfo = CultureInfo$instance & __CultureInfo$views;
 
 
-export interface CultureNotFoundException$instance extends ArgumentException {
+export interface CultureNotFoundException$instance extends ArgumentException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Globalization_CultureNotFoundException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -458,7 +458,7 @@ export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$
     TimeSeparator: string;
     readonly UniversalSortableDateTimePattern: string;
     YearMonthPattern: string;
-    Clone(): JsValue;
+    Clone(): unknown;
     GetAbbreviatedDayName(dayofweek: DayOfWeek): string;
     GetAbbreviatedEraName(era: int): string;
     GetAbbreviatedMonthName(month: int): string;
@@ -467,7 +467,7 @@ export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$
     GetDayName(dayofweek: DayOfWeek): string;
     GetEra(eraName: string): int;
     GetEraName(era: int): string;
-    GetFormat(formatType: Type | null): JsValue | null;
+    GetFormat(formatType: Type | null): unknown | null;
     GetMonthName(month: int): string;
     GetShortestDayName(dayOfWeek: DayOfWeek): string;
     SetAllDateTimePatterns(patterns: string[], format: char): void;
@@ -717,7 +717,7 @@ export interface IdnMapping$instance {
 
     AllowUnassigned: boolean;
     UseStd3AsciiRules: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetAscii(unicode: string): string;
     GetAscii(unicode: string, index: int): string;
     GetAscii(unicode: string, index: int, count: int): string;
@@ -975,8 +975,8 @@ export interface NumberFormatInfo$instance extends System_Internal.ICloneable$in
     PerMilleSymbol: string;
     PositiveInfinitySymbol: string;
     PositiveSign: string;
-    Clone(): JsValue;
-    GetFormat(formatType: Type | null): JsValue | null;
+    Clone(): unknown;
+    GetFormat(formatType: Type | null): unknown | null;
 }
 
 
@@ -1064,7 +1064,7 @@ export interface RegionInfo$instance {
     readonly ThreeLetterISORegionName: string;
     readonly ThreeLetterWindowsRegionName: string;
     readonly TwoLetterISORegionName: string;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -1084,7 +1084,7 @@ export interface SortKey$instance {
 
     readonly KeyData: byte[];
     readonly OriginalString: string;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -1104,7 +1104,7 @@ export interface SortVersion$instance {
 
     readonly FullVersion: int;
     readonly SortId: Guid;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: SortVersion | null): boolean;
     GetHashCode(): int;
 }
@@ -1130,7 +1130,7 @@ export interface StringInfo$instance {
 
     readonly LengthInTextElements: int;
     String: string;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     GetHashCode(): int;
     SubstringByTextElements(startingTextElement: int): string;
     SubstringByTextElements(startingTextElement: int, lengthInTextElements: int): string;
@@ -1234,7 +1234,7 @@ export interface TextElementEnumerator$instance {
 
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
-    readonly Current: JsValue;
+    readonly Current: unknown;
     readonly ElementIndex: int;
     GetTextElement(): string;
     MoveNext(): boolean;
@@ -1268,8 +1268,8 @@ export interface TextInfo$instance extends System_Internal.ICloneable$instance, 
     ListSeparator: string;
     readonly MacCodePage: int;
     readonly OEMCodePage: int;
-    Clone(): JsValue;
-    Equals(obj: JsValue | null): boolean;
+    Clone(): unknown;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToLower(c: char): char;
     ToLower(str: string): string;

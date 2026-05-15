@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Collections.ObjectModel/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IEqualityComparer_1, IList_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, IReadOnlyList_1, IReadOnlySet_1, ISet_1, KeyValuePair_2, List_1 } from './System.Collections.Generic/internal/index.js';
 import type { INotifyCollectionChanged, NotifyCollectionChangedEventArgs, NotifyCollectionChangedEventHandler } from './System.Collections.Specialized/internal/index.js';
@@ -28,8 +32,8 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type ReadOnlyCollection<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ReadOnlyCollection :
-  Internal.ReadOnlyCollection_1<T1>;
+  [T1] extends [unknown] ? Internal.ReadOnlyCollection_1<T1> : never;
 

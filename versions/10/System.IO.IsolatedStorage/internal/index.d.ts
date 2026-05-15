@@ -3,7 +3,7 @@
 // Assembly: System.IO.IsolatedStorage
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -33,7 +33,7 @@ export enum IsolatedStorageScope {
 export interface INormalizeForIsolatedStorage$instance {
     readonly __tsonic_iface_System_IO_IsolatedStorage_INormalizeForIsolatedStorage: never;
 
-    Normalize(): JsValue;
+    Normalize(): unknown;
 }
 
 
@@ -42,11 +42,11 @@ export type INormalizeForIsolatedStorage = INormalizeForIsolatedStorage$instance
 export interface IsolatedStorage$instance extends MarshalByRefObject {
     readonly __tsonic_type_System_IO_IsolatedStorage_IsolatedStorage: never;
 
-    readonly ApplicationIdentity: JsValue;
-    readonly AssemblyIdentity: JsValue;
+    readonly ApplicationIdentity: unknown;
+    readonly AssemblyIdentity: unknown;
     readonly AvailableFreeSpace: long;
     readonly CurrentSize: ulong;
-    readonly DomainIdentity: JsValue;
+    readonly DomainIdentity: unknown;
     readonly MaximumSize: ulong;
     readonly Quota: long;
     Scope: IsolatedStorageScope;
@@ -129,8 +129,8 @@ export const IsolatedStorageFile: {
     GetMachineStoreForApplication(): IsolatedStorageFile;
     GetMachineStoreForAssembly(): IsolatedStorageFile;
     GetMachineStoreForDomain(): IsolatedStorageFile;
-    GetStore(scope: IsolatedStorageScope, domainIdentity: JsValue | null, assemblyIdentity: JsValue | null): IsolatedStorageFile;
-    GetStore(scope: IsolatedStorageScope, applicationIdentity: JsValue | null): IsolatedStorageFile;
+    GetStore(scope: IsolatedStorageScope, domainIdentity: unknown | null, assemblyIdentity: unknown | null): IsolatedStorageFile;
+    GetStore(scope: IsolatedStorageScope, applicationIdentity: unknown | null): IsolatedStorageFile;
     GetStore(scope: IsolatedStorageScope, domainEvidenceType: Type | null, assemblyEvidenceType: Type | null): IsolatedStorageFile;
     GetStore(scope: IsolatedStorageScope, applicationEvidenceType: Type | null): IsolatedStorageFile;
     GetUserStoreForApplication(): IsolatedStorageFile;
@@ -148,7 +148,7 @@ export interface __IsolatedStorageFile$views {
 export type IsolatedStorageFile = IsolatedStorageFile$instance & __IsolatedStorageFile$views;
 
 
-export interface IsolatedStorageFileStream$instance extends FileStream {
+export interface IsolatedStorageFileStream$instance extends FileStream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_IO_IsolatedStorage_IsolatedStorageFileStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -162,8 +162,8 @@ export interface IsolatedStorageFileStream$instance extends FileStream {
     readonly Length: long;
     Position: long;
     readonly SafeFileHandle: SafeFileHandle;
-    BeginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback | null, stateObject: JsValue | null): IAsyncResult;
-    BeginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback | null, stateObject: JsValue | null): IAsyncResult;
+    BeginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback | null, stateObject: unknown | null): IAsyncResult;
+    BeginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback | null, stateObject: unknown | null): IAsyncResult;
     Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;

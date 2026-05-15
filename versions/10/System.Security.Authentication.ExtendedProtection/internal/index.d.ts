@@ -3,7 +3,7 @@
 // Assembly: System.ComponentModel.TypeConverter, System.Net.Primitives, System.Net.Security
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -93,8 +93,8 @@ export interface ExtendedProtectionPolicyTypeConverter$instance extends TypeConv
 
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue | null;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
 }
 
 
