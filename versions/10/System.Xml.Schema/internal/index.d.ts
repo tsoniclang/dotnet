@@ -3,7 +3,7 @@
 // Assembly: System.Private.Xml, System.Private.Xml.Linq
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -153,10 +153,10 @@ export enum XmlTypeCode {
 }
 
 
-export type ValidationEventHandler = (sender: JsValue | null, e: ValidationEventArgs) => void;
+export type ValidationEventHandler = (sender: unknown | null, e: ValidationEventArgs) => void;
 
 
-export type XmlValueGetter = () => JsValue | null;
+export type XmlValueGetter = () => unknown | null;
 
 
 export interface IXmlSchemaInfo$instance {
@@ -195,7 +195,7 @@ export interface XmlAtomicValue$instance extends XPathItem {
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly IsNode: boolean;
-    readonly TypedValue: JsValue;
+    readonly TypedValue: unknown;
     readonly Value: string;
     readonly ValueAsBoolean: boolean;
     readonly ValueAsDateTime: DateTime;
@@ -206,8 +206,8 @@ export interface XmlAtomicValue$instance extends XPathItem {
     readonly XmlType: XmlSchemaType | XmlSchemaType | null;
     Clone(): XmlAtomicValue;
     ToString(): string;
-    ValueAs(type: Type, nsResolver: IXmlNamespaceResolver | null): JsValue;
-    ValueAs(returnType: Type): JsValue;
+    ValueAs(type: Type, nsResolver: IXmlNamespaceResolver | null): unknown;
+    ValueAs(returnType: Type): unknown;
 }
 
 
@@ -373,7 +373,7 @@ export interface XmlSchemaAttribute$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaAttribute: never;
 
     readonly AttributeSchemaType: XmlSchemaSimpleType | null;
-    readonly AttributeType: JsValue | null;
+    readonly AttributeType: unknown | null;
     get DefaultValue(): string | null;
     set DefaultValue(value: string | null);
     get FixedValue(): string | null;
@@ -631,10 +631,10 @@ export interface XmlSchemaDatatype$instance {
     readonly TypeCode: XmlTypeCode;
     readonly ValueType: Type;
     readonly Variety: XmlSchemaDatatypeVariety;
-    ChangeType(value: JsValue, targetType: Type): JsValue;
-    ChangeType(value: JsValue, targetType: Type, namespaceResolver: IXmlNamespaceResolver): JsValue;
+    ChangeType(value: unknown, targetType: Type): unknown;
+    ChangeType(value: unknown, targetType: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
     IsDerivedFrom(datatype: XmlSchemaDatatype): boolean;
-    ParseValue(s: string, nameTable: XmlNameTable | null, nsmgr: IXmlNamespaceResolver | null): JsValue;
+    ParseValue(s: string, nameTable: XmlNameTable | null, nsmgr: IXmlNamespaceResolver | null): unknown;
 }
 
 
@@ -672,7 +672,7 @@ export interface XmlSchemaElement$instance extends XmlSchemaParticle {
     get DefaultValue(): string | null;
     set DefaultValue(value: string | null);
     readonly ElementSchemaType: XmlSchemaType | null;
-    readonly ElementType: JsValue | null;
+    readonly ElementType: unknown | null;
     Final: XmlSchemaDerivationMethod;
     readonly FinalResolved: XmlSchemaDerivationMethod;
     get FixedValue(): string | null;
@@ -711,7 +711,7 @@ export const XmlSchemaEnumerationFacet: {
 
 export type XmlSchemaEnumerationFacet = XmlSchemaEnumerationFacet$instance;
 
-export interface XmlSchemaException$instance extends SystemException {
+export interface XmlSchemaException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -908,7 +908,7 @@ export enum XmlSchemaInference_InferenceOption {
 }
 
 
-export interface XmlSchemaInferenceException$instance extends XmlSchemaException$instance {
+export interface XmlSchemaInferenceException$instance extends XmlSchemaException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaInferenceException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1147,9 +1147,9 @@ export interface XmlSchemaObjectCollection$instance extends CollectionBase {
     IndexOf(item: XmlSchemaObject): int;
     Insert(index: int, item: XmlSchemaObject): void;
     OnClear(): void;
-    OnInsert(index: int, item: JsValue | null): void;
-    OnRemove(index: int, item: JsValue | null): void;
-    OnSet(index: int, oldValue: JsValue | null, newValue: JsValue | null): void;
+    OnInsert(index: int, item: unknown | null): void;
+    OnRemove(index: int, item: unknown | null): void;
+    OnSet(index: int, oldValue: unknown | null, newValue: unknown | null): void;
     Remove(item: XmlSchemaObject): void;
 }
 
@@ -1453,7 +1453,7 @@ export type XmlSchemaTotalDigitsFacet = XmlSchemaTotalDigitsFacet$instance;
 export interface XmlSchemaType$instance extends XmlSchemaAnnotated {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaType: never;
 
-    readonly BaseSchemaType: JsValue | null;
+    readonly BaseSchemaType: unknown | null;
     readonly BaseXmlSchemaType: XmlSchemaType | null;
     readonly Datatype: XmlSchemaDatatype | null;
     readonly DerivedBy: XmlSchemaDerivationMethod;
@@ -1492,12 +1492,12 @@ export const XmlSchemaUnique: {
 
 export type XmlSchemaUnique = XmlSchemaUnique$instance;
 
-export interface XmlSchemaValidationException$instance extends XmlSchemaException$instance {
+export interface XmlSchemaValidationException$instance extends XmlSchemaException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Xml_Schema_XmlSchemaValidationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly SourceObject: JsValue | null;
+    readonly SourceObject: unknown | null;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -1523,7 +1523,7 @@ export interface XmlSchemaValidator$instance {
     LineInfoProvider: IXmlLineInfo;
     get SourceUri(): Uri | null;
     set SourceUri(value: Uri | null);
-    ValidationEventSender: JsValue;
+    ValidationEventSender: unknown;
     XmlResolver: XmlResolver | null;
     AddSchema(schema: XmlSchema): void;
     EndValidation(): void;
@@ -1533,12 +1533,12 @@ export interface XmlSchemaValidator$instance {
     Initialize(): void;
     Initialize(partialValidationType: XmlSchemaObject): void;
     SkipToEndElement(schemaInfo: XmlSchemaInfo | null): void;
-    ValidateAttribute(localName: string, namespaceUri: string, attributeValue: string, schemaInfo: XmlSchemaInfo | null): JsValue | null;
-    ValidateAttribute(localName: string, namespaceUri: string, attributeValue: XmlValueGetter, schemaInfo: XmlSchemaInfo | null): JsValue | null;
+    ValidateAttribute(localName: string, namespaceUri: string, attributeValue: string, schemaInfo: XmlSchemaInfo | null): unknown | null;
+    ValidateAttribute(localName: string, namespaceUri: string, attributeValue: XmlValueGetter, schemaInfo: XmlSchemaInfo | null): unknown | null;
     ValidateElement(localName: string, namespaceUri: string, schemaInfo: XmlSchemaInfo | null): void;
     ValidateElement(localName: string, namespaceUri: string, schemaInfo: XmlSchemaInfo | null, xsiType: string | null, xsiNil: string | null, xsiSchemaLocation: string | null, xsiNoNamespaceSchemaLocation: string | null): void;
-    ValidateEndElement(schemaInfo: XmlSchemaInfo | null): JsValue | null;
-    ValidateEndElement(schemaInfo: XmlSchemaInfo | null, typedValue: JsValue): JsValue | null;
+    ValidateEndElement(schemaInfo: XmlSchemaInfo | null): unknown | null;
+    ValidateEndElement(schemaInfo: XmlSchemaInfo | null, typedValue: unknown): unknown | null;
     ValidateEndOfAttributes(schemaInfo: XmlSchemaInfo | null): void;
     ValidateText(elementValue: string): void;
     ValidateText(elementValue: XmlValueGetter): void;

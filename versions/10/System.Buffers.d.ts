@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Buffers/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { MethodInfo } from './System.Reflection/internal/index.js';
 import type { GCHandle } from './System.Runtime.InteropServices/internal/index.js';
@@ -13,17 +17,17 @@ import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, 
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { BuffersExtensions$instance as BuffersExtensions } from './System.Buffers/internal/index.js';
-export type IBufferWriter<T> = Internal.IBufferWriter_1<T>;
+export type IBufferWriter<T extends unknown> = Internal.IBufferWriter_1<T>;
 export { MemoryPool_1 as MemoryPool } from './System.Buffers/internal/index.js';
 export { ReadOnlySequence_1 as ReadOnlySequence } from './System.Buffers/internal/index.js';
 export { ReadOnlySequenceSegment_1 as ReadOnlySequenceSegment } from './System.Buffers/internal/index.js';
 export { SequenceReader_1 as SequenceReader } from './System.Buffers/internal/index.js';
 export { SequenceReaderExtensions$instance as SequenceReaderExtensions } from './System.Buffers/internal/index.js';
 export { ArrayBufferWriter_1 as ArrayBufferWriter } from './System.Buffers/internal/index.js';
-export type SpanAction<T, TArg> = Internal.SpanAction_2<T, TArg>;
-export type ReadOnlySpanAction<T, TArg> = Internal.ReadOnlySpanAction_2<T, TArg>;
+export type SpanAction<T extends unknown, TArg extends unknown> = Internal.SpanAction_2<T, TArg>;
+export type ReadOnlySpanAction<T extends unknown, TArg extends unknown> = Internal.ReadOnlySpanAction_2<T, TArg>;
 export { ArrayPool_1 as ArrayPool } from './System.Buffers/internal/index.js';
-export type IMemoryOwner<T> = Internal.IMemoryOwner_1<T>;
+export type IMemoryOwner<T extends unknown> = Internal.IMemoryOwner_1<T>;
 export type IPinnable = Internal.IPinnable;
 export { MemoryHandle as MemoryHandle } from './System.Buffers/internal/index.js';
 export { MemoryManager_1 as MemoryManager } from './System.Buffers/internal/index.js';
@@ -38,10 +42,10 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type SearchValues<
-  T1 = __,
+  T1 extends unknown & IEquatable_1<T1> | __ = __,
 > =
   [T1] extends [__] ? Internal.SearchValues :
-  [T1] extends [IEquatable_1<T1>] ? Internal.SearchValues_1<T1> : never;
+  [T1] extends [unknown & IEquatable_1<T1>] ? Internal.SearchValues_1<T1> : never;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Buffers as ExtensionMethods } from './__internal/extensions/index.js';

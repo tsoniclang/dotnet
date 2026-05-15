@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Linq/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { Partitioner_1 } from './System.Collections.Concurrent/internal/index.js';
 import type { Dictionary_2, HashSet_1, IAsyncEnumerable_1, IAsyncEnumerator_1, IComparer_1, IEnumerable_1, IEnumerator_1, IEqualityComparer_1, KeyValuePair_2, List_1 } from './System.Collections.Generic/internal/index.js';
@@ -19,12 +23,12 @@ import type { Action_1, Boolean as ClrBoolean, Decimal, Double, Enum, Func_1, Fu
 // Public API exports (curated - no internal $instance/$views leakage)
 export { ImmutableArrayExtensions$instance as ImmutableArrayExtensions } from './System.Linq/internal/index.js';
 export { Enumerable$instance as Enumerable } from './System.Linq/internal/index.js';
-export type IGrouping<TKey, TElement> = Internal.IGrouping_2<TKey, TElement>;
-export type ILookup<TKey, TElement> = Internal.ILookup_2<TKey, TElement>;
+export type IGrouping<TKey extends unknown, TElement extends unknown> = Internal.IGrouping_2<TKey, TElement>;
+export type ILookup<TKey extends unknown, TElement extends unknown> = Internal.ILookup_2<TKey, TElement>;
 export { Lookup_2 as Lookup } from './System.Linq/internal/index.js';
-export type IOrderedEnumerable<TElement> = Internal.IOrderedEnumerable_1<TElement>;
+export type IOrderedEnumerable<TElement extends unknown> = Internal.IOrderedEnumerable_1<TElement>;
 export { AsyncEnumerable$instance as AsyncEnumerable } from './System.Linq/internal/index.js';
-export type IOrderedAsyncEnumerable<TElement> = Internal.IOrderedAsyncEnumerable_1<TElement>;
+export type IOrderedAsyncEnumerable<TElement extends unknown> = Internal.IOrderedAsyncEnumerable_1<TElement>;
 export type IQueryProvider = Internal.IQueryProvider;
 export { OrderedParallelQuery_1 as OrderedParallelQuery } from './System.Linq/internal/index.js';
 export { ParallelEnumerable$instance as ParallelEnumerable } from './System.Linq/internal/index.js';
@@ -42,34 +46,34 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type EnumerableExecutor<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.EnumerableExecutor :
-  Internal.EnumerableExecutor_1<T1>;
+  [T1] extends [unknown] ? Internal.EnumerableExecutor_1<T1> : never;
 
 export type EnumerableQuery<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.EnumerableQuery :
-  Internal.EnumerableQuery_1<T1>;
+  [T1] extends [unknown] ? Internal.EnumerableQuery_1<T1> : never;
 
 export type IOrderedQueryable<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.IOrderedQueryable :
-  Internal.IOrderedQueryable_1<T1>;
+  [T1] extends [unknown] ? Internal.IOrderedQueryable_1<T1> : never;
 
 export type IQueryable<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.IQueryable :
-  Internal.IQueryable_1<T1>;
+  [T1] extends [unknown] ? Internal.IQueryable_1<T1> : never;
 
 export type ParallelQuery<
-  T1 = __,
+  T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ParallelQuery :
-  Internal.ParallelQuery_1<T1>;
+  [T1] extends [unknown] ? Internal.ParallelQuery_1<T1> : never;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Linq as ExtensionMethods } from './__internal/extensions/index.js';

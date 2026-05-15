@@ -43,7 +43,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67112857,
+          "metadataToken": 67112852,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -55,7 +55,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::NoneSystem.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
           "clrName": "None",
-          "metadataToken": 67112858,
+          "metadataToken": 67112853,
           "normalizedSignature": "None|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::UseSchedulingContextSystem.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
           "clrName": "UseSchedulingContext",
-          "metadataToken": 67112859,
+          "metadataToken": 67112854,
           "normalizedSignature": "UseSchedulingContext|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -79,7 +79,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags::FlowExecutionContextSystem.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags",
           "clrName": "FlowExecutionContext",
-          "metadataToken": 67112860,
+          "metadataToken": 67112855,
           "normalizedSignature": "FlowExecutionContext|System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -131,7 +131,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67112861,
+          "metadataToken": 67112856,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -143,7 +143,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::PendingSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "Pending",
-          "metadataToken": 67112862,
+          "metadataToken": 67112857,
           "normalizedSignature": "Pending|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::SucceededSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "Succeeded",
-          "metadataToken": 67112863,
+          "metadataToken": 67112858,
           "normalizedSignature": "Succeeded|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -167,7 +167,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::FaultedSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "Faulted",
-          "metadataToken": 67112864,
+          "metadataToken": 67112859,
           "normalizedSignature": "Faulted|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -179,7 +179,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Sources.ValueTaskSourceStatus::CanceledSystem.Threading.Tasks.Sources.ValueTaskSourceStatus",
           "clrName": "Canceled",
-          "metadataToken": 67112865,
+          "metadataToken": 67112860,
           "normalizedSignature": "Canceled|System.Threading.Tasks.Sources.ValueTaskSourceStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

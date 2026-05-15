@@ -3,7 +3,7 @@
 // Assembly: System.Diagnostics.DiagnosticSource
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -15,7 +15,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Delegate, Func_1, IAsyncResult, ICloneable, IDisposable, Int32, IntPtr, MulticastDelegate, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
-export type MeasurementCallback_1<T extends NonNullable<JsValue>> = (instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, JsValue>>, state: JsValue | null) => void;
+export type MeasurementCallback_1<T extends NonNullable<unknown>> = (instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, unknown>>, state: unknown | null) => void;
 
 
 export interface IMeterFactory$instance extends IDisposable {
@@ -30,34 +30,34 @@ export interface IMeterFactory$instance extends System_Internal.IDisposable$inst
 
 export type IMeterFactory = IMeterFactory$instance;
 
-export interface Measurement_1$instance<T extends NonNullable<JsValue>> {
+export interface Measurement_1$instance<T extends NonNullable<unknown>> {
     readonly __tsonic_type_System_Diagnostics_Metrics_Measurement_1: never;
 
-    readonly Tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, JsValue>>;
+    readonly Tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, unknown>>;
     readonly Value: T;
 }
 
 
 export const Measurement_1: {
-    new<T extends NonNullable<JsValue>>(value: T): Measurement_1<T>;
-    new<T extends NonNullable<JsValue>>(value: T, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null): Measurement_1<T>;
-    new<T extends NonNullable<JsValue>>(value: T, tags: KeyValuePair_2<System_Internal.String, JsValue>[] | null): Measurement_1<T>;
-    new<T extends NonNullable<JsValue>>(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, JsValue>>): Measurement_1<T>;
-    new<T extends NonNullable<JsValue>>(value: T, tags: TagList): Measurement_1<T>;
+    new<T extends NonNullable<unknown>>(value: T): Measurement_1<T>;
+    new<T extends NonNullable<unknown>>(value: T, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null): Measurement_1<T>;
+    new<T extends NonNullable<unknown>>(value: T, tags: KeyValuePair_2<System_Internal.String, unknown>[] | null): Measurement_1<T>;
+    new<T extends NonNullable<unknown>>(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, unknown>>): Measurement_1<T>;
+    new<T extends NonNullable<unknown>>(value: T, tags: TagList): Measurement_1<T>;
 };
 
 
-export type Measurement_1<T> = Measurement_1$instance<T>;
+export type Measurement_1<T extends NonNullable<unknown>> = Measurement_1$instance<T>;
 
-export interface Counter_1$instance<T extends NonNullable<JsValue>> extends Instrument_1<T> {
+export interface Counter_1$instance<T extends NonNullable<unknown>> extends Instrument_1<T> {
     readonly __tsonic_type_System_Diagnostics_Metrics_Counter_1: never;
 
     Add(delta: T): void;
-    Add(delta: T, tag: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Add(delta: T, tag1: KeyValuePair_2<System_Internal.String, JsValue>, tag2: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Add(delta: T, tag1: KeyValuePair_2<System_Internal.String, JsValue>, tag2: KeyValuePair_2<System_Internal.String, JsValue>, tag3: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Add(delta: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, JsValue>>): void;
-    Add(delta: T, ...tags: KeyValuePair_2<System_Internal.String, JsValue>[]): void;
+    Add(delta: T, tag: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Add(delta: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Add(delta: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>, tag3: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Add(delta: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, unknown>>): void;
+    Add(delta: T, ...tags: KeyValuePair_2<System_Internal.String, unknown>[]): void;
     Add(delta: T, tagList: TagList): void;
 }
 
@@ -66,17 +66,17 @@ export const Counter_1: {
 };
 
 
-export type Counter_1<T> = Counter_1$instance<T>;
+export type Counter_1<T extends NonNullable<unknown>> = Counter_1$instance<T>;
 
-export interface Gauge_1$instance<T extends NonNullable<JsValue>> extends Instrument_1<T> {
+export interface Gauge_1$instance<T extends NonNullable<unknown>> extends Instrument_1<T> {
     readonly __tsonic_type_System_Diagnostics_Metrics_Gauge_1: never;
 
     Record(value: T): void;
-    Record(value: T, tag: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Record(value: T, tag1: KeyValuePair_2<System_Internal.String, JsValue>, tag2: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Record(value: T, tag1: KeyValuePair_2<System_Internal.String, JsValue>, tag2: KeyValuePair_2<System_Internal.String, JsValue>, tag3: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Record(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, JsValue>>): void;
-    Record(value: T, ...tags: KeyValuePair_2<System_Internal.String, JsValue>[]): void;
+    Record(value: T, tag: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Record(value: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Record(value: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>, tag3: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Record(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, unknown>>): void;
+    Record(value: T, ...tags: KeyValuePair_2<System_Internal.String, unknown>[]): void;
     Record(value: T, tagList: TagList): void;
 }
 
@@ -85,17 +85,17 @@ export const Gauge_1: {
 };
 
 
-export type Gauge_1<T> = Gauge_1$instance<T>;
+export type Gauge_1<T extends NonNullable<unknown>> = Gauge_1$instance<T>;
 
-export interface Histogram_1$instance<T extends NonNullable<JsValue>> extends Instrument_1<T> {
+export interface Histogram_1$instance<T extends NonNullable<unknown>> extends Instrument_1<T> {
     readonly __tsonic_type_System_Diagnostics_Metrics_Histogram_1: never;
 
     Record(value: T): void;
-    Record(value: T, tag: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Record(value: T, tag1: KeyValuePair_2<System_Internal.String, JsValue>, tag2: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Record(value: T, tag1: KeyValuePair_2<System_Internal.String, JsValue>, tag2: KeyValuePair_2<System_Internal.String, JsValue>, tag3: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Record(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, JsValue>>): void;
-    Record(value: T, ...tags: KeyValuePair_2<System_Internal.String, JsValue>[]): void;
+    Record(value: T, tag: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Record(value: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Record(value: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>, tag3: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Record(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, unknown>>): void;
+    Record(value: T, ...tags: KeyValuePair_2<System_Internal.String, unknown>[]): void;
     Record(value: T, tagList: TagList): void;
 }
 
@@ -104,7 +104,7 @@ export const Histogram_1: {
 };
 
 
-export type Histogram_1<T> = Histogram_1$instance<T>;
+export type Histogram_1<T extends NonNullable<unknown>> = Histogram_1$instance<T>;
 
 export interface Instrument$instance {
     readonly __tsonic_type_System_Diagnostics_Metrics_Instrument: never;
@@ -114,31 +114,31 @@ export interface Instrument$instance {
     readonly IsObservable: boolean;
     readonly Meter: Meter;
     readonly Name: string;
-    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null;
+    readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null;
     readonly Unit: string | null;
 }
 
 
-export const Instrument: (abstract new(meter: Meter, name: string) => Instrument) & (abstract new(meter: Meter, name: string, unit: string | null, description: string | null) => Instrument) & (abstract new(meter: Meter, name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null) => Instrument) & {
+export const Instrument: (abstract new(meter: Meter, name: string) => Instrument) & (abstract new(meter: Meter, name: string, unit: string | null, description: string | null) => Instrument) & (abstract new(meter: Meter, name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null) => Instrument) & {
 };
 
 
 export type Instrument = Instrument$instance;
 
-export interface Instrument_1$instance<T extends NonNullable<JsValue>> extends Instrument {
+export interface Instrument_1$instance<T extends NonNullable<unknown>> extends Instrument {
     readonly __tsonic_type_System_Diagnostics_Metrics_Instrument_1: never;
 
     readonly Advice: InstrumentAdvice_1<T> | null;
 }
 
 
-export const Instrument_1: (abstract new<T extends NonNullable<JsValue>>(meter: Meter, name: string) => Instrument_1<T>) & (abstract new<T extends NonNullable<JsValue>>(meter: Meter, name: string, unit: string | null, description: string | null) => Instrument_1<T>) & (abstract new<T extends NonNullable<JsValue>>(meter: Meter, name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null) => Instrument_1<T>) & (abstract new<T extends NonNullable<JsValue>>(meter: Meter, name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null, advice: InstrumentAdvice_1<T> | null) => Instrument_1<T>) & {
+export const Instrument_1: (abstract new<T extends NonNullable<unknown>>(meter: Meter, name: string) => Instrument_1<T>) & (abstract new<T extends NonNullable<unknown>>(meter: Meter, name: string, unit: string | null, description: string | null) => Instrument_1<T>) & (abstract new<T extends NonNullable<unknown>>(meter: Meter, name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null) => Instrument_1<T>) & (abstract new<T extends NonNullable<unknown>>(meter: Meter, name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, advice: InstrumentAdvice_1<T> | null) => Instrument_1<T>) & {
 };
 
 
-export type Instrument_1<T> = Instrument_1$instance<T>;
+export type Instrument_1<T extends NonNullable<unknown>> = Instrument_1$instance<T>;
 
-export interface InstrumentAdvice_1$instance<T extends NonNullable<JsValue>> {
+export interface InstrumentAdvice_1$instance<T extends NonNullable<unknown>> {
     readonly __tsonic_type_System_Diagnostics_Metrics_InstrumentAdvice_1: never;
 
     get HistogramBucketBoundaries(): IReadOnlyList_1<T> | null;
@@ -147,11 +147,11 @@ export interface InstrumentAdvice_1$instance<T extends NonNullable<JsValue>> {
 
 
 export const InstrumentAdvice_1: {
-    new<T extends NonNullable<JsValue>>(): InstrumentAdvice_1<T>;
+    new<T extends NonNullable<unknown>>(): InstrumentAdvice_1<T>;
 };
 
 
-export type InstrumentAdvice_1<T> = InstrumentAdvice_1$instance<T>;
+export type InstrumentAdvice_1<T extends NonNullable<unknown>> = InstrumentAdvice_1$instance<T>;
 
 export interface Meter$instance {
     readonly __tsonic_type_System_Diagnostics_Metrics_Meter: never;
@@ -159,30 +159,30 @@ export interface Meter$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Name: string;
-    get Scope(): JsValue | null;
-    set Scope(value: JsValue | null);
-    get Tags(): IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null;
-    set Tags(value: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null);
+    get Scope(): unknown | null;
+    set Scope(value: unknown | null);
+    get Tags(): IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null;
+    set Tags(value: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null);
     get TelemetrySchemaUrl(): string | null;
     set TelemetrySchemaUrl(value: string | null);
     get Version(): string | null;
     set Version(value: string | null);
-    CreateCounter<T extends NonNullable<JsValue>>(name: string, unit?: string | null, description?: string | null): Counter_1<T>;
-    CreateCounter<T extends NonNullable<JsValue>>(name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null): Counter_1<T>;
-    CreateGauge<T extends NonNullable<JsValue>>(name: string): Gauge_1<T>;
-    CreateGauge<T extends NonNullable<JsValue>>(name: string, unit?: string | null, description?: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null): Gauge_1<T>;
-    CreateHistogram<T extends NonNullable<JsValue>>(name: string): Histogram_1<T>;
-    CreateHistogram<T extends NonNullable<JsValue>>(name: string, unit: string | null, description: string | null): Histogram_1<T>;
-    CreateHistogram<T extends NonNullable<JsValue>>(name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null): Histogram_1<T>;
-    CreateHistogram<T extends NonNullable<JsValue>>(name: string, unit?: string | null, description?: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null, advice?: InstrumentAdvice_1<T> | null): Histogram_1<T>;
-    CreateObservableCounter<T extends NonNullable<JsValue>>(name: string, observeValue: Func_1<T>, unit?: string | null, description?: string | null): ObservableCounter_1<T>;
-    CreateObservableCounter<T extends NonNullable<JsValue>>(name: string, observeValue: Func_1<T>, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null): ObservableCounter_1<T>;
-    CreateObservableGauge<T extends NonNullable<JsValue>>(name: string, observeValue: Func_1<T>, unit?: string | null, description?: string | null): ObservableGauge_1<T>;
-    CreateObservableGauge<T extends NonNullable<JsValue>>(name: string, observeValue: Func_1<T>, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null): ObservableGauge_1<T>;
-    CreateObservableUpDownCounter<T extends NonNullable<JsValue>>(name: string, observeValue: Func_1<T>, unit?: string | null, description?: string | null): ObservableUpDownCounter_1<T>;
-    CreateObservableUpDownCounter<T extends NonNullable<JsValue>>(name: string, observeValue: Func_1<T>, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null): ObservableUpDownCounter_1<T>;
-    CreateUpDownCounter<T extends NonNullable<JsValue>>(name: string, unit?: string | null, description?: string | null): UpDownCounter_1<T>;
-    CreateUpDownCounter<T extends NonNullable<JsValue>>(name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null): UpDownCounter_1<T>;
+    CreateCounter<T extends NonNullable<unknown>>(name: string, unit?: string | null, description?: string | null): Counter_1<T>;
+    CreateCounter<T extends NonNullable<unknown>>(name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null): Counter_1<T>;
+    CreateGauge<T extends NonNullable<unknown>>(name: string): Gauge_1<T>;
+    CreateGauge<T extends NonNullable<unknown>>(name: string, unit?: string | null, description?: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null): Gauge_1<T>;
+    CreateHistogram<T extends NonNullable<unknown>>(name: string): Histogram_1<T>;
+    CreateHistogram<T extends NonNullable<unknown>>(name: string, unit: string | null, description: string | null): Histogram_1<T>;
+    CreateHistogram<T extends NonNullable<unknown>>(name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null): Histogram_1<T>;
+    CreateHistogram<T extends NonNullable<unknown>>(name: string, unit?: string | null, description?: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, advice?: InstrumentAdvice_1<T> | null): Histogram_1<T>;
+    CreateObservableCounter<T extends NonNullable<unknown>>(name: string, observeValue: Func_1<T>, unit?: string | null, description?: string | null): ObservableCounter_1<T>;
+    CreateObservableCounter<T extends NonNullable<unknown>>(name: string, observeValue: Func_1<T>, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null): ObservableCounter_1<T>;
+    CreateObservableGauge<T extends NonNullable<unknown>>(name: string, observeValue: Func_1<T>, unit?: string | null, description?: string | null): ObservableGauge_1<T>;
+    CreateObservableGauge<T extends NonNullable<unknown>>(name: string, observeValue: Func_1<T>, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null): ObservableGauge_1<T>;
+    CreateObservableUpDownCounter<T extends NonNullable<unknown>>(name: string, observeValue: Func_1<T>, unit?: string | null, description?: string | null): ObservableUpDownCounter_1<T>;
+    CreateObservableUpDownCounter<T extends NonNullable<unknown>>(name: string, observeValue: Func_1<T>, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null): ObservableUpDownCounter_1<T>;
+    CreateUpDownCounter<T extends NonNullable<unknown>>(name: string, unit?: string | null, description?: string | null): UpDownCounter_1<T>;
+    CreateUpDownCounter<T extends NonNullable<unknown>>(name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null): UpDownCounter_1<T>;
     Dispose(): void;
     Dispose(disposing: boolean): void;
 }
@@ -192,7 +192,7 @@ export const Meter: {
     new(options: MeterOptions): Meter;
     new(name: string): Meter;
     new(name: string, version: string | null): Meter;
-    new(name: string, version: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null, scope: JsValue | null): Meter;
+    new(name: string, version: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, scope: unknown | null): Meter;
 };
 
 
@@ -210,13 +210,13 @@ export interface MeterListener$instance extends System_Internal.IDisposable$inst
 
     get InstrumentPublished(): Action_2<Instrument, MeterListener> | null;
     set InstrumentPublished(value: Action_2<Instrument, MeterListener> | null);
-    get MeasurementsCompleted(): Action_2<Instrument, JsValue | null> | null;
-    set MeasurementsCompleted(value: Action_2<Instrument, JsValue | null> | null);
-    DisableMeasurementEvents(instrument: Instrument): JsValue | null;
+    get MeasurementsCompleted(): Action_2<Instrument, unknown | null> | null;
+    set MeasurementsCompleted(value: Action_2<Instrument, unknown | null> | null);
+    DisableMeasurementEvents(instrument: Instrument): unknown | null;
     Dispose(): void;
-    EnableMeasurementEvents(instrument: Instrument, state?: JsValue | null): void;
+    EnableMeasurementEvents(instrument: Instrument, state?: unknown | null): void;
     RecordObservableInstruments(): void;
-    SetMeasurementEventCallback<T extends NonNullable<JsValue>>(measurementCallback: MeasurementCallback_1<T> | null): void;
+    SetMeasurementEventCallback<T extends NonNullable<unknown>>(measurementCallback: MeasurementCallback_1<T> | null): void;
     Start(): void;
 }
 
@@ -237,10 +237,10 @@ export interface MeterOptions$instance {
     readonly __tsonic_type_System_Diagnostics_Metrics_MeterOptions: never;
 
     Name: string;
-    get Scope(): JsValue | null;
-    set Scope(value: JsValue | null);
-    get Tags(): IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null;
-    set Tags(value: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null);
+    get Scope(): unknown | null;
+    set Scope(value: unknown | null);
+    get Tags(): IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null;
+    set Tags(value: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null);
     get TelemetrySchemaUrl(): string | null;
     set TelemetrySchemaUrl(value: string | null);
     get Version(): string | null;
@@ -255,7 +255,7 @@ export const MeterOptions: {
 
 export type MeterOptions = MeterOptions$instance;
 
-export interface ObservableCounter_1$instance<T extends NonNullable<JsValue>> extends ObservableInstrument_1<T> {
+export interface ObservableCounter_1$instance<T extends NonNullable<unknown>> extends ObservableInstrument_1<T> {
     readonly __tsonic_type_System_Diagnostics_Metrics_ObservableCounter_1: never;
 
     Observe(): IEnumerable_1<Measurement_1<T>>;
@@ -266,9 +266,9 @@ export const ObservableCounter_1: {
 };
 
 
-export type ObservableCounter_1<T> = ObservableCounter_1$instance<T>;
+export type ObservableCounter_1<T extends NonNullable<unknown>> = ObservableCounter_1$instance<T>;
 
-export interface ObservableGauge_1$instance<T extends NonNullable<JsValue>> extends ObservableInstrument_1<T> {
+export interface ObservableGauge_1$instance<T extends NonNullable<unknown>> extends ObservableInstrument_1<T> {
     readonly __tsonic_type_System_Diagnostics_Metrics_ObservableGauge_1: never;
 
     Observe(): IEnumerable_1<Measurement_1<T>>;
@@ -279,9 +279,9 @@ export const ObservableGauge_1: {
 };
 
 
-export type ObservableGauge_1<T> = ObservableGauge_1$instance<T>;
+export type ObservableGauge_1<T extends NonNullable<unknown>> = ObservableGauge_1$instance<T>;
 
-export interface ObservableInstrument_1$instance<T extends NonNullable<JsValue>> extends Instrument {
+export interface ObservableInstrument_1$instance<T extends NonNullable<unknown>> extends Instrument {
     readonly __tsonic_type_System_Diagnostics_Metrics_ObservableInstrument_1: never;
 
     readonly IsObservable: boolean;
@@ -289,13 +289,13 @@ export interface ObservableInstrument_1$instance<T extends NonNullable<JsValue>>
 }
 
 
-export const ObservableInstrument_1: (abstract new<T extends NonNullable<JsValue>>(meter: Meter, name: string, unit: string | null, description: string | null) => ObservableInstrument_1<T>) & (abstract new<T extends NonNullable<JsValue>>(meter: Meter, name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null) => ObservableInstrument_1<T>) & {
+export const ObservableInstrument_1: (abstract new<T extends NonNullable<unknown>>(meter: Meter, name: string, unit: string | null, description: string | null) => ObservableInstrument_1<T>) & (abstract new<T extends NonNullable<unknown>>(meter: Meter, name: string, unit: string | null, description: string | null, tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null) => ObservableInstrument_1<T>) & {
 };
 
 
-export type ObservableInstrument_1<T> = ObservableInstrument_1$instance<T>;
+export type ObservableInstrument_1<T extends NonNullable<unknown>> = ObservableInstrument_1$instance<T>;
 
-export interface ObservableUpDownCounter_1$instance<T extends NonNullable<JsValue>> extends ObservableInstrument_1<T> {
+export interface ObservableUpDownCounter_1$instance<T extends NonNullable<unknown>> extends ObservableInstrument_1<T> {
     readonly __tsonic_type_System_Diagnostics_Metrics_ObservableUpDownCounter_1: never;
 
     Observe(): IEnumerable_1<Measurement_1<T>>;
@@ -306,17 +306,17 @@ export const ObservableUpDownCounter_1: {
 };
 
 
-export type ObservableUpDownCounter_1<T> = ObservableUpDownCounter_1$instance<T>;
+export type ObservableUpDownCounter_1<T extends NonNullable<unknown>> = ObservableUpDownCounter_1$instance<T>;
 
-export interface UpDownCounter_1$instance<T extends NonNullable<JsValue>> extends Instrument_1<T> {
+export interface UpDownCounter_1$instance<T extends NonNullable<unknown>> extends Instrument_1<T> {
     readonly __tsonic_type_System_Diagnostics_Metrics_UpDownCounter_1: never;
 
     Add(delta: T): void;
-    Add(delta: T, tag: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Add(delta: T, tag1: KeyValuePair_2<System_Internal.String, JsValue>, tag2: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Add(delta: T, tag1: KeyValuePair_2<System_Internal.String, JsValue>, tag2: KeyValuePair_2<System_Internal.String, JsValue>, tag3: KeyValuePair_2<System_Internal.String, JsValue>): void;
-    Add(delta: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, JsValue>>): void;
-    Add(delta: T, ...tags: KeyValuePair_2<System_Internal.String, JsValue>[]): void;
+    Add(delta: T, tag: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Add(delta: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Add(delta: T, tag1: KeyValuePair_2<System_Internal.String, unknown>, tag2: KeyValuePair_2<System_Internal.String, unknown>, tag3: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Add(delta: T, tags: ReadOnlySpan_1<KeyValuePair_2<System_Internal.String, unknown>>): void;
+    Add(delta: T, ...tags: KeyValuePair_2<System_Internal.String, unknown>[]): void;
     Add(delta: T, tagList: TagList): void;
 }
 
@@ -325,10 +325,10 @@ export const UpDownCounter_1: {
 };
 
 
-export type UpDownCounter_1<T> = UpDownCounter_1$instance<T>;
+export type UpDownCounter_1<T extends NonNullable<unknown>> = UpDownCounter_1$instance<T>;
 
 export abstract class MeterFactoryExtensions$instance {
-    static Create(meterFactory: IMeterFactory, name: string, version?: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, JsValue>> | null): Meter;
+    static Create(meterFactory: IMeterFactory, name: string, version?: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null): Meter;
 }
 
 

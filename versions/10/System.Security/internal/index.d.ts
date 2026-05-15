@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib, System.Runtime.InteropServices
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -96,7 +96,7 @@ export interface PermissionSet$instance extends System_Runtime_Serialization_Int
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     AddPermission(perm: IPermission | null): IPermission | null;
     AddPermissionImpl(perm: IPermission | null): IPermission | null;
     Assert(): void;
@@ -105,7 +105,7 @@ export interface PermissionSet$instance extends System_Runtime_Serialization_Int
     CopyTo(array: ClrArray, index: int): void;
     Demand(): void;
     Deny(): void;
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     FromXml(et: SecurityElement): void;
     GetEnumerator(): IEnumerator;
     GetEnumeratorImpl(): IEnumerator;
@@ -227,15 +227,15 @@ export const SecurityElement: {
 
 export type SecurityElement = SecurityElement$instance;
 
-export interface SecurityException$instance extends SystemException {
+export interface SecurityException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Security_SecurityException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    get Demanded(): JsValue | null;
-    set Demanded(value: JsValue | null);
-    get DenySetInstance(): JsValue | null;
-    set DenySetInstance(value: JsValue | null);
+    get Demanded(): unknown | null;
+    set Demanded(value: unknown | null);
+    get DenySetInstance(): unknown | null;
+    set DenySetInstance(value: unknown | null);
     get FailedAssemblyInfo(): AssemblyName | null;
     set FailedAssemblyInfo(value: AssemblyName | null);
     get GrantedSet(): string | null;
@@ -246,8 +246,8 @@ export interface SecurityException$instance extends SystemException {
     set PermissionState(value: string | null);
     get PermissionType(): Type | null;
     set PermissionType(value: Type | null);
-    get PermitOnlySetInstance(): JsValue | null;
-    set PermitOnlySetInstance(value: JsValue | null);
+    get PermitOnlySetInstance(): unknown | null;
+    set PermitOnlySetInstance(value: unknown | null);
     get RefusedSet(): string | null;
     set RefusedSet(value: string | null);
     get Url(): string | null;

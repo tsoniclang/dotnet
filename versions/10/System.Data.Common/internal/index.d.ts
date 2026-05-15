@@ -3,7 +3,7 @@
 // Assembly: System.Data.Common
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -155,25 +155,25 @@ export interface DataColumnMappingCollection$instance extends MarshalByRefObject
     readonly __tsonic_iface_System_Data_IColumnMappingCollection: never;
 
     readonly Count: int;
-    Add(value: JsValue | null): int;
+    Add(value: unknown | null): int;
     Add(sourceColumn: string | null, dataSetColumn: string | null): DataColumnMapping;
     AddRange(values: DataColumnMapping[]): void;
     AddRange(values: ClrArray): void;
     Clear(): void;
     Contains(value: string | null): boolean;
-    Contains(value: JsValue | null): boolean;
+    Contains(value: unknown | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
     CopyTo(array: DataColumnMapping[], index: int): void;
     get_Item(index: int): DataColumnMapping;
     get_Item(sourceColumn: string): DataColumnMapping;
     GetByDataSetColumn(value: string): DataColumnMapping;
     GetEnumerator(): IEnumerator;
-    IndexOf(value: JsValue | null): int;
+    IndexOf(value: unknown | null): int;
     IndexOf(sourceColumn: string | null): int;
     IndexOfDataSetColumn(dataSetColumn: string | null): int;
-    Insert(index: int, value: JsValue | null): void;
+    Insert(index: int, value: unknown | null): void;
     Insert(index: int, value: DataColumnMapping): void;
-    Remove(value: JsValue | null): void;
+    Remove(value: unknown | null): void;
     Remove(value: DataColumnMapping): void;
     RemoveAt(index: int): void;
     RemoveAt(sourceColumn: string): void;
@@ -239,25 +239,25 @@ export interface DataTableMappingCollection$instance extends MarshalByRefObject 
     readonly __tsonic_iface_System_Data_ITableMappingCollection: never;
 
     readonly Count: int;
-    Add(value: JsValue | null): int;
+    Add(value: unknown | null): int;
     Add(sourceTable: string | null, dataSetTable: string | null): DataTableMapping;
     AddRange(values: DataTableMapping[]): void;
     AddRange(values: ClrArray): void;
     Clear(): void;
     Contains(value: string | null): boolean;
-    Contains(value: JsValue | null): boolean;
+    Contains(value: unknown | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
     CopyTo(array: DataTableMapping[], index: int): void;
     get_Item(index: int): DataTableMapping;
     get_Item(sourceTable: string): DataTableMapping;
     GetByDataSetTable(dataSetTable: string): DataTableMapping;
     GetEnumerator(): IEnumerator;
-    IndexOf(value: JsValue | null): int;
+    IndexOf(value: unknown | null): int;
     IndexOf(sourceTable: string | null): int;
     IndexOfDataSetTable(dataSetTable: string | null): int;
-    Insert(index: int, value: JsValue | null): void;
+    Insert(index: int, value: unknown | null): void;
     Insert(index: int, value: DataTableMapping): void;
-    Remove(value: JsValue | null): void;
+    Remove(value: unknown | null): void;
     Remove(value: DataTableMapping): void;
     RemoveAt(index: int): void;
     RemoveAt(sourceTable: string): void;
@@ -311,8 +311,8 @@ export interface DbBatch$instance extends System_Internal.IAsyncDisposable$insta
     ExecuteReader(behavior?: CommandBehavior): DbDataReader;
     ExecuteReaderAsync(cancellationToken?: CancellationToken): Task_1<DbDataReader>;
     ExecuteReaderAsync(behavior: CommandBehavior, cancellationToken?: CancellationToken): Task_1<DbDataReader>;
-    ExecuteScalar(): JsValue | null;
-    ExecuteScalarAsync(cancellationToken?: CancellationToken): Task_1<JsValue | null>;
+    ExecuteScalar(): unknown | null;
+    ExecuteScalarAsync(cancellationToken?: CancellationToken): Task_1<unknown | null>;
     Prepare(): void;
     PrepareAsync(cancellationToken?: CancellationToken): Task;
 }
@@ -429,7 +429,7 @@ export interface DbColumn$instance {
     set IsReadOnly(value: Nullable_1<System_Internal.Boolean> | boolean);
     get IsUnique(): Nullable_1<System_Internal.Boolean>;
     set IsUnique(value: Nullable_1<System_Internal.Boolean> | boolean);
-    readonly Item: JsValue | null;
+    readonly Item: unknown | null;
     get NumericPrecision(): Nullable_1<System_Internal.Int32>;
     set NumericPrecision(value: Nullable_1<System_Internal.Int32> | int);
     get NumericScale(): Nullable_1<System_Internal.Int32>;
@@ -483,9 +483,9 @@ export interface DbCommand$instance extends Component, System_Internal.IAsyncDis
     ExecuteReaderAsync(cancellationToken: CancellationToken): Task_1<DbDataReader>;
     ExecuteReaderAsync(behavior: CommandBehavior): Task_1<DbDataReader>;
     ExecuteReaderAsync(behavior: CommandBehavior, cancellationToken: CancellationToken): Task_1<DbDataReader>;
-    ExecuteScalar(): JsValue | null;
-    ExecuteScalarAsync(): Task_1<JsValue | null>;
-    ExecuteScalarAsync(cancellationToken: CancellationToken): Task_1<JsValue | null>;
+    ExecuteScalar(): unknown | null;
+    ExecuteScalarAsync(): Task_1<unknown | null>;
+    ExecuteScalarAsync(cancellationToken: CancellationToken): Task_1<unknown | null>;
     Prepare(): void;
     PrepareAsync(cancellationToken?: CancellationToken): Task;
 }
@@ -627,7 +627,7 @@ export interface DbConnectionStringBuilder$instance {
     readonly IsReadOnly: boolean;
     readonly Keys: ICollection;
     readonly Values: ICollection;
-    Add(keyword: string, value: JsValue): void;
+    Add(keyword: string, value: unknown): void;
     Clear(): void;
     ContainsKey(keyword: string): boolean;
     EquivalentTo(connectionStringBuilder: DbConnectionStringBuilder): boolean;
@@ -635,7 +635,7 @@ export interface DbConnectionStringBuilder$instance {
     Remove(keyword: string): boolean;
     ShouldSerialize(keyword: string): boolean;
     ToString(): string;
-    TryGetValue(keyword: string, value: JsValue | null): boolean;
+    TryGetValue(keyword: string, value: unknown | null): boolean;
 }
 
 
@@ -654,7 +654,7 @@ export interface __DbConnectionStringBuilder$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __DbConnectionStringBuilder$views & { [keyword: string]: JsValue; };
+export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __DbConnectionStringBuilder$views & { [keyword: string]: unknown; };
 
 
 export interface DbDataAdapter$instance extends DataAdapter$instance, System_Internal.ICloneable$instance {
@@ -751,8 +751,8 @@ export interface DbDataReader$instance extends MarshalByRefObject, System_Intern
     Dispose(): void;
     Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
-    get_Item(ordinal: int): JsValue;
-    get_Item(name: string): JsValue;
+    get_Item(ordinal: int): unknown;
+    get_Item(name: string): unknown;
     GetBoolean(ordinal: int): boolean;
     GetByte(ordinal: int): byte;
     GetBytes(ordinal: int, dataOffset: long, buffer: byte[] | null, bufferOffset: int, length: int): long;
@@ -767,9 +767,9 @@ export interface DbDataReader$instance extends MarshalByRefObject, System_Intern
     GetDouble(ordinal: int): double;
     GetEnumerator(): IEnumerator;
     GetFieldType(ordinal: int): Type;
-    GetFieldValue<T>(ordinal: int): T;
-    GetFieldValueAsync<T>(ordinal: int): Task_1<T>;
-    GetFieldValueAsync<T>(ordinal: int, cancellationToken: CancellationToken): Task_1<T>;
+    GetFieldValue<T extends unknown>(ordinal: int): T;
+    GetFieldValueAsync<T extends unknown>(ordinal: int): Task_1<T>;
+    GetFieldValueAsync<T extends unknown>(ordinal: int, cancellationToken: CancellationToken): Task_1<T>;
     GetFloat(ordinal: int): float;
     GetGuid(ordinal: int): Guid;
     GetInt16(ordinal: int): short;
@@ -778,15 +778,15 @@ export interface DbDataReader$instance extends MarshalByRefObject, System_Intern
     GetName(ordinal: int): string;
     GetOrdinal(name: string): int;
     GetProviderSpecificFieldType(ordinal: int): Type;
-    GetProviderSpecificValue(ordinal: int): JsValue;
-    GetProviderSpecificValues(values: JsValue[]): int;
+    GetProviderSpecificValue(ordinal: int): unknown;
+    GetProviderSpecificValues(values: unknown[]): int;
     GetSchemaTable(): DataTable | null;
     GetSchemaTableAsync(cancellationToken?: CancellationToken): Task_1<DataTable | null>;
     GetStream(ordinal: int): Stream;
     GetString(ordinal: int): string;
     GetTextReader(ordinal: int): TextReader;
-    GetValue(ordinal: int): JsValue;
-    GetValues(values: JsValue[]): int;
+    GetValue(ordinal: int): unknown;
+    GetValues(values: unknown[]): int;
     IsDBNull(ordinal: int): boolean;
     IsDBNullAsync(ordinal: int): Task_1<System_Internal.Boolean>;
     IsDBNullAsync(ordinal: int, cancellationToken: CancellationToken): Task_1<System_Internal.Boolean>;
@@ -821,8 +821,8 @@ export interface DbDataRecord$instance extends System_ComponentModel_Internal.IC
     readonly __tsonic_iface_System_Data_IDataRecord: never;
 
     readonly FieldCount: int;
-    get_Item(i: int): JsValue;
-    get_Item(name: string): JsValue;
+    get_Item(i: int): unknown;
+    get_Item(name: string): unknown;
     GetBoolean(i: int): boolean;
     GetByte(i: int): byte;
     GetBytes(i: int, dataIndex: long, buffer: byte[] | null, bufferIndex: int, length: int): long;
@@ -843,8 +843,8 @@ export interface DbDataRecord$instance extends System_ComponentModel_Internal.IC
     GetName(i: int): string;
     GetOrdinal(name: string): int;
     GetString(i: int): string;
-    GetValue(i: int): JsValue;
-    GetValues(values: JsValue[]): int;
+    GetValue(i: int): unknown;
+    GetValues(values: unknown[]): int;
     IsDBNull(i: int): boolean;
 }
 
@@ -915,7 +915,7 @@ export interface DbEnumerator$instance {
 
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
-    readonly Current: JsValue;
+    readonly Current: unknown;
     MoveNext(): boolean;
     Reset(): void;
 }
@@ -975,8 +975,8 @@ export interface DbParameter$instance extends MarshalByRefObject {
     SourceColumn: string;
     SourceColumnNullMapping: boolean;
     SourceVersion: DataRowVersion;
-    get Value(): JsValue | null;
-    set Value(value: JsValue | null);
+    get Value(): unknown | null;
+    set Value(value: unknown | null);
     ResetDbType(): void;
 }
 
@@ -1005,11 +1005,11 @@ export interface DbParameterCollection$instance extends MarshalByRefObject {
     readonly IsFixedSize: boolean;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: JsValue;
-    Add(value: JsValue): int;
+    readonly SyncRoot: unknown;
+    Add(value: unknown): int;
     AddRange(values: ClrArray): void;
     Clear(): void;
-    Contains(value: JsValue): boolean;
+    Contains(value: unknown): boolean;
     Contains(value: string): boolean;
     CopyTo(array: ClrArray, index: int): void;
     get_Item(index: int): DbParameter;
@@ -1017,10 +1017,10 @@ export interface DbParameterCollection$instance extends MarshalByRefObject {
     GetEnumerator(): IEnumerator;
     GetParameter(index: int): DbParameter;
     GetParameter(parameterName: string): DbParameter;
-    IndexOf(value: JsValue): int;
+    IndexOf(value: unknown): int;
     IndexOf(parameterName: string): int;
-    Insert(index: int, value: JsValue): void;
-    Remove(value: JsValue): void;
+    Insert(index: int, value: unknown): void;
+    Remove(value: unknown): void;
     RemoveAt(index: int): void;
     RemoveAt(parameterName: string): void;
     set_Item(index: int, value: DbParameter): void;

@@ -134,7 +134,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67113301,
+          "metadataToken": 67113296,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::CrossProcessSystem.Runtime.Serialization.StreamingContextStates",
           "clrName": "CrossProcess",
-          "metadataToken": 67113302,
+          "metadataToken": 67113297,
           "normalizedSignature": "CrossProcess|System.Runtime.Serialization.StreamingContextStates|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -158,7 +158,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::CrossMachineSystem.Runtime.Serialization.StreamingContextStates",
           "clrName": "CrossMachine",
-          "metadataToken": 67113303,
+          "metadataToken": 67113298,
           "normalizedSignature": "CrossMachine|System.Runtime.Serialization.StreamingContextStates|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -170,7 +170,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::FileSystem.Runtime.Serialization.StreamingContextStates",
           "clrName": "File",
-          "metadataToken": 67113304,
+          "metadataToken": 67113299,
           "normalizedSignature": "File|System.Runtime.Serialization.StreamingContextStates|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -182,7 +182,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::PersistenceSystem.Runtime.Serialization.StreamingContextStates",
           "clrName": "Persistence",
-          "metadataToken": 67113305,
+          "metadataToken": 67113300,
           "normalizedSignature": "Persistence|System.Runtime.Serialization.StreamingContextStates|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -194,7 +194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::RemotingSystem.Runtime.Serialization.StreamingContextStates",
           "clrName": "Remoting",
-          "metadataToken": 67113306,
+          "metadataToken": 67113301,
           "normalizedSignature": "Remoting|System.Runtime.Serialization.StreamingContextStates|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -206,7 +206,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::OtherSystem.Runtime.Serialization.StreamingContextStates",
           "clrName": "Other",
-          "metadataToken": 67113307,
+          "metadataToken": 67113302,
           "normalizedSignature": "Other|System.Runtime.Serialization.StreamingContextStates|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -218,7 +218,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::CloneSystem.Runtime.Serialization.StreamingContextStates",
           "clrName": "Clone",
-          "metadataToken": 67113308,
+          "metadataToken": 67113303,
           "normalizedSignature": "Clone|System.Runtime.Serialization.StreamingContextStates|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -230,7 +230,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::CrossAppDomainSystem.Runtime.Serialization.StreamingContextStates",
           "clrName": "CrossAppDomain",
-          "metadataToken": 67113309,
+          "metadataToken": 67113304,
           "normalizedSignature": "CrossAppDomain|System.Runtime.Serialization.StreamingContextStates|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -242,7 +242,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.StreamingContextStates::AllSystem.Runtime.Serialization.StreamingContextStates",
           "clrName": "All",
-          "metadataToken": 67113310,
+          "metadataToken": 67113305,
           "normalizedSignature": "All|System.Runtime.Serialization.StreamingContextStates|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -6709,7 +6709,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
           "clrName": "MoveNext",
-          "metadataToken": 100703846,
+          "metadataToken": 100703851,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -6730,7 +6730,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
           "clrName": "Reset",
-          "metadataToken": 100703848,
+          "metadataToken": 100703853,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -6829,7 +6829,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Current:System.Object",
           "clrName": "Current",
-          "metadataToken": 385881267,
+          "metadataToken": 385881269,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",

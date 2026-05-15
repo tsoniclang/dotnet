@@ -3,7 +3,7 @@
 // Assembly: System.Text.Json
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -42,12 +42,12 @@ export interface JsonArray$instance extends JsonNode {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    Add<T>(value: T | null): void;
+    Add<T extends unknown>(value: T | null): void;
     Add(item: JsonNode | null): void;
     Clear(): void;
     Contains(item: JsonNode | null): boolean;
     GetEnumerator(): IEnumerator_1<JsonNode | null>;
-    GetValues<T>(): IEnumerable_1<T>;
+    GetValues<T extends unknown>(): IEnumerable_1<T>;
     IndexOf(item: JsonNode | null): int;
     Insert(index: int, item: JsonNode | null): void;
     Remove(item: JsonNode | null): boolean;
@@ -94,9 +94,9 @@ export interface JsonNode$instance {
     GetElementIndex(): int;
     GetPath(): string;
     GetPropertyName(): string;
-    GetValue<T>(): T;
+    GetValue<T extends unknown>(): T;
     GetValueKind(): JsonValueKind;
-    ReplaceWith<T>(value: T): void;
+    ReplaceWith<T extends unknown>(value: T): void;
     set_Item(index: int, value: JsonNode | null): void;
     set_Item(propertyName: string, value: JsonNode | null): void;
     ToJsonString(options?: JsonSerializerOptions | null): string;
@@ -168,7 +168,7 @@ export type JsonObject = JsonObject$instance & __JsonObject$views;
 export interface JsonValue$instance extends JsonNode {
     readonly __tsonic_type_System_Text_Json_Nodes_JsonValue: never;
 
-    TryGetValue<T>(value: T | null): boolean;
+    TryGetValue<T extends unknown>(value: T | null): boolean;
 }
 
 
@@ -208,8 +208,8 @@ export const JsonValue: {
     Create(value: ushort, options?: Nullable_1<JsonNodeOptions>): JsonValue;
     Create(value: uint, options?: Nullable_1<JsonNodeOptions>): JsonValue;
     Create(value: ulong, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    Create<T>(value: T | null, jsonTypeInfo: JsonTypeInfo_1<T>, options?: Nullable_1<JsonNodeOptions>): JsonValue | null;
-    Create<T>(value: T | null, options?: Nullable_1<JsonNodeOptions>): JsonValue | null;
+    Create<T extends unknown>(value: T | null, jsonTypeInfo: JsonTypeInfo_1<T>, options?: Nullable_1<JsonNodeOptions>): JsonValue | null;
+    Create<T extends unknown>(value: T | null, options?: Nullable_1<JsonNodeOptions>): JsonValue | null;
 };
 
 

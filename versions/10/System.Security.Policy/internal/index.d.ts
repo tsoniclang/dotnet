@@ -3,7 +3,7 @@
 // Assembly: System.Security.AccessControl
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -22,19 +22,19 @@ export interface Evidence$instance {
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     Locked: boolean;
-    readonly SyncRoot: JsValue;
-    AddAssembly(id: JsValue): void;
-    AddAssemblyEvidence<T extends EvidenceBase>(evidence: T): void;
-    AddHost(id: JsValue): void;
-    AddHostEvidence<T extends EvidenceBase>(evidence: T): void;
+    readonly SyncRoot: unknown;
+    AddAssembly(id: unknown): void;
+    AddAssemblyEvidence<T extends unknown & EvidenceBase>(evidence: T): void;
+    AddHost(id: unknown): void;
+    AddHostEvidence<T extends unknown & EvidenceBase>(evidence: T): void;
     Clear(): void;
     Clone(): Evidence | null;
     CopyTo(array: ClrArray, index: int): void;
     GetAssemblyEnumerator(): IEnumerator;
-    GetAssemblyEvidence<T extends EvidenceBase>(): T | null;
+    GetAssemblyEvidence<T extends unknown & EvidenceBase>(): T | null;
     GetEnumerator(): IEnumerator;
     GetHostEnumerator(): IEnumerator;
-    GetHostEvidence<T extends EvidenceBase>(): T | null;
+    GetHostEvidence<T extends unknown & EvidenceBase>(): T | null;
     Merge(evidence: Evidence): void;
     RemoveType(t: Type): void;
 }
@@ -42,7 +42,7 @@ export interface Evidence$instance {
 
 export const Evidence: {
     new(): Evidence;
-    new(hostEvidence: JsValue[], assemblyEvidence: JsValue[]): Evidence;
+    new(hostEvidence: unknown[], assemblyEvidence: unknown[]): Evidence;
     new(evidence: Evidence): Evidence;
     new(hostEvidence: EvidenceBase[], assemblyEvidence: EvidenceBase[]): Evidence;
 };

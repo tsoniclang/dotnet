@@ -3,7 +3,7 @@
 // Assembly: System.Net.Http
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -70,10 +70,10 @@ export enum HttpVersionPolicy {
 }
 
 
-export type HeaderEncodingSelector_1<TContext> = (headerName: string, context: TContext) => Encoding | null;
+export type HeaderEncodingSelector_1<TContext extends unknown> = (headerName: string, context: TContext) => Encoding | null;
 
 
-export interface HttpRequestOptionsKey_1$instance<TValue> {
+export interface HttpRequestOptionsKey_1$instance<TValue extends unknown> {
     readonly __tsonic_type_System_Net_Http_HttpRequestOptionsKey_1: never;
 
     readonly Key: string;
@@ -81,11 +81,11 @@ export interface HttpRequestOptionsKey_1$instance<TValue> {
 
 
 export const HttpRequestOptionsKey_1: {
-    new<TValue>(key: string): HttpRequestOptionsKey_1<TValue>;
+    new<TValue extends unknown>(key: string): HttpRequestOptionsKey_1<TValue>;
 };
 
 
-export type HttpRequestOptionsKey_1<TValue> = HttpRequestOptionsKey_1$instance<TValue>;
+export type HttpRequestOptionsKey_1<TValue extends unknown> = HttpRequestOptionsKey_1$instance<TValue>;
 
 export interface ByteArrayContent$instance extends HttpContent$instance {
     readonly __tsonic_type_System_Net_Http_ByteArrayContent: never;
@@ -261,7 +261,7 @@ export interface HttpClientHandler$instance extends HttpMessageHandler$instance 
     get MeterFactory(): IMeterFactory | null;
     set MeterFactory(value: IMeterFactory | null);
     PreAuthenticate: boolean;
-    readonly Properties: IDictionary_2<System_Internal.String, JsValue | null>;
+    readonly Properties: IDictionary_2<System_Internal.String, unknown | null>;
     get Proxy(): IWebProxy | null;
     set Proxy(value: IWebProxy | null);
     get ServerCertificateCustomValidationCallback(): Func_5<HttpRequestMessage, X509Certificate2 | null, X509Chain | null, SslPolicyErrors, System_Internal.Boolean> | null;
@@ -416,7 +416,7 @@ export interface HttpMethod$instance {
 
     readonly Method: string;
     Equals(other: HttpMethod | null): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -505,7 +505,7 @@ export interface HttpRequestMessage$instance {
     readonly Headers: HttpRequestHeaders;
     Method: HttpMethod;
     readonly Options: HttpRequestOptions;
-    readonly Properties: IDictionary_2<System_Internal.String, JsValue | null>;
+    readonly Properties: IDictionary_2<System_Internal.String, unknown | null>;
     get RequestUri(): Uri | null;
     set RequestUri(value: Uri | null);
     Version: Version;
@@ -540,8 +540,8 @@ export interface HttpRequestOptions$instance {
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyDictionary_2: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
-    Set<TValue>(key: HttpRequestOptionsKey_1<TValue>, value: TValue): void;
-    TryGetValue<TValue>(key: HttpRequestOptionsKey_1<TValue>, value: TValue): boolean;
+    Set<TValue extends unknown>(key: HttpRequestOptionsKey_1<TValue>, value: TValue): void;
+    TryGetValue<TValue extends unknown>(key: HttpRequestOptionsKey_1<TValue>, value: TValue): boolean;
 }
 
 
@@ -551,11 +551,11 @@ export const HttpRequestOptions: {
 
 
 export interface __HttpRequestOptions$views {
-    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
-    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<System_Internal.String, JsValue>;
-    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
-    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<System_Internal.String, JsValue>>;
-    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<System_Internal.String, JsValue>;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<System_Internal.String, unknown>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<System_Internal.String, unknown>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<System_Internal.String, unknown>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
@@ -765,7 +765,7 @@ export interface SocketsHttpHandler$instance extends HttpMessageHandler$instance
     PooledConnectionIdleTimeout: TimeSpan;
     PooledConnectionLifetime: TimeSpan;
     PreAuthenticate: boolean;
-    readonly Properties: IDictionary_2<System_Internal.String, JsValue | null>;
+    readonly Properties: IDictionary_2<System_Internal.String, unknown | null>;
     get Proxy(): IWebProxy | null;
     set Proxy(value: IWebProxy | null);
     get RequestHeaderEncodingSelector(): HeaderEncodingSelector_1<HttpRequestMessage> | null;

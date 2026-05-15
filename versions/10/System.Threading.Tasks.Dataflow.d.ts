@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Threading.Tasks.Dataflow/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { IAsyncEnumerable_1, IEnumerable_1, IList_1 } from './System.Collections.Generic/internal/index.js';
 import type { Task, Task_1, TaskScheduler } from './System.Threading.Tasks/internal/index.js';
@@ -20,10 +24,10 @@ export { DataflowLinkOptions as DataflowLinkOptions } from './System.Threading.T
 export { DataflowMessageHeader as DataflowMessageHeader } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { DataflowMessageStatus as DataflowMessageStatus } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export type IDataflowBlock = Internal.IDataflowBlock;
-export type IPropagatorBlock<TInput, TOutput> = Internal.IPropagatorBlock_2<TInput, TOutput>;
-export type IReceivableSourceBlock<TOutput> = Internal.IReceivableSourceBlock_1<TOutput>;
-export type ISourceBlock<TOutput> = Internal.ISourceBlock_1<TOutput>;
-export type ITargetBlock<TInput> = Internal.ITargetBlock_1<TInput>;
+export type IPropagatorBlock<TInput extends unknown, TOutput extends unknown> = Internal.IPropagatorBlock_2<TInput, TOutput>;
+export type IReceivableSourceBlock<TOutput extends unknown> = Internal.IReceivableSourceBlock_1<TOutput>;
+export type ISourceBlock<TOutput extends unknown> = Internal.ISourceBlock_1<TOutput>;
+export type ITargetBlock<TInput extends unknown> = Internal.ITargetBlock_1<TInput>;
 export { ActionBlock_1 as ActionBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { BatchBlock_1 as BatchBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { BroadcastBlock_1 as BroadcastBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
@@ -39,20 +43,20 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type BatchedJoinBlock<
-  T1 = __,
-  T2 = __,
-  T3 = __,
+  T1 extends unknown | __ = __,
+  T2 extends unknown | __ = __,
+  T3 extends unknown | __ = __,
 > =
-  [T3] extends [__] ? Internal.BatchedJoinBlock_2<T1, T2> :
-  Internal.BatchedJoinBlock_3<T1, T2, T3>;
+  [T3] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? Internal.BatchedJoinBlock_2<T1, T2> : never : never :
+  [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? Internal.BatchedJoinBlock_3<T1, T2, T3> : never : never : never;
 
 export type JoinBlock<
-  T1 = __,
-  T2 = __,
-  T3 = __,
+  T1 extends unknown | __ = __,
+  T2 extends unknown | __ = __,
+  T3 extends unknown | __ = __,
 > =
-  [T3] extends [__] ? Internal.JoinBlock_2<T1, T2> :
-  Internal.JoinBlock_3<T1, T2, T3>;
+  [T3] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? Internal.JoinBlock_2<T1, T2> : never : never :
+  [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? Internal.JoinBlock_3<T1, T2, T3> : never : never : never;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Threading_Tasks_Dataflow as ExtensionMethods } from './__internal/extensions/index.js';

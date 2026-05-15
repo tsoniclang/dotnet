@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Buffers.Text/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { OperationStatus, StandardFormat } from './System.Buffers/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Guid, Int16, Int32, Int64, Object as ClrObject, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, TimeSpan, Type, UInt16, UInt32, UInt64, Void } from './System/internal/index.js';

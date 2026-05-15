@@ -3,7 +3,7 @@
 // Assembly: System.Web.HttpUtility
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -34,7 +34,7 @@ export const HttpUtility: {
     HtmlAttributeEncode(s: string | null): string | null;
     HtmlDecode(s: string | null, output: TextWriter): void;
     HtmlDecode(s: string | null): string | null;
-    HtmlEncode(value: JsValue | null): string | null;
+    HtmlEncode(value: unknown | null): string | null;
     HtmlEncode(s: string | null, output: TextWriter): void;
     HtmlEncode(s: string | null): string | null;
     JavaScriptStringEncode(value: string | null, addDoubleQuotes: boolean): string;

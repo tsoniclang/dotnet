@@ -3,7 +3,7 @@
 // Assembly: System.Net.Http
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -41,7 +41,7 @@ export interface __HeaderStringValues$views {
 export type HeaderStringValues = HeaderStringValues$instance & __HeaderStringValues$views;
 
 
-export interface HeaderStringValues_Enumerator$instance extends IEnumerator_1<System_Internal.String>, IEnumerator, IDisposable {
+export interface HeaderStringValues_Enumerator$instance {
     readonly __tsonic_type_System_Net_Http_Headers_HeaderStringValues_Enumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -51,6 +51,7 @@ export interface HeaderStringValues_Enumerator$instance extends IEnumerator_1<Sy
     readonly Current: string;
     Dispose(): void;
     MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -91,7 +92,7 @@ export interface __HttpHeadersNonValidated$views {
 export type HttpHeadersNonValidated = HttpHeadersNonValidated$instance & __HttpHeadersNonValidated$views & { readonly [headerName: string]: HeaderStringValues; };
 
 
-export interface HttpHeadersNonValidated_Enumerator$instance extends IEnumerator_1<KeyValuePair_2<System_Internal.String, HeaderStringValues>>, IEnumerator, IDisposable {
+export interface HttpHeadersNonValidated_Enumerator$instance extends IEnumerator_1<KeyValuePair_2<System_Internal.String, HeaderStringValues>> {
     readonly __tsonic_type_System_Net_Http_Headers_HttpHeadersNonValidated_Enumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -101,6 +102,7 @@ export interface HttpHeadersNonValidated_Enumerator$instance extends IEnumerator
     readonly Current: KeyValuePair_2<System_Internal.String, HeaderStringValues>;
     Dispose(): void;
     MoveNext(): boolean;
+    Reset(): void;
 }
 
 
@@ -118,7 +120,7 @@ export interface AuthenticationHeaderValue$instance extends System_Internal.IClo
 
     readonly Parameter: string | null;
     readonly Scheme: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -164,7 +166,7 @@ export interface CacheControlHeaderValue$instance extends System_Internal.IClone
     Public: boolean;
     get SharedMaxAge(): Nullable_1<TimeSpan>;
     set SharedMaxAge(value: Nullable_1<TimeSpan> | TimeSpan);
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -205,7 +207,7 @@ export interface ContentDispositionHeaderValue$instance extends System_Internal.
     set ReadDate(value: Nullable_1<DateTimeOffset> | DateTimeOffset);
     get Size(): Nullable_1<System_Internal.Int64>;
     set Size(value: Nullable_1<System_Internal.Int64> | long);
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -236,7 +238,7 @@ export interface ContentRangeHeaderValue$instance extends System_Internal.IClone
     readonly Length: Nullable_1<System_Internal.Int64>;
     readonly To: Nullable_1<System_Internal.Int64>;
     Unit: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -265,7 +267,7 @@ export interface EntityTagHeaderValue$instance extends System_Internal.ICloneabl
 
     IsWeak: boolean;
     Tag: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -360,7 +362,7 @@ export interface __HttpHeaders$views {
 export type HttpHeaders = HttpHeaders$instance & __HttpHeaders$views;
 
 
-export interface HttpHeaderValueCollection_1$instance<T> {
+export interface HttpHeaderValueCollection_1$instance<T extends (object | null)> {
     readonly __tsonic_type_System_Net_Http_Headers_HttpHeaderValueCollection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -385,13 +387,13 @@ export const HttpHeaderValueCollection_1: {
 };
 
 
-export interface __HttpHeaderValueCollection_1$views<T> {
+export interface __HttpHeaderValueCollection_1$views<T extends (object | null)> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type HttpHeaderValueCollection_1<T> = HttpHeaderValueCollection_1$instance<T> & __HttpHeaderValueCollection_1$views<T>;
+export type HttpHeaderValueCollection_1<T extends (object | null)> = HttpHeaderValueCollection_1$instance<T> & __HttpHeaderValueCollection_1$views<T>;
 
 
 export interface HttpRequestHeaders$instance extends HttpHeaders$instance {
@@ -522,7 +524,7 @@ export interface MediaTypeHeaderValue$instance extends System_Internal.ICloneabl
     get MediaType(): string | null;
     set MediaType(value: string | null);
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -574,7 +576,7 @@ export interface NameValueHeaderValue$instance extends System_Internal.ICloneabl
     readonly Name: string;
     get Value(): string | null;
     set Value(value: string | null);
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -601,7 +603,7 @@ export interface NameValueWithParametersHeaderValue$instance extends NameValueHe
     readonly __tsonic_iface_System_ICloneable: never;
 
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -627,7 +629,7 @@ export interface ProductHeaderValue$instance extends System_Internal.ICloneable$
 
     readonly Name: string;
     readonly Version: string | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -655,7 +657,7 @@ export interface ProductInfoHeaderValue$instance extends System_Internal.IClonea
 
     readonly Comment: string | null;
     readonly Product: ProductHeaderValue | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -684,7 +686,7 @@ export interface RangeConditionHeaderValue$instance extends System_Internal.IClo
 
     readonly Date: Nullable_1<DateTimeOffset>;
     readonly EntityTag: EntityTagHeaderValue | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -713,7 +715,7 @@ export interface RangeHeaderValue$instance extends System_Internal.ICloneable$in
 
     readonly Ranges: ICollection_1<RangeItemHeaderValue>;
     Unit: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -741,7 +743,7 @@ export interface RangeItemHeaderValue$instance extends System_Internal.ICloneabl
 
     readonly From: Nullable_1<System_Internal.Int64>;
     readonly To: Nullable_1<System_Internal.Int64>;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -766,7 +768,7 @@ export interface RetryConditionHeaderValue$instance extends System_Internal.IClo
 
     readonly Date: Nullable_1<DateTimeOffset>;
     readonly Delta: Nullable_1<TimeSpan>;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -794,7 +796,7 @@ export interface StringWithQualityHeaderValue$instance extends System_Internal.I
 
     readonly Quality: Nullable_1<System_Internal.Double>;
     readonly Value: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -822,7 +824,7 @@ export interface TransferCodingHeaderValue$instance extends System_Internal.IClo
 
     readonly Parameters: ICollection_1<NameValueHeaderValue>;
     readonly Value: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -874,7 +876,7 @@ export interface ViaHeaderValue$instance extends System_Internal.ICloneable$inst
     readonly ProtocolName: string | null;
     readonly ProtocolVersion: string;
     readonly ReceivedBy: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -905,7 +907,7 @@ export interface WarningHeaderValue$instance extends System_Internal.ICloneable$
     readonly Code: int;
     readonly Date: Nullable_1<DateTimeOffset>;
     readonly Text: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }

@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { IDictionary } from './System.Collections/internal/index.js';
 import type { MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
@@ -39,5 +43,5 @@ export { JSHost$instance as JSHost } from './System.Runtime.InteropServices.Java
 export { JSFunctionBinding as JSFunctionBinding } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSMarshalerType as JSMarshalerType } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSMarshalerArgument as JSMarshalerArgument } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
-export type JSMarshalerArgument_ArgumentToManagedCallback<T> = Internal.JSMarshalerArgument_ArgumentToManagedCallback_1<T>;
-export type JSMarshalerArgument_ArgumentToJSCallback<T> = Internal.JSMarshalerArgument_ArgumentToJSCallback_1<T>;
+export type JSMarshalerArgument_ArgumentToManagedCallback<T extends unknown> = Internal.JSMarshalerArgument_ArgumentToManagedCallback_1<T>;
+export type JSMarshalerArgument_ArgumentToJSCallback<T extends unknown> = Internal.JSMarshalerArgument_ArgumentToJSCallback_1<T>;

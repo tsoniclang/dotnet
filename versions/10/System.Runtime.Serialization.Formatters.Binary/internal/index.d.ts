@@ -3,7 +3,7 @@
 // Assembly: System.Runtime.Serialization.Formatters
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -27,8 +27,8 @@ export interface BinaryFormatter$instance extends System_Runtime_Serialization_I
     get SurrogateSelector(): ISurrogateSelector | null;
     set SurrogateSelector(value: ISurrogateSelector | null);
     TypeFormat: FormatterTypeStyle;
-    Deserialize(serializationStream: Stream): JsValue;
-    Serialize(serializationStream: Stream, graph: JsValue): void;
+    Deserialize(serializationStream: Stream): unknown;
+    Serialize(serializationStream: Stream, graph: unknown): void;
 }
 
 

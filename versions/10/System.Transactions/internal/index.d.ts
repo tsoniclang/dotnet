@@ -3,7 +3,7 @@
 // Assembly: System.Transactions.Local
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -69,10 +69,10 @@ export enum TransactionStatus {
 export type HostCurrentTransactionCallback = () => Transaction | null;
 
 
-export type TransactionCompletedEventHandler = (sender: JsValue | null, e: TransactionEventArgs) => void;
+export type TransactionCompletedEventHandler = (sender: unknown | null, e: TransactionEventArgs) => void;
 
 
-export type TransactionStartedEventHandler = (sender: JsValue | null, e: TransactionEventArgs) => void;
+export type TransactionStartedEventHandler = (sender: unknown | null, e: TransactionEventArgs) => void;
 
 
 export interface IDtcTransaction$instance {
@@ -150,7 +150,7 @@ export interface TransactionOptions$instance {
 
     IsolationLevel: IsolationLevel;
     Timeout: TimeSpan;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: TransactionOptions): boolean;
     GetHashCode(): int;
 }
@@ -178,7 +178,7 @@ export interface CommittableTransaction$instance extends Transaction$instance, S
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    BeginCommit(asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginCommit(asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     Commit(): void;
     EndCommit(asyncResult: IAsyncResult): void;
 }
@@ -308,7 +308,7 @@ export interface Transaction$instance extends System_Internal.IDisposable$instan
     EnlistPromotableSinglePhase(promotableSinglePhaseNotification: IPromotableSinglePhaseNotification, promoterType: Guid): boolean;
     EnlistVolatile(enlistmentNotification: IEnlistmentNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
     EnlistVolatile(singlePhaseNotification: ISinglePhaseNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     GetPromotedToken(): byte[];
     PromoteAndEnlistDurable(resourceManagerIdentifier: Guid, promotableNotification: IPromotableSinglePhaseNotification, enlistmentNotification: ISinglePhaseNotification, enlistmentOptions: EnlistmentOptions): Enlistment;

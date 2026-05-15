@@ -26,7 +26,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCTrackedTypeAttribute::.ctor():void",
-          "metadataToken": 100695198,
+          "metadataToken": 100695200,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal::Initialize(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void",
           "clrName": "Initialize",
-          "metadataToken": 100695190,
+          "metadataToken": 100695192,
           "canonicalSignature": "(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void",
           "normalizedSignature": "Initialize|(,,,System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -76,7 +76,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal::CreateReferenceTrackingHandle(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle",
           "clrName": "CreateReferenceTrackingHandle",
-          "metadataToken": 100695191,
+          "metadataToken": 100695193,
           "canonicalSignature": "(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle",
           "normalizedSignature": "CreateReferenceTrackingHandle|(System.Object,System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Runtime.InteropServices.GCHandle|static=true",
           "emitScope": "ClassSurface",
@@ -102,7 +102,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal::SetMessageSendCallback(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void",
           "clrName": "SetMessageSendCallback",
-          "metadataToken": 100695192,
+          "metadataToken": 100695194,
           "canonicalSignature": "(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void",
           "normalizedSignature": "SetMessageSendCallback|(System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction,System.IntPtr):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -122,7 +122,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal::SetMessageSendPendingException(System.Exception):System.Void",
           "clrName": "SetMessageSendPendingException",
-          "metadataToken": 100695193,
+          "metadataToken": 100695195,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "SetMessageSendPendingException|(System.Exception):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -184,7 +184,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67113865,
+          "metadataToken": 67113860,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -196,7 +196,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction::MsgSendSystem.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "clrName": "MsgSend",
-          "metadataToken": 67113866,
+          "metadataToken": 67113861,
           "normalizedSignature": "MsgSend|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -208,7 +208,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction::MsgSendFpretSystem.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "clrName": "MsgSendFpret",
-          "metadataToken": 67113867,
+          "metadataToken": 67113862,
           "normalizedSignature": "MsgSendFpret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -220,7 +220,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction::MsgSendStretSystem.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "clrName": "MsgSendStret",
-          "metadataToken": 67113868,
+          "metadataToken": 67113863,
           "normalizedSignature": "MsgSendStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -232,7 +232,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction::MsgSendSuperSystem.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "clrName": "MsgSendSuper",
-          "metadataToken": 67113869,
+          "metadataToken": 67113864,
           "normalizedSignature": "MsgSendSuper|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -244,7 +244,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction::MsgSendSuperStretSystem.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction",
           "clrName": "MsgSendSuperStret",
-          "metadataToken": 67113870,
+          "metadataToken": 67113865,
           "normalizedSignature": "MsgSendSuperStret|System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BMessageSendFunction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -286,7 +286,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler::Invoke(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):",
           "clrName": "Invoke",
-          "metadataToken": 100695195,
+          "metadataToken": 100695197,
           "canonicalSignature": "(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):",
           "normalizedSignature": "Invoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026):|static=false",
           "emitScope": "ClassSurface",
@@ -312,7 +312,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler::BeginInvoke(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginInvoke",
-          "metadataToken": 100695196,
+          "metadataToken": 100695198,
           "canonicalSignature": "(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(System.Exception,System.RuntimeMethodHandle,System.IntPtr\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "emitScope": "ClassSurface",
@@ -338,7 +338,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler::EndInvoke(System.IntPtr\u0026,System.IAsyncResult):",
           "clrName": "EndInvoke",
-          "metadataToken": 100695197,
+          "metadataToken": 100695199,
           "canonicalSignature": "(System.IntPtr\u0026,System.IAsyncResult):",
           "normalizedSignature": "EndInvoke|(System.IntPtr\u0026,System.IAsyncResult):|static=false",
           "emitScope": "ClassSurface",
@@ -368,7 +368,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal\u002BUnhandledExceptionPropagationHandler::.ctor(System.Object,System.IntPtr):void",
-          "metadataToken": 100695194,
+          "metadataToken": 100695196,
           "canonicalSignature": "(System.Object,System.IntPtr):void",
           "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
           "isStatic": false,

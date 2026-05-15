@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib, System.Reflection.Emit
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -133,7 +133,7 @@ export interface Label$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Id: int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: Label): boolean;
     GetHashCode(): int;
 }
@@ -168,7 +168,7 @@ export interface OpCode$instance {
     readonly StackBehaviourPop: StackBehaviour;
     readonly StackBehaviourPush: StackBehaviour;
     readonly Value: short;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: OpCode): boolean;
     GetHashCode(): int;
     ToString(): string | null;
@@ -270,10 +270,10 @@ export interface CustomAttributeBuilder$instance {
 
 
 export const CustomAttributeBuilder: {
-    new(con: ConstructorInfo, constructorArgs: (JsValue | null)[]): CustomAttributeBuilder;
-    new(con: ConstructorInfo, constructorArgs: (JsValue | null)[], namedProperties: PropertyInfo[], propertyValues: (JsValue | null)[]): CustomAttributeBuilder;
-    new(con: ConstructorInfo, constructorArgs: (JsValue | null)[], namedFields: FieldInfo[], fieldValues: (JsValue | null)[]): CustomAttributeBuilder;
-    new(con: ConstructorInfo, constructorArgs: (JsValue | null)[], namedProperties: PropertyInfo[], propertyValues: (JsValue | null)[], namedFields: FieldInfo[], fieldValues: (JsValue | null)[]): CustomAttributeBuilder;
+    new(con: ConstructorInfo, constructorArgs: (unknown | null)[]): CustomAttributeBuilder;
+    new(con: ConstructorInfo, constructorArgs: (unknown | null)[], namedProperties: PropertyInfo[], propertyValues: (unknown | null)[]): CustomAttributeBuilder;
+    new(con: ConstructorInfo, constructorArgs: (unknown | null)[], namedFields: FieldInfo[], fieldValues: (unknown | null)[]): CustomAttributeBuilder;
+    new(con: ConstructorInfo, constructorArgs: (unknown | null)[], namedProperties: PropertyInfo[], propertyValues: (unknown | null)[], namedFields: FieldInfo[], fieldValues: (unknown | null)[]): CustomAttributeBuilder;
 };
 
 
@@ -306,7 +306,7 @@ export const DynamicILInfo: {
 
 export type DynamicILInfo = DynamicILInfo$instance;
 
-export interface DynamicMethod$instance extends MethodInfo {
+export interface DynamicMethod$instance extends MethodInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
     readonly __tsonic_type_System_Reflection_Emit_DynamicMethod: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -326,20 +326,20 @@ export interface DynamicMethod$instance extends MethodInfo {
     readonly ReturnType: Type;
     readonly ReturnTypeCustomAttributes: ICustomAttributeProvider;
     CreateDelegate(delegateType: Type): Function;
-    CreateDelegate(delegateType: Type, target: JsValue | null): Function;
-    CreateDelegate<T extends Function>(): T;
-    CreateDelegate<T extends Function>(target: JsValue | null): T;
+    CreateDelegate(delegateType: Type, target: unknown | null): Function;
+    CreateDelegate<T extends unknown & Function>(): T;
+    CreateDelegate<T extends unknown & Function>(target: unknown | null): T;
     DefineParameter(position: int, attributes: ParameterAttributes, parameterName: string | null): ParameterBuilder | null;
     GetBaseDefinition(): MethodInfo;
-    GetCustomAttributes(attributeType: Type, inherit: boolean): JsValue[];
-    GetCustomAttributes(inherit: boolean): JsValue[];
+    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    GetCustomAttributes(inherit: boolean): unknown[];
     GetDynamicILInfo(): DynamicILInfo;
     GetILGenerator(streamSize: int): ILGenerator;
     GetILGenerator(): ILGenerator;
     GetMethodImplementationFlags(): MethodImplAttributes;
     GetParameters(): ParameterInfo[];
-    Invoke(obj: JsValue | null, invokeAttr: BindingFlags, binder: Binder | null, parameters: (JsValue | null)[] | null, culture: CultureInfo | null): JsValue | null;
-    Invoke(obj: JsValue | null, parameters: (JsValue | null)[] | null): JsValue | null;
+    Invoke(obj: unknown | null, invokeAttr: BindingFlags, binder: Binder | null, parameters: (unknown | null)[] | null, culture: CultureInfo | null): unknown | null;
+    Invoke(obj: unknown | null, parameters: (unknown | null)[] | null): unknown | null;
     IsDefined(attributeType: Type, inherit: boolean): boolean;
     ToString(): string;
 }
@@ -376,8 +376,8 @@ export interface EnumBuilder$instance extends TypeInfo, System_Reflection_Intern
     CreateType(): Type;
     CreateTypeInfo(): TypeInfo;
     CreateTypeInfoCore(): TypeInfo;
-    DefineLiteral(literalName: string, literalValue: JsValue | null): FieldBuilder;
-    DefineLiteralCore(literalName: string, literalValue: JsValue | null): FieldBuilder;
+    DefineLiteral(literalName: string, literalValue: unknown | null): FieldBuilder;
+    DefineLiteralCore(literalName: string, literalValue: unknown | null): FieldBuilder;
     MakeArrayType(): Type;
     MakeArrayType(rank: int): Type;
     MakeByRefType(): Type;
@@ -429,8 +429,8 @@ export interface FieldBuilder$instance extends FieldInfo, System_Reflection_Inte
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
-    SetConstant(defaultValue: JsValue | null): void;
-    SetConstantCore(defaultValue: JsValue | null): void;
+    SetConstant(defaultValue: unknown | null): void;
+    SetConstantCore(defaultValue: unknown | null): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -464,8 +464,10 @@ export interface GenericTypeParameterBuilder$instance extends TypeInfo, System_R
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
     SetGenericParameterAttributes(genericParameterAttributes: GenericParameterAttributes): void;
     SetGenericParameterAttributesCore(genericParameterAttributes: GenericParameterAttributes): void;
-    SetInterfaceConstraints(...interfaceConstraints: Type[] | null): void;
-    SetInterfaceConstraintsCore(...interfaceConstraints: Type[] | null): void;
+    SetInterfaceConstraints(...interfaceConstraints: Type[]): void;
+    SetInterfaceConstraints(interfaceConstraints: Type[] | null): void;
+    SetInterfaceConstraintsCore(...interfaceConstraints: Type[]): void;
+    SetInterfaceConstraintsCore(interfaceConstraints: Type[] | null): void;
 }
 
 
@@ -892,7 +894,7 @@ export interface ParameterBuilder$instance {
     readonly IsOut: boolean;
     readonly Name: string | null;
     readonly Position: int;
-    SetConstant(defaultValue: JsValue | null): void;
+    SetConstant(defaultValue: unknown | null): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -945,8 +947,8 @@ export interface PropertyBuilder$instance extends PropertyInfo, System_Reflectio
 
     AddOtherMethod(mdBuilder: MethodBuilder): void;
     AddOtherMethodCore(mdBuilder: MethodBuilder): void;
-    SetConstant(defaultValue: JsValue | null): void;
-    SetConstantCore(defaultValue: JsValue | null): void;
+    SetConstant(defaultValue: unknown | null): void;
+    SetConstantCore(defaultValue: unknown | null): void;
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -976,7 +978,7 @@ export interface SignatureHelper$instance {
     AddArgument(argument: Type, requiredCustomModifiers: Type[] | null, optionalCustomModifiers: Type[] | null): void;
     AddArguments(arguments: Type[] | null, requiredCustomModifiers: Type[][] | null, optionalCustomModifiers: Type[][] | null): void;
     AddSentinel(): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     GetSignature(): byte[];
     ToString(): string;

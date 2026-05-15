@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Diagnostics.Metrics/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { IEnumerable_1, IReadOnlyList_1, KeyValuePair_2 } from './System.Collections.Generic/internal/index.js';
 import type { TagList } from './System.Diagnostics/internal/index.js';
@@ -21,7 +25,7 @@ export type IMeterFactory = Internal.IMeterFactory;
 export { Measurement_1 as Measurement } from './System.Diagnostics.Metrics/internal/index.js';
 export { Meter as Meter } from './System.Diagnostics.Metrics/internal/index.js';
 export { MeterFactoryExtensions$instance as MeterFactoryExtensions } from './System.Diagnostics.Metrics/internal/index.js';
-export type MeasurementCallback<T> = Internal.MeasurementCallback_1<T>;
+export type MeasurementCallback<T extends NonNullable<unknown>> = Internal.MeasurementCallback_1<T>;
 export { MeterListener as MeterListener } from './System.Diagnostics.Metrics/internal/index.js';
 export { MeterOptions as MeterOptions } from './System.Diagnostics.Metrics/internal/index.js';
 export { ObservableCounter_1 as ObservableCounter } from './System.Diagnostics.Metrics/internal/index.js';
@@ -38,10 +42,10 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type Instrument<
-  T1 = __,
+  T1 extends NonNullable<unknown> | __ = __,
 > =
   [T1] extends [__] ? Internal.Instrument :
-  [T1] extends [NonNullable<JsValue>] ? Internal.Instrument_1<T1> : never;
+  [T1] extends [NonNullable<unknown>] ? Internal.Instrument_1<T1> : never;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Diagnostics_Metrics as ExtensionMethods } from './__internal/extensions/index.js';

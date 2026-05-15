@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib, System.Text.Encodings.Web
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -209,17 +209,17 @@ export type Utf8 = Utf8$instance;
 export interface Utf8_TryWriteInterpolatedStringHandler$instance {
     readonly __tsonic_type_System_Text_Unicode_Utf8_TryWriteInterpolatedStringHandler: never;
 
-    AppendFormatted<T>(value: T): boolean;
-    AppendFormatted<T>(value: T, format: string | null): boolean;
-    AppendFormatted<T>(value: T, alignment: int): boolean;
-    AppendFormatted<T>(value: T, alignment: int, format: string | null): boolean;
+    AppendFormatted<T extends unknown>(value: T): boolean;
+    AppendFormatted<T extends unknown>(value: T, format: string | null): boolean;
+    AppendFormatted<T extends unknown>(value: T, alignment: int): boolean;
+    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): boolean;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): boolean;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): boolean;
     AppendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     AppendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>, alignment?: int, format?: string | null): boolean;
     AppendFormatted(value: string | null): boolean;
     AppendFormatted(value: string | null, alignment?: int, format?: string | null): boolean;
-    AppendFormatted(value: JsValue | null, alignment?: int, format?: string | null): boolean;
+    AppendFormatted(value: unknown | null, alignment?: int, format?: string | null): boolean;
     AppendLiteral(value: string): boolean;
 }
 

@@ -3,7 +3,7 @@
 // Assembly: System.ComponentModel.TypeConverter
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -15,7 +15,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Boolean as ClrBoolean, DateTime, Delegate, Double, EventArgs, IAsyncResult, ICloneable, IDisposable, Int32, IntPtr, MarshalByRefObject, MulticastDelegate, Object as ClrObject, String as ClrString, TimeSpan, Type, Void } from "../../System/internal/index.js";
 
-export type ElapsedEventHandler = (sender: JsValue | null, e: ElapsedEventArgs) => void;
+export type ElapsedEventHandler = (sender: unknown | null, e: ElapsedEventArgs) => void;
 
 
 export interface ElapsedEventArgs$instance extends EventArgs {

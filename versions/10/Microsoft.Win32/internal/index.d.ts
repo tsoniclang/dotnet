@@ -3,7 +3,7 @@
 // Assembly: Microsoft.Win32.Registry
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -89,9 +89,9 @@ export interface RegistryKey$instance extends MarshalByRefObject, System_Interna
     GetAccessControl(): RegistrySecurity;
     GetAccessControl(includeSections: AccessControlSections): RegistrySecurity;
     GetSubKeyNames(): string[];
-    GetValue(name: string | null): JsValue | null;
-    GetValue(name: string | null, defaultValue: JsValue | null): JsValue | null;
-    GetValue(name: string | null, defaultValue: JsValue | null, options: RegistryValueOptions): JsValue | null;
+    GetValue(name: string | null): unknown | null;
+    GetValue(name: string | null, defaultValue: unknown | null): unknown | null;
+    GetValue(name: string | null, defaultValue: unknown | null, options: RegistryValueOptions): unknown | null;
     GetValueKind(name: string | null): RegistryValueKind;
     GetValueNames(): string[];
     OpenSubKey(name: string): RegistryKey | null;
@@ -100,8 +100,8 @@ export interface RegistryKey$instance extends MarshalByRefObject, System_Interna
     OpenSubKey(name: string, writable: boolean): RegistryKey | null;
     OpenSubKey(name: string, rights: RegistryRights): RegistryKey | null;
     SetAccessControl(registrySecurity: RegistrySecurity): void;
-    SetValue(name: string | null, value: JsValue): void;
-    SetValue(name: string | null, value: JsValue, valueKind: RegistryValueKind): void;
+    SetValue(name: string | null, value: unknown): void;
+    SetValue(name: string | null, value: unknown, valueKind: RegistryValueKind): void;
     ToString(): string;
 }
 
@@ -129,9 +129,9 @@ export abstract class Registry$instance {
     static readonly LocalMachine: RegistryKey;
     static readonly PerformanceData: RegistryKey;
     static readonly Users: RegistryKey;
-    static GetValue(keyName: string, valueName: string | null, defaultValue: JsValue | null): JsValue | null;
-    static SetValue(keyName: string, valueName: string | null, value: JsValue, valueKind: RegistryValueKind): void;
-    static SetValue(keyName: string, valueName: string | null, value: JsValue): void;
+    static GetValue(keyName: string, valueName: string | null, defaultValue: unknown | null): unknown | null;
+    static SetValue(keyName: string, valueName: string | null, value: unknown, valueKind: RegistryValueKind): void;
+    static SetValue(keyName: string, valueName: string | null, value: unknown): void;
 }
 
 

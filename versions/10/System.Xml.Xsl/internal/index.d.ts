@@ -3,7 +3,7 @@
 // Assembly: System.Private.Xml
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -20,7 +20,7 @@ import type { IXmlNamespaceResolver, NameTable, XmlNamespaceManager, XmlNamespac
 import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, EventArgs, Exception, IAsyncResult, ICloneable, Int32, IntPtr, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, Type, Void } from "../../System/internal/index.js";
 
-export type XsltMessageEncounteredEventHandler = (sender: JsValue, e: XsltMessageEncounteredEventArgs) => void;
+export type XsltMessageEncounteredEventHandler = (sender: unknown, e: XsltMessageEncounteredEventArgs) => void;
 
 
 export interface IXsltContextFunction$instance {
@@ -30,7 +30,7 @@ export interface IXsltContextFunction$instance {
     readonly Maxargs: int;
     readonly ReturnType: XPathResultType;
     readonly ArgTypes: XPathResultType[];
-    Invoke(xsltContext: XsltContext, args: JsValue[], docContext: XPathNavigator): JsValue;
+    Invoke(xsltContext: XsltContext, args: unknown[], docContext: XPathNavigator): unknown;
 }
 
 
@@ -42,7 +42,7 @@ export interface IXsltContextVariable$instance {
     readonly IsLocal: boolean;
     readonly IsParam: boolean;
     readonly VariableType: XPathResultType;
-    Evaluate(xsltContext: XsltContext): JsValue;
+    Evaluate(xsltContext: XsltContext): unknown;
 }
 
 
@@ -90,13 +90,13 @@ export type XslCompiledTransform = XslCompiledTransform$instance;
 export interface XsltArgumentList$instance {
     readonly __tsonic_type_System_Xml_Xsl_XsltArgumentList: never;
 
-    AddExtensionObject(namespaceUri: string, extension: JsValue): void;
-    AddParam(name: string, namespaceUri: string, parameter: JsValue): void;
+    AddExtensionObject(namespaceUri: string, extension: unknown): void;
+    AddParam(name: string, namespaceUri: string, parameter: unknown): void;
     Clear(): void;
-    GetExtensionObject(namespaceUri: string): JsValue | null;
-    GetParam(name: string, namespaceUri: string): JsValue | null;
-    RemoveExtensionObject(namespaceUri: string): JsValue | null;
-    RemoveParam(name: string, namespaceUri: string): JsValue | null;
+    GetExtensionObject(namespaceUri: string): unknown | null;
+    GetParam(name: string, namespaceUri: string): unknown | null;
+    RemoveExtensionObject(namespaceUri: string): unknown | null;
+    RemoveParam(name: string, namespaceUri: string): unknown | null;
 }
 
 
@@ -107,7 +107,7 @@ export const XsltArgumentList: {
 
 export type XsltArgumentList = XsltArgumentList$instance;
 
-export interface XsltCompileException$instance extends XsltException$instance {
+export interface XsltCompileException$instance extends XsltException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Xml_Xsl_XsltCompileException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -157,7 +157,7 @@ export interface __XsltContext$views {
 export type XsltContext = XsltContext$instance & __XsltContext$views;
 
 
-export interface XsltException$instance extends SystemException {
+export interface XsltException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Xml_Xsl_XsltException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;

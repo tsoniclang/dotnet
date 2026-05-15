@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Security.Authentication.ExtendedProtection/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { SafeHandleZeroOrMinusOneIsInvalid } from './Microsoft.Win32.SafeHandles/internal/index.js';
 import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';

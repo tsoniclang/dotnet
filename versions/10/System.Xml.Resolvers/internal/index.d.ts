@@ -3,7 +3,7 @@
 // Assembly: System.Private.Xml
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -33,8 +33,8 @@ export interface XmlPreloadedResolver$instance extends XmlResolver {
     Add(uri: Uri, value: byte[], offset: int, count: int): void;
     Add(uri: Uri, value: Stream): void;
     Add(uri: Uri, value: string): void;
-    GetEntity(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): JsValue | null;
-    GetEntityAsync(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): Task_1<JsValue>;
+    GetEntity(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): unknown | null;
+    GetEntityAsync(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): Task_1<unknown>;
     Remove(uri: Uri): void;
     ResolveUri(baseUri: Uri | null, relativeUri: string | null): Uri;
     SupportsType(absoluteUri: Uri, type: Type | null): boolean;

@@ -3,7 +3,7 @@
 // Assembly: System.ObjectModel, System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -18,7 +18,7 @@ import type { INotifyPropertyChanged, PropertyChangedEventArgs, PropertyChangedE
 import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Boolean as ClrBoolean, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
-export interface Collection_1$instance<T> {
+export interface Collection_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_ObjectModel_Collection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -48,12 +48,12 @@ export interface Collection_1$instance<T> {
 
 
 export const Collection_1: {
-    new<T>(): Collection_1<T>;
-    new<T>(list: IList_1<T>): Collection_1<T>;
+    new<T extends unknown>(): Collection_1<T>;
+    new<T extends unknown>(list: IList_1<T>): Collection_1<T>;
 };
 
 
-export interface __Collection_1$views<T> {
+export interface __Collection_1$views<T extends unknown> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
@@ -63,10 +63,10 @@ export interface __Collection_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type Collection_1<T> = Collection_1$instance<T> & __Collection_1$views<T> & { [index: number]: T; };
+export type Collection_1<T extends unknown> = Collection_1$instance<T> & __Collection_1$views<T> & { [index: number]: T; };
 
 
-export interface KeyedCollection_2$instance<TKey, TItem> extends Collection_1$instance<TItem> {
+export interface KeyedCollection_2$instance<TKey extends unknown, TItem extends unknown> extends Collection_1$instance<TItem> {
     readonly __tsonic_type_System_Collections_ObjectModel_KeyedCollection_2: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -92,11 +92,11 @@ export interface KeyedCollection_2$instance<TKey, TItem> extends Collection_1$in
 }
 
 
-export const KeyedCollection_2: (abstract new<TKey, TItem>() => KeyedCollection_2<TKey, TItem>) & (abstract new<TKey, TItem>(comparer: IEqualityComparer_1<TKey> | null) => KeyedCollection_2<TKey, TItem>) & (abstract new<TKey, TItem>(comparer: IEqualityComparer_1<TKey> | null, dictionaryCreationThreshold: int) => KeyedCollection_2<TKey, TItem>) & {
+export const KeyedCollection_2: (abstract new<TKey extends unknown, TItem extends unknown>() => KeyedCollection_2<TKey, TItem>) & (abstract new<TKey extends unknown, TItem extends unknown>(comparer: IEqualityComparer_1<TKey> | null) => KeyedCollection_2<TKey, TItem>) & (abstract new<TKey extends unknown, TItem extends unknown>(comparer: IEqualityComparer_1<TKey> | null, dictionaryCreationThreshold: int) => KeyedCollection_2<TKey, TItem>) & {
 };
 
 
-export interface __KeyedCollection_2$views<TKey, TItem> {
+export interface __KeyedCollection_2$views<TKey extends unknown, TItem extends unknown> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<TItem>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TItem>;
     As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<TItem>;
@@ -106,10 +106,10 @@ export interface __KeyedCollection_2$views<TKey, TItem> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type KeyedCollection_2<TKey, TItem> = KeyedCollection_2$instance<TKey, TItem> & __KeyedCollection_2$views<TKey, TItem>;
+export type KeyedCollection_2<TKey extends unknown, TItem extends unknown> = KeyedCollection_2$instance<TKey, TItem> & __KeyedCollection_2$views<TKey, TItem>;
 
 
-export interface ObservableCollection_1$instance<T> extends Collection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged, System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
+export interface ObservableCollection_1$instance<T extends unknown> extends Collection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged, System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
     readonly __tsonic_type_System_Collections_ObjectModel_ObservableCollection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -135,13 +135,13 @@ export interface ObservableCollection_1$instance<T> extends Collection_1$instanc
 
 
 export const ObservableCollection_1: {
-    new<T>(): ObservableCollection_1<T>;
-    new<T>(collection: IEnumerable_1<T>): ObservableCollection_1<T>;
-    new<T>(list: List_1<T>): ObservableCollection_1<T>;
+    new<T extends unknown>(): ObservableCollection_1<T>;
+    new<T extends unknown>(collection: IEnumerable_1<T>): ObservableCollection_1<T>;
+    new<T extends unknown>(list: List_1<T>): ObservableCollection_1<T>;
 };
 
 
-export interface __ObservableCollection_1$views<T> {
+export interface __ObservableCollection_1$views<T extends unknown> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
@@ -151,10 +151,10 @@ export interface __ObservableCollection_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type ObservableCollection_1<T> = ObservableCollection_1$instance<T> & __ObservableCollection_1$views<T>;
+export type ObservableCollection_1<T extends unknown> = ObservableCollection_1$instance<T> & __ObservableCollection_1$views<T>;
 
 
-export interface ReadOnlyCollection_1$instance<T> {
+export interface ReadOnlyCollection_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_ObjectModel_ReadOnlyCollection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -175,12 +175,12 @@ export interface ReadOnlyCollection_1$instance<T> {
 
 
 export const ReadOnlyCollection_1: {
-    new<T>(list: IList_1<T>): ReadOnlyCollection_1<T>;
-    readonly Empty: <T>() => ReadOnlyCollection_1<T>;
+    new<T extends unknown>(list: IList_1<T>): ReadOnlyCollection_1<T>;
+    readonly Empty: <T extends unknown>() => ReadOnlyCollection_1<T>;
 };
 
 
-export interface __ReadOnlyCollection_1$views<T> {
+export interface __ReadOnlyCollection_1$views<T extends unknown> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
@@ -190,10 +190,10 @@ export interface __ReadOnlyCollection_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type ReadOnlyCollection_1<T> = ReadOnlyCollection_1$instance<T> & __ReadOnlyCollection_1$views<T> & { readonly [index: number]: T; };
+export type ReadOnlyCollection_1<T extends unknown> = ReadOnlyCollection_1$instance<T> & __ReadOnlyCollection_1$views<T> & { readonly [index: number]: T; };
 
 
-export interface ReadOnlyDictionary_2$instance<TKey, TValue> {
+export interface ReadOnlyDictionary_2$instance<TKey extends unknown, TValue extends unknown> {
     readonly __tsonic_type_System_Collections_ObjectModel_ReadOnlyDictionary_2: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -216,12 +216,12 @@ export interface ReadOnlyDictionary_2$instance<TKey, TValue> {
 
 
 export const ReadOnlyDictionary_2: {
-    new<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
-    readonly Empty: <TKey, TValue>() => ReadOnlyDictionary_2<TKey, TValue>;
+    new<TKey extends unknown, TValue extends unknown>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
+    readonly Empty: <TKey extends unknown, TValue extends unknown>() => ReadOnlyDictionary_2<TKey, TValue>;
 };
 
 
-export interface __ReadOnlyDictionary_2$views<TKey, TValue> {
+export interface __ReadOnlyDictionary_2$views<TKey extends unknown, TValue extends unknown> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
@@ -232,10 +232,10 @@ export interface __ReadOnlyDictionary_2$views<TKey, TValue> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ReadOnlyDictionary_2<TKey, TValue> = ReadOnlyDictionary_2$instance<TKey, TValue> & __ReadOnlyDictionary_2$views<TKey, TValue>;
+export type ReadOnlyDictionary_2<TKey extends unknown, TValue extends unknown> = ReadOnlyDictionary_2$instance<TKey, TValue> & __ReadOnlyDictionary_2$views<TKey, TValue>;
 
 
-export interface ReadOnlyDictionary_2_KeyCollection$instance<TKey, TValue> extends ICollection_1<TKey>, IEnumerable_1<TKey>, IEnumerable, ICollection, IReadOnlyCollection_1<TKey> {
+export interface ReadOnlyDictionary_2_KeyCollection$instance<TKey extends unknown, TValue extends unknown> {
     readonly __tsonic_type_System_Collections_ObjectModel_ReadOnlyDictionary_2_KeyCollection: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -255,9 +255,9 @@ export const ReadOnlyDictionary_2_KeyCollection: {
 };
 
 
-export type ReadOnlyDictionary_2_KeyCollection<TKey, TValue> = ReadOnlyDictionary_2_KeyCollection$instance<TKey, TValue>;
+export type ReadOnlyDictionary_2_KeyCollection<TKey extends unknown, TValue extends unknown> = ReadOnlyDictionary_2_KeyCollection$instance<TKey, TValue>;
 
-export interface ReadOnlyDictionary_2_ValueCollection$instance<TKey, TValue> extends ICollection_1<TValue>, IEnumerable_1<TValue>, IEnumerable, ICollection, IReadOnlyCollection_1<TValue> {
+export interface ReadOnlyDictionary_2_ValueCollection$instance<TKey extends unknown, TValue extends unknown> {
     readonly __tsonic_type_System_Collections_ObjectModel_ReadOnlyDictionary_2_ValueCollection: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -276,9 +276,9 @@ export const ReadOnlyDictionary_2_ValueCollection: {
 };
 
 
-export type ReadOnlyDictionary_2_ValueCollection<TKey, TValue> = ReadOnlyDictionary_2_ValueCollection$instance<TKey, TValue>;
+export type ReadOnlyDictionary_2_ValueCollection<TKey extends unknown, TValue extends unknown> = ReadOnlyDictionary_2_ValueCollection$instance<TKey, TValue>;
 
-export interface ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyCollection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged, System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
+export interface ReadOnlyObservableCollection_1$instance<T extends unknown> extends ReadOnlyCollection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged, System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
     readonly __tsonic_type_System_Collections_ObjectModel_ReadOnlyObservableCollection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -298,11 +298,11 @@ export interface ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyColl
 
 
 export const ReadOnlyObservableCollection_1: {
-    new<T>(list: ObservableCollection_1<T>): ReadOnlyObservableCollection_1<T>;
+    new<T extends unknown>(list: ObservableCollection_1<T>): ReadOnlyObservableCollection_1<T>;
 };
 
 
-export interface __ReadOnlyObservableCollection_1$views<T> {
+export interface __ReadOnlyObservableCollection_1$views<T extends unknown> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
@@ -312,10 +312,10 @@ export interface __ReadOnlyObservableCollection_1$views<T> {
     As_IList(): System_Collections_Internal.IList$instance;
 }
 
-export type ReadOnlyObservableCollection_1<T> = ReadOnlyObservableCollection_1$instance<T> & __ReadOnlyObservableCollection_1$views<T>;
+export type ReadOnlyObservableCollection_1<T extends unknown> = ReadOnlyObservableCollection_1$instance<T> & __ReadOnlyObservableCollection_1$views<T>;
 
 
-export interface ReadOnlySet_1$instance<T> {
+export interface ReadOnlySet_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_ObjectModel_ReadOnlySet_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -339,12 +339,12 @@ export interface ReadOnlySet_1$instance<T> {
 
 
 export const ReadOnlySet_1: {
-    new<T>(set: ISet_1<T>): ReadOnlySet_1<T>;
-    readonly Empty: <T>() => ReadOnlySet_1<T>;
+    new<T extends unknown>(set: ISet_1<T>): ReadOnlySet_1<T>;
+    readonly Empty: <T extends unknown>() => ReadOnlySet_1<T>;
 };
 
 
-export interface __ReadOnlySet_1$views<T> {
+export interface __ReadOnlySet_1$views<T extends unknown> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
@@ -354,12 +354,12 @@ export interface __ReadOnlySet_1$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ReadOnlySet_1<T> = ReadOnlySet_1$instance<T> & __ReadOnlySet_1$views<T>;
+export type ReadOnlySet_1<T extends unknown> = ReadOnlySet_1$instance<T> & __ReadOnlySet_1$views<T>;
 
 
 export abstract class ReadOnlyCollection$instance {
-    static CreateCollection<T>(values: ReadOnlySpan_1<T>): ReadOnlyCollection_1<T>;
-    static CreateSet<T>(values: ReadOnlySpan_1<T>): ReadOnlySet_1<T>;
+    static CreateCollection<T extends unknown>(values: ReadOnlySpan_1<T>): ReadOnlyCollection_1<T>;
+    static CreateSet<T extends unknown>(values: ReadOnlySpan_1<T>): ReadOnlySet_1<T>;
 }
 
 

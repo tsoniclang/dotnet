@@ -3,7 +3,7 @@
 // Assembly: System.IO.Compression, System.IO.Compression.Brotli, System.IO.Compression.ZipFile
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -114,7 +114,7 @@ export const BrotliCompressionOptions: {
 
 export type BrotliCompressionOptions = BrotliCompressionOptions$instance;
 
-export interface BrotliStream$instance extends Stream {
+export interface BrotliStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_IO_Compression_BrotliStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -126,8 +126,8 @@ export interface BrotliStream$instance extends Stream {
     readonly CanWrite: boolean;
     readonly Length: long;
     Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     Dispose(disposing: boolean): void;
     Dispose(): void;
     DisposeAsync(): ValueTask;
@@ -170,7 +170,7 @@ export interface __BrotliStream$views {
 export type BrotliStream = BrotliStream$instance & __BrotliStream$views;
 
 
-export interface DeflateStream$instance extends Stream {
+export interface DeflateStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_IO_Compression_DeflateStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -182,8 +182,8 @@ export interface DeflateStream$instance extends Stream {
     readonly CanWrite: boolean;
     readonly Length: long;
     Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     CopyTo(destination: Stream, bufferSize: int): void;
     CopyTo(destination: Stream): void;
     CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
@@ -232,7 +232,7 @@ export interface __DeflateStream$views {
 export type DeflateStream = DeflateStream$instance & __DeflateStream$views;
 
 
-export interface GZipStream$instance extends Stream {
+export interface GZipStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_IO_Compression_GZipStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -244,8 +244,8 @@ export interface GZipStream$instance extends Stream {
     readonly CanWrite: boolean;
     readonly Length: long;
     Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     CopyTo(destination: Stream, bufferSize: int): void;
     CopyTo(destination: Stream): void;
     CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
@@ -393,7 +393,7 @@ export interface __ZLibException$views {
 export type ZLibException = ZLibException$instance & __ZLibException$views;
 
 
-export interface ZLibStream$instance extends Stream {
+export interface ZLibStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_IO_Compression_ZLibStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -405,8 +405,8 @@ export interface ZLibStream$instance extends Stream {
     readonly CanWrite: boolean;
     readonly Length: long;
     Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     CopyTo(destination: Stream, bufferSize: int): void;
     CopyTo(destination: Stream): void;
     CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;

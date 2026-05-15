@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -28,7 +28,7 @@ export const ObjectiveCTrackedTypeAttribute: {
 export type ObjectiveCTrackedTypeAttribute = ObjectiveCTrackedTypeAttribute$instance;
 
 export abstract class ObjectiveCMarshal$instance {
-    static CreateReferenceTrackingHandle(obj: JsValue, taggedMemory: Span_1<System_Internal.IntPtr>): GCHandle;
+    static CreateReferenceTrackingHandle(obj: unknown, taggedMemory: Span_1<System_Internal.IntPtr>): GCHandle;
     static Initialize(beginEndCallback: fnptr<[], void>, isReferencedCallback: fnptr<[nint], int>, trackedObjectEnteredFinalization: fnptr<[nint], void>, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
     static SetMessageSendCallback(msgSendFunction: ObjectiveCMarshal_MessageSendFunction, func: nint): void;
     static SetMessageSendPendingException(exception: Exception | null): void;

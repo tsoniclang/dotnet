@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -56,7 +56,7 @@ export const HandleProcessCorruptedStateExceptionsAttribute: {
 export type HandleProcessCorruptedStateExceptionsAttribute = HandleProcessCorruptedStateExceptionsAttribute$instance;
 
 export abstract class ExceptionHandling$instance {
-    static RaiseAppDomainUnhandledExceptionEvent(exception: JsValue): void;
+    static RaiseAppDomainUnhandledExceptionEvent(exception: unknown): void;
     static SetUnhandledExceptionHandler(handler: Func_2<Exception, System_Internal.Boolean>): void;
 }
 

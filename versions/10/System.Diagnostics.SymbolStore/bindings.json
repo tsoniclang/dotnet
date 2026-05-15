@@ -480,7 +480,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.SymbolStore.ISymbolDocumentWriter::SetCheckSum(System.Guid,System.Byte[]):System.Void",
           "clrName": "SetCheckSum",
-          "metadataToken": 100703135,
+          "metadataToken": 100703140,
           "canonicalSignature": "(System.Guid,System.Byte[]):System.Void",
           "normalizedSignature": "SetCheckSum|(System.Guid,System.Byte[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -500,7 +500,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.SymbolStore.ISymbolDocumentWriter::SetSource(System.Byte[]):System.Void",
           "clrName": "SetSource",
-          "metadataToken": 100703136,
+          "metadataToken": 100703141,
           "canonicalSignature": "(System.Byte[]):System.Void",
           "normalizedSignature": "SetSource|(System.Byte[]):System.Void|static=false",
           "emitScope": "ClassSurface",

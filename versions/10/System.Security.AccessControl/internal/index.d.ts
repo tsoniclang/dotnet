@@ -3,7 +3,7 @@
 // Assembly: Microsoft.Win32.Registry, System.IO.FileSystem.AccessControl, System.Security.AccessControl, System.Threading.AccessControl
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -264,7 +264,7 @@ export const AccessRule: (abstract new(identity: IdentityReference, accessMask: 
 
 export type AccessRule = AccessRule$instance;
 
-export interface AccessRule_1$instance<T extends NonNullable<JsValue>> extends AccessRule {
+export interface AccessRule_1$instance<T extends NonNullable<unknown>> extends AccessRule {
     readonly __tsonic_type_System_Security_AccessControl_AccessRule_1: never;
 
     readonly Rights: T;
@@ -272,14 +272,14 @@ export interface AccessRule_1$instance<T extends NonNullable<JsValue>> extends A
 
 
 export const AccessRule_1: {
-    new<T extends NonNullable<JsValue>>(identity: IdentityReference, rights: T, type: AccessControlType): AccessRule_1<T>;
-    new<T extends NonNullable<JsValue>>(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule_1<T>;
-    new<T extends NonNullable<JsValue>>(identity: string, rights: T, type: AccessControlType): AccessRule_1<T>;
-    new<T extends NonNullable<JsValue>>(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule_1<T>;
+    new<T extends NonNullable<unknown>>(identity: IdentityReference, rights: T, type: AccessControlType): AccessRule_1<T>;
+    new<T extends NonNullable<unknown>>(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule_1<T>;
+    new<T extends NonNullable<unknown>>(identity: string, rights: T, type: AccessControlType): AccessRule_1<T>;
+    new<T extends NonNullable<unknown>>(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule_1<T>;
 };
 
 
-export type AccessRule_1<T> = AccessRule_1$instance<T>;
+export type AccessRule_1<T extends NonNullable<unknown>> = AccessRule_1$instance<T>;
 
 export interface AceEnumerator$instance {
     readonly __tsonic_type_System_Security_AccessControl_AceEnumerator: never;
@@ -316,7 +316,7 @@ export const AuditRule: (abstract new(identity: IdentityReference, accessMask: i
 
 export type AuditRule = AuditRule$instance;
 
-export interface AuditRule_1$instance<T extends NonNullable<JsValue>> extends AuditRule {
+export interface AuditRule_1$instance<T extends NonNullable<unknown>> extends AuditRule {
     readonly __tsonic_type_System_Security_AccessControl_AuditRule_1: never;
 
     readonly Rights: T;
@@ -324,14 +324,14 @@ export interface AuditRule_1$instance<T extends NonNullable<JsValue>> extends Au
 
 
 export const AuditRule_1: {
-    new<T extends NonNullable<JsValue>>(identity: IdentityReference, rights: T, flags: AuditFlags): AuditRule_1<T>;
-    new<T extends NonNullable<JsValue>>(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule_1<T>;
-    new<T extends NonNullable<JsValue>>(identity: string, rights: T, flags: AuditFlags): AuditRule_1<T>;
-    new<T extends NonNullable<JsValue>>(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule_1<T>;
+    new<T extends NonNullable<unknown>>(identity: IdentityReference, rights: T, flags: AuditFlags): AuditRule_1<T>;
+    new<T extends NonNullable<unknown>>(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule_1<T>;
+    new<T extends NonNullable<unknown>>(identity: string, rights: T, flags: AuditFlags): AuditRule_1<T>;
+    new<T extends NonNullable<unknown>>(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule_1<T>;
 };
 
 
-export type AuditRule_1<T> = AuditRule_1$instance<T>;
+export type AuditRule_1<T extends NonNullable<unknown>> = AuditRule_1$instance<T>;
 
 export interface AuthorizationRule$instance {
     readonly __tsonic_type_System_Security_AccessControl_AuthorizationRule: never;
@@ -720,7 +720,7 @@ export interface GenericAce$instance {
     readonly IsInherited: boolean;
     readonly PropagationFlags: PropagationFlags;
     Copy(): GenericAce;
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     GetBinaryForm(binaryForm: byte[], offset: int): void;
     GetHashCode(): int;
 }
@@ -743,7 +743,7 @@ export interface GenericAcl$instance {
     readonly Count: int;
     readonly IsSynchronized: boolean;
     readonly Revision: byte;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     CopyTo(array: GenericAce[], index: int): void;
     GetBinaryForm(binaryForm: byte[], offset: int): void;
     GetEnumerator(): AceEnumerator;
@@ -869,13 +869,13 @@ export interface NativeObjectSecurity$instance extends CommonObjectSecurity {
 }
 
 
-export const NativeObjectSecurity: (abstract new(isContainer: boolean, resourceType: ResourceType) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle | null, includeSections: AccessControlSections) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: JsValue | null) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: JsValue | null) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: JsValue | null) => NativeObjectSecurity) & {
+export const NativeObjectSecurity: (abstract new(isContainer: boolean, resourceType: ResourceType) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle | null, includeSections: AccessControlSections) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, handle: SafeHandle | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: unknown | null) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: unknown | null) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections) => NativeObjectSecurity) & (abstract new(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: unknown | null) => NativeObjectSecurity) & {
 };
 
 
 export type NativeObjectSecurity = NativeObjectSecurity$instance;
 
-export type NativeObjectSecurity_ExceptionFromErrorCode = (errorCode: int, name: string | null, handle: SafeHandle | null, context: JsValue | null) => Exception | null;
+export type NativeObjectSecurity_ExceptionFromErrorCode = (errorCode: int, name: string | null, handle: SafeHandle | null, context: unknown | null) => Exception | null;
 
 
 export interface ObjectAccessRule$instance extends AccessRule {
@@ -970,7 +970,7 @@ export const ObjectSecurity: (abstract new() => ObjectSecurity) & (abstract new(
 
 export type ObjectSecurity = ObjectSecurity$instance;
 
-export interface ObjectSecurity_1$instance<T extends NonNullable<JsValue>> extends NativeObjectSecurity {
+export interface ObjectSecurity_1$instance<T extends NonNullable<unknown>> extends NativeObjectSecurity {
     readonly __tsonic_type_System_Security_AccessControl_ObjectSecurity_1: never;
 
     readonly AccessRightType: Type;
@@ -995,13 +995,13 @@ export interface ObjectSecurity_1$instance<T extends NonNullable<JsValue>> exten
 }
 
 
-export const ObjectSecurity_1: (abstract new<T extends NonNullable<JsValue>>(isContainer: boolean, resourceType: ResourceType) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<JsValue>>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle | null, includeSections: AccessControlSections) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<JsValue>>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: JsValue | null) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<JsValue>>(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<JsValue>>(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: JsValue | null) => ObjectSecurity_1<T>) & {
+export const ObjectSecurity_1: (abstract new<T extends NonNullable<unknown>>(isContainer: boolean, resourceType: ResourceType) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<unknown>>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle | null, includeSections: AccessControlSections) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<unknown>>(isContainer: boolean, resourceType: ResourceType, safeHandle: SafeHandle | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: unknown | null) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<unknown>>(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections) => ObjectSecurity_1<T>) & (abstract new<T extends NonNullable<unknown>>(isContainer: boolean, resourceType: ResourceType, name: string | null, includeSections: AccessControlSections, exceptionFromErrorCode: NativeObjectSecurity_ExceptionFromErrorCode | null, exceptionContext: unknown | null) => ObjectSecurity_1<T>) & {
 };
 
 
-export type ObjectSecurity_1<T> = ObjectSecurity_1$instance<T>;
+export type ObjectSecurity_1<T extends NonNullable<unknown>> = ObjectSecurity_1$instance<T>;
 
-export interface PrivilegeNotHeldException$instance extends UnauthorizedAccessException {
+export interface PrivilegeNotHeldException$instance extends UnauthorizedAccessException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Security_AccessControl_PrivilegeNotHeldException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;

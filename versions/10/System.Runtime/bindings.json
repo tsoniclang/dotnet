@@ -43,7 +43,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLargeObjectHeapCompactionMode::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67113219,
+          "metadataToken": 67113214,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -55,7 +55,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLargeObjectHeapCompactionMode::DefaultSystem.Runtime.GCLargeObjectHeapCompactionMode",
           "clrName": "Default",
-          "metadataToken": 67113220,
+          "metadataToken": 67113215,
           "normalizedSignature": "Default|System.Runtime.GCLargeObjectHeapCompactionMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLargeObjectHeapCompactionMode::CompactOnceSystem.Runtime.GCLargeObjectHeapCompactionMode",
           "clrName": "CompactOnce",
-          "metadataToken": 67113221,
+          "metadataToken": 67113216,
           "normalizedSignature": "CompactOnce|System.Runtime.GCLargeObjectHeapCompactionMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -119,7 +119,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67113222,
+          "metadataToken": 67113217,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -131,7 +131,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::BatchSystem.Runtime.GCLatencyMode",
           "clrName": "Batch",
-          "metadataToken": 67113223,
+          "metadataToken": 67113218,
           "normalizedSignature": "Batch|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -143,7 +143,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::InteractiveSystem.Runtime.GCLatencyMode",
           "clrName": "Interactive",
-          "metadataToken": 67113224,
+          "metadataToken": 67113219,
           "normalizedSignature": "Interactive|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::LowLatencySystem.Runtime.GCLatencyMode",
           "clrName": "LowLatency",
-          "metadataToken": 67113225,
+          "metadataToken": 67113220,
           "normalizedSignature": "LowLatency|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -167,7 +167,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::SustainedLowLatencySystem.Runtime.GCLatencyMode",
           "clrName": "SustainedLowLatency",
-          "metadataToken": 67113226,
+          "metadataToken": 67113221,
           "normalizedSignature": "SustainedLowLatency|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -179,7 +179,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::NoGCRegionSystem.Runtime.GCLatencyMode",
           "clrName": "NoGCRegion",
-          "metadataToken": 67113227,
+          "metadataToken": 67113222,
           "normalizedSignature": "NoGCRegion|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

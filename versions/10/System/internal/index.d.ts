@@ -3,7 +3,7 @@
 // Assembly: System.ComponentModel, System.ComponentModel.TypeConverter, System.Console, System.Memory, System.Private.CoreLib, System.Private.Uri
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -436,136 +436,136 @@ export enum UriPartial {
 export type Action = () => void;
 
 
-export type Action_1<T> = (obj: T) => void;
+export type Action_1<T extends unknown> = (obj: T) => void;
 
 
-export type Action_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10) => void;
+export type Action_10<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10) => void;
 
 
-export type Action_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11) => void;
+export type Action_11<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11) => void;
 
 
-export type Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12) => void;
+export type Action_12<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12) => void;
 
 
-export type Action_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13) => void;
+export type Action_13<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13) => void;
 
 
-export type Action_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14) => void;
+export type Action_14<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14) => void;
 
 
-export type Action_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15) => void;
+export type Action_15<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15) => void;
 
 
-export type Action_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16) => void;
+export type Action_16<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown, T16 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16) => void;
 
 
-export type Action_2<T1, T2> = (arg1: T1, arg2: T2) => void;
+export type Action_2<T1 extends unknown, T2 extends unknown> = (arg1: T1, arg2: T2) => void;
 
 
-export type Action_3<T1, T2, T3> = (arg1: T1, arg2: T2, arg3: T3) => void;
+export type Action_3<T1 extends unknown, T2 extends unknown, T3 extends unknown> = (arg1: T1, arg2: T2, arg3: T3) => void;
 
 
-export type Action_4<T1, T2, T3, T4> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4) => void;
+export type Action_4<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4) => void;
 
 
-export type Action_5<T1, T2, T3, T4, T5> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) => void;
+export type Action_5<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) => void;
 
 
-export type Action_6<T1, T2, T3, T4, T5, T6> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) => void;
+export type Action_6<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) => void;
 
 
-export type Action_7<T1, T2, T3, T4, T5, T6, T7> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7) => void;
+export type Action_7<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7) => void;
 
 
-export type Action_8<T1, T2, T3, T4, T5, T6, T7, T8> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8) => void;
+export type Action_8<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8) => void;
 
 
-export type Action_9<T1, T2, T3, T4, T5, T6, T7, T8, T9> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => void;
+export type Action_9<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => void;
 
 
-export type AssemblyLoadEventHandler = (sender: JsValue | null, args: AssemblyLoadEventArgs) => void;
+export type AssemblyLoadEventHandler = (sender: unknown | null, args: AssemblyLoadEventArgs) => void;
 
 
 export type AsyncCallback = (ar: IAsyncResult) => void;
 
 
-export type Comparison_1<T> = (x: T, y: T) => int;
+export type Comparison_1<T extends unknown> = (x: T, y: T) => int;
 
 
-export type ConsoleCancelEventHandler = (sender: JsValue | null, e: ConsoleCancelEventArgs) => void;
+export type ConsoleCancelEventHandler = (sender: unknown | null, e: ConsoleCancelEventArgs) => void;
 
 
-export type Converter_2<TInput, TOutput> = (input: TInput) => TOutput;
+export type Converter_2<TInput extends unknown, TOutput extends unknown> = (input: TInput) => TOutput;
 
 
-export type EventHandler = (sender: JsValue | null, e: EventArgs) => void;
+export type EventHandler = (sender: unknown | null, e: EventArgs) => void;
 
 
-export type EventHandler_1<TEventArgs> = (sender: JsValue | null, e: TEventArgs) => void;
+export type EventHandler_1<TEventArgs extends unknown> = (sender: unknown | null, e: TEventArgs) => void;
 
 
-export type EventHandler_2<TSender, TEventArgs> = (sender: TSender, e: TEventArgs) => void;
+export type EventHandler_2<TSender extends unknown, TEventArgs extends unknown> = (sender: TSender, e: TEventArgs) => void;
 
 
-export type Func_1<TResult> = () => TResult;
+export type Func_1<TResult extends unknown> = () => TResult;
 
 
-export type Func_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => TResult;
+export type Func_10<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => TResult;
 
 
-export type Func_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10) => TResult;
+export type Func_11<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10) => TResult;
 
 
-export type Func_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11) => TResult;
+export type Func_12<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11) => TResult;
 
 
-export type Func_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12) => TResult;
+export type Func_13<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12) => TResult;
 
 
-export type Func_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13) => TResult;
+export type Func_14<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13) => TResult;
 
 
-export type Func_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14) => TResult;
+export type Func_15<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14) => TResult;
 
 
-export type Func_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15) => TResult;
+export type Func_16<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15) => TResult;
 
 
-export type Func_17<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16) => TResult;
+export type Func_17<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown, T16 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16) => TResult;
 
 
-export type Func_2<T, TResult> = (arg: T) => TResult;
+export type Func_2<T extends unknown, TResult extends unknown> = (arg: T) => TResult;
 
 
-export type Func_3<T1, T2, TResult> = (arg1: T1, arg2: T2) => TResult;
+export type Func_3<T1 extends unknown, T2 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2) => TResult;
 
 
-export type Func_4<T1, T2, T3, TResult> = (arg1: T1, arg2: T2, arg3: T3) => TResult;
+export type Func_4<T1 extends unknown, T2 extends unknown, T3 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3) => TResult;
 
 
-export type Func_5<T1, T2, T3, T4, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4) => TResult;
+export type Func_5<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4) => TResult;
 
 
-export type Func_6<T1, T2, T3, T4, T5, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) => TResult;
+export type Func_6<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) => TResult;
 
 
-export type Func_7<T1, T2, T3, T4, T5, T6, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) => TResult;
+export type Func_7<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) => TResult;
 
 
-export type Func_8<T1, T2, T3, T4, T5, T6, T7, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7) => TResult;
+export type Func_8<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7) => TResult;
 
 
-export type Func_9<T1, T2, T3, T4, T5, T6, T7, T8, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8) => TResult;
+export type Func_9<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, TResult extends unknown> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8) => TResult;
 
 
-export type Predicate_1<T> = (obj: T) => boolean;
+export type Predicate_1<T extends unknown> = (obj: T) => boolean;
 
 
-export type ResolveEventHandler = (sender: JsValue | null, args: ResolveEventArgs) => Assembly | null;
+export type ResolveEventHandler = (sender: unknown | null, args: ResolveEventArgs) => Assembly | null;
 
 
-export type UnhandledExceptionEventHandler = (sender: JsValue, e: UnhandledExceptionEventArgs) => void;
+export type UnhandledExceptionEventHandler = (sender: unknown, e: UnhandledExceptionEventArgs) => void;
 
 
 export interface IAsyncDisposable$instance {
@@ -582,7 +582,7 @@ export interface IAsyncResult$instance {
 
     readonly IsCompleted: boolean;
     readonly AsyncWaitHandle: WaitHandle;
-    readonly AsyncState: JsValue | null;
+    readonly AsyncState: unknown | null;
     readonly CompletedSynchronously: boolean;
 }
 
@@ -592,7 +592,7 @@ export type IAsyncResult = IAsyncResult$instance;
 export interface ICloneable$instance {
     readonly __tsonic_iface_System_ICloneable: never;
 
-    Clone(): JsValue;
+    Clone(): unknown;
 }
 
 
@@ -601,20 +601,20 @@ export type ICloneable = ICloneable$instance;
 export interface IComparable$instance {
     readonly __tsonic_iface_System_IComparable: never;
 
-    CompareTo(obj: JsValue | null): int;
+    CompareTo(obj: unknown | null): int;
 }
 
 
 export type IComparable = IComparable$instance;
 
-export interface IComparable_1$instance<T> {
+export interface IComparable_1$instance<T extends unknown> {
     readonly __tsonic_iface_System_IComparable_1: never;
 
     CompareTo(other: T | null): int;
 }
 
 
-export type IComparable_1<T> = IComparable_1$instance<T>;
+export type IComparable_1<T extends unknown> = IComparable_1$instance<T>;
 
 export interface IConvertible$instance {
     readonly __tsonic_iface_System_IConvertible: never;
@@ -632,7 +632,7 @@ export interface IConvertible$instance {
     ToSByte(provider: IFormatProvider | null): sbyte;
     ToSingle(provider: IFormatProvider | null): float;
     ToString(provider: IFormatProvider | null): string;
-    ToType(conversionType: Type, provider: IFormatProvider | null): JsValue;
+    ToType(conversionType: Type, provider: IFormatProvider | null): unknown;
     ToUInt16(provider: IFormatProvider | null): ushort;
     ToUInt32(provider: IFormatProvider | null): uint;
     ToUInt64(provider: IFormatProvider | null): ulong;
@@ -644,7 +644,7 @@ export type IConvertible = IConvertible$instance;
 export interface ICustomFormatter$instance {
     readonly __tsonic_iface_System_ICustomFormatter: never;
 
-    Format(format: string | null, arg: JsValue | null, formatProvider: IFormatProvider | null): string;
+    Format(format: string | null, arg: unknown | null, formatProvider: IFormatProvider | null): string;
 }
 
 
@@ -659,19 +659,19 @@ export interface IDisposable$instance {
 
 export type IDisposable = IDisposable$instance;
 
-export interface IEquatable_1$instance<T> {
+export interface IEquatable_1$instance<T extends unknown> {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     Equals(other: T | null): boolean;
 }
 
 
-export type IEquatable_1<T> = IEquatable_1$instance<T>;
+export type IEquatable_1<T extends unknown> = IEquatable_1$instance<T>;
 
 export interface IFormatProvider$instance {
     readonly __tsonic_iface_System_IFormatProvider: never;
 
-    GetFormat(formatType: Type | null): JsValue | null;
+    GetFormat(formatType: Type | null): unknown | null;
 }
 
 
@@ -686,16 +686,16 @@ export interface IFormattable$instance {
 
 export type IFormattable = IFormattable$instance;
 
-export interface IObservable_1$instance<T> {
+export interface IObservable_1$instance<T extends unknown> {
     readonly __tsonic_iface_System_IObservable_1: never;
 
     Subscribe(observer: IObserver_1<T>): IDisposable;
 }
 
 
-export type IObservable_1<T> = IObservable_1$instance<T>;
+export type IObservable_1<T extends unknown> = IObservable_1$instance<T>;
 
-export interface IObserver_1$instance<T> {
+export interface IObserver_1$instance<T extends unknown> {
     readonly __tsonic_iface_System_IObserver_1: never;
 
     OnCompleted(): void;
@@ -704,29 +704,29 @@ export interface IObserver_1$instance<T> {
 }
 
 
-export type IObserver_1<T> = IObserver_1$instance<T>;
+export type IObserver_1<T extends unknown> = IObserver_1$instance<T>;
 
-export interface IParsable_1$instance<TSelf extends IParsable_1<TSelf>> {
+export interface IParsable_1$instance<TSelf extends unknown & IParsable_1<TSelf>> {
     readonly __tsonic_iface_System_IParsable_1: never;
 
 }
 
 
-export type IParsable_1<TSelf extends IParsable_1<TSelf>> = IParsable_1$instance<TSelf>;
+export type IParsable_1<TSelf extends unknown & IParsable_1<TSelf>> = IParsable_1$instance<TSelf>;
 
-export interface IProgress_1$instance<T> {
+export interface IProgress_1$instance<T extends unknown> {
     readonly __tsonic_iface_System_IProgress_1: never;
 
     Report(value: T): void;
 }
 
 
-export type IProgress_1<T> = IProgress_1$instance<T>;
+export type IProgress_1<T extends unknown> = IProgress_1$instance<T>;
 
 export interface IServiceProvider$instance {
     readonly __tsonic_iface_System_IServiceProvider: never;
 
-    GetService(serviceType: Type): JsValue | null;
+    GetService(serviceType: Type): unknown | null;
 }
 
 
@@ -744,15 +744,15 @@ export interface ISpanFormattable$instance extends IFormattable$instance {}
 
 export type ISpanFormattable = ISpanFormattable$instance;
 
-export interface ISpanParsable_1$instance<TSelf extends ISpanParsable_1<TSelf>> extends IParsable_1<TSelf> {
+export interface ISpanParsable_1$instance<TSelf extends unknown & ISpanParsable_1<TSelf>> extends IParsable_1<TSelf> {
     readonly __tsonic_iface_System_ISpanParsable_1: never;
 
 }
 
 
-export interface ISpanParsable_1$instance<TSelf extends ISpanParsable_1<TSelf>> extends IParsable_1$instance<TSelf> {}
+export interface ISpanParsable_1$instance<TSelf extends unknown & ISpanParsable_1<TSelf>> extends IParsable_1$instance<TSelf> {}
 
-export type ISpanParsable_1<TSelf extends ISpanParsable_1<TSelf>> = ISpanParsable_1$instance<TSelf>;
+export type ISpanParsable_1<TSelf extends unknown & ISpanParsable_1<TSelf>> = ISpanParsable_1$instance<TSelf>;
 
 export interface IUtf8SpanFormattable$instance {
     readonly __tsonic_iface_System_IUtf8SpanFormattable: never;
@@ -763,19 +763,19 @@ export interface IUtf8SpanFormattable$instance {
 
 export type IUtf8SpanFormattable = IUtf8SpanFormattable$instance;
 
-export interface IUtf8SpanParsable_1$instance<TSelf extends IUtf8SpanParsable_1<TSelf>> {
+export interface IUtf8SpanParsable_1$instance<TSelf extends unknown & IUtf8SpanParsable_1<TSelf>> {
     readonly __tsonic_iface_System_IUtf8SpanParsable_1: never;
 
 }
 
 
-export type IUtf8SpanParsable_1<TSelf extends IUtf8SpanParsable_1<TSelf>> = IUtf8SpanParsable_1$instance<TSelf>;
+export type IUtf8SpanParsable_1<TSelf extends unknown & IUtf8SpanParsable_1<TSelf>> = IUtf8SpanParsable_1$instance<TSelf>;
 
 export interface ArgIterator$instance {
     readonly __tsonic_type_System_ArgIterator: never;
 
     End(): void;
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     GetHashCode(): int;
     GetNextArg(): TypedReference;
     GetNextArg(rth: RuntimeTypeHandle): TypedReference;
@@ -792,7 +792,7 @@ export const ArgIterator: {
 
 export type ArgIterator = ArgIterator$instance;
 
-export interface ArraySegment_1$instance<T> {
+export interface ArraySegment_1$instance<T extends unknown> {
     readonly __tsonic_type_System_ArraySegment_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -808,7 +808,7 @@ export interface ArraySegment_1$instance<T> {
     CopyTo(destination: T[]): void;
     CopyTo(destination: T[], destinationIndex: int): void;
     CopyTo(destination: ArraySegment_1<T>): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: ArraySegment_1<T>): boolean;
     GetEnumerator(): ArraySegment_1_Enumerator<T>;
     GetHashCode(): int;
@@ -819,13 +819,13 @@ export interface ArraySegment_1$instance<T> {
 
 
 export const ArraySegment_1: {
-    new<T>(array: T[]): ArraySegment_1<T>;
-    new<T>(array: T[], offset: int, count: int): ArraySegment_1<T>;
-    readonly Empty: <T>() => ArraySegment_1<T>;
+    new<T extends unknown>(array: T[]): ArraySegment_1<T>;
+    new<T extends unknown>(array: T[], offset: int, count: int): ArraySegment_1<T>;
+    readonly Empty: <T extends unknown>() => ArraySegment_1<T>;
 };
 
 
-export interface __ArraySegment_1$views<T> {
+export interface __ArraySegment_1$views<T extends unknown> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
@@ -833,10 +833,10 @@ export interface __ArraySegment_1$views<T> {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ArraySegment_1<T> = ArraySegment_1$instance<T> & __ArraySegment_1$views<T> & { [index: number]: T; };
+export type ArraySegment_1<T extends unknown> = ArraySegment_1$instance<T> & __ArraySegment_1$views<T> & { [index: number]: T; };
 
 
-export interface ArraySegment_1_Enumerator$instance<T> extends IEnumerator_1<T>, IDisposable, IEnumerator {
+export interface ArraySegment_1_Enumerator$instance<T extends unknown> extends IEnumerator_1<T> {
     readonly __tsonic_type_System_ArraySegment_1_Enumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -846,15 +846,16 @@ export interface ArraySegment_1_Enumerator$instance<T> extends IEnumerator_1<T>,
     readonly Current: T;
     Dispose(): void;
     MoveNext(): boolean;
+    Reset(): void;
 }
 
 
 export const ArraySegment_1_Enumerator: {
-    new<T>(): ArraySegment_1_Enumerator<T>;
+    new<T extends unknown>(): ArraySegment_1_Enumerator<T>;
 };
 
 
-export type ArraySegment_1_Enumerator<T> = ArraySegment_1_Enumerator$instance<T>;
+export type ArraySegment_1_Enumerator<T extends unknown> = ArraySegment_1_Enumerator$instance<T>;
 
 export interface Boolean$instance extends ISpanParsable_1$instance<Boolean$shape> {
     readonly __tsonic_type_System_Boolean: never;
@@ -866,9 +867,9 @@ export interface Boolean$instance extends ISpanParsable_1$instance<Boolean$shape
     readonly __tsonic_iface_System_IParsable_1: never;
     readonly __tsonic_iface_System_ISpanParsable_1: never;
 
-    CompareTo(obj: JsValue | null): int;
+    CompareTo(obj: unknown | null): int;
     CompareTo(value: boolean): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: boolean): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -899,14 +900,14 @@ export interface __Boolean$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Boolean): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Boolean$shape = boolean & Boolean$instance & __Boolean$views;
 export type Boolean = boolean | Boolean$shape;
 
 
-export interface Byte$instance extends IBitwiseOperators_3<Byte, Byte, Byte>, IComparisonOperators_3<Byte, Byte, Boolean>, IEqualityOperators_3<Byte, Byte, Boolean>, IModulusOperators_3<Byte, Byte, Byte>, IAdditionOperators_3<Byte, Byte, Byte>, IDecrementOperators_1<Byte>, IDivisionOperators_3<Byte, Byte, Byte>, IIncrementOperators_1<Byte>, IMultiplyOperators_3<Byte, Byte, Byte>, ISubtractionOperators_3<Byte, Byte, Byte>, IUnaryPlusOperators_2<Byte, Byte>, IUnaryNegationOperators_2<Byte, Byte>, IShiftOperators_3<Byte, Int32, Byte>, System_Numerics_Internal.IMinMaxValue_1$instance<Byte> {
+export interface Byte$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Byte> {
     readonly __tsonic_type_System_Byte: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -941,9 +942,9 @@ export interface Byte$instance extends IBitwiseOperators_3<Byte, Byte, Byte>, IC
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: byte): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: byte): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -961,9 +962,9 @@ export const Byte: {
     readonly MaxValue: byte;
     readonly MinValue: byte;
     Clamp(value: byte, min: byte, max: byte): byte;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): byte;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): byte;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): byte;
     DivRem(left: byte, right: byte): ValueTuple_2<Byte, Byte>;
     IsEvenInteger(value: byte): boolean;
     IsOddInteger(value: byte): boolean;
@@ -1016,7 +1017,7 @@ export interface __Byte$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Byte): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -1030,7 +1031,7 @@ export interface __Byte$views {
 export type Byte = number & Byte$instance & __Byte$views;
 
 
-export interface Char$instance extends IBitwiseOperators_3<Char, Char, Char>, IComparisonOperators_3<Char, Char, Boolean>, IEqualityOperators_3<Char, Char, Boolean>, IModulusOperators_3<Char, Char, Char>, IAdditionOperators_3<Char, Char, Char>, IDecrementOperators_1<Char>, IDivisionOperators_3<Char, Char, Char>, IIncrementOperators_1<Char>, IMultiplyOperators_3<Char, Char, Char>, ISubtractionOperators_3<Char, Char, Char>, IUnaryPlusOperators_2<Char, Char>, IUnaryNegationOperators_2<Char, Char>, IShiftOperators_3<Char, Int32, Char>, System_Numerics_Internal.IMinMaxValue_1$instance<Char> {
+export interface Char$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Char> {
     readonly __tsonic_type_System_Char: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -1065,9 +1066,9 @@ export interface Char$instance extends IBitwiseOperators_3<Char, Char, Char>, IC
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: char): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: char): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -1158,7 +1159,7 @@ export interface __Char$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Char): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -1180,7 +1181,7 @@ export interface ConsoleKeyInfo$instance {
     readonly Key: ConsoleKey;
     readonly KeyChar: char;
     readonly Modifiers: ConsoleModifiers;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(obj: ConsoleKeyInfo): boolean;
     GetHashCode(): int;
 }
@@ -1223,10 +1224,10 @@ export interface DateOnly$instance extends IComparable_1$instance<DateOnly>, ISp
     AddMonths(value: int): DateOnly;
     AddYears(value: int): DateOnly;
     CompareTo(value: DateOnly): int;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     Deconstruct(year: int, month: int, day: int): void;
     Equals(value: DateOnly): boolean;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     GetHashCode(): int;
     ToDateTime(time: TimeOnly): DateTime;
     ToDateTime(time: TimeOnly, kind: DateTimeKind): DateTime;
@@ -1289,7 +1290,7 @@ export interface __DateOnly$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: DateOnly): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
@@ -1335,11 +1336,11 @@ export interface DateTime$instance extends IComparable_1$instance<DateTime>, ISp
     AddSeconds(value: double): DateTime;
     AddTicks(value: long): DateTime;
     AddYears(value: int): DateTime;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: DateTime): int;
     Deconstruct(date: DateOnly, time: TimeOnly): void;
     Deconstruct(year: int, month: int, day: int): void;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(value: DateTime): boolean;
     GetDateTimeFormats(): string[];
     GetDateTimeFormats(provider: IFormatProvider | null): string[];
@@ -1439,7 +1440,7 @@ export interface __DateTime$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: DateTime): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
@@ -1492,7 +1493,7 @@ export interface DateTimeOffset$instance extends IComparable_1$instance<DateTime
     AddYears(years: int): DateTimeOffset;
     CompareTo(other: DateTimeOffset): int;
     Deconstruct(date: DateOnly, time: TimeOnly, offset: TimeSpan): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: DateTimeOffset): boolean;
     EqualsExact(other: DateTimeOffset): boolean;
     GetHashCode(): int;
@@ -1570,14 +1571,14 @@ export interface __DateTimeOffset$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: DateTimeOffset): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
 export type DateTimeOffset = DateTimeOffset$instance & __DateTimeOffset$views;
 
 
-export interface Decimal$instance extends IAdditionOperators_3<Decimal, Decimal, Decimal>, IDecrementOperators_1<Decimal>, IDivisionOperators_3<Decimal, Decimal, Decimal>, IEqualityOperators_3<Decimal, Decimal, Boolean>, IIncrementOperators_1<Decimal>, IMultiplyOperators_3<Decimal, Decimal, Decimal>, ISubtractionOperators_3<Decimal, Decimal, Decimal>, IUnaryPlusOperators_2<Decimal, Decimal>, IUnaryNegationOperators_2<Decimal, Decimal>, IComparisonOperators_3<Decimal, Decimal, Boolean>, IModulusOperators_3<Decimal, Decimal, Decimal>, System_Numerics_Internal.IMinMaxValue_1$instance<Decimal>, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface Decimal$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Decimal>, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Decimal: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -1613,9 +1614,9 @@ export interface Decimal$instance extends IAdditionOperators_3<Decimal, Decimal,
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Scale: byte;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: decimal): int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(value: decimal): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -1648,12 +1649,12 @@ export const Decimal: {
     Ceiling(d: decimal): decimal;
     Clamp(value: decimal, min: decimal, max: decimal): decimal;
     Compare(d1: decimal, d2: decimal): int;
-    ConvertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: decimal): TInteger;
-    ConvertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: decimal): TInteger;
+    ConvertToInteger<TInteger extends unknown & IBinaryInteger_1<TInteger>>(value: decimal): TInteger;
+    ConvertToIntegerNative<TInteger extends unknown & IBinaryInteger_1<TInteger>>(value: decimal): TInteger;
     CopySign(value: decimal, sign: decimal): decimal;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): decimal;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): decimal;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): decimal;
     Divide(d1: decimal, d2: decimal): decimal;
     Equals(d1: decimal, d2: decimal): boolean;
     Floor(d: decimal): decimal;
@@ -1733,7 +1734,7 @@ export interface __Decimal$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Decimal): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -1748,7 +1749,7 @@ export interface __Decimal$views {
 export type Decimal = number & Decimal$instance & __Decimal$views;
 
 
-export interface Double$instance extends IBitwiseOperators_3<Double, Double, Double>, IComparisonOperators_3<Double, Double, Boolean>, IEqualityOperators_3<Double, Double, Boolean>, IModulusOperators_3<Double, Double, Double>, IAdditionOperators_3<Double, Double, Double>, IDecrementOperators_1<Double>, IDivisionOperators_3<Double, Double, Double>, IIncrementOperators_1<Double>, IMultiplyOperators_3<Double, Double, Double>, ISubtractionOperators_3<Double, Double, Double>, IUnaryPlusOperators_2<Double, Double>, IUnaryNegationOperators_2<Double, Double>, System_Numerics_Internal.IMinMaxValue_1$instance<Double> {
+export interface Double$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Double> {
     readonly __tsonic_type_System_Double: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -1791,9 +1792,9 @@ export interface Double$instance extends IBitwiseOperators_3<Double, Double, Dou
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: double): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: double): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -1836,15 +1837,15 @@ export const Double: {
     Ceiling(x: double): double;
     Clamp(value: double, min: double, max: double): double;
     ClampNative(value: double, min: double, max: double): double;
-    ConvertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: double): TInteger;
-    ConvertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: double): TInteger;
+    ConvertToInteger<TInteger extends unknown & IBinaryInteger_1<TInteger>>(value: double): TInteger;
+    ConvertToIntegerNative<TInteger extends unknown & IBinaryInteger_1<TInteger>>(value: double): TInteger;
     CopySign(value: double, sign: double): double;
     Cos(x: double): double;
     Cosh(x: double): double;
     CosPi(x: double): double;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): double;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): double;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): double;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): double;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): double;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): double;
     DegreesToRadians(degrees: double): double;
     Exp(x: double): double;
     Exp10(x: double): double;
@@ -1952,7 +1953,7 @@ export interface __Double$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Double): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -2028,9 +2029,9 @@ export interface Guid$instance extends IComparable_1$instance<Guid>, ISpanParsab
 
     readonly Variant: int;
     readonly Version: int;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: Guid): int;
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     Equals(g: Guid): boolean;
     GetHashCode(): int;
     ToByteArray(): byte[];
@@ -2090,14 +2091,14 @@ export interface __Guid$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Guid): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
 export type Guid = Guid$instance & __Guid$views;
 
 
-export interface Half$instance extends IBitwiseOperators_3<Half, Half, Half>, IComparisonOperators_3<Half, Half, Boolean>, IEqualityOperators_3<Half, Half, Boolean>, IModulusOperators_3<Half, Half, Half>, IAdditionOperators_3<Half, Half, Half>, IDecrementOperators_1<Half>, IDivisionOperators_3<Half, Half, Half>, IIncrementOperators_1<Half>, IMultiplicativeIdentity_2<Half, Half>, IMultiplyOperators_3<Half, Half, Half>, ISubtractionOperators_3<Half, Half, Half>, IUnaryPlusOperators_2<Half, Half>, IUnaryNegationOperators_2<Half, Half>, System_Numerics_Internal.IMinMaxValue_1$instance<Half> {
+export interface Half$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Half> {
     readonly __tsonic_type_System_Half: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2139,9 +2140,9 @@ export interface Half$instance extends IBitwiseOperators_3<Half, Half, Half>, IC
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    CompareTo(obj: JsValue | null): int;
+    CompareTo(obj: unknown | null): int;
     CompareTo(other: half): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: half): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -2187,15 +2188,15 @@ export const Half: {
     Ceiling(x: half): half;
     Clamp(value: half, min: half, max: half): half;
     ClampNative(value: half, min: half, max: half): half;
-    ConvertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: half): TInteger;
-    ConvertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: half): TInteger;
+    ConvertToInteger<TInteger extends unknown & IBinaryInteger_1<TInteger>>(value: half): TInteger;
+    ConvertToIntegerNative<TInteger extends unknown & IBinaryInteger_1<TInteger>>(value: half): TInteger;
     CopySign(value: half, sign: half): half;
     Cos(x: half): half;
     Cosh(x: half): half;
     CosPi(x: half): half;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): half;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): half;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): half;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): half;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): half;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): half;
     DegreesToRadians(degrees: half): half;
     Exp(x: half): half;
     Exp10(x: half): half;
@@ -2302,7 +2303,7 @@ export interface __Half$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Half): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -2320,10 +2321,10 @@ export type Half = number & Half$instance & __Half$views;
 export interface HashCode$instance {
     readonly __tsonic_type_System_HashCode: never;
 
-    Add<T>(value: T): void;
-    Add<T>(value: T, comparer: IEqualityComparer_1<T> | null): void;
+    Add<T extends unknown>(value: T): void;
+    Add<T extends unknown>(value: T, comparer: IEqualityComparer_1<T> | null): void;
     AddBytes(value: ReadOnlySpan_1<Byte>): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToHashCode(): int;
 }
@@ -2331,14 +2332,14 @@ export interface HashCode$instance {
 
 export const HashCode: {
     new(): HashCode;
-    Combine<T1, T2, T3, T4, T5, T6, T7, T8>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6, value7: T7, value8: T8): int;
-    Combine<T1, T2, T3, T4, T5, T6, T7>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6, value7: T7): int;
-    Combine<T1, T2, T3, T4, T5, T6>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6): int;
-    Combine<T1, T2, T3, T4, T5>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5): int;
-    Combine<T1, T2, T3, T4>(value1: T1, value2: T2, value3: T3, value4: T4): int;
-    Combine<T1, T2, T3>(value1: T1, value2: T2, value3: T3): int;
-    Combine<T1, T2>(value1: T1, value2: T2): int;
-    Combine<T1>(value1: T1): int;
+    Combine<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6, value7: T7, value8: T8): int;
+    Combine<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6, value7: T7): int;
+    Combine<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6): int;
+    Combine<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5): int;
+    Combine<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown>(value1: T1, value2: T2, value3: T3, value4: T4): int;
+    Combine<T1 extends unknown, T2 extends unknown, T3 extends unknown>(value1: T1, value2: T2, value3: T3): int;
+    Combine<T1 extends unknown, T2 extends unknown>(value1: T1, value2: T2): int;
+    Combine<T1 extends unknown>(value1: T1): int;
 };
 
 
@@ -2351,7 +2352,7 @@ export interface Index$instance {
 
     readonly IsFromEnd: boolean;
     readonly Value: int;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: Index): boolean;
     GetHashCode(): int;
     GetOffset(length: int): int;
@@ -2378,7 +2379,7 @@ export interface __Index$views {
 export type Index = Index$instance & __Index$views;
 
 
-export interface Int128$instance extends IBitwiseOperators_3<Int128, Int128, Int128>, IComparisonOperators_3<Int128, Int128, Boolean>, IEqualityOperators_3<Int128, Int128, Boolean>, IModulusOperators_3<Int128, Int128, Int128>, IAdditionOperators_3<Int128, Int128, Int128>, IDecrementOperators_1<Int128>, IDivisionOperators_3<Int128, Int128, Int128>, IIncrementOperators_1<Int128>, IMultiplyOperators_3<Int128, Int128, Int128>, ISubtractionOperators_3<Int128, Int128, Int128>, IUnaryPlusOperators_2<Int128, Int128>, IUnaryNegationOperators_2<Int128, Int128>, IShiftOperators_3<Int128, Int32, Int128>, System_Numerics_Internal.IMinMaxValue_1$instance<Int128> {
+export interface Int128$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int128> {
     readonly __tsonic_type_System_Int128: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2412,9 +2413,9 @@ export interface Int128$instance extends IBitwiseOperators_3<Int128, Int128, Int
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: int128): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: int128): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -2437,9 +2438,9 @@ export const Int128: {
     BigMul(left: int128, right: int128, lower: int128): int128;
     Clamp(value: int128, min: int128, max: int128): int128;
     CopySign(value: int128, sign: int128): int128;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): int128;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): int128;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): int128;
     DivRem(left: int128, right: int128): ValueTuple_2<Int128, Int128>;
     IsEvenInteger(value: int128): boolean;
     IsNegative(value: int128): boolean;
@@ -2494,7 +2495,7 @@ export interface __Int128$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Int128): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -2508,7 +2509,7 @@ export interface __Int128$views {
 export type Int128 = number & Int128$instance & __Int128$views;
 
 
-export interface Int16$instance extends IBitwiseOperators_3<Int16, Int16, Int16>, IComparisonOperators_3<Int16, Int16, Boolean>, IEqualityOperators_3<Int16, Int16, Boolean>, IModulusOperators_3<Int16, Int16, Int16>, IAdditionOperators_3<Int16, Int16, Int16>, IDecrementOperators_1<Int16>, IDivisionOperators_3<Int16, Int16, Int16>, IIncrementOperators_1<Int16>, IMultiplyOperators_3<Int16, Int16, Int16>, ISubtractionOperators_3<Int16, Int16, Int16>, IUnaryPlusOperators_2<Int16, Int16>, IUnaryNegationOperators_2<Int16, Int16>, IShiftOperators_3<Int16, Int32, Int16>, System_Numerics_Internal.IMinMaxValue_1$instance<Int16> {
+export interface Int16$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int16> {
     readonly __tsonic_type_System_Int16: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2543,9 +2544,9 @@ export interface Int16$instance extends IBitwiseOperators_3<Int16, Int16, Int16>
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: short): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: short): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -2565,9 +2566,9 @@ export const Int16: {
     Abs(value: short): short;
     Clamp(value: short, min: short, max: short): short;
     CopySign(value: short, sign: short): short;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): short;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): short;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): short;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): short;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): short;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): short;
     DivRem(left: short, right: short): ValueTuple_2<Int16, Int16>;
     IsEvenInteger(value: short): boolean;
     IsNegative(value: short): boolean;
@@ -2624,7 +2625,7 @@ export interface __Int16$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Int16): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -2638,7 +2639,7 @@ export interface __Int16$views {
 export type Int16 = number & Int16$instance & __Int16$views;
 
 
-export interface Int32$instance extends IBitwiseOperators_3<Int32, Int32, Int32>, IComparisonOperators_3<Int32, Int32, Boolean>, IEqualityOperators_3<Int32, Int32, Boolean>, IModulusOperators_3<Int32, Int32, Int32>, IAdditionOperators_3<Int32, Int32, Int32>, IDecrementOperators_1<Int32>, IDivisionOperators_3<Int32, Int32, Int32>, IIncrementOperators_1<Int32>, IMultiplyOperators_3<Int32, Int32, Int32>, ISubtractionOperators_3<Int32, Int32, Int32>, IUnaryPlusOperators_2<Int32, Int32>, IUnaryNegationOperators_2<Int32, Int32>, IShiftOperators_3<Int32, Int32, Int32>, System_Numerics_Internal.IMinMaxValue_1$instance<Int32> {
+export interface Int32$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int32> {
     readonly __tsonic_type_System_Int32: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2673,9 +2674,9 @@ export interface Int32$instance extends IBitwiseOperators_3<Int32, Int32, Int32>
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: int): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: int): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -2696,9 +2697,9 @@ export const Int32: {
     BigMul(left: int, right: int): long;
     Clamp(value: int, min: int, max: int): int;
     CopySign(value: int, sign: int): int;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): int;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): int;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): int;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): int;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): int;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): int;
     DivRem(left: int, right: int): ValueTuple_2<Int32, Int32>;
     IsEvenInteger(value: int): boolean;
     IsNegative(value: int): boolean;
@@ -2755,7 +2756,7 @@ export interface __Int32$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Int32): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -2769,7 +2770,7 @@ export interface __Int32$views {
 export type Int32 = number & Int32$instance & __Int32$views;
 
 
-export interface Int64$instance extends IBitwiseOperators_3<Int64, Int64, Int64>, IComparisonOperators_3<Int64, Int64, Boolean>, IEqualityOperators_3<Int64, Int64, Boolean>, IModulusOperators_3<Int64, Int64, Int64>, IAdditionOperators_3<Int64, Int64, Int64>, IDecrementOperators_1<Int64>, IDivisionOperators_3<Int64, Int64, Int64>, IIncrementOperators_1<Int64>, IMultiplyOperators_3<Int64, Int64, Int64>, ISubtractionOperators_3<Int64, Int64, Int64>, IUnaryPlusOperators_2<Int64, Int64>, IUnaryNegationOperators_2<Int64, Int64>, IShiftOperators_3<Int64, Int32, Int64>, System_Numerics_Internal.IMinMaxValue_1$instance<Int64> {
+export interface Int64$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int64> {
     readonly __tsonic_type_System_Int64: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2804,9 +2805,9 @@ export interface Int64$instance extends IBitwiseOperators_3<Int64, Int64, Int64>
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: long): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: long): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -2827,9 +2828,9 @@ export const Int64: {
     BigMul(left: long, right: long): int128;
     Clamp(value: long, min: long, max: long): long;
     CopySign(value: long, sign: long): long;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): long;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): long;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): long;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): long;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): long;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): long;
     DivRem(left: long, right: long): ValueTuple_2<Int64, Int64>;
     IsEvenInteger(value: long): boolean;
     IsNegative(value: long): boolean;
@@ -2886,7 +2887,7 @@ export interface __Int64$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Int64): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -2900,7 +2901,7 @@ export interface __Int64$views {
 export type Int64 = number & Int64$instance & __Int64$views;
 
 
-export interface IntPtr$instance extends IBitwiseOperators_3<IntPtr, IntPtr, IntPtr>, IComparisonOperators_3<IntPtr, IntPtr, Boolean>, IEqualityOperators_3<IntPtr, IntPtr, Boolean>, IModulusOperators_3<IntPtr, IntPtr, IntPtr>, IAdditionOperators_3<IntPtr, IntPtr, IntPtr>, IDecrementOperators_1<IntPtr>, IDivisionOperators_3<IntPtr, IntPtr, IntPtr>, IIncrementOperators_1<IntPtr>, IMultiplyOperators_3<IntPtr, IntPtr, IntPtr>, ISubtractionOperators_3<IntPtr, IntPtr, IntPtr>, IUnaryPlusOperators_2<IntPtr, IntPtr>, IUnaryNegationOperators_2<IntPtr, IntPtr>, IShiftOperators_3<IntPtr, Int32, IntPtr>, System_Numerics_Internal.IMinMaxValue_1$instance<IntPtr>, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface IntPtr$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<IntPtr>, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_IntPtr: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -2935,9 +2936,9 @@ export interface IntPtr$instance extends IBitwiseOperators_3<IntPtr, IntPtr, Int
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: nint): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: nint): boolean;
     GetHashCode(): int;
     ToInt32(): int;
@@ -2965,9 +2966,9 @@ export const IntPtr: {
     BigMul(left: nint, right: nint, lower: nint): nint;
     Clamp(value: nint, min: nint, max: nint): nint;
     CopySign(value: nint, sign: nint): nint;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): nint;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): nint;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): nint;
     DivRem(left: nint, right: nint): ValueTuple_2<IntPtr, IntPtr>;
     IsEvenInteger(value: nint): boolean;
     IsNegative(value: nint): boolean;
@@ -3025,7 +3026,7 @@ export interface __IntPtr$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: IntPtr): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -3039,7 +3040,7 @@ export interface __IntPtr$views {
 export type IntPtr = number & IntPtr$instance & __IntPtr$views;
 
 
-export interface Memory_1$instance<T> {
+export interface Memory_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Memory_1: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -3048,7 +3049,7 @@ export interface Memory_1$instance<T> {
     readonly Length: int;
     readonly Span: Span_1<T>;
     CopyTo(destination: Memory_1<T>): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: Memory_1<T>): boolean;
     GetHashCode(): int;
     Pin(): MemoryHandle;
@@ -3061,20 +3062,20 @@ export interface Memory_1$instance<T> {
 
 
 export const Memory_1: {
-    new<T>(array: T[] | null): Memory_1<T>;
-    new<T>(array: T[] | null, start: int, length: int): Memory_1<T>;
-    readonly Empty: <T>() => Memory_1<T>;
+    new<T extends unknown>(array: T[] | null): Memory_1<T>;
+    new<T extends unknown>(array: T[] | null, start: int, length: int): Memory_1<T>;
+    readonly Empty: <T extends unknown>() => Memory_1<T>;
 };
 
 
-export interface __Memory_1$views<T> {
+export interface __Memory_1$views<T extends unknown> {
     As_IEquatable_1(): IEquatable_1$instance<Memory_1<T>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Memory_1<T>): boolean;
 }
 
-export type Memory_1<T> = Memory_1$instance<T> & __Memory_1$views<T>;
+export type Memory_1<T extends unknown> = Memory_1$instance<T> & __Memory_1$views<T>;
 
 
 export interface ModuleHandle$instance {
@@ -3083,7 +3084,7 @@ export interface ModuleHandle$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly MDStreamVersion: int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(handle: ModuleHandle): boolean;
     GetHashCode(): int;
     GetRuntimeFieldHandleFromMetadataToken(fieldToken: int): RuntimeFieldHandle;
@@ -3114,12 +3115,12 @@ export interface __ModuleHandle$views {
 export type ModuleHandle = ModuleHandle$instance & __ModuleHandle$views;
 
 
-export interface Nullable_1$instance<T extends NonNullable<JsValue>> {
+export interface Nullable_1$instance<T extends NonNullable<unknown>> {
     readonly __tsonic_type_System_Nullable_1: never;
 
     readonly HasValue: boolean;
     readonly Value: T;
-    Equals(other: JsValue | null): boolean;
+    Equals(other: unknown | null): boolean;
     GetHashCode(): int;
     GetValueOrDefault(): T;
     GetValueOrDefault(defaultValue: T): T;
@@ -3128,11 +3129,11 @@ export interface Nullable_1$instance<T extends NonNullable<JsValue>> {
 
 
 export const Nullable_1: {
-    new<T extends NonNullable<JsValue>>(value: T): Nullable_1<T>;
+    new<T extends NonNullable<unknown>>(value: T): Nullable_1<T>;
 };
 
 
-export type Nullable_1<T> = Nullable_1$instance<T>;
+export type Nullable_1<T extends NonNullable<unknown>> = Nullable_1$instance<T>;
 
 export interface Range$instance {
     readonly __tsonic_type_System_Range: never;
@@ -3141,7 +3142,7 @@ export interface Range$instance {
 
     readonly End: Index;
     readonly Start: Index;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(other: Range): boolean;
     GetHashCode(): int;
     GetOffsetAndLength(length: int): ValueTuple_2<Int32, Int32>;
@@ -3167,7 +3168,7 @@ export interface __Range$views {
 export type Range = Range$instance & __Range$views;
 
 
-export interface ReadOnlyMemory_1$instance<T> {
+export interface ReadOnlyMemory_1$instance<T extends unknown> {
     readonly __tsonic_type_System_ReadOnlyMemory_1: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -3176,7 +3177,7 @@ export interface ReadOnlyMemory_1$instance<T> {
     readonly Length: int;
     readonly Span: ReadOnlySpan_1<T>;
     CopyTo(destination: Memory_1<T>): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: ReadOnlyMemory_1<T>): boolean;
     GetHashCode(): int;
     Pin(): MemoryHandle;
@@ -3189,29 +3190,29 @@ export interface ReadOnlyMemory_1$instance<T> {
 
 
 export const ReadOnlyMemory_1: {
-    new<T>(array: T[] | null): ReadOnlyMemory_1<T>;
-    new<T>(array: T[] | null, start: int, length: int): ReadOnlyMemory_1<T>;
-    readonly Empty: <T>() => ReadOnlyMemory_1<T>;
+    new<T extends unknown>(array: T[] | null): ReadOnlyMemory_1<T>;
+    new<T extends unknown>(array: T[] | null, start: int, length: int): ReadOnlyMemory_1<T>;
+    readonly Empty: <T extends unknown>() => ReadOnlyMemory_1<T>;
 };
 
 
-export interface __ReadOnlyMemory_1$views<T> {
+export interface __ReadOnlyMemory_1$views<T extends unknown> {
     As_IEquatable_1(): IEquatable_1$instance<ReadOnlyMemory_1<T>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ReadOnlyMemory_1<T>): boolean;
 }
 
-export type ReadOnlyMemory_1<T> = ReadOnlyMemory_1$instance<T> & __ReadOnlyMemory_1$views<T>;
+export type ReadOnlyMemory_1<T extends unknown> = ReadOnlyMemory_1$instance<T> & __ReadOnlyMemory_1$views<T>;
 
 
-export interface ReadOnlySpan_1$instance<T> {
+export interface ReadOnlySpan_1$instance<T extends unknown> {
     readonly __tsonic_type_System_ReadOnlySpan_1: never;
 
     readonly IsEmpty: boolean;
     readonly Length: int;
     CopyTo(destination: Span_1<T>): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetEnumerator(): ReadOnlySpan_1_Enumerator<T>;
     GetHashCode(): int;
     GetPinnableReference(): T;
@@ -3224,18 +3225,18 @@ export interface ReadOnlySpan_1$instance<T> {
 
 
 export const ReadOnlySpan_1: {
-    new<T>(array: T[] | null): ReadOnlySpan_1<T>;
-    new<T>(array: T[] | null, start: int, length: int): ReadOnlySpan_1<T>;
-    new<T>(pointer: ptr<void>, length: int): ReadOnlySpan_1<T>;
-    new<T>(reference: T): ReadOnlySpan_1<T>;
-    readonly Empty: <T>() => ReadOnlySpan_1<T>;
-    CastUp<T, TDerived extends T>(items: ReadOnlySpan_1<TDerived>): ReadOnlySpan_1<T>;
+    new<T extends unknown>(array: T[] | null): ReadOnlySpan_1<T>;
+    new<T extends unknown>(array: T[] | null, start: int, length: int): ReadOnlySpan_1<T>;
+    new<T extends unknown>(pointer: ptr<void>, length: int): ReadOnlySpan_1<T>;
+    new<T extends unknown>(reference: T): ReadOnlySpan_1<T>;
+    readonly Empty: <T extends unknown>() => ReadOnlySpan_1<T>;
+    CastUp<T extends unknown, TDerived extends (object | null) & T>(items: ReadOnlySpan_1<TDerived>): ReadOnlySpan_1<T>;
 };
 
 
-export type ReadOnlySpan_1<T> = ReadOnlySpan_1$instance<T> & { readonly [index: number]: T; };
+export type ReadOnlySpan_1<T extends unknown> = ReadOnlySpan_1$instance<T> & { readonly [index: number]: T; };
 
-export interface ReadOnlySpan_1_Enumerator$instance<T> extends IEnumerator_1<T>, IDisposable, IEnumerator {
+export interface ReadOnlySpan_1_Enumerator$instance<T extends unknown> extends IEnumerator_1<T> {
     readonly __tsonic_type_System_ReadOnlySpan_1_Enumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -3244,15 +3245,16 @@ export interface ReadOnlySpan_1_Enumerator$instance<T> extends IEnumerator_1<T>,
 
     readonly Current: T;
     MoveNext(): boolean;
+    Reset(): void;
 }
 
 
 export const ReadOnlySpan_1_Enumerator: {
-    new<T>(): ReadOnlySpan_1_Enumerator<T>;
+    new<T extends unknown>(): ReadOnlySpan_1_Enumerator<T>;
 };
 
 
-export type ReadOnlySpan_1_Enumerator<T> = ReadOnlySpan_1_Enumerator$instance<T>;
+export type ReadOnlySpan_1_Enumerator<T extends unknown> = ReadOnlySpan_1_Enumerator$instance<T>;
 
 export interface RuntimeArgumentHandle$instance {
     readonly __tsonic_type_System_RuntimeArgumentHandle: never;
@@ -3274,7 +3276,7 @@ export interface RuntimeFieldHandle$instance extends System_Runtime_Serializatio
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Value: nint;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(handle: RuntimeFieldHandle): boolean;
     GetHashCode(): int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -3306,7 +3308,7 @@ export interface RuntimeMethodHandle$instance extends System_Runtime_Serializati
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Value: nint;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(handle: RuntimeMethodHandle): boolean;
     GetFunctionPointer(): nint;
     GetHashCode(): int;
@@ -3339,7 +3341,7 @@ export interface RuntimeTypeHandle$instance extends System_Runtime_Serialization
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Value: nint;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(handle: RuntimeTypeHandle): boolean;
     GetHashCode(): int;
     GetModuleHandle(): ModuleHandle;
@@ -3365,7 +3367,7 @@ export interface __RuntimeTypeHandle$views {
 export type RuntimeTypeHandle = RuntimeTypeHandle$instance & __RuntimeTypeHandle$views;
 
 
-export interface SByte$instance extends IBitwiseOperators_3<SByte, SByte, SByte>, IComparisonOperators_3<SByte, SByte, Boolean>, IEqualityOperators_3<SByte, SByte, Boolean>, IModulusOperators_3<SByte, SByte, SByte>, IAdditionOperators_3<SByte, SByte, SByte>, IDecrementOperators_1<SByte>, IDivisionOperators_3<SByte, SByte, SByte>, IIncrementOperators_1<SByte>, IMultiplyOperators_3<SByte, SByte, SByte>, ISubtractionOperators_3<SByte, SByte, SByte>, IUnaryPlusOperators_2<SByte, SByte>, IUnaryNegationOperators_2<SByte, SByte>, IShiftOperators_3<SByte, Int32, SByte>, System_Numerics_Internal.IMinMaxValue_1$instance<SByte> {
+export interface SByte$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<SByte> {
     readonly __tsonic_type_System_SByte: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -3400,9 +3402,9 @@ export interface SByte$instance extends IBitwiseOperators_3<SByte, SByte, SByte>
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    CompareTo(obj: JsValue | null): int;
+    CompareTo(obj: unknown | null): int;
     CompareTo(value: sbyte): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: sbyte): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -3422,9 +3424,9 @@ export const SByte: {
     Abs(value: sbyte): sbyte;
     Clamp(value: sbyte, min: sbyte, max: sbyte): sbyte;
     CopySign(value: sbyte, sign: sbyte): sbyte;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): sbyte;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): sbyte;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): sbyte;
     DivRem(left: sbyte, right: sbyte): ValueTuple_2<SByte, SByte>;
     IsEvenInteger(value: sbyte): boolean;
     IsNegative(value: sbyte): boolean;
@@ -3481,7 +3483,7 @@ export interface __SByte$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SByte): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -3501,15 +3503,15 @@ export interface SequencePosition$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     Equals(other: SequencePosition): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     GetInteger(): int;
-    GetObject(): JsValue | null;
+    GetObject(): unknown | null;
 }
 
 
 export const SequencePosition: {
-    new(object: JsValue | null, integer: int): SequencePosition;
+    new(object: unknown | null, integer: int): SequencePosition;
 };
 
 
@@ -3523,7 +3525,7 @@ export interface __SequencePosition$views {
 export type SequencePosition = SequencePosition$instance & __SequencePosition$views;
 
 
-export interface Single$instance extends IBitwiseOperators_3<Single, Single, Single>, IComparisonOperators_3<Single, Single, Boolean>, IEqualityOperators_3<Single, Single, Boolean>, IModulusOperators_3<Single, Single, Single>, IAdditionOperators_3<Single, Single, Single>, IDecrementOperators_1<Single>, IDivisionOperators_3<Single, Single, Single>, IIncrementOperators_1<Single>, IMultiplyOperators_3<Single, Single, Single>, ISubtractionOperators_3<Single, Single, Single>, IUnaryPlusOperators_2<Single, Single>, IUnaryNegationOperators_2<Single, Single>, System_Numerics_Internal.IMinMaxValue_1$instance<Single> {
+export interface Single$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Single> {
     readonly __tsonic_type_System_Single: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -3566,9 +3568,9 @@ export interface Single$instance extends IBitwiseOperators_3<Single, Single, Sin
     readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: float): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: float): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -3611,15 +3613,15 @@ export const Single: {
     Ceiling(x: float): float;
     Clamp(value: float, min: float, max: float): float;
     ClampNative(value: float, min: float, max: float): float;
-    ConvertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: float): TInteger;
-    ConvertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: float): TInteger;
+    ConvertToInteger<TInteger extends unknown & IBinaryInteger_1<TInteger>>(value: float): TInteger;
+    ConvertToIntegerNative<TInteger extends unknown & IBinaryInteger_1<TInteger>>(value: float): TInteger;
     CopySign(value: float, sign: float): float;
     Cos(x: float): float;
     Cosh(x: float): float;
     CosPi(x: float): float;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): float;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): float;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): float;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): float;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): float;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): float;
     DegreesToRadians(degrees: float): float;
     Exp(x: float): float;
     Exp10(x: float): float;
@@ -3727,7 +3729,7 @@ export interface __Single$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Single): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -3742,14 +3744,14 @@ export interface __Single$views {
 export type Single = number & Single$instance & __Single$views;
 
 
-export interface Span_1$instance<T> {
+export interface Span_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Span_1: never;
 
     readonly IsEmpty: boolean;
     readonly Length: int;
     Clear(): void;
     CopyTo(destination: Span_1<T>): void;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Fill(value: T): void;
     GetEnumerator(): Span_1_Enumerator<T>;
     GetHashCode(): int;
@@ -3763,17 +3765,17 @@ export interface Span_1$instance<T> {
 
 
 export const Span_1: {
-    new<T>(array: T[] | null): Span_1<T>;
-    new<T>(array: T[] | null, start: int, length: int): Span_1<T>;
-    new<T>(pointer: ptr<void>, length: int): Span_1<T>;
-    new<T>(reference: T): Span_1<T>;
-    readonly Empty: <T>() => Span_1<T>;
+    new<T extends unknown>(array: T[] | null): Span_1<T>;
+    new<T extends unknown>(array: T[] | null, start: int, length: int): Span_1<T>;
+    new<T extends unknown>(pointer: ptr<void>, length: int): Span_1<T>;
+    new<T extends unknown>(reference: T): Span_1<T>;
+    readonly Empty: <T extends unknown>() => Span_1<T>;
 };
 
 
-export type Span_1<T> = Span_1$instance<T> & { readonly [index: number]: T; };
+export type Span_1<T extends unknown> = Span_1$instance<T> & { readonly [index: number]: T; };
 
-export interface Span_1_Enumerator$instance<T> extends IEnumerator_1<T>, IDisposable, IEnumerator {
+export interface Span_1_Enumerator$instance<T extends unknown> extends IEnumerator_1<T> {
     readonly __tsonic_type_System_Span_1_Enumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -3782,15 +3784,16 @@ export interface Span_1_Enumerator$instance<T> extends IEnumerator_1<T>, IDispos
 
     readonly Current: T;
     MoveNext(): boolean;
+    Reset(): void;
 }
 
 
 export const Span_1_Enumerator: {
-    new<T>(): Span_1_Enumerator<T>;
+    new<T extends unknown>(): Span_1_Enumerator<T>;
 };
 
 
-export type Span_1_Enumerator<T> = Span_1_Enumerator$instance<T>;
+export type Span_1_Enumerator<T extends unknown> = Span_1_Enumerator$instance<T>;
 
 export interface TimeOnly$instance extends ISpanParsable_1$instance<TimeOnly> {
     readonly __tsonic_type_System_TimeOnly: never;
@@ -3818,13 +3821,13 @@ export interface TimeOnly$instance extends ISpanParsable_1$instance<TimeOnly> {
     AddMinutes(value: double): TimeOnly;
     AddMinutes(value: double, wrappedDays: int): TimeOnly;
     CompareTo(value: TimeOnly): int;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     Deconstruct(hour: int, minute: int): void;
     Deconstruct(hour: int, minute: int, second: int): void;
     Deconstruct(hour: int, minute: int, second: int, millisecond: int): void;
     Deconstruct(hour: int, minute: int, second: int, millisecond: int, microsecond: int): void;
     Equals(value: TimeOnly): boolean;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     GetHashCode(): int;
     IsBetween(start: TimeOnly, end: TimeOnly): boolean;
     ToLongTimeString(): string;
@@ -3890,7 +3893,7 @@ export interface __TimeOnly$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: TimeOnly): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
@@ -3925,12 +3928,12 @@ export interface TimeSpan$instance extends ISpanParsable_1$instance<TimeSpan> {
     readonly TotalNanoseconds: double;
     readonly TotalSeconds: double;
     Add(ts: TimeSpan): TimeSpan;
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: TimeSpan): int;
     Divide(divisor: double): TimeSpan;
     Divide(ts: TimeSpan): double;
     Duration(): TimeSpan;
-    Equals(value: JsValue | null): boolean;
+    Equals(value: unknown | null): boolean;
     Equals(obj: TimeSpan): boolean;
     GetHashCode(): int;
     Multiply(factor: double): TimeSpan;
@@ -4031,7 +4034,7 @@ export interface __TimeSpan$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: TimeSpan): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
@@ -4041,7 +4044,7 @@ export type TimeSpan = TimeSpan$instance & __TimeSpan$views;
 export interface TypedReference$instance {
     readonly __tsonic_type_System_TypedReference: never;
 
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -4049,16 +4052,16 @@ export interface TypedReference$instance {
 export const TypedReference: {
     new(): TypedReference;
     GetTargetType(value: TypedReference): Type;
-    MakeTypedReference(target: JsValue, flds: FieldInfo[]): TypedReference;
-    SetTypedReference(target: TypedReference, value: JsValue | null): void;
+    MakeTypedReference(target: unknown, flds: FieldInfo[]): TypedReference;
+    SetTypedReference(target: TypedReference, value: unknown | null): void;
     TargetTypeToken(value: TypedReference): RuntimeTypeHandle;
-    ToObject(value: TypedReference): JsValue | null;
+    ToObject(value: TypedReference): unknown | null;
 };
 
 
 export type TypedReference = TypedReference$instance;
 
-export interface UInt128$instance extends IBitwiseOperators_3<UInt128, UInt128, UInt128>, IComparisonOperators_3<UInt128, UInt128, Boolean>, IEqualityOperators_3<UInt128, UInt128, Boolean>, IModulusOperators_3<UInt128, UInt128, UInt128>, IAdditionOperators_3<UInt128, UInt128, UInt128>, IDecrementOperators_1<UInt128>, IDivisionOperators_3<UInt128, UInt128, UInt128>, IIncrementOperators_1<UInt128>, IMultiplyOperators_3<UInt128, UInt128, UInt128>, ISubtractionOperators_3<UInt128, UInt128, UInt128>, IUnaryPlusOperators_2<UInt128, UInt128>, IUnaryNegationOperators_2<UInt128, UInt128>, IShiftOperators_3<UInt128, Int32, UInt128>, System_Numerics_Internal.IMinMaxValue_1$instance<UInt128> {
+export interface UInt128$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt128> {
     readonly __tsonic_type_System_UInt128: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4092,9 +4095,9 @@ export interface UInt128$instance extends IBitwiseOperators_3<UInt128, UInt128, 
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: uint128): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: uint128): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -4114,9 +4117,9 @@ export const UInt128: {
     readonly Zero: uint128;
     BigMul(left: uint128, right: uint128, lower: uint128): uint128;
     Clamp(value: uint128, min: uint128, max: uint128): uint128;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): uint128;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): uint128;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): uint128;
     DivRem(left: uint128, right: uint128): ValueTuple_2<UInt128, UInt128>;
     IsEvenInteger(value: uint128): boolean;
     IsOddInteger(value: uint128): boolean;
@@ -4167,7 +4170,7 @@ export interface __UInt128$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: UInt128): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -4181,7 +4184,7 @@ export interface __UInt128$views {
 export type UInt128 = number & UInt128$instance & __UInt128$views;
 
 
-export interface UInt16$instance extends IBitwiseOperators_3<UInt16, UInt16, UInt16>, IComparisonOperators_3<UInt16, UInt16, Boolean>, IEqualityOperators_3<UInt16, UInt16, Boolean>, IModulusOperators_3<UInt16, UInt16, UInt16>, IAdditionOperators_3<UInt16, UInt16, UInt16>, IDecrementOperators_1<UInt16>, IDivisionOperators_3<UInt16, UInt16, UInt16>, IIncrementOperators_1<UInt16>, IMultiplyOperators_3<UInt16, UInt16, UInt16>, ISubtractionOperators_3<UInt16, UInt16, UInt16>, IUnaryPlusOperators_2<UInt16, UInt16>, IUnaryNegationOperators_2<UInt16, UInt16>, IShiftOperators_3<UInt16, Int32, UInt16>, System_Numerics_Internal.IMinMaxValue_1$instance<UInt16> {
+export interface UInt16$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt16> {
     readonly __tsonic_type_System_UInt16: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4216,9 +4219,9 @@ export interface UInt16$instance extends IBitwiseOperators_3<UInt16, UInt16, UIn
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: ushort): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: ushort): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -4236,9 +4239,9 @@ export const UInt16: {
     readonly MaxValue: ushort;
     readonly MinValue: ushort;
     Clamp(value: ushort, min: ushort, max: ushort): ushort;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): ushort;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): ushort;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): ushort;
     DivRem(left: ushort, right: ushort): ValueTuple_2<UInt16, UInt16>;
     IsEvenInteger(value: ushort): boolean;
     IsOddInteger(value: ushort): boolean;
@@ -4291,7 +4294,7 @@ export interface __UInt16$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: UInt16): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -4305,7 +4308,7 @@ export interface __UInt16$views {
 export type UInt16 = number & UInt16$instance & __UInt16$views;
 
 
-export interface UInt32$instance extends IBitwiseOperators_3<UInt32, UInt32, UInt32>, IComparisonOperators_3<UInt32, UInt32, Boolean>, IEqualityOperators_3<UInt32, UInt32, Boolean>, IModulusOperators_3<UInt32, UInt32, UInt32>, IAdditionOperators_3<UInt32, UInt32, UInt32>, IDecrementOperators_1<UInt32>, IDivisionOperators_3<UInt32, UInt32, UInt32>, IIncrementOperators_1<UInt32>, IMultiplyOperators_3<UInt32, UInt32, UInt32>, ISubtractionOperators_3<UInt32, UInt32, UInt32>, IUnaryPlusOperators_2<UInt32, UInt32>, IUnaryNegationOperators_2<UInt32, UInt32>, IShiftOperators_3<UInt32, Int32, UInt32>, System_Numerics_Internal.IMinMaxValue_1$instance<UInt32> {
+export interface UInt32$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt32> {
     readonly __tsonic_type_System_UInt32: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4340,9 +4343,9 @@ export interface UInt32$instance extends IBitwiseOperators_3<UInt32, UInt32, UIn
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: uint): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: uint): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -4361,9 +4364,9 @@ export const UInt32: {
     readonly MinValue: uint;
     BigMul(left: uint, right: uint): ulong;
     Clamp(value: uint, min: uint, max: uint): uint;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): uint;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): uint;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): uint;
     DivRem(left: uint, right: uint): ValueTuple_2<UInt32, UInt32>;
     IsEvenInteger(value: uint): boolean;
     IsOddInteger(value: uint): boolean;
@@ -4416,7 +4419,7 @@ export interface __UInt32$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: UInt32): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -4430,7 +4433,7 @@ export interface __UInt32$views {
 export type UInt32 = number & UInt32$instance & __UInt32$views;
 
 
-export interface UInt64$instance extends IBitwiseOperators_3<UInt64, UInt64, UInt64>, IComparisonOperators_3<UInt64, UInt64, Boolean>, IEqualityOperators_3<UInt64, UInt64, Boolean>, IModulusOperators_3<UInt64, UInt64, UInt64>, IAdditionOperators_3<UInt64, UInt64, UInt64>, IDecrementOperators_1<UInt64>, IDivisionOperators_3<UInt64, UInt64, UInt64>, IIncrementOperators_1<UInt64>, IMultiplyOperators_3<UInt64, UInt64, UInt64>, ISubtractionOperators_3<UInt64, UInt64, UInt64>, IUnaryPlusOperators_2<UInt64, UInt64>, IUnaryNegationOperators_2<UInt64, UInt64>, IShiftOperators_3<UInt64, Int32, UInt64>, System_Numerics_Internal.IMinMaxValue_1$instance<UInt64> {
+export interface UInt64$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt64> {
     readonly __tsonic_type_System_UInt64: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4465,9 +4468,9 @@ export interface UInt64$instance extends IBitwiseOperators_3<UInt64, UInt64, UIn
     readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never;
     readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: ulong): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: ulong): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
@@ -4486,9 +4489,9 @@ export const UInt64: {
     readonly MinValue: ulong;
     BigMul(left: ulong, right: ulong): uint128;
     Clamp(value: ulong, min: ulong, max: ulong): ulong;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): ulong;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): ulong;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): ulong;
     DivRem(left: ulong, right: ulong): ValueTuple_2<UInt64, UInt64>;
     IsEvenInteger(value: ulong): boolean;
     IsOddInteger(value: ulong): boolean;
@@ -4541,7 +4544,7 @@ export interface __UInt64$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: UInt64): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -4555,7 +4558,7 @@ export interface __UInt64$views {
 export type UInt64 = number & UInt64$instance & __UInt64$views;
 
 
-export interface UIntPtr$instance extends IBitwiseOperators_3<UIntPtr, UIntPtr, UIntPtr>, IComparisonOperators_3<UIntPtr, UIntPtr, Boolean>, IEqualityOperators_3<UIntPtr, UIntPtr, Boolean>, IModulusOperators_3<UIntPtr, UIntPtr, UIntPtr>, IAdditionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IDecrementOperators_1<UIntPtr>, IDivisionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IIncrementOperators_1<UIntPtr>, IMultiplyOperators_3<UIntPtr, UIntPtr, UIntPtr>, ISubtractionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IUnaryPlusOperators_2<UIntPtr, UIntPtr>, IUnaryNegationOperators_2<UIntPtr, UIntPtr>, IShiftOperators_3<UIntPtr, Int32, UIntPtr>, System_Numerics_Internal.IMinMaxValue_1$instance<UIntPtr>, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface UIntPtr$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UIntPtr>, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_UIntPtr: never;
 
     readonly __tsonic_iface_System_IComparable: never;
@@ -4590,9 +4593,9 @@ export interface UIntPtr$instance extends IBitwiseOperators_3<UIntPtr, UIntPtr, 
     readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    CompareTo(value: JsValue | null): int;
+    CompareTo(value: unknown | null): int;
     CompareTo(value: nuint): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: nuint): boolean;
     GetHashCode(): int;
     ToPointer(): ptr<void>;
@@ -4618,9 +4621,9 @@ export const UIntPtr: {
     Add(pointer: nuint, offset: int): nuint;
     BigMul(left: nuint, right: nuint, lower: nuint): nuint;
     Clamp(value: nuint, min: nuint, max: nuint): nuint;
-    CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
-    CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
-    CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
+    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): nuint;
+    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): nuint;
+    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): nuint;
     DivRem(left: nuint, right: nuint): ValueTuple_2<UIntPtr, UIntPtr>;
     IsEvenInteger(value: nuint): boolean;
     IsOddInteger(value: nuint): boolean;
@@ -4674,7 +4677,7 @@ export interface __UIntPtr$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: UIntPtr): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: IFormatProvider): string;
     TryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
@@ -4713,7 +4716,7 @@ export interface ValueTuple$instance extends IComparable_1$instance<ValueTuple>,
     readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
 
     CompareTo(other: ValueTuple): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: ValueTuple): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -4723,14 +4726,14 @@ export interface ValueTuple$instance extends IComparable_1$instance<ValueTuple>,
 export const ValueTuple: {
     new(): ValueTuple;
     Create(): ValueTuple;
-    Create<T1, T2, T3, T4, T5, T6, T7, T8>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8): ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, ValueTuple_1<T8>>;
-    Create<T1, T2, T3, T4, T5, T6, T7>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>;
-    Create<T1, T2, T3, T4, T5, T6>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): ValueTuple_6<T1, T2, T3, T4, T5, T6>;
-    Create<T1, T2, T3, T4, T5>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): ValueTuple_5<T1, T2, T3, T4, T5>;
-    Create<T1, T2, T3, T4>(item1: T1, item2: T2, item3: T3, item4: T4): ValueTuple_4<T1, T2, T3, T4>;
-    Create<T1, T2, T3>(item1: T1, item2: T2, item3: T3): ValueTuple_3<T1, T2, T3>;
-    Create<T1, T2>(item1: T1, item2: T2): ValueTuple_2<T1, T2>;
-    Create<T1>(item1: T1): ValueTuple_1<T1>;
+    Create<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8): ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, ValueTuple_1<T8>>;
+    Create<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>;
+    Create<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): ValueTuple_6<T1, T2, T3, T4, T5, T6>;
+    Create<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): ValueTuple_5<T1, T2, T3, T4, T5>;
+    Create<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4): ValueTuple_4<T1, T2, T3, T4>;
+    Create<T1 extends unknown, T2 extends unknown, T3 extends unknown>(item1: T1, item2: T2, item3: T3): ValueTuple_3<T1, T2, T3>;
+    Create<T1 extends unknown, T2 extends unknown>(item1: T1, item2: T2): ValueTuple_2<T1, T2>;
+    Create<T1 extends unknown>(item1: T1): ValueTuple_1<T1>;
 };
 
 
@@ -4744,13 +4747,13 @@ export interface __ValueTuple$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type ValueTuple = ValueTuple$instance & __ValueTuple$views;
 
 
-export interface ValueTuple_1$instance<T1> extends IComparable_1$instance<ValueTuple_1<T1>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface ValueTuple_1$instance<T1 extends unknown> extends IComparable_1$instance<ValueTuple_1<T1>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_ValueTuple_1: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -4762,7 +4765,7 @@ export interface ValueTuple_1$instance<T1> extends IComparable_1$instance<ValueT
 
     Item1: T1;
     CompareTo(other: ValueTuple_1<T1>): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: ValueTuple_1<T1>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -4770,11 +4773,11 @@ export interface ValueTuple_1$instance<T1> extends IComparable_1$instance<ValueT
 
 
 export const ValueTuple_1: {
-    new<T1>(item1: T1): ValueTuple_1<T1>;
+    new<T1 extends unknown>(item1: T1): ValueTuple_1<T1>;
 };
 
 
-export interface __ValueTuple_1$views<T1> {
+export interface __ValueTuple_1$views<T1 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
@@ -4784,13 +4787,13 @@ export interface __ValueTuple_1$views<T1> {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_1<T1>): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type ValueTuple_1<T1> = ValueTuple_1$instance<T1> & __ValueTuple_1$views<T1>;
+export type ValueTuple_1<T1 extends unknown> = ValueTuple_1$instance<T1> & __ValueTuple_1$views<T1>;
 
 
-export interface ValueTuple_2$instance<T1, T2> extends IComparable_1$instance<ValueTuple_2<T1, T2>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface ValueTuple_2$instance<T1 extends unknown, T2 extends unknown> extends IComparable_1$instance<ValueTuple_2<T1, T2>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_ValueTuple_2: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -4803,7 +4806,7 @@ export interface ValueTuple_2$instance<T1, T2> extends IComparable_1$instance<Va
     Item1: T1;
     Item2: T2;
     CompareTo(other: ValueTuple_2<T1, T2>): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: ValueTuple_2<T1, T2>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -4811,11 +4814,11 @@ export interface ValueTuple_2$instance<T1, T2> extends IComparable_1$instance<Va
 
 
 export const ValueTuple_2: {
-    new<T1, T2>(item1: T1, item2: T2): ValueTuple_2<T1, T2>;
+    new<T1 extends unknown, T2 extends unknown>(item1: T1, item2: T2): ValueTuple_2<T1, T2>;
 };
 
 
-export interface __ValueTuple_2$views<T1, T2> {
+export interface __ValueTuple_2$views<T1 extends unknown, T2 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
@@ -4825,13 +4828,13 @@ export interface __ValueTuple_2$views<T1, T2> {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_2<T1, T2>): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type ValueTuple_2<T1, T2> = ValueTuple_2$instance<T1, T2> & __ValueTuple_2$views<T1, T2>;
+export type ValueTuple_2<T1 extends unknown, T2 extends unknown> = ValueTuple_2$instance<T1, T2> & __ValueTuple_2$views<T1, T2>;
 
 
-export interface ValueTuple_3$instance<T1, T2, T3> extends IComparable_1$instance<ValueTuple_3<T1, T2, T3>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface ValueTuple_3$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown> extends IComparable_1$instance<ValueTuple_3<T1, T2, T3>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_ValueTuple_3: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -4845,7 +4848,7 @@ export interface ValueTuple_3$instance<T1, T2, T3> extends IComparable_1$instanc
     Item2: T2;
     Item3: T3;
     CompareTo(other: ValueTuple_3<T1, T2, T3>): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: ValueTuple_3<T1, T2, T3>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -4853,11 +4856,11 @@ export interface ValueTuple_3$instance<T1, T2, T3> extends IComparable_1$instanc
 
 
 export const ValueTuple_3: {
-    new<T1, T2, T3>(item1: T1, item2: T2, item3: T3): ValueTuple_3<T1, T2, T3>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown>(item1: T1, item2: T2, item3: T3): ValueTuple_3<T1, T2, T3>;
 };
 
 
-export interface __ValueTuple_3$views<T1, T2, T3> {
+export interface __ValueTuple_3$views<T1 extends unknown, T2 extends unknown, T3 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
@@ -4867,13 +4870,13 @@ export interface __ValueTuple_3$views<T1, T2, T3> {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_3<T1, T2, T3>): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type ValueTuple_3<T1, T2, T3> = ValueTuple_3$instance<T1, T2, T3> & __ValueTuple_3$views<T1, T2, T3>;
+export type ValueTuple_3<T1 extends unknown, T2 extends unknown, T3 extends unknown> = ValueTuple_3$instance<T1, T2, T3> & __ValueTuple_3$views<T1, T2, T3>;
 
 
-export interface ValueTuple_4$instance<T1, T2, T3, T4> extends IComparable_1$instance<ValueTuple_4<T1, T2, T3, T4>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface ValueTuple_4$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown> extends IComparable_1$instance<ValueTuple_4<T1, T2, T3, T4>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_ValueTuple_4: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -4888,7 +4891,7 @@ export interface ValueTuple_4$instance<T1, T2, T3, T4> extends IComparable_1$ins
     Item3: T3;
     Item4: T4;
     CompareTo(other: ValueTuple_4<T1, T2, T3, T4>): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: ValueTuple_4<T1, T2, T3, T4>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -4896,11 +4899,11 @@ export interface ValueTuple_4$instance<T1, T2, T3, T4> extends IComparable_1$ins
 
 
 export const ValueTuple_4: {
-    new<T1, T2, T3, T4>(item1: T1, item2: T2, item3: T3, item4: T4): ValueTuple_4<T1, T2, T3, T4>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4): ValueTuple_4<T1, T2, T3, T4>;
 };
 
 
-export interface __ValueTuple_4$views<T1, T2, T3, T4> {
+export interface __ValueTuple_4$views<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
@@ -4910,13 +4913,13 @@ export interface __ValueTuple_4$views<T1, T2, T3, T4> {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_4<T1, T2, T3, T4>): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type ValueTuple_4<T1, T2, T3, T4> = ValueTuple_4$instance<T1, T2, T3, T4> & __ValueTuple_4$views<T1, T2, T3, T4>;
+export type ValueTuple_4<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown> = ValueTuple_4$instance<T1, T2, T3, T4> & __ValueTuple_4$views<T1, T2, T3, T4>;
 
 
-export interface ValueTuple_5$instance<T1, T2, T3, T4, T5> extends IComparable_1$instance<ValueTuple_5<T1, T2, T3, T4, T5>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface ValueTuple_5$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown> extends IComparable_1$instance<ValueTuple_5<T1, T2, T3, T4, T5>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_ValueTuple_5: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -4932,7 +4935,7 @@ export interface ValueTuple_5$instance<T1, T2, T3, T4, T5> extends IComparable_1
     Item4: T4;
     Item5: T5;
     CompareTo(other: ValueTuple_5<T1, T2, T3, T4, T5>): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: ValueTuple_5<T1, T2, T3, T4, T5>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -4940,11 +4943,11 @@ export interface ValueTuple_5$instance<T1, T2, T3, T4, T5> extends IComparable_1
 
 
 export const ValueTuple_5: {
-    new<T1, T2, T3, T4, T5>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): ValueTuple_5<T1, T2, T3, T4, T5>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): ValueTuple_5<T1, T2, T3, T4, T5>;
 };
 
 
-export interface __ValueTuple_5$views<T1, T2, T3, T4, T5> {
+export interface __ValueTuple_5$views<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
@@ -4954,13 +4957,13 @@ export interface __ValueTuple_5$views<T1, T2, T3, T4, T5> {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_5<T1, T2, T3, T4, T5>): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type ValueTuple_5<T1, T2, T3, T4, T5> = ValueTuple_5$instance<T1, T2, T3, T4, T5> & __ValueTuple_5$views<T1, T2, T3, T4, T5>;
+export type ValueTuple_5<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown> = ValueTuple_5$instance<T1, T2, T3, T4, T5> & __ValueTuple_5$views<T1, T2, T3, T4, T5>;
 
 
-export interface ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparable_1$instance<ValueTuple_6<T1, T2, T3, T4, T5, T6>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface ValueTuple_6$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown> extends IComparable_1$instance<ValueTuple_6<T1, T2, T3, T4, T5, T6>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_ValueTuple_6: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -4977,7 +4980,7 @@ export interface ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparab
     Item5: T5;
     Item6: T6;
     CompareTo(other: ValueTuple_6<T1, T2, T3, T4, T5, T6>): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: ValueTuple_6<T1, T2, T3, T4, T5, T6>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -4985,11 +4988,11 @@ export interface ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparab
 
 
 export const ValueTuple_6: {
-    new<T1, T2, T3, T4, T5, T6>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): ValueTuple_6<T1, T2, T3, T4, T5, T6>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): ValueTuple_6<T1, T2, T3, T4, T5, T6>;
 };
 
 
-export interface __ValueTuple_6$views<T1, T2, T3, T4, T5, T6> {
+export interface __ValueTuple_6$views<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
@@ -4999,13 +5002,13 @@ export interface __ValueTuple_6$views<T1, T2, T3, T4, T5, T6> {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_6<T1, T2, T3, T4, T5, T6>): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type ValueTuple_6<T1, T2, T3, T4, T5, T6> = ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> & __ValueTuple_6$views<T1, T2, T3, T4, T5, T6>;
+export type ValueTuple_6<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown> = ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> & __ValueTuple_6$views<T1, T2, T3, T4, T5, T6>;
 
 
-export interface ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComparable_1$instance<ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface ValueTuple_7$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown> extends IComparable_1$instance<ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_ValueTuple_7: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -5023,7 +5026,7 @@ export interface ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComp
     Item6: T6;
     Item7: T7;
     CompareTo(other: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -5031,11 +5034,11 @@ export interface ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComp
 
 
 export const ValueTuple_7: {
-    new<T1, T2, T3, T4, T5, T6, T7>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>;
 };
 
 
-export interface __ValueTuple_7$views<T1, T2, T3, T4, T5, T6, T7> {
+export interface __ValueTuple_7$views<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
@@ -5045,13 +5048,13 @@ export interface __ValueTuple_7$views<T1, T2, T3, T4, T5, T6, T7> {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type ValueTuple_7<T1, T2, T3, T4, T5, T6, T7> = ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __ValueTuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
+export type ValueTuple_7<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown> = ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __ValueTuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
 
 
-export interface ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends NonNullable<JsValue>> extends IComparable_1$instance<ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface ValueTuple_8$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, TRest extends NonNullable<unknown>> extends IComparable_1$instance<ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_ValueTuple_8: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -5070,7 +5073,7 @@ export interface ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends
     Item7: T7;
     Rest: TRest;
     CompareTo(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -5078,11 +5081,11 @@ export interface ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends
 
 
 export const ValueTuple_8: {
-    new<T1, T2, T3, T4, T5, T6, T7, TRest extends NonNullable<JsValue>>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, rest: TRest): ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, TRest extends NonNullable<unknown>>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, rest: TRest): ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>;
 };
 
 
-export interface __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest extends NonNullable<JsValue>> {
+export interface __ValueTuple_8$views<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, TRest extends NonNullable<unknown>> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
@@ -5092,10 +5095,10 @@ export interface __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest extends 
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
+export type ValueTuple_8<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, TRest extends NonNullable<unknown>> = ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
 
 
 export interface Void$instance {
@@ -5133,7 +5136,7 @@ export interface __AccessViolationException$views {
 export type AccessViolationException = AccessViolationException$instance & __AccessViolationException$views;
 
 
-export interface AggregateException$instance extends Exception$instance {
+export interface AggregateException$instance extends Exception$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_AggregateException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -5187,25 +5190,27 @@ export interface AppDomain$instance extends MarshalByRefObject {
     ClearPrivatePath(): void;
     ClearShadowCopyPath(): void;
     CreateInstance(assemblyName: string, typeName: string): ObjectHandle | null;
-    CreateInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (JsValue | null)[] | null, culture: CultureInfo | null, activationAttributes: (JsValue | null)[] | null): ObjectHandle | null;
-    CreateInstance(assemblyName: string, typeName: string, activationAttributes: (JsValue | null)[] | null): ObjectHandle | null;
-    CreateInstanceAndUnwrap(assemblyName: string, typeName: string): JsValue | null;
-    CreateInstanceAndUnwrap(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (JsValue | null)[] | null, culture: CultureInfo | null, activationAttributes: (JsValue | null)[] | null): JsValue | null;
-    CreateInstanceAndUnwrap(assemblyName: string, typeName: string, activationAttributes: (JsValue | null)[] | null): JsValue | null;
+    CreateInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (unknown | null)[] | null, culture: CultureInfo | null, activationAttributes: (unknown | null)[] | null): ObjectHandle | null;
+    CreateInstance(assemblyName: string, typeName: string, activationAttributes: (unknown | null)[] | null): ObjectHandle | null;
+    CreateInstanceAndUnwrap(assemblyName: string, typeName: string): unknown | null;
+    CreateInstanceAndUnwrap(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (unknown | null)[] | null, culture: CultureInfo | null, activationAttributes: (unknown | null)[] | null): unknown | null;
+    CreateInstanceAndUnwrap(assemblyName: string, typeName: string, activationAttributes: (unknown | null)[] | null): unknown | null;
     CreateInstanceFrom(assemblyFile: string, typeName: string): ObjectHandle | null;
-    CreateInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (JsValue | null)[] | null, culture: CultureInfo | null, activationAttributes: (JsValue | null)[] | null): ObjectHandle | null;
-    CreateInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: (JsValue | null)[] | null): ObjectHandle | null;
-    CreateInstanceFromAndUnwrap(assemblyFile: string, typeName: string): JsValue | null;
-    CreateInstanceFromAndUnwrap(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (JsValue | null)[] | null, culture: CultureInfo | null, activationAttributes: (JsValue | null)[] | null): JsValue | null;
-    CreateInstanceFromAndUnwrap(assemblyFile: string, typeName: string, activationAttributes: (JsValue | null)[] | null): JsValue | null;
+    CreateInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (unknown | null)[] | null, culture: CultureInfo | null, activationAttributes: (unknown | null)[] | null): ObjectHandle | null;
+    CreateInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: (unknown | null)[] | null): ObjectHandle | null;
+    CreateInstanceFromAndUnwrap(assemblyFile: string, typeName: string): unknown | null;
+    CreateInstanceFromAndUnwrap(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (unknown | null)[] | null, culture: CultureInfo | null, activationAttributes: (unknown | null)[] | null): unknown | null;
+    CreateInstanceFromAndUnwrap(assemblyFile: string, typeName: string, activationAttributes: (unknown | null)[] | null): unknown | null;
     ExecuteAssembly(assemblyFile: string): int;
     ExecuteAssembly(assemblyFile: string, args: (string | null)[] | null): int;
     ExecuteAssembly(assemblyFile: string, args: (string | null)[] | null, hashValue: byte[] | null, hashAlgorithm: AssemblyHashAlgorithm): int;
-    ExecuteAssemblyByName(assemblyName: AssemblyName, ...args: (string | null)[] | null): int;
+    ExecuteAssemblyByName(assemblyName: AssemblyName, ...args: (string | null)[]): int;
+    ExecuteAssemblyByName(assemblyName: AssemblyName, args: (string | null)[] | null): int;
     ExecuteAssemblyByName(assemblyName: string): int;
-    ExecuteAssemblyByName(assemblyName: string, ...args: (string | null)[] | null): int;
+    ExecuteAssemblyByName(assemblyName: string, ...args: (string | null)[]): int;
+    ExecuteAssemblyByName(assemblyName: string, args: (string | null)[] | null): int;
     GetAssemblies(): Assembly[];
-    GetData(name: string): JsValue | null;
+    GetData(name: string): unknown | null;
     IsCompatibilitySwitchSet(value: string): Nullable_1<Boolean>;
     IsDefaultAppDomain(): boolean;
     IsFinalizingForUnload(): boolean;
@@ -5215,7 +5220,7 @@ export interface AppDomain$instance extends MarshalByRefObject {
     Load(assemblyString: string): Assembly;
     ReflectionOnlyGetAssemblies(): Assembly[];
     SetCachePath(path: string | null): void;
-    SetData(name: string, data: JsValue | null): void;
+    SetData(name: string, data: unknown | null): void;
     SetDynamicBase(path: string | null): void;
     SetPrincipalPolicy(policy: PrincipalPolicy): void;
     SetShadowCopyFiles(): void;
@@ -5304,7 +5309,7 @@ export interface ApplicationId$instance {
     readonly PublicKeyToken: byte[];
     readonly Version: Version;
     Copy(): ApplicationId;
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -5317,7 +5322,7 @@ export const ApplicationId: {
 
 export type ApplicationId = ApplicationId$instance;
 
-export interface ArgumentException$instance extends SystemException$instance {
+export interface ArgumentException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ArgumentException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -5346,7 +5351,7 @@ export interface __ArgumentException$views {
 export type ArgumentException = ArgumentException$instance & __ArgumentException$views;
 
 
-export interface ArgumentNullException$instance extends ArgumentException$instance {
+export interface ArgumentNullException$instance extends ArgumentException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ArgumentNullException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -5359,7 +5364,7 @@ export const ArgumentNullException: {
     new(paramName: string | null): ArgumentNullException;
     new(message: string | null, innerException: Exception | null): ArgumentNullException;
     new(paramName: string | null, message: string | null): ArgumentNullException;
-    ThrowIfNull(argument: JsValue | null, paramName?: string | null): void;
+    ThrowIfNull(argument: unknown | null, paramName?: string | null): void;
     ThrowIfNull(argument: ptr<void>, paramName?: string | null): void;
 };
 
@@ -5371,12 +5376,12 @@ export interface __ArgumentNullException$views {
 export type ArgumentNullException = ArgumentNullException$instance & __ArgumentNullException$views;
 
 
-export interface ArgumentOutOfRangeException$instance extends ArgumentException$instance {
+export interface ArgumentOutOfRangeException$instance extends ArgumentException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ArgumentOutOfRangeException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly ActualValue: JsValue | null;
+    readonly ActualValue: unknown | null;
     readonly Message: string;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -5387,16 +5392,16 @@ export const ArgumentOutOfRangeException: {
     new(paramName: string | null): ArgumentOutOfRangeException;
     new(paramName: string | null, message: string | null): ArgumentOutOfRangeException;
     new(message: string | null, innerException: Exception | null): ArgumentOutOfRangeException;
-    new(paramName: string | null, actualValue: JsValue | null, message: string | null): ArgumentOutOfRangeException;
-    ThrowIfEqual<T>(value: T, other: T, paramName?: string | null): void;
-    ThrowIfGreaterThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string | null): void;
-    ThrowIfGreaterThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string | null): void;
-    ThrowIfLessThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string | null): void;
-    ThrowIfLessThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string | null): void;
-    ThrowIfNegative<T extends INumberBase_1<T>>(value: T, paramName?: string | null): void;
-    ThrowIfNegativeOrZero<T extends INumberBase_1<T>>(value: T, paramName?: string | null): void;
-    ThrowIfNotEqual<T>(value: T, other: T, paramName?: string | null): void;
-    ThrowIfZero<T extends INumberBase_1<T>>(value: T, paramName?: string | null): void;
+    new(paramName: string | null, actualValue: unknown | null, message: string | null): ArgumentOutOfRangeException;
+    ThrowIfEqual<T extends unknown>(value: T, other: T, paramName?: string | null): void;
+    ThrowIfGreaterThan<T extends unknown & IComparable_1<T>>(value: T, other: T, paramName?: string | null): void;
+    ThrowIfGreaterThanOrEqual<T extends unknown & IComparable_1<T>>(value: T, other: T, paramName?: string | null): void;
+    ThrowIfLessThan<T extends unknown & IComparable_1<T>>(value: T, other: T, paramName?: string | null): void;
+    ThrowIfLessThanOrEqual<T extends unknown & IComparable_1<T>>(value: T, other: T, paramName?: string | null): void;
+    ThrowIfNegative<T extends unknown & INumberBase_1<T>>(value: T, paramName?: string | null): void;
+    ThrowIfNegativeOrZero<T extends unknown & INumberBase_1<T>>(value: T, paramName?: string | null): void;
+    ThrowIfNotEqual<T extends unknown>(value: T, other: T, paramName?: string | null): void;
+    ThrowIfZero<T extends unknown & INumberBase_1<T>>(value: T, paramName?: string | null): void;
 };
 
 
@@ -5445,8 +5450,8 @@ export interface Array$instance extends ICloneable$instance {
     readonly Length: int;
     readonly LongLength: long;
     readonly Rank: int;
-    readonly SyncRoot: JsValue;
-    Clone(): JsValue;
+    readonly SyncRoot: unknown;
+    Clone(): unknown;
     CopyTo(array: Array, index: int): void;
     CopyTo(array: Array, index: long): void;
     GetEnumerator(): IEnumerator;
@@ -5454,41 +5459,41 @@ export interface Array$instance extends ICloneable$instance {
     GetLongLength(dimension: int): long;
     GetLowerBound(dimension: int): int;
     GetUpperBound(dimension: int): int;
-    GetValue(...indices: int[]): JsValue | null;
-    GetValue(index: int): JsValue | null;
-    GetValue(index1: int, index2: int): JsValue | null;
-    GetValue(index1: int, index2: int, index3: int): JsValue | null;
-    GetValue(index: long): JsValue | null;
-    GetValue(index1: long, index2: long): JsValue | null;
-    GetValue(index1: long, index2: long, index3: long): JsValue | null;
-    GetValue(...indices: long[]): JsValue | null;
+    GetValue(...indices: int[]): unknown | null;
+    GetValue(index: int): unknown | null;
+    GetValue(index1: int, index2: int): unknown | null;
+    GetValue(index1: int, index2: int, index3: int): unknown | null;
+    GetValue(index: long): unknown | null;
+    GetValue(index1: long, index2: long): unknown | null;
+    GetValue(index1: long, index2: long, index3: long): unknown | null;
+    GetValue(...indices: long[]): unknown | null;
     Initialize(): void;
-    SetValue(value: JsValue | null, index: int): void;
-    SetValue(value: JsValue | null, index1: int, index2: int): void;
-    SetValue(value: JsValue | null, index1: int, index2: int, index3: int): void;
-    SetValue(value: JsValue | null, ...indices: int[]): void;
-    SetValue(value: JsValue | null, index: long): void;
-    SetValue(value: JsValue | null, index1: long, index2: long): void;
-    SetValue(value: JsValue | null, index1: long, index2: long, index3: long): void;
-    SetValue(value: JsValue | null, ...indices: long[]): void;
+    SetValue(value: unknown | null, index: int): void;
+    SetValue(value: unknown | null, index1: int, index2: int): void;
+    SetValue(value: unknown | null, index1: int, index2: int, index3: int): void;
+    SetValue(value: unknown | null, ...indices: int[]): void;
+    SetValue(value: unknown | null, index: long): void;
+    SetValue(value: unknown | null, index1: long, index2: long): void;
+    SetValue(value: unknown | null, index1: long, index2: long, index3: long): void;
+    SetValue(value: unknown | null, ...indices: long[]): void;
 }
 
 
 export const Array: {
     readonly MaxLength: int;
-    AsReadOnly<T>(array: T[]): ReadOnlyCollection_1<T>;
-    BinarySearch(array: Array, index: int, length: int, value: JsValue | null, comparer: IComparer | null): int;
-    BinarySearch(array: Array, index: int, length: int, value: JsValue | null): int;
-    BinarySearch(array: Array, value: JsValue | null, comparer: IComparer | null): int;
-    BinarySearch(array: Array, value: JsValue | null): int;
-    BinarySearch<T>(array: T[], index: int, length: int, value: T, comparer: IComparer_1<T> | null): int;
-    BinarySearch<T>(array: T[], index: int, length: int, value: T): int;
-    BinarySearch<T>(array: T[], value: T, comparer: IComparer_1<T> | null): int;
-    BinarySearch<T>(array: T[], value: T): int;
+    AsReadOnly<T extends unknown>(array: T[]): ReadOnlyCollection_1<T>;
+    BinarySearch(array: Array, index: int, length: int, value: unknown | null, comparer: IComparer | null): int;
+    BinarySearch(array: Array, index: int, length: int, value: unknown | null): int;
+    BinarySearch(array: Array, value: unknown | null, comparer: IComparer | null): int;
+    BinarySearch(array: Array, value: unknown | null): int;
+    BinarySearch<T extends unknown>(array: T[], index: int, length: int, value: T, comparer: IComparer_1<T> | null): int;
+    BinarySearch<T extends unknown>(array: T[], index: int, length: int, value: T): int;
+    BinarySearch<T extends unknown>(array: T[], value: T, comparer: IComparer_1<T> | null): int;
+    BinarySearch<T extends unknown>(array: T[], value: T): int;
     Clear(array: Array, index: int, length: int): void;
     Clear(array: Array): void;
     ConstrainedCopy(sourceArray: Array, sourceIndex: int, destinationArray: Array, destinationIndex: int, length: int): void;
-    ConvertAll<TInput, TOutput>(array: TInput[], converter: Converter_2<TInput, TOutput>): TOutput[];
+    ConvertAll<TInput extends unknown, TOutput extends unknown>(array: TInput[], converter: Converter_2<TInput, TOutput>): TOutput[];
     Copy(sourceArray: Array, destinationArray: Array, length: int): void;
     Copy(sourceArray: Array, destinationArray: Array, length: long): void;
     Copy(sourceArray: Array, sourceIndex: int, destinationArray: Array, destinationIndex: int, length: int): void;
@@ -5502,37 +5507,37 @@ export const Array: {
     CreateInstanceFromArrayType(arrayType: Type, length: int): Array;
     CreateInstanceFromArrayType(arrayType: Type, lengths: int[], lowerBounds: int[]): Array;
     CreateInstanceFromArrayType(arrayType: Type, ...lengths: int[]): Array;
-    Empty<T>(): T[];
-    Exists<T>(array: T[], match: Predicate_1<T>): boolean;
-    Fill<T>(array: T[], value: T, startIndex: int, count: int): void;
-    Fill<T>(array: T[], value: T): void;
-    Find<T>(array: T[], match: Predicate_1<T>): T | null;
-    FindAll<T>(array: T[], match: Predicate_1<T>): T[];
-    FindIndex<T>(array: T[], match: Predicate_1<T>): int;
-    FindIndex<T>(array: T[], startIndex: int, match: Predicate_1<T>): int;
-    FindIndex<T>(array: T[], startIndex: int, count: int, match: Predicate_1<T>): int;
-    FindLast<T>(array: T[], match: Predicate_1<T>): T | null;
-    FindLastIndex<T>(array: T[], match: Predicate_1<T>): int;
-    FindLastIndex<T>(array: T[], startIndex: int, match: Predicate_1<T>): int;
-    FindLastIndex<T>(array: T[], startIndex: int, count: int, match: Predicate_1<T>): int;
-    ForEach<T>(array: T[], action: Action_1<T>): void;
-    IndexOf(array: Array, value: JsValue | null, startIndex: int, count: int): int;
-    IndexOf(array: Array, value: JsValue | null, startIndex: int): int;
-    IndexOf(array: Array, value: JsValue | null): int;
-    IndexOf<T>(array: T[], value: T, startIndex: int, count: int): int;
-    IndexOf<T>(array: T[], value: T, startIndex: int): int;
-    IndexOf<T>(array: T[], value: T): int;
-    LastIndexOf(array: Array, value: JsValue | null, startIndex: int, count: int): int;
-    LastIndexOf(array: Array, value: JsValue | null, startIndex: int): int;
-    LastIndexOf(array: Array, value: JsValue | null): int;
-    LastIndexOf<T>(array: T[], value: T, startIndex: int, count: int): int;
-    LastIndexOf<T>(array: T[], value: T, startIndex: int): int;
-    LastIndexOf<T>(array: T[], value: T): int;
-    Resize<T>(array: T[] | null, newSize: int): void;
+    Empty<T extends unknown>(): T[];
+    Exists<T extends unknown>(array: T[], match: Predicate_1<T>): boolean;
+    Fill<T extends unknown>(array: T[], value: T, startIndex: int, count: int): void;
+    Fill<T extends unknown>(array: T[], value: T): void;
+    Find<T extends unknown>(array: T[], match: Predicate_1<T>): T | null;
+    FindAll<T extends unknown>(array: T[], match: Predicate_1<T>): T[];
+    FindIndex<T extends unknown>(array: T[], match: Predicate_1<T>): int;
+    FindIndex<T extends unknown>(array: T[], startIndex: int, match: Predicate_1<T>): int;
+    FindIndex<T extends unknown>(array: T[], startIndex: int, count: int, match: Predicate_1<T>): int;
+    FindLast<T extends unknown>(array: T[], match: Predicate_1<T>): T | null;
+    FindLastIndex<T extends unknown>(array: T[], match: Predicate_1<T>): int;
+    FindLastIndex<T extends unknown>(array: T[], startIndex: int, match: Predicate_1<T>): int;
+    FindLastIndex<T extends unknown>(array: T[], startIndex: int, count: int, match: Predicate_1<T>): int;
+    ForEach<T extends unknown>(array: T[], action: Action_1<T>): void;
+    IndexOf(array: Array, value: unknown | null, startIndex: int, count: int): int;
+    IndexOf(array: Array, value: unknown | null, startIndex: int): int;
+    IndexOf(array: Array, value: unknown | null): int;
+    IndexOf<T extends unknown>(array: T[], value: T, startIndex: int, count: int): int;
+    IndexOf<T extends unknown>(array: T[], value: T, startIndex: int): int;
+    IndexOf<T extends unknown>(array: T[], value: T): int;
+    LastIndexOf(array: Array, value: unknown | null, startIndex: int, count: int): int;
+    LastIndexOf(array: Array, value: unknown | null, startIndex: int): int;
+    LastIndexOf(array: Array, value: unknown | null): int;
+    LastIndexOf<T extends unknown>(array: T[], value: T, startIndex: int, count: int): int;
+    LastIndexOf<T extends unknown>(array: T[], value: T, startIndex: int): int;
+    LastIndexOf<T extends unknown>(array: T[], value: T): int;
+    Resize<T extends unknown>(array: T[] | null, newSize: int): void;
     Reverse(array: Array, index: int, length: int): void;
     Reverse(array: Array): void;
-    Reverse<T>(array: T[], index: int, length: int): void;
-    Reverse<T>(array: T[]): void;
+    Reverse<T extends unknown>(array: T[], index: int, length: int): void;
+    Reverse<T extends unknown>(array: T[]): void;
     Sort(keys: Array, items: Array | null, comparer: IComparer | null): void;
     Sort(keys: Array, items: Array | null, index: int, length: int, comparer: IComparer | null): void;
     Sort(keys: Array, items: Array | null, index: int, length: int): void;
@@ -5541,16 +5546,16 @@ export const Array: {
     Sort(array: Array, index: int, length: int, comparer: IComparer | null): void;
     Sort(array: Array, index: int, length: int): void;
     Sort(array: Array): void;
-    Sort<T>(array: T[], comparison: Comparison_1<T>): void;
-    Sort<T>(array: T[], comparer: IComparer_1<T> | null): void;
-    Sort<T>(array: T[], index: int, length: int, comparer: IComparer_1<T> | null): void;
-    Sort<T>(array: T[], index: int, length: int): void;
-    Sort<T>(array: T[]): void;
-    Sort<TKey, TValue>(keys: TKey[], items: TValue[] | null, comparer: IComparer_1<TKey> | null): void;
-    Sort<TKey, TValue>(keys: TKey[], items: TValue[] | null, index: int, length: int, comparer: IComparer_1<TKey> | null): void;
-    Sort<TKey, TValue>(keys: TKey[], items: TValue[] | null, index: int, length: int): void;
-    Sort<TKey, TValue>(keys: TKey[], items: TValue[] | null): void;
-    TrueForAll<T>(array: T[], match: Predicate_1<T>): boolean;
+    Sort<T extends unknown>(array: T[], comparison: Comparison_1<T>): void;
+    Sort<T extends unknown>(array: T[], comparer: IComparer_1<T> | null): void;
+    Sort<T extends unknown>(array: T[], index: int, length: int, comparer: IComparer_1<T> | null): void;
+    Sort<T extends unknown>(array: T[], index: int, length: int): void;
+    Sort<T extends unknown>(array: T[]): void;
+    Sort<TKey extends unknown, TValue extends unknown>(keys: TKey[], items: TValue[] | null, comparer: IComparer_1<TKey> | null): void;
+    Sort<TKey extends unknown, TValue extends unknown>(keys: TKey[], items: TValue[] | null, index: int, length: int, comparer: IComparer_1<TKey> | null): void;
+    Sort<TKey extends unknown, TValue extends unknown>(keys: TKey[], items: TValue[] | null, index: int, length: int): void;
+    Sort<TKey extends unknown, TValue extends unknown>(keys: TKey[], items: TValue[] | null): void;
+    TrueForAll<T extends unknown>(array: T[], match: Predicate_1<T>): boolean;
 };
 
 
@@ -5605,11 +5610,11 @@ export type AssemblyLoadEventArgs = AssemblyLoadEventArgs$instance;
 export interface Attribute$instance {
     readonly __tsonic_type_System_Attribute: never;
 
-    readonly TypeId: JsValue;
-    Equals(obj: JsValue | null): boolean;
+    readonly TypeId: unknown;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     IsDefaultAttribute(): boolean;
-    Match(obj: JsValue | null): boolean;
+    Match(obj: unknown | null): boolean;
 }
 
 
@@ -5667,7 +5672,7 @@ export const AttributeUsageAttribute: {
 
 export type AttributeUsageAttribute = AttributeUsageAttribute$instance;
 
-export interface BadImageFormatException$instance extends SystemException$instance {
+export interface BadImageFormatException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_BadImageFormatException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -5718,7 +5723,7 @@ export interface __CannotUnloadAppDomainException$views {
 export type CannotUnloadAppDomainException = CannotUnloadAppDomainException$instance & __CannotUnloadAppDomainException$views;
 
 
-export interface CharEnumerator$instance extends IDisposable, ICloneable$instance {
+export interface CharEnumerator$instance extends ICloneable$instance {
     readonly __tsonic_type_System_CharEnumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -5727,7 +5732,7 @@ export interface CharEnumerator$instance extends IDisposable, ICloneable$instanc
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Current: char;
-    Clone(): JsValue;
+    Clone(): unknown;
     Dispose(): void;
     MoveNext(): boolean;
     Reset(): void;
@@ -5833,13 +5838,13 @@ export interface CultureAwareComparer$instance extends StringComparer$instance, 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     Compare(x: string | null, y: string | null): int;
-    Compare(x: JsValue | null, y: JsValue | null): int;
+    Compare(x: unknown | null, y: unknown | null): int;
     Equals(x: string | null, y: string | null): boolean;
-    Equals(obj: JsValue | null): boolean;
-    Equals(x: JsValue | null, y: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
+    Equals(x: unknown | null, y: unknown | null): boolean;
     GetHashCode(obj: string): int;
     GetHashCode(): int;
-    GetHashCode(obj: JsValue): int;
+    GetHashCode(obj: unknown): int;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -5916,12 +5921,13 @@ export interface Delegate$instance extends ICloneable$instance, System_Runtime_S
 
     readonly HasSingleTarget: boolean;
     readonly Method: MethodInfo;
-    readonly Target: JsValue | null;
-    Clone(): JsValue;
+    readonly Target: unknown | null;
+    Clone(): unknown;
     CombineImpl(d: Function | null): Function;
-    DynamicInvoke(...args: (JsValue | null)[] | null): JsValue | null;
-    DynamicInvokeImpl(args: (JsValue | null)[] | null): JsValue | null;
-    Equals(obj: JsValue | null): boolean;
+    DynamicInvoke(...args: (unknown | null)[]): unknown | null;
+    DynamicInvoke(args: (unknown | null)[] | null): unknown | null;
+    DynamicInvokeImpl(args: (unknown | null)[] | null): unknown | null;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     GetInvocationList(): Function[];
     GetMethodImpl(): MethodInfo;
@@ -5932,19 +5938,20 @@ export interface Delegate$instance extends ICloneable$instance, System_Runtime_S
 
 export const Delegate: {
     Combine(a: Function | null, b: Function | null): Function | null;
-    Combine(...delegates: (Function | null)[] | null): Function | null;
+    Combine(...delegates: (Function | null)[]): Function | null;
+    Combine(delegates: (Function | null)[] | null): Function | null;
     Combine(delegates: ReadOnlySpan_1<Function>): Function | null;
-    CreateDelegate(type: Type, firstArgument: JsValue | null, method: MethodInfo, throwOnBindFailure: boolean): Function | null;
-    CreateDelegate(type: Type, firstArgument: JsValue | null, method: MethodInfo): Function;
-    CreateDelegate(type: Type, target: JsValue, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function | null;
-    CreateDelegate(type: Type, target: JsValue, method: string, ignoreCase: boolean): Function;
-    CreateDelegate(type: Type, target: JsValue, method: string): Function;
+    CreateDelegate(type: Type, firstArgument: unknown | null, method: MethodInfo, throwOnBindFailure: boolean): Function | null;
+    CreateDelegate(type: Type, firstArgument: unknown | null, method: MethodInfo): Function;
+    CreateDelegate(type: Type, target: unknown, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function | null;
+    CreateDelegate(type: Type, target: unknown, method: string, ignoreCase: boolean): Function;
+    CreateDelegate(type: Type, target: unknown, method: string): Function;
     CreateDelegate(type: Type, method: MethodInfo, throwOnBindFailure: boolean): Function | null;
     CreateDelegate(type: Type, method: MethodInfo): Function;
     CreateDelegate(type: Type, target: Type, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function | null;
     CreateDelegate(type: Type, target: Type, method: string, ignoreCase: boolean): Function;
     CreateDelegate(type: Type, target: Type, method: string): Function;
-    EnumerateInvocationList<TDelegate extends Function>(d: TDelegate | null): Delegate_InvocationListEnumerator_1<TDelegate>;
+    EnumerateInvocationList<TDelegate extends unknown & Function>(d: TDelegate | null): Delegate_InvocationListEnumerator_1<TDelegate>;
     Remove(source: Function | null, value: Function | null): Function | null;
     RemoveAll(source: Function | null, value: Function | null): Function | null;
 };
@@ -5958,7 +5965,7 @@ export interface __Delegate$views {
 export type Delegate = Delegate$instance & __Delegate$views;
 
 
-export interface Delegate_InvocationListEnumerator_1$instance<TDelegate> {
+export interface Delegate_InvocationListEnumerator_1$instance<TDelegate extends unknown> {
     readonly __tsonic_type_System_Delegate_InvocationListEnumerator_1: never;
 
     readonly Current: TDelegate;
@@ -5968,11 +5975,11 @@ export interface Delegate_InvocationListEnumerator_1$instance<TDelegate> {
 
 
 export const Delegate_InvocationListEnumerator_1: {
-    new<TDelegate>(): Delegate_InvocationListEnumerator_1<TDelegate>;
+    new<TDelegate extends unknown>(): Delegate_InvocationListEnumerator_1<TDelegate>;
 };
 
 
-export type Delegate_InvocationListEnumerator_1<TDelegate> = Delegate_InvocationListEnumerator_1$instance<TDelegate>;
+export type Delegate_InvocationListEnumerator_1<TDelegate extends unknown> = Delegate_InvocationListEnumerator_1$instance<TDelegate>;
 
 export interface DivideByZeroException$instance extends ArithmeticException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_DivideByZeroException: never;
@@ -5996,7 +6003,7 @@ export interface __DivideByZeroException$views {
 export type DivideByZeroException = DivideByZeroException$instance & __DivideByZeroException$views;
 
 
-export interface DllNotFoundException$instance extends TypeLoadException$instance {
+export interface DllNotFoundException$instance extends TypeLoadException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_DllNotFoundException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -6018,7 +6025,7 @@ export interface __DllNotFoundException$views {
 export type DllNotFoundException = DllNotFoundException$instance & __DllNotFoundException$views;
 
 
-export interface DuplicateWaitObjectException$instance extends ArgumentException$instance {
+export interface DuplicateWaitObjectException$instance extends ArgumentException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_DuplicateWaitObjectException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -6041,7 +6048,7 @@ export interface __DuplicateWaitObjectException$views {
 export type DuplicateWaitObjectException = DuplicateWaitObjectException$instance & __DuplicateWaitObjectException$views;
 
 
-export interface EntryPointNotFoundException$instance extends TypeLoadException$instance {
+export interface EntryPointNotFoundException$instance extends TypeLoadException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_EntryPointNotFoundException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -6071,8 +6078,8 @@ export interface Enum$instance extends IComparable$instance {
     readonly __tsonic_iface_System_IFormattable: never;
     readonly __tsonic_iface_System_ISpanFormattable: never;
 
-    CompareTo(target: JsValue | null): int;
-    Equals(obj: JsValue | null): boolean;
+    CompareTo(target: unknown | null): int;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     GetTypeCode(): TypeCode;
     HasFlag(flag: number): boolean;
@@ -6084,44 +6091,44 @@ export interface Enum$instance extends IComparable$instance {
 
 
 export const Enum: {
-    Format(enumType: Type, value: JsValue, format: string): string;
-    GetName(enumType: Type, value: JsValue): string | null;
-    GetName<TEnum extends number & NonNullable<JsValue>>(value: TEnum): string | null;
-    GetNames<TEnum extends number & NonNullable<JsValue>>(): string[];
+    Format(enumType: Type, value: unknown, format: string): string;
+    GetName(enumType: Type, value: unknown): string | null;
+    GetName<TEnum extends NonNullable<unknown> & number>(value: TEnum): string | null;
+    GetNames<TEnum extends NonNullable<unknown> & number>(): string[];
     GetNames(enumType: Type): string[];
     GetUnderlyingType(enumType: Type): Type;
-    GetValues<TEnum extends number & NonNullable<JsValue>>(): TEnum[];
+    GetValues<TEnum extends NonNullable<unknown> & number>(): TEnum[];
     GetValues(enumType: Type): Array;
-    GetValuesAsUnderlyingType<TEnum extends number & NonNullable<JsValue>>(): Array;
+    GetValuesAsUnderlyingType<TEnum extends NonNullable<unknown> & number>(): Array;
     GetValuesAsUnderlyingType(enumType: Type): Array;
-    IsDefined(enumType: Type, value: JsValue): boolean;
-    IsDefined<TEnum extends number & NonNullable<JsValue>>(value: TEnum): boolean;
-    Parse<TEnum extends NonNullable<JsValue>>(value: ReadOnlySpan_1<Char>, ignoreCase: boolean): TEnum;
-    Parse<TEnum extends NonNullable<JsValue>>(value: ReadOnlySpan_1<Char>): TEnum;
-    Parse<TEnum extends NonNullable<JsValue>>(value: string, ignoreCase: boolean): TEnum;
-    Parse<TEnum extends NonNullable<JsValue>>(value: string): TEnum;
-    Parse(enumType: Type, value: ReadOnlySpan_1<Char>, ignoreCase: boolean): JsValue;
-    Parse(enumType: Type, value: ReadOnlySpan_1<Char>): JsValue;
-    Parse(enumType: Type, value: string, ignoreCase: boolean): JsValue;
-    Parse(enumType: Type, value: string): JsValue;
-    ToObject(enumType: Type, value: byte): JsValue;
-    ToObject(enumType: Type, value: short): JsValue;
-    ToObject(enumType: Type, value: int): JsValue;
-    ToObject(enumType: Type, value: long): JsValue;
-    ToObject(enumType: Type, value: JsValue): JsValue;
-    ToObject(enumType: Type, value: sbyte): JsValue;
-    ToObject(enumType: Type, value: ushort): JsValue;
-    ToObject(enumType: Type, value: uint): JsValue;
-    ToObject(enumType: Type, value: ulong): JsValue;
-    TryFormat<TEnum extends NonNullable<JsValue>>(value: TEnum, destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>): boolean;
-    TryParse<TEnum extends NonNullable<JsValue>>(value: ReadOnlySpan_1<Char>, ignoreCase: boolean, result: TEnum): boolean;
-    TryParse<TEnum extends NonNullable<JsValue>>(value: ReadOnlySpan_1<Char>, result: TEnum): boolean;
-    TryParse<TEnum extends NonNullable<JsValue>>(value: string | null, ignoreCase: boolean, result: TEnum): boolean;
-    TryParse<TEnum extends NonNullable<JsValue>>(value: string | null, result: TEnum): boolean;
-    TryParse(enumType: Type, value: ReadOnlySpan_1<Char>, ignoreCase: boolean, result: JsValue | null): boolean;
-    TryParse(enumType: Type, value: ReadOnlySpan_1<Char>, result: JsValue | null): boolean;
-    TryParse(enumType: Type, value: string | null, ignoreCase: boolean, result: JsValue | null): boolean;
-    TryParse(enumType: Type, value: string | null, result: JsValue | null): boolean;
+    IsDefined(enumType: Type, value: unknown): boolean;
+    IsDefined<TEnum extends NonNullable<unknown> & number>(value: TEnum): boolean;
+    Parse<TEnum extends NonNullable<unknown>>(value: ReadOnlySpan_1<Char>, ignoreCase: boolean): TEnum;
+    Parse<TEnum extends NonNullable<unknown>>(value: ReadOnlySpan_1<Char>): TEnum;
+    Parse<TEnum extends NonNullable<unknown>>(value: string, ignoreCase: boolean): TEnum;
+    Parse<TEnum extends NonNullable<unknown>>(value: string): TEnum;
+    Parse(enumType: Type, value: ReadOnlySpan_1<Char>, ignoreCase: boolean): unknown;
+    Parse(enumType: Type, value: ReadOnlySpan_1<Char>): unknown;
+    Parse(enumType: Type, value: string, ignoreCase: boolean): unknown;
+    Parse(enumType: Type, value: string): unknown;
+    ToObject(enumType: Type, value: byte): unknown;
+    ToObject(enumType: Type, value: short): unknown;
+    ToObject(enumType: Type, value: int): unknown;
+    ToObject(enumType: Type, value: long): unknown;
+    ToObject(enumType: Type, value: unknown): unknown;
+    ToObject(enumType: Type, value: sbyte): unknown;
+    ToObject(enumType: Type, value: ushort): unknown;
+    ToObject(enumType: Type, value: uint): unknown;
+    ToObject(enumType: Type, value: ulong): unknown;
+    TryFormat<TEnum extends NonNullable<unknown>>(value: TEnum, destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>): boolean;
+    TryParse<TEnum extends NonNullable<unknown>>(value: ReadOnlySpan_1<Char>, ignoreCase: boolean, result: TEnum): boolean;
+    TryParse<TEnum extends NonNullable<unknown>>(value: ReadOnlySpan_1<Char>, result: TEnum): boolean;
+    TryParse<TEnum extends NonNullable<unknown>>(value: string | null, ignoreCase: boolean, result: TEnum): boolean;
+    TryParse<TEnum extends NonNullable<unknown>>(value: string | null, result: TEnum): boolean;
+    TryParse(enumType: Type, value: ReadOnlySpan_1<Char>, ignoreCase: boolean, result: unknown | null): boolean;
+    TryParse(enumType: Type, value: ReadOnlySpan_1<Char>, result: unknown | null): boolean;
+    TryParse(enumType: Type, value: string | null, ignoreCase: boolean, result: unknown | null): boolean;
+    TryParse(enumType: Type, value: string | null, result: unknown | null): boolean;
 };
 
 
@@ -6132,7 +6139,7 @@ export interface __Enum$views {
     As_ISpanFormattable(): ISpanFormattable$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type Enum = Enum$instance & __Enum$views;
@@ -6287,8 +6294,8 @@ export interface FormattableString$instance {
 
     readonly ArgumentCount: int;
     readonly Format: string;
-    GetArgument(index: int): JsValue | null;
-    GetArguments(): (JsValue | null)[];
+    GetArgument(index: int): unknown | null;
+    GetArguments(): (unknown | null)[];
     ToString(formatProvider: IFormatProvider | null): string;
     ToString(): string;
 }
@@ -6514,7 +6521,7 @@ export interface __InvalidTimeZoneException$views {
 export type InvalidTimeZoneException = InvalidTimeZoneException$instance & __InvalidTimeZoneException$views;
 
 
-export interface Lazy_1$instance<T> {
+export interface Lazy_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Lazy_1: never;
 
     readonly IsValueCreated: boolean;
@@ -6524,19 +6531,19 @@ export interface Lazy_1$instance<T> {
 
 
 export const Lazy_1: {
-    new<T>(): Lazy_1<T>;
-    new<T>(value: T): Lazy_1<T>;
-    new<T>(valueFactory: Func_1<T>): Lazy_1<T>;
-    new<T>(isThreadSafe: boolean): Lazy_1<T>;
-    new<T>(mode: LazyThreadSafetyMode): Lazy_1<T>;
-    new<T>(valueFactory: Func_1<T>, isThreadSafe: boolean): Lazy_1<T>;
-    new<T>(valueFactory: Func_1<T>, mode: LazyThreadSafetyMode): Lazy_1<T>;
+    new<T extends unknown>(): Lazy_1<T>;
+    new<T extends unknown>(value: T): Lazy_1<T>;
+    new<T extends unknown>(valueFactory: Func_1<T>): Lazy_1<T>;
+    new<T extends unknown>(isThreadSafe: boolean): Lazy_1<T>;
+    new<T extends unknown>(mode: LazyThreadSafetyMode): Lazy_1<T>;
+    new<T extends unknown>(valueFactory: Func_1<T>, isThreadSafe: boolean): Lazy_1<T>;
+    new<T extends unknown>(valueFactory: Func_1<T>, mode: LazyThreadSafetyMode): Lazy_1<T>;
 };
 
 
-export type Lazy_1<T> = Lazy_1$instance<T>;
+export type Lazy_1<T extends unknown> = Lazy_1$instance<T>;
 
-export interface Lazy_2$instance<T, TMetadata> extends Lazy_1<T> {
+export interface Lazy_2$instance<T extends unknown, TMetadata extends unknown> extends Lazy_1<T> {
     readonly __tsonic_type_System_Lazy_2: never;
 
     readonly Metadata: TMetadata;
@@ -6544,16 +6551,16 @@ export interface Lazy_2$instance<T, TMetadata> extends Lazy_1<T> {
 
 
 export const Lazy_2: {
-    new<T, TMetadata>(valueFactory: Func_1<T>, metadata: TMetadata): Lazy_2<T, TMetadata>;
-    new<T, TMetadata>(metadata: TMetadata): Lazy_2<T, TMetadata>;
-    new<T, TMetadata>(metadata: TMetadata, isThreadSafe: boolean): Lazy_2<T, TMetadata>;
-    new<T, TMetadata>(valueFactory: Func_1<T>, metadata: TMetadata, isThreadSafe: boolean): Lazy_2<T, TMetadata>;
-    new<T, TMetadata>(metadata: TMetadata, mode: LazyThreadSafetyMode): Lazy_2<T, TMetadata>;
-    new<T, TMetadata>(valueFactory: Func_1<T>, metadata: TMetadata, mode: LazyThreadSafetyMode): Lazy_2<T, TMetadata>;
+    new<T extends unknown, TMetadata extends unknown>(valueFactory: Func_1<T>, metadata: TMetadata): Lazy_2<T, TMetadata>;
+    new<T extends unknown, TMetadata extends unknown>(metadata: TMetadata): Lazy_2<T, TMetadata>;
+    new<T extends unknown, TMetadata extends unknown>(metadata: TMetadata, isThreadSafe: boolean): Lazy_2<T, TMetadata>;
+    new<T extends unknown, TMetadata extends unknown>(valueFactory: Func_1<T>, metadata: TMetadata, isThreadSafe: boolean): Lazy_2<T, TMetadata>;
+    new<T extends unknown, TMetadata extends unknown>(metadata: TMetadata, mode: LazyThreadSafetyMode): Lazy_2<T, TMetadata>;
+    new<T extends unknown, TMetadata extends unknown>(valueFactory: Func_1<T>, metadata: TMetadata, mode: LazyThreadSafetyMode): Lazy_2<T, TMetadata>;
 };
 
 
-export type Lazy_2<T, TMetadata> = Lazy_2$instance<T, TMetadata>;
+export type Lazy_2<T extends unknown, TMetadata extends unknown> = Lazy_2$instance<T, TMetadata>;
 
 export interface LdapStyleUriParser$instance extends UriParser {
     readonly __tsonic_type_System_LdapStyleUriParser: never;
@@ -6599,8 +6606,8 @@ export type LocalDataStoreSlot = LocalDataStoreSlot$instance;
 export interface MarshalByRefObject$instance {
     readonly __tsonic_type_System_MarshalByRefObject: never;
 
-    GetLifetimeService(): JsValue;
-    InitializeLifetimeService(): JsValue;
+    GetLifetimeService(): unknown;
+    InitializeLifetimeService(): unknown;
 }
 
 
@@ -6654,7 +6661,7 @@ export interface __MethodAccessException$views {
 export type MethodAccessException = MethodAccessException$instance & __MethodAccessException$views;
 
 
-export interface MissingFieldException$instance extends MissingMemberException$instance {
+export interface MissingFieldException$instance extends MissingMemberException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_MissingFieldException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -6678,7 +6685,7 @@ export interface __MissingFieldException$views {
 export type MissingFieldException = MissingFieldException$instance & __MissingFieldException$views;
 
 
-export interface MissingMemberException$instance extends MemberAccessException$instance {
+export interface MissingMemberException$instance extends MemberAccessException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_MissingMemberException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -6703,7 +6710,7 @@ export interface __MissingMemberException$views {
 export type MissingMemberException = MissingMemberException$instance & __MissingMemberException$views;
 
 
-export interface MissingMethodException$instance extends MissingMemberException$instance {
+export interface MissingMethodException$instance extends MissingMemberException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_MissingMethodException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -6740,14 +6747,14 @@ export const MTAThreadAttribute: {
 
 export type MTAThreadAttribute = MTAThreadAttribute$instance;
 
-export interface MulticastDelegate$instance extends Function, ICloneable$instance {
+export interface MulticastDelegate$instance extends Function, ICloneable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_MulticastDelegate: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     CombineImpl(follow: Function | null): Function;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     GetInvocationList(): Function[];
     GetMethodImpl(): MethodInfo;
@@ -6842,7 +6849,7 @@ export const NonSerializedAttribute: {
 
 export type NonSerializedAttribute = NonSerializedAttribute$instance;
 
-export interface NotFiniteNumberException$instance extends ArithmeticException$instance {
+export interface NotFiniteNumberException$instance extends ArithmeticException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_NotFiniteNumberException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -6938,7 +6945,7 @@ export type NullReferenceException = NullReferenceException$instance & __NullRef
 export interface Object$instance {
     readonly __tsonic_type_System_Object: never;
 
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Finalize(): void;
     GetHashCode(): int;
     GetType(): Type;
@@ -6948,14 +6955,14 @@ export interface Object$instance {
 
 export const Object: {
     new(): Object;
-    Equals(objA: JsValue | null, objB: JsValue | null): boolean;
-    ReferenceEquals(objA: JsValue | null, objB: JsValue | null): boolean;
+    Equals(objA: unknown | null, objB: unknown | null): boolean;
+    ReferenceEquals(objA: unknown | null, objB: unknown | null): boolean;
 };
 
 
 export type Object = Object$instance;
 
-export interface ObjectDisposedException$instance extends InvalidOperationException$instance {
+export interface ObjectDisposedException$instance extends InvalidOperationException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_ObjectDisposedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -6970,7 +6977,7 @@ export const ObjectDisposedException: {
     new(objectName: string | null): ObjectDisposedException;
     new(objectName: string | null, message: string | null): ObjectDisposedException;
     new(message: string | null, innerException: Exception | null): ObjectDisposedException;
-    ThrowIf(condition: boolean, instance: JsValue): void;
+    ThrowIf(condition: boolean, instance: unknown): void;
     ThrowIf(condition: boolean, type: Type): void;
 };
 
@@ -7013,7 +7020,7 @@ export interface OperatingSystem$instance extends ICloneable$instance, System_Ru
     readonly ServicePack: string;
     readonly Version: Version;
     readonly VersionString: string;
-    Clone(): JsValue;
+    Clone(): unknown;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     ToString(): string;
 }
@@ -7089,13 +7096,13 @@ export interface OrdinalComparer$instance extends StringComparer$instance {
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
     Compare(x: string | null, y: string | null): int;
-    Compare(x: JsValue | null, y: JsValue | null): int;
+    Compare(x: unknown | null, y: unknown | null): int;
     Equals(x: string | null, y: string | null): boolean;
-    Equals(obj: JsValue | null): boolean;
-    Equals(x: JsValue | null, y: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
+    Equals(x: unknown | null, y: unknown | null): boolean;
     GetHashCode(obj: string): int;
     GetHashCode(): int;
-    GetHashCode(obj: JsValue): int;
+    GetHashCode(obj: unknown): int;
 }
 
 
@@ -7193,7 +7200,7 @@ export interface __PlatformNotSupportedException$views {
 export type PlatformNotSupportedException = PlatformNotSupportedException$instance & __PlatformNotSupportedException$views;
 
 
-export interface Progress_1$instance<T> extends IProgress_1$instance<T> {
+export interface Progress_1$instance<T extends unknown> extends IProgress_1$instance<T> {
     readonly __tsonic_type_System_Progress_1: never;
 
     readonly __tsonic_iface_System_IProgress_1: never;
@@ -7203,16 +7210,16 @@ export interface Progress_1$instance<T> extends IProgress_1$instance<T> {
 
 
 export const Progress_1: {
-    new<T>(): Progress_1<T>;
-    new<T>(handler: Action_1<T>): Progress_1<T>;
+    new<T extends unknown>(): Progress_1<T>;
+    new<T extends unknown>(handler: Action_1<T>): Progress_1<T>;
 };
 
 
-export interface __Progress_1$views<T> {
+export interface __Progress_1$views<T extends unknown> {
     As_IProgress_1(): IProgress_1$instance<T>;
 }
 
-export type Progress_1<T> = Progress_1$instance<T> & __Progress_1$views<T>;
+export type Progress_1<T extends unknown> = Progress_1$instance<T> & __Progress_1$views<T>;
 
 
 export interface Random$instance {
@@ -7220,9 +7227,9 @@ export interface Random$instance {
 
     GetHexString(stringLength: int, lowercase?: boolean): string;
     GetHexString(destination: Span_1<Char>, lowercase?: boolean): void;
-    GetItems<T>(choices: ReadOnlySpan_1<T>, destination: Span_1<T>): void;
-    GetItems<T>(choices: T[], length: int): T[];
-    GetItems<T>(choices: ReadOnlySpan_1<T>, length: int): T[];
+    GetItems<T extends unknown>(choices: ReadOnlySpan_1<T>, destination: Span_1<T>): void;
+    GetItems<T extends unknown>(choices: T[], length: int): T[];
+    GetItems<T extends unknown>(choices: ReadOnlySpan_1<T>, length: int): T[];
     GetString(choices: ReadOnlySpan_1<Char>, length: int): string;
     Next(): int;
     Next(maxValue: int): int;
@@ -7235,8 +7242,8 @@ export interface Random$instance {
     NextInt64(minValue: long, maxValue: long): long;
     NextSingle(): float;
     Sample(): double;
-    Shuffle<T>(values: T[]): void;
-    Shuffle<T>(values: Span_1<T>): void;
+    Shuffle<T extends unknown>(values: T[]): void;
+    Shuffle<T extends unknown>(values: Span_1<T>): void;
 }
 
 
@@ -7349,8 +7356,8 @@ export interface String$instance extends ICloneable$instance, ISpanParsable_1$in
     readonly __tsonic_iface_System_ISpanParsable_1: never;
 
     readonly Length: int;
-    Clone(): JsValue;
-    CompareTo(value: JsValue | null): int;
+    Clone(): unknown;
+    CompareTo(value: unknown | null): int;
     CompareTo(strB: string | null): int;
     Contains(value: string): boolean;
     Contains(value: string, comparisonType: StringComparison): boolean;
@@ -7363,7 +7370,7 @@ export interface String$instance extends ICloneable$instance, ISpanParsable_1$in
     EndsWith(value: string, ignoreCase: boolean, culture: CultureInfo | null): boolean;
     EndsWith(value: char): boolean;
     EnumerateRunes(): StringRuneEnumerator;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(value: string | null): boolean;
     Equals(value: string | null, comparisonType: StringComparison): boolean;
     GetEnumerator(): CharEnumerator;
@@ -7415,7 +7422,8 @@ export interface String$instance extends ICloneable$instance, ISpanParsable_1$in
     ReplaceLineEndings(replacementText: string): string;
     Split(separator: char, options?: StringSplitOptions): string[];
     Split(separator: char, count: int, options?: StringSplitOptions): string[];
-    Split(...separator: char[] | null): string[];
+    Split(...separator: char[]): string[];
+    Split(separator: char[] | null): string[];
     Split(separator: ReadOnlySpan_1<Char>): string[];
     Split(separator: char[] | null, count: int): string[];
     Split(separator: char[] | null, options: StringSplitOptions): string[];
@@ -7442,15 +7450,18 @@ export interface String$instance extends ICloneable$instance, ISpanParsable_1$in
     ToUpperInvariant(): string;
     Trim(): string;
     Trim(trimChar: char): string;
-    Trim(...trimChars: char[] | null): string;
+    Trim(...trimChars: char[]): string;
+    Trim(trimChars: char[] | null): string;
     Trim(trimChars: ReadOnlySpan_1<Char>): string;
     TrimEnd(): string;
     TrimEnd(trimChar: char): string;
-    TrimEnd(...trimChars: char[] | null): string;
+    TrimEnd(...trimChars: char[]): string;
+    TrimEnd(trimChars: char[] | null): string;
     TrimEnd(trimChars: ReadOnlySpan_1<Char>): string;
     TrimStart(): string;
     TrimStart(trimChar: char): string;
-    TrimStart(...trimChars: char[] | null): string;
+    TrimStart(...trimChars: char[]): string;
+    TrimStart(trimChars: char[] | null): string;
     TrimStart(trimChars: ReadOnlySpan_1<Char>): string;
     TryCopyTo(destination: Span_1<Char>): boolean;
 }
@@ -7479,16 +7490,16 @@ export const String: {
     Compare(strA: string | null, strB: string | null): int;
     CompareOrdinal(strA: string | null, indexA: int, strB: string | null, indexB: int, length: int): int;
     CompareOrdinal(strA: string | null, strB: string | null): int;
-    Concat<T>(values: IEnumerable_1<T>): string;
+    Concat<T extends unknown>(values: IEnumerable_1<T>): string;
     Concat(values: IEnumerable_1<string | null>): string;
-    Concat(arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): string;
-    Concat(arg0: JsValue | null, arg1: JsValue | null): string;
-    Concat(arg0: JsValue | null): string;
-    Concat(...args: (JsValue | null)[]): string;
+    Concat(arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): string;
+    Concat(arg0: unknown | null, arg1: unknown | null): string;
+    Concat(arg0: unknown | null): string;
+    Concat(...args: (unknown | null)[]): string;
     Concat(str0: ReadOnlySpan_1<Char>, str1: ReadOnlySpan_1<Char>, str2: ReadOnlySpan_1<Char>, str3: ReadOnlySpan_1<Char>): string;
     Concat(str0: ReadOnlySpan_1<Char>, str1: ReadOnlySpan_1<Char>, str2: ReadOnlySpan_1<Char>): string;
     Concat(str0: ReadOnlySpan_1<Char>, str1: ReadOnlySpan_1<Char>): string;
-    Concat(args: ReadOnlySpan_1<JsValue>): string;
+    Concat(args: ReadOnlySpan_1<unknown>): string;
     Concat(values: ReadOnlySpan_1<String>): string;
     Concat(str0: string | null, str1: string | null, str2: string | null, str3: string | null): string;
     Concat(str0: string | null, str1: string | null, str2: string | null): string;
@@ -7497,40 +7508,40 @@ export const String: {
     Copy(str: string): string;
     Create(provider: IFormatProvider | null, handler: DefaultInterpolatedStringHandler): string;
     Create(provider: IFormatProvider | null, initialBuffer: Span_1<Char>, handler: DefaultInterpolatedStringHandler): string;
-    Create<TState>(length: int, state: TState, action: SpanAction_2<Char, TState>): string;
+    Create<TState extends unknown>(length: int, state: TState, action: SpanAction_2<Char, TState>): string;
     Equals(a: string | null, b: string | null, comparisonType: StringComparison): boolean;
     Equals(a: string | null, b: string | null): boolean;
-    Format(provider: IFormatProvider | null, format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): string;
-    Format(provider: IFormatProvider | null, format: string, arg0: JsValue | null, arg1: JsValue | null): string;
-    Format(provider: IFormatProvider | null, format: string, arg0: JsValue | null): string;
-    Format(provider: IFormatProvider | null, format: string, ...args: (JsValue | null)[]): string;
-    Format(provider: IFormatProvider | null, format: string, args: ReadOnlySpan_1<JsValue>): string;
-    Format(provider: IFormatProvider | null, format: CompositeFormat, ...args: (JsValue | null)[]): string;
-    Format(provider: IFormatProvider | null, format: CompositeFormat, args: ReadOnlySpan_1<JsValue>): string;
-    Format<TArg0, TArg1, TArg2>(provider: IFormatProvider | null, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): string;
-    Format<TArg0, TArg1>(provider: IFormatProvider | null, format: CompositeFormat, arg0: TArg0, arg1: TArg1): string;
-    Format<TArg0>(provider: IFormatProvider | null, format: CompositeFormat, arg0: TArg0): string;
-    Format(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): string;
-    Format(format: string, arg0: JsValue | null, arg1: JsValue | null): string;
-    Format(format: string, arg0: JsValue | null): string;
-    Format(format: string, ...args: (JsValue | null)[]): string;
-    Format(format: string, args: ReadOnlySpan_1<JsValue>): string;
+    Format(provider: IFormatProvider | null, format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): string;
+    Format(provider: IFormatProvider | null, format: string, arg0: unknown | null, arg1: unknown | null): string;
+    Format(provider: IFormatProvider | null, format: string, arg0: unknown | null): string;
+    Format(provider: IFormatProvider | null, format: string, ...args: (unknown | null)[]): string;
+    Format(provider: IFormatProvider | null, format: string, args: ReadOnlySpan_1<unknown>): string;
+    Format(provider: IFormatProvider | null, format: CompositeFormat, ...args: (unknown | null)[]): string;
+    Format(provider: IFormatProvider | null, format: CompositeFormat, args: ReadOnlySpan_1<unknown>): string;
+    Format<TArg0 extends unknown, TArg1 extends unknown, TArg2 extends unknown>(provider: IFormatProvider | null, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): string;
+    Format<TArg0 extends unknown, TArg1 extends unknown>(provider: IFormatProvider | null, format: CompositeFormat, arg0: TArg0, arg1: TArg1): string;
+    Format<TArg0 extends unknown>(provider: IFormatProvider | null, format: CompositeFormat, arg0: TArg0): string;
+    Format(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): string;
+    Format(format: string, arg0: unknown | null, arg1: unknown | null): string;
+    Format(format: string, arg0: unknown | null): string;
+    Format(format: string, ...args: (unknown | null)[]): string;
+    Format(format: string, args: ReadOnlySpan_1<unknown>): string;
     GetHashCode(value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): int;
     GetHashCode(value: ReadOnlySpan_1<Char>): int;
     Intern(str: string): string;
     IsInterned(str: string): string | null;
     IsNullOrEmpty(value: string | null): boolean;
     IsNullOrWhiteSpace(value: string | null): boolean;
-    Join<T>(separator: char, values: IEnumerable_1<T>): string;
-    Join(separator: char, ...values: (JsValue | null)[]): string;
-    Join(separator: char, values: ReadOnlySpan_1<JsValue>): string;
+    Join<T extends unknown>(separator: char, values: IEnumerable_1<T>): string;
+    Join(separator: char, ...values: (unknown | null)[]): string;
+    Join(separator: char, values: ReadOnlySpan_1<unknown>): string;
     Join(separator: char, value: ReadOnlySpan_1<String>): string;
     Join(separator: char, value: (string | null)[], startIndex: int, count: int): string;
     Join(separator: char, ...value: (string | null)[]): string;
-    Join<T>(separator: string | null, values: IEnumerable_1<T>): string;
+    Join<T extends unknown>(separator: string | null, values: IEnumerable_1<T>): string;
     Join(separator: string | null, values: IEnumerable_1<string | null>): string;
-    Join(separator: string | null, ...values: (JsValue | null)[]): string;
-    Join(separator: string | null, values: ReadOnlySpan_1<JsValue>): string;
+    Join(separator: string | null, ...values: (unknown | null)[]): string;
+    Join(separator: string | null, values: ReadOnlySpan_1<unknown>): string;
     Join(separator: string | null, value: ReadOnlySpan_1<String>): string;
     Join(separator: string | null, value: (string | null)[], startIndex: int, count: int): string;
     Join(separator: string | null, ...value: (string | null)[]): string;
@@ -7550,7 +7561,7 @@ export interface __String$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: String): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
 export type String = string & String$instance & __String$views & { readonly [index: number]: char; };
@@ -7564,12 +7575,12 @@ export interface StringComparer$instance {
     readonly __tsonic_iface_System_Collections_IComparer: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
-    Compare(x: JsValue | null, y: JsValue | null): int;
+    Compare(x: unknown | null, y: unknown | null): int;
     Compare(x: string | null, y: string | null): int;
-    Equals(x: JsValue | null, y: JsValue | null): boolean;
+    Equals(x: unknown | null, y: unknown | null): boolean;
     Equals(x: string | null, y: string | null): boolean;
-    Equals(obj: JsValue | null): boolean;
-    GetHashCode(obj: JsValue): int;
+    Equals(obj: unknown | null): boolean;
+    GetHashCode(obj: unknown): int;
     GetHashCode(obj: string): int;
     GetHashCode(): int;
 }
@@ -7662,7 +7673,7 @@ export interface TimeProvider$instance {
 
     readonly LocalTimeZone: TimeZoneInfo;
     readonly TimestampFrequency: long;
-    CreateTimer(callback: TimerCallback, state: JsValue | null, dueTime: TimeSpan, period: TimeSpan): ITimer;
+    CreateTimer(callback: TimerCallback, state: unknown | null, dueTime: TimeSpan, period: TimeSpan): ITimer;
     GetElapsedTime(startingTimestamp: long, endingTimestamp: long): TimeSpan;
     GetElapsedTime(startingTimestamp: long): TimeSpan;
     GetLocalNow(): DateTimeOffset;
@@ -7714,7 +7725,7 @@ export interface TimeZoneInfo$instance extends System_Runtime_Serialization_Inte
     readonly StandardName: string;
     readonly SupportsDaylightSavingTime: boolean;
     Equals(other: TimeZoneInfo | null): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetAdjustmentRules(): TimeZoneInfo_AdjustmentRule[];
     GetAmbiguousTimeOffsets(dateTimeOffset: DateTimeOffset): TimeSpan[];
     GetAmbiguousTimeOffsets(dateTime: DateTime): TimeSpan[];
@@ -7771,7 +7782,7 @@ export interface __TimeZoneInfo$views {
 export type TimeZoneInfo = TimeZoneInfo$instance & __TimeZoneInfo$views;
 
 
-export interface TimeZoneInfo_TransitionTime$instance extends IEquatable_1<TimeZoneInfo_TransitionTime>, ISerializable, IDeserializationCallback {
+export interface TimeZoneInfo_TransitionTime$instance extends IDeserializationCallback, ISerializable {
     readonly __tsonic_type_System_TimeZoneInfo_TransitionTime: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -7784,7 +7795,7 @@ export interface TimeZoneInfo_TransitionTime$instance extends IEquatable_1<TimeZ
     readonly Month: int;
     readonly TimeOfDay: DateTime;
     readonly Week: int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: TimeZoneInfo_TransitionTime): boolean;
     GetHashCode(): int;
 }
@@ -7799,7 +7810,7 @@ export const TimeZoneInfo_TransitionTime: {
 
 export type TimeZoneInfo_TransitionTime = TimeZoneInfo_TransitionTime$instance;
 
-export interface TimeZoneInfo_AdjustmentRule$instance extends IEquatable_1<TimeZoneInfo_AdjustmentRule>, ISerializable, IDeserializationCallback {
+export interface TimeZoneInfo_AdjustmentRule$instance extends IDeserializationCallback, ISerializable {
     readonly __tsonic_type_System_TimeZoneInfo_AdjustmentRule: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -7813,7 +7824,7 @@ export interface TimeZoneInfo_AdjustmentRule$instance extends IEquatable_1<TimeZ
     readonly DaylightTransitionEnd: TimeZoneInfo_TransitionTime;
     readonly DaylightTransitionStart: TimeZoneInfo_TransitionTime;
     Equals(other: TimeZoneInfo_AdjustmentRule | null): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -7848,7 +7859,7 @@ export interface __TimeZoneNotFoundException$views {
 export type TimeZoneNotFoundException = TimeZoneNotFoundException$instance & __TimeZoneNotFoundException$views;
 
 
-export interface Tuple_1$instance<T1> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface Tuple_1$instance<T1 extends unknown> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_Tuple_1: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -7857,31 +7868,31 @@ export interface Tuple_1$instance<T1> extends IComparable$instance, System_Runti
     readonly __tsonic_iface_System_Runtime_CompilerServices_ITuple: never;
 
     readonly Item1: T1;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
 
 
 export const Tuple_1: {
-    new<T1>(item1: T1): Tuple_1<T1>;
+    new<T1 extends unknown>(item1: T1): Tuple_1<T1>;
 };
 
 
-export interface __Tuple_1$views<T1> {
+export interface __Tuple_1$views<T1 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
     As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type Tuple_1<T1> = Tuple_1$instance<T1> & __Tuple_1$views<T1>;
+export type Tuple_1<T1 extends unknown> = Tuple_1$instance<T1> & __Tuple_1$views<T1>;
 
 
-export interface Tuple_2$instance<T1, T2> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface Tuple_2$instance<T1 extends unknown, T2 extends unknown> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_Tuple_2: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -7891,31 +7902,31 @@ export interface Tuple_2$instance<T1, T2> extends IComparable$instance, System_R
 
     readonly Item1: T1;
     readonly Item2: T2;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
 
 
 export const Tuple_2: {
-    new<T1, T2>(item1: T1, item2: T2): Tuple_2<T1, T2>;
+    new<T1 extends unknown, T2 extends unknown>(item1: T1, item2: T2): Tuple_2<T1, T2>;
 };
 
 
-export interface __Tuple_2$views<T1, T2> {
+export interface __Tuple_2$views<T1 extends unknown, T2 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
     As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type Tuple_2<T1, T2> = Tuple_2$instance<T1, T2> & __Tuple_2$views<T1, T2>;
+export type Tuple_2<T1 extends unknown, T2 extends unknown> = Tuple_2$instance<T1, T2> & __Tuple_2$views<T1, T2>;
 
 
-export interface Tuple_3$instance<T1, T2, T3> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface Tuple_3$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_Tuple_3: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -7926,31 +7937,31 @@ export interface Tuple_3$instance<T1, T2, T3> extends IComparable$instance, Syst
     readonly Item1: T1;
     readonly Item2: T2;
     readonly Item3: T3;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
 
 
 export const Tuple_3: {
-    new<T1, T2, T3>(item1: T1, item2: T2, item3: T3): Tuple_3<T1, T2, T3>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown>(item1: T1, item2: T2, item3: T3): Tuple_3<T1, T2, T3>;
 };
 
 
-export interface __Tuple_3$views<T1, T2, T3> {
+export interface __Tuple_3$views<T1 extends unknown, T2 extends unknown, T3 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
     As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type Tuple_3<T1, T2, T3> = Tuple_3$instance<T1, T2, T3> & __Tuple_3$views<T1, T2, T3>;
+export type Tuple_3<T1 extends unknown, T2 extends unknown, T3 extends unknown> = Tuple_3$instance<T1, T2, T3> & __Tuple_3$views<T1, T2, T3>;
 
 
-export interface Tuple_4$instance<T1, T2, T3, T4> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface Tuple_4$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_Tuple_4: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -7962,31 +7973,31 @@ export interface Tuple_4$instance<T1, T2, T3, T4> extends IComparable$instance, 
     readonly Item2: T2;
     readonly Item3: T3;
     readonly Item4: T4;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
 
 
 export const Tuple_4: {
-    new<T1, T2, T3, T4>(item1: T1, item2: T2, item3: T3, item4: T4): Tuple_4<T1, T2, T3, T4>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4): Tuple_4<T1, T2, T3, T4>;
 };
 
 
-export interface __Tuple_4$views<T1, T2, T3, T4> {
+export interface __Tuple_4$views<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
     As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type Tuple_4<T1, T2, T3, T4> = Tuple_4$instance<T1, T2, T3, T4> & __Tuple_4$views<T1, T2, T3, T4>;
+export type Tuple_4<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown> = Tuple_4$instance<T1, T2, T3, T4> & __Tuple_4$views<T1, T2, T3, T4>;
 
 
-export interface Tuple_5$instance<T1, T2, T3, T4, T5> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface Tuple_5$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_Tuple_5: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -7999,31 +8010,31 @@ export interface Tuple_5$instance<T1, T2, T3, T4, T5> extends IComparable$instan
     readonly Item3: T3;
     readonly Item4: T4;
     readonly Item5: T5;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
 
 
 export const Tuple_5: {
-    new<T1, T2, T3, T4, T5>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): Tuple_5<T1, T2, T3, T4, T5>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): Tuple_5<T1, T2, T3, T4, T5>;
 };
 
 
-export interface __Tuple_5$views<T1, T2, T3, T4, T5> {
+export interface __Tuple_5$views<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
     As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type Tuple_5<T1, T2, T3, T4, T5> = Tuple_5$instance<T1, T2, T3, T4, T5> & __Tuple_5$views<T1, T2, T3, T4, T5>;
+export type Tuple_5<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown> = Tuple_5$instance<T1, T2, T3, T4, T5> & __Tuple_5$views<T1, T2, T3, T4, T5>;
 
 
-export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface Tuple_6$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_Tuple_6: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -8037,31 +8048,31 @@ export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparable$in
     readonly Item4: T4;
     readonly Item5: T5;
     readonly Item6: T6;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
 
 
 export const Tuple_6: {
-    new<T1, T2, T3, T4, T5, T6>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): Tuple_6<T1, T2, T3, T4, T5, T6>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): Tuple_6<T1, T2, T3, T4, T5, T6>;
 };
 
 
-export interface __Tuple_6$views<T1, T2, T3, T4, T5, T6> {
+export interface __Tuple_6$views<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
     As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type Tuple_6<T1, T2, T3, T4, T5, T6> = Tuple_6$instance<T1, T2, T3, T4, T5, T6> & __Tuple_6$views<T1, T2, T3, T4, T5, T6>;
+export type Tuple_6<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown> = Tuple_6$instance<T1, T2, T3, T4, T5, T6> & __Tuple_6$views<T1, T2, T3, T4, T5, T6>;
 
 
-export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface Tuple_7$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_Tuple_7: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -8076,31 +8087,31 @@ export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComparabl
     readonly Item5: T5;
     readonly Item6: T6;
     readonly Item7: T7;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
 
 
 export const Tuple_7: {
-    new<T1, T2, T3, T4, T5, T6, T7>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): Tuple_7<T1, T2, T3, T4, T5, T6, T7>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): Tuple_7<T1, T2, T3, T4, T5, T6, T7>;
 };
 
 
-export interface __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7> {
+export interface __Tuple_7$views<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
     As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type Tuple_7<T1, T2, T3, T4, T5, T6, T7> = Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
+export type Tuple_7<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown> = Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
 
 
-export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
+export interface Tuple_8$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, TRest extends unknown> extends IComparable$instance, System_Runtime_CompilerServices_Internal.ITuple$instance {
     readonly __tsonic_type_System_Tuple_8: never;
 
     readonly __tsonic_iface_System_Collections_IStructuralComparable: never;
@@ -8116,28 +8127,28 @@ export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> extends ICo
     readonly Item6: T6;
     readonly Item7: T7;
     readonly Rest: TRest;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
 
 
 export const Tuple_8: {
-    new<T1, T2, T3, T4, T5, T6, T7, TRest>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, rest: TRest): Tuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>;
+    new<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, TRest extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, rest: TRest): Tuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>;
 };
 
 
-export interface __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest> {
+export interface __Tuple_8$views<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, TRest extends unknown> {
     As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
     As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
     As_IComparable(): IComparable$instance;
     As_ITuple(): System_Runtime_CompilerServices_Internal.ITuple$instance;
 
     // Structural method bridges for numeric interface constraints
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
 }
 
-export type Tuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
+export type Tuple_8<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, TRest extends unknown> = Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
 
 
 export interface Type$instance extends MemberInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
@@ -8215,10 +8226,10 @@ export interface Type$instance extends MemberInfo, System_Reflection_Internal.IC
     readonly TypeHandle: RuntimeTypeHandle;
     readonly TypeInitializer: ConstructorInfo | null;
     readonly UnderlyingSystemType: Type;
-    Equals(o: JsValue | null): boolean;
+    Equals(o: unknown | null): boolean;
     Equals(o: Type | null): boolean;
-    FindInterfaces(filter: TypeFilter, filterCriteria: JsValue | null): Type[];
-    FindMembers(memberType: MemberTypes, bindingAttr: BindingFlags, filter: MemberFilter | null, filterCriteria: JsValue | null): MemberInfo[];
+    FindInterfaces(filter: TypeFilter, filterCriteria: unknown | null): Type[];
+    FindMembers(memberType: MemberTypes, bindingAttr: BindingFlags, filter: MemberFilter | null, filterCriteria: unknown | null): MemberInfo[];
     GetArrayRank(): int;
     GetAttributeFlagsImpl(): TypeAttributes;
     GetConstructor(types: Type[]): ConstructorInfo | null;
@@ -8230,7 +8241,7 @@ export interface Type$instance extends MemberInfo, System_Reflection_Internal.IC
     GetConstructors(bindingAttr: BindingFlags): ConstructorInfo[];
     GetDefaultMembers(): MemberInfo[];
     GetElementType(): Type | null;
-    GetEnumName(value: JsValue): string | null;
+    GetEnumName(value: unknown): string | null;
     GetEnumNames(): string[];
     GetEnumUnderlyingType(): Type;
     GetEnumValues(): Array;
@@ -8295,18 +8306,18 @@ export interface Type$instance extends MemberInfo, System_Reflection_Internal.IC
     GetType(): Type;
     GetTypeCodeImpl(): TypeCode;
     HasElementTypeImpl(): boolean;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: JsValue | null, args: (JsValue | null)[] | null): JsValue | null;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: JsValue | null, args: (JsValue | null)[] | null, culture: CultureInfo | null): JsValue | null;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: JsValue | null, args: (JsValue | null)[] | null, modifiers: ParameterModifier[] | null, culture: CultureInfo | null, namedParameters: string[] | null): JsValue | null;
+    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: unknown | null, args: (unknown | null)[] | null): unknown | null;
+    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: unknown | null, args: (unknown | null)[] | null, culture: CultureInfo | null): unknown | null;
+    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: unknown | null, args: (unknown | null)[] | null, modifiers: ParameterModifier[] | null, culture: CultureInfo | null, namedParameters: string[] | null): unknown | null;
     IsArrayImpl(): boolean;
     IsAssignableFrom(c: Type | null): boolean;
     IsAssignableTo(targetType: Type | null): boolean;
     IsByRefImpl(): boolean;
     IsCOMObjectImpl(): boolean;
     IsContextfulImpl(): boolean;
-    IsEnumDefined(value: JsValue): boolean;
+    IsEnumDefined(value: unknown): boolean;
     IsEquivalentTo(other: Type | null): boolean;
-    IsInstanceOfType(o: JsValue | null): boolean;
+    IsInstanceOfType(o: unknown | null): boolean;
     IsMarshalByRefImpl(): boolean;
     IsPointerImpl(): boolean;
     IsPrimitiveImpl(): boolean;
@@ -8324,7 +8335,7 @@ export interface Type$instance extends MemberInfo, System_Reflection_Internal.IC
 export const Type: (abstract new() => Type) & {
     readonly Delimiter: char;
     readonly EmptyTypes: Type[];
-    readonly Missing: JsValue;
+    readonly Missing: unknown;
     readonly FilterAttribute: MemberFilter;
     readonly FilterName: MemberFilter;
     readonly FilterNameIgnoreCase: MemberFilter;
@@ -8335,7 +8346,7 @@ export const Type: (abstract new() => Type) & {
     GetType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly | null> | null, typeResolver: Func_4<Assembly | null, String, Boolean, Type | null> | null, throwOnError: boolean): Type | null;
     GetType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly | null> | null, typeResolver: Func_4<Assembly | null, String, Boolean, Type | null> | null): Type | null;
     GetType(typeName: string): Type | null;
-    GetTypeArray(args: JsValue[]): Type[];
+    GetTypeArray(args: unknown[]): Type[];
     GetTypeCode(type: Type | null): TypeCode;
     GetTypeFromCLSID(clsid: Guid, throwOnError: boolean): Type | null;
     GetTypeFromCLSID(clsid: Guid, server: string | null, throwOnError: boolean): Type | null;
@@ -8346,7 +8357,7 @@ export const Type: (abstract new() => Type) & {
     GetTypeFromProgID(progID: string, server: string | null, throwOnError: boolean): Type | null;
     GetTypeFromProgID(progID: string, server: string | null): Type | null;
     GetTypeFromProgID(progID: string): Type | null;
-    GetTypeHandle(o: JsValue): RuntimeTypeHandle;
+    GetTypeHandle(o: unknown): RuntimeTypeHandle;
     MakeGenericMethodParameter(position: int): Type;
     MakeGenericSignatureType(genericTypeDefinition: Type, ...typeArguments: Type[]): Type;
     ReflectionOnlyGetType(typeName: string, throwIfNotFound: boolean, ignoreCase: boolean): Type | null;
@@ -8361,7 +8372,7 @@ export interface __Type$views {
 export type Type = Type$instance & __Type$views;
 
 
-export interface TypeAccessException$instance extends TypeLoadException$instance {
+export interface TypeAccessException$instance extends TypeLoadException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_TypeAccessException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -8383,7 +8394,7 @@ export interface __TypeAccessException$views {
 export type TypeAccessException = TypeAccessException$instance & __TypeAccessException$views;
 
 
-export interface TypeInitializationException$instance extends SystemException$instance {
+export interface TypeInitializationException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_TypeInitializationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -8405,7 +8416,7 @@ export interface __TypeInitializationException$views {
 export type TypeInitializationException = TypeInitializationException$instance & __TypeInitializationException$views;
 
 
-export interface TypeLoadException$instance extends SystemException$instance {
+export interface TypeLoadException$instance extends SystemException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_TypeLoadException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -8477,13 +8488,13 @@ export type UnauthorizedAccessException = UnauthorizedAccessException$instance &
 export interface UnhandledExceptionEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_UnhandledExceptionEventArgs: never;
 
-    readonly ExceptionObject: JsValue;
+    readonly ExceptionObject: unknown;
     readonly IsTerminating: boolean;
 }
 
 
 export const UnhandledExceptionEventArgs: {
-    new(exception: JsValue, isTerminating: boolean): UnhandledExceptionEventArgs;
+    new(exception: unknown, isTerminating: boolean): UnhandledExceptionEventArgs;
 };
 
 
@@ -8496,7 +8507,7 @@ export interface UnitySerializationHolder$instance extends System_Runtime_Serial
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    GetRealObject(context: StreamingContext): JsValue;
+    GetRealObject(context: StreamingContext): unknown;
 }
 
 
@@ -8545,7 +8556,7 @@ export interface Uri$instance extends System_Runtime_Serialization_Internal.ISer
     readonly UserInfo: string;
     Canonicalize(): void;
     CheckSecurity(): void;
-    Equals(comparand: JsValue | null): boolean;
+    Equals(comparand: unknown | null): boolean;
     Equals(other: Uri | null): boolean;
     Escape(): void;
     GetComponents(components: UriComponents, format: UriFormat): string;
@@ -8639,7 +8650,7 @@ export interface UriBuilder$instance {
     Scheme: string;
     readonly Uri: Uri;
     UserName: string;
-    Equals(rparam: JsValue | null): boolean;
+    Equals(rparam: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -8708,12 +8719,12 @@ export interface UriTypeConverter$instance extends TypeConverter {
     CanConvertFrom(sourceType: Type): boolean;
     CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
     CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null): JsValue | null;
-    ConvertFrom(value: JsValue): JsValue | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: JsValue | null, destinationType: Type): JsValue;
-    ConvertTo(value: JsValue | null, destinationType: Type): JsValue | null;
-    IsValid(context: ITypeDescriptorContext | null, value: JsValue | null): boolean;
-    IsValid(value: JsValue): boolean;
+    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null): unknown | null;
+    ConvertFrom(value: unknown): unknown | null;
+    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown;
+    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
+    IsValid(context: ITypeDescriptorContext | null, value: unknown | null): boolean;
+    IsValid(value: unknown): boolean;
 }
 
 
@@ -8727,7 +8738,7 @@ export type UriTypeConverter = UriTypeConverter$instance;
 export interface ValueType$instance {
     readonly __tsonic_type_System_ValueType: never;
 
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string | null;
 }
@@ -8757,10 +8768,10 @@ export interface Version$instance extends ICloneable$instance, IUtf8SpanParsable
     readonly Minor: int;
     readonly MinorRevision: short;
     readonly Revision: int;
-    Clone(): JsValue;
-    CompareTo(version: JsValue | null): int;
+    Clone(): unknown;
+    CompareTo(version: unknown | null): int;
     CompareTo(value: Version | null): int;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: Version | null): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -8799,7 +8810,7 @@ export interface __Version$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Version): boolean;
-    CompareTo(obj: JsValue): int;
+    CompareTo(obj: unknown): int;
     TryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
@@ -8812,8 +8823,8 @@ export interface WeakReference$instance extends System_Runtime_Serialization_Int
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly IsAlive: boolean;
-    get Target(): JsValue | null;
-    set Target(value: JsValue | null);
+    get Target(): unknown | null;
+    set Target(value: unknown | null);
     readonly TrackResurrection: boolean;
     Finalize(): void;
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -8821,8 +8832,8 @@ export interface WeakReference$instance extends System_Runtime_Serialization_Int
 
 
 export const WeakReference: {
-    new(target: JsValue | null): WeakReference;
-    new(target: JsValue | null, trackResurrection: boolean): WeakReference;
+    new(target: unknown | null): WeakReference;
+    new(target: unknown | null, trackResurrection: boolean): WeakReference;
 };
 
 
@@ -8833,7 +8844,7 @@ export interface __WeakReference$views {
 export type WeakReference = WeakReference$instance & __WeakReference$views;
 
 
-export interface WeakReference_1$instance<T> extends System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface WeakReference_1$instance<T extends (object | null)> extends System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_WeakReference_1: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -8846,31 +8857,32 @@ export interface WeakReference_1$instance<T> extends System_Runtime_Serializatio
 
 
 export const WeakReference_1: {
-    new<T>(target: T): WeakReference_1<T>;
-    new<T>(target: T, trackResurrection: boolean): WeakReference_1<T>;
+    new<T extends (object | null)>(target: T): WeakReference_1<T>;
+    new<T extends (object | null)>(target: T, trackResurrection: boolean): WeakReference_1<T>;
 };
 
 
-export interface __WeakReference_1$views<T> {
+export interface __WeakReference_1$views<T extends (object | null)> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export type WeakReference_1<T> = WeakReference_1$instance<T> & __WeakReference_1$views<T>;
+export type WeakReference_1<T extends (object | null)> = WeakReference_1$instance<T> & __WeakReference_1$views<T>;
 
 
 export abstract class Activator$instance {
-    static CreateInstance<T>(): T;
-    static CreateInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (JsValue | null)[] | null, culture: CultureInfo | null, activationAttributes: (JsValue | null)[] | null): ObjectHandle | null;
-    static CreateInstance(assemblyName: string, typeName: string, activationAttributes: (JsValue | null)[] | null): ObjectHandle | null;
+    static CreateInstance<T extends unknown>(): T;
+    static CreateInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (unknown | null)[] | null, culture: CultureInfo | null, activationAttributes: (unknown | null)[] | null): ObjectHandle | null;
+    static CreateInstance(assemblyName: string, typeName: string, activationAttributes: (unknown | null)[] | null): ObjectHandle | null;
     static CreateInstance(assemblyName: string, typeName: string): ObjectHandle | null;
-    static CreateInstance(type: Type, nonPublic: boolean): JsValue | null;
-    static CreateInstance(type: Type, args: (JsValue | null)[] | null, activationAttributes: (JsValue | null)[] | null): JsValue | null;
-    static CreateInstance(type: Type, ...args: (JsValue | null)[] | null): JsValue | null;
-    static CreateInstance(type: Type, bindingAttr: BindingFlags, binder: Binder | null, args: (JsValue | null)[] | null, culture: CultureInfo | null, activationAttributes: (JsValue | null)[] | null): JsValue | null;
-    static CreateInstance(type: Type, bindingAttr: BindingFlags, binder: Binder | null, args: (JsValue | null)[] | null, culture: CultureInfo | null): JsValue | null;
-    static CreateInstance(type: Type): JsValue | null;
-    static CreateInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (JsValue | null)[] | null, culture: CultureInfo | null, activationAttributes: (JsValue | null)[] | null): ObjectHandle | null;
-    static CreateInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: (JsValue | null)[] | null): ObjectHandle | null;
+    static CreateInstance(type: Type, nonPublic: boolean): unknown | null;
+    static CreateInstance(type: Type, args: (unknown | null)[] | null, activationAttributes: (unknown | null)[] | null): unknown | null;
+    static CreateInstance(type: Type, ...args: (unknown | null)[]): unknown | null;
+    static CreateInstance(type: Type, args: (unknown | null)[] | null): unknown | null;
+    static CreateInstance(type: Type, bindingAttr: BindingFlags, binder: Binder | null, args: (unknown | null)[] | null, culture: CultureInfo | null, activationAttributes: (unknown | null)[] | null): unknown | null;
+    static CreateInstance(type: Type, bindingAttr: BindingFlags, binder: Binder | null, args: (unknown | null)[] | null, culture: CultureInfo | null): unknown | null;
+    static CreateInstance(type: Type): unknown | null;
+    static CreateInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: (unknown | null)[] | null, culture: CultureInfo | null, activationAttributes: (unknown | null)[] | null): ObjectHandle | null;
+    static CreateInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: (unknown | null)[] | null): ObjectHandle | null;
     static CreateInstanceFrom(assemblyFile: string, typeName: string): ObjectHandle | null;
 }
 
@@ -8880,8 +8892,8 @@ export type Activator = Activator$instance;
 export abstract class AppContext$instance {
     static readonly BaseDirectory: string;
     static readonly TargetFrameworkName: string | null;
-    static GetData(name: string): JsValue | null;
-    static SetData(name: string, data: JsValue | null): void;
+    static GetData(name: string): unknown | null;
+    static SetData(name: string, data: unknown | null): void;
     static SetSwitch(switchName: string, isEnabled: boolean): void;
     static TryGetSwitch(switchName: string, isEnabled: boolean): boolean;
 }
@@ -9035,14 +9047,15 @@ export abstract class Console$instance {
     static Write(value: double): void;
     static Write(value: int): void;
     static Write(value: long): void;
-    static Write(value: JsValue | null): void;
+    static Write(value: unknown | null): void;
     static Write(value: ReadOnlySpan_1<Char>): void;
     static Write(value: float): void;
-    static Write(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
-    static Write(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
-    static Write(format: string, arg0: JsValue | null): void;
-    static Write(format: string, ...arg: (JsValue | null)[] | null): void;
-    static Write(format: string, arg: ReadOnlySpan_1<JsValue>): void;
+    static Write(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
+    static Write(format: string, arg0: unknown | null, arg1: unknown | null): void;
+    static Write(format: string, arg0: unknown | null): void;
+    static Write(format: string, ...arg: (unknown | null)[]): void;
+    static Write(format: string, arg: (unknown | null)[] | null): void;
+    static Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     static Write(value: string | null): void;
     static Write(value: uint): void;
     static Write(value: ulong): void;
@@ -9055,14 +9068,15 @@ export abstract class Console$instance {
     static WriteLine(value: double): void;
     static WriteLine(value: int): void;
     static WriteLine(value: long): void;
-    static WriteLine(value: JsValue | null): void;
+    static WriteLine(value: unknown | null): void;
     static WriteLine(value: ReadOnlySpan_1<Char>): void;
     static WriteLine(value: float): void;
-    static WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null, arg2: JsValue | null): void;
-    static WriteLine(format: string, arg0: JsValue | null, arg1: JsValue | null): void;
-    static WriteLine(format: string, arg0: JsValue | null): void;
-    static WriteLine(format: string, ...arg: (JsValue | null)[] | null): void;
-    static WriteLine(format: string, arg: ReadOnlySpan_1<JsValue>): void;
+    static WriteLine(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
+    static WriteLine(format: string, arg0: unknown | null, arg1: unknown | null): void;
+    static WriteLine(format: string, arg0: unknown | null): void;
+    static WriteLine(format: string, ...arg: (unknown | null)[]): void;
+    static WriteLine(format: string, arg: (unknown | null)[] | null): void;
+    static WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     static WriteLine(value: string | null): void;
     static WriteLine(value: uint): void;
     static WriteLine(value: ulong): void;
@@ -9072,11 +9086,11 @@ export abstract class Console$instance {
 export type Console = Console$instance;
 
 export abstract class Convert$instance {
-    static readonly DBNull: JsValue;
-    static ChangeType(value: JsValue | null, conversionType: Type, provider: IFormatProvider | null): JsValue | null;
-    static ChangeType(value: JsValue | null, conversionType: Type): JsValue | null;
-    static ChangeType(value: JsValue | null, typeCode: TypeCode, provider: IFormatProvider | null): JsValue | null;
-    static ChangeType(value: JsValue | null, typeCode: TypeCode): JsValue | null;
+    static readonly DBNull: unknown;
+    static ChangeType(value: unknown | null, conversionType: Type, provider: IFormatProvider | null): unknown | null;
+    static ChangeType(value: unknown | null, conversionType: Type): unknown | null;
+    static ChangeType(value: unknown | null, typeCode: TypeCode, provider: IFormatProvider | null): unknown | null;
+    static ChangeType(value: unknown | null, typeCode: TypeCode): unknown | null;
     static FromBase64CharArray(inArray: char[], offset: int, length: int): byte[];
     static FromBase64String(s: string): byte[];
     static FromHexString(utf8Source: ReadOnlySpan_1<Byte>, destination: Span_1<Byte>, bytesConsumed: int, bytesWritten: int): OperationStatus;
@@ -9085,8 +9099,8 @@ export abstract class Convert$instance {
     static FromHexString(chars: ReadOnlySpan_1<Char>): byte[];
     static FromHexString(source: string, destination: Span_1<Byte>, charsConsumed: int, bytesWritten: int): OperationStatus;
     static FromHexString(s: string): byte[];
-    static GetTypeCode(value: JsValue | null): TypeCode;
-    static IsDBNull(value: JsValue | null): boolean;
+    static GetTypeCode(value: unknown | null): TypeCode;
+    static IsDBNull(value: unknown | null): boolean;
     static ToBase64CharArray(inArray: byte[], offsetIn: int, length: int, outArray: char[], offsetOut: int, options: Base64FormattingOptions): int;
     static ToBase64CharArray(inArray: byte[], offsetIn: int, length: int, outArray: char[], offsetOut: int): int;
     static ToBase64String(inArray: byte[], options: Base64FormattingOptions): string;
@@ -9103,8 +9117,8 @@ export abstract class Convert$instance {
     static ToBoolean(value: short): boolean;
     static ToBoolean(value: int): boolean;
     static ToBoolean(value: long): boolean;
-    static ToBoolean(value: JsValue | null, provider: IFormatProvider | null): boolean;
-    static ToBoolean(value: JsValue | null): boolean;
+    static ToBoolean(value: unknown | null, provider: IFormatProvider | null): boolean;
+    static ToBoolean(value: unknown | null): boolean;
     static ToBoolean(value: sbyte): boolean;
     static ToBoolean(value: float): boolean;
     static ToBoolean(value: string | null, provider: IFormatProvider | null): boolean;
@@ -9121,8 +9135,8 @@ export abstract class Convert$instance {
     static ToByte(value: short): byte;
     static ToByte(value: int): byte;
     static ToByte(value: long): byte;
-    static ToByte(value: JsValue | null, provider: IFormatProvider | null): byte;
-    static ToByte(value: JsValue | null): byte;
+    static ToByte(value: unknown | null, provider: IFormatProvider | null): byte;
+    static ToByte(value: unknown | null): byte;
     static ToByte(value: sbyte): byte;
     static ToByte(value: float): byte;
     static ToByte(value: string | null, provider: IFormatProvider | null): byte;
@@ -9140,8 +9154,8 @@ export abstract class Convert$instance {
     static ToChar(value: short): char;
     static ToChar(value: int): char;
     static ToChar(value: long): char;
-    static ToChar(value: JsValue | null, provider: IFormatProvider | null): char;
-    static ToChar(value: JsValue | null): char;
+    static ToChar(value: unknown | null, provider: IFormatProvider | null): char;
+    static ToChar(value: unknown | null): char;
     static ToChar(value: sbyte): char;
     static ToChar(value: float): char;
     static ToChar(value: string, provider: IFormatProvider | null): char;
@@ -9158,8 +9172,8 @@ export abstract class Convert$instance {
     static ToDateTime(value: short): DateTime;
     static ToDateTime(value: int): DateTime;
     static ToDateTime(value: long): DateTime;
-    static ToDateTime(value: JsValue | null, provider: IFormatProvider | null): DateTime;
-    static ToDateTime(value: JsValue | null): DateTime;
+    static ToDateTime(value: unknown | null, provider: IFormatProvider | null): DateTime;
+    static ToDateTime(value: unknown | null): DateTime;
     static ToDateTime(value: sbyte): DateTime;
     static ToDateTime(value: float): DateTime;
     static ToDateTime(value: string | null, provider: IFormatProvider | null): DateTime;
@@ -9176,8 +9190,8 @@ export abstract class Convert$instance {
     static ToDecimal(value: short): decimal;
     static ToDecimal(value: int): decimal;
     static ToDecimal(value: long): decimal;
-    static ToDecimal(value: JsValue | null, provider: IFormatProvider | null): decimal;
-    static ToDecimal(value: JsValue | null): decimal;
+    static ToDecimal(value: unknown | null, provider: IFormatProvider | null): decimal;
+    static ToDecimal(value: unknown | null): decimal;
     static ToDecimal(value: sbyte): decimal;
     static ToDecimal(value: float): decimal;
     static ToDecimal(value: string | null, provider: IFormatProvider | null): decimal;
@@ -9194,8 +9208,8 @@ export abstract class Convert$instance {
     static ToDouble(value: short): double;
     static ToDouble(value: int): double;
     static ToDouble(value: long): double;
-    static ToDouble(value: JsValue | null, provider: IFormatProvider | null): double;
-    static ToDouble(value: JsValue | null): double;
+    static ToDouble(value: unknown | null, provider: IFormatProvider | null): double;
+    static ToDouble(value: unknown | null): double;
     static ToDouble(value: sbyte): double;
     static ToDouble(value: float): double;
     static ToDouble(value: string | null, provider: IFormatProvider | null): double;
@@ -9218,8 +9232,8 @@ export abstract class Convert$instance {
     static ToInt16(value: short): short;
     static ToInt16(value: int): short;
     static ToInt16(value: long): short;
-    static ToInt16(value: JsValue | null, provider: IFormatProvider | null): short;
-    static ToInt16(value: JsValue | null): short;
+    static ToInt16(value: unknown | null, provider: IFormatProvider | null): short;
+    static ToInt16(value: unknown | null): short;
     static ToInt16(value: sbyte): short;
     static ToInt16(value: float): short;
     static ToInt16(value: string | null, provider: IFormatProvider | null): short;
@@ -9237,8 +9251,8 @@ export abstract class Convert$instance {
     static ToInt32(value: short): int;
     static ToInt32(value: int): int;
     static ToInt32(value: long): int;
-    static ToInt32(value: JsValue | null, provider: IFormatProvider | null): int;
-    static ToInt32(value: JsValue | null): int;
+    static ToInt32(value: unknown | null, provider: IFormatProvider | null): int;
+    static ToInt32(value: unknown | null): int;
     static ToInt32(value: sbyte): int;
     static ToInt32(value: float): int;
     static ToInt32(value: string | null, provider: IFormatProvider | null): int;
@@ -9256,8 +9270,8 @@ export abstract class Convert$instance {
     static ToInt64(value: short): long;
     static ToInt64(value: int): long;
     static ToInt64(value: long): long;
-    static ToInt64(value: JsValue | null, provider: IFormatProvider | null): long;
-    static ToInt64(value: JsValue | null): long;
+    static ToInt64(value: unknown | null, provider: IFormatProvider | null): long;
+    static ToInt64(value: unknown | null): long;
     static ToInt64(value: sbyte): long;
     static ToInt64(value: float): long;
     static ToInt64(value: string | null, provider: IFormatProvider | null): long;
@@ -9275,8 +9289,8 @@ export abstract class Convert$instance {
     static ToSByte(value: short): sbyte;
     static ToSByte(value: int): sbyte;
     static ToSByte(value: long): sbyte;
-    static ToSByte(value: JsValue | null, provider: IFormatProvider | null): sbyte;
-    static ToSByte(value: JsValue | null): sbyte;
+    static ToSByte(value: unknown | null, provider: IFormatProvider | null): sbyte;
+    static ToSByte(value: unknown | null): sbyte;
     static ToSByte(value: sbyte): sbyte;
     static ToSByte(value: float): sbyte;
     static ToSByte(value: string, provider: IFormatProvider | null): sbyte;
@@ -9294,8 +9308,8 @@ export abstract class Convert$instance {
     static ToSingle(value: short): float;
     static ToSingle(value: int): float;
     static ToSingle(value: long): float;
-    static ToSingle(value: JsValue | null, provider: IFormatProvider | null): float;
-    static ToSingle(value: JsValue | null): float;
+    static ToSingle(value: unknown | null, provider: IFormatProvider | null): float;
+    static ToSingle(value: unknown | null): float;
     static ToSingle(value: sbyte): float;
     static ToSingle(value: float): float;
     static ToSingle(value: string | null, provider: IFormatProvider | null): float;
@@ -9325,8 +9339,8 @@ export abstract class Convert$instance {
     static ToString(value: long, provider: IFormatProvider | null): string;
     static ToString(value: long, toBase: int): string;
     static ToString(value: long): string;
-    static ToString(value: JsValue | null, provider: IFormatProvider | null): string | null;
-    static ToString(value: JsValue | null): string | null;
+    static ToString(value: unknown | null, provider: IFormatProvider | null): string | null;
+    static ToString(value: unknown | null): string | null;
     static ToString(value: sbyte, provider: IFormatProvider | null): string;
     static ToString(value: sbyte): string;
     static ToString(value: float, provider: IFormatProvider | null): string;
@@ -9348,8 +9362,8 @@ export abstract class Convert$instance {
     static ToUInt16(value: short): ushort;
     static ToUInt16(value: int): ushort;
     static ToUInt16(value: long): ushort;
-    static ToUInt16(value: JsValue | null, provider: IFormatProvider | null): ushort;
-    static ToUInt16(value: JsValue | null): ushort;
+    static ToUInt16(value: unknown | null, provider: IFormatProvider | null): ushort;
+    static ToUInt16(value: unknown | null): ushort;
     static ToUInt16(value: sbyte): ushort;
     static ToUInt16(value: float): ushort;
     static ToUInt16(value: string | null, provider: IFormatProvider | null): ushort;
@@ -9367,8 +9381,8 @@ export abstract class Convert$instance {
     static ToUInt32(value: short): uint;
     static ToUInt32(value: int): uint;
     static ToUInt32(value: long): uint;
-    static ToUInt32(value: JsValue | null, provider: IFormatProvider | null): uint;
-    static ToUInt32(value: JsValue | null): uint;
+    static ToUInt32(value: unknown | null, provider: IFormatProvider | null): uint;
+    static ToUInt32(value: unknown | null): uint;
     static ToUInt32(value: sbyte): uint;
     static ToUInt32(value: float): uint;
     static ToUInt32(value: string | null, provider: IFormatProvider | null): uint;
@@ -9386,8 +9400,8 @@ export abstract class Convert$instance {
     static ToUInt64(value: short): ulong;
     static ToUInt64(value: int): ulong;
     static ToUInt64(value: long): ulong;
-    static ToUInt64(value: JsValue | null, provider: IFormatProvider | null): ulong;
-    static ToUInt64(value: JsValue | null): ulong;
+    static ToUInt64(value: unknown | null, provider: IFormatProvider | null): ulong;
+    static ToUInt64(value: unknown | null): ulong;
     static ToUInt64(value: sbyte): ulong;
     static ToUInt64(value: float): ulong;
     static ToUInt64(value: string | null, provider: IFormatProvider | null): ulong;
@@ -9530,8 +9544,8 @@ export type Environment_ProcessCpuUsage = Environment_ProcessCpuUsage$instance;
 export abstract class GC$instance {
     static readonly MaxGeneration: int;
     static AddMemoryPressure(bytesAllocated: long): void;
-    static AllocateArray<T>(length: int, pinned?: boolean): T[];
-    static AllocateUninitializedArray<T>(length: int, pinned?: boolean): T[];
+    static AllocateArray<T extends unknown>(length: int, pinned?: boolean): T[];
+    static AllocateUninitializedArray<T extends unknown>(length: int, pinned?: boolean): T[];
     static CancelFullGCNotification(): void;
     static Collect(): void;
     static Collect(generation: int, mode: GCCollectionMode, blocking: boolean, compacting: boolean): void;
@@ -9541,21 +9555,21 @@ export abstract class GC$instance {
     static CollectionCount(generation: int): int;
     static EndNoGCRegion(): void;
     static GetAllocatedBytesForCurrentThread(): long;
-    static GetConfigurationVariables(): IReadOnlyDictionary_2<String, JsValue>;
+    static GetConfigurationVariables(): IReadOnlyDictionary_2<String, unknown>;
     static GetGCMemoryInfo(): GCMemoryInfo;
     static GetGCMemoryInfo(kind: GCKind): GCMemoryInfo;
-    static GetGeneration(obj: JsValue): int;
+    static GetGeneration(obj: unknown): int;
     static GetGeneration(wo: WeakReference): int;
     static GetTotalAllocatedBytes(precise?: boolean): long;
     static GetTotalMemory(forceFullCollection: boolean): long;
     static GetTotalPauseDuration(): TimeSpan;
-    static KeepAlive(obj: JsValue | null): void;
+    static KeepAlive(obj: unknown | null): void;
     static RefreshMemoryLimit(): void;
     static RegisterForFullGCNotification(maxGenerationThreshold: int, largeObjectHeapThreshold: int): void;
     static RegisterNoGCRegionCallback(totalSize: long, callback: Action): void;
     static RemoveMemoryPressure(bytesAllocated: long): void;
-    static ReRegisterForFinalize(obj: JsValue): void;
-    static SuppressFinalize(obj: JsValue): void;
+    static ReRegisterForFinalize(obj: unknown): void;
+    static SuppressFinalize(obj: unknown): void;
     static TryStartNoGCRegion(totalSize: long, disallowFullBlockingGC: boolean): boolean;
     static TryStartNoGCRegion(totalSize: long, lohSize: long, disallowFullBlockingGC: boolean): boolean;
     static TryStartNoGCRegion(totalSize: long, lohSize: long): boolean;
@@ -9755,257 +9769,257 @@ export abstract class MathF$instance {
 export type MathF = MathF$instance;
 
 export abstract class MemoryExtensions$instance {
-    static AsMemory<T>(segment: ArraySegment_1<T>, start: int, length: int): Memory_1<T>;
-    static AsMemory<T>(segment: ArraySegment_1<T>, start: int): Memory_1<T>;
-    static AsMemory<T>(segment: ArraySegment_1<T>): Memory_1<T>;
+    static AsMemory<T extends unknown>(segment: ArraySegment_1<T>, start: int, length: int): Memory_1<T>;
+    static AsMemory<T extends unknown>(segment: ArraySegment_1<T>, start: int): Memory_1<T>;
+    static AsMemory<T extends unknown>(segment: ArraySegment_1<T>): Memory_1<T>;
     static AsMemory(text: string | null, startIndex: Index): ReadOnlyMemory_1<Char>;
     static AsMemory(text: string | null, start: int, length: int): ReadOnlyMemory_1<Char>;
     static AsMemory(text: string | null, start: int): ReadOnlyMemory_1<Char>;
     static AsMemory(text: string | null, range: Range): ReadOnlyMemory_1<Char>;
     static AsMemory(text: string | null): ReadOnlyMemory_1<Char>;
-    static AsMemory<T>(array: T[] | null, startIndex: Index): Memory_1<T>;
-    static AsMemory<T>(array: T[] | null, start: int, length: int): Memory_1<T>;
-    static AsMemory<T>(array: T[] | null, start: int): Memory_1<T>;
-    static AsMemory<T>(array: T[] | null, range: Range): Memory_1<T>;
-    static AsMemory<T>(array: T[] | null): Memory_1<T>;
-    static AsSpan<T>(segment: ArraySegment_1<T>, startIndex: Index): Span_1<T>;
-    static AsSpan<T>(segment: ArraySegment_1<T>, start: int, length: int): Span_1<T>;
-    static AsSpan<T>(segment: ArraySegment_1<T>, start: int): Span_1<T>;
-    static AsSpan<T>(segment: ArraySegment_1<T>, range: Range): Span_1<T>;
-    static AsSpan<T>(segment: ArraySegment_1<T>): Span_1<T>;
+    static AsMemory<T extends unknown>(array: T[] | null, startIndex: Index): Memory_1<T>;
+    static AsMemory<T extends unknown>(array: T[] | null, start: int, length: int): Memory_1<T>;
+    static AsMemory<T extends unknown>(array: T[] | null, start: int): Memory_1<T>;
+    static AsMemory<T extends unknown>(array: T[] | null, range: Range): Memory_1<T>;
+    static AsMemory<T extends unknown>(array: T[] | null): Memory_1<T>;
+    static AsSpan<T extends unknown>(segment: ArraySegment_1<T>, startIndex: Index): Span_1<T>;
+    static AsSpan<T extends unknown>(segment: ArraySegment_1<T>, start: int, length: int): Span_1<T>;
+    static AsSpan<T extends unknown>(segment: ArraySegment_1<T>, start: int): Span_1<T>;
+    static AsSpan<T extends unknown>(segment: ArraySegment_1<T>, range: Range): Span_1<T>;
+    static AsSpan<T extends unknown>(segment: ArraySegment_1<T>): Span_1<T>;
     static AsSpan(text: string | null, startIndex: Index): ReadOnlySpan_1<Char>;
     static AsSpan(text: string | null, start: int, length: int): ReadOnlySpan_1<Char>;
     static AsSpan(text: string | null, start: int): ReadOnlySpan_1<Char>;
     static AsSpan(text: string | null, range: Range): ReadOnlySpan_1<Char>;
     static AsSpan(text: string | null): ReadOnlySpan_1<Char>;
-    static AsSpan<T>(array: T[] | null, startIndex: Index): Span_1<T>;
-    static AsSpan<T>(array: T[] | null, start: int, length: int): Span_1<T>;
-    static AsSpan<T>(array: T[] | null, start: int): Span_1<T>;
-    static AsSpan<T>(array: T[] | null, range: Range): Span_1<T>;
-    static AsSpan<T>(array: T[] | null): Span_1<T>;
-    static BinarySearch<T>(span: ReadOnlySpan_1<T>, comparable: IComparable_1<T>): int;
-    static BinarySearch<T, TComparer extends IComparer_1<T>>(span: ReadOnlySpan_1<T>, value: T, comparer: TComparer): int;
-    static BinarySearch<T, TComparable extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, comparable: TComparable): int;
-    static BinarySearch<T>(span: Span_1<T>, comparable: IComparable_1<T>): int;
-    static BinarySearch<T, TComparer extends IComparer_1<T>>(span: Span_1<T>, value: T, comparer: TComparer): int;
-    static BinarySearch<T, TComparable extends IComparable_1<T>>(span: Span_1<T>, comparable: TComparable): int;
-    static CommonPrefixLength<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer: IEqualityComparer_1<T> | null): int;
-    static CommonPrefixLength<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): int;
-    static CommonPrefixLength<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>, comparer: IEqualityComparer_1<T> | null): int;
-    static CommonPrefixLength<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>): int;
+    static AsSpan<T extends unknown>(array: T[] | null, startIndex: Index): Span_1<T>;
+    static AsSpan<T extends unknown>(array: T[] | null, start: int, length: int): Span_1<T>;
+    static AsSpan<T extends unknown>(array: T[] | null, start: int): Span_1<T>;
+    static AsSpan<T extends unknown>(array: T[] | null, range: Range): Span_1<T>;
+    static AsSpan<T extends unknown>(array: T[] | null): Span_1<T>;
+    static BinarySearch<T extends unknown>(span: ReadOnlySpan_1<T>, comparable: IComparable_1<T>): int;
+    static BinarySearch<T extends unknown, TComparer extends unknown & IComparer_1<T>>(span: ReadOnlySpan_1<T>, value: T, comparer: TComparer): int;
+    static BinarySearch<T extends unknown, TComparable extends unknown & IComparable_1<T>>(span: ReadOnlySpan_1<T>, comparable: TComparable): int;
+    static BinarySearch<T extends unknown>(span: Span_1<T>, comparable: IComparable_1<T>): int;
+    static BinarySearch<T extends unknown, TComparer extends unknown & IComparer_1<T>>(span: Span_1<T>, value: T, comparer: TComparer): int;
+    static BinarySearch<T extends unknown, TComparable extends unknown & IComparable_1<T>>(span: Span_1<T>, comparable: TComparable): int;
+    static CommonPrefixLength<T extends unknown>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer: IEqualityComparer_1<T> | null): int;
+    static CommonPrefixLength<T extends unknown>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): int;
+    static CommonPrefixLength<T extends unknown>(span: Span_1<T>, other: ReadOnlySpan_1<T>, comparer: IEqualityComparer_1<T> | null): int;
+    static CommonPrefixLength<T extends unknown>(span: Span_1<T>, other: ReadOnlySpan_1<T>): int;
     static CompareTo(span: ReadOnlySpan_1<Char>, other: ReadOnlySpan_1<Char>, comparisonType: StringComparison): int;
-    static Contains<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static Contains<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
-    static Contains<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): boolean;
+    static Contains<T extends unknown>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static Contains<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
+    static Contains<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: T): boolean;
     static Contains(span: ReadOnlySpan_1<Char>, value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): boolean;
-    static ContainsAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static ContainsAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): boolean;
-    static ContainsAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): boolean;
-    static ContainsAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static ContainsAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static ContainsAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): boolean;
-    static ContainsAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): boolean;
-    static ContainsAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): boolean;
-    static ContainsAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): boolean;
-    static ContainsAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): boolean;
-    static ContainsAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): boolean;
+    static ContainsAny<T extends unknown>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static ContainsAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): boolean;
+    static ContainsAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): boolean;
+    static ContainsAny<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static ContainsAny<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static ContainsAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): boolean;
+    static ContainsAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): boolean;
+    static ContainsAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): boolean;
+    static ContainsAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): boolean;
+    static ContainsAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): boolean;
+    static ContainsAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): boolean;
     static ContainsAny(span: ReadOnlySpan_1<Char>, values: SearchValues_1<String>): boolean;
     static ContainsAny(span: Span_1<Char>, values: SearchValues_1<String>): boolean;
-    static ContainsAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static ContainsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): boolean;
-    static ContainsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): boolean;
-    static ContainsAnyExcept<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static ContainsAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static ContainsAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static ContainsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): boolean;
-    static ContainsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): boolean;
-    static ContainsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
-    static ContainsAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): boolean;
-    static ContainsAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): boolean;
-    static ContainsAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): boolean;
-    static ContainsAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): boolean;
-    static ContainsAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): boolean;
-    static ContainsAnyExceptInRange<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): boolean;
-    static ContainsAnyExceptInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): boolean;
-    static ContainsAnyInRange<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): boolean;
-    static ContainsAnyInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): boolean;
-    static CopyTo<T>(source: T[] | null, destination: Memory_1<T>): void;
-    static CopyTo<T>(source: T[] | null, destination: Span_1<T>): void;
-    static Count<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
-    static Count<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
-    static Count<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static Count<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
-    static Count<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
-    static Count<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): int;
-    static CountAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
-    static CountAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
-    static CountAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
-    static EndsWith<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static EndsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): boolean;
-    static EndsWith<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static EndsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
-    static EndsWith<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): boolean;
+    static ContainsAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static ContainsAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): boolean;
+    static ContainsAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): boolean;
+    static ContainsAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static ContainsAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static ContainsAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static ContainsAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): boolean;
+    static ContainsAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): boolean;
+    static ContainsAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
+    static ContainsAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): boolean;
+    static ContainsAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): boolean;
+    static ContainsAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): boolean;
+    static ContainsAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): boolean;
+    static ContainsAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: T): boolean;
+    static ContainsAnyExceptInRange<T extends unknown & IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): boolean;
+    static ContainsAnyExceptInRange<T extends unknown & IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): boolean;
+    static ContainsAnyInRange<T extends unknown & IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): boolean;
+    static ContainsAnyInRange<T extends unknown & IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): boolean;
+    static CopyTo<T extends unknown>(source: T[] | null, destination: Memory_1<T>): void;
+    static CopyTo<T extends unknown>(source: T[] | null, destination: Span_1<T>): void;
+    static Count<T extends unknown>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
+    static Count<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
+    static Count<T extends unknown>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static Count<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
+    static Count<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
+    static Count<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: T): int;
+    static CountAny<T extends unknown>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
+    static CountAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
+    static CountAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
+    static EndsWith<T extends unknown>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static EndsWith<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): boolean;
+    static EndsWith<T extends unknown>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static EndsWith<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
+    static EndsWith<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): boolean;
     static EndsWith(span: ReadOnlySpan_1<Char>, value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): boolean;
     static EnumerateLines(span: ReadOnlySpan_1<Char>): SpanLineEnumerator;
     static EnumerateLines(span: Span_1<Char>): SpanLineEnumerator;
     static EnumerateRunes(span: ReadOnlySpan_1<Char>): SpanRuneEnumerator;
     static EnumerateRunes(span: Span_1<Char>): SpanRuneEnumerator;
     static Equals(span: ReadOnlySpan_1<Char>, other: ReadOnlySpan_1<Char>, comparisonType: StringComparison): boolean;
-    static IndexOf<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
-    static IndexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
-    static IndexOf<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static IndexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
-    static IndexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
-    static IndexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): int;
+    static IndexOf<T extends unknown>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
+    static IndexOf<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
+    static IndexOf<T extends unknown>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static IndexOf<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
+    static IndexOf<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
+    static IndexOf<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: T): int;
     static IndexOf(span: ReadOnlySpan_1<Char>, value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): int;
-    static IndexOfAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
-    static IndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
-    static IndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
-    static IndexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static IndexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static IndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
-    static IndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
-    static IndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): int;
-    static IndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): int;
-    static IndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): int;
-    static IndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
+    static IndexOfAny<T extends unknown>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
+    static IndexOfAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
+    static IndexOfAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
+    static IndexOfAny<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static IndexOfAny<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static IndexOfAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
+    static IndexOfAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
+    static IndexOfAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): int;
+    static IndexOfAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): int;
+    static IndexOfAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): int;
+    static IndexOfAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
     static IndexOfAny(span: ReadOnlySpan_1<Char>, values: SearchValues_1<String>): int;
     static IndexOfAny(span: Span_1<Char>, values: SearchValues_1<String>): int;
-    static IndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
-    static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
-    static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
-    static IndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static IndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static IndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
-    static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
-    static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
-    static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): int;
-    static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): int;
-    static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): int;
-    static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
-    static IndexOfAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): int;
-    static IndexOfAnyExceptInRange<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): int;
-    static IndexOfAnyExceptInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
-    static IndexOfAnyInRange<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): int;
-    static IndexOfAnyInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
+    static IndexOfAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
+    static IndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
+    static IndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
+    static IndexOfAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static IndexOfAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static IndexOfAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static IndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
+    static IndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
+    static IndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
+    static IndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): int;
+    static IndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): int;
+    static IndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): int;
+    static IndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
+    static IndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: T): int;
+    static IndexOfAnyExceptInRange<T extends unknown & IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): int;
+    static IndexOfAnyExceptInRange<T extends unknown & IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
+    static IndexOfAnyInRange<T extends unknown & IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): int;
+    static IndexOfAnyInRange<T extends unknown & IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
     static IsWhiteSpace(span: ReadOnlySpan_1<Char>): boolean;
-    static LastIndexOf<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
-    static LastIndexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
-    static LastIndexOf<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static LastIndexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
-    static LastIndexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
-    static LastIndexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): int;
+    static LastIndexOf<T extends unknown>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
+    static LastIndexOf<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
+    static LastIndexOf<T extends unknown>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static LastIndexOf<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
+    static LastIndexOf<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
+    static LastIndexOf<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: T): int;
     static LastIndexOf(span: ReadOnlySpan_1<Char>, value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): int;
-    static LastIndexOfAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
-    static LastIndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
-    static LastIndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
-    static LastIndexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static LastIndexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static LastIndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
-    static LastIndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
-    static LastIndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): int;
-    static LastIndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): int;
-    static LastIndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): int;
-    static LastIndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
-    static LastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
-    static LastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
-    static LastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
-    static LastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static LastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static LastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): int;
-    static LastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
-    static LastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
-    static LastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
-    static LastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): int;
-    static LastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): int;
-    static LastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): int;
-    static LastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
-    static LastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): int;
-    static LastIndexOfAnyExceptInRange<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): int;
-    static LastIndexOfAnyExceptInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
-    static LastIndexOfAnyInRange<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): int;
-    static LastIndexOfAnyInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
-    static Overlaps<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, elementOffset: int): boolean;
-    static Overlaps<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): boolean;
-    static Overlaps<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>, elementOffset: int): boolean;
-    static Overlaps<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>): boolean;
-    static Replace<T>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, oldValue: T, newValue: T, comparer?: IEqualityComparer_1<T> | null): void;
-    static Replace<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, oldValue: T, newValue: T): void;
-    static Replace<T>(span: Span_1<T>, oldValue: T, newValue: T, comparer?: IEqualityComparer_1<T> | null): void;
-    static Replace<T extends IEquatable_1<T>>(span: Span_1<T>, oldValue: T, newValue: T): void;
-    static ReplaceAny<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
-    static ReplaceAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
-    static ReplaceAnyExcept<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
-    static ReplaceAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
-    static Reverse<T>(span: Span_1<T>): void;
-    static SequenceCompareTo<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer?: IComparer_1<T> | null): int;
-    static SequenceCompareTo<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): int;
-    static SequenceCompareTo<T extends IComparable_1<T>>(span: Span_1<T>, other: ReadOnlySpan_1<T>): int;
-    static SequenceEqual<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static SequenceEqual<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): boolean;
-    static SequenceEqual<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static SequenceEqual<T extends IEquatable_1<T>>(span: Span_1<T>, other: ReadOnlySpan_1<T>): boolean;
-    static Sort<T>(span: Span_1<T>, comparison: Comparison_1<T>): void;
-    static Sort<TKey, TValue>(keys: Span_1<TKey>, items: Span_1<TValue>, comparison: Comparison_1<TKey>): void;
-    static Sort<TKey, TValue, TComparer extends IComparer_1<TKey>>(keys: Span_1<TKey>, items: Span_1<TValue>, comparer: TComparer): void;
-    static Sort<TKey, TValue>(keys: Span_1<TKey>, items: Span_1<TValue>): void;
-    static Sort<T, TComparer extends IComparer_1<T>>(span: Span_1<T>, comparer: TComparer): void;
-    static Sort<T>(span: Span_1<T>): void;
-    static Split<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separator: ReadOnlySpan_1<T>): MemoryExtensions_SpanSplitEnumerator_1<T>;
-    static Split<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separator: T): MemoryExtensions_SpanSplitEnumerator_1<T>;
+    static LastIndexOfAny<T extends unknown>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
+    static LastIndexOfAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
+    static LastIndexOfAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
+    static LastIndexOfAny<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static LastIndexOfAny<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static LastIndexOfAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
+    static LastIndexOfAny<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
+    static LastIndexOfAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): int;
+    static LastIndexOfAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): int;
+    static LastIndexOfAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): int;
+    static LastIndexOfAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
+    static LastIndexOfAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): int;
+    static LastIndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
+    static LastIndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
+    static LastIndexOfAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static LastIndexOfAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static LastIndexOfAnyExcept<T extends unknown>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | null): int;
+    static LastIndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
+    static LastIndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
+    static LastIndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
+    static LastIndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): int;
+    static LastIndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): int;
+    static LastIndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): int;
+    static LastIndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
+    static LastIndexOfAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: T): int;
+    static LastIndexOfAnyExceptInRange<T extends unknown & IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): int;
+    static LastIndexOfAnyExceptInRange<T extends unknown & IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
+    static LastIndexOfAnyInRange<T extends unknown & IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): int;
+    static LastIndexOfAnyInRange<T extends unknown & IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
+    static Overlaps<T extends unknown>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, elementOffset: int): boolean;
+    static Overlaps<T extends unknown>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): boolean;
+    static Overlaps<T extends unknown>(span: Span_1<T>, other: ReadOnlySpan_1<T>, elementOffset: int): boolean;
+    static Overlaps<T extends unknown>(span: Span_1<T>, other: ReadOnlySpan_1<T>): boolean;
+    static Replace<T extends unknown>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, oldValue: T, newValue: T, comparer?: IEqualityComparer_1<T> | null): void;
+    static Replace<T extends unknown & IEquatable_1<T>>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, oldValue: T, newValue: T): void;
+    static Replace<T extends unknown>(span: Span_1<T>, oldValue: T, newValue: T, comparer?: IEqualityComparer_1<T> | null): void;
+    static Replace<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, oldValue: T, newValue: T): void;
+    static ReplaceAny<T extends unknown & IEquatable_1<T>>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
+    static ReplaceAny<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
+    static ReplaceAnyExcept<T extends unknown & IEquatable_1<T>>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
+    static ReplaceAnyExcept<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
+    static Reverse<T extends unknown>(span: Span_1<T>): void;
+    static SequenceCompareTo<T extends unknown>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer?: IComparer_1<T> | null): int;
+    static SequenceCompareTo<T extends unknown & IComparable_1<T>>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): int;
+    static SequenceCompareTo<T extends unknown & IComparable_1<T>>(span: Span_1<T>, other: ReadOnlySpan_1<T>): int;
+    static SequenceEqual<T extends unknown>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static SequenceEqual<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): boolean;
+    static SequenceEqual<T extends unknown>(span: Span_1<T>, other: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static SequenceEqual<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, other: ReadOnlySpan_1<T>): boolean;
+    static Sort<T extends unknown>(span: Span_1<T>, comparison: Comparison_1<T>): void;
+    static Sort<TKey extends unknown, TValue extends unknown>(keys: Span_1<TKey>, items: Span_1<TValue>, comparison: Comparison_1<TKey>): void;
+    static Sort<TKey extends unknown, TValue extends unknown, TComparer extends unknown & IComparer_1<TKey>>(keys: Span_1<TKey>, items: Span_1<TValue>, comparer: TComparer): void;
+    static Sort<TKey extends unknown, TValue extends unknown>(keys: Span_1<TKey>, items: Span_1<TValue>): void;
+    static Sort<T extends unknown, TComparer extends unknown & IComparer_1<T>>(span: Span_1<T>, comparer: TComparer): void;
+    static Sort<T extends unknown>(span: Span_1<T>): void;
+    static Split<T extends unknown & IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separator: ReadOnlySpan_1<T>): MemoryExtensions_SpanSplitEnumerator_1<T>;
+    static Split<T extends unknown & IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separator: T): MemoryExtensions_SpanSplitEnumerator_1<T>;
     static Split(source: ReadOnlySpan_1<Char>, destination: Span_1<Range>, separator: char, options?: StringSplitOptions): int;
     static Split(source: ReadOnlySpan_1<Char>, destination: Span_1<Range>, separator: ReadOnlySpan_1<Char>, options?: StringSplitOptions): int;
-    static SplitAny<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separators: ReadOnlySpan_1<T>): MemoryExtensions_SpanSplitEnumerator_1<T>;
-    static SplitAny<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separators: SearchValues_1<T>): MemoryExtensions_SpanSplitEnumerator_1<T>;
+    static SplitAny<T extends unknown & IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separators: ReadOnlySpan_1<T>): MemoryExtensions_SpanSplitEnumerator_1<T>;
+    static SplitAny<T extends unknown & IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separators: SearchValues_1<T>): MemoryExtensions_SpanSplitEnumerator_1<T>;
     static SplitAny(source: ReadOnlySpan_1<Char>, destination: Span_1<Range>, separators: ReadOnlySpan_1<Char>, options?: StringSplitOptions): int;
     static SplitAny(source: ReadOnlySpan_1<Char>, destination: Span_1<Range>, separators: ReadOnlySpan_1<String>, options?: StringSplitOptions): int;
-    static StartsWith<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static StartsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): boolean;
-    static StartsWith<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): boolean;
-    static StartsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
-    static StartsWith<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): boolean;
+    static StartsWith<T extends unknown>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static StartsWith<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): boolean;
+    static StartsWith<T extends unknown>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | null): boolean;
+    static StartsWith<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
+    static StartsWith<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): boolean;
     static StartsWith(span: ReadOnlySpan_1<Char>, value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): boolean;
     static ToLower(source: ReadOnlySpan_1<Char>, destination: Span_1<Char>, culture: CultureInfo | null): int;
     static ToLowerInvariant(source: ReadOnlySpan_1<Char>, destination: Span_1<Char>): int;
     static ToUpper(source: ReadOnlySpan_1<Char>, destination: Span_1<Char>, culture: CultureInfo | null): int;
     static ToUpperInvariant(source: ReadOnlySpan_1<Char>, destination: Span_1<Char>): int;
-    static Trim<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElements: ReadOnlySpan_1<T>): Memory_1<T>;
-    static Trim<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElement: T): Memory_1<T>;
-    static Trim<T extends IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlyMemory_1<T>;
-    static Trim<T extends IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElement: T): ReadOnlyMemory_1<T>;
-    static Trim<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlySpan_1<T>;
-    static Trim<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElement: T): ReadOnlySpan_1<T>;
-    static Trim<T extends IEquatable_1<T>>(span: Span_1<T>, trimElements: ReadOnlySpan_1<T>): Span_1<T>;
-    static Trim<T extends IEquatable_1<T>>(span: Span_1<T>, trimElement: T): Span_1<T>;
+    static Trim<T extends unknown & IEquatable_1<T>>(memory: Memory_1<T>, trimElements: ReadOnlySpan_1<T>): Memory_1<T>;
+    static Trim<T extends unknown & IEquatable_1<T>>(memory: Memory_1<T>, trimElement: T): Memory_1<T>;
+    static Trim<T extends unknown & IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlyMemory_1<T>;
+    static Trim<T extends unknown & IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElement: T): ReadOnlyMemory_1<T>;
+    static Trim<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlySpan_1<T>;
+    static Trim<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElement: T): ReadOnlySpan_1<T>;
+    static Trim<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, trimElements: ReadOnlySpan_1<T>): Span_1<T>;
+    static Trim<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, trimElement: T): Span_1<T>;
     static Trim(memory: Memory_1<Char>): Memory_1<Char>;
     static Trim(memory: ReadOnlyMemory_1<Char>): ReadOnlyMemory_1<Char>;
     static Trim(span: ReadOnlySpan_1<Char>, trimChar: char): ReadOnlySpan_1<Char>;
     static Trim(span: ReadOnlySpan_1<Char>, trimChars: ReadOnlySpan_1<Char>): ReadOnlySpan_1<Char>;
     static Trim(span: ReadOnlySpan_1<Char>): ReadOnlySpan_1<Char>;
     static Trim(span: Span_1<Char>): Span_1<Char>;
-    static TrimEnd<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElements: ReadOnlySpan_1<T>): Memory_1<T>;
-    static TrimEnd<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElement: T): Memory_1<T>;
-    static TrimEnd<T extends IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlyMemory_1<T>;
-    static TrimEnd<T extends IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElement: T): ReadOnlyMemory_1<T>;
-    static TrimEnd<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlySpan_1<T>;
-    static TrimEnd<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElement: T): ReadOnlySpan_1<T>;
-    static TrimEnd<T extends IEquatable_1<T>>(span: Span_1<T>, trimElements: ReadOnlySpan_1<T>): Span_1<T>;
-    static TrimEnd<T extends IEquatable_1<T>>(span: Span_1<T>, trimElement: T): Span_1<T>;
+    static TrimEnd<T extends unknown & IEquatable_1<T>>(memory: Memory_1<T>, trimElements: ReadOnlySpan_1<T>): Memory_1<T>;
+    static TrimEnd<T extends unknown & IEquatable_1<T>>(memory: Memory_1<T>, trimElement: T): Memory_1<T>;
+    static TrimEnd<T extends unknown & IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlyMemory_1<T>;
+    static TrimEnd<T extends unknown & IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElement: T): ReadOnlyMemory_1<T>;
+    static TrimEnd<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlySpan_1<T>;
+    static TrimEnd<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElement: T): ReadOnlySpan_1<T>;
+    static TrimEnd<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, trimElements: ReadOnlySpan_1<T>): Span_1<T>;
+    static TrimEnd<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, trimElement: T): Span_1<T>;
     static TrimEnd(memory: Memory_1<Char>): Memory_1<Char>;
     static TrimEnd(memory: ReadOnlyMemory_1<Char>): ReadOnlyMemory_1<Char>;
     static TrimEnd(span: ReadOnlySpan_1<Char>, trimChar: char): ReadOnlySpan_1<Char>;
     static TrimEnd(span: ReadOnlySpan_1<Char>, trimChars: ReadOnlySpan_1<Char>): ReadOnlySpan_1<Char>;
     static TrimEnd(span: ReadOnlySpan_1<Char>): ReadOnlySpan_1<Char>;
     static TrimEnd(span: Span_1<Char>): Span_1<Char>;
-    static TrimStart<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElements: ReadOnlySpan_1<T>): Memory_1<T>;
-    static TrimStart<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElement: T): Memory_1<T>;
-    static TrimStart<T extends IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlyMemory_1<T>;
-    static TrimStart<T extends IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElement: T): ReadOnlyMemory_1<T>;
-    static TrimStart<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlySpan_1<T>;
-    static TrimStart<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElement: T): ReadOnlySpan_1<T>;
-    static TrimStart<T extends IEquatable_1<T>>(span: Span_1<T>, trimElements: ReadOnlySpan_1<T>): Span_1<T>;
-    static TrimStart<T extends IEquatable_1<T>>(span: Span_1<T>, trimElement: T): Span_1<T>;
+    static TrimStart<T extends unknown & IEquatable_1<T>>(memory: Memory_1<T>, trimElements: ReadOnlySpan_1<T>): Memory_1<T>;
+    static TrimStart<T extends unknown & IEquatable_1<T>>(memory: Memory_1<T>, trimElement: T): Memory_1<T>;
+    static TrimStart<T extends unknown & IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlyMemory_1<T>;
+    static TrimStart<T extends unknown & IEquatable_1<T>>(memory: ReadOnlyMemory_1<T>, trimElement: T): ReadOnlyMemory_1<T>;
+    static TrimStart<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElements: ReadOnlySpan_1<T>): ReadOnlySpan_1<T>;
+    static TrimStart<T extends unknown & IEquatable_1<T>>(span: ReadOnlySpan_1<T>, trimElement: T): ReadOnlySpan_1<T>;
+    static TrimStart<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, trimElements: ReadOnlySpan_1<T>): Span_1<T>;
+    static TrimStart<T extends unknown & IEquatable_1<T>>(span: Span_1<T>, trimElement: T): Span_1<T>;
     static TrimStart(memory: Memory_1<Char>): Memory_1<Char>;
     static TrimStart(memory: ReadOnlyMemory_1<Char>): ReadOnlyMemory_1<Char>;
     static TrimStart(span: ReadOnlySpan_1<Char>, trimChar: char): ReadOnlySpan_1<Char>;
@@ -10013,18 +10027,18 @@ export abstract class MemoryExtensions$instance {
     static TrimStart(span: ReadOnlySpan_1<Char>): ReadOnlySpan_1<Char>;
     static TrimStart(span: Span_1<Char>): Span_1<Char>;
     static TryWrite(destination: Span_1<Char>, provider: IFormatProvider | null, handler: MemoryExtensions_TryWriteInterpolatedStringHandler, charsWritten: int): boolean;
-    static TryWrite(destination: Span_1<Char>, provider: IFormatProvider | null, format: CompositeFormat, charsWritten: int, ...args: (JsValue | null)[]): boolean;
-    static TryWrite(destination: Span_1<Char>, provider: IFormatProvider | null, format: CompositeFormat, charsWritten: int, args: ReadOnlySpan_1<JsValue>): boolean;
-    static TryWrite<TArg0, TArg1, TArg2>(destination: Span_1<Char>, provider: IFormatProvider | null, format: CompositeFormat, charsWritten: int, arg0: TArg0, arg1: TArg1, arg2: TArg2): boolean;
-    static TryWrite<TArg0, TArg1>(destination: Span_1<Char>, provider: IFormatProvider | null, format: CompositeFormat, charsWritten: int, arg0: TArg0, arg1: TArg1): boolean;
-    static TryWrite<TArg0>(destination: Span_1<Char>, provider: IFormatProvider | null, format: CompositeFormat, charsWritten: int, arg0: TArg0): boolean;
+    static TryWrite(destination: Span_1<Char>, provider: IFormatProvider | null, format: CompositeFormat, charsWritten: int, ...args: (unknown | null)[]): boolean;
+    static TryWrite(destination: Span_1<Char>, provider: IFormatProvider | null, format: CompositeFormat, charsWritten: int, args: ReadOnlySpan_1<unknown>): boolean;
+    static TryWrite<TArg0 extends unknown, TArg1 extends unknown, TArg2 extends unknown>(destination: Span_1<Char>, provider: IFormatProvider | null, format: CompositeFormat, charsWritten: int, arg0: TArg0, arg1: TArg1, arg2: TArg2): boolean;
+    static TryWrite<TArg0 extends unknown, TArg1 extends unknown>(destination: Span_1<Char>, provider: IFormatProvider | null, format: CompositeFormat, charsWritten: int, arg0: TArg0, arg1: TArg1): boolean;
+    static TryWrite<TArg0 extends unknown>(destination: Span_1<Char>, provider: IFormatProvider | null, format: CompositeFormat, charsWritten: int, arg0: TArg0): boolean;
     static TryWrite(destination: Span_1<Char>, handler: MemoryExtensions_TryWriteInterpolatedStringHandler, charsWritten: int): boolean;
 }
 
 
 export type MemoryExtensions = MemoryExtensions$instance;
 
-export interface MemoryExtensions_SpanSplitEnumerator_1$instance<T> extends IEnumerator_1<Range>, IDisposable, IEnumerator {
+export interface MemoryExtensions_SpanSplitEnumerator_1$instance<T extends unknown> extends IEnumerator_1<Range> {
     readonly __tsonic_type_System_MemoryExtensions_SpanSplitEnumerator_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -10035,28 +10049,29 @@ export interface MemoryExtensions_SpanSplitEnumerator_1$instance<T> extends IEnu
     readonly Source: ReadOnlySpan_1<T>;
     GetEnumerator(): MemoryExtensions_SpanSplitEnumerator_1<T>;
     MoveNext(): boolean;
+    Reset(): void;
 }
 
 
 export const MemoryExtensions_SpanSplitEnumerator_1: {
-    new<T>(): MemoryExtensions_SpanSplitEnumerator_1<T>;
+    new<T extends unknown>(): MemoryExtensions_SpanSplitEnumerator_1<T>;
 };
 
 
-export type MemoryExtensions_SpanSplitEnumerator_1<T> = MemoryExtensions_SpanSplitEnumerator_1$instance<T>;
+export type MemoryExtensions_SpanSplitEnumerator_1<T extends unknown> = MemoryExtensions_SpanSplitEnumerator_1$instance<T>;
 
 export interface MemoryExtensions_TryWriteInterpolatedStringHandler$instance {
     readonly __tsonic_type_System_MemoryExtensions_TryWriteInterpolatedStringHandler: never;
 
-    AppendFormatted<T>(value: T): boolean;
-    AppendFormatted<T>(value: T, format: string | null): boolean;
-    AppendFormatted<T>(value: T, alignment: int): boolean;
-    AppendFormatted<T>(value: T, alignment: int, format: string | null): boolean;
+    AppendFormatted<T extends unknown>(value: T): boolean;
+    AppendFormatted<T extends unknown>(value: T, format: string | null): boolean;
+    AppendFormatted<T extends unknown>(value: T, alignment: int): boolean;
+    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): boolean;
     AppendFormatted(value: ReadOnlySpan_1<Char>): boolean;
     AppendFormatted(value: ReadOnlySpan_1<Char>, alignment?: int, format?: string | null): boolean;
     AppendFormatted(value: string | null): boolean;
     AppendFormatted(value: string | null, alignment?: int, format?: string | null): boolean;
-    AppendFormatted(value: JsValue | null, alignment?: int, format?: string | null): boolean;
+    AppendFormatted(value: unknown | null, alignment?: int, format?: string | null): boolean;
     AppendLiteral(value: string): boolean;
 }
 
@@ -10070,10 +10085,10 @@ export const MemoryExtensions_TryWriteInterpolatedStringHandler: {
 export type MemoryExtensions_TryWriteInterpolatedStringHandler = MemoryExtensions_TryWriteInterpolatedStringHandler$instance;
 
 export abstract class Nullable$instance {
-    static Compare<T extends NonNullable<JsValue>>(n1: Nullable_1<T>, n2: Nullable_1<T>): int;
-    static Equals<T extends NonNullable<JsValue>>(n1: Nullable_1<T>, n2: Nullable_1<T>): boolean;
+    static Compare<T extends NonNullable<unknown>>(n1: Nullable_1<T>, n2: Nullable_1<T>): int;
+    static Equals<T extends NonNullable<unknown>>(n1: Nullable_1<T>, n2: Nullable_1<T>): boolean;
     static GetUnderlyingType(nullableType: Type): Type | null;
-    static GetValueRefOrDefaultRef<T extends NonNullable<JsValue>>(nullable: Nullable_1<T>): T;
+    static GetValueRefOrDefaultRef<T extends NonNullable<unknown>>(nullable: Nullable_1<T>): T;
 }
 
 
@@ -10093,57 +10108,57 @@ export abstract class StringNormalizationExtensions$instance {
 export type StringNormalizationExtensions = StringNormalizationExtensions$instance;
 
 export abstract class Tuple$instance {
-    static Create<T1, T2, T3, T4, T5, T6, T7, T8>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8): Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_1<T8>>;
-    static Create<T1, T2, T3, T4, T5, T6, T7>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): Tuple_7<T1, T2, T3, T4, T5, T6, T7>;
-    static Create<T1, T2, T3, T4, T5, T6>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): Tuple_6<T1, T2, T3, T4, T5, T6>;
-    static Create<T1, T2, T3, T4, T5>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): Tuple_5<T1, T2, T3, T4, T5>;
-    static Create<T1, T2, T3, T4>(item1: T1, item2: T2, item3: T3, item4: T4): Tuple_4<T1, T2, T3, T4>;
-    static Create<T1, T2, T3>(item1: T1, item2: T2, item3: T3): Tuple_3<T1, T2, T3>;
-    static Create<T1, T2>(item1: T1, item2: T2): Tuple_2<T1, T2>;
-    static Create<T1>(item1: T1): Tuple_1<T1>;
+    static Create<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8): Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_1<T8>>;
+    static Create<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): Tuple_7<T1, T2, T3, T4, T5, T6, T7>;
+    static Create<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): Tuple_6<T1, T2, T3, T4, T5, T6>;
+    static Create<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): Tuple_5<T1, T2, T3, T4, T5>;
+    static Create<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4): Tuple_4<T1, T2, T3, T4>;
+    static Create<T1 extends unknown, T2 extends unknown, T3 extends unknown>(item1: T1, item2: T2, item3: T3): Tuple_3<T1, T2, T3>;
+    static Create<T1 extends unknown, T2 extends unknown>(item1: T1, item2: T2): Tuple_2<T1, T2>;
+    static Create<T1 extends unknown>(item1: T1): Tuple_1<T1>;
 }
 
 
 export type Tuple = Tuple$instance;
 
 export abstract class TupleExtensions$instance {
-    static Deconstruct<T1>(value: Tuple_1<T1>, item1: T1): void;
-    static Deconstruct<T1, T2>(value: Tuple_2<T1, T2>, item1: T1, item2: T2): void;
-    static Deconstruct<T1, T2, T3>(value: Tuple_3<T1, T2, T3>, item1: T1, item2: T2, item3: T3): void;
-    static Deconstruct<T1, T2, T3, T4>(value: Tuple_4<T1, T2, T3, T4>, item1: T1, item2: T2, item3: T3, item4: T4): void;
-    static Deconstruct<T1, T2, T3, T4, T5>(value: Tuple_5<T1, T2, T3, T4, T5>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6>(value: Tuple_6<T1, T2, T3, T4, T5, T6>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7>(value: Tuple_7<T1, T2, T3, T4, T5, T6, T7>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_7<T15, T16, T17, T18, T19, T20, T21>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16, item17: T17, item18: T18, item19: T19, item20: T20, item21: T21): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_6<T15, T16, T17, T18, T19, T20>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16, item17: T17, item18: T18, item19: T19, item20: T20): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_5<T15, T16, T17, T18, T19>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16, item17: T17, item18: T18, item19: T19): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_4<T15, T16, T17, T18>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16, item17: T17, item18: T18): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_3<T15, T16, T17>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16, item17: T17): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_2<T15, T16>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_1<T15>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_7<T8, T9, T10, T11, T12, T13, T14>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_6<T8, T9, T10, T11, T12, T13>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_5<T8, T9, T10, T11, T12>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_4<T8, T9, T10, T11>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_3<T8, T9, T10>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8, T9>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_2<T8, T9>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9): void;
-    static Deconstruct<T1, T2, T3, T4, T5, T6, T7, T8>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_1<T8>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8): void;
-    static ToTuple<T1>(value: ValueTuple_1<T1>): Tuple_1<T1>;
-    static ToTuple<T1, T2>(value: ValueTuple_2<T1, T2>): Tuple_2<T1, T2>;
-    static ToTuple<T1, T2, T3>(value: ValueTuple_3<T1, T2, T3>): Tuple_3<T1, T2, T3>;
-    static ToTuple<T1, T2, T3, T4>(value: ValueTuple_4<T1, T2, T3, T4>): Tuple_4<T1, T2, T3, T4>;
-    static ToTuple<T1, T2, T3, T4, T5>(value: ValueTuple_5<T1, T2, T3, T4, T5>): Tuple_5<T1, T2, T3, T4, T5>;
-    static ToTuple<T1, T2, T3, T4, T5, T6>(value: ValueTuple_6<T1, T2, T3, T4, T5, T6>): Tuple_6<T1, T2, T3, T4, T5, T6>;
-    static ToTuple<T1, T2, T3, T4, T5, T6, T7>(value: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): Tuple_7<T1, T2, T3, T4, T5, T6, T7>;
-    static ToTuple<T1, T2, T3, T4, T5, T6, T7, T8>(value: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, ValueTuple_1<T8>>): Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_1<T8>>;
-    static ToValueTuple<T1>(value: Tuple_1<T1>): ValueTuple_1<T1>;
-    static ToValueTuple<T1, T2>(value: Tuple_2<T1, T2>): ValueTuple_2<T1, T2>;
-    static ToValueTuple<T1, T2, T3>(value: Tuple_3<T1, T2, T3>): ValueTuple_3<T1, T2, T3>;
-    static ToValueTuple<T1, T2, T3, T4>(value: Tuple_4<T1, T2, T3, T4>): ValueTuple_4<T1, T2, T3, T4>;
-    static ToValueTuple<T1, T2, T3, T4, T5>(value: Tuple_5<T1, T2, T3, T4, T5>): ValueTuple_5<T1, T2, T3, T4, T5>;
-    static ToValueTuple<T1, T2, T3, T4, T5, T6>(value: Tuple_6<T1, T2, T3, T4, T5, T6>): ValueTuple_6<T1, T2, T3, T4, T5, T6>;
-    static ToValueTuple<T1, T2, T3, T4, T5, T6, T7>(value: Tuple_7<T1, T2, T3, T4, T5, T6, T7>): ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>;
-    static ToValueTuple<T1, T2, T3, T4, T5, T6, T7, T8>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_1<T8>>): ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, ValueTuple_1<T8>>;
+    static Deconstruct<T1 extends unknown>(value: Tuple_1<T1>, item1: T1): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown>(value: Tuple_2<T1, T2>, item1: T1, item2: T2): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown>(value: Tuple_3<T1, T2, T3>, item1: T1, item2: T2, item3: T3): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown>(value: Tuple_4<T1, T2, T3, T4>, item1: T1, item2: T2, item3: T3, item4: T4): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown>(value: Tuple_5<T1, T2, T3, T4, T5>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown>(value: Tuple_6<T1, T2, T3, T4, T5, T6>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown>(value: Tuple_7<T1, T2, T3, T4, T5, T6, T7>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown, T16 extends unknown, T17 extends unknown, T18 extends unknown, T19 extends unknown, T20 extends unknown, T21 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_7<T15, T16, T17, T18, T19, T20, T21>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16, item17: T17, item18: T18, item19: T19, item20: T20, item21: T21): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown, T16 extends unknown, T17 extends unknown, T18 extends unknown, T19 extends unknown, T20 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_6<T15, T16, T17, T18, T19, T20>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16, item17: T17, item18: T18, item19: T19, item20: T20): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown, T16 extends unknown, T17 extends unknown, T18 extends unknown, T19 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_5<T15, T16, T17, T18, T19>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16, item17: T17, item18: T18, item19: T19): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown, T16 extends unknown, T17 extends unknown, T18 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_4<T15, T16, T17, T18>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16, item17: T17, item18: T18): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown, T16 extends unknown, T17 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_3<T15, T16, T17>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16, item17: T17): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown, T16 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_2<T15, T16>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15, item16: T16): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown, T15 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_8<T8, T9, T10, T11, T12, T13, T14, Tuple_1<T15>>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14, item15: T15): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown, T14 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_7<T8, T9, T10, T11, T12, T13, T14>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13, item14: T14): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown, T13 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_6<T8, T9, T10, T11, T12, T13>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12, item13: T13): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown, T12 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_5<T8, T9, T10, T11, T12>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11, item12: T12): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown, T11 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_4<T8, T9, T10, T11>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10, item11: T11): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown, T10 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_3<T8, T9, T10>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9, item10: T10): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown, T9 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_2<T8, T9>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8, item9: T9): void;
+    static Deconstruct<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_1<T8>>, item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8): void;
+    static ToTuple<T1 extends unknown>(value: ValueTuple_1<T1>): Tuple_1<T1>;
+    static ToTuple<T1 extends unknown, T2 extends unknown>(value: ValueTuple_2<T1, T2>): Tuple_2<T1, T2>;
+    static ToTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown>(value: ValueTuple_3<T1, T2, T3>): Tuple_3<T1, T2, T3>;
+    static ToTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown>(value: ValueTuple_4<T1, T2, T3, T4>): Tuple_4<T1, T2, T3, T4>;
+    static ToTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown>(value: ValueTuple_5<T1, T2, T3, T4, T5>): Tuple_5<T1, T2, T3, T4, T5>;
+    static ToTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown>(value: ValueTuple_6<T1, T2, T3, T4, T5, T6>): Tuple_6<T1, T2, T3, T4, T5, T6>;
+    static ToTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown>(value: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): Tuple_7<T1, T2, T3, T4, T5, T6, T7>;
+    static ToTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown>(value: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, ValueTuple_1<T8>>): Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_1<T8>>;
+    static ToValueTuple<T1 extends unknown>(value: Tuple_1<T1>): ValueTuple_1<T1>;
+    static ToValueTuple<T1 extends unknown, T2 extends unknown>(value: Tuple_2<T1, T2>): ValueTuple_2<T1, T2>;
+    static ToValueTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown>(value: Tuple_3<T1, T2, T3>): ValueTuple_3<T1, T2, T3>;
+    static ToValueTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown>(value: Tuple_4<T1, T2, T3, T4>): ValueTuple_4<T1, T2, T3, T4>;
+    static ToValueTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown>(value: Tuple_5<T1, T2, T3, T4, T5>): ValueTuple_5<T1, T2, T3, T4, T5>;
+    static ToValueTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown>(value: Tuple_6<T1, T2, T3, T4, T5, T6>): ValueTuple_6<T1, T2, T3, T4, T5, T6>;
+    static ToValueTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown>(value: Tuple_7<T1, T2, T3, T4, T5, T6, T7>): ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>;
+    static ToValueTuple<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown, T5 extends unknown, T6 extends unknown, T7 extends unknown, T8 extends unknown>(value: Tuple_8<T1, T2, T3, T4, T5, T6, T7, Tuple_1<T8>>): ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, ValueTuple_1<T8>>;
 }
 
 

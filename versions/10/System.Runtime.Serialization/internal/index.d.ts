@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib, System.Private.DataContractSerialization, System.Runtime.Serialization.Formatters, System.Runtime.Serialization.Primitives
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -47,7 +47,7 @@ export type SerializationEventHandler = (context: StreamingContext) => void;
 export interface IDeserializationCallback$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
 
-    OnDeserialization(sender: JsValue | null): void;
+    OnDeserialization(sender: unknown | null): void;
 }
 
 
@@ -71,8 +71,8 @@ export interface IFormatter$instance {
     get Binder(): SerializationBinder | null;
     set Binder(value: SerializationBinder | null);
     Context: StreamingContext;
-    Deserialize(serializationStream: Stream): JsValue;
-    Serialize(serializationStream: Stream, graph: JsValue): void;
+    Deserialize(serializationStream: Stream): unknown;
+    Serialize(serializationStream: Stream, graph: unknown): void;
 }
 
 
@@ -81,23 +81,23 @@ export type IFormatter = IFormatter$instance;
 export interface IFormatterConverter$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_IFormatterConverter: never;
 
-    Convert(value: JsValue, type: Type): JsValue;
-    Convert(value: JsValue, typeCode: TypeCode): JsValue;
-    ToBoolean(value: JsValue): boolean;
-    ToByte(value: JsValue): byte;
-    ToChar(value: JsValue): char;
-    ToDateTime(value: JsValue): DateTime;
-    ToDecimal(value: JsValue): decimal;
-    ToDouble(value: JsValue): double;
-    ToInt16(value: JsValue): short;
-    ToInt32(value: JsValue): int;
-    ToInt64(value: JsValue): long;
-    ToSByte(value: JsValue): sbyte;
-    ToSingle(value: JsValue): float;
-    ToString(value: JsValue): string | null;
-    ToUInt16(value: JsValue): ushort;
-    ToUInt32(value: JsValue): uint;
-    ToUInt64(value: JsValue): ulong;
+    Convert(value: unknown, type: Type): unknown;
+    Convert(value: unknown, typeCode: TypeCode): unknown;
+    ToBoolean(value: unknown): boolean;
+    ToByte(value: unknown): byte;
+    ToChar(value: unknown): char;
+    ToDateTime(value: unknown): DateTime;
+    ToDecimal(value: unknown): decimal;
+    ToDouble(value: unknown): double;
+    ToInt16(value: unknown): short;
+    ToInt32(value: unknown): int;
+    ToInt64(value: unknown): long;
+    ToSByte(value: unknown): sbyte;
+    ToSingle(value: unknown): float;
+    ToString(value: unknown): string | null;
+    ToUInt16(value: unknown): ushort;
+    ToUInt32(value: unknown): uint;
+    ToUInt64(value: unknown): ulong;
 }
 
 
@@ -106,7 +106,7 @@ export type IFormatterConverter = IFormatterConverter$instance;
 export interface IObjectReference$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_IObjectReference: never;
 
-    GetRealObject(context: StreamingContext): JsValue;
+    GetRealObject(context: StreamingContext): unknown;
 }
 
 
@@ -115,7 +115,7 @@ export type IObjectReference = IObjectReference$instance;
 export interface ISafeSerializationData$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISafeSerializationData: never;
 
-    CompleteDeserialization(deserialized: JsValue): void;
+    CompleteDeserialization(deserialized: unknown): void;
 }
 
 
@@ -133,8 +133,8 @@ export type ISerializable = ISerializable$instance;
 export interface ISerializationSurrogate$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializationSurrogate: never;
 
-    GetObjectData(obj: JsValue, info: SerializationInfo, context: StreamingContext): void;
-    SetObjectData(obj: JsValue, info: SerializationInfo, context: StreamingContext, selector: ISurrogateSelector | null): JsValue;
+    GetObjectData(obj: unknown, info: SerializationInfo, context: StreamingContext): void;
+    SetObjectData(obj: unknown, info: SerializationInfo, context: StreamingContext, selector: ISurrogateSelector | null): unknown;
 }
 
 
@@ -143,7 +143,7 @@ export type ISerializationSurrogate = ISerializationSurrogate$instance;
 export interface ISerializationSurrogateProvider$instance {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializationSurrogateProvider: never;
 
-    GetObjectToSerialize(obj: JsValue, targetType: Type): JsValue;
+    GetObjectToSerialize(obj: unknown, targetType: Type): unknown;
     GetSurrogateType(type: Type): Type;
 }
 
@@ -153,11 +153,11 @@ export type ISerializationSurrogateProvider = ISerializationSurrogateProvider$in
 export interface ISerializationSurrogateProvider2$instance extends ISerializationSurrogateProvider {
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializationSurrogateProvider2: never;
 
-    GetCustomDataToExport(memberInfo: MemberInfo, dataContractType: Type): JsValue | null;
-    GetCustomDataToExport(runtimeType: Type, dataContractType: Type): JsValue | null;
+    GetCustomDataToExport(memberInfo: MemberInfo, dataContractType: Type): unknown | null;
+    GetCustomDataToExport(runtimeType: Type, dataContractType: Type): unknown | null;
     GetKnownCustomDataTypes(customDataTypes: Collection_1<Type>): void;
-    GetObjectToSerialize(obj: JsValue, targetType: Type): JsValue;
-    GetReferencedTypeOnImport(typeName: string, typeNamespace: string, customData: JsValue | null): Type | null;
+    GetObjectToSerialize(obj: unknown, targetType: Type): unknown;
+    GetReferencedTypeOnImport(typeName: string, typeNamespace: string, customData: unknown | null): Type | null;
     GetSurrogateType(type: Type): Type;
 }
 
@@ -203,7 +203,7 @@ export interface SerializationEntry$instance {
 
     readonly Name: string;
     readonly ObjectType: Type;
-    readonly Value: JsValue | null;
+    readonly Value: unknown | null;
 }
 
 
@@ -217,16 +217,16 @@ export type SerializationEntry = SerializationEntry$instance;
 export interface StreamingContext$instance {
     readonly __tsonic_type_System_Runtime_Serialization_StreamingContext: never;
 
-    readonly Context: JsValue | null;
+    readonly Context: unknown | null;
     readonly State: StreamingContextStates;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
 
 export const StreamingContext: {
     new(state: StreamingContextStates): StreamingContext;
-    new(state: StreamingContextStates, additional: JsValue | null): StreamingContext;
+    new(state: StreamingContextStates, additional: unknown | null): StreamingContext;
 };
 
 
@@ -324,22 +324,22 @@ export interface DataContractSerializer$instance extends XmlObjectSerializer {
     readonly SerializeReadOnlyTypes: boolean;
     IsStartObject(reader: XmlReader): boolean;
     IsStartObject(reader: XmlDictionaryReader): boolean;
-    ReadObject(reader: XmlReader): JsValue | null;
-    ReadObject(reader: XmlReader, verifyObjectName: boolean): JsValue | null;
-    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): JsValue | null;
-    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean, dataContractResolver: DataContractResolver | null): JsValue | null;
-    ReadObject(stream: Stream): JsValue | null;
-    ReadObject(reader: XmlDictionaryReader): JsValue | null;
+    ReadObject(reader: XmlReader): unknown | null;
+    ReadObject(reader: XmlReader, verifyObjectName: boolean): unknown | null;
+    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | null;
+    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean, dataContractResolver: DataContractResolver | null): unknown | null;
+    ReadObject(stream: Stream): unknown | null;
+    ReadObject(reader: XmlDictionaryReader): unknown | null;
     WriteEndObject(writer: XmlWriter): void;
     WriteEndObject(writer: XmlDictionaryWriter): void;
-    WriteObject(writer: XmlWriter, graph: JsValue | null): void;
-    WriteObject(writer: XmlDictionaryWriter, graph: JsValue | null, dataContractResolver: DataContractResolver | null): void;
-    WriteObject(stream: Stream, graph: JsValue | null): void;
-    WriteObject(writer: XmlDictionaryWriter, graph: JsValue | null): void;
-    WriteObjectContent(writer: XmlWriter, graph: JsValue | null): void;
-    WriteObjectContent(writer: XmlDictionaryWriter, graph: JsValue | null): void;
-    WriteStartObject(writer: XmlWriter, graph: JsValue | null): void;
-    WriteStartObject(writer: XmlDictionaryWriter, graph: JsValue | null): void;
+    WriteObject(writer: XmlWriter, graph: unknown | null): void;
+    WriteObject(writer: XmlDictionaryWriter, graph: unknown | null, dataContractResolver: DataContractResolver | null): void;
+    WriteObject(stream: Stream, graph: unknown | null): void;
+    WriteObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
+    WriteObjectContent(writer: XmlWriter, graph: unknown | null): void;
+    WriteObjectContent(writer: XmlDictionaryWriter, graph: unknown | null): void;
+    WriteStartObject(writer: XmlWriter, graph: unknown | null): void;
+    WriteStartObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
 }
 
 
@@ -471,11 +471,11 @@ export interface Formatter$instance extends IFormatter$instance {
     Context: StreamingContext;
     get SurrogateSelector(): ISurrogateSelector | null;
     set SurrogateSelector(value: ISurrogateSelector | null);
-    Deserialize(serializationStream: Stream): JsValue;
-    GetNext(objID: long): JsValue | null;
-    Schedule(obj: JsValue | null): long;
-    Serialize(serializationStream: Stream, graph: JsValue): void;
-    WriteArray(obj: JsValue, name: string, memberType: Type): void;
+    Deserialize(serializationStream: Stream): unknown;
+    GetNext(objID: long): unknown | null;
+    Schedule(obj: unknown | null): long;
+    Serialize(serializationStream: Stream, graph: unknown): void;
+    WriteArray(obj: unknown, name: string, memberType: Type): void;
     WriteBoolean(val: boolean, name: string): void;
     WriteByte(val: byte, name: string): void;
     WriteChar(val: char, name: string): void;
@@ -485,15 +485,15 @@ export interface Formatter$instance extends IFormatter$instance {
     WriteInt16(val: short, name: string): void;
     WriteInt32(val: int, name: string): void;
     WriteInt64(val: long, name: string): void;
-    WriteMember(memberName: string, data: JsValue | null): void;
-    WriteObjectRef(obj: JsValue | null, name: string, memberType: Type): void;
+    WriteMember(memberName: string, data: unknown | null): void;
+    WriteObjectRef(obj: unknown | null, name: string, memberType: Type): void;
     WriteSByte(val: sbyte, name: string): void;
     WriteSingle(val: float, name: string): void;
     WriteTimeSpan(val: TimeSpan, name: string): void;
     WriteUInt16(val: ushort, name: string): void;
     WriteUInt32(val: uint, name: string): void;
     WriteUInt64(val: ulong, name: string): void;
-    WriteValueType(obj: JsValue, name: string, memberType: Type): void;
+    WriteValueType(obj: unknown, name: string, memberType: Type): void;
 }
 
 
@@ -513,24 +513,24 @@ export interface FormatterConverter$instance {
 
     readonly __tsonic_iface_System_Runtime_Serialization_IFormatterConverter: never;
 
-    Convert(value: JsValue, type: Type): JsValue;
-    Convert(value: JsValue, typeCode: TypeCode): JsValue;
-    ToBoolean(value: JsValue): boolean;
-    ToByte(value: JsValue): byte;
-    ToChar(value: JsValue): char;
-    ToDateTime(value: JsValue): DateTime;
-    ToDecimal(value: JsValue): decimal;
-    ToDouble(value: JsValue): double;
-    ToInt16(value: JsValue): short;
-    ToInt32(value: JsValue): int;
-    ToInt64(value: JsValue): long;
-    ToSByte(value: JsValue): sbyte;
-    ToSingle(value: JsValue): float;
-    ToString(value: JsValue): string | null;
+    Convert(value: unknown, type: Type): unknown;
+    Convert(value: unknown, typeCode: TypeCode): unknown;
+    ToBoolean(value: unknown): boolean;
+    ToByte(value: unknown): byte;
+    ToChar(value: unknown): char;
+    ToDateTime(value: unknown): DateTime;
+    ToDecimal(value: unknown): decimal;
+    ToDouble(value: unknown): double;
+    ToInt16(value: unknown): short;
+    ToInt32(value: unknown): int;
+    ToInt64(value: unknown): long;
+    ToSByte(value: unknown): sbyte;
+    ToSingle(value: unknown): float;
+    ToString(value: unknown): string | null;
     ToString(): string | null;
-    ToUInt16(value: JsValue): ushort;
-    ToUInt32(value: JsValue): uint;
-    ToUInt64(value: JsValue): ulong;
+    ToUInt16(value: unknown): ushort;
+    ToUInt32(value: unknown): uint;
+    ToUInt64(value: unknown): ulong;
 }
 
 
@@ -600,8 +600,8 @@ export type KnownTypeAttribute = KnownTypeAttribute$instance;
 export interface ObjectIDGenerator$instance {
     readonly __tsonic_type_System_Runtime_Serialization_ObjectIDGenerator: never;
 
-    GetId(obj: JsValue, firstTime: boolean): long;
-    HasId(obj: JsValue, firstTime: boolean): long;
+    GetId(obj: unknown, firstTime: boolean): long;
+    HasId(obj: unknown, firstTime: boolean): long;
 }
 
 
@@ -616,17 +616,17 @@ export interface ObjectManager$instance {
     readonly __tsonic_type_System_Runtime_Serialization_ObjectManager: never;
 
     DoFixups(): void;
-    GetObject(objectID: long): JsValue | null;
+    GetObject(objectID: long): unknown | null;
     RaiseDeserializationEvent(): void;
-    RaiseOnDeserializingEvent(obj: JsValue): void;
+    RaiseOnDeserializingEvent(obj: unknown): void;
     RecordArrayElementFixup(arrayToBeFixed: long, index: int, objectRequired: long): void;
     RecordArrayElementFixup(arrayToBeFixed: long, indices: int[], objectRequired: long): void;
     RecordDelayedFixup(objectToBeFixed: long, memberName: string, objectRequired: long): void;
     RecordFixup(objectToBeFixed: long, member: MemberInfo, objectRequired: long): void;
-    RegisterObject(obj: JsValue, objectID: long): void;
-    RegisterObject(obj: JsValue, objectID: long, info: SerializationInfo): void;
-    RegisterObject(obj: JsValue, objectID: long, info: SerializationInfo | null, idOfContainingObj: long, member: MemberInfo | null): void;
-    RegisterObject(obj: JsValue, objectID: long, info: SerializationInfo | null, idOfContainingObj: long, member: MemberInfo | null, arrayIndex: int[] | null): void;
+    RegisterObject(obj: unknown, objectID: long): void;
+    RegisterObject(obj: unknown, objectID: long, info: SerializationInfo): void;
+    RegisterObject(obj: unknown, objectID: long, info: SerializationInfo | null, idOfContainingObj: long, member: MemberInfo | null): void;
+    RegisterObject(obj: unknown, objectID: long, info: SerializationInfo | null, idOfContainingObj: long, member: MemberInfo | null, arrayIndex: int[] | null): void;
 }
 
 
@@ -762,8 +762,8 @@ export interface SerializationInfo$instance {
     IsFullTypeNameSetExplicit: boolean;
     readonly MemberCount: int;
     readonly ObjectType: Type;
-    AddValue(name: string, value: JsValue | null, type: Type): void;
-    AddValue(name: string, value: JsValue | null): void;
+    AddValue(name: string, value: unknown | null, type: Type): void;
+    AddValue(name: string, value: unknown | null): void;
     AddValue(name: string, value: boolean): void;
     AddValue(name: string, value: char): void;
     AddValue(name: string, value: sbyte): void;
@@ -794,7 +794,7 @@ export interface SerializationInfo$instance {
     GetUInt16(name: string): ushort;
     GetUInt32(name: string): uint;
     GetUInt64(name: string): ulong;
-    GetValue(name: string, type: Type): JsValue | null;
+    GetValue(name: string, type: Type): unknown | null;
     SetType(type: Type): void;
 }
 
@@ -816,7 +816,7 @@ export interface SerializationInfoEnumerator$instance {
     readonly Current: SerializationEntry;
     readonly Name: string;
     readonly ObjectType: Type;
-    readonly Value: JsValue | null;
+    readonly Value: unknown | null;
     MoveNext(): boolean;
     Reset(): void;
 }
@@ -837,7 +837,7 @@ export interface SerializationObjectManager$instance {
     readonly __tsonic_type_System_Runtime_Serialization_SerializationObjectManager: never;
 
     RaiseOnSerializedEvent(): void;
-    RegisterObject(obj: JsValue): void;
+    RegisterObject(obj: unknown): void;
 }
 
 
@@ -890,20 +890,20 @@ export interface XmlObjectSerializer$instance {
 
     IsStartObject(reader: XmlReader): boolean;
     IsStartObject(reader: XmlDictionaryReader): boolean;
-    ReadObject(stream: Stream): JsValue | null;
-    ReadObject(reader: XmlReader): JsValue | null;
-    ReadObject(reader: XmlDictionaryReader): JsValue | null;
-    ReadObject(reader: XmlReader, verifyObjectName: boolean): JsValue | null;
-    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): JsValue | null;
+    ReadObject(stream: Stream): unknown | null;
+    ReadObject(reader: XmlReader): unknown | null;
+    ReadObject(reader: XmlDictionaryReader): unknown | null;
+    ReadObject(reader: XmlReader, verifyObjectName: boolean): unknown | null;
+    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | null;
     WriteEndObject(writer: XmlDictionaryWriter): void;
     WriteEndObject(writer: XmlWriter): void;
-    WriteObject(stream: Stream, graph: JsValue | null): void;
-    WriteObject(writer: XmlWriter, graph: JsValue | null): void;
-    WriteObject(writer: XmlDictionaryWriter, graph: JsValue | null): void;
-    WriteObjectContent(writer: XmlDictionaryWriter, graph: JsValue | null): void;
-    WriteObjectContent(writer: XmlWriter, graph: JsValue | null): void;
-    WriteStartObject(writer: XmlDictionaryWriter, graph: JsValue | null): void;
-    WriteStartObject(writer: XmlWriter, graph: JsValue | null): void;
+    WriteObject(stream: Stream, graph: unknown | null): void;
+    WriteObject(writer: XmlWriter, graph: unknown | null): void;
+    WriteObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
+    WriteObjectContent(writer: XmlDictionaryWriter, graph: unknown | null): void;
+    WriteObjectContent(writer: XmlWriter, graph: unknown | null): void;
+    WriteStartObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
+    WriteStartObject(writer: XmlWriter, graph: unknown | null): void;
 }
 
 
@@ -949,14 +949,14 @@ export type DataContractSerializerExtensions = DataContractSerializerExtensions$
 
 export abstract class FormatterServices$instance {
     static CheckTypeSecurity(t: Type, securityLevel: TypeFilterLevel): void;
-    static GetObjectData(obj: JsValue, members: MemberInfo[]): (JsValue | null)[];
-    static GetSafeUninitializedObject(type: Type): JsValue;
+    static GetObjectData(obj: unknown, members: MemberInfo[]): (unknown | null)[];
+    static GetSafeUninitializedObject(type: Type): unknown;
     static GetSerializableMembers(type: Type, context: StreamingContext): MemberInfo[];
     static GetSerializableMembers(type: Type): MemberInfo[];
     static GetSurrogateForCyclicalReference(innerSurrogate: ISerializationSurrogate): ISerializationSurrogate;
     static GetTypeFromAssembly(assem: Assembly, name: string): Type | null;
-    static GetUninitializedObject(type: Type): JsValue;
-    static PopulateObjectMembers(obj: JsValue, members: MemberInfo[], data: (JsValue | null)[]): JsValue;
+    static GetUninitializedObject(type: Type): unknown;
+    static PopulateObjectMembers(obj: unknown, members: MemberInfo[], data: (unknown | null)[]): unknown;
 }
 
 

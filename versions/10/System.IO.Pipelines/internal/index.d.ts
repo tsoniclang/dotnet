@@ -3,7 +3,7 @@
 // Assembly: System.IO.Pipelines
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -105,7 +105,7 @@ export interface PipeReader$instance {
     CompleteAsync(exception?: Exception | null): ValueTask;
     CopyToAsync(destination: PipeWriter, cancellationToken?: CancellationToken): Task;
     CopyToAsync(destination: Stream, cancellationToken?: CancellationToken): Task;
-    OnWriterCompleted(callback: Action_2<Exception | null, JsValue | null>, state: JsValue | null): void;
+    OnWriterCompleted(callback: Action_2<Exception | null, unknown | null>, state: unknown | null): void;
     ReadAsync(cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
     ReadAtLeastAsync(minimumSize: int, cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
     ReadAtLeastAsyncCore(minimumSize: int, cancellationToken: CancellationToken): ValueTask_1<ReadResult>;
@@ -124,7 +124,7 @@ export type PipeReader = PipeReader$instance;
 export interface PipeScheduler$instance {
     readonly __tsonic_type_System_IO_Pipelines_PipeScheduler: never;
 
-    Schedule(action: Action_1<JsValue | null>, state: JsValue | null): void;
+    Schedule(action: Action_1<unknown | null>, state: unknown | null): void;
 }
 
 
@@ -152,7 +152,7 @@ export interface PipeWriter$instance extends System_Buffers_Internal.IBufferWrit
     FlushAsync(cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
     GetMemory(sizeHint?: int): Memory_1<System_Internal.Byte>;
     GetSpan(sizeHint?: int): Span_1<System_Internal.Byte>;
-    OnReaderCompleted(callback: Action_2<Exception | null, JsValue | null>, state: JsValue | null): void;
+    OnReaderCompleted(callback: Action_2<Exception | null, unknown | null>, state: unknown | null): void;
     WriteAsync(source: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
 }
 

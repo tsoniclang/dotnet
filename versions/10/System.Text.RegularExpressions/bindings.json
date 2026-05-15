@@ -1035,7 +1035,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "metadataToken": 100704568,
+          "metadataToken": 100704573,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -1056,7 +1056,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "metadataToken": 100704569,
+          "metadataToken": 100704574,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1077,7 +1077,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "metadataToken": 100704570,
+          "metadataToken": 100704575,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1098,7 +1098,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "metadataToken": 100704538,
+          "metadataToken": 100704543,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1119,7 +1119,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "metadataToken": 100704539,
+          "metadataToken": 100704544,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1140,7 +1140,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "metadataToken": 100704540,
+          "metadataToken": 100704545,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -1161,7 +1161,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100704541,
+          "metadataToken": 100704546,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1182,7 +1182,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "metadataToken": 100704560,
+          "metadataToken": 100704565,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -1203,7 +1203,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "metadataToken": 100703854,
+          "metadataToken": 100703859,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -1224,7 +1224,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "metadataToken": 100703855,
+          "metadataToken": 100703860,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -1245,7 +1245,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "metadataToken": 100703860,
+          "metadataToken": 100703865,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1266,7 +1266,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "metadataToken": 100703861,
+          "metadataToken": 100703866,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1287,7 +1287,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100703845,
+          "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -1308,7 +1308,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "metadataToken": 100703856,
+          "metadataToken": 100703861,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1329,7 +1329,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "metadataToken": 100703862,
+          "metadataToken": 100703867,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1350,7 +1350,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100703826,
+          "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1468,7 +1468,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "metadataToken": 385881270,
+          "metadataToken": 385881272,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1488,7 +1488,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881417,
+          "metadataToken": 385881419,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1508,7 +1508,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "metadataToken": 385881418,
+          "metadataToken": 385881420,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1528,7 +1528,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881428,
+          "metadataToken": 385881430,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1548,7 +1548,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "metadataToken": 385881269,
+          "metadataToken": 385881271,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1568,7 +1568,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881256,
+          "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1588,7 +1588,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "metadataToken": 385881257,
+          "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1608,7 +1608,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "metadataToken": 385881258,
+          "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1729,7 +1729,7 @@
       "constructors": [
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GeneratedRegexAttribute::.ctor(System.String):void",
-          "metadataToken": 100663878,
+          "metadataToken": 100663877,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -1740,7 +1740,7 @@
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GeneratedRegexAttribute::.ctor(System.String,System.Text.RegularExpressions.RegexOptions):void",
-          "metadataToken": 100663879,
+          "metadataToken": 100663878,
           "canonicalSignature": "(System.String,System.Text.RegularExpressions.RegexOptions):void",
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions):void|static=false",
           "isStatic": false,
@@ -1751,7 +1751,7 @@
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GeneratedRegexAttribute::.ctor(System.String,System.Text.RegularExpressions.RegexOptions,System.String):void",
-          "metadataToken": 100663880,
+          "metadataToken": 100663879,
           "canonicalSignature": "(System.String,System.Text.RegularExpressions.RegexOptions,System.String):void",
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.String):void|static=false",
           "isStatic": false,
@@ -1762,7 +1762,7 @@
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GeneratedRegexAttribute::.ctor(System.String,System.Text.RegularExpressions.RegexOptions,System.Int32):void",
-          "metadataToken": 100663881,
+          "metadataToken": 100663880,
           "canonicalSignature": "(System.String,System.Text.RegularExpressions.RegexOptions,System.Int32):void",
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.Int32):void|static=false",
           "isStatic": false,
@@ -1773,7 +1773,7 @@
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GeneratedRegexAttribute::.ctor(System.String,System.Text.RegularExpressions.RegexOptions,System.Int32,System.String):void",
-          "metadataToken": 100663882,
+          "metadataToken": 100663881,
           "canonicalSignature": "(System.String,System.Text.RegularExpressions.RegexOptions,System.Int32,System.String):void",
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.Int32,System.String):void|static=false",
           "isStatic": false,
@@ -2080,7 +2080,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "metadataToken": 100704568,
+          "metadataToken": 100704573,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -2101,7 +2101,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "metadataToken": 100704569,
+          "metadataToken": 100704574,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2122,7 +2122,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "metadataToken": 100704570,
+          "metadataToken": 100704575,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2143,7 +2143,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "metadataToken": 100704538,
+          "metadataToken": 100704543,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2164,7 +2164,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "metadataToken": 100704539,
+          "metadataToken": 100704544,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2185,7 +2185,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "metadataToken": 100704540,
+          "metadataToken": 100704545,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -2206,7 +2206,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100704541,
+          "metadataToken": 100704546,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2227,7 +2227,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "metadataToken": 100704560,
+          "metadataToken": 100704565,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -2248,7 +2248,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "metadataToken": 100703854,
+          "metadataToken": 100703859,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -2269,7 +2269,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "metadataToken": 100703855,
+          "metadataToken": 100703860,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -2290,7 +2290,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "metadataToken": 100703860,
+          "metadataToken": 100703865,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2311,7 +2311,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "metadataToken": 100703861,
+          "metadataToken": 100703866,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2332,7 +2332,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::ContainsKey(TKey):System.Boolean",
           "clrName": "ContainsKey",
-          "metadataToken": 100704572,
+          "metadataToken": 100704577,
           "canonicalSignature": "(TKey):System.Boolean",
           "normalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -2353,7 +2353,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
           "clrName": "TryGetValue",
-          "metadataToken": 100704573,
+          "metadataToken": 100704578,
           "canonicalSignature": "(TKey,TValue\u0026):System.Boolean",
           "normalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -2380,7 +2380,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100703845,
+          "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -2401,7 +2401,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "metadataToken": 100703856,
+          "metadataToken": 100703861,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2422,7 +2422,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "metadataToken": 100703862,
+          "metadataToken": 100703867,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2443,7 +2443,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100703826,
+          "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2620,7 +2620,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "metadataToken": 385881270,
+          "metadataToken": 385881272,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2640,7 +2640,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::Keys:IEnumerable_1",
           "clrName": "Keys",
-          "metadataToken": 385881430,
+          "metadataToken": 385881432,
           "canonicalSignature": ":IEnumerable_1",
           "normalizedSignature": "Keys|:IEnumerable_1|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2660,7 +2660,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881417,
+          "metadataToken": 385881419,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2680,7 +2680,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "metadataToken": 385881418,
+          "metadataToken": 385881420,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2700,7 +2700,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881428,
+          "metadataToken": 385881430,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2720,7 +2720,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "metadataToken": 385881269,
+          "metadataToken": 385881271,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2740,7 +2740,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881256,
+          "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2760,7 +2760,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "metadataToken": 385881257,
+          "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2780,7 +2780,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "metadataToken": 385881258,
+          "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2800,7 +2800,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::Values:IEnumerable_1",
           "clrName": "Values",
-          "metadataToken": 385881431,
+          "metadataToken": 385881433,
           "canonicalSignature": ":IEnumerable_1",
           "normalizedSignature": "Values|:IEnumerable_1|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3071,7 +3071,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "metadataToken": 100704568,
+          "metadataToken": 100704573,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -3092,7 +3092,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::Insert(System.Int32,T):System.Void",
           "clrName": "Insert",
-          "metadataToken": 100704569,
+          "metadataToken": 100704574,
           "canonicalSignature": "(System.Int32,T):System.Void",
           "normalizedSignature": "Insert|(System.Int32,T):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3113,7 +3113,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IList\u00601::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "metadataToken": 100704570,
+          "metadataToken": 100704575,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3134,7 +3134,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
-          "metadataToken": 100704538,
+          "metadataToken": 100704543,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3155,7 +3155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
-          "metadataToken": 100704539,
+          "metadataToken": 100704544,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3176,7 +3176,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
-          "metadataToken": 100704540,
+          "metadataToken": 100704545,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -3197,7 +3197,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100704541,
+          "metadataToken": 100704546,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3218,7 +3218,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
-          "metadataToken": 100704560,
+          "metadataToken": 100704565,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -3239,7 +3239,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "metadataToken": 100703854,
+          "metadataToken": 100703859,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -3260,7 +3260,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "metadataToken": 100703855,
+          "metadataToken": 100703860,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -3281,7 +3281,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Insert(System.Int32,System.Object):System.Void",
           "clrName": "Insert",
-          "metadataToken": 100703860,
+          "metadataToken": 100703865,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "Insert|(System.Int32,System.Object):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3302,7 +3302,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Remove(System.Object):System.Void",
           "clrName": "Remove",
-          "metadataToken": 100703861,
+          "metadataToken": 100703866,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3323,7 +3323,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "metadataToken": 100703845,
+          "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -3344,7 +3344,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Clear():System.Void",
           "clrName": "Clear",
-          "metadataToken": 100703856,
+          "metadataToken": 100703861,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3365,7 +3365,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "metadataToken": 100703862,
+          "metadataToken": 100703867,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3386,7 +3386,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "metadataToken": 100703826,
+          "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3504,7 +3504,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsFixedSize:System.Boolean",
           "clrName": "IsFixedSize",
-          "metadataToken": 385881270,
+          "metadataToken": 385881272,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3524,7 +3524,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881417,
+          "metadataToken": 385881419,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3544,7 +3544,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "metadataToken": 385881418,
+          "metadataToken": 385881420,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3564,7 +3564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881428,
+          "metadataToken": 385881430,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3584,7 +3584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
-          "metadataToken": 385881269,
+          "metadataToken": 385881271,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3604,7 +3604,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
           "clrName": "Count",
-          "metadataToken": 385881256,
+          "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3624,7 +3624,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
           "clrName": "SyncRoot",
-          "metadataToken": 385881257,
+          "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3644,7 +3644,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
           "clrName": "IsSynchronized",
-          "metadataToken": 385881258,
+          "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -5527,6 +5527,26 @@
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "declaringAssemblyName": "System.Text.RegularExpressions",
           "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator::Reset():System.Void",
+          "clrName": "Reset",
+          "metadataToken": 0,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Reset|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Synthesized",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
         }
       ],
       "properties": [
@@ -5622,6 +5642,26 @@
           "isVirtual": true,
           "isOverride": false,
           "isSealed": true,
+          "visibility": "Public",
+          "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
+          "declaringAssemblyName": "System.Text.RegularExpressions",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator::Reset():System.Void",
+          "clrName": "Reset",
+          "metadataToken": 0,
+          "canonicalSignature": "():System.Void",
+          "normalizedSignature": "Reset|():System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "provenance": "Synthesized",
+          "arity": 0,
+          "parameterCount": 0,
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
           "visibility": "Public",
           "declaringClrType": "System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "declaringAssemblyName": "System.Text.RegularExpressions",
@@ -5790,7 +5830,7 @@
       "constructors": [
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexCompilationInfo::.ctor(System.String,System.Text.RegularExpressions.RegexOptions,System.String,System.String,System.Boolean):void",
-          "metadataToken": 100663840,
+          "metadataToken": 100663839,
           "canonicalSignature": "(System.String,System.Text.RegularExpressions.RegexOptions,System.String,System.String,System.Boolean):void",
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.String,System.String,System.Boolean):void|static=false",
           "isStatic": false,
@@ -5801,7 +5841,7 @@
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexCompilationInfo::.ctor(System.String,System.Text.RegularExpressions.RegexOptions,System.String,System.String,System.Boolean,System.TimeSpan):void",
-          "metadataToken": 100663841,
+          "metadataToken": 100663840,
           "canonicalSignature": "(System.String,System.Text.RegularExpressions.RegexOptions,System.String,System.String,System.Boolean,System.TimeSpan):void",
           "normalizedSignature": "constructor|(System.String,System.Text.RegularExpressions.RegexOptions,System.String,System.String,System.Boolean,System.TimeSpan):void|static=false",
           "isStatic": false,
@@ -5920,7 +5960,7 @@
       "constructors": [
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexMatchTimeoutException::.ctor(System.String,System.String,System.TimeSpan):void",
-          "metadataToken": 100663924,
+          "metadataToken": 100663923,
           "canonicalSignature": "(System.String,System.String,System.TimeSpan):void",
           "normalizedSignature": "constructor|(System.String,System.String,System.TimeSpan):void|static=false",
           "isStatic": false,
@@ -5931,7 +5971,7 @@
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexMatchTimeoutException::.ctor():void",
-          "metadataToken": 100663925,
+          "metadataToken": 100663924,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -5942,7 +5982,7 @@
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexMatchTimeoutException::.ctor(System.String):void",
-          "metadataToken": 100663926,
+          "metadataToken": 100663925,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -5953,7 +5993,7 @@
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexMatchTimeoutException::.ctor(System.String,System.Exception):void",
-          "metadataToken": 100663927,
+          "metadataToken": 100663926,
           "canonicalSignature": "(System.String,System.Exception):void",
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
@@ -5964,7 +6004,7 @@
         },
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexMatchTimeoutException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-          "metadataToken": 100663928,
+          "metadataToken": 100663927,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
           "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
           "isStatic": false,
@@ -6000,7 +6040,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexParseException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "metadataToken": 100664010,
+          "metadataToken": 100664011,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6043,7 +6083,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexParseException::Error:System.Text.RegularExpressions.RegexParseError",
           "clrName": "Error",
-          "metadataToken": 385876132,
+          "metadataToken": 385876133,
           "canonicalSignature": ":System.Text.RegularExpressions.RegexParseError",
           "normalizedSignature": "Error|:System.Text.RegularExpressions.RegexParseError|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -6062,7 +6102,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexParseException::Offset:System.Int32",
           "clrName": "Offset",
-          "metadataToken": 385876133,
+          "metadataToken": 385876134,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Offset|:System.Int32|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -6102,7 +6142,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Scan(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Scan",
-          "metadataToken": 100664105,
+          "metadataToken": 100664106,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Scan|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6122,7 +6162,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Scan(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean):System.Text.RegularExpressions.Match",
           "clrName": "Scan",
-          "metadataToken": 100664106,
+          "metadataToken": 100664107,
           "canonicalSignature": "(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean):System.Text.RegularExpressions.Match",
           "normalizedSignature": "Scan|(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean):System.Text.RegularExpressions.Match|static=false",
           "emitScope": "ClassSurface",
@@ -6142,7 +6182,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Scan(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.TimeSpan):System.Text.RegularExpressions.Match",
           "clrName": "Scan",
-          "metadataToken": 100664107,
+          "metadataToken": 100664108,
           "canonicalSignature": "(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.TimeSpan):System.Text.RegularExpressions.Match",
           "normalizedSignature": "Scan|(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.TimeSpan):System.Text.RegularExpressions.Match|static=false",
           "emitScope": "ClassSurface",
@@ -6162,7 +6202,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::CheckTimeout():System.Void",
           "clrName": "CheckTimeout",
-          "metadataToken": 100664111,
+          "metadataToken": 100664112,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "CheckTimeout|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6182,7 +6222,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Go():System.Void",
           "clrName": "Go",
-          "metadataToken": 100664112,
+          "metadataToken": 100664113,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Go|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6202,7 +6242,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::FindFirstChar():System.Boolean",
           "clrName": "FindFirstChar",
-          "metadataToken": 100664113,
+          "metadataToken": 100664114,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "FindFirstChar|():System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -6222,7 +6262,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::InitTrackCount():System.Void",
           "clrName": "InitTrackCount",
-          "metadataToken": 100664114,
+          "metadataToken": 100664115,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "InitTrackCount|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6242,7 +6282,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::EnsureStorage():System.Void",
           "clrName": "EnsureStorage",
-          "metadataToken": 100664115,
+          "metadataToken": 100664116,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "EnsureStorage|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6262,7 +6302,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::IsBoundary(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsBoundary",
-          "metadataToken": 100664116,
+          "metadataToken": 100664117,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsBoundary|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -6282,7 +6322,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::IsECMABoundary(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsECMABoundary",
-          "metadataToken": 100664121,
+          "metadataToken": 100664122,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Boolean",
           "normalizedSignature": "IsECMABoundary|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -6302,7 +6342,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::CharInSet(System.Char,System.String,System.String):System.Boolean",
           "clrName": "CharInSet",
-          "metadataToken": 100664123,
+          "metadataToken": 100664124,
           "canonicalSignature": "(System.Char,System.String,System.String):System.Boolean",
           "normalizedSignature": "CharInSet|(System.Char,System.String,System.String):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -6322,7 +6362,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::CharInClass(System.Char,System.String):System.Boolean",
           "clrName": "CharInClass",
-          "metadataToken": 100664124,
+          "metadataToken": 100664125,
           "canonicalSignature": "(System.Char,System.String):System.Boolean",
           "normalizedSignature": "CharInClass|(System.Char,System.String):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -6342,7 +6382,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::DoubleTrack():System.Void",
           "clrName": "DoubleTrack",
-          "metadataToken": 100664125,
+          "metadataToken": 100664126,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "DoubleTrack|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6362,7 +6402,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::DoubleStack():System.Void",
           "clrName": "DoubleStack",
-          "metadataToken": 100664126,
+          "metadataToken": 100664127,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "DoubleStack|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6382,7 +6422,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::DoubleCrawl():System.Void",
           "clrName": "DoubleCrawl",
-          "metadataToken": 100664127,
+          "metadataToken": 100664128,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "DoubleCrawl|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6402,7 +6442,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Crawl(System.Int32):System.Void",
           "clrName": "Crawl",
-          "metadataToken": 100664128,
+          "metadataToken": 100664129,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Crawl|(System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6422,7 +6462,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Popcrawl():System.Int32",
           "clrName": "Popcrawl",
-          "metadataToken": 100664129,
+          "metadataToken": 100664130,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "Popcrawl|():System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -6442,7 +6482,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Crawlpos():System.Int32",
           "clrName": "Crawlpos",
-          "metadataToken": 100664130,
+          "metadataToken": 100664131,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "Crawlpos|():System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -6462,7 +6502,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Capture(System.Int32,System.Int32,System.Int32):System.Void",
           "clrName": "Capture",
-          "metadataToken": 100664131,
+          "metadataToken": 100664132,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Capture|(System.Int32,System.Int32,System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6482,7 +6522,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::TransferCapture(System.Int32,System.Int32,System.Int32,System.Int32):System.Void",
           "clrName": "TransferCapture",
-          "metadataToken": 100664132,
+          "metadataToken": 100664133,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32,System.Int32):System.Void",
           "normalizedSignature": "TransferCapture|(System.Int32,System.Int32,System.Int32,System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6502,7 +6542,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::Uncapture():System.Void",
           "clrName": "Uncapture",
-          "metadataToken": 100664133,
+          "metadataToken": 100664134,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Uncapture|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -6522,7 +6562,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::IsMatched(System.Int32):System.Boolean",
           "clrName": "IsMatched",
-          "metadataToken": 100664134,
+          "metadataToken": 100664135,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "IsMatched|(System.Int32):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -6542,7 +6582,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::MatchIndex(System.Int32):System.Int32",
           "clrName": "MatchIndex",
-          "metadataToken": 100664135,
+          "metadataToken": 100664136,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "MatchIndex|(System.Int32):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -6562,7 +6602,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::MatchLength(System.Int32):System.Int32",
           "clrName": "MatchLength",
-          "metadataToken": 100664136,
+          "metadataToken": 100664137,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "MatchLength|(System.Int32):System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -6755,7 +6795,7 @@
       "constructors": [
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunner::.ctor():void",
-          "metadataToken": 100664104,
+          "metadataToken": 100664105,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -6785,7 +6825,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunnerFactory::CreateInstance():System.Text.RegularExpressions.RegexRunner",
           "clrName": "CreateInstance",
-          "metadataToken": 100664140,
+          "metadataToken": 100664141,
           "canonicalSignature": "():System.Text.RegularExpressions.RegexRunner",
           "normalizedSignature": "CreateInstance|():System.Text.RegularExpressions.RegexRunner|static=false",
           "emitScope": "ClassSurface",
@@ -6809,7 +6849,7 @@
       "constructors": [
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexRunnerFactory::.ctor():void",
-          "metadataToken": 100664139,
+          "metadataToken": 100664140,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,

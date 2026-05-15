@@ -3,7 +3,7 @@
 // Assembly: System.Threading.Channels
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -40,19 +40,19 @@ export const BoundedChannelOptions: {
 
 export type BoundedChannelOptions = BoundedChannelOptions$instance;
 
-export interface Channel_1$instance<T> extends Channel_2<T, T> {
+export interface Channel_1$instance<T extends unknown> extends Channel_2<T, T> {
     readonly __tsonic_type_System_Threading_Channels_Channel_1: never;
 
 }
 
 
-export const Channel_1: (abstract new<T>() => Channel_1<T>) & {
+export const Channel_1: (abstract new<T extends unknown>() => Channel_1<T>) & {
 };
 
 
-export type Channel_1<T> = Channel_1$instance<T>;
+export type Channel_1<T extends unknown> = Channel_1$instance<T>;
 
-export interface Channel_2$instance<TWrite, TRead> {
+export interface Channel_2$instance<TWrite extends unknown, TRead extends unknown> {
     readonly __tsonic_type_System_Threading_Channels_Channel_2: never;
 
     Reader: ChannelReader_1<TRead>;
@@ -60,11 +60,11 @@ export interface Channel_2$instance<TWrite, TRead> {
 }
 
 
-export const Channel_2: (abstract new<TWrite, TRead>() => Channel_2<TWrite, TRead>) & {
+export const Channel_2: (abstract new<TWrite extends unknown, TRead extends unknown>() => Channel_2<TWrite, TRead>) & {
 };
 
 
-export type Channel_2<TWrite, TRead> = Channel_2$instance<TWrite, TRead>;
+export type Channel_2<TWrite extends unknown, TRead extends unknown> = Channel_2$instance<TWrite, TRead>;
 
 export interface ChannelClosedException$instance extends InvalidOperationException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Threading_Channels_ChannelClosedException: never;
@@ -104,7 +104,7 @@ export const ChannelOptions: (abstract new() => ChannelOptions) & {
 
 export type ChannelOptions = ChannelOptions$instance;
 
-export interface ChannelReader_1$instance<T> {
+export interface ChannelReader_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Threading_Channels_ChannelReader_1: never;
 
     readonly CanCount: boolean;
@@ -119,13 +119,13 @@ export interface ChannelReader_1$instance<T> {
 }
 
 
-export const ChannelReader_1: (abstract new<T>() => ChannelReader_1<T>) & {
+export const ChannelReader_1: (abstract new<T extends unknown>() => ChannelReader_1<T>) & {
 };
 
 
-export type ChannelReader_1<T> = ChannelReader_1$instance<T>;
+export type ChannelReader_1<T extends unknown> = ChannelReader_1$instance<T>;
 
-export interface ChannelWriter_1$instance<T> {
+export interface ChannelWriter_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Threading_Channels_ChannelWriter_1: never;
 
     Complete(error?: Exception | null): void;
@@ -136,11 +136,11 @@ export interface ChannelWriter_1$instance<T> {
 }
 
 
-export const ChannelWriter_1: (abstract new<T>() => ChannelWriter_1<T>) & {
+export const ChannelWriter_1: (abstract new<T extends unknown>() => ChannelWriter_1<T>) & {
 };
 
 
-export type ChannelWriter_1<T> = ChannelWriter_1$instance<T>;
+export type ChannelWriter_1<T extends unknown> = ChannelWriter_1$instance<T>;
 
 export interface UnboundedChannelOptions$instance extends ChannelOptions {
     readonly __tsonic_type_System_Threading_Channels_UnboundedChannelOptions: never;
@@ -155,7 +155,7 @@ export const UnboundedChannelOptions: {
 
 export type UnboundedChannelOptions = UnboundedChannelOptions$instance;
 
-export interface UnboundedPrioritizedChannelOptions_1$instance<T> extends ChannelOptions {
+export interface UnboundedPrioritizedChannelOptions_1$instance<T extends unknown> extends ChannelOptions {
     readonly __tsonic_type_System_Threading_Channels_UnboundedPrioritizedChannelOptions_1: never;
 
     get Comparer(): IComparer_1<T> | null;
@@ -164,20 +164,20 @@ export interface UnboundedPrioritizedChannelOptions_1$instance<T> extends Channe
 
 
 export const UnboundedPrioritizedChannelOptions_1: {
-    new<T>(): UnboundedPrioritizedChannelOptions_1<T>;
+    new<T extends unknown>(): UnboundedPrioritizedChannelOptions_1<T>;
 };
 
 
-export type UnboundedPrioritizedChannelOptions_1<T> = UnboundedPrioritizedChannelOptions_1$instance<T>;
+export type UnboundedPrioritizedChannelOptions_1<T extends unknown> = UnboundedPrioritizedChannelOptions_1$instance<T>;
 
 export abstract class Channel$instance {
-    static CreateBounded<T>(capacity: int): Channel_1<T>;
-    static CreateBounded<T>(options: BoundedChannelOptions, itemDropped: Action_1<T> | null): Channel_1<T>;
-    static CreateBounded<T>(options: BoundedChannelOptions): Channel_1<T>;
-    static CreateUnbounded<T>(): Channel_1<T>;
-    static CreateUnbounded<T>(options: UnboundedChannelOptions): Channel_1<T>;
-    static CreateUnboundedPrioritized<T>(): Channel_1<T>;
-    static CreateUnboundedPrioritized<T>(options: UnboundedPrioritizedChannelOptions_1<T>): Channel_1<T>;
+    static CreateBounded<T extends unknown>(capacity: int): Channel_1<T>;
+    static CreateBounded<T extends unknown>(options: BoundedChannelOptions, itemDropped: Action_1<T> | null): Channel_1<T>;
+    static CreateBounded<T extends unknown>(options: BoundedChannelOptions): Channel_1<T>;
+    static CreateUnbounded<T extends unknown>(): Channel_1<T>;
+    static CreateUnbounded<T extends unknown>(options: UnboundedChannelOptions): Channel_1<T>;
+    static CreateUnboundedPrioritized<T extends unknown>(): Channel_1<T>;
+    static CreateUnboundedPrioritized<T extends unknown>(options: UnboundedPrioritizedChannelOptions_1<T>): Channel_1<T>;
 }
 
 

@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Reflection.Metadata/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { IComparer_1, IEnumerable_1, IEnumerator_1, IEqualityComparer_1, IReadOnlyCollection_1, IReadOnlyList_1 } from './System.Collections.Generic/internal/index.js';
 import type { ImmutableArray_1 } from './System.Collections.Immutable/internal/index.js';
@@ -29,7 +33,7 @@ export { ReservedBlob_1 as ReservedBlob } from './System.Reflection.Metadata/int
 export { CustomAttributeNamedArgument_1 as CustomAttributeNamedArgument } from './System.Reflection.Metadata/internal/index.js';
 export { CustomAttributeTypedArgument_1 as CustomAttributeTypedArgument } from './System.Reflection.Metadata/internal/index.js';
 export { CustomAttributeValue_1 as CustomAttributeValue } from './System.Reflection.Metadata/internal/index.js';
-export type ICustomAttributeTypeProvider<TType> = Internal.ICustomAttributeTypeProvider_1<TType>;
+export type ICustomAttributeTypeProvider<TType extends unknown> = Internal.ICustomAttributeTypeProvider_1<TType>;
 export { ILOpCode as ILOpCode } from './System.Reflection.Metadata/internal/index.js';
 export { ILOpCodeExtensions$instance as ILOpCodeExtensions } from './System.Reflection.Metadata/internal/index.js';
 export { ImageFormatLimitationException as ImageFormatLimitationException } from './System.Reflection.Metadata/internal/index.js';
@@ -80,11 +84,11 @@ export { CustomAttribute as CustomAttribute } from './System.Reflection.Metadata
 export { CustomAttributeNamedArgumentKind as CustomAttributeNamedArgumentKind } from './System.Reflection.Metadata/internal/index.js';
 export { DeclarativeSecurityAttribute as DeclarativeSecurityAttribute } from './System.Reflection.Metadata/internal/index.js';
 export { ArrayShape as ArrayShape } from './System.Reflection.Metadata/internal/index.js';
-export type ISZArrayTypeProvider<TType> = Internal.ISZArrayTypeProvider_1<TType>;
-export type ISignatureTypeProvider<TType, TGenericContext> = Internal.ISignatureTypeProvider_2<TType, TGenericContext>;
-export type ISimpleTypeProvider<TType> = Internal.ISimpleTypeProvider_1<TType>;
+export type ISZArrayTypeProvider<TType extends unknown> = Internal.ISZArrayTypeProvider_1<TType>;
+export type ISignatureTypeProvider<TType extends unknown, TGenericContext extends unknown> = Internal.ISignatureTypeProvider_2<TType, TGenericContext>;
+export type ISimpleTypeProvider<TType extends unknown> = Internal.ISimpleTypeProvider_1<TType>;
 export { SignatureTypeKind as SignatureTypeKind } from './System.Reflection.Metadata/internal/index.js';
-export type IConstructedTypeProvider<TType> = Internal.IConstructedTypeProvider_1<TType>;
+export type IConstructedTypeProvider<TType extends unknown> = Internal.IConstructedTypeProvider_1<TType>;
 export { MethodSignature_1 as MethodSignature } from './System.Reflection.Metadata/internal/index.js';
 export { PrimitiveTypeCode as PrimitiveTypeCode } from './System.Reflection.Metadata/internal/index.js';
 export { EventDefinition as EventDefinition } from './System.Reflection.Metadata/internal/index.js';

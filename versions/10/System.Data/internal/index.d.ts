@@ -3,7 +3,7 @@
 // Assembly: System.Data.Common
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -312,28 +312,28 @@ export enum XmlWriteMode {
 }
 
 
-export type DataColumnChangeEventHandler = (sender: JsValue, e: DataColumnChangeEventArgs) => void;
+export type DataColumnChangeEventHandler = (sender: unknown, e: DataColumnChangeEventArgs) => void;
 
 
-export type DataRowChangeEventHandler = (sender: JsValue, e: DataRowChangeEventArgs) => void;
+export type DataRowChangeEventHandler = (sender: unknown, e: DataRowChangeEventArgs) => void;
 
 
-export type DataTableClearEventHandler = (sender: JsValue, e: DataTableClearEventArgs) => void;
+export type DataTableClearEventHandler = (sender: unknown, e: DataTableClearEventArgs) => void;
 
 
-export type DataTableNewRowEventHandler = (sender: JsValue, e: DataTableNewRowEventArgs) => void;
+export type DataTableNewRowEventHandler = (sender: unknown, e: DataTableNewRowEventArgs) => void;
 
 
-export type FillErrorEventHandler = (sender: JsValue, e: FillErrorEventArgs) => void;
+export type FillErrorEventHandler = (sender: unknown, e: FillErrorEventArgs) => void;
 
 
-export type MergeFailedEventHandler = (sender: JsValue, e: MergeFailedEventArgs) => void;
+export type MergeFailedEventHandler = (sender: unknown, e: MergeFailedEventArgs) => void;
 
 
-export type StateChangeEventHandler = (sender: JsValue, e: StateChangeEventArgs) => void;
+export type StateChangeEventHandler = (sender: unknown, e: StateChangeEventArgs) => void;
 
 
-export type StatementCompletedEventHandler = (sender: JsValue, e: StatementCompletedEventArgs) => void;
+export type StatementCompletedEventHandler = (sender: unknown, e: StatementCompletedEventArgs) => void;
 
 
 export interface IColumnMapping$instance {
@@ -352,25 +352,25 @@ export interface IColumnMappingCollection$instance extends IList, ICollection, I
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     readonly IsSynchronized: boolean;
     Add(sourceColumnName: string, dataSetColumnName: string): IColumnMapping;
-    Add(value: JsValue | null): int;
+    Add(value: unknown | null): int;
     Clear(): void;
     Contains(sourceColumnName: string | null): boolean;
-    Contains(value: JsValue | null): boolean;
+    Contains(value: unknown | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item2(index: int): JsValue | null;
-    get_Item2(index: string): JsValue;
+    get_Item2(index: int): unknown | null;
+    get_Item2(index: string): unknown;
     GetByDataSetColumn(dataSetColumnName: string): IColumnMapping;
     GetEnumerator(): IEnumerator;
     IndexOf(sourceColumnName: string | null): int;
-    Insert(index: int, value: JsValue | null): void;
-    Remove(value: JsValue | null): void;
+    Insert(index: int, value: unknown | null): void;
+    Remove(value: unknown | null): void;
     RemoveAt(sourceColumnName: string): void;
     RemoveAt(index: int): void;
-    set_Item2(index: int, value: JsValue | null): void;
-    set_Item2(index: string, value: JsValue): void;
+    set_Item2(index: int, value: unknown | null): void;
+    set_Item2(index: string, value: unknown): void;
 }
 
 
@@ -399,8 +399,8 @@ export interface IDataParameter$instance {
     ParameterName: string;
     SourceColumn: string;
     SourceVersion: DataRowVersion;
-    get Value(): JsValue | null;
-    set Value(value: JsValue | null);
+    get Value(): unknown | null;
+    set Value(value: unknown | null);
 }
 
 
@@ -412,23 +412,23 @@ export interface IDataParameterCollection$instance extends IList, ICollection, I
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     readonly IsSynchronized: boolean;
-    Add(value: JsValue | null): int;
+    Add(value: unknown | null): int;
     Clear(): void;
     Contains(parameterName: string): boolean;
-    Contains(value: JsValue | null): boolean;
+    Contains(value: unknown | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item2(index: int): JsValue | null;
-    get_Item2(parameterName: string): JsValue;
+    get_Item2(index: int): unknown | null;
+    get_Item2(parameterName: string): unknown;
     GetEnumerator(): IEnumerator;
     IndexOf(parameterName: string): int;
-    Insert(index: int, value: JsValue | null): void;
-    Remove(value: JsValue | null): void;
+    Insert(index: int, value: unknown | null): void;
+    Remove(value: unknown | null): void;
     RemoveAt(parameterName: string): void;
     RemoveAt(index: int): void;
-    set_Item2(index: int, value: JsValue | null): void;
-    set_Item2(parameterName: string, value: JsValue): void;
+    set_Item2(index: int, value: unknown | null): void;
+    set_Item2(parameterName: string, value: unknown): void;
 }
 
 
@@ -442,8 +442,8 @@ export interface IDataReader$instance extends IDisposable, IDataRecord {
     readonly RecordsAffected: int;
     readonly FieldCount: int;
     Close(): void;
-    get_Item(i: int): JsValue;
-    get_Item(name: string): JsValue;
+    get_Item(i: int): unknown;
+    get_Item(name: string): unknown;
     GetBoolean(i: int): boolean;
     GetByte(i: int): byte;
     GetBytes(i: int, fieldOffset: long, buffer: byte[] | null, bufferoffset: int, length: int): long;
@@ -462,11 +462,11 @@ export interface IDataReader$instance extends IDisposable, IDataRecord {
     GetName(i: int): string;
     GetOrdinal(name: string): int;
     GetSchemaTable(): DataTable | null;
-    GetValue(i: int): JsValue;
-    GetValues(values: JsValue[]): int;
+    GetValue(i: int): unknown;
+    GetValues(values: unknown[]): int;
     NextResult(): boolean;
     Dispose(): void;
-    get_Item2(name: string): JsValue;
+    get_Item2(name: string): unknown;
 }
 
 
@@ -478,8 +478,8 @@ export interface IDataRecord$instance {
     readonly __tsonic_iface_System_Data_IDataRecord: never;
 
     readonly FieldCount: int;
-    get_Item(i: int): JsValue;
-    get_Item(name: string): JsValue;
+    get_Item(i: int): unknown;
+    get_Item(name: string): unknown;
     GetBoolean(i: int): boolean;
     GetByte(i: int): byte;
     GetBytes(i: int, fieldOffset: long, buffer: byte[] | null, bufferoffset: int, length: int): long;
@@ -497,8 +497,8 @@ export interface IDataRecord$instance {
     GetInt64(i: int): long;
     GetName(i: int): string;
     GetOrdinal(name: string): int;
-    GetValue(i: int): JsValue;
-    GetValues(values: JsValue[]): int;
+    GetValue(i: int): unknown;
+    GetValues(values: unknown[]): int;
 }
 
 
@@ -520,7 +520,7 @@ export interface IDbCommand$instance extends IDisposable {
     ExecuteNonQuery(): int;
     ExecuteReader(): IDataReader;
     ExecuteReader(behavior: CommandBehavior): IDataReader;
-    ExecuteScalar(): JsValue | null;
+    ExecuteScalar(): unknown | null;
     Prepare(): void;
     Dispose(): void;
 }
@@ -586,8 +586,8 @@ export interface IDbDataParameter$instance extends IDataParameter {
     ParameterName: string;
     SourceColumn: string;
     SourceVersion: DataRowVersion;
-    get Value(): JsValue | null;
-    set Value(value: JsValue | null);
+    get Value(): unknown | null;
+    set Value(value: unknown | null);
 }
 
 
@@ -626,25 +626,25 @@ export interface ITableMappingCollection$instance extends IList, ICollection, IE
     readonly IsReadOnly: boolean;
     readonly IsFixedSize: boolean;
     readonly Count: int;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     readonly IsSynchronized: boolean;
     Add(sourceTableName: string, dataSetTableName: string): ITableMapping;
-    Add(value: JsValue | null): int;
+    Add(value: unknown | null): int;
     Clear(): void;
     Contains(sourceTableName: string | null): boolean;
-    Contains(value: JsValue | null): boolean;
+    Contains(value: unknown | null): boolean;
     CopyTo(array: ClrArray, index: int): void;
-    get_Item2(index: int): JsValue | null;
-    get_Item2(index: string): JsValue;
+    get_Item2(index: int): unknown | null;
+    get_Item2(index: string): unknown;
     GetByDataSetTable(dataSetTableName: string): ITableMapping;
     GetEnumerator(): IEnumerator;
     IndexOf(sourceTableName: string | null): int;
-    Insert(index: int, value: JsValue | null): void;
-    Remove(value: JsValue | null): void;
+    Insert(index: int, value: unknown | null): void;
+    Remove(value: unknown | null): void;
     RemoveAt(sourceTableName: string): void;
     RemoveAt(index: int): void;
-    set_Item2(index: int, value: JsValue | null): void;
-    set_Item2(index: string, value: JsValue): void;
+    set_Item2(index: int, value: unknown | null): void;
+    set_Item2(index: string, value: unknown): void;
 }
 
 
@@ -745,7 +745,7 @@ export interface DataColumn$instance extends MarshalByValueComponent, System_Int
     ColumnName: string;
     DataType: Type;
     DateTimeMode: DataSetDateTime;
-    DefaultValue: JsValue;
+    DefaultValue: unknown;
     Expression: string;
     readonly ExtendedProperties: PropertyCollection;
     MaxLength: int;
@@ -783,14 +783,14 @@ export interface DataColumnChangeEventArgs$instance extends EventArgs {
     readonly __tsonic_type_System_Data_DataColumnChangeEventArgs: never;
 
     readonly Column: DataColumn | null;
-    get ProposedValue(): JsValue | null;
-    set ProposedValue(value: JsValue | null);
+    get ProposedValue(): unknown | null;
+    set ProposedValue(value: unknown | null);
     readonly Row: DataRow;
 }
 
 
 export const DataColumnChangeEventArgs: {
-    new(row: DataRow, column: DataColumn | null, value: JsValue | null): DataColumnChangeEventArgs;
+    new(row: DataRow, column: DataColumn | null, value: unknown | null): DataColumnChangeEventArgs;
 };
 
 
@@ -937,7 +937,7 @@ export interface DataRow$instance {
     readonly __tsonic_type_System_Data_DataRow: never;
 
     readonly HasErrors: boolean;
-    ItemArray: (JsValue | null)[];
+    ItemArray: (unknown | null)[];
     RowError: string;
     readonly RowState: DataRowState;
     readonly Table: DataTable;
@@ -947,12 +947,12 @@ export interface DataRow$instance {
     ClearErrors(): void;
     Delete(): void;
     EndEdit(): void;
-    get_Item(columnIndex: int): JsValue;
-    get_Item(columnName: string): JsValue;
-    get_Item(column: DataColumn): JsValue;
-    get_Item(columnIndex: int, version: DataRowVersion): JsValue;
-    get_Item(columnName: string, version: DataRowVersion): JsValue;
-    get_Item(column: DataColumn, version: DataRowVersion): JsValue;
+    get_Item(columnIndex: int): unknown;
+    get_Item(columnName: string): unknown;
+    get_Item(column: DataColumn): unknown;
+    get_Item(columnIndex: int, version: DataRowVersion): unknown;
+    get_Item(columnName: string, version: DataRowVersion): unknown;
+    get_Item(column: DataColumn, version: DataRowVersion): unknown;
     GetChildRows(relationName: string | null): DataRow[];
     GetChildRows(relationName: string | null, version: DataRowVersion): DataRow[];
     GetChildRows(relation: DataRelation | null): DataRow[];
@@ -975,9 +975,9 @@ export interface DataRow$instance {
     IsNull(column: DataColumn): boolean;
     IsNull(column: DataColumn, version: DataRowVersion): boolean;
     RejectChanges(): void;
-    set_Item(columnIndex: int, value: JsValue): void;
-    set_Item(columnName: string, value: JsValue): void;
-    set_Item(column: DataColumn, value: JsValue): void;
+    set_Item(columnIndex: int, value: unknown): void;
+    set_Item(columnName: string, value: unknown): void;
+    set_Item(column: DataColumn, value: unknown): void;
     SetAdded(): void;
     SetColumnError(columnIndex: int, error: string | null): void;
     SetColumnError(columnName: string, error: string | null): void;
@@ -1029,14 +1029,14 @@ export interface DataRowCollection$instance extends InternalDataCollectionBase$i
 
     readonly Count: int;
     Add(row: DataRow): void;
-    Add(...values: (JsValue | null)[]): DataRow;
+    Add(...values: (unknown | null)[]): DataRow;
     Clear(): void;
-    Contains(key: JsValue | null): boolean;
-    Contains(keys: (JsValue | null)[]): boolean;
+    Contains(key: unknown | null): boolean;
+    Contains(keys: (unknown | null)[]): boolean;
     CopyTo(ar: ClrArray, index: int): void;
     CopyTo(array: DataRow[], index: int): void;
-    Find(key: JsValue | null): DataRow | null;
-    Find(keys: (JsValue | null)[]): DataRow | null;
+    Find(key: unknown | null): DataRow | null;
+    Find(keys: (unknown | null)[]): DataRow | null;
     GetEnumerator(): IEnumerator;
     IndexOf(row: DataRow | null): int;
     InsertAt(row: DataRow, pos: int): void;
@@ -1057,28 +1057,28 @@ export interface __DataRowCollection$views {
 export type DataRowCollection = DataRowCollection$instance & __DataRowCollection$views & { readonly [index: number]: DataRow; };
 
 
-export interface DataRowComparer_1$instance<TRow extends DataRow> {
+export interface DataRowComparer_1$instance<TRow extends unknown & DataRow> {
     readonly __tsonic_type_System_Data_DataRowComparer_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
 
     Equals(leftRow: TRow | null, rightRow: TRow | null): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(row: TRow): int;
     GetHashCode(): int;
 }
 
 
 export const DataRowComparer_1: {
-    readonly Default: <TRow extends DataRow>() => DataRowComparer_1<TRow>;
+    readonly Default: <TRow extends unknown & DataRow>() => DataRowComparer_1<TRow>;
 };
 
 
-export interface __DataRowComparer_1$views<TRow extends DataRow> {
+export interface __DataRowComparer_1$views<TRow extends unknown & DataRow> {
     As_IEqualityComparer_1(): System_Collections_Generic_Internal.IEqualityComparer_1$instance<TRow>;
 }
 
-export type DataRowComparer_1<TRow extends DataRow> = DataRowComparer_1$instance<TRow> & __DataRowComparer_1$views<TRow>;
+export type DataRowComparer_1<TRow extends unknown & DataRow> = DataRowComparer_1$instance<TRow> & __DataRowComparer_1$views<TRow>;
 
 
 export interface DataRowView$instance extends INotifyPropertyChanged, System_ComponentModel_Internal.ICustomTypeDescriptor$instance, System_ComponentModel_Internal.IDataErrorInfo$instance, System_ComponentModel_Internal.IEditableObject$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
@@ -1102,12 +1102,12 @@ export interface DataRowView$instance extends INotifyPropertyChanged, System_Com
     CreateChildView(relationName: string): DataView;
     Delete(): void;
     EndEdit(): void;
-    Equals(other: JsValue | null): boolean;
-    get_Item(ndx: int): JsValue;
-    get_Item(property: string): JsValue;
+    Equals(other: unknown | null): boolean;
+    get_Item(ndx: int): unknown;
+    get_Item(property: string): unknown;
     GetHashCode(): int;
-    set_Item(ndx: int, value: JsValue): void;
-    set_Item(property: string, value: JsValue): void;
+    set_Item(ndx: int, value: unknown): void;
+    set_Item(property: string, value: unknown): void;
 }
 
 
@@ -1124,7 +1124,7 @@ export interface __DataRowView$views {
 export type DataRowView = DataRowView$instance & __DataRowView$views;
 
 
-export interface DataSet$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IListSource$instance, System_Internal.IServiceProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface DataSet$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IListSource$instance, System_ComponentModel_Internal.ISupportInitializeNotification$instance, System_Internal.IServiceProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_DataSet: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
@@ -1257,7 +1257,7 @@ export const DataSysDescriptionAttribute: {
 
 export type DataSysDescriptionAttribute = DataSysDescriptionAttribute$instance;
 
-export interface DataTable$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IListSource$instance, System_Internal.IServiceProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface DataTable$instance extends MarshalByValueComponent, System_ComponentModel_Internal.IListSource$instance, System_ComponentModel_Internal.ISupportInitializeNotification$instance, System_Internal.IServiceProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_DataTable: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
@@ -1295,7 +1295,7 @@ export interface DataTable$instance extends MarshalByValueComponent, System_Comp
     BeginLoadData(): void;
     Clear(): void;
     Clone(): DataTable;
-    Compute(expression: string | null, filter: string | null): JsValue;
+    Compute(expression: string | null, filter: string | null): unknown;
     Copy(): DataTable;
     CreateDataReader(): DataTableReader;
     CreateInstance(): DataTable;
@@ -1311,8 +1311,8 @@ export interface DataTable$instance extends MarshalByValueComponent, System_Comp
     Load(reader: IDataReader): void;
     Load(reader: IDataReader, loadOption: LoadOption): void;
     Load(reader: IDataReader, loadOption: LoadOption, errorHandler: FillErrorEventHandler | null): void;
-    LoadDataRow(values: (JsValue | null)[], fAcceptChanges: boolean): DataRow;
-    LoadDataRow(values: (JsValue | null)[], loadOption: LoadOption): DataRow;
+    LoadDataRow(values: (unknown | null)[], fAcceptChanges: boolean): DataRow;
+    LoadDataRow(values: (unknown | null)[], loadOption: LoadOption): DataRow;
     Merge(table: DataTable): void;
     Merge(table: DataTable, preserveChanges: boolean): void;
     Merge(table: DataTable, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
@@ -1482,8 +1482,8 @@ export interface DataTableReader$instance extends DbDataReader, System_Internal.
     readonly IsClosed: boolean;
     readonly RecordsAffected: int;
     Close(): void;
-    get_Item(ordinal: int): JsValue;
-    get_Item(name: string): JsValue;
+    get_Item(ordinal: int): unknown;
+    get_Item(name: string): unknown;
     GetBoolean(ordinal: int): boolean;
     GetByte(ordinal: int): byte;
     GetBytes(ordinal: int, dataIndex: long, buffer: byte[] | null, bufferIndex: int, length: int): long;
@@ -1503,12 +1503,12 @@ export interface DataTableReader$instance extends DbDataReader, System_Internal.
     GetName(ordinal: int): string;
     GetOrdinal(name: string): int;
     GetProviderSpecificFieldType(ordinal: int): Type;
-    GetProviderSpecificValue(ordinal: int): JsValue;
-    GetProviderSpecificValues(values: JsValue[]): int;
+    GetProviderSpecificValue(ordinal: int): unknown;
+    GetProviderSpecificValues(values: unknown[]): int;
     GetSchemaTable(): DataTable;
     GetString(ordinal: int): string;
-    GetValue(ordinal: int): JsValue;
-    GetValues(values: JsValue[]): int;
+    GetValue(ordinal: int): unknown;
+    GetValues(values: unknown[]): int;
     IsDBNull(ordinal: int): boolean;
     NextResult(): boolean;
     Read(): boolean;
@@ -1532,7 +1532,7 @@ export interface __DataTableReader$views {
 export type DataTableReader = DataTableReader$instance & __DataTableReader$views;
 
 
-export interface DataView$instance extends MarshalByValueComponent, System_ComponentModel_Internal.ITypedList$instance, System_Internal.IServiceProvider$instance {
+export interface DataView$instance extends MarshalByValueComponent, System_ComponentModel_Internal.ISupportInitializeNotification$instance, System_ComponentModel_Internal.ITypedList$instance, System_Internal.IServiceProvider$instance {
     readonly __tsonic_type_System_Data_DataView: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -1562,20 +1562,20 @@ export interface DataView$instance extends MarshalByValueComponent, System_Compo
     set Table(value: DataTable | null);
     AddNew(): DataRowView;
     BeginInit(): void;
-    ColumnCollectionChanged(sender: JsValue | null, e: CollectionChangeEventArgs): void;
+    ColumnCollectionChanged(sender: unknown | null, e: CollectionChangeEventArgs): void;
     CopyTo(array: ClrArray, index: int): void;
     Delete(index: int): void;
     Dispose(disposing: boolean): void;
     Dispose(): void;
     EndInit(): void;
     Equals(view: DataView | null): boolean;
-    Equals(obj: JsValue | null): boolean;
-    Find(key: JsValue | null): int;
-    Find(key: (JsValue | null)[]): int;
-    FindRows(key: JsValue | null): DataRowView[];
-    FindRows(key: (JsValue | null)[]): DataRowView[];
+    Equals(obj: unknown | null): boolean;
+    Find(key: unknown | null): int;
+    Find(key: (unknown | null)[]): int;
+    FindRows(key: unknown | null): DataRowView[];
+    FindRows(key: (unknown | null)[]): DataRowView[];
     GetEnumerator(): IEnumerator;
-    IndexListChanged(sender: JsValue, e: ListChangedEventArgs): void;
+    IndexListChanged(sender: unknown, e: ListChangedEventArgs): void;
     OnListChanged(e: ListChangedEventArgs): void;
     ToTable(): DataTable;
     ToTable(tableName: string | null): DataTable;
@@ -1627,8 +1627,8 @@ export interface DataViewManager$instance extends MarshalByValueComponent, Syste
     readonly DataViewSettings: DataViewSettingCollection;
     CreateDataView(table: DataTable): DataView;
     OnListChanged(e: ListChangedEventArgs): void;
-    RelationCollectionChanged(sender: JsValue | null, e: CollectionChangeEventArgs): void;
-    TableCollectionChanged(sender: JsValue | null, e: CollectionChangeEventArgs): void;
+    RelationCollectionChanged(sender: unknown | null, e: CollectionChangeEventArgs): void;
+    TableCollectionChanged(sender: unknown | null, e: CollectionChangeEventArgs): void;
 }
 
 
@@ -1679,7 +1679,7 @@ export interface DataViewSettingCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     CopyTo(ar: ClrArray, index: int): void;
     CopyTo(ar: DataViewSetting[], index: int): void;
     get_Item(table: DataTable): DataViewSetting;
@@ -1703,7 +1703,7 @@ export interface __DataViewSettingCollection$views {
 export type DataViewSettingCollection = DataViewSettingCollection$instance & __DataViewSettingCollection$views;
 
 
-export interface DBConcurrencyException$instance extends SystemException {
+export interface DBConcurrencyException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_DBConcurrencyException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1795,7 +1795,7 @@ export interface __EnumerableRowCollection$views {
 export type EnumerableRowCollection = EnumerableRowCollection$instance & __EnumerableRowCollection$views;
 
 
-export interface EnumerableRowCollection_1$instance<TRow> extends EnumerableRowCollection$instance {
+export interface EnumerableRowCollection_1$instance<TRow extends unknown> extends EnumerableRowCollection$instance {
     readonly __tsonic_type_System_Data_EnumerableRowCollection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -1809,12 +1809,12 @@ export const EnumerableRowCollection_1: {
 };
 
 
-export interface __EnumerableRowCollection_1$views<TRow> {
+export interface __EnumerableRowCollection_1$views<TRow extends unknown> {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TRow>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type EnumerableRowCollection_1<TRow> = EnumerableRowCollection_1$instance<TRow> & __EnumerableRowCollection_1$views<TRow>;
+export type EnumerableRowCollection_1<TRow extends unknown> = EnumerableRowCollection_1$instance<TRow> & __EnumerableRowCollection_1$views<TRow>;
 
 
 export interface EvaluateException$instance extends InvalidExpressionException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
@@ -1846,12 +1846,12 @@ export interface FillErrorEventArgs$instance extends EventArgs {
     readonly DataTable: DataTable | null;
     get Errors(): Exception | null;
     set Errors(value: Exception | null);
-    readonly Values: (JsValue | null)[];
+    readonly Values: (unknown | null)[];
 }
 
 
 export const FillErrorEventArgs: {
-    new(dataTable: DataTable | null, values: (JsValue | null)[] | null): FillErrorEventArgs;
+    new(dataTable: DataTable | null, values: (unknown | null)[] | null): FillErrorEventArgs;
 };
 
 
@@ -1867,7 +1867,7 @@ export interface ForeignKeyConstraint$instance extends Constraint {
     readonly RelatedTable: DataTable;
     readonly Table: DataTable | null;
     UpdateRule: Rule;
-    Equals(key: JsValue | null): boolean;
+    Equals(key: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -1916,7 +1916,7 @@ export interface InternalDataCollectionBase$instance {
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     readonly List: ArrayList;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     CopyTo(ar: ClrArray, index: int): void;
     GetEnumerator(): IEnumerator;
 }
@@ -2038,7 +2038,7 @@ export interface __NoNullAllowedException$views {
 export type NoNullAllowedException = NoNullAllowedException$instance & __NoNullAllowedException$views;
 
 
-export interface OrderedEnumerableRowCollection_1$instance<TRow> extends EnumerableRowCollection_1$instance<TRow> {
+export interface OrderedEnumerableRowCollection_1$instance<TRow extends unknown> extends EnumerableRowCollection_1$instance<TRow> {
     readonly __tsonic_type_System_Data_OrderedEnumerableRowCollection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -2051,15 +2051,15 @@ export const OrderedEnumerableRowCollection_1: {
 };
 
 
-export interface __OrderedEnumerableRowCollection_1$views<TRow> {
+export interface __OrderedEnumerableRowCollection_1$views<TRow extends unknown> {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TRow>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type OrderedEnumerableRowCollection_1<TRow> = OrderedEnumerableRowCollection_1$instance<TRow> & __OrderedEnumerableRowCollection_1$views<TRow>;
+export type OrderedEnumerableRowCollection_1<TRow extends unknown> = OrderedEnumerableRowCollection_1$instance<TRow> & __OrderedEnumerableRowCollection_1$views<TRow>;
 
 
-export interface PropertyCollection$instance extends Hashtable, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface PropertyCollection$instance extends Hashtable, System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_PropertyCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -2069,7 +2069,7 @@ export interface PropertyCollection$instance extends Hashtable, System_Runtime_S
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    Clone(): JsValue;
+    Clone(): unknown;
 }
 
 
@@ -2207,7 +2207,7 @@ export interface __SyntaxErrorException$views {
 export type SyntaxErrorException = SyntaxErrorException$instance & __SyntaxErrorException$views;
 
 
-export interface TypedTableBase_1$instance<T extends DataRow> extends DataTable$instance, System_ComponentModel_Internal.IListSource$instance, System_Internal.IServiceProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface TypedTableBase_1$instance<T extends unknown & DataRow> extends DataTable$instance, System_ComponentModel_Internal.IListSource$instance, System_ComponentModel_Internal.ISupportInitializeNotification$instance, System_Internal.IServiceProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Data_TypedTableBase_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -2221,16 +2221,16 @@ export interface TypedTableBase_1$instance<T extends DataRow> extends DataTable$
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
     readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
 
-    Cast<TResult>(): EnumerableRowCollection_1<TResult>;
+    Cast<TResult extends unknown>(): EnumerableRowCollection_1<TResult>;
     GetEnumerator(): IEnumerator_1<T>;
 }
 
 
-export const TypedTableBase_1: (abstract new<T extends DataRow>() => TypedTableBase_1<T>) & (abstract new<T extends DataRow>(info: SerializationInfo, context: StreamingContext) => TypedTableBase_1<T>) & {
+export const TypedTableBase_1: (abstract new<T extends unknown & DataRow>() => TypedTableBase_1<T>) & (abstract new<T extends unknown & DataRow>(info: SerializationInfo, context: StreamingContext) => TypedTableBase_1<T>) & {
 };
 
 
-export interface __TypedTableBase_1$views<T extends DataRow> {
+export interface __TypedTableBase_1$views<T extends unknown & DataRow> {
     As_IServiceProvider(): System_Internal.IServiceProvider$instance;
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
     As_ISupportInitialize(): System_ComponentModel_Internal.ISupportInitialize$instance;
@@ -2243,7 +2243,7 @@ export interface __TypedTableBase_1$views<T extends DataRow> {
     As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
 
-export type TypedTableBase_1<T extends DataRow> = TypedTableBase_1$instance<T> & __TypedTableBase_1$views<T>;
+export type TypedTableBase_1<T extends unknown & DataRow> = TypedTableBase_1$instance<T> & __TypedTableBase_1$views<T>;
 
 
 export interface UniqueConstraint$instance extends Constraint {
@@ -2252,7 +2252,7 @@ export interface UniqueConstraint$instance extends Constraint {
     readonly Columns: DataColumn[];
     readonly IsPrimaryKey: boolean;
     readonly Table: DataTable | null;
-    Equals(key2: JsValue | null): boolean;
+    Equals(key2: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -2306,19 +2306,19 @@ export abstract class DataReaderExtensions$instance {
     static GetDecimal(reader: DbDataReader, name: string): decimal;
     static GetDouble(reader: DbDataReader, name: string): double;
     static GetFieldType(reader: DbDataReader, name: string): Type;
-    static GetFieldValue<T>(reader: DbDataReader, name: string): T;
-    static GetFieldValueAsync<T>(reader: DbDataReader, name: string, cancellationToken?: CancellationToken): Task_1<T>;
+    static GetFieldValue<T extends unknown>(reader: DbDataReader, name: string): T;
+    static GetFieldValueAsync<T extends unknown>(reader: DbDataReader, name: string, cancellationToken?: CancellationToken): Task_1<T>;
     static GetFloat(reader: DbDataReader, name: string): float;
     static GetGuid(reader: DbDataReader, name: string): Guid;
     static GetInt16(reader: DbDataReader, name: string): short;
     static GetInt32(reader: DbDataReader, name: string): int;
     static GetInt64(reader: DbDataReader, name: string): long;
     static GetProviderSpecificFieldType(reader: DbDataReader, name: string): Type;
-    static GetProviderSpecificValue(reader: DbDataReader, name: string): JsValue;
+    static GetProviderSpecificValue(reader: DbDataReader, name: string): unknown;
     static GetStream(reader: DbDataReader, name: string): Stream;
     static GetString(reader: DbDataReader, name: string): string;
     static GetTextReader(reader: DbDataReader, name: string): TextReader;
-    static GetValue(reader: DbDataReader, name: string): JsValue;
+    static GetValue(reader: DbDataReader, name: string): unknown;
     static IsDBNull(reader: DbDataReader, name: string): boolean;
     static IsDBNullAsync(reader: DbDataReader, name: string, cancellationToken?: CancellationToken): Task_1<System_Internal.Boolean>;
 }
@@ -2334,58 +2334,58 @@ export abstract class DataRowComparer$instance {
 export type DataRowComparer = DataRowComparer$instance;
 
 export abstract class DataRowExtensions$instance {
-    static Field<T>(row: DataRow, column: DataColumn, version: DataRowVersion): T | null;
-    static Field<T>(row: DataRow, column: DataColumn): T | null;
-    static Field<T>(row: DataRow, columnIndex: int, version: DataRowVersion): T | null;
-    static Field<T>(row: DataRow, columnIndex: int): T | null;
-    static Field<T>(row: DataRow, columnName: string, version: DataRowVersion): T | null;
-    static Field<T>(row: DataRow, columnName: string): T | null;
-    static SetField<T>(row: DataRow, column: DataColumn, value: T | null): void;
-    static SetField<T>(row: DataRow, columnIndex: int, value: T | null): void;
-    static SetField<T>(row: DataRow, columnName: string, value: T | null): void;
+    static Field<T extends unknown>(row: DataRow, column: DataColumn, version: DataRowVersion): T | null;
+    static Field<T extends unknown>(row: DataRow, column: DataColumn): T | null;
+    static Field<T extends unknown>(row: DataRow, columnIndex: int, version: DataRowVersion): T | null;
+    static Field<T extends unknown>(row: DataRow, columnIndex: int): T | null;
+    static Field<T extends unknown>(row: DataRow, columnName: string, version: DataRowVersion): T | null;
+    static Field<T extends unknown>(row: DataRow, columnName: string): T | null;
+    static SetField<T extends unknown>(row: DataRow, column: DataColumn, value: T | null): void;
+    static SetField<T extends unknown>(row: DataRow, columnIndex: int, value: T | null): void;
+    static SetField<T extends unknown>(row: DataRow, columnName: string, value: T | null): void;
 }
 
 
 export type DataRowExtensions = DataRowExtensions$instance;
 
 export abstract class DataTableExtensions$instance {
-    static AsDataView<T extends DataRow>(source: EnumerableRowCollection_1<T>): DataView;
+    static AsDataView<T extends unknown & DataRow>(source: EnumerableRowCollection_1<T>): DataView;
     static AsDataView(table: DataTable): DataView;
     static AsEnumerable(source: DataTable): EnumerableRowCollection_1<DataRow>;
-    static CopyToDataTable<T extends DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption, errorHandler: FillErrorEventHandler | null): void;
-    static CopyToDataTable<T extends DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption): void;
-    static CopyToDataTable<T extends DataRow>(source: IEnumerable_1<T>): DataTable;
+    static CopyToDataTable<T extends unknown & DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption, errorHandler: FillErrorEventHandler | null): void;
+    static CopyToDataTable<T extends unknown & DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption): void;
+    static CopyToDataTable<T extends unknown & DataRow>(source: IEnumerable_1<T>): DataTable;
 }
 
 
 export type DataTableExtensions = DataTableExtensions$instance;
 
 export abstract class EnumerableRowCollectionExtensions$instance {
-    static Cast<TResult>(source: EnumerableRowCollection): EnumerableRowCollection_1<TResult>;
-    static OrderBy<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderBy<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderByDescending<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderByDescending<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static Select<TRow, S>(source: EnumerableRowCollection_1<TRow>, selector: Func_2<TRow, S>): EnumerableRowCollection_1<S>;
-    static ThenBy<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static ThenBy<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static ThenByDescending<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static ThenByDescending<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static Where<TRow>(source: EnumerableRowCollection_1<TRow>, predicate: Func_2<TRow, System_Internal.Boolean>): EnumerableRowCollection_1<TRow>;
+    static Cast<TResult extends unknown>(source: EnumerableRowCollection): EnumerableRowCollection_1<TResult>;
+    static OrderBy<TRow extends unknown, TKey extends unknown>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static OrderBy<TRow extends unknown, TKey extends unknown>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static OrderByDescending<TRow extends unknown, TKey extends unknown>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static OrderByDescending<TRow extends unknown, TKey extends unknown>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static Select<TRow extends unknown, S extends unknown>(source: EnumerableRowCollection_1<TRow>, selector: Func_2<TRow, S>): EnumerableRowCollection_1<S>;
+    static ThenBy<TRow extends unknown, TKey extends unknown>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static ThenBy<TRow extends unknown, TKey extends unknown>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static ThenByDescending<TRow extends unknown, TKey extends unknown>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static ThenByDescending<TRow extends unknown, TKey extends unknown>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static Where<TRow extends unknown>(source: EnumerableRowCollection_1<TRow>, predicate: Func_2<TRow, System_Internal.Boolean>): EnumerableRowCollection_1<TRow>;
 }
 
 
 export type EnumerableRowCollectionExtensions = EnumerableRowCollectionExtensions$instance;
 
 export abstract class TypedTableBaseExtensions$instance {
-    static AsEnumerable<TRow extends DataRow>(source: TypedTableBase_1<TRow>): EnumerableRowCollection_1<TRow>;
-    static ElementAtOrDefault<TRow extends DataRow>(source: TypedTableBase_1<TRow>, index: int): TRow | null;
-    static OrderBy<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderBy<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderByDescending<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderByDescending<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static Select<TRow extends DataRow, S>(source: TypedTableBase_1<TRow>, selector: Func_2<TRow, S>): EnumerableRowCollection_1<S>;
-    static Where<TRow extends DataRow>(source: TypedTableBase_1<TRow>, predicate: Func_2<TRow, System_Internal.Boolean>): EnumerableRowCollection_1<TRow>;
+    static AsEnumerable<TRow extends unknown & DataRow>(source: TypedTableBase_1<TRow>): EnumerableRowCollection_1<TRow>;
+    static ElementAtOrDefault<TRow extends unknown & DataRow>(source: TypedTableBase_1<TRow>, index: int): TRow | null;
+    static OrderBy<TRow extends unknown & DataRow, TKey extends unknown>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static OrderBy<TRow extends unknown & DataRow, TKey extends unknown>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static OrderByDescending<TRow extends unknown & DataRow, TKey extends unknown>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static OrderByDescending<TRow extends unknown & DataRow, TKey extends unknown>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static Select<TRow extends unknown & DataRow, S extends unknown>(source: TypedTableBase_1<TRow>, selector: Func_2<TRow, S>): EnumerableRowCollection_1<S>;
+    static Where<TRow extends unknown & DataRow>(source: TypedTableBase_1<TRow>, predicate: Func_2<TRow, System_Internal.Boolean>): EnumerableRowCollection_1<TRow>;
 }
 
 

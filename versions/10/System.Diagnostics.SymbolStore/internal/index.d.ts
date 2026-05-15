@@ -3,7 +3,7 @@
 // Assembly: System.Diagnostics.StackTrace, System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -137,7 +137,7 @@ export interface ISymbolVariable$instance {
     readonly __tsonic_iface_System_Diagnostics_SymbolStore_ISymbolVariable: never;
 
     readonly Name: string;
-    readonly Attributes: JsValue;
+    readonly Attributes: unknown;
     readonly AddressKind: SymAddressKind;
     readonly AddressField1: int;
     readonly AddressField2: int;
@@ -179,7 +179,7 @@ export interface SymbolToken$instance {
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(obj: SymbolToken): boolean;
     GetHashCode(): int;
     GetToken(): int;

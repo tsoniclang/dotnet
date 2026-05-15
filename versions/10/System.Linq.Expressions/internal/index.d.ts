@@ -3,7 +3,7 @@
 // Assembly: System.Linq.Expressions
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -133,7 +133,7 @@ export interface IDynamicExpression$instance extends IArgumentProvider {
 
     readonly DelegateType: Type;
     readonly ArgumentCount: int;
-    CreateCallSite(): JsValue;
+    CreateCallSite(): unknown;
     GetArgument(index: int): Expression;
     Rewrite(args: Expression[]): Expression;
 }
@@ -226,7 +226,7 @@ export interface ConstantExpression$instance extends Expression {
 
     readonly NodeType: ExpressionType;
     readonly Type: Type;
-    readonly Value: JsValue | null;
+    readonly Value: unknown | null;
     Accept(visitor: ExpressionVisitor): Expression;
 }
 
@@ -303,7 +303,8 @@ export const DynamicExpression: {
     MakeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
     MakeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression): DynamicExpression;
     MakeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression): DynamicExpression;
-    MakeDynamic(delegateType: Type, binder: CallSiteBinder, ...arguments: Expression[] | null): DynamicExpression;
+    MakeDynamic(delegateType: Type, binder: CallSiteBinder, ...arguments: Expression[]): DynamicExpression;
+    MakeDynamic(delegateType: Type, binder: CallSiteBinder, arguments: Expression[] | null): DynamicExpression;
 };
 
 
@@ -388,7 +389,8 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     AndAssign(left: Expression, right: Expression, method: MethodInfo | null): BinaryExpression;
     AndAssign(left: Expression, right: Expression): BinaryExpression;
     ArrayAccess(array: Expression, indexes: IEnumerable_1<Expression> | null): IndexExpression;
-    ArrayAccess(array: Expression, ...indexes: Expression[] | null): IndexExpression;
+    ArrayAccess(array: Expression, ...indexes: Expression[]): IndexExpression;
+    ArrayAccess(array: Expression, indexes: Expression[] | null): IndexExpression;
     ArrayIndex(array: Expression, indexes: IEnumerable_1<Expression>): MethodCallExpression;
     ArrayIndex(array: Expression, index: Expression): BinaryExpression;
     ArrayIndex(array: Expression, ...indexes: Expression[]): MethodCallExpression;
@@ -415,17 +417,21 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     Call(instance: Expression | null, method: MethodInfo, arguments: IEnumerable_1<Expression> | null): MethodCallExpression;
     Call(instance: Expression | null, method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression): MethodCallExpression;
     Call(instance: Expression | null, method: MethodInfo, arg0: Expression, arg1: Expression): MethodCallExpression;
-    Call(instance: Expression | null, method: MethodInfo, ...arguments: Expression[] | null): MethodCallExpression;
+    Call(instance: Expression | null, method: MethodInfo, ...arguments: Expression[]): MethodCallExpression;
+    Call(instance: Expression | null, method: MethodInfo, arguments: Expression[] | null): MethodCallExpression;
     Call(instance: Expression | null, method: MethodInfo): MethodCallExpression;
-    Call(instance: Expression, methodName: string, typeArguments: Type[] | null, ...arguments: Expression[] | null): MethodCallExpression;
+    Call(instance: Expression, methodName: string, typeArguments: Type[] | null, ...arguments: Expression[]): MethodCallExpression;
+    Call(instance: Expression, methodName: string, typeArguments: Type[] | null, arguments: Expression[] | null): MethodCallExpression;
     Call(method: MethodInfo, arguments: IEnumerable_1<Expression> | null): MethodCallExpression;
     Call(method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression, arg4: Expression): MethodCallExpression;
     Call(method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): MethodCallExpression;
     Call(method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression): MethodCallExpression;
     Call(method: MethodInfo, arg0: Expression, arg1: Expression): MethodCallExpression;
     Call(method: MethodInfo, arg0: Expression): MethodCallExpression;
-    Call(method: MethodInfo, ...arguments: Expression[] | null): MethodCallExpression;
-    Call(type: Type, methodName: string, typeArguments: Type[] | null, ...arguments: Expression[] | null): MethodCallExpression;
+    Call(method: MethodInfo, ...arguments: Expression[]): MethodCallExpression;
+    Call(method: MethodInfo, arguments: Expression[] | null): MethodCallExpression;
+    Call(type: Type, methodName: string, typeArguments: Type[] | null, ...arguments: Expression[]): MethodCallExpression;
+    Call(type: Type, methodName: string, typeArguments: Type[] | null, arguments: Expression[] | null): MethodCallExpression;
     Catch(variable: ParameterExpression, body: Expression, filter: Expression | null): CatchBlock;
     Catch(variable: ParameterExpression, body: Expression): CatchBlock;
     Catch(type: Type, body: Expression, filter: Expression | null): CatchBlock;
@@ -435,8 +441,8 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     Coalesce(left: Expression, right: Expression): BinaryExpression;
     Condition(test: Expression, ifTrue: Expression, ifFalse: Expression, type: Type): ConditionalExpression;
     Condition(test: Expression, ifTrue: Expression, ifFalse: Expression): ConditionalExpression;
-    Constant(value: JsValue | null, type: Type): ConstantExpression;
-    Constant(value: JsValue | null): ConstantExpression;
+    Constant(value: unknown | null, type: Type): ConstantExpression;
+    Constant(value: unknown | null): ConstantExpression;
     Continue(target: LabelTarget, type: Type): GotoExpression;
     Continue(target: LabelTarget): GotoExpression;
     Convert(expression: Expression, type: Type, method: MethodInfo | null): UnaryExpression;
@@ -471,9 +477,11 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     Field(expression: Expression | null, field: FieldInfo): MemberExpression;
     Field(expression: Expression, fieldName: string): MemberExpression;
     Field(expression: Expression | null, type: Type, fieldName: string): MemberExpression;
-    GetActionType(...typeArgs: Type[] | null): Type;
+    GetActionType(...typeArgs: Type[]): Type;
+    GetActionType(typeArgs: Type[] | null): Type;
     GetDelegateType(...typeArgs: Type[]): Type;
-    GetFuncType(...typeArgs: Type[] | null): Type;
+    GetFuncType(...typeArgs: Type[]): Type;
+    GetFuncType(typeArgs: Type[] | null): Type;
     Goto(target: LabelTarget, value: Expression | null, type: Type): GotoExpression;
     Goto(target: LabelTarget, value: Expression | null): GotoExpression;
     Goto(target: LabelTarget, type: Type): GotoExpression;
@@ -487,7 +495,8 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     Increment(expression: Expression, method: MethodInfo | null): UnaryExpression;
     Increment(expression: Expression): UnaryExpression;
     Invoke(expression: Expression, arguments: IEnumerable_1<Expression> | null): InvocationExpression;
-    Invoke(expression: Expression, ...arguments: Expression[] | null): InvocationExpression;
+    Invoke(expression: Expression, ...arguments: Expression[]): InvocationExpression;
+    Invoke(expression: Expression, arguments: Expression[] | null): InvocationExpression;
     IsFalse(expression: Expression, method: MethodInfo | null): UnaryExpression;
     IsFalse(expression: Expression): UnaryExpression;
     IsTrue(expression: Expression, method: MethodInfo | null): UnaryExpression;
@@ -498,22 +507,28 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     Label(name: string | null): LabelTarget;
     Label(type: Type, name: string | null): LabelTarget;
     Label(type: Type): LabelTarget;
-    Lambda<TDelegate>(body: Expression, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression> | null): Expression_1<TDelegate>;
+    Lambda<TDelegate extends unknown>(body: Expression, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression> | null): Expression_1<TDelegate>;
     Lambda(body: Expression, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression> | null): LambdaExpression;
-    Lambda<TDelegate>(body: Expression, tailCall: boolean, ...parameters: ParameterExpression[] | null): Expression_1<TDelegate>;
-    Lambda(body: Expression, tailCall: boolean, ...parameters: ParameterExpression[] | null): LambdaExpression;
-    Lambda<TDelegate>(body: Expression, parameters: IEnumerable_1<ParameterExpression> | null): Expression_1<TDelegate>;
+    Lambda<TDelegate extends unknown>(body: Expression, tailCall: boolean, ...parameters: ParameterExpression[]): Expression_1<TDelegate>;
+    Lambda<TDelegate extends unknown>(body: Expression, tailCall: boolean, parameters: ParameterExpression[] | null): Expression_1<TDelegate>;
+    Lambda(body: Expression, tailCall: boolean, ...parameters: ParameterExpression[]): LambdaExpression;
+    Lambda(body: Expression, tailCall: boolean, parameters: ParameterExpression[] | null): LambdaExpression;
+    Lambda<TDelegate extends unknown>(body: Expression, parameters: IEnumerable_1<ParameterExpression> | null): Expression_1<TDelegate>;
     Lambda(body: Expression, parameters: IEnumerable_1<ParameterExpression> | null): LambdaExpression;
-    Lambda<TDelegate>(body: Expression, ...parameters: ParameterExpression[] | null): Expression_1<TDelegate>;
-    Lambda(body: Expression, ...parameters: ParameterExpression[] | null): LambdaExpression;
-    Lambda<TDelegate>(body: Expression, name: string | null, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression> | null): Expression_1<TDelegate>;
+    Lambda<TDelegate extends unknown>(body: Expression, ...parameters: ParameterExpression[]): Expression_1<TDelegate>;
+    Lambda<TDelegate extends unknown>(body: Expression, parameters: ParameterExpression[] | null): Expression_1<TDelegate>;
+    Lambda(body: Expression, ...parameters: ParameterExpression[]): LambdaExpression;
+    Lambda(body: Expression, parameters: ParameterExpression[] | null): LambdaExpression;
+    Lambda<TDelegate extends unknown>(body: Expression, name: string | null, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression> | null): Expression_1<TDelegate>;
     Lambda(body: Expression, name: string | null, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression> | null): LambdaExpression;
-    Lambda<TDelegate>(body: Expression, name: string | null, parameters: IEnumerable_1<ParameterExpression> | null): Expression_1<TDelegate>;
+    Lambda<TDelegate extends unknown>(body: Expression, name: string | null, parameters: IEnumerable_1<ParameterExpression> | null): Expression_1<TDelegate>;
     Lambda(body: Expression, name: string | null, parameters: IEnumerable_1<ParameterExpression> | null): LambdaExpression;
     Lambda(delegateType: Type, body: Expression, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression> | null): LambdaExpression;
-    Lambda(delegateType: Type, body: Expression, tailCall: boolean, ...parameters: ParameterExpression[] | null): LambdaExpression;
+    Lambda(delegateType: Type, body: Expression, tailCall: boolean, ...parameters: ParameterExpression[]): LambdaExpression;
+    Lambda(delegateType: Type, body: Expression, tailCall: boolean, parameters: ParameterExpression[] | null): LambdaExpression;
     Lambda(delegateType: Type, body: Expression, parameters: IEnumerable_1<ParameterExpression> | null): LambdaExpression;
-    Lambda(delegateType: Type, body: Expression, ...parameters: ParameterExpression[] | null): LambdaExpression;
+    Lambda(delegateType: Type, body: Expression, ...parameters: ParameterExpression[]): LambdaExpression;
+    Lambda(delegateType: Type, body: Expression, parameters: ParameterExpression[] | null): LambdaExpression;
     Lambda(delegateType: Type, body: Expression, name: string | null, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression> | null): LambdaExpression;
     Lambda(delegateType: Type, body: Expression, name: string | null, parameters: IEnumerable_1<ParameterExpression> | null): LambdaExpression;
     LeftShift(left: Expression, right: Expression, method: MethodInfo | null): BinaryExpression;
@@ -547,7 +562,8 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     MakeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
     MakeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression): DynamicExpression;
     MakeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression): DynamicExpression;
-    MakeDynamic(delegateType: Type, binder: CallSiteBinder, ...arguments: Expression[] | null): DynamicExpression;
+    MakeDynamic(delegateType: Type, binder: CallSiteBinder, ...arguments: Expression[]): DynamicExpression;
+    MakeDynamic(delegateType: Type, binder: CallSiteBinder, arguments: Expression[] | null): DynamicExpression;
     MakeGoto(kind: GotoExpressionKind, target: LabelTarget, value: Expression | null, type: Type): GotoExpression;
     MakeIndex(instance: Expression, indexer: PropertyInfo | null, arguments: IEnumerable_1<Expression> | null): IndexExpression;
     MakeMemberAccess(expression: Expression | null, member: MemberInfo): MemberExpression;
@@ -580,9 +596,11 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     NegateChecked(expression: Expression, method: MethodInfo | null): UnaryExpression;
     NegateChecked(expression: Expression): UnaryExpression;
     New(constructor: ConstructorInfo, arguments: IEnumerable_1<Expression> | null, members: IEnumerable_1<MemberInfo> | null): NewExpression;
-    New(constructor: ConstructorInfo, arguments: IEnumerable_1<Expression> | null, ...members: MemberInfo[] | null): NewExpression;
+    New(constructor: ConstructorInfo, arguments: IEnumerable_1<Expression> | null, ...members: MemberInfo[]): NewExpression;
+    New(constructor: ConstructorInfo, arguments: IEnumerable_1<Expression> | null, members: MemberInfo[] | null): NewExpression;
     New(constructor: ConstructorInfo, arguments: IEnumerable_1<Expression> | null): NewExpression;
-    New(constructor: ConstructorInfo, ...arguments: Expression[] | null): NewExpression;
+    New(constructor: ConstructorInfo, ...arguments: Expression[]): NewExpression;
+    New(constructor: ConstructorInfo, arguments: Expression[] | null): NewExpression;
     New(constructor: ConstructorInfo): NewExpression;
     New(type: Type): NewExpression;
     NewArrayBounds(type: Type, bounds: IEnumerable_1<Expression>): NewArrayExpression;
@@ -619,9 +637,11 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     PreIncrementAssign(expression: Expression): UnaryExpression;
     Property(expression: Expression | null, propertyAccessor: MethodInfo): MemberExpression;
     Property(instance: Expression | null, indexer: PropertyInfo, arguments: IEnumerable_1<Expression> | null): IndexExpression;
-    Property(instance: Expression | null, indexer: PropertyInfo, ...arguments: Expression[] | null): IndexExpression;
+    Property(instance: Expression | null, indexer: PropertyInfo, ...arguments: Expression[]): IndexExpression;
+    Property(instance: Expression | null, indexer: PropertyInfo, arguments: Expression[] | null): IndexExpression;
     Property(expression: Expression | null, property: PropertyInfo): MemberExpression;
-    Property(instance: Expression, propertyName: string, ...arguments: Expression[] | null): IndexExpression;
+    Property(instance: Expression, propertyName: string, ...arguments: Expression[]): IndexExpression;
+    Property(instance: Expression, propertyName: string, arguments: Expression[] | null): IndexExpression;
     Property(expression: Expression, propertyName: string): MemberExpression;
     Property(expression: Expression | null, type: Type, propertyName: string): MemberExpression;
     PropertyOrField(expression: Expression, propertyOrFieldName: string): MemberExpression;
@@ -651,12 +671,16 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     SubtractAssignChecked(left: Expression, right: Expression): BinaryExpression;
     SubtractChecked(left: Expression, right: Expression, method: MethodInfo | null): BinaryExpression;
     SubtractChecked(left: Expression, right: Expression): BinaryExpression;
-    Switch(switchValue: Expression, defaultBody: Expression | null, ...cases: SwitchCase[] | null): SwitchExpression;
+    Switch(switchValue: Expression, defaultBody: Expression | null, ...cases: SwitchCase[]): SwitchExpression;
+    Switch(switchValue: Expression, defaultBody: Expression | null, cases: SwitchCase[] | null): SwitchExpression;
     Switch(switchValue: Expression, defaultBody: Expression | null, comparison: MethodInfo | null, cases: IEnumerable_1<SwitchCase> | null): SwitchExpression;
-    Switch(switchValue: Expression, defaultBody: Expression | null, comparison: MethodInfo | null, ...cases: SwitchCase[] | null): SwitchExpression;
-    Switch(switchValue: Expression, ...cases: SwitchCase[] | null): SwitchExpression;
+    Switch(switchValue: Expression, defaultBody: Expression | null, comparison: MethodInfo | null, ...cases: SwitchCase[]): SwitchExpression;
+    Switch(switchValue: Expression, defaultBody: Expression | null, comparison: MethodInfo | null, cases: SwitchCase[] | null): SwitchExpression;
+    Switch(switchValue: Expression, ...cases: SwitchCase[]): SwitchExpression;
+    Switch(switchValue: Expression, cases: SwitchCase[] | null): SwitchExpression;
     Switch(type: Type | null, switchValue: Expression, defaultBody: Expression | null, comparison: MethodInfo | null, cases: IEnumerable_1<SwitchCase> | null): SwitchExpression;
-    Switch(type: Type | null, switchValue: Expression, defaultBody: Expression | null, comparison: MethodInfo | null, ...cases: SwitchCase[] | null): SwitchExpression;
+    Switch(type: Type | null, switchValue: Expression, defaultBody: Expression | null, comparison: MethodInfo | null, ...cases: SwitchCase[]): SwitchExpression;
+    Switch(type: Type | null, switchValue: Expression, defaultBody: Expression | null, comparison: MethodInfo | null, cases: SwitchCase[] | null): SwitchExpression;
     SwitchCase(body: Expression, testValues: IEnumerable_1<Expression>): SwitchCase;
     SwitchCase(body: Expression, ...testValues: Expression[]): SwitchCase;
     SymbolDocument(fileName: string, language: Guid, languageVendor: Guid, documentType: Guid): SymbolDocumentInfo;
@@ -665,8 +689,10 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
     SymbolDocument(fileName: string): SymbolDocumentInfo;
     Throw(value: Expression | null, type: Type): UnaryExpression;
     Throw(value: Expression | null): UnaryExpression;
-    TryCatch(body: Expression, ...handlers: CatchBlock[] | null): TryExpression;
-    TryCatchFinally(body: Expression, finally_: Expression | null, ...handlers: CatchBlock[] | null): TryExpression;
+    TryCatch(body: Expression, ...handlers: CatchBlock[]): TryExpression;
+    TryCatch(body: Expression, handlers: CatchBlock[] | null): TryExpression;
+    TryCatchFinally(body: Expression, finally_: Expression | null, ...handlers: CatchBlock[]): TryExpression;
+    TryCatchFinally(body: Expression, finally_: Expression | null, handlers: CatchBlock[] | null): TryExpression;
     TryFault(body: Expression, fault: Expression | null): TryExpression;
     TryFinally(body: Expression, finally_: Expression | null): TryExpression;
     TryGetActionType(typeArgs: Type[], actionType: Type | null): boolean;
@@ -684,7 +710,7 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
 
 export type Expression = Expression$instance;
 
-export interface Expression_1$instance<TDelegate> extends LambdaExpression {
+export interface Expression_1$instance<TDelegate extends unknown> extends LambdaExpression {
     readonly __tsonic_type_System_Linq_Expressions_Expression_1: never;
 
     readonly __tsonic_iface_System_Linq_Expressions_IParameterProvider: never;
@@ -704,15 +730,15 @@ export const Expression_1: {
 };
 
 
-export type Expression_1<TDelegate> = TDelegate | Expression_1$instance<TDelegate>;
+export type Expression_1<TDelegate extends unknown> = TDelegate | Expression_1$instance<TDelegate>;
 
 export interface ExpressionVisitor$instance {
     readonly __tsonic_type_System_Linq_Expressions_ExpressionVisitor: never;
 
     Visit(node: Expression | null): Expression | null;
     Visit(nodes: ReadOnlyCollection_1<Expression>): ReadOnlyCollection_1<Expression>;
-    VisitAndConvert<T extends Expression>(node: T | null, callerName: string | null): T | null;
-    VisitAndConvert<T extends Expression>(nodes: ReadOnlyCollection_1<T>, callerName: string | null): ReadOnlyCollection_1<T>;
+    VisitAndConvert<T extends unknown & Expression>(node: T | null, callerName: string | null): T | null;
+    VisitAndConvert<T extends unknown & Expression>(nodes: ReadOnlyCollection_1<T>, callerName: string | null): ReadOnlyCollection_1<T>;
     VisitBinary(node: BinaryExpression): Expression;
     VisitBlock(node: BlockExpression): Expression;
     VisitCatchBlock(node: CatchBlock): CatchBlock;
@@ -728,7 +754,7 @@ export interface ExpressionVisitor$instance {
     VisitInvocation(node: InvocationExpression): Expression;
     VisitLabel(node: LabelExpression): Expression;
     VisitLabelTarget(node: LabelTarget | null): LabelTarget | null;
-    VisitLambda<T>(node: Expression_1<T>): Expression;
+    VisitLambda<T extends unknown>(node: Expression_1<T>): Expression;
     VisitListInit(node: ListInitExpression): Expression;
     VisitLoop(node: LoopExpression): Expression;
     VisitMember(node: MemberExpression): Expression;
@@ -751,7 +777,7 @@ export interface ExpressionVisitor$instance {
 
 
 export const ExpressionVisitor: (abstract new() => ExpressionVisitor) & {
-    Visit<T>(nodes: ReadOnlyCollection_1<T>, elementVisitor: Func_2<T, T>): ReadOnlyCollection_1<T>;
+    Visit<T extends unknown>(nodes: ReadOnlyCollection_1<T>, elementVisitor: Func_2<T, T>): ReadOnlyCollection_1<T>;
 };
 
 

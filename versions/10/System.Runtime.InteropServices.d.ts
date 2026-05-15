@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Runtime.InteropServices/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { SafeHandleZeroOrMinusOneIsInvalid } from './Microsoft.Win32.SafeHandles/internal/index.js';
 import type { MemoryManager_1, ReadOnlySequence_1, ReadOnlySequenceSegment_1, SequenceReader_1 } from './System.Buffers/internal/index.js';
@@ -158,10 +162,10 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type GCHandle<
-  T1 = __,
+  T1 extends (object | null) | __ = __,
 > =
   [T1] extends [__] ? Internal.GCHandle :
-  Internal.GCHandle_1<T1>;
+  [T1] extends [(object | null)] ? Internal.GCHandle_1<T1> : never;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Runtime_InteropServices as ExtensionMethods } from './__internal/extensions/index.js';

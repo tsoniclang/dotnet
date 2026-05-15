@@ -43,7 +43,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67117656,
+          "metadataToken": 67117651,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -55,7 +55,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PreconditionSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Precondition",
-          "metadataToken": 67117657,
+          "metadataToken": 67117652,
           "normalizedSignature": "Precondition|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PostconditionSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Postcondition",
-          "metadataToken": 67117658,
+          "metadataToken": 67117653,
           "normalizedSignature": "Postcondition|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -79,7 +79,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PostconditionOnExceptionSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "PostconditionOnException",
-          "metadataToken": 67117659,
+          "metadataToken": 67117654,
           "normalizedSignature": "PostconditionOnException|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::InvariantSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Invariant",
-          "metadataToken": 67117660,
+          "metadataToken": 67117655,
           "normalizedSignature": "Invariant|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -103,7 +103,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::AssertSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Assert",
-          "metadataToken": 67117661,
+          "metadataToken": 67117656,
           "normalizedSignature": "Assert|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -115,7 +115,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::AssumeSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Assume",
-          "metadataToken": 67117662,
+          "metadataToken": 67117657,
           "normalizedSignature": "Assume|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -150,7 +150,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractAbbreviatorAttribute::.ctor():void",
-          "metadataToken": 100703167,
+          "metadataToken": 100703172,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -183,7 +183,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute::.ctor():void",
-          "metadataToken": 100703166,
+          "metadataToken": 100703171,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -214,7 +214,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassAttribute::TypeContainingContracts:System.Type",
           "clrName": "TypeContainingContracts",
-          "metadataToken": 385881085,
+          "metadataToken": 385881087,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "TypeContainingContracts|:System.Type|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -236,7 +236,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassAttribute::.ctor(System.Type):void",
-          "metadataToken": 100703155,
+          "metadataToken": 100703160,
           "canonicalSignature": "(System.Type):void",
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
@@ -267,7 +267,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassForAttribute::TypeContractsAreFor:System.Type",
           "clrName": "TypeContractsAreFor",
-          "metadataToken": 385881086,
+          "metadataToken": 385881088,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "TypeContractsAreFor|:System.Type|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -289,7 +289,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassForAttribute::.ctor(System.Type):void",
-          "metadataToken": 100703157,
+          "metadataToken": 100703162,
           "canonicalSignature": "(System.Type):void",
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
@@ -325,7 +325,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
-          "metadataToken": 100703144,
+          "metadataToken": 100703149,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -368,7 +368,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Kind:System.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Kind",
-          "metadataToken": 385881075,
+          "metadataToken": 385881077,
           "canonicalSignature": ":System.Diagnostics.Contracts.ContractFailureKind",
           "normalizedSignature": "Kind|:System.Diagnostics.Contracts.ContractFailureKind|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -387,7 +387,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Failure:System.String",
           "clrName": "Failure",
-          "metadataToken": 385881076,
+          "metadataToken": 385881078,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Failure|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -406,7 +406,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::UserMessage:System.String",
           "clrName": "UserMessage",
-          "metadataToken": 385881077,
+          "metadataToken": 385881079,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "UserMessage|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -425,7 +425,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Condition:System.String",
           "clrName": "Condition",
-          "metadataToken": 385881078,
+          "metadataToken": 385881080,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -447,7 +447,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::.ctor(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception):void",
-          "metadataToken": 100703142,
+          "metadataToken": 100703147,
           "canonicalSignature": "(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception):void",
           "normalizedSignature": "constructor|(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception):void|static=false",
           "isStatic": false,
@@ -477,7 +477,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::SetHandled():System.Void",
           "clrName": "SetHandled",
-          "metadataToken": 100703151,
+          "metadataToken": 100703156,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "SetHandled|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -497,7 +497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::SetUnwind():System.Void",
           "clrName": "SetUnwind",
-          "metadataToken": 100703153,
+          "metadataToken": 100703158,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "SetUnwind|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -519,7 +519,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Message:System.String",
           "clrName": "Message",
-          "metadataToken": 385881079,
+          "metadataToken": 385881081,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -538,7 +538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Condition:System.String",
           "clrName": "Condition",
-          "metadataToken": 385881080,
+          "metadataToken": 385881082,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -557,7 +557,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::FailureKind:System.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "FailureKind",
-          "metadataToken": 385881081,
+          "metadataToken": 385881083,
           "canonicalSignature": ":System.Diagnostics.Contracts.ContractFailureKind",
           "normalizedSignature": "FailureKind|:System.Diagnostics.Contracts.ContractFailureKind|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -576,7 +576,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::OriginalException:System.Exception",
           "clrName": "OriginalException",
-          "metadataToken": 385881082,
+          "metadataToken": 385881084,
           "canonicalSignature": ":System.Exception",
           "normalizedSignature": "OriginalException|:System.Exception|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -595,7 +595,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Handled:System.Boolean",
           "clrName": "Handled",
-          "metadataToken": 385881083,
+          "metadataToken": 385881085,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Handled|:System.Boolean|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -614,7 +614,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Unwind:System.Boolean",
           "clrName": "Unwind",
-          "metadataToken": 385881084,
+          "metadataToken": 385881086,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Unwind|:System.Boolean|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -636,7 +636,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::.ctor(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception):void",
-          "metadataToken": 100703145,
+          "metadataToken": 100703150,
           "canonicalSignature": "(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception):void",
           "normalizedSignature": "constructor|(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception):void|static=false",
           "isStatic": false,
@@ -669,7 +669,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractInvariantMethodAttribute::.ctor():void",
-          "metadataToken": 100703159,
+          "metadataToken": 100703164,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -700,7 +700,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Category:System.String",
           "clrName": "Category",
-          "metadataToken": 385881089,
+          "metadataToken": 385881091,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Category|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -719,7 +719,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Setting:System.String",
           "clrName": "Setting",
-          "metadataToken": 385881090,
+          "metadataToken": 385881092,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Setting|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -738,7 +738,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Enabled:System.Boolean",
           "clrName": "Enabled",
-          "metadataToken": 385881091,
+          "metadataToken": 385881093,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Enabled|:System.Boolean|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -757,7 +757,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Value:System.String",
           "clrName": "Value",
-          "metadataToken": 385881092,
+          "metadataToken": 385881094,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Value|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -779,7 +779,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::.ctor(System.String,System.String,System.Boolean):void",
-          "metadataToken": 100703168,
+          "metadataToken": 100703173,
           "canonicalSignature": "(System.String,System.String,System.Boolean):void",
           "normalizedSignature": "constructor|(System.String,System.String,System.Boolean):void|static=false",
           "isStatic": false,
@@ -790,7 +790,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::.ctor(System.String,System.String,System.String):void",
-          "metadataToken": 100703169,
+          "metadataToken": 100703174,
           "canonicalSignature": "(System.String,System.String,System.String):void",
           "normalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
           "isStatic": false,
@@ -821,7 +821,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute::Name:System.String",
           "clrName": "Name",
-          "metadataToken": 385881088,
+          "metadataToken": 385881090,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -843,7 +843,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute::.ctor(System.String):void",
-          "metadataToken": 100703164,
+          "metadataToken": 100703169,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -876,7 +876,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute::.ctor():void",
-          "metadataToken": 100703160,
+          "metadataToken": 100703165,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -909,7 +909,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute::.ctor():void",
-          "metadataToken": 100703161,
+          "metadataToken": 100703166,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -940,7 +940,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractVerificationAttribute::Value:System.Boolean",
           "clrName": "Value",
-          "metadataToken": 385881087,
+          "metadataToken": 385881089,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Value|:System.Boolean|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -962,7 +962,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractVerificationAttribute::.ctor(System.Boolean):void",
-          "metadataToken": 100703162,
+          "metadataToken": 100703167,
           "canonicalSignature": "(System.Boolean):void",
           "normalizedSignature": "constructor|(System.Boolean):void|static=false",
           "isStatic": false,
@@ -995,7 +995,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.PureAttribute::.ctor():void",
-          "metadataToken": 100703154,
+          "metadataToken": 100703159,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -1025,7 +1025,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assume(System.Boolean):System.Void",
           "clrName": "Assume",
-          "metadataToken": 100703174,
+          "metadataToken": 100703179,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Assume|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1045,7 +1045,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assume(System.Boolean,System.String):System.Void",
           "clrName": "Assume",
-          "metadataToken": 100703175,
+          "metadataToken": 100703180,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Assume|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1065,7 +1065,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean):System.Void",
           "clrName": "Assert",
-          "metadataToken": 100703176,
+          "metadataToken": 100703181,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Assert|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1085,7 +1085,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean,System.String):System.Void",
           "clrName": "Assert",
-          "metadataToken": 100703177,
+          "metadataToken": 100703182,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Assert|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1105,7 +1105,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean):System.Void",
           "clrName": "Requires",
-          "metadataToken": 100703178,
+          "metadataToken": 100703183,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Requires|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1125,7 +1125,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean,System.String):System.Void",
           "clrName": "Requires",
-          "metadataToken": 100703179,
+          "metadataToken": 100703184,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Requires|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1145,7 +1145,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean):System.Void",
           "clrName": "Ensures",
-          "metadataToken": 100703182,
+          "metadataToken": 100703187,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Ensures|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1165,7 +1165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean,System.String):System.Void",
           "clrName": "Ensures",
-          "metadataToken": 100703183,
+          "metadataToken": 100703188,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Ensures|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1185,7 +1185,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean):System.Void",
           "clrName": "EnsuresOnThrow",
-          "metadataToken": 100703184,
+          "metadataToken": 100703189,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "EnsuresOnThrow|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1205,7 +1205,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean,System.String):System.Void",
           "clrName": "EnsuresOnThrow",
-          "metadataToken": 100703185,
+          "metadataToken": 100703190,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "EnsuresOnThrow|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1225,7 +1225,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Result():T",
           "clrName": "Result",
-          "metadataToken": 100703186,
+          "metadataToken": 100703191,
           "canonicalSignature": "():T",
           "normalizedSignature": "Result|():T|static=true",
           "emitScope": "ClassSurface",
@@ -1245,7 +1245,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ValueAtReturn(T\u0026):T",
           "clrName": "ValueAtReturn",
-          "metadataToken": 100703187,
+          "metadataToken": 100703192,
           "canonicalSignature": "(T\u0026):T",
           "normalizedSignature": "ValueAtReturn|(T\u0026):T|static=true",
           "emitScope": "ClassSurface",
@@ -1271,7 +1271,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::OldValue(T):T",
           "clrName": "OldValue",
-          "metadataToken": 100703188,
+          "metadataToken": 100703193,
           "canonicalSignature": "(T):T",
           "normalizedSignature": "OldValue|(T):T|static=true",
           "emitScope": "ClassSurface",
@@ -1291,7 +1291,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean):System.Void",
           "clrName": "Invariant",
-          "metadataToken": 100703189,
+          "metadataToken": 100703194,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Invariant|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1311,7 +1311,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean,System.String):System.Void",
           "clrName": "Invariant",
-          "metadataToken": 100703190,
+          "metadataToken": 100703195,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Invariant|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -1331,7 +1331,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "ForAll",
-          "metadataToken": 100703191,
+          "metadataToken": 100703196,
           "canonicalSignature": "(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "ForAll|(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -1351,7 +1351,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(IEnumerable_1,Predicate_1):System.Boolean",
           "clrName": "ForAll",
-          "metadataToken": 100703192,
+          "metadataToken": 100703197,
           "canonicalSignature": "(IEnumerable_1,Predicate_1):System.Boolean",
           "normalizedSignature": "ForAll|(IEnumerable_1,Predicate_1):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -1371,7 +1371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "Exists",
-          "metadataToken": 100703193,
+          "metadataToken": 100703198,
           "canonicalSignature": "(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "Exists|(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -1391,7 +1391,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(IEnumerable_1,Predicate_1):System.Boolean",
           "clrName": "Exists",
-          "metadataToken": 100703194,
+          "metadataToken": 100703199,
           "canonicalSignature": "(IEnumerable_1,Predicate_1):System.Boolean",
           "normalizedSignature": "Exists|(IEnumerable_1,Predicate_1):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -1411,7 +1411,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EndContractBlock():System.Void",
           "clrName": "EndContractBlock",
-          "metadataToken": 100703195,
+          "metadataToken": 100703200,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "EndContractBlock|():System.Void|static=true",
           "emitScope": "ClassSurface",

@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -30,31 +30,31 @@ export interface IValueTaskSource$instance {
 
     GetResult(token: short): void;
     GetStatus(token: short): ValueTaskSourceStatus;
-    OnCompleted(continuation: Action_1<JsValue | null>, state: JsValue | null, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
+    OnCompleted(continuation: Action_1<unknown | null>, state: unknown | null, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
 }
 
 
 export type IValueTaskSource = IValueTaskSource$instance;
 
-export interface IValueTaskSource_1$instance<TResult> {
+export interface IValueTaskSource_1$instance<TResult extends unknown> {
     readonly __tsonic_iface_System_Threading_Tasks_Sources_IValueTaskSource_1: never;
 
     GetResult(token: short): TResult;
     GetStatus(token: short): ValueTaskSourceStatus;
-    OnCompleted(continuation: Action_1<JsValue | null>, state: JsValue | null, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
+    OnCompleted(continuation: Action_1<unknown | null>, state: unknown | null, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
 }
 
 
-export type IValueTaskSource_1<TResult> = IValueTaskSource_1$instance<TResult>;
+export type IValueTaskSource_1<TResult extends unknown> = IValueTaskSource_1$instance<TResult>;
 
-export interface ManualResetValueTaskSourceCore_1$instance<TResult> {
+export interface ManualResetValueTaskSourceCore_1$instance<TResult extends unknown> {
     readonly __tsonic_type_System_Threading_Tasks_Sources_ManualResetValueTaskSourceCore_1: never;
 
     RunContinuationsAsynchronously: boolean;
     readonly Version: short;
     GetResult(token: short): TResult;
     GetStatus(token: short): ValueTaskSourceStatus;
-    OnCompleted(continuation: Action_1<JsValue | null>, state: JsValue | null, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
+    OnCompleted(continuation: Action_1<unknown | null>, state: unknown | null, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
     Reset(): void;
     SetException(error: Exception): void;
     SetResult(result: TResult): void;
@@ -62,9 +62,9 @@ export interface ManualResetValueTaskSourceCore_1$instance<TResult> {
 
 
 export const ManualResetValueTaskSourceCore_1: {
-    new<TResult>(): ManualResetValueTaskSourceCore_1<TResult>;
+    new<TResult extends unknown>(): ManualResetValueTaskSourceCore_1<TResult>;
 };
 
 
-export type ManualResetValueTaskSourceCore_1<TResult> = ManualResetValueTaskSourceCore_1$instance<TResult>;
+export type ManualResetValueTaskSourceCore_1<TResult extends unknown> = ManualResetValueTaskSourceCore_1$instance<TResult>;
 

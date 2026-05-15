@@ -43,7 +43,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::value__System.Byte",
           "clrName": "value__",
-          "metadataToken": 67113418,
+          "metadataToken": 67113413,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -55,7 +55,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedEqualNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedEqualNonSignaling",
-          "metadataToken": 67113419,
+          "metadataToken": 67113414,
           "normalizedSignature": "OrderedEqualNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedLessThanSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedLessThanSignaling",
-          "metadataToken": 67113420,
+          "metadataToken": 67113415,
           "normalizedSignature": "OrderedLessThanSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -79,7 +79,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedLessThanOrEqualSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedLessThanOrEqualSignaling",
-          "metadataToken": 67113421,
+          "metadataToken": 67113416,
           "normalizedSignature": "OrderedLessThanOrEqualSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNonSignaling",
-          "metadataToken": 67113422,
+          "metadataToken": 67113417,
           "normalizedSignature": "UnorderedNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -103,7 +103,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNotEqualNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNotEqualNonSignaling",
-          "metadataToken": 67113423,
+          "metadataToken": 67113418,
           "normalizedSignature": "UnorderedNotEqualNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -115,7 +115,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNotLessThanSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNotLessThanSignaling",
-          "metadataToken": 67113424,
+          "metadataToken": 67113419,
           "normalizedSignature": "UnorderedNotLessThanSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -127,7 +127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNotLessThanOrEqualSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNotLessThanOrEqualSignaling",
-          "metadataToken": 67113425,
+          "metadataToken": 67113420,
           "normalizedSignature": "UnorderedNotLessThanOrEqualSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -139,7 +139,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedNonSignaling",
-          "metadataToken": 67113426,
+          "metadataToken": 67113421,
           "normalizedSignature": "OrderedNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -151,7 +151,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedEqualNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedEqualNonSignaling",
-          "metadataToken": 67113427,
+          "metadataToken": 67113422,
           "normalizedSignature": "UnorderedEqualNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -163,7 +163,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNotGreaterThanOrEqualSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNotGreaterThanOrEqualSignaling",
-          "metadataToken": 67113428,
+          "metadataToken": 67113423,
           "normalizedSignature": "UnorderedNotGreaterThanOrEqualSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -175,7 +175,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNotGreaterThanSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNotGreaterThanSignaling",
-          "metadataToken": 67113429,
+          "metadataToken": 67113424,
           "normalizedSignature": "UnorderedNotGreaterThanSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -187,7 +187,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedFalseNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedFalseNonSignaling",
-          "metadataToken": 67113430,
+          "metadataToken": 67113425,
           "normalizedSignature": "OrderedFalseNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -199,7 +199,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedNotEqualNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedNotEqualNonSignaling",
-          "metadataToken": 67113431,
+          "metadataToken": 67113426,
           "normalizedSignature": "OrderedNotEqualNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -211,7 +211,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedGreaterThanOrEqualSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedGreaterThanOrEqualSignaling",
-          "metadataToken": 67113432,
+          "metadataToken": 67113427,
           "normalizedSignature": "OrderedGreaterThanOrEqualSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -223,7 +223,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedGreaterThanSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedGreaterThanSignaling",
-          "metadataToken": 67113433,
+          "metadataToken": 67113428,
           "normalizedSignature": "OrderedGreaterThanSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -235,7 +235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedTrueNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedTrueNonSignaling",
-          "metadataToken": 67113434,
+          "metadataToken": 67113429,
           "normalizedSignature": "UnorderedTrueNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -247,7 +247,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedEqualSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedEqualSignaling",
-          "metadataToken": 67113435,
+          "metadataToken": 67113430,
           "normalizedSignature": "OrderedEqualSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -259,7 +259,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedLessThanNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedLessThanNonSignaling",
-          "metadataToken": 67113436,
+          "metadataToken": 67113431,
           "normalizedSignature": "OrderedLessThanNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -271,7 +271,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedLessThanOrEqualNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedLessThanOrEqualNonSignaling",
-          "metadataToken": 67113437,
+          "metadataToken": 67113432,
           "normalizedSignature": "OrderedLessThanOrEqualNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -283,7 +283,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedSignaling",
-          "metadataToken": 67113438,
+          "metadataToken": 67113433,
           "normalizedSignature": "UnorderedSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -295,7 +295,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNotEqualSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNotEqualSignaling",
-          "metadataToken": 67113439,
+          "metadataToken": 67113434,
           "normalizedSignature": "UnorderedNotEqualSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -307,7 +307,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNotLessThanNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNotLessThanNonSignaling",
-          "metadataToken": 67113440,
+          "metadataToken": 67113435,
           "normalizedSignature": "UnorderedNotLessThanNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -319,7 +319,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNotLessThanOrEqualNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNotLessThanOrEqualNonSignaling",
-          "metadataToken": 67113441,
+          "metadataToken": 67113436,
           "normalizedSignature": "UnorderedNotLessThanOrEqualNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -331,7 +331,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedSignaling",
-          "metadataToken": 67113442,
+          "metadataToken": 67113437,
           "normalizedSignature": "OrderedSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -343,7 +343,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedEqualSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedEqualSignaling",
-          "metadataToken": 67113443,
+          "metadataToken": 67113438,
           "normalizedSignature": "UnorderedEqualSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -355,7 +355,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNotGreaterThanOrEqualNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNotGreaterThanOrEqualNonSignaling",
-          "metadataToken": 67113444,
+          "metadataToken": 67113439,
           "normalizedSignature": "UnorderedNotGreaterThanOrEqualNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -367,7 +367,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedNotGreaterThanNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedNotGreaterThanNonSignaling",
-          "metadataToken": 67113445,
+          "metadataToken": 67113440,
           "normalizedSignature": "UnorderedNotGreaterThanNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -379,7 +379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedFalseSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedFalseSignaling",
-          "metadataToken": 67113446,
+          "metadataToken": 67113441,
           "normalizedSignature": "OrderedFalseSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -391,7 +391,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedNotEqualSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedNotEqualSignaling",
-          "metadataToken": 67113447,
+          "metadataToken": 67113442,
           "normalizedSignature": "OrderedNotEqualSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -403,7 +403,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedGreaterThanOrEqualNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedGreaterThanOrEqualNonSignaling",
-          "metadataToken": 67113448,
+          "metadataToken": 67113443,
           "normalizedSignature": "OrderedGreaterThanOrEqualNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -415,7 +415,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::OrderedGreaterThanNonSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "OrderedGreaterThanNonSignaling",
-          "metadataToken": 67113449,
+          "metadataToken": 67113444,
           "normalizedSignature": "OrderedGreaterThanNonSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -427,7 +427,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatComparisonMode::UnorderedTrueSignalingSystem.Runtime.Intrinsics.X86.FloatComparisonMode",
           "clrName": "UnorderedTrueSignaling",
-          "metadataToken": 67113450,
+          "metadataToken": 67113445,
           "normalizedSignature": "UnorderedTrueSignaling|System.Runtime.Intrinsics.X86.FloatComparisonMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -479,7 +479,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatRoundingMode::value__System.Byte",
           "clrName": "value__",
-          "metadataToken": 67113451,
+          "metadataToken": 67113446,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -491,7 +491,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatRoundingMode::ToEvenSystem.Runtime.Intrinsics.X86.FloatRoundingMode",
           "clrName": "ToEven",
-          "metadataToken": 67113452,
+          "metadataToken": 67113447,
           "normalizedSignature": "ToEven|System.Runtime.Intrinsics.X86.FloatRoundingMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -503,7 +503,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatRoundingMode::ToNegativeInfinitySystem.Runtime.Intrinsics.X86.FloatRoundingMode",
           "clrName": "ToNegativeInfinity",
-          "metadataToken": 67113453,
+          "metadataToken": 67113448,
           "normalizedSignature": "ToNegativeInfinity|System.Runtime.Intrinsics.X86.FloatRoundingMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -515,7 +515,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatRoundingMode::ToPositiveInfinitySystem.Runtime.Intrinsics.X86.FloatRoundingMode",
           "clrName": "ToPositiveInfinity",
-          "metadataToken": 67113454,
+          "metadataToken": 67113449,
           "normalizedSignature": "ToPositiveInfinity|System.Runtime.Intrinsics.X86.FloatRoundingMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -527,7 +527,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.X86.FloatRoundingMode::ToZeroSystem.Runtime.Intrinsics.X86.FloatRoundingMode",
           "clrName": "ToZero",
-          "metadataToken": 67113455,
+          "metadataToken": 67113450,
           "normalizedSignature": "ToZero|System.Runtime.Intrinsics.X86.FloatRoundingMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

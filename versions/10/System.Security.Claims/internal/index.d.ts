@@ -3,7 +3,7 @@
 // Assembly: System.Security.Claims
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -55,8 +55,8 @@ export interface ClaimsIdentity$instance extends System_Security_Principal_Inter
     get Actor(): ClaimsIdentity | null;
     set Actor(value: ClaimsIdentity | null);
     readonly AuthenticationType: string | string | null;
-    get BootstrapContext(): JsValue | null;
-    set BootstrapContext(value: JsValue | null);
+    get BootstrapContext(): unknown | null;
+    set BootstrapContext(value: unknown | null);
     readonly Claims: IEnumerable_1<Claim>;
     readonly CustomSerializationData: byte[] | null;
     readonly IsAuthenticated: boolean;

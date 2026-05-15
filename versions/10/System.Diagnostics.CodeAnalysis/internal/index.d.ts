@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -60,10 +60,10 @@ export type AllowNullAttribute = AllowNullAttribute$instance;
 export interface ConstantExpectedAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_ConstantExpectedAttribute: never;
 
-    get Max(): JsValue | null;
-    set Max(value: JsValue | null);
-    get Min(): JsValue | null;
-    set Min(value: JsValue | null);
+    get Max(): unknown | null;
+    set Max(value: unknown | null);
+    get Min(): unknown | null;
+    set Min(value: unknown | null);
 }
 
 
@@ -379,14 +379,14 @@ export type SetsRequiredMembersAttribute = SetsRequiredMembersAttribute$instance
 export interface StringSyntaxAttribute$instance extends Attribute {
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_StringSyntaxAttribute: never;
 
-    readonly Arguments: (JsValue | null)[];
+    readonly Arguments: (unknown | null)[];
     readonly Syntax: string;
 }
 
 
 export const StringSyntaxAttribute: {
     new(syntax: string): StringSyntaxAttribute;
-    new(syntax: string, arguments: (JsValue | null)[]): StringSyntaxAttribute;
+    new(syntax: string, arguments: (unknown | null)[]): StringSyntaxAttribute;
     readonly CompositeFormat: string;
     readonly DateOnlyFormat: string;
     readonly DateTimeFormat: string;

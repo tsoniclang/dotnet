@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -52,7 +52,7 @@ export const SwiftSelf: {
 
 export type SwiftSelf = SwiftSelf$instance;
 
-export interface SwiftSelf_1$instance<T extends NonNullable<JsValue>> {
+export interface SwiftSelf_1$instance<T extends NonNullable<unknown>> {
     readonly __tsonic_type_System_Runtime_InteropServices_Swift_SwiftSelf_1: never;
 
     readonly Value: T;
@@ -60,9 +60,9 @@ export interface SwiftSelf_1$instance<T extends NonNullable<JsValue>> {
 
 
 export const SwiftSelf_1: {
-    new<T extends NonNullable<JsValue>>(value: T): SwiftSelf_1<T>;
+    new<T extends NonNullable<unknown>>(value: T): SwiftSelf_1<T>;
 };
 
 
-export type SwiftSelf_1<T> = SwiftSelf_1$instance<T>;
+export type SwiftSelf_1<T extends NonNullable<unknown>> = SwiftSelf_1$instance<T>;
 

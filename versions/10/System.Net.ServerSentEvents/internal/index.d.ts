@@ -3,7 +3,7 @@
 // Assembly: System.Net.ServerSentEvents
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -18,10 +18,10 @@ import type { CancellationToken } from "../../System.Threading/internal/index.js
 import * as System_Internal from "../../System/internal/index.js";
 import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, IAsyncResult, ICloneable, Int32, IntPtr, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, ValueType, Void } from "../../System/internal/index.js";
 
-export type SseItemParser_1<T> = (eventType: string, data: ReadOnlySpan_1<System_Internal.Byte>) => T;
+export type SseItemParser_1<T extends unknown> = (eventType: string, data: ReadOnlySpan_1<System_Internal.Byte>) => T;
 
 
-export interface SseItem_1$instance<T> {
+export interface SseItem_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Net_ServerSentEvents_SseItem_1: never;
 
     readonly Data: T;
@@ -34,13 +34,13 @@ export interface SseItem_1$instance<T> {
 
 
 export const SseItem_1: {
-    new<T>(data: T, eventType: string | null): SseItem_1<T>;
+    new<T extends unknown>(data: T, eventType: string | null): SseItem_1<T>;
 };
 
 
-export type SseItem_1<T> = SseItem_1$instance<T>;
+export type SseItem_1<T extends unknown> = SseItem_1$instance<T>;
 
-export interface SseParser_1$instance<T> {
+export interface SseParser_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Net_ServerSentEvents_SseParser_1: never;
 
     LastEventId: string;
@@ -54,10 +54,10 @@ export const SseParser_1: {
 };
 
 
-export type SseParser_1<T> = SseParser_1$instance<T>;
+export type SseParser_1<T extends unknown> = SseParser_1$instance<T>;
 
 export abstract class SseFormatter$instance {
-    static WriteAsync<T>(source: IAsyncEnumerable_1<SseItem_1<T>>, destination: Stream, itemFormatter: Action_2<SseItem_1<T>, IBufferWriter_1<System_Internal.Byte>>, cancellationToken?: CancellationToken): Task;
+    static WriteAsync<T extends unknown>(source: IAsyncEnumerable_1<SseItem_1<T>>, destination: Stream, itemFormatter: Action_2<SseItem_1<T>, IBufferWriter_1<System_Internal.Byte>>, cancellationToken?: CancellationToken): Task;
     static WriteAsync(source: IAsyncEnumerable_1<SseItem_1<System_Internal.String>>, destination: Stream, cancellationToken?: CancellationToken): Task;
 }
 
@@ -66,7 +66,7 @@ export type SseFormatter = SseFormatter$instance;
 
 export abstract class SseParser$instance {
     static readonly EventTypeDefault: string;
-    static Create<T>(sseStream: Stream, itemParser: SseItemParser_1<T>): SseParser_1<T>;
+    static Create<T extends unknown>(sseStream: Stream, itemParser: SseItemParser_1<T>): SseParser_1<T>;
     static Create(sseStream: Stream): SseParser_1<System_Internal.String>;
 }
 

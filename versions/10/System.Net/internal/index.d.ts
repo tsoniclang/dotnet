@@ -3,7 +3,7 @@
 // Assembly: System.Net.HttpListener, System.Net.NameResolution, System.Net.Primitives, System.Net.Requests, System.Net.WebClient, System.Net.WebHeaderCollection, System.Net.WebProxy, System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -296,40 +296,40 @@ export type AuthenticationSchemeSelector = (httpRequest: HttpListenerRequest) =>
 export type BindIPEndPoint = (servicePoint: ServicePoint, remoteEndPoint: IPEndPoint, retryCount: int) => IPEndPoint;
 
 
-export type DownloadDataCompletedEventHandler = (sender: JsValue, e: DownloadDataCompletedEventArgs) => void;
+export type DownloadDataCompletedEventHandler = (sender: unknown, e: DownloadDataCompletedEventArgs) => void;
 
 
-export type DownloadProgressChangedEventHandler = (sender: JsValue, e: DownloadProgressChangedEventArgs) => void;
+export type DownloadProgressChangedEventHandler = (sender: unknown, e: DownloadProgressChangedEventArgs) => void;
 
 
-export type DownloadStringCompletedEventHandler = (sender: JsValue, e: DownloadStringCompletedEventArgs) => void;
+export type DownloadStringCompletedEventHandler = (sender: unknown, e: DownloadStringCompletedEventArgs) => void;
 
 
 export type HttpContinueDelegate = (StatusCode: int, httpHeaders: WebHeaderCollection) => void;
 
 
-export type OpenReadCompletedEventHandler = (sender: JsValue, e: OpenReadCompletedEventArgs) => void;
+export type OpenReadCompletedEventHandler = (sender: unknown, e: OpenReadCompletedEventArgs) => void;
 
 
-export type OpenWriteCompletedEventHandler = (sender: JsValue, e: OpenWriteCompletedEventArgs) => void;
+export type OpenWriteCompletedEventHandler = (sender: unknown, e: OpenWriteCompletedEventArgs) => void;
 
 
-export type UploadDataCompletedEventHandler = (sender: JsValue, e: UploadDataCompletedEventArgs) => void;
+export type UploadDataCompletedEventHandler = (sender: unknown, e: UploadDataCompletedEventArgs) => void;
 
 
-export type UploadFileCompletedEventHandler = (sender: JsValue, e: UploadFileCompletedEventArgs) => void;
+export type UploadFileCompletedEventHandler = (sender: unknown, e: UploadFileCompletedEventArgs) => void;
 
 
-export type UploadProgressChangedEventHandler = (sender: JsValue, e: UploadProgressChangedEventArgs) => void;
+export type UploadProgressChangedEventHandler = (sender: unknown, e: UploadProgressChangedEventArgs) => void;
 
 
-export type UploadStringCompletedEventHandler = (sender: JsValue, e: UploadStringCompletedEventArgs) => void;
+export type UploadStringCompletedEventHandler = (sender: unknown, e: UploadStringCompletedEventArgs) => void;
 
 
-export type UploadValuesCompletedEventHandler = (sender: JsValue, e: UploadValuesCompletedEventArgs) => void;
+export type UploadValuesCompletedEventHandler = (sender: unknown, e: UploadValuesCompletedEventArgs) => void;
 
 
-export type WriteStreamClosedEventHandler = (sender: JsValue, e: WriteStreamClosedEventArgs) => void;
+export type WriteStreamClosedEventHandler = (sender: unknown, e: WriteStreamClosedEventArgs) => void;
 
 
 export interface IAuthenticationModule$instance {
@@ -418,7 +418,7 @@ export interface IPNetwork$instance extends System_Internal.ISpanParsable_1$inst
     readonly PrefixLength: int;
     Contains(address: IPAddress): boolean;
     Equals(other: IPNetwork): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
     TryFormat(destination: Span_1<System_Internal.Char>, charsWritten: int): boolean;
@@ -514,7 +514,7 @@ export interface Cookie$instance {
     readonly TimeStamp: DateTime;
     Value: string;
     Version: int;
-    Equals(comparand: JsValue | null): boolean;
+    Equals(comparand: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -542,7 +542,7 @@ export interface CookieCollection$instance {
     readonly Count: int;
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     Add(cookie: Cookie): void;
     Add(cookies: CookieCollection): void;
     Clear(): void;
@@ -602,7 +602,7 @@ export const CookieContainer: {
 
 export type CookieContainer = CookieContainer$instance;
 
-export interface CookieException$instance extends FormatException {
+export interface CookieException$instance extends FormatException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_CookieException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -664,7 +664,7 @@ export interface DnsEndPoint$instance extends EndPoint {
     readonly AddressFamily: AddressFamily;
     readonly Host: string;
     readonly Port: int;
-    Equals(comparand: JsValue | null): boolean;
+    Equals(comparand: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -733,7 +733,7 @@ export const EndPoint: (abstract new() => EndPoint) & {
 
 export type EndPoint = EndPoint$instance;
 
-export interface FileWebRequest$instance extends WebRequest$instance {
+export interface FileWebRequest$instance extends WebRequest$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_FileWebRequest: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -754,8 +754,8 @@ export interface FileWebRequest$instance extends WebRequest$instance {
     Timeout: int;
     UseDefaultCredentials: boolean;
     Abort(): void;
-    BeginGetRequestStream(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginGetResponse(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginGetRequestStream(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginGetResponse(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
@@ -777,7 +777,7 @@ export interface __FileWebRequest$views {
 export type FileWebRequest = FileWebRequest$instance & __FileWebRequest$views;
 
 
-export interface FileWebResponse$instance extends WebResponse$instance {
+export interface FileWebResponse$instance extends WebResponse$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_FileWebResponse: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -839,8 +839,8 @@ export interface FtpWebRequest$instance extends WebRequest$instance, System_Runt
     UseDefaultCredentials: boolean;
     UsePassive: boolean;
     Abort(): void;
-    BeginGetRequestStream(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginGetResponse(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginGetRequestStream(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginGetResponse(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
     GetRequestStream(): Stream;
@@ -929,7 +929,7 @@ export interface HttpListener$instance extends System_Internal.IDisposable$insta
     readonly TimeoutManager: HttpListenerTimeoutManager;
     UnsafeConnectionNtlmAuthentication: boolean;
     Abort(): void;
-    BeginGetContext(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginGetContext(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     Close(): void;
     EndGetContext(asyncResult: IAsyncResult): HttpListenerContext;
     GetContext(): HttpListenerContext;
@@ -995,7 +995,7 @@ export const HttpListenerContext: {
 
 export type HttpListenerContext = HttpListenerContext$instance;
 
-export interface HttpListenerException$instance extends Win32Exception {
+export interface HttpListenerException$instance extends Win32Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_HttpListenerException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1083,7 +1083,7 @@ export interface HttpListenerRequest$instance {
     readonly UserHostAddress: string;
     readonly UserHostName: string;
     readonly UserLanguages: string[] | null;
-    BeginGetClientCertificate(requestCallback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginGetClientCertificate(requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     EndGetClientCertificate(asyncResult: IAsyncResult): X509Certificate2 | null;
     GetClientCertificate(): X509Certificate2 | null;
     GetClientCertificateAsync(): Task_1<X509Certificate2 | null>;
@@ -1157,7 +1157,7 @@ export const HttpListenerTimeoutManager: {
 
 export type HttpListenerTimeoutManager = HttpListenerTimeoutManager$instance;
 
-export interface HttpWebRequest$instance extends WebRequest$instance {
+export interface HttpWebRequest$instance extends WebRequest$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_HttpWebRequest: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1227,8 +1227,8 @@ export interface HttpWebRequest$instance extends WebRequest$instance {
     AddRange(rangeSpecifier: string, from: long, to: long): void;
     AddRange(rangeSpecifier: string, range: int): void;
     AddRange(rangeSpecifier: string, range: long): void;
-    BeginGetRequestStream(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginGetResponse(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginGetRequestStream(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginGetResponse(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult, context: TransportContext | null): Stream;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
@@ -1254,7 +1254,7 @@ export interface __HttpWebRequest$views {
 export type HttpWebRequest = HttpWebRequest$instance & __HttpWebRequest$views;
 
 
-export interface HttpWebResponse$instance extends WebResponse$instance {
+export interface HttpWebResponse$instance extends WebResponse$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_HttpWebResponse: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1316,7 +1316,7 @@ export interface IPAddress$instance extends System_Internal.ISpanParsable_1$inst
     readonly IsIPv6Teredo: boolean;
     readonly IsIPv6UniqueLocal: boolean;
     ScopeId: long;
-    Equals(comparand: JsValue | null): boolean;
+    Equals(comparand: unknown | null): boolean;
     GetAddressBytes(): byte[];
     GetHashCode(): int;
     MapToIPv4(): IPAddress;
@@ -1381,7 +1381,7 @@ export interface IPEndPoint$instance extends EndPoint {
     readonly AddressFamily: AddressFamily;
     Port: int;
     Create(socketAddress: SocketAddress): EndPoint;
-    Equals(comparand: JsValue | null): boolean;
+    Equals(comparand: unknown | null): boolean;
     GetHashCode(): int;
     Serialize(): SocketAddress;
     ToString(): string;
@@ -1489,7 +1489,7 @@ export const PathList: {
 
 export type PathList = PathList$instance;
 
-export interface ProtocolViolationException$instance extends InvalidOperationException {
+export interface ProtocolViolationException$instance extends InvalidOperationException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_ProtocolViolationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1581,7 +1581,7 @@ export interface SocketAddress$instance {
     readonly Buffer: Memory_1<System_Internal.Byte>;
     readonly Family: AddressFamily;
     Size: int;
-    Equals(comparand: JsValue | null): boolean;
+    Equals(comparand: unknown | null): boolean;
     Equals(comparand: SocketAddress | null): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -1711,19 +1711,19 @@ export interface WebClient$instance extends Component {
     DownloadData(address: string): byte[];
     DownloadData(address: Uri): byte[];
     DownloadDataAsync(address: Uri): void;
-    DownloadDataAsync(address: Uri, userToken: JsValue | null): void;
+    DownloadDataAsync(address: Uri, userToken: unknown | null): void;
     DownloadDataTaskAsync(address: string): Task_1<byte[]>;
     DownloadDataTaskAsync(address: Uri): Task_1<byte[]>;
     DownloadFile(address: string, fileName: string): void;
     DownloadFile(address: Uri, fileName: string): void;
     DownloadFileAsync(address: Uri, fileName: string): void;
-    DownloadFileAsync(address: Uri, fileName: string, userToken: JsValue | null): void;
+    DownloadFileAsync(address: Uri, fileName: string, userToken: unknown | null): void;
     DownloadFileTaskAsync(address: string, fileName: string): Task;
     DownloadFileTaskAsync(address: Uri, fileName: string): Task;
     DownloadString(address: string): string;
     DownloadString(address: Uri): string;
     DownloadStringAsync(address: Uri): void;
-    DownloadStringAsync(address: Uri, userToken: JsValue | null): void;
+    DownloadStringAsync(address: Uri, userToken: unknown | null): void;
     DownloadStringTaskAsync(address: string): Task_1<System_Internal.String>;
     DownloadStringTaskAsync(address: Uri): Task_1<System_Internal.String>;
     GetWebRequest(address: Uri): WebRequest;
@@ -1744,7 +1744,7 @@ export interface WebClient$instance extends Component {
     OpenRead(address: string): Stream;
     OpenRead(address: Uri): Stream;
     OpenReadAsync(address: Uri): void;
-    OpenReadAsync(address: Uri, userToken: JsValue | null): void;
+    OpenReadAsync(address: Uri, userToken: unknown | null): void;
     OpenReadTaskAsync(address: string): Task_1<Stream>;
     OpenReadTaskAsync(address: Uri): Task_1<Stream>;
     OpenWrite(address: string): Stream;
@@ -1753,7 +1753,7 @@ export interface WebClient$instance extends Component {
     OpenWrite(address: Uri, method: string | null): Stream;
     OpenWriteAsync(address: Uri): void;
     OpenWriteAsync(address: Uri, method: string | null): void;
-    OpenWriteAsync(address: Uri, method: string | null, userToken: JsValue | null): void;
+    OpenWriteAsync(address: Uri, method: string | null, userToken: unknown | null): void;
     OpenWriteTaskAsync(address: string): Task_1<Stream>;
     OpenWriteTaskAsync(address: Uri): Task_1<Stream>;
     OpenWriteTaskAsync(address: string, method: string | null): Task_1<Stream>;
@@ -1764,7 +1764,7 @@ export interface WebClient$instance extends Component {
     UploadData(address: Uri, method: string | null, data: byte[]): byte[];
     UploadDataAsync(address: Uri, data: byte[]): void;
     UploadDataAsync(address: Uri, method: string | null, data: byte[]): void;
-    UploadDataAsync(address: Uri, method: string | null, data: byte[], userToken: JsValue | null): void;
+    UploadDataAsync(address: Uri, method: string | null, data: byte[], userToken: unknown | null): void;
     UploadDataTaskAsync(address: string, data: byte[]): Task_1<byte[]>;
     UploadDataTaskAsync(address: Uri, data: byte[]): Task_1<byte[]>;
     UploadDataTaskAsync(address: string, method: string | null, data: byte[]): Task_1<byte[]>;
@@ -1775,7 +1775,7 @@ export interface WebClient$instance extends Component {
     UploadFile(address: Uri, method: string | null, fileName: string): byte[];
     UploadFileAsync(address: Uri, fileName: string): void;
     UploadFileAsync(address: Uri, method: string | null, fileName: string): void;
-    UploadFileAsync(address: Uri, method: string | null, fileName: string, userToken: JsValue | null): void;
+    UploadFileAsync(address: Uri, method: string | null, fileName: string, userToken: unknown | null): void;
     UploadFileTaskAsync(address: string, fileName: string): Task_1<byte[]>;
     UploadFileTaskAsync(address: Uri, fileName: string): Task_1<byte[]>;
     UploadFileTaskAsync(address: string, method: string | null, fileName: string): Task_1<byte[]>;
@@ -1786,7 +1786,7 @@ export interface WebClient$instance extends Component {
     UploadString(address: Uri, method: string | null, data: string): string;
     UploadStringAsync(address: Uri, data: string): void;
     UploadStringAsync(address: Uri, method: string | null, data: string): void;
-    UploadStringAsync(address: Uri, method: string | null, data: string, userToken: JsValue | null): void;
+    UploadStringAsync(address: Uri, method: string | null, data: string, userToken: unknown | null): void;
     UploadStringTaskAsync(address: string, data: string): Task_1<System_Internal.String>;
     UploadStringTaskAsync(address: Uri, data: string): Task_1<System_Internal.String>;
     UploadStringTaskAsync(address: string, method: string | null, data: string): Task_1<System_Internal.String>;
@@ -1797,7 +1797,7 @@ export interface WebClient$instance extends Component {
     UploadValues(address: Uri, method: string | null, data: NameValueCollection): byte[];
     UploadValuesAsync(address: Uri, data: NameValueCollection): void;
     UploadValuesAsync(address: Uri, method: string | null, data: NameValueCollection): void;
-    UploadValuesAsync(address: Uri, method: string | null, data: NameValueCollection, userToken: JsValue | null): void;
+    UploadValuesAsync(address: Uri, method: string | null, data: NameValueCollection, userToken: unknown | null): void;
     UploadValuesTaskAsync(address: string, data: NameValueCollection): Task_1<byte[]>;
     UploadValuesTaskAsync(address: string, method: string | null, data: NameValueCollection): Task_1<byte[]>;
     UploadValuesTaskAsync(address: Uri, data: NameValueCollection): Task_1<byte[]>;
@@ -1818,7 +1818,7 @@ export interface __WebClient$views {
 export type WebClient = WebClient$instance & __WebClient$views;
 
 
-export interface WebException$instance extends InvalidOperationException {
+export interface WebException$instance extends InvalidOperationException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_WebException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1845,7 +1845,7 @@ export interface __WebException$views {
 export type WebException = WebException$instance & __WebException$views;
 
 
-export interface WebHeaderCollection$instance extends NameValueCollection {
+export interface WebHeaderCollection$instance extends NameValueCollection, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Net_WebHeaderCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -1873,7 +1873,7 @@ export interface WebHeaderCollection$instance extends NameValueCollection {
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
     GetValues(index: int): string[] | null;
     GetValues(header: string): string[] | null;
-    OnDeserialization(sender: JsValue | null): void;
+    OnDeserialization(sender: unknown | null): void;
     Remove(header: HttpRequestHeader): void;
     Remove(header: HttpResponseHeader): void;
     Remove(name: string): void;
@@ -1973,8 +1973,8 @@ export interface WebRequest$instance extends MarshalByRefObject, System_Runtime_
     Timeout: int;
     UseDefaultCredentials: boolean;
     Abort(): void;
-    BeginGetRequestStream(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginGetResponse(callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginGetRequestStream(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginGetResponse(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     EndGetRequestStream(asyncResult: IAsyncResult): Stream;
     EndGetResponse(asyncResult: IAsyncResult): WebResponse;
     GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
@@ -2055,11 +2055,11 @@ export const WriteStreamClosedEventArgs: {
 export type WriteStreamClosedEventArgs = WriteStreamClosedEventArgs$instance;
 
 export abstract class Dns$instance {
-    static BeginGetHostAddresses(hostNameOrAddress: string, requestCallback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    static BeginGetHostByName(hostName: string, requestCallback: AsyncCallback | null, stateObject: JsValue | null): IAsyncResult;
-    static BeginGetHostEntry(address: IPAddress, requestCallback: AsyncCallback | null, stateObject: JsValue | null): IAsyncResult;
-    static BeginGetHostEntry(hostNameOrAddress: string, requestCallback: AsyncCallback | null, stateObject: JsValue | null): IAsyncResult;
-    static BeginResolve(hostName: string, requestCallback: AsyncCallback | null, stateObject: JsValue | null): IAsyncResult;
+    static BeginGetHostAddresses(hostNameOrAddress: string, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    static BeginGetHostByName(hostName: string, requestCallback: AsyncCallback | null, stateObject: unknown | null): IAsyncResult;
+    static BeginGetHostEntry(address: IPAddress, requestCallback: AsyncCallback | null, stateObject: unknown | null): IAsyncResult;
+    static BeginGetHostEntry(hostNameOrAddress: string, requestCallback: AsyncCallback | null, stateObject: unknown | null): IAsyncResult;
+    static BeginResolve(hostName: string, requestCallback: AsyncCallback | null, stateObject: unknown | null): IAsyncResult;
     static EndGetHostAddresses(asyncResult: IAsyncResult): IPAddress[];
     static EndGetHostByName(asyncResult: IAsyncResult): IPHostEntry;
     static EndGetHostEntry(asyncResult: IAsyncResult): IPHostEntry;

@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Collections.Generic/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { ReadOnlyCollection_1, ReadOnlyDictionary_2, ReadOnlySet_1 } from './System.Collections.ObjectModel/internal/index.js';
 import type { ICollection as ICollection_Imported, IComparer as IComparer_Imported, IDictionary as IDictionary_Imported, IDictionaryEnumerator, IEnumerable as IEnumerable_Imported, IEnumerator as IEnumerator_Imported, IEqualityComparer as IEqualityComparer_Imported, IList as IList_Imported } from './System.Collections/internal/index.js';
@@ -37,21 +41,21 @@ export { NullableComparer_1 as NullableComparer } from './System.Collections.Gen
 export { ObjectComparer_1 as ObjectComparer } from './System.Collections.Generic/internal/index.js';
 export { Dictionary_2 as Dictionary } from './System.Collections.Generic/internal/index.js';
 export { HashSet_1 as HashSet } from './System.Collections.Generic/internal/index.js';
-export type IAlternateEqualityComparer<TAlternate, T> = Internal.IAlternateEqualityComparer_2<TAlternate, T>;
-export type IAsyncEnumerable<T> = Internal.IAsyncEnumerable_1<T>;
-export type IAsyncEnumerator<T> = Internal.IAsyncEnumerator_1<T>;
-export type ICollection<T> = Internal.ICollection_1<T>;
-export type IComparer<T> = Internal.IComparer_1<T>;
-export type IDictionary<TKey, TValue> = Internal.IDictionary_2<TKey, TValue>;
-export type IEnumerable<T> = Internal.IEnumerable_1<T>;
-export type IEnumerator<T> = Internal.IEnumerator_1<T>;
-export type IEqualityComparer<T> = Internal.IEqualityComparer_1<T>;
-export type IList<T> = Internal.IList_1<T>;
-export type IReadOnlyCollection<T> = Internal.IReadOnlyCollection_1<T>;
-export type IReadOnlyDictionary<TKey, TValue> = Internal.IReadOnlyDictionary_2<TKey, TValue>;
-export type IReadOnlyList<T> = Internal.IReadOnlyList_1<T>;
-export type ISet<T> = Internal.ISet_1<T>;
-export type IReadOnlySet<T> = Internal.IReadOnlySet_1<T>;
+export type IAlternateEqualityComparer<TAlternate extends unknown, T extends unknown> = Internal.IAlternateEqualityComparer_2<TAlternate, T>;
+export type IAsyncEnumerable<T extends unknown> = Internal.IAsyncEnumerable_1<T>;
+export type IAsyncEnumerator<T extends unknown> = Internal.IAsyncEnumerator_1<T>;
+export type ICollection<T extends unknown> = Internal.ICollection_1<T>;
+export type IComparer<T extends unknown> = Internal.IComparer_1<T>;
+export type IDictionary<TKey extends unknown, TValue extends unknown> = Internal.IDictionary_2<TKey, TValue>;
+export type IEnumerable<T extends unknown> = Internal.IEnumerable_1<T>;
+export type IEnumerator<T extends unknown> = Internal.IEnumerator_1<T>;
+export type IEqualityComparer<T extends unknown> = Internal.IEqualityComparer_1<T>;
+export type IList<T extends unknown> = Internal.IList_1<T>;
+export type IReadOnlyCollection<T extends unknown> = Internal.IReadOnlyCollection_1<T>;
+export type IReadOnlyDictionary<TKey extends unknown, TValue extends unknown> = Internal.IReadOnlyDictionary_2<TKey, TValue>;
+export type IReadOnlyList<T extends unknown> = Internal.IReadOnlyList_1<T>;
+export type ISet<T extends unknown> = Internal.ISet_1<T>;
+export type IReadOnlySet<T extends unknown> = Internal.IReadOnlySet_1<T>;
 export { KeyNotFoundException as KeyNotFoundException } from './System.Collections.Generic/internal/index.js';
 export { KeyValuePair$instance as KeyValuePair_0 } from './System.Collections.Generic/internal/index.js';
 export { KeyValuePair_2 as KeyValuePair } from './System.Collections.Generic/internal/index.js';

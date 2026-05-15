@@ -3,7 +3,7 @@
 // Assembly: System.Collections.Immutable, System.Linq, System.Linq.AsyncEnumerable, System.Linq.Expressions, System.Linq.Parallel, System.Linq.Queryable
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -34,7 +34,7 @@ export enum ParallelMergeOptions {
 }
 
 
-export interface IGrouping_2$instance<TKey, TElement> extends IEnumerable_1<TElement>, IEnumerable {
+export interface IGrouping_2$instance<TKey extends unknown, TElement extends unknown> extends IEnumerable_1<TElement>, IEnumerable {
     readonly __tsonic_iface_System_Linq_IGrouping_2: never;
 
     readonly Key: TKey;
@@ -44,9 +44,9 @@ export interface IGrouping_2$instance<TKey, TElement> extends IEnumerable_1<TEle
 }
 
 
-export type IGrouping_2<TKey, TElement> = IGrouping_2$instance<TKey, TElement>;
+export type IGrouping_2<TKey extends unknown, TElement extends unknown> = IGrouping_2$instance<TKey, TElement>;
 
-export interface ILookup_2$instance<TKey, TElement> extends IEnumerable_1<IGrouping_2<TKey, TElement>>, IEnumerable {
+export interface ILookup_2$instance<TKey extends unknown, TElement extends unknown> extends IEnumerable_1<IGrouping_2<TKey, TElement>>, IEnumerable {
     readonly __tsonic_iface_System_Linq_ILookup_2: never;
 
     readonly Count: int;
@@ -58,32 +58,32 @@ export interface ILookup_2$instance<TKey, TElement> extends IEnumerable_1<IGroup
 }
 
 
-export type ILookup_2<TKey, TElement> = ILookup_2$instance<TKey, TElement>;
+export type ILookup_2<TKey extends unknown, TElement extends unknown> = ILookup_2$instance<TKey, TElement>;
 
-export interface IOrderedAsyncEnumerable_1$instance<TElement> extends IAsyncEnumerable_1<TElement> {
+export interface IOrderedAsyncEnumerable_1$instance<TElement extends unknown> extends IAsyncEnumerable_1<TElement> {
     readonly __tsonic_iface_System_Linq_IOrderedAsyncEnumerable_1: never;
 
-    CreateOrderedAsyncEnumerable<TKey>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey> | null, descending: boolean): IOrderedAsyncEnumerable_1<TElement>;
-    CreateOrderedAsyncEnumerable<TKey>(keySelector: Func_3<TElement, CancellationToken, ValueTask_1<TKey>>, comparer: IComparer_1<TKey> | null, descending: boolean): IOrderedAsyncEnumerable_1<TElement>;
+    CreateOrderedAsyncEnumerable<TKey extends unknown>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey> | null, descending: boolean): IOrderedAsyncEnumerable_1<TElement>;
+    CreateOrderedAsyncEnumerable<TKey extends unknown>(keySelector: Func_3<TElement, CancellationToken, ValueTask_1<TKey>>, comparer: IComparer_1<TKey> | null, descending: boolean): IOrderedAsyncEnumerable_1<TElement>;
     GetAsyncEnumerator(cancellationToken?: CancellationToken): IAsyncEnumerator_1<TElement>;
 }
 
 
-export interface IOrderedAsyncEnumerable_1$instance<TElement> extends System_Collections_Generic_Internal.IAsyncEnumerable_1$instance<TElement> {}
+export interface IOrderedAsyncEnumerable_1$instance<TElement extends unknown> extends System_Collections_Generic_Internal.IAsyncEnumerable_1$instance<TElement> {}
 
-export type IOrderedAsyncEnumerable_1<TElement> = IOrderedAsyncEnumerable_1$instance<TElement>;
+export type IOrderedAsyncEnumerable_1<TElement extends unknown> = IOrderedAsyncEnumerable_1$instance<TElement>;
 
-export interface IOrderedEnumerable_1$instance<TElement> extends IEnumerable_1<TElement>, IEnumerable {
+export interface IOrderedEnumerable_1$instance<TElement extends unknown> extends IEnumerable_1<TElement>, IEnumerable {
     readonly __tsonic_iface_System_Linq_IOrderedEnumerable_1: never;
 
-    CreateOrderedEnumerable<TKey>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey> | null, descending: boolean): IOrderedEnumerable_1<TElement>;
+    CreateOrderedEnumerable<TKey extends unknown>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey> | null, descending: boolean): IOrderedEnumerable_1<TElement>;
     GetEnumerator(): IEnumerator_1<TElement>;
     GetEnumerator(): IEnumerator;
     GetEnumerator2(): IEnumerator;
 }
 
 
-export type IOrderedEnumerable_1<TElement> = IOrderedEnumerable_1$instance<TElement>;
+export type IOrderedEnumerable_1<TElement extends unknown> = IOrderedEnumerable_1$instance<TElement>;
 
 export interface IOrderedQueryable$instance extends IQueryable, IEnumerable {
     readonly __tsonic_iface_System_Linq_IOrderedQueryable: never;
@@ -95,9 +95,11 @@ export interface IOrderedQueryable$instance extends IQueryable, IEnumerable {
 }
 
 
+export interface IOrderedQueryable$instance extends IQueryable$instance {}
+
 export type IOrderedQueryable = IOrderedQueryable$instance;
 
-export interface IOrderedQueryable_1$instance<T> extends IQueryable_1<T>, IEnumerable_1<T>, IEnumerable, IQueryable, IOrderedQueryable {
+export interface IOrderedQueryable_1$instance<T extends unknown> extends IQueryable_1<T>, IEnumerable_1<T>, IEnumerable, IQueryable, IOrderedQueryable {
     readonly __tsonic_iface_System_Linq_IOrderedQueryable_1: never;
 
     readonly Expression: Expression;
@@ -109,7 +111,7 @@ export interface IOrderedQueryable_1$instance<T> extends IQueryable_1<T>, IEnume
 }
 
 
-export type IOrderedQueryable_1<T> = IOrderedQueryable_1$instance<T>;
+export type IOrderedQueryable_1<T extends unknown> = IOrderedQueryable_1$instance<T>;
 
 export interface IQueryable$instance extends IEnumerable {
     readonly __tsonic_iface_System_Linq_IQueryable: never;
@@ -123,7 +125,7 @@ export interface IQueryable$instance extends IEnumerable {
 
 export type IQueryable = IQueryable$instance;
 
-export interface IQueryable_1$instance<T> extends IEnumerable_1<T>, IEnumerable, IQueryable {
+export interface IQueryable_1$instance<T extends unknown> extends IEnumerable_1<T>, IEnumerable, IQueryable {
     readonly __tsonic_iface_System_Linq_IQueryable_1: never;
 
     readonly Expression: Expression;
@@ -135,15 +137,15 @@ export interface IQueryable_1$instance<T> extends IEnumerable_1<T>, IEnumerable,
 }
 
 
-export type IQueryable_1<T> = IQueryable_1$instance<T>;
+export type IQueryable_1<T extends unknown> = IQueryable_1$instance<T>;
 
 export interface IQueryProvider$instance {
     readonly __tsonic_iface_System_Linq_IQueryProvider: never;
 
-    CreateQuery<TElement>(expression: Expression): IQueryable_1<TElement>;
+    CreateQuery<TElement extends unknown>(expression: Expression): IQueryable_1<TElement>;
     CreateQuery(expression: Expression): IQueryable;
-    Execute(expression: Expression): JsValue | null;
-    Execute<TResult>(expression: Expression): TResult;
+    Execute(expression: Expression): unknown | null;
+    Execute<TResult extends unknown>(expression: Expression): TResult;
 }
 
 
@@ -161,18 +163,18 @@ export const EnumerableExecutor: {
 
 export type EnumerableExecutor = EnumerableExecutor$instance;
 
-export interface EnumerableExecutor_1$instance<T> extends EnumerableExecutor {
+export interface EnumerableExecutor_1$instance<T extends unknown> extends EnumerableExecutor {
     readonly __tsonic_type_System_Linq_EnumerableExecutor_1: never;
 
 }
 
 
 export const EnumerableExecutor_1: {
-    new<T>(expression: Expression): EnumerableExecutor_1<T>;
+    new<T extends unknown>(expression: Expression): EnumerableExecutor_1<T>;
 };
 
 
-export type EnumerableExecutor_1<T> = EnumerableExecutor_1$instance<T>;
+export type EnumerableExecutor_1<T extends unknown> = EnumerableExecutor_1$instance<T>;
 
 export interface EnumerableQuery$instance {
     readonly __tsonic_type_System_Linq_EnumerableQuery: never;
@@ -186,7 +188,7 @@ export const EnumerableQuery: {
 
 export type EnumerableQuery = EnumerableQuery$instance;
 
-export interface EnumerableQuery_1$instance<T> extends EnumerableQuery, IOrderedQueryable_1$instance<T>, IQueryProvider$instance {
+export interface EnumerableQuery_1$instance<T extends unknown> extends EnumerableQuery, IOrderedQueryable_1$instance<T>, IQueryProvider$instance {
     readonly __tsonic_type_System_Linq_EnumerableQuery_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -202,22 +204,22 @@ export interface EnumerableQuery_1$instance<T> extends EnumerableQuery, IOrdered
 
 
 export const EnumerableQuery_1: {
-    new<T>(enumerable: IEnumerable_1<T>): EnumerableQuery_1<T>;
-    new<T>(expression: Expression): EnumerableQuery_1<T>;
+    new<T extends unknown>(enumerable: IEnumerable_1<T>): EnumerableQuery_1<T>;
+    new<T extends unknown>(expression: Expression): EnumerableQuery_1<T>;
 };
 
 
-export interface __EnumerableQuery_1$views<T> {
+export interface __EnumerableQuery_1$views<T extends unknown> {
     As_IQueryable(): IQueryable$instance;
     As_IQueryProvider(): IQueryProvider$instance;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type EnumerableQuery_1<T> = EnumerableQuery_1$instance<T> & __EnumerableQuery_1$views<T>;
+export type EnumerableQuery_1<T extends unknown> = EnumerableQuery_1$instance<T> & __EnumerableQuery_1$views<T>;
 
 
-export interface Lookup_2$instance<TKey, TElement> {
+export interface Lookup_2$instance<TKey extends unknown, TElement extends unknown> {
     readonly __tsonic_type_System_Linq_Lookup_2: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -226,7 +228,7 @@ export interface Lookup_2$instance<TKey, TElement> {
 
     readonly Count: int;
     readonly Item: IEnumerable_1<TElement>;
-    ApplyResultSelector<TResult>(resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
+    ApplyResultSelector<TResult extends unknown>(resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
     Contains(key: TKey): boolean;
     GetEnumerator(): IEnumerator_1<IGrouping_2<TKey, TElement>>;
 }
@@ -236,16 +238,16 @@ export const Lookup_2: {
 };
 
 
-export interface __Lookup_2$views<TKey, TElement> {
+export interface __Lookup_2$views<TKey extends unknown, TElement extends unknown> {
     As_ILookup_2(): ILookup_2$instance<TKey, TElement>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<IGrouping_2<TKey, TElement>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type Lookup_2<TKey, TElement> = Lookup_2$instance<TKey, TElement> & __Lookup_2$views<TKey, TElement>;
+export type Lookup_2<TKey extends unknown, TElement extends unknown> = Lookup_2$instance<TKey, TElement> & __Lookup_2$views<TKey, TElement>;
 
 
-export interface OrderedParallelQuery_1$instance<TSource> extends ParallelQuery_1$instance<TSource> {
+export interface OrderedParallelQuery_1$instance<TSource extends unknown> extends ParallelQuery_1$instance<TSource> {
     readonly __tsonic_type_System_Linq_OrderedParallelQuery_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -259,12 +261,12 @@ export const OrderedParallelQuery_1: {
 };
 
 
-export interface __OrderedParallelQuery_1$views<TSource> {
+export interface __OrderedParallelQuery_1$views<TSource extends unknown> {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TSource>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type OrderedParallelQuery_1<TSource> = OrderedParallelQuery_1$instance<TSource> & __OrderedParallelQuery_1$views<TSource>;
+export type OrderedParallelQuery_1<TSource extends unknown> = OrderedParallelQuery_1$instance<TSource> & __OrderedParallelQuery_1$views<TSource>;
 
 
 export interface ParallelQuery$instance {
@@ -286,7 +288,7 @@ export interface __ParallelQuery$views {
 export type ParallelQuery = ParallelQuery$instance & __ParallelQuery$views;
 
 
-export interface ParallelQuery_1$instance<TSource> extends ParallelQuery$instance {
+export interface ParallelQuery_1$instance<TSource extends unknown> extends ParallelQuery$instance {
     readonly __tsonic_type_System_Linq_ParallelQuery_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -300,31 +302,31 @@ export const ParallelQuery_1: {
 };
 
 
-export interface __ParallelQuery_1$views<TSource> {
+export interface __ParallelQuery_1$views<TSource extends unknown> {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TSource>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export type ParallelQuery_1<TSource> = ParallelQuery_1$instance<TSource> & __ParallelQuery_1$views<TSource>;
+export type ParallelQuery_1<TSource extends unknown> = ParallelQuery_1$instance<TSource> & __ParallelQuery_1$views<TSource>;
 
 
 export abstract class AsyncEnumerable$instance {
-    static AggregateAsync<TSource>(source: IAsyncEnumerable_1<TSource>, func: Func_3<TSource, TSource, TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static AggregateAsync<TSource>(source: IAsyncEnumerable_1<TSource>, func: Func_4<TSource, TSource, CancellationToken, ValueTask_1<TSource>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static AggregateAsync<TSource, TAccumulate, TResult>(source: IAsyncEnumerable_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>, cancellationToken?: CancellationToken): ValueTask_1<TResult>;
-    static AggregateAsync<TSource, TAccumulate>(source: IAsyncEnumerable_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, cancellationToken?: CancellationToken): ValueTask_1<TAccumulate>;
-    static AggregateAsync<TSource, TAccumulate, TResult>(source: IAsyncEnumerable_1<TSource>, seed: TAccumulate, func: Func_4<TAccumulate, TSource, CancellationToken, ValueTask_1<TAccumulate>>, resultSelector: Func_3<TAccumulate, CancellationToken, ValueTask_1<TResult>>, cancellationToken?: CancellationToken): ValueTask_1<TResult>;
-    static AggregateAsync<TSource, TAccumulate>(source: IAsyncEnumerable_1<TSource>, seed: TAccumulate, func: Func_4<TAccumulate, TSource, CancellationToken, ValueTask_1<TAccumulate>>, cancellationToken?: CancellationToken): ValueTask_1<TAccumulate>;
-    static AggregateBy<TSource, TKey, TAccumulate>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, seedSelector: Func_2<TKey, TAccumulate>, func: Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
-    static AggregateBy<TSource, TKey, TAccumulate>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
-    static AggregateBy<TSource, TKey, TAccumulate>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, seedSelector: Func_3<TKey, CancellationToken, ValueTask_1<TAccumulate>>, func: Func_4<TAccumulate, TSource, CancellationToken, ValueTask_1<TAccumulate>>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
-    static AggregateBy<TSource, TKey, TAccumulate>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, seed: TAccumulate, func: Func_4<TAccumulate, TSource, CancellationToken, ValueTask_1<TAccumulate>>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
-    static AllAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
-    static AllAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
-    static AnyAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
-    static AnyAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
-    static AnyAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
-    static Append<TSource>(source: IAsyncEnumerable_1<TSource>, element: TSource): IAsyncEnumerable_1<TSource>;
+    static AggregateAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, func: Func_3<TSource, TSource, TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static AggregateAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, func: Func_4<TSource, TSource, CancellationToken, ValueTask_1<TSource>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static AggregateAsync<TSource extends unknown, TAccumulate extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>, cancellationToken?: CancellationToken): ValueTask_1<TResult>;
+    static AggregateAsync<TSource extends unknown, TAccumulate extends unknown>(source: IAsyncEnumerable_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, cancellationToken?: CancellationToken): ValueTask_1<TAccumulate>;
+    static AggregateAsync<TSource extends unknown, TAccumulate extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, seed: TAccumulate, func: Func_4<TAccumulate, TSource, CancellationToken, ValueTask_1<TAccumulate>>, resultSelector: Func_3<TAccumulate, CancellationToken, ValueTask_1<TResult>>, cancellationToken?: CancellationToken): ValueTask_1<TResult>;
+    static AggregateAsync<TSource extends unknown, TAccumulate extends unknown>(source: IAsyncEnumerable_1<TSource>, seed: TAccumulate, func: Func_4<TAccumulate, TSource, CancellationToken, ValueTask_1<TAccumulate>>, cancellationToken?: CancellationToken): ValueTask_1<TAccumulate>;
+    static AggregateBy<TSource extends unknown, TKey extends unknown, TAccumulate extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, seedSelector: Func_2<TKey, TAccumulate>, func: Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
+    static AggregateBy<TSource extends unknown, TKey extends unknown, TAccumulate extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
+    static AggregateBy<TSource extends unknown, TKey extends unknown, TAccumulate extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, seedSelector: Func_3<TKey, CancellationToken, ValueTask_1<TAccumulate>>, func: Func_4<TAccumulate, TSource, CancellationToken, ValueTask_1<TAccumulate>>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
+    static AggregateBy<TSource extends unknown, TKey extends unknown, TAccumulate extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, seed: TAccumulate, func: Func_4<TAccumulate, TSource, CancellationToken, ValueTask_1<TAccumulate>>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
+    static AllAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
+    static AllAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
+    static AnyAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
+    static AnyAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
+    static AnyAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
+    static Append<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, element: TSource): IAsyncEnumerable_1<TSource>;
     static AverageAsync(source: IAsyncEnumerable_1<System_Internal.Decimal>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Decimal>;
     static AverageAsync(source: IAsyncEnumerable_1<System_Internal.Double>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Double>;
     static AverageAsync(source: IAsyncEnumerable_1<System_Internal.Int32>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Double>;
@@ -335,115 +337,115 @@ export abstract class AsyncEnumerable$instance {
     static AverageAsync(source: IAsyncEnumerable_1<Nullable_1<System_Internal.Int64>>, cancellationToken?: CancellationToken): ValueTask_1<Nullable_1<System_Internal.Double>>;
     static AverageAsync(source: IAsyncEnumerable_1<Nullable_1<System_Internal.Single>>, cancellationToken?: CancellationToken): ValueTask_1<Nullable_1<System_Internal.Single>>;
     static AverageAsync(source: IAsyncEnumerable_1<System_Internal.Single>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Single>;
-    static Cast<TResult>(source: IAsyncEnumerable_1<JsValue | null>): IAsyncEnumerable_1<TResult>;
-    static Chunk<TSource>(source: IAsyncEnumerable_1<TSource>, size: int): IAsyncEnumerable_1<TSource[]>;
-    static Concat<TSource>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<TSource>;
-    static ContainsAsync<TSource>(source: IAsyncEnumerable_1<TSource>, value: TSource, comparer?: IEqualityComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
-    static CountAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    static CountAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    static CountAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    static CountBy<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, System_Internal.Int32>>;
-    static CountBy<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, System_Internal.Int32>>;
-    static DefaultIfEmpty<TSource>(source: IAsyncEnumerable_1<TSource>, defaultValue: TSource): IAsyncEnumerable_1<TSource>;
-    static DefaultIfEmpty<TSource>(source: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<TSource | null>;
-    static Distinct<TSource>(source: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null): IAsyncEnumerable_1<TSource>;
-    static DistinctBy<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
-    static DistinctBy<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
-    static ElementAtAsync<TSource>(source: IAsyncEnumerable_1<TSource>, index: Index, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static ElementAtAsync<TSource>(source: IAsyncEnumerable_1<TSource>, index: int, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static ElementAtOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, index: Index, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static ElementAtOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, index: int, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static Empty<TResult>(): IAsyncEnumerable_1<TResult>;
-    static Except<TSource>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null): IAsyncEnumerable_1<TSource>;
-    static ExceptBy<TSource, TKey>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
-    static ExceptBy<TSource, TKey>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TKey>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
-    static FirstAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static FirstAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static FirstAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static FirstOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static FirstOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static FirstOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static FirstOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static FirstOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static FirstOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static GroupBy<TSource, TKey, TElement, TResult>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static GroupBy<TSource, TKey, TElement>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<IGrouping_2<TKey, TElement>>;
-    static GroupBy<TSource, TKey, TResult>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, resultSelector: Func_3<TKey, IEnumerable_1<TSource>, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static GroupBy<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<IGrouping_2<TKey, TSource>>;
-    static GroupBy<TSource, TKey, TElement, TResult>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, elementSelector: Func_3<TSource, CancellationToken, ValueTask_1<TElement>>, resultSelector: Func_4<TKey, IEnumerable_1<TElement>, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static GroupBy<TSource, TKey, TElement>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, elementSelector: Func_3<TSource, CancellationToken, ValueTask_1<TElement>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<IGrouping_2<TKey, TElement>>;
-    static GroupBy<TSource, TKey, TResult>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TKey, IEnumerable_1<TSource>, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static GroupBy<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<IGrouping_2<TKey, TSource>>;
-    static GroupJoin<TOuter, TInner, TKey, TResult>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static GroupJoin<TOuter, TInner, TKey, TResult>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_3<TOuter, CancellationToken, ValueTask_1<TKey>>, innerKeySelector: Func_3<TInner, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TOuter, IEnumerable_1<TInner>, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static Index<TSource>(source: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<ValueTuple_2<System_Internal.Int32, TSource>>;
-    static InfiniteSequence<T extends IAdditionOperators_3<T, T, T>>(start: T, step: T): IAsyncEnumerable_1<T>;
-    static Intersect<TSource>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null): IAsyncEnumerable_1<TSource>;
-    static IntersectBy<TSource, TKey>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
-    static IntersectBy<TSource, TKey>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TKey>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
-    static Join<TOuter, TInner, TKey, TResult>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static Join<TOuter, TInner, TKey, TResult>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_3<TOuter, CancellationToken, ValueTask_1<TKey>>, innerKeySelector: Func_3<TInner, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TOuter, TInner, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static LastAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static LastAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static LastAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static LastOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static LastOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static LastOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static LastOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static LastOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static LastOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static LeftJoin<TOuter, TInner, TKey, TResult>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner | null, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static LeftJoin<TOuter, TInner, TKey, TResult>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_3<TOuter, CancellationToken, ValueTask_1<TKey>>, innerKeySelector: Func_3<TInner, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TOuter, TInner, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static LongCountAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int64>;
-    static LongCountAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int64>;
-    static LongCountAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int64>;
-    static MaxAsync<TSource>(source: IAsyncEnumerable_1<TSource>, comparer?: IComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static MaxByAsync<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static MaxByAsync<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static MinAsync<TSource>(source: IAsyncEnumerable_1<TSource>, comparer?: IComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static MinByAsync<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static MinByAsync<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static OfType<TResult>(source: IAsyncEnumerable_1<JsValue | null>): IAsyncEnumerable_1<TResult>;
-    static Order<T>(source: IAsyncEnumerable_1<T>, comparer?: IComparer_1<T> | null): IOrderedAsyncEnumerable_1<T>;
-    static OrderBy<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
-    static OrderBy<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
-    static OrderByDescending<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
-    static OrderByDescending<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
-    static OrderDescending<T>(source: IAsyncEnumerable_1<T>, comparer?: IComparer_1<T> | null): IOrderedAsyncEnumerable_1<T>;
-    static Prepend<TSource>(source: IAsyncEnumerable_1<TSource>, element: TSource): IAsyncEnumerable_1<TSource>;
+    static Cast<TResult extends unknown>(source: IAsyncEnumerable_1<unknown | null>): IAsyncEnumerable_1<TResult>;
+    static Chunk<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, size: int): IAsyncEnumerable_1<TSource[]>;
+    static Concat<TSource extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<TSource>;
+    static ContainsAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, value: TSource, comparer?: IEqualityComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
+    static CountAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    static CountAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    static CountAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    static CountBy<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, System_Internal.Int32>>;
+    static CountBy<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, keyComparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<KeyValuePair_2<TKey, System_Internal.Int32>>;
+    static DefaultIfEmpty<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, defaultValue: TSource): IAsyncEnumerable_1<TSource>;
+    static DefaultIfEmpty<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<TSource | null>;
+    static Distinct<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null): IAsyncEnumerable_1<TSource>;
+    static DistinctBy<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
+    static DistinctBy<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
+    static ElementAtAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, index: Index, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static ElementAtAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, index: int, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static ElementAtOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, index: Index, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static ElementAtOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, index: int, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static Empty<TResult extends unknown>(): IAsyncEnumerable_1<TResult>;
+    static Except<TSource extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null): IAsyncEnumerable_1<TSource>;
+    static ExceptBy<TSource extends unknown, TKey extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
+    static ExceptBy<TSource extends unknown, TKey extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TKey>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
+    static FirstAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static FirstAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static FirstAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static FirstOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static FirstOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static FirstOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static FirstOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static FirstOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static FirstOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<IGrouping_2<TKey, TElement>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, resultSelector: Func_3<TKey, IEnumerable_1<TSource>, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<IGrouping_2<TKey, TSource>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, elementSelector: Func_3<TSource, CancellationToken, ValueTask_1<TElement>>, resultSelector: Func_4<TKey, IEnumerable_1<TElement>, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, elementSelector: Func_3<TSource, CancellationToken, ValueTask_1<TElement>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<IGrouping_2<TKey, TElement>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TKey, IEnumerable_1<TSource>, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<IGrouping_2<TKey, TSource>>;
+    static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_3<TOuter, CancellationToken, ValueTask_1<TKey>>, innerKeySelector: Func_3<TInner, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TOuter, IEnumerable_1<TInner>, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static Index<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<ValueTuple_2<System_Internal.Int32, TSource>>;
+    static InfiniteSequence<T extends unknown & IAdditionOperators_3<T, T, T>>(start: T, step: T): IAsyncEnumerable_1<T>;
+    static Intersect<TSource extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null): IAsyncEnumerable_1<TSource>;
+    static IntersectBy<TSource extends unknown, TKey extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
+    static IntersectBy<TSource extends unknown, TKey extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TKey>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
+    static Join<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static Join<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_3<TOuter, CancellationToken, ValueTask_1<TKey>>, innerKeySelector: Func_3<TInner, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TOuter, TInner, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static LastAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static LastAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static LastAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static LastOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static LastOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static LastOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static LastOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static LastOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static LastOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static LeftJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner | null, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static LeftJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_3<TOuter, CancellationToken, ValueTask_1<TKey>>, innerKeySelector: Func_3<TInner, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TOuter, TInner, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static LongCountAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int64>;
+    static LongCountAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int64>;
+    static LongCountAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int64>;
+    static MaxAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, comparer?: IComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static MaxByAsync<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static MaxByAsync<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static MinAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, comparer?: IComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static MinByAsync<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static MinByAsync<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static OfType<TResult extends unknown>(source: IAsyncEnumerable_1<unknown | null>): IAsyncEnumerable_1<TResult>;
+    static Order<T extends unknown>(source: IAsyncEnumerable_1<T>, comparer?: IComparer_1<T> | null): IOrderedAsyncEnumerable_1<T>;
+    static OrderBy<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
+    static OrderBy<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
+    static OrderByDescending<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
+    static OrderByDescending<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
+    static OrderDescending<T extends unknown>(source: IAsyncEnumerable_1<T>, comparer?: IComparer_1<T> | null): IOrderedAsyncEnumerable_1<T>;
+    static Prepend<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, element: TSource): IAsyncEnumerable_1<TSource>;
     static Range(start: int, count: int): IAsyncEnumerable_1<System_Internal.Int32>;
-    static Repeat<TResult>(element: TResult, count: int): IAsyncEnumerable_1<TResult>;
-    static Reverse<TSource>(source: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<TSource>;
-    static RightJoin<TOuter, TInner, TKey, TResult>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter | null, TInner, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static RightJoin<TOuter, TInner, TKey, TResult>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_3<TOuter, CancellationToken, ValueTask_1<TKey>>, innerKeySelector: Func_3<TInner, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TOuter, TInner, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
-    static Select<TSource, TResult>(source: IAsyncEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): IAsyncEnumerable_1<TResult>;
-    static Select<TSource, TResult>(source: IAsyncEnumerable_1<TSource>, selector: Func_3<TSource, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
-    static Select<TSource, TResult>(source: IAsyncEnumerable_1<TSource>, selector: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_2<TSource, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IAsyncEnumerable_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_2<TSource, IAsyncEnumerable_1<TCollection>>, resultSelector: Func_4<TSource, TCollection, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
-    static SelectMany<TSource, TResult>(source: IAsyncEnumerable_1<TSource>, selector: Func_2<TSource, IEnumerable_1<TResult>>): IAsyncEnumerable_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IAsyncEnumerable_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_3<TSource, CancellationToken, ValueTask_1<IEnumerable_1<TCollection>>>, resultSelector: Func_4<TSource, TCollection, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
-    static SelectMany<TSource, TResult>(source: IAsyncEnumerable_1<TSource>, selector: Func_3<TSource, CancellationToken, ValueTask_1<IEnumerable_1<TResult>>>): IAsyncEnumerable_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<IEnumerable_1<TCollection>>>, resultSelector: Func_4<TSource, TCollection, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
-    static SelectMany<TSource, TResult>(source: IAsyncEnumerable_1<TSource>, selector: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<IEnumerable_1<TResult>>>): IAsyncEnumerable_1<TResult>;
-    static Sequence<T extends INumber_1<T>>(start: T, endInclusive: T, step: T): IAsyncEnumerable_1<T>;
-    static SequenceEqualAsync<TSource>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
-    static Shuffle<TSource>(source: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<TSource>;
-    static SingleAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static SingleAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static SingleAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static SingleOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static SingleOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static SingleOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static SingleOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static SingleOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static SingleOrDefaultAsync<TSource>(source: IAsyncEnumerable_1<TSource>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
-    static Skip<TSource>(source: IAsyncEnumerable_1<TSource>, count: int): IAsyncEnumerable_1<TSource>;
-    static SkipLast<TSource>(source: IAsyncEnumerable_1<TSource>, count: int): IAsyncEnumerable_1<TSource>;
-    static SkipWhile<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IAsyncEnumerable_1<TSource>;
-    static SkipWhile<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
-    static SkipWhile<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
+    static Repeat<TResult extends unknown>(element: TResult, count: int): IAsyncEnumerable_1<TResult>;
+    static Reverse<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<TSource>;
+    static RightJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter | null, TInner, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static RightJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_3<TOuter, CancellationToken, ValueTask_1<TKey>>, innerKeySelector: Func_3<TInner, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TOuter, TInner, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
+    static Select<TSource extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): IAsyncEnumerable_1<TResult>;
+    static Select<TSource extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, selector: Func_3<TSource, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
+    static Select<TSource extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, selector: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_2<TSource, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IAsyncEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_2<TSource, IAsyncEnumerable_1<TCollection>>, resultSelector: Func_4<TSource, TCollection, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, selector: Func_2<TSource, IEnumerable_1<TResult>>): IAsyncEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IAsyncEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_3<TSource, CancellationToken, ValueTask_1<IEnumerable_1<TCollection>>>, resultSelector: Func_4<TSource, TCollection, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, selector: Func_3<TSource, CancellationToken, ValueTask_1<IEnumerable_1<TResult>>>): IAsyncEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<IEnumerable_1<TCollection>>>, resultSelector: Func_4<TSource, TCollection, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, selector: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<IEnumerable_1<TResult>>>): IAsyncEnumerable_1<TResult>;
+    static Sequence<T extends unknown & INumber_1<T>>(start: T, endInclusive: T, step: T): IAsyncEnumerable_1<T>;
+    static SequenceEqualAsync<TSource extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
+    static Shuffle<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<TSource>;
+    static SingleAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static SingleAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static SingleAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static SingleOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static SingleOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static SingleOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static SingleOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static SingleOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static SingleOrDefaultAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, defaultValue: TSource, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
+    static Skip<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, count: int): IAsyncEnumerable_1<TSource>;
+    static SkipLast<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, count: int): IAsyncEnumerable_1<TSource>;
+    static SkipWhile<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IAsyncEnumerable_1<TSource>;
+    static SkipWhile<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
+    static SkipWhile<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
     static SumAsync(source: IAsyncEnumerable_1<System_Internal.Decimal>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Decimal>;
     static SumAsync(source: IAsyncEnumerable_1<System_Internal.Double>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Double>;
     static SumAsync(source: IAsyncEnumerable_1<System_Internal.Int32>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
@@ -454,61 +456,61 @@ export abstract class AsyncEnumerable$instance {
     static SumAsync(source: IAsyncEnumerable_1<Nullable_1<System_Internal.Int64>>, cancellationToken?: CancellationToken): ValueTask_1<Nullable_1<System_Internal.Int64>>;
     static SumAsync(source: IAsyncEnumerable_1<Nullable_1<System_Internal.Single>>, cancellationToken?: CancellationToken): ValueTask_1<Nullable_1<System_Internal.Single>>;
     static SumAsync(source: IAsyncEnumerable_1<System_Internal.Single>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Single>;
-    static Take<TSource>(source: IAsyncEnumerable_1<TSource>, count: int): IAsyncEnumerable_1<TSource>;
-    static Take<TSource>(source: IAsyncEnumerable_1<TSource>, range: Range): IAsyncEnumerable_1<TSource>;
-    static TakeLast<TSource>(source: IAsyncEnumerable_1<TSource>, count: int): IAsyncEnumerable_1<TSource>;
-    static TakeWhile<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IAsyncEnumerable_1<TSource>;
-    static TakeWhile<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
-    static TakeWhile<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
-    static ThenBy<TSource, TKey>(source: IOrderedAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
-    static ThenBy<TSource, TKey>(source: IOrderedAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
-    static ThenByDescending<TSource, TKey>(source: IOrderedAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
-    static ThenByDescending<TSource, TKey>(source: IOrderedAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
-    static ToArrayAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource[]>;
-    static ToAsyncEnumerable<TSource>(source: IEnumerable_1<TSource>): IAsyncEnumerable_1<TSource>;
-    static ToDictionaryAsync<TSource, TKey, TElement>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<Dictionary_2<TKey, TElement>>;
-    static ToDictionaryAsync<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<Dictionary_2<TKey, TSource>>;
-    static ToDictionaryAsync<TSource, TKey, TElement>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, elementSelector: Func_3<TSource, CancellationToken, ValueTask_1<TElement>>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<Dictionary_2<TKey, TElement>>;
-    static ToDictionaryAsync<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<Dictionary_2<TKey, TSource>>;
-    static ToDictionaryAsync<TKey, TValue>(source: IAsyncEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<Dictionary_2<TKey, TValue>>;
-    static ToHashSetAsync<TSource>(source: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<HashSet_1<TSource>>;
-    static ToListAsync<TSource>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<List_1<TSource>>;
-    static ToLookupAsync<TSource, TKey, TElement>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<ILookup_2<TKey, TElement>>;
-    static ToLookupAsync<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<ILookup_2<TKey, TSource>>;
-    static ToLookupAsync<TSource, TKey, TElement>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, elementSelector: Func_3<TSource, CancellationToken, ValueTask_1<TElement>>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<ILookup_2<TKey, TElement>>;
-    static ToLookupAsync<TSource, TKey>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<ILookup_2<TKey, TSource>>;
-    static Union<TSource>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null): IAsyncEnumerable_1<TSource>;
-    static UnionBy<TSource, TKey>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
-    static UnionBy<TSource, TKey>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
-    static Where<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IAsyncEnumerable_1<TSource>;
-    static Where<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
-    static Where<TSource>(source: IAsyncEnumerable_1<TSource>, predicate: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
-    static Zip<TFirst, TSecond, TResult>(first: IAsyncEnumerable_1<TFirst>, second: IAsyncEnumerable_1<TSecond>, resultSelector: Func_3<TFirst, TSecond, TResult>): IAsyncEnumerable_1<TResult>;
-    static Zip<TFirst, TSecond, TResult>(first: IAsyncEnumerable_1<TFirst>, second: IAsyncEnumerable_1<TSecond>, resultSelector: Func_4<TFirst, TSecond, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
-    static Zip<TFirst, TSecond, TThird>(first: IAsyncEnumerable_1<TFirst>, second: IAsyncEnumerable_1<TSecond>, third: IAsyncEnumerable_1<TThird>): IAsyncEnumerable_1<ValueTuple_3<TFirst, TSecond, TThird>>;
-    static Zip<TFirst, TSecond>(first: IAsyncEnumerable_1<TFirst>, second: IAsyncEnumerable_1<TSecond>): IAsyncEnumerable_1<ValueTuple_2<TFirst, TSecond>>;
+    static Take<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, count: int): IAsyncEnumerable_1<TSource>;
+    static Take<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, range: Range): IAsyncEnumerable_1<TSource>;
+    static TakeLast<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, count: int): IAsyncEnumerable_1<TSource>;
+    static TakeWhile<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IAsyncEnumerable_1<TSource>;
+    static TakeWhile<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
+    static TakeWhile<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
+    static ThenBy<TSource extends unknown, TKey extends unknown>(source: IOrderedAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
+    static ThenBy<TSource extends unknown, TKey extends unknown>(source: IOrderedAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
+    static ThenByDescending<TSource extends unknown, TKey extends unknown>(source: IOrderedAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
+    static ThenByDescending<TSource extends unknown, TKey extends unknown>(source: IOrderedAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IComparer_1<TKey> | null): IOrderedAsyncEnumerable_1<TSource>;
+    static ToArrayAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<TSource[]>;
+    static ToAsyncEnumerable<TSource extends unknown>(source: IEnumerable_1<TSource>): IAsyncEnumerable_1<TSource>;
+    static ToDictionaryAsync<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<Dictionary_2<TKey, TElement>>;
+    static ToDictionaryAsync<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<Dictionary_2<TKey, TSource>>;
+    static ToDictionaryAsync<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, elementSelector: Func_3<TSource, CancellationToken, ValueTask_1<TElement>>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<Dictionary_2<TKey, TElement>>;
+    static ToDictionaryAsync<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<Dictionary_2<TKey, TSource>>;
+    static ToDictionaryAsync<TKey extends unknown, TValue extends unknown>(source: IAsyncEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<Dictionary_2<TKey, TValue>>;
+    static ToHashSetAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<HashSet_1<TSource>>;
+    static ToListAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, cancellationToken?: CancellationToken): ValueTask_1<List_1<TSource>>;
+    static ToLookupAsync<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<ILookup_2<TKey, TElement>>;
+    static ToLookupAsync<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<ILookup_2<TKey, TSource>>;
+    static ToLookupAsync<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, elementSelector: Func_3<TSource, CancellationToken, ValueTask_1<TElement>>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<ILookup_2<TKey, TElement>>;
+    static ToLookupAsync<TSource extends unknown, TKey extends unknown>(source: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null, cancellationToken?: CancellationToken): ValueTask_1<ILookup_2<TKey, TSource>>;
+    static Union<TSource extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null): IAsyncEnumerable_1<TSource>;
+    static UnionBy<TSource extends unknown, TKey extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
+    static UnionBy<TSource extends unknown, TKey extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
+    static Where<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IAsyncEnumerable_1<TSource>;
+    static Where<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_3<TSource, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
+    static Where<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<System_Internal.Boolean>>): IAsyncEnumerable_1<TSource>;
+    static Zip<TFirst extends unknown, TSecond extends unknown, TResult extends unknown>(first: IAsyncEnumerable_1<TFirst>, second: IAsyncEnumerable_1<TSecond>, resultSelector: Func_3<TFirst, TSecond, TResult>): IAsyncEnumerable_1<TResult>;
+    static Zip<TFirst extends unknown, TSecond extends unknown, TResult extends unknown>(first: IAsyncEnumerable_1<TFirst>, second: IAsyncEnumerable_1<TSecond>, resultSelector: Func_4<TFirst, TSecond, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
+    static Zip<TFirst extends unknown, TSecond extends unknown, TThird extends unknown>(first: IAsyncEnumerable_1<TFirst>, second: IAsyncEnumerable_1<TSecond>, third: IAsyncEnumerable_1<TThird>): IAsyncEnumerable_1<ValueTuple_3<TFirst, TSecond, TThird>>;
+    static Zip<TFirst extends unknown, TSecond extends unknown>(first: IAsyncEnumerable_1<TFirst>, second: IAsyncEnumerable_1<TSecond>): IAsyncEnumerable_1<ValueTuple_2<TFirst, TSecond>>;
 }
 
 
 export type AsyncEnumerable = AsyncEnumerable$instance;
 
 export abstract class Enumerable$instance {
-    static Aggregate<TSource>(source: IEnumerable_1<TSource>, func: Func_3<TSource, TSource, TSource>): TSource;
-    static Aggregate<TSource, TAccumulate, TResult>(source: IEnumerable_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
-    static Aggregate<TSource, TAccumulate>(source: IEnumerable_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>): TAccumulate;
-    static AggregateBy<TSource, TKey, TAccumulate>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, seedSelector: Func_2<TKey, TAccumulate>, func: Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: IEqualityComparer_1<TKey> | null): IEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
-    static AggregateBy<TSource, TKey, TAccumulate>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: IEqualityComparer_1<TKey> | null): IEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
-    static All<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
-    static Any<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
-    static Any<TSource>(source: IEnumerable_1<TSource>): boolean;
-    static Append<TSource>(source: IEnumerable_1<TSource>, element: TSource): IEnumerable_1<TSource>;
-    static AsEnumerable<TSource>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
-    static Average<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
-    static Average<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): double;
-    static Average<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
-    static Average<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Double>;
-    static Average<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
-    static Average<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
+    static Aggregate<TSource extends unknown>(source: IEnumerable_1<TSource>, func: Func_3<TSource, TSource, TSource>): TSource;
+    static Aggregate<TSource extends unknown, TAccumulate extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
+    static Aggregate<TSource extends unknown, TAccumulate extends unknown>(source: IEnumerable_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>): TAccumulate;
+    static AggregateBy<TSource extends unknown, TKey extends unknown, TAccumulate extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, seedSelector: Func_2<TKey, TAccumulate>, func: Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: IEqualityComparer_1<TKey> | null): IEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
+    static AggregateBy<TSource extends unknown, TKey extends unknown, TAccumulate extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: IEqualityComparer_1<TKey> | null): IEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
+    static All<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
+    static Any<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
+    static Any<TSource extends unknown>(source: IEnumerable_1<TSource>): boolean;
+    static Append<TSource extends unknown>(source: IEnumerable_1<TSource>, element: TSource): IEnumerable_1<TSource>;
+    static AsEnumerable<TSource extends unknown>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
+    static Average<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
+    static Average<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): double;
+    static Average<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
+    static Average<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Double>;
+    static Average<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
+    static Average<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
     static Average(source: IEnumerable_1<System_Internal.Decimal>): decimal;
     static Average(source: IEnumerable_1<System_Internal.Double>): double;
     static Average(source: IEnumerable_1<System_Internal.Int32>): double;
@@ -519,76 +521,76 @@ export abstract class Enumerable$instance {
     static Average(source: IEnumerable_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Double>;
     static Average(source: IEnumerable_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static Average(source: IEnumerable_1<System_Internal.Single>): float;
-    static Cast<TResult>(source: IEnumerable): IEnumerable_1<TResult>;
-    static Chunk<TSource>(source: IEnumerable_1<TSource>, size: int): IEnumerable_1<TSource[]>;
-    static Concat<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
-    static Contains<TSource>(source: IEnumerable_1<TSource>, value: TSource, comparer: IEqualityComparer_1<TSource> | null): boolean;
-    static Contains<TSource>(source: IEnumerable_1<TSource>, value: TSource): boolean;
-    static Count<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): int;
-    static Count<TSource>(source: IEnumerable_1<TSource>): int;
-    static CountBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, keyComparer?: IEqualityComparer_1<TKey> | null): IEnumerable_1<KeyValuePair_2<TKey, System_Internal.Int32>>;
-    static DefaultIfEmpty<TSource>(source: IEnumerable_1<TSource>, defaultValue: TSource): IEnumerable_1<TSource>;
-    static DefaultIfEmpty<TSource>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource | null>;
-    static Distinct<TSource>(source: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IEnumerable_1<TSource>;
-    static Distinct<TSource>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
-    static DistinctBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TSource>;
-    static DistinctBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<TSource>;
-    static ElementAt<TSource>(source: IEnumerable_1<TSource>, index: Index): TSource;
-    static ElementAt<TSource>(source: IEnumerable_1<TSource>, index: int): TSource;
-    static ElementAtOrDefault<TSource>(source: IEnumerable_1<TSource>, index: Index): TSource | null;
-    static ElementAtOrDefault<TSource>(source: IEnumerable_1<TSource>, index: int): TSource | null;
-    static Empty<TResult>(): IEnumerable_1<TResult>;
-    static Except<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IEnumerable_1<TSource>;
-    static Except<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
-    static ExceptBy<TSource, TKey>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TSource>;
-    static ExceptBy<TSource, TKey>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<TSource>;
-    static First<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
-    static First<TSource>(source: IEnumerable_1<TSource>): TSource;
-    static FirstOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource): TSource;
-    static FirstOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
-    static FirstOrDefault<TSource>(source: IEnumerable_1<TSource>, defaultValue: TSource): TSource;
-    static FirstOrDefault<TSource>(source: IEnumerable_1<TSource>): TSource | null;
-    static GroupBy<TSource, TKey, TElement, TResult>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
-    static GroupBy<TSource, TKey, TElement, TResult>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
-    static GroupBy<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<IGrouping_2<TKey, TElement>>;
-    static GroupBy<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): IEnumerable_1<IGrouping_2<TKey, TElement>>;
-    static GroupBy<TSource, TKey, TResult>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, resultSelector: Func_3<TKey, IEnumerable_1<TSource>, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
-    static GroupBy<TSource, TKey, TResult>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, resultSelector: Func_3<TKey, IEnumerable_1<TSource>, TResult>): IEnumerable_1<TResult>;
-    static GroupBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<IGrouping_2<TKey, TSource>>;
-    static GroupBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<IGrouping_2<TKey, TSource>>;
-    static GroupJoin<TOuter, TInner, TKey, TResult>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
-    static GroupJoin<TOuter, TInner, TKey, TResult>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>): IEnumerable_1<TResult>;
-    static Index<TSource>(source: IEnumerable_1<TSource>): IEnumerable_1<ValueTuple_2<System_Internal.Int32, TSource>>;
-    static InfiniteSequence<T extends IAdditionOperators_3<T, T, T>>(start: T, step: T): IEnumerable_1<T>;
-    static Intersect<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IEnumerable_1<TSource>;
-    static Intersect<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
-    static IntersectBy<TSource, TKey>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TSource>;
-    static IntersectBy<TSource, TKey>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<TSource>;
-    static Join<TOuter, TInner, TKey, TResult>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
-    static Join<TOuter, TInner, TKey, TResult>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>): IEnumerable_1<TResult>;
-    static Last<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
-    static Last<TSource>(source: IEnumerable_1<TSource>): TSource;
-    static LastOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource): TSource;
-    static LastOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
-    static LastOrDefault<TSource>(source: IEnumerable_1<TSource>, defaultValue: TSource): TSource;
-    static LastOrDefault<TSource>(source: IEnumerable_1<TSource>): TSource | null;
-    static LeftJoin<TOuter, TInner, TKey, TResult>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner | null, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
-    static LeftJoin<TOuter, TInner, TKey, TResult>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner | null, TResult>): IEnumerable_1<TResult>;
-    static LongCount<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): long;
-    static LongCount<TSource>(source: IEnumerable_1<TSource>): long;
-    static Max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
-    static Max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
-    static Max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
-    static Max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
-    static Max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
-    static Max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
-    static Max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
-    static Max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
-    static Max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
-    static Max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
-    static Max<TSource, TResult>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): TResult | null;
-    static Max<TSource>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource> | null): TSource | null;
-    static Max<TSource>(source: IEnumerable_1<TSource>): TSource | null;
+    static Cast<TResult extends unknown>(source: IEnumerable): IEnumerable_1<TResult>;
+    static Chunk<TSource extends unknown>(source: IEnumerable_1<TSource>, size: int): IEnumerable_1<TSource[]>;
+    static Concat<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
+    static Contains<TSource extends unknown>(source: IEnumerable_1<TSource>, value: TSource, comparer: IEqualityComparer_1<TSource> | null): boolean;
+    static Contains<TSource extends unknown>(source: IEnumerable_1<TSource>, value: TSource): boolean;
+    static Count<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): int;
+    static Count<TSource extends unknown>(source: IEnumerable_1<TSource>): int;
+    static CountBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, keyComparer?: IEqualityComparer_1<TKey> | null): IEnumerable_1<KeyValuePair_2<TKey, System_Internal.Int32>>;
+    static DefaultIfEmpty<TSource extends unknown>(source: IEnumerable_1<TSource>, defaultValue: TSource): IEnumerable_1<TSource>;
+    static DefaultIfEmpty<TSource extends unknown>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource | null>;
+    static Distinct<TSource extends unknown>(source: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IEnumerable_1<TSource>;
+    static Distinct<TSource extends unknown>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
+    static DistinctBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TSource>;
+    static DistinctBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<TSource>;
+    static ElementAt<TSource extends unknown>(source: IEnumerable_1<TSource>, index: Index): TSource;
+    static ElementAt<TSource extends unknown>(source: IEnumerable_1<TSource>, index: int): TSource;
+    static ElementAtOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, index: Index): TSource | null;
+    static ElementAtOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, index: int): TSource | null;
+    static Empty<TResult extends unknown>(): IEnumerable_1<TResult>;
+    static Except<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IEnumerable_1<TSource>;
+    static Except<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
+    static ExceptBy<TSource extends unknown, TKey extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TSource>;
+    static ExceptBy<TSource extends unknown, TKey extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<TSource>;
+    static First<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
+    static First<TSource extends unknown>(source: IEnumerable_1<TSource>): TSource;
+    static FirstOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource): TSource;
+    static FirstOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
+    static FirstOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, defaultValue: TSource): TSource;
+    static FirstOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>): TSource | null;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<IGrouping_2<TKey, TElement>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): IEnumerable_1<IGrouping_2<TKey, TElement>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, resultSelector: Func_3<TKey, IEnumerable_1<TSource>, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, resultSelector: Func_3<TKey, IEnumerable_1<TSource>, TResult>): IEnumerable_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<IGrouping_2<TKey, TSource>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<IGrouping_2<TKey, TSource>>;
+    static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
+    static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>): IEnumerable_1<TResult>;
+    static Index<TSource extends unknown>(source: IEnumerable_1<TSource>): IEnumerable_1<ValueTuple_2<System_Internal.Int32, TSource>>;
+    static InfiniteSequence<T extends unknown & IAdditionOperators_3<T, T, T>>(start: T, step: T): IEnumerable_1<T>;
+    static Intersect<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IEnumerable_1<TSource>;
+    static Intersect<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
+    static IntersectBy<TSource extends unknown, TKey extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TSource>;
+    static IntersectBy<TSource extends unknown, TKey extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<TSource>;
+    static Join<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
+    static Join<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>): IEnumerable_1<TResult>;
+    static Last<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
+    static Last<TSource extends unknown>(source: IEnumerable_1<TSource>): TSource;
+    static LastOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource): TSource;
+    static LastOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
+    static LastOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, defaultValue: TSource): TSource;
+    static LastOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>): TSource | null;
+    static LeftJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner | null, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
+    static LeftJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner | null, TResult>): IEnumerable_1<TResult>;
+    static LongCount<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): long;
+    static LongCount<TSource extends unknown>(source: IEnumerable_1<TSource>): long;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
+    static Max<TSource extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): TResult | null;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource> | null): TSource | null;
+    static Max<TSource extends unknown>(source: IEnumerable_1<TSource>): TSource | null;
     static Max(source: IEnumerable_1<System_Internal.Decimal>): decimal;
     static Max(source: IEnumerable_1<System_Internal.Double>): double;
     static Max(source: IEnumerable_1<System_Internal.Int32>): int;
@@ -599,21 +601,21 @@ export abstract class Enumerable$instance {
     static Max(source: IEnumerable_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static Max(source: IEnumerable_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static Max(source: IEnumerable_1<System_Internal.Single>): float;
-    static MaxBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): TSource | null;
-    static MaxBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): TSource | null;
-    static Min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
-    static Min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
-    static Min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
-    static Min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
-    static Min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
-    static Min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
-    static Min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
-    static Min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
-    static Min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
-    static Min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
-    static Min<TSource, TResult>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): TResult | null;
-    static Min<TSource>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource> | null): TSource | null;
-    static Min<TSource>(source: IEnumerable_1<TSource>): TSource | null;
+    static MaxBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): TSource | null;
+    static MaxBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): TSource | null;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
+    static Min<TSource extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): TResult | null;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource> | null): TSource | null;
+    static Min<TSource extends unknown>(source: IEnumerable_1<TSource>): TSource | null;
     static Min(source: IEnumerable_1<System_Internal.Decimal>): decimal;
     static Min(source: IEnumerable_1<System_Internal.Double>): double;
     static Min(source: IEnumerable_1<System_Internal.Int32>): int;
@@ -624,54 +626,54 @@ export abstract class Enumerable$instance {
     static Min(source: IEnumerable_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static Min(source: IEnumerable_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static Min(source: IEnumerable_1<System_Internal.Single>): float;
-    static MinBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): TSource | null;
-    static MinBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): TSource | null;
-    static OfType<TResult>(source: IEnumerable): IEnumerable_1<TResult>;
-    static Order<T>(source: IEnumerable_1<T>, comparer: IComparer_1<T> | null): IOrderedEnumerable_1<T>;
-    static Order<T>(source: IEnumerable_1<T>): IOrderedEnumerable_1<T>;
-    static OrderBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): IOrderedEnumerable_1<TSource>;
-    static OrderBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IOrderedEnumerable_1<TSource>;
-    static OrderByDescending<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): IOrderedEnumerable_1<TSource>;
-    static OrderByDescending<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IOrderedEnumerable_1<TSource>;
-    static OrderDescending<T>(source: IEnumerable_1<T>, comparer: IComparer_1<T> | null): IOrderedEnumerable_1<T>;
-    static OrderDescending<T>(source: IEnumerable_1<T>): IOrderedEnumerable_1<T>;
-    static Prepend<TSource>(source: IEnumerable_1<TSource>, element: TSource): IEnumerable_1<TSource>;
+    static MinBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): TSource | null;
+    static MinBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): TSource | null;
+    static OfType<TResult extends unknown>(source: IEnumerable): IEnumerable_1<TResult>;
+    static Order<T extends unknown>(source: IEnumerable_1<T>, comparer: IComparer_1<T> | null): IOrderedEnumerable_1<T>;
+    static Order<T extends unknown>(source: IEnumerable_1<T>): IOrderedEnumerable_1<T>;
+    static OrderBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): IOrderedEnumerable_1<TSource>;
+    static OrderBy<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IOrderedEnumerable_1<TSource>;
+    static OrderByDescending<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): IOrderedEnumerable_1<TSource>;
+    static OrderByDescending<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IOrderedEnumerable_1<TSource>;
+    static OrderDescending<T extends unknown>(source: IEnumerable_1<T>, comparer: IComparer_1<T> | null): IOrderedEnumerable_1<T>;
+    static OrderDescending<T extends unknown>(source: IEnumerable_1<T>): IOrderedEnumerable_1<T>;
+    static Prepend<TSource extends unknown>(source: IEnumerable_1<TSource>, element: TSource): IEnumerable_1<TSource>;
     static Range(start: int, count: int): IEnumerable_1<System_Internal.Int32>;
-    static Repeat<TResult>(element: TResult, count: int): IEnumerable_1<TResult>;
-    static Reverse<TSource>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
-    static Reverse<TSource>(source: TSource[]): IEnumerable_1<TSource>;
-    static RightJoin<TOuter, TInner, TKey, TResult>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter | null, TInner, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
-    static RightJoin<TOuter, TInner, TKey, TResult>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter | null, TInner, TResult>): IEnumerable_1<TResult>;
-    static Select<TSource, TResult>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): IEnumerable_1<TResult>;
-    static Select<TSource, TResult>(source: IEnumerable_1<TSource>, selector: Func_3<TSource, System_Internal.Int32, TResult>): IEnumerable_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(source: IEnumerable_1<TSource>, collectionSelector: Func_2<TSource, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IEnumerable_1<TResult>;
-    static SelectMany<TSource, TResult>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, IEnumerable_1<TResult>>): IEnumerable_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(source: IEnumerable_1<TSource>, collectionSelector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IEnumerable_1<TResult>;
-    static SelectMany<TSource, TResult>(source: IEnumerable_1<TSource>, selector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TResult>>): IEnumerable_1<TResult>;
-    static Sequence<T extends INumber_1<T>>(start: T, endInclusive: T, step: T): IEnumerable_1<T>;
-    static SequenceEqual<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): boolean;
-    static SequenceEqual<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): boolean;
-    static Shuffle<TSource>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
-    static Single<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
-    static Single<TSource>(source: IEnumerable_1<TSource>): TSource;
-    static SingleOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource): TSource;
-    static SingleOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
-    static SingleOrDefault<TSource>(source: IEnumerable_1<TSource>, defaultValue: TSource): TSource;
-    static SingleOrDefault<TSource>(source: IEnumerable_1<TSource>): TSource | null;
-    static Skip<TSource>(source: IEnumerable_1<TSource>, count: int): IEnumerable_1<TSource>;
-    static SkipLast<TSource>(source: IEnumerable_1<TSource>, count: int): IEnumerable_1<TSource>;
-    static SkipWhile<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IEnumerable_1<TSource>;
-    static SkipWhile<TSource>(source: IEnumerable_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): IEnumerable_1<TSource>;
-    static Sum<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
-    static Sum<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
-    static Sum<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
-    static Sum<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
-    static Sum<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
-    static Sum<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
-    static Sum<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
-    static Sum<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
-    static Sum<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
-    static Sum<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
+    static Repeat<TResult extends unknown>(element: TResult, count: int): IEnumerable_1<TResult>;
+    static Reverse<TSource extends unknown>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
+    static Reverse<TSource extends unknown>(source: TSource[]): IEnumerable_1<TSource>;
+    static RightJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter | null, TInner, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
+    static RightJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter | null, TInner, TResult>): IEnumerable_1<TResult>;
+    static Select<TSource extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): IEnumerable_1<TResult>;
+    static Select<TSource extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, selector: Func_3<TSource, System_Internal.Int32, TResult>): IEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, collectionSelector: Func_2<TSource, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, IEnumerable_1<TResult>>): IEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, collectionSelector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, selector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TResult>>): IEnumerable_1<TResult>;
+    static Sequence<T extends unknown & INumber_1<T>>(start: T, endInclusive: T, step: T): IEnumerable_1<T>;
+    static SequenceEqual<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): boolean;
+    static SequenceEqual<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): boolean;
+    static Shuffle<TSource extends unknown>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
+    static Single<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
+    static Single<TSource extends unknown>(source: IEnumerable_1<TSource>): TSource;
+    static SingleOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource): TSource;
+    static SingleOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
+    static SingleOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>, defaultValue: TSource): TSource;
+    static SingleOrDefault<TSource extends unknown>(source: IEnumerable_1<TSource>): TSource | null;
+    static Skip<TSource extends unknown>(source: IEnumerable_1<TSource>, count: int): IEnumerable_1<TSource>;
+    static SkipLast<TSource extends unknown>(source: IEnumerable_1<TSource>, count: int): IEnumerable_1<TSource>;
+    static SkipWhile<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IEnumerable_1<TSource>;
+    static SkipWhile<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): IEnumerable_1<TSource>;
+    static Sum<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
+    static Sum<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
+    static Sum<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
+    static Sum<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
+    static Sum<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
+    static Sum<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
+    static Sum<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
+    static Sum<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
+    static Sum<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
+    static Sum<TSource extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
     static Sum(source: IEnumerable_1<System_Internal.Decimal>): decimal;
     static Sum(source: IEnumerable_1<System_Internal.Double>): double;
     static Sum(source: IEnumerable_1<System_Internal.Int32>): int;
@@ -682,109 +684,109 @@ export abstract class Enumerable$instance {
     static Sum(source: IEnumerable_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static Sum(source: IEnumerable_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static Sum(source: IEnumerable_1<System_Internal.Single>): float;
-    static Take<TSource>(source: IEnumerable_1<TSource>, count: int): IEnumerable_1<TSource>;
-    static Take<TSource>(source: IEnumerable_1<TSource>, range: Range): IEnumerable_1<TSource>;
-    static TakeLast<TSource>(source: IEnumerable_1<TSource>, count: int): IEnumerable_1<TSource>;
-    static TakeWhile<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IEnumerable_1<TSource>;
-    static TakeWhile<TSource>(source: IEnumerable_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): IEnumerable_1<TSource>;
-    static ThenBy<TSource, TKey>(source: IOrderedEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): IOrderedEnumerable_1<TSource>;
-    static ThenBy<TSource, TKey>(source: IOrderedEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IOrderedEnumerable_1<TSource>;
-    static ThenByDescending<TSource, TKey>(source: IOrderedEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): IOrderedEnumerable_1<TSource>;
-    static ThenByDescending<TSource, TKey>(source: IOrderedEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IOrderedEnumerable_1<TSource>;
-    static ToArray<TSource>(source: IEnumerable_1<TSource>): TSource[];
-    static ToDictionary<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TElement>;
-    static ToDictionary<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): Dictionary_2<TKey, TElement>;
-    static ToDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TSource>;
-    static ToDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): Dictionary_2<TKey, TSource>;
-    static ToDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TValue>;
-    static ToDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): Dictionary_2<TKey, TValue>;
-    static ToHashSet<TSource>(source: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): HashSet_1<TSource>;
-    static ToHashSet<TSource>(source: IEnumerable_1<TSource>): HashSet_1<TSource>;
-    static ToList<TSource>(source: IEnumerable_1<TSource>): List_1<TSource>;
-    static ToLookup<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): ILookup_2<TKey, TElement>;
-    static ToLookup<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): ILookup_2<TKey, TElement>;
-    static ToLookup<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): ILookup_2<TKey, TSource>;
-    static ToLookup<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): ILookup_2<TKey, TSource>;
-    static TryGetNonEnumeratedCount<TSource>(source: IEnumerable_1<TSource>, count: int): boolean;
-    static Union<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IEnumerable_1<TSource>;
-    static Union<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
-    static UnionBy<TSource, TKey>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TSource>;
-    static UnionBy<TSource, TKey>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<TSource>;
-    static Where<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IEnumerable_1<TSource>;
-    static Where<TSource>(source: IEnumerable_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): IEnumerable_1<TSource>;
-    static Zip<TFirst, TSecond, TResult>(first: IEnumerable_1<TFirst>, second: IEnumerable_1<TSecond>, resultSelector: Func_3<TFirst, TSecond, TResult>): IEnumerable_1<TResult>;
-    static Zip<TFirst, TSecond, TThird>(first: IEnumerable_1<TFirst>, second: IEnumerable_1<TSecond>, third: IEnumerable_1<TThird>): IEnumerable_1<ValueTuple_3<TFirst, TSecond, TThird>>;
-    static Zip<TFirst, TSecond>(first: IEnumerable_1<TFirst>, second: IEnumerable_1<TSecond>): IEnumerable_1<ValueTuple_2<TFirst, TSecond>>;
+    static Take<TSource extends unknown>(source: IEnumerable_1<TSource>, count: int): IEnumerable_1<TSource>;
+    static Take<TSource extends unknown>(source: IEnumerable_1<TSource>, range: Range): IEnumerable_1<TSource>;
+    static TakeLast<TSource extends unknown>(source: IEnumerable_1<TSource>, count: int): IEnumerable_1<TSource>;
+    static TakeWhile<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IEnumerable_1<TSource>;
+    static TakeWhile<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): IEnumerable_1<TSource>;
+    static ThenBy<TSource extends unknown, TKey extends unknown>(source: IOrderedEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): IOrderedEnumerable_1<TSource>;
+    static ThenBy<TSource extends unknown, TKey extends unknown>(source: IOrderedEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IOrderedEnumerable_1<TSource>;
+    static ThenByDescending<TSource extends unknown, TKey extends unknown>(source: IOrderedEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): IOrderedEnumerable_1<TSource>;
+    static ThenByDescending<TSource extends unknown, TKey extends unknown>(source: IOrderedEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IOrderedEnumerable_1<TSource>;
+    static ToArray<TSource extends unknown>(source: IEnumerable_1<TSource>): TSource[];
+    static ToDictionary<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TElement>;
+    static ToDictionary<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): Dictionary_2<TKey, TElement>;
+    static ToDictionary<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TSource>;
+    static ToDictionary<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): Dictionary_2<TKey, TSource>;
+    static ToDictionary<TKey extends unknown, TValue extends unknown>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TValue>;
+    static ToDictionary<TKey extends unknown, TValue extends unknown>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): Dictionary_2<TKey, TValue>;
+    static ToHashSet<TSource extends unknown>(source: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): HashSet_1<TSource>;
+    static ToHashSet<TSource extends unknown>(source: IEnumerable_1<TSource>): HashSet_1<TSource>;
+    static ToList<TSource extends unknown>(source: IEnumerable_1<TSource>): List_1<TSource>;
+    static ToLookup<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): ILookup_2<TKey, TElement>;
+    static ToLookup<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): ILookup_2<TKey, TElement>;
+    static ToLookup<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): ILookup_2<TKey, TSource>;
+    static ToLookup<TSource extends unknown, TKey extends unknown>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): ILookup_2<TKey, TSource>;
+    static TryGetNonEnumeratedCount<TSource extends unknown>(source: IEnumerable_1<TSource>, count: int): boolean;
+    static Union<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IEnumerable_1<TSource>;
+    static Union<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
+    static UnionBy<TSource extends unknown, TKey extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TSource>;
+    static UnionBy<TSource extends unknown, TKey extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<TSource>;
+    static Where<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IEnumerable_1<TSource>;
+    static Where<TSource extends unknown>(source: IEnumerable_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): IEnumerable_1<TSource>;
+    static Zip<TFirst extends unknown, TSecond extends unknown, TResult extends unknown>(first: IEnumerable_1<TFirst>, second: IEnumerable_1<TSecond>, resultSelector: Func_3<TFirst, TSecond, TResult>): IEnumerable_1<TResult>;
+    static Zip<TFirst extends unknown, TSecond extends unknown, TThird extends unknown>(first: IEnumerable_1<TFirst>, second: IEnumerable_1<TSecond>, third: IEnumerable_1<TThird>): IEnumerable_1<ValueTuple_3<TFirst, TSecond, TThird>>;
+    static Zip<TFirst extends unknown, TSecond extends unknown>(first: IEnumerable_1<TFirst>, second: IEnumerable_1<TSecond>): IEnumerable_1<ValueTuple_2<TFirst, TSecond>>;
 }
 
 
 export type Enumerable = Enumerable$instance;
 
 export abstract class ImmutableArrayExtensions$instance {
-    static Aggregate<T>(immutableArray: ImmutableArray_1<T>, func: Func_3<T, T, T>): T | null;
-    static Aggregate<TAccumulate, TResult, T>(immutableArray: ImmutableArray_1<T>, seed: TAccumulate, func: Func_3<TAccumulate, T, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
-    static Aggregate<TAccumulate, T>(immutableArray: ImmutableArray_1<T>, seed: TAccumulate, func: Func_3<TAccumulate, T, TAccumulate>): TAccumulate;
-    static All<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): boolean;
-    static Any<T>(builder: ImmutableArray_1_Builder<T>): boolean;
-    static Any<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): boolean;
-    static Any<T>(immutableArray: ImmutableArray_1<T>): boolean;
-    static ElementAt<T>(immutableArray: ImmutableArray_1<T>, index: int): T;
-    static ElementAtOrDefault<T>(immutableArray: ImmutableArray_1<T>, index: int): T | null;
-    static First<T>(builder: ImmutableArray_1_Builder<T>): T;
-    static First<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
-    static First<T>(immutableArray: ImmutableArray_1<T>): T;
-    static FirstOrDefault<T>(builder: ImmutableArray_1_Builder<T>): T | null;
-    static FirstOrDefault<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T | null;
-    static FirstOrDefault<T>(immutableArray: ImmutableArray_1<T>): T | null;
-    static Last<T>(builder: ImmutableArray_1_Builder<T>): T;
-    static Last<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
-    static Last<T>(immutableArray: ImmutableArray_1<T>): T;
-    static LastOrDefault<T>(builder: ImmutableArray_1_Builder<T>): T | null;
-    static LastOrDefault<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T | null;
-    static LastOrDefault<T>(immutableArray: ImmutableArray_1<T>): T | null;
-    static Select<T, TResult>(immutableArray: ImmutableArray_1<T>, selector: Func_2<T, TResult>): IEnumerable_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(immutableArray: ImmutableArray_1<TSource>, collectionSelector: Func_2<TSource, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IEnumerable_1<TResult>;
-    static SequenceEqual<TDerived extends TBase, TBase>(immutableArray: ImmutableArray_1<TBase>, items: IEnumerable_1<TDerived>, comparer?: IEqualityComparer_1<TBase> | null): boolean;
-    static SequenceEqual<TDerived extends TBase, TBase>(immutableArray: ImmutableArray_1<TBase>, items: ImmutableArray_1<TDerived>, predicate: Func_3<TBase, TBase, System_Internal.Boolean>): boolean;
-    static SequenceEqual<TDerived extends TBase, TBase>(immutableArray: ImmutableArray_1<TBase>, items: ImmutableArray_1<TDerived>, comparer?: IEqualityComparer_1<TBase> | null): boolean;
-    static Single<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
-    static Single<T>(immutableArray: ImmutableArray_1<T>): T;
-    static SingleOrDefault<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T | null;
-    static SingleOrDefault<T>(immutableArray: ImmutableArray_1<T>): T | null;
-    static ToArray<T>(immutableArray: ImmutableArray_1<T>): T[];
-    static ToDictionary<TKey, TElement, T>(immutableArray: ImmutableArray_1<T>, keySelector: Func_2<T, TKey>, elementSelector: Func_2<T, TElement>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TElement>;
-    static ToDictionary<TKey, TElement, T>(immutableArray: ImmutableArray_1<T>, keySelector: Func_2<T, TKey>, elementSelector: Func_2<T, TElement>): Dictionary_2<TKey, TElement>;
-    static ToDictionary<TKey, T>(immutableArray: ImmutableArray_1<T>, keySelector: Func_2<T, TKey>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, T>;
-    static ToDictionary<TKey, T>(immutableArray: ImmutableArray_1<T>, keySelector: Func_2<T, TKey>): Dictionary_2<TKey, T>;
-    static Where<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): IEnumerable_1<T>;
+    static Aggregate<T extends unknown>(immutableArray: ImmutableArray_1<T>, func: Func_3<T, T, T>): T | null;
+    static Aggregate<TAccumulate extends unknown, TResult extends unknown, T extends unknown>(immutableArray: ImmutableArray_1<T>, seed: TAccumulate, func: Func_3<TAccumulate, T, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
+    static Aggregate<TAccumulate extends unknown, T extends unknown>(immutableArray: ImmutableArray_1<T>, seed: TAccumulate, func: Func_3<TAccumulate, T, TAccumulate>): TAccumulate;
+    static All<T extends unknown>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): boolean;
+    static Any<T extends unknown>(builder: ImmutableArray_1_Builder<T>): boolean;
+    static Any<T extends unknown>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): boolean;
+    static Any<T extends unknown>(immutableArray: ImmutableArray_1<T>): boolean;
+    static ElementAt<T extends unknown>(immutableArray: ImmutableArray_1<T>, index: int): T;
+    static ElementAtOrDefault<T extends unknown>(immutableArray: ImmutableArray_1<T>, index: int): T | null;
+    static First<T extends unknown>(builder: ImmutableArray_1_Builder<T>): T;
+    static First<T extends unknown>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
+    static First<T extends unknown>(immutableArray: ImmutableArray_1<T>): T;
+    static FirstOrDefault<T extends unknown>(builder: ImmutableArray_1_Builder<T>): T | null;
+    static FirstOrDefault<T extends unknown>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T | null;
+    static FirstOrDefault<T extends unknown>(immutableArray: ImmutableArray_1<T>): T | null;
+    static Last<T extends unknown>(builder: ImmutableArray_1_Builder<T>): T;
+    static Last<T extends unknown>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
+    static Last<T extends unknown>(immutableArray: ImmutableArray_1<T>): T;
+    static LastOrDefault<T extends unknown>(builder: ImmutableArray_1_Builder<T>): T | null;
+    static LastOrDefault<T extends unknown>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T | null;
+    static LastOrDefault<T extends unknown>(immutableArray: ImmutableArray_1<T>): T | null;
+    static Select<T extends unknown, TResult extends unknown>(immutableArray: ImmutableArray_1<T>, selector: Func_2<T, TResult>): IEnumerable_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(immutableArray: ImmutableArray_1<TSource>, collectionSelector: Func_2<TSource, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IEnumerable_1<TResult>;
+    static SequenceEqual<TDerived extends unknown & TBase, TBase extends unknown>(immutableArray: ImmutableArray_1<TBase>, items: IEnumerable_1<TDerived>, comparer?: IEqualityComparer_1<TBase> | null): boolean;
+    static SequenceEqual<TDerived extends unknown & TBase, TBase extends unknown>(immutableArray: ImmutableArray_1<TBase>, items: ImmutableArray_1<TDerived>, predicate: Func_3<TBase, TBase, System_Internal.Boolean>): boolean;
+    static SequenceEqual<TDerived extends unknown & TBase, TBase extends unknown>(immutableArray: ImmutableArray_1<TBase>, items: ImmutableArray_1<TDerived>, comparer?: IEqualityComparer_1<TBase> | null): boolean;
+    static Single<T extends unknown>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
+    static Single<T extends unknown>(immutableArray: ImmutableArray_1<T>): T;
+    static SingleOrDefault<T extends unknown>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T | null;
+    static SingleOrDefault<T extends unknown>(immutableArray: ImmutableArray_1<T>): T | null;
+    static ToArray<T extends unknown>(immutableArray: ImmutableArray_1<T>): T[];
+    static ToDictionary<TKey extends unknown, TElement extends unknown, T extends unknown>(immutableArray: ImmutableArray_1<T>, keySelector: Func_2<T, TKey>, elementSelector: Func_2<T, TElement>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TElement>;
+    static ToDictionary<TKey extends unknown, TElement extends unknown, T extends unknown>(immutableArray: ImmutableArray_1<T>, keySelector: Func_2<T, TKey>, elementSelector: Func_2<T, TElement>): Dictionary_2<TKey, TElement>;
+    static ToDictionary<TKey extends unknown, T extends unknown>(immutableArray: ImmutableArray_1<T>, keySelector: Func_2<T, TKey>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, T>;
+    static ToDictionary<TKey extends unknown, T extends unknown>(immutableArray: ImmutableArray_1<T>, keySelector: Func_2<T, TKey>): Dictionary_2<TKey, T>;
+    static Where<T extends unknown>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): IEnumerable_1<T>;
 }
 
 
 export type ImmutableArrayExtensions = ImmutableArrayExtensions$instance;
 
 export abstract class ParallelEnumerable$instance {
-    static Aggregate<TSource, TAccumulate, TResult>(source: ParallelQuery_1<TSource>, seedFactory: Func_1<TAccumulate>, updateAccumulatorFunc: Func_3<TAccumulate, TSource, TAccumulate>, combineAccumulatorsFunc: Func_3<TAccumulate, TAccumulate, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
-    static Aggregate<TSource>(source: ParallelQuery_1<TSource>, func: Func_3<TSource, TSource, TSource>): TSource;
-    static Aggregate<TSource, TAccumulate, TResult>(source: ParallelQuery_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
-    static Aggregate<TSource, TAccumulate, TResult>(source: ParallelQuery_1<TSource>, seed: TAccumulate, updateAccumulatorFunc: Func_3<TAccumulate, TSource, TAccumulate>, combineAccumulatorsFunc: Func_3<TAccumulate, TAccumulate, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
-    static Aggregate<TSource, TAccumulate>(source: ParallelQuery_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>): TAccumulate;
-    static All<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
-    static Any<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
-    static Any<TSource>(source: ParallelQuery_1<TSource>): boolean;
-    static AsEnumerable<TSource>(source: ParallelQuery_1<TSource>): IEnumerable_1<TSource>;
-    static AsOrdered<TSource>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
+    static Aggregate<TSource extends unknown, TAccumulate extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, seedFactory: Func_1<TAccumulate>, updateAccumulatorFunc: Func_3<TAccumulate, TSource, TAccumulate>, combineAccumulatorsFunc: Func_3<TAccumulate, TAccumulate, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
+    static Aggregate<TSource extends unknown>(source: ParallelQuery_1<TSource>, func: Func_3<TSource, TSource, TSource>): TSource;
+    static Aggregate<TSource extends unknown, TAccumulate extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
+    static Aggregate<TSource extends unknown, TAccumulate extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, seed: TAccumulate, updateAccumulatorFunc: Func_3<TAccumulate, TSource, TAccumulate>, combineAccumulatorsFunc: Func_3<TAccumulate, TAccumulate, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
+    static Aggregate<TSource extends unknown, TAccumulate extends unknown>(source: ParallelQuery_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>): TAccumulate;
+    static All<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
+    static Any<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
+    static Any<TSource extends unknown>(source: ParallelQuery_1<TSource>): boolean;
+    static AsEnumerable<TSource extends unknown>(source: ParallelQuery_1<TSource>): IEnumerable_1<TSource>;
+    static AsOrdered<TSource extends unknown>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
     static AsOrdered(source: ParallelQuery): ParallelQuery;
-    static AsParallel<TSource>(source: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
-    static AsParallel<TSource>(source: Partitioner_1<TSource>): ParallelQuery_1<TSource>;
+    static AsParallel<TSource extends unknown>(source: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
+    static AsParallel<TSource extends unknown>(source: Partitioner_1<TSource>): ParallelQuery_1<TSource>;
     static AsParallel(source: IEnumerable): ParallelQuery;
-    static AsSequential<TSource>(source: ParallelQuery_1<TSource>): IEnumerable_1<TSource>;
-    static AsUnordered<TSource>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
-    static Average<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
-    static Average<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): double;
-    static Average<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
-    static Average<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Double>;
-    static Average<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
-    static Average<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
+    static AsSequential<TSource extends unknown>(source: ParallelQuery_1<TSource>): IEnumerable_1<TSource>;
+    static AsUnordered<TSource extends unknown>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
+    static Average<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
+    static Average<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): double;
+    static Average<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
+    static Average<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Double>;
+    static Average<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
+    static Average<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
     static Average(source: ParallelQuery_1<System_Internal.Decimal>): decimal;
     static Average(source: ParallelQuery_1<System_Internal.Double>): double;
     static Average(source: ParallelQuery_1<System_Internal.Int32>): double;
@@ -795,67 +797,67 @@ export abstract class ParallelEnumerable$instance {
     static Average(source: ParallelQuery_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Double>;
     static Average(source: ParallelQuery_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static Average(source: ParallelQuery_1<System_Internal.Single>): float;
-    static Cast<TResult>(source: ParallelQuery): ParallelQuery_1<TResult>;
-    static Concat<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
-    static Concat<TSource>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
-    static Contains<TSource>(source: ParallelQuery_1<TSource>, value: TSource, comparer: IEqualityComparer_1<TSource> | null): boolean;
-    static Contains<TSource>(source: ParallelQuery_1<TSource>, value: TSource): boolean;
-    static Count<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): int;
-    static Count<TSource>(source: ParallelQuery_1<TSource>): int;
-    static DefaultIfEmpty<TSource>(source: ParallelQuery_1<TSource>, defaultValue: TSource): ParallelQuery_1<TSource>;
-    static DefaultIfEmpty<TSource>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource | null>;
-    static Distinct<TSource>(source: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
-    static Distinct<TSource>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
-    static ElementAt<TSource>(source: ParallelQuery_1<TSource>, index: int): TSource;
-    static ElementAtOrDefault<TSource>(source: ParallelQuery_1<TSource>, index: int): TSource | null;
-    static Empty<TResult>(): ParallelQuery_1<TResult>;
-    static Except<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
-    static Except<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
-    static Except<TSource>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
-    static Except<TSource>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
-    static First<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
-    static First<TSource>(source: ParallelQuery_1<TSource>): TSource;
-    static FirstOrDefault<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
-    static FirstOrDefault<TSource>(source: ParallelQuery_1<TSource>): TSource | null;
-    static ForAll<TSource>(source: ParallelQuery_1<TSource>, action: Action_1<TSource>): void;
-    static GroupBy<TSource, TKey, TElement, TResult>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
-    static GroupBy<TSource, TKey, TElement, TResult>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): ParallelQuery_1<TResult>;
-    static GroupBy<TSource, TKey, TElement>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<IGrouping_2<TKey, TElement>>;
-    static GroupBy<TSource, TKey, TElement>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): ParallelQuery_1<IGrouping_2<TKey, TElement>>;
-    static GroupBy<TSource, TKey, TResult>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, resultSelector: Func_3<TKey, IEnumerable_1<TSource>, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
-    static GroupBy<TSource, TKey, TResult>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, resultSelector: Func_3<TKey, IEnumerable_1<TSource>, TResult>): ParallelQuery_1<TResult>;
-    static GroupBy<TSource, TKey>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<IGrouping_2<TKey, TSource>>;
-    static GroupBy<TSource, TKey>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): ParallelQuery_1<IGrouping_2<TKey, TSource>>;
-    static GroupJoin<TOuter, TInner, TKey, TResult>(outer: ParallelQuery_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
-    static GroupJoin<TOuter, TInner, TKey, TResult>(outer: ParallelQuery_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>): ParallelQuery_1<TResult>;
-    static GroupJoin<TOuter, TInner, TKey, TResult>(outer: ParallelQuery_1<TOuter>, inner: ParallelQuery_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
-    static GroupJoin<TOuter, TInner, TKey, TResult>(outer: ParallelQuery_1<TOuter>, inner: ParallelQuery_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>): ParallelQuery_1<TResult>;
-    static Intersect<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
-    static Intersect<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
-    static Intersect<TSource>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
-    static Intersect<TSource>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
-    static Join<TOuter, TInner, TKey, TResult>(outer: ParallelQuery_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
-    static Join<TOuter, TInner, TKey, TResult>(outer: ParallelQuery_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>): ParallelQuery_1<TResult>;
-    static Join<TOuter, TInner, TKey, TResult>(outer: ParallelQuery_1<TOuter>, inner: ParallelQuery_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
-    static Join<TOuter, TInner, TKey, TResult>(outer: ParallelQuery_1<TOuter>, inner: ParallelQuery_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>): ParallelQuery_1<TResult>;
-    static Last<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
-    static Last<TSource>(source: ParallelQuery_1<TSource>): TSource;
-    static LastOrDefault<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
-    static LastOrDefault<TSource>(source: ParallelQuery_1<TSource>): TSource | null;
-    static LongCount<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): long;
-    static LongCount<TSource>(source: ParallelQuery_1<TSource>): long;
-    static Max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
-    static Max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
-    static Max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
-    static Max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
-    static Max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
-    static Max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
-    static Max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
-    static Max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
-    static Max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
-    static Max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
-    static Max<TSource, TResult>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, TResult>): TResult | null;
-    static Max<TSource>(source: ParallelQuery_1<TSource>): TSource | null;
+    static Cast<TResult extends unknown>(source: ParallelQuery): ParallelQuery_1<TResult>;
+    static Concat<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
+    static Concat<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
+    static Contains<TSource extends unknown>(source: ParallelQuery_1<TSource>, value: TSource, comparer: IEqualityComparer_1<TSource> | null): boolean;
+    static Contains<TSource extends unknown>(source: ParallelQuery_1<TSource>, value: TSource): boolean;
+    static Count<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): int;
+    static Count<TSource extends unknown>(source: ParallelQuery_1<TSource>): int;
+    static DefaultIfEmpty<TSource extends unknown>(source: ParallelQuery_1<TSource>, defaultValue: TSource): ParallelQuery_1<TSource>;
+    static DefaultIfEmpty<TSource extends unknown>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource | null>;
+    static Distinct<TSource extends unknown>(source: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
+    static Distinct<TSource extends unknown>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
+    static ElementAt<TSource extends unknown>(source: ParallelQuery_1<TSource>, index: int): TSource;
+    static ElementAtOrDefault<TSource extends unknown>(source: ParallelQuery_1<TSource>, index: int): TSource | null;
+    static Empty<TResult extends unknown>(): ParallelQuery_1<TResult>;
+    static Except<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
+    static Except<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
+    static Except<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
+    static Except<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
+    static First<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
+    static First<TSource extends unknown>(source: ParallelQuery_1<TSource>): TSource;
+    static FirstOrDefault<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
+    static FirstOrDefault<TSource extends unknown>(source: ParallelQuery_1<TSource>): TSource | null;
+    static ForAll<TSource extends unknown>(source: ParallelQuery_1<TSource>, action: Action_1<TSource>): void;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): ParallelQuery_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<IGrouping_2<TKey, TElement>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): ParallelQuery_1<IGrouping_2<TKey, TElement>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, resultSelector: Func_3<TKey, IEnumerable_1<TSource>, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, resultSelector: Func_3<TKey, IEnumerable_1<TSource>, TResult>): ParallelQuery_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<IGrouping_2<TKey, TSource>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): ParallelQuery_1<IGrouping_2<TKey, TSource>>;
+    static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: ParallelQuery_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
+    static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: ParallelQuery_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>): ParallelQuery_1<TResult>;
+    static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: ParallelQuery_1<TOuter>, inner: ParallelQuery_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
+    static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: ParallelQuery_1<TOuter>, inner: ParallelQuery_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>): ParallelQuery_1<TResult>;
+    static Intersect<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
+    static Intersect<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
+    static Intersect<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
+    static Intersect<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
+    static Join<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: ParallelQuery_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
+    static Join<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: ParallelQuery_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>): ParallelQuery_1<TResult>;
+    static Join<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: ParallelQuery_1<TOuter>, inner: ParallelQuery_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>, comparer: IEqualityComparer_1<TKey> | null): ParallelQuery_1<TResult>;
+    static Join<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: ParallelQuery_1<TOuter>, inner: ParallelQuery_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner, TResult>): ParallelQuery_1<TResult>;
+    static Last<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
+    static Last<TSource extends unknown>(source: ParallelQuery_1<TSource>): TSource;
+    static LastOrDefault<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
+    static LastOrDefault<TSource extends unknown>(source: ParallelQuery_1<TSource>): TSource | null;
+    static LongCount<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): long;
+    static LongCount<TSource extends unknown>(source: ParallelQuery_1<TSource>): long;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
+    static Max<TSource extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, TResult>): TResult | null;
+    static Max<TSource extends unknown>(source: ParallelQuery_1<TSource>): TSource | null;
     static Max(source: ParallelQuery_1<System_Internal.Decimal>): decimal;
     static Max(source: ParallelQuery_1<System_Internal.Double>): double;
     static Max(source: ParallelQuery_1<System_Internal.Int32>): int;
@@ -866,18 +868,18 @@ export abstract class ParallelEnumerable$instance {
     static Max(source: ParallelQuery_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static Max(source: ParallelQuery_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static Max(source: ParallelQuery_1<System_Internal.Single>): float;
-    static Min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
-    static Min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
-    static Min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
-    static Min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
-    static Min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
-    static Min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
-    static Min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
-    static Min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
-    static Min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
-    static Min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
-    static Min<TSource, TResult>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, TResult>): TResult | null;
-    static Min<TSource>(source: ParallelQuery_1<TSource>): TSource | null;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
+    static Min<TSource extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, TResult>): TResult | null;
+    static Min<TSource extends unknown>(source: ParallelQuery_1<TSource>): TSource | null;
     static Min(source: ParallelQuery_1<System_Internal.Decimal>): decimal;
     static Min(source: ParallelQuery_1<System_Internal.Double>): double;
     static Min(source: ParallelQuery_1<System_Internal.Int32>): int;
@@ -888,41 +890,41 @@ export abstract class ParallelEnumerable$instance {
     static Min(source: ParallelQuery_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static Min(source: ParallelQuery_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static Min(source: ParallelQuery_1<System_Internal.Single>): float;
-    static OfType<TResult>(source: ParallelQuery): ParallelQuery_1<TResult>;
-    static OrderBy<TSource, TKey>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): OrderedParallelQuery_1<TSource>;
-    static OrderBy<TSource, TKey>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): OrderedParallelQuery_1<TSource>;
-    static OrderByDescending<TSource, TKey>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): OrderedParallelQuery_1<TSource>;
-    static OrderByDescending<TSource, TKey>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): OrderedParallelQuery_1<TSource>;
+    static OfType<TResult extends unknown>(source: ParallelQuery): ParallelQuery_1<TResult>;
+    static OrderBy<TSource extends unknown, TKey extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): OrderedParallelQuery_1<TSource>;
+    static OrderBy<TSource extends unknown, TKey extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): OrderedParallelQuery_1<TSource>;
+    static OrderByDescending<TSource extends unknown, TKey extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): OrderedParallelQuery_1<TSource>;
+    static OrderByDescending<TSource extends unknown, TKey extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): OrderedParallelQuery_1<TSource>;
     static Range(start: int, count: int): ParallelQuery_1<System_Internal.Int32>;
-    static Repeat<TResult>(element: TResult, count: int): ParallelQuery_1<TResult>;
-    static Reverse<TSource>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
-    static Select<TSource, TResult>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, TResult>): ParallelQuery_1<TResult>;
-    static Select<TSource, TResult>(source: ParallelQuery_1<TSource>, selector: Func_3<TSource, System_Internal.Int32, TResult>): ParallelQuery_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(source: ParallelQuery_1<TSource>, collectionSelector: Func_2<TSource, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): ParallelQuery_1<TResult>;
-    static SelectMany<TSource, TResult>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, IEnumerable_1<TResult>>): ParallelQuery_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(source: ParallelQuery_1<TSource>, collectionSelector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): ParallelQuery_1<TResult>;
-    static SelectMany<TSource, TResult>(source: ParallelQuery_1<TSource>, selector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TResult>>): ParallelQuery_1<TResult>;
-    static SequenceEqual<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): boolean;
-    static SequenceEqual<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): boolean;
-    static SequenceEqual<TSource>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): boolean;
-    static SequenceEqual<TSource>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>): boolean;
-    static Single<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
-    static Single<TSource>(source: ParallelQuery_1<TSource>): TSource;
-    static SingleOrDefault<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
-    static SingleOrDefault<TSource>(source: ParallelQuery_1<TSource>): TSource | null;
-    static Skip<TSource>(source: ParallelQuery_1<TSource>, count: int): ParallelQuery_1<TSource>;
-    static SkipWhile<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): ParallelQuery_1<TSource>;
-    static SkipWhile<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): ParallelQuery_1<TSource>;
-    static Sum<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
-    static Sum<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
-    static Sum<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
-    static Sum<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
-    static Sum<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
-    static Sum<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
-    static Sum<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
-    static Sum<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
-    static Sum<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
-    static Sum<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
+    static Repeat<TResult extends unknown>(element: TResult, count: int): ParallelQuery_1<TResult>;
+    static Reverse<TSource extends unknown>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
+    static Select<TSource extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, TResult>): ParallelQuery_1<TResult>;
+    static Select<TSource extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_3<TSource, System_Internal.Int32, TResult>): ParallelQuery_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, collectionSelector: Func_2<TSource, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): ParallelQuery_1<TResult>;
+    static SelectMany<TSource extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, IEnumerable_1<TResult>>): ParallelQuery_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, collectionSelector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): ParallelQuery_1<TResult>;
+    static SelectMany<TSource extends unknown, TResult extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TResult>>): ParallelQuery_1<TResult>;
+    static SequenceEqual<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): boolean;
+    static SequenceEqual<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): boolean;
+    static SequenceEqual<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): boolean;
+    static SequenceEqual<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>): boolean;
+    static Single<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
+    static Single<TSource extends unknown>(source: ParallelQuery_1<TSource>): TSource;
+    static SingleOrDefault<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | null;
+    static SingleOrDefault<TSource extends unknown>(source: ParallelQuery_1<TSource>): TSource | null;
+    static Skip<TSource extends unknown>(source: ParallelQuery_1<TSource>, count: int): ParallelQuery_1<TSource>;
+    static SkipWhile<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): ParallelQuery_1<TSource>;
+    static SkipWhile<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): ParallelQuery_1<TSource>;
+    static Sum<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
+    static Sum<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
+    static Sum<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
+    static Sum<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Int64>): long;
+    static Sum<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Decimal>>): Nullable_1<System_Internal.Decimal>;
+    static Sum<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Double>>): Nullable_1<System_Internal.Double>;
+    static Sum<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int32>>): Nullable_1<System_Internal.Int32>;
+    static Sum<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
+    static Sum<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
+    static Sum<TSource extends unknown>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
     static Sum(source: ParallelQuery_1<System_Internal.Decimal>): decimal;
     static Sum(source: ParallelQuery_1<System_Internal.Double>): double;
     static Sum(source: ParallelQuery_1<System_Internal.Int32>): int;
@@ -933,58 +935,58 @@ export abstract class ParallelEnumerable$instance {
     static Sum(source: ParallelQuery_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static Sum(source: ParallelQuery_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static Sum(source: ParallelQuery_1<System_Internal.Single>): float;
-    static Take<TSource>(source: ParallelQuery_1<TSource>, count: int): ParallelQuery_1<TSource>;
-    static TakeWhile<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): ParallelQuery_1<TSource>;
-    static TakeWhile<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): ParallelQuery_1<TSource>;
-    static ThenBy<TSource, TKey>(source: OrderedParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): OrderedParallelQuery_1<TSource>;
-    static ThenBy<TSource, TKey>(source: OrderedParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): OrderedParallelQuery_1<TSource>;
-    static ThenByDescending<TSource, TKey>(source: OrderedParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): OrderedParallelQuery_1<TSource>;
-    static ThenByDescending<TSource, TKey>(source: OrderedParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): OrderedParallelQuery_1<TSource>;
-    static ToArray<TSource>(source: ParallelQuery_1<TSource>): TSource[];
-    static ToDictionary<TSource, TKey, TElement>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TElement>;
-    static ToDictionary<TSource, TKey, TElement>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): Dictionary_2<TKey, TElement>;
-    static ToDictionary<TSource, TKey>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TSource>;
-    static ToDictionary<TSource, TKey>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): Dictionary_2<TKey, TSource>;
-    static ToList<TSource>(source: ParallelQuery_1<TSource>): List_1<TSource>;
-    static ToLookup<TSource, TKey, TElement>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): ILookup_2<TKey, TElement>;
-    static ToLookup<TSource, TKey, TElement>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): ILookup_2<TKey, TElement>;
-    static ToLookup<TSource, TKey>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): ILookup_2<TKey, TSource>;
-    static ToLookup<TSource, TKey>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): ILookup_2<TKey, TSource>;
-    static Union<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
-    static Union<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
-    static Union<TSource>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
-    static Union<TSource>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
-    static Where<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): ParallelQuery_1<TSource>;
-    static Where<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): ParallelQuery_1<TSource>;
-    static WithCancellation<TSource>(source: ParallelQuery_1<TSource>, cancellationToken: CancellationToken): ParallelQuery_1<TSource>;
-    static WithDegreeOfParallelism<TSource>(source: ParallelQuery_1<TSource>, degreeOfParallelism: int): ParallelQuery_1<TSource>;
-    static WithExecutionMode<TSource>(source: ParallelQuery_1<TSource>, executionMode: ParallelExecutionMode): ParallelQuery_1<TSource>;
-    static WithMergeOptions<TSource>(source: ParallelQuery_1<TSource>, mergeOptions: ParallelMergeOptions): ParallelQuery_1<TSource>;
-    static Zip<TFirst, TSecond, TResult>(first: ParallelQuery_1<TFirst>, second: IEnumerable_1<TSecond>, resultSelector: Func_3<TFirst, TSecond, TResult>): ParallelQuery_1<TResult>;
-    static Zip<TFirst, TSecond, TResult>(first: ParallelQuery_1<TFirst>, second: ParallelQuery_1<TSecond>, resultSelector: Func_3<TFirst, TSecond, TResult>): ParallelQuery_1<TResult>;
+    static Take<TSource extends unknown>(source: ParallelQuery_1<TSource>, count: int): ParallelQuery_1<TSource>;
+    static TakeWhile<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): ParallelQuery_1<TSource>;
+    static TakeWhile<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): ParallelQuery_1<TSource>;
+    static ThenBy<TSource extends unknown, TKey extends unknown>(source: OrderedParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): OrderedParallelQuery_1<TSource>;
+    static ThenBy<TSource extends unknown, TKey extends unknown>(source: OrderedParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): OrderedParallelQuery_1<TSource>;
+    static ThenByDescending<TSource extends unknown, TKey extends unknown>(source: OrderedParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | null): OrderedParallelQuery_1<TSource>;
+    static ThenByDescending<TSource extends unknown, TKey extends unknown>(source: OrderedParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): OrderedParallelQuery_1<TSource>;
+    static ToArray<TSource extends unknown>(source: ParallelQuery_1<TSource>): TSource[];
+    static ToDictionary<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TElement>;
+    static ToDictionary<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): Dictionary_2<TKey, TElement>;
+    static ToDictionary<TSource extends unknown, TKey extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): Dictionary_2<TKey, TSource>;
+    static ToDictionary<TSource extends unknown, TKey extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): Dictionary_2<TKey, TSource>;
+    static ToList<TSource extends unknown>(source: ParallelQuery_1<TSource>): List_1<TSource>;
+    static ToLookup<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | null): ILookup_2<TKey, TElement>;
+    static ToLookup<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>): ILookup_2<TKey, TElement>;
+    static ToLookup<TSource extends unknown, TKey extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): ILookup_2<TKey, TSource>;
+    static ToLookup<TSource extends unknown, TKey extends unknown>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>): ILookup_2<TKey, TSource>;
+    static Union<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
+    static Union<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
+    static Union<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): ParallelQuery_1<TSource>;
+    static Union<TSource extends unknown>(first: ParallelQuery_1<TSource>, second: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
+    static Where<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): ParallelQuery_1<TSource>;
+    static Where<TSource extends unknown>(source: ParallelQuery_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): ParallelQuery_1<TSource>;
+    static WithCancellation<TSource extends unknown>(source: ParallelQuery_1<TSource>, cancellationToken: CancellationToken): ParallelQuery_1<TSource>;
+    static WithDegreeOfParallelism<TSource extends unknown>(source: ParallelQuery_1<TSource>, degreeOfParallelism: int): ParallelQuery_1<TSource>;
+    static WithExecutionMode<TSource extends unknown>(source: ParallelQuery_1<TSource>, executionMode: ParallelExecutionMode): ParallelQuery_1<TSource>;
+    static WithMergeOptions<TSource extends unknown>(source: ParallelQuery_1<TSource>, mergeOptions: ParallelMergeOptions): ParallelQuery_1<TSource>;
+    static Zip<TFirst extends unknown, TSecond extends unknown, TResult extends unknown>(first: ParallelQuery_1<TFirst>, second: IEnumerable_1<TSecond>, resultSelector: Func_3<TFirst, TSecond, TResult>): ParallelQuery_1<TResult>;
+    static Zip<TFirst extends unknown, TSecond extends unknown, TResult extends unknown>(first: ParallelQuery_1<TFirst>, second: ParallelQuery_1<TSecond>, resultSelector: Func_3<TFirst, TSecond, TResult>): ParallelQuery_1<TResult>;
 }
 
 
 export type ParallelEnumerable = ParallelEnumerable$instance;
 
 export abstract class Queryable$instance {
-    static Aggregate<TSource>(source: IQueryable_1<TSource>, func: Expression_1<Func_3<TSource, TSource, TSource>>): TSource;
-    static Aggregate<TSource, TAccumulate, TResult>(source: IQueryable_1<TSource>, seed: TAccumulate, func: Expression_1<Func_3<TAccumulate, TSource, TAccumulate>>, selector: Expression_1<Func_2<TAccumulate, TResult>>): TResult;
-    static Aggregate<TSource, TAccumulate>(source: IQueryable_1<TSource>, seed: TAccumulate, func: Expression_1<Func_3<TAccumulate, TSource, TAccumulate>>): TAccumulate;
-    static AggregateBy<TSource, TKey, TAccumulate>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, seedSelector: Expression_1<Func_2<TKey, TAccumulate>>, func: Expression_1<Func_3<TAccumulate, TSource, TAccumulate>>, keyComparer?: IEqualityComparer_1<TKey> | null): IQueryable_1<KeyValuePair_2<TKey, TAccumulate>>;
-    static AggregateBy<TSource, TKey, TAccumulate>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, seed: TAccumulate, func: Expression_1<Func_3<TAccumulate, TSource, TAccumulate>>, keyComparer?: IEqualityComparer_1<TKey> | null): IQueryable_1<KeyValuePair_2<TKey, TAccumulate>>;
-    static All<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): boolean;
-    static Any<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): boolean;
-    static Any<TSource>(source: IQueryable_1<TSource>): boolean;
-    static Append<TSource>(source: IQueryable_1<TSource>, element: TSource): IQueryable_1<TSource>;
-    static AsQueryable<TElement>(source: IEnumerable_1<TElement>): IQueryable_1<TElement>;
+    static Aggregate<TSource extends unknown>(source: IQueryable_1<TSource>, func: Expression_1<Func_3<TSource, TSource, TSource>>): TSource;
+    static Aggregate<TSource extends unknown, TAccumulate extends unknown, TResult extends unknown>(source: IQueryable_1<TSource>, seed: TAccumulate, func: Expression_1<Func_3<TAccumulate, TSource, TAccumulate>>, selector: Expression_1<Func_2<TAccumulate, TResult>>): TResult;
+    static Aggregate<TSource extends unknown, TAccumulate extends unknown>(source: IQueryable_1<TSource>, seed: TAccumulate, func: Expression_1<Func_3<TAccumulate, TSource, TAccumulate>>): TAccumulate;
+    static AggregateBy<TSource extends unknown, TKey extends unknown, TAccumulate extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, seedSelector: Expression_1<Func_2<TKey, TAccumulate>>, func: Expression_1<Func_3<TAccumulate, TSource, TAccumulate>>, keyComparer?: IEqualityComparer_1<TKey> | null): IQueryable_1<KeyValuePair_2<TKey, TAccumulate>>;
+    static AggregateBy<TSource extends unknown, TKey extends unknown, TAccumulate extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, seed: TAccumulate, func: Expression_1<Func_3<TAccumulate, TSource, TAccumulate>>, keyComparer?: IEqualityComparer_1<TKey> | null): IQueryable_1<KeyValuePair_2<TKey, TAccumulate>>;
+    static All<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): boolean;
+    static Any<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): boolean;
+    static Any<TSource extends unknown>(source: IQueryable_1<TSource>): boolean;
+    static Append<TSource extends unknown>(source: IQueryable_1<TSource>, element: TSource): IQueryable_1<TSource>;
+    static AsQueryable<TElement extends unknown>(source: IEnumerable_1<TElement>): IQueryable_1<TElement>;
     static AsQueryable(source: IEnumerable): IQueryable;
-    static Average<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Decimal>>): decimal;
-    static Average<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Int32>>): double;
-    static Average<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Decimal>>>): Nullable_1<System_Internal.Decimal>;
-    static Average<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Int32>>>): Nullable_1<System_Internal.Double>;
-    static Average<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Single>>>): Nullable_1<System_Internal.Single>;
-    static Average<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Single>>): float;
+    static Average<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Decimal>>): decimal;
+    static Average<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Int32>>): double;
+    static Average<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Decimal>>>): Nullable_1<System_Internal.Decimal>;
+    static Average<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Int32>>>): Nullable_1<System_Internal.Double>;
+    static Average<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Single>>>): Nullable_1<System_Internal.Single>;
+    static Average<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Single>>): float;
     static Average(source: IQueryable_1<System_Internal.Decimal>): decimal;
     static Average(source: IQueryable_1<System_Internal.Double>): double;
     static Average(source: IQueryable_1<System_Internal.Int32>): double;
@@ -995,107 +997,107 @@ export abstract class Queryable$instance {
     static Average(source: IQueryable_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Double>;
     static Average(source: IQueryable_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static Average(source: IQueryable_1<System_Internal.Single>): float;
-    static Cast<TResult>(source: IQueryable): IQueryable_1<TResult>;
-    static Chunk<TSource>(source: IQueryable_1<TSource>, size: int): IQueryable_1<TSource[]>;
-    static Concat<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): IQueryable_1<TSource>;
-    static Contains<TSource>(source: IQueryable_1<TSource>, item: TSource, comparer: IEqualityComparer_1<TSource> | null): boolean;
-    static Contains<TSource>(source: IQueryable_1<TSource>, item: TSource): boolean;
-    static Count<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): int;
-    static Count<TSource>(source: IQueryable_1<TSource>): int;
-    static CountBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IQueryable_1<KeyValuePair_2<TKey, System_Internal.Int32>>;
-    static DefaultIfEmpty<TSource>(source: IQueryable_1<TSource>, defaultValue: TSource): IQueryable_1<TSource>;
-    static DefaultIfEmpty<TSource>(source: IQueryable_1<TSource>): IQueryable_1<TSource | null>;
-    static Distinct<TSource>(source: IQueryable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IQueryable_1<TSource>;
-    static Distinct<TSource>(source: IQueryable_1<TSource>): IQueryable_1<TSource>;
-    static DistinctBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TSource>;
-    static DistinctBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<TSource>;
-    static ElementAt<TSource>(source: IQueryable_1<TSource>, index: Index): TSource;
-    static ElementAt<TSource>(source: IQueryable_1<TSource>, index: int): TSource;
-    static ElementAtOrDefault<TSource>(source: IQueryable_1<TSource>, index: Index): TSource | null;
-    static ElementAtOrDefault<TSource>(source: IQueryable_1<TSource>, index: int): TSource | null;
-    static Except<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IQueryable_1<TSource>;
-    static Except<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): IQueryable_1<TSource>;
-    static ExceptBy<TSource, TKey>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TKey>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TSource>;
-    static ExceptBy<TSource, TKey>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TKey>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<TSource>;
-    static First<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource;
-    static First<TSource>(source: IQueryable_1<TSource>): TSource;
-    static FirstOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>, defaultValue: TSource): TSource;
-    static FirstOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource | null;
-    static FirstOrDefault<TSource>(source: IQueryable_1<TSource>, defaultValue: TSource): TSource;
-    static FirstOrDefault<TSource>(source: IQueryable_1<TSource>): TSource | null;
-    static GroupBy<TSource, TKey, TElement, TResult>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>, resultSelector: Expression_1<Func_3<TKey, IEnumerable_1<TElement>, TResult>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TResult>;
-    static GroupBy<TSource, TKey, TElement, TResult>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>, resultSelector: Expression_1<Func_3<TKey, IEnumerable_1<TElement>, TResult>>): IQueryable_1<TResult>;
-    static GroupBy<TSource, TKey, TElement>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<IGrouping_2<TKey, TElement>>;
-    static GroupBy<TSource, TKey, TElement>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>): IQueryable_1<IGrouping_2<TKey, TElement>>;
-    static GroupBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<IGrouping_2<TKey, TSource>>;
-    static GroupBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<IGrouping_2<TKey, TSource>>;
-    static GroupJoin<TOuter, TInner, TKey, TResult>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, IEnumerable_1<TInner>, TResult>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TResult>;
-    static GroupJoin<TOuter, TInner, TKey, TResult>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, IEnumerable_1<TInner>, TResult>>): IQueryable_1<TResult>;
-    static Index<TSource>(source: IQueryable_1<TSource>): IQueryable_1<ValueTuple_2<System_Internal.Int32, TSource>>;
-    static Intersect<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IQueryable_1<TSource>;
-    static Intersect<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): IQueryable_1<TSource>;
-    static IntersectBy<TSource, TKey>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TKey>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TSource>;
-    static IntersectBy<TSource, TKey>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TKey>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<TSource>;
-    static Join<TOuter, TInner, TKey, TResult>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, TInner, TResult>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TResult>;
-    static Join<TOuter, TInner, TKey, TResult>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, TInner, TResult>>): IQueryable_1<TResult>;
-    static Last<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource;
-    static Last<TSource>(source: IQueryable_1<TSource>): TSource;
-    static LastOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>, defaultValue: TSource): TSource;
-    static LastOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource | null;
-    static LastOrDefault<TSource>(source: IQueryable_1<TSource>, defaultValue: TSource): TSource;
-    static LastOrDefault<TSource>(source: IQueryable_1<TSource>): TSource | null;
-    static LeftJoin<TOuter, TInner, TKey, TResult>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, TInner | null, TResult>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TResult>;
-    static LeftJoin<TOuter, TInner, TKey, TResult>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, TInner | null, TResult>>): IQueryable_1<TResult>;
-    static LongCount<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): long;
-    static LongCount<TSource>(source: IQueryable_1<TSource>): long;
-    static Max<TSource, TResult>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, TResult>>): TResult | null;
-    static Max<TSource>(source: IQueryable_1<TSource>, comparer: IComparer_1<TSource> | null): TSource | null;
-    static Max<TSource>(source: IQueryable_1<TSource>): TSource | null;
-    static MaxBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TSource> | null): TSource | null;
-    static MaxBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): TSource | null;
-    static Min<TSource, TResult>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, TResult>>): TResult | null;
-    static Min<TSource>(source: IQueryable_1<TSource>, comparer: IComparer_1<TSource> | null): TSource | null;
-    static Min<TSource>(source: IQueryable_1<TSource>): TSource | null;
-    static MinBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TSource> | null): TSource | null;
-    static MinBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): TSource | null;
-    static OfType<TResult>(source: IQueryable): IQueryable_1<TResult>;
-    static Order<T>(source: IQueryable_1<T>, comparer: IComparer_1<T>): IOrderedQueryable_1<T>;
-    static Order<T>(source: IQueryable_1<T>): IOrderedQueryable_1<T>;
-    static OrderBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TKey> | null): IOrderedQueryable_1<TSource>;
-    static OrderBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IOrderedQueryable_1<TSource>;
-    static OrderByDescending<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TKey> | null): IOrderedQueryable_1<TSource>;
-    static OrderByDescending<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IOrderedQueryable_1<TSource>;
-    static OrderDescending<T>(source: IQueryable_1<T>, comparer: IComparer_1<T>): IOrderedQueryable_1<T>;
-    static OrderDescending<T>(source: IQueryable_1<T>): IOrderedQueryable_1<T>;
-    static Prepend<TSource>(source: IQueryable_1<TSource>, element: TSource): IQueryable_1<TSource>;
-    static Reverse<TSource>(source: IQueryable_1<TSource>): IQueryable_1<TSource>;
-    static RightJoin<TOuter, TInner, TKey, TResult>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter | null, TInner, TResult>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TResult>;
-    static RightJoin<TOuter, TInner, TKey, TResult>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter | null, TInner, TResult>>): IQueryable_1<TResult>;
-    static Select<TSource, TResult>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, TResult>>): IQueryable_1<TResult>;
-    static SelectMany<TSource, TCollection, TResult>(source: IQueryable_1<TSource>, collectionSelector: Expression_1<Func_3<TSource, System_Internal.Int32, IEnumerable_1<TCollection>>>, resultSelector: Expression_1<Func_3<TSource, TCollection, TResult>>): IQueryable_1<TResult>;
-    static SelectMany<TSource, TResult>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, IEnumerable_1<TResult>>>): IQueryable_1<TResult>;
-    static SequenceEqual<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): boolean;
-    static SequenceEqual<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): boolean;
-    static Shuffle<TSource>(source: IQueryable_1<TSource>): IQueryable_1<TSource>;
-    static Single<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource;
-    static Single<TSource>(source: IQueryable_1<TSource>): TSource;
-    static SingleOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>, defaultValue: TSource): TSource;
-    static SingleOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource | null;
-    static SingleOrDefault<TSource>(source: IQueryable_1<TSource>, defaultValue: TSource): TSource;
-    static SingleOrDefault<TSource>(source: IQueryable_1<TSource>): TSource | null;
-    static Skip<TSource>(source: IQueryable_1<TSource>, count: int): IQueryable_1<TSource>;
-    static SkipLast<TSource>(source: IQueryable_1<TSource>, count: int): IQueryable_1<TSource>;
-    static SkipWhile<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): IQueryable_1<TSource>;
-    static Sum<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Decimal>>): decimal;
-    static Sum<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Double>>): double;
-    static Sum<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Int32>>): int;
-    static Sum<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Int64>>): long;
-    static Sum<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Decimal>>>): Nullable_1<System_Internal.Decimal>;
-    static Sum<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Double>>>): Nullable_1<System_Internal.Double>;
-    static Sum<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Int32>>>): Nullable_1<System_Internal.Int32>;
-    static Sum<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Int64>>>): Nullable_1<System_Internal.Int64>;
-    static Sum<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Single>>>): Nullable_1<System_Internal.Single>;
-    static Sum<TSource>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Single>>): float;
+    static Cast<TResult extends unknown>(source: IQueryable): IQueryable_1<TResult>;
+    static Chunk<TSource extends unknown>(source: IQueryable_1<TSource>, size: int): IQueryable_1<TSource[]>;
+    static Concat<TSource extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): IQueryable_1<TSource>;
+    static Contains<TSource extends unknown>(source: IQueryable_1<TSource>, item: TSource, comparer: IEqualityComparer_1<TSource> | null): boolean;
+    static Contains<TSource extends unknown>(source: IQueryable_1<TSource>, item: TSource): boolean;
+    static Count<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): int;
+    static Count<TSource extends unknown>(source: IQueryable_1<TSource>): int;
+    static CountBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IQueryable_1<KeyValuePair_2<TKey, System_Internal.Int32>>;
+    static DefaultIfEmpty<TSource extends unknown>(source: IQueryable_1<TSource>, defaultValue: TSource): IQueryable_1<TSource>;
+    static DefaultIfEmpty<TSource extends unknown>(source: IQueryable_1<TSource>): IQueryable_1<TSource | null>;
+    static Distinct<TSource extends unknown>(source: IQueryable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IQueryable_1<TSource>;
+    static Distinct<TSource extends unknown>(source: IQueryable_1<TSource>): IQueryable_1<TSource>;
+    static DistinctBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TSource>;
+    static DistinctBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<TSource>;
+    static ElementAt<TSource extends unknown>(source: IQueryable_1<TSource>, index: Index): TSource;
+    static ElementAt<TSource extends unknown>(source: IQueryable_1<TSource>, index: int): TSource;
+    static ElementAtOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, index: Index): TSource | null;
+    static ElementAtOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, index: int): TSource | null;
+    static Except<TSource extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IQueryable_1<TSource>;
+    static Except<TSource extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): IQueryable_1<TSource>;
+    static ExceptBy<TSource extends unknown, TKey extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TKey>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TSource>;
+    static ExceptBy<TSource extends unknown, TKey extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TKey>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<TSource>;
+    static First<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource;
+    static First<TSource extends unknown>(source: IQueryable_1<TSource>): TSource;
+    static FirstOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>, defaultValue: TSource): TSource;
+    static FirstOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource | null;
+    static FirstOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, defaultValue: TSource): TSource;
+    static FirstOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>): TSource | null;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown, TResult extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>, resultSelector: Expression_1<Func_3<TKey, IEnumerable_1<TElement>, TResult>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown, TResult extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>, resultSelector: Expression_1<Func_3<TKey, IEnumerable_1<TElement>, TResult>>): IQueryable_1<TResult>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<IGrouping_2<TKey, TElement>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown, TElement extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>): IQueryable_1<IGrouping_2<TKey, TElement>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<IGrouping_2<TKey, TSource>>;
+    static GroupBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<IGrouping_2<TKey, TSource>>;
+    static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, IEnumerable_1<TInner>, TResult>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TResult>;
+    static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, IEnumerable_1<TInner>, TResult>>): IQueryable_1<TResult>;
+    static Index<TSource extends unknown>(source: IQueryable_1<TSource>): IQueryable_1<ValueTuple_2<System_Internal.Int32, TSource>>;
+    static Intersect<TSource extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IQueryable_1<TSource>;
+    static Intersect<TSource extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): IQueryable_1<TSource>;
+    static IntersectBy<TSource extends unknown, TKey extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TKey>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TSource>;
+    static IntersectBy<TSource extends unknown, TKey extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TKey>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<TSource>;
+    static Join<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, TInner, TResult>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TResult>;
+    static Join<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, TInner, TResult>>): IQueryable_1<TResult>;
+    static Last<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource;
+    static Last<TSource extends unknown>(source: IQueryable_1<TSource>): TSource;
+    static LastOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>, defaultValue: TSource): TSource;
+    static LastOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource | null;
+    static LastOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, defaultValue: TSource): TSource;
+    static LastOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>): TSource | null;
+    static LeftJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, TInner | null, TResult>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TResult>;
+    static LeftJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, TInner | null, TResult>>): IQueryable_1<TResult>;
+    static LongCount<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): long;
+    static LongCount<TSource extends unknown>(source: IQueryable_1<TSource>): long;
+    static Max<TSource extends unknown, TResult extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, TResult>>): TResult | null;
+    static Max<TSource extends unknown>(source: IQueryable_1<TSource>, comparer: IComparer_1<TSource> | null): TSource | null;
+    static Max<TSource extends unknown>(source: IQueryable_1<TSource>): TSource | null;
+    static MaxBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TSource> | null): TSource | null;
+    static MaxBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): TSource | null;
+    static Min<TSource extends unknown, TResult extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, TResult>>): TResult | null;
+    static Min<TSource extends unknown>(source: IQueryable_1<TSource>, comparer: IComparer_1<TSource> | null): TSource | null;
+    static Min<TSource extends unknown>(source: IQueryable_1<TSource>): TSource | null;
+    static MinBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TSource> | null): TSource | null;
+    static MinBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): TSource | null;
+    static OfType<TResult extends unknown>(source: IQueryable): IQueryable_1<TResult>;
+    static Order<T extends unknown>(source: IQueryable_1<T>, comparer: IComparer_1<T>): IOrderedQueryable_1<T>;
+    static Order<T extends unknown>(source: IQueryable_1<T>): IOrderedQueryable_1<T>;
+    static OrderBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TKey> | null): IOrderedQueryable_1<TSource>;
+    static OrderBy<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IOrderedQueryable_1<TSource>;
+    static OrderByDescending<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TKey> | null): IOrderedQueryable_1<TSource>;
+    static OrderByDescending<TSource extends unknown, TKey extends unknown>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IOrderedQueryable_1<TSource>;
+    static OrderDescending<T extends unknown>(source: IQueryable_1<T>, comparer: IComparer_1<T>): IOrderedQueryable_1<T>;
+    static OrderDescending<T extends unknown>(source: IQueryable_1<T>): IOrderedQueryable_1<T>;
+    static Prepend<TSource extends unknown>(source: IQueryable_1<TSource>, element: TSource): IQueryable_1<TSource>;
+    static Reverse<TSource extends unknown>(source: IQueryable_1<TSource>): IQueryable_1<TSource>;
+    static RightJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter | null, TInner, TResult>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TResult>;
+    static RightJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter | null, TInner, TResult>>): IQueryable_1<TResult>;
+    static Select<TSource extends unknown, TResult extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, TResult>>): IQueryable_1<TResult>;
+    static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: IQueryable_1<TSource>, collectionSelector: Expression_1<Func_3<TSource, System_Internal.Int32, IEnumerable_1<TCollection>>>, resultSelector: Expression_1<Func_3<TSource, TCollection, TResult>>): IQueryable_1<TResult>;
+    static SelectMany<TSource extends unknown, TResult extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, IEnumerable_1<TResult>>>): IQueryable_1<TResult>;
+    static SequenceEqual<TSource extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): boolean;
+    static SequenceEqual<TSource extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): boolean;
+    static Shuffle<TSource extends unknown>(source: IQueryable_1<TSource>): IQueryable_1<TSource>;
+    static Single<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource;
+    static Single<TSource extends unknown>(source: IQueryable_1<TSource>): TSource;
+    static SingleOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>, defaultValue: TSource): TSource;
+    static SingleOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource | null;
+    static SingleOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>, defaultValue: TSource): TSource;
+    static SingleOrDefault<TSource extends unknown>(source: IQueryable_1<TSource>): TSource | null;
+    static Skip<TSource extends unknown>(source: IQueryable_1<TSource>, count: int): IQueryable_1<TSource>;
+    static SkipLast<TSource extends unknown>(source: IQueryable_1<TSource>, count: int): IQueryable_1<TSource>;
+    static SkipWhile<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): IQueryable_1<TSource>;
+    static Sum<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Decimal>>): decimal;
+    static Sum<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Double>>): double;
+    static Sum<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Int32>>): int;
+    static Sum<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Int64>>): long;
+    static Sum<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Decimal>>>): Nullable_1<System_Internal.Decimal>;
+    static Sum<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Double>>>): Nullable_1<System_Internal.Double>;
+    static Sum<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Int32>>>): Nullable_1<System_Internal.Int32>;
+    static Sum<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Int64>>>): Nullable_1<System_Internal.Int64>;
+    static Sum<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, Nullable_1<System_Internal.Single>>>): Nullable_1<System_Internal.Single>;
+    static Sum<TSource extends unknown>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, System_Internal.Single>>): float;
     static Sum(source: IQueryable_1<System_Internal.Decimal>): decimal;
     static Sum(source: IQueryable_1<System_Internal.Double>): double;
     static Sum(source: IQueryable_1<System_Internal.Int32>): int;
@@ -1106,22 +1108,22 @@ export abstract class Queryable$instance {
     static Sum(source: IQueryable_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static Sum(source: IQueryable_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static Sum(source: IQueryable_1<System_Internal.Single>): float;
-    static Take<TSource>(source: IQueryable_1<TSource>, count: int): IQueryable_1<TSource>;
-    static Take<TSource>(source: IQueryable_1<TSource>, range: Range): IQueryable_1<TSource>;
-    static TakeLast<TSource>(source: IQueryable_1<TSource>, count: int): IQueryable_1<TSource>;
-    static TakeWhile<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): IQueryable_1<TSource>;
-    static ThenBy<TSource, TKey>(source: IOrderedQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TKey> | null): IOrderedQueryable_1<TSource>;
-    static ThenBy<TSource, TKey>(source: IOrderedQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IOrderedQueryable_1<TSource>;
-    static ThenByDescending<TSource, TKey>(source: IOrderedQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TKey> | null): IOrderedQueryable_1<TSource>;
-    static ThenByDescending<TSource, TKey>(source: IOrderedQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IOrderedQueryable_1<TSource>;
-    static Union<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IQueryable_1<TSource>;
-    static Union<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): IQueryable_1<TSource>;
-    static UnionBy<TSource, TKey>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TSource>;
-    static UnionBy<TSource, TKey>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<TSource>;
-    static Where<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): IQueryable_1<TSource>;
-    static Zip<TFirst, TSecond, TResult>(source1: IQueryable_1<TFirst>, source2: IEnumerable_1<TSecond>, resultSelector: Expression_1<Func_3<TFirst, TSecond, TResult>>): IQueryable_1<TResult>;
-    static Zip<TFirst, TSecond, TThird>(source1: IQueryable_1<TFirst>, source2: IEnumerable_1<TSecond>, source3: IEnumerable_1<TThird>): IQueryable_1<ValueTuple_3<TFirst, TSecond, TThird>>;
-    static Zip<TFirst, TSecond>(source1: IQueryable_1<TFirst>, source2: IEnumerable_1<TSecond>): IQueryable_1<ValueTuple_2<TFirst, TSecond>>;
+    static Take<TSource extends unknown>(source: IQueryable_1<TSource>, count: int): IQueryable_1<TSource>;
+    static Take<TSource extends unknown>(source: IQueryable_1<TSource>, range: Range): IQueryable_1<TSource>;
+    static TakeLast<TSource extends unknown>(source: IQueryable_1<TSource>, count: int): IQueryable_1<TSource>;
+    static TakeWhile<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): IQueryable_1<TSource>;
+    static ThenBy<TSource extends unknown, TKey extends unknown>(source: IOrderedQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TKey> | null): IOrderedQueryable_1<TSource>;
+    static ThenBy<TSource extends unknown, TKey extends unknown>(source: IOrderedQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IOrderedQueryable_1<TSource>;
+    static ThenByDescending<TSource extends unknown, TKey extends unknown>(source: IOrderedQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TKey> | null): IOrderedQueryable_1<TSource>;
+    static ThenByDescending<TSource extends unknown, TKey extends unknown>(source: IOrderedQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IOrderedQueryable_1<TSource>;
+    static Union<TSource extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IQueryable_1<TSource>;
+    static Union<TSource extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): IQueryable_1<TSource>;
+    static UnionBy<TSource extends unknown, TKey extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | null): IQueryable_1<TSource>;
+    static UnionBy<TSource extends unknown, TKey extends unknown>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<TSource>;
+    static Where<TSource extends unknown>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): IQueryable_1<TSource>;
+    static Zip<TFirst extends unknown, TSecond extends unknown, TResult extends unknown>(source1: IQueryable_1<TFirst>, source2: IEnumerable_1<TSecond>, resultSelector: Expression_1<Func_3<TFirst, TSecond, TResult>>): IQueryable_1<TResult>;
+    static Zip<TFirst extends unknown, TSecond extends unknown, TThird extends unknown>(source1: IQueryable_1<TFirst>, source2: IEnumerable_1<TSecond>, source3: IEnumerable_1<TThird>): IQueryable_1<ValueTuple_3<TFirst, TSecond, TThird>>;
+    static Zip<TFirst extends unknown, TSecond extends unknown>(source1: IQueryable_1<TFirst>, source2: IEnumerable_1<TSecond>): IQueryable_1<ValueTuple_2<TFirst, TSecond>>;
 }
 
 

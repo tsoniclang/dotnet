@@ -5,6 +5,10 @@
 // Import internal declarations
 import * as Internal from './System.Net/internal/index.js';
 
+// Core type aliases from @tsonic/core
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+
+
 // Cross-namespace type imports for constraints
 import type { ICollection_1, IEnumerable_1, IEnumerator_1, IReadOnlyCollection_1 } from './System.Collections.Generic/internal/index.js';
 import type { NameObjectCollectionBase_KeysCollection, NameValueCollection, StringDictionary } from './System.Collections.Specialized/internal/index.js';

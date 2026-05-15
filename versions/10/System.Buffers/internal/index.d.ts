@@ -3,7 +3,7 @@
 // Assembly: System.Memory, System.Private.CoreLib
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -22,13 +22,13 @@ export enum OperationStatus {
 }
 
 
-export type ReadOnlySpanAction_2<T, TArg> = (span: ReadOnlySpan_1<T>, arg: TArg) => void;
+export type ReadOnlySpanAction_2<T extends unknown, TArg extends unknown> = (span: ReadOnlySpan_1<T>, arg: TArg) => void;
 
 
-export type SpanAction_2<T, TArg> = (span: Span_1<T>, arg: TArg) => void;
+export type SpanAction_2<T extends unknown, TArg extends unknown> = (span: Span_1<T>, arg: TArg) => void;
 
 
-export interface IBufferWriter_1$instance<T> {
+export interface IBufferWriter_1$instance<T extends unknown> {
     readonly __tsonic_iface_System_Buffers_IBufferWriter_1: never;
 
     Advance(count: int): void;
@@ -37,9 +37,9 @@ export interface IBufferWriter_1$instance<T> {
 }
 
 
-export type IBufferWriter_1<T> = IBufferWriter_1$instance<T>;
+export type IBufferWriter_1<T extends unknown> = IBufferWriter_1$instance<T>;
 
-export interface IMemoryOwner_1$instance<T> extends IDisposable {
+export interface IMemoryOwner_1$instance<T extends unknown> extends IDisposable {
     readonly __tsonic_iface_System_Buffers_IMemoryOwner_1: never;
 
     readonly Memory: Memory_1<T>;
@@ -47,9 +47,9 @@ export interface IMemoryOwner_1$instance<T> extends IDisposable {
 }
 
 
-export interface IMemoryOwner_1$instance<T> extends System_Internal.IDisposable$instance {}
+export interface IMemoryOwner_1$instance<T extends unknown> extends System_Internal.IDisposable$instance {}
 
-export type IMemoryOwner_1<T> = IMemoryOwner_1$instance<T>;
+export type IMemoryOwner_1<T extends unknown> = IMemoryOwner_1$instance<T>;
 
 export interface IPinnable$instance {
     readonly __tsonic_iface_System_Buffers_IPinnable: never;
@@ -83,7 +83,7 @@ export interface __MemoryHandle$views {
 export type MemoryHandle = MemoryHandle$instance & __MemoryHandle$views;
 
 
-export interface ReadOnlySequence_1$instance<T> {
+export interface ReadOnlySequence_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Buffers_ReadOnlySequence_1: never;
 
     readonly End: SequencePosition;
@@ -112,17 +112,17 @@ export interface ReadOnlySequence_1$instance<T> {
 
 
 export const ReadOnlySequence_1: {
-    new<T>(startSegment: ReadOnlySequenceSegment_1<T>, startIndex: int, endSegment: ReadOnlySequenceSegment_1<T>, endIndex: int): ReadOnlySequence_1<T>;
-    new<T>(array: T[]): ReadOnlySequence_1<T>;
-    new<T>(array: T[], start: int, length: int): ReadOnlySequence_1<T>;
-    new<T>(memory: ReadOnlyMemory_1<T>): ReadOnlySequence_1<T>;
-    readonly Empty: <T>() => ReadOnlySequence_1<T>;
+    new<T extends unknown>(startSegment: ReadOnlySequenceSegment_1<T>, startIndex: int, endSegment: ReadOnlySequenceSegment_1<T>, endIndex: int): ReadOnlySequence_1<T>;
+    new<T extends unknown>(array: T[]): ReadOnlySequence_1<T>;
+    new<T extends unknown>(array: T[], start: int, length: int): ReadOnlySequence_1<T>;
+    new<T extends unknown>(memory: ReadOnlyMemory_1<T>): ReadOnlySequence_1<T>;
+    readonly Empty: <T extends unknown>() => ReadOnlySequence_1<T>;
 };
 
 
-export type ReadOnlySequence_1<T> = ReadOnlySequence_1$instance<T>;
+export type ReadOnlySequence_1<T extends unknown> = ReadOnlySequence_1$instance<T>;
 
-export interface ReadOnlySequence_1_Enumerator$instance<T> {
+export interface ReadOnlySequence_1_Enumerator$instance<T extends unknown> {
     readonly __tsonic_type_System_Buffers_ReadOnlySequence_1_Enumerator: never;
 
     readonly Current: ReadOnlyMemory_1<T>;
@@ -131,13 +131,13 @@ export interface ReadOnlySequence_1_Enumerator$instance<T> {
 
 
 export const ReadOnlySequence_1_Enumerator: {
-    new<T>(sequence: ReadOnlySequence_1<T>): ReadOnlySequence_1_Enumerator<T>;
+    new<T extends unknown>(sequence: ReadOnlySequence_1<T>): ReadOnlySequence_1_Enumerator<T>;
 };
 
 
-export type ReadOnlySequence_1_Enumerator<T> = ReadOnlySequence_1_Enumerator$instance<T>;
+export type ReadOnlySequence_1_Enumerator<T extends unknown> = ReadOnlySequence_1_Enumerator$instance<T>;
 
-export interface SequenceReader_1$instance<T extends NonNullable<JsValue> & (IEquatable_1<T> | number | string | boolean)> {
+export interface SequenceReader_1$instance<T extends NonNullable<unknown> & (IEquatable_1<T> | number | string | boolean)> {
     readonly __tsonic_type_System_Buffers_SequenceReader_1: never;
 
     Consumed: long;
@@ -179,11 +179,11 @@ export interface SequenceReader_1$instance<T extends NonNullable<JsValue> & (IEq
 
 
 export const SequenceReader_1: {
-    new<T extends NonNullable<JsValue> & (IEquatable_1<T> | number | string | boolean)>(sequence: ReadOnlySequence_1<T>): SequenceReader_1<T>;
+    new<T extends NonNullable<unknown> & (IEquatable_1<T> | number | string | boolean)>(sequence: ReadOnlySequence_1<T>): SequenceReader_1<T>;
 };
 
 
-export type SequenceReader_1<T extends (IEquatable_1<T> | number | string | boolean)> = SequenceReader_1$instance<T>;
+export type SequenceReader_1<T extends NonNullable<unknown> & (IEquatable_1<T> | number | string | boolean)> = SequenceReader_1$instance<T>;
 
 export interface StandardFormat$instance {
     readonly __tsonic_type_System_Buffers_StandardFormat: never;
@@ -194,7 +194,7 @@ export interface StandardFormat$instance {
     readonly IsDefault: boolean;
     readonly Precision: byte;
     readonly Symbol: char;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: StandardFormat): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -221,7 +221,7 @@ export interface __StandardFormat$views {
 export type StandardFormat = StandardFormat$instance & __StandardFormat$views;
 
 
-export interface ArrayBufferWriter_1$instance<T> extends IBufferWriter_1$instance<T> {
+export interface ArrayBufferWriter_1$instance<T extends unknown> extends IBufferWriter_1$instance<T> {
     readonly __tsonic_type_System_Buffers_ArrayBufferWriter_1: never;
 
     readonly __tsonic_iface_System_Buffers_IBufferWriter_1: never;
@@ -240,19 +240,19 @@ export interface ArrayBufferWriter_1$instance<T> extends IBufferWriter_1$instanc
 
 
 export const ArrayBufferWriter_1: {
-    new<T>(): ArrayBufferWriter_1<T>;
-    new<T>(initialCapacity: int): ArrayBufferWriter_1<T>;
+    new<T extends unknown>(): ArrayBufferWriter_1<T>;
+    new<T extends unknown>(initialCapacity: int): ArrayBufferWriter_1<T>;
 };
 
 
-export interface __ArrayBufferWriter_1$views<T> {
+export interface __ArrayBufferWriter_1$views<T extends unknown> {
     As_IBufferWriter_1(): IBufferWriter_1$instance<T>;
 }
 
-export type ArrayBufferWriter_1<T> = ArrayBufferWriter_1$instance<T> & __ArrayBufferWriter_1$views<T>;
+export type ArrayBufferWriter_1<T extends unknown> = ArrayBufferWriter_1$instance<T> & __ArrayBufferWriter_1$views<T>;
 
 
-export interface ArrayPool_1$instance<T> {
+export interface ArrayPool_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Buffers_ArrayPool_1: never;
 
     Rent(minimumLength: int): T[];
@@ -260,16 +260,16 @@ export interface ArrayPool_1$instance<T> {
 }
 
 
-export const ArrayPool_1: (abstract new<T>() => ArrayPool_1<T>) & {
-    readonly Shared: <T>() => ArrayPool_1<T>;
-    Create<T>(): ArrayPool_1<T>;
-    Create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
+export const ArrayPool_1: (abstract new<T extends unknown>() => ArrayPool_1<T>) & {
+    readonly Shared: <T extends unknown>() => ArrayPool_1<T>;
+    Create<T extends unknown>(): ArrayPool_1<T>;
+    Create<T extends unknown>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
 };
 
 
-export type ArrayPool_1<T> = ArrayPool_1$instance<T>;
+export type ArrayPool_1<T extends unknown> = ArrayPool_1$instance<T>;
 
-export interface MemoryManager_1$instance<T> {
+export interface MemoryManager_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Buffers_MemoryManager_1: never;
 
     readonly __tsonic_iface_System_Buffers_IMemoryOwner_1: never;
@@ -285,20 +285,20 @@ export interface MemoryManager_1$instance<T> {
 }
 
 
-export const MemoryManager_1: (abstract new<T>() => MemoryManager_1<T>) & {
+export const MemoryManager_1: (abstract new<T extends unknown>() => MemoryManager_1<T>) & {
 };
 
 
-export interface __MemoryManager_1$views<T> {
+export interface __MemoryManager_1$views<T extends unknown> {
     As_IMemoryOwner_1(): IMemoryOwner_1$instance<T>;
     As_IPinnable(): IPinnable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export type MemoryManager_1<T> = MemoryManager_1$instance<T> & __MemoryManager_1$views<T>;
+export type MemoryManager_1<T extends unknown> = MemoryManager_1$instance<T> & __MemoryManager_1$views<T>;
 
 
-export interface MemoryPool_1$instance<T> {
+export interface MemoryPool_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Buffers_MemoryPool_1: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -310,19 +310,19 @@ export interface MemoryPool_1$instance<T> {
 }
 
 
-export const MemoryPool_1: (abstract new<T>() => MemoryPool_1<T>) & {
-    readonly Shared: <T>() => MemoryPool_1<T>;
+export const MemoryPool_1: (abstract new<T extends unknown>() => MemoryPool_1<T>) & {
+    readonly Shared: <T extends unknown>() => MemoryPool_1<T>;
 };
 
 
-export interface __MemoryPool_1$views<T> {
+export interface __MemoryPool_1$views<T extends unknown> {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
-export type MemoryPool_1<T> = MemoryPool_1$instance<T> & __MemoryPool_1$views<T>;
+export type MemoryPool_1<T extends unknown> = MemoryPool_1$instance<T> & __MemoryPool_1$views<T>;
 
 
-export interface ReadOnlySequenceSegment_1$instance<T> {
+export interface ReadOnlySequenceSegment_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Buffers_ReadOnlySequenceSegment_1: never;
 
     Memory: ReadOnlyMemory_1<T>;
@@ -332,13 +332,13 @@ export interface ReadOnlySequenceSegment_1$instance<T> {
 }
 
 
-export const ReadOnlySequenceSegment_1: (abstract new<T>() => ReadOnlySequenceSegment_1<T>) & {
+export const ReadOnlySequenceSegment_1: (abstract new<T extends unknown>() => ReadOnlySequenceSegment_1<T>) & {
 };
 
 
-export type ReadOnlySequenceSegment_1<T> = ReadOnlySequenceSegment_1$instance<T>;
+export type ReadOnlySequenceSegment_1<T extends unknown> = ReadOnlySequenceSegment_1$instance<T>;
 
-export interface SearchValues_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> {
+export interface SearchValues_1$instance<T extends unknown & (IEquatable_1<T> | number | string | boolean)> {
     readonly __tsonic_type_System_Buffers_SearchValues_1: never;
 
     Contains(value: T): boolean;
@@ -349,13 +349,13 @@ export const SearchValues_1: {
 };
 
 
-export type SearchValues_1<T extends (IEquatable_1<T> | number | string | boolean)> = SearchValues_1$instance<T>;
+export type SearchValues_1<T extends unknown & (IEquatable_1<T> | number | string | boolean)> = SearchValues_1$instance<T>;
 
 export abstract class BuffersExtensions$instance {
-    static CopyTo<T>(source: ReadOnlySequence_1<T>, destination: Span_1<T>): void;
-    static PositionOf<T extends IEquatable_1<T>>(source: ReadOnlySequence_1<T>, value: T): Nullable_1<SequencePosition>;
-    static ToArray<T>(sequence: ReadOnlySequence_1<T>): T[];
-    static Write<T>(writer: IBufferWriter_1<T>, value: ReadOnlySpan_1<T>): void;
+    static CopyTo<T extends unknown>(source: ReadOnlySequence_1<T>, destination: Span_1<T>): void;
+    static PositionOf<T extends unknown & IEquatable_1<T>>(source: ReadOnlySequence_1<T>, value: T): Nullable_1<SequencePosition>;
+    static ToArray<T extends unknown>(sequence: ReadOnlySequence_1<T>): T[];
+    static Write<T extends unknown>(writer: IBufferWriter_1<T>, value: ReadOnlySpan_1<T>): void;
 }
 
 

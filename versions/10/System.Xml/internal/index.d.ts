@@ -3,7 +3,7 @@
 // Assembly: System.Data.Common, System.Private.DataContractSerialization, System.Private.Xml
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -196,7 +196,7 @@ export enum XmlTokenizedType {
 export type OnXmlDictionaryReaderClose = (reader: XmlDictionaryReader) => void;
 
 
-export type XmlNodeChangedEventHandler = (sender: JsValue, e: XmlNodeChangedEventArgs) => void;
+export type XmlNodeChangedEventHandler = (sender: unknown, e: XmlNodeChangedEventArgs) => void;
 
 
 export interface IApplicationResourceStreamResolver$instance {
@@ -331,7 +331,7 @@ export interface UniqueId$instance {
 
     readonly CharArrayLength: int;
     readonly IsGuid: boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToCharArray(chars: char[], offset: int): int;
     ToString(): string;
@@ -789,7 +789,7 @@ export interface XmlDictionaryReader$instance extends XmlReader$instance {
     ReadArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: TimeSpan[], offset: int, count: int): int;
     ReadBooleanArray(localName: string, namespaceUri: string): boolean[];
     ReadBooleanArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): boolean[];
-    ReadContentAs(type: Type, namespaceResolver: IXmlNamespaceResolver | null): JsValue;
+    ReadContentAs(type: Type, namespaceResolver: IXmlNamespaceResolver | null): unknown;
     ReadContentAsBase642(): byte[];
     ReadContentAsBase642(buffer: byte[], index: int, count: int): int;
     ReadContentAsBinHex(): byte[];
@@ -1003,7 +1003,7 @@ export interface XmlDictionaryWriter$instance extends XmlWriter$instance, System
     WriteValue(value: Guid): void;
     WriteValue(value: TimeSpan): void;
     WriteValue(value: IStreamProvider): void;
-    WriteValue(value: JsValue): void;
+    WriteValue(value: unknown): void;
     WriteValue(value: string | null): void;
     WriteValue(value: boolean): void;
     WriteValue(value: DateTime): void;
@@ -1322,7 +1322,7 @@ export interface __XmlEntityReference$views {
 export type XmlEntityReference = XmlEntityReference$instance & __XmlEntityReference$views;
 
 
-export interface XmlException$instance extends SystemException {
+export interface XmlException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
     readonly __tsonic_type_System_Xml_XmlException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1580,7 +1580,7 @@ export interface __XmlNodeList$views {
 export type XmlNodeList = XmlNodeList$instance & __XmlNodeList$views & { readonly [i: number]: XmlNode | null; };
 
 
-export interface XmlNodeReader$instance extends XmlReader$instance {
+export interface XmlNodeReader$instance extends XmlReader$instance, IXmlNamespaceResolver$instance {
     readonly __tsonic_type_System_Xml_XmlNodeReader: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1745,7 +1745,7 @@ export interface XmlQualifiedName$instance {
     readonly IsEmpty: boolean;
     Name: string;
     Namespace: string;
-    Equals(other: JsValue | null): boolean;
+    Equals(other: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -1817,8 +1817,8 @@ export interface XmlReader$instance {
     Read(): boolean;
     ReadAsync(): Task_1<System_Internal.Boolean>;
     ReadAttributeValue(): boolean;
-    ReadContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver | null): JsValue;
-    ReadContentAsAsync(returnType: Type, namespaceResolver: IXmlNamespaceResolver | null): Task_1<JsValue>;
+    ReadContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver | null): unknown;
+    ReadContentAsAsync(returnType: Type, namespaceResolver: IXmlNamespaceResolver | null): Task_1<unknown>;
     ReadContentAsBase64(buffer: byte[], index: int, count: int): int;
     ReadContentAsBase64Async(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
     ReadContentAsBinHex(buffer: byte[], index: int, count: int): int;
@@ -1831,13 +1831,13 @@ export interface XmlReader$instance {
     ReadContentAsFloat(): float;
     ReadContentAsInt(): int;
     ReadContentAsLong(): long;
-    ReadContentAsObject(): JsValue;
-    ReadContentAsObjectAsync(): Task_1<JsValue>;
+    ReadContentAsObject(): unknown;
+    ReadContentAsObjectAsync(): Task_1<unknown>;
     ReadContentAsString(): string;
     ReadContentAsStringAsync(): Task_1<System_Internal.String>;
-    ReadElementContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver): JsValue;
-    ReadElementContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver, localName: string, namespaceURI: string): JsValue;
-    ReadElementContentAsAsync(returnType: Type, namespaceResolver: IXmlNamespaceResolver): Task_1<JsValue>;
+    ReadElementContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
+    ReadElementContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver, localName: string, namespaceURI: string): unknown;
+    ReadElementContentAsAsync(returnType: Type, namespaceResolver: IXmlNamespaceResolver): Task_1<unknown>;
     ReadElementContentAsBase64(buffer: byte[], index: int, count: int): int;
     ReadElementContentAsBase64Async(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
     ReadElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
@@ -1856,9 +1856,9 @@ export interface XmlReader$instance {
     ReadElementContentAsInt(localName: string, namespaceURI: string): int;
     ReadElementContentAsLong(): long;
     ReadElementContentAsLong(localName: string, namespaceURI: string): long;
-    ReadElementContentAsObject(): JsValue;
-    ReadElementContentAsObject(localName: string, namespaceURI: string): JsValue;
-    ReadElementContentAsObjectAsync(): Task_1<JsValue>;
+    ReadElementContentAsObject(): unknown;
+    ReadElementContentAsObject(localName: string, namespaceURI: string): unknown;
+    ReadElementContentAsObjectAsync(): Task_1<unknown>;
     ReadElementContentAsString(): string;
     ReadElementContentAsString(localName: string, namespaceURI: string): string;
     ReadElementContentAsStringAsync(): Task_1<System_Internal.String>;
@@ -1952,8 +1952,8 @@ export interface XmlResolver$instance {
     readonly __tsonic_type_System_Xml_XmlResolver: never;
 
     Credentials: ICredentials;
-    GetEntity(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): JsValue | null;
-    GetEntityAsync(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): Task_1<JsValue>;
+    GetEntity(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): unknown | null;
+    GetEntityAsync(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): Task_1<unknown>;
     ResolveUri(baseUri: Uri | null, relativeUri: string | null): Uri;
     SupportsType(absoluteUri: Uri, type: Type | null): boolean;
 }
@@ -1971,8 +1971,8 @@ export interface XmlSecureResolver$instance extends XmlResolver {
     readonly __tsonic_type_System_Xml_XmlSecureResolver: never;
 
     Credentials: ICredentials;
-    GetEntity(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): JsValue | null;
-    GetEntityAsync(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): Task_1<JsValue>;
+    GetEntity(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): unknown | null;
+    GetEntityAsync(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): Task_1<unknown>;
     ResolveUri(baseUri: Uri | null, relativeUri: string | null): Uri;
 }
 
@@ -2051,7 +2051,7 @@ export interface __XmlText$views {
 export type XmlText = XmlText$instance & __XmlText$views;
 
 
-export interface XmlTextReader$instance extends XmlReader$instance, IXmlLineInfo$instance {
+export interface XmlTextReader$instance extends XmlReader$instance, IXmlLineInfo$instance, IXmlNamespaceResolver$instance {
     readonly __tsonic_type_System_Xml_XmlTextReader: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -2215,8 +2215,8 @@ export interface XmlUrlResolver$instance extends XmlResolver {
     CachePolicy: RequestCachePolicy;
     Credentials: ICredentials;
     Proxy: IWebProxy | null;
-    GetEntity(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): JsValue | null;
-    GetEntityAsync(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): Task_1<JsValue>;
+    GetEntity(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): unknown | null;
+    GetEntityAsync(absoluteUri: Uri, role: string | null, ofObjectToReturn: Type | null): Task_1<unknown>;
     ResolveUri(baseUri: Uri | null, relativeUri: string | null): Uri;
 }
 
@@ -2228,7 +2228,7 @@ export const XmlUrlResolver: {
 
 export type XmlUrlResolver = XmlUrlResolver$instance;
 
-export interface XmlValidatingReader$instance extends XmlReader$instance, IXmlLineInfo$instance {
+export interface XmlValidatingReader$instance extends XmlReader$instance, IXmlLineInfo$instance, IXmlNamespaceResolver$instance {
     readonly __tsonic_type_System_Xml_XmlValidatingReader: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -2259,7 +2259,7 @@ export interface XmlValidatingReader$instance extends XmlReader$instance, IXmlLi
     readonly Reader: XmlReader;
     readonly ReadState: ReadState;
     readonly Schemas: XmlSchemaCollection;
-    readonly SchemaType: JsValue | null;
+    readonly SchemaType: unknown | null;
     ValidationType: ValidationType;
     readonly Value: string;
     readonly XmlLang: string;
@@ -2284,7 +2284,7 @@ export interface XmlValidatingReader$instance extends XmlReader$instance, IXmlLi
     ReadElementContentAsBase64(buffer: byte[], index: int, count: int): int;
     ReadElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
     ReadString(): string;
-    ReadTypedValue(): JsValue | null;
+    ReadTypedValue(): unknown | null;
     ResolveEntity(): void;
 }
 
@@ -2422,7 +2422,7 @@ export interface XmlWriter$instance extends System_Internal.IAsyncDisposable$ins
     WriteStringAsync(text: string | null): Task;
     WriteSurrogateCharEntity(lowChar: char, highChar: char): void;
     WriteSurrogateCharEntityAsync(lowChar: char, highChar: char): Task;
-    WriteValue(value: JsValue): void;
+    WriteValue(value: unknown): void;
     WriteValue(value: string | null): void;
     WriteValue(value: boolean): void;
     WriteValue(value: DateTime): void;

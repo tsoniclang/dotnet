@@ -132,7 +132,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::value__System.Int32",
           "clrName": "value__",
-          "metadataToken": 67113929,
+          "metadataToken": 67113924,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -144,7 +144,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::DefaultSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "Default",
-          "metadataToken": 67113930,
+          "metadataToken": 67113925,
           "normalizedSignature": "Default|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -156,7 +156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::ManagedToUnmanagedInSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "ManagedToUnmanagedIn",
-          "metadataToken": 67113931,
+          "metadataToken": 67113926,
           "normalizedSignature": "ManagedToUnmanagedIn|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -168,7 +168,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::ManagedToUnmanagedRefSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "ManagedToUnmanagedRef",
-          "metadataToken": 67113932,
+          "metadataToken": 67113927,
           "normalizedSignature": "ManagedToUnmanagedRef|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -180,7 +180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::ManagedToUnmanagedOutSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "ManagedToUnmanagedOut",
-          "metadataToken": 67113933,
+          "metadataToken": 67113928,
           "normalizedSignature": "ManagedToUnmanagedOut|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -192,7 +192,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::UnmanagedToManagedInSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "UnmanagedToManagedIn",
-          "metadataToken": 67113934,
+          "metadataToken": 67113929,
           "normalizedSignature": "UnmanagedToManagedIn|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -204,7 +204,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::UnmanagedToManagedRefSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "UnmanagedToManagedRef",
-          "metadataToken": 67113935,
+          "metadataToken": 67113930,
           "normalizedSignature": "UnmanagedToManagedRef|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -216,7 +216,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::UnmanagedToManagedOutSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "UnmanagedToManagedOut",
-          "metadataToken": 67113936,
+          "metadataToken": 67113931,
           "normalizedSignature": "UnmanagedToManagedOut|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -228,7 +228,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::ElementInSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "ElementIn",
-          "metadataToken": 67113937,
+          "metadataToken": 67113932,
           "normalizedSignature": "ElementIn|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -240,7 +240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::ElementRefSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "ElementRef",
-          "metadataToken": 67113938,
+          "metadataToken": 67113933,
           "normalizedSignature": "ElementRef|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -252,7 +252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::ElementOutSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "ElementOut",
-          "metadataToken": 67113939,
+          "metadataToken": 67113934,
           "normalizedSignature": "ElementOut|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -876,7 +876,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::Dispose():System.Void",
           "clrName": "Dispose",
-          "metadataToken": 100695236,
+          "metadataToken": 100695238,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -896,7 +896,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::Create(T):System.Runtime.InteropServices.Marshalling.ComVariant",
           "clrName": "Create",
-          "metadataToken": 100695237,
+          "metadataToken": 100695239,
           "canonicalSignature": "(T):System.Runtime.InteropServices.Marshalling.ComVariant",
           "normalizedSignature": "Create|(T):System.Runtime.InteropServices.Marshalling.ComVariant|static=true",
           "emitScope": "ClassSurface",
@@ -916,7 +916,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::CreateRaw(System.Runtime.InteropServices.VarEnum,T):System.Runtime.InteropServices.Marshalling.ComVariant",
           "clrName": "CreateRaw",
-          "metadataToken": 100695238,
+          "metadataToken": 100695240,
           "canonicalSignature": "(System.Runtime.InteropServices.VarEnum,T):System.Runtime.InteropServices.Marshalling.ComVariant",
           "normalizedSignature": "CreateRaw|(System.Runtime.InteropServices.VarEnum,T):System.Runtime.InteropServices.Marshalling.ComVariant|static=true",
           "emitScope": "ClassSurface",
@@ -936,7 +936,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::As():T",
           "clrName": "As",
-          "metadataToken": 100695241,
+          "metadataToken": 100695243,
           "canonicalSignature": "():T",
           "normalizedSignature": "As|():T|static=false",
           "emitScope": "ClassSurface",
@@ -956,7 +956,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::GetRawDataRef():T\u0026",
           "clrName": "GetRawDataRef",
-          "metadataToken": 100695244,
+          "metadataToken": 100695246,
           "canonicalSignature": "():T\u0026",
           "normalizedSignature": "GetRawDataRef|():T\u0026|static=false",
           "emitScope": "ClassSurface",
@@ -1311,7 +1311,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.IDynamicInterfaceCastable::IsInterfaceImplemented(System.RuntimeTypeHandle,System.Boolean):System.Boolean",
           "clrName": "IsInterfaceImplemented",
-          "metadataToken": 100694685,
+          "metadataToken": 100694688,
           "canonicalSignature": "(System.RuntimeTypeHandle,System.Boolean):System.Boolean",
           "normalizedSignature": "IsInterfaceImplemented|(System.RuntimeTypeHandle,System.Boolean):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -1332,7 +1332,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.IDynamicInterfaceCastable::GetInterfaceImplementation(System.RuntimeTypeHandle):System.RuntimeTypeHandle",
           "clrName": "GetInterfaceImplementation",
-          "metadataToken": 100694686,
+          "metadataToken": 100694689,
           "canonicalSignature": "(System.RuntimeTypeHandle):System.RuntimeTypeHandle",
           "normalizedSignature": "GetInterfaceImplementation|(System.RuntimeTypeHandle):System.RuntimeTypeHandle|static=false",
           "emitScope": "ViewOnly",
@@ -1399,7 +1399,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ContiguousCollectionMarshallerAttribute::.ctor():void",
-          "metadataToken": 100695247,
+          "metadataToken": 100695249,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -1490,7 +1490,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.CustomMarshallerAttribute::.ctor(System.Type,System.Runtime.InteropServices.Marshalling.MarshalMode,System.Type):void",
-          "metadataToken": 100695248,
+          "metadataToken": 100695250,
           "canonicalSignature": "(System.Type,System.Runtime.InteropServices.Marshalling.MarshalMode,System.Type):void",
           "normalizedSignature": "constructor|(System.Type,System.Runtime.InteropServices.Marshalling.MarshalMode,System.Type):void|static=false",
           "isStatic": false,
@@ -1924,7 +1924,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalUsingAttribute::ReturnsCountValueSystem.String",
           "clrName": "ReturnsCountValue",
-          "metadataToken": 67113944,
+          "metadataToken": 67113939,
           "normalizedSignature": "ReturnsCountValue|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1938,7 +1938,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalUsingAttribute::.ctor():void",
-          "metadataToken": 100695252,
+          "metadataToken": 100695254,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -1949,7 +1949,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalUsingAttribute::.ctor(System.Type):void",
-          "metadataToken": 100695253,
+          "metadataToken": 100695255,
           "canonicalSignature": "(System.Type):void",
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
@@ -2002,7 +2002,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.NativeMarshallingAttribute::.ctor(System.Type):void",
-          "metadataToken": 100695261,
+          "metadataToken": 100695263,
           "canonicalSignature": "(System.Type):void",
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
@@ -2277,7 +2277,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller::ConvertToUnmanaged(System.String):System.Byte*",
           "clrName": "ConvertToUnmanaged",
-          "metadataToken": 100695207,
+          "metadataToken": 100695209,
           "canonicalSignature": "(System.String):System.Byte*",
           "normalizedSignature": "ConvertToUnmanaged|(System.String):System.Byte*|static=true",
           "emitScope": "ClassSurface",
@@ -2297,7 +2297,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller::ConvertToManaged(System.Byte*):System.String",
           "clrName": "ConvertToManaged",
-          "metadataToken": 100695208,
+          "metadataToken": 100695210,
           "canonicalSignature": "(System.Byte*):System.String",
           "normalizedSignature": "ConvertToManaged|(System.Byte*):System.String|static=true",
           "emitScope": "ClassSurface",
@@ -2317,7 +2317,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller::Free(System.Byte*):System.Void",
           "clrName": "Free",
-          "metadataToken": 100695209,
+          "metadataToken": 100695211,
           "canonicalSignature": "(System.Byte*):System.Void",
           "normalizedSignature": "Free|(System.Byte*):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -2359,7 +2359,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller\u002BManagedToUnmanagedIn::FromManaged(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "FromManaged",
-          "metadataToken": 100695211,
+          "metadataToken": 100695213,
           "canonicalSignature": "(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "FromManaged|(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2379,7 +2379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller\u002BManagedToUnmanagedIn::ToUnmanaged():System.Byte*",
           "clrName": "ToUnmanaged",
-          "metadataToken": 100695212,
+          "metadataToken": 100695214,
           "canonicalSignature": "():System.Byte*",
           "normalizedSignature": "ToUnmanaged|():System.Byte*|static=false",
           "emitScope": "ClassSurface",
@@ -2399,7 +2399,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.AnsiStringMarshaller\u002BManagedToUnmanagedIn::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695213,
+          "metadataToken": 100695215,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2465,7 +2465,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::AllocateContainerForUnmanagedElements(T[],System.Int32\u0026):TUnmanagedElement*",
           "clrName": "AllocateContainerForUnmanagedElements",
-          "metadataToken": 100695214,
+          "metadataToken": 100695216,
           "canonicalSignature": "(T[],System.Int32\u0026):TUnmanagedElement*",
           "normalizedSignature": "AllocateContainerForUnmanagedElements|(T[],System.Int32\u0026):TUnmanagedElement*|static=true",
           "emitScope": "ClassSurface",
@@ -2491,7 +2491,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::GetManagedValuesSource(T[]):ReadOnlySpan_1",
           "clrName": "GetManagedValuesSource",
-          "metadataToken": 100695215,
+          "metadataToken": 100695217,
           "canonicalSignature": "(T[]):ReadOnlySpan_1",
           "normalizedSignature": "GetManagedValuesSource|(T[]):ReadOnlySpan_1|static=true",
           "emitScope": "ClassSurface",
@@ -2511,7 +2511,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::GetUnmanagedValuesDestination(TUnmanagedElement*,System.Int32):Span_1",
           "clrName": "GetUnmanagedValuesDestination",
-          "metadataToken": 100695216,
+          "metadataToken": 100695218,
           "canonicalSignature": "(TUnmanagedElement*,System.Int32):Span_1",
           "normalizedSignature": "GetUnmanagedValuesDestination|(TUnmanagedElement*,System.Int32):Span_1|static=true",
           "emitScope": "ClassSurface",
@@ -2531,7 +2531,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::AllocateContainerForManagedElements(TUnmanagedElement*,System.Int32):T[]",
           "clrName": "AllocateContainerForManagedElements",
-          "metadataToken": 100695217,
+          "metadataToken": 100695219,
           "canonicalSignature": "(TUnmanagedElement*,System.Int32):T[]",
           "normalizedSignature": "AllocateContainerForManagedElements|(TUnmanagedElement*,System.Int32):T[]|static=true",
           "emitScope": "ClassSurface",
@@ -2551,7 +2551,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::GetManagedValuesDestination(T[]):Span_1",
           "clrName": "GetManagedValuesDestination",
-          "metadataToken": 100695218,
+          "metadataToken": 100695220,
           "canonicalSignature": "(T[]):Span_1",
           "normalizedSignature": "GetManagedValuesDestination|(T[]):Span_1|static=true",
           "emitScope": "ClassSurface",
@@ -2571,7 +2571,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::GetUnmanagedValuesSource(TUnmanagedElement*,System.Int32):ReadOnlySpan_1",
           "clrName": "GetUnmanagedValuesSource",
-          "metadataToken": 100695219,
+          "metadataToken": 100695221,
           "canonicalSignature": "(TUnmanagedElement*,System.Int32):ReadOnlySpan_1",
           "normalizedSignature": "GetUnmanagedValuesSource|(TUnmanagedElement*,System.Int32):ReadOnlySpan_1|static=true",
           "emitScope": "ClassSurface",
@@ -2591,7 +2591,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602::Free(TUnmanagedElement*):System.Void",
           "clrName": "Free",
-          "metadataToken": 100695220,
+          "metadataToken": 100695222,
           "canonicalSignature": "(TUnmanagedElement*):System.Void",
           "normalizedSignature": "Free|(TUnmanagedElement*):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -2637,7 +2637,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::FromManaged(T[],Span_1):System.Void",
           "clrName": "FromManaged",
-          "metadataToken": 100695222,
+          "metadataToken": 100695224,
           "canonicalSignature": "(T[],Span_1):System.Void",
           "normalizedSignature": "FromManaged|(T[],Span_1):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2657,7 +2657,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetManagedValuesSource():ReadOnlySpan_1",
           "clrName": "GetManagedValuesSource",
-          "metadataToken": 100695223,
+          "metadataToken": 100695225,
           "canonicalSignature": "():ReadOnlySpan_1",
           "normalizedSignature": "GetManagedValuesSource|():ReadOnlySpan_1|static=false",
           "emitScope": "ClassSurface",
@@ -2677,7 +2677,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetUnmanagedValuesDestination():Span_1",
           "clrName": "GetUnmanagedValuesDestination",
-          "metadataToken": 100695224,
+          "metadataToken": 100695226,
           "canonicalSignature": "():Span_1",
           "normalizedSignature": "GetUnmanagedValuesDestination|():Span_1|static=false",
           "emitScope": "ClassSurface",
@@ -2697,7 +2697,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference():TUnmanagedElement\u0026",
           "clrName": "GetPinnableReference",
-          "metadataToken": 100695225,
+          "metadataToken": 100695227,
           "canonicalSignature": "():TUnmanagedElement\u0026",
           "normalizedSignature": "GetPinnableReference|():TUnmanagedElement\u0026|static=false",
           "emitScope": "ClassSurface",
@@ -2717,7 +2717,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::ToUnmanaged():TUnmanagedElement*",
           "clrName": "ToUnmanaged",
-          "metadataToken": 100695226,
+          "metadataToken": 100695228,
           "canonicalSignature": "():TUnmanagedElement*",
           "normalizedSignature": "ToUnmanaged|():TUnmanagedElement*|static=false",
           "emitScope": "ClassSurface",
@@ -2737,7 +2737,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695227,
+          "metadataToken": 100695229,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2757,7 +2757,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference(T[]):T\u0026",
           "clrName": "GetPinnableReference",
-          "metadataToken": 100695228,
+          "metadataToken": 100695230,
           "canonicalSignature": "(T[]):T\u0026",
           "normalizedSignature": "GetPinnableReference|(T[]):T\u0026|static=true",
           "emitScope": "ClassSurface",
@@ -2819,7 +2819,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.BStrStringMarshaller::ConvertToUnmanaged(System.String):System.UInt16*",
           "clrName": "ConvertToUnmanaged",
-          "metadataToken": 100695229,
+          "metadataToken": 100695231,
           "canonicalSignature": "(System.String):System.UInt16*",
           "normalizedSignature": "ConvertToUnmanaged|(System.String):System.UInt16*|static=true",
           "emitScope": "ClassSurface",
@@ -2839,7 +2839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.BStrStringMarshaller::ConvertToManaged(System.UInt16*):System.String",
           "clrName": "ConvertToManaged",
-          "metadataToken": 100695230,
+          "metadataToken": 100695232,
           "canonicalSignature": "(System.UInt16*):System.String",
           "normalizedSignature": "ConvertToManaged|(System.UInt16*):System.String|static=true",
           "emitScope": "ClassSurface",
@@ -2859,7 +2859,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.BStrStringMarshaller::Free(System.UInt16*):System.Void",
           "clrName": "Free",
-          "metadataToken": 100695231,
+          "metadataToken": 100695233,
           "canonicalSignature": "(System.UInt16*):System.Void",
           "normalizedSignature": "Free|(System.UInt16*):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -2901,7 +2901,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.BStrStringMarshaller\u002BManagedToUnmanagedIn::FromManaged(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "FromManaged",
-          "metadataToken": 100695233,
+          "metadataToken": 100695235,
           "canonicalSignature": "(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "FromManaged|(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2921,7 +2921,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.BStrStringMarshaller\u002BManagedToUnmanagedIn::ToUnmanaged():System.UInt16*",
           "clrName": "ToUnmanaged",
-          "metadataToken": 100695234,
+          "metadataToken": 100695236,
           "canonicalSignature": "():System.UInt16*",
           "normalizedSignature": "ToUnmanaged|():System.UInt16*|static=false",
           "emitScope": "ClassSurface",
@@ -2941,7 +2941,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.BStrStringMarshaller\u002BManagedToUnmanagedIn::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695235,
+          "metadataToken": 100695237,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3473,7 +3473,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::AllocateContainerForUnmanagedElements(T*[],System.Int32\u0026):TUnmanagedElement*",
           "clrName": "AllocateContainerForUnmanagedElements",
-          "metadataToken": 100695263,
+          "metadataToken": 100695265,
           "canonicalSignature": "(T*[],System.Int32\u0026):TUnmanagedElement*",
           "normalizedSignature": "AllocateContainerForUnmanagedElements|(T*[],System.Int32\u0026):TUnmanagedElement*|static=true",
           "emitScope": "ClassSurface",
@@ -3499,7 +3499,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::GetManagedValuesSource(T*[]):System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetManagedValuesSource",
-          "metadataToken": 100695264,
+          "metadataToken": 100695266,
           "canonicalSignature": "(T*[]):System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetManagedValuesSource|(T*[]):System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "emitScope": "ClassSurface",
@@ -3519,7 +3519,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::GetUnmanagedValuesDestination(TUnmanagedElement*,System.Int32):Span_1",
           "clrName": "GetUnmanagedValuesDestination",
-          "metadataToken": 100695265,
+          "metadataToken": 100695267,
           "canonicalSignature": "(TUnmanagedElement*,System.Int32):Span_1",
           "normalizedSignature": "GetUnmanagedValuesDestination|(TUnmanagedElement*,System.Int32):Span_1|static=true",
           "emitScope": "ClassSurface",
@@ -3539,7 +3539,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::AllocateContainerForManagedElements(TUnmanagedElement*,System.Int32):T*[]",
           "clrName": "AllocateContainerForManagedElements",
-          "metadataToken": 100695266,
+          "metadataToken": 100695268,
           "canonicalSignature": "(TUnmanagedElement*,System.Int32):T*[]",
           "normalizedSignature": "AllocateContainerForManagedElements|(TUnmanagedElement*,System.Int32):T*[]|static=true",
           "emitScope": "ClassSurface",
@@ -3559,7 +3559,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::GetManagedValuesDestination(T*[]):System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetManagedValuesDestination",
-          "metadataToken": 100695267,
+          "metadataToken": 100695269,
           "canonicalSignature": "(T*[]):System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetManagedValuesDestination|(T*[]):System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "emitScope": "ClassSurface",
@@ -3579,7 +3579,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::GetUnmanagedValuesSource(TUnmanagedElement*,System.Int32):ReadOnlySpan_1",
           "clrName": "GetUnmanagedValuesSource",
-          "metadataToken": 100695268,
+          "metadataToken": 100695270,
           "canonicalSignature": "(TUnmanagedElement*,System.Int32):ReadOnlySpan_1",
           "normalizedSignature": "GetUnmanagedValuesSource|(TUnmanagedElement*,System.Int32):ReadOnlySpan_1|static=true",
           "emitScope": "ClassSurface",
@@ -3599,7 +3599,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602::Free(TUnmanagedElement*):System.Void",
           "clrName": "Free",
-          "metadataToken": 100695269,
+          "metadataToken": 100695271,
           "canonicalSignature": "(TUnmanagedElement*):System.Void",
           "normalizedSignature": "Free|(TUnmanagedElement*):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3645,7 +3645,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::FromManaged(T*[],Span_1):System.Void",
           "clrName": "FromManaged",
-          "metadataToken": 100695271,
+          "metadataToken": 100695273,
           "canonicalSignature": "(T*[],Span_1):System.Void",
           "normalizedSignature": "FromManaged|(T*[],Span_1):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3665,7 +3665,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetManagedValuesSource():System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetManagedValuesSource",
-          "metadataToken": 100695272,
+          "metadataToken": 100695274,
           "canonicalSignature": "():System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetManagedValuesSource|():System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "emitScope": "ClassSurface",
@@ -3685,7 +3685,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetUnmanagedValuesDestination():Span_1",
           "clrName": "GetUnmanagedValuesDestination",
-          "metadataToken": 100695273,
+          "metadataToken": 100695275,
           "canonicalSignature": "():Span_1",
           "normalizedSignature": "GetUnmanagedValuesDestination|():Span_1|static=false",
           "emitScope": "ClassSurface",
@@ -3705,7 +3705,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference():TUnmanagedElement\u0026",
           "clrName": "GetPinnableReference",
-          "metadataToken": 100695274,
+          "metadataToken": 100695276,
           "canonicalSignature": "():TUnmanagedElement\u0026",
           "normalizedSignature": "GetPinnableReference|():TUnmanagedElement\u0026|static=false",
           "emitScope": "ClassSurface",
@@ -3725,7 +3725,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::ToUnmanaged():TUnmanagedElement*",
           "clrName": "ToUnmanaged",
-          "metadataToken": 100695275,
+          "metadataToken": 100695277,
           "canonicalSignature": "():TUnmanagedElement*",
           "normalizedSignature": "ToUnmanaged|():TUnmanagedElement*|static=false",
           "emitScope": "ClassSurface",
@@ -3745,7 +3745,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695276,
+          "metadataToken": 100695278,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3765,7 +3765,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.PointerArrayMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference(T*[]):System.Byte\u0026",
           "clrName": "GetPinnableReference",
-          "metadataToken": 100695277,
+          "metadataToken": 100695279,
           "canonicalSignature": "(T*[]):System.Byte\u0026",
           "normalizedSignature": "GetPinnableReference|(T*[]):System.Byte\u0026|static=true",
           "emitScope": "ClassSurface",
@@ -3856,7 +3856,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::FromManaged(ReadOnlySpan_1,Span_1):System.Void",
           "clrName": "FromManaged",
-          "metadataToken": 100695282,
+          "metadataToken": 100695284,
           "canonicalSignature": "(ReadOnlySpan_1,Span_1):System.Void",
           "normalizedSignature": "FromManaged|(ReadOnlySpan_1,Span_1):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3876,7 +3876,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetManagedValuesSource():ReadOnlySpan_1",
           "clrName": "GetManagedValuesSource",
-          "metadataToken": 100695283,
+          "metadataToken": 100695285,
           "canonicalSignature": "():ReadOnlySpan_1",
           "normalizedSignature": "GetManagedValuesSource|():ReadOnlySpan_1|static=false",
           "emitScope": "ClassSurface",
@@ -3896,7 +3896,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetUnmanagedValuesDestination():Span_1",
           "clrName": "GetUnmanagedValuesDestination",
-          "metadataToken": 100695284,
+          "metadataToken": 100695286,
           "canonicalSignature": "():Span_1",
           "normalizedSignature": "GetUnmanagedValuesDestination|():Span_1|static=false",
           "emitScope": "ClassSurface",
@@ -3916,7 +3916,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference():TUnmanagedElement\u0026",
           "clrName": "GetPinnableReference",
-          "metadataToken": 100695285,
+          "metadataToken": 100695287,
           "canonicalSignature": "():TUnmanagedElement\u0026",
           "normalizedSignature": "GetPinnableReference|():TUnmanagedElement\u0026|static=false",
           "emitScope": "ClassSurface",
@@ -3936,7 +3936,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::ToUnmanaged():TUnmanagedElement*",
           "clrName": "ToUnmanaged",
-          "metadataToken": 100695286,
+          "metadataToken": 100695288,
           "canonicalSignature": "():TUnmanagedElement*",
           "normalizedSignature": "ToUnmanaged|():TUnmanagedElement*|static=false",
           "emitScope": "ClassSurface",
@@ -3956,7 +3956,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695287,
+          "metadataToken": 100695289,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -3976,7 +3976,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference(ReadOnlySpan_1):T\u0026",
           "clrName": "GetPinnableReference",
-          "metadataToken": 100695288,
+          "metadataToken": 100695290,
           "canonicalSignature": "(ReadOnlySpan_1):T\u0026",
           "normalizedSignature": "GetPinnableReference|(ReadOnlySpan_1):T\u0026|static=true",
           "emitScope": "ClassSurface",
@@ -4042,7 +4042,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut::FromUnmanaged(TUnmanagedElement*):System.Void",
           "clrName": "FromUnmanaged",
-          "metadataToken": 100695289,
+          "metadataToken": 100695291,
           "canonicalSignature": "(TUnmanagedElement*):System.Void",
           "normalizedSignature": "FromUnmanaged|(TUnmanagedElement*):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4062,7 +4062,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut::ToManaged():ReadOnlySpan_1",
           "clrName": "ToManaged",
-          "metadataToken": 100695290,
+          "metadataToken": 100695292,
           "canonicalSignature": "():ReadOnlySpan_1",
           "normalizedSignature": "ToManaged|():ReadOnlySpan_1|static=false",
           "emitScope": "ClassSurface",
@@ -4082,7 +4082,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut::GetUnmanagedValuesSource(System.Int32):ReadOnlySpan_1",
           "clrName": "GetUnmanagedValuesSource",
-          "metadataToken": 100695291,
+          "metadataToken": 100695293,
           "canonicalSignature": "(System.Int32):ReadOnlySpan_1",
           "normalizedSignature": "GetUnmanagedValuesSource|(System.Int32):ReadOnlySpan_1|static=false",
           "emitScope": "ClassSurface",
@@ -4102,7 +4102,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut::GetManagedValuesDestination(System.Int32):Span_1",
           "clrName": "GetManagedValuesDestination",
-          "metadataToken": 100695292,
+          "metadataToken": 100695294,
           "canonicalSignature": "(System.Int32):Span_1",
           "normalizedSignature": "GetManagedValuesDestination|(System.Int32):Span_1|static=false",
           "emitScope": "ClassSurface",
@@ -4122,7 +4122,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BManagedToUnmanagedOut::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695293,
+          "metadataToken": 100695295,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4168,7 +4168,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BUnmanagedToManagedOut::AllocateContainerForUnmanagedElements(ReadOnlySpan_1,System.Int32\u0026):TUnmanagedElement*",
           "clrName": "AllocateContainerForUnmanagedElements",
-          "metadataToken": 100695278,
+          "metadataToken": 100695280,
           "canonicalSignature": "(ReadOnlySpan_1,System.Int32\u0026):TUnmanagedElement*",
           "normalizedSignature": "AllocateContainerForUnmanagedElements|(ReadOnlySpan_1,System.Int32\u0026):TUnmanagedElement*|static=true",
           "emitScope": "ClassSurface",
@@ -4194,7 +4194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BUnmanagedToManagedOut::GetManagedValuesSource(ReadOnlySpan_1):ReadOnlySpan_1",
           "clrName": "GetManagedValuesSource",
-          "metadataToken": 100695279,
+          "metadataToken": 100695281,
           "canonicalSignature": "(ReadOnlySpan_1):ReadOnlySpan_1",
           "normalizedSignature": "GetManagedValuesSource|(ReadOnlySpan_1):ReadOnlySpan_1|static=true",
           "emitScope": "ClassSurface",
@@ -4214,7 +4214,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller\u00602\u002BUnmanagedToManagedOut::GetUnmanagedValuesDestination(TUnmanagedElement*,System.Int32):Span_1",
           "clrName": "GetUnmanagedValuesDestination",
-          "metadataToken": 100695280,
+          "metadataToken": 100695282,
           "canonicalSignature": "(TUnmanagedElement*,System.Int32):Span_1",
           "normalizedSignature": "GetUnmanagedValuesDestination|(TUnmanagedElement*,System.Int32):Span_1|static=true",
           "emitScope": "ClassSurface",
@@ -4283,7 +4283,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedIn::FromManaged(T):System.Void",
           "clrName": "FromManaged",
-          "metadataToken": 100695294,
+          "metadataToken": 100695296,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "FromManaged|(T):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4303,7 +4303,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedIn::ToUnmanaged():System.IntPtr",
           "clrName": "ToUnmanaged",
-          "metadataToken": 100695295,
+          "metadataToken": 100695297,
           "canonicalSignature": "():System.IntPtr",
           "normalizedSignature": "ToUnmanaged|():System.IntPtr|static=false",
           "emitScope": "ClassSurface",
@@ -4323,7 +4323,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedIn::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695296,
+          "metadataToken": 100695298,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4368,7 +4368,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedOut::FromUnmanaged(System.IntPtr):System.Void",
           "clrName": "FromUnmanaged",
-          "metadataToken": 100695305,
+          "metadataToken": 100695307,
           "canonicalSignature": "(System.IntPtr):System.Void",
           "normalizedSignature": "FromUnmanaged|(System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4388,7 +4388,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedOut::ToManaged():T",
           "clrName": "ToManaged",
-          "metadataToken": 100695306,
+          "metadataToken": 100695308,
           "canonicalSignature": "():T",
           "normalizedSignature": "ToManaged|():T|static=false",
           "emitScope": "ClassSurface",
@@ -4408,7 +4408,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedOut::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695307,
+          "metadataToken": 100695309,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4432,7 +4432,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedOut::.ctor():void",
-          "metadataToken": 100695304,
+          "metadataToken": 100695306,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -4465,7 +4465,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::FromManaged(T):System.Void",
           "clrName": "FromManaged",
-          "metadataToken": 100695298,
+          "metadataToken": 100695300,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "FromManaged|(T):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4485,7 +4485,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::ToUnmanaged():System.IntPtr",
           "clrName": "ToUnmanaged",
-          "metadataToken": 100695299,
+          "metadataToken": 100695301,
           "canonicalSignature": "():System.IntPtr",
           "normalizedSignature": "ToUnmanaged|():System.IntPtr|static=false",
           "emitScope": "ClassSurface",
@@ -4505,7 +4505,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::FromUnmanaged(System.IntPtr):System.Void",
           "clrName": "FromUnmanaged",
-          "metadataToken": 100695300,
+          "metadataToken": 100695302,
           "canonicalSignature": "(System.IntPtr):System.Void",
           "normalizedSignature": "FromUnmanaged|(System.IntPtr):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4525,7 +4525,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::OnInvoked():System.Void",
           "clrName": "OnInvoked",
-          "metadataToken": 100695301,
+          "metadataToken": 100695303,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "OnInvoked|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4545,7 +4545,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::ToManagedFinally():T",
           "clrName": "ToManagedFinally",
-          "metadataToken": 100695302,
+          "metadataToken": 100695304,
           "canonicalSignature": "():T",
           "normalizedSignature": "ToManagedFinally|():T|static=false",
           "emitScope": "ClassSurface",
@@ -4565,7 +4565,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695303,
+          "metadataToken": 100695305,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4589,7 +4589,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SafeHandleMarshaller\u00601\u002BManagedToUnmanagedRef::.ctor():void",
-          "metadataToken": 100695297,
+          "metadataToken": 100695299,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -4623,7 +4623,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::AllocateContainerForUnmanagedElements(Span_1,System.Int32\u0026):TUnmanagedElement*",
           "clrName": "AllocateContainerForUnmanagedElements",
-          "metadataToken": 100695308,
+          "metadataToken": 100695310,
           "canonicalSignature": "(Span_1,System.Int32\u0026):TUnmanagedElement*",
           "normalizedSignature": "AllocateContainerForUnmanagedElements|(Span_1,System.Int32\u0026):TUnmanagedElement*|static=true",
           "emitScope": "ClassSurface",
@@ -4649,7 +4649,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::GetManagedValuesSource(Span_1):ReadOnlySpan_1",
           "clrName": "GetManagedValuesSource",
-          "metadataToken": 100695309,
+          "metadataToken": 100695311,
           "canonicalSignature": "(Span_1):ReadOnlySpan_1",
           "normalizedSignature": "GetManagedValuesSource|(Span_1):ReadOnlySpan_1|static=true",
           "emitScope": "ClassSurface",
@@ -4669,7 +4669,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::GetUnmanagedValuesDestination(TUnmanagedElement*,System.Int32):Span_1",
           "clrName": "GetUnmanagedValuesDestination",
-          "metadataToken": 100695310,
+          "metadataToken": 100695312,
           "canonicalSignature": "(TUnmanagedElement*,System.Int32):Span_1",
           "normalizedSignature": "GetUnmanagedValuesDestination|(TUnmanagedElement*,System.Int32):Span_1|static=true",
           "emitScope": "ClassSurface",
@@ -4689,7 +4689,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::AllocateContainerForManagedElements(TUnmanagedElement*,System.Int32):Span_1",
           "clrName": "AllocateContainerForManagedElements",
-          "metadataToken": 100695311,
+          "metadataToken": 100695313,
           "canonicalSignature": "(TUnmanagedElement*,System.Int32):Span_1",
           "normalizedSignature": "AllocateContainerForManagedElements|(TUnmanagedElement*,System.Int32):Span_1|static=true",
           "emitScope": "ClassSurface",
@@ -4709,7 +4709,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::GetManagedValuesDestination(Span_1):Span_1",
           "clrName": "GetManagedValuesDestination",
-          "metadataToken": 100695312,
+          "metadataToken": 100695314,
           "canonicalSignature": "(Span_1):Span_1",
           "normalizedSignature": "GetManagedValuesDestination|(Span_1):Span_1|static=true",
           "emitScope": "ClassSurface",
@@ -4729,7 +4729,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::GetUnmanagedValuesSource(TUnmanagedElement*,System.Int32):ReadOnlySpan_1",
           "clrName": "GetUnmanagedValuesSource",
-          "metadataToken": 100695313,
+          "metadataToken": 100695315,
           "canonicalSignature": "(TUnmanagedElement*,System.Int32):ReadOnlySpan_1",
           "normalizedSignature": "GetUnmanagedValuesSource|(TUnmanagedElement*,System.Int32):ReadOnlySpan_1|static=true",
           "emitScope": "ClassSurface",
@@ -4749,7 +4749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602::Free(TUnmanagedElement*):System.Void",
           "clrName": "Free",
-          "metadataToken": 100695314,
+          "metadataToken": 100695316,
           "canonicalSignature": "(TUnmanagedElement*):System.Void",
           "normalizedSignature": "Free|(TUnmanagedElement*):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -4795,7 +4795,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::FromManaged(Span_1,Span_1):System.Void",
           "clrName": "FromManaged",
-          "metadataToken": 100695316,
+          "metadataToken": 100695318,
           "canonicalSignature": "(Span_1,Span_1):System.Void",
           "normalizedSignature": "FromManaged|(Span_1,Span_1):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4815,7 +4815,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetManagedValuesSource():ReadOnlySpan_1",
           "clrName": "GetManagedValuesSource",
-          "metadataToken": 100695317,
+          "metadataToken": 100695319,
           "canonicalSignature": "():ReadOnlySpan_1",
           "normalizedSignature": "GetManagedValuesSource|():ReadOnlySpan_1|static=false",
           "emitScope": "ClassSurface",
@@ -4835,7 +4835,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetUnmanagedValuesDestination():Span_1",
           "clrName": "GetUnmanagedValuesDestination",
-          "metadataToken": 100695318,
+          "metadataToken": 100695320,
           "canonicalSignature": "():Span_1",
           "normalizedSignature": "GetUnmanagedValuesDestination|():Span_1|static=false",
           "emitScope": "ClassSurface",
@@ -4855,7 +4855,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference():TUnmanagedElement\u0026",
           "clrName": "GetPinnableReference",
-          "metadataToken": 100695319,
+          "metadataToken": 100695321,
           "canonicalSignature": "():TUnmanagedElement\u0026",
           "normalizedSignature": "GetPinnableReference|():TUnmanagedElement\u0026|static=false",
           "emitScope": "ClassSurface",
@@ -4875,7 +4875,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::ToUnmanaged():TUnmanagedElement*",
           "clrName": "ToUnmanaged",
-          "metadataToken": 100695320,
+          "metadataToken": 100695322,
           "canonicalSignature": "():TUnmanagedElement*",
           "normalizedSignature": "ToUnmanaged|():TUnmanagedElement*|static=false",
           "emitScope": "ClassSurface",
@@ -4895,7 +4895,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695321,
+          "metadataToken": 100695323,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -4915,7 +4915,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.SpanMarshaller\u00602\u002BManagedToUnmanagedIn::GetPinnableReference(Span_1):T\u0026",
           "clrName": "GetPinnableReference",
-          "metadataToken": 100695322,
+          "metadataToken": 100695324,
           "canonicalSignature": "(Span_1):T\u0026",
           "normalizedSignature": "GetPinnableReference|(Span_1):T\u0026|static=true",
           "emitScope": "ClassSurface",
@@ -5062,7 +5062,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller::ConvertToUnmanaged(System.String):System.UInt16*",
           "clrName": "ConvertToUnmanaged",
-          "metadataToken": 100695323,
+          "metadataToken": 100695325,
           "canonicalSignature": "(System.String):System.UInt16*",
           "normalizedSignature": "ConvertToUnmanaged|(System.String):System.UInt16*|static=true",
           "emitScope": "ClassSurface",
@@ -5082,7 +5082,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller::ConvertToManaged(System.UInt16*):System.String",
           "clrName": "ConvertToManaged",
-          "metadataToken": 100695324,
+          "metadataToken": 100695326,
           "canonicalSignature": "(System.UInt16*):System.String",
           "normalizedSignature": "ConvertToManaged|(System.UInt16*):System.String|static=true",
           "emitScope": "ClassSurface",
@@ -5102,7 +5102,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller::Free(System.UInt16*):System.Void",
           "clrName": "Free",
-          "metadataToken": 100695325,
+          "metadataToken": 100695327,
           "canonicalSignature": "(System.UInt16*):System.Void",
           "normalizedSignature": "Free|(System.UInt16*):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -5122,7 +5122,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf16StringMarshaller::GetPinnableReference(System.String):System.Char\u0026",
           "clrName": "GetPinnableReference",
-          "metadataToken": 100695326,
+          "metadataToken": 100695328,
           "canonicalSignature": "(System.String):System.Char\u0026",
           "normalizedSignature": "GetPinnableReference|(System.String):System.Char\u0026|static=true",
           "emitScope": "ClassSurface",
@@ -5164,7 +5164,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller::ConvertToUnmanaged(System.String):System.Byte*",
           "clrName": "ConvertToUnmanaged",
-          "metadataToken": 100695327,
+          "metadataToken": 100695329,
           "canonicalSignature": "(System.String):System.Byte*",
           "normalizedSignature": "ConvertToUnmanaged|(System.String):System.Byte*|static=true",
           "emitScope": "ClassSurface",
@@ -5184,7 +5184,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller::ConvertToManaged(System.Byte*):System.String",
           "clrName": "ConvertToManaged",
-          "metadataToken": 100695328,
+          "metadataToken": 100695330,
           "canonicalSignature": "(System.Byte*):System.String",
           "normalizedSignature": "ConvertToManaged|(System.Byte*):System.String|static=true",
           "emitScope": "ClassSurface",
@@ -5204,7 +5204,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller::Free(System.Byte*):System.Void",
           "clrName": "Free",
-          "metadataToken": 100695329,
+          "metadataToken": 100695331,
           "canonicalSignature": "(System.Byte*):System.Void",
           "normalizedSignature": "Free|(System.Byte*):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -5246,7 +5246,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller\u002BManagedToUnmanagedIn::FromManaged(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "FromManaged",
-          "metadataToken": 100695331,
+          "metadataToken": 100695333,
           "canonicalSignature": "(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "FromManaged|(System.String,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -5266,7 +5266,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller\u002BManagedToUnmanagedIn::ToUnmanaged():System.Byte*",
           "clrName": "ToUnmanaged",
-          "metadataToken": 100695332,
+          "metadataToken": 100695334,
           "canonicalSignature": "():System.Byte*",
           "normalizedSignature": "ToUnmanaged|():System.Byte*|static=false",
           "emitScope": "ClassSurface",
@@ -5286,7 +5286,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.Utf8StringMarshaller\u002BManagedToUnmanagedIn::Free():System.Void",
           "clrName": "Free",
-          "metadataToken": 100695333,
+          "metadataToken": 100695335,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Free|():System.Void|static=false",
           "emitScope": "ClassSurface",

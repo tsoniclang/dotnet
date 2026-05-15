@@ -3,7 +3,7 @@
 // Assembly: System.Private.CoreLib, System.Security.Cryptography
 
 // Core type aliases from @tsonic/core
-import type { JsValue, fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
+import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/core/types.js';
 
 
 // Import types from other namespaces
@@ -221,7 +221,7 @@ export interface CngProperty$instance {
 
     Name: string;
     readonly Options: CngPropertyOptions;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: CngProperty): boolean;
     GetHashCode(): int;
     GetValue(): byte[] | null;
@@ -367,7 +367,7 @@ export interface HashAlgorithmName$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Name: string | null;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: HashAlgorithmName): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -665,7 +665,7 @@ export interface AsnEncodedDataCollection$instance {
 
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     Add(asnEncodedData: AsnEncodedData): int;
     CopyTo(array: AsnEncodedData[], index: int): void;
     GetEnumerator(): AsnEncodedDataEnumerator;
@@ -881,7 +881,7 @@ export interface CngAlgorithm$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Algorithm: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: CngAlgorithm | null): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -926,7 +926,7 @@ export interface CngAlgorithmGroup$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly AlgorithmGroup: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: CngAlgorithmGroup | null): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -1013,7 +1013,7 @@ export interface CngKeyBlobFormat$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Format: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: CngKeyBlobFormat | null): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -1111,7 +1111,7 @@ export interface CngProvider$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Provider: string;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: CngProvider | null): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -1238,7 +1238,7 @@ export interface CompositeMLDsaAlgorithm$instance {
     readonly MaxSignatureSizeInBytes: int;
     readonly Name: string;
     Equals(other: CompositeMLDsaAlgorithm | null): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -1313,8 +1313,9 @@ export const CryptoConfig: {
     readonly AllowOnlyFipsAlgorithms: boolean;
     AddAlgorithm(algorithm: Type, ...names: string[]): void;
     AddOID(oid: string, ...names: string[]): void;
-    CreateFromName(name: string, ...args: (JsValue | null)[] | null): JsValue | null;
-    CreateFromName(name: string): JsValue | null;
+    CreateFromName(name: string, ...args: (unknown | null)[]): unknown | null;
+    CreateFromName(name: string, args: (unknown | null)[] | null): unknown | null;
+    CreateFromName(name: string): unknown | null;
     EncodeOID(str: string): byte[];
     MapNameToOID(name: string): string | null;
 };
@@ -1369,7 +1370,7 @@ export interface __CryptographicUnexpectedOperationException$views {
 export type CryptographicUnexpectedOperationException = CryptographicUnexpectedOperationException$instance & __CryptographicUnexpectedOperationException$views;
 
 
-export interface CryptoStream$instance extends Stream {
+export interface CryptoStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
     readonly __tsonic_type_System_Security_Cryptography_CryptoStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -1381,8 +1382,8 @@ export interface CryptoStream$instance extends Stream {
     readonly HasFlushedFinalBlock: boolean;
     readonly Length: long;
     Position: long;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: JsValue | null): IAsyncResult;
+    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     Clear(): void;
     CopyTo(destination: Stream, bufferSize: int): void;
     CopyTo(destination: Stream): void;
@@ -3080,7 +3081,7 @@ export interface MLDsaAlgorithm$instance {
     readonly PublicKeySizeInBytes: int;
     readonly SignatureSizeInBytes: int;
     Equals(other: MLDsaAlgorithm | null): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -3253,7 +3254,7 @@ export interface MLKemAlgorithm$instance {
     readonly PrivateSeedSizeInBytes: int;
     readonly SharedSecretSizeInBytes: int;
     Equals(other: MLKemAlgorithm | null): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -3362,7 +3363,7 @@ export interface OidCollection$instance {
 
     readonly Count: int;
     readonly IsSynchronized: boolean;
-    readonly SyncRoot: JsValue;
+    readonly SyncRoot: unknown;
     Add(oid: Oid): int;
     CopyTo(array: Oid[], index: int): void;
     get_Item(index: int): Oid;
@@ -3497,10 +3498,10 @@ export const RandomNumberGenerator: (abstract new() => RandomNumberGenerator) & 
     GetHexString(destination: Span_1<System_Internal.Char>, lowercase?: boolean): void;
     GetInt32(fromInclusive: int, toExclusive: int): int;
     GetInt32(toExclusive: int): int;
-    GetItems<T>(choices: ReadOnlySpan_1<T>, destination: Span_1<T>): void;
-    GetItems<T>(choices: ReadOnlySpan_1<T>, length: int): T[];
+    GetItems<T extends unknown>(choices: ReadOnlySpan_1<T>, destination: Span_1<T>): void;
+    GetItems<T extends unknown>(choices: ReadOnlySpan_1<T>, length: int): T[];
     GetString(choices: ReadOnlySpan_1<System_Internal.Char>, length: int): string;
-    Shuffle<T>(values: Span_1<T>): void;
+    Shuffle<T extends unknown>(values: Span_1<T>): void;
 };
 
 
@@ -3833,9 +3834,9 @@ export interface RSACryptoServiceProvider$instance extends RSA$instance, ICspAsy
     ImportParameters(parameters: RSAParameters): void;
     SignData(data: Stream, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
     SignData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
-    SignData(buffer: byte[], offset: int, count: int, halg: JsValue): byte[];
-    SignData(buffer: byte[], halg: JsValue): byte[];
-    SignData(inputStream: Stream, halg: JsValue): byte[];
+    SignData(buffer: byte[], offset: int, count: int, halg: unknown): byte[];
+    SignData(buffer: byte[], halg: unknown): byte[];
+    SignData(inputStream: Stream, halg: unknown): byte[];
     SignData(data: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
     SignData(data: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
     SignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
@@ -3848,7 +3849,7 @@ export interface RSACryptoServiceProvider$instance extends RSA$instance, ICspAsy
     TryEncrypt(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, padding: RSAEncryptionPadding, bytesWritten: int): boolean;
     TrySignData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: int): boolean;
     TrySignHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding, bytesWritten: int): boolean;
-    VerifyData(buffer: byte[], halg: JsValue, signature: byte[]): boolean;
+    VerifyData(buffer: byte[], halg: unknown, signature: byte[]): boolean;
     VerifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
     VerifyData(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
     VerifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
@@ -3883,7 +3884,7 @@ export interface RSAEncryptionPadding$instance {
 
     readonly Mode: RSAEncryptionPaddingMode;
     readonly OaepHashAlgorithm: HashAlgorithmName;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: RSAEncryptionPadding | null): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -4094,7 +4095,7 @@ export interface RSASignaturePadding$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Mode: RSASignaturePaddingMode;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     Equals(other: RSASignaturePadding | null): boolean;
     GetHashCode(): int;
     ToString(): string;
@@ -4785,7 +4786,7 @@ export interface SlhDsaAlgorithm$instance {
     readonly PublicKeySizeInBytes: int;
     readonly SignatureSizeInBytes: int;
     Equals(other: SlhDsaAlgorithm | null): boolean;
-    Equals(obj: JsValue | null): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
