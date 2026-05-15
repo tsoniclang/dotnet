@@ -64,8 +64,15 @@ The package exposes one ESM facade per CLR namespace plus compiler metadata:
 - CLR type and member names are emitted with CLR-faithful casing.
 - CLR primitives use `@tsonic/core/types.js` aliases such as `int`, `long`,
   `double`, `bool`, and `char`.
+- CLR `System.Object` is projected as TypeScript `unknown`. Callers must narrow
+  or adapt broad object values before member access.
+- CLR value-type constraints use `NonNullable<unknown>` so nullable value-type
+  families remain distinct from unconstrained object slots.
 - Generic CLR names keep their arity-safe declarations, with facade aliases for
   common families.
+- Generic parameters are emitted with explicit constraints, usually
+  `extends unknown`, so generated declarations remain valid under strict
+  TypeScript checking without importing a catch-all runtime value type.
 - Delegates emit callable TypeScript types.
 - `Task` and `ValueTask` are thenable in TypeScript positions.
 - Extension methods are available through generated `ExtensionMethods` helpers.
@@ -109,7 +116,7 @@ The generation script requires:
 Example for a system install:
 
 ```bash
-DOTNET_HOME=/usr/lib/dotnet DOTNET_VERSION=10.0.5 npm run generate:10
+DOTNET_HOME=/usr/lib/dotnet DOTNET_VERSION=<installed-10-runtime-version> npm run generate:10
 ```
 
 ## License
