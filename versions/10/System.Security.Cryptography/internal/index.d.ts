@@ -455,6 +455,7 @@ export interface Aes$instance extends SymmetricAlgorithm$instance {
 
 
 export const Aes: (abstract new() => Aes) & {
+    Create(): Aes;
     GetKeyWrapPaddedLength(plaintextLengthInBytes: int): int;
 };
 
@@ -1624,6 +1625,7 @@ export interface DSA$instance extends AsymmetricAlgorithm$instance {
 
 
 export const DSA: (abstract new() => DSA) & {
+    Create(): DSA;
     Create(parameters: DSAParameters): DSA;
     Create(algName: string): DSA | null;
 };
@@ -3765,6 +3767,7 @@ export interface RSA$instance extends AsymmetricAlgorithm$instance {
 
 
 export const RSA: (abstract new() => RSA) & {
+    Create(): RSA;
     Create(parameters: RSAParameters): RSA;
     Create(algName: string): RSA | null;
 };
@@ -5157,4 +5160,3 @@ export abstract class PemEncoding$instance {
 
 
 export type PemEncoding = PemEncoding$instance;
-
