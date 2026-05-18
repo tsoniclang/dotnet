@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence",
-      "clrName": "System.Security.Policy.Evidence",
-      "assemblyName": "System.Security.AccessControl",
+      "targetName": "System.Security.Policy.Evidence",
+      "ownerIdentity": "System.Security.AccessControl",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -17,22 +17,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
+          "targetName": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "targetName": "System.Collections.IEnumerable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddAssembly(System.Object):System.Void",
-          "clrName": "AddAssembly",
+          "targetName": "AddAssembly",
           "metadataToken": 100663367,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "AddAssembly|(System.Object):System.Void|static=false",
@@ -46,13 +46,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddAssemblyEvidence(T):System.Void",
-          "clrName": "AddAssemblyEvidence",
+          "targetName": "AddAssemblyEvidence",
           "metadataToken": 100663368,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "AddAssemblyEvidence|(T):System.Void|static=false",
@@ -66,13 +66,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddHost(System.Object):System.Void",
-          "clrName": "AddHost",
+          "targetName": "AddHost",
           "metadataToken": 100663369,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "AddHost|(System.Object):System.Void|static=false",
@@ -86,13 +86,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::AddHostEvidence(T):System.Void",
-          "clrName": "AddHostEvidence",
+          "targetName": "AddHostEvidence",
           "metadataToken": 100663370,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "AddHostEvidence|(T):System.Void|static=false",
@@ -106,13 +106,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Clear():System.Void",
-          "clrName": "Clear",
+          "targetName": "Clear",
           "metadataToken": 100663371,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -126,13 +126,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Clone():System.Security.Policy.Evidence",
-          "clrName": "Clone",
+          "targetName": "Clone",
           "metadataToken": 100663372,
           "canonicalSignature": "():System.Security.Policy.Evidence",
           "normalizedSignature": "Clone|():System.Security.Policy.Evidence|static=false",
@@ -146,13 +146,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::CopyTo(System.Array,System.Int32):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100663373,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -166,13 +166,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetAssemblyEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetAssemblyEnumerator",
+          "targetName": "GetAssemblyEnumerator",
           "metadataToken": 100663374,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetAssemblyEnumerator|():System.Collections.IEnumerator|static=false",
@@ -186,13 +186,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetAssemblyEvidence():T",
-          "clrName": "GetAssemblyEvidence",
+          "targetName": "GetAssemblyEvidence",
           "metadataToken": 100663375,
           "canonicalSignature": "():T",
           "normalizedSignature": "GetAssemblyEvidence|():T|static=false",
@@ -206,13 +206,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100663376,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -226,13 +226,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetHostEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetHostEnumerator",
+          "targetName": "GetHostEnumerator",
           "metadataToken": 100663377,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetHostEnumerator|():System.Collections.IEnumerator|static=false",
@@ -246,13 +246,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::GetHostEvidence():T",
-          "clrName": "GetHostEvidence",
+          "targetName": "GetHostEvidence",
           "metadataToken": 100663378,
           "canonicalSignature": "():T",
           "normalizedSignature": "GetHostEvidence|():T|static=false",
@@ -266,13 +266,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Merge(System.Security.Policy.Evidence):System.Void",
-          "clrName": "Merge",
+          "targetName": "Merge",
           "metadataToken": 100663379,
           "canonicalSignature": "(System.Security.Policy.Evidence):System.Void",
           "normalizedSignature": "Merge|(System.Security.Policy.Evidence):System.Void|static=false",
@@ -286,13 +286,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::RemoveType(System.Type):System.Void",
-          "clrName": "RemoveType",
+          "targetName": "RemoveType",
           "metadataToken": 100663380,
           "canonicalSignature": "(System.Type):System.Void",
           "normalizedSignature": "RemoveType|(System.Type):System.Void|static=false",
@@ -306,13 +306,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -326,14 +326,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -347,8 +347,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IEnumerable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IEnumerable"
         }
@@ -356,7 +356,7 @@
       "properties": [
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385876016,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -370,12 +370,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl"
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::IsReadOnly:System.Boolean",
-          "clrName": "IsReadOnly",
+          "targetName": "IsReadOnly",
           "metadataToken": 385876017,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
@@ -389,12 +389,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl"
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::IsSynchronized:System.Boolean",
-          "clrName": "IsSynchronized",
+          "targetName": "IsSynchronized",
           "metadataToken": 385876018,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
@@ -408,12 +408,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl"
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::Locked:System.Boolean",
-          "clrName": "Locked",
+          "targetName": "Locked",
           "metadataToken": 385876019,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Locked|:System.Boolean|static=false|accessor=getset",
@@ -427,12 +427,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl"
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::SyncRoot:System.Object",
-          "clrName": "SyncRoot",
+          "targetName": "SyncRoot",
           "metadataToken": 385876020,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
@@ -446,12 +446,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -466,12 +466,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
-          "clrName": "SyncRoot",
+          "targetName": "SyncRoot",
           "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
@@ -486,12 +486,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
-          "clrName": "IsSynchronized",
+          "targetName": "IsSynchronized",
           "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
@@ -506,8 +506,8 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -521,8 +521,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl"
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::.ctor(System.Object[],System.Object[]):void",
@@ -532,8 +532,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl"
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::.ctor(System.Security.Policy.Evidence):void",
@@ -543,8 +543,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl"
         },
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.Evidence::.ctor(System.Security.Policy.EvidenceBase[],System.Security.Policy.EvidenceBase[]):void",
@@ -554,15 +554,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.Evidence",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "ownerQualifiedName": "System.Security.Policy.Evidence",
+          "ownerIdentity": "System.Security.AccessControl"
         }
       ]
     },
     {
       "stableId": "System.Security.AccessControl:System.Security.Policy.EvidenceBase",
-      "clrName": "System.Security.Policy.EvidenceBase",
-      "assemblyName": "System.Security.AccessControl",
+      "targetName": "System.Security.Policy.EvidenceBase",
+      "ownerIdentity": "System.Security.AccessControl",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -572,12 +572,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Security.AccessControl:System.Security.Policy.EvidenceBase::Clone():System.Security.Policy.EvidenceBase",
-          "clrName": "Clone",
+          "targetName": "Clone",
           "metadataToken": 100663382,
           "canonicalSignature": "():System.Security.Policy.EvidenceBase",
           "normalizedSignature": "Clone|():System.Security.Policy.EvidenceBase|static=false",
@@ -591,8 +591,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.Policy.EvidenceBase",
-          "declaringAssemblyName": "System.Security.AccessControl",
+          "ownerQualifiedName": "System.Security.Policy.EvidenceBase",
+          "ownerIdentity": "System.Security.AccessControl",
           "isExtensionMethod": false
         }
       ],
@@ -608,8 +608,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Security.Policy.EvidenceBase",
-          "declaringAssemblyName": "System.Security.AccessControl"
+          "ownerQualifiedName": "System.Security.Policy.EvidenceBase",
+          "ownerIdentity": "System.Security.AccessControl"
         }
       ]
     }

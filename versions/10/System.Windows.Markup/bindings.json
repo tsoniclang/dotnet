@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.ObjectModel:System.Windows.Markup.ValueSerializerAttribute",
-      "clrName": "System.Windows.Markup.ValueSerializerAttribute",
-      "assemblyName": "System.ObjectModel",
+      "targetName": "System.Windows.Markup.ValueSerializerAttribute",
+      "ownerIdentity": "System.ObjectModel",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -17,13 +17,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ObjectModel:System.Windows.Markup.ValueSerializerAttribute::ValueSerializerType:System.Type",
-          "clrName": "ValueSerializerType",
+          "targetName": "ValueSerializerType",
           "metadataToken": 385875983,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ValueSerializerType|:System.Type|static=false|accessor=get",
@@ -37,12 +37,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Windows.Markup.ValueSerializerAttribute",
-          "declaringAssemblyName": "System.ObjectModel"
+          "ownerQualifiedName": "System.Windows.Markup.ValueSerializerAttribute",
+          "ownerIdentity": "System.ObjectModel"
         },
         {
           "stableId": "System.ObjectModel:System.Windows.Markup.ValueSerializerAttribute::ValueSerializerTypeName:System.String",
-          "clrName": "ValueSerializerTypeName",
+          "targetName": "ValueSerializerTypeName",
           "metadataToken": 385875984,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "ValueSerializerTypeName|:System.String|static=false|accessor=get",
@@ -56,8 +56,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Windows.Markup.ValueSerializerAttribute",
-          "declaringAssemblyName": "System.ObjectModel"
+          "ownerQualifiedName": "System.Windows.Markup.ValueSerializerAttribute",
+          "ownerIdentity": "System.ObjectModel"
         }
       ],
       "fields": [],
@@ -71,8 +71,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Windows.Markup.ValueSerializerAttribute",
-          "declaringAssemblyName": "System.ObjectModel"
+          "ownerQualifiedName": "System.Windows.Markup.ValueSerializerAttribute",
+          "ownerIdentity": "System.ObjectModel"
         },
         {
           "stableId": "System.ObjectModel:System.Windows.Markup.ValueSerializerAttribute::.ctor(System.String):void",
@@ -82,8 +82,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Windows.Markup.ValueSerializerAttribute",
-          "declaringAssemblyName": "System.ObjectModel"
+          "ownerQualifiedName": "System.Windows.Markup.ValueSerializerAttribute",
+          "ownerIdentity": "System.ObjectModel"
         }
       ]
     }

@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:Internal.Console",
-      "clrName": "Internal.Console",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "Internal.Console",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -17,12 +17,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:Internal.Console::WriteLine(System.String):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100704804,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=true",
@@ -36,13 +36,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "Internal.Console",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "Internal.Console",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:Internal.Console::WriteLine():System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100704805,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
@@ -56,13 +56,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "Internal.Console",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "Internal.Console",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:Internal.Console::Write(System.String):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100704806,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=true",
@@ -76,8 +76,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "Internal.Console",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "Internal.Console",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -88,8 +88,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:Internal.Console\u002BError",
-      "clrName": "Internal.Console\u002BError",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "Internal.Console\u002BError",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -99,12 +99,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:Internal.Console\u002BError::WriteLine():System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100704807,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
@@ -118,13 +118,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "Internal.Console\u002BError",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "Internal.Console\u002BError",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:Internal.Console\u002BError::Write(System.String):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100704808,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=true",
@@ -138,8 +138,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "Internal.Console\u002BError",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "Internal.Console\u002BError",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],

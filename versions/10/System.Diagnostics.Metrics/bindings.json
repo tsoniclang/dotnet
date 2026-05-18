@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeasurementCallback\u00601",
-      "clrName": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Delegate",
       "accessibility": "Public",
@@ -17,16 +17,16 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
+        "targetName": "System.MulticastDelegate"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "typeParameters": [
@@ -35,7 +35,7 @@
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeasurementCallback\u00601::Invoke(System.Diagnostics.Metrics.Instrument,T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
-          "clrName": "Invoke",
+          "targetName": "Invoke",
           "metadataToken": 100664261,
           "canonicalSignature": "(System.Diagnostics.Metrics.Instrument,T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
           "normalizedSignature": "Invoke|(System.Diagnostics.Metrics.Instrument,T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
@@ -49,13 +49,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeasurementCallback\u00601::BeginInvoke(System.Diagnostics.Metrics.Instrument,T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
+          "targetName": "BeginInvoke",
           "metadataToken": 100664262,
           "canonicalSignature": "(System.Diagnostics.Metrics.Instrument,T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(System.Diagnostics.Metrics.Instrument,T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -69,13 +69,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeasurementCallback\u00601::EndInvoke(System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
+          "targetName": "EndInvoke",
           "metadataToken": 100664263,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
@@ -89,8 +89,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         }
       ],
@@ -106,15 +106,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeasurementCallback\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ]
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.IMeterFactory",
-      "clrName": "System.Diagnostics.Metrics.IMeterFactory",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.IMeterFactory",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -125,13 +125,13 @@
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.IMeterFactory::Create(System.Diagnostics.Metrics.MeterOptions):System.Diagnostics.Metrics.Meter",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100664130,
           "canonicalSignature": "(System.Diagnostics.Metrics.MeterOptions):System.Diagnostics.Metrics.Meter",
           "normalizedSignature": "Create|(System.Diagnostics.Metrics.MeterOptions):System.Diagnostics.Metrics.Meter|static=false",
@@ -145,13 +145,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.IMeterFactory",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.IMeterFactory",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -165,8 +165,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -177,8 +177,8 @@
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Measurement\u00601",
-      "clrName": "System.Diagnostics.Metrics.Measurement\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.Measurement\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -188,7 +188,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "typeParameters": [
         "T"
@@ -197,7 +197,7 @@
       "properties": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Measurement\u00601::Tags:System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Tags",
+          "targetName": "Tags",
           "metadataToken": 385876150,
           "canonicalSignature": ":System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Tags|:System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -211,12 +211,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Measurement\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Measurement\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Measurement\u00601::Value:T",
-          "clrName": "Value",
+          "targetName": "Value",
           "metadataToken": 385876151,
           "canonicalSignature": ":T",
           "normalizedSignature": "Value|:T|static=false|accessor=get",
@@ -230,8 +230,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Measurement\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Measurement\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ],
       "fields": [],
@@ -245,8 +245,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Measurement\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Measurement\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Measurement\u00601::.ctor(T,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
@@ -256,8 +256,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Measurement\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Measurement\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Measurement\u00601::.ctor(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):void",
@@ -267,8 +267,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Measurement\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Measurement\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Measurement\u00601::.ctor(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
@@ -278,8 +278,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Measurement\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Measurement\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Measurement\u00601::.ctor(T,System.Diagnostics.TagList\u0026):void",
@@ -289,8 +289,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Measurement\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Measurement\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "parameterModifiers": [
             {
               "index": 1,
@@ -302,8 +302,8 @@
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601",
-      "clrName": "System.Diagnostics.Metrics.Counter\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.Counter\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -313,7 +313,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601",
-        "clrName": "System.Diagnostics.Metrics.Instrument\u00601",
+        "targetName": "System.Diagnostics.Metrics.Instrument\u00601",
         "typeArguments": [
           "T"
         ]
@@ -324,7 +324,7 @@
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664084,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -338,13 +338,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Counter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664085,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Add|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -358,13 +358,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Counter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664086,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Add|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -378,13 +378,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Counter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664087,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Add|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -398,13 +398,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Counter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664088,
           "canonicalSignature": "(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Add|(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -418,13 +418,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Counter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664089,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
           "normalizedSignature": "Add|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void|static=false",
@@ -438,13 +438,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Counter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Counter\u00601::Add(T,System.Diagnostics.TagList\u0026):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664090,
           "canonicalSignature": "(T,System.Diagnostics.TagList\u0026):System.Void",
           "normalizedSignature": "Add|(T,System.Diagnostics.TagList\u0026):System.Void|static=false",
@@ -458,8 +458,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Counter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Counter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -476,8 +476,8 @@
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601",
-      "clrName": "System.Diagnostics.Metrics.Gauge\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.Gauge\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -487,7 +487,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601",
-        "clrName": "System.Diagnostics.Metrics.Instrument\u00601",
+        "targetName": "System.Diagnostics.Metrics.Instrument\u00601",
         "typeArguments": [
           "T"
         ]
@@ -498,7 +498,7 @@
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664111,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Record|(T):System.Void|static=false",
@@ -512,13 +512,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Gauge\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664112,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Record|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -532,13 +532,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Gauge\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664113,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Record|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -552,13 +552,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Gauge\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664114,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Record|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -572,13 +572,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Gauge\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664115,
           "canonicalSignature": "(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Record|(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -592,13 +592,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Gauge\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664116,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
           "normalizedSignature": "Record|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void|static=false",
@@ -612,13 +612,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Gauge\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Gauge\u00601::Record(T,System.Diagnostics.TagList\u0026):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664117,
           "canonicalSignature": "(T,System.Diagnostics.TagList\u0026):System.Void",
           "normalizedSignature": "Record|(T,System.Diagnostics.TagList\u0026):System.Void|static=false",
@@ -632,8 +632,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Gauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Gauge\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -650,8 +650,8 @@
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601",
-      "clrName": "System.Diagnostics.Metrics.Histogram\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.Histogram\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -661,7 +661,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601",
-        "clrName": "System.Diagnostics.Metrics.Instrument\u00601",
+        "targetName": "System.Diagnostics.Metrics.Instrument\u00601",
         "typeArguments": [
           "T"
         ]
@@ -672,7 +672,7 @@
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664119,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Record|(T):System.Void|static=false",
@@ -686,13 +686,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Histogram\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664120,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Record|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -706,13 +706,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Histogram\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664121,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Record|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -726,13 +726,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Histogram\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664122,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Record|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -746,13 +746,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Histogram\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664123,
           "canonicalSignature": "(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Record|(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -766,13 +766,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Histogram\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664124,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
           "normalizedSignature": "Record|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void|static=false",
@@ -786,13 +786,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Histogram\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Histogram\u00601::Record(T,System.Diagnostics.TagList\u0026):System.Void",
-          "clrName": "Record",
+          "targetName": "Record",
           "metadataToken": 100664125,
           "canonicalSignature": "(T,System.Diagnostics.TagList\u0026):System.Void",
           "normalizedSignature": "Record|(T,System.Diagnostics.TagList\u0026):System.Void|static=false",
@@ -806,8 +806,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Histogram\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Histogram\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -824,8 +824,8 @@
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument",
-      "clrName": "System.Diagnostics.Metrics.Instrument",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.Instrument",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -835,12 +835,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument::Publish():System.Void",
-          "clrName": "Publish",
+          "targetName": "Publish",
           "metadataToken": 100664136,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Publish|():System.Void|static=false",
@@ -854,15 +854,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument::Meter:System.Diagnostics.Metrics.Meter",
-          "clrName": "Meter",
+          "targetName": "Meter",
           "metadataToken": 385876138,
           "canonicalSignature": ":System.Diagnostics.Metrics.Meter",
           "normalizedSignature": "Meter|:System.Diagnostics.Metrics.Meter|static=false|accessor=get",
@@ -876,12 +876,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument::Name:System.String",
-          "clrName": "Name",
+          "targetName": "Name",
           "metadataToken": 385876139,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -895,12 +895,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument::Description:System.String",
-          "clrName": "Description",
+          "targetName": "Description",
           "metadataToken": 385876140,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Description|:System.String|static=false|accessor=get",
@@ -914,12 +914,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument::Unit:System.String",
-          "clrName": "Unit",
+          "targetName": "Unit",
           "metadataToken": 385876141,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Unit|:System.String|static=false|accessor=get",
@@ -933,12 +933,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument::Tags:System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Tags",
+          "targetName": "Tags",
           "metadataToken": 385876142,
           "canonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Tags|:System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -952,12 +952,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument::Enabled:System.Boolean",
-          "clrName": "Enabled",
+          "targetName": "Enabled",
           "metadataToken": 385876143,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Enabled|:System.Boolean|static=false|accessor=get",
@@ -971,12 +971,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument::IsObservable:System.Boolean",
-          "clrName": "IsObservable",
+          "targetName": "IsObservable",
           "metadataToken": 385876144,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsObservable|:System.Boolean|static=false|accessor=get",
@@ -990,8 +990,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ],
       "fields": [],
@@ -1005,8 +1005,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument::.ctor(System.Diagnostics.Metrics.Meter,System.String,System.String,System.String):void",
@@ -1016,8 +1016,8 @@
           "isStatic": false,
           "parameterCount": 4,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument::.ctor(System.Diagnostics.Metrics.Meter,System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
@@ -1027,15 +1027,15 @@
           "isStatic": false,
           "parameterCount": 5,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ]
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601",
-      "clrName": "System.Diagnostics.Metrics.Instrument\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.Instrument\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1045,7 +1045,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument",
-        "clrName": "System.Diagnostics.Metrics.Instrument"
+        "targetName": "System.Diagnostics.Metrics.Instrument"
       },
       "typeParameters": [
         "T"
@@ -1053,7 +1053,7 @@
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601::RecordMeasurement(T):System.Void",
-          "clrName": "RecordMeasurement",
+          "targetName": "RecordMeasurement",
           "metadataToken": 100664163,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "RecordMeasurement|(T):System.Void|static=false",
@@ -1067,13 +1067,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601::RecordMeasurement(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "RecordMeasurement",
+          "targetName": "RecordMeasurement",
           "metadataToken": 100664164,
           "canonicalSignature": "(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "RecordMeasurement|(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1087,13 +1087,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601::RecordMeasurement(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "RecordMeasurement",
+          "targetName": "RecordMeasurement",
           "metadataToken": 100664165,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "RecordMeasurement|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1107,13 +1107,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601::RecordMeasurement(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "RecordMeasurement",
+          "targetName": "RecordMeasurement",
           "metadataToken": 100664166,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "RecordMeasurement|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1127,13 +1127,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601::RecordMeasurement(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "RecordMeasurement",
+          "targetName": "RecordMeasurement",
           "metadataToken": 100664167,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "RecordMeasurement|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1147,13 +1147,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601::RecordMeasurement(T,System.Diagnostics.TagList\u0026):System.Void",
-          "clrName": "RecordMeasurement",
+          "targetName": "RecordMeasurement",
           "metadataToken": 100664168,
           "canonicalSignature": "(T,System.Diagnostics.TagList\u0026):System.Void",
           "normalizedSignature": "RecordMeasurement|(T,System.Diagnostics.TagList\u0026):System.Void|static=false",
@@ -1167,8 +1167,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1181,7 +1181,7 @@
       "properties": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601::Advice:InstrumentAdvice_1",
-          "clrName": "Advice",
+          "targetName": "Advice",
           "metadataToken": 385876145,
           "canonicalSignature": ":InstrumentAdvice_1",
           "normalizedSignature": "Advice|:InstrumentAdvice_1|static=false|accessor=get",
@@ -1195,8 +1195,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ],
       "fields": [],
@@ -1210,8 +1210,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601::.ctor(System.Diagnostics.Metrics.Meter,System.String,System.String,System.String):void",
@@ -1221,8 +1221,8 @@
           "isStatic": false,
           "parameterCount": 4,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601::.ctor(System.Diagnostics.Metrics.Meter,System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
@@ -1232,8 +1232,8 @@
           "isStatic": false,
           "parameterCount": 5,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601::.ctor(System.Diagnostics.Metrics.Meter,System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],InstrumentAdvice_1):void",
@@ -1243,15 +1243,15 @@
           "isStatic": false,
           "parameterCount": 6,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Instrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Instrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ]
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.InstrumentAdvice\u00601",
-      "clrName": "System.Diagnostics.Metrics.InstrumentAdvice\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.InstrumentAdvice\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1261,7 +1261,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "typeParameters": [
         "T"
@@ -1270,7 +1270,7 @@
       "properties": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.InstrumentAdvice\u00601::HistogramBucketBoundaries:IReadOnlyList_1",
-          "clrName": "HistogramBucketBoundaries",
+          "targetName": "HistogramBucketBoundaries",
           "metadataToken": 385876135,
           "canonicalSignature": ":IReadOnlyList_1",
           "normalizedSignature": "HistogramBucketBoundaries|:IReadOnlyList_1|static=false|accessor=getset",
@@ -1284,8 +1284,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.InstrumentAdvice\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.InstrumentAdvice\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ],
       "fields": [],
@@ -1299,15 +1299,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.InstrumentAdvice\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.InstrumentAdvice\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ]
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter",
-      "clrName": "System.Diagnostics.Metrics.Meter",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.Meter",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1317,18 +1317,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateCounter(System.String,System.String,System.String):Counter_1",
-          "clrName": "CreateCounter",
+          "targetName": "CreateCounter",
           "metadataToken": 100664213,
           "canonicalSignature": "(System.String,System.String,System.String):Counter_1",
           "normalizedSignature": "CreateCounter|(System.String,System.String,System.String):Counter_1|static=false",
@@ -1342,13 +1342,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateCounter(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Counter_1",
-          "clrName": "CreateCounter",
+          "targetName": "CreateCounter",
           "metadataToken": 100664214,
           "canonicalSignature": "(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Counter_1",
           "normalizedSignature": "CreateCounter|(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Counter_1|static=false",
@@ -1362,13 +1362,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateGauge(System.String):Gauge_1",
-          "clrName": "CreateGauge",
+          "targetName": "CreateGauge",
           "metadataToken": 100664215,
           "canonicalSignature": "(System.String):Gauge_1",
           "normalizedSignature": "CreateGauge|(System.String):Gauge_1|static=false",
@@ -1382,13 +1382,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateGauge(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Gauge_1",
-          "clrName": "CreateGauge",
+          "targetName": "CreateGauge",
           "metadataToken": 100664216,
           "canonicalSignature": "(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Gauge_1",
           "normalizedSignature": "CreateGauge|(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Gauge_1|static=false",
@@ -1402,13 +1402,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateHistogram(System.String):Histogram_1",
-          "clrName": "CreateHistogram",
+          "targetName": "CreateHistogram",
           "metadataToken": 100664217,
           "canonicalSignature": "(System.String):Histogram_1",
           "normalizedSignature": "CreateHistogram|(System.String):Histogram_1|static=false",
@@ -1422,13 +1422,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateHistogram(System.String,System.String,System.String):Histogram_1",
-          "clrName": "CreateHistogram",
+          "targetName": "CreateHistogram",
           "metadataToken": 100664218,
           "canonicalSignature": "(System.String,System.String,System.String):Histogram_1",
           "normalizedSignature": "CreateHistogram|(System.String,System.String,System.String):Histogram_1|static=false",
@@ -1442,13 +1442,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateHistogram(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Histogram_1",
-          "clrName": "CreateHistogram",
+          "targetName": "CreateHistogram",
           "metadataToken": 100664219,
           "canonicalSignature": "(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Histogram_1",
           "normalizedSignature": "CreateHistogram|(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):Histogram_1|static=false",
@@ -1462,13 +1462,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateHistogram(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],InstrumentAdvice_1):Histogram_1",
-          "clrName": "CreateHistogram",
+          "targetName": "CreateHistogram",
           "metadataToken": 100664220,
           "canonicalSignature": "(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],InstrumentAdvice_1):Histogram_1",
           "normalizedSignature": "CreateHistogram|(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],InstrumentAdvice_1):Histogram_1|static=false",
@@ -1482,13 +1482,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateUpDownCounter(System.String,System.String,System.String):UpDownCounter_1",
-          "clrName": "CreateUpDownCounter",
+          "targetName": "CreateUpDownCounter",
           "metadataToken": 100664221,
           "canonicalSignature": "(System.String,System.String,System.String):UpDownCounter_1",
           "normalizedSignature": "CreateUpDownCounter|(System.String,System.String,System.String):UpDownCounter_1|static=false",
@@ -1502,13 +1502,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateUpDownCounter(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):UpDownCounter_1",
-          "clrName": "CreateUpDownCounter",
+          "targetName": "CreateUpDownCounter",
           "metadataToken": 100664222,
           "canonicalSignature": "(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):UpDownCounter_1",
           "normalizedSignature": "CreateUpDownCounter|(System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):UpDownCounter_1|static=false",
@@ -1522,13 +1522,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableUpDownCounter(System.String,Func_1,System.String,System.String):ObservableUpDownCounter_1",
-          "clrName": "CreateObservableUpDownCounter",
+          "targetName": "CreateObservableUpDownCounter",
           "metadataToken": 100664223,
           "canonicalSignature": "(System.String,Func_1,System.String,System.String):ObservableUpDownCounter_1",
           "normalizedSignature": "CreateObservableUpDownCounter|(System.String,Func_1,System.String,System.String):ObservableUpDownCounter_1|static=false",
@@ -1542,13 +1542,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableUpDownCounter(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableUpDownCounter_1",
-          "clrName": "CreateObservableUpDownCounter",
+          "targetName": "CreateObservableUpDownCounter",
           "metadataToken": 100664224,
           "canonicalSignature": "(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableUpDownCounter_1",
           "normalizedSignature": "CreateObservableUpDownCounter|(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableUpDownCounter_1|static=false",
@@ -1562,13 +1562,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableCounter(System.String,Func_1,System.String,System.String):ObservableCounter_1",
-          "clrName": "CreateObservableCounter",
+          "targetName": "CreateObservableCounter",
           "metadataToken": 100664229,
           "canonicalSignature": "(System.String,Func_1,System.String,System.String):ObservableCounter_1",
           "normalizedSignature": "CreateObservableCounter|(System.String,Func_1,System.String,System.String):ObservableCounter_1|static=false",
@@ -1582,13 +1582,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableCounter(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableCounter_1",
-          "clrName": "CreateObservableCounter",
+          "targetName": "CreateObservableCounter",
           "metadataToken": 100664230,
           "canonicalSignature": "(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableCounter_1",
           "normalizedSignature": "CreateObservableCounter|(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableCounter_1|static=false",
@@ -1602,13 +1602,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableGauge(System.String,Func_1,System.String,System.String):ObservableGauge_1",
-          "clrName": "CreateObservableGauge",
+          "targetName": "CreateObservableGauge",
           "metadataToken": 100664235,
           "canonicalSignature": "(System.String,Func_1,System.String,System.String):ObservableGauge_1",
           "normalizedSignature": "CreateObservableGauge|(System.String,Func_1,System.String,System.String):ObservableGauge_1|static=false",
@@ -1622,13 +1622,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::CreateObservableGauge(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableGauge_1",
-          "clrName": "CreateObservableGauge",
+          "targetName": "CreateObservableGauge",
           "metadataToken": 100664236,
           "canonicalSignature": "(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableGauge_1",
           "normalizedSignature": "CreateObservableGauge|(System.String,Func_1,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):ObservableGauge_1|static=false",
@@ -1642,13 +1642,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100664241,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1662,13 +1662,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100664242,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -1682,13 +1682,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1702,8 +1702,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -1711,7 +1711,7 @@
       "properties": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::Name:System.String",
-          "clrName": "Name",
+          "targetName": "Name",
           "metadataToken": 385876154,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
@@ -1725,12 +1725,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::Version:System.String",
-          "clrName": "Version",
+          "targetName": "Version",
           "metadataToken": 385876155,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Version|:System.String|static=false|accessor=getset",
@@ -1744,12 +1744,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::Tags:System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Tags",
+          "targetName": "Tags",
           "metadataToken": 385876156,
           "canonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Tags|:System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
@@ -1763,12 +1763,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::Scope:System.Object",
-          "clrName": "Scope",
+          "targetName": "Scope",
           "metadataToken": 385876157,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Scope|:System.Object|static=false|accessor=getset",
@@ -1782,12 +1782,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::TelemetrySchemaUrl:System.String",
-          "clrName": "TelemetrySchemaUrl",
+          "targetName": "TelemetrySchemaUrl",
           "metadataToken": 385876158,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "TelemetrySchemaUrl|:System.String|static=false|accessor=getset",
@@ -1801,8 +1801,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ],
       "fields": [],
@@ -1816,8 +1816,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::.ctor(System.String):void",
@@ -1827,8 +1827,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::.ctor(System.String,System.String):void",
@@ -1838,8 +1838,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Meter::.ctor(System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):void",
@@ -1849,15 +1849,15 @@
           "isStatic": false,
           "parameterCount": 4,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.Meter",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.Meter",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ]
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener",
-      "clrName": "System.Diagnostics.Metrics.MeterListener",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.MeterListener",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1867,18 +1867,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::EnableMeasurementEvents(System.Diagnostics.Metrics.Instrument,System.Object):System.Void",
-          "clrName": "EnableMeasurementEvents",
+          "targetName": "EnableMeasurementEvents",
           "metadataToken": 100664269,
           "canonicalSignature": "(System.Diagnostics.Metrics.Instrument,System.Object):System.Void",
           "normalizedSignature": "EnableMeasurementEvents|(System.Diagnostics.Metrics.Instrument,System.Object):System.Void|static=false",
@@ -1892,13 +1892,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterListener",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::DisableMeasurementEvents(System.Diagnostics.Metrics.Instrument):System.Object",
-          "clrName": "DisableMeasurementEvents",
+          "targetName": "DisableMeasurementEvents",
           "metadataToken": 100664270,
           "canonicalSignature": "(System.Diagnostics.Metrics.Instrument):System.Object",
           "normalizedSignature": "DisableMeasurementEvents|(System.Diagnostics.Metrics.Instrument):System.Object|static=false",
@@ -1912,13 +1912,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterListener",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::SetMeasurementEventCallback(MeasurementCallback_1):System.Void",
-          "clrName": "SetMeasurementEventCallback",
+          "targetName": "SetMeasurementEventCallback",
           "metadataToken": 100664271,
           "canonicalSignature": "(MeasurementCallback_1):System.Void",
           "normalizedSignature": "SetMeasurementEventCallback|(MeasurementCallback_1):System.Void|static=false",
@@ -1932,13 +1932,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterListener",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::Start():System.Void",
-          "clrName": "Start",
+          "targetName": "Start",
           "metadataToken": 100664272,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Start|():System.Void|static=false",
@@ -1952,13 +1952,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterListener",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::RecordObservableInstruments():System.Void",
-          "clrName": "RecordObservableInstruments",
+          "targetName": "RecordObservableInstruments",
           "metadataToken": 100664273,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "RecordObservableInstruments|():System.Void|static=false",
@@ -1972,13 +1972,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterListener",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100664274,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1992,13 +1992,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterListener",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2012,8 +2012,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -2021,7 +2021,7 @@
       "properties": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::InstrumentPublished:System.Action_2[[System.Diagnostics.Metrics.Instrument,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Diagnostics.Metrics.MeterListener,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "InstrumentPublished",
+          "targetName": "InstrumentPublished",
           "metadataToken": 385876159,
           "canonicalSignature": ":System.Action_2[[System.Diagnostics.Metrics.Instrument,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Diagnostics.Metrics.MeterListener,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "InstrumentPublished|:System.Action_2[[System.Diagnostics.Metrics.Instrument,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Diagnostics.Metrics.MeterListener,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
@@ -2035,12 +2035,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterListener",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterListener::MeasurementsCompleted:System.Action_2[[System.Diagnostics.Metrics.Instrument,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "MeasurementsCompleted",
+          "targetName": "MeasurementsCompleted",
           "metadataToken": 385876160,
           "canonicalSignature": ":System.Action_2[[System.Diagnostics.Metrics.Instrument,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "MeasurementsCompleted|:System.Action_2[[System.Diagnostics.Metrics.Instrument,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
@@ -2054,8 +2054,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterListener",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ],
       "fields": [],
@@ -2069,15 +2069,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterListener",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterListener",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ]
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterOptions",
-      "clrName": "System.Diagnostics.Metrics.MeterOptions",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.MeterOptions",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2087,13 +2087,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterOptions::Name:System.String",
-          "clrName": "Name",
+          "targetName": "Name",
           "metadataToken": 385876167,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
@@ -2107,12 +2107,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterOptions",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterOptions",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterOptions::Version:System.String",
-          "clrName": "Version",
+          "targetName": "Version",
           "metadataToken": 385876168,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Version|:System.String|static=false|accessor=getset",
@@ -2126,12 +2126,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterOptions",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterOptions",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterOptions::Tags:System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Tags",
+          "targetName": "Tags",
           "metadataToken": 385876169,
           "canonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Tags|:System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
@@ -2145,12 +2145,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterOptions",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterOptions",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterOptions::Scope:System.Object",
-          "clrName": "Scope",
+          "targetName": "Scope",
           "metadataToken": 385876170,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Scope|:System.Object|static=false|accessor=getset",
@@ -2164,12 +2164,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterOptions",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterOptions",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterOptions::TelemetrySchemaUrl:System.String",
-          "clrName": "TelemetrySchemaUrl",
+          "targetName": "TelemetrySchemaUrl",
           "metadataToken": 385876171,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "TelemetrySchemaUrl|:System.String|static=false|accessor=getset",
@@ -2183,8 +2183,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterOptions",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterOptions",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ],
       "fields": [],
@@ -2198,15 +2198,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterOptions",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterOptions",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ]
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableCounter\u00601",
-      "clrName": "System.Diagnostics.Metrics.ObservableCounter\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.ObservableCounter\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2216,7 +2216,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableInstrument\u00601",
-        "clrName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
+        "targetName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
         "typeArguments": [
           "T"
         ]
@@ -2227,7 +2227,7 @@
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableCounter\u00601::Observe():IEnumerable_1",
-          "clrName": "Observe",
+          "targetName": "Observe",
           "metadataToken": 100664392,
           "canonicalSignature": "():IEnumerable_1",
           "normalizedSignature": "Observe|():IEnumerable_1|static=false",
@@ -2241,8 +2241,8 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.ObservableCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.ObservableCounter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         }
       ],
@@ -2253,8 +2253,8 @@
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableGauge\u00601",
-      "clrName": "System.Diagnostics.Metrics.ObservableGauge\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.ObservableGauge\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2264,7 +2264,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableInstrument\u00601",
-        "clrName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
+        "targetName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
         "typeArguments": [
           "T"
         ]
@@ -2275,7 +2275,7 @@
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableGauge\u00601::Observe():IEnumerable_1",
-          "clrName": "Observe",
+          "targetName": "Observe",
           "metadataToken": 100664396,
           "canonicalSignature": "():IEnumerable_1",
           "normalizedSignature": "Observe|():IEnumerable_1|static=false",
@@ -2289,8 +2289,8 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.ObservableGauge\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.ObservableGauge\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         }
       ],
@@ -2301,8 +2301,8 @@
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableInstrument\u00601",
-      "clrName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2312,7 +2312,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument",
-        "clrName": "System.Diagnostics.Metrics.Instrument"
+        "targetName": "System.Diagnostics.Metrics.Instrument"
       },
       "typeParameters": [
         "T"
@@ -2320,7 +2320,7 @@
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableInstrument\u00601::Observe():IEnumerable_1",
-          "clrName": "Observe",
+          "targetName": "Observe",
           "metadataToken": 100664399,
           "canonicalSignature": "():IEnumerable_1",
           "normalizedSignature": "Observe|():IEnumerable_1|static=false",
@@ -2334,15 +2334,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableInstrument\u00601::IsObservable:System.Boolean",
-          "clrName": "IsObservable",
+          "targetName": "IsObservable",
           "metadataToken": 385876172,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsObservable|:System.Boolean|static=false|accessor=get",
@@ -2356,8 +2356,8 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ],
       "fields": [],
@@ -2371,8 +2371,8 @@
           "isStatic": false,
           "parameterCount": 4,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableInstrument\u00601::.ctor(System.Diagnostics.Metrics.Meter,System.String,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
@@ -2382,15 +2382,15 @@
           "isStatic": false,
           "parameterCount": 5,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource"
+          "ownerQualifiedName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource"
         }
       ]
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableUpDownCounter\u00601",
-      "clrName": "System.Diagnostics.Metrics.ObservableUpDownCounter\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.ObservableUpDownCounter\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2400,7 +2400,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableInstrument\u00601",
-        "clrName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
+        "targetName": "System.Diagnostics.Metrics.ObservableInstrument\u00601",
         "typeArguments": [
           "T"
         ]
@@ -2411,7 +2411,7 @@
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.ObservableUpDownCounter\u00601::Observe():IEnumerable_1",
-          "clrName": "Observe",
+          "targetName": "Observe",
           "metadataToken": 100664406,
           "canonicalSignature": "():IEnumerable_1",
           "normalizedSignature": "Observe|():IEnumerable_1|static=false",
@@ -2425,8 +2425,8 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Diagnostics.Metrics.ObservableUpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.ObservableUpDownCounter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         }
       ],
@@ -2437,8 +2437,8 @@
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601",
-      "clrName": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.UpDownCounter\u00601",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2448,7 +2448,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.Instrument\u00601",
-        "clrName": "System.Diagnostics.Metrics.Instrument\u00601",
+        "targetName": "System.Diagnostics.Metrics.Instrument\u00601",
         "typeArguments": [
           "T"
         ]
@@ -2459,7 +2459,7 @@
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664438,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -2473,13 +2473,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.UpDownCounter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664439,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Add|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -2493,13 +2493,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.UpDownCounter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664440,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Add|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -2513,13 +2513,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.UpDownCounter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664441,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Add|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -2533,13 +2533,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.UpDownCounter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664442,
           "canonicalSignature": "(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Add|(T,System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -2553,13 +2553,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.UpDownCounter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664443,
           "canonicalSignature": "(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void",
           "normalizedSignature": "Add|(T,System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][]):System.Void|static=false",
@@ -2573,13 +2573,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.UpDownCounter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.UpDownCounter\u00601::Add(T,System.Diagnostics.TagList\u0026):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100664444,
           "canonicalSignature": "(T,System.Diagnostics.TagList\u0026):System.Void",
           "normalizedSignature": "Add|(T,System.Diagnostics.TagList\u0026):System.Void|static=false",
@@ -2593,8 +2593,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.UpDownCounter\u00601",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.UpDownCounter\u00601",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -2611,8 +2611,8 @@
     },
     {
       "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterFactoryExtensions",
-      "clrName": "System.Diagnostics.Metrics.MeterFactoryExtensions",
-      "assemblyName": "System.Diagnostics.DiagnosticSource",
+      "targetName": "System.Diagnostics.Metrics.MeterFactoryExtensions",
+      "ownerIdentity": "System.Diagnostics.DiagnosticSource",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -2622,12 +2622,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Metrics.MeterFactoryExtensions::Create(System.Diagnostics.Metrics.IMeterFactory,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Diagnostics.Metrics.Meter",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100664259,
           "canonicalSignature": "(System.Diagnostics.Metrics.IMeterFactory,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Diagnostics.Metrics.Meter",
           "normalizedSignature": "Create|(System.Diagnostics.Metrics.IMeterFactory,System.String,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Diagnostics.Metrics.Meter|static=true",
@@ -2641,8 +2641,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Metrics.MeterFactoryExtensions",
-          "declaringAssemblyName": "System.Diagnostics.DiagnosticSource",
+          "ownerQualifiedName": "System.Diagnostics.Metrics.MeterFactoryExtensions",
+          "ownerIdentity": "System.Diagnostics.DiagnosticSource",
           "isExtensionMethod": true
         }
       ],

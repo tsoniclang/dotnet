@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler",
-      "clrName": "System.Timers.ElapsedEventHandler",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.Timers.ElapsedEventHandler",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Delegate",
       "accessibility": "Public",
@@ -17,22 +17,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
+        "targetName": "System.MulticastDelegate"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::Invoke(System.Object,System.Timers.ElapsedEventArgs):System.Void",
-          "clrName": "Invoke",
+          "targetName": "Invoke",
           "metadataToken": 100663464,
           "canonicalSignature": "(System.Object,System.Timers.ElapsedEventArgs):System.Void",
           "normalizedSignature": "Invoke|(System.Object,System.Timers.ElapsedEventArgs):System.Void|static=false",
@@ -46,13 +46,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.ElapsedEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.Timers.ElapsedEventHandler",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::BeginInvoke(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
+          "targetName": "BeginInvoke",
           "metadataToken": 100663465,
           "canonicalSignature": "(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(System.Object,System.Timers.ElapsedEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -66,13 +66,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.ElapsedEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.Timers.ElapsedEventHandler",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
+          "targetName": "EndInvoke",
           "metadataToken": 100663466,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
@@ -86,8 +86,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.ElapsedEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.Timers.ElapsedEventHandler",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
@@ -103,15 +103,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.ElapsedEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.ElapsedEventHandler",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventArgs",
-      "clrName": "System.Timers.ElapsedEventArgs",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.Timers.ElapsedEventArgs",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -121,13 +121,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.EventArgs",
-        "clrName": "System.EventArgs"
+        "targetName": "System.EventArgs"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.ElapsedEventArgs::SignalTime:System.DateTime",
-          "clrName": "SignalTime",
+          "targetName": "SignalTime",
           "metadataToken": 385876041,
           "canonicalSignature": ":System.DateTime",
           "normalizedSignature": "SignalTime|:System.DateTime|static=false|accessor=get",
@@ -141,8 +141,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.ElapsedEventArgs",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.ElapsedEventArgs",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
@@ -156,15 +156,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.ElapsedEventArgs",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.ElapsedEventArgs",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer",
-      "clrName": "System.Timers.Timer",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.Timers.Timer",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -174,26 +174,26 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Component",
-        "clrName": "System.ComponentModel.Component"
+        "targetName": "System.ComponentModel.Component"
       },
       "interfaces": [
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.IComponent",
-          "clrName": "System.ComponentModel.IComponent"
+          "targetName": "System.ComponentModel.IComponent"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ISupportInitialize",
-          "clrName": "System.ComponentModel.ISupportInitialize"
+          "targetName": "System.ComponentModel.ISupportInitialize"
         }
       ],
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::BeginInit():System.Void",
-          "clrName": "BeginInit",
+          "targetName": "BeginInit",
           "metadataToken": 100663483,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "BeginInit|():System.Void|static=false",
@@ -207,13 +207,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100663484,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -227,13 +227,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663485,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -247,13 +247,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::EndInit():System.Void",
-          "clrName": "EndInit",
+          "targetName": "EndInit",
           "metadataToken": 100663486,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "EndInit|():System.Void|static=false",
@@ -267,13 +267,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Start():System.Void",
-          "clrName": "Start",
+          "targetName": "Start",
           "metadataToken": 100663487,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Start|():System.Void|static=false",
@@ -287,13 +287,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Stop():System.Void",
-          "clrName": "Stop",
+          "targetName": "Stop",
           "metadataToken": 100663488,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Stop|():System.Void|static=false",
@@ -307,13 +307,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -327,14 +327,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ISupportInitialize::BeginInit():System.Void",
-          "clrName": "BeginInit",
+          "targetName": "BeginInit",
           "metadataToken": 100663474,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "BeginInit|():System.Void|static=false",
@@ -348,14 +348,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.ISupportInitialize",
-          "declaringAssemblyName": "System.ComponentModel.Primitives",
+          "ownerQualifiedName": "System.ComponentModel.ISupportInitialize",
+          "ownerIdentity": "System.ComponentModel.Primitives",
           "isExtensionMethod": false,
           "sourceInterface": "System.ComponentModel.ISupportInitialize"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -369,15 +369,15 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::AutoReset:System.Boolean",
-          "clrName": "AutoReset",
+          "targetName": "AutoReset",
           "metadataToken": 385876042,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "AutoReset|:System.Boolean|static=false|accessor=getset",
@@ -391,12 +391,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Enabled:System.Boolean",
-          "clrName": "Enabled",
+          "targetName": "Enabled",
           "metadataToken": 385876043,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Enabled|:System.Boolean|static=false|accessor=getset",
@@ -410,12 +410,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Interval:System.Double",
-          "clrName": "Interval",
+          "targetName": "Interval",
           "metadataToken": 385876044,
           "canonicalSignature": ":System.Double",
           "normalizedSignature": "Interval|:System.Double|static=false|accessor=getset",
@@ -429,12 +429,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::Site:System.ComponentModel.ISite",
-          "clrName": "Site",
+          "targetName": "Site",
           "metadataToken": 385876045,
           "canonicalSignature": ":System.ComponentModel.ISite",
           "normalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
@@ -448,12 +448,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::SynchronizingObject:System.ComponentModel.ISynchronizeInvoke",
-          "clrName": "SynchronizingObject",
+          "targetName": "SynchronizingObject",
           "metadataToken": 385876046,
           "canonicalSignature": ":System.ComponentModel.ISynchronizeInvoke",
           "normalizedSignature": "SynchronizingObject|:System.ComponentModel.ISynchronizeInvoke|static=false|accessor=getset",
@@ -467,12 +467,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.IComponent::Site:System.ComponentModel.ISite",
-          "clrName": "Site",
+          "targetName": "Site",
           "metadataToken": 385876032,
           "canonicalSignature": ":System.ComponentModel.ISite",
           "normalizedSignature": "Site|:System.ComponentModel.ISite|static=false|accessor=getset",
@@ -487,21 +487,21 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.ComponentModel.IComponent",
-          "declaringClrType": "System.ComponentModel.IComponent",
-          "declaringAssemblyName": "System.ComponentModel.Primitives"
+          "ownerQualifiedName": "System.ComponentModel.IComponent",
+          "ownerIdentity": "System.ComponentModel.Primitives"
         }
       ],
       "fields": [],
       "events": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::ElapsedSystem.Timers.ElapsedEventHandler",
-          "clrName": "Elapsed",
+          "targetName": "Elapsed",
           "metadataToken": 335544321,
           "normalizedSignature": "Elapsed|System.Timers.ElapsedEventHandler|static=false",
           "isStatic": false,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "constructors": [
@@ -513,8 +513,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::.ctor(System.Double):void",
@@ -524,8 +524,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.Timer::.ctor(System.TimeSpan):void",
@@ -535,15 +535,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.Timer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.Timer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.Timers.TimersDescriptionAttribute",
-      "clrName": "System.Timers.TimersDescriptionAttribute",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.Timers.TimersDescriptionAttribute",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -553,13 +553,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.ComponentModel.Primitives:System.ComponentModel.DescriptionAttribute",
-        "clrName": "System.ComponentModel.DescriptionAttribute"
+        "targetName": "System.ComponentModel.DescriptionAttribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.Timers.TimersDescriptionAttribute::Description:System.String",
-          "clrName": "Description",
+          "targetName": "Description",
           "metadataToken": 385876047,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Description|:System.String|static=false|accessor=get",
@@ -573,8 +573,8 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.TimersDescriptionAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.TimersDescriptionAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
@@ -588,8 +588,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Timers.TimersDescriptionAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.Timers.TimersDescriptionAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     }

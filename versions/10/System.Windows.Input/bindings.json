@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.ObjectModel:System.Windows.Input.ICommand",
-      "clrName": "System.Windows.Input.ICommand",
-      "assemblyName": "System.ObjectModel",
+      "targetName": "System.Windows.Input.ICommand",
+      "ownerIdentity": "System.ObjectModel",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -18,7 +18,7 @@
       "methods": [
         {
           "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecute(System.Object):System.Boolean",
-          "clrName": "CanExecute",
+          "targetName": "CanExecute",
           "metadataToken": 100663318,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
@@ -32,13 +32,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Windows.Input.ICommand",
-          "declaringAssemblyName": "System.ObjectModel",
+          "ownerQualifiedName": "System.Windows.Input.ICommand",
+          "ownerIdentity": "System.ObjectModel",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ObjectModel:System.Windows.Input.ICommand::Execute(System.Object):System.Void",
-          "clrName": "Execute",
+          "targetName": "Execute",
           "metadataToken": 100663319,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Execute|(System.Object):System.Void|static=false",
@@ -52,8 +52,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Windows.Input.ICommand",
-          "declaringAssemblyName": "System.ObjectModel",
+          "ownerQualifiedName": "System.Windows.Input.ICommand",
+          "ownerIdentity": "System.ObjectModel",
           "isExtensionMethod": false
         }
       ],
@@ -62,13 +62,13 @@
       "events": [
         {
           "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecuteChangedSystem.EventHandler",
-          "clrName": "CanExecuteChanged",
+          "targetName": "CanExecuteChanged",
           "metadataToken": 335544321,
           "normalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
           "isStatic": false,
           "visibility": "Public",
-          "declaringClrType": "System.Windows.Input.ICommand",
-          "declaringAssemblyName": "System.ObjectModel"
+          "ownerQualifiedName": "System.Windows.Input.ICommand",
+          "ownerIdentity": "System.ObjectModel"
         }
       ],
       "constructors": []

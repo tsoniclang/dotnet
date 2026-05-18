@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicAbortDirection",
-      "clrName": "System.Net.Quic.QuicAbortDirection",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicAbortDirection",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,51 +42,51 @@
       "fields": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicAbortDirection::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109546,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicAbortDirection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicAbortDirection",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicAbortDirection::ReadSystem.Net.Quic.QuicAbortDirection",
-          "clrName": "Read",
+          "targetName": "Read",
           "metadataToken": 67109547,
           "normalizedSignature": "Read|System.Net.Quic.QuicAbortDirection|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicAbortDirection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicAbortDirection",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicAbortDirection::WriteSystem.Net.Quic.QuicAbortDirection",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 67109548,
           "normalizedSignature": "Write|System.Net.Quic.QuicAbortDirection|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicAbortDirection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicAbortDirection",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicAbortDirection::BothSystem.Net.Quic.QuicAbortDirection",
-          "clrName": "Both",
+          "targetName": "Both",
           "metadataToken": 67109549,
           "normalizedSignature": "Both|System.Net.Quic.QuicAbortDirection|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicAbortDirection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicAbortDirection",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "events": [],
@@ -94,8 +94,8 @@
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicError",
-      "clrName": "System.Net.Quic.QuicError",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicError",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -105,24 +105,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -130,159 +130,159 @@
       "fields": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109664,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::SuccessSystem.Net.Quic.QuicError",
-          "clrName": "Success",
+          "targetName": "Success",
           "metadataToken": 67109665,
           "normalizedSignature": "Success|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::InternalErrorSystem.Net.Quic.QuicError",
-          "clrName": "InternalError",
+          "targetName": "InternalError",
           "metadataToken": 67109666,
           "normalizedSignature": "InternalError|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::ConnectionAbortedSystem.Net.Quic.QuicError",
-          "clrName": "ConnectionAborted",
+          "targetName": "ConnectionAborted",
           "metadataToken": 67109667,
           "normalizedSignature": "ConnectionAborted|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::StreamAbortedSystem.Net.Quic.QuicError",
-          "clrName": "StreamAborted",
+          "targetName": "StreamAborted",
           "metadataToken": 67109668,
           "normalizedSignature": "StreamAborted|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::ConnectionTimeoutSystem.Net.Quic.QuicError",
-          "clrName": "ConnectionTimeout",
+          "targetName": "ConnectionTimeout",
           "metadataToken": 67109669,
           "normalizedSignature": "ConnectionTimeout|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::ConnectionRefusedSystem.Net.Quic.QuicError",
-          "clrName": "ConnectionRefused",
+          "targetName": "ConnectionRefused",
           "metadataToken": 67109670,
           "normalizedSignature": "ConnectionRefused|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::VersionNegotiationErrorSystem.Net.Quic.QuicError",
-          "clrName": "VersionNegotiationError",
+          "targetName": "VersionNegotiationError",
           "metadataToken": 67109671,
           "normalizedSignature": "VersionNegotiationError|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::ConnectionIdleSystem.Net.Quic.QuicError",
-          "clrName": "ConnectionIdle",
+          "targetName": "ConnectionIdle",
           "metadataToken": 67109672,
           "normalizedSignature": "ConnectionIdle|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::OperationAbortedSystem.Net.Quic.QuicError",
-          "clrName": "OperationAborted",
+          "targetName": "OperationAborted",
           "metadataToken": 67109673,
           "normalizedSignature": "OperationAborted|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::AlpnInUseSystem.Net.Quic.QuicError",
-          "clrName": "AlpnInUse",
+          "targetName": "AlpnInUse",
           "metadataToken": 67109674,
           "normalizedSignature": "AlpnInUse|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::TransportErrorSystem.Net.Quic.QuicError",
-          "clrName": "TransportError",
+          "targetName": "TransportError",
           "metadataToken": 67109675,
           "normalizedSignature": "TransportError|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicError::CallbackErrorSystem.Net.Quic.QuicError",
-          "clrName": "CallbackError",
+          "targetName": "CallbackError",
           "metadataToken": 67109676,
           "normalizedSignature": "CallbackError|System.Net.Quic.QuicError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicError",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicError",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "events": [],
@@ -290,8 +290,8 @@
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicStreamType",
-      "clrName": "System.Net.Quic.QuicStreamType",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicStreamType",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -301,24 +301,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -326,39 +326,39 @@
       "fields": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStreamType::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109757,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStreamType",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStreamType",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStreamType::UnidirectionalSystem.Net.Quic.QuicStreamType",
-          "clrName": "Unidirectional",
+          "targetName": "Unidirectional",
           "metadataToken": 67109758,
           "normalizedSignature": "Unidirectional|System.Net.Quic.QuicStreamType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStreamType",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStreamType",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStreamType::BidirectionalSystem.Net.Quic.QuicStreamType",
-          "clrName": "Bidirectional",
+          "targetName": "Bidirectional",
           "metadataToken": 67109759,
           "normalizedSignature": "Bidirectional|System.Net.Quic.QuicStreamType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStreamType",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStreamType",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "events": [],
@@ -366,8 +366,8 @@
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicStreamCapacityChangedArgs",
-      "clrName": "System.Net.Quic.QuicStreamCapacityChangedArgs",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicStreamCapacityChangedArgs",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -377,13 +377,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStreamCapacityChangedArgs::BidirectionalIncrement:System.Int32",
-          "clrName": "BidirectionalIncrement",
+          "targetName": "BidirectionalIncrement",
           "metadataToken": 385876137,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "BidirectionalIncrement|:System.Int32|static=false|accessor=getset",
@@ -397,12 +397,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStreamCapacityChangedArgs",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStreamCapacityChangedArgs",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStreamCapacityChangedArgs::UnidirectionalIncrement:System.Int32",
-          "clrName": "UnidirectionalIncrement",
+          "targetName": "UnidirectionalIncrement",
           "metadataToken": 385876138,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "UnidirectionalIncrement|:System.Int32|static=false|accessor=getset",
@@ -416,8 +416,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStreamCapacityChangedArgs",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStreamCapacityChangedArgs",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "fields": [],
@@ -426,8 +426,8 @@
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicClientConnectionOptions",
-      "clrName": "System.Net.Quic.QuicClientConnectionOptions",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicClientConnectionOptions",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -437,13 +437,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions",
-        "clrName": "System.Net.Quic.QuicConnectionOptions"
+        "targetName": "System.Net.Quic.QuicConnectionOptions"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicClientConnectionOptions::ClientAuthenticationOptions:System.Net.Security.SslClientAuthenticationOptions",
-          "clrName": "ClientAuthenticationOptions",
+          "targetName": "ClientAuthenticationOptions",
           "metadataToken": 385876148,
           "canonicalSignature": ":System.Net.Security.SslClientAuthenticationOptions",
           "normalizedSignature": "ClientAuthenticationOptions|:System.Net.Security.SslClientAuthenticationOptions|static=false|accessor=getset",
@@ -457,12 +457,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicClientConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicClientConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicClientConnectionOptions::RemoteEndPoint:System.Net.EndPoint",
-          "clrName": "RemoteEndPoint",
+          "targetName": "RemoteEndPoint",
           "metadataToken": 385876149,
           "canonicalSignature": ":System.Net.EndPoint",
           "normalizedSignature": "RemoteEndPoint|:System.Net.EndPoint|static=false|accessor=getset",
@@ -476,12 +476,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicClientConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicClientConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicClientConnectionOptions::LocalEndPoint:System.Net.IPEndPoint",
-          "clrName": "LocalEndPoint",
+          "targetName": "LocalEndPoint",
           "metadataToken": 385876150,
           "canonicalSignature": ":System.Net.IPEndPoint",
           "normalizedSignature": "LocalEndPoint|:System.Net.IPEndPoint|static=false|accessor=getset",
@@ -495,8 +495,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicClientConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicClientConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "fields": [],
@@ -510,15 +510,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicClientConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicClientConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         }
       ]
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection",
-      "clrName": "System.Net.Quic.QuicConnection",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicConnection",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -528,18 +528,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
+          "targetName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::ConnectAsync(System.Net.Quic.QuicClientConnectionOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "ConnectAsync",
+          "targetName": "ConnectAsync",
           "metadataToken": 100663718,
           "canonicalSignature": "(System.Net.Quic.QuicClientConnectionOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "ConnectAsync|(System.Net.Quic.QuicClientConnectionOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -553,13 +553,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::ToString():System.String",
-          "clrName": "ToString",
+          "targetName": "ToString",
           "metadataToken": 100663728,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -573,13 +573,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::OpenOutboundStreamAsync(System.Net.Quic.QuicStreamType,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicStream,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "OpenOutboundStreamAsync",
+          "targetName": "OpenOutboundStreamAsync",
           "metadataToken": 100663734,
           "canonicalSignature": "(System.Net.Quic.QuicStreamType,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicStream,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "OpenOutboundStreamAsync|(System.Net.Quic.QuicStreamType,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicStream,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -593,13 +593,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::AcceptInboundStreamAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicStream,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "AcceptInboundStreamAsync",
+          "targetName": "AcceptInboundStreamAsync",
           "metadataToken": 100663735,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicStream,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "AcceptInboundStreamAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicStream,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -613,13 +613,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::CloseAsync(System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "CloseAsync",
+          "targetName": "CloseAsync",
           "metadataToken": 100663736,
           "canonicalSignature": "(System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "CloseAsync|(System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -633,13 +633,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100663748,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -653,13 +653,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -673,8 +673,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IAsyncDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IAsyncDisposable"
         }
@@ -682,7 +682,7 @@
       "properties": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::IsSupported:System.Boolean",
-          "clrName": "IsSupported",
+          "targetName": "IsSupported",
           "metadataToken": 385876123,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSupported|:System.Boolean|static=true|accessor=get",
@@ -696,12 +696,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::RemoteEndPoint:System.Net.IPEndPoint",
-          "clrName": "RemoteEndPoint",
+          "targetName": "RemoteEndPoint",
           "metadataToken": 385876125,
           "canonicalSignature": ":System.Net.IPEndPoint",
           "normalizedSignature": "RemoteEndPoint|:System.Net.IPEndPoint|static=false|accessor=get",
@@ -715,12 +715,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::LocalEndPoint:System.Net.IPEndPoint",
-          "clrName": "LocalEndPoint",
+          "targetName": "LocalEndPoint",
           "metadataToken": 385876126,
           "canonicalSignature": ":System.Net.IPEndPoint",
           "normalizedSignature": "LocalEndPoint|:System.Net.IPEndPoint|static=false|accessor=get",
@@ -734,12 +734,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::TargetHostName:System.String",
-          "clrName": "TargetHostName",
+          "targetName": "TargetHostName",
           "metadataToken": 385876127,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "TargetHostName|:System.String|static=false|accessor=get",
@@ -753,12 +753,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::RemoteCertificate:System.Security.Cryptography.X509Certificates.X509Certificate",
-          "clrName": "RemoteCertificate",
+          "targetName": "RemoteCertificate",
           "metadataToken": 385876128,
           "canonicalSignature": ":System.Security.Cryptography.X509Certificates.X509Certificate",
           "normalizedSignature": "RemoteCertificate|:System.Security.Cryptography.X509Certificates.X509Certificate|static=false|accessor=get",
@@ -772,12 +772,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::NegotiatedApplicationProtocol:System.Net.Security.SslApplicationProtocol",
-          "clrName": "NegotiatedApplicationProtocol",
+          "targetName": "NegotiatedApplicationProtocol",
           "metadataToken": 385876129,
           "canonicalSignature": ":System.Net.Security.SslApplicationProtocol",
           "normalizedSignature": "NegotiatedApplicationProtocol|:System.Net.Security.SslApplicationProtocol|static=false|accessor=get",
@@ -791,12 +791,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::NegotiatedCipherSuite:System.Net.Security.TlsCipherSuite",
-          "clrName": "NegotiatedCipherSuite",
+          "targetName": "NegotiatedCipherSuite",
           "metadataToken": 385876130,
           "canonicalSignature": ":System.Net.Security.TlsCipherSuite",
           "normalizedSignature": "NegotiatedCipherSuite|:System.Net.Security.TlsCipherSuite|static=false|accessor=get",
@@ -810,12 +810,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnection::SslProtocol:System.Security.Authentication.SslProtocols",
-          "clrName": "SslProtocol",
+          "targetName": "SslProtocol",
           "metadataToken": 385876131,
           "canonicalSignature": ":System.Security.Authentication.SslProtocols",
           "normalizedSignature": "SslProtocol|:System.Security.Authentication.SslProtocols|static=false|accessor=get",
@@ -829,8 +829,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnection",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnection",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "fields": [],
@@ -839,8 +839,8 @@
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions",
-      "clrName": "System.Net.Quic.QuicConnectionOptions",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicConnectionOptions",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -850,13 +850,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions::MaxInboundBidirectionalStreams:System.Int32",
-          "clrName": "MaxInboundBidirectionalStreams",
+          "targetName": "MaxInboundBidirectionalStreams",
           "metadataToken": 385876139,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "MaxInboundBidirectionalStreams|:System.Int32|static=false|accessor=getset",
@@ -870,12 +870,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions::MaxInboundUnidirectionalStreams:System.Int32",
-          "clrName": "MaxInboundUnidirectionalStreams",
+          "targetName": "MaxInboundUnidirectionalStreams",
           "metadataToken": 385876140,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "MaxInboundUnidirectionalStreams|:System.Int32|static=false|accessor=getset",
@@ -889,12 +889,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions::IdleTimeout:System.TimeSpan",
-          "clrName": "IdleTimeout",
+          "targetName": "IdleTimeout",
           "metadataToken": 385876141,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "IdleTimeout|:System.TimeSpan|static=false|accessor=getset",
@@ -908,12 +908,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions::DefaultStreamErrorCode:System.Int64",
-          "clrName": "DefaultStreamErrorCode",
+          "targetName": "DefaultStreamErrorCode",
           "metadataToken": 385876142,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "DefaultStreamErrorCode|:System.Int64|static=false|accessor=getset",
@@ -927,12 +927,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions::DefaultCloseErrorCode:System.Int64",
-          "clrName": "DefaultCloseErrorCode",
+          "targetName": "DefaultCloseErrorCode",
           "metadataToken": 385876143,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "DefaultCloseErrorCode|:System.Int64|static=false|accessor=getset",
@@ -946,12 +946,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions::InitialReceiveWindowSizes:System.Net.Quic.QuicReceiveWindowSizes",
-          "clrName": "InitialReceiveWindowSizes",
+          "targetName": "InitialReceiveWindowSizes",
           "metadataToken": 385876144,
           "canonicalSignature": ":System.Net.Quic.QuicReceiveWindowSizes",
           "normalizedSignature": "InitialReceiveWindowSizes|:System.Net.Quic.QuicReceiveWindowSizes|static=false|accessor=getset",
@@ -965,12 +965,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions::KeepAliveInterval:System.TimeSpan",
-          "clrName": "KeepAliveInterval",
+          "targetName": "KeepAliveInterval",
           "metadataToken": 385876145,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "KeepAliveInterval|:System.TimeSpan|static=false|accessor=getset",
@@ -984,12 +984,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions::HandshakeTimeout:System.TimeSpan",
-          "clrName": "HandshakeTimeout",
+          "targetName": "HandshakeTimeout",
           "metadataToken": 385876146,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "HandshakeTimeout|:System.TimeSpan|static=false|accessor=getset",
@@ -1003,12 +1003,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions::StreamCapacityCallback:System.Action_2[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Quic.QuicStreamCapacityChangedArgs,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "StreamCapacityCallback",
+          "targetName": "StreamCapacityCallback",
           "metadataToken": 385876147,
           "canonicalSignature": ":System.Action_2[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Quic.QuicStreamCapacityChangedArgs,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "StreamCapacityCallback|:System.Action_2[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Quic.QuicStreamCapacityChangedArgs,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=getset",
@@ -1022,8 +1022,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "fields": [],
@@ -1032,8 +1032,8 @@
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicException",
-      "clrName": "System.Net.Quic.QuicException",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicException",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1043,18 +1043,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.IO.IOException",
-        "clrName": "System.IO.IOException"
+        "targetName": "System.IO.IOException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -1068,8 +1068,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -1077,7 +1077,7 @@
       "properties": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicException::QuicError:System.Net.Quic.QuicError",
-          "clrName": "QuicError",
+          "targetName": "QuicError",
           "metadataToken": 385876152,
           "canonicalSignature": ":System.Net.Quic.QuicError",
           "normalizedSignature": "QuicError|:System.Net.Quic.QuicError|static=false|accessor=get",
@@ -1091,12 +1091,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicException",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicException",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicException::ApplicationErrorCode:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ApplicationErrorCode",
+          "targetName": "ApplicationErrorCode",
           "metadataToken": 385876153,
           "canonicalSignature": ":System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ApplicationErrorCode|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -1110,12 +1110,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicException",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicException",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicException::TransportErrorCode:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "TransportErrorCode",
+          "targetName": "TransportErrorCode",
           "metadataToken": 385876154,
           "canonicalSignature": ":System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "TransportErrorCode|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -1129,8 +1129,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicException",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicException",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "fields": [],
@@ -1144,15 +1144,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicException",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicException",
+          "ownerIdentity": "System.Net.Quic"
         }
       ]
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicListener",
-      "clrName": "System.Net.Quic.QuicListener",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicListener",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1162,18 +1162,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
+          "targetName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListener::ListenAsync(System.Net.Quic.QuicListenerOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicListener,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "ListenAsync",
+          "targetName": "ListenAsync",
           "metadataToken": 100663829,
           "canonicalSignature": "(System.Net.Quic.QuicListenerOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicListener,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "ListenAsync|(System.Net.Quic.QuicListenerOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicListener,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
@@ -1187,13 +1187,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListener",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicListener",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListener::ToString():System.String",
-          "clrName": "ToString",
+          "targetName": "ToString",
           "metadataToken": 100663831,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -1207,13 +1207,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListener",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicListener",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListener::AcceptConnectionAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "AcceptConnectionAsync",
+          "targetName": "AcceptConnectionAsync",
           "metadataToken": 100663833,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "AcceptConnectionAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -1227,13 +1227,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListener",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicListener",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListener::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100663839,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1247,13 +1247,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListener",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicListener",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1267,8 +1267,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IAsyncDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IAsyncDisposable"
         }
@@ -1276,7 +1276,7 @@
       "properties": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListener::IsSupported:System.Boolean",
-          "clrName": "IsSupported",
+          "targetName": "IsSupported",
           "metadataToken": 385876155,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSupported|:System.Boolean|static=true|accessor=get",
@@ -1290,12 +1290,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListener",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicListener",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListener::LocalEndPoint:System.Net.IPEndPoint",
-          "clrName": "LocalEndPoint",
+          "targetName": "LocalEndPoint",
           "metadataToken": 385876156,
           "canonicalSignature": ":System.Net.IPEndPoint",
           "normalizedSignature": "LocalEndPoint|:System.Net.IPEndPoint|static=false|accessor=get",
@@ -1309,8 +1309,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListener",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicListener",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "fields": [],
@@ -1319,8 +1319,8 @@
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicListenerOptions",
-      "clrName": "System.Net.Quic.QuicListenerOptions",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicListenerOptions",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1330,13 +1330,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListenerOptions::ListenEndPoint:System.Net.IPEndPoint",
-          "clrName": "ListenEndPoint",
+          "targetName": "ListenEndPoint",
           "metadataToken": 385876157,
           "canonicalSignature": ":System.Net.IPEndPoint",
           "normalizedSignature": "ListenEndPoint|:System.Net.IPEndPoint|static=false|accessor=getset",
@@ -1350,12 +1350,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListenerOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicListenerOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListenerOptions::ApplicationProtocols:System.Collections.Generic.List_1[[System.Net.Security.SslApplicationProtocol,System.Net.Security,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "ApplicationProtocols",
+          "targetName": "ApplicationProtocols",
           "metadataToken": 385876158,
           "canonicalSignature": ":System.Collections.Generic.List_1[[System.Net.Security.SslApplicationProtocol,System.Net.Security,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "ApplicationProtocols|:System.Collections.Generic.List_1[[System.Net.Security.SslApplicationProtocol,System.Net.Security,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=getset",
@@ -1369,12 +1369,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListenerOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicListenerOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListenerOptions::ListenBacklog:System.Int32",
-          "clrName": "ListenBacklog",
+          "targetName": "ListenBacklog",
           "metadataToken": 385876159,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "ListenBacklog|:System.Int32|static=false|accessor=getset",
@@ -1388,12 +1388,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListenerOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicListenerOptions",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicListenerOptions::ConnectionOptionsCallback:System.Func_4[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Security.SslClientHelloInfo,System.Net.Security,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Threading.CancellationToken,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicServerConnectionOptions,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ConnectionOptionsCallback",
+          "targetName": "ConnectionOptionsCallback",
           "metadataToken": 385876160,
           "canonicalSignature": ":System.Func_4[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Security.SslClientHelloInfo,System.Net.Security,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Threading.CancellationToken,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicServerConnectionOptions,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ConnectionOptionsCallback|:System.Func_4[[System.Net.Quic.QuicConnection,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Net.Security.SslClientHelloInfo,System.Net.Security,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a],[System.Threading.CancellationToken,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ValueTask_1[[System.Net.Quic.QuicServerConnectionOptions,System.Net.Quic,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
@@ -1407,8 +1407,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListenerOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicListenerOptions",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "fields": [],
@@ -1422,15 +1422,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicListenerOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicListenerOptions",
+          "ownerIdentity": "System.Net.Quic"
         }
       ]
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicReceiveWindowSizes",
-      "clrName": "System.Net.Quic.QuicReceiveWindowSizes",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicReceiveWindowSizes",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1440,13 +1440,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicReceiveWindowSizes::Connection:System.Int32",
-          "clrName": "Connection",
+          "targetName": "Connection",
           "metadataToken": 385876133,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Connection|:System.Int32|static=false|accessor=getset",
@@ -1460,12 +1460,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicReceiveWindowSizes",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicReceiveWindowSizes",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicReceiveWindowSizes::LocallyInitiatedBidirectionalStream:System.Int32",
-          "clrName": "LocallyInitiatedBidirectionalStream",
+          "targetName": "LocallyInitiatedBidirectionalStream",
           "metadataToken": 385876134,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LocallyInitiatedBidirectionalStream|:System.Int32|static=false|accessor=getset",
@@ -1479,12 +1479,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicReceiveWindowSizes",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicReceiveWindowSizes",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicReceiveWindowSizes::RemotelyInitiatedBidirectionalStream:System.Int32",
-          "clrName": "RemotelyInitiatedBidirectionalStream",
+          "targetName": "RemotelyInitiatedBidirectionalStream",
           "metadataToken": 385876135,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "RemotelyInitiatedBidirectionalStream|:System.Int32|static=false|accessor=getset",
@@ -1498,12 +1498,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicReceiveWindowSizes",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicReceiveWindowSizes",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicReceiveWindowSizes::UnidirectionalStream:System.Int32",
-          "clrName": "UnidirectionalStream",
+          "targetName": "UnidirectionalStream",
           "metadataToken": 385876136,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "UnidirectionalStream|:System.Int32|static=false|accessor=getset",
@@ -1517,8 +1517,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicReceiveWindowSizes",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicReceiveWindowSizes",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "fields": [],
@@ -1532,15 +1532,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicReceiveWindowSizes",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicReceiveWindowSizes",
+          "ownerIdentity": "System.Net.Quic"
         }
       ]
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicServerConnectionOptions",
-      "clrName": "System.Net.Quic.QuicServerConnectionOptions",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicServerConnectionOptions",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1550,13 +1550,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Net.Quic:System.Net.Quic.QuicConnectionOptions",
-        "clrName": "System.Net.Quic.QuicConnectionOptions"
+        "targetName": "System.Net.Quic.QuicConnectionOptions"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicServerConnectionOptions::ServerAuthenticationOptions:System.Net.Security.SslServerAuthenticationOptions",
-          "clrName": "ServerAuthenticationOptions",
+          "targetName": "ServerAuthenticationOptions",
           "metadataToken": 385876151,
           "canonicalSignature": ":System.Net.Security.SslServerAuthenticationOptions",
           "normalizedSignature": "ServerAuthenticationOptions|:System.Net.Security.SslServerAuthenticationOptions|static=false|accessor=getset",
@@ -1570,8 +1570,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicServerConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicServerConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "fields": [],
@@ -1585,15 +1585,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicServerConnectionOptions",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicServerConnectionOptions",
+          "ownerIdentity": "System.Net.Quic"
         }
       ]
     },
     {
       "stableId": "System.Net.Quic:System.Net.Quic.QuicStream",
-      "clrName": "System.Net.Quic.QuicStream",
-      "assemblyName": "System.Net.Quic",
+      "targetName": "System.Net.Quic.QuicStream",
+      "ownerIdentity": "System.Net.Quic",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1603,22 +1603,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.IO.Stream",
-        "clrName": "System.IO.Stream"
+        "targetName": "System.IO.Stream"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
+          "targetName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ToString():System.String",
-          "clrName": "ToString",
+          "targetName": "ToString",
           "metadataToken": 100663863,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -1632,13 +1632,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 100663867,
           "canonicalSignature": "(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -1652,13 +1652,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663868,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -1672,13 +1672,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663869,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -1692,13 +1692,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Abort(System.Net.Quic.QuicAbortDirection,System.Int64):System.Void",
-          "clrName": "Abort",
+          "targetName": "Abort",
           "metadataToken": 100663870,
           "canonicalSignature": "(System.Net.Quic.QuicAbortDirection,System.Int64):System.Void",
           "normalizedSignature": "Abort|(System.Net.Quic.QuicAbortDirection,System.Int64):System.Void|static=false",
@@ -1712,13 +1712,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::CompleteWrites():System.Void",
-          "clrName": "CompleteWrites",
+          "targetName": "CompleteWrites",
           "metadataToken": 100663871,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "CompleteWrites|():System.Void|static=false",
@@ -1732,13 +1732,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100663883,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1752,13 +1752,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Seek(System.Int64,System.IO.SeekOrigin):System.Int64",
-          "clrName": "Seek",
+          "targetName": "Seek",
           "metadataToken": 100663888,
           "canonicalSignature": "(System.Int64,System.IO.SeekOrigin):System.Int64",
           "normalizedSignature": "Seek|(System.Int64,System.IO.SeekOrigin):System.Int64|static=false",
@@ -1772,13 +1772,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::SetLength(System.Int64):System.Void",
-          "clrName": "SetLength",
+          "targetName": "SetLength",
           "metadataToken": 100663889,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
@@ -1792,13 +1792,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginRead",
+          "targetName": "BeginRead",
           "metadataToken": 100663896,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginRead|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -1812,13 +1812,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::EndRead(System.IAsyncResult):System.Int32",
-          "clrName": "EndRead",
+          "targetName": "EndRead",
           "metadataToken": 100663897,
           "canonicalSignature": "(System.IAsyncResult):System.Int32",
           "normalizedSignature": "EndRead|(System.IAsyncResult):System.Int32|static=false",
@@ -1832,13 +1832,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
-          "clrName": "Read",
+          "targetName": "Read",
           "metadataToken": 100663898,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
@@ -1852,13 +1852,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadByte():System.Int32",
-          "clrName": "ReadByte",
+          "targetName": "ReadByte",
           "metadataToken": 100663899,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "ReadByte|():System.Int32|static=false",
@@ -1872,13 +1872,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
-          "clrName": "Read",
+          "targetName": "Read",
           "metadataToken": 100663900,
           "canonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -1892,13 +1892,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 100663901,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -1912,13 +1912,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginWrite",
+          "targetName": "BeginWrite",
           "metadataToken": 100663903,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginWrite|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -1932,13 +1932,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::EndWrite(System.IAsyncResult):System.Void",
-          "clrName": "EndWrite",
+          "targetName": "EndWrite",
           "metadataToken": 100663904,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndWrite|(System.IAsyncResult):System.Void|static=false",
@@ -1952,13 +1952,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100663905,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
@@ -1972,13 +1972,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteByte(System.Byte):System.Void",
-          "clrName": "WriteByte",
+          "targetName": "WriteByte",
           "metadataToken": 100663906,
           "canonicalSignature": "(System.Byte):System.Void",
           "normalizedSignature": "WriteByte|(System.Byte):System.Void|static=false",
@@ -1992,13 +1992,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100663907,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -2012,13 +2012,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663908,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -2032,13 +2032,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Flush():System.Void",
-          "clrName": "Flush",
+          "targetName": "Flush",
           "metadataToken": 100663909,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Flush|():System.Void|static=false",
@@ -2052,13 +2052,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "FlushAsync",
+          "targetName": "FlushAsync",
           "metadataToken": 100663910,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -2072,13 +2072,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663911,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -2092,13 +2092,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2112,14 +2112,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -2133,14 +2133,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IAsyncDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IAsyncDisposable"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2154,13 +2154,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::FlushAsync():System.Threading.Tasks.Task",
-          "clrName": "FlushAsync",
+          "targetName": "FlushAsync",
           "metadataToken": 0,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
@@ -2174,13 +2174,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E|static=false",
@@ -2194,13 +2194,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E|static=false",
@@ -2214,13 +2214,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
@@ -2234,15 +2234,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic",
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Id:System.Int64",
-          "clrName": "Id",
+          "targetName": "Id",
           "metadataToken": 385876161,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Id|:System.Int64|static=false|accessor=get",
@@ -2256,12 +2256,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Type:System.Net.Quic.QuicStreamType",
-          "clrName": "Type",
+          "targetName": "Type",
           "metadataToken": 385876162,
           "canonicalSignature": ":System.Net.Quic.QuicStreamType",
           "normalizedSignature": "Type|:System.Net.Quic.QuicStreamType|static=false|accessor=get",
@@ -2275,12 +2275,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadsClosed:System.Threading.Tasks.Task",
-          "clrName": "ReadsClosed",
+          "targetName": "ReadsClosed",
           "metadataToken": 385876163,
           "canonicalSignature": ":System.Threading.Tasks.Task",
           "normalizedSignature": "ReadsClosed|:System.Threading.Tasks.Task|static=false|accessor=get",
@@ -2294,12 +2294,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WritesClosed:System.Threading.Tasks.Task",
-          "clrName": "WritesClosed",
+          "targetName": "WritesClosed",
           "metadataToken": 385876164,
           "canonicalSignature": ":System.Threading.Tasks.Task",
           "normalizedSignature": "WritesClosed|:System.Threading.Tasks.Task|static=false|accessor=get",
@@ -2313,12 +2313,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::CanSeek:System.Boolean",
-          "clrName": "CanSeek",
+          "targetName": "CanSeek",
           "metadataToken": 385876165,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanSeek|:System.Boolean|static=false|accessor=get",
@@ -2332,12 +2332,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Length:System.Int64",
-          "clrName": "Length",
+          "targetName": "Length",
           "metadataToken": 385876166,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
@@ -2351,12 +2351,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Position:System.Int64",
-          "clrName": "Position",
+          "targetName": "Position",
           "metadataToken": 385876167,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Position|:System.Int64|static=false|accessor=getset",
@@ -2370,12 +2370,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::CanTimeout:System.Boolean",
-          "clrName": "CanTimeout",
+          "targetName": "CanTimeout",
           "metadataToken": 385876168,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanTimeout|:System.Boolean|static=false|accessor=get",
@@ -2389,12 +2389,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::ReadTimeout:System.Int32",
-          "clrName": "ReadTimeout",
+          "targetName": "ReadTimeout",
           "metadataToken": 385876169,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "ReadTimeout|:System.Int32|static=false|accessor=getset",
@@ -2408,12 +2408,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::WriteTimeout:System.Int32",
-          "clrName": "WriteTimeout",
+          "targetName": "WriteTimeout",
           "metadataToken": 385876170,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "WriteTimeout|:System.Int32|static=false|accessor=getset",
@@ -2427,12 +2427,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::CanRead:System.Boolean",
-          "clrName": "CanRead",
+          "targetName": "CanRead",
           "metadataToken": 385876171,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanRead|:System.Boolean|static=false|accessor=get",
@@ -2446,12 +2446,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         },
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::CanWrite:System.Boolean",
-          "clrName": "CanWrite",
+          "targetName": "CanWrite",
           "metadataToken": 385876172,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanWrite|:System.Boolean|static=false|accessor=get",
@@ -2465,8 +2465,8 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Quic.QuicStream",
-          "declaringAssemblyName": "System.Net.Quic"
+          "ownerQualifiedName": "System.Net.Quic.QuicStream",
+          "ownerIdentity": "System.Net.Quic"
         }
       ],
       "fields": [],

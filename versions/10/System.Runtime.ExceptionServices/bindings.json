@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo",
-      "clrName": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -17,12 +17,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::Capture(System.Exception):System.Runtime.ExceptionServices.ExceptionDispatchInfo",
-          "clrName": "Capture",
+          "targetName": "Capture",
           "metadataToken": 100695512,
           "canonicalSignature": "(System.Exception):System.Runtime.ExceptionServices.ExceptionDispatchInfo",
           "normalizedSignature": "Capture|(System.Exception):System.Runtime.ExceptionServices.ExceptionDispatchInfo|static=true",
@@ -36,13 +36,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::Throw():System.Void",
-          "clrName": "Throw",
+          "targetName": "Throw",
           "metadataToken": 100695514,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Throw|():System.Void|static=false",
@@ -56,13 +56,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::Throw(System.Exception):System.Void",
-          "clrName": "Throw",
+          "targetName": "Throw",
           "metadataToken": 100695515,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "Throw|(System.Exception):System.Void|static=true",
@@ -76,13 +76,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::SetCurrentStackTrace(System.Exception):System.Exception",
-          "clrName": "SetCurrentStackTrace",
+          "targetName": "SetCurrentStackTrace",
           "metadataToken": 100695516,
           "canonicalSignature": "(System.Exception):System.Exception",
           "normalizedSignature": "SetCurrentStackTrace|(System.Exception):System.Exception|static=true",
@@ -96,13 +96,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::SetRemoteStackTrace(System.Exception,System.String):System.Exception",
-          "clrName": "SetRemoteStackTrace",
+          "targetName": "SetRemoteStackTrace",
           "metadataToken": 100695517,
           "canonicalSignature": "(System.Exception,System.String):System.Exception",
           "normalizedSignature": "SetRemoteStackTrace|(System.Exception,System.String):System.Exception|static=true",
@@ -116,15 +116,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::SourceException:System.Exception",
-          "clrName": "SourceException",
+          "targetName": "SourceException",
           "metadataToken": 385879704,
           "canonicalSignature": ":System.Exception",
           "normalizedSignature": "SourceException|:System.Exception|static=false|accessor=get",
@@ -138,8 +138,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -148,8 +148,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs",
-      "clrName": "System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -159,13 +159,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.EventArgs",
-        "clrName": "System.EventArgs"
+        "targetName": "System.EventArgs"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs::Exception:System.Exception",
-          "clrName": "Exception",
+          "targetName": "Exception",
           "metadataToken": 385879705,
           "canonicalSignature": ":System.Exception",
           "normalizedSignature": "Exception|:System.Exception|static=false|accessor=get",
@@ -179,8 +179,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -194,15 +194,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute",
-      "clrName": "System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -212,7 +212,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -227,15 +227,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionHandling",
-      "clrName": "System.Runtime.ExceptionServices.ExceptionHandling",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.ExceptionServices.ExceptionHandling",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -245,12 +245,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionHandling::SetUnhandledExceptionHandler(System.Func_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "SetUnhandledExceptionHandler",
+          "targetName": "SetUnhandledExceptionHandler",
           "metadataToken": 100695519,
           "canonicalSignature": "(System.Func_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "SetUnhandledExceptionHandler|(System.Func_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -264,13 +264,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.ExceptionHandling",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.ExceptionHandling",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionHandling::RaiseAppDomainUnhandledExceptionEvent(System.Object):System.Void",
-          "clrName": "RaiseAppDomainUnhandledExceptionEvent",
+          "targetName": "RaiseAppDomainUnhandledExceptionEvent",
           "metadataToken": 100695520,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "RaiseAppDomainUnhandledExceptionEvent|(System.Object):System.Void|static=true",
@@ -284,8 +284,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ExceptionServices.ExceptionHandling",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.ExceptionServices.ExceptionHandling",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],

@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601",
-      "clrName": "System.Net.ServerSentEvents.SseItemParser\u00601",
-      "assemblyName": "System.Net.ServerSentEvents",
+      "targetName": "System.Net.ServerSentEvents.SseItemParser\u00601",
+      "ownerIdentity": "System.Net.ServerSentEvents",
       "metadataToken": 0,
       "kind": "Delegate",
       "accessibility": "Public",
@@ -17,16 +17,16 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
+        "targetName": "System.MulticastDelegate"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "typeParameters": [
@@ -35,7 +35,7 @@
       "methods": [
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::Invoke(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):T",
-          "clrName": "Invoke",
+          "targetName": "Invoke",
           "metadataToken": 100663390,
           "canonicalSignature": "(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):T",
           "normalizedSignature": "Invoke|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):T|static=false",
@@ -49,13 +49,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseItemParser\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::BeginInvoke(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
+          "targetName": "BeginInvoke",
           "metadataToken": 100663391,
           "canonicalSignature": "(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -69,13 +69,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseItemParser\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItemParser\u00601::EndInvoke(System.IAsyncResult):T",
-          "clrName": "EndInvoke",
+          "targetName": "EndInvoke",
           "metadataToken": 100663392,
           "canonicalSignature": "(System.IAsyncResult):T",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):T|static=false",
@@ -89,8 +89,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseItemParser\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
         }
       ],
@@ -106,15 +106,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseItemParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseItemParser\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents"
         }
       ]
     },
     {
       "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItem\u00601",
-      "clrName": "System.Net.ServerSentEvents.SseItem\u00601",
-      "assemblyName": "System.Net.ServerSentEvents",
+      "targetName": "System.Net.ServerSentEvents.SseItem\u00601",
+      "ownerIdentity": "System.Net.ServerSentEvents",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -124,7 +124,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "typeParameters": [
         "T"
@@ -133,7 +133,7 @@
       "properties": [
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItem\u00601::Data:T",
-          "clrName": "Data",
+          "targetName": "Data",
           "metadataToken": 385875987,
           "canonicalSignature": ":T",
           "normalizedSignature": "Data|:T|static=false|accessor=get",
@@ -147,12 +147,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseItem\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseItem\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents"
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItem\u00601::EventType:System.String",
-          "clrName": "EventType",
+          "targetName": "EventType",
           "metadataToken": 385875988,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "EventType|:System.String|static=false|accessor=get",
@@ -166,12 +166,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseItem\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseItem\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents"
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItem\u00601::EventId:System.String",
-          "clrName": "EventId",
+          "targetName": "EventId",
           "metadataToken": 385875989,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "EventId|:System.String|static=false|accessor=getset",
@@ -185,12 +185,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseItem\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseItem\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents"
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseItem\u00601::ReconnectionInterval:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ReconnectionInterval",
+          "targetName": "ReconnectionInterval",
           "metadataToken": 385875990,
           "canonicalSignature": ":System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReconnectionInterval|:System.Nullable_1[[System.TimeSpan,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
@@ -204,8 +204,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseItem\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseItem\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents"
         }
       ],
       "fields": [],
@@ -219,15 +219,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseItem\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseItem\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents"
         }
       ]
     },
     {
       "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601",
-      "clrName": "System.Net.ServerSentEvents.SseParser\u00601",
-      "assemblyName": "System.Net.ServerSentEvents",
+      "targetName": "System.Net.ServerSentEvents.SseParser\u00601",
+      "ownerIdentity": "System.Net.ServerSentEvents",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -237,7 +237,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "typeParameters": [
         "T"
@@ -245,7 +245,7 @@
       "methods": [
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::Enumerate():IEnumerable_1",
-          "clrName": "Enumerate",
+          "targetName": "Enumerate",
           "metadataToken": 100663342,
           "canonicalSignature": "():IEnumerable_1",
           "normalizedSignature": "Enumerate|():IEnumerable_1|static=false",
@@ -259,13 +259,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseParser\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::EnumerateAsync(System.Threading.CancellationToken):IAsyncEnumerable_1",
-          "clrName": "EnumerateAsync",
+          "targetName": "EnumerateAsync",
           "metadataToken": 100663343,
           "canonicalSignature": "(System.Threading.CancellationToken):IAsyncEnumerable_1",
           "normalizedSignature": "EnumerateAsync|(System.Threading.CancellationToken):IAsyncEnumerable_1|static=false",
@@ -279,15 +279,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseParser\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::LastEventId:System.String",
-          "clrName": "LastEventId",
+          "targetName": "LastEventId",
           "metadataToken": 385875981,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "LastEventId|:System.String|static=false|accessor=getset",
@@ -301,12 +301,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseParser\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents"
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser\u00601::ReconnectionInterval:System.TimeSpan",
-          "clrName": "ReconnectionInterval",
+          "targetName": "ReconnectionInterval",
           "metadataToken": 385875982,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "ReconnectionInterval|:System.TimeSpan|static=false|accessor=getset",
@@ -320,8 +320,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseParser\u00601",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseParser\u00601",
+          "ownerIdentity": "System.Net.ServerSentEvents"
         }
       ],
       "fields": [],
@@ -330,8 +330,8 @@
     },
     {
       "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseFormatter",
-      "clrName": "System.Net.ServerSentEvents.SseFormatter",
-      "assemblyName": "System.Net.ServerSentEvents",
+      "targetName": "System.Net.ServerSentEvents.SseFormatter",
+      "ownerIdentity": "System.Net.ServerSentEvents",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -341,12 +341,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseFormatter::WriteAsync(System.Collections.Generic.IAsyncEnumerable_1[[System.Net.ServerSentEvents.SseItem_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.ServerSentEvents,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663329,
           "canonicalSignature": "(System.Collections.Generic.IAsyncEnumerable_1[[System.Net.ServerSentEvents.SseItem_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.ServerSentEvents,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Collections.Generic.IAsyncEnumerable_1[[System.Net.ServerSentEvents.SseItem_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.ServerSentEvents,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
@@ -360,13 +360,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseFormatter",
-          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseFormatter",
+          "ownerIdentity": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseFormatter::WriteAsync(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663330,
           "canonicalSignature": "(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
@@ -380,8 +380,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseFormatter",
-          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseFormatter",
+          "ownerIdentity": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
         }
       ],
@@ -392,8 +392,8 @@
     },
     {
       "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser",
-      "clrName": "System.Net.ServerSentEvents.SseParser",
-      "assemblyName": "System.Net.ServerSentEvents",
+      "targetName": "System.Net.ServerSentEvents.SseParser",
+      "ownerIdentity": "System.Net.ServerSentEvents",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -403,12 +403,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser::Create(System.IO.Stream):System.Net.ServerSentEvents.SseParser_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663393,
           "canonicalSignature": "(System.IO.Stream):System.Net.ServerSentEvents.SseParser_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Create|(System.IO.Stream):System.Net.ServerSentEvents.SseParser_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -422,13 +422,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseParser",
-          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseParser",
+          "ownerIdentity": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser::Create(System.IO.Stream,SseItemParser_1):SseParser_1",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663394,
           "canonicalSignature": "(System.IO.Stream,SseItemParser_1):SseParser_1",
           "normalizedSignature": "Create|(System.IO.Stream,SseItemParser_1):SseParser_1|static=true",
@@ -442,8 +442,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseParser",
-          "declaringAssemblyName": "System.Net.ServerSentEvents",
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseParser",
+          "ownerIdentity": "System.Net.ServerSentEvents",
           "isExtensionMethod": false
         }
       ],
@@ -451,15 +451,15 @@
       "fields": [
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser::EventTypeDefaultSystem.String",
-          "clrName": "EventTypeDefault",
+          "targetName": "EventTypeDefault",
           "metadataToken": 67108932,
           "normalizedSignature": "EventTypeDefault|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.ServerSentEvents.SseParser",
-          "declaringAssemblyName": "System.Net.ServerSentEvents"
+          "ownerQualifiedName": "System.Net.ServerSentEvents.SseParser",
+          "ownerIdentity": "System.Net.ServerSentEvents"
         }
       ],
       "events": [],

@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm",
-      "clrName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,87 +42,87 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67111653,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::NoneSystem.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67111654,
           "normalizedSignature": "None|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::MD5System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "clrName": "MD5",
+          "targetName": "MD5",
           "metadataToken": 67111655,
           "normalizedSignature": "MD5|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA1System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "clrName": "SHA1",
+          "targetName": "SHA1",
           "metadataToken": 67111656,
           "normalizedSignature": "SHA1|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA256System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "clrName": "SHA256",
+          "targetName": "SHA256",
           "metadataToken": 67111657,
           "normalizedSignature": "SHA256|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA384System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "clrName": "SHA384",
+          "targetName": "SHA384",
           "metadataToken": 67111658,
           "normalizedSignature": "SHA384|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA512System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "clrName": "SHA512",
+          "targetName": "SHA512",
           "metadataToken": 67111659,
           "normalizedSignature": "SHA512|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -130,8 +130,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility",
-      "clrName": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -141,24 +141,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -166,51 +166,51 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67111660,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility::SameMachineSystem.Configuration.Assemblies.AssemblyVersionCompatibility",
-          "clrName": "SameMachine",
+          "targetName": "SameMachine",
           "metadataToken": 67111661,
           "normalizedSignature": "SameMachine|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility::SameProcessSystem.Configuration.Assemblies.AssemblyVersionCompatibility",
-          "clrName": "SameProcess",
+          "targetName": "SameProcess",
           "metadataToken": 67111662,
           "normalizedSignature": "SameProcess|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility::SameDomainSystem.Configuration.Assemblies.AssemblyVersionCompatibility",
-          "clrName": "SameDomain",
+          "targetName": "SameDomain",
           "metadataToken": 67111663,
           "normalizedSignature": "SameDomain|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],

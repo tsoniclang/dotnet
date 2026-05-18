@@ -7,8 +7,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.Security.PartialTrustVisibilityLevel",
-      "clrName": "System.Security.PartialTrustVisibilityLevel",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.PartialTrustVisibilityLevel",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -18,24 +18,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -43,39 +43,39 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Security.PartialTrustVisibilityLevel::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67110694,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PartialTrustVisibilityLevel",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.PartialTrustVisibilityLevel",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PartialTrustVisibilityLevel::VisibleToAllHostsSystem.Security.PartialTrustVisibilityLevel",
-          "clrName": "VisibleToAllHosts",
+          "targetName": "VisibleToAllHosts",
           "metadataToken": 67110695,
           "normalizedSignature": "VisibleToAllHosts|System.Security.PartialTrustVisibilityLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PartialTrustVisibilityLevel",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.PartialTrustVisibilityLevel",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PartialTrustVisibilityLevel::NotVisibleByDefaultSystem.Security.PartialTrustVisibilityLevel",
-          "clrName": "NotVisibleByDefault",
+          "targetName": "NotVisibleByDefault",
           "metadataToken": 67110696,
           "normalizedSignature": "NotVisibleByDefault|System.Security.PartialTrustVisibilityLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PartialTrustVisibilityLevel",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.PartialTrustVisibilityLevel",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -83,8 +83,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SecurityCriticalScope",
-      "clrName": "System.Security.SecurityCriticalScope",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SecurityCriticalScope",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -94,24 +94,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -119,39 +119,39 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityCriticalScope::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67110704,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityCriticalScope",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityCriticalScope",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityCriticalScope::ExplicitSystem.Security.SecurityCriticalScope",
-          "clrName": "Explicit",
+          "targetName": "Explicit",
           "metadataToken": 67110705,
           "normalizedSignature": "Explicit|System.Security.SecurityCriticalScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityCriticalScope",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityCriticalScope",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityCriticalScope::EverythingSystem.Security.SecurityCriticalScope",
-          "clrName": "Everything",
+          "targetName": "Everything",
           "metadataToken": 67110706,
           "normalizedSignature": "Everything|System.Security.SecurityCriticalScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityCriticalScope",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityCriticalScope",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -159,8 +159,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SecurityRuleSet",
-      "clrName": "System.Security.SecurityRuleSet",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SecurityRuleSet",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -170,24 +170,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -195,51 +195,51 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityRuleSet::value__System.Byte",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67110726,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityRuleSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityRuleSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityRuleSet::NoneSystem.Security.SecurityRuleSet",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67110727,
           "normalizedSignature": "None|System.Security.SecurityRuleSet|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityRuleSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityRuleSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityRuleSet::Level1System.Security.SecurityRuleSet",
-          "clrName": "Level1",
+          "targetName": "Level1",
           "metadataToken": 67110728,
           "normalizedSignature": "Level1|System.Security.SecurityRuleSet|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityRuleSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityRuleSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityRuleSet::Level2System.Security.SecurityRuleSet",
-          "clrName": "Level2",
+          "targetName": "Level2",
           "metadataToken": 67110729,
           "normalizedSignature": "Level2|System.Security.SecurityRuleSet|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityRuleSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityRuleSet",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -247,8 +247,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.IPermission",
-      "clrName": "System.Security.IPermission",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.IPermission",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -259,13 +259,13 @@
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable",
-          "clrName": "System.Security.ISecurityEncodable"
+          "targetName": "System.Security.ISecurityEncodable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Security.IPermission::Copy():System.Security.IPermission",
-          "clrName": "Copy",
+          "targetName": "Copy",
           "metadataToken": 100674117,
           "canonicalSignature": "():System.Security.IPermission",
           "normalizedSignature": "Copy|():System.Security.IPermission|static=false",
@@ -279,13 +279,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.IPermission",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.IPermission",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.IPermission::Demand():System.Void",
-          "clrName": "Demand",
+          "targetName": "Demand",
           "metadataToken": 100674118,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Demand|():System.Void|static=false",
@@ -299,13 +299,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.IPermission",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.IPermission",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.IPermission::Intersect(System.Security.IPermission):System.Security.IPermission",
-          "clrName": "Intersect",
+          "targetName": "Intersect",
           "metadataToken": 100674119,
           "canonicalSignature": "(System.Security.IPermission):System.Security.IPermission",
           "normalizedSignature": "Intersect|(System.Security.IPermission):System.Security.IPermission|static=false",
@@ -319,13 +319,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.IPermission",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.IPermission",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.IPermission::IsSubsetOf(System.Security.IPermission):System.Boolean",
-          "clrName": "IsSubsetOf",
+          "targetName": "IsSubsetOf",
           "metadataToken": 100674120,
           "canonicalSignature": "(System.Security.IPermission):System.Boolean",
           "normalizedSignature": "IsSubsetOf|(System.Security.IPermission):System.Boolean|static=false",
@@ -339,13 +339,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.IPermission",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.IPermission",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::FromXml(System.Security.SecurityElement):System.Void",
-          "clrName": "FromXml",
+          "targetName": "FromXml",
           "metadataToken": 100674122,
           "canonicalSignature": "(System.Security.SecurityElement):System.Void",
           "normalizedSignature": "FromXml|(System.Security.SecurityElement):System.Void|static=false",
@@ -359,13 +359,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.ISecurityEncodable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::ToXml():System.Security.SecurityElement",
-          "clrName": "ToXml",
+          "targetName": "ToXml",
           "metadataToken": 100674123,
           "canonicalSignature": "():System.Security.SecurityElement",
           "normalizedSignature": "ToXml|():System.Security.SecurityElement|static=false",
@@ -379,8 +379,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.ISecurityEncodable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -391,8 +391,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable",
-      "clrName": "System.Security.ISecurityEncodable",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.ISecurityEncodable",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -403,7 +403,7 @@
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::FromXml(System.Security.SecurityElement):System.Void",
-          "clrName": "FromXml",
+          "targetName": "FromXml",
           "metadataToken": 100674122,
           "canonicalSignature": "(System.Security.SecurityElement):System.Void",
           "normalizedSignature": "FromXml|(System.Security.SecurityElement):System.Void|static=false",
@@ -417,13 +417,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.ISecurityEncodable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::ToXml():System.Security.SecurityElement",
-          "clrName": "ToXml",
+          "targetName": "ToXml",
           "metadataToken": 100674123,
           "canonicalSignature": "():System.Security.SecurityElement",
           "normalizedSignature": "ToXml|():System.Security.SecurityElement|static=false",
@@ -437,8 +437,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.ISecurityEncodable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -449,8 +449,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.IStackWalk",
-      "clrName": "System.Security.IStackWalk",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.IStackWalk",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -461,7 +461,7 @@
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Security.IStackWalk::Assert():System.Void",
-          "clrName": "Assert",
+          "targetName": "Assert",
           "metadataToken": 100674124,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Assert|():System.Void|static=false",
@@ -475,8 +475,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.IStackWalk",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.IStackWalk",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -487,8 +487,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.AllowPartiallyTrustedCallersAttribute",
-      "clrName": "System.Security.AllowPartiallyTrustedCallersAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.AllowPartiallyTrustedCallersAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -498,13 +498,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Security.AllowPartiallyTrustedCallersAttribute::PartialTrustVisibilityLevel:System.Security.PartialTrustVisibilityLevel",
-          "clrName": "PartialTrustVisibilityLevel",
+          "targetName": "PartialTrustVisibilityLevel",
           "metadataToken": 385878115,
           "canonicalSignature": ":System.Security.PartialTrustVisibilityLevel",
           "normalizedSignature": "PartialTrustVisibilityLevel|:System.Security.PartialTrustVisibilityLevel|static=false|accessor=getset",
@@ -518,8 +518,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.AllowPartiallyTrustedCallersAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.AllowPartiallyTrustedCallersAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -533,15 +533,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.AllowPartiallyTrustedCallersAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.AllowPartiallyTrustedCallersAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.PermissionSet",
-      "clrName": "System.Security.PermissionSet",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.PermissionSet",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -551,34 +551,34 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
+          "targetName": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "targetName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback",
-          "clrName": "System.Runtime.Serialization.IDeserializationCallback"
+          "targetName": "System.Runtime.Serialization.IDeserializationCallback"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable",
-          "clrName": "System.Security.ISecurityEncodable"
+          "targetName": "System.Security.ISecurityEncodable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.IStackWalk",
-          "clrName": "System.Security.IStackWalk"
+          "targetName": "System.Security.IStackWalk"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::AddPermission(System.Security.IPermission):System.Security.IPermission",
-          "clrName": "AddPermission",
+          "targetName": "AddPermission",
           "metadataToken": 100674134,
           "canonicalSignature": "(System.Security.IPermission):System.Security.IPermission",
           "normalizedSignature": "AddPermission|(System.Security.IPermission):System.Security.IPermission|static=false",
@@ -592,13 +592,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::AddPermissionImpl(System.Security.IPermission):System.Security.IPermission",
-          "clrName": "AddPermissionImpl",
+          "targetName": "AddPermissionImpl",
           "metadataToken": 100674135,
           "canonicalSignature": "(System.Security.IPermission):System.Security.IPermission",
           "normalizedSignature": "AddPermissionImpl|(System.Security.IPermission):System.Security.IPermission|static=false",
@@ -612,13 +612,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Assert():System.Void",
-          "clrName": "Assert",
+          "targetName": "Assert",
           "metadataToken": 100674136,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Assert|():System.Void|static=false",
@@ -632,13 +632,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::ContainsNonCodeAccessPermissions():System.Boolean",
-          "clrName": "ContainsNonCodeAccessPermissions",
+          "targetName": "ContainsNonCodeAccessPermissions",
           "metadataToken": 100674137,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "ContainsNonCodeAccessPermissions|():System.Boolean|static=false",
@@ -652,13 +652,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::ConvertPermissionSet(System.String,System.Byte[],System.String):System.Byte[]",
-          "clrName": "ConvertPermissionSet",
+          "targetName": "ConvertPermissionSet",
           "metadataToken": 100674138,
           "canonicalSignature": "(System.String,System.Byte[],System.String):System.Byte[]",
           "normalizedSignature": "ConvertPermissionSet|(System.String,System.Byte[],System.String):System.Byte[]|static=true",
@@ -672,13 +672,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Copy():System.Security.PermissionSet",
-          "clrName": "Copy",
+          "targetName": "Copy",
           "metadataToken": 100674139,
           "canonicalSignature": "():System.Security.PermissionSet",
           "normalizedSignature": "Copy|():System.Security.PermissionSet|static=false",
@@ -692,13 +692,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::CopyTo(System.Array,System.Int32):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100674140,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -712,13 +712,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Demand():System.Void",
-          "clrName": "Demand",
+          "targetName": "Demand",
           "metadataToken": 100674141,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Demand|():System.Void|static=false",
@@ -732,13 +732,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Deny():System.Void",
-          "clrName": "Deny",
+          "targetName": "Deny",
           "metadataToken": 100674142,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Deny|():System.Void|static=false",
@@ -752,13 +752,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Equals(System.Object):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100674143,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
@@ -772,13 +772,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::FromXml(System.Security.SecurityElement):System.Void",
-          "clrName": "FromXml",
+          "targetName": "FromXml",
           "metadataToken": 100674144,
           "canonicalSignature": "(System.Security.SecurityElement):System.Void",
           "normalizedSignature": "FromXml|(System.Security.SecurityElement):System.Void|static=false",
@@ -792,13 +792,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100674145,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -812,13 +812,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::GetEnumeratorImpl():System.Collections.IEnumerator",
-          "clrName": "GetEnumeratorImpl",
+          "targetName": "GetEnumeratorImpl",
           "metadataToken": 100674146,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumeratorImpl|():System.Collections.IEnumerator|static=false",
@@ -832,13 +832,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::GetHashCode():System.Int32",
-          "clrName": "GetHashCode",
+          "targetName": "GetHashCode",
           "metadataToken": 100674147,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
@@ -852,13 +852,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::GetPermission(System.Type):System.Security.IPermission",
-          "clrName": "GetPermission",
+          "targetName": "GetPermission",
           "metadataToken": 100674148,
           "canonicalSignature": "(System.Type):System.Security.IPermission",
           "normalizedSignature": "GetPermission|(System.Type):System.Security.IPermission|static=false",
@@ -872,13 +872,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::GetPermissionImpl(System.Type):System.Security.IPermission",
-          "clrName": "GetPermissionImpl",
+          "targetName": "GetPermissionImpl",
           "metadataToken": 100674149,
           "canonicalSignature": "(System.Type):System.Security.IPermission",
           "normalizedSignature": "GetPermissionImpl|(System.Type):System.Security.IPermission|static=false",
@@ -892,13 +892,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Intersect(System.Security.PermissionSet):System.Security.PermissionSet",
-          "clrName": "Intersect",
+          "targetName": "Intersect",
           "metadataToken": 100674150,
           "canonicalSignature": "(System.Security.PermissionSet):System.Security.PermissionSet",
           "normalizedSignature": "Intersect|(System.Security.PermissionSet):System.Security.PermissionSet|static=false",
@@ -912,13 +912,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::IsEmpty():System.Boolean",
-          "clrName": "IsEmpty",
+          "targetName": "IsEmpty",
           "metadataToken": 100674151,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "IsEmpty|():System.Boolean|static=false",
@@ -932,13 +932,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::IsSubsetOf(System.Security.PermissionSet):System.Boolean",
-          "clrName": "IsSubsetOf",
+          "targetName": "IsSubsetOf",
           "metadataToken": 100674152,
           "canonicalSignature": "(System.Security.PermissionSet):System.Boolean",
           "normalizedSignature": "IsSubsetOf|(System.Security.PermissionSet):System.Boolean|static=false",
@@ -952,13 +952,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::IsUnrestricted():System.Boolean",
-          "clrName": "IsUnrestricted",
+          "targetName": "IsUnrestricted",
           "metadataToken": 100674153,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "IsUnrestricted|():System.Boolean|static=false",
@@ -972,13 +972,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::PermitOnly():System.Void",
-          "clrName": "PermitOnly",
+          "targetName": "PermitOnly",
           "metadataToken": 100674154,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "PermitOnly|():System.Void|static=false",
@@ -992,13 +992,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::RemovePermission(System.Type):System.Security.IPermission",
-          "clrName": "RemovePermission",
+          "targetName": "RemovePermission",
           "metadataToken": 100674155,
           "canonicalSignature": "(System.Type):System.Security.IPermission",
           "normalizedSignature": "RemovePermission|(System.Type):System.Security.IPermission|static=false",
@@ -1012,13 +1012,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::RemovePermissionImpl(System.Type):System.Security.IPermission",
-          "clrName": "RemovePermissionImpl",
+          "targetName": "RemovePermissionImpl",
           "metadataToken": 100674156,
           "canonicalSignature": "(System.Type):System.Security.IPermission",
           "normalizedSignature": "RemovePermissionImpl|(System.Type):System.Security.IPermission|static=false",
@@ -1032,13 +1032,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::RevertAssert():System.Void",
-          "clrName": "RevertAssert",
+          "targetName": "RevertAssert",
           "metadataToken": 100674157,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "RevertAssert|():System.Void|static=true",
@@ -1052,13 +1052,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::SetPermission(System.Security.IPermission):System.Security.IPermission",
-          "clrName": "SetPermission",
+          "targetName": "SetPermission",
           "metadataToken": 100674158,
           "canonicalSignature": "(System.Security.IPermission):System.Security.IPermission",
           "normalizedSignature": "SetPermission|(System.Security.IPermission):System.Security.IPermission|static=false",
@@ -1072,13 +1072,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::SetPermissionImpl(System.Security.IPermission):System.Security.IPermission",
-          "clrName": "SetPermissionImpl",
+          "targetName": "SetPermissionImpl",
           "metadataToken": 100674159,
           "canonicalSignature": "(System.Security.IPermission):System.Security.IPermission",
           "normalizedSignature": "SetPermissionImpl|(System.Security.IPermission):System.Security.IPermission|static=false",
@@ -1092,13 +1092,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::ToString():System.String",
-          "clrName": "ToString",
+          "targetName": "ToString",
           "metadataToken": 100674161,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -1112,13 +1112,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::ToXml():System.Security.SecurityElement",
-          "clrName": "ToXml",
+          "targetName": "ToXml",
           "metadataToken": 100674162,
           "canonicalSignature": "():System.Security.SecurityElement",
           "normalizedSignature": "ToXml|():System.Security.SecurityElement|static=false",
@@ -1132,13 +1132,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Union(System.Security.PermissionSet):System.Security.PermissionSet",
-          "clrName": "Union",
+          "targetName": "Union",
           "metadataToken": 100674163,
           "canonicalSignature": "(System.Security.PermissionSet):System.Security.PermissionSet",
           "normalizedSignature": "Union|(System.Security.PermissionSet):System.Security.PermissionSet|static=false",
@@ -1152,13 +1152,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
-          "clrName": "OnDeserialization",
+          "targetName": "OnDeserialization",
           "metadataToken": 100682629,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "OnDeserialization|(System.Object):System.Void|static=false",
@@ -1172,14 +1172,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.IDeserializationCallback",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.IDeserializationCallback",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.IDeserializationCallback"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -1193,14 +1193,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -1214,14 +1214,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IEnumerable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::FromXml(System.Security.SecurityElement):System.Void",
-          "clrName": "FromXml",
+          "targetName": "FromXml",
           "metadataToken": 100674122,
           "canonicalSignature": "(System.Security.SecurityElement):System.Void",
           "normalizedSignature": "FromXml|(System.Security.SecurityElement):System.Void|static=false",
@@ -1235,14 +1235,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.ISecurityEncodable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Security.ISecurityEncodable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.ISecurityEncodable::ToXml():System.Security.SecurityElement",
-          "clrName": "ToXml",
+          "targetName": "ToXml",
           "metadataToken": 100674123,
           "canonicalSignature": "():System.Security.SecurityElement",
           "normalizedSignature": "ToXml|():System.Security.SecurityElement|static=false",
@@ -1256,14 +1256,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.ISecurityEncodable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.ISecurityEncodable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Security.ISecurityEncodable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.IStackWalk::Assert():System.Void",
-          "clrName": "Assert",
+          "targetName": "Assert",
           "metadataToken": 100674124,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Assert|():System.Void|static=false",
@@ -1277,8 +1277,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.IStackWalk",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.IStackWalk",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Security.IStackWalk"
         }
@@ -1286,7 +1286,7 @@
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385878116,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -1300,12 +1300,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::IsReadOnly:System.Boolean",
-          "clrName": "IsReadOnly",
+          "targetName": "IsReadOnly",
           "metadataToken": 385878117,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
@@ -1319,12 +1319,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::IsSynchronized:System.Boolean",
-          "clrName": "IsSynchronized",
+          "targetName": "IsSynchronized",
           "metadataToken": 385878118,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
@@ -1338,12 +1338,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::SyncRoot:System.Object",
-          "clrName": "SyncRoot",
+          "targetName": "SyncRoot",
           "metadataToken": 385878119,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
@@ -1357,12 +1357,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -1377,12 +1377,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
-          "clrName": "SyncRoot",
+          "targetName": "SyncRoot",
           "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
@@ -1397,12 +1397,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
-          "clrName": "IsSynchronized",
+          "targetName": "IsSynchronized",
           "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
@@ -1417,8 +1417,8 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1432,8 +1432,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.PermissionSet::.ctor(System.Security.PermissionSet):void",
@@ -1443,15 +1443,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Security.PermissionSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.PermissionSet",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SecureString",
-      "clrName": "System.Security.SecureString",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SecureString",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1461,18 +1461,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::AppendChar(System.Char):System.Void",
-          "clrName": "AppendChar",
+          "targetName": "AppendChar",
           "metadataToken": 100674170,
           "canonicalSignature": "(System.Char):System.Void",
           "normalizedSignature": "AppendChar|(System.Char):System.Void|static=false",
@@ -1486,13 +1486,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::Clear():System.Void",
-          "clrName": "Clear",
+          "targetName": "Clear",
           "metadataToken": 100674171,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -1506,13 +1506,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::Copy():System.Security.SecureString",
-          "clrName": "Copy",
+          "targetName": "Copy",
           "metadataToken": 100674172,
           "canonicalSignature": "():System.Security.SecureString",
           "normalizedSignature": "Copy|():System.Security.SecureString|static=false",
@@ -1526,13 +1526,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100674173,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1546,13 +1546,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::InsertAt(System.Int32,System.Char):System.Void",
-          "clrName": "InsertAt",
+          "targetName": "InsertAt",
           "metadataToken": 100674174,
           "canonicalSignature": "(System.Int32,System.Char):System.Void",
           "normalizedSignature": "InsertAt|(System.Int32,System.Char):System.Void|static=false",
@@ -1566,13 +1566,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::IsReadOnly():System.Boolean",
-          "clrName": "IsReadOnly",
+          "targetName": "IsReadOnly",
           "metadataToken": 100674175,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "IsReadOnly|():System.Boolean|static=false",
@@ -1586,13 +1586,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::MakeReadOnly():System.Void",
-          "clrName": "MakeReadOnly",
+          "targetName": "MakeReadOnly",
           "metadataToken": 100674176,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "MakeReadOnly|():System.Void|static=false",
@@ -1606,13 +1606,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::RemoveAt(System.Int32):System.Void",
-          "clrName": "RemoveAt",
+          "targetName": "RemoveAt",
           "metadataToken": 100674177,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
@@ -1626,13 +1626,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::SetAt(System.Int32,System.Char):System.Void",
-          "clrName": "SetAt",
+          "targetName": "SetAt",
           "metadataToken": 100674178,
           "canonicalSignature": "(System.Int32,System.Char):System.Void",
           "normalizedSignature": "SetAt|(System.Int32,System.Char):System.Void|static=false",
@@ -1646,13 +1646,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1666,8 +1666,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -1675,7 +1675,7 @@
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::Length:System.Int32",
-          "clrName": "Length",
+          "targetName": "Length",
           "metadataToken": 385878120,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Length|:System.Int32|static=false|accessor=get",
@@ -1689,8 +1689,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1704,8 +1704,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecureString::.ctor(System.Char*,System.Int32):void",
@@ -1715,15 +1715,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureString",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecureString",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SecurityCriticalAttribute",
-      "clrName": "System.Security.SecurityCriticalAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SecurityCriticalAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1733,13 +1733,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityCriticalAttribute::Scope:System.Security.SecurityCriticalScope",
-          "clrName": "Scope",
+          "targetName": "Scope",
           "metadataToken": 385878121,
           "canonicalSignature": ":System.Security.SecurityCriticalScope",
           "normalizedSignature": "Scope|:System.Security.SecurityCriticalScope|static=false|accessor=get",
@@ -1753,8 +1753,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityCriticalAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityCriticalAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1768,8 +1768,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityCriticalAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityCriticalAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityCriticalAttribute::.ctor(System.Security.SecurityCriticalScope):void",
@@ -1779,15 +1779,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityCriticalAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityCriticalAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SecurityElement",
-      "clrName": "System.Security.SecurityElement",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SecurityElement",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1797,12 +1797,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::AddAttribute(System.String,System.String):System.Void",
-          "clrName": "AddAttribute",
+          "targetName": "AddAttribute",
           "metadataToken": 100674205,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "AddAttribute|(System.String,System.String):System.Void|static=false",
@@ -1816,13 +1816,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::AddChild(System.Security.SecurityElement):System.Void",
-          "clrName": "AddChild",
+          "targetName": "AddChild",
           "metadataToken": 100674206,
           "canonicalSignature": "(System.Security.SecurityElement):System.Void",
           "normalizedSignature": "AddChild|(System.Security.SecurityElement):System.Void|static=false",
@@ -1836,13 +1836,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Equal(System.Security.SecurityElement):System.Boolean",
-          "clrName": "Equal",
+          "targetName": "Equal",
           "metadataToken": 100674207,
           "canonicalSignature": "(System.Security.SecurityElement):System.Boolean",
           "normalizedSignature": "Equal|(System.Security.SecurityElement):System.Boolean|static=false",
@@ -1856,13 +1856,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Copy():System.Security.SecurityElement",
-          "clrName": "Copy",
+          "targetName": "Copy",
           "metadataToken": 100674208,
           "canonicalSignature": "():System.Security.SecurityElement",
           "normalizedSignature": "Copy|():System.Security.SecurityElement|static=false",
@@ -1876,13 +1876,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::IsValidTag(System.String):System.Boolean",
-          "clrName": "IsValidTag",
+          "targetName": "IsValidTag",
           "metadataToken": 100674209,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "IsValidTag|(System.String):System.Boolean|static=true",
@@ -1896,13 +1896,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::IsValidText(System.String):System.Boolean",
-          "clrName": "IsValidText",
+          "targetName": "IsValidText",
           "metadataToken": 100674210,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "IsValidText|(System.String):System.Boolean|static=true",
@@ -1916,13 +1916,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::IsValidAttributeName(System.String):System.Boolean",
-          "clrName": "IsValidAttributeName",
+          "targetName": "IsValidAttributeName",
           "metadataToken": 100674211,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "IsValidAttributeName|(System.String):System.Boolean|static=true",
@@ -1936,13 +1936,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::IsValidAttributeValue(System.String):System.Boolean",
-          "clrName": "IsValidAttributeValue",
+          "targetName": "IsValidAttributeValue",
           "metadataToken": 100674212,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "IsValidAttributeValue|(System.String):System.Boolean|static=true",
@@ -1956,13 +1956,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Escape(System.String):System.String",
-          "clrName": "Escape",
+          "targetName": "Escape",
           "metadataToken": 100674214,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "Escape|(System.String):System.String|static=true",
@@ -1976,13 +1976,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::ToString():System.String",
-          "clrName": "ToString",
+          "targetName": "ToString",
           "metadataToken": 100674217,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -1996,13 +1996,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Attribute(System.String):System.String",
-          "clrName": "Attribute",
+          "targetName": "Attribute",
           "metadataToken": 100674219,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "Attribute|(System.String):System.String|static=false",
@@ -2016,13 +2016,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::SearchForChildByTag(System.String):System.Security.SecurityElement",
-          "clrName": "SearchForChildByTag",
+          "targetName": "SearchForChildByTag",
           "metadataToken": 100674220,
           "canonicalSignature": "(System.String):System.Security.SecurityElement",
           "normalizedSignature": "SearchForChildByTag|(System.String):System.Security.SecurityElement|static=false",
@@ -2036,13 +2036,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::SearchForTextOfTag(System.String):System.String",
-          "clrName": "SearchForTextOfTag",
+          "targetName": "SearchForTextOfTag",
           "metadataToken": 100674221,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "SearchForTextOfTag|(System.String):System.String|static=false",
@@ -2056,13 +2056,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::FromString(System.String):System.Security.SecurityElement",
-          "clrName": "FromString",
+          "targetName": "FromString",
           "metadataToken": 100674222,
           "canonicalSignature": "(System.String):System.Security.SecurityElement",
           "normalizedSignature": "FromString|(System.String):System.Security.SecurityElement|static=true",
@@ -2076,15 +2076,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Tag:System.String",
-          "clrName": "Tag",
+          "targetName": "Tag",
           "metadataToken": 385878122,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Tag|:System.String|static=false|accessor=getset",
@@ -2098,12 +2098,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Attributes:System.Collections.Hashtable",
-          "clrName": "Attributes",
+          "targetName": "Attributes",
           "metadataToken": 385878123,
           "canonicalSignature": ":System.Collections.Hashtable",
           "normalizedSignature": "Attributes|:System.Collections.Hashtable|static=false|accessor=getset",
@@ -2117,12 +2117,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Text:System.String",
-          "clrName": "Text",
+          "targetName": "Text",
           "metadataToken": 385878124,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Text|:System.String|static=false|accessor=getset",
@@ -2136,12 +2136,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::Children:System.Collections.ArrayList",
-          "clrName": "Children",
+          "targetName": "Children",
           "metadataToken": 385878125,
           "canonicalSignature": ":System.Collections.ArrayList",
           "normalizedSignature": "Children|:System.Collections.ArrayList|static=false|accessor=getset",
@@ -2155,8 +2155,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -2170,8 +2170,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityElement::.ctor(System.String,System.String):void",
@@ -2181,15 +2181,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityElement",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityElement",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SecurityException",
-      "clrName": "System.Security.SecurityException",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SecurityException",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2199,18 +2199,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.SystemException",
-        "clrName": "System.SystemException"
+        "targetName": "System.SystemException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::ToString():System.String",
-          "clrName": "ToString",
+          "targetName": "ToString",
           "metadataToken": 100674233,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -2224,13 +2224,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100674234,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2244,13 +2244,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2264,8 +2264,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -2273,7 +2273,7 @@
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::Demanded:System.Object",
-          "clrName": "Demanded",
+          "targetName": "Demanded",
           "metadataToken": 385878126,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Demanded|:System.Object|static=false|accessor=getset",
@@ -2287,12 +2287,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::DenySetInstance:System.Object",
-          "clrName": "DenySetInstance",
+          "targetName": "DenySetInstance",
           "metadataToken": 385878127,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "DenySetInstance|:System.Object|static=false|accessor=getset",
@@ -2306,12 +2306,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::FailedAssemblyInfo:System.Reflection.AssemblyName",
-          "clrName": "FailedAssemblyInfo",
+          "targetName": "FailedAssemblyInfo",
           "metadataToken": 385878128,
           "canonicalSignature": ":System.Reflection.AssemblyName",
           "normalizedSignature": "FailedAssemblyInfo|:System.Reflection.AssemblyName|static=false|accessor=getset",
@@ -2325,12 +2325,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::GrantedSet:System.String",
-          "clrName": "GrantedSet",
+          "targetName": "GrantedSet",
           "metadataToken": 385878129,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "GrantedSet|:System.String|static=false|accessor=getset",
@@ -2344,12 +2344,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::Method:System.Reflection.MethodInfo",
-          "clrName": "Method",
+          "targetName": "Method",
           "metadataToken": 385878130,
           "canonicalSignature": ":System.Reflection.MethodInfo",
           "normalizedSignature": "Method|:System.Reflection.MethodInfo|static=false|accessor=getset",
@@ -2363,12 +2363,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::PermissionState:System.String",
-          "clrName": "PermissionState",
+          "targetName": "PermissionState",
           "metadataToken": 385878131,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "PermissionState|:System.String|static=false|accessor=getset",
@@ -2382,12 +2382,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::PermissionType:System.Type",
-          "clrName": "PermissionType",
+          "targetName": "PermissionType",
           "metadataToken": 385878132,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "PermissionType|:System.Type|static=false|accessor=getset",
@@ -2401,12 +2401,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::PermitOnlySetInstance:System.Object",
-          "clrName": "PermitOnlySetInstance",
+          "targetName": "PermitOnlySetInstance",
           "metadataToken": 385878133,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "PermitOnlySetInstance|:System.Object|static=false|accessor=getset",
@@ -2420,12 +2420,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::RefusedSet:System.String",
-          "clrName": "RefusedSet",
+          "targetName": "RefusedSet",
           "metadataToken": 385878134,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "RefusedSet|:System.String|static=false|accessor=getset",
@@ -2439,12 +2439,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::Url:System.String",
-          "clrName": "Url",
+          "targetName": "Url",
           "metadataToken": 385878135,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
@@ -2458,8 +2458,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -2473,8 +2473,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::.ctor(System.String):void",
@@ -2484,8 +2484,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::.ctor(System.String,System.Exception):void",
@@ -2495,8 +2495,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::.ctor(System.String,System.Type):void",
@@ -2506,8 +2506,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::.ctor(System.String,System.Type,System.String):void",
@@ -2517,8 +2517,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -2528,15 +2528,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Security.SecurityException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityException",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SecurityRulesAttribute",
-      "clrName": "System.Security.SecurityRulesAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SecurityRulesAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2546,13 +2546,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityRulesAttribute::SkipVerificationInFullTrust:System.Boolean",
-          "clrName": "SkipVerificationInFullTrust",
+          "targetName": "SkipVerificationInFullTrust",
           "metadataToken": 385878136,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "SkipVerificationInFullTrust|:System.Boolean|static=false|accessor=getset",
@@ -2566,12 +2566,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityRulesAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityRulesAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityRulesAttribute::RuleSet:System.Security.SecurityRuleSet",
-          "clrName": "RuleSet",
+          "targetName": "RuleSet",
           "metadataToken": 385878137,
           "canonicalSignature": ":System.Security.SecurityRuleSet",
           "normalizedSignature": "RuleSet|:System.Security.SecurityRuleSet|static=false|accessor=get",
@@ -2585,8 +2585,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityRulesAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityRulesAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -2600,15 +2600,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityRulesAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityRulesAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SecuritySafeCriticalAttribute",
-      "clrName": "System.Security.SecuritySafeCriticalAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SecuritySafeCriticalAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2618,7 +2618,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -2633,15 +2633,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecuritySafeCriticalAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecuritySafeCriticalAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SecurityTransparentAttribute",
-      "clrName": "System.Security.SecurityTransparentAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SecurityTransparentAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2651,7 +2651,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -2666,15 +2666,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityTransparentAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityTransparentAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SecurityTreatAsSafeAttribute",
-      "clrName": "System.Security.SecurityTreatAsSafeAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SecurityTreatAsSafeAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2684,7 +2684,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -2699,15 +2699,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecurityTreatAsSafeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SecurityTreatAsSafeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.SuppressUnmanagedCodeSecurityAttribute",
-      "clrName": "System.Security.SuppressUnmanagedCodeSecurityAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.SuppressUnmanagedCodeSecurityAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2717,7 +2717,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -2732,15 +2732,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SuppressUnmanagedCodeSecurityAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.SuppressUnmanagedCodeSecurityAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.UnverifiableCodeAttribute",
-      "clrName": "System.Security.UnverifiableCodeAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.UnverifiableCodeAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2750,7 +2750,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -2765,15 +2765,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.UnverifiableCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.UnverifiableCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Security.VerificationException",
-      "clrName": "System.Security.VerificationException",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Security.VerificationException",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2783,18 +2783,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.SystemException",
-        "clrName": "System.SystemException"
+        "targetName": "System.SystemException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2808,8 +2808,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -2826,8 +2826,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Security.VerificationException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.VerificationException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.VerificationException::.ctor(System.String):void",
@@ -2837,8 +2837,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Security.VerificationException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.VerificationException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.VerificationException::.ctor(System.String,System.Exception):void",
@@ -2848,8 +2848,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Security.VerificationException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.VerificationException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Security.VerificationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -2859,15 +2859,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Security.VerificationException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Security.VerificationException",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Runtime.InteropServices:System.Security.SecureStringMarshal",
-      "clrName": "System.Security.SecureStringMarshal",
-      "assemblyName": "System.Runtime.InteropServices",
+      "targetName": "System.Security.SecureStringMarshal",
+      "ownerIdentity": "System.Runtime.InteropServices",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -2877,12 +2877,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Runtime.InteropServices:System.Security.SecureStringMarshal::SecureStringToCoTaskMemAnsi(System.Security.SecureString):System.IntPtr",
-          "clrName": "SecureStringToCoTaskMemAnsi",
+          "targetName": "SecureStringToCoTaskMemAnsi",
           "metadataToken": 100663311,
           "canonicalSignature": "(System.Security.SecureString):System.IntPtr",
           "normalizedSignature": "SecureStringToCoTaskMemAnsi|(System.Security.SecureString):System.IntPtr|static=true",
@@ -2896,13 +2896,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureStringMarshal",
-          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "ownerQualifiedName": "System.Security.SecureStringMarshal",
+          "ownerIdentity": "System.Runtime.InteropServices",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Security.SecureStringMarshal::SecureStringToGlobalAllocAnsi(System.Security.SecureString):System.IntPtr",
-          "clrName": "SecureStringToGlobalAllocAnsi",
+          "targetName": "SecureStringToGlobalAllocAnsi",
           "metadataToken": 100663312,
           "canonicalSignature": "(System.Security.SecureString):System.IntPtr",
           "normalizedSignature": "SecureStringToGlobalAllocAnsi|(System.Security.SecureString):System.IntPtr|static=true",
@@ -2916,13 +2916,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureStringMarshal",
-          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "ownerQualifiedName": "System.Security.SecureStringMarshal",
+          "ownerIdentity": "System.Runtime.InteropServices",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Security.SecureStringMarshal::SecureStringToCoTaskMemUnicode(System.Security.SecureString):System.IntPtr",
-          "clrName": "SecureStringToCoTaskMemUnicode",
+          "targetName": "SecureStringToCoTaskMemUnicode",
           "metadataToken": 100663313,
           "canonicalSignature": "(System.Security.SecureString):System.IntPtr",
           "normalizedSignature": "SecureStringToCoTaskMemUnicode|(System.Security.SecureString):System.IntPtr|static=true",
@@ -2936,13 +2936,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureStringMarshal",
-          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "ownerQualifiedName": "System.Security.SecureStringMarshal",
+          "ownerIdentity": "System.Runtime.InteropServices",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Runtime.InteropServices:System.Security.SecureStringMarshal::SecureStringToGlobalAllocUnicode(System.Security.SecureString):System.IntPtr",
-          "clrName": "SecureStringToGlobalAllocUnicode",
+          "targetName": "SecureStringToGlobalAllocUnicode",
           "metadataToken": 100663314,
           "canonicalSignature": "(System.Security.SecureString):System.IntPtr",
           "normalizedSignature": "SecureStringToGlobalAllocUnicode|(System.Security.SecureString):System.IntPtr|static=true",
@@ -2956,8 +2956,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Security.SecureStringMarshal",
-          "declaringAssemblyName": "System.Runtime.InteropServices",
+          "ownerQualifiedName": "System.Security.SecureStringMarshal",
+          "ownerIdentity": "System.Runtime.InteropServices",
           "isExtensionMethod": false
         }
       ],

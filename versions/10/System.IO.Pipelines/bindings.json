@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.IDuplexPipe",
-      "clrName": "System.IO.Pipelines.IDuplexPipe",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.IDuplexPipe",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -19,7 +19,7 @@
       "properties": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.IDuplexPipe::Input:System.IO.Pipelines.PipeReader",
-          "clrName": "Input",
+          "targetName": "Input",
           "metadataToken": 385876000,
           "canonicalSignature": ":System.IO.Pipelines.PipeReader",
           "normalizedSignature": "Input|:System.IO.Pipelines.PipeReader|static=false|accessor=get",
@@ -33,12 +33,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.IDuplexPipe",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.IDuplexPipe",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.IDuplexPipe::Output:System.IO.Pipelines.PipeWriter",
-          "clrName": "Output",
+          "targetName": "Output",
           "metadataToken": 385876001,
           "canonicalSignature": ":System.IO.Pipelines.PipeWriter",
           "normalizedSignature": "Output|:System.IO.Pipelines.PipeWriter|static=false|accessor=get",
@@ -52,8 +52,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.IDuplexPipe",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.IDuplexPipe",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ],
       "fields": [],
@@ -62,8 +62,8 @@
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.FlushResult",
-      "clrName": "System.IO.Pipelines.FlushResult",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.FlushResult",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -73,13 +73,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.FlushResult::IsCanceled:System.Boolean",
-          "clrName": "IsCanceled",
+          "targetName": "IsCanceled",
           "metadataToken": 385875998,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsCanceled|:System.Boolean|static=false|accessor=get",
@@ -93,12 +93,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.FlushResult",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.FlushResult",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.FlushResult::IsCompleted:System.Boolean",
-          "clrName": "IsCompleted",
+          "targetName": "IsCompleted",
           "metadataToken": 385875999,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
@@ -112,8 +112,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.FlushResult",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.FlushResult",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ],
       "fields": [],
@@ -127,15 +127,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.FlushResult",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.FlushResult",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.ReadResult",
-      "clrName": "System.IO.Pipelines.ReadResult",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.ReadResult",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -145,13 +145,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.ReadResult::Buffer:System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Buffer",
+          "targetName": "Buffer",
           "metadataToken": 385876051,
           "canonicalSignature": ":System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Buffer|:System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -165,12 +165,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.ReadResult",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.ReadResult",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.ReadResult::IsCanceled:System.Boolean",
-          "clrName": "IsCanceled",
+          "targetName": "IsCanceled",
           "metadataToken": 385876052,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsCanceled|:System.Boolean|static=false|accessor=get",
@@ -184,12 +184,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.ReadResult",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.ReadResult",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.ReadResult::IsCompleted:System.Boolean",
-          "clrName": "IsCompleted",
+          "targetName": "IsCompleted",
           "metadataToken": 385876053,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
@@ -203,8 +203,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.ReadResult",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.ReadResult",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ],
       "fields": [],
@@ -218,15 +218,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.ReadResult",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.ReadResult",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.Pipe",
-      "clrName": "System.IO.Pipelines.Pipe",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.Pipe",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -236,12 +236,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.Pipe::Reset():System.Void",
-          "clrName": "Reset",
+          "targetName": "Reset",
           "metadataToken": 100663425,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
@@ -255,15 +255,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.Pipe",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.Pipe",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.Pipe::Reader:System.IO.Pipelines.PipeReader",
-          "clrName": "Reader",
+          "targetName": "Reader",
           "metadataToken": 385876011,
           "canonicalSignature": ":System.IO.Pipelines.PipeReader",
           "normalizedSignature": "Reader|:System.IO.Pipelines.PipeReader|static=false|accessor=get",
@@ -277,12 +277,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.Pipe",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.Pipe",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.Pipe::Writer:System.IO.Pipelines.PipeWriter",
-          "clrName": "Writer",
+          "targetName": "Writer",
           "metadataToken": 385876012,
           "canonicalSignature": ":System.IO.Pipelines.PipeWriter",
           "normalizedSignature": "Writer|:System.IO.Pipelines.PipeWriter|static=false|accessor=get",
@@ -296,8 +296,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.Pipe",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.Pipe",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ],
       "fields": [],
@@ -311,8 +311,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.Pipe",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.Pipe",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.Pipe::.ctor(System.IO.Pipelines.PipeOptions):void",
@@ -322,15 +322,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.Pipe",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.Pipe",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions",
-      "clrName": "System.IO.Pipelines.PipeOptions",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.PipeOptions",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -340,13 +340,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions::Default:System.IO.Pipelines.PipeOptions",
-          "clrName": "Default",
+          "targetName": "Default",
           "metadataToken": 385876022,
           "canonicalSignature": ":System.IO.Pipelines.PipeOptions",
           "normalizedSignature": "Default|:System.IO.Pipelines.PipeOptions|static=true|accessor=get",
@@ -360,12 +360,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions::UseSynchronizationContext:System.Boolean",
-          "clrName": "UseSynchronizationContext",
+          "targetName": "UseSynchronizationContext",
           "metadataToken": 385876023,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "UseSynchronizationContext|:System.Boolean|static=false|accessor=get",
@@ -379,12 +379,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions::PauseWriterThreshold:System.Int64",
-          "clrName": "PauseWriterThreshold",
+          "targetName": "PauseWriterThreshold",
           "metadataToken": 385876024,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "PauseWriterThreshold|:System.Int64|static=false|accessor=get",
@@ -398,12 +398,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions::ResumeWriterThreshold:System.Int64",
-          "clrName": "ResumeWriterThreshold",
+          "targetName": "ResumeWriterThreshold",
           "metadataToken": 385876025,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "ResumeWriterThreshold|:System.Int64|static=false|accessor=get",
@@ -417,12 +417,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions::MinimumSegmentSize:System.Int32",
-          "clrName": "MinimumSegmentSize",
+          "targetName": "MinimumSegmentSize",
           "metadataToken": 385876026,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "MinimumSegmentSize|:System.Int32|static=false|accessor=get",
@@ -436,12 +436,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions::WriterScheduler:System.IO.Pipelines.PipeScheduler",
-          "clrName": "WriterScheduler",
+          "targetName": "WriterScheduler",
           "metadataToken": 385876027,
           "canonicalSignature": ":System.IO.Pipelines.PipeScheduler",
           "normalizedSignature": "WriterScheduler|:System.IO.Pipelines.PipeScheduler|static=false|accessor=get",
@@ -455,12 +455,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions::ReaderScheduler:System.IO.Pipelines.PipeScheduler",
-          "clrName": "ReaderScheduler",
+          "targetName": "ReaderScheduler",
           "metadataToken": 385876028,
           "canonicalSignature": ":System.IO.Pipelines.PipeScheduler",
           "normalizedSignature": "ReaderScheduler|:System.IO.Pipelines.PipeScheduler|static=false|accessor=get",
@@ -474,12 +474,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions::Pool:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Pool",
+          "targetName": "Pool",
           "metadataToken": 385876029,
           "canonicalSignature": ":System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -493,8 +493,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ],
       "fields": [],
@@ -508,15 +508,15 @@
           "isStatic": false,
           "parameterCount": 7,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader",
-      "clrName": "System.IO.Pipelines.PipeReader",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.PipeReader",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -526,12 +526,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::TryRead(System.IO.Pipelines.ReadResult\u0026):System.Boolean",
-          "clrName": "TryRead",
+          "targetName": "TryRead",
           "metadataToken": 100663503,
           "canonicalSignature": "(System.IO.Pipelines.ReadResult\u0026):System.Boolean",
           "normalizedSignature": "TryRead|(System.IO.Pipelines.ReadResult\u0026):System.Boolean|static=false",
@@ -545,8 +545,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -557,7 +557,7 @@
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::ReadAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 100663504,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "ReadAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
@@ -571,13 +571,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::ReadAtLeastAsync(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "ReadAtLeastAsync",
+          "targetName": "ReadAtLeastAsync",
           "metadataToken": 100663505,
           "canonicalSignature": "(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "ReadAtLeastAsync|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
@@ -591,13 +591,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::ReadAtLeastAsyncCore(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "ReadAtLeastAsyncCore",
+          "targetName": "ReadAtLeastAsyncCore",
           "metadataToken": 100663506,
           "canonicalSignature": "(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "ReadAtLeastAsyncCore|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.ReadResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
@@ -611,13 +611,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::AdvanceTo(System.SequencePosition):System.Void",
-          "clrName": "AdvanceTo",
+          "targetName": "AdvanceTo",
           "metadataToken": 100663507,
           "canonicalSignature": "(System.SequencePosition):System.Void",
           "normalizedSignature": "AdvanceTo|(System.SequencePosition):System.Void|static=false",
@@ -631,13 +631,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::AdvanceTo(System.SequencePosition,System.SequencePosition):System.Void",
-          "clrName": "AdvanceTo",
+          "targetName": "AdvanceTo",
           "metadataToken": 100663508,
           "canonicalSignature": "(System.SequencePosition,System.SequencePosition):System.Void",
           "normalizedSignature": "AdvanceTo|(System.SequencePosition,System.SequencePosition):System.Void|static=false",
@@ -651,13 +651,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::AsStream(System.Boolean):System.IO.Stream",
-          "clrName": "AsStream",
+          "targetName": "AsStream",
           "metadataToken": 100663509,
           "canonicalSignature": "(System.Boolean):System.IO.Stream",
           "normalizedSignature": "AsStream|(System.Boolean):System.IO.Stream|static=false",
@@ -671,13 +671,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CancelPendingRead():System.Void",
-          "clrName": "CancelPendingRead",
+          "targetName": "CancelPendingRead",
           "metadataToken": 100663510,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "CancelPendingRead|():System.Void|static=false",
@@ -691,13 +691,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::Complete(System.Exception):System.Void",
-          "clrName": "Complete",
+          "targetName": "Complete",
           "metadataToken": 100663511,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "Complete|(System.Exception):System.Void|static=false",
@@ -711,13 +711,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CompleteAsync(System.Exception):System.Threading.Tasks.ValueTask",
-          "clrName": "CompleteAsync",
+          "targetName": "CompleteAsync",
           "metadataToken": 100663512,
           "canonicalSignature": "(System.Exception):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "CompleteAsync|(System.Exception):System.Threading.Tasks.ValueTask|static=false",
@@ -731,13 +731,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::OnWriterCompleted(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
-          "clrName": "OnWriterCompleted",
+          "targetName": "OnWriterCompleted",
           "metadataToken": 100663513,
           "canonicalSignature": "(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
           "normalizedSignature": "OnWriterCompleted|(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
@@ -751,13 +751,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::Create(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663514,
           "canonicalSignature": "(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader",
           "normalizedSignature": "Create|(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions):System.IO.Pipelines.PipeReader|static=true",
@@ -771,13 +771,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::Create(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663515,
           "canonicalSignature": "(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader",
           "normalizedSignature": "Create|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader|static=true",
@@ -791,13 +791,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CopyToAsync(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "CopyToAsync",
+          "targetName": "CopyToAsync",
           "metadataToken": 100663516,
           "canonicalSignature": "(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CopyToAsync|(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -811,13 +811,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CopyToAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "CopyToAsync",
+          "targetName": "CopyToAsync",
           "metadataToken": 100663517,
           "canonicalSignature": "(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -831,8 +831,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         }
       ],
@@ -848,15 +848,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.Pipelines.PipeReader",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeReader",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeScheduler",
-      "clrName": "System.IO.Pipelines.PipeScheduler",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.PipeScheduler",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -866,12 +866,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeScheduler::Schedule(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
-          "clrName": "Schedule",
+          "targetName": "Schedule",
           "metadataToken": 100663567,
           "canonicalSignature": "(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
           "normalizedSignature": "Schedule|(System.Action_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
@@ -885,15 +885,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeScheduler",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeScheduler",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeScheduler::ThreadPool:System.IO.Pipelines.PipeScheduler",
-          "clrName": "ThreadPool",
+          "targetName": "ThreadPool",
           "metadataToken": 385876041,
           "canonicalSignature": ":System.IO.Pipelines.PipeScheduler",
           "normalizedSignature": "ThreadPool|:System.IO.Pipelines.PipeScheduler|static=true|accessor=get",
@@ -907,12 +907,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeScheduler",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeScheduler",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeScheduler::Inline:System.IO.Pipelines.PipeScheduler",
-          "clrName": "Inline",
+          "targetName": "Inline",
           "metadataToken": 385876042,
           "canonicalSignature": ":System.IO.Pipelines.PipeScheduler",
           "normalizedSignature": "Inline|:System.IO.Pipelines.PipeScheduler|static=true|accessor=get",
@@ -926,8 +926,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeScheduler",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeScheduler",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ],
       "fields": [],
@@ -941,15 +941,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.Pipelines.PipeScheduler",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeScheduler",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter",
-      "clrName": "System.IO.Pipelines.PipeWriter",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.PipeWriter",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -959,12 +959,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601",
-          "clrName": "System.Buffers.IBufferWriter\u00601",
+          "targetName": "System.Buffers.IBufferWriter\u00601",
           "typeArguments": [
             "Byte"
           ]
@@ -973,7 +973,7 @@
       "methods": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::Complete(System.Exception):System.Void",
-          "clrName": "Complete",
+          "targetName": "Complete",
           "metadataToken": 100663571,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "Complete|(System.Exception):System.Void|static=false",
@@ -987,13 +987,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::CompleteAsync(System.Exception):System.Threading.Tasks.ValueTask",
-          "clrName": "CompleteAsync",
+          "targetName": "CompleteAsync",
           "metadataToken": 100663572,
           "canonicalSignature": "(System.Exception):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "CompleteAsync|(System.Exception):System.Threading.Tasks.ValueTask|static=false",
@@ -1007,13 +1007,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::CancelPendingFlush():System.Void",
-          "clrName": "CancelPendingFlush",
+          "targetName": "CancelPendingFlush",
           "metadataToken": 100663573,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "CancelPendingFlush|():System.Void|static=false",
@@ -1027,13 +1027,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::OnReaderCompleted(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
-          "clrName": "OnReaderCompleted",
+          "targetName": "OnReaderCompleted",
           "metadataToken": 100663575,
           "canonicalSignature": "(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void",
           "normalizedSignature": "OnReaderCompleted|(System.Action_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object):System.Void|static=false",
@@ -1047,13 +1047,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "FlushAsync",
+          "targetName": "FlushAsync",
           "metadataToken": 100663576,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
@@ -1067,13 +1067,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::Advance(System.Int32):System.Void",
-          "clrName": "Advance",
+          "targetName": "Advance",
           "metadataToken": 100663577,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Advance|(System.Int32):System.Void|static=false",
@@ -1087,13 +1087,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::GetMemory(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "GetMemory",
+          "targetName": "GetMemory",
           "metadataToken": 100663578,
           "canonicalSignature": "(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetMemory|(System.Int32):System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -1107,13 +1107,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::GetSpan(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "GetSpan",
+          "targetName": "GetSpan",
           "metadataToken": 100663579,
           "canonicalSignature": "(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetSpan|(System.Int32):System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -1127,13 +1127,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::AsStream(System.Boolean):System.IO.Stream",
-          "clrName": "AsStream",
+          "targetName": "AsStream",
           "metadataToken": 100663580,
           "canonicalSignature": "(System.Boolean):System.IO.Stream",
           "normalizedSignature": "AsStream|(System.Boolean):System.IO.Stream|static=false",
@@ -1147,13 +1147,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::Create(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663581,
           "canonicalSignature": "(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter",
           "normalizedSignature": "Create|(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions):System.IO.Pipelines.PipeWriter|static=true",
@@ -1167,13 +1167,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663582,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.IO.Pipelines.FlushResult,System.IO.Pipelines,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
@@ -1187,13 +1187,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::CopyFromAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "CopyFromAsync",
+          "targetName": "CopyFromAsync",
           "metadataToken": 100663583,
           "canonicalSignature": "(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CopyFromAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1207,13 +1207,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "ProtectedInternal",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
-          "clrName": "GetMemory",
+          "targetName": "GetMemory",
           "metadataToken": 100663364,
           "canonicalSignature": "(System.Int32):Memory_1",
           "normalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
@@ -1227,14 +1227,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.IBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "sourceInterface": "System.Buffers.IBufferWriter\u00601"
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetSpan(System.Int32):Span_1",
-          "clrName": "GetSpan",
+          "targetName": "GetSpan",
           "metadataToken": 100663365,
           "canonicalSignature": "(System.Int32):Span_1",
           "normalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
@@ -1248,14 +1248,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.IBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "sourceInterface": "System.Buffers.IBufferWriter\u00601"
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::Advance(System.Int32):System.Void",
-          "clrName": "Advance",
+          "targetName": "Advance",
           "metadataToken": 100663363,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Advance|(System.Int32):System.Void|static=false",
@@ -1269,8 +1269,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.IBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "sourceInterface": "System.Buffers.IBufferWriter\u00601"
         }
@@ -1278,7 +1278,7 @@
       "properties": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::CanGetUnflushedBytes:System.Boolean",
-          "clrName": "CanGetUnflushedBytes",
+          "targetName": "CanGetUnflushedBytes",
           "metadataToken": 385876043,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanGetUnflushedBytes|:System.Boolean|static=false|accessor=get",
@@ -1292,12 +1292,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeWriter::UnflushedBytes:System.Int64",
-          "clrName": "UnflushedBytes",
+          "targetName": "UnflushedBytes",
           "metadataToken": 385876044,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "UnflushedBytes|:System.Int64|static=false|accessor=get",
@@ -1311,8 +1311,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ],
       "fields": [],
@@ -1326,15 +1326,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.Pipelines.PipeWriter",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.PipeWriter",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeReaderOptions",
-      "clrName": "System.IO.Pipelines.StreamPipeReaderOptions",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.StreamPipeReaderOptions",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1344,13 +1344,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeReaderOptions::BufferSize:System.Int32",
-          "clrName": "BufferSize",
+          "targetName": "BufferSize",
           "metadataToken": 385876061,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "BufferSize|:System.Int32|static=false|accessor=get",
@@ -1364,12 +1364,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeReaderOptions::MinimumReadSize:System.Int32",
-          "clrName": "MinimumReadSize",
+          "targetName": "MinimumReadSize",
           "metadataToken": 385876063,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "MinimumReadSize|:System.Int32|static=false|accessor=get",
@@ -1383,12 +1383,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeReaderOptions::Pool:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Pool",
+          "targetName": "Pool",
           "metadataToken": 385876064,
           "canonicalSignature": ":System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -1402,12 +1402,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeReaderOptions::LeaveOpen:System.Boolean",
-          "clrName": "LeaveOpen",
+          "targetName": "LeaveOpen",
           "metadataToken": 385876065,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "LeaveOpen|:System.Boolean|static=false|accessor=get",
@@ -1421,12 +1421,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeReaderOptions::UseZeroByteReads:System.Boolean",
-          "clrName": "UseZeroByteReads",
+          "targetName": "UseZeroByteReads",
           "metadataToken": 385876066,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "UseZeroByteReads|:System.Boolean|static=false|accessor=get",
@@ -1440,8 +1440,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ],
       "fields": [],
@@ -1455,8 +1455,8 @@
           "isStatic": false,
           "parameterCount": 4,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeReaderOptions::.ctor(System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32,System.Boolean,System.Boolean):void",
@@ -1466,15 +1466,15 @@
           "isStatic": false,
           "parameterCount": 5,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeReaderOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeReaderOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeWriterOptions",
-      "clrName": "System.IO.Pipelines.StreamPipeWriterOptions",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.StreamPipeWriterOptions",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1484,13 +1484,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeWriterOptions::MinimumBufferSize:System.Int32",
-          "clrName": "MinimumBufferSize",
+          "targetName": "MinimumBufferSize",
           "metadataToken": 385876072,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "MinimumBufferSize|:System.Int32|static=false|accessor=get",
@@ -1504,12 +1504,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeWriterOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeWriterOptions::Pool:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Pool",
+          "targetName": "Pool",
           "metadataToken": 385876073,
           "canonicalSignature": ":System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Pool|:System.Buffers.MemoryPool_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -1523,12 +1523,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeWriterOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         },
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeWriterOptions::LeaveOpen:System.Boolean",
-          "clrName": "LeaveOpen",
+          "targetName": "LeaveOpen",
           "metadataToken": 385876074,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "LeaveOpen|:System.Boolean|static=false|accessor=get",
@@ -1542,8 +1542,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeWriterOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ],
       "fields": [],
@@ -1557,15 +1557,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeWriterOptions",
-          "declaringAssemblyName": "System.IO.Pipelines"
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeWriterOptions",
+          "ownerIdentity": "System.IO.Pipelines"
         }
       ]
     },
     {
       "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeExtensions",
-      "clrName": "System.IO.Pipelines.StreamPipeExtensions",
-      "assemblyName": "System.IO.Pipelines",
+      "targetName": "System.IO.Pipelines.StreamPipeExtensions",
+      "ownerIdentity": "System.IO.Pipelines",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -1575,12 +1575,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.StreamPipeExtensions::CopyToAsync(System.IO.Stream,System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "CopyToAsync",
+          "targetName": "CopyToAsync",
           "metadataToken": 100663625,
           "canonicalSignature": "(System.IO.Stream,System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
@@ -1594,8 +1594,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.Pipelines.StreamPipeExtensions",
-          "declaringAssemblyName": "System.IO.Pipelines",
+          "ownerQualifiedName": "System.IO.Pipelines.StreamPipeExtensions",
+          "ownerIdentity": "System.IO.Pipelines",
           "isExtensionMethod": true
         }
       ],

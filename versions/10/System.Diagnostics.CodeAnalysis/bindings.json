@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-      "clrName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,375 +42,375 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67117660,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NoneSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67117661,
           "normalizedSignature": "None|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicParameterlessConstructorSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "PublicParameterlessConstructor",
+          "targetName": "PublicParameterlessConstructor",
           "metadataToken": 67117662,
           "normalizedSignature": "PublicParameterlessConstructor|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicConstructorsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "PublicConstructors",
+          "targetName": "PublicConstructors",
           "metadataToken": 67117663,
           "normalizedSignature": "PublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicConstructorsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicConstructors",
+          "targetName": "NonPublicConstructors",
           "metadataToken": 67117664,
           "normalizedSignature": "NonPublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicMethodsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "PublicMethods",
+          "targetName": "PublicMethods",
           "metadataToken": 67117665,
           "normalizedSignature": "PublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicMethodsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicMethods",
+          "targetName": "NonPublicMethods",
           "metadataToken": 67117666,
           "normalizedSignature": "NonPublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicFieldsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "PublicFields",
+          "targetName": "PublicFields",
           "metadataToken": 67117667,
           "normalizedSignature": "PublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicFieldsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicFields",
+          "targetName": "NonPublicFields",
           "metadataToken": 67117668,
           "normalizedSignature": "NonPublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicNestedTypesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "PublicNestedTypes",
+          "targetName": "PublicNestedTypes",
           "metadataToken": 67117669,
           "normalizedSignature": "PublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicNestedTypesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicNestedTypes",
+          "targetName": "NonPublicNestedTypes",
           "metadataToken": 67117670,
           "normalizedSignature": "NonPublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicPropertiesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "PublicProperties",
+          "targetName": "PublicProperties",
           "metadataToken": 67117671,
           "normalizedSignature": "PublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicPropertiesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicProperties",
+          "targetName": "NonPublicProperties",
           "metadataToken": 67117672,
           "normalizedSignature": "NonPublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicEventsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "PublicEvents",
+          "targetName": "PublicEvents",
           "metadataToken": 67117673,
           "normalizedSignature": "PublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicEventsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicEvents",
+          "targetName": "NonPublicEvents",
           "metadataToken": 67117674,
           "normalizedSignature": "NonPublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::InterfacesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "Interfaces",
+          "targetName": "Interfaces",
           "metadataToken": 67117675,
           "normalizedSignature": "Interfaces|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicConstructorsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicConstructorsWithInherited",
+          "targetName": "NonPublicConstructorsWithInherited",
           "metadataToken": 67117676,
           "normalizedSignature": "NonPublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicMethodsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicMethodsWithInherited",
+          "targetName": "NonPublicMethodsWithInherited",
           "metadataToken": 67117677,
           "normalizedSignature": "NonPublicMethodsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicFieldsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicFieldsWithInherited",
+          "targetName": "NonPublicFieldsWithInherited",
           "metadataToken": 67117678,
           "normalizedSignature": "NonPublicFieldsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicNestedTypesWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicNestedTypesWithInherited",
+          "targetName": "NonPublicNestedTypesWithInherited",
           "metadataToken": 67117679,
           "normalizedSignature": "NonPublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicPropertiesWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicPropertiesWithInherited",
+          "targetName": "NonPublicPropertiesWithInherited",
           "metadataToken": 67117680,
           "normalizedSignature": "NonPublicPropertiesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicEventsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "NonPublicEventsWithInherited",
+          "targetName": "NonPublicEventsWithInherited",
           "metadataToken": 67117681,
           "normalizedSignature": "NonPublicEventsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicConstructorsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "PublicConstructorsWithInherited",
+          "targetName": "PublicConstructorsWithInherited",
           "metadataToken": 67117682,
           "normalizedSignature": "PublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicNestedTypesWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "PublicNestedTypesWithInherited",
+          "targetName": "PublicNestedTypesWithInherited",
           "metadataToken": 67117683,
           "normalizedSignature": "PublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllConstructorsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "AllConstructors",
+          "targetName": "AllConstructors",
           "metadataToken": 67117684,
           "normalizedSignature": "AllConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllMethodsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "AllMethods",
+          "targetName": "AllMethods",
           "metadataToken": 67117685,
           "normalizedSignature": "AllMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllFieldsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "AllFields",
+          "targetName": "AllFields",
           "metadataToken": 67117686,
           "normalizedSignature": "AllFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllNestedTypesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "AllNestedTypes",
+          "targetName": "AllNestedTypes",
           "metadataToken": 67117687,
           "normalizedSignature": "AllNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllPropertiesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "AllProperties",
+          "targetName": "AllProperties",
           "metadataToken": 67117688,
           "normalizedSignature": "AllProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllEventsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "AllEvents",
+          "targetName": "AllEvents",
           "metadataToken": 67117689,
           "normalizedSignature": "AllEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "All",
+          "targetName": "All",
           "metadataToken": 67117690,
           "normalizedSignature": "All|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -418,8 +418,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.AllowNullAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -429,7 +429,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -444,15 +444,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -462,13 +462,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute::Min:System.Object",
-          "clrName": "Min",
+          "targetName": "Min",
           "metadataToken": 385881095,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Min|:System.Object|static=false|accessor=getset",
@@ -482,12 +482,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute::Max:System.Object",
-          "clrName": "Max",
+          "targetName": "Max",
           "metadataToken": 385881096,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Max|:System.Object|static=false|accessor=getset",
@@ -501,8 +501,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -516,15 +516,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -534,7 +534,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -549,15 +549,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -567,7 +567,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -582,15 +582,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -600,13 +600,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute::ParameterValue:System.Boolean",
-          "clrName": "ParameterValue",
+          "targetName": "ParameterValue",
           "metadataToken": 385881113,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ParameterValue|:System.Boolean|static=false|accessor=get",
@@ -620,8 +620,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -635,15 +635,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -653,13 +653,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute::MemberTypes:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "MemberTypes",
+          "targetName": "MemberTypes",
           "metadataToken": 385881097,
           "canonicalSignature": ":System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "normalizedSignature": "MemberTypes|:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=false|accessor=get",
@@ -673,8 +673,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -688,15 +688,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -706,13 +706,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::MemberSignature:System.String",
-          "clrName": "MemberSignature",
+          "targetName": "MemberSignature",
           "metadataToken": 385881098,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "MemberSignature|:System.String|static=false|accessor=get",
@@ -726,12 +726,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::MemberTypes:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
-          "clrName": "MemberTypes",
+          "targetName": "MemberTypes",
           "metadataToken": 385881099,
           "canonicalSignature": ":System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
           "normalizedSignature": "MemberTypes|:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=false|accessor=get",
@@ -745,12 +745,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::Type:System.Type",
-          "clrName": "Type",
+          "targetName": "Type",
           "metadataToken": 385881100,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
@@ -764,12 +764,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::TypeName:System.String",
-          "clrName": "TypeName",
+          "targetName": "TypeName",
           "metadataToken": 385881101,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "TypeName|:System.String|static=false|accessor=get",
@@ -783,12 +783,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::AssemblyName:System.String",
-          "clrName": "AssemblyName",
+          "targetName": "AssemblyName",
           "metadataToken": 385881102,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "AssemblyName|:System.String|static=false|accessor=get",
@@ -802,12 +802,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::Condition:System.String",
-          "clrName": "Condition",
+          "targetName": "Condition",
           "metadataToken": 385881103,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=getset",
@@ -821,8 +821,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -836,8 +836,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::.ctor(System.String,System.Type):void",
@@ -847,8 +847,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::.ctor(System.String,System.String,System.String):void",
@@ -858,8 +858,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::.ctor(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.Type):void",
@@ -869,8 +869,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::.ctor(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.String,System.String):void",
@@ -880,15 +880,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -898,13 +898,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute::Justification:System.String",
-          "clrName": "Justification",
+          "targetName": "Justification",
           "metadataToken": 385881104,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
@@ -918,8 +918,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -933,15 +933,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -951,13 +951,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExperimentalAttribute::DiagnosticId:System.String",
-          "clrName": "DiagnosticId",
+          "targetName": "DiagnosticId",
           "metadataToken": 385881105,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "DiagnosticId|:System.String|static=false|accessor=get",
@@ -971,12 +971,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExperimentalAttribute::Message:System.String",
-          "clrName": "Message",
+          "targetName": "Message",
           "metadataToken": 385881106,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=getset",
@@ -990,12 +990,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExperimentalAttribute::UrlFormat:System.String",
-          "clrName": "UrlFormat",
+          "targetName": "UrlFormat",
           "metadataToken": 385881107,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "UrlFormat|:System.String|static=false|accessor=getset",
@@ -1009,8 +1009,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1024,15 +1024,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.ExperimentalAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1042,13 +1042,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.FeatureGuardAttribute::FeatureType:System.Type",
-          "clrName": "FeatureType",
+          "targetName": "FeatureType",
           "metadataToken": 385881108,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "FeatureType|:System.Type|static=false|accessor=get",
@@ -1062,8 +1062,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1077,15 +1077,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1095,13 +1095,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute::SwitchName:System.String",
-          "clrName": "SwitchName",
+          "targetName": "SwitchName",
           "metadataToken": 385881109,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SwitchName|:System.String|static=false|accessor=get",
@@ -1115,8 +1115,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1130,15 +1130,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1148,7 +1148,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -1163,15 +1163,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1181,13 +1181,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute::ReturnValue:System.Boolean",
-          "clrName": "ReturnValue",
+          "targetName": "ReturnValue",
           "metadataToken": 385881110,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
@@ -1201,8 +1201,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1216,15 +1216,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1234,13 +1234,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute::Members:System.String[]",
-          "clrName": "Members",
+          "targetName": "Members",
           "metadataToken": 385881114,
           "canonicalSignature": ":System.String[]",
           "normalizedSignature": "Members|:System.String[]|static=false|accessor=get",
@@ -1254,8 +1254,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1269,8 +1269,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute::.ctor(System.String[]):void",
@@ -1280,15 +1280,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1298,13 +1298,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute::ReturnValue:System.Boolean",
-          "clrName": "ReturnValue",
+          "targetName": "ReturnValue",
           "metadataToken": 385881115,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
@@ -1318,12 +1318,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute::Members:System.String[]",
-          "clrName": "Members",
+          "targetName": "Members",
           "metadataToken": 385881116,
           "canonicalSignature": ":System.String[]",
           "normalizedSignature": "Members|:System.String[]|static=false|accessor=get",
@@ -1337,8 +1337,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1352,8 +1352,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute::.ctor(System.Boolean,System.String[]):void",
@@ -1363,15 +1363,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.NotNullAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.NotNullAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.NotNullAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1381,7 +1381,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -1396,15 +1396,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.NotNullAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.NotNullAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1414,13 +1414,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute::ParameterName:System.String",
-          "clrName": "ParameterName",
+          "targetName": "ParameterName",
           "metadataToken": 385881112,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "ParameterName|:System.String|static=false|accessor=get",
@@ -1434,8 +1434,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1449,15 +1449,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1467,13 +1467,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute::ReturnValue:System.Boolean",
-          "clrName": "ReturnValue",
+          "targetName": "ReturnValue",
           "metadataToken": 385881111,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ReturnValue|:System.Boolean|static=false|accessor=get",
@@ -1487,8 +1487,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1502,15 +1502,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1520,13 +1520,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute::Message:System.String",
-          "clrName": "Message",
+          "targetName": "Message",
           "metadataToken": 385881117,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
@@ -1540,12 +1540,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute::Url:System.String",
-          "clrName": "Url",
+          "targetName": "Url",
           "metadataToken": 385881118,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
@@ -1559,8 +1559,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1574,8 +1574,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute::.ctor(System.String):void",
@@ -1585,15 +1585,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1603,13 +1603,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute::ExcludeStatics:System.Boolean",
-          "clrName": "ExcludeStatics",
+          "targetName": "ExcludeStatics",
           "metadataToken": 385881119,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ExcludeStatics|:System.Boolean|static=false|accessor=getset",
@@ -1623,12 +1623,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute::Message:System.String",
-          "clrName": "Message",
+          "targetName": "Message",
           "metadataToken": 385881120,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
@@ -1642,12 +1642,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute::Url:System.String",
-          "clrName": "Url",
+          "targetName": "Url",
           "metadataToken": 385881121,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
@@ -1661,8 +1661,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1676,15 +1676,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1694,13 +1694,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute::ExcludeStatics:System.Boolean",
-          "clrName": "ExcludeStatics",
+          "targetName": "ExcludeStatics",
           "metadataToken": 385881122,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ExcludeStatics|:System.Boolean|static=false|accessor=getset",
@@ -1714,12 +1714,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute::Message:System.String",
-          "clrName": "Message",
+          "targetName": "Message",
           "metadataToken": 385881123,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
@@ -1733,12 +1733,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute::Url:System.String",
-          "clrName": "Url",
+          "targetName": "Url",
           "metadataToken": 385881124,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
@@ -1752,8 +1752,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1767,15 +1767,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1785,7 +1785,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -1800,15 +1800,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1818,13 +1818,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::Syntax:System.String",
-          "clrName": "Syntax",
+          "targetName": "Syntax",
           "metadataToken": 385881125,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Syntax|:System.String|static=false|accessor=get",
@@ -1838,12 +1838,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::Arguments:System.Object[]",
-          "clrName": "Arguments",
+          "targetName": "Arguments",
           "metadataToken": 385881126,
           "canonicalSignature": ":System.Object[]",
           "normalizedSignature": "Arguments|:System.Object[]|static=false|accessor=get",
@@ -1857,154 +1857,154 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::CompositeFormatSystem.String",
-          "clrName": "CompositeFormat",
+          "targetName": "CompositeFormat",
           "metadataToken": 67117721,
           "normalizedSignature": "CompositeFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::DateOnlyFormatSystem.String",
-          "clrName": "DateOnlyFormat",
+          "targetName": "DateOnlyFormat",
           "metadataToken": 67117722,
           "normalizedSignature": "DateOnlyFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::DateTimeFormatSystem.String",
-          "clrName": "DateTimeFormat",
+          "targetName": "DateTimeFormat",
           "metadataToken": 67117723,
           "normalizedSignature": "DateTimeFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::EnumFormatSystem.String",
-          "clrName": "EnumFormat",
+          "targetName": "EnumFormat",
           "metadataToken": 67117724,
           "normalizedSignature": "EnumFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::GuidFormatSystem.String",
-          "clrName": "GuidFormat",
+          "targetName": "GuidFormat",
           "metadataToken": 67117725,
           "normalizedSignature": "GuidFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::JsonSystem.String",
-          "clrName": "Json",
+          "targetName": "Json",
           "metadataToken": 67117726,
           "normalizedSignature": "Json|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::NumericFormatSystem.String",
-          "clrName": "NumericFormat",
+          "targetName": "NumericFormat",
           "metadataToken": 67117727,
           "normalizedSignature": "NumericFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::RegexSystem.String",
-          "clrName": "Regex",
+          "targetName": "Regex",
           "metadataToken": 67117728,
           "normalizedSignature": "Regex|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::TimeOnlyFormatSystem.String",
-          "clrName": "TimeOnlyFormat",
+          "targetName": "TimeOnlyFormat",
           "metadataToken": 67117729,
           "normalizedSignature": "TimeOnlyFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::TimeSpanFormatSystem.String",
-          "clrName": "TimeSpanFormat",
+          "targetName": "TimeSpanFormat",
           "metadataToken": 67117730,
           "normalizedSignature": "TimeSpanFormat|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::UriSystem.String",
-          "clrName": "Uri",
+          "targetName": "Uri",
           "metadataToken": 67117731,
           "normalizedSignature": "Uri|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::XmlSystem.String",
-          "clrName": "Xml",
+          "targetName": "Xml",
           "metadataToken": 67117732,
           "normalizedSignature": "Xml|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -2017,8 +2017,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::.ctor(System.String,System.Object[]):void",
@@ -2028,15 +2028,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.StringSyntaxAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2046,13 +2046,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::Category:System.String",
-          "clrName": "Category",
+          "targetName": "Category",
           "metadataToken": 385881127,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Category|:System.String|static=false|accessor=get",
@@ -2066,12 +2066,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::CheckId:System.String",
-          "clrName": "CheckId",
+          "targetName": "CheckId",
           "metadataToken": 385881128,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "CheckId|:System.String|static=false|accessor=get",
@@ -2085,12 +2085,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::Scope:System.String",
-          "clrName": "Scope",
+          "targetName": "Scope",
           "metadataToken": 385881129,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Scope|:System.String|static=false|accessor=getset",
@@ -2104,12 +2104,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::Target:System.String",
-          "clrName": "Target",
+          "targetName": "Target",
           "metadataToken": 385881130,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Target|:System.String|static=false|accessor=getset",
@@ -2123,12 +2123,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::MessageId:System.String",
-          "clrName": "MessageId",
+          "targetName": "MessageId",
           "metadataToken": 385881131,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "MessageId|:System.String|static=false|accessor=getset",
@@ -2142,12 +2142,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::Justification:System.String",
-          "clrName": "Justification",
+          "targetName": "Justification",
           "metadataToken": 385881132,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
@@ -2161,8 +2161,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -2176,15 +2176,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.SuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2194,13 +2194,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::Category:System.String",
-          "clrName": "Category",
+          "targetName": "Category",
           "metadataToken": 385881133,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Category|:System.String|static=false|accessor=get",
@@ -2214,12 +2214,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::CheckId:System.String",
-          "clrName": "CheckId",
+          "targetName": "CheckId",
           "metadataToken": 385881134,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "CheckId|:System.String|static=false|accessor=get",
@@ -2233,12 +2233,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::Scope:System.String",
-          "clrName": "Scope",
+          "targetName": "Scope",
           "metadataToken": 385881135,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Scope|:System.String|static=false|accessor=getset",
@@ -2252,12 +2252,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::Target:System.String",
-          "clrName": "Target",
+          "targetName": "Target",
           "metadataToken": 385881136,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Target|:System.String|static=false|accessor=getset",
@@ -2271,12 +2271,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::MessageId:System.String",
-          "clrName": "MessageId",
+          "targetName": "MessageId",
           "metadataToken": 385881137,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "MessageId|:System.String|static=false|accessor=getset",
@@ -2290,12 +2290,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::Justification:System.String",
-          "clrName": "Justification",
+          "targetName": "Justification",
           "metadataToken": 385881138,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Justification|:System.String|static=false|accessor=getset",
@@ -2309,8 +2309,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -2324,15 +2324,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnscopedRefAttribute",
-      "clrName": "System.Diagnostics.CodeAnalysis.UnscopedRefAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.CodeAnalysis.UnscopedRefAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2342,7 +2342,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -2357,8 +2357,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.CodeAnalysis.UnscopedRefAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.CodeAnalysis.UnscopedRefAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     }

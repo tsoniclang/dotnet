@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterContext",
-      "clrName": "System.Text.Json.Schema.JsonSchemaExporterContext",
-      "assemblyName": "System.Text.Json",
+      "targetName": "System.Text.Json.Schema.JsonSchemaExporterContext",
+      "ownerIdentity": "System.Text.Json",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -17,13 +17,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterContext::TypeInfo:System.Text.Json.Serialization.Metadata.JsonTypeInfo",
-          "clrName": "TypeInfo",
+          "targetName": "TypeInfo",
           "metadataToken": 385876384,
           "canonicalSignature": ":System.Text.Json.Serialization.Metadata.JsonTypeInfo",
           "normalizedSignature": "TypeInfo|:System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false|accessor=get",
@@ -37,12 +37,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterContext",
-          "declaringAssemblyName": "System.Text.Json"
+          "ownerQualifiedName": "System.Text.Json.Schema.JsonSchemaExporterContext",
+          "ownerIdentity": "System.Text.Json"
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterContext::PropertyInfo:System.Text.Json.Serialization.Metadata.JsonPropertyInfo",
-          "clrName": "PropertyInfo",
+          "targetName": "PropertyInfo",
           "metadataToken": 385876385,
           "canonicalSignature": ":System.Text.Json.Serialization.Metadata.JsonPropertyInfo",
           "normalizedSignature": "PropertyInfo|:System.Text.Json.Serialization.Metadata.JsonPropertyInfo|static=false|accessor=get",
@@ -56,12 +56,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterContext",
-          "declaringAssemblyName": "System.Text.Json"
+          "ownerQualifiedName": "System.Text.Json.Schema.JsonSchemaExporterContext",
+          "ownerIdentity": "System.Text.Json"
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterContext::BaseTypeInfo:System.Text.Json.Serialization.Metadata.JsonTypeInfo",
-          "clrName": "BaseTypeInfo",
+          "targetName": "BaseTypeInfo",
           "metadataToken": 385876386,
           "canonicalSignature": ":System.Text.Json.Serialization.Metadata.JsonTypeInfo",
           "normalizedSignature": "BaseTypeInfo|:System.Text.Json.Serialization.Metadata.JsonTypeInfo|static=false|accessor=get",
@@ -75,12 +75,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterContext",
-          "declaringAssemblyName": "System.Text.Json"
+          "ownerQualifiedName": "System.Text.Json.Schema.JsonSchemaExporterContext",
+          "ownerIdentity": "System.Text.Json"
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterContext::Path:System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Path",
+          "targetName": "Path",
           "metadataToken": 385876387,
           "canonicalSignature": ":System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Path|:System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -94,8 +94,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterContext",
-          "declaringAssemblyName": "System.Text.Json"
+          "ownerQualifiedName": "System.Text.Json.Schema.JsonSchemaExporterContext",
+          "ownerIdentity": "System.Text.Json"
         }
       ],
       "fields": [],
@@ -104,8 +104,8 @@
     },
     {
       "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterOptions",
-      "clrName": "System.Text.Json.Schema.JsonSchemaExporterOptions",
-      "assemblyName": "System.Text.Json",
+      "targetName": "System.Text.Json.Schema.JsonSchemaExporterOptions",
+      "ownerIdentity": "System.Text.Json",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -115,13 +115,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterOptions::Default:System.Text.Json.Schema.JsonSchemaExporterOptions",
-          "clrName": "Default",
+          "targetName": "Default",
           "metadataToken": 385876381,
           "canonicalSignature": ":System.Text.Json.Schema.JsonSchemaExporterOptions",
           "normalizedSignature": "Default|:System.Text.Json.Schema.JsonSchemaExporterOptions|static=true|accessor=get",
@@ -135,12 +135,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterOptions",
-          "declaringAssemblyName": "System.Text.Json"
+          "ownerQualifiedName": "System.Text.Json.Schema.JsonSchemaExporterOptions",
+          "ownerIdentity": "System.Text.Json"
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterOptions::TreatNullObliviousAsNonNullable:System.Boolean",
-          "clrName": "TreatNullObliviousAsNonNullable",
+          "targetName": "TreatNullObliviousAsNonNullable",
           "metadataToken": 385876382,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "TreatNullObliviousAsNonNullable|:System.Boolean|static=false|accessor=getset",
@@ -154,12 +154,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterOptions",
-          "declaringAssemblyName": "System.Text.Json"
+          "ownerQualifiedName": "System.Text.Json.Schema.JsonSchemaExporterOptions",
+          "ownerIdentity": "System.Text.Json"
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterOptions::TransformSchemaNode:System.Func_3[[System.Text.Json.Schema.JsonSchemaExporterContext,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "TransformSchemaNode",
+          "targetName": "TransformSchemaNode",
           "metadataToken": 385876383,
           "canonicalSignature": ":System.Func_3[[System.Text.Json.Schema.JsonSchemaExporterContext,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "TransformSchemaNode|:System.Func_3[[System.Text.Json.Schema.JsonSchemaExporterContext,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false|accessor=getset",
@@ -173,8 +173,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterOptions",
-          "declaringAssemblyName": "System.Text.Json"
+          "ownerQualifiedName": "System.Text.Json.Schema.JsonSchemaExporterOptions",
+          "ownerIdentity": "System.Text.Json"
         }
       ],
       "fields": [],
@@ -188,15 +188,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporterOptions",
-          "declaringAssemblyName": "System.Text.Json"
+          "ownerQualifiedName": "System.Text.Json.Schema.JsonSchemaExporterOptions",
+          "ownerIdentity": "System.Text.Json"
         }
       ]
     },
     {
       "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporter",
-      "clrName": "System.Text.Json.Schema.JsonSchemaExporter",
-      "assemblyName": "System.Text.Json",
+      "targetName": "System.Text.Json.Schema.JsonSchemaExporter",
+      "ownerIdentity": "System.Text.Json",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -206,12 +206,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporter::GetJsonSchemaAsNode(System.Text.Json.JsonSerializerOptions,System.Type,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
-          "clrName": "GetJsonSchemaAsNode",
+          "targetName": "GetJsonSchemaAsNode",
           "metadataToken": 100665283,
           "canonicalSignature": "(System.Text.Json.JsonSerializerOptions,System.Type,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
           "normalizedSignature": "GetJsonSchemaAsNode|(System.Text.Json.JsonSerializerOptions,System.Type,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode|static=true",
@@ -225,13 +225,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporter",
-          "declaringAssemblyName": "System.Text.Json",
+          "ownerQualifiedName": "System.Text.Json.Schema.JsonSchemaExporter",
+          "ownerIdentity": "System.Text.Json",
           "isExtensionMethod": true
         },
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporter::GetJsonSchemaAsNode(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
-          "clrName": "GetJsonSchemaAsNode",
+          "targetName": "GetJsonSchemaAsNode",
           "metadataToken": 100665284,
           "canonicalSignature": "(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
           "normalizedSignature": "GetJsonSchemaAsNode|(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode|static=true",
@@ -245,8 +245,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Json.Schema.JsonSchemaExporter",
-          "declaringAssemblyName": "System.Text.Json",
+          "ownerQualifiedName": "System.Text.Json.Schema.JsonSchemaExporter",
+          "ownerIdentity": "System.Text.Json",
           "isExtensionMethod": true
         }
       ],

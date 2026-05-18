@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer",
-      "clrName": "System.Runtime.ConstrainedExecution.Cer",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.ConstrainedExecution.Cer",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,51 +42,51 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67113307,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.Cer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.Cer",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::NoneSystem.Runtime.ConstrainedExecution.Cer",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67113308,
           "normalizedSignature": "None|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.Cer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.Cer",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::MayFailSystem.Runtime.ConstrainedExecution.Cer",
-          "clrName": "MayFail",
+          "targetName": "MayFail",
           "metadataToken": 67113309,
           "normalizedSignature": "MayFail|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.Cer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.Cer",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Cer::SuccessSystem.Runtime.ConstrainedExecution.Cer",
-          "clrName": "Success",
+          "targetName": "Success",
           "metadataToken": 67113310,
           "normalizedSignature": "Success|System.Runtime.ConstrainedExecution.Cer|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.Cer",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.Cer",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -94,8 +94,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency",
-      "clrName": "System.Runtime.ConstrainedExecution.Consistency",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.ConstrainedExecution.Consistency",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -105,24 +105,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -130,63 +130,63 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67113311,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.Consistency",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.Consistency",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::MayCorruptProcessSystem.Runtime.ConstrainedExecution.Consistency",
-          "clrName": "MayCorruptProcess",
+          "targetName": "MayCorruptProcess",
           "metadataToken": 67113312,
           "normalizedSignature": "MayCorruptProcess|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.Consistency",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.Consistency",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::MayCorruptAppDomainSystem.Runtime.ConstrainedExecution.Consistency",
-          "clrName": "MayCorruptAppDomain",
+          "targetName": "MayCorruptAppDomain",
           "metadataToken": 67113313,
           "normalizedSignature": "MayCorruptAppDomain|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.Consistency",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.Consistency",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::MayCorruptInstanceSystem.Runtime.ConstrainedExecution.Consistency",
-          "clrName": "MayCorruptInstance",
+          "targetName": "MayCorruptInstance",
           "metadataToken": 67113314,
           "normalizedSignature": "MayCorruptInstance|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.Consistency",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.Consistency",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.Consistency::WillNotCorruptStateSystem.Runtime.ConstrainedExecution.Consistency",
-          "clrName": "WillNotCorruptState",
+          "targetName": "WillNotCorruptState",
           "metadataToken": 67113315,
           "normalizedSignature": "WillNotCorruptState|System.Runtime.ConstrainedExecution.Consistency|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.Consistency",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.Consistency",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -194,8 +194,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
-      "clrName": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -205,12 +205,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.CriticalFinalizerObject::Finalize():System.Void",
-          "clrName": "Finalize",
+          "targetName": "Finalize",
           "metadataToken": 100682743,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Finalize|():System.Void|static=false",
@@ -224,8 +224,8 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -241,15 +241,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute",
-      "clrName": "System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -259,7 +259,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -274,15 +274,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
-      "clrName": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -292,13 +292,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.ReliabilityContractAttribute::ConsistencyGuarantee:System.Runtime.ConstrainedExecution.Consistency",
-          "clrName": "ConsistencyGuarantee",
+          "targetName": "ConsistencyGuarantee",
           "metadataToken": 385879341,
           "canonicalSignature": ":System.Runtime.ConstrainedExecution.Consistency",
           "normalizedSignature": "ConsistencyGuarantee|:System.Runtime.ConstrainedExecution.Consistency|static=false|accessor=get",
@@ -312,12 +312,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.ReliabilityContractAttribute::Cer:System.Runtime.ConstrainedExecution.Cer",
-          "clrName": "Cer",
+          "targetName": "Cer",
           "metadataToken": 385879342,
           "canonicalSignature": ":System.Runtime.ConstrainedExecution.Cer",
           "normalizedSignature": "Cer|:System.Runtime.ConstrainedExecution.Cer|static=false|accessor=get",
@@ -331,8 +331,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -346,8 +346,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.ConstrainedExecution.ReliabilityContractAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     }

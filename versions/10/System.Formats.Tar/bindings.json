@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat",
-      "clrName": "System.Formats.Tar.TarEntryFormat",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.TarEntryFormat",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,75 +42,75 @@
       "fields": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109137,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryFormat",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryFormat",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::UnknownSystem.Formats.Tar.TarEntryFormat",
-          "clrName": "Unknown",
+          "targetName": "Unknown",
           "metadataToken": 67109138,
           "normalizedSignature": "Unknown|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryFormat",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryFormat",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::V7System.Formats.Tar.TarEntryFormat",
-          "clrName": "V7",
+          "targetName": "V7",
           "metadataToken": 67109139,
           "normalizedSignature": "V7|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryFormat",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryFormat",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::UstarSystem.Formats.Tar.TarEntryFormat",
-          "clrName": "Ustar",
+          "targetName": "Ustar",
           "metadataToken": 67109140,
           "normalizedSignature": "Ustar|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryFormat",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryFormat",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::PaxSystem.Formats.Tar.TarEntryFormat",
-          "clrName": "Pax",
+          "targetName": "Pax",
           "metadataToken": 67109141,
           "normalizedSignature": "Pax|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryFormat",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryFormat",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::GnuSystem.Formats.Tar.TarEntryFormat",
-          "clrName": "Gnu",
+          "targetName": "Gnu",
           "metadataToken": 67109142,
           "normalizedSignature": "Gnu|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryFormat",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryFormat",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ],
       "events": [],
@@ -118,8 +118,8 @@
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType",
-      "clrName": "System.Formats.Tar.TarEntryType",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.TarEntryType",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -129,24 +129,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -154,231 +154,231 @@
       "fields": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::value__System.Byte",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109145,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::RegularFileSystem.Formats.Tar.TarEntryType",
-          "clrName": "RegularFile",
+          "targetName": "RegularFile",
           "metadataToken": 67109146,
           "normalizedSignature": "RegularFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::HardLinkSystem.Formats.Tar.TarEntryType",
-          "clrName": "HardLink",
+          "targetName": "HardLink",
           "metadataToken": 67109147,
           "normalizedSignature": "HardLink|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::SymbolicLinkSystem.Formats.Tar.TarEntryType",
-          "clrName": "SymbolicLink",
+          "targetName": "SymbolicLink",
           "metadataToken": 67109148,
           "normalizedSignature": "SymbolicLink|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::CharacterDeviceSystem.Formats.Tar.TarEntryType",
-          "clrName": "CharacterDevice",
+          "targetName": "CharacterDevice",
           "metadataToken": 67109149,
           "normalizedSignature": "CharacterDevice|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::BlockDeviceSystem.Formats.Tar.TarEntryType",
-          "clrName": "BlockDevice",
+          "targetName": "BlockDevice",
           "metadataToken": 67109150,
           "normalizedSignature": "BlockDevice|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::DirectorySystem.Formats.Tar.TarEntryType",
-          "clrName": "Directory",
+          "targetName": "Directory",
           "metadataToken": 67109151,
           "normalizedSignature": "Directory|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::FifoSystem.Formats.Tar.TarEntryType",
-          "clrName": "Fifo",
+          "targetName": "Fifo",
           "metadataToken": 67109152,
           "normalizedSignature": "Fifo|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::ContiguousFileSystem.Formats.Tar.TarEntryType",
-          "clrName": "ContiguousFile",
+          "targetName": "ContiguousFile",
           "metadataToken": 67109153,
           "normalizedSignature": "ContiguousFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::ExtendedAttributesSystem.Formats.Tar.TarEntryType",
-          "clrName": "ExtendedAttributes",
+          "targetName": "ExtendedAttributes",
           "metadataToken": 67109154,
           "normalizedSignature": "ExtendedAttributes|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::GlobalExtendedAttributesSystem.Formats.Tar.TarEntryType",
-          "clrName": "GlobalExtendedAttributes",
+          "targetName": "GlobalExtendedAttributes",
           "metadataToken": 67109155,
           "normalizedSignature": "GlobalExtendedAttributes|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::DirectoryListSystem.Formats.Tar.TarEntryType",
-          "clrName": "DirectoryList",
+          "targetName": "DirectoryList",
           "metadataToken": 67109156,
           "normalizedSignature": "DirectoryList|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::LongLinkSystem.Formats.Tar.TarEntryType",
-          "clrName": "LongLink",
+          "targetName": "LongLink",
           "metadataToken": 67109157,
           "normalizedSignature": "LongLink|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::LongPathSystem.Formats.Tar.TarEntryType",
-          "clrName": "LongPath",
+          "targetName": "LongPath",
           "metadataToken": 67109158,
           "normalizedSignature": "LongPath|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::MultiVolumeSystem.Formats.Tar.TarEntryType",
-          "clrName": "MultiVolume",
+          "targetName": "MultiVolume",
           "metadataToken": 67109159,
           "normalizedSignature": "MultiVolume|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::V7RegularFileSystem.Formats.Tar.TarEntryType",
-          "clrName": "V7RegularFile",
+          "targetName": "V7RegularFile",
           "metadataToken": 67109160,
           "normalizedSignature": "V7RegularFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::RenamedOrSymlinkedSystem.Formats.Tar.TarEntryType",
-          "clrName": "RenamedOrSymlinked",
+          "targetName": "RenamedOrSymlinked",
           "metadataToken": 67109161,
           "normalizedSignature": "RenamedOrSymlinked|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::SparseFileSystem.Formats.Tar.TarEntryType",
-          "clrName": "SparseFile",
+          "targetName": "SparseFile",
           "metadataToken": 67109162,
           "normalizedSignature": "SparseFile|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::TapeVolumeSystem.Formats.Tar.TarEntryType",
-          "clrName": "TapeVolume",
+          "targetName": "TapeVolume",
           "metadataToken": 67109163,
           "normalizedSignature": "TapeVolume|System.Formats.Tar.TarEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntryType",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntryType",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ],
       "events": [],
@@ -386,8 +386,8 @@
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.GnuTarEntry",
-      "clrName": "System.Formats.Tar.GnuTarEntry",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.GnuTarEntry",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -397,13 +397,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry",
-        "clrName": "System.Formats.Tar.PosixTarEntry"
+        "targetName": "System.Formats.Tar.PosixTarEntry"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.GnuTarEntry::AccessTime:System.DateTimeOffset",
-          "clrName": "AccessTime",
+          "targetName": "AccessTime",
           "metadataToken": 385876040,
           "canonicalSignature": ":System.DateTimeOffset",
           "normalizedSignature": "AccessTime|:System.DateTimeOffset|static=false|accessor=getset",
@@ -417,12 +417,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.GnuTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.GnuTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.GnuTarEntry::ChangeTime:System.DateTimeOffset",
-          "clrName": "ChangeTime",
+          "targetName": "ChangeTime",
           "metadataToken": 385876041,
           "canonicalSignature": ":System.DateTimeOffset",
           "normalizedSignature": "ChangeTime|:System.DateTimeOffset|static=false|accessor=getset",
@@ -436,8 +436,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.GnuTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.GnuTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ],
       "fields": [],
@@ -451,8 +451,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.GnuTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.GnuTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.GnuTarEntry::.ctor(System.Formats.Tar.TarEntry):void",
@@ -462,15 +462,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.GnuTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.GnuTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ]
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry",
-      "clrName": "System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -480,13 +480,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry",
-        "clrName": "System.Formats.Tar.PosixTarEntry"
+        "targetName": "System.Formats.Tar.PosixTarEntry"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry::GlobalExtendedAttributes:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "GlobalExtendedAttributes",
+          "targetName": "GlobalExtendedAttributes",
           "metadataToken": 385876042,
           "canonicalSignature": ":System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GlobalExtendedAttributes|:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -500,8 +500,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ],
       "fields": [],
@@ -515,15 +515,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ]
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.PaxTarEntry",
-      "clrName": "System.Formats.Tar.PaxTarEntry",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.PaxTarEntry",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -533,13 +533,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry",
-        "clrName": "System.Formats.Tar.PosixTarEntry"
+        "targetName": "System.Formats.Tar.PosixTarEntry"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PaxTarEntry::ExtendedAttributes:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ExtendedAttributes",
+          "targetName": "ExtendedAttributes",
           "metadataToken": 385876043,
           "canonicalSignature": ":System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ExtendedAttributes|:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -553,8 +553,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.PaxTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.PaxTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ],
       "fields": [],
@@ -568,8 +568,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.PaxTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.PaxTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PaxTarEntry::.ctor(System.Formats.Tar.TarEntryType,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
@@ -579,8 +579,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.PaxTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.PaxTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PaxTarEntry::.ctor(System.Formats.Tar.TarEntry):void",
@@ -590,15 +590,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.PaxTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.PaxTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ]
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry",
-      "clrName": "System.Formats.Tar.PosixTarEntry",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.PosixTarEntry",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -608,13 +608,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry",
-        "clrName": "System.Formats.Tar.TarEntry"
+        "targetName": "System.Formats.Tar.TarEntry"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry::DeviceMajor:System.Int32",
-          "clrName": "DeviceMajor",
+          "targetName": "DeviceMajor",
           "metadataToken": 385876017,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "DeviceMajor|:System.Int32|static=false|accessor=getset",
@@ -628,12 +628,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.PosixTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.PosixTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry::DeviceMinor:System.Int32",
-          "clrName": "DeviceMinor",
+          "targetName": "DeviceMinor",
           "metadataToken": 385876018,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "DeviceMinor|:System.Int32|static=false|accessor=getset",
@@ -647,12 +647,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.PosixTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.PosixTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry::GroupName:System.String",
-          "clrName": "GroupName",
+          "targetName": "GroupName",
           "metadataToken": 385876019,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "GroupName|:System.String|static=false|accessor=getset",
@@ -666,12 +666,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.PosixTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.PosixTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry::UserName:System.String",
-          "clrName": "UserName",
+          "targetName": "UserName",
           "metadataToken": 385876020,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "UserName|:System.String|static=false|accessor=getset",
@@ -685,8 +685,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.PosixTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.PosixTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ],
       "fields": [],
@@ -695,8 +695,8 @@
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry",
-      "clrName": "System.Formats.Tar.TarEntry",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.TarEntry",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -706,12 +706,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::ExtractToFile(System.String,System.Boolean):System.Void",
-          "clrName": "ExtractToFile",
+          "targetName": "ExtractToFile",
           "metadataToken": 100663580,
           "canonicalSignature": "(System.String,System.Boolean):System.Void",
           "normalizedSignature": "ExtractToFile|(System.String,System.Boolean):System.Void|static=false",
@@ -725,13 +725,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::ExtractToFileAsync(System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "ExtractToFileAsync",
+          "targetName": "ExtractToFileAsync",
           "metadataToken": 100663581,
           "canonicalSignature": "(System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "ExtractToFileAsync|(System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -745,13 +745,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::ToString():System.String",
-          "clrName": "ToString",
+          "targetName": "ToString",
           "metadataToken": 100663585,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -765,15 +765,15 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::FormatIsOctalOnly:System.Boolean",
-          "clrName": "FormatIsOctalOnly",
+          "targetName": "FormatIsOctalOnly",
           "metadataToken": 385876027,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "FormatIsOctalOnly|:System.Boolean|static=false|accessor=get",
@@ -787,12 +787,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Checksum:System.Int32",
-          "clrName": "Checksum",
+          "targetName": "Checksum",
           "metadataToken": 385876028,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Checksum|:System.Int32|static=false|accessor=get",
@@ -806,12 +806,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::EntryType:System.Formats.Tar.TarEntryType",
-          "clrName": "EntryType",
+          "targetName": "EntryType",
           "metadataToken": 385876029,
           "canonicalSignature": ":System.Formats.Tar.TarEntryType",
           "normalizedSignature": "EntryType|:System.Formats.Tar.TarEntryType|static=false|accessor=get",
@@ -825,12 +825,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Format:System.Formats.Tar.TarEntryFormat",
-          "clrName": "Format",
+          "targetName": "Format",
           "metadataToken": 385876030,
           "canonicalSignature": ":System.Formats.Tar.TarEntryFormat",
           "normalizedSignature": "Format|:System.Formats.Tar.TarEntryFormat|static=false|accessor=get",
@@ -844,12 +844,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Gid:System.Int32",
-          "clrName": "Gid",
+          "targetName": "Gid",
           "metadataToken": 385876031,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Gid|:System.Int32|static=false|accessor=getset",
@@ -863,12 +863,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::ModificationTime:System.DateTimeOffset",
-          "clrName": "ModificationTime",
+          "targetName": "ModificationTime",
           "metadataToken": 385876032,
           "canonicalSignature": ":System.DateTimeOffset",
           "normalizedSignature": "ModificationTime|:System.DateTimeOffset|static=false|accessor=getset",
@@ -882,12 +882,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Length:System.Int64",
-          "clrName": "Length",
+          "targetName": "Length",
           "metadataToken": 385876033,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
@@ -901,12 +901,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::LinkName:System.String",
-          "clrName": "LinkName",
+          "targetName": "LinkName",
           "metadataToken": 385876034,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "LinkName|:System.String|static=false|accessor=getset",
@@ -920,12 +920,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Mode:System.IO.UnixFileMode",
-          "clrName": "Mode",
+          "targetName": "Mode",
           "metadataToken": 385876035,
           "canonicalSignature": ":System.IO.UnixFileMode",
           "normalizedSignature": "Mode|:System.IO.UnixFileMode|static=false|accessor=getset",
@@ -939,12 +939,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Name:System.String",
-          "clrName": "Name",
+          "targetName": "Name",
           "metadataToken": 385876036,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
@@ -958,12 +958,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Uid:System.Int32",
-          "clrName": "Uid",
+          "targetName": "Uid",
           "metadataToken": 385876037,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Uid|:System.Int32|static=false|accessor=getset",
@@ -977,12 +977,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::DataStream:System.IO.Stream",
-          "clrName": "DataStream",
+          "targetName": "DataStream",
           "metadataToken": 385876038,
           "canonicalSignature": ":System.IO.Stream",
           "normalizedSignature": "DataStream|:System.IO.Stream|static=false|accessor=getset",
@@ -996,12 +996,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::DataOffset:System.Int64",
-          "clrName": "DataOffset",
+          "targetName": "DataOffset",
           "metadataToken": 385876039,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "DataOffset|:System.Int64|static=false|accessor=get",
@@ -1015,8 +1015,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ],
       "fields": [],
@@ -1025,8 +1025,8 @@
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader",
-      "clrName": "System.Formats.Tar.TarReader",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.TarReader",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1036,22 +1036,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
+          "targetName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663665,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1065,13 +1065,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarReader",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarReader",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100663666,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1085,13 +1085,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarReader",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarReader",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::GetNextEntry(System.Boolean):System.Formats.Tar.TarEntry",
-          "clrName": "GetNextEntry",
+          "targetName": "GetNextEntry",
           "metadataToken": 100663667,
           "canonicalSignature": "(System.Boolean):System.Formats.Tar.TarEntry",
           "normalizedSignature": "GetNextEntry|(System.Boolean):System.Formats.Tar.TarEntry|static=false",
@@ -1105,13 +1105,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarReader",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarReader",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::GetNextEntryAsync(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Formats.Tar.TarEntry,System.Formats.Tar,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "GetNextEntryAsync",
+          "targetName": "GetNextEntryAsync",
           "metadataToken": 100663668,
           "canonicalSignature": "(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Formats.Tar.TarEntry,System.Formats.Tar,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "GetNextEntryAsync|(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Formats.Tar.TarEntry,System.Formats.Tar,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
@@ -1125,13 +1125,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarReader",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarReader",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1145,14 +1145,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1166,8 +1166,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IAsyncDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IAsyncDisposable"
         }
@@ -1184,15 +1184,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarReader",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarReader",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ]
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter",
-      "clrName": "System.Formats.Tar.TarWriter",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.TarWriter",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1202,22 +1202,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
+          "targetName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663695,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1231,13 +1231,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarWriter",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100663696,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1251,13 +1251,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarWriter",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntry(System.String,System.String):System.Void",
-          "clrName": "WriteEntry",
+          "targetName": "WriteEntry",
           "metadataToken": 100663697,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "WriteEntry|(System.String,System.String):System.Void|static=false",
@@ -1271,13 +1271,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarWriter",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntryAsync(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteEntryAsync",
+          "targetName": "WriteEntryAsync",
           "metadataToken": 100663698,
           "canonicalSignature": "(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteEntryAsync|(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1291,13 +1291,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarWriter",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntry(System.Formats.Tar.TarEntry):System.Void",
-          "clrName": "WriteEntry",
+          "targetName": "WriteEntry",
           "metadataToken": 100663701,
           "canonicalSignature": "(System.Formats.Tar.TarEntry):System.Void",
           "normalizedSignature": "WriteEntry|(System.Formats.Tar.TarEntry):System.Void|static=false",
@@ -1311,13 +1311,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarWriter",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntryAsync(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteEntryAsync",
+          "targetName": "WriteEntryAsync",
           "metadataToken": 100663702,
           "canonicalSignature": "(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteEntryAsync|(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1331,13 +1331,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarWriter",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1351,14 +1351,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1372,8 +1372,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IAsyncDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IAsyncDisposable"
         }
@@ -1381,7 +1381,7 @@
       "properties": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::Format:System.Formats.Tar.TarEntryFormat",
-          "clrName": "Format",
+          "targetName": "Format",
           "metadataToken": 385876046,
           "canonicalSignature": ":System.Formats.Tar.TarEntryFormat",
           "normalizedSignature": "Format|:System.Formats.Tar.TarEntryFormat|static=false|accessor=get",
@@ -1395,8 +1395,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarWriter",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ],
       "fields": [],
@@ -1410,8 +1410,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarWriter",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::.ctor(System.IO.Stream,System.Boolean):void",
@@ -1421,8 +1421,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarWriter",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::.ctor(System.IO.Stream,System.Formats.Tar.TarEntryFormat,System.Boolean):void",
@@ -1432,15 +1432,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarWriter",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.TarWriter",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ]
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.UstarTarEntry",
-      "clrName": "System.Formats.Tar.UstarTarEntry",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.UstarTarEntry",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1450,7 +1450,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Formats.Tar:System.Formats.Tar.PosixTarEntry",
-        "clrName": "System.Formats.Tar.PosixTarEntry"
+        "targetName": "System.Formats.Tar.PosixTarEntry"
       },
       "methods": [],
       "properties": [],
@@ -1465,8 +1465,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.UstarTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.UstarTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.UstarTarEntry::.ctor(System.Formats.Tar.TarEntry):void",
@@ -1476,15 +1476,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.UstarTarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.UstarTarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ]
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.V7TarEntry",
-      "clrName": "System.Formats.Tar.V7TarEntry",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.V7TarEntry",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1494,7 +1494,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry",
-        "clrName": "System.Formats.Tar.TarEntry"
+        "targetName": "System.Formats.Tar.TarEntry"
       },
       "methods": [],
       "properties": [],
@@ -1509,8 +1509,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.V7TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.V7TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.V7TarEntry::.ctor(System.Formats.Tar.TarEntry):void",
@@ -1520,15 +1520,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.V7TarEntry",
-          "declaringAssemblyName": "System.Formats.Tar"
+          "ownerQualifiedName": "System.Formats.Tar.V7TarEntry",
+          "ownerIdentity": "System.Formats.Tar"
         }
       ]
     },
     {
       "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile",
-      "clrName": "System.Formats.Tar.TarFile",
-      "assemblyName": "System.Formats.Tar",
+      "targetName": "System.Formats.Tar.TarFile",
+      "ownerIdentity": "System.Formats.Tar",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -1538,12 +1538,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectory(System.String,System.IO.Stream,System.Boolean):System.Void",
-          "clrName": "CreateFromDirectory",
+          "targetName": "CreateFromDirectory",
           "metadataToken": 100663627,
           "canonicalSignature": "(System.String,System.IO.Stream,System.Boolean):System.Void",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.IO.Stream,System.Boolean):System.Void|static=true",
@@ -1557,13 +1557,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarFile",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectoryAsync(System.String,System.IO.Stream,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "CreateFromDirectoryAsync",
+          "targetName": "CreateFromDirectoryAsync",
           "metadataToken": 100663628,
           "canonicalSignature": "(System.String,System.IO.Stream,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.IO.Stream,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
@@ -1577,13 +1577,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarFile",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectory(System.String,System.String,System.Boolean):System.Void",
-          "clrName": "CreateFromDirectory",
+          "targetName": "CreateFromDirectory",
           "metadataToken": 100663629,
           "canonicalSignature": "(System.String,System.String,System.Boolean):System.Void",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
@@ -1597,13 +1597,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarFile",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "CreateFromDirectoryAsync",
+          "targetName": "CreateFromDirectoryAsync",
           "metadataToken": 100663630,
           "canonicalSignature": "(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
@@ -1617,13 +1617,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarFile",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectory(System.IO.Stream,System.String,System.Boolean):System.Void",
-          "clrName": "ExtractToDirectory",
+          "targetName": "ExtractToDirectory",
           "metadataToken": 100663631,
           "canonicalSignature": "(System.IO.Stream,System.String,System.Boolean):System.Void",
           "normalizedSignature": "ExtractToDirectory|(System.IO.Stream,System.String,System.Boolean):System.Void|static=true",
@@ -1637,13 +1637,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarFile",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectoryAsync(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "ExtractToDirectoryAsync",
+          "targetName": "ExtractToDirectoryAsync",
           "metadataToken": 100663632,
           "canonicalSignature": "(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
@@ -1657,13 +1657,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarFile",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectory(System.String,System.String,System.Boolean):System.Void",
-          "clrName": "ExtractToDirectory",
+          "targetName": "ExtractToDirectory",
           "metadataToken": 100663633,
           "canonicalSignature": "(System.String,System.String,System.Boolean):System.Void",
           "normalizedSignature": "ExtractToDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
@@ -1677,13 +1677,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarFile",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "ExtractToDirectoryAsync",
+          "targetName": "ExtractToDirectoryAsync",
           "metadataToken": 100663634,
           "canonicalSignature": "(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
@@ -1697,8 +1697,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Formats.Tar.TarFile",
-          "declaringAssemblyName": "System.Formats.Tar",
+          "ownerQualifiedName": "System.Formats.Tar.TarFile",
+          "ownerIdentity": "System.Formats.Tar",
           "isExtensionMethod": false
         }
       ],

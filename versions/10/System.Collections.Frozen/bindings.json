@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602",
-      "clrName": "System.Collections.Frozen.FrozenDictionary\u00602",
-      "assemblyName": "System.Collections.Immutable",
+      "targetName": "System.Collections.Frozen.FrozenDictionary\u00602",
+      "ownerIdentity": "System.Collections.Immutable",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -17,12 +17,12 @@
       "arity": 2,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602",
-          "clrName": "System.Collections.Generic.IDictionary\u00602",
+          "targetName": "System.Collections.Generic.IDictionary\u00602",
           "typeArguments": [
             "TKey",
             "TValue"
@@ -30,25 +30,25 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
-          "clrName": "System.Collections.Generic.ICollection\u00601",
+          "targetName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
             "KeyValuePair_2[[TKey,TValue]]"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
-          "clrName": "System.Collections.Generic.IEnumerable\u00601",
+          "targetName": "System.Collections.Generic.IEnumerable\u00601",
           "typeArguments": [
             "KeyValuePair_2[[TKey,TValue]]"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "targetName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "clrName": "System.Collections.Generic.IReadOnlyDictionary\u00602",
+          "targetName": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "typeArguments": [
             "TKey",
             "TValue"
@@ -56,18 +56,18 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
+          "targetName": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "typeArguments": [
             "KeyValuePair_2[[TKey,TValue]]"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary",
-          "clrName": "System.Collections.IDictionary"
+          "targetName": "System.Collections.IDictionary"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
+          "targetName": "System.Collections.ICollection"
         }
       ],
       "typeParameters": [
@@ -77,7 +77,7 @@
       "methods": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::CopyTo(KeyValuePair_2[],System.Int32):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100664995,
           "canonicalSignature": "(KeyValuePair_2[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(KeyValuePair_2[],System.Int32):System.Void|static=false",
@@ -91,13 +91,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::CopyTo(Span_1):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100664996,
           "canonicalSignature": "(Span_1):System.Void",
           "normalizedSignature": "CopyTo|(Span_1):System.Void|static=false",
@@ -111,13 +111,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::GetValueRefOrNullRef(TKey):TValue\u0026",
-          "clrName": "GetValueRefOrNullRef",
+          "targetName": "GetValueRefOrNullRef",
           "metadataToken": 100665005,
           "canonicalSignature": "(TKey):TValue\u0026",
           "normalizedSignature": "GetValueRefOrNullRef|(TKey):TValue\u0026|static=false",
@@ -131,13 +131,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::ContainsKey(TKey):System.Boolean",
-          "clrName": "ContainsKey",
+          "targetName": "ContainsKey",
           "metadataToken": 100665012,
           "canonicalSignature": "(TKey):System.Boolean",
           "normalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
@@ -151,13 +151,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
-          "clrName": "TryGetValue",
+          "targetName": "TryGetValue",
           "metadataToken": 100665015,
           "canonicalSignature": "(TKey,TValue\u0026):System.Boolean",
           "normalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
@@ -171,8 +171,8 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -183,7 +183,7 @@
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::GetEnumerator():Enumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100665016,
           "canonicalSignature": "():Enumerator",
           "normalizedSignature": "GetEnumerator|():Enumerator|static=false",
@@ -197,13 +197,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::GetAlternateLookup():AlternateLookup_1",
-          "clrName": "GetAlternateLookup",
+          "targetName": "GetAlternateLookup",
           "metadataToken": 100665029,
           "canonicalSignature": "():AlternateLookup_1",
           "normalizedSignature": "GetAlternateLookup|():AlternateLookup_1|static=false",
@@ -217,13 +217,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::TryGetAlternateLookup(AlternateLookup_1\u0026):System.Boolean",
-          "clrName": "TryGetAlternateLookup",
+          "targetName": "TryGetAlternateLookup",
           "metadataToken": 100665030,
           "canonicalSignature": "(AlternateLookup_1\u0026):System.Boolean",
           "normalizedSignature": "TryGetAlternateLookup|(AlternateLookup_1\u0026):System.Boolean|static=false",
@@ -237,8 +237,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -249,7 +249,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Add(TKey,TValue):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100704556,
           "canonicalSignature": "(TKey,TValue):System.Void",
           "normalizedSignature": "Add|(TKey,TValue):System.Void|static=false",
@@ -263,14 +263,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.IDictionary\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.IDictionary\u00602"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Remove(TKey):System.Boolean",
-          "clrName": "Remove",
+          "targetName": "Remove",
           "metadataToken": 100704557,
           "canonicalSignature": "(TKey):System.Boolean",
           "normalizedSignature": "Remove|(TKey):System.Boolean|static=false",
@@ -284,14 +284,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.IDictionary\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.IDictionary\u00602"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100704543,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -305,14 +305,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ICollection\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
-          "clrName": "Clear",
+          "targetName": "Clear",
           "metadataToken": 100704544,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -326,14 +326,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ICollection\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
-          "clrName": "Contains",
+          "targetName": "Contains",
           "metadataToken": 100704545,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -347,14 +347,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ICollection\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100704546,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -368,14 +368,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ICollection\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100704565,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
@@ -389,14 +389,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.IEnumerable\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -410,14 +410,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IEnumerable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Contains(System.Object):System.Boolean",
-          "clrName": "Contains",
+          "targetName": "Contains",
           "metadataToken": 100703840,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
@@ -431,14 +431,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IDictionary",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Add(System.Object,System.Object):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100703841,
           "canonicalSignature": "(System.Object,System.Object):System.Void",
           "normalizedSignature": "Add|(System.Object,System.Object):System.Void|static=false",
@@ -452,14 +452,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IDictionary",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::GetEnumerator():System.Collections.IDictionaryEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IDictionaryEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
@@ -473,14 +473,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IDictionary",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Remove(System.Object):System.Void",
-          "clrName": "Remove",
+          "targetName": "Remove",
           "metadataToken": 100703846,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Remove|(System.Object):System.Void|static=false",
@@ -494,14 +494,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IDictionary",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IDictionary"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -515,14 +515,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::ContainsKey(TKey):System.Boolean",
-          "clrName": "ContainsKey",
+          "targetName": "ContainsKey",
           "metadataToken": 100704555,
           "canonicalSignature": "(TKey):System.Boolean",
           "normalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
@@ -536,14 +536,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.IDictionary\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.IDictionary\u00602"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
-          "clrName": "TryGetValue",
+          "targetName": "TryGetValue",
           "metadataToken": 100704558,
           "canonicalSignature": "(TKey,TValue\u0026):System.Boolean",
           "normalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
@@ -557,8 +557,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.IDictionary\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
           "parameterModifiers": [
@@ -570,7 +570,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::ContainsKey(TKey):System.Boolean",
-          "clrName": "ContainsKey",
+          "targetName": "ContainsKey",
           "metadataToken": 100704577,
           "canonicalSignature": "(TKey):System.Boolean",
           "normalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
@@ -584,14 +584,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.IReadOnlyDictionary\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
-          "clrName": "TryGetValue",
+          "targetName": "TryGetValue",
           "metadataToken": 100704578,
           "canonicalSignature": "(TKey,TValue\u0026):System.Boolean",
           "normalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
@@ -605,8 +605,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.IReadOnlyDictionary\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
           "parameterModifiers": [
@@ -618,7 +618,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Clear():System.Void",
-          "clrName": "Clear",
+          "targetName": "Clear",
           "metadataToken": 100703842,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -632,8 +632,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IDictionary",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IDictionary"
         }
@@ -641,7 +641,7 @@
       "properties": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::Empty:FrozenDictionary_2",
-          "clrName": "Empty",
+          "targetName": "Empty",
           "metadataToken": 385876275,
           "canonicalSignature": ":FrozenDictionary_2",
           "normalizedSignature": "Empty|:FrozenDictionary_2|static=true|accessor=get",
@@ -655,15 +655,15 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable",
           "emitSemantics": {
             "callableStaticAccessorKind": "property"
           }
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::Comparer:IEqualityComparer_1",
-          "clrName": "Comparer",
+          "targetName": "Comparer",
           "metadataToken": 385876276,
           "canonicalSignature": ":IEqualityComparer_1",
           "normalizedSignature": "Comparer|:IEqualityComparer_1|static=false|accessor=get",
@@ -677,12 +677,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable"
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::Keys:ImmutableArray_1",
-          "clrName": "Keys",
+          "targetName": "Keys",
           "metadataToken": 385876277,
           "canonicalSignature": ":ImmutableArray_1",
           "normalizedSignature": "Keys|:ImmutableArray_1|static=false|accessor=get",
@@ -696,12 +696,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable"
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::Values:ImmutableArray_1",
-          "clrName": "Values",
+          "targetName": "Values",
           "metadataToken": 385876282,
           "canonicalSignature": ":ImmutableArray_1",
           "normalizedSignature": "Values|:ImmutableArray_1|static=false|accessor=get",
@@ -715,12 +715,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable"
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385876287,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -734,12 +734,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable"
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602::Item[TKey]:TValue\u0026",
-          "clrName": "Item",
+          "targetName": "Item",
           "metadataToken": 385876295,
           "canonicalSignature": "[TKey]:TValue\u0026",
           "normalizedSignature": "Item|[TKey]:TValue\u0026|static=false|accessor=get",
@@ -753,12 +753,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602",
+          "ownerIdentity": "System.Collections.Immutable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Keys:ICollection_1",
-          "clrName": "Keys",
+          "targetName": "Keys",
           "metadataToken": 385881423,
           "canonicalSignature": ":ICollection_1",
           "normalizedSignature": "Keys|:ICollection_1|static=false|accessor=get",
@@ -773,12 +773,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
-          "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.Generic.IDictionary\u00602",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::IsReadOnly:System.Boolean",
-          "clrName": "IsReadOnly",
+          "targetName": "IsReadOnly",
           "metadataToken": 385881420,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
@@ -793,12 +793,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::Keys:IEnumerable_1",
-          "clrName": "Keys",
+          "targetName": "Keys",
           "metadataToken": 385881432,
           "canonicalSignature": ":IEnumerable_1",
           "normalizedSignature": "Keys|:IEnumerable_1|static=false|accessor=get",
@@ -813,12 +813,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.Generic.IReadOnlyDictionary\u00602",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Keys:System.Collections.ICollection",
-          "clrName": "Keys",
+          "targetName": "Keys",
           "metadataToken": 385881262,
           "canonicalSignature": ":System.Collections.ICollection",
           "normalizedSignature": "Keys|:System.Collections.ICollection|static=false|accessor=get",
@@ -833,12 +833,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.IDictionary",
-          "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.IDictionary",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
-          "clrName": "SyncRoot",
+          "targetName": "SyncRoot",
           "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
@@ -853,12 +853,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Values:ICollection_1",
-          "clrName": "Values",
+          "targetName": "Values",
           "metadataToken": 385881424,
           "canonicalSignature": ":ICollection_1",
           "normalizedSignature": "Values|:ICollection_1|static=false|accessor=get",
@@ -873,12 +873,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IDictionary\u00602",
-          "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.Generic.IDictionary\u00602",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385881419,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -893,12 +893,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyDictionary\u00602::Values:IEnumerable_1",
-          "clrName": "Values",
+          "targetName": "Values",
           "metadataToken": 385881433,
           "canonicalSignature": ":IEnumerable_1",
           "normalizedSignature": "Values|:IEnumerable_1|static=false|accessor=get",
@@ -913,12 +913,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringClrType": "System.Collections.Generic.IReadOnlyDictionary\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.Generic.IReadOnlyDictionary\u00602",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385881430,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -933,12 +933,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
-          "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.Generic.IReadOnlyCollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::Values:System.Collections.ICollection",
-          "clrName": "Values",
+          "targetName": "Values",
           "metadataToken": 385881263,
           "canonicalSignature": ":System.Collections.ICollection",
           "normalizedSignature": "Values|:System.Collections.ICollection|static=false|accessor=get",
@@ -953,12 +953,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.IDictionary",
-          "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.IDictionary",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::IsReadOnly:System.Boolean",
-          "clrName": "IsReadOnly",
+          "targetName": "IsReadOnly",
           "metadataToken": 385881264,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
@@ -973,12 +973,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.IDictionary",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IDictionary::IsFixedSize:System.Boolean",
-          "clrName": "IsFixedSize",
+          "targetName": "IsFixedSize",
           "metadataToken": 385881265,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsFixedSize|:System.Boolean|static=false|accessor=get",
@@ -993,12 +993,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.IDictionary",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.IDictionary",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -1013,12 +1013,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
-          "clrName": "IsSynchronized",
+          "targetName": "IsSynchronized",
           "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
@@ -1033,8 +1033,8 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1043,8 +1043,8 @@
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-      "clrName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-      "assemblyName": "System.Collections.Immutable",
+      "targetName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+      "ownerIdentity": "System.Collections.Immutable",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -1054,7 +1054,7 @@
       "arity": 3,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "typeParameters": [
         "TKey",
@@ -1064,7 +1064,7 @@
       "methods": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::ContainsKey(TAlternateKey):System.Boolean",
-          "clrName": "ContainsKey",
+          "targetName": "ContainsKey",
           "metadataToken": 100665048,
           "canonicalSignature": "(TAlternateKey):System.Boolean",
           "normalizedSignature": "ContainsKey|(TAlternateKey):System.Boolean|static=false",
@@ -1078,13 +1078,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TValue\u0026):System.Boolean",
-          "clrName": "TryGetValue",
+          "targetName": "TryGetValue",
           "metadataToken": 100665049,
           "canonicalSignature": "(TAlternateKey,TValue\u0026):System.Boolean",
           "normalizedSignature": "TryGetValue|(TAlternateKey,TValue\u0026):System.Boolean|static=false",
@@ -1098,8 +1098,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1112,7 +1112,7 @@
       "properties": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::Dictionary:FrozenDictionary_2",
-          "clrName": "Dictionary",
+          "targetName": "Dictionary",
           "metadataToken": 385876300,
           "canonicalSignature": ":FrozenDictionary_2",
           "normalizedSignature": "Dictionary|:FrozenDictionary_2|static=false|accessor=get",
@@ -1126,12 +1126,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+          "ownerIdentity": "System.Collections.Immutable"
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601::Item[TAlternateKey]:TValue",
-          "clrName": "Item",
+          "targetName": "Item",
           "metadataToken": 385876301,
           "canonicalSignature": "[TAlternateKey]:TValue",
           "normalizedSignature": "Item|[TAlternateKey]:TValue|static=false|accessor=get",
@@ -1145,8 +1145,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BAlternateLookup\u00601",
+          "ownerIdentity": "System.Collections.Immutable"
         }
       ],
       "fields": [],
@@ -1155,8 +1155,8 @@
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
-      "clrName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
-      "assemblyName": "System.Collections.Immutable",
+      "targetName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
+      "ownerIdentity": "System.Collections.Immutable",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -1166,23 +1166,23 @@
       "arity": 2,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
-          "clrName": "System.Collections.Generic.IEnumerator\u00601",
+          "targetName": "System.Collections.Generic.IEnumerator\u00601",
           "typeArguments": [
             "KeyValuePair_2[[TKey,TValue]]"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
-          "clrName": "System.Collections.IEnumerator"
+          "targetName": "System.Collections.IEnumerator"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "typeParameters": [
@@ -1192,7 +1192,7 @@
       "methods": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
+          "targetName": "MoveNext",
           "metadataToken": 100665040,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
@@ -1206,13 +1206,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator::Reset():System.Void",
-          "clrName": "Reset",
+          "targetName": "Reset",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
@@ -1226,15 +1226,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator::Current:KeyValuePair_2",
-          "clrName": "Current",
+          "targetName": "Current",
           "metadataToken": 385876298,
           "canonicalSignature": ":KeyValuePair_2",
           "normalizedSignature": "Current|:KeyValuePair_2|static=false|accessor=get",
@@ -1248,8 +1248,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary\u00602\u002BEnumerator",
+          "ownerIdentity": "System.Collections.Immutable"
         }
       ],
       "fields": [],
@@ -1258,8 +1258,8 @@
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601",
-      "clrName": "System.Collections.Frozen.FrozenSet\u00601",
-      "assemblyName": "System.Collections.Immutable",
+      "targetName": "System.Collections.Frozen.FrozenSet\u00601",
+      "ownerIdentity": "System.Collections.Immutable",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1269,51 +1269,51 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601",
-          "clrName": "System.Collections.Generic.ISet\u00601",
+          "targetName": "System.Collections.Generic.ISet\u00601",
           "typeArguments": [
             "T"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601",
-          "clrName": "System.Collections.Generic.ICollection\u00601",
+          "targetName": "System.Collections.Generic.ICollection\u00601",
           "typeArguments": [
             "T"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601",
-          "clrName": "System.Collections.Generic.IEnumerable\u00601",
+          "targetName": "System.Collections.Generic.IEnumerable\u00601",
           "typeArguments": [
             "T"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "targetName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlySet\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlySet\u00601",
+          "targetName": "System.Collections.Generic.IReadOnlySet\u00601",
           "typeArguments": [
             "T"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601",
-          "clrName": "System.Collections.Generic.IReadOnlyCollection\u00601",
+          "targetName": "System.Collections.Generic.IReadOnlyCollection\u00601",
           "typeArguments": [
             "T"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection",
-          "clrName": "System.Collections.ICollection"
+          "targetName": "System.Collections.ICollection"
         }
       ],
       "typeParameters": [
@@ -1322,7 +1322,7 @@
       "methods": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::CopyTo(T[],System.Int32):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100665070,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -1336,13 +1336,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::CopyTo(Span_1):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100665071,
           "canonicalSignature": "(Span_1):System.Void",
           "normalizedSignature": "CopyTo|(Span_1):System.Void|static=false",
@@ -1356,13 +1356,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::Contains(T):System.Boolean",
-          "clrName": "Contains",
+          "targetName": "Contains",
           "metadataToken": 100665076,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -1376,13 +1376,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::TryGetValue(T,T\u0026):System.Boolean",
-          "clrName": "TryGetValue",
+          "targetName": "TryGetValue",
           "metadataToken": 100665077,
           "canonicalSignature": "(T,T\u0026):System.Boolean",
           "normalizedSignature": "TryGetValue|(T,T\u0026):System.Boolean|static=false",
@@ -1396,8 +1396,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1408,7 +1408,7 @@
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::GetEnumerator():Enumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100665080,
           "canonicalSignature": "():Enumerator",
           "normalizedSignature": "GetEnumerator|():Enumerator|static=false",
@@ -1422,13 +1422,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::IsProperSubsetOf(IEnumerable_1):System.Boolean",
-          "clrName": "IsProperSubsetOf",
+          "targetName": "IsProperSubsetOf",
           "metadataToken": 100665092,
           "canonicalSignature": "(IEnumerable_1):System.Boolean",
           "normalizedSignature": "IsProperSubsetOf|(IEnumerable_1):System.Boolean|static=false",
@@ -1442,13 +1442,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::IsProperSupersetOf(IEnumerable_1):System.Boolean",
-          "clrName": "IsProperSupersetOf",
+          "targetName": "IsProperSupersetOf",
           "metadataToken": 100665094,
           "canonicalSignature": "(IEnumerable_1):System.Boolean",
           "normalizedSignature": "IsProperSupersetOf|(IEnumerable_1):System.Boolean|static=false",
@@ -1462,13 +1462,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::IsSubsetOf(IEnumerable_1):System.Boolean",
-          "clrName": "IsSubsetOf",
+          "targetName": "IsSubsetOf",
           "metadataToken": 100665096,
           "canonicalSignature": "(IEnumerable_1):System.Boolean",
           "normalizedSignature": "IsSubsetOf|(IEnumerable_1):System.Boolean|static=false",
@@ -1482,13 +1482,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::IsSupersetOf(IEnumerable_1):System.Boolean",
-          "clrName": "IsSupersetOf",
+          "targetName": "IsSupersetOf",
           "metadataToken": 100665098,
           "canonicalSignature": "(IEnumerable_1):System.Boolean",
           "normalizedSignature": "IsSupersetOf|(IEnumerable_1):System.Boolean|static=false",
@@ -1502,13 +1502,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::Overlaps(IEnumerable_1):System.Boolean",
-          "clrName": "Overlaps",
+          "targetName": "Overlaps",
           "metadataToken": 100665100,
           "canonicalSignature": "(IEnumerable_1):System.Boolean",
           "normalizedSignature": "Overlaps|(IEnumerable_1):System.Boolean|static=false",
@@ -1522,13 +1522,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::SetEquals(IEnumerable_1):System.Boolean",
-          "clrName": "SetEquals",
+          "targetName": "SetEquals",
           "metadataToken": 100665102,
           "canonicalSignature": "(IEnumerable_1):System.Boolean",
           "normalizedSignature": "SetEquals|(IEnumerable_1):System.Boolean|static=false",
@@ -1542,13 +1542,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::GetAlternateLookup():AlternateLookup_1",
-          "clrName": "GetAlternateLookup",
+          "targetName": "GetAlternateLookup",
           "metadataToken": 100665104,
           "canonicalSignature": "():AlternateLookup_1",
           "normalizedSignature": "GetAlternateLookup|():AlternateLookup_1|static=false",
@@ -1562,13 +1562,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::TryGetAlternateLookup(AlternateLookup_1\u0026):System.Boolean",
-          "clrName": "TryGetAlternateLookup",
+          "targetName": "TryGetAlternateLookup",
           "metadataToken": 100665105,
           "canonicalSignature": "(AlternateLookup_1\u0026):System.Boolean",
           "normalizedSignature": "TryGetAlternateLookup|(AlternateLookup_1\u0026):System.Boolean|static=false",
@@ -1582,8 +1582,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1594,7 +1594,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601::Add(T):System.Boolean",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100704583,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Add|(T):System.Boolean|static=false",
@@ -1608,14 +1608,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ISet\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ISet\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ICollection\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601::UnionWith(IEnumerable_1):System.Void",
-          "clrName": "UnionWith",
+          "targetName": "UnionWith",
           "metadataToken": 100704584,
           "canonicalSignature": "(IEnumerable_1):System.Void",
           "normalizedSignature": "UnionWith|(IEnumerable_1):System.Void|static=false",
@@ -1629,14 +1629,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ISet\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ISet\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ISet\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
-          "clrName": "Add",
+          "targetName": "Add",
           "metadataToken": 100704543,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
@@ -1650,14 +1650,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ICollection\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
-          "clrName": "Clear",
+          "targetName": "Clear",
           "metadataToken": 100704544,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -1671,14 +1671,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ICollection\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100704565,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
@@ -1692,14 +1692,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.IEnumerable\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.IEnumerable\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -1713,14 +1713,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IEnumerable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100703831,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -1734,14 +1734,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.ICollection"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ISet\u00601::IsSubsetOf(IEnumerable_1):System.Boolean",
-          "clrName": "IsSubsetOf",
+          "targetName": "IsSubsetOf",
           "metadataToken": 100704588,
           "canonicalSignature": "(IEnumerable_1):System.Boolean",
           "normalizedSignature": "IsSubsetOf|(IEnumerable_1):System.Boolean|static=false",
@@ -1755,14 +1755,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ISet\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ISet\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ISet\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
-          "clrName": "Contains",
+          "targetName": "Contains",
           "metadataToken": 100704545,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -1776,14 +1776,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ICollection\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100704546,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -1797,14 +1797,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.ICollection\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlySet\u00601::Contains(T):System.Boolean",
-          "clrName": "Contains",
+          "targetName": "Contains",
           "metadataToken": 100704594,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -1818,14 +1818,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.IReadOnlySet\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.IReadOnlySet\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.IReadOnlySet\u00601"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlySet\u00601::IsProperSubsetOf(IEnumerable_1):System.Boolean",
-          "clrName": "IsProperSubsetOf",
+          "targetName": "IsProperSubsetOf",
           "metadataToken": 100704595,
           "canonicalSignature": "(IEnumerable_1):System.Boolean",
           "normalizedSignature": "IsProperSubsetOf|(IEnumerable_1):System.Boolean|static=false",
@@ -1839,8 +1839,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Generic.IReadOnlySet\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.Generic.IReadOnlySet\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.Generic.IReadOnlySet\u00601"
         }
@@ -1848,7 +1848,7 @@
       "properties": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::Empty:FrozenSet_1",
-          "clrName": "Empty",
+          "targetName": "Empty",
           "metadataToken": 385876304,
           "canonicalSignature": ":FrozenSet_1",
           "normalizedSignature": "Empty|:FrozenSet_1|static=true|accessor=get",
@@ -1862,15 +1862,15 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "emitSemantics": {
             "callableStaticAccessorKind": "property"
           }
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::Comparer:IEqualityComparer_1",
-          "clrName": "Comparer",
+          "targetName": "Comparer",
           "metadataToken": 385876305,
           "canonicalSignature": ":IEqualityComparer_1",
           "normalizedSignature": "Comparer|:IEqualityComparer_1|static=false|accessor=get",
@@ -1884,12 +1884,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable"
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::Items:ImmutableArray_1",
-          "clrName": "Items",
+          "targetName": "Items",
           "metadataToken": 385876306,
           "canonicalSignature": ":ImmutableArray_1",
           "normalizedSignature": "Items|:ImmutableArray_1|static=false|accessor=get",
@@ -1903,12 +1903,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable"
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385876308,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -1922,12 +1922,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601",
+          "ownerIdentity": "System.Collections.Immutable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::IsReadOnly:System.Boolean",
-          "clrName": "IsReadOnly",
+          "targetName": "IsReadOnly",
           "metadataToken": 385881420,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
@@ -1942,12 +1942,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::SyncRoot:System.Object",
-          "clrName": "SyncRoot",
+          "targetName": "SyncRoot",
           "metadataToken": 385881259,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "SyncRoot|:System.Object|static=false|accessor=get",
@@ -1962,12 +1962,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385881419,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -1982,12 +1982,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.ICollection\u00601",
-          "declaringClrType": "System.Collections.Generic.ICollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.Generic.ICollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IReadOnlyCollection\u00601::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385881430,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -2002,12 +2002,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.Generic.IReadOnlyCollection\u00601",
-          "declaringClrType": "System.Collections.Generic.IReadOnlyCollection\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.Generic.IReadOnlyCollection\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385881258,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -2022,12 +2022,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::IsSynchronized:System.Boolean",
-          "clrName": "IsSynchronized",
+          "targetName": "IsSynchronized",
           "metadataToken": 385881260,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSynchronized|:System.Boolean|static=false|accessor=get",
@@ -2042,8 +2042,8 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Collections.ICollection",
-          "declaringClrType": "System.Collections.ICollection",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Collections.ICollection",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -2052,8 +2052,8 @@
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-      "clrName": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-      "assemblyName": "System.Collections.Immutable",
+      "targetName": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
+      "ownerIdentity": "System.Collections.Immutable",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -2063,7 +2063,7 @@
       "arity": 2,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "typeParameters": [
         "T",
@@ -2072,7 +2072,7 @@
       "methods": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601::Contains(TAlternate):System.Boolean",
-          "clrName": "Contains",
+          "targetName": "Contains",
           "metadataToken": 100665122,
           "canonicalSignature": "(TAlternate):System.Boolean",
           "normalizedSignature": "Contains|(TAlternate):System.Boolean|static=false",
@@ -2086,13 +2086,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601::TryGetValue(TAlternate,T\u0026):System.Boolean",
-          "clrName": "TryGetValue",
+          "targetName": "TryGetValue",
           "metadataToken": 100665123,
           "canonicalSignature": "(TAlternate,T\u0026):System.Boolean",
           "normalizedSignature": "TryGetValue|(TAlternate,T\u0026):System.Boolean|static=false",
@@ -2106,8 +2106,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -2120,7 +2120,7 @@
       "properties": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601::Set:FrozenSet_1",
-          "clrName": "Set",
+          "targetName": "Set",
           "metadataToken": 385876315,
           "canonicalSignature": ":FrozenSet_1",
           "normalizedSignature": "Set|:FrozenSet_1|static=false|accessor=get",
@@ -2134,8 +2134,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
+          "ownerIdentity": "System.Collections.Immutable"
         }
       ],
       "fields": [],
@@ -2144,8 +2144,8 @@
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
-      "clrName": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
-      "assemblyName": "System.Collections.Immutable",
+      "targetName": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
+      "ownerIdentity": "System.Collections.Immutable",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -2155,23 +2155,23 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerator\u00601",
-          "clrName": "System.Collections.Generic.IEnumerator\u00601",
+          "targetName": "System.Collections.Generic.IEnumerator\u00601",
           "typeArguments": [
             "T"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerator",
-          "clrName": "System.Collections.IEnumerator"
+          "targetName": "System.Collections.IEnumerator"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "typeParameters": [
@@ -2180,7 +2180,7 @@
       "methods": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
+          "targetName": "MoveNext",
           "metadataToken": 100665115,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
@@ -2194,13 +2194,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator::Reset():System.Void",
-          "clrName": "Reset",
+          "targetName": "Reset",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
@@ -2214,15 +2214,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator::Current:T",
-          "clrName": "Current",
+          "targetName": "Current",
           "metadataToken": 385876313,
           "canonicalSignature": ":T",
           "normalizedSignature": "Current|:T|static=false|accessor=get",
@@ -2236,8 +2236,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Collections.Immutable"
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet\u00601\u002BEnumerator",
+          "ownerIdentity": "System.Collections.Immutable"
         }
       ],
       "fields": [],
@@ -2246,8 +2246,8 @@
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary",
-      "clrName": "System.Collections.Frozen.FrozenDictionary",
-      "assemblyName": "System.Collections.Immutable",
+      "targetName": "System.Collections.Frozen.FrozenDictionary",
+      "ownerIdentity": "System.Collections.Immutable",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -2257,12 +2257,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary::Create(ReadOnlySpan_1):FrozenDictionary_2",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100664973,
           "canonicalSignature": "(ReadOnlySpan_1):FrozenDictionary_2",
           "normalizedSignature": "Create|(ReadOnlySpan_1):FrozenDictionary_2|static=true",
@@ -2276,13 +2276,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary::Create(IEqualityComparer_1,ReadOnlySpan_1):FrozenDictionary_2",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100664974,
           "canonicalSignature": "(IEqualityComparer_1,ReadOnlySpan_1):FrozenDictionary_2",
           "normalizedSignature": "Create|(IEqualityComparer_1,ReadOnlySpan_1):FrozenDictionary_2|static=true",
@@ -2296,13 +2296,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary::ToFrozenDictionary(IEnumerable_1,IEqualityComparer_1):FrozenDictionary_2",
-          "clrName": "ToFrozenDictionary",
+          "targetName": "ToFrozenDictionary",
           "metadataToken": 100664975,
           "canonicalSignature": "(IEnumerable_1,IEqualityComparer_1):FrozenDictionary_2",
           "normalizedSignature": "ToFrozenDictionary|(IEnumerable_1,IEqualityComparer_1):FrozenDictionary_2|static=true",
@@ -2316,13 +2316,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": true
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary::ToFrozenDictionary(IEnumerable_1,Func_2,IEqualityComparer_1):FrozenDictionary_2",
-          "clrName": "ToFrozenDictionary",
+          "targetName": "ToFrozenDictionary",
           "metadataToken": 100664976,
           "canonicalSignature": "(IEnumerable_1,Func_2,IEqualityComparer_1):FrozenDictionary_2",
           "normalizedSignature": "ToFrozenDictionary|(IEnumerable_1,Func_2,IEqualityComparer_1):FrozenDictionary_2|static=true",
@@ -2336,13 +2336,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": true
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary::ToFrozenDictionary(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):FrozenDictionary_2",
-          "clrName": "ToFrozenDictionary",
+          "targetName": "ToFrozenDictionary",
           "metadataToken": 100664977,
           "canonicalSignature": "(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):FrozenDictionary_2",
           "normalizedSignature": "ToFrozenDictionary|(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):FrozenDictionary_2|static=true",
@@ -2356,8 +2356,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenDictionary",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenDictionary",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": true
         }
       ],
@@ -2368,8 +2368,8 @@
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet",
-      "clrName": "System.Collections.Frozen.FrozenSet",
-      "assemblyName": "System.Collections.Immutable",
+      "targetName": "System.Collections.Frozen.FrozenSet",
+      "ownerIdentity": "System.Collections.Immutable",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -2379,12 +2379,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet::Create(ReadOnlySpan_1):FrozenSet_1",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100665058,
           "canonicalSignature": "(ReadOnlySpan_1):FrozenSet_1",
           "normalizedSignature": "Create|(ReadOnlySpan_1):FrozenSet_1|static=true",
@@ -2398,13 +2398,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet::Create(IEqualityComparer_1,ReadOnlySpan_1):FrozenSet_1",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100665059,
           "canonicalSignature": "(IEqualityComparer_1,ReadOnlySpan_1):FrozenSet_1",
           "normalizedSignature": "Create|(IEqualityComparer_1,ReadOnlySpan_1):FrozenSet_1|static=true",
@@ -2418,13 +2418,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet::ToFrozenSet(IEnumerable_1,IEqualityComparer_1):FrozenSet_1",
-          "clrName": "ToFrozenSet",
+          "targetName": "ToFrozenSet",
           "metadataToken": 100665060,
           "canonicalSignature": "(IEnumerable_1,IEqualityComparer_1):FrozenSet_1",
           "normalizedSignature": "ToFrozenSet|(IEnumerable_1,IEqualityComparer_1):FrozenSet_1|static=true",
@@ -2438,8 +2438,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.Frozen.FrozenSet",
-          "declaringAssemblyName": "System.Collections.Immutable",
+          "ownerQualifiedName": "System.Collections.Frozen.FrozenSet",
+          "ownerIdentity": "System.Collections.Immutable",
           "isExtensionMethod": true
         }
       ],

@@ -7,8 +7,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.Buffers.OperationStatus",
-      "clrName": "System.Buffers.OperationStatus",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.OperationStatus",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -18,24 +18,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -43,63 +43,63 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.OperationStatus::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67111764,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.OperationStatus",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.OperationStatus",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.OperationStatus::DoneSystem.Buffers.OperationStatus",
-          "clrName": "Done",
+          "targetName": "Done",
           "metadataToken": 67111765,
           "normalizedSignature": "Done|System.Buffers.OperationStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.OperationStatus",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.OperationStatus",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.OperationStatus::DestinationTooSmallSystem.Buffers.OperationStatus",
-          "clrName": "DestinationTooSmall",
+          "targetName": "DestinationTooSmall",
           "metadataToken": 67111766,
           "normalizedSignature": "DestinationTooSmall|System.Buffers.OperationStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.OperationStatus",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.OperationStatus",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.OperationStatus::NeedMoreDataSystem.Buffers.OperationStatus",
-          "clrName": "NeedMoreData",
+          "targetName": "NeedMoreData",
           "metadataToken": 67111767,
           "normalizedSignature": "NeedMoreData|System.Buffers.OperationStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.OperationStatus",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.OperationStatus",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.OperationStatus::InvalidDataSystem.Buffers.OperationStatus",
-          "clrName": "InvalidData",
+          "targetName": "InvalidData",
           "metadataToken": 67111768,
           "normalizedSignature": "InvalidData|System.Buffers.OperationStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.OperationStatus",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.OperationStatus",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -107,8 +107,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602",
-      "clrName": "System.Buffers.ReadOnlySpanAction\u00602",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.ReadOnlySpanAction\u00602",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Delegate",
       "accessibility": "Public",
@@ -118,16 +118,16 @@
       "arity": 2,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
+        "targetName": "System.MulticastDelegate"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "typeParameters": [
@@ -137,7 +137,7 @@
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::Invoke(ReadOnlySpan_1,TArg):System.Void",
-          "clrName": "Invoke",
+          "targetName": "Invoke",
           "metadataToken": 100677731,
           "canonicalSignature": "(ReadOnlySpan_1,TArg):System.Void",
           "normalizedSignature": "Invoke|(ReadOnlySpan_1,TArg):System.Void|static=false",
@@ -151,13 +151,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySpanAction\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::BeginInvoke(ReadOnlySpan_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
+          "targetName": "BeginInvoke",
           "metadataToken": 100677732,
           "canonicalSignature": "(ReadOnlySpan_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(ReadOnlySpan_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -171,13 +171,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySpanAction\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ReadOnlySpanAction\u00602::EndInvoke(System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
+          "targetName": "EndInvoke",
           "metadataToken": 100677733,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
@@ -191,8 +191,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySpanAction\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -208,15 +208,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySpanAction\u00602",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602",
-      "clrName": "System.Buffers.SpanAction\u00602",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.SpanAction\u00602",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Delegate",
       "accessibility": "Public",
@@ -226,16 +226,16 @@
       "arity": 2,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
+        "targetName": "System.MulticastDelegate"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "typeParameters": [
@@ -245,7 +245,7 @@
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::Invoke(Span_1,TArg):System.Void",
-          "clrName": "Invoke",
+          "targetName": "Invoke",
           "metadataToken": 100677727,
           "canonicalSignature": "(Span_1,TArg):System.Void",
           "normalizedSignature": "Invoke|(Span_1,TArg):System.Void|static=false",
@@ -259,13 +259,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.SpanAction\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::BeginInvoke(Span_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
+          "targetName": "BeginInvoke",
           "metadataToken": 100677728,
           "canonicalSignature": "(Span_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(Span_1,TArg,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -279,13 +279,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.SpanAction\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SpanAction\u00602::EndInvoke(System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
+          "targetName": "EndInvoke",
           "metadataToken": 100677729,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
@@ -299,8 +299,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.SpanAction\u00602",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -316,15 +316,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SpanAction\u00602",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.SpanAction\u00602",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601",
-      "clrName": "System.Buffers.IBufferWriter\u00601",
-      "assemblyName": "System.Memory",
+      "targetName": "System.Buffers.IBufferWriter\u00601",
+      "ownerIdentity": "System.Memory",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -338,7 +338,7 @@
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::Advance(System.Int32):System.Void",
-          "clrName": "Advance",
+          "targetName": "Advance",
           "metadataToken": 100663363,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Advance|(System.Int32):System.Void|static=false",
@@ -352,13 +352,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.IBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
-          "clrName": "GetMemory",
+          "targetName": "GetMemory",
           "metadataToken": 100663364,
           "canonicalSignature": "(System.Int32):Memory_1",
           "normalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
@@ -372,13 +372,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.IBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetSpan(System.Int32):Span_1",
-          "clrName": "GetSpan",
+          "targetName": "GetSpan",
           "metadataToken": 100663365,
           "canonicalSignature": "(System.Int32):Span_1",
           "normalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
@@ -392,8 +392,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.IBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         }
       ],
@@ -404,8 +404,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.IMemoryOwner\u00601",
-      "clrName": "System.Buffers.IMemoryOwner\u00601",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.IMemoryOwner\u00601",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -416,7 +416,7 @@
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "typeParameters": [
@@ -425,7 +425,7 @@
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -439,15 +439,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IMemoryOwner\u00601::Memory:Memory_1",
-          "clrName": "Memory",
+          "targetName": "Memory",
           "metadataToken": 385878724,
           "canonicalSignature": ":Memory_1",
           "normalizedSignature": "Memory|:Memory_1|static=false|accessor=get",
@@ -461,8 +461,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IMemoryOwner\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.IMemoryOwner\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -471,8 +471,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.IPinnable",
-      "clrName": "System.Buffers.IPinnable",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.IPinnable",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -483,7 +483,7 @@
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Pin(System.Int32):System.Buffers.MemoryHandle",
-          "clrName": "Pin",
+          "targetName": "Pin",
           "metadataToken": 100677763,
           "canonicalSignature": "(System.Int32):System.Buffers.MemoryHandle",
           "normalizedSignature": "Pin|(System.Int32):System.Buffers.MemoryHandle|static=false",
@@ -497,13 +497,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IPinnable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.IPinnable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Unpin():System.Void",
-          "clrName": "Unpin",
+          "targetName": "Unpin",
           "metadataToken": 100677764,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Unpin|():System.Void|static=false",
@@ -517,8 +517,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IPinnable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.IPinnable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -529,8 +529,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.MemoryHandle",
-      "clrName": "System.Buffers.MemoryHandle",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.MemoryHandle",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -540,18 +540,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryHandle::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100677767,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -565,13 +565,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryHandle",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.MemoryHandle",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -585,8 +585,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -594,7 +594,7 @@
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryHandle::Pointer:System.Void*",
-          "clrName": "Pointer",
+          "targetName": "Pointer",
           "metadataToken": 385878725,
           "canonicalSignature": ":System.Void*",
           "normalizedSignature": "Pointer|:System.Void*|static=false|accessor=get",
@@ -608,8 +608,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryHandle",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.MemoryHandle",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -623,15 +623,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryHandle",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.MemoryHandle",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601",
-      "clrName": "System.Buffers.ReadOnlySequence\u00601",
-      "assemblyName": "System.Memory",
+      "targetName": "System.Buffers.ReadOnlySequence\u00601",
+      "ownerIdentity": "System.Memory",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -641,7 +641,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "typeParameters": [
         "T"
@@ -649,7 +649,7 @@
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64,System.Int64):ReadOnlySequence_1",
-          "clrName": "Slice",
+          "targetName": "Slice",
           "metadataToken": 100663385,
           "canonicalSignature": "(System.Int64,System.Int64):ReadOnlySequence_1",
           "normalizedSignature": "Slice|(System.Int64,System.Int64):ReadOnlySequence_1|static=false",
@@ -663,13 +663,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64,System.SequencePosition):ReadOnlySequence_1",
-          "clrName": "Slice",
+          "targetName": "Slice",
           "metadataToken": 100663386,
           "canonicalSignature": "(System.Int64,System.SequencePosition):ReadOnlySequence_1",
           "normalizedSignature": "Slice|(System.Int64,System.SequencePosition):ReadOnlySequence_1|static=false",
@@ -683,13 +683,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.Int64):ReadOnlySequence_1",
-          "clrName": "Slice",
+          "targetName": "Slice",
           "metadataToken": 100663387,
           "canonicalSignature": "(System.SequencePosition,System.Int64):ReadOnlySequence_1",
           "normalizedSignature": "Slice|(System.SequencePosition,System.Int64):ReadOnlySequence_1|static=false",
@@ -703,13 +703,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int32,System.Int32):ReadOnlySequence_1",
-          "clrName": "Slice",
+          "targetName": "Slice",
           "metadataToken": 100663388,
           "canonicalSignature": "(System.Int32,System.Int32):ReadOnlySequence_1",
           "normalizedSignature": "Slice|(System.Int32,System.Int32):ReadOnlySequence_1|static=false",
@@ -723,13 +723,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int32,System.SequencePosition):ReadOnlySequence_1",
-          "clrName": "Slice",
+          "targetName": "Slice",
           "metadataToken": 100663389,
           "canonicalSignature": "(System.Int32,System.SequencePosition):ReadOnlySequence_1",
           "normalizedSignature": "Slice|(System.Int32,System.SequencePosition):ReadOnlySequence_1|static=false",
@@ -743,13 +743,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.Int32):ReadOnlySequence_1",
-          "clrName": "Slice",
+          "targetName": "Slice",
           "metadataToken": 100663390,
           "canonicalSignature": "(System.SequencePosition,System.Int32):ReadOnlySequence_1",
           "normalizedSignature": "Slice|(System.SequencePosition,System.Int32):ReadOnlySequence_1|static=false",
@@ -763,13 +763,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.SequencePosition):ReadOnlySequence_1",
-          "clrName": "Slice",
+          "targetName": "Slice",
           "metadataToken": 100663391,
           "canonicalSignature": "(System.SequencePosition,System.SequencePosition):ReadOnlySequence_1",
           "normalizedSignature": "Slice|(System.SequencePosition,System.SequencePosition):ReadOnlySequence_1|static=false",
@@ -783,13 +783,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition):ReadOnlySequence_1",
-          "clrName": "Slice",
+          "targetName": "Slice",
           "metadataToken": 100663392,
           "canonicalSignature": "(System.SequencePosition):ReadOnlySequence_1",
           "normalizedSignature": "Slice|(System.SequencePosition):ReadOnlySequence_1|static=false",
@@ -803,13 +803,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64):ReadOnlySequence_1",
-          "clrName": "Slice",
+          "targetName": "Slice",
           "metadataToken": 100663393,
           "canonicalSignature": "(System.Int64):ReadOnlySequence_1",
           "normalizedSignature": "Slice|(System.Int64):ReadOnlySequence_1|static=false",
@@ -823,13 +823,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::ToString():System.String",
-          "clrName": "ToString",
+          "targetName": "ToString",
           "metadataToken": 100663394,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -843,13 +843,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetEnumerator():Enumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100663395,
           "canonicalSignature": "():Enumerator",
           "normalizedSignature": "GetEnumerator|():Enumerator|static=false",
@@ -863,13 +863,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetPosition(System.Int64):System.SequencePosition",
-          "clrName": "GetPosition",
+          "targetName": "GetPosition",
           "metadataToken": 100663396,
           "canonicalSignature": "(System.Int64):System.SequencePosition",
           "normalizedSignature": "GetPosition|(System.Int64):System.SequencePosition|static=false",
@@ -883,13 +883,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetOffset(System.SequencePosition):System.Int64",
-          "clrName": "GetOffset",
+          "targetName": "GetOffset",
           "metadataToken": 100663397,
           "canonicalSignature": "(System.SequencePosition):System.Int64",
           "normalizedSignature": "GetOffset|(System.SequencePosition):System.Int64|static=false",
@@ -903,13 +903,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetPosition(System.Int64,System.SequencePosition):System.SequencePosition",
-          "clrName": "GetPosition",
+          "targetName": "GetPosition",
           "metadataToken": 100663398,
           "canonicalSignature": "(System.Int64,System.SequencePosition):System.SequencePosition",
           "normalizedSignature": "GetPosition|(System.Int64,System.SequencePosition):System.SequencePosition|static=false",
@@ -923,13 +923,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::TryGet(System.SequencePosition\u0026,ReadOnlyMemory_1\u0026,System.Boolean):System.Boolean",
-          "clrName": "TryGet",
+          "targetName": "TryGet",
           "metadataToken": 100663399,
           "canonicalSignature": "(System.SequencePosition\u0026,ReadOnlyMemory_1\u0026,System.Boolean):System.Boolean",
           "normalizedSignature": "TryGet|(System.SequencePosition\u0026,ReadOnlyMemory_1\u0026,System.Boolean):System.Boolean|static=false",
@@ -943,8 +943,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -961,7 +961,7 @@
       "properties": [
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Length:System.Int64",
-          "clrName": "Length",
+          "targetName": "Length",
           "metadataToken": 385875977,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
@@ -975,12 +975,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::IsEmpty:System.Boolean",
-          "clrName": "IsEmpty",
+          "targetName": "IsEmpty",
           "metadataToken": 385875978,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
@@ -994,12 +994,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::IsSingleSegment:System.Boolean",
-          "clrName": "IsSingleSegment",
+          "targetName": "IsSingleSegment",
           "metadataToken": 385875979,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSingleSegment|:System.Boolean|static=false|accessor=get",
@@ -1013,12 +1013,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::First:ReadOnlyMemory_1",
-          "clrName": "First",
+          "targetName": "First",
           "metadataToken": 385875980,
           "canonicalSignature": ":ReadOnlyMemory_1",
           "normalizedSignature": "First|:ReadOnlyMemory_1|static=false|accessor=get",
@@ -1032,12 +1032,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::FirstSpan:ReadOnlySpan_1",
-          "clrName": "FirstSpan",
+          "targetName": "FirstSpan",
           "metadataToken": 385875981,
           "canonicalSignature": ":ReadOnlySpan_1",
           "normalizedSignature": "FirstSpan|:ReadOnlySpan_1|static=false|accessor=get",
@@ -1051,12 +1051,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Start:System.SequencePosition",
-          "clrName": "Start",
+          "targetName": "Start",
           "metadataToken": 385875982,
           "canonicalSignature": ":System.SequencePosition",
           "normalizedSignature": "Start|:System.SequencePosition|static=false|accessor=get",
@@ -1070,12 +1070,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::End:System.SequencePosition",
-          "clrName": "End",
+          "targetName": "End",
           "metadataToken": 385875983,
           "canonicalSignature": ":System.SequencePosition",
           "normalizedSignature": "End|:System.SequencePosition|static=false|accessor=get",
@@ -1089,22 +1089,22 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         }
       ],
       "fields": [
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::EmptyReadOnlySequence\u00601",
-          "clrName": "Empty",
+          "targetName": "Empty",
           "metadataToken": 67108895,
           "normalizedSignature": "Empty|ReadOnlySequence\u00601|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory",
           "emitSemantics": {
             "callableStaticAccessorKind": "field"
           }
@@ -1120,8 +1120,8 @@
           "isStatic": false,
           "parameterCount": 4,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::.ctor(T[]):void",
@@ -1131,8 +1131,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::.ctor(T[],System.Int32,System.Int32):void",
@@ -1142,8 +1142,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::.ctor(ReadOnlyMemory_1):void",
@@ -1153,15 +1153,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601",
+          "ownerIdentity": "System.Memory"
         }
       ]
     },
     {
       "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
-      "clrName": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
-      "assemblyName": "System.Memory",
+      "targetName": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
+      "ownerIdentity": "System.Memory",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -1171,7 +1171,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "typeParameters": [
         "T"
@@ -1179,7 +1179,7 @@
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601\u002BEnumerator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
+          "targetName": "MoveNext",
           "metadataToken": 100663426,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
@@ -1193,15 +1193,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601\u002BEnumerator::Current:ReadOnlyMemory_1",
-          "clrName": "Current",
+          "targetName": "Current",
           "metadataToken": 385875984,
           "canonicalSignature": ":ReadOnlyMemory_1",
           "normalizedSignature": "Current|:ReadOnlyMemory_1|static=false|accessor=get",
@@ -1215,8 +1215,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
+          "ownerIdentity": "System.Memory"
         }
       ],
       "fields": [],
@@ -1230,8 +1230,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequence\u00601\u002BEnumerator",
+          "ownerIdentity": "System.Memory",
           "parameterModifiers": [
             {
               "index": 0,
@@ -1243,8 +1243,8 @@
     },
     {
       "stableId": "System.Memory:System.Buffers.SequenceReader\u00601",
-      "clrName": "System.Buffers.SequenceReader\u00601",
-      "assemblyName": "System.Memory",
+      "targetName": "System.Buffers.SequenceReader\u00601",
+      "ownerIdentity": "System.Memory",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -1254,7 +1254,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "typeParameters": [
         "T"
@@ -1262,7 +1262,7 @@
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryPeek(T\u0026):System.Boolean",
-          "clrName": "TryPeek",
+          "targetName": "TryPeek",
           "metadataToken": 100663460,
           "canonicalSignature": "(T\u0026):System.Boolean",
           "normalizedSignature": "TryPeek|(T\u0026):System.Boolean|static=false",
@@ -1276,8 +1276,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1288,7 +1288,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryPeek(System.Int64,T\u0026):System.Boolean",
-          "clrName": "TryPeek",
+          "targetName": "TryPeek",
           "metadataToken": 100663461,
           "canonicalSignature": "(System.Int64,T\u0026):System.Boolean",
           "normalizedSignature": "TryPeek|(System.Int64,T\u0026):System.Boolean|static=false",
@@ -1302,8 +1302,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1314,7 +1314,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryRead(T\u0026):System.Boolean",
-          "clrName": "TryRead",
+          "targetName": "TryRead",
           "metadataToken": 100663462,
           "canonicalSignature": "(T\u0026):System.Boolean",
           "normalizedSignature": "TryRead|(T\u0026):System.Boolean|static=false",
@@ -1328,8 +1328,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1340,7 +1340,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Rewind(System.Int64):System.Void",
-          "clrName": "Rewind",
+          "targetName": "Rewind",
           "metadataToken": 100663463,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "Rewind|(System.Int64):System.Void|static=false",
@@ -1354,13 +1354,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Advance(System.Int64):System.Void",
-          "clrName": "Advance",
+          "targetName": "Advance",
           "metadataToken": 100663467,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "Advance|(System.Int64):System.Void|static=false",
@@ -1374,13 +1374,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryCopyTo(Span_1):System.Boolean",
-          "clrName": "TryCopyTo",
+          "targetName": "TryCopyTo",
           "metadataToken": 100663470,
           "canonicalSignature": "(Span_1):System.Boolean",
           "normalizedSignature": "TryCopyTo|(Span_1):System.Boolean|static=false",
@@ -1394,13 +1394,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,T,System.Boolean):System.Boolean",
-          "clrName": "TryReadTo",
+          "targetName": "TryReadTo",
           "metadataToken": 100663472,
           "canonicalSignature": "(ReadOnlySpan_1\u0026,T,System.Boolean):System.Boolean",
           "normalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,T,System.Boolean):System.Boolean|static=false",
@@ -1414,8 +1414,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1426,7 +1426,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,T,T,System.Boolean):System.Boolean",
-          "clrName": "TryReadTo",
+          "targetName": "TryReadTo",
           "metadataToken": 100663474,
           "canonicalSignature": "(ReadOnlySpan_1\u0026,T,T,System.Boolean):System.Boolean",
           "normalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,T,T,System.Boolean):System.Boolean|static=false",
@@ -1440,8 +1440,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1452,7 +1452,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,T,System.Boolean):System.Boolean",
-          "clrName": "TryReadTo",
+          "targetName": "TryReadTo",
           "metadataToken": 100663477,
           "canonicalSignature": "(ReadOnlySequence_1\u0026,T,System.Boolean):System.Boolean",
           "normalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,T,System.Boolean):System.Boolean|static=false",
@@ -1466,8 +1466,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1478,7 +1478,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,T,T,System.Boolean):System.Boolean",
-          "clrName": "TryReadTo",
+          "targetName": "TryReadTo",
           "metadataToken": 100663479,
           "canonicalSignature": "(ReadOnlySequence_1\u0026,T,T,System.Boolean):System.Boolean",
           "normalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,T,T,System.Boolean):System.Boolean|static=false",
@@ -1492,8 +1492,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1504,7 +1504,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadToAny(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
-          "clrName": "TryReadToAny",
+          "targetName": "TryReadToAny",
           "metadataToken": 100663480,
           "canonicalSignature": "(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "normalizedSignature": "TryReadToAny|(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
@@ -1518,8 +1518,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1530,7 +1530,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadToAny(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
-          "clrName": "TryReadToAny",
+          "targetName": "TryReadToAny",
           "metadataToken": 100663482,
           "canonicalSignature": "(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "normalizedSignature": "TryReadToAny|(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
@@ -1544,8 +1544,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1556,7 +1556,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
-          "clrName": "TryReadTo",
+          "targetName": "TryReadTo",
           "metadataToken": 100663484,
           "canonicalSignature": "(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "normalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
@@ -1570,8 +1570,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1582,7 +1582,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
-          "clrName": "TryReadTo",
+          "targetName": "TryReadTo",
           "metadataToken": 100663486,
           "canonicalSignature": "(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "normalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
@@ -1596,8 +1596,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1608,7 +1608,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadExact(System.Int32,ReadOnlySequence_1\u0026):System.Boolean",
-          "clrName": "TryReadExact",
+          "targetName": "TryReadExact",
           "metadataToken": 100663487,
           "canonicalSignature": "(System.Int32,ReadOnlySequence_1\u0026):System.Boolean",
           "normalizedSignature": "TryReadExact|(System.Int32,ReadOnlySequence_1\u0026):System.Boolean|static=false",
@@ -1622,8 +1622,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1634,7 +1634,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryAdvanceTo(T,System.Boolean):System.Boolean",
-          "clrName": "TryAdvanceTo",
+          "targetName": "TryAdvanceTo",
           "metadataToken": 100663488,
           "canonicalSignature": "(T,System.Boolean):System.Boolean",
           "normalizedSignature": "TryAdvanceTo|(T,System.Boolean):System.Boolean|static=false",
@@ -1648,13 +1648,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryAdvanceToAny(ReadOnlySpan_1,System.Boolean):System.Boolean",
-          "clrName": "TryAdvanceToAny",
+          "targetName": "TryAdvanceToAny",
           "metadataToken": 100663489,
           "canonicalSignature": "(ReadOnlySpan_1,System.Boolean):System.Boolean",
           "normalizedSignature": "TryAdvanceToAny|(ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
@@ -1668,13 +1668,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePast(T):System.Int64",
-          "clrName": "AdvancePast",
+          "targetName": "AdvancePast",
           "metadataToken": 100663490,
           "canonicalSignature": "(T):System.Int64",
           "normalizedSignature": "AdvancePast|(T):System.Int64|static=false",
@@ -1688,13 +1688,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(ReadOnlySpan_1):System.Int64",
-          "clrName": "AdvancePastAny",
+          "targetName": "AdvancePastAny",
           "metadataToken": 100663491,
           "canonicalSignature": "(ReadOnlySpan_1):System.Int64",
           "normalizedSignature": "AdvancePastAny|(ReadOnlySpan_1):System.Int64|static=false",
@@ -1708,13 +1708,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T,T,T):System.Int64",
-          "clrName": "AdvancePastAny",
+          "targetName": "AdvancePastAny",
           "metadataToken": 100663492,
           "canonicalSignature": "(T,T,T,T):System.Int64",
           "normalizedSignature": "AdvancePastAny|(T,T,T,T):System.Int64|static=false",
@@ -1728,13 +1728,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T,T):System.Int64",
-          "clrName": "AdvancePastAny",
+          "targetName": "AdvancePastAny",
           "metadataToken": 100663493,
           "canonicalSignature": "(T,T,T):System.Int64",
           "normalizedSignature": "AdvancePastAny|(T,T,T):System.Int64|static=false",
@@ -1748,13 +1748,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T):System.Int64",
-          "clrName": "AdvancePastAny",
+          "targetName": "AdvancePastAny",
           "metadataToken": 100663494,
           "canonicalSignature": "(T,T):System.Int64",
           "normalizedSignature": "AdvancePastAny|(T,T):System.Int64|static=false",
@@ -1768,13 +1768,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvanceToEnd():System.Void",
-          "clrName": "AdvanceToEnd",
+          "targetName": "AdvanceToEnd",
           "metadataToken": 100663495,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "AdvanceToEnd|():System.Void|static=false",
@@ -1788,13 +1788,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::IsNext(T,System.Boolean):System.Boolean",
-          "clrName": "IsNext",
+          "targetName": "IsNext",
           "metadataToken": 100663496,
           "canonicalSignature": "(T,System.Boolean):System.Boolean",
           "normalizedSignature": "IsNext|(T,System.Boolean):System.Boolean|static=false",
@@ -1808,13 +1808,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::IsNext(ReadOnlySpan_1,System.Boolean):System.Boolean",
-          "clrName": "IsNext",
+          "targetName": "IsNext",
           "metadataToken": 100663497,
           "canonicalSignature": "(ReadOnlySpan_1,System.Boolean):System.Boolean",
           "normalizedSignature": "IsNext|(ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
@@ -1828,15 +1828,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::End:System.Boolean",
-          "clrName": "End",
+          "targetName": "End",
           "metadataToken": 385875991,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "End|:System.Boolean|static=false|accessor=get",
@@ -1850,12 +1850,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Sequence:ReadOnlySequence_1",
-          "clrName": "Sequence",
+          "targetName": "Sequence",
           "metadataToken": 385875992,
           "canonicalSignature": ":ReadOnlySequence_1",
           "normalizedSignature": "Sequence|:ReadOnlySequence_1|static=false|accessor=get",
@@ -1869,12 +1869,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::UnreadSequence:ReadOnlySequence_1",
-          "clrName": "UnreadSequence",
+          "targetName": "UnreadSequence",
           "metadataToken": 385875993,
           "canonicalSignature": ":ReadOnlySequence_1",
           "normalizedSignature": "UnreadSequence|:ReadOnlySequence_1|static=false|accessor=get",
@@ -1888,12 +1888,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Position:System.SequencePosition",
-          "clrName": "Position",
+          "targetName": "Position",
           "metadataToken": 385875994,
           "canonicalSignature": ":System.SequencePosition",
           "normalizedSignature": "Position|:System.SequencePosition|static=false|accessor=get",
@@ -1907,12 +1907,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::CurrentSpan:ReadOnlySpan_1",
-          "clrName": "CurrentSpan",
+          "targetName": "CurrentSpan",
           "metadataToken": 385875995,
           "canonicalSignature": ":ReadOnlySpan_1",
           "normalizedSignature": "CurrentSpan|:ReadOnlySpan_1|static=false|accessor=getset",
@@ -1926,12 +1926,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::CurrentSpanIndex:System.Int32",
-          "clrName": "CurrentSpanIndex",
+          "targetName": "CurrentSpanIndex",
           "metadataToken": 385875996,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "CurrentSpanIndex|:System.Int32|static=false|accessor=getset",
@@ -1945,12 +1945,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::UnreadSpan:ReadOnlySpan_1",
-          "clrName": "UnreadSpan",
+          "targetName": "UnreadSpan",
           "metadataToken": 385875997,
           "canonicalSignature": ":ReadOnlySpan_1",
           "normalizedSignature": "UnreadSpan|:ReadOnlySpan_1|static=false|accessor=get",
@@ -1964,12 +1964,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Consumed:System.Int64",
-          "clrName": "Consumed",
+          "targetName": "Consumed",
           "metadataToken": 385875998,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Consumed|:System.Int64|static=false|accessor=getset",
@@ -1983,12 +1983,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Remaining:System.Int64",
-          "clrName": "Remaining",
+          "targetName": "Remaining",
           "metadataToken": 385875999,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Remaining|:System.Int64|static=false|accessor=get",
@@ -2002,12 +2002,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::Length:System.Int64",
-          "clrName": "Length",
+          "targetName": "Length",
           "metadataToken": 385876000,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
@@ -2021,8 +2021,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         }
       ],
       "fields": [],
@@ -2036,15 +2036,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReader\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.SequenceReader\u00601",
+          "ownerIdentity": "System.Memory"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat",
-      "clrName": "System.Buffers.StandardFormat",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.StandardFormat",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -2054,12 +2054,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601",
-          "clrName": "System.IEquatable\u00601",
+          "targetName": "System.IEquatable\u00601",
           "typeArguments": [
             "StandardFormat"
           ]
@@ -2068,7 +2068,7 @@
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.StandardFormat",
-          "clrName": "Parse",
+          "targetName": "Parse",
           "metadataToken": 100677785,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.StandardFormat",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.StandardFormat|static=true",
@@ -2082,13 +2082,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Parse(System.String):System.Buffers.StandardFormat",
-          "clrName": "Parse",
+          "targetName": "Parse",
           "metadataToken": 100677786,
           "canonicalSignature": "(System.String):System.Buffers.StandardFormat",
           "normalizedSignature": "Parse|(System.String):System.Buffers.StandardFormat|static=true",
@@ -2102,13 +2102,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Buffers.StandardFormat\u0026):System.Boolean",
-          "clrName": "TryParse",
+          "targetName": "TryParse",
           "metadataToken": 100677787,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Buffers.StandardFormat\u0026):System.Boolean",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Buffers.StandardFormat\u0026):System.Boolean|static=true",
@@ -2122,8 +2122,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -2134,7 +2134,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Equals(System.Object):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100677789,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
@@ -2148,13 +2148,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::GetHashCode():System.Int32",
-          "clrName": "GetHashCode",
+          "targetName": "GetHashCode",
           "metadataToken": 100677790,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
@@ -2168,13 +2168,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Equals(System.Buffers.StandardFormat):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100677791,
           "canonicalSignature": "(System.Buffers.StandardFormat):System.Boolean",
           "normalizedSignature": "Equals|(System.Buffers.StandardFormat):System.Boolean|static=false",
@@ -2188,13 +2188,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::ToString():System.String",
-          "clrName": "ToString",
+          "targetName": "ToString",
           "metadataToken": 100677792,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -2208,13 +2208,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100668531,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
@@ -2228,8 +2228,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IEquatable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IEquatable\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IEquatable\u00601"
         }
@@ -2237,7 +2237,7 @@
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Symbol:System.Char",
-          "clrName": "Symbol",
+          "targetName": "Symbol",
           "metadataToken": 385878727,
           "canonicalSignature": ":System.Char",
           "normalizedSignature": "Symbol|:System.Char|static=false|accessor=get",
@@ -2251,12 +2251,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Precision:System.Byte",
-          "clrName": "Precision",
+          "targetName": "Precision",
           "metadataToken": 385878728,
           "canonicalSignature": ":System.Byte",
           "normalizedSignature": "Precision|:System.Byte|static=false|accessor=get",
@@ -2270,12 +2270,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::HasPrecision:System.Boolean",
-          "clrName": "HasPrecision",
+          "targetName": "HasPrecision",
           "metadataToken": 385878729,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "HasPrecision|:System.Boolean|static=false|accessor=get",
@@ -2289,12 +2289,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::IsDefault:System.Boolean",
-          "clrName": "IsDefault",
+          "targetName": "IsDefault",
           "metadataToken": 385878731,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsDefault|:System.Boolean|static=false|accessor=get",
@@ -2308,34 +2308,34 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::NoPrecisionSystem.Byte",
-          "clrName": "NoPrecision",
+          "targetName": "NoPrecision",
           "metadataToken": 67111769,
           "normalizedSignature": "NoPrecision|System.Byte|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::MaxPrecisionSystem.Byte",
-          "clrName": "MaxPrecision",
+          "targetName": "MaxPrecision",
           "metadataToken": 67111770,
           "normalizedSignature": "MaxPrecision|System.Byte|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -2348,15 +2348,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.StandardFormat",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.StandardFormat",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601",
-      "clrName": "System.Buffers.ArrayBufferWriter\u00601",
-      "assemblyName": "System.Memory",
+      "targetName": "System.Buffers.ArrayBufferWriter\u00601",
+      "ownerIdentity": "System.Memory",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2366,12 +2366,12 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601",
-          "clrName": "System.Buffers.IBufferWriter\u00601",
+          "targetName": "System.Buffers.IBufferWriter\u00601",
           "typeArguments": [
             "T"
           ]
@@ -2383,7 +2383,7 @@
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::Clear():System.Void",
-          "clrName": "Clear",
+          "targetName": "Clear",
           "metadataToken": 100663517,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -2397,13 +2397,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::ResetWrittenCount():System.Void",
-          "clrName": "ResetWrittenCount",
+          "targetName": "ResetWrittenCount",
           "metadataToken": 100663518,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "ResetWrittenCount|():System.Void|static=false",
@@ -2417,13 +2417,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::Advance(System.Int32):System.Void",
-          "clrName": "Advance",
+          "targetName": "Advance",
           "metadataToken": 100663519,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Advance|(System.Int32):System.Void|static=false",
@@ -2437,13 +2437,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
-          "clrName": "GetMemory",
+          "targetName": "GetMemory",
           "metadataToken": 100663520,
           "canonicalSignature": "(System.Int32):Memory_1",
           "normalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
@@ -2457,13 +2457,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::GetSpan(System.Int32):Span_1",
-          "clrName": "GetSpan",
+          "targetName": "GetSpan",
           "metadataToken": 100663521,
           "canonicalSignature": "(System.Int32):Span_1",
           "normalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
@@ -2477,13 +2477,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::Advance(System.Int32):System.Void",
-          "clrName": "Advance",
+          "targetName": "Advance",
           "metadataToken": 100663363,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Advance|(System.Int32):System.Void|static=false",
@@ -2497,14 +2497,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.IBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "sourceInterface": "System.Buffers.IBufferWriter\u00601"
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetMemory(System.Int32):Memory_1",
-          "clrName": "GetMemory",
+          "targetName": "GetMemory",
           "metadataToken": 100663364,
           "canonicalSignature": "(System.Int32):Memory_1",
           "normalizedSignature": "GetMemory|(System.Int32):Memory_1|static=false",
@@ -2518,14 +2518,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.IBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "sourceInterface": "System.Buffers.IBufferWriter\u00601"
         },
         {
           "stableId": "System.Memory:System.Buffers.IBufferWriter\u00601::GetSpan(System.Int32):Span_1",
-          "clrName": "GetSpan",
+          "targetName": "GetSpan",
           "metadataToken": 100663365,
           "canonicalSignature": "(System.Int32):Span_1",
           "normalizedSignature": "GetSpan|(System.Int32):Span_1|static=false",
@@ -2539,8 +2539,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.IBufferWriter\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false,
           "sourceInterface": "System.Buffers.IBufferWriter\u00601"
         }
@@ -2548,7 +2548,7 @@
       "properties": [
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::WrittenMemory:ReadOnlyMemory_1",
-          "clrName": "WrittenMemory",
+          "targetName": "WrittenMemory",
           "metadataToken": 385876001,
           "canonicalSignature": ":ReadOnlyMemory_1",
           "normalizedSignature": "WrittenMemory|:ReadOnlyMemory_1|static=false|accessor=get",
@@ -2562,12 +2562,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::WrittenSpan:ReadOnlySpan_1",
-          "clrName": "WrittenSpan",
+          "targetName": "WrittenSpan",
           "metadataToken": 385876002,
           "canonicalSignature": ":ReadOnlySpan_1",
           "normalizedSignature": "WrittenSpan|:ReadOnlySpan_1|static=false|accessor=get",
@@ -2581,12 +2581,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::WrittenCount:System.Int32",
-          "clrName": "WrittenCount",
+          "targetName": "WrittenCount",
           "metadataToken": 385876003,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "WrittenCount|:System.Int32|static=false|accessor=get",
@@ -2600,12 +2600,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::Capacity:System.Int32",
-          "clrName": "Capacity",
+          "targetName": "Capacity",
           "metadataToken": 385876004,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Capacity|:System.Int32|static=false|accessor=get",
@@ -2619,12 +2619,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::FreeCapacity:System.Int32",
-          "clrName": "FreeCapacity",
+          "targetName": "FreeCapacity",
           "metadataToken": 385876005,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "FreeCapacity|:System.Int32|static=false|accessor=get",
@@ -2638,8 +2638,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory"
         }
       ],
       "fields": [],
@@ -2653,8 +2653,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ArrayBufferWriter\u00601::.ctor(System.Int32):void",
@@ -2664,15 +2664,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayBufferWriter\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ArrayBufferWriter\u00601",
+          "ownerIdentity": "System.Memory"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601",
-      "clrName": "System.Buffers.ArrayPool\u00601",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.ArrayPool\u00601",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2682,7 +2682,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "typeParameters": [
         "T"
@@ -2690,7 +2690,7 @@
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Create():ArrayPool_1",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100677737,
           "canonicalSignature": "():ArrayPool_1",
           "normalizedSignature": "Create|():ArrayPool_1|static=true",
@@ -2704,13 +2704,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.ArrayPool\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Create(System.Int32,System.Int32):ArrayPool_1",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100677738,
           "canonicalSignature": "(System.Int32,System.Int32):ArrayPool_1",
           "normalizedSignature": "Create|(System.Int32,System.Int32):ArrayPool_1|static=true",
@@ -2724,13 +2724,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.ArrayPool\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Rent(System.Int32):T[]",
-          "clrName": "Rent",
+          "targetName": "Rent",
           "metadataToken": 100677739,
           "canonicalSignature": "(System.Int32):T[]",
           "normalizedSignature": "Rent|(System.Int32):T[]|static=false",
@@ -2744,13 +2744,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.ArrayPool\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Return(T[],System.Boolean):System.Void",
-          "clrName": "Return",
+          "targetName": "Return",
           "metadataToken": 100677740,
           "canonicalSignature": "(T[],System.Boolean):System.Void",
           "normalizedSignature": "Return|(T[],System.Boolean):System.Void|static=false",
@@ -2764,15 +2764,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.ArrayPool\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Shared:ArrayPool_1",
-          "clrName": "Shared",
+          "targetName": "Shared",
           "metadataToken": 385878720,
           "canonicalSignature": ":ArrayPool_1",
           "normalizedSignature": "Shared|:ArrayPool_1|static=true|accessor=get",
@@ -2786,8 +2786,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.ArrayPool\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "emitSemantics": {
             "callableStaticAccessorKind": "property"
           }
@@ -2804,15 +2804,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Buffers.ArrayPool\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.ArrayPool\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601",
-      "clrName": "System.Buffers.MemoryManager\u00601",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.MemoryManager\u00601",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2822,23 +2822,23 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IMemoryOwner\u00601",
-          "clrName": "System.Buffers.IMemoryOwner\u00601",
+          "targetName": "System.Buffers.IMemoryOwner\u00601",
           "typeArguments": [
             "T"
           ]
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable",
-          "clrName": "System.Buffers.IPinnable"
+          "targetName": "System.Buffers.IPinnable"
         }
       ],
       "typeParameters": [
@@ -2847,7 +2847,7 @@
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::GetSpan():Span_1",
-          "clrName": "GetSpan",
+          "targetName": "GetSpan",
           "metadataToken": 100677769,
           "canonicalSignature": "():Span_1",
           "normalizedSignature": "GetSpan|():Span_1|static=false",
@@ -2861,13 +2861,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.MemoryManager\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::Pin(System.Int32):System.Buffers.MemoryHandle",
-          "clrName": "Pin",
+          "targetName": "Pin",
           "metadataToken": 100677770,
           "canonicalSignature": "(System.Int32):System.Buffers.MemoryHandle",
           "normalizedSignature": "Pin|(System.Int32):System.Buffers.MemoryHandle|static=false",
@@ -2881,13 +2881,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.MemoryManager\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::Unpin():System.Void",
-          "clrName": "Unpin",
+          "targetName": "Unpin",
           "metadataToken": 100677771,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Unpin|():System.Void|static=false",
@@ -2901,13 +2901,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.MemoryManager\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::CreateMemory(System.Int32):Memory_1",
-          "clrName": "CreateMemory",
+          "targetName": "CreateMemory",
           "metadataToken": 100677772,
           "canonicalSignature": "(System.Int32):Memory_1",
           "normalizedSignature": "CreateMemory|(System.Int32):Memory_1|static=false",
@@ -2921,13 +2921,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.MemoryManager\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::CreateMemory(System.Int32,System.Int32):Memory_1",
-          "clrName": "CreateMemory",
+          "targetName": "CreateMemory",
           "metadataToken": 100677773,
           "canonicalSignature": "(System.Int32,System.Int32):Memory_1",
           "normalizedSignature": "CreateMemory|(System.Int32,System.Int32):Memory_1|static=false",
@@ -2941,13 +2941,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.MemoryManager\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::TryGetArray(ArraySegment_1\u0026):System.Boolean",
-          "clrName": "TryGetArray",
+          "targetName": "TryGetArray",
           "metadataToken": 100677774,
           "canonicalSignature": "(ArraySegment_1\u0026):System.Boolean",
           "normalizedSignature": "TryGetArray|(ArraySegment_1\u0026):System.Boolean|static=false",
@@ -2961,8 +2961,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "ProtectedInternal",
-          "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.MemoryManager\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -2973,7 +2973,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100677776,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -2987,13 +2987,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.MemoryManager\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3007,14 +3007,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Pin(System.Int32):System.Buffers.MemoryHandle",
-          "clrName": "Pin",
+          "targetName": "Pin",
           "metadataToken": 100677763,
           "canonicalSignature": "(System.Int32):System.Buffers.MemoryHandle",
           "normalizedSignature": "Pin|(System.Int32):System.Buffers.MemoryHandle|static=false",
@@ -3028,14 +3028,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IPinnable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.IPinnable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Buffers.IPinnable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IPinnable::Unpin():System.Void",
-          "clrName": "Unpin",
+          "targetName": "Unpin",
           "metadataToken": 100677764,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Unpin|():System.Void|static=false",
@@ -3049,8 +3049,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.IPinnable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.IPinnable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Buffers.IPinnable"
         }
@@ -3058,7 +3058,7 @@
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager\u00601::Memory:Memory_1",
-          "clrName": "Memory",
+          "targetName": "Memory",
           "metadataToken": 385878726,
           "canonicalSignature": ":Memory_1",
           "normalizedSignature": "Memory|:Memory_1|static=false|accessor=get",
@@ -3072,12 +3072,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.MemoryManager\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.IMemoryOwner\u00601::Memory:Memory_1",
-          "clrName": "Memory",
+          "targetName": "Memory",
           "metadataToken": 385878724,
           "canonicalSignature": ":Memory_1",
           "normalizedSignature": "Memory|:Memory_1|static=false|accessor=get",
@@ -3092,8 +3092,8 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.Buffers.IMemoryOwner\u00601",
-          "declaringClrType": "System.Buffers.IMemoryOwner\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.IMemoryOwner\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -3107,15 +3107,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Buffers.MemoryManager\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Buffers.MemoryManager\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Memory:System.Buffers.MemoryPool\u00601",
-      "clrName": "System.Buffers.MemoryPool\u00601",
-      "assemblyName": "System.Memory",
+      "targetName": "System.Buffers.MemoryPool\u00601",
+      "ownerIdentity": "System.Memory",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3125,12 +3125,12 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "typeParameters": [
@@ -3139,7 +3139,7 @@
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::Rent(System.Int32):IMemoryOwner_1",
-          "clrName": "Rent",
+          "targetName": "Rent",
           "metadataToken": 100663367,
           "canonicalSignature": "(System.Int32):IMemoryOwner_1",
           "normalizedSignature": "Rent|(System.Int32):IMemoryOwner_1|static=false",
@@ -3153,13 +3153,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryPool\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.MemoryPool\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663370,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3173,13 +3173,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryPool\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.MemoryPool\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663371,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -3193,13 +3193,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Buffers.MemoryPool\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.MemoryPool\u00601",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3213,8 +3213,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -3222,7 +3222,7 @@
       "properties": [
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::Shared:MemoryPool_1",
-          "clrName": "Shared",
+          "targetName": "Shared",
           "metadataToken": 385875975,
           "canonicalSignature": ":MemoryPool_1",
           "normalizedSignature": "Shared|:MemoryPool_1|static=true|accessor=get",
@@ -3236,15 +3236,15 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryPool\u00601",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.MemoryPool\u00601",
+          "ownerIdentity": "System.Memory",
           "emitSemantics": {
             "callableStaticAccessorKind": "property"
           }
         },
         {
           "stableId": "System.Memory:System.Buffers.MemoryPool\u00601::MaxBufferSize:System.Int32",
-          "clrName": "MaxBufferSize",
+          "targetName": "MaxBufferSize",
           "metadataToken": 385875976,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "MaxBufferSize|:System.Int32|static=false|accessor=get",
@@ -3258,8 +3258,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.MemoryPool\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.MemoryPool\u00601",
+          "ownerIdentity": "System.Memory"
         }
       ],
       "fields": [],
@@ -3273,15 +3273,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Buffers.MemoryPool\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.MemoryPool\u00601",
+          "ownerIdentity": "System.Memory"
         }
       ]
     },
     {
       "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment\u00601",
-      "clrName": "System.Buffers.ReadOnlySequenceSegment\u00601",
-      "assemblyName": "System.Memory",
+      "targetName": "System.Buffers.ReadOnlySequenceSegment\u00601",
+      "ownerIdentity": "System.Memory",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3291,7 +3291,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "typeParameters": [
         "T"
@@ -3300,7 +3300,7 @@
       "properties": [
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment\u00601::Memory:ReadOnlyMemory_1",
-          "clrName": "Memory",
+          "targetName": "Memory",
           "metadataToken": 385875988,
           "canonicalSignature": ":ReadOnlyMemory_1",
           "normalizedSignature": "Memory|:ReadOnlyMemory_1|static=false|accessor=getset",
@@ -3314,12 +3314,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequenceSegment\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequenceSegment\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment\u00601::Next:ReadOnlySequenceSegment_1",
-          "clrName": "Next",
+          "targetName": "Next",
           "metadataToken": 385875989,
           "canonicalSignature": ":ReadOnlySequenceSegment_1",
           "normalizedSignature": "Next|:ReadOnlySequenceSegment_1|static=false|accessor=getset",
@@ -3333,12 +3333,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequenceSegment\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequenceSegment\u00601",
+          "ownerIdentity": "System.Memory"
         },
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment\u00601::RunningIndex:System.Int64",
-          "clrName": "RunningIndex",
+          "targetName": "RunningIndex",
           "metadataToken": 385875990,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "RunningIndex|:System.Int64|static=false|accessor=getset",
@@ -3352,8 +3352,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.ReadOnlySequenceSegment\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequenceSegment\u00601",
+          "ownerIdentity": "System.Memory"
         }
       ],
       "fields": [],
@@ -3367,15 +3367,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Buffers.ReadOnlySequenceSegment\u00601",
-          "declaringAssemblyName": "System.Memory"
+          "ownerQualifiedName": "System.Buffers.ReadOnlySequenceSegment\u00601",
+          "ownerIdentity": "System.Memory"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.SearchValues\u00601",
-      "clrName": "System.Buffers.SearchValues\u00601",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.SearchValues\u00601",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3385,7 +3385,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "typeParameters": [
         "T"
@@ -3393,7 +3393,7 @@
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues\u00601::Contains(T):System.Boolean",
-          "clrName": "Contains",
+          "targetName": "Contains",
           "metadataToken": 100678067,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
@@ -3407,8 +3407,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SearchValues\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.SearchValues\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -3419,8 +3419,8 @@
     },
     {
       "stableId": "System.Memory:System.Buffers.BuffersExtensions",
-      "clrName": "System.Buffers.BuffersExtensions",
-      "assemblyName": "System.Memory",
+      "targetName": "System.Buffers.BuffersExtensions",
+      "ownerIdentity": "System.Memory",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -3430,12 +3430,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::PositionOf(ReadOnlySequence_1\u0026,T):System.Nullable_1[[System.SequencePosition,System.Memory,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "PositionOf",
+          "targetName": "PositionOf",
           "metadataToken": 100663356,
           "canonicalSignature": "(ReadOnlySequence_1\u0026,T):System.Nullable_1[[System.SequencePosition,System.Memory,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "PositionOf|(ReadOnlySequence_1\u0026,T):System.Nullable_1[[System.SequencePosition,System.Memory,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
@@ -3449,8 +3449,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.BuffersExtensions",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.BuffersExtensions",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": true,
           "parameterModifiers": [
             {
@@ -3461,7 +3461,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::CopyTo(ReadOnlySequence_1\u0026,Span_1):System.Void",
-          "clrName": "CopyTo",
+          "targetName": "CopyTo",
           "metadataToken": 100663358,
           "canonicalSignature": "(ReadOnlySequence_1\u0026,Span_1):System.Void",
           "normalizedSignature": "CopyTo|(ReadOnlySequence_1\u0026,Span_1):System.Void|static=true",
@@ -3475,8 +3475,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.BuffersExtensions",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.BuffersExtensions",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": true,
           "parameterModifiers": [
             {
@@ -3487,7 +3487,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::ToArray(ReadOnlySequence_1\u0026):T[]",
-          "clrName": "ToArray",
+          "targetName": "ToArray",
           "metadataToken": 100663360,
           "canonicalSignature": "(ReadOnlySequence_1\u0026):T[]",
           "normalizedSignature": "ToArray|(ReadOnlySequence_1\u0026):T[]|static=true",
@@ -3501,8 +3501,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.BuffersExtensions",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.BuffersExtensions",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": true,
           "parameterModifiers": [
             {
@@ -3513,7 +3513,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.BuffersExtensions::Write(IBufferWriter_1,ReadOnlySpan_1):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100663361,
           "canonicalSignature": "(IBufferWriter_1,ReadOnlySpan_1):System.Void",
           "normalizedSignature": "Write|(IBufferWriter_1,ReadOnlySpan_1):System.Void|static=true",
@@ -3527,8 +3527,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.BuffersExtensions",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.BuffersExtensions",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": true
         }
       ],
@@ -3539,8 +3539,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Buffers.SearchValues",
-      "clrName": "System.Buffers.SearchValues",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Buffers.SearchValues",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -3550,12 +3550,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues::Create(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100678056,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Create|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -3569,13 +3569,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SearchValues",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.SearchValues",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues::Create(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100678057,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Create|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -3589,13 +3589,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SearchValues",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.SearchValues",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues::Create(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.StringComparison):System.Buffers.SearchValues_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100678058,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.StringComparison):System.Buffers.SearchValues_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Create|(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.StringComparison):System.Buffers.SearchValues_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -3609,8 +3609,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SearchValues",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Buffers.SearchValues",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -3621,8 +3621,8 @@
     },
     {
       "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions",
-      "clrName": "System.Buffers.SequenceReaderExtensions",
-      "assemblyName": "System.Memory",
+      "targetName": "System.Buffers.SequenceReaderExtensions",
+      "ownerIdentity": "System.Memory",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -3632,12 +3632,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadLittleEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean",
-          "clrName": "TryReadLittleEndian",
+          "targetName": "TryReadLittleEndian",
           "metadataToken": 100663501,
           "canonicalSignature": "(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean",
           "normalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean|static=true",
@@ -3651,8 +3651,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReaderExtensions",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": true,
           "parameterModifiers": [
             {
@@ -3667,7 +3667,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean",
-          "clrName": "TryReadBigEndian",
+          "targetName": "TryReadBigEndian",
           "metadataToken": 100663502,
           "canonicalSignature": "(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean",
           "normalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int16\u0026):System.Boolean|static=true",
@@ -3681,8 +3681,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReaderExtensions",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": true,
           "parameterModifiers": [
             {
@@ -3697,7 +3697,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadLittleEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean",
-          "clrName": "TryReadLittleEndian",
+          "targetName": "TryReadLittleEndian",
           "metadataToken": 100663504,
           "canonicalSignature": "(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean|static=true",
@@ -3711,8 +3711,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReaderExtensions",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": true,
           "parameterModifiers": [
             {
@@ -3727,7 +3727,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean",
-          "clrName": "TryReadBigEndian",
+          "targetName": "TryReadBigEndian",
           "metadataToken": 100663505,
           "canonicalSignature": "(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean|static=true",
@@ -3741,8 +3741,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReaderExtensions",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": true,
           "parameterModifiers": [
             {
@@ -3757,7 +3757,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadLittleEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean",
-          "clrName": "TryReadLittleEndian",
+          "targetName": "TryReadLittleEndian",
           "metadataToken": 100663507,
           "canonicalSignature": "(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean",
           "normalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean|static=true",
@@ -3771,8 +3771,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReaderExtensions",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": true,
           "parameterModifiers": [
             {
@@ -3787,7 +3787,7 @@
         },
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean",
-          "clrName": "TryReadBigEndian",
+          "targetName": "TryReadBigEndian",
           "metadataToken": 100663508,
           "canonicalSignature": "(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean",
           "normalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean|static=true",
@@ -3801,8 +3801,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Buffers.SequenceReaderExtensions",
-          "declaringAssemblyName": "System.Memory",
+          "ownerQualifiedName": "System.Buffers.SequenceReaderExtensions",
+          "ownerIdentity": "System.Memory",
           "isExtensionMethod": true,
           "parameterModifiers": [
             {
