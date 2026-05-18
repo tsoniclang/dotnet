@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
-      "clrName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
-      "assemblyName": "System.ComponentModel.Annotations",
+      "targetName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
+      "ownerIdentity": "System.ComponentModel.Annotations",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,51 +42,51 @@
       "fields": [
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109032,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption::NoneSystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67109033,
           "normalizedSignature": "None|System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption::IdentitySystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
-          "clrName": "Identity",
+          "targetName": "Identity",
           "metadataToken": 67109034,
           "normalizedSignature": "Identity|System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption::ComputedSystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
-          "clrName": "Computed",
+          "targetName": "Computed",
           "metadataToken": 67109035,
           "normalizedSignature": "Computed|System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ],
       "events": [],
@@ -94,8 +94,8 @@
     },
     {
       "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
-      "clrName": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
-      "assemblyName": "System.ComponentModel.Annotations",
+      "targetName": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
+      "ownerIdentity": "System.ComponentModel.Annotations",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -105,13 +105,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute::Name:System.String",
-          "clrName": "Name",
+          "targetName": "Name",
           "metadataToken": 385876137,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -125,12 +125,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute::Order:System.Int32",
-          "clrName": "Order",
+          "targetName": "Order",
           "metadataToken": 385876138,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Order|:System.Int32|static=false|accessor=getset",
@@ -144,12 +144,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute::TypeName:System.String",
-          "clrName": "TypeName",
+          "targetName": "TypeName",
           "metadataToken": 385876139,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "TypeName|:System.String|static=false|accessor=getset",
@@ -163,8 +163,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ],
       "fields": [],
@@ -178,8 +178,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute::.ctor(System.String):void",
@@ -189,15 +189,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.ColumnAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ComplexTypeAttribute",
-      "clrName": "System.ComponentModel.DataAnnotations.Schema.ComplexTypeAttribute",
-      "assemblyName": "System.ComponentModel.Annotations",
+      "targetName": "System.ComponentModel.DataAnnotations.Schema.ComplexTypeAttribute",
+      "ownerIdentity": "System.ComponentModel.Annotations",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -207,7 +207,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -222,15 +222,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ComplexTypeAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.ComplexTypeAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
-      "clrName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
-      "assemblyName": "System.ComponentModel.Annotations",
+      "targetName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
+      "ownerIdentity": "System.ComponentModel.Annotations",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -240,13 +240,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute::DatabaseGeneratedOption:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
-          "clrName": "DatabaseGeneratedOption",
+          "targetName": "DatabaseGeneratedOption",
           "metadataToken": 385876140,
           "canonicalSignature": ":System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption",
           "normalizedSignature": "DatabaseGeneratedOption|:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption|static=false|accessor=get",
@@ -260,8 +260,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ],
       "fields": [],
@@ -275,15 +275,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
-      "clrName": "System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
-      "assemblyName": "System.ComponentModel.Annotations",
+      "targetName": "System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
+      "ownerIdentity": "System.ComponentModel.Annotations",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -293,13 +293,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute::Name:System.String",
-          "clrName": "Name",
+          "targetName": "Name",
           "metadataToken": 385876141,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -313,8 +313,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ],
       "fields": [],
@@ -328,15 +328,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
-      "clrName": "System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
-      "assemblyName": "System.ComponentModel.Annotations",
+      "targetName": "System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
+      "ownerIdentity": "System.ComponentModel.Annotations",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -346,13 +346,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute::Property:System.String",
-          "clrName": "Property",
+          "targetName": "Property",
           "metadataToken": 385876142,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Property|:System.String|static=false|accessor=get",
@@ -366,8 +366,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ],
       "fields": [],
@@ -381,15 +381,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute",
-      "clrName": "System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute",
-      "assemblyName": "System.ComponentModel.Annotations",
+      "targetName": "System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute",
+      "ownerIdentity": "System.ComponentModel.Annotations",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -399,7 +399,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -414,15 +414,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.TableAttribute",
-      "clrName": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
-      "assemblyName": "System.ComponentModel.Annotations",
+      "targetName": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
+      "ownerIdentity": "System.ComponentModel.Annotations",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -432,13 +432,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.TableAttribute::Name:System.String",
-          "clrName": "Name",
+          "targetName": "Name",
           "metadataToken": 385876143,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -452,12 +452,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         },
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Schema.TableAttribute::Schema:System.String",
-          "clrName": "Schema",
+          "targetName": "Schema",
           "metadataToken": 385876144,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Schema|:System.String|static=false|accessor=getset",
@@ -471,8 +471,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ],
       "fields": [],
@@ -486,8 +486,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Annotations"
+          "ownerQualifiedName": "System.ComponentModel.DataAnnotations.Schema.TableAttribute",
+          "ownerIdentity": "System.ComponentModel.Annotations"
         }
       ]
     }

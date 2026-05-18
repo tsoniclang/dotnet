@@ -8,8 +8,8 @@
   "types": [
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XmlCaseOrder",
-      "clrName": "System.Xml.XPath.XmlCaseOrder",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XmlCaseOrder",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -19,24 +19,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -44,51 +44,51 @@
       "fields": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlCaseOrder::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67117027,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XmlCaseOrder",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XmlCaseOrder",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlCaseOrder::NoneSystem.Xml.XPath.XmlCaseOrder",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67117028,
           "normalizedSignature": "None|System.Xml.XPath.XmlCaseOrder|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XmlCaseOrder",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XmlCaseOrder",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlCaseOrder::UpperFirstSystem.Xml.XPath.XmlCaseOrder",
-          "clrName": "UpperFirst",
+          "targetName": "UpperFirst",
           "metadataToken": 67117029,
           "normalizedSignature": "UpperFirst|System.Xml.XPath.XmlCaseOrder|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XmlCaseOrder",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XmlCaseOrder",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlCaseOrder::LowerFirstSystem.Xml.XPath.XmlCaseOrder",
-          "clrName": "LowerFirst",
+          "targetName": "LowerFirst",
           "metadataToken": 67117030,
           "normalizedSignature": "LowerFirst|System.Xml.XPath.XmlCaseOrder|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XmlCaseOrder",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XmlCaseOrder",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "events": [],
@@ -96,8 +96,8 @@
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XmlDataType",
-      "clrName": "System.Xml.XPath.XmlDataType",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XmlDataType",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -107,24 +107,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -132,39 +132,39 @@
       "fields": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlDataType::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67117031,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XmlDataType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XmlDataType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlDataType::TextSystem.Xml.XPath.XmlDataType",
-          "clrName": "Text",
+          "targetName": "Text",
           "metadataToken": 67117032,
           "normalizedSignature": "Text|System.Xml.XPath.XmlDataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XmlDataType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XmlDataType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlDataType::NumberSystem.Xml.XPath.XmlDataType",
-          "clrName": "Number",
+          "targetName": "Number",
           "metadataToken": 67117033,
           "normalizedSignature": "Number|System.Xml.XPath.XmlDataType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XmlDataType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XmlDataType",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "events": [],
@@ -172,8 +172,8 @@
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XmlSortOrder",
-      "clrName": "System.Xml.XPath.XmlSortOrder",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XmlSortOrder",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -183,24 +183,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -208,39 +208,39 @@
       "fields": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlSortOrder::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67117024,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XmlSortOrder",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XmlSortOrder",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlSortOrder::AscendingSystem.Xml.XPath.XmlSortOrder",
-          "clrName": "Ascending",
+          "targetName": "Ascending",
           "metadataToken": 67117025,
           "normalizedSignature": "Ascending|System.Xml.XPath.XmlSortOrder|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XmlSortOrder",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XmlSortOrder",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlSortOrder::DescendingSystem.Xml.XPath.XmlSortOrder",
-          "clrName": "Descending",
+          "targetName": "Descending",
           "metadataToken": 67117026,
           "normalizedSignature": "Descending|System.Xml.XPath.XmlSortOrder|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XmlSortOrder",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XmlSortOrder",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "events": [],
@@ -248,8 +248,8 @@
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XPathNamespaceScope",
-      "clrName": "System.Xml.XPath.XPathNamespaceScope",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XPathNamespaceScope",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -259,24 +259,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -284,51 +284,51 @@
       "fields": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNamespaceScope::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67117042,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNamespaceScope",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNamespaceScope",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNamespaceScope::AllSystem.Xml.XPath.XPathNamespaceScope",
-          "clrName": "All",
+          "targetName": "All",
           "metadataToken": 67117043,
           "normalizedSignature": "All|System.Xml.XPath.XPathNamespaceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNamespaceScope",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNamespaceScope",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNamespaceScope::ExcludeXmlSystem.Xml.XPath.XPathNamespaceScope",
-          "clrName": "ExcludeXml",
+          "targetName": "ExcludeXml",
           "metadataToken": 67117044,
           "normalizedSignature": "ExcludeXml|System.Xml.XPath.XPathNamespaceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNamespaceScope",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNamespaceScope",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNamespaceScope::LocalSystem.Xml.XPath.XPathNamespaceScope",
-          "clrName": "Local",
+          "targetName": "Local",
           "metadataToken": 67117045,
           "normalizedSignature": "Local|System.Xml.XPath.XPathNamespaceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNamespaceScope",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNamespaceScope",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "events": [],
@@ -336,8 +336,8 @@
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType",
-      "clrName": "System.Xml.XPath.XPathNodeType",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XPathNodeType",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -347,24 +347,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -372,135 +372,135 @@
       "fields": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67117078,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::RootSystem.Xml.XPath.XPathNodeType",
-          "clrName": "Root",
+          "targetName": "Root",
           "metadataToken": 67117079,
           "normalizedSignature": "Root|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::ElementSystem.Xml.XPath.XPathNodeType",
-          "clrName": "Element",
+          "targetName": "Element",
           "metadataToken": 67117080,
           "normalizedSignature": "Element|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::AttributeSystem.Xml.XPath.XPathNodeType",
-          "clrName": "Attribute",
+          "targetName": "Attribute",
           "metadataToken": 67117081,
           "normalizedSignature": "Attribute|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::NamespaceSystem.Xml.XPath.XPathNodeType",
-          "clrName": "Namespace",
+          "targetName": "Namespace",
           "metadataToken": 67117082,
           "normalizedSignature": "Namespace|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::TextSystem.Xml.XPath.XPathNodeType",
-          "clrName": "Text",
+          "targetName": "Text",
           "metadataToken": 67117083,
           "normalizedSignature": "Text|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::SignificantWhitespaceSystem.Xml.XPath.XPathNodeType",
-          "clrName": "SignificantWhitespace",
+          "targetName": "SignificantWhitespace",
           "metadataToken": 67117084,
           "normalizedSignature": "SignificantWhitespace|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::WhitespaceSystem.Xml.XPath.XPathNodeType",
-          "clrName": "Whitespace",
+          "targetName": "Whitespace",
           "metadataToken": 67117085,
           "normalizedSignature": "Whitespace|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::ProcessingInstructionSystem.Xml.XPath.XPathNodeType",
-          "clrName": "ProcessingInstruction",
+          "targetName": "ProcessingInstruction",
           "metadataToken": 67117086,
           "normalizedSignature": "ProcessingInstruction|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::CommentSystem.Xml.XPath.XPathNodeType",
-          "clrName": "Comment",
+          "targetName": "Comment",
           "metadataToken": 67117087,
           "normalizedSignature": "Comment|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::AllSystem.Xml.XPath.XPathNodeType",
-          "clrName": "All",
+          "targetName": "All",
           "metadataToken": 67117088,
           "normalizedSignature": "All|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeType",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "events": [],
@@ -508,8 +508,8 @@
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType",
-      "clrName": "System.Xml.XPath.XPathResultType",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XPathResultType",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -519,24 +519,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -544,99 +544,99 @@
       "fields": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67117034,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathResultType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathResultType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::NumberSystem.Xml.XPath.XPathResultType",
-          "clrName": "Number",
+          "targetName": "Number",
           "metadataToken": 67117035,
           "normalizedSignature": "Number|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathResultType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathResultType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::StringSystem.Xml.XPath.XPathResultType",
-          "clrName": "String",
+          "targetName": "String",
           "metadataToken": 67117036,
           "normalizedSignature": "String|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathResultType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathResultType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::BooleanSystem.Xml.XPath.XPathResultType",
-          "clrName": "Boolean",
+          "targetName": "Boolean",
           "metadataToken": 67117037,
           "normalizedSignature": "Boolean|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathResultType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathResultType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::NodeSetSystem.Xml.XPath.XPathResultType",
-          "clrName": "NodeSet",
+          "targetName": "NodeSet",
           "metadataToken": 67117038,
           "normalizedSignature": "NodeSet|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathResultType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathResultType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::NavigatorSystem.Xml.XPath.XPathResultType",
-          "clrName": "Navigator",
+          "targetName": "Navigator",
           "metadataToken": 67117039,
           "normalizedSignature": "Navigator|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathResultType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathResultType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::AnySystem.Xml.XPath.XPathResultType",
-          "clrName": "Any",
+          "targetName": "Any",
           "metadataToken": 67117040,
           "normalizedSignature": "Any|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathResultType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathResultType",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::ErrorSystem.Xml.XPath.XPathResultType",
-          "clrName": "Error",
+          "targetName": "Error",
           "metadataToken": 67117041,
           "normalizedSignature": "Error|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathResultType",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathResultType",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "events": [],
@@ -644,8 +644,8 @@
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable",
-      "clrName": "System.Xml.XPath.IXPathNavigable",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.IXPathNavigable",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -656,7 +656,7 @@
       "methods": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
-          "clrName": "CreateNavigator",
+          "targetName": "CreateNavigator",
           "metadataToken": 100678031,
           "canonicalSignature": "():System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
@@ -670,8 +670,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.IXPathNavigable",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.IXPathNavigable",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         }
       ],
@@ -682,8 +682,8 @@
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XPathDocument",
-      "clrName": "System.Xml.XPath.XPathDocument",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XPathDocument",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -693,18 +693,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable",
-          "clrName": "System.Xml.XPath.IXPathNavigable"
+          "targetName": "System.Xml.XPath.IXPathNavigable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathDocument::CreateNavigator():System.Xml.XPath.XPathNavigator",
-          "clrName": "CreateNavigator",
+          "targetName": "CreateNavigator",
           "metadataToken": 100678042,
           "canonicalSignature": "():System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
@@ -718,13 +718,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathDocument",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathDocument",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
-          "clrName": "CreateNavigator",
+          "targetName": "CreateNavigator",
           "metadataToken": 100678031,
           "canonicalSignature": "():System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
@@ -738,8 +738,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.IXPathNavigable",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.IXPathNavigable",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.XPath.IXPathNavigable"
         }
@@ -756,8 +756,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathDocument",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathDocument",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathDocument::.ctor(System.Xml.XmlReader,System.Xml.XmlSpace):void",
@@ -767,8 +767,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathDocument",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathDocument",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathDocument::.ctor(System.IO.TextReader):void",
@@ -778,8 +778,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathDocument",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathDocument",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathDocument::.ctor(System.IO.Stream):void",
@@ -789,8 +789,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathDocument",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathDocument",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathDocument::.ctor(System.String):void",
@@ -800,8 +800,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathDocument",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathDocument",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathDocument::.ctor(System.String,System.Xml.XmlSpace):void",
@@ -811,15 +811,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathDocument",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathDocument",
+          "ownerIdentity": "System.Private.Xml"
         }
       ]
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XPathException",
-      "clrName": "System.Xml.XPath.XPathException",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XPathException",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -829,18 +829,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.SystemException",
-        "clrName": "System.SystemException"
+        "targetName": "System.SystemException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100678057,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -854,13 +854,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathException",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathException",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -874,8 +874,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -883,7 +883,7 @@
       "properties": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathException::Message:System.String",
-          "clrName": "Message",
+          "targetName": "Message",
           "metadataToken": 385879650,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
@@ -897,8 +897,8 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathException",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathException",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "fields": [],
@@ -912,8 +912,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Xml.XPath.XPathException",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathException",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathException::.ctor():void",
@@ -923,8 +923,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathException",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathException",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathException::.ctor(System.String):void",
@@ -934,8 +934,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathException",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathException",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathException::.ctor(System.String,System.Exception):void",
@@ -945,15 +945,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathException",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathException",
+          "ownerIdentity": "System.Private.Xml"
         }
       ]
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression",
-      "clrName": "System.Xml.XPath.XPathExpression",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XPathExpression",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -963,12 +963,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::AddSort(System.Object,System.Collections.IComparer):System.Void",
-          "clrName": "AddSort",
+          "targetName": "AddSort",
           "metadataToken": 100678071,
           "canonicalSignature": "(System.Object,System.Collections.IComparer):System.Void",
           "normalizedSignature": "AddSort|(System.Object,System.Collections.IComparer):System.Void|static=false",
@@ -982,13 +982,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathExpression",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathExpression",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::AddSort(System.Object,System.Xml.XPath.XmlSortOrder,System.Xml.XPath.XmlCaseOrder,System.String,System.Xml.XPath.XmlDataType):System.Void",
-          "clrName": "AddSort",
+          "targetName": "AddSort",
           "metadataToken": 100678072,
           "canonicalSignature": "(System.Object,System.Xml.XPath.XmlSortOrder,System.Xml.XPath.XmlCaseOrder,System.String,System.Xml.XPath.XmlDataType):System.Void",
           "normalizedSignature": "AddSort|(System.Object,System.Xml.XPath.XmlSortOrder,System.Xml.XPath.XmlCaseOrder,System.String,System.Xml.XPath.XmlDataType):System.Void|static=false",
@@ -1002,13 +1002,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathExpression",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathExpression",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::Clone():System.Xml.XPath.XPathExpression",
-          "clrName": "Clone",
+          "targetName": "Clone",
           "metadataToken": 100678073,
           "canonicalSignature": "():System.Xml.XPath.XPathExpression",
           "normalizedSignature": "Clone|():System.Xml.XPath.XPathExpression|static=false",
@@ -1022,13 +1022,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathExpression",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathExpression",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::SetContext(System.Xml.XmlNamespaceManager):System.Void",
-          "clrName": "SetContext",
+          "targetName": "SetContext",
           "metadataToken": 100678074,
           "canonicalSignature": "(System.Xml.XmlNamespaceManager):System.Void",
           "normalizedSignature": "SetContext|(System.Xml.XmlNamespaceManager):System.Void|static=false",
@@ -1042,13 +1042,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathExpression",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathExpression",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::SetContext(System.Xml.IXmlNamespaceResolver):System.Void",
-          "clrName": "SetContext",
+          "targetName": "SetContext",
           "metadataToken": 100678075,
           "canonicalSignature": "(System.Xml.IXmlNamespaceResolver):System.Void",
           "normalizedSignature": "SetContext|(System.Xml.IXmlNamespaceResolver):System.Void|static=false",
@@ -1062,13 +1062,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathExpression",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathExpression",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::Compile(System.String):System.Xml.XPath.XPathExpression",
-          "clrName": "Compile",
+          "targetName": "Compile",
           "metadataToken": 100678077,
           "canonicalSignature": "(System.String):System.Xml.XPath.XPathExpression",
           "normalizedSignature": "Compile|(System.String):System.Xml.XPath.XPathExpression|static=true",
@@ -1082,13 +1082,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathExpression",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathExpression",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::Compile(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathExpression",
-          "clrName": "Compile",
+          "targetName": "Compile",
           "metadataToken": 100678078,
           "canonicalSignature": "(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathExpression",
           "normalizedSignature": "Compile|(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathExpression|static=true",
@@ -1102,15 +1102,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathExpression",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathExpression",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::Expression:System.String",
-          "clrName": "Expression",
+          "targetName": "Expression",
           "metadataToken": 385879651,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Expression|:System.String|static=false|accessor=get",
@@ -1124,12 +1124,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathExpression",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathExpression",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::ReturnType:System.Xml.XPath.XPathResultType",
-          "clrName": "ReturnType",
+          "targetName": "ReturnType",
           "metadataToken": 385879652,
           "canonicalSignature": ":System.Xml.XPath.XPathResultType",
           "normalizedSignature": "ReturnType|:System.Xml.XPath.XPathResultType|static=false|accessor=get",
@@ -1143,8 +1143,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathExpression",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathExpression",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "fields": [],
@@ -1153,8 +1153,8 @@
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem",
-      "clrName": "System.Xml.XPath.XPathItem",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XPathItem",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1164,12 +1164,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::ValueAs(System.Type):System.Object",
-          "clrName": "ValueAs",
+          "targetName": "ValueAs",
           "metadataToken": 100678089,
           "canonicalSignature": "(System.Type):System.Object",
           "normalizedSignature": "ValueAs|(System.Type):System.Object|static=false",
@@ -1183,13 +1183,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
-          "clrName": "ValueAs",
+          "targetName": "ValueAs",
           "metadataToken": 100678090,
           "canonicalSignature": "(System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
           "normalizedSignature": "ValueAs|(System.Type,System.Xml.IXmlNamespaceResolver):System.Object|static=false",
@@ -1203,15 +1203,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::IsNode:System.Boolean",
-          "clrName": "IsNode",
+          "targetName": "IsNode",
           "metadataToken": 385879653,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsNode|:System.Boolean|static=false|accessor=get",
@@ -1225,12 +1225,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::XmlType:System.Xml.Schema.XmlSchemaType",
-          "clrName": "XmlType",
+          "targetName": "XmlType",
           "metadataToken": 385879654,
           "canonicalSignature": ":System.Xml.Schema.XmlSchemaType",
           "normalizedSignature": "XmlType|:System.Xml.Schema.XmlSchemaType|static=false|accessor=get",
@@ -1244,12 +1244,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::Value:System.String",
-          "clrName": "Value",
+          "targetName": "Value",
           "metadataToken": 385879655,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Value|:System.String|static=false|accessor=get",
@@ -1263,12 +1263,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::TypedValue:System.Object",
-          "clrName": "TypedValue",
+          "targetName": "TypedValue",
           "metadataToken": 385879656,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "TypedValue|:System.Object|static=false|accessor=get",
@@ -1282,12 +1282,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::ValueType:System.Type",
-          "clrName": "ValueType",
+          "targetName": "ValueType",
           "metadataToken": 385879657,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ValueType|:System.Type|static=false|accessor=get",
@@ -1301,12 +1301,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::ValueAsBoolean:System.Boolean",
-          "clrName": "ValueAsBoolean",
+          "targetName": "ValueAsBoolean",
           "metadataToken": 385879658,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ValueAsBoolean|:System.Boolean|static=false|accessor=get",
@@ -1320,12 +1320,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::ValueAsDateTime:System.DateTime",
-          "clrName": "ValueAsDateTime",
+          "targetName": "ValueAsDateTime",
           "metadataToken": 385879659,
           "canonicalSignature": ":System.DateTime",
           "normalizedSignature": "ValueAsDateTime|:System.DateTime|static=false|accessor=get",
@@ -1339,12 +1339,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::ValueAsDouble:System.Double",
-          "clrName": "ValueAsDouble",
+          "targetName": "ValueAsDouble",
           "metadataToken": 385879660,
           "canonicalSignature": ":System.Double",
           "normalizedSignature": "ValueAsDouble|:System.Double|static=false|accessor=get",
@@ -1358,12 +1358,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::ValueAsInt:System.Int32",
-          "clrName": "ValueAsInt",
+          "targetName": "ValueAsInt",
           "metadataToken": 385879661,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "ValueAsInt|:System.Int32|static=false|accessor=get",
@@ -1377,12 +1377,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::ValueAsLong:System.Int64",
-          "clrName": "ValueAsLong",
+          "targetName": "ValueAsLong",
           "metadataToken": 385879662,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "ValueAsLong|:System.Int64|static=false|accessor=get",
@@ -1396,8 +1396,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "fields": [],
@@ -1411,15 +1411,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Xml.XPath.XPathItem",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathItem",
+          "ownerIdentity": "System.Private.Xml"
         }
       ]
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator",
-      "clrName": "System.Xml.XPath.XPathNavigator",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XPathNavigator",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1429,26 +1429,26 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem",
-        "clrName": "System.Xml.XPath.XPathItem"
+        "targetName": "System.Xml.XPath.XPathItem"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable",
-          "clrName": "System.Xml.XPath.IXPathNavigable"
+          "targetName": "System.Xml.XPath.IXPathNavigable"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlNamespaceResolver",
-          "clrName": "System.Xml.IXmlNamespaceResolver"
+          "targetName": "System.Xml.IXmlNamespaceResolver"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ToString():System.String",
-          "clrName": "ToString",
+          "targetName": "ToString",
           "metadataToken": 100678092,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
@@ -1462,13 +1462,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SetValue(System.String):System.Void",
-          "clrName": "SetValue",
+          "targetName": "SetValue",
           "metadataToken": 100678095,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "SetValue|(System.String):System.Void|static=false",
@@ -1482,13 +1482,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SetTypedValue(System.Object):System.Void",
-          "clrName": "SetTypedValue",
+          "targetName": "SetTypedValue",
           "metadataToken": 100678097,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "SetTypedValue|(System.Object):System.Void|static=false",
@@ -1502,13 +1502,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
-          "clrName": "ValueAs",
+          "targetName": "ValueAs",
           "metadataToken": 100678104,
           "canonicalSignature": "(System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
           "normalizedSignature": "ValueAs|(System.Type,System.Xml.IXmlNamespaceResolver):System.Object|static=false",
@@ -1522,13 +1522,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::CreateNavigator():System.Xml.XPath.XPathNavigator",
-          "clrName": "CreateNavigator",
+          "targetName": "CreateNavigator",
           "metadataToken": 100678106,
           "canonicalSignature": "():System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
@@ -1542,13 +1542,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::LookupNamespace(System.String):System.String",
-          "clrName": "LookupNamespace",
+          "targetName": "LookupNamespace",
           "metadataToken": 100678108,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "LookupNamespace|(System.String):System.String|static=false",
@@ -1562,13 +1562,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::LookupPrefix(System.String):System.String",
-          "clrName": "LookupPrefix",
+          "targetName": "LookupPrefix",
           "metadataToken": 100678109,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "LookupPrefix|(System.String):System.String|static=false",
@@ -1582,13 +1582,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::GetNamespacesInScope(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "GetNamespacesInScope",
+          "targetName": "GetNamespacesInScope",
           "metadataToken": 100678110,
           "canonicalSignature": "(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -1602,13 +1602,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Clone():System.Xml.XPath.XPathNavigator",
-          "clrName": "Clone",
+          "targetName": "Clone",
           "metadataToken": 100678112,
           "canonicalSignature": "():System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "Clone|():System.Xml.XPath.XPathNavigator|static=false",
@@ -1622,13 +1622,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ReadSubtree():System.Xml.XmlReader",
-          "clrName": "ReadSubtree",
+          "targetName": "ReadSubtree",
           "metadataToken": 100678121,
           "canonicalSignature": "():System.Xml.XmlReader",
           "normalizedSignature": "ReadSubtree|():System.Xml.XmlReader|static=false",
@@ -1642,13 +1642,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::WriteSubtree(System.Xml.XmlWriter):System.Void",
-          "clrName": "WriteSubtree",
+          "targetName": "WriteSubtree",
           "metadataToken": 100678122,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteSubtree|(System.Xml.XmlWriter):System.Void|static=false",
@@ -1662,13 +1662,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::GetAttribute(System.String,System.String):System.String",
-          "clrName": "GetAttribute",
+          "targetName": "GetAttribute",
           "metadataToken": 100678125,
           "canonicalSignature": "(System.String,System.String):System.String",
           "normalizedSignature": "GetAttribute|(System.String,System.String):System.String|static=false",
@@ -1682,13 +1682,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToAttribute(System.String,System.String):System.Boolean",
-          "clrName": "MoveToAttribute",
+          "targetName": "MoveToAttribute",
           "metadataToken": 100678126,
           "canonicalSignature": "(System.String,System.String):System.Boolean",
           "normalizedSignature": "MoveToAttribute|(System.String,System.String):System.Boolean|static=false",
@@ -1702,13 +1702,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFirstAttribute():System.Boolean",
-          "clrName": "MoveToFirstAttribute",
+          "targetName": "MoveToFirstAttribute",
           "metadataToken": 100678127,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveToFirstAttribute|():System.Boolean|static=false",
@@ -1722,13 +1722,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToNextAttribute():System.Boolean",
-          "clrName": "MoveToNextAttribute",
+          "targetName": "MoveToNextAttribute",
           "metadataToken": 100678128,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveToNextAttribute|():System.Boolean|static=false",
@@ -1742,13 +1742,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::GetNamespace(System.String):System.String",
-          "clrName": "GetNamespace",
+          "targetName": "GetNamespace",
           "metadataToken": 100678129,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "GetNamespace|(System.String):System.String|static=false",
@@ -1762,13 +1762,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToNamespace(System.String):System.Boolean",
-          "clrName": "MoveToNamespace",
+          "targetName": "MoveToNamespace",
           "metadataToken": 100678130,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "MoveToNamespace|(System.String):System.Boolean|static=false",
@@ -1782,13 +1782,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFirstNamespace(System.Xml.XPath.XPathNamespaceScope):System.Boolean",
-          "clrName": "MoveToFirstNamespace",
+          "targetName": "MoveToFirstNamespace",
           "metadataToken": 100678131,
           "canonicalSignature": "(System.Xml.XPath.XPathNamespaceScope):System.Boolean",
           "normalizedSignature": "MoveToFirstNamespace|(System.Xml.XPath.XPathNamespaceScope):System.Boolean|static=false",
@@ -1802,13 +1802,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToNextNamespace(System.Xml.XPath.XPathNamespaceScope):System.Boolean",
-          "clrName": "MoveToNextNamespace",
+          "targetName": "MoveToNextNamespace",
           "metadataToken": 100678132,
           "canonicalSignature": "(System.Xml.XPath.XPathNamespaceScope):System.Boolean",
           "normalizedSignature": "MoveToNextNamespace|(System.Xml.XPath.XPathNamespaceScope):System.Boolean|static=false",
@@ -1822,13 +1822,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFirstNamespace():System.Boolean",
-          "clrName": "MoveToFirstNamespace",
+          "targetName": "MoveToFirstNamespace",
           "metadataToken": 100678133,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveToFirstNamespace|():System.Boolean|static=false",
@@ -1842,13 +1842,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToNextNamespace():System.Boolean",
-          "clrName": "MoveToNextNamespace",
+          "targetName": "MoveToNextNamespace",
           "metadataToken": 100678134,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveToNextNamespace|():System.Boolean|static=false",
@@ -1862,13 +1862,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToNext():System.Boolean",
-          "clrName": "MoveToNext",
+          "targetName": "MoveToNext",
           "metadataToken": 100678135,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveToNext|():System.Boolean|static=false",
@@ -1882,13 +1882,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToPrevious():System.Boolean",
-          "clrName": "MoveToPrevious",
+          "targetName": "MoveToPrevious",
           "metadataToken": 100678136,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveToPrevious|():System.Boolean|static=false",
@@ -1902,13 +1902,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFirst():System.Boolean",
-          "clrName": "MoveToFirst",
+          "targetName": "MoveToFirst",
           "metadataToken": 100678137,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveToFirst|():System.Boolean|static=false",
@@ -1922,13 +1922,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFirstChild():System.Boolean",
-          "clrName": "MoveToFirstChild",
+          "targetName": "MoveToFirstChild",
           "metadataToken": 100678138,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveToFirstChild|():System.Boolean|static=false",
@@ -1942,13 +1942,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToParent():System.Boolean",
-          "clrName": "MoveToParent",
+          "targetName": "MoveToParent",
           "metadataToken": 100678139,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveToParent|():System.Boolean|static=false",
@@ -1962,13 +1962,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToRoot():System.Void",
-          "clrName": "MoveToRoot",
+          "targetName": "MoveToRoot",
           "metadataToken": 100678140,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "MoveToRoot|():System.Void|static=false",
@@ -1982,13 +1982,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveTo(System.Xml.XPath.XPathNavigator):System.Boolean",
-          "clrName": "MoveTo",
+          "targetName": "MoveTo",
           "metadataToken": 100678141,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Boolean",
           "normalizedSignature": "MoveTo|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
@@ -2002,13 +2002,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToId(System.String):System.Boolean",
-          "clrName": "MoveToId",
+          "targetName": "MoveToId",
           "metadataToken": 100678142,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "MoveToId|(System.String):System.Boolean|static=false",
@@ -2022,13 +2022,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToChild(System.String,System.String):System.Boolean",
-          "clrName": "MoveToChild",
+          "targetName": "MoveToChild",
           "metadataToken": 100678143,
           "canonicalSignature": "(System.String,System.String):System.Boolean",
           "normalizedSignature": "MoveToChild|(System.String,System.String):System.Boolean|static=false",
@@ -2042,13 +2042,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToChild(System.Xml.XPath.XPathNodeType):System.Boolean",
-          "clrName": "MoveToChild",
+          "targetName": "MoveToChild",
           "metadataToken": 100678144,
           "canonicalSignature": "(System.Xml.XPath.XPathNodeType):System.Boolean",
           "normalizedSignature": "MoveToChild|(System.Xml.XPath.XPathNodeType):System.Boolean|static=false",
@@ -2062,13 +2062,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFollowing(System.String,System.String):System.Boolean",
-          "clrName": "MoveToFollowing",
+          "targetName": "MoveToFollowing",
           "metadataToken": 100678145,
           "canonicalSignature": "(System.String,System.String):System.Boolean",
           "normalizedSignature": "MoveToFollowing|(System.String,System.String):System.Boolean|static=false",
@@ -2082,13 +2082,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFollowing(System.String,System.String,System.Xml.XPath.XPathNavigator):System.Boolean",
-          "clrName": "MoveToFollowing",
+          "targetName": "MoveToFollowing",
           "metadataToken": 100678146,
           "canonicalSignature": "(System.String,System.String,System.Xml.XPath.XPathNavigator):System.Boolean",
           "normalizedSignature": "MoveToFollowing|(System.String,System.String,System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
@@ -2102,13 +2102,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFollowing(System.Xml.XPath.XPathNodeType):System.Boolean",
-          "clrName": "MoveToFollowing",
+          "targetName": "MoveToFollowing",
           "metadataToken": 100678147,
           "canonicalSignature": "(System.Xml.XPath.XPathNodeType):System.Boolean",
           "normalizedSignature": "MoveToFollowing|(System.Xml.XPath.XPathNodeType):System.Boolean|static=false",
@@ -2122,13 +2122,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFollowing(System.Xml.XPath.XPathNodeType,System.Xml.XPath.XPathNavigator):System.Boolean",
-          "clrName": "MoveToFollowing",
+          "targetName": "MoveToFollowing",
           "metadataToken": 100678148,
           "canonicalSignature": "(System.Xml.XPath.XPathNodeType,System.Xml.XPath.XPathNavigator):System.Boolean",
           "normalizedSignature": "MoveToFollowing|(System.Xml.XPath.XPathNodeType,System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
@@ -2142,13 +2142,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToNext(System.String,System.String):System.Boolean",
-          "clrName": "MoveToNext",
+          "targetName": "MoveToNext",
           "metadataToken": 100678149,
           "canonicalSignature": "(System.String,System.String):System.Boolean",
           "normalizedSignature": "MoveToNext|(System.String,System.String):System.Boolean|static=false",
@@ -2162,13 +2162,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToNext(System.Xml.XPath.XPathNodeType):System.Boolean",
-          "clrName": "MoveToNext",
+          "targetName": "MoveToNext",
           "metadataToken": 100678150,
           "canonicalSignature": "(System.Xml.XPath.XPathNodeType):System.Boolean",
           "normalizedSignature": "MoveToNext|(System.Xml.XPath.XPathNodeType):System.Boolean|static=false",
@@ -2182,13 +2182,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::IsSamePosition(System.Xml.XPath.XPathNavigator):System.Boolean",
-          "clrName": "IsSamePosition",
+          "targetName": "IsSamePosition",
           "metadataToken": 100678152,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Boolean",
           "normalizedSignature": "IsSamePosition|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
@@ -2202,13 +2202,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::IsDescendant(System.Xml.XPath.XPathNavigator):System.Boolean",
-          "clrName": "IsDescendant",
+          "targetName": "IsDescendant",
           "metadataToken": 100678153,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Boolean",
           "normalizedSignature": "IsDescendant|(System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
@@ -2222,13 +2222,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ComparePosition(System.Xml.XPath.XPathNavigator):System.Xml.XmlNodeOrder",
-          "clrName": "ComparePosition",
+          "targetName": "ComparePosition",
           "metadataToken": 100678154,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Xml.XmlNodeOrder",
           "normalizedSignature": "ComparePosition|(System.Xml.XPath.XPathNavigator):System.Xml.XmlNodeOrder|static=false",
@@ -2242,13 +2242,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::CheckValidity(System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler):System.Boolean",
-          "clrName": "CheckValidity",
+          "targetName": "CheckValidity",
           "metadataToken": 100678156,
           "canonicalSignature": "(System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler):System.Boolean",
           "normalizedSignature": "CheckValidity|(System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler):System.Boolean|static=false",
@@ -2262,13 +2262,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Compile(System.String):System.Xml.XPath.XPathExpression",
-          "clrName": "Compile",
+          "targetName": "Compile",
           "metadataToken": 100678158,
           "canonicalSignature": "(System.String):System.Xml.XPath.XPathExpression",
           "normalizedSignature": "Compile|(System.String):System.Xml.XPath.XPathExpression|static=false",
@@ -2282,13 +2282,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectSingleNode(System.String):System.Xml.XPath.XPathNavigator",
-          "clrName": "SelectSingleNode",
+          "targetName": "SelectSingleNode",
           "metadataToken": 100678159,
           "canonicalSignature": "(System.String):System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "SelectSingleNode|(System.String):System.Xml.XPath.XPathNavigator|static=false",
@@ -2302,13 +2302,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectSingleNode(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathNavigator",
-          "clrName": "SelectSingleNode",
+          "targetName": "SelectSingleNode",
           "metadataToken": 100678160,
           "canonicalSignature": "(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "SelectSingleNode|(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathNavigator|static=false",
@@ -2322,13 +2322,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectSingleNode(System.Xml.XPath.XPathExpression):System.Xml.XPath.XPathNavigator",
-          "clrName": "SelectSingleNode",
+          "targetName": "SelectSingleNode",
           "metadataToken": 100678161,
           "canonicalSignature": "(System.Xml.XPath.XPathExpression):System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "SelectSingleNode|(System.Xml.XPath.XPathExpression):System.Xml.XPath.XPathNavigator|static=false",
@@ -2342,13 +2342,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Select(System.String):System.Xml.XPath.XPathNodeIterator",
-          "clrName": "Select",
+          "targetName": "Select",
           "metadataToken": 100678162,
           "canonicalSignature": "(System.String):System.Xml.XPath.XPathNodeIterator",
           "normalizedSignature": "Select|(System.String):System.Xml.XPath.XPathNodeIterator|static=false",
@@ -2362,13 +2362,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Select(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathNodeIterator",
-          "clrName": "Select",
+          "targetName": "Select",
           "metadataToken": 100678163,
           "canonicalSignature": "(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathNodeIterator",
           "normalizedSignature": "Select|(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathNodeIterator|static=false",
@@ -2382,13 +2382,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Select(System.Xml.XPath.XPathExpression):System.Xml.XPath.XPathNodeIterator",
-          "clrName": "Select",
+          "targetName": "Select",
           "metadataToken": 100678164,
           "canonicalSignature": "(System.Xml.XPath.XPathExpression):System.Xml.XPath.XPathNodeIterator",
           "normalizedSignature": "Select|(System.Xml.XPath.XPathExpression):System.Xml.XPath.XPathNodeIterator|static=false",
@@ -2402,13 +2402,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Evaluate(System.String):System.Object",
-          "clrName": "Evaluate",
+          "targetName": "Evaluate",
           "metadataToken": 100678165,
           "canonicalSignature": "(System.String):System.Object",
           "normalizedSignature": "Evaluate|(System.String):System.Object|static=false",
@@ -2422,13 +2422,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Evaluate(System.String,System.Xml.IXmlNamespaceResolver):System.Object",
-          "clrName": "Evaluate",
+          "targetName": "Evaluate",
           "metadataToken": 100678166,
           "canonicalSignature": "(System.String,System.Xml.IXmlNamespaceResolver):System.Object",
           "normalizedSignature": "Evaluate|(System.String,System.Xml.IXmlNamespaceResolver):System.Object|static=false",
@@ -2442,13 +2442,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Evaluate(System.Xml.XPath.XPathExpression):System.Object",
-          "clrName": "Evaluate",
+          "targetName": "Evaluate",
           "metadataToken": 100678167,
           "canonicalSignature": "(System.Xml.XPath.XPathExpression):System.Object",
           "normalizedSignature": "Evaluate|(System.Xml.XPath.XPathExpression):System.Object|static=false",
@@ -2462,13 +2462,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Evaluate(System.Xml.XPath.XPathExpression,System.Xml.XPath.XPathNodeIterator):System.Object",
-          "clrName": "Evaluate",
+          "targetName": "Evaluate",
           "metadataToken": 100678168,
           "canonicalSignature": "(System.Xml.XPath.XPathExpression,System.Xml.XPath.XPathNodeIterator):System.Object",
           "normalizedSignature": "Evaluate|(System.Xml.XPath.XPathExpression,System.Xml.XPath.XPathNodeIterator):System.Object|static=false",
@@ -2482,13 +2482,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Matches(System.Xml.XPath.XPathExpression):System.Boolean",
-          "clrName": "Matches",
+          "targetName": "Matches",
           "metadataToken": 100678169,
           "canonicalSignature": "(System.Xml.XPath.XPathExpression):System.Boolean",
           "normalizedSignature": "Matches|(System.Xml.XPath.XPathExpression):System.Boolean|static=false",
@@ -2502,13 +2502,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Matches(System.String):System.Boolean",
-          "clrName": "Matches",
+          "targetName": "Matches",
           "metadataToken": 100678170,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "Matches|(System.String):System.Boolean|static=false",
@@ -2522,13 +2522,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectChildren(System.Xml.XPath.XPathNodeType):System.Xml.XPath.XPathNodeIterator",
-          "clrName": "SelectChildren",
+          "targetName": "SelectChildren",
           "metadataToken": 100678171,
           "canonicalSignature": "(System.Xml.XPath.XPathNodeType):System.Xml.XPath.XPathNodeIterator",
           "normalizedSignature": "SelectChildren|(System.Xml.XPath.XPathNodeType):System.Xml.XPath.XPathNodeIterator|static=false",
@@ -2542,13 +2542,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectChildren(System.String,System.String):System.Xml.XPath.XPathNodeIterator",
-          "clrName": "SelectChildren",
+          "targetName": "SelectChildren",
           "metadataToken": 100678172,
           "canonicalSignature": "(System.String,System.String):System.Xml.XPath.XPathNodeIterator",
           "normalizedSignature": "SelectChildren|(System.String,System.String):System.Xml.XPath.XPathNodeIterator|static=false",
@@ -2562,13 +2562,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectAncestors(System.Xml.XPath.XPathNodeType,System.Boolean):System.Xml.XPath.XPathNodeIterator",
-          "clrName": "SelectAncestors",
+          "targetName": "SelectAncestors",
           "metadataToken": 100678173,
           "canonicalSignature": "(System.Xml.XPath.XPathNodeType,System.Boolean):System.Xml.XPath.XPathNodeIterator",
           "normalizedSignature": "SelectAncestors|(System.Xml.XPath.XPathNodeType,System.Boolean):System.Xml.XPath.XPathNodeIterator|static=false",
@@ -2582,13 +2582,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectAncestors(System.String,System.String,System.Boolean):System.Xml.XPath.XPathNodeIterator",
-          "clrName": "SelectAncestors",
+          "targetName": "SelectAncestors",
           "metadataToken": 100678174,
           "canonicalSignature": "(System.String,System.String,System.Boolean):System.Xml.XPath.XPathNodeIterator",
           "normalizedSignature": "SelectAncestors|(System.String,System.String,System.Boolean):System.Xml.XPath.XPathNodeIterator|static=false",
@@ -2602,13 +2602,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectDescendants(System.Xml.XPath.XPathNodeType,System.Boolean):System.Xml.XPath.XPathNodeIterator",
-          "clrName": "SelectDescendants",
+          "targetName": "SelectDescendants",
           "metadataToken": 100678175,
           "canonicalSignature": "(System.Xml.XPath.XPathNodeType,System.Boolean):System.Xml.XPath.XPathNodeIterator",
           "normalizedSignature": "SelectDescendants|(System.Xml.XPath.XPathNodeType,System.Boolean):System.Xml.XPath.XPathNodeIterator|static=false",
@@ -2622,13 +2622,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectDescendants(System.String,System.String,System.Boolean):System.Xml.XPath.XPathNodeIterator",
-          "clrName": "SelectDescendants",
+          "targetName": "SelectDescendants",
           "metadataToken": 100678176,
           "canonicalSignature": "(System.String,System.String,System.Boolean):System.Xml.XPath.XPathNodeIterator",
           "normalizedSignature": "SelectDescendants|(System.String,System.String,System.Boolean):System.Xml.XPath.XPathNodeIterator|static=false",
@@ -2642,13 +2642,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::PrependChild():System.Xml.XmlWriter",
-          "clrName": "PrependChild",
+          "targetName": "PrependChild",
           "metadataToken": 100678178,
           "canonicalSignature": "():System.Xml.XmlWriter",
           "normalizedSignature": "PrependChild|():System.Xml.XmlWriter|static=false",
@@ -2662,13 +2662,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::AppendChild():System.Xml.XmlWriter",
-          "clrName": "AppendChild",
+          "targetName": "AppendChild",
           "metadataToken": 100678179,
           "canonicalSignature": "():System.Xml.XmlWriter",
           "normalizedSignature": "AppendChild|():System.Xml.XmlWriter|static=false",
@@ -2682,13 +2682,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertAfter():System.Xml.XmlWriter",
-          "clrName": "InsertAfter",
+          "targetName": "InsertAfter",
           "metadataToken": 100678180,
           "canonicalSignature": "():System.Xml.XmlWriter",
           "normalizedSignature": "InsertAfter|():System.Xml.XmlWriter|static=false",
@@ -2702,13 +2702,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertBefore():System.Xml.XmlWriter",
-          "clrName": "InsertBefore",
+          "targetName": "InsertBefore",
           "metadataToken": 100678181,
           "canonicalSignature": "():System.Xml.XmlWriter",
           "normalizedSignature": "InsertBefore|():System.Xml.XmlWriter|static=false",
@@ -2722,13 +2722,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::CreateAttributes():System.Xml.XmlWriter",
-          "clrName": "CreateAttributes",
+          "targetName": "CreateAttributes",
           "metadataToken": 100678182,
           "canonicalSignature": "():System.Xml.XmlWriter",
           "normalizedSignature": "CreateAttributes|():System.Xml.XmlWriter|static=false",
@@ -2742,13 +2742,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ReplaceRange(System.Xml.XPath.XPathNavigator):System.Xml.XmlWriter",
-          "clrName": "ReplaceRange",
+          "targetName": "ReplaceRange",
           "metadataToken": 100678183,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Xml.XmlWriter",
           "normalizedSignature": "ReplaceRange|(System.Xml.XPath.XPathNavigator):System.Xml.XmlWriter|static=false",
@@ -2762,13 +2762,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ReplaceSelf(System.String):System.Void",
-          "clrName": "ReplaceSelf",
+          "targetName": "ReplaceSelf",
           "metadataToken": 100678184,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "ReplaceSelf|(System.String):System.Void|static=false",
@@ -2782,13 +2782,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ReplaceSelf(System.Xml.XmlReader):System.Void",
-          "clrName": "ReplaceSelf",
+          "targetName": "ReplaceSelf",
           "metadataToken": 100678185,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReplaceSelf|(System.Xml.XmlReader):System.Void|static=false",
@@ -2802,13 +2802,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ReplaceSelf(System.Xml.XPath.XPathNavigator):System.Void",
-          "clrName": "ReplaceSelf",
+          "targetName": "ReplaceSelf",
           "metadataToken": 100678186,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Void",
           "normalizedSignature": "ReplaceSelf|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
@@ -2822,13 +2822,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::AppendChild(System.String):System.Void",
-          "clrName": "AppendChild",
+          "targetName": "AppendChild",
           "metadataToken": 100678191,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "AppendChild|(System.String):System.Void|static=false",
@@ -2842,13 +2842,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::AppendChild(System.Xml.XmlReader):System.Void",
-          "clrName": "AppendChild",
+          "targetName": "AppendChild",
           "metadataToken": 100678192,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "AppendChild|(System.Xml.XmlReader):System.Void|static=false",
@@ -2862,13 +2862,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::AppendChild(System.Xml.XPath.XPathNavigator):System.Void",
-          "clrName": "AppendChild",
+          "targetName": "AppendChild",
           "metadataToken": 100678193,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Void",
           "normalizedSignature": "AppendChild|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
@@ -2882,13 +2882,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::PrependChild(System.String):System.Void",
-          "clrName": "PrependChild",
+          "targetName": "PrependChild",
           "metadataToken": 100678194,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "PrependChild|(System.String):System.Void|static=false",
@@ -2902,13 +2902,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::PrependChild(System.Xml.XmlReader):System.Void",
-          "clrName": "PrependChild",
+          "targetName": "PrependChild",
           "metadataToken": 100678195,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "PrependChild|(System.Xml.XmlReader):System.Void|static=false",
@@ -2922,13 +2922,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::PrependChild(System.Xml.XPath.XPathNavigator):System.Void",
-          "clrName": "PrependChild",
+          "targetName": "PrependChild",
           "metadataToken": 100678196,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Void",
           "normalizedSignature": "PrependChild|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
@@ -2942,13 +2942,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertBefore(System.String):System.Void",
-          "clrName": "InsertBefore",
+          "targetName": "InsertBefore",
           "metadataToken": 100678197,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "InsertBefore|(System.String):System.Void|static=false",
@@ -2962,13 +2962,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertBefore(System.Xml.XmlReader):System.Void",
-          "clrName": "InsertBefore",
+          "targetName": "InsertBefore",
           "metadataToken": 100678198,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "InsertBefore|(System.Xml.XmlReader):System.Void|static=false",
@@ -2982,13 +2982,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertBefore(System.Xml.XPath.XPathNavigator):System.Void",
-          "clrName": "InsertBefore",
+          "targetName": "InsertBefore",
           "metadataToken": 100678199,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Void",
           "normalizedSignature": "InsertBefore|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
@@ -3002,13 +3002,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertAfter(System.String):System.Void",
-          "clrName": "InsertAfter",
+          "targetName": "InsertAfter",
           "metadataToken": 100678200,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "InsertAfter|(System.String):System.Void|static=false",
@@ -3022,13 +3022,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertAfter(System.Xml.XmlReader):System.Void",
-          "clrName": "InsertAfter",
+          "targetName": "InsertAfter",
           "metadataToken": 100678201,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "InsertAfter|(System.Xml.XmlReader):System.Void|static=false",
@@ -3042,13 +3042,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertAfter(System.Xml.XPath.XPathNavigator):System.Void",
-          "clrName": "InsertAfter",
+          "targetName": "InsertAfter",
           "metadataToken": 100678202,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Void",
           "normalizedSignature": "InsertAfter|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
@@ -3062,13 +3062,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::DeleteRange(System.Xml.XPath.XPathNavigator):System.Void",
-          "clrName": "DeleteRange",
+          "targetName": "DeleteRange",
           "metadataToken": 100678203,
           "canonicalSignature": "(System.Xml.XPath.XPathNavigator):System.Void",
           "normalizedSignature": "DeleteRange|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
@@ -3082,13 +3082,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::DeleteSelf():System.Void",
-          "clrName": "DeleteSelf",
+          "targetName": "DeleteSelf",
           "metadataToken": 100678204,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "DeleteSelf|():System.Void|static=false",
@@ -3102,13 +3102,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::PrependChildElement(System.String,System.String,System.String,System.String):System.Void",
-          "clrName": "PrependChildElement",
+          "targetName": "PrependChildElement",
           "metadataToken": 100678205,
           "canonicalSignature": "(System.String,System.String,System.String,System.String):System.Void",
           "normalizedSignature": "PrependChildElement|(System.String,System.String,System.String,System.String):System.Void|static=false",
@@ -3122,13 +3122,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::AppendChildElement(System.String,System.String,System.String,System.String):System.Void",
-          "clrName": "AppendChildElement",
+          "targetName": "AppendChildElement",
           "metadataToken": 100678206,
           "canonicalSignature": "(System.String,System.String,System.String,System.String):System.Void",
           "normalizedSignature": "AppendChildElement|(System.String,System.String,System.String,System.String):System.Void|static=false",
@@ -3142,13 +3142,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertElementBefore(System.String,System.String,System.String,System.String):System.Void",
-          "clrName": "InsertElementBefore",
+          "targetName": "InsertElementBefore",
           "metadataToken": 100678207,
           "canonicalSignature": "(System.String,System.String,System.String,System.String):System.Void",
           "normalizedSignature": "InsertElementBefore|(System.String,System.String,System.String,System.String):System.Void|static=false",
@@ -3162,13 +3162,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertElementAfter(System.String,System.String,System.String,System.String):System.Void",
-          "clrName": "InsertElementAfter",
+          "targetName": "InsertElementAfter",
           "metadataToken": 100678208,
           "canonicalSignature": "(System.String,System.String,System.String,System.String):System.Void",
           "normalizedSignature": "InsertElementAfter|(System.String,System.String,System.String,System.String):System.Void|static=false",
@@ -3182,13 +3182,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::CreateAttribute(System.String,System.String,System.String,System.String):System.Void",
-          "clrName": "CreateAttribute",
+          "targetName": "CreateAttribute",
           "metadataToken": 100678209,
           "canonicalSignature": "(System.String,System.String,System.String,System.String):System.Void",
           "normalizedSignature": "CreateAttribute|(System.String,System.String,System.String,System.String):System.Void|static=false",
@@ -3202,13 +3202,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
-          "clrName": "Clone",
+          "targetName": "Clone",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -3222,14 +3222,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.ICloneable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.ICloneable"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.IXPathNavigable::CreateNavigator():System.Xml.XPath.XPathNavigator",
-          "clrName": "CreateNavigator",
+          "targetName": "CreateNavigator",
           "metadataToken": 100678031,
           "canonicalSignature": "():System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "CreateNavigator|():System.Xml.XPath.XPathNavigator|static=false",
@@ -3243,14 +3243,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.IXPathNavigable",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.IXPathNavigable",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.XPath.IXPathNavigable"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlNamespaceResolver::GetNamespacesInScope(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "GetNamespacesInScope",
+          "targetName": "GetNamespacesInScope",
           "metadataToken": 100666155,
           "canonicalSignature": "(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetNamespacesInScope|(System.Xml.XmlNamespaceScope):System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -3264,14 +3264,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.IXmlNamespaceResolver",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.IXmlNamespaceResolver",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlNamespaceResolver"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.IXmlNamespaceResolver::LookupNamespace(System.String):System.String",
-          "clrName": "LookupNamespace",
+          "targetName": "LookupNamespace",
           "metadataToken": 100666156,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "LookupNamespace|(System.String):System.String|static=false",
@@ -3285,14 +3285,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.IXmlNamespaceResolver",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.IXmlNamespaceResolver",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false,
           "sourceInterface": "System.Xml.IXmlNamespaceResolver"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ValueAs(System.Type):System.Object",
-          "clrName": "ValueAs",
+          "targetName": "ValueAs",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Object",
           "normalizedSignature": "ValueAs|(System.Type):System.Object|static=false",
@@ -3306,15 +3306,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::IsNode:System.Boolean",
-          "clrName": "IsNode",
+          "targetName": "IsNode",
           "metadataToken": 385879663,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsNode|:System.Boolean|static=false|accessor=get",
@@ -3328,12 +3328,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::XmlType:System.Xml.Schema.XmlSchemaType",
-          "clrName": "XmlType",
+          "targetName": "XmlType",
           "metadataToken": 385879664,
           "canonicalSignature": ":System.Xml.Schema.XmlSchemaType",
           "normalizedSignature": "XmlType|:System.Xml.Schema.XmlSchemaType|static=false|accessor=get",
@@ -3347,12 +3347,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::TypedValue:System.Object",
-          "clrName": "TypedValue",
+          "targetName": "TypedValue",
           "metadataToken": 385879665,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "TypedValue|:System.Object|static=false|accessor=get",
@@ -3366,12 +3366,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ValueType:System.Type",
-          "clrName": "ValueType",
+          "targetName": "ValueType",
           "metadataToken": 385879666,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ValueType|:System.Type|static=false|accessor=get",
@@ -3385,12 +3385,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ValueAsBoolean:System.Boolean",
-          "clrName": "ValueAsBoolean",
+          "targetName": "ValueAsBoolean",
           "metadataToken": 385879667,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ValueAsBoolean|:System.Boolean|static=false|accessor=get",
@@ -3404,12 +3404,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ValueAsDateTime:System.DateTime",
-          "clrName": "ValueAsDateTime",
+          "targetName": "ValueAsDateTime",
           "metadataToken": 385879668,
           "canonicalSignature": ":System.DateTime",
           "normalizedSignature": "ValueAsDateTime|:System.DateTime|static=false|accessor=get",
@@ -3423,12 +3423,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ValueAsDouble:System.Double",
-          "clrName": "ValueAsDouble",
+          "targetName": "ValueAsDouble",
           "metadataToken": 385879669,
           "canonicalSignature": ":System.Double",
           "normalizedSignature": "ValueAsDouble|:System.Double|static=false|accessor=get",
@@ -3442,12 +3442,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ValueAsInt:System.Int32",
-          "clrName": "ValueAsInt",
+          "targetName": "ValueAsInt",
           "metadataToken": 385879670,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "ValueAsInt|:System.Int32|static=false|accessor=get",
@@ -3461,12 +3461,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ValueAsLong:System.Int64",
-          "clrName": "ValueAsLong",
+          "targetName": "ValueAsLong",
           "metadataToken": 385879671,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "ValueAsLong|:System.Int64|static=false|accessor=get",
@@ -3480,12 +3480,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::NameTable:System.Xml.XmlNameTable",
-          "clrName": "NameTable",
+          "targetName": "NameTable",
           "metadataToken": 385879672,
           "canonicalSignature": ":System.Xml.XmlNameTable",
           "normalizedSignature": "NameTable|:System.Xml.XmlNameTable|static=false|accessor=get",
@@ -3499,12 +3499,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::NavigatorComparer:System.Collections.IEqualityComparer",
-          "clrName": "NavigatorComparer",
+          "targetName": "NavigatorComparer",
           "metadataToken": 385879673,
           "canonicalSignature": ":System.Collections.IEqualityComparer",
           "normalizedSignature": "NavigatorComparer|:System.Collections.IEqualityComparer|static=true|accessor=get",
@@ -3518,12 +3518,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::NodeType:System.Xml.XPath.XPathNodeType",
-          "clrName": "NodeType",
+          "targetName": "NodeType",
           "metadataToken": 385879674,
           "canonicalSignature": ":System.Xml.XPath.XPathNodeType",
           "normalizedSignature": "NodeType|:System.Xml.XPath.XPathNodeType|static=false|accessor=get",
@@ -3537,12 +3537,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::LocalName:System.String",
-          "clrName": "LocalName",
+          "targetName": "LocalName",
           "metadataToken": 385879675,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "LocalName|:System.String|static=false|accessor=get",
@@ -3556,12 +3556,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Name:System.String",
-          "clrName": "Name",
+          "targetName": "Name",
           "metadataToken": 385879676,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -3575,12 +3575,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::NamespaceURI:System.String",
-          "clrName": "NamespaceURI",
+          "targetName": "NamespaceURI",
           "metadataToken": 385879677,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "NamespaceURI|:System.String|static=false|accessor=get",
@@ -3594,12 +3594,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Prefix:System.String",
-          "clrName": "Prefix",
+          "targetName": "Prefix",
           "metadataToken": 385879678,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Prefix|:System.String|static=false|accessor=get",
@@ -3613,12 +3613,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::BaseURI:System.String",
-          "clrName": "BaseURI",
+          "targetName": "BaseURI",
           "metadataToken": 385879679,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "BaseURI|:System.String|static=false|accessor=get",
@@ -3632,12 +3632,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::IsEmptyElement:System.Boolean",
-          "clrName": "IsEmptyElement",
+          "targetName": "IsEmptyElement",
           "metadataToken": 385879680,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsEmptyElement|:System.Boolean|static=false|accessor=get",
@@ -3651,12 +3651,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::XmlLang:System.String",
-          "clrName": "XmlLang",
+          "targetName": "XmlLang",
           "metadataToken": 385879681,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "XmlLang|:System.String|static=false|accessor=get",
@@ -3670,12 +3670,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::UnderlyingObject:System.Object",
-          "clrName": "UnderlyingObject",
+          "targetName": "UnderlyingObject",
           "metadataToken": 385879682,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "UnderlyingObject|:System.Object|static=false|accessor=get",
@@ -3689,12 +3689,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::HasAttributes:System.Boolean",
-          "clrName": "HasAttributes",
+          "targetName": "HasAttributes",
           "metadataToken": 385879683,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "HasAttributes|:System.Boolean|static=false|accessor=get",
@@ -3708,12 +3708,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::HasChildren:System.Boolean",
-          "clrName": "HasChildren",
+          "targetName": "HasChildren",
           "metadataToken": 385879684,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "HasChildren|:System.Boolean|static=false|accessor=get",
@@ -3727,12 +3727,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SchemaInfo:System.Xml.Schema.IXmlSchemaInfo",
-          "clrName": "SchemaInfo",
+          "targetName": "SchemaInfo",
           "metadataToken": 385879685,
           "canonicalSignature": ":System.Xml.Schema.IXmlSchemaInfo",
           "normalizedSignature": "SchemaInfo|:System.Xml.Schema.IXmlSchemaInfo|static=false|accessor=get",
@@ -3746,12 +3746,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::CanEdit:System.Boolean",
-          "clrName": "CanEdit",
+          "targetName": "CanEdit",
           "metadataToken": 385879686,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanEdit|:System.Boolean|static=false|accessor=get",
@@ -3765,12 +3765,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::OuterXml:System.String",
-          "clrName": "OuterXml",
+          "targetName": "OuterXml",
           "metadataToken": 385879687,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "OuterXml|:System.String|static=false|accessor=getset",
@@ -3784,12 +3784,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InnerXml:System.String",
-          "clrName": "InnerXml",
+          "targetName": "InnerXml",
           "metadataToken": 385879688,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "InnerXml|:System.String|static=false|accessor=getset",
@@ -3803,8 +3803,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "fields": [],
@@ -3818,15 +3818,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Xml.XPath.XPathNavigator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
+          "ownerIdentity": "System.Private.Xml"
         }
       ]
     },
     {
       "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeIterator",
-      "clrName": "System.Xml.XPath.XPathNodeIterator",
-      "assemblyName": "System.Private.Xml",
+      "targetName": "System.Xml.XPath.XPathNodeIterator",
+      "ownerIdentity": "System.Private.Xml",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3836,22 +3836,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "targetName": "System.Collections.IEnumerable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeIterator::Clone():System.Xml.XPath.XPathNodeIterator",
-          "clrName": "Clone",
+          "targetName": "Clone",
           "metadataToken": 100678331,
           "canonicalSignature": "():System.Xml.XPath.XPathNodeIterator",
           "normalizedSignature": "Clone|():System.Xml.XPath.XPathNodeIterator|static=false",
@@ -3865,13 +3865,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeIterator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeIterator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeIterator::MoveNext():System.Boolean",
-          "clrName": "MoveNext",
+          "targetName": "MoveNext",
           "metadataToken": 100678332,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "MoveNext|():System.Boolean|static=false",
@@ -3885,13 +3885,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeIterator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeIterator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeIterator::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100678336,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -3905,13 +3905,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeIterator",
-          "declaringAssemblyName": "System.Private.Xml",
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeIterator",
+          "ownerIdentity": "System.Private.Xml",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
-          "clrName": "Clone",
+          "targetName": "Clone",
           "metadataToken": 100668509,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Clone|():System.Object|static=false",
@@ -3925,14 +3925,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.ICloneable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -3946,8 +3946,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IEnumerable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IEnumerable"
         }
@@ -3955,7 +3955,7 @@
       "properties": [
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeIterator::Current:System.Xml.XPath.XPathNavigator",
-          "clrName": "Current",
+          "targetName": "Current",
           "metadataToken": 385879736,
           "canonicalSignature": ":System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "Current|:System.Xml.XPath.XPathNavigator|static=false|accessor=get",
@@ -3969,12 +3969,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeIterator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeIterator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeIterator::CurrentPosition:System.Int32",
-          "clrName": "CurrentPosition",
+          "targetName": "CurrentPosition",
           "metadataToken": 385879737,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "CurrentPosition|:System.Int32|static=false|accessor=get",
@@ -3988,12 +3988,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeIterator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeIterator",
+          "ownerIdentity": "System.Private.Xml"
         },
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeIterator::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385879738,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -4007,8 +4007,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XPathNodeIterator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeIterator",
+          "ownerIdentity": "System.Private.Xml"
         }
       ],
       "fields": [],
@@ -4022,15 +4022,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Xml.XPath.XPathNodeIterator",
-          "declaringAssemblyName": "System.Private.Xml"
+          "ownerQualifiedName": "System.Xml.XPath.XPathNodeIterator",
+          "ownerIdentity": "System.Private.Xml"
         }
       ]
     },
     {
       "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions",
-      "clrName": "System.Xml.XPath.Extensions",
-      "assemblyName": "System.Private.Xml.Linq",
+      "targetName": "System.Xml.XPath.Extensions",
+      "ownerIdentity": "System.Private.Xml.Linq",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -4040,12 +4040,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::CreateNavigator(System.Xml.Linq.XNode):System.Xml.XPath.XPathNavigator",
-          "clrName": "CreateNavigator",
+          "targetName": "CreateNavigator",
           "metadataToken": 100663398,
           "canonicalSignature": "(System.Xml.Linq.XNode):System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "CreateNavigator|(System.Xml.Linq.XNode):System.Xml.XPath.XPathNavigator|static=true",
@@ -4059,13 +4059,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "ownerQualifiedName": "System.Xml.XPath.Extensions",
+          "ownerIdentity": "System.Private.Xml.Linq",
           "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::CreateNavigator(System.Xml.Linq.XNode,System.Xml.XmlNameTable):System.Xml.XPath.XPathNavigator",
-          "clrName": "CreateNavigator",
+          "targetName": "CreateNavigator",
           "metadataToken": 100663399,
           "canonicalSignature": "(System.Xml.Linq.XNode,System.Xml.XmlNameTable):System.Xml.XPath.XPathNavigator",
           "normalizedSignature": "CreateNavigator|(System.Xml.Linq.XNode,System.Xml.XmlNameTable):System.Xml.XPath.XPathNavigator|static=true",
@@ -4079,13 +4079,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "ownerQualifiedName": "System.Xml.XPath.Extensions",
+          "ownerIdentity": "System.Private.Xml.Linq",
           "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::XPathEvaluate(System.Xml.Linq.XNode,System.String):System.Object",
-          "clrName": "XPathEvaluate",
+          "targetName": "XPathEvaluate",
           "metadataToken": 100663400,
           "canonicalSignature": "(System.Xml.Linq.XNode,System.String):System.Object",
           "normalizedSignature": "XPathEvaluate|(System.Xml.Linq.XNode,System.String):System.Object|static=true",
@@ -4099,13 +4099,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "ownerQualifiedName": "System.Xml.XPath.Extensions",
+          "ownerIdentity": "System.Private.Xml.Linq",
           "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::XPathEvaluate(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Object",
-          "clrName": "XPathEvaluate",
+          "targetName": "XPathEvaluate",
           "metadataToken": 100663401,
           "canonicalSignature": "(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Object",
           "normalizedSignature": "XPathEvaluate|(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Object|static=true",
@@ -4119,13 +4119,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "ownerQualifiedName": "System.Xml.XPath.Extensions",
+          "ownerIdentity": "System.Private.Xml.Linq",
           "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::XPathSelectElement(System.Xml.Linq.XNode,System.String):System.Xml.Linq.XElement",
-          "clrName": "XPathSelectElement",
+          "targetName": "XPathSelectElement",
           "metadataToken": 100663402,
           "canonicalSignature": "(System.Xml.Linq.XNode,System.String):System.Xml.Linq.XElement",
           "normalizedSignature": "XPathSelectElement|(System.Xml.Linq.XNode,System.String):System.Xml.Linq.XElement|static=true",
@@ -4139,13 +4139,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "ownerQualifiedName": "System.Xml.XPath.Extensions",
+          "ownerIdentity": "System.Private.Xml.Linq",
           "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::XPathSelectElement(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Xml.Linq.XElement",
-          "clrName": "XPathSelectElement",
+          "targetName": "XPathSelectElement",
           "metadataToken": 100663403,
           "canonicalSignature": "(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Xml.Linq.XElement",
           "normalizedSignature": "XPathSelectElement|(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Xml.Linq.XElement|static=true",
@@ -4159,13 +4159,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "ownerQualifiedName": "System.Xml.XPath.Extensions",
+          "ownerIdentity": "System.Private.Xml.Linq",
           "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::XPathSelectElements(System.Xml.Linq.XNode,System.String):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "XPathSelectElements",
+          "targetName": "XPathSelectElements",
           "metadataToken": 100663404,
           "canonicalSignature": "(System.Xml.Linq.XNode,System.String):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "XPathSelectElements|(System.Xml.Linq.XNode,System.String):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
@@ -4179,13 +4179,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "ownerQualifiedName": "System.Xml.XPath.Extensions",
+          "ownerIdentity": "System.Private.Xml.Linq",
           "isExtensionMethod": true
         },
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::XPathSelectElements(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
-          "clrName": "XPathSelectElements",
+          "targetName": "XPathSelectElements",
           "metadataToken": 100663405,
           "canonicalSignature": "(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "XPathSelectElements|(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
@@ -4199,8 +4199,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.Extensions",
-          "declaringAssemblyName": "System.Private.Xml.Linq",
+          "ownerQualifiedName": "System.Xml.XPath.Extensions",
+          "ownerIdentity": "System.Private.Xml.Linq",
           "isExtensionMethod": true
         }
       ],
@@ -4211,8 +4211,8 @@
     },
     {
       "stableId": "System.Xml.XPath.XDocument:System.Xml.XPath.XDocumentExtensions",
-      "clrName": "System.Xml.XPath.XDocumentExtensions",
-      "assemblyName": "System.Xml.XPath.XDocument",
+      "targetName": "System.Xml.XPath.XDocumentExtensions",
+      "ownerIdentity": "System.Xml.XPath.XDocument",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -4222,12 +4222,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Xml.XPath.XDocument:System.Xml.XPath.XDocumentExtensions::ToXPathNavigable(System.Xml.Linq.XNode):System.Xml.XPath.IXPathNavigable",
-          "clrName": "ToXPathNavigable",
+          "targetName": "ToXPathNavigable",
           "metadataToken": 100663297,
           "canonicalSignature": "(System.Xml.Linq.XNode):System.Xml.XPath.IXPathNavigable",
           "normalizedSignature": "ToXPathNavigable|(System.Xml.Linq.XNode):System.Xml.XPath.IXPathNavigable|static=true",
@@ -4241,8 +4241,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Xml.XPath.XDocumentExtensions",
-          "declaringAssemblyName": "System.Xml.XPath.XDocument",
+          "ownerQualifiedName": "System.Xml.XPath.XDocumentExtensions",
+          "ownerIdentity": "System.Xml.XPath.XDocument",
           "isExtensionMethod": true
         }
       ],

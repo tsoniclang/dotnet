@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-      "clrName": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-      "assemblyName": "System.IO.MemoryMappedFiles",
+      "targetName": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
+      "ownerIdentity": "System.IO.MemoryMappedFiles",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,87 +42,87 @@
       "fields": [
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109007,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::ReadWriteSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "clrName": "ReadWrite",
+          "targetName": "ReadWrite",
           "metadataToken": 67109008,
           "normalizedSignature": "ReadWrite|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::ReadSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "clrName": "Read",
+          "targetName": "Read",
           "metadataToken": 67109009,
           "normalizedSignature": "Read|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::WriteSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 67109010,
           "normalizedSignature": "Write|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::CopyOnWriteSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "clrName": "CopyOnWrite",
+          "targetName": "CopyOnWrite",
           "metadataToken": 67109011,
           "normalizedSignature": "CopyOnWrite|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::ReadExecuteSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "clrName": "ReadExecute",
+          "targetName": "ReadExecute",
           "metadataToken": 67109012,
           "normalizedSignature": "ReadExecute|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileAccess::ReadWriteExecuteSystem.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "clrName": "ReadWriteExecute",
+          "targetName": "ReadWriteExecute",
           "metadataToken": 67109013,
           "normalizedSignature": "ReadWriteExecute|System.IO.MemoryMappedFiles.MemoryMappedFileAccess|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileAccess",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         }
       ],
       "events": [],
@@ -130,8 +130,8 @@
     },
     {
       "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
-      "clrName": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
-      "assemblyName": "System.IO.MemoryMappedFiles",
+      "targetName": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
+      "ownerIdentity": "System.IO.MemoryMappedFiles",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -141,24 +141,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -166,39 +166,39 @@
       "fields": [
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileOptions::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109004,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileOptions::NoneSystem.IO.MemoryMappedFiles.MemoryMappedFileOptions",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67109005,
           "normalizedSignature": "None|System.IO.MemoryMappedFiles.MemoryMappedFileOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileOptions::DelayAllocatePagesSystem.IO.MemoryMappedFiles.MemoryMappedFileOptions",
-          "clrName": "DelayAllocatePages",
+          "targetName": "DelayAllocatePages",
           "metadataToken": 67109006,
           "normalizedSignature": "DelayAllocatePages|System.IO.MemoryMappedFiles.MemoryMappedFileOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileOptions",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         }
       ],
       "events": [],
@@ -206,8 +206,8 @@
     },
     {
       "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-      "clrName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-      "assemblyName": "System.IO.MemoryMappedFiles",
+      "targetName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+      "ownerIdentity": "System.IO.MemoryMappedFiles",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -217,24 +217,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -242,171 +242,171 @@
       "fields": [
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109025,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::CopyOnWriteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "CopyOnWrite",
+          "targetName": "CopyOnWrite",
           "metadataToken": 67109026,
           "normalizedSignature": "CopyOnWrite|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::WriteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 67109027,
           "normalizedSignature": "Write|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ReadSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "Read",
+          "targetName": "Read",
           "metadataToken": 67109028,
           "normalizedSignature": "Read|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ExecuteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "Execute",
+          "targetName": "Execute",
           "metadataToken": 67109029,
           "normalizedSignature": "Execute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::DeleteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "Delete",
+          "targetName": "Delete",
           "metadataToken": 67109030,
           "normalizedSignature": "Delete|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ReadPermissionsSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "ReadPermissions",
+          "targetName": "ReadPermissions",
           "metadataToken": 67109031,
           "normalizedSignature": "ReadPermissions|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ChangePermissionsSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "ChangePermissions",
+          "targetName": "ChangePermissions",
           "metadataToken": 67109032,
           "normalizedSignature": "ChangePermissions|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::TakeOwnershipSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "TakeOwnership",
+          "targetName": "TakeOwnership",
           "metadataToken": 67109033,
           "normalizedSignature": "TakeOwnership|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ReadWriteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "ReadWrite",
+          "targetName": "ReadWrite",
           "metadataToken": 67109034,
           "normalizedSignature": "ReadWrite|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ReadExecuteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "ReadExecute",
+          "targetName": "ReadExecute",
           "metadataToken": 67109035,
           "normalizedSignature": "ReadExecute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::ReadWriteExecuteSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "ReadWriteExecute",
+          "targetName": "ReadWriteExecute",
           "metadataToken": 67109036,
           "normalizedSignature": "ReadWriteExecute|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::FullControlSystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "FullControl",
+          "targetName": "FullControl",
           "metadataToken": 67109037,
           "normalizedSignature": "FullControl|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFileRights::AccessSystemSecuritySystem.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "clrName": "AccessSystemSecurity",
+          "targetName": "AccessSystemSecurity",
           "metadataToken": 67109038,
           "normalizedSignature": "AccessSystemSecurity|System.IO.MemoryMappedFiles.MemoryMappedFileRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFileRights",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         }
       ],
       "events": [],
@@ -414,8 +414,8 @@
     },
     {
       "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile",
-      "clrName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-      "assemblyName": "System.IO.MemoryMappedFiles",
+      "targetName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+      "ownerIdentity": "System.IO.MemoryMappedFiles",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -425,18 +425,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::OpenExisting(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "OpenExisting",
+          "targetName": "OpenExisting",
           "metadataToken": 100663374,
           "canonicalSignature": "(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "OpenExisting|(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -450,13 +450,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "OpenExisting",
+          "targetName": "OpenExisting",
           "metadataToken": 100663375,
           "canonicalSignature": "(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -470,13 +470,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "OpenExisting",
+          "targetName": "OpenExisting",
           "metadataToken": 100663376,
           "canonicalSignature": "(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -490,13 +490,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateFromFile",
+          "targetName": "CreateFromFile",
           "metadataToken": 100663377,
           "canonicalSignature": "(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateFromFile|(System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -510,13 +510,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateFromFile",
+          "targetName": "CreateFromFile",
           "metadataToken": 100663378,
           "canonicalSignature": "(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -530,13 +530,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateFromFile",
+          "targetName": "CreateFromFile",
           "metadataToken": 100663379,
           "canonicalSignature": "(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -550,13 +550,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateFromFile",
+          "targetName": "CreateFromFile",
           "metadataToken": 100663380,
           "canonicalSignature": "(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -570,13 +570,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateFromFile",
+          "targetName": "CreateFromFile",
           "metadataToken": 100663381,
           "canonicalSignature": "(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -590,13 +590,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateFromFile",
+          "targetName": "CreateFromFile",
           "metadataToken": 100663382,
           "canonicalSignature": "(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateFromFile|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -610,13 +610,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateFromFile",
+          "targetName": "CreateFromFile",
           "metadataToken": 100663383,
           "canonicalSignature": "(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateFromFile|(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -630,13 +630,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateNew",
+          "targetName": "CreateNew",
           "metadataToken": 100663384,
           "canonicalSignature": "(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateNew|(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -650,13 +650,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateNew",
+          "targetName": "CreateNew",
           "metadataToken": 100663385,
           "canonicalSignature": "(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -670,13 +670,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateNew",
+          "targetName": "CreateNew",
           "metadataToken": 100663386,
           "canonicalSignature": "(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -690,13 +690,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateOrOpen",
+          "targetName": "CreateOrOpen",
           "metadataToken": 100663387,
           "canonicalSignature": "(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateOrOpen|(System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -710,13 +710,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateOrOpen",
+          "targetName": "CreateOrOpen",
           "metadataToken": 100663388,
           "canonicalSignature": "(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -730,13 +730,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "clrName": "CreateOrOpen",
+          "targetName": "CreateOrOpen",
           "metadataToken": 100663389,
           "canonicalSignature": "(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "normalizedSignature": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
@@ -750,13 +750,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream():System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "clrName": "CreateViewStream",
+          "targetName": "CreateViewStream",
           "metadataToken": 100663390,
           "canonicalSignature": "():System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "normalizedSignature": "CreateViewStream|():System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
@@ -770,13 +770,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "clrName": "CreateViewStream",
+          "targetName": "CreateViewStream",
           "metadataToken": 100663391,
           "canonicalSignature": "(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "normalizedSignature": "CreateViewStream|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
@@ -790,13 +790,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "clrName": "CreateViewStream",
+          "targetName": "CreateViewStream",
           "metadataToken": 100663392,
           "canonicalSignature": "(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "normalizedSignature": "CreateViewStream|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
@@ -810,13 +810,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor():System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-          "clrName": "CreateViewAccessor",
+          "targetName": "CreateViewAccessor",
           "metadataToken": 100663393,
           "canonicalSignature": "():System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "normalizedSignature": "CreateViewAccessor|():System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
@@ -830,13 +830,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-          "clrName": "CreateViewAccessor",
+          "targetName": "CreateViewAccessor",
           "metadataToken": 100663394,
           "canonicalSignature": "(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "normalizedSignature": "CreateViewAccessor|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
@@ -850,13 +850,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-          "clrName": "CreateViewAccessor",
+          "targetName": "CreateViewAccessor",
           "metadataToken": 100663395,
           "canonicalSignature": "(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "normalizedSignature": "CreateViewAccessor|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
@@ -870,13 +870,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663396,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -890,13 +890,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663397,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -910,13 +910,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -930,8 +930,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -939,7 +939,7 @@
       "properties": [
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::SafeMemoryMappedFileHandle:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
-          "clrName": "SafeMemoryMappedFileHandle",
+          "targetName": "SafeMemoryMappedFileHandle",
           "metadataToken": 385875999,
           "canonicalSignature": ":Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
           "normalizedSignature": "SafeMemoryMappedFileHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle|static=false|accessor=get",
@@ -953,8 +953,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedFile",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedFile",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         }
       ],
       "fields": [],
@@ -963,8 +963,8 @@
     },
     {
       "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-      "clrName": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-      "assemblyName": "System.IO.MemoryMappedFiles",
+      "targetName": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
+      "ownerIdentity": "System.IO.MemoryMappedFiles",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -974,18 +974,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor",
-        "clrName": "System.IO.UnmanagedMemoryAccessor"
+        "targetName": "System.IO.UnmanagedMemoryAccessor"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663433,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -999,13 +999,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::Flush():System.Void",
-          "clrName": "Flush",
+          "targetName": "Flush",
           "metadataToken": 100663434,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Flush|():System.Void|static=false",
@@ -1019,13 +1019,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1039,14 +1039,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1060,15 +1060,15 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::SafeMemoryMappedViewHandle:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
-          "clrName": "SafeMemoryMappedViewHandle",
+          "targetName": "SafeMemoryMappedViewHandle",
           "metadataToken": 385876005,
           "canonicalSignature": ":Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
           "normalizedSignature": "SafeMemoryMappedViewHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle|static=false|accessor=get",
@@ -1082,12 +1082,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewAccessor::PointerOffset:System.Int64",
-          "clrName": "PointerOffset",
+          "targetName": "PointerOffset",
           "metadataToken": 385876006,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "PointerOffset|:System.Int64|static=false|accessor=get",
@@ -1101,8 +1101,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         }
       ],
       "fields": [],
@@ -1111,8 +1111,8 @@
     },
     {
       "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-      "clrName": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-      "assemblyName": "System.IO.MemoryMappedFiles",
+      "targetName": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
+      "ownerIdentity": "System.IO.MemoryMappedFiles",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1122,22 +1122,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream",
-        "clrName": "System.IO.UnmanagedMemoryStream"
+        "targetName": "System.IO.UnmanagedMemoryStream"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
+          "targetName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::SetLength(System.Int64):System.Void",
-          "clrName": "SetLength",
+          "targetName": "SetLength",
           "metadataToken": 100663438,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
@@ -1151,13 +1151,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663439,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -1171,13 +1171,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::Flush():System.Void",
-          "clrName": "Flush",
+          "targetName": "Flush",
           "metadataToken": 100663440,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Flush|():System.Void|static=false",
@@ -1191,13 +1191,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1211,14 +1211,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1232,14 +1232,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IAsyncDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IAsyncDisposable"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1253,15 +1253,15 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles",
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
+          "ownerIdentity": "System.IO.MemoryMappedFiles",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::SafeMemoryMappedViewHandle:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
-          "clrName": "SafeMemoryMappedViewHandle",
+          "targetName": "SafeMemoryMappedViewHandle",
           "metadataToken": 385876007,
           "canonicalSignature": ":Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle",
           "normalizedSignature": "SafeMemoryMappedViewHandle|:Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle|static=false|accessor=get",
@@ -1275,12 +1275,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         },
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedViewStream::PointerOffset:System.Int64",
-          "clrName": "PointerOffset",
+          "targetName": "PointerOffset",
           "metadataToken": 385876008,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "PointerOffset|:System.Int64|static=false|accessor=get",
@@ -1294,8 +1294,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
-          "declaringAssemblyName": "System.IO.MemoryMappedFiles"
+          "ownerQualifiedName": "System.IO.MemoryMappedFiles.MemoryMappedViewStream",
+          "ownerIdentity": "System.IO.MemoryMappedFiles"
         }
       ],
       "fields": [],

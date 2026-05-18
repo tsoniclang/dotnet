@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelFullMode",
-      "clrName": "System.Threading.Channels.BoundedChannelFullMode",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.BoundedChannelFullMode",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,63 +42,63 @@
       "fields": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelFullMode::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67108936,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.BoundedChannelFullMode",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.BoundedChannelFullMode",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelFullMode::WaitSystem.Threading.Channels.BoundedChannelFullMode",
-          "clrName": "Wait",
+          "targetName": "Wait",
           "metadataToken": 67108937,
           "normalizedSignature": "Wait|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.BoundedChannelFullMode",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.BoundedChannelFullMode",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelFullMode::DropNewestSystem.Threading.Channels.BoundedChannelFullMode",
-          "clrName": "DropNewest",
+          "targetName": "DropNewest",
           "metadataToken": 67108938,
           "normalizedSignature": "DropNewest|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.BoundedChannelFullMode",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.BoundedChannelFullMode",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelFullMode::DropOldestSystem.Threading.Channels.BoundedChannelFullMode",
-          "clrName": "DropOldest",
+          "targetName": "DropOldest",
           "metadataToken": 67108939,
           "normalizedSignature": "DropOldest|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.BoundedChannelFullMode",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.BoundedChannelFullMode",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelFullMode::DropWriteSystem.Threading.Channels.BoundedChannelFullMode",
-          "clrName": "DropWrite",
+          "targetName": "DropWrite",
           "metadataToken": 67108940,
           "normalizedSignature": "DropWrite|System.Threading.Channels.BoundedChannelFullMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.BoundedChannelFullMode",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.BoundedChannelFullMode",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ],
       "events": [],
@@ -106,8 +106,8 @@
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelOptions",
-      "clrName": "System.Threading.Channels.BoundedChannelOptions",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.BoundedChannelOptions",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -117,13 +117,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions",
-        "clrName": "System.Threading.Channels.ChannelOptions"
+        "targetName": "System.Threading.Channels.ChannelOptions"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelOptions::Capacity:System.Int32",
-          "clrName": "Capacity",
+          "targetName": "Capacity",
           "metadataToken": 385876007,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Capacity|:System.Int32|static=false|accessor=getset",
@@ -137,12 +137,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.BoundedChannelOptions",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.BoundedChannelOptions",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.BoundedChannelOptions::FullMode:System.Threading.Channels.BoundedChannelFullMode",
-          "clrName": "FullMode",
+          "targetName": "FullMode",
           "metadataToken": 385876008,
           "canonicalSignature": ":System.Threading.Channels.BoundedChannelFullMode",
           "normalizedSignature": "FullMode|:System.Threading.Channels.BoundedChannelFullMode|static=false|accessor=getset",
@@ -156,8 +156,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.BoundedChannelOptions",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.BoundedChannelOptions",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ],
       "fields": [],
@@ -171,15 +171,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.BoundedChannelOptions",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.BoundedChannelOptions",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00601",
-      "clrName": "System.Threading.Channels.Channel\u00601",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.Channel\u00601",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -189,7 +189,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00602",
-        "clrName": "System.Threading.Channels.Channel\u00602",
+        "targetName": "System.Threading.Channels.Channel\u00602",
         "typeArguments": [
           "T",
           "T"
@@ -211,15 +211,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Threading.Channels.Channel\u00601",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.Channel\u00601",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00602",
-      "clrName": "System.Threading.Channels.Channel\u00602",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.Channel\u00602",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -229,7 +229,7 @@
       "arity": 2,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "typeParameters": [
         "TWrite",
@@ -239,7 +239,7 @@
       "properties": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00602::Reader:ChannelReader_1",
-          "clrName": "Reader",
+          "targetName": "Reader",
           "metadataToken": 385876014,
           "canonicalSignature": ":ChannelReader_1",
           "normalizedSignature": "Reader|:ChannelReader_1|static=false|accessor=getset",
@@ -253,12 +253,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.Channel\u00602",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.Channel\u00602",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel\u00602::Writer:ChannelWriter_1",
-          "clrName": "Writer",
+          "targetName": "Writer",
           "metadataToken": 385876015,
           "canonicalSignature": ":ChannelWriter_1",
           "normalizedSignature": "Writer|:ChannelWriter_1|static=false|accessor=getset",
@@ -272,8 +272,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.Channel\u00602",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.Channel\u00602",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ],
       "fields": [],
@@ -287,15 +287,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Threading.Channels.Channel\u00602",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.Channel\u00602",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException",
-      "clrName": "System.Threading.Channels.ChannelClosedException",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.ChannelClosedException",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -305,18 +305,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.InvalidOperationException",
-        "clrName": "System.InvalidOperationException"
+        "targetName": "System.InvalidOperationException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -330,8 +330,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -348,8 +348,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelClosedException",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelClosedException",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException::.ctor(System.String):void",
@@ -359,8 +359,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelClosedException",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelClosedException",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException::.ctor(System.Exception):void",
@@ -370,8 +370,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelClosedException",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelClosedException",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException::.ctor(System.String,System.Exception):void",
@@ -381,8 +381,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelClosedException",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelClosedException",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -392,15 +392,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Threading.Channels.ChannelClosedException",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelClosedException",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions",
-      "clrName": "System.Threading.Channels.ChannelOptions",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.ChannelOptions",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -410,13 +410,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions::SingleWriter:System.Boolean",
-          "clrName": "SingleWriter",
+          "targetName": "SingleWriter",
           "metadataToken": 385876004,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "SingleWriter|:System.Boolean|static=false|accessor=getset",
@@ -430,12 +430,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelOptions",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelOptions",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions::SingleReader:System.Boolean",
-          "clrName": "SingleReader",
+          "targetName": "SingleReader",
           "metadataToken": 385876005,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "SingleReader|:System.Boolean|static=false|accessor=getset",
@@ -449,12 +449,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelOptions",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelOptions",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions::AllowSynchronousContinuations:System.Boolean",
-          "clrName": "AllowSynchronousContinuations",
+          "targetName": "AllowSynchronousContinuations",
           "metadataToken": 385876006,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "AllowSynchronousContinuations|:System.Boolean|static=false|accessor=getset",
@@ -468,8 +468,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelOptions",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelOptions",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ],
       "fields": [],
@@ -483,15 +483,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Threading.Channels.ChannelOptions",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelOptions",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601",
-      "clrName": "System.Threading.Channels.ChannelReader\u00601",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.ChannelReader\u00601",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -501,7 +501,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "typeParameters": [
         "T"
@@ -509,7 +509,7 @@
       "methods": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::TryRead(T\u0026):System.Boolean",
-          "clrName": "TryRead",
+          "targetName": "TryRead",
           "metadataToken": 100663451,
           "canonicalSignature": "(T\u0026):System.Boolean",
           "normalizedSignature": "TryRead|(T\u0026):System.Boolean|static=false",
@@ -523,8 +523,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.ChannelReader\u00601",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -535,7 +535,7 @@
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::TryPeek(T\u0026):System.Boolean",
-          "clrName": "TryPeek",
+          "targetName": "TryPeek",
           "metadataToken": 100663452,
           "canonicalSignature": "(T\u0026):System.Boolean",
           "normalizedSignature": "TryPeek|(T\u0026):System.Boolean|static=false",
@@ -549,8 +549,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.ChannelReader\u00601",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -561,7 +561,7 @@
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::WaitToReadAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "WaitToReadAsync",
+          "targetName": "WaitToReadAsync",
           "metadataToken": 100663453,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "WaitToReadAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -575,13 +575,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.ChannelReader\u00601",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::ReadAsync(System.Threading.CancellationToken):ValueTask_1",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 100663454,
           "canonicalSignature": "(System.Threading.CancellationToken):ValueTask_1",
           "normalizedSignature": "ReadAsync|(System.Threading.CancellationToken):ValueTask_1|static=false",
@@ -595,13 +595,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.ChannelReader\u00601",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::ReadAllAsync(System.Threading.CancellationToken):IAsyncEnumerable_1",
-          "clrName": "ReadAllAsync",
+          "targetName": "ReadAllAsync",
           "metadataToken": 100663455,
           "canonicalSignature": "(System.Threading.CancellationToken):IAsyncEnumerable_1",
           "normalizedSignature": "ReadAllAsync|(System.Threading.CancellationToken):IAsyncEnumerable_1|static=false",
@@ -615,15 +615,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.ChannelReader\u00601",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::Completion:System.Threading.Tasks.Task",
-          "clrName": "Completion",
+          "targetName": "Completion",
           "metadataToken": 385876009,
           "canonicalSignature": ":System.Threading.Tasks.Task",
           "normalizedSignature": "Completion|:System.Threading.Tasks.Task|static=false|accessor=get",
@@ -637,12 +637,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelReader\u00601",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::CanCount:System.Boolean",
-          "clrName": "CanCount",
+          "targetName": "CanCount",
           "metadataToken": 385876010,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanCount|:System.Boolean|static=false|accessor=get",
@@ -656,12 +656,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelReader\u00601",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::CanPeek:System.Boolean",
-          "clrName": "CanPeek",
+          "targetName": "CanPeek",
           "metadataToken": 385876011,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanPeek|:System.Boolean|static=false|accessor=get",
@@ -675,12 +675,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelReader\u00601",
+          "ownerIdentity": "System.Threading.Channels"
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader\u00601::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385876012,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -694,8 +694,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelReader\u00601",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ],
       "fields": [],
@@ -709,15 +709,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Threading.Channels.ChannelReader\u00601",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelReader\u00601",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601",
-      "clrName": "System.Threading.Channels.ChannelWriter\u00601",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.ChannelWriter\u00601",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -727,7 +727,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "typeParameters": [
         "T"
@@ -735,7 +735,7 @@
       "methods": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::TryComplete(System.Exception):System.Boolean",
-          "clrName": "TryComplete",
+          "targetName": "TryComplete",
           "metadataToken": 100663489,
           "canonicalSignature": "(System.Exception):System.Boolean",
           "normalizedSignature": "TryComplete|(System.Exception):System.Boolean|static=false",
@@ -749,13 +749,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.ChannelWriter\u00601",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::TryWrite(T):System.Boolean",
-          "clrName": "TryWrite",
+          "targetName": "TryWrite",
           "metadataToken": 100663490,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "TryWrite|(T):System.Boolean|static=false",
@@ -769,13 +769,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.ChannelWriter\u00601",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::WaitToWriteAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "WaitToWriteAsync",
+          "targetName": "WaitToWriteAsync",
           "metadataToken": 100663491,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "WaitToWriteAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -789,13 +789,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.ChannelWriter\u00601",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::WriteAsync(T,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663492,
           "canonicalSignature": "(T,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "WriteAsync|(T,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -809,13 +809,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.ChannelWriter\u00601",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter\u00601::Complete(System.Exception):System.Void",
-          "clrName": "Complete",
+          "targetName": "Complete",
           "metadataToken": 100663494,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "Complete|(System.Exception):System.Void|static=false",
@@ -829,8 +829,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.ChannelWriter\u00601",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         }
       ],
@@ -846,15 +846,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Threading.Channels.ChannelWriter\u00601",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.ChannelWriter\u00601",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.UnboundedChannelOptions",
-      "clrName": "System.Threading.Channels.UnboundedChannelOptions",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.UnboundedChannelOptions",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -864,7 +864,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions",
-        "clrName": "System.Threading.Channels.ChannelOptions"
+        "targetName": "System.Threading.Channels.ChannelOptions"
       },
       "methods": [],
       "properties": [],
@@ -879,15 +879,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.UnboundedChannelOptions",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.UnboundedChannelOptions",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601",
-      "clrName": "System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -897,7 +897,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions",
-        "clrName": "System.Threading.Channels.ChannelOptions"
+        "targetName": "System.Threading.Channels.ChannelOptions"
       },
       "typeParameters": [
         "T"
@@ -906,7 +906,7 @@
       "properties": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601::Comparer:IComparer_1",
-          "clrName": "Comparer",
+          "targetName": "Comparer",
           "metadataToken": 385876043,
           "canonicalSignature": ":IComparer_1",
           "normalizedSignature": "Comparer|:IComparer_1|static=false|accessor=getset",
@@ -920,8 +920,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ],
       "fields": [],
@@ -935,15 +935,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601",
-          "declaringAssemblyName": "System.Threading.Channels"
+          "ownerQualifiedName": "System.Threading.Channels.UnboundedPrioritizedChannelOptions\u00601",
+          "ownerIdentity": "System.Threading.Channels"
         }
       ]
     },
     {
       "stableId": "System.Threading.Channels:System.Threading.Channels.Channel",
-      "clrName": "System.Threading.Channels.Channel",
-      "assemblyName": "System.Threading.Channels",
+      "targetName": "System.Threading.Channels.Channel",
+      "ownerIdentity": "System.Threading.Channels",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -953,12 +953,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnbounded():Channel_1",
-          "clrName": "CreateUnbounded",
+          "targetName": "CreateUnbounded",
           "metadataToken": 100663422,
           "canonicalSignature": "():Channel_1",
           "normalizedSignature": "CreateUnbounded|():Channel_1|static=true",
@@ -972,13 +972,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.Channel",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.Channel",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnbounded(System.Threading.Channels.UnboundedChannelOptions):Channel_1",
-          "clrName": "CreateUnbounded",
+          "targetName": "CreateUnbounded",
           "metadataToken": 100663423,
           "canonicalSignature": "(System.Threading.Channels.UnboundedChannelOptions):Channel_1",
           "normalizedSignature": "CreateUnbounded|(System.Threading.Channels.UnboundedChannelOptions):Channel_1|static=true",
@@ -992,13 +992,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.Channel",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.Channel",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateBounded(System.Int32):Channel_1",
-          "clrName": "CreateBounded",
+          "targetName": "CreateBounded",
           "metadataToken": 100663424,
           "canonicalSignature": "(System.Int32):Channel_1",
           "normalizedSignature": "CreateBounded|(System.Int32):Channel_1|static=true",
@@ -1012,13 +1012,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.Channel",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.Channel",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateBounded(System.Threading.Channels.BoundedChannelOptions):Channel_1",
-          "clrName": "CreateBounded",
+          "targetName": "CreateBounded",
           "metadataToken": 100663425,
           "canonicalSignature": "(System.Threading.Channels.BoundedChannelOptions):Channel_1",
           "normalizedSignature": "CreateBounded|(System.Threading.Channels.BoundedChannelOptions):Channel_1|static=true",
@@ -1032,13 +1032,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.Channel",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.Channel",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateBounded(System.Threading.Channels.BoundedChannelOptions,Action_1):Channel_1",
-          "clrName": "CreateBounded",
+          "targetName": "CreateBounded",
           "metadataToken": 100663426,
           "canonicalSignature": "(System.Threading.Channels.BoundedChannelOptions,Action_1):Channel_1",
           "normalizedSignature": "CreateBounded|(System.Threading.Channels.BoundedChannelOptions,Action_1):Channel_1|static=true",
@@ -1052,13 +1052,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.Channel",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.Channel",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnboundedPrioritized():Channel_1",
-          "clrName": "CreateUnboundedPrioritized",
+          "targetName": "CreateUnboundedPrioritized",
           "metadataToken": 100663427,
           "canonicalSignature": "():Channel_1",
           "normalizedSignature": "CreateUnboundedPrioritized|():Channel_1|static=true",
@@ -1072,13 +1072,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.Channel",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.Channel",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Threading.Channels:System.Threading.Channels.Channel::CreateUnboundedPrioritized(UnboundedPrioritizedChannelOptions_1):Channel_1",
-          "clrName": "CreateUnboundedPrioritized",
+          "targetName": "CreateUnboundedPrioritized",
           "metadataToken": 100663428,
           "canonicalSignature": "(UnboundedPrioritizedChannelOptions_1):Channel_1",
           "normalizedSignature": "CreateUnboundedPrioritized|(UnboundedPrioritizedChannelOptions_1):Channel_1|static=true",
@@ -1092,8 +1092,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Threading.Channels.Channel",
-          "declaringAssemblyName": "System.Threading.Channels",
+          "ownerQualifiedName": "System.Threading.Channels.Channel",
+          "ownerIdentity": "System.Threading.Channels",
           "isExtensionMethod": false
         }
       ],

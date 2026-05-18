@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope",
-      "clrName": "System.IO.IsolatedStorage.IsolatedStorageScope",
-      "assemblyName": "System.IO.IsolatedStorage",
+      "targetName": "System.IO.IsolatedStorage.IsolatedStorageScope",
+      "ownerIdentity": "System.IO.IsolatedStorage",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,99 +42,99 @@
       "fields": [
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67108889,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageScope",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::NoneSystem.IO.IsolatedStorage.IsolatedStorageScope",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67108890,
           "normalizedSignature": "None|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageScope",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::UserSystem.IO.IsolatedStorage.IsolatedStorageScope",
-          "clrName": "User",
+          "targetName": "User",
           "metadataToken": 67108891,
           "normalizedSignature": "User|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageScope",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::DomainSystem.IO.IsolatedStorage.IsolatedStorageScope",
-          "clrName": "Domain",
+          "targetName": "Domain",
           "metadataToken": 67108892,
           "normalizedSignature": "Domain|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageScope",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::AssemblySystem.IO.IsolatedStorage.IsolatedStorageScope",
-          "clrName": "Assembly",
+          "targetName": "Assembly",
           "metadataToken": 67108893,
           "normalizedSignature": "Assembly|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageScope",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::RoamingSystem.IO.IsolatedStorage.IsolatedStorageScope",
-          "clrName": "Roaming",
+          "targetName": "Roaming",
           "metadataToken": 67108894,
           "normalizedSignature": "Roaming|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageScope",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::MachineSystem.IO.IsolatedStorage.IsolatedStorageScope",
-          "clrName": "Machine",
+          "targetName": "Machine",
           "metadataToken": 67108895,
           "normalizedSignature": "Machine|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageScope",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageScope::ApplicationSystem.IO.IsolatedStorage.IsolatedStorageScope",
-          "clrName": "Application",
+          "targetName": "Application",
           "metadataToken": 67108896,
           "normalizedSignature": "Application|System.IO.IsolatedStorage.IsolatedStorageScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageScope",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageScope",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         }
       ],
       "events": [],
@@ -142,8 +142,8 @@
     },
     {
       "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.INormalizeForIsolatedStorage",
-      "clrName": "System.IO.IsolatedStorage.INormalizeForIsolatedStorage",
-      "assemblyName": "System.IO.IsolatedStorage",
+      "targetName": "System.IO.IsolatedStorage.INormalizeForIsolatedStorage",
+      "ownerIdentity": "System.IO.IsolatedStorage",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -154,7 +154,7 @@
       "methods": [
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.INormalizeForIsolatedStorage::Normalize():System.Object",
-          "clrName": "Normalize",
+          "targetName": "Normalize",
           "metadataToken": 100663472,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Normalize|():System.Object|static=false",
@@ -168,8 +168,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.INormalizeForIsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.INormalizeForIsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         }
       ],
@@ -180,8 +180,8 @@
     },
     {
       "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage",
-      "clrName": "System.IO.IsolatedStorage.IsolatedStorage",
-      "assemblyName": "System.IO.IsolatedStorage",
+      "targetName": "System.IO.IsolatedStorage.IsolatedStorage",
+      "ownerIdentity": "System.IO.IsolatedStorage",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -191,12 +191,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MarshalByRefObject",
-        "clrName": "System.MarshalByRefObject"
+        "targetName": "System.MarshalByRefObject"
       },
       "methods": [
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::IncreaseQuotaTo(System.Int64):System.Boolean",
-          "clrName": "IncreaseQuotaTo",
+          "targetName": "IncreaseQuotaTo",
           "metadataToken": 100663453,
           "canonicalSignature": "(System.Int64):System.Boolean",
           "normalizedSignature": "IncreaseQuotaTo|(System.Int64):System.Boolean|static=false",
@@ -210,13 +210,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::Remove():System.Void",
-          "clrName": "Remove",
+          "targetName": "Remove",
           "metadataToken": 100663454,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Remove|():System.Void|static=false",
@@ -230,13 +230,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.Void",
-          "clrName": "InitStore",
+          "targetName": "InitStore",
           "metadataToken": 100663457,
           "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.Void",
           "normalizedSignature": "InitStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.Void|static=false",
@@ -250,13 +250,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.Void",
-          "clrName": "InitStore",
+          "targetName": "InitStore",
           "metadataToken": 100663458,
           "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.Void",
           "normalizedSignature": "InitStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.Void|static=false",
@@ -270,15 +270,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::ApplicationIdentity:System.Object",
-          "clrName": "ApplicationIdentity",
+          "targetName": "ApplicationIdentity",
           "metadataToken": 385876008,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "ApplicationIdentity|:System.Object|static=false|accessor=get",
@@ -292,12 +292,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::AssemblyIdentity:System.Object",
-          "clrName": "AssemblyIdentity",
+          "targetName": "AssemblyIdentity",
           "metadataToken": 385876009,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "AssemblyIdentity|:System.Object|static=false|accessor=get",
@@ -311,12 +311,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::DomainIdentity:System.Object",
-          "clrName": "DomainIdentity",
+          "targetName": "DomainIdentity",
           "metadataToken": 385876010,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "DomainIdentity|:System.Object|static=false|accessor=get",
@@ -330,12 +330,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::CurrentSize:System.UInt64",
-          "clrName": "CurrentSize",
+          "targetName": "CurrentSize",
           "metadataToken": 385876011,
           "canonicalSignature": ":System.UInt64",
           "normalizedSignature": "CurrentSize|:System.UInt64|static=false|accessor=get",
@@ -349,12 +349,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::UsedSize:System.Int64",
-          "clrName": "UsedSize",
+          "targetName": "UsedSize",
           "metadataToken": 385876012,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "UsedSize|:System.Int64|static=false|accessor=get",
@@ -368,12 +368,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::AvailableFreeSpace:System.Int64",
-          "clrName": "AvailableFreeSpace",
+          "targetName": "AvailableFreeSpace",
           "metadataToken": 385876013,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "AvailableFreeSpace|:System.Int64|static=false|accessor=get",
@@ -387,12 +387,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::MaximumSize:System.UInt64",
-          "clrName": "MaximumSize",
+          "targetName": "MaximumSize",
           "metadataToken": 385876014,
           "canonicalSignature": ":System.UInt64",
           "normalizedSignature": "MaximumSize|:System.UInt64|static=false|accessor=get",
@@ -406,12 +406,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::Quota:System.Int64",
-          "clrName": "Quota",
+          "targetName": "Quota",
           "metadataToken": 385876015,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Quota|:System.Int64|static=false|accessor=get",
@@ -425,12 +425,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::Scope:System.IO.IsolatedStorage.IsolatedStorageScope",
-          "clrName": "Scope",
+          "targetName": "Scope",
           "metadataToken": 385876016,
           "canonicalSignature": ":System.IO.IsolatedStorage.IsolatedStorageScope",
           "normalizedSignature": "Scope|:System.IO.IsolatedStorage.IsolatedStorageScope|static=false|accessor=getset",
@@ -444,12 +444,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::SeparatorExternal:System.Char",
-          "clrName": "SeparatorExternal",
+          "targetName": "SeparatorExternal",
           "metadataToken": 385876017,
           "canonicalSignature": ":System.Char",
           "normalizedSignature": "SeparatorExternal|:System.Char|static=false|accessor=get",
@@ -463,12 +463,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::SeparatorInternal:System.Char",
-          "clrName": "SeparatorInternal",
+          "targetName": "SeparatorInternal",
           "metadataToken": 385876018,
           "canonicalSignature": ":System.Char",
           "normalizedSignature": "SeparatorInternal|:System.Char|static=false|accessor=get",
@@ -482,8 +482,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         }
       ],
       "fields": [],
@@ -497,15 +497,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorage",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         }
       ]
     },
     {
       "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException",
-      "clrName": "System.IO.IsolatedStorage.IsolatedStorageException",
-      "assemblyName": "System.IO.IsolatedStorage",
+      "targetName": "System.IO.IsolatedStorage.IsolatedStorageException",
+      "ownerIdentity": "System.IO.IsolatedStorage",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -515,18 +515,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Exception",
-        "clrName": "System.Exception"
+        "targetName": "System.Exception"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -540,8 +540,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -558,8 +558,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageException",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageException",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException::.ctor(System.String):void",
@@ -569,8 +569,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageException",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageException",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException::.ctor(System.String,System.Exception):void",
@@ -580,8 +580,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageException",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageException",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -591,15 +591,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageException",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageException",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         }
       ]
     },
     {
       "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile",
-      "clrName": "System.IO.IsolatedStorage.IsolatedStorageFile",
-      "assemblyName": "System.IO.IsolatedStorage",
+      "targetName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+      "ownerIdentity": "System.IO.IsolatedStorage",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -609,18 +609,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage",
-        "clrName": "System.IO.IsolatedStorage.IsolatedStorage"
+        "targetName": "System.IO.IsolatedStorage.IsolatedStorage"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100663335,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -634,13 +634,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::DeleteFile(System.String):System.Void",
-          "clrName": "DeleteFile",
+          "targetName": "DeleteFile",
           "metadataToken": 100663336,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "DeleteFile|(System.String):System.Void|static=false",
@@ -654,13 +654,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::FileExists(System.String):System.Boolean",
-          "clrName": "FileExists",
+          "targetName": "FileExists",
           "metadataToken": 100663337,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "FileExists|(System.String):System.Boolean|static=false",
@@ -674,13 +674,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::DirectoryExists(System.String):System.Boolean",
-          "clrName": "DirectoryExists",
+          "targetName": "DirectoryExists",
           "metadataToken": 100663338,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "DirectoryExists|(System.String):System.Boolean|static=false",
@@ -694,13 +694,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CreateDirectory(System.String):System.Void",
-          "clrName": "CreateDirectory",
+          "targetName": "CreateDirectory",
           "metadataToken": 100663339,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "CreateDirectory|(System.String):System.Void|static=false",
@@ -714,13 +714,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::DeleteDirectory(System.String):System.Void",
-          "clrName": "DeleteDirectory",
+          "targetName": "DeleteDirectory",
           "metadataToken": 100663340,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "DeleteDirectory|(System.String):System.Void|static=false",
@@ -734,13 +734,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetFileNames():System.String[]",
-          "clrName": "GetFileNames",
+          "targetName": "GetFileNames",
           "metadataToken": 100663341,
           "canonicalSignature": "():System.String[]",
           "normalizedSignature": "GetFileNames|():System.String[]|static=false",
@@ -754,13 +754,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetFileNames(System.String):System.String[]",
-          "clrName": "GetFileNames",
+          "targetName": "GetFileNames",
           "metadataToken": 100663342,
           "canonicalSignature": "(System.String):System.String[]",
           "normalizedSignature": "GetFileNames|(System.String):System.String[]|static=false",
@@ -774,13 +774,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetDirectoryNames():System.String[]",
-          "clrName": "GetDirectoryNames",
+          "targetName": "GetDirectoryNames",
           "metadataToken": 100663343,
           "canonicalSignature": "():System.String[]",
           "normalizedSignature": "GetDirectoryNames|():System.String[]|static=false",
@@ -794,13 +794,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetDirectoryNames(System.String):System.String[]",
-          "clrName": "GetDirectoryNames",
+          "targetName": "GetDirectoryNames",
           "metadataToken": 100663344,
           "canonicalSignature": "(System.String):System.String[]",
           "normalizedSignature": "GetDirectoryNames|(System.String):System.String[]|static=false",
@@ -814,13 +814,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::OpenFile(System.String,System.IO.FileMode):System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "clrName": "OpenFile",
+          "targetName": "OpenFile",
           "metadataToken": 100663345,
           "canonicalSignature": "(System.String,System.IO.FileMode):System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "normalizedSignature": "OpenFile|(System.String,System.IO.FileMode):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
@@ -834,13 +834,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess):System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "clrName": "OpenFile",
+          "targetName": "OpenFile",
           "metadataToken": 100663346,
           "canonicalSignature": "(System.String,System.IO.FileMode,System.IO.FileAccess):System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "normalizedSignature": "OpenFile|(System.String,System.IO.FileMode,System.IO.FileAccess):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
@@ -854,13 +854,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "clrName": "OpenFile",
+          "targetName": "OpenFile",
           "metadataToken": 100663347,
           "canonicalSignature": "(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "normalizedSignature": "OpenFile|(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
@@ -874,13 +874,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CreateFile(System.String):System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "clrName": "CreateFile",
+          "targetName": "CreateFile",
           "metadataToken": 100663348,
           "canonicalSignature": "(System.String):System.IO.IsolatedStorage.IsolatedStorageFileStream",
           "normalizedSignature": "CreateFile|(System.String):System.IO.IsolatedStorage.IsolatedStorageFileStream|static=false",
@@ -894,13 +894,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetCreationTime(System.String):System.DateTimeOffset",
-          "clrName": "GetCreationTime",
+          "targetName": "GetCreationTime",
           "metadataToken": 100663349,
           "canonicalSignature": "(System.String):System.DateTimeOffset",
           "normalizedSignature": "GetCreationTime|(System.String):System.DateTimeOffset|static=false",
@@ -914,13 +914,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetLastAccessTime(System.String):System.DateTimeOffset",
-          "clrName": "GetLastAccessTime",
+          "targetName": "GetLastAccessTime",
           "metadataToken": 100663350,
           "canonicalSignature": "(System.String):System.DateTimeOffset",
           "normalizedSignature": "GetLastAccessTime|(System.String):System.DateTimeOffset|static=false",
@@ -934,13 +934,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetLastWriteTime(System.String):System.DateTimeOffset",
-          "clrName": "GetLastWriteTime",
+          "targetName": "GetLastWriteTime",
           "metadataToken": 100663351,
           "canonicalSignature": "(System.String):System.DateTimeOffset",
           "normalizedSignature": "GetLastWriteTime|(System.String):System.DateTimeOffset|static=false",
@@ -954,13 +954,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CopyFile(System.String,System.String):System.Void",
-          "clrName": "CopyFile",
+          "targetName": "CopyFile",
           "metadataToken": 100663352,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "CopyFile|(System.String,System.String):System.Void|static=false",
@@ -974,13 +974,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CopyFile(System.String,System.String,System.Boolean):System.Void",
-          "clrName": "CopyFile",
+          "targetName": "CopyFile",
           "metadataToken": 100663353,
           "canonicalSignature": "(System.String,System.String,System.Boolean):System.Void",
           "normalizedSignature": "CopyFile|(System.String,System.String,System.Boolean):System.Void|static=false",
@@ -994,13 +994,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::MoveFile(System.String,System.String):System.Void",
-          "clrName": "MoveFile",
+          "targetName": "MoveFile",
           "metadataToken": 100663354,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "MoveFile|(System.String,System.String):System.Void|static=false",
@@ -1014,13 +1014,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::MoveDirectory(System.String,System.String):System.Void",
-          "clrName": "MoveDirectory",
+          "targetName": "MoveDirectory",
           "metadataToken": 100663355,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "MoveDirectory|(System.String,System.String):System.Void|static=false",
@@ -1034,13 +1034,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetEnumerator(System.IO.IsolatedStorage.IsolatedStorageScope):System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100663356,
           "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope):System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|(System.IO.IsolatedStorage.IsolatedStorageScope):System.Collections.IEnumerator|static=true",
@@ -1054,13 +1054,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForApplication():System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetUserStoreForApplication",
+          "targetName": "GetUserStoreForApplication",
           "metadataToken": 100663362,
           "canonicalSignature": "():System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetUserStoreForApplication|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1074,13 +1074,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForAssembly():System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetUserStoreForAssembly",
+          "targetName": "GetUserStoreForAssembly",
           "metadataToken": 100663363,
           "canonicalSignature": "():System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetUserStoreForAssembly|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1094,13 +1094,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForDomain():System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetUserStoreForDomain",
+          "targetName": "GetUserStoreForDomain",
           "metadataToken": 100663364,
           "canonicalSignature": "():System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetUserStoreForDomain|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1114,13 +1114,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetUserStoreForSite():System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetUserStoreForSite",
+          "targetName": "GetUserStoreForSite",
           "metadataToken": 100663365,
           "canonicalSignature": "():System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetUserStoreForSite|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1134,13 +1134,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetMachineStoreForApplication():System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetMachineStoreForApplication",
+          "targetName": "GetMachineStoreForApplication",
           "metadataToken": 100663366,
           "canonicalSignature": "():System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetMachineStoreForApplication|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1154,13 +1154,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetMachineStoreForAssembly():System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetMachineStoreForAssembly",
+          "targetName": "GetMachineStoreForAssembly",
           "metadataToken": 100663367,
           "canonicalSignature": "():System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetMachineStoreForAssembly|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1174,13 +1174,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetMachineStoreForDomain():System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetMachineStoreForDomain",
+          "targetName": "GetMachineStoreForDomain",
           "metadataToken": 100663368,
           "canonicalSignature": "():System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetMachineStoreForDomain|():System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1194,13 +1194,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetStore",
+          "targetName": "GetStore",
           "metadataToken": 100663370,
           "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1214,13 +1214,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetStore",
+          "targetName": "GetStore",
           "metadataToken": 100663371,
           "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1234,13 +1234,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetStore",
+          "targetName": "GetStore",
           "metadataToken": 100663372,
           "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1254,13 +1254,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile",
-          "clrName": "GetStore",
+          "targetName": "GetStore",
           "metadataToken": 100663373,
           "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile",
           "normalizedSignature": "GetStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object):System.IO.IsolatedStorage.IsolatedStorageFile|static=true",
@@ -1274,13 +1274,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663376,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1294,13 +1294,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::IncreaseQuotaTo(System.Int64):System.Boolean",
-          "clrName": "IncreaseQuotaTo",
+          "targetName": "IncreaseQuotaTo",
           "metadataToken": 100663378,
           "canonicalSignature": "(System.Int64):System.Boolean",
           "normalizedSignature": "IncreaseQuotaTo|(System.Int64):System.Boolean|static=false",
@@ -1314,13 +1314,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Remove():System.Void",
-          "clrName": "Remove",
+          "targetName": "Remove",
           "metadataToken": 100663379,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Remove|():System.Void|static=false",
@@ -1334,13 +1334,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Remove(System.IO.IsolatedStorage.IsolatedStorageScope):System.Void",
-          "clrName": "Remove",
+          "targetName": "Remove",
           "metadataToken": 100663380,
           "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope):System.Void",
           "normalizedSignature": "Remove|(System.IO.IsolatedStorage.IsolatedStorageScope):System.Void|static=true",
@@ -1354,13 +1354,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1374,8 +1374,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -1383,7 +1383,7 @@
       "properties": [
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::AvailableFreeSpace:System.Int64",
-          "clrName": "AvailableFreeSpace",
+          "targetName": "AvailableFreeSpace",
           "metadataToken": 385875993,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "AvailableFreeSpace|:System.Int64|static=false|accessor=get",
@@ -1397,12 +1397,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::MaximumSize:System.UInt64",
-          "clrName": "MaximumSize",
+          "targetName": "MaximumSize",
           "metadataToken": 385875994,
           "canonicalSignature": ":System.UInt64",
           "normalizedSignature": "MaximumSize|:System.UInt64|static=false|accessor=get",
@@ -1416,12 +1416,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::Quota:System.Int64",
-          "clrName": "Quota",
+          "targetName": "Quota",
           "metadataToken": 385875995,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Quota|:System.Int64|static=false|accessor=get",
@@ -1435,12 +1435,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::UsedSize:System.Int64",
-          "clrName": "UsedSize",
+          "targetName": "UsedSize",
           "metadataToken": 385875996,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "UsedSize|:System.Int64|static=false|accessor=get",
@@ -1454,12 +1454,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::CurrentSize:System.UInt64",
-          "clrName": "CurrentSize",
+          "targetName": "CurrentSize",
           "metadataToken": 385875997,
           "canonicalSignature": ":System.UInt64",
           "normalizedSignature": "CurrentSize|:System.UInt64|static=false|accessor=get",
@@ -1473,12 +1473,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFile::IsEnabled:System.Boolean",
-          "clrName": "IsEnabled",
+          "targetName": "IsEnabled",
           "metadataToken": 385875998,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsEnabled|:System.Boolean|static=true|accessor=get",
@@ -1492,8 +1492,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFile",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFile",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         }
       ],
       "fields": [],
@@ -1502,8 +1502,8 @@
     },
     {
       "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream",
-      "clrName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-      "assemblyName": "System.IO.IsolatedStorage",
+      "targetName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+      "ownerIdentity": "System.IO.IsolatedStorage",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1513,22 +1513,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.IO.FileStream",
-        "clrName": "System.IO.FileStream"
+        "targetName": "System.IO.FileStream"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
+          "targetName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663415,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -1542,13 +1542,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100663416,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1562,13 +1562,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Flush():System.Void",
-          "clrName": "Flush",
+          "targetName": "Flush",
           "metadataToken": 100663417,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Flush|():System.Void|static=false",
@@ -1582,13 +1582,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Flush(System.Boolean):System.Void",
-          "clrName": "Flush",
+          "targetName": "Flush",
           "metadataToken": 100663418,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Flush|(System.Boolean):System.Void|static=false",
@@ -1602,13 +1602,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "FlushAsync",
+          "targetName": "FlushAsync",
           "metadataToken": 100663419,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1622,13 +1622,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::SetLength(System.Int64):System.Void",
-          "clrName": "SetLength",
+          "targetName": "SetLength",
           "metadataToken": 100663420,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
@@ -1642,13 +1642,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
-          "clrName": "Read",
+          "targetName": "Read",
           "metadataToken": 100663421,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
@@ -1662,13 +1662,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
-          "clrName": "Read",
+          "targetName": "Read",
           "metadataToken": 100663422,
           "canonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -1682,13 +1682,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 100663423,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -1702,13 +1702,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 100663424,
           "canonicalSignature": "(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -1722,13 +1722,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadByte():System.Int32",
-          "clrName": "ReadByte",
+          "targetName": "ReadByte",
           "metadataToken": 100663425,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "ReadByte|():System.Int32|static=false",
@@ -1742,13 +1742,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Seek(System.Int64,System.IO.SeekOrigin):System.Int64",
-          "clrName": "Seek",
+          "targetName": "Seek",
           "metadataToken": 100663426,
           "canonicalSignature": "(System.Int64,System.IO.SeekOrigin):System.Int64",
           "normalizedSignature": "Seek|(System.Int64,System.IO.SeekOrigin):System.Int64|static=false",
@@ -1762,13 +1762,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100663427,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
@@ -1782,13 +1782,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100663428,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1802,13 +1802,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663429,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1822,13 +1822,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663430,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -1842,13 +1842,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteByte(System.Byte):System.Void",
-          "clrName": "WriteByte",
+          "targetName": "WriteByte",
           "metadataToken": 100663431,
           "canonicalSignature": "(System.Byte):System.Void",
           "normalizedSignature": "WriteByte|(System.Byte):System.Void|static=false",
@@ -1862,13 +1862,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginRead",
+          "targetName": "BeginRead",
           "metadataToken": 100663432,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginRead|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -1882,13 +1882,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginWrite",
+          "targetName": "BeginWrite",
           "metadataToken": 100663433,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginWrite|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -1902,13 +1902,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::EndRead(System.IAsyncResult):System.Int32",
-          "clrName": "EndRead",
+          "targetName": "EndRead",
           "metadataToken": 100663434,
           "canonicalSignature": "(System.IAsyncResult):System.Int32",
           "normalizedSignature": "EndRead|(System.IAsyncResult):System.Int32|static=false",
@@ -1922,13 +1922,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::EndWrite(System.IAsyncResult):System.Void",
-          "clrName": "EndWrite",
+          "targetName": "EndWrite",
           "metadataToken": 100663435,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndWrite|(System.IAsyncResult):System.Void|static=false",
@@ -1942,13 +1942,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Unlock(System.Int64,System.Int64):System.Void",
-          "clrName": "Unlock",
+          "targetName": "Unlock",
           "metadataToken": 100663437,
           "canonicalSignature": "(System.Int64,System.Int64):System.Void",
           "normalizedSignature": "Unlock|(System.Int64,System.Int64):System.Void|static=false",
@@ -1962,13 +1962,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Lock(System.Int64,System.Int64):System.Void",
-          "clrName": "Lock",
+          "targetName": "Lock",
           "metadataToken": 100663438,
           "canonicalSignature": "(System.Int64,System.Int64):System.Void",
           "normalizedSignature": "Lock|(System.Int64,System.Int64):System.Void|static=false",
@@ -1982,13 +1982,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2002,14 +2002,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -2023,14 +2023,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IAsyncDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IAsyncDisposable"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2044,13 +2044,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::FlushAsync():System.Threading.Tasks.Task",
-          "clrName": "FlushAsync",
+          "targetName": "FlushAsync",
           "metadataToken": 0,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
@@ -2064,13 +2064,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Memory_1\u003CSystem.Byte\u003E,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1\u003CSystem.Int32\u003E",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Memory_1\u003CSystem.Byte\u003E,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1\u003CSystem.Int32\u003E",
           "normalizedSignature": "ReadAsync|(System.Memory_1\u003CSystem.Byte\u003E,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1\u003CSystem.Int32\u003E|static=false",
@@ -2084,13 +2084,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E|static=false",
@@ -2104,13 +2104,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.ReadOnlyMemory_1\u003CSystem.Byte\u003E,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlyMemory_1\u003CSystem.Byte\u003E,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1\u003CSystem.Byte\u003E,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -2124,13 +2124,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
@@ -2144,15 +2144,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage",
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::CanRead:System.Boolean",
-          "clrName": "CanRead",
+          "targetName": "CanRead",
           "metadataToken": 385876000,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanRead|:System.Boolean|static=false|accessor=get",
@@ -2166,12 +2166,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::CanWrite:System.Boolean",
-          "clrName": "CanWrite",
+          "targetName": "CanWrite",
           "metadataToken": 385876001,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanWrite|:System.Boolean|static=false|accessor=get",
@@ -2185,12 +2185,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::CanSeek:System.Boolean",
-          "clrName": "CanSeek",
+          "targetName": "CanSeek",
           "metadataToken": 385876002,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanSeek|:System.Boolean|static=false|accessor=get",
@@ -2204,12 +2204,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Length:System.Int64",
-          "clrName": "Length",
+          "targetName": "Length",
           "metadataToken": 385876003,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
@@ -2223,12 +2223,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Position:System.Int64",
-          "clrName": "Position",
+          "targetName": "Position",
           "metadataToken": 385876004,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Position|:System.Int64|static=false|accessor=getset",
@@ -2242,12 +2242,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::IsAsync:System.Boolean",
-          "clrName": "IsAsync",
+          "targetName": "IsAsync",
           "metadataToken": 385876005,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=get",
@@ -2261,12 +2261,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::Handle:System.IntPtr",
-          "clrName": "Handle",
+          "targetName": "Handle",
           "metadataToken": 385876006,
           "canonicalSignature": ":System.IntPtr",
           "normalizedSignature": "Handle|:System.IntPtr|static=false|accessor=get",
@@ -2280,12 +2280,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::SafeFileHandle:Microsoft.Win32.SafeHandles.SafeFileHandle",
-          "clrName": "SafeFileHandle",
+          "targetName": "SafeFileHandle",
           "metadataToken": 385876007,
           "canonicalSignature": ":Microsoft.Win32.SafeHandles.SafeFileHandle",
           "normalizedSignature": "SafeFileHandle|:Microsoft.Win32.SafeHandles.SafeFileHandle|static=false|accessor=get",
@@ -2299,8 +2299,8 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         }
       ],
       "fields": [],
@@ -2314,8 +2314,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::.ctor(System.String,System.IO.FileMode,System.IO.IsolatedStorage.IsolatedStorageFile):void",
@@ -2325,8 +2325,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess):void",
@@ -2336,8 +2336,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.IsolatedStorage.IsolatedStorageFile):void",
@@ -2347,8 +2347,8 @@
           "isStatic": false,
           "parameterCount": 4,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):void",
@@ -2358,8 +2358,8 @@
           "isStatic": false,
           "parameterCount": 4,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.IO.IsolatedStorage.IsolatedStorageFile):void",
@@ -2369,8 +2369,8 @@
           "isStatic": false,
           "parameterCount": 5,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32):void",
@@ -2380,8 +2380,8 @@
           "isStatic": false,
           "parameterCount": 5,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         },
         {
           "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageFileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32,System.IO.IsolatedStorage.IsolatedStorageFile):void",
@@ -2391,8 +2391,8 @@
           "isStatic": false,
           "parameterCount": 6,
           "visibility": "Public",
-          "declaringClrType": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
-          "declaringAssemblyName": "System.IO.IsolatedStorage"
+          "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageFileStream",
+          "ownerIdentity": "System.IO.IsolatedStorage"
         }
       ]
     }

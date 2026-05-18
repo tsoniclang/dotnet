@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
-      "clrName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
-      "assemblyName": "System.Net.Http",
+      "targetName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+      "ownerIdentity": "System.Net.Http",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -17,12 +17,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext::AddCustomTag(System.String,System.Object):System.Void",
-          "clrName": "AddCustomTag",
+          "targetName": "AddCustomTag",
           "metadataToken": 100665659,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "AddCustomTag|(System.String,System.Object):System.Void|static=false",
@@ -36,13 +36,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
-          "declaringAssemblyName": "System.Net.Http",
+          "ownerQualifiedName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+          "ownerIdentity": "System.Net.Http",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext::AddCallback(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
-          "clrName": "AddCallback",
+          "targetName": "AddCallback",
           "metadataToken": 100665660,
           "canonicalSignature": "(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "normalizedSignature": "AddCallback|(System.Net.Http.HttpRequestMessage,System.Action_1[[System.Net.Http.Metrics.HttpMetricsEnrichmentContext,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=true",
@@ -56,15 +56,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
-          "declaringAssemblyName": "System.Net.Http",
+          "ownerQualifiedName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+          "ownerIdentity": "System.Net.Http",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext::Request:System.Net.Http.HttpRequestMessage",
-          "clrName": "Request",
+          "targetName": "Request",
           "metadataToken": 385876422,
           "canonicalSignature": ":System.Net.Http.HttpRequestMessage",
           "normalizedSignature": "Request|:System.Net.Http.HttpRequestMessage|static=false|accessor=get",
@@ -78,12 +78,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
-          "declaringAssemblyName": "System.Net.Http"
+          "ownerQualifiedName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+          "ownerIdentity": "System.Net.Http"
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext::Response:System.Net.Http.HttpResponseMessage",
-          "clrName": "Response",
+          "targetName": "Response",
           "metadataToken": 385876423,
           "canonicalSignature": ":System.Net.Http.HttpResponseMessage",
           "normalizedSignature": "Response|:System.Net.Http.HttpResponseMessage|static=false|accessor=get",
@@ -97,12 +97,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
-          "declaringAssemblyName": "System.Net.Http"
+          "ownerQualifiedName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+          "ownerIdentity": "System.Net.Http"
         },
         {
           "stableId": "System.Net.Http:System.Net.Http.Metrics.HttpMetricsEnrichmentContext::Exception:System.Exception",
-          "clrName": "Exception",
+          "targetName": "Exception",
           "metadataToken": 385876424,
           "canonicalSignature": ":System.Exception",
           "normalizedSignature": "Exception|:System.Exception|static=false|accessor=get",
@@ -116,8 +116,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
-          "declaringAssemblyName": "System.Net.Http"
+          "ownerQualifiedName": "System.Net.Http.Metrics.HttpMetricsEnrichmentContext",
+          "ownerIdentity": "System.Net.Http"
         }
       ],
       "fields": [],

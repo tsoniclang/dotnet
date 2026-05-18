@@ -7,8 +7,8 @@
   "types": [
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
-      "clrName": "System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Delegate",
       "accessibility": "Public",
@@ -18,22 +18,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
+        "targetName": "System.MulticastDelegate"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::Invoke(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs):System.Void",
-          "clrName": "Invoke",
+          "targetName": "Invoke",
           "metadataToken": 100665570,
           "canonicalSignature": "(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs):System.Void",
           "normalizedSignature": "Invoke|(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs):System.Void|static=false",
@@ -47,13 +47,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::BeginInvoke(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
+          "targetName": "BeginInvoke",
           "metadataToken": 100665571,
           "canonicalSignature": "(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(System.Object,System.ComponentModel.Design.Serialization.ResolveNameEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -67,13 +67,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventHandler::EndInvoke(System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
+          "targetName": "EndInvoke",
           "metadataToken": 100665572,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
@@ -87,8 +87,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
@@ -104,15 +104,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ResolveNameEventHandler",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
-      "clrName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -123,21 +123,21 @@
       "interfaces": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost",
-          "clrName": "System.ComponentModel.Design.IDesignerHost"
+          "targetName": "System.ComponentModel.Design.IDesignerHost"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer",
-          "clrName": "System.ComponentModel.Design.IServiceContainer"
+          "targetName": "System.ComponentModel.Design.IServiceContainer"
         },
         {
           "stableId": "System.ComponentModel:System.IServiceProvider",
-          "clrName": "System.IServiceProvider"
+          "targetName": "System.IServiceProvider"
         }
       ],
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost::EndLoad(System.String,System.Boolean,System.Collections.ICollection):System.Void",
-          "clrName": "EndLoad",
+          "targetName": "EndLoad",
           "metadataToken": 100665517,
           "canonicalSignature": "(System.String,System.Boolean,System.Collections.ICollection):System.Void",
           "normalizedSignature": "EndLoad|(System.String,System.Boolean,System.Collections.ICollection):System.Void|static=false",
@@ -151,13 +151,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost::Reload():System.Void",
-          "clrName": "Reload",
+          "targetName": "Reload",
           "metadataToken": 100665518,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reload|():System.Void|static=false",
@@ -171,13 +171,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type):System.ComponentModel.IComponent",
-          "clrName": "CreateComponent",
+          "targetName": "CreateComponent",
           "metadataToken": 100665221,
           "canonicalSignature": "(System.Type):System.ComponentModel.IComponent",
           "normalizedSignature": "CreateComponent|(System.Type):System.ComponentModel.IComponent|static=false",
@@ -191,13 +191,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type,System.String):System.ComponentModel.IComponent",
-          "clrName": "CreateComponent",
+          "targetName": "CreateComponent",
           "metadataToken": 100665222,
           "canonicalSignature": "(System.Type,System.String):System.ComponentModel.IComponent",
           "normalizedSignature": "CreateComponent|(System.Type,System.String):System.ComponentModel.IComponent|static=false",
@@ -211,13 +211,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction():System.ComponentModel.Design.DesignerTransaction",
-          "clrName": "CreateTransaction",
+          "targetName": "CreateTransaction",
           "metadataToken": 100665223,
           "canonicalSignature": "():System.ComponentModel.Design.DesignerTransaction",
           "normalizedSignature": "CreateTransaction|():System.ComponentModel.Design.DesignerTransaction|static=false",
@@ -231,13 +231,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction(System.String):System.ComponentModel.Design.DesignerTransaction",
-          "clrName": "CreateTransaction",
+          "targetName": "CreateTransaction",
           "metadataToken": 100665224,
           "canonicalSignature": "(System.String):System.ComponentModel.Design.DesignerTransaction",
           "normalizedSignature": "CreateTransaction|(System.String):System.ComponentModel.Design.DesignerTransaction|static=false",
@@ -251,13 +251,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::DestroyComponent(System.ComponentModel.IComponent):System.Void",
-          "clrName": "DestroyComponent",
+          "targetName": "DestroyComponent",
           "metadataToken": 100665225,
           "canonicalSignature": "(System.ComponentModel.IComponent):System.Void",
           "normalizedSignature": "DestroyComponent|(System.ComponentModel.IComponent):System.Void|static=false",
@@ -271,13 +271,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetDesigner(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner",
-          "clrName": "GetDesigner",
+          "targetName": "GetDesigner",
           "metadataToken": 100665226,
           "canonicalSignature": "(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner",
           "normalizedSignature": "GetDesigner|(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner|static=false",
@@ -291,13 +291,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetType(System.String):System.Type",
-          "clrName": "GetType",
+          "targetName": "GetType",
           "metadataToken": 100665227,
           "canonicalSignature": "(System.String):System.Type",
           "normalizedSignature": "GetType|(System.String):System.Type|static=false",
@@ -311,13 +311,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object):System.Void",
-          "clrName": "AddService",
+          "targetName": "AddService",
           "metadataToken": 100665228,
           "canonicalSignature": "(System.Type,System.Object):System.Void",
           "normalizedSignature": "AddService|(System.Type,System.Object):System.Void|static=false",
@@ -331,13 +331,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
-          "clrName": "AddService",
+          "targetName": "AddService",
           "metadataToken": 100665229,
           "canonicalSignature": "(System.Type,System.Object,System.Boolean):System.Void",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
@@ -351,13 +351,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
-          "clrName": "AddService",
+          "targetName": "AddService",
           "metadataToken": 100665230,
           "canonicalSignature": "(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
@@ -371,13 +371,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
-          "clrName": "AddService",
+          "targetName": "AddService",
           "metadataToken": 100665231,
           "canonicalSignature": "(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
@@ -391,13 +391,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type):System.Void",
-          "clrName": "RemoveService",
+          "targetName": "RemoveService",
           "metadataToken": 100665232,
           "canonicalSignature": "(System.Type):System.Void",
           "normalizedSignature": "RemoveService|(System.Type):System.Void|static=false",
@@ -411,13 +411,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
-          "clrName": "RemoveService",
+          "targetName": "RemoveService",
           "metadataToken": 100665233,
           "canonicalSignature": "(System.Type,System.Boolean):System.Void",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
@@ -431,13 +431,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
-          "clrName": "GetService",
+          "targetName": "GetService",
           "metadataToken": 100663297,
           "canonicalSignature": "(System.Type):System.Object",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
@@ -451,15 +451,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IServiceProvider",
-          "declaringAssemblyName": "System.ComponentModel",
+          "ownerQualifiedName": "System.IServiceProvider",
+          "ownerIdentity": "System.ComponentModel",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Loading:System.Boolean",
-          "clrName": "Loading",
+          "targetName": "Loading",
           "metadataToken": 385876368,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Loading|:System.Boolean|static=false|accessor=get",
@@ -473,12 +473,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::InTransaction:System.Boolean",
-          "clrName": "InTransaction",
+          "targetName": "InTransaction",
           "metadataToken": 385876369,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "InTransaction|:System.Boolean|static=false|accessor=get",
@@ -492,12 +492,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Container:System.ComponentModel.IContainer",
-          "clrName": "Container",
+          "targetName": "Container",
           "metadataToken": 385876370,
           "canonicalSignature": ":System.ComponentModel.IContainer",
           "normalizedSignature": "Container|:System.ComponentModel.IContainer|static=false|accessor=get",
@@ -511,12 +511,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::RootComponent:System.ComponentModel.IComponent",
-          "clrName": "RootComponent",
+          "targetName": "RootComponent",
           "metadataToken": 385876371,
           "canonicalSignature": ":System.ComponentModel.IComponent",
           "normalizedSignature": "RootComponent|:System.ComponentModel.IComponent|static=false|accessor=get",
@@ -530,12 +530,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::RootComponentClassName:System.String",
-          "clrName": "RootComponentClassName",
+          "targetName": "RootComponentClassName",
           "metadataToken": 385876372,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "RootComponentClassName|:System.String|static=false|accessor=get",
@@ -549,12 +549,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::TransactionDescription:System.String",
-          "clrName": "TransactionDescription",
+          "targetName": "TransactionDescription",
           "metadataToken": 385876373,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "TransactionDescription|:System.String|static=false|accessor=get",
@@ -568,39 +568,39 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
       "events": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::ActivatedSystem.EventHandler",
-          "clrName": "Activated",
+          "targetName": "Activated",
           "metadataToken": 335544329,
           "normalizedSignature": "Activated|System.EventHandler|static=false",
           "isStatic": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::TransactionClosedSystem.ComponentModel.Design.DesignerTransactionCloseEventHandler",
-          "clrName": "TransactionClosed",
+          "targetName": "TransactionClosed",
           "metadataToken": 335544332,
           "normalizedSignature": "TransactionClosed|System.ComponentModel.Design.DesignerTransactionCloseEventHandler|static=false",
           "isStatic": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "constructors": []
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost2",
-      "clrName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost2",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost2",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -611,25 +611,25 @@
       "interfaces": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
-          "clrName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost"
+          "targetName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost",
-          "clrName": "System.ComponentModel.Design.IDesignerHost"
+          "targetName": "System.ComponentModel.Design.IDesignerHost"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer",
-          "clrName": "System.ComponentModel.Design.IServiceContainer"
+          "targetName": "System.ComponentModel.Design.IServiceContainer"
         },
         {
           "stableId": "System.ComponentModel:System.IServiceProvider",
-          "clrName": "System.IServiceProvider"
+          "targetName": "System.IServiceProvider"
         }
       ],
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost::EndLoad(System.String,System.Boolean,System.Collections.ICollection):System.Void",
-          "clrName": "EndLoad",
+          "targetName": "EndLoad",
           "metadataToken": 100665517,
           "canonicalSignature": "(System.String,System.Boolean,System.Collections.ICollection):System.Void",
           "normalizedSignature": "EndLoad|(System.String,System.Boolean,System.Collections.ICollection):System.Void|static=false",
@@ -643,13 +643,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost::Reload():System.Void",
-          "clrName": "Reload",
+          "targetName": "Reload",
           "metadataToken": 100665518,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reload|():System.Void|static=false",
@@ -663,13 +663,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type):System.ComponentModel.IComponent",
-          "clrName": "CreateComponent",
+          "targetName": "CreateComponent",
           "metadataToken": 100665221,
           "canonicalSignature": "(System.Type):System.ComponentModel.IComponent",
           "normalizedSignature": "CreateComponent|(System.Type):System.ComponentModel.IComponent|static=false",
@@ -683,13 +683,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type,System.String):System.ComponentModel.IComponent",
-          "clrName": "CreateComponent",
+          "targetName": "CreateComponent",
           "metadataToken": 100665222,
           "canonicalSignature": "(System.Type,System.String):System.ComponentModel.IComponent",
           "normalizedSignature": "CreateComponent|(System.Type,System.String):System.ComponentModel.IComponent|static=false",
@@ -703,13 +703,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction():System.ComponentModel.Design.DesignerTransaction",
-          "clrName": "CreateTransaction",
+          "targetName": "CreateTransaction",
           "metadataToken": 100665223,
           "canonicalSignature": "():System.ComponentModel.Design.DesignerTransaction",
           "normalizedSignature": "CreateTransaction|():System.ComponentModel.Design.DesignerTransaction|static=false",
@@ -723,13 +723,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction(System.String):System.ComponentModel.Design.DesignerTransaction",
-          "clrName": "CreateTransaction",
+          "targetName": "CreateTransaction",
           "metadataToken": 100665224,
           "canonicalSignature": "(System.String):System.ComponentModel.Design.DesignerTransaction",
           "normalizedSignature": "CreateTransaction|(System.String):System.ComponentModel.Design.DesignerTransaction|static=false",
@@ -743,13 +743,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::DestroyComponent(System.ComponentModel.IComponent):System.Void",
-          "clrName": "DestroyComponent",
+          "targetName": "DestroyComponent",
           "metadataToken": 100665225,
           "canonicalSignature": "(System.ComponentModel.IComponent):System.Void",
           "normalizedSignature": "DestroyComponent|(System.ComponentModel.IComponent):System.Void|static=false",
@@ -763,13 +763,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetDesigner(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner",
-          "clrName": "GetDesigner",
+          "targetName": "GetDesigner",
           "metadataToken": 100665226,
           "canonicalSignature": "(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner",
           "normalizedSignature": "GetDesigner|(System.ComponentModel.IComponent):System.ComponentModel.Design.IDesigner|static=false",
@@ -783,13 +783,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::GetType(System.String):System.Type",
-          "clrName": "GetType",
+          "targetName": "GetType",
           "metadataToken": 100665227,
           "canonicalSignature": "(System.String):System.Type",
           "normalizedSignature": "GetType|(System.String):System.Type|static=false",
@@ -803,13 +803,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object):System.Void",
-          "clrName": "AddService",
+          "targetName": "AddService",
           "metadataToken": 100665228,
           "canonicalSignature": "(System.Type,System.Object):System.Void",
           "normalizedSignature": "AddService|(System.Type,System.Object):System.Void|static=false",
@@ -823,13 +823,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
-          "clrName": "AddService",
+          "targetName": "AddService",
           "metadataToken": 100665229,
           "canonicalSignature": "(System.Type,System.Object,System.Boolean):System.Void",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
@@ -843,13 +843,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
-          "clrName": "AddService",
+          "targetName": "AddService",
           "metadataToken": 100665230,
           "canonicalSignature": "(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
@@ -863,13 +863,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
-          "clrName": "AddService",
+          "targetName": "AddService",
           "metadataToken": 100665231,
           "canonicalSignature": "(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
@@ -883,13 +883,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type):System.Void",
-          "clrName": "RemoveService",
+          "targetName": "RemoveService",
           "metadataToken": 100665232,
           "canonicalSignature": "(System.Type):System.Void",
           "normalizedSignature": "RemoveService|(System.Type):System.Void|static=false",
@@ -903,13 +903,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
-          "clrName": "RemoveService",
+          "targetName": "RemoveService",
           "metadataToken": 100665233,
           "canonicalSignature": "(System.Type,System.Boolean):System.Void",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
@@ -923,13 +923,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IServiceContainer",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.IServiceContainer",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
-          "clrName": "GetService",
+          "targetName": "GetService",
           "metadataToken": 100663297,
           "canonicalSignature": "(System.Type):System.Object",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
@@ -943,15 +943,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IServiceProvider",
-          "declaringAssemblyName": "System.ComponentModel",
+          "ownerQualifiedName": "System.IServiceProvider",
+          "ownerIdentity": "System.ComponentModel",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost2::IgnoreErrorsDuringReload:System.Boolean",
-          "clrName": "IgnoreErrorsDuringReload",
+          "targetName": "IgnoreErrorsDuringReload",
           "metadataToken": 385876436,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IgnoreErrorsDuringReload|:System.Boolean|static=false|accessor=getset",
@@ -965,12 +965,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost2",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost2",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderHost2::CanReloadWithErrors:System.Boolean",
-          "clrName": "CanReloadWithErrors",
+          "targetName": "CanReloadWithErrors",
           "metadataToken": 385876437,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanReloadWithErrors|:System.Boolean|static=false|accessor=getset",
@@ -984,12 +984,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost2",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerLoaderHost2",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Loading:System.Boolean",
-          "clrName": "Loading",
+          "targetName": "Loading",
           "metadataToken": 385876368,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Loading|:System.Boolean|static=false|accessor=get",
@@ -1003,12 +1003,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::InTransaction:System.Boolean",
-          "clrName": "InTransaction",
+          "targetName": "InTransaction",
           "metadataToken": 385876369,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "InTransaction|:System.Boolean|static=false|accessor=get",
@@ -1022,12 +1022,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::Container:System.ComponentModel.IContainer",
-          "clrName": "Container",
+          "targetName": "Container",
           "metadataToken": 385876370,
           "canonicalSignature": ":System.ComponentModel.IContainer",
           "normalizedSignature": "Container|:System.ComponentModel.IContainer|static=false|accessor=get",
@@ -1041,12 +1041,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::RootComponent:System.ComponentModel.IComponent",
-          "clrName": "RootComponent",
+          "targetName": "RootComponent",
           "metadataToken": 385876371,
           "canonicalSignature": ":System.ComponentModel.IComponent",
           "normalizedSignature": "RootComponent|:System.ComponentModel.IComponent|static=false|accessor=get",
@@ -1060,12 +1060,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::RootComponentClassName:System.String",
-          "clrName": "RootComponentClassName",
+          "targetName": "RootComponentClassName",
           "metadataToken": 385876372,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "RootComponentClassName|:System.String|static=false|accessor=get",
@@ -1079,12 +1079,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::TransactionDescription:System.String",
-          "clrName": "TransactionDescription",
+          "targetName": "TransactionDescription",
           "metadataToken": 385876373,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "TransactionDescription|:System.String|static=false|accessor=get",
@@ -1098,39 +1098,39 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
       "events": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::ActivatedSystem.EventHandler",
-          "clrName": "Activated",
+          "targetName": "Activated",
           "metadataToken": 335544329,
           "normalizedSignature": "Activated|System.EventHandler|static=false",
           "isStatic": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::TransactionClosedSystem.ComponentModel.Design.DesignerTransactionCloseEventHandler",
-          "clrName": "TransactionClosed",
+          "targetName": "TransactionClosed",
           "metadataToken": 335544332,
           "normalizedSignature": "TransactionClosed|System.ComponentModel.Design.DesignerTransactionCloseEventHandler|static=false",
           "isStatic": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.IDesignerHost",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.IDesignerHost",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "constructors": []
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderService",
-      "clrName": "System.ComponentModel.Design.Serialization.IDesignerLoaderService",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.IDesignerLoaderService",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -1141,7 +1141,7 @@
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderService::AddLoadDependency():System.Void",
-          "clrName": "AddLoadDependency",
+          "targetName": "AddLoadDependency",
           "metadataToken": 100665523,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "AddLoadDependency|():System.Void|static=false",
@@ -1155,13 +1155,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerLoaderService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerLoaderService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderService::DependentLoadComplete(System.Boolean,System.Collections.ICollection):System.Void",
-          "clrName": "DependentLoadComplete",
+          "targetName": "DependentLoadComplete",
           "metadataToken": 100665524,
           "canonicalSignature": "(System.Boolean,System.Collections.ICollection):System.Void",
           "normalizedSignature": "DependentLoadComplete|(System.Boolean,System.Collections.ICollection):System.Void|static=false",
@@ -1175,13 +1175,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerLoaderService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerLoaderService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerLoaderService::Reload():System.Boolean",
-          "clrName": "Reload",
+          "targetName": "Reload",
           "metadataToken": 100665525,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "Reload|():System.Boolean|static=false",
@@ -1195,8 +1195,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerLoaderService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerLoaderService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
@@ -1207,8 +1207,8 @@
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-      "clrName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -1219,13 +1219,13 @@
       "interfaces": [
         {
           "stableId": "System.ComponentModel:System.IServiceProvider",
-          "clrName": "System.IServiceProvider"
+          "targetName": "System.IServiceProvider"
         }
       ],
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::AddSerializationProvider(System.ComponentModel.Design.Serialization.IDesignerSerializationProvider):System.Void",
-          "clrName": "AddSerializationProvider",
+          "targetName": "AddSerializationProvider",
           "metadataToken": 100665532,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.IDesignerSerializationProvider):System.Void",
           "normalizedSignature": "AddSerializationProvider|(System.ComponentModel.Design.Serialization.IDesignerSerializationProvider):System.Void|static=false",
@@ -1239,13 +1239,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::CreateInstance(System.Type,System.Collections.ICollection,System.String,System.Boolean):System.Object",
-          "clrName": "CreateInstance",
+          "targetName": "CreateInstance",
           "metadataToken": 100665533,
           "canonicalSignature": "(System.Type,System.Collections.ICollection,System.String,System.Boolean):System.Object",
           "normalizedSignature": "CreateInstance|(System.Type,System.Collections.ICollection,System.String,System.Boolean):System.Object|static=false",
@@ -1259,13 +1259,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetInstance(System.String):System.Object",
-          "clrName": "GetInstance",
+          "targetName": "GetInstance",
           "metadataToken": 100665534,
           "canonicalSignature": "(System.String):System.Object",
           "normalizedSignature": "GetInstance|(System.String):System.Object|static=false",
@@ -1279,13 +1279,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetName(System.Object):System.String",
-          "clrName": "GetName",
+          "targetName": "GetName",
           "metadataToken": 100665535,
           "canonicalSignature": "(System.Object):System.String",
           "normalizedSignature": "GetName|(System.Object):System.String|static=false",
@@ -1299,13 +1299,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetSerializer(System.Type,System.Type):System.Object",
-          "clrName": "GetSerializer",
+          "targetName": "GetSerializer",
           "metadataToken": 100665536,
           "canonicalSignature": "(System.Type,System.Type):System.Object",
           "normalizedSignature": "GetSerializer|(System.Type,System.Type):System.Object|static=false",
@@ -1319,13 +1319,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::GetType(System.String):System.Type",
-          "clrName": "GetType",
+          "targetName": "GetType",
           "metadataToken": 100665537,
           "canonicalSignature": "(System.String):System.Type",
           "normalizedSignature": "GetType|(System.String):System.Type|static=false",
@@ -1339,13 +1339,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::ReportError(System.Object):System.Void",
-          "clrName": "ReportError",
+          "targetName": "ReportError",
           "metadataToken": 100665539,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "ReportError|(System.Object):System.Void|static=false",
@@ -1359,13 +1359,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::SetName(System.Object,System.String):System.Void",
-          "clrName": "SetName",
+          "targetName": "SetName",
           "metadataToken": 100665540,
           "canonicalSignature": "(System.Object,System.String):System.Void",
           "normalizedSignature": "SetName|(System.Object,System.String):System.Void|static=false",
@@ -1379,13 +1379,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel:System.IServiceProvider::GetService(System.Type):System.Object",
-          "clrName": "GetService",
+          "targetName": "GetService",
           "metadataToken": 100663297,
           "canonicalSignature": "(System.Type):System.Object",
           "normalizedSignature": "GetService|(System.Type):System.Object|static=false",
@@ -1399,15 +1399,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IServiceProvider",
-          "declaringAssemblyName": "System.ComponentModel",
+          "ownerQualifiedName": "System.IServiceProvider",
+          "ownerIdentity": "System.ComponentModel",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::Context:System.ComponentModel.Design.Serialization.ContextStack",
-          "clrName": "Context",
+          "targetName": "Context",
           "metadataToken": 385876438,
           "canonicalSignature": ":System.ComponentModel.Design.Serialization.ContextStack",
           "normalizedSignature": "Context|:System.ComponentModel.Design.Serialization.ContextStack|static=false|accessor=get",
@@ -1421,12 +1421,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::Properties:System.ComponentModel.PropertyDescriptorCollection",
-          "clrName": "Properties",
+          "targetName": "Properties",
           "metadataToken": 385876439,
           "canonicalSignature": ":System.ComponentModel.PropertyDescriptorCollection",
           "normalizedSignature": "Properties|:System.ComponentModel.PropertyDescriptorCollection|static=false|accessor=get",
@@ -1440,39 +1440,39 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
       "events": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::ResolveNameSystem.ComponentModel.Design.Serialization.ResolveNameEventHandler",
-          "clrName": "ResolveName",
+          "targetName": "ResolveName",
           "metadataToken": 335544349,
           "normalizedSignature": "ResolveName|System.ComponentModel.Design.Serialization.ResolveNameEventHandler|static=false",
           "isStatic": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationManager::SerializationCompleteSystem.EventHandler",
-          "clrName": "SerializationComplete",
+          "targetName": "SerializationComplete",
           "metadataToken": 335544350,
           "normalizedSignature": "SerializationComplete|System.EventHandler|static=false",
           "isStatic": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationManager",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "constructors": []
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationProvider",
-      "clrName": "System.ComponentModel.Design.Serialization.IDesignerSerializationProvider",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.IDesignerSerializationProvider",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -1483,7 +1483,7 @@
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationProvider::GetSerializer(System.ComponentModel.Design.Serialization.IDesignerSerializationManager,System.Object,System.Type,System.Type):System.Object",
-          "clrName": "GetSerializer",
+          "targetName": "GetSerializer",
           "metadataToken": 100665541,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.IDesignerSerializationManager,System.Object,System.Type,System.Type):System.Object",
           "normalizedSignature": "GetSerializer|(System.ComponentModel.Design.Serialization.IDesignerSerializationManager,System.Object,System.Type,System.Type):System.Object|static=false",
@@ -1497,8 +1497,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationProvider",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationProvider",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
@@ -1509,8 +1509,8 @@
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationService",
-      "clrName": "System.ComponentModel.Design.Serialization.IDesignerSerializationService",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.IDesignerSerializationService",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -1521,7 +1521,7 @@
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationService::Deserialize(System.Object):System.Collections.ICollection",
-          "clrName": "Deserialize",
+          "targetName": "Deserialize",
           "metadataToken": 100665542,
           "canonicalSignature": "(System.Object):System.Collections.ICollection",
           "normalizedSignature": "Deserialize|(System.Object):System.Collections.ICollection|static=false",
@@ -1535,13 +1535,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.IDesignerSerializationService::Serialize(System.Collections.ICollection):System.Object",
-          "clrName": "Serialize",
+          "targetName": "Serialize",
           "metadataToken": 100665543,
           "canonicalSignature": "(System.Collections.ICollection):System.Object",
           "normalizedSignature": "Serialize|(System.Collections.ICollection):System.Object|static=false",
@@ -1555,8 +1555,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.IDesignerSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.IDesignerSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
@@ -1567,8 +1567,8 @@
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.INameCreationService",
-      "clrName": "System.ComponentModel.Design.Serialization.INameCreationService",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.INameCreationService",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -1579,7 +1579,7 @@
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.INameCreationService::CreateName(System.ComponentModel.IContainer,System.Type):System.String",
-          "clrName": "CreateName",
+          "targetName": "CreateName",
           "metadataToken": 100665544,
           "canonicalSignature": "(System.ComponentModel.IContainer,System.Type):System.String",
           "normalizedSignature": "CreateName|(System.ComponentModel.IContainer,System.Type):System.String|static=false",
@@ -1593,13 +1593,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.INameCreationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.INameCreationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.INameCreationService::IsValidName(System.String):System.Boolean",
-          "clrName": "IsValidName",
+          "targetName": "IsValidName",
           "metadataToken": 100665545,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "IsValidName|(System.String):System.Boolean|static=false",
@@ -1613,13 +1613,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.INameCreationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.INameCreationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.INameCreationService::ValidateName(System.String):System.Void",
-          "clrName": "ValidateName",
+          "targetName": "ValidateName",
           "metadataToken": 100665546,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "ValidateName|(System.String):System.Void|static=false",
@@ -1633,8 +1633,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.INameCreationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.INameCreationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
@@ -1645,8 +1645,8 @@
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship",
-      "clrName": "System.ComponentModel.Design.Serialization.MemberRelationship",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.MemberRelationship",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -1656,12 +1656,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601",
-          "clrName": "System.IEquatable\u00601",
+          "targetName": "System.IEquatable\u00601",
           "typeArguments": [
             "MemberRelationship"
           ]
@@ -1670,7 +1670,7 @@
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::Equals(System.Object):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100665564,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
@@ -1684,13 +1684,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationship",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationship",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::Equals(System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100665565,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean",
           "normalizedSignature": "Equals|(System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean|static=false",
@@ -1704,13 +1704,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationship",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationship",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::GetHashCode():System.Int32",
-          "clrName": "GetHashCode",
+          "targetName": "GetHashCode",
           "metadataToken": 100665566,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
@@ -1724,13 +1724,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationship",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationship",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100668531,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
@@ -1744,8 +1744,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IEquatable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IEquatable\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IEquatable\u00601"
         }
@@ -1753,7 +1753,7 @@
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::IsEmpty:System.Boolean",
-          "clrName": "IsEmpty",
+          "targetName": "IsEmpty",
           "metadataToken": 385876442,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsEmpty|:System.Boolean|static=false|accessor=get",
@@ -1767,12 +1767,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationship",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationship",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::Member:System.ComponentModel.MemberDescriptor",
-          "clrName": "Member",
+          "targetName": "Member",
           "metadataToken": 385876443,
           "canonicalSignature": ":System.ComponentModel.MemberDescriptor",
           "normalizedSignature": "Member|:System.ComponentModel.MemberDescriptor|static=false|accessor=get",
@@ -1786,12 +1786,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationship",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationship",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::Owner:System.Object",
-          "clrName": "Owner",
+          "targetName": "Owner",
           "metadataToken": 385876444,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Owner|:System.Object|static=false|accessor=get",
@@ -1805,22 +1805,22 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationship",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationship",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationship::EmptySystem.ComponentModel.Design.Serialization.MemberRelationship",
-          "clrName": "Empty",
+          "targetName": "Empty",
           "metadataToken": 67109509,
           "normalizedSignature": "Empty|System.ComponentModel.Design.Serialization.MemberRelationship|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationship",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationship",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "events": [],
@@ -1833,15 +1833,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationship",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationship",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService",
-      "clrName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1851,12 +1851,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::CreateStore():System.ComponentModel.Design.Serialization.SerializationStore",
-          "clrName": "CreateStore",
+          "targetName": "CreateStore",
           "metadataToken": 100665484,
           "canonicalSignature": "():System.ComponentModel.Design.Serialization.SerializationStore",
           "normalizedSignature": "CreateStore|():System.ComponentModel.Design.Serialization.SerializationStore|static=false",
@@ -1870,13 +1870,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::LoadStore(System.IO.Stream):System.ComponentModel.Design.Serialization.SerializationStore",
-          "clrName": "LoadStore",
+          "targetName": "LoadStore",
           "metadataToken": 100665485,
           "canonicalSignature": "(System.IO.Stream):System.ComponentModel.Design.Serialization.SerializationStore",
           "normalizedSignature": "LoadStore|(System.IO.Stream):System.ComponentModel.Design.Serialization.SerializationStore|static=false",
@@ -1890,13 +1890,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::Serialize(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void",
-          "clrName": "Serialize",
+          "targetName": "Serialize",
           "metadataToken": 100665486,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void",
           "normalizedSignature": "Serialize|(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void|static=false",
@@ -1910,13 +1910,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::SerializeAbsolute(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void",
-          "clrName": "SerializeAbsolute",
+          "targetName": "SerializeAbsolute",
           "metadataToken": 100665487,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void",
           "normalizedSignature": "SerializeAbsolute|(System.ComponentModel.Design.Serialization.SerializationStore,System.Object):System.Void|static=false",
@@ -1930,13 +1930,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::SerializeMember(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void",
-          "clrName": "SerializeMember",
+          "targetName": "SerializeMember",
           "metadataToken": 100665488,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void",
           "normalizedSignature": "SerializeMember|(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void|static=false",
@@ -1950,13 +1950,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::SerializeMemberAbsolute(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void",
-          "clrName": "SerializeMemberAbsolute",
+          "targetName": "SerializeMemberAbsolute",
           "metadataToken": 100665489,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void",
           "normalizedSignature": "SerializeMemberAbsolute|(System.ComponentModel.Design.Serialization.SerializationStore,System.Object,System.ComponentModel.MemberDescriptor):System.Void|static=false",
@@ -1970,13 +1970,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::Deserialize(System.ComponentModel.Design.Serialization.SerializationStore):System.Collections.ICollection",
-          "clrName": "Deserialize",
+          "targetName": "Deserialize",
           "metadataToken": 100665490,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.SerializationStore):System.Collections.ICollection",
           "normalizedSignature": "Deserialize|(System.ComponentModel.Design.Serialization.SerializationStore):System.Collections.ICollection|static=false",
@@ -1990,13 +1990,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::Deserialize(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Collections.ICollection",
-          "clrName": "Deserialize",
+          "targetName": "Deserialize",
           "metadataToken": 100665491,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Collections.ICollection",
           "normalizedSignature": "Deserialize|(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Collections.ICollection|static=false",
@@ -2010,13 +2010,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::DeserializeTo(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean,System.Boolean):System.Void",
-          "clrName": "DeserializeTo",
+          "targetName": "DeserializeTo",
           "metadataToken": 100665492,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean,System.Boolean):System.Void",
           "normalizedSignature": "DeserializeTo|(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean,System.Boolean):System.Void|static=false",
@@ -2030,13 +2030,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::DeserializeTo(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Void",
-          "clrName": "DeserializeTo",
+          "targetName": "DeserializeTo",
           "metadataToken": 100665493,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Void",
           "normalizedSignature": "DeserializeTo|(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer):System.Void|static=false",
@@ -2050,13 +2050,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::DeserializeTo(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean):System.Void",
-          "clrName": "DeserializeTo",
+          "targetName": "DeserializeTo",
           "metadataToken": 100665494,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean):System.Void",
           "normalizedSignature": "DeserializeTo|(System.ComponentModel.Design.Serialization.SerializationStore,System.ComponentModel.IContainer,System.Boolean):System.Void|static=false",
@@ -2070,8 +2070,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
@@ -2087,15 +2087,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack",
-      "clrName": "System.ComponentModel.Design.Serialization.ContextStack",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.ContextStack",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2105,12 +2105,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::Append(System.Object):System.Void",
-          "clrName": "Append",
+          "targetName": "Append",
           "metadataToken": 100665499,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Append|(System.Object):System.Void|static=false",
@@ -2124,13 +2124,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ContextStack",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ContextStack",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::Pop():System.Object",
-          "clrName": "Pop",
+          "targetName": "Pop",
           "metadataToken": 100665500,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Pop|():System.Object|static=false",
@@ -2144,13 +2144,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ContextStack",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ContextStack",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::Push(System.Object):System.Void",
-          "clrName": "Push",
+          "targetName": "Push",
           "metadataToken": 100665501,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Push|(System.Object):System.Void|static=false",
@@ -2164,13 +2164,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ContextStack",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ContextStack",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::get_Item(System.Int32):System.Object",
-          "clrName": "get_Item",
+          "targetName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Object",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
@@ -2184,13 +2184,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ContextStack",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ContextStack",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::get_Item(System.Type):System.Object",
-          "clrName": "get_Item",
+          "targetName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Object",
           "normalizedSignature": "get_Item|(System.Type):System.Object|static=false",
@@ -2204,15 +2204,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ContextStack",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ContextStack",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::Current:System.Object",
-          "clrName": "Current",
+          "targetName": "Current",
           "metadataToken": 385876430,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Current|:System.Object|static=false|accessor=get",
@@ -2226,8 +2226,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ContextStack",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ContextStack",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
@@ -2241,15 +2241,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ContextStack",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ContextStack",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute",
-      "clrName": "System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2259,13 +2259,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute::ProviderTypeName:System.String",
-          "clrName": "ProviderTypeName",
+          "targetName": "ProviderTypeName",
           "metadataToken": 385876433,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "ProviderTypeName|:System.String|static=false|accessor=get",
@@ -2279,8 +2279,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
@@ -2294,8 +2294,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute::.ctor(System.String):void",
@@ -2305,15 +2305,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader",
-      "clrName": "System.ComponentModel.Design.Serialization.DesignerLoader",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.DesignerLoader",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2323,12 +2323,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::BeginLoad(System.ComponentModel.Design.Serialization.IDesignerLoaderHost):System.Void",
-          "clrName": "BeginLoad",
+          "targetName": "BeginLoad",
           "metadataToken": 100665507,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.IDesignerLoaderHost):System.Void",
           "normalizedSignature": "BeginLoad|(System.ComponentModel.Design.Serialization.IDesignerLoaderHost):System.Void|static=false",
@@ -2342,13 +2342,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerLoader",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerLoader",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100665508,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2362,13 +2362,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerLoader",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerLoader",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::Flush():System.Void",
-          "clrName": "Flush",
+          "targetName": "Flush",
           "metadataToken": 100665509,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Flush|():System.Void|static=false",
@@ -2382,15 +2382,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerLoader",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerLoader",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::Loading:System.Boolean",
-          "clrName": "Loading",
+          "targetName": "Loading",
           "metadataToken": 385876434,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Loading|:System.Boolean|static=false|accessor=get",
@@ -2404,8 +2404,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerLoader",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerLoader",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
@@ -2419,15 +2419,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerLoader",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerLoader",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
-      "clrName": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
-      "assemblyName": "System.ComponentModel.Primitives",
+      "targetName": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
+      "ownerIdentity": "System.ComponentModel.Primitives",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2437,13 +2437,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Design.Serialization.DesignerSerializerAttribute::SerializerTypeName:System.String",
-          "clrName": "SerializerTypeName",
+          "targetName": "SerializerTypeName",
           "metadataToken": 385876046,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SerializerTypeName|:System.String|static=false|accessor=get",
@@ -2457,12 +2457,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Primitives"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.Primitives"
         },
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Design.Serialization.DesignerSerializerAttribute::SerializerBaseTypeName:System.String",
-          "clrName": "SerializerBaseTypeName",
+          "targetName": "SerializerBaseTypeName",
           "metadataToken": 385876047,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SerializerBaseTypeName|:System.String|static=false|accessor=get",
@@ -2476,12 +2476,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Primitives"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.Primitives"
         },
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Design.Serialization.DesignerSerializerAttribute::TypeId:System.Object",
-          "clrName": "TypeId",
+          "targetName": "TypeId",
           "metadataToken": 385876048,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "TypeId|:System.Object|static=false|accessor=get",
@@ -2495,8 +2495,8 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Primitives"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.Primitives"
         }
       ],
       "fields": [],
@@ -2510,8 +2510,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Primitives"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.Primitives"
         },
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Design.Serialization.DesignerSerializerAttribute::.ctor(System.String,System.Type):void",
@@ -2521,8 +2521,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Primitives"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.Primitives"
         },
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Design.Serialization.DesignerSerializerAttribute::.ctor(System.String,System.String):void",
@@ -2532,15 +2532,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.Primitives"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.Primitives"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.InstanceDescriptor",
-      "clrName": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2550,12 +2550,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.InstanceDescriptor::Invoke():System.Object",
-          "clrName": "Invoke",
+          "targetName": "Invoke",
           "metadataToken": 100665483,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Invoke|():System.Object|static=false",
@@ -2569,15 +2569,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.InstanceDescriptor::Arguments:System.Collections.ICollection",
-          "clrName": "Arguments",
+          "targetName": "Arguments",
           "metadataToken": 385876427,
           "canonicalSignature": ":System.Collections.ICollection",
           "normalizedSignature": "Arguments|:System.Collections.ICollection|static=false|accessor=get",
@@ -2591,12 +2591,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.InstanceDescriptor::IsComplete:System.Boolean",
-          "clrName": "IsComplete",
+          "targetName": "IsComplete",
           "metadataToken": 385876428,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsComplete|:System.Boolean|static=false|accessor=get",
@@ -2610,12 +2610,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.InstanceDescriptor::MemberInfo:System.Reflection.MemberInfo",
-          "clrName": "MemberInfo",
+          "targetName": "MemberInfo",
           "metadataToken": 385876429,
           "canonicalSignature": ":System.Reflection.MemberInfo",
           "normalizedSignature": "MemberInfo|:System.Reflection.MemberInfo|static=false|accessor=get",
@@ -2629,8 +2629,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
@@ -2644,8 +2644,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.InstanceDescriptor::.ctor(System.Reflection.MemberInfo,System.Collections.ICollection,System.Boolean):void",
@@ -2655,15 +2655,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.InstanceDescriptor",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService",
-      "clrName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2673,12 +2673,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::GetRelationship(System.ComponentModel.Design.Serialization.MemberRelationship):System.ComponentModel.Design.Serialization.MemberRelationship",
-          "clrName": "GetRelationship",
+          "targetName": "GetRelationship",
           "metadataToken": 100665551,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.MemberRelationship):System.ComponentModel.Design.Serialization.MemberRelationship",
           "normalizedSignature": "GetRelationship|(System.ComponentModel.Design.Serialization.MemberRelationship):System.ComponentModel.Design.Serialization.MemberRelationship|static=false",
@@ -2692,13 +2692,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::SetRelationship(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void",
-          "clrName": "SetRelationship",
+          "targetName": "SetRelationship",
           "metadataToken": 100665552,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void",
           "normalizedSignature": "SetRelationship|(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void|static=false",
@@ -2712,13 +2712,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::SupportsRelationship(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean",
-          "clrName": "SupportsRelationship",
+          "targetName": "SupportsRelationship",
           "metadataToken": 100665554,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean",
           "normalizedSignature": "SupportsRelationship|(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Boolean|static=false",
@@ -2732,13 +2732,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::get_Item(System.ComponentModel.Design.Serialization.MemberRelationship):System.ComponentModel.Design.Serialization.MemberRelationship",
-          "clrName": "get_Item",
+          "targetName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.MemberRelationship):System.ComponentModel.Design.Serialization.MemberRelationship",
           "normalizedSignature": "get_Item|(System.ComponentModel.Design.Serialization.MemberRelationship):System.ComponentModel.Design.Serialization.MemberRelationship|static=false",
@@ -2752,13 +2752,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::set_Item(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void",
-          "clrName": "set_Item",
+          "targetName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void",
           "normalizedSignature": "set_Item|(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void|static=false",
@@ -2772,13 +2772,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::get_Item(System.Object,System.ComponentModel.MemberDescriptor):System.ComponentModel.Design.Serialization.MemberRelationship",
-          "clrName": "get_Item",
+          "targetName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.ComponentModel.MemberDescriptor):System.ComponentModel.Design.Serialization.MemberRelationship",
           "normalizedSignature": "get_Item|(System.Object,System.ComponentModel.MemberDescriptor):System.ComponentModel.Design.Serialization.MemberRelationship|static=false",
@@ -2792,13 +2792,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::set_Item(System.Object,System.ComponentModel.MemberDescriptor,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void",
-          "clrName": "set_Item",
+          "targetName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.ComponentModel.MemberDescriptor,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void",
           "normalizedSignature": "set_Item|(System.Object,System.ComponentModel.MemberDescriptor,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void|static=false",
@@ -2812,8 +2812,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         }
       ],
@@ -2829,15 +2829,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventArgs",
-      "clrName": "System.ComponentModel.Design.Serialization.ResolveNameEventArgs",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.ResolveNameEventArgs",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2847,13 +2847,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.EventArgs",
-        "clrName": "System.EventArgs"
+        "targetName": "System.EventArgs"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventArgs::Name:System.String",
-          "clrName": "Name",
+          "targetName": "Name",
           "metadataToken": 385876445,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -2867,12 +2867,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ResolveNameEventArgs",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ResolveNameEventArgs",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventArgs::Value:System.Object",
-          "clrName": "Value",
+          "targetName": "Value",
           "metadataToken": 385876446,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Value|:System.Object|static=false|accessor=getset",
@@ -2886,8 +2886,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ResolveNameEventArgs",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ResolveNameEventArgs",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
@@ -2901,15 +2901,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.ResolveNameEventArgs",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ResolveNameEventArgs",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
-      "clrName": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2919,13 +2919,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::Reloadable:System.Boolean",
-          "clrName": "Reloadable",
+          "targetName": "Reloadable",
           "metadataToken": 385876447,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Reloadable|:System.Boolean|static=false|accessor=get",
@@ -2939,12 +2939,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::SerializerTypeName:System.String",
-          "clrName": "SerializerTypeName",
+          "targetName": "SerializerTypeName",
           "metadataToken": 385876448,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SerializerTypeName|:System.String|static=false|accessor=get",
@@ -2958,12 +2958,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::SerializerBaseTypeName:System.String",
-          "clrName": "SerializerBaseTypeName",
+          "targetName": "SerializerBaseTypeName",
           "metadataToken": 385876449,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SerializerBaseTypeName|:System.String|static=false|accessor=get",
@@ -2977,12 +2977,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::TypeId:System.Object",
-          "clrName": "TypeId",
+          "targetName": "TypeId",
           "metadataToken": 385876450,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "TypeId|:System.Object|static=false|accessor=get",
@@ -2996,8 +2996,8 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
@@ -3011,8 +3011,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::.ctor(System.String,System.Type,System.Boolean):void",
@@ -3022,8 +3022,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::.ctor(System.String,System.String,System.Boolean):void",
@@ -3033,15 +3033,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     },
     {
       "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.SerializationStore",
-      "clrName": "System.ComponentModel.Design.Serialization.SerializationStore",
-      "assemblyName": "System.ComponentModel.TypeConverter",
+      "targetName": "System.ComponentModel.Design.Serialization.SerializationStore",
+      "ownerIdentity": "System.ComponentModel.TypeConverter",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3051,18 +3051,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.SerializationStore::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100665512,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -3076,13 +3076,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.SerializationStore",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.SerializationStore",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.SerializationStore::Save(System.IO.Stream):System.Void",
-          "clrName": "Save",
+          "targetName": "Save",
           "metadataToken": 100665513,
           "canonicalSignature": "(System.IO.Stream):System.Void",
           "normalizedSignature": "Save|(System.IO.Stream):System.Void|static=false",
@@ -3096,13 +3096,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.SerializationStore",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.SerializationStore",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.SerializationStore::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100665515,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -3116,13 +3116,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.SerializationStore",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter",
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.SerializationStore",
+          "ownerIdentity": "System.ComponentModel.TypeConverter",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3136,8 +3136,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -3145,7 +3145,7 @@
       "properties": [
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.SerializationStore::Errors:System.Collections.ICollection",
-          "clrName": "Errors",
+          "targetName": "Errors",
           "metadataToken": 385876435,
           "canonicalSignature": ":System.Collections.ICollection",
           "normalizedSignature": "Errors|:System.Collections.ICollection|static=false|accessor=get",
@@ -3159,8 +3159,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.SerializationStore",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.SerializationStore",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ],
       "fields": [],
@@ -3174,8 +3174,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.ComponentModel.Design.Serialization.SerializationStore",
-          "declaringAssemblyName": "System.ComponentModel.TypeConverter"
+          "ownerQualifiedName": "System.ComponentModel.Design.Serialization.SerializationStore",
+          "ownerIdentity": "System.ComponentModel.TypeConverter"
         }
       ]
     }

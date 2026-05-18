@@ -8,8 +8,8 @@
   "types": [
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus",
-      "clrName": "System.Net.WebSockets.WebSocketCloseStatus",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketCloseStatus",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -19,24 +19,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -44,135 +44,135 @@
       "fields": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109090,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::NormalClosureSystem.Net.WebSockets.WebSocketCloseStatus",
-          "clrName": "NormalClosure",
+          "targetName": "NormalClosure",
           "metadataToken": 67109091,
           "normalizedSignature": "NormalClosure|System.Net.WebSockets.WebSocketCloseStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::EndpointUnavailableSystem.Net.WebSockets.WebSocketCloseStatus",
-          "clrName": "EndpointUnavailable",
+          "targetName": "EndpointUnavailable",
           "metadataToken": 67109092,
           "normalizedSignature": "EndpointUnavailable|System.Net.WebSockets.WebSocketCloseStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::ProtocolErrorSystem.Net.WebSockets.WebSocketCloseStatus",
-          "clrName": "ProtocolError",
+          "targetName": "ProtocolError",
           "metadataToken": 67109093,
           "normalizedSignature": "ProtocolError|System.Net.WebSockets.WebSocketCloseStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::InvalidMessageTypeSystem.Net.WebSockets.WebSocketCloseStatus",
-          "clrName": "InvalidMessageType",
+          "targetName": "InvalidMessageType",
           "metadataToken": 67109094,
           "normalizedSignature": "InvalidMessageType|System.Net.WebSockets.WebSocketCloseStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::EmptySystem.Net.WebSockets.WebSocketCloseStatus",
-          "clrName": "Empty",
+          "targetName": "Empty",
           "metadataToken": 67109095,
           "normalizedSignature": "Empty|System.Net.WebSockets.WebSocketCloseStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::InvalidPayloadDataSystem.Net.WebSockets.WebSocketCloseStatus",
-          "clrName": "InvalidPayloadData",
+          "targetName": "InvalidPayloadData",
           "metadataToken": 67109096,
           "normalizedSignature": "InvalidPayloadData|System.Net.WebSockets.WebSocketCloseStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::PolicyViolationSystem.Net.WebSockets.WebSocketCloseStatus",
-          "clrName": "PolicyViolation",
+          "targetName": "PolicyViolation",
           "metadataToken": 67109097,
           "normalizedSignature": "PolicyViolation|System.Net.WebSockets.WebSocketCloseStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::MessageTooBigSystem.Net.WebSockets.WebSocketCloseStatus",
-          "clrName": "MessageTooBig",
+          "targetName": "MessageTooBig",
           "metadataToken": 67109098,
           "normalizedSignature": "MessageTooBig|System.Net.WebSockets.WebSocketCloseStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::MandatoryExtensionSystem.Net.WebSockets.WebSocketCloseStatus",
-          "clrName": "MandatoryExtension",
+          "targetName": "MandatoryExtension",
           "metadataToken": 67109099,
           "normalizedSignature": "MandatoryExtension|System.Net.WebSockets.WebSocketCloseStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCloseStatus::InternalServerErrorSystem.Net.WebSockets.WebSocketCloseStatus",
-          "clrName": "InternalServerError",
+          "targetName": "InternalServerError",
           "metadataToken": 67109100,
           "normalizedSignature": "InternalServerError|System.Net.WebSockets.WebSocketCloseStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCloseStatus",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCloseStatus",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "events": [],
@@ -180,8 +180,8 @@
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError",
-      "clrName": "System.Net.WebSockets.WebSocketError",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketError",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -191,24 +191,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -216,135 +216,135 @@
       "fields": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109110,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::SuccessSystem.Net.WebSockets.WebSocketError",
-          "clrName": "Success",
+          "targetName": "Success",
           "metadataToken": 67109111,
           "normalizedSignature": "Success|System.Net.WebSockets.WebSocketError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::InvalidMessageTypeSystem.Net.WebSockets.WebSocketError",
-          "clrName": "InvalidMessageType",
+          "targetName": "InvalidMessageType",
           "metadataToken": 67109112,
           "normalizedSignature": "InvalidMessageType|System.Net.WebSockets.WebSocketError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::FaultedSystem.Net.WebSockets.WebSocketError",
-          "clrName": "Faulted",
+          "targetName": "Faulted",
           "metadataToken": 67109113,
           "normalizedSignature": "Faulted|System.Net.WebSockets.WebSocketError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::NativeErrorSystem.Net.WebSockets.WebSocketError",
-          "clrName": "NativeError",
+          "targetName": "NativeError",
           "metadataToken": 67109114,
           "normalizedSignature": "NativeError|System.Net.WebSockets.WebSocketError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::NotAWebSocketSystem.Net.WebSockets.WebSocketError",
-          "clrName": "NotAWebSocket",
+          "targetName": "NotAWebSocket",
           "metadataToken": 67109115,
           "normalizedSignature": "NotAWebSocket|System.Net.WebSockets.WebSocketError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::UnsupportedVersionSystem.Net.WebSockets.WebSocketError",
-          "clrName": "UnsupportedVersion",
+          "targetName": "UnsupportedVersion",
           "metadataToken": 67109116,
           "normalizedSignature": "UnsupportedVersion|System.Net.WebSockets.WebSocketError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::UnsupportedProtocolSystem.Net.WebSockets.WebSocketError",
-          "clrName": "UnsupportedProtocol",
+          "targetName": "UnsupportedProtocol",
           "metadataToken": 67109117,
           "normalizedSignature": "UnsupportedProtocol|System.Net.WebSockets.WebSocketError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::HeaderErrorSystem.Net.WebSockets.WebSocketError",
-          "clrName": "HeaderError",
+          "targetName": "HeaderError",
           "metadataToken": 67109118,
           "normalizedSignature": "HeaderError|System.Net.WebSockets.WebSocketError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::ConnectionClosedPrematurelySystem.Net.WebSockets.WebSocketError",
-          "clrName": "ConnectionClosedPrematurely",
+          "targetName": "ConnectionClosedPrematurely",
           "metadataToken": 67109119,
           "normalizedSignature": "ConnectionClosedPrematurely|System.Net.WebSockets.WebSocketError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketError::InvalidStateSystem.Net.WebSockets.WebSocketError",
-          "clrName": "InvalidState",
+          "targetName": "InvalidState",
           "metadataToken": 67109120,
           "normalizedSignature": "InvalidState|System.Net.WebSockets.WebSocketError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketError",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketError",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "events": [],
@@ -352,8 +352,8 @@
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageFlags",
-      "clrName": "System.Net.WebSockets.WebSocketMessageFlags",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketMessageFlags",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -363,24 +363,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -388,51 +388,51 @@
       "fields": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageFlags::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109126,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketMessageFlags",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketMessageFlags",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageFlags::NoneSystem.Net.WebSockets.WebSocketMessageFlags",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67109127,
           "normalizedSignature": "None|System.Net.WebSockets.WebSocketMessageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketMessageFlags",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketMessageFlags",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageFlags::EndOfMessageSystem.Net.WebSockets.WebSocketMessageFlags",
-          "clrName": "EndOfMessage",
+          "targetName": "EndOfMessage",
           "metadataToken": 67109128,
           "normalizedSignature": "EndOfMessage|System.Net.WebSockets.WebSocketMessageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketMessageFlags",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketMessageFlags",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageFlags::DisableCompressionSystem.Net.WebSockets.WebSocketMessageFlags",
-          "clrName": "DisableCompression",
+          "targetName": "DisableCompression",
           "metadataToken": 67109129,
           "normalizedSignature": "DisableCompression|System.Net.WebSockets.WebSocketMessageFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketMessageFlags",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketMessageFlags",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "events": [],
@@ -440,8 +440,8 @@
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageType",
-      "clrName": "System.Net.WebSockets.WebSocketMessageType",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketMessageType",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -451,24 +451,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -476,51 +476,51 @@
       "fields": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageType::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109122,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketMessageType",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketMessageType",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageType::TextSystem.Net.WebSockets.WebSocketMessageType",
-          "clrName": "Text",
+          "targetName": "Text",
           "metadataToken": 67109123,
           "normalizedSignature": "Text|System.Net.WebSockets.WebSocketMessageType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketMessageType",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketMessageType",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageType::BinarySystem.Net.WebSockets.WebSocketMessageType",
-          "clrName": "Binary",
+          "targetName": "Binary",
           "metadataToken": 67109124,
           "normalizedSignature": "Binary|System.Net.WebSockets.WebSocketMessageType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketMessageType",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketMessageType",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketMessageType::CloseSystem.Net.WebSockets.WebSocketMessageType",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 67109125,
           "normalizedSignature": "Close|System.Net.WebSockets.WebSocketMessageType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketMessageType",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketMessageType",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "events": [],
@@ -528,8 +528,8 @@
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketState",
-      "clrName": "System.Net.WebSockets.WebSocketState",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketState",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -539,24 +539,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -564,99 +564,99 @@
       "fields": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketState::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109135,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketState",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketState",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketState::NoneSystem.Net.WebSockets.WebSocketState",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67109136,
           "normalizedSignature": "None|System.Net.WebSockets.WebSocketState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketState",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketState",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketState::ConnectingSystem.Net.WebSockets.WebSocketState",
-          "clrName": "Connecting",
+          "targetName": "Connecting",
           "metadataToken": 67109137,
           "normalizedSignature": "Connecting|System.Net.WebSockets.WebSocketState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketState",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketState",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketState::OpenSystem.Net.WebSockets.WebSocketState",
-          "clrName": "Open",
+          "targetName": "Open",
           "metadataToken": 67109138,
           "normalizedSignature": "Open|System.Net.WebSockets.WebSocketState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketState",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketState",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketState::CloseSentSystem.Net.WebSockets.WebSocketState",
-          "clrName": "CloseSent",
+          "targetName": "CloseSent",
           "metadataToken": 67109139,
           "normalizedSignature": "CloseSent|System.Net.WebSockets.WebSocketState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketState",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketState",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketState::CloseReceivedSystem.Net.WebSockets.WebSocketState",
-          "clrName": "CloseReceived",
+          "targetName": "CloseReceived",
           "metadataToken": 67109140,
           "normalizedSignature": "CloseReceived|System.Net.WebSockets.WebSocketState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketState",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketState",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketState::ClosedSystem.Net.WebSockets.WebSocketState",
-          "clrName": "Closed",
+          "targetName": "Closed",
           "metadataToken": 67109141,
           "normalizedSignature": "Closed|System.Net.WebSockets.WebSocketState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketState",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketState",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketState::AbortedSystem.Net.WebSockets.WebSocketState",
-          "clrName": "Aborted",
+          "targetName": "Aborted",
           "metadataToken": 67109142,
           "normalizedSignature": "Aborted|System.Net.WebSockets.WebSocketState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketState",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketState",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "events": [],
@@ -664,8 +664,8 @@
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.ValueWebSocketReceiveResult",
-      "clrName": "System.Net.WebSockets.ValueWebSocketReceiveResult",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.ValueWebSocketReceiveResult",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -675,13 +675,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.ValueWebSocketReceiveResult::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385876030,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -695,12 +695,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ValueWebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.ValueWebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.ValueWebSocketReceiveResult::EndOfMessage:System.Boolean",
-          "clrName": "EndOfMessage",
+          "targetName": "EndOfMessage",
           "metadataToken": 385876031,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "EndOfMessage|:System.Boolean|static=false|accessor=get",
@@ -714,12 +714,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ValueWebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.ValueWebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.ValueWebSocketReceiveResult::MessageType:System.Net.WebSockets.WebSocketMessageType",
-          "clrName": "MessageType",
+          "targetName": "MessageType",
           "metadataToken": 385876032,
           "canonicalSignature": ":System.Net.WebSockets.WebSocketMessageType",
           "normalizedSignature": "MessageType|:System.Net.WebSockets.WebSocketMessageType|static=false|accessor=get",
@@ -733,8 +733,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ValueWebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.ValueWebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "fields": [],
@@ -748,15 +748,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ValueWebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.ValueWebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ]
     },
     {
       "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket",
-      "clrName": "System.Net.WebSockets.ClientWebSocket",
-      "assemblyName": "System.Net.WebSockets.Client",
+      "targetName": "System.Net.WebSockets.ClientWebSocket",
+      "ownerIdentity": "System.Net.WebSockets.Client",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -766,18 +766,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket",
-        "clrName": "System.Net.WebSockets.WebSocket"
+        "targetName": "System.Net.WebSockets.WebSocket"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ConnectAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "ConnectAsync",
+          "targetName": "ConnectAsync",
           "metadataToken": 100663329,
           "canonicalSignature": "(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "ConnectAsync|(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -791,13 +791,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ConnectAsync(System.Uri,System.Net.Http.HttpMessageInvoker,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "ConnectAsync",
+          "targetName": "ConnectAsync",
           "metadataToken": 100663330,
           "canonicalSignature": "(System.Uri,System.Net.Http.HttpMessageInvoker,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "ConnectAsync|(System.Uri,System.Net.Http.HttpMessageInvoker,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -811,13 +811,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "SendAsync",
+          "targetName": "SendAsync",
           "metadataToken": 100663332,
           "canonicalSignature": "(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "SendAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -831,13 +831,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "SendAsync",
+          "targetName": "SendAsync",
           "metadataToken": 100663333,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -851,13 +851,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "SendAsync",
+          "targetName": "SendAsync",
           "metadataToken": 100663334,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -871,13 +871,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ReceiveAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "ReceiveAsync",
+          "targetName": "ReceiveAsync",
           "metadataToken": 100663335,
           "canonicalSignature": "(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "ReceiveAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -891,13 +891,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::ReceiveAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "ReceiveAsync",
+          "targetName": "ReceiveAsync",
           "metadataToken": 100663336,
           "canonicalSignature": "(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "ReceiveAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -911,13 +911,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::CloseAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "CloseAsync",
+          "targetName": "CloseAsync",
           "metadataToken": 100663337,
           "canonicalSignature": "(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CloseAsync|(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -931,13 +931,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::CloseOutputAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "CloseOutputAsync",
+          "targetName": "CloseOutputAsync",
           "metadataToken": 100663338,
           "canonicalSignature": "(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CloseOutputAsync|(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -951,13 +951,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::Abort():System.Void",
-          "clrName": "Abort",
+          "targetName": "Abort",
           "metadataToken": 100663340,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Abort|():System.Void|static=false",
@@ -971,13 +971,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663341,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -991,13 +991,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1011,14 +1011,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SendAsync(System.ReadOnlyMemory_1\u003CSystem.Byte\u003E,System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "SendAsync",
+          "targetName": "SendAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlyMemory_1\u003CSystem.Byte\u003E,System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1\u003CSystem.Byte\u003E,System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -1032,15 +1032,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::Options:System.Net.WebSockets.ClientWebSocketOptions",
-          "clrName": "Options",
+          "targetName": "Options",
           "metadataToken": 385875986,
           "canonicalSignature": ":System.Net.WebSockets.ClientWebSocketOptions",
           "normalizedSignature": "Options|:System.Net.WebSockets.ClientWebSocketOptions|static=false|accessor=get",
@@ -1054,12 +1054,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::CloseStatus:System.Nullable_1[[System.Net.WebSockets.WebSocketCloseStatus,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "CloseStatus",
+          "targetName": "CloseStatus",
           "metadataToken": 385875987,
           "canonicalSignature": ":System.Nullable_1[[System.Net.WebSockets.WebSocketCloseStatus,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "CloseStatus|:System.Nullable_1[[System.Net.WebSockets.WebSocketCloseStatus,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
@@ -1073,12 +1073,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::CloseStatusDescription:System.String",
-          "clrName": "CloseStatusDescription",
+          "targetName": "CloseStatusDescription",
           "metadataToken": 385875988,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "CloseStatusDescription|:System.String|static=false|accessor=get",
@@ -1092,12 +1092,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::SubProtocol:System.String",
-          "clrName": "SubProtocol",
+          "targetName": "SubProtocol",
           "metadataToken": 385875989,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SubProtocol|:System.String|static=false|accessor=get",
@@ -1111,12 +1111,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::State:System.Net.WebSockets.WebSocketState",
-          "clrName": "State",
+          "targetName": "State",
           "metadataToken": 385875990,
           "canonicalSignature": ":System.Net.WebSockets.WebSocketState",
           "normalizedSignature": "State|:System.Net.WebSockets.WebSocketState|static=false|accessor=get",
@@ -1130,12 +1130,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::HttpStatusCode:System.Net.HttpStatusCode",
-          "clrName": "HttpStatusCode",
+          "targetName": "HttpStatusCode",
           "metadataToken": 385875991,
           "canonicalSignature": ":System.Net.HttpStatusCode",
           "normalizedSignature": "HttpStatusCode|:System.Net.HttpStatusCode|static=false|accessor=get",
@@ -1149,12 +1149,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocket::HttpResponseHeaders:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "HttpResponseHeaders",
+          "targetName": "HttpResponseHeaders",
           "metadataToken": 385875992,
           "canonicalSignature": ":System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "HttpResponseHeaders|:System.Collections.Generic.IReadOnlyDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
@@ -1168,8 +1168,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         }
       ],
       "fields": [],
@@ -1183,15 +1183,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocket",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         }
       ]
     },
     {
       "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions",
-      "clrName": "System.Net.WebSockets.ClientWebSocketOptions",
-      "assemblyName": "System.Net.WebSockets.Client",
+      "targetName": "System.Net.WebSockets.ClientWebSocketOptions",
+      "ownerIdentity": "System.Net.WebSockets.Client",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1201,12 +1201,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::SetRequestHeader(System.String,System.String):System.Void",
-          "clrName": "SetRequestHeader",
+          "targetName": "SetRequestHeader",
           "metadataToken": 100663387,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "SetRequestHeader|(System.String,System.String):System.Void|static=false",
@@ -1220,13 +1220,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::AddSubProtocol(System.String):System.Void",
-          "clrName": "AddSubProtocol",
+          "targetName": "AddSubProtocol",
           "metadataToken": 100663402,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "AddSubProtocol|(System.String):System.Void|static=false",
@@ -1240,13 +1240,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::SetBuffer(System.Int32,System.Int32):System.Void",
-          "clrName": "SetBuffer",
+          "targetName": "SetBuffer",
           "metadataToken": 100663409,
           "canonicalSignature": "(System.Int32,System.Int32):System.Void",
           "normalizedSignature": "SetBuffer|(System.Int32,System.Int32):System.Void|static=false",
@@ -1260,13 +1260,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::SetBuffer(System.Int32,System.Int32,System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "SetBuffer",
+          "targetName": "SetBuffer",
           "metadataToken": 100663410,
           "canonicalSignature": "(System.Int32,System.Int32,System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "SetBuffer|(System.Int32,System.Int32,System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1280,15 +1280,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client",
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::HttpVersion:System.Version",
-          "clrName": "HttpVersion",
+          "targetName": "HttpVersion",
           "metadataToken": 385876004,
           "canonicalSignature": ":System.Version",
           "normalizedSignature": "HttpVersion|:System.Version|static=false|accessor=getset",
@@ -1302,12 +1302,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::HttpVersionPolicy:System.Net.Http.HttpVersionPolicy",
-          "clrName": "HttpVersionPolicy",
+          "targetName": "HttpVersionPolicy",
           "metadataToken": 385876005,
           "canonicalSignature": ":System.Net.Http.HttpVersionPolicy",
           "normalizedSignature": "HttpVersionPolicy|:System.Net.Http.HttpVersionPolicy|static=false|accessor=getset",
@@ -1321,12 +1321,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::UseDefaultCredentials:System.Boolean",
-          "clrName": "UseDefaultCredentials",
+          "targetName": "UseDefaultCredentials",
           "metadataToken": 385876008,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "UseDefaultCredentials|:System.Boolean|static=false|accessor=getset",
@@ -1340,12 +1340,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::Credentials:System.Net.ICredentials",
-          "clrName": "Credentials",
+          "targetName": "Credentials",
           "metadataToken": 385876009,
           "canonicalSignature": ":System.Net.ICredentials",
           "normalizedSignature": "Credentials|:System.Net.ICredentials|static=false|accessor=getset",
@@ -1359,12 +1359,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::Proxy:System.Net.IWebProxy",
-          "clrName": "Proxy",
+          "targetName": "Proxy",
           "metadataToken": 385876010,
           "canonicalSignature": ":System.Net.IWebProxy",
           "normalizedSignature": "Proxy|:System.Net.IWebProxy|static=false|accessor=getset",
@@ -1378,12 +1378,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::ClientCertificates:System.Security.Cryptography.X509Certificates.X509CertificateCollection",
-          "clrName": "ClientCertificates",
+          "targetName": "ClientCertificates",
           "metadataToken": 385876011,
           "canonicalSignature": ":System.Security.Cryptography.X509Certificates.X509CertificateCollection",
           "normalizedSignature": "ClientCertificates|:System.Security.Cryptography.X509Certificates.X509CertificateCollection|static=false|accessor=getset",
@@ -1397,12 +1397,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::RemoteCertificateValidationCallback:System.Net.Security.RemoteCertificateValidationCallback",
-          "clrName": "RemoteCertificateValidationCallback",
+          "targetName": "RemoteCertificateValidationCallback",
           "metadataToken": 385876012,
           "canonicalSignature": ":System.Net.Security.RemoteCertificateValidationCallback",
           "normalizedSignature": "RemoteCertificateValidationCallback|:System.Net.Security.RemoteCertificateValidationCallback|static=false|accessor=getset",
@@ -1416,12 +1416,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::Cookies:System.Net.CookieContainer",
-          "clrName": "Cookies",
+          "targetName": "Cookies",
           "metadataToken": 385876013,
           "canonicalSignature": ":System.Net.CookieContainer",
           "normalizedSignature": "Cookies|:System.Net.CookieContainer|static=false|accessor=getset",
@@ -1435,12 +1435,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::KeepAliveInterval:System.TimeSpan",
-          "clrName": "KeepAliveInterval",
+          "targetName": "KeepAliveInterval",
           "metadataToken": 385876014,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "KeepAliveInterval|:System.TimeSpan|static=false|accessor=getset",
@@ -1454,12 +1454,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::KeepAliveTimeout:System.TimeSpan",
-          "clrName": "KeepAliveTimeout",
+          "targetName": "KeepAliveTimeout",
           "metadataToken": 385876015,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "KeepAliveTimeout|:System.TimeSpan|static=false|accessor=getset",
@@ -1473,12 +1473,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::DangerousDeflateOptions:System.Net.WebSockets.WebSocketDeflateOptions",
-          "clrName": "DangerousDeflateOptions",
+          "targetName": "DangerousDeflateOptions",
           "metadataToken": 385876016,
           "canonicalSignature": ":System.Net.WebSockets.WebSocketDeflateOptions",
           "normalizedSignature": "DangerousDeflateOptions|:System.Net.WebSockets.WebSocketDeflateOptions|static=false|accessor=getset",
@@ -1492,12 +1492,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         },
         {
           "stableId": "System.Net.WebSockets.Client:System.Net.WebSockets.ClientWebSocketOptions::CollectHttpResponseDetails:System.Boolean",
-          "clrName": "CollectHttpResponseDetails",
+          "targetName": "CollectHttpResponseDetails",
           "metadataToken": 385876017,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CollectHttpResponseDetails|:System.Boolean|static=false|accessor=getset",
@@ -1511,8 +1511,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.ClientWebSocketOptions",
-          "declaringAssemblyName": "System.Net.WebSockets.Client"
+          "ownerQualifiedName": "System.Net.WebSockets.ClientWebSocketOptions",
+          "ownerIdentity": "System.Net.WebSockets.Client"
         }
       ],
       "fields": [],
@@ -1521,8 +1521,8 @@
     },
     {
       "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext",
-      "clrName": "System.Net.WebSockets.HttpListenerWebSocketContext",
-      "assemblyName": "System.Net.HttpListener",
+      "targetName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+      "ownerIdentity": "System.Net.HttpListener",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1532,13 +1532,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext",
-        "clrName": "System.Net.WebSockets.WebSocketContext"
+        "targetName": "System.Net.WebSockets.WebSocketContext"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::RequestUri:System.Uri",
-          "clrName": "RequestUri",
+          "targetName": "RequestUri",
           "metadataToken": 385876148,
           "canonicalSignature": ":System.Uri",
           "normalizedSignature": "RequestUri|:System.Uri|static=false|accessor=get",
@@ -1552,12 +1552,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::Headers:System.Collections.Specialized.NameValueCollection",
-          "clrName": "Headers",
+          "targetName": "Headers",
           "metadataToken": 385876149,
           "canonicalSignature": ":System.Collections.Specialized.NameValueCollection",
           "normalizedSignature": "Headers|:System.Collections.Specialized.NameValueCollection|static=false|accessor=get",
@@ -1571,12 +1571,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::Origin:System.String",
-          "clrName": "Origin",
+          "targetName": "Origin",
           "metadataToken": 385876150,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Origin|:System.String|static=false|accessor=get",
@@ -1590,12 +1590,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::SecWebSocketProtocols:System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "SecWebSocketProtocols",
+          "targetName": "SecWebSocketProtocols",
           "metadataToken": 385876151,
           "canonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "SecWebSocketProtocols|:System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -1609,12 +1609,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::SecWebSocketVersion:System.String",
-          "clrName": "SecWebSocketVersion",
+          "targetName": "SecWebSocketVersion",
           "metadataToken": 385876152,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SecWebSocketVersion|:System.String|static=false|accessor=get",
@@ -1628,12 +1628,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::SecWebSocketKey:System.String",
-          "clrName": "SecWebSocketKey",
+          "targetName": "SecWebSocketKey",
           "metadataToken": 385876153,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SecWebSocketKey|:System.String|static=false|accessor=get",
@@ -1647,12 +1647,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::CookieCollection:System.Net.CookieCollection",
-          "clrName": "CookieCollection",
+          "targetName": "CookieCollection",
           "metadataToken": 385876154,
           "canonicalSignature": ":System.Net.CookieCollection",
           "normalizedSignature": "CookieCollection|:System.Net.CookieCollection|static=false|accessor=get",
@@ -1666,12 +1666,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::User:System.Security.Principal.IPrincipal",
-          "clrName": "User",
+          "targetName": "User",
           "metadataToken": 385876155,
           "canonicalSignature": ":System.Security.Principal.IPrincipal",
           "normalizedSignature": "User|:System.Security.Principal.IPrincipal|static=false|accessor=get",
@@ -1685,12 +1685,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::IsAuthenticated:System.Boolean",
-          "clrName": "IsAuthenticated",
+          "targetName": "IsAuthenticated",
           "metadataToken": 385876156,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
@@ -1704,12 +1704,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::IsLocal:System.Boolean",
-          "clrName": "IsLocal",
+          "targetName": "IsLocal",
           "metadataToken": 385876157,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsLocal|:System.Boolean|static=false|accessor=get",
@@ -1723,12 +1723,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::IsSecureConnection:System.Boolean",
-          "clrName": "IsSecureConnection",
+          "targetName": "IsSecureConnection",
           "metadataToken": 385876158,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSecureConnection|:System.Boolean|static=false|accessor=get",
@@ -1742,12 +1742,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         },
         {
           "stableId": "System.Net.HttpListener:System.Net.WebSockets.HttpListenerWebSocketContext::WebSocket:System.Net.WebSockets.WebSocket",
-          "clrName": "WebSocket",
+          "targetName": "WebSocket",
           "metadataToken": 385876159,
           "canonicalSignature": ":System.Net.WebSockets.WebSocket",
           "normalizedSignature": "WebSocket|:System.Net.WebSockets.WebSocket|static=false|accessor=get",
@@ -1761,8 +1761,8 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.HttpListenerWebSocketContext",
-          "declaringAssemblyName": "System.Net.HttpListener"
+          "ownerQualifiedName": "System.Net.WebSockets.HttpListenerWebSocketContext",
+          "ownerIdentity": "System.Net.HttpListener"
         }
       ],
       "fields": [],
@@ -1771,8 +1771,8 @@
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket",
-      "clrName": "System.Net.WebSockets.WebSocket",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocket",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1782,18 +1782,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::Abort():System.Void",
-          "clrName": "Abort",
+          "targetName": "Abort",
           "metadataToken": 100663532,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Abort|():System.Void|static=false",
@@ -1807,13 +1807,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CloseAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "CloseAsync",
+          "targetName": "CloseAsync",
           "metadataToken": 100663533,
           "canonicalSignature": "(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CloseAsync|(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1827,13 +1827,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CloseOutputAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "CloseOutputAsync",
+          "targetName": "CloseOutputAsync",
           "metadataToken": 100663534,
           "canonicalSignature": "(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CloseOutputAsync|(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1847,13 +1847,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663535,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1867,13 +1867,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::ReceiveAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "ReceiveAsync",
+          "targetName": "ReceiveAsync",
           "metadataToken": 100663536,
           "canonicalSignature": "(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "ReceiveAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.WebSockets.WebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -1887,13 +1887,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::SendAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "SendAsync",
+          "targetName": "SendAsync",
           "metadataToken": 100663537,
           "canonicalSignature": "(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "SendAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1907,13 +1907,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::ReceiveAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "ReceiveAsync",
+          "targetName": "ReceiveAsync",
           "metadataToken": 100663538,
           "canonicalSignature": "(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "ReceiveAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.WebSockets.ValueWebSocketReceiveResult,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -1927,13 +1927,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "SendAsync",
+          "targetName": "SendAsync",
           "metadataToken": 100663539,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -1947,13 +1947,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "SendAsync",
+          "targetName": "SendAsync",
           "metadataToken": 100663540,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.WebSockets.WebSocketMessageType,System.Net.WebSockets.WebSocketMessageFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -1967,13 +1967,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::ThrowOnInvalidState(System.Net.WebSockets.WebSocketState,System.Net.WebSockets.WebSocketState[]):System.Void",
-          "clrName": "ThrowOnInvalidState",
+          "targetName": "ThrowOnInvalidState",
           "metadataToken": 100663543,
           "canonicalSignature": "(System.Net.WebSockets.WebSocketState,System.Net.WebSockets.WebSocketState[]):System.Void",
           "normalizedSignature": "ThrowOnInvalidState|(System.Net.WebSockets.WebSocketState,System.Net.WebSockets.WebSocketState[]):System.Void|static=true",
@@ -1987,13 +1987,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::IsStateTerminal(System.Net.WebSockets.WebSocketState):System.Boolean",
-          "clrName": "IsStateTerminal",
+          "targetName": "IsStateTerminal",
           "metadataToken": 100663544,
           "canonicalSignature": "(System.Net.WebSockets.WebSocketState):System.Boolean",
           "normalizedSignature": "IsStateTerminal|(System.Net.WebSockets.WebSocketState):System.Boolean|static=true",
@@ -2007,13 +2007,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CreateClientBuffer(System.Int32,System.Int32):System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "CreateClientBuffer",
+          "targetName": "CreateClientBuffer",
           "metadataToken": 100663545,
           "canonicalSignature": "(System.Int32,System.Int32):System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "CreateClientBuffer|(System.Int32,System.Int32):System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -2027,13 +2027,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CreateServerBuffer(System.Int32):System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "CreateServerBuffer",
+          "targetName": "CreateServerBuffer",
           "metadataToken": 100663546,
           "canonicalSignature": "(System.Int32):System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "CreateServerBuffer|(System.Int32):System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
@@ -2047,13 +2047,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CreateFromStream(System.IO.Stream,System.Boolean,System.String,System.TimeSpan):System.Net.WebSockets.WebSocket",
-          "clrName": "CreateFromStream",
+          "targetName": "CreateFromStream",
           "metadataToken": 100663547,
           "canonicalSignature": "(System.IO.Stream,System.Boolean,System.String,System.TimeSpan):System.Net.WebSockets.WebSocket",
           "normalizedSignature": "CreateFromStream|(System.IO.Stream,System.Boolean,System.String,System.TimeSpan):System.Net.WebSockets.WebSocket|static=true",
@@ -2067,13 +2067,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CreateFromStream(System.IO.Stream,System.Net.WebSockets.WebSocketCreationOptions):System.Net.WebSockets.WebSocket",
-          "clrName": "CreateFromStream",
+          "targetName": "CreateFromStream",
           "metadataToken": 100663548,
           "canonicalSignature": "(System.IO.Stream,System.Net.WebSockets.WebSocketCreationOptions):System.Net.WebSockets.WebSocket",
           "normalizedSignature": "CreateFromStream|(System.IO.Stream,System.Net.WebSockets.WebSocketCreationOptions):System.Net.WebSockets.WebSocket|static=true",
@@ -2087,13 +2087,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::IsApplicationTargeting45():System.Boolean",
-          "clrName": "IsApplicationTargeting45",
+          "targetName": "IsApplicationTargeting45",
           "metadataToken": 100663549,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "IsApplicationTargeting45|():System.Boolean|static=true",
@@ -2107,13 +2107,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::RegisterPrefixes():System.Void",
-          "clrName": "RegisterPrefixes",
+          "targetName": "RegisterPrefixes",
           "metadataToken": 100663550,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "RegisterPrefixes|():System.Void|static=true",
@@ -2127,13 +2127,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CreateClientWebSocket(System.IO.Stream,System.String,System.Int32,System.Int32,System.TimeSpan,System.Boolean,System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.WebSockets.WebSocket",
-          "clrName": "CreateClientWebSocket",
+          "targetName": "CreateClientWebSocket",
           "metadataToken": 100663551,
           "canonicalSignature": "(System.IO.Stream,System.String,System.Int32,System.Int32,System.TimeSpan,System.Boolean,System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.WebSockets.WebSocket",
           "normalizedSignature": "CreateClientWebSocket|(System.IO.Stream,System.String,System.Int32,System.Int32,System.TimeSpan,System.Boolean,System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.WebSockets.WebSocket|static=true",
@@ -2147,13 +2147,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2167,8 +2167,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -2176,7 +2176,7 @@
       "properties": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CloseStatus:System.Nullable_1[[System.Net.WebSockets.WebSocketCloseStatus,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "CloseStatus",
+          "targetName": "CloseStatus",
           "metadataToken": 385876033,
           "canonicalSignature": ":System.Nullable_1[[System.Net.WebSockets.WebSocketCloseStatus,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "CloseStatus|:System.Nullable_1[[System.Net.WebSockets.WebSocketCloseStatus,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
@@ -2190,12 +2190,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::CloseStatusDescription:System.String",
-          "clrName": "CloseStatusDescription",
+          "targetName": "CloseStatusDescription",
           "metadataToken": 385876034,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "CloseStatusDescription|:System.String|static=false|accessor=get",
@@ -2209,12 +2209,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::SubProtocol:System.String",
-          "clrName": "SubProtocol",
+          "targetName": "SubProtocol",
           "metadataToken": 385876035,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SubProtocol|:System.String|static=false|accessor=get",
@@ -2228,12 +2228,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::State:System.Net.WebSockets.WebSocketState",
-          "clrName": "State",
+          "targetName": "State",
           "metadataToken": 385876036,
           "canonicalSignature": ":System.Net.WebSockets.WebSocketState",
           "normalizedSignature": "State|:System.Net.WebSockets.WebSocketState|static=false|accessor=get",
@@ -2247,12 +2247,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocket::DefaultKeepAliveInterval:System.TimeSpan",
-          "clrName": "DefaultKeepAliveInterval",
+          "targetName": "DefaultKeepAliveInterval",
           "metadataToken": 385876037,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "DefaultKeepAliveInterval|:System.TimeSpan|static=true|accessor=get",
@@ -2266,8 +2266,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "fields": [],
@@ -2281,15 +2281,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Net.WebSockets.WebSocket",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocket",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ]
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext",
-      "clrName": "System.Net.WebSockets.WebSocketContext",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketContext",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2299,13 +2299,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::RequestUri:System.Uri",
-          "clrName": "RequestUri",
+          "targetName": "RequestUri",
           "metadataToken": 385876038,
           "canonicalSignature": ":System.Uri",
           "normalizedSignature": "RequestUri|:System.Uri|static=false|accessor=get",
@@ -2319,12 +2319,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::Headers:System.Collections.Specialized.NameValueCollection",
-          "clrName": "Headers",
+          "targetName": "Headers",
           "metadataToken": 385876039,
           "canonicalSignature": ":System.Collections.Specialized.NameValueCollection",
           "normalizedSignature": "Headers|:System.Collections.Specialized.NameValueCollection|static=false|accessor=get",
@@ -2338,12 +2338,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::Origin:System.String",
-          "clrName": "Origin",
+          "targetName": "Origin",
           "metadataToken": 385876040,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Origin|:System.String|static=false|accessor=get",
@@ -2357,12 +2357,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::SecWebSocketProtocols:System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "SecWebSocketProtocols",
+          "targetName": "SecWebSocketProtocols",
           "metadataToken": 385876041,
           "canonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "SecWebSocketProtocols|:System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
@@ -2376,12 +2376,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::SecWebSocketVersion:System.String",
-          "clrName": "SecWebSocketVersion",
+          "targetName": "SecWebSocketVersion",
           "metadataToken": 385876042,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SecWebSocketVersion|:System.String|static=false|accessor=get",
@@ -2395,12 +2395,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::SecWebSocketKey:System.String",
-          "clrName": "SecWebSocketKey",
+          "targetName": "SecWebSocketKey",
           "metadataToken": 385876043,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SecWebSocketKey|:System.String|static=false|accessor=get",
@@ -2414,12 +2414,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::CookieCollection:System.Net.CookieCollection",
-          "clrName": "CookieCollection",
+          "targetName": "CookieCollection",
           "metadataToken": 385876044,
           "canonicalSignature": ":System.Net.CookieCollection",
           "normalizedSignature": "CookieCollection|:System.Net.CookieCollection|static=false|accessor=get",
@@ -2433,12 +2433,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::User:System.Security.Principal.IPrincipal",
-          "clrName": "User",
+          "targetName": "User",
           "metadataToken": 385876045,
           "canonicalSignature": ":System.Security.Principal.IPrincipal",
           "normalizedSignature": "User|:System.Security.Principal.IPrincipal|static=false|accessor=get",
@@ -2452,12 +2452,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::IsAuthenticated:System.Boolean",
-          "clrName": "IsAuthenticated",
+          "targetName": "IsAuthenticated",
           "metadataToken": 385876046,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
@@ -2471,12 +2471,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::IsLocal:System.Boolean",
-          "clrName": "IsLocal",
+          "targetName": "IsLocal",
           "metadataToken": 385876047,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsLocal|:System.Boolean|static=false|accessor=get",
@@ -2490,12 +2490,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::IsSecureConnection:System.Boolean",
-          "clrName": "IsSecureConnection",
+          "targetName": "IsSecureConnection",
           "metadataToken": 385876048,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsSecureConnection|:System.Boolean|static=false|accessor=get",
@@ -2509,12 +2509,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketContext::WebSocket:System.Net.WebSockets.WebSocket",
-          "clrName": "WebSocket",
+          "targetName": "WebSocket",
           "metadataToken": 385876049,
           "canonicalSignature": ":System.Net.WebSockets.WebSocket",
           "normalizedSignature": "WebSocket|:System.Net.WebSockets.WebSocket|static=false|accessor=get",
@@ -2528,8 +2528,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "fields": [],
@@ -2543,15 +2543,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Net.WebSockets.WebSocketContext",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketContext",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ]
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCreationOptions",
-      "clrName": "System.Net.WebSockets.WebSocketCreationOptions",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketCreationOptions",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2561,13 +2561,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCreationOptions::IsServer:System.Boolean",
-          "clrName": "IsServer",
+          "targetName": "IsServer",
           "metadataToken": 385876050,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsServer|:System.Boolean|static=false|accessor=getset",
@@ -2581,12 +2581,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCreationOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCreationOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCreationOptions::SubProtocol:System.String",
-          "clrName": "SubProtocol",
+          "targetName": "SubProtocol",
           "metadataToken": 385876051,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "SubProtocol|:System.String|static=false|accessor=getset",
@@ -2600,12 +2600,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCreationOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCreationOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCreationOptions::KeepAliveInterval:System.TimeSpan",
-          "clrName": "KeepAliveInterval",
+          "targetName": "KeepAliveInterval",
           "metadataToken": 385876052,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "KeepAliveInterval|:System.TimeSpan|static=false|accessor=getset",
@@ -2619,12 +2619,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCreationOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCreationOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCreationOptions::KeepAliveTimeout:System.TimeSpan",
-          "clrName": "KeepAliveTimeout",
+          "targetName": "KeepAliveTimeout",
           "metadataToken": 385876053,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "KeepAliveTimeout|:System.TimeSpan|static=false|accessor=getset",
@@ -2638,12 +2638,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCreationOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCreationOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketCreationOptions::DangerousDeflateOptions:System.Net.WebSockets.WebSocketDeflateOptions",
-          "clrName": "DangerousDeflateOptions",
+          "targetName": "DangerousDeflateOptions",
           "metadataToken": 385876054,
           "canonicalSignature": ":System.Net.WebSockets.WebSocketDeflateOptions",
           "normalizedSignature": "DangerousDeflateOptions|:System.Net.WebSockets.WebSocketDeflateOptions|static=false|accessor=getset",
@@ -2657,8 +2657,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCreationOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCreationOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "fields": [],
@@ -2672,15 +2672,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketCreationOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketCreationOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ]
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketDeflateOptions",
-      "clrName": "System.Net.WebSockets.WebSocketDeflateOptions",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketDeflateOptions",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2690,13 +2690,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketDeflateOptions::ClientMaxWindowBits:System.Int32",
-          "clrName": "ClientMaxWindowBits",
+          "targetName": "ClientMaxWindowBits",
           "metadataToken": 385876055,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "ClientMaxWindowBits|:System.Int32|static=false|accessor=getset",
@@ -2710,12 +2710,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketDeflateOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketDeflateOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketDeflateOptions::ClientContextTakeover:System.Boolean",
-          "clrName": "ClientContextTakeover",
+          "targetName": "ClientContextTakeover",
           "metadataToken": 385876056,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ClientContextTakeover|:System.Boolean|static=false|accessor=getset",
@@ -2729,12 +2729,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketDeflateOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketDeflateOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketDeflateOptions::ServerMaxWindowBits:System.Int32",
-          "clrName": "ServerMaxWindowBits",
+          "targetName": "ServerMaxWindowBits",
           "metadataToken": 385876057,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "ServerMaxWindowBits|:System.Int32|static=false|accessor=getset",
@@ -2748,12 +2748,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketDeflateOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketDeflateOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketDeflateOptions::ServerContextTakeover:System.Boolean",
-          "clrName": "ServerContextTakeover",
+          "targetName": "ServerContextTakeover",
           "metadataToken": 385876058,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ServerContextTakeover|:System.Boolean|static=false|accessor=getset",
@@ -2767,8 +2767,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketDeflateOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketDeflateOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "fields": [],
@@ -2782,15 +2782,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketDeflateOptions",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketDeflateOptions",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ]
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException",
-      "clrName": "System.Net.WebSockets.WebSocketException",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketException",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2800,18 +2800,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ComponentModel.Win32Exception",
-        "clrName": "System.ComponentModel.Win32Exception"
+        "targetName": "System.ComponentModel.Win32Exception"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100663605,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2825,13 +2825,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2845,8 +2845,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -2854,7 +2854,7 @@
       "properties": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::ErrorCode:System.Int32",
-          "clrName": "ErrorCode",
+          "targetName": "ErrorCode",
           "metadataToken": 385876059,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "ErrorCode|:System.Int32|static=false|accessor=get",
@@ -2868,12 +2868,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::WebSocketErrorCode:System.Net.WebSockets.WebSocketError",
-          "clrName": "WebSocketErrorCode",
+          "targetName": "WebSocketErrorCode",
           "metadataToken": 385876060,
           "canonicalSignature": ":System.Net.WebSockets.WebSocketError",
           "normalizedSignature": "WebSocketErrorCode|:System.Net.WebSockets.WebSocketError|static=false|accessor=get",
@@ -2887,8 +2887,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "fields": [],
@@ -2902,8 +2902,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Net.WebSockets.WebSocketError):void",
@@ -2913,8 +2913,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Net.WebSockets.WebSocketError,System.String):void",
@@ -2924,8 +2924,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Net.WebSockets.WebSocketError,System.Exception):void",
@@ -2935,8 +2935,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Net.WebSockets.WebSocketError,System.String,System.Exception):void",
@@ -2946,8 +2946,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Int32):void",
@@ -2957,8 +2957,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Int32,System.String):void",
@@ -2968,8 +2968,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Int32,System.Exception):void",
@@ -2979,8 +2979,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Net.WebSockets.WebSocketError,System.Int32):void",
@@ -2990,8 +2990,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Net.WebSockets.WebSocketError,System.Int32,System.String):void",
@@ -3001,8 +3001,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Net.WebSockets.WebSocketError,System.Int32,System.Exception):void",
@@ -3012,8 +3012,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.Net.WebSockets.WebSocketError,System.Int32,System.String,System.Exception):void",
@@ -3023,8 +3023,8 @@
           "isStatic": false,
           "parameterCount": 4,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.String):void",
@@ -3034,8 +3034,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketException::.ctor(System.String,System.Exception):void",
@@ -3045,15 +3045,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketException",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketException",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ]
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketReceiveResult",
-      "clrName": "System.Net.WebSockets.WebSocketReceiveResult",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketReceiveResult",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3063,13 +3063,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketReceiveResult::Count:System.Int32",
-          "clrName": "Count",
+          "targetName": "Count",
           "metadataToken": 385876061,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
@@ -3083,12 +3083,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketReceiveResult::EndOfMessage:System.Boolean",
-          "clrName": "EndOfMessage",
+          "targetName": "EndOfMessage",
           "metadataToken": 385876062,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "EndOfMessage|:System.Boolean|static=false|accessor=get",
@@ -3102,12 +3102,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketReceiveResult::MessageType:System.Net.WebSockets.WebSocketMessageType",
-          "clrName": "MessageType",
+          "targetName": "MessageType",
           "metadataToken": 385876063,
           "canonicalSignature": ":System.Net.WebSockets.WebSocketMessageType",
           "normalizedSignature": "MessageType|:System.Net.WebSockets.WebSocketMessageType|static=false|accessor=get",
@@ -3121,12 +3121,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketReceiveResult::CloseStatus:System.Nullable_1[[System.Net.WebSockets.WebSocketCloseStatus,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-          "clrName": "CloseStatus",
+          "targetName": "CloseStatus",
           "metadataToken": 385876064,
           "canonicalSignature": ":System.Nullable_1[[System.Net.WebSockets.WebSocketCloseStatus,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "CloseStatus|:System.Nullable_1[[System.Net.WebSockets.WebSocketCloseStatus,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
@@ -3140,12 +3140,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketReceiveResult::CloseStatusDescription:System.String",
-          "clrName": "CloseStatusDescription",
+          "targetName": "CloseStatusDescription",
           "metadataToken": 385876065,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "CloseStatusDescription|:System.String|static=false|accessor=get",
@@ -3159,8 +3159,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "fields": [],
@@ -3174,8 +3174,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketReceiveResult::.ctor(System.Int32,System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Nullable_1[[System.Net.WebSockets.WebSocketCloseStatus,System.Net.WebSockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String):void",
@@ -3185,15 +3185,15 @@
           "isStatic": false,
           "parameterCount": 5,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketReceiveResult",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketReceiveResult",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ]
     },
     {
       "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream",
-      "clrName": "System.Net.WebSockets.WebSocketStream",
-      "assemblyName": "System.Net.WebSockets",
+      "targetName": "System.Net.WebSockets.WebSocketStream",
+      "ownerIdentity": "System.Net.WebSockets",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3203,22 +3203,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.IO.Stream",
-        "clrName": "System.IO.Stream"
+        "targetName": "System.IO.Stream"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
+          "targetName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Create(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType,System.Boolean):System.Net.WebSockets.WebSocketStream",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663622,
           "canonicalSignature": "(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType,System.Boolean):System.Net.WebSockets.WebSocketStream",
           "normalizedSignature": "Create|(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType,System.Boolean):System.Net.WebSockets.WebSocketStream|static=true",
@@ -3232,13 +3232,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Create(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType,System.TimeSpan):System.Net.WebSockets.WebSocketStream",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663623,
           "canonicalSignature": "(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType,System.TimeSpan):System.Net.WebSockets.WebSocketStream",
           "normalizedSignature": "Create|(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType,System.TimeSpan):System.Net.WebSockets.WebSocketStream|static=true",
@@ -3252,13 +3252,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::CreateWritableMessageStream(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType):System.Net.WebSockets.WebSocketStream",
-          "clrName": "CreateWritableMessageStream",
+          "targetName": "CreateWritableMessageStream",
           "metadataToken": 100663624,
           "canonicalSignature": "(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType):System.Net.WebSockets.WebSocketStream",
           "normalizedSignature": "CreateWritableMessageStream|(System.Net.WebSockets.WebSocket,System.Net.WebSockets.WebSocketMessageType):System.Net.WebSockets.WebSocketStream|static=true",
@@ -3272,13 +3272,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::CreateReadableMessageStream(System.Net.WebSockets.WebSocket):System.Net.WebSockets.WebSocketStream",
-          "clrName": "CreateReadableMessageStream",
+          "targetName": "CreateReadableMessageStream",
           "metadataToken": 100663625,
           "canonicalSignature": "(System.Net.WebSockets.WebSocket):System.Net.WebSockets.WebSocketStream",
           "normalizedSignature": "CreateReadableMessageStream|(System.Net.WebSockets.WebSocket):System.Net.WebSockets.WebSocketStream|static=true",
@@ -3292,13 +3292,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663630,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -3312,13 +3312,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Flush():System.Void",
-          "clrName": "Flush",
+          "targetName": "Flush",
           "metadataToken": 100663631,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Flush|():System.Void|static=false",
@@ -3332,13 +3332,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "FlushAsync",
+          "targetName": "FlushAsync",
           "metadataToken": 100663632,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -3352,13 +3352,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 100663633,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -3372,13 +3372,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 100663634,
           "canonicalSignature": "(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -3392,13 +3392,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginRead",
+          "targetName": "BeginRead",
           "metadataToken": 100663635,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginRead|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -3412,13 +3412,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::EndRead(System.IAsyncResult):System.Int32",
-          "clrName": "EndRead",
+          "targetName": "EndRead",
           "metadataToken": 100663636,
           "canonicalSignature": "(System.IAsyncResult):System.Int32",
           "normalizedSignature": "EndRead|(System.IAsyncResult):System.Int32|static=false",
@@ -3432,13 +3432,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663637,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -3452,13 +3452,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100663638,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
@@ -3472,13 +3472,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginWrite",
+          "targetName": "BeginWrite",
           "metadataToken": 100663639,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginWrite|(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -3492,13 +3492,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::EndWrite(System.IAsyncResult):System.Void",
-          "clrName": "EndWrite",
+          "targetName": "EndWrite",
           "metadataToken": 100663640,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndWrite|(System.IAsyncResult):System.Void|static=false",
@@ -3512,13 +3512,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
-          "clrName": "Read",
+          "targetName": "Read",
           "metadataToken": 100663641,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
@@ -3532,13 +3532,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100663642,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
@@ -3552,13 +3552,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Seek(System.Int64,System.IO.SeekOrigin):System.Int64",
-          "clrName": "Seek",
+          "targetName": "Seek",
           "metadataToken": 100663646,
           "canonicalSignature": "(System.Int64,System.IO.SeekOrigin):System.Int64",
           "normalizedSignature": "Seek|(System.Int64,System.IO.SeekOrigin):System.Int64|static=false",
@@ -3572,13 +3572,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::SetLength(System.Int64):System.Void",
-          "clrName": "SetLength",
+          "targetName": "SetLength",
           "metadataToken": 100663647,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "SetLength|(System.Int64):System.Void|static=false",
@@ -3592,13 +3592,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3612,14 +3612,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -3633,14 +3633,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IAsyncDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IAsyncDisposable"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 0,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3654,13 +3654,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::FlushAsync():System.Threading.Tasks.Task",
-          "clrName": "FlushAsync",
+          "targetName": "FlushAsync",
           "metadataToken": 0,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
@@ -3674,13 +3674,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Read(System.Span_1\u003CSystem.Byte\u003E):System.Int32",
-          "clrName": "Read",
+          "targetName": "Read",
           "metadataToken": 0,
           "canonicalSignature": "(System.Span_1\u003CSystem.Byte\u003E):System.Int32",
           "normalizedSignature": "Read|(System.Span_1\u003CSystem.Byte\u003E):System.Int32|static=false",
@@ -3694,13 +3694,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::ReadAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E",
-          "clrName": "ReadAsync",
+          "targetName": "ReadAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task_1\u003CSystem.Int32\u003E|static=false",
@@ -3714,13 +3714,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Write(System.ReadOnlySpan_1\u003CSystem.Byte\u003E):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1\u003CSystem.Byte\u003E):System.Void",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1\u003CSystem.Byte\u003E):System.Void|static=false",
@@ -3734,13 +3734,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WriteAsync(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
@@ -3754,15 +3754,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets",
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::WebSocket:System.Net.WebSockets.WebSocket",
-          "clrName": "WebSocket",
+          "targetName": "WebSocket",
           "metadataToken": 385876066,
           "canonicalSignature": ":System.Net.WebSockets.WebSocket",
           "normalizedSignature": "WebSocket|:System.Net.WebSockets.WebSocket|static=false|accessor=get",
@@ -3776,12 +3776,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::CanRead:System.Boolean",
-          "clrName": "CanRead",
+          "targetName": "CanRead",
           "metadataToken": 385876067,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanRead|:System.Boolean|static=false|accessor=get",
@@ -3795,12 +3795,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::CanWrite:System.Boolean",
-          "clrName": "CanWrite",
+          "targetName": "CanWrite",
           "metadataToken": 385876068,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanWrite|:System.Boolean|static=false|accessor=get",
@@ -3814,12 +3814,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::CanSeek:System.Boolean",
-          "clrName": "CanSeek",
+          "targetName": "CanSeek",
           "metadataToken": 385876069,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CanSeek|:System.Boolean|static=false|accessor=get",
@@ -3833,12 +3833,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Length:System.Int64",
-          "clrName": "Length",
+          "targetName": "Length",
           "metadataToken": 385876070,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Length|:System.Int64|static=false|accessor=get",
@@ -3852,12 +3852,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets"
         },
         {
           "stableId": "System.Net.WebSockets:System.Net.WebSockets.WebSocketStream::Position:System.Int64",
-          "clrName": "Position",
+          "targetName": "Position",
           "metadataToken": 385876071,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "Position|:System.Int64|static=false|accessor=getset",
@@ -3871,8 +3871,8 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.Net.WebSockets.WebSocketStream",
-          "declaringAssemblyName": "System.Net.WebSockets"
+          "ownerQualifiedName": "System.Net.WebSockets.WebSocketStream",
+          "ownerIdentity": "System.Net.WebSockets"
         }
       ],
       "fields": [],

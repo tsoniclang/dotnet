@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.GeneratedCodeAttribute",
-      "clrName": "System.CodeDom.Compiler.GeneratedCodeAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.CodeDom.Compiler.GeneratedCodeAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -17,13 +17,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.GeneratedCodeAttribute::Tool:System.String",
-          "clrName": "Tool",
+          "targetName": "Tool",
           "metadataToken": 385878714,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Tool|:System.String|static=false|accessor=get",
@@ -37,12 +37,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.GeneratedCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.CodeDom.Compiler.GeneratedCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.GeneratedCodeAttribute::Version:System.String",
-          "clrName": "Version",
+          "targetName": "Version",
           "metadataToken": 385878715,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Version|:System.String|static=false|accessor=get",
@@ -56,8 +56,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.GeneratedCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.CodeDom.Compiler.GeneratedCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -71,15 +71,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.GeneratedCodeAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.CodeDom.Compiler.GeneratedCodeAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter",
-      "clrName": "System.CodeDom.Compiler.IndentedTextWriter",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.CodeDom.Compiler.IndentedTextWriter",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -89,22 +89,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.IO.TextWriter",
-        "clrName": "System.IO.TextWriter"
+        "targetName": "System.IO.TextWriter"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable",
-          "clrName": "System.IAsyncDisposable"
+          "targetName": "System.IAsyncDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100677652,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -118,13 +118,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100677653,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -138,13 +138,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Flush():System.Void",
-          "clrName": "Flush",
+          "targetName": "Flush",
           "metadataToken": 100677654,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Flush|():System.Void|static=false",
@@ -158,13 +158,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync():System.Threading.Tasks.Task",
-          "clrName": "FlushAsync",
+          "targetName": "FlushAsync",
           "metadataToken": 100677655,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
@@ -178,13 +178,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "FlushAsync",
+          "targetName": "FlushAsync",
           "metadataToken": 100677656,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -198,13 +198,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::OutputTabs():System.Void",
-          "clrName": "OutputTabs",
+          "targetName": "OutputTabs",
           "metadataToken": 100677657,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "OutputTabs|():System.Void|static=false",
@@ -218,13 +218,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::OutputTabsAsync():System.Threading.Tasks.Task",
-          "clrName": "OutputTabsAsync",
+          "targetName": "OutputTabsAsync",
           "metadataToken": 100677658,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "OutputTabsAsync|():System.Threading.Tasks.Task|static=false",
@@ -238,13 +238,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677659,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
@@ -258,13 +258,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Boolean):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677660,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Write|(System.Boolean):System.Void|static=false",
@@ -278,13 +278,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677661,
           "canonicalSignature": "(System.Char):System.Void",
           "normalizedSignature": "Write|(System.Char):System.Void|static=false",
@@ -298,13 +298,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[]):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677662,
           "canonicalSignature": "(System.Char[]):System.Void",
           "normalizedSignature": "Write|(System.Char[]):System.Void|static=false",
@@ -318,13 +318,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677663,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
@@ -338,13 +338,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Double):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677664,
           "canonicalSignature": "(System.Double):System.Void",
           "normalizedSignature": "Write|(System.Double):System.Void|static=false",
@@ -358,13 +358,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Single):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677665,
           "canonicalSignature": "(System.Single):System.Void",
           "normalizedSignature": "Write|(System.Single):System.Void|static=false",
@@ -378,13 +378,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int32):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677666,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Int32):System.Void|static=false",
@@ -398,13 +398,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int64):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677667,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "Write|(System.Int64):System.Void|static=false",
@@ -418,13 +418,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Object):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677668,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
@@ -438,13 +438,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677669,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
@@ -458,13 +458,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object,System.Object):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677670,
           "canonicalSignature": "(System.String,System.Object,System.Object):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object):System.Void|static=false",
@@ -478,13 +478,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object[]):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677671,
           "canonicalSignature": "(System.String,System.Object[]):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object[]):System.Void|static=false",
@@ -498,13 +498,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 100677672,
           "canonicalSignature": "(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Write|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -518,13 +518,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100677673,
           "canonicalSignature": "(System.Char):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Char):System.Threading.Tasks.Task|static=false",
@@ -538,13 +538,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100677674,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
@@ -558,13 +558,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100677675,
           "canonicalSignature": "(System.String):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
@@ -578,13 +578,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100677676,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -598,13 +598,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 100677677,
           "canonicalSignature": "(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -618,13 +618,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineNoTabs(System.String):System.Void",
-          "clrName": "WriteLineNoTabs",
+          "targetName": "WriteLineNoTabs",
           "metadataToken": 100677678,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLineNoTabs|(System.String):System.Void|static=false",
@@ -638,13 +638,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineNoTabsAsync(System.String):System.Threading.Tasks.Task",
-          "clrName": "WriteLineNoTabsAsync",
+          "targetName": "WriteLineNoTabsAsync",
           "metadataToken": 100677679,
           "canonicalSignature": "(System.String):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineNoTabsAsync|(System.String):System.Threading.Tasks.Task|static=false",
@@ -658,13 +658,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677680,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
@@ -678,13 +678,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine():System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677681,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=false",
@@ -698,13 +698,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Boolean):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677682,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "WriteLine|(System.Boolean):System.Void|static=false",
@@ -718,13 +718,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677683,
           "canonicalSignature": "(System.Char):System.Void",
           "normalizedSignature": "WriteLine|(System.Char):System.Void|static=false",
@@ -738,13 +738,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[]):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677684,
           "canonicalSignature": "(System.Char[]):System.Void",
           "normalizedSignature": "WriteLine|(System.Char[]):System.Void|static=false",
@@ -758,13 +758,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[],System.Int32,System.Int32):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677685,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "WriteLine|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
@@ -778,13 +778,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Double):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677686,
           "canonicalSignature": "(System.Double):System.Void",
           "normalizedSignature": "WriteLine|(System.Double):System.Void|static=false",
@@ -798,13 +798,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Single):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677687,
           "canonicalSignature": "(System.Single):System.Void",
           "normalizedSignature": "WriteLine|(System.Single):System.Void|static=false",
@@ -818,13 +818,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int32):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677688,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "WriteLine|(System.Int32):System.Void|static=false",
@@ -838,13 +838,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int64):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677689,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "WriteLine|(System.Int64):System.Void|static=false",
@@ -858,13 +858,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Object):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677690,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
@@ -878,13 +878,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677691,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.Object):System.Void|static=false",
@@ -898,13 +898,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object,System.Object):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677692,
           "canonicalSignature": "(System.String,System.Object,System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object):System.Void|static=false",
@@ -918,13 +918,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object[]):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677693,
           "canonicalSignature": "(System.String,System.Object[]):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.Object[]):System.Void|static=false",
@@ -938,13 +938,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677694,
           "canonicalSignature": "(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -958,13 +958,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.UInt32):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 100677695,
           "canonicalSignature": "(System.UInt32):System.Void",
           "normalizedSignature": "WriteLine|(System.UInt32):System.Void|static=false",
@@ -978,13 +978,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync():System.Threading.Tasks.Task",
-          "clrName": "WriteLineAsync",
+          "targetName": "WriteLineAsync",
           "metadataToken": 100677696,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|():System.Threading.Tasks.Task|static=false",
@@ -998,13 +998,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char):System.Threading.Tasks.Task",
-          "clrName": "WriteLineAsync",
+          "targetName": "WriteLineAsync",
           "metadataToken": 100677697,
           "canonicalSignature": "(System.Char):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.Char):System.Threading.Tasks.Task|static=false",
@@ -1018,13 +1018,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
-          "clrName": "WriteLineAsync",
+          "targetName": "WriteLineAsync",
           "metadataToken": 100677698,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
@@ -1038,13 +1038,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
-          "clrName": "WriteLineAsync",
+          "targetName": "WriteLineAsync",
           "metadataToken": 100677699,
           "canonicalSignature": "(System.String):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
@@ -1058,13 +1058,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteLineAsync",
+          "targetName": "WriteLineAsync",
           "metadataToken": 100677700,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1078,13 +1078,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
-          "clrName": "WriteLineAsync",
+          "targetName": "WriteLineAsync",
           "metadataToken": 100677701,
           "canonicalSignature": "(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1098,13 +1098,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1118,14 +1118,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncDisposable::DisposeAsync():System.Threading.Tasks.ValueTask",
-          "clrName": "DisposeAsync",
+          "targetName": "DisposeAsync",
           "metadataToken": 100668504,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
@@ -1139,14 +1139,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IAsyncDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IAsyncDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IAsyncDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.ReadOnlySpan_1\u003CSystem.Char\u003E):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1\u003CSystem.Char\u003E):System.Void",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1\u003CSystem.Char\u003E):System.Void|static=false",
@@ -1160,13 +1160,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.UInt32):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 0,
           "canonicalSignature": "(System.UInt32):System.Void",
           "normalizedSignature": "Write|(System.UInt32):System.Void|static=false",
@@ -1180,13 +1180,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.UInt64):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 0,
           "canonicalSignature": "(System.UInt64):System.Void",
           "normalizedSignature": "Write|(System.UInt64):System.Void|static=false",
@@ -1200,13 +1200,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Decimal):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 0,
           "canonicalSignature": "(System.Decimal):System.Void",
           "normalizedSignature": "Write|(System.Decimal):System.Void|static=false",
@@ -1220,13 +1220,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Text.StringBuilder):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 0,
           "canonicalSignature": "(System.Text.StringBuilder):System.Void",
           "normalizedSignature": "Write|(System.Text.StringBuilder):System.Void|static=false",
@@ -1240,13 +1240,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object,System.Object,System.Object):System.Void",
-          "clrName": "Write",
+          "targetName": "Write",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Object,System.Object,System.Object):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
@@ -1260,13 +1260,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char[]):System.Threading.Tasks.Task",
-          "clrName": "WriteAsync",
+          "targetName": "WriteAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Char[]):System.Threading.Tasks.Task|static=false",
@@ -1280,13 +1280,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.ReadOnlySpan_1\u003CSystem.Char\u003E):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 0,
           "canonicalSignature": "(System.ReadOnlySpan_1\u003CSystem.Char\u003E):System.Void",
           "normalizedSignature": "WriteLine|(System.ReadOnlySpan_1\u003CSystem.Char\u003E):System.Void|static=false",
@@ -1300,13 +1300,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.UInt64):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 0,
           "canonicalSignature": "(System.UInt64):System.Void",
           "normalizedSignature": "WriteLine|(System.UInt64):System.Void|static=false",
@@ -1320,13 +1320,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Decimal):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 0,
           "canonicalSignature": "(System.Decimal):System.Void",
           "normalizedSignature": "WriteLine|(System.Decimal):System.Void|static=false",
@@ -1340,13 +1340,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Text.StringBuilder):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 0,
           "canonicalSignature": "(System.Text.StringBuilder):System.Void",
           "normalizedSignature": "WriteLine|(System.Text.StringBuilder):System.Void|static=false",
@@ -1360,13 +1360,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object,System.Object,System.Object):System.Void",
-          "clrName": "WriteLine",
+          "targetName": "WriteLine",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Object,System.Object,System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
@@ -1380,13 +1380,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char[]):System.Threading.Tasks.Task",
-          "clrName": "WriteLineAsync",
+          "targetName": "WriteLineAsync",
           "metadataToken": 0,
           "canonicalSignature": "(System.Char[]):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.Char[]):System.Threading.Tasks.Task|static=false",
@@ -1400,15 +1400,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Encoding:System.Text.Encoding",
-          "clrName": "Encoding",
+          "targetName": "Encoding",
           "metadataToken": 385878716,
           "canonicalSignature": ":System.Text.Encoding",
           "normalizedSignature": "Encoding|:System.Text.Encoding|static=false|accessor=get",
@@ -1422,12 +1422,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::NewLine:System.String",
-          "clrName": "NewLine",
+          "targetName": "NewLine",
           "metadataToken": 385878717,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "NewLine|:System.String|static=false|accessor=getset",
@@ -1441,12 +1441,12 @@
           "isVirtual": true,
           "isOverride": true,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Indent:System.Int32",
-          "clrName": "Indent",
+          "targetName": "Indent",
           "metadataToken": 385878718,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Indent|:System.Int32|static=false|accessor=getset",
@@ -1460,12 +1460,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::InnerWriter:System.IO.TextWriter",
-          "clrName": "InnerWriter",
+          "targetName": "InnerWriter",
           "metadataToken": 385878719,
           "canonicalSignature": ":System.IO.TextWriter",
           "normalizedSignature": "InnerWriter|:System.IO.TextWriter|static=false|accessor=get",
@@ -1479,22 +1479,22 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::DefaultTabStringSystem.String",
-          "clrName": "DefaultTabString",
+          "targetName": "DefaultTabString",
           "metadataToken": 67111678,
           "normalizedSignature": "DefaultTabString|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -1507,8 +1507,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::.ctor(System.IO.TextWriter,System.String):void",
@@ -1518,8 +1518,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.CodeDom.Compiler.IndentedTextWriter",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     }

@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Transactions.Local:System.Transactions.DependentCloneOption",
-      "clrName": "System.Transactions.DependentCloneOption",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.DependentCloneOption",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,39 +42,39 @@
       "fields": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.DependentCloneOption::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67108960,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.DependentCloneOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.DependentCloneOption",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.DependentCloneOption::BlockCommitUntilCompleteSystem.Transactions.DependentCloneOption",
-          "clrName": "BlockCommitUntilComplete",
+          "targetName": "BlockCommitUntilComplete",
           "metadataToken": 67108961,
           "normalizedSignature": "BlockCommitUntilComplete|System.Transactions.DependentCloneOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.DependentCloneOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.DependentCloneOption",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.DependentCloneOption::RollbackIfNotCompleteSystem.Transactions.DependentCloneOption",
-          "clrName": "RollbackIfNotComplete",
+          "targetName": "RollbackIfNotComplete",
           "metadataToken": 67108962,
           "normalizedSignature": "RollbackIfNotComplete|System.Transactions.DependentCloneOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.DependentCloneOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.DependentCloneOption",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "events": [],
@@ -82,8 +82,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.EnlistmentOptions",
-      "clrName": "System.Transactions.EnlistmentOptions",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.EnlistmentOptions",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -93,24 +93,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -118,39 +118,39 @@
       "fields": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnlistmentOptions::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67108963,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.EnlistmentOptions",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.EnlistmentOptions",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnlistmentOptions::NoneSystem.Transactions.EnlistmentOptions",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67108964,
           "normalizedSignature": "None|System.Transactions.EnlistmentOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.EnlistmentOptions",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.EnlistmentOptions",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnlistmentOptions::EnlistDuringPrepareRequiredSystem.Transactions.EnlistmentOptions",
-          "clrName": "EnlistDuringPrepareRequired",
+          "targetName": "EnlistDuringPrepareRequired",
           "metadataToken": 67108965,
           "normalizedSignature": "EnlistDuringPrepareRequired|System.Transactions.EnlistmentOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.EnlistmentOptions",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.EnlistmentOptions",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "events": [],
@@ -158,8 +158,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.EnterpriseServicesInteropOption",
-      "clrName": "System.Transactions.EnterpriseServicesInteropOption",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.EnterpriseServicesInteropOption",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -169,24 +169,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -194,51 +194,51 @@
       "fields": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnterpriseServicesInteropOption::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109018,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.EnterpriseServicesInteropOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.EnterpriseServicesInteropOption",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnterpriseServicesInteropOption::NoneSystem.Transactions.EnterpriseServicesInteropOption",
-          "clrName": "None",
+          "targetName": "None",
           "metadataToken": 67109019,
           "normalizedSignature": "None|System.Transactions.EnterpriseServicesInteropOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.EnterpriseServicesInteropOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.EnterpriseServicesInteropOption",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnterpriseServicesInteropOption::AutomaticSystem.Transactions.EnterpriseServicesInteropOption",
-          "clrName": "Automatic",
+          "targetName": "Automatic",
           "metadataToken": 67109020,
           "normalizedSignature": "Automatic|System.Transactions.EnterpriseServicesInteropOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.EnterpriseServicesInteropOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.EnterpriseServicesInteropOption",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnterpriseServicesInteropOption::FullSystem.Transactions.EnterpriseServicesInteropOption",
-          "clrName": "Full",
+          "targetName": "Full",
           "metadataToken": 67109021,
           "normalizedSignature": "Full|System.Transactions.EnterpriseServicesInteropOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.EnterpriseServicesInteropOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.EnterpriseServicesInteropOption",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "events": [],
@@ -246,8 +246,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel",
-      "clrName": "System.Transactions.IsolationLevel",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.IsolationLevel",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -257,24 +257,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -282,99 +282,99 @@
       "fields": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67108947,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IsolationLevel",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.IsolationLevel",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::SerializableSystem.Transactions.IsolationLevel",
-          "clrName": "Serializable",
+          "targetName": "Serializable",
           "metadataToken": 67108948,
           "normalizedSignature": "Serializable|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IsolationLevel",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.IsolationLevel",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::RepeatableReadSystem.Transactions.IsolationLevel",
-          "clrName": "RepeatableRead",
+          "targetName": "RepeatableRead",
           "metadataToken": 67108949,
           "normalizedSignature": "RepeatableRead|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IsolationLevel",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.IsolationLevel",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::ReadCommittedSystem.Transactions.IsolationLevel",
-          "clrName": "ReadCommitted",
+          "targetName": "ReadCommitted",
           "metadataToken": 67108950,
           "normalizedSignature": "ReadCommitted|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IsolationLevel",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.IsolationLevel",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::ReadUncommittedSystem.Transactions.IsolationLevel",
-          "clrName": "ReadUncommitted",
+          "targetName": "ReadUncommitted",
           "metadataToken": 67108951,
           "normalizedSignature": "ReadUncommitted|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IsolationLevel",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.IsolationLevel",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::SnapshotSystem.Transactions.IsolationLevel",
-          "clrName": "Snapshot",
+          "targetName": "Snapshot",
           "metadataToken": 67108952,
           "normalizedSignature": "Snapshot|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IsolationLevel",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.IsolationLevel",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::ChaosSystem.Transactions.IsolationLevel",
-          "clrName": "Chaos",
+          "targetName": "Chaos",
           "metadataToken": 67108953,
           "normalizedSignature": "Chaos|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IsolationLevel",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.IsolationLevel",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::UnspecifiedSystem.Transactions.IsolationLevel",
-          "clrName": "Unspecified",
+          "targetName": "Unspecified",
           "metadataToken": 67108954,
           "normalizedSignature": "Unspecified|System.Transactions.IsolationLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IsolationLevel",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.IsolationLevel",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "events": [],
@@ -382,8 +382,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeAsyncFlowOption",
-      "clrName": "System.Transactions.TransactionScopeAsyncFlowOption",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionScopeAsyncFlowOption",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -393,24 +393,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -418,39 +418,39 @@
       "fields": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeAsyncFlowOption::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109015,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScopeAsyncFlowOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScopeAsyncFlowOption",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeAsyncFlowOption::SuppressSystem.Transactions.TransactionScopeAsyncFlowOption",
-          "clrName": "Suppress",
+          "targetName": "Suppress",
           "metadataToken": 67109016,
           "normalizedSignature": "Suppress|System.Transactions.TransactionScopeAsyncFlowOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScopeAsyncFlowOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScopeAsyncFlowOption",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeAsyncFlowOption::EnabledSystem.Transactions.TransactionScopeAsyncFlowOption",
-          "clrName": "Enabled",
+          "targetName": "Enabled",
           "metadataToken": 67109017,
           "normalizedSignature": "Enabled|System.Transactions.TransactionScopeAsyncFlowOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScopeAsyncFlowOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScopeAsyncFlowOption",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "events": [],
@@ -458,8 +458,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeOption",
-      "clrName": "System.Transactions.TransactionScopeOption",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionScopeOption",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -469,24 +469,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -494,51 +494,51 @@
       "fields": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeOption::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67109011,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScopeOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScopeOption",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeOption::RequiredSystem.Transactions.TransactionScopeOption",
-          "clrName": "Required",
+          "targetName": "Required",
           "metadataToken": 67109012,
           "normalizedSignature": "Required|System.Transactions.TransactionScopeOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScopeOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScopeOption",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeOption::RequiresNewSystem.Transactions.TransactionScopeOption",
-          "clrName": "RequiresNew",
+          "targetName": "RequiresNew",
           "metadataToken": 67109013,
           "normalizedSignature": "RequiresNew|System.Transactions.TransactionScopeOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScopeOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScopeOption",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeOption::SuppressSystem.Transactions.TransactionScopeOption",
-          "clrName": "Suppress",
+          "targetName": "Suppress",
           "metadataToken": 67109014,
           "normalizedSignature": "Suppress|System.Transactions.TransactionScopeOption|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScopeOption",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScopeOption",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "events": [],
@@ -546,8 +546,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus",
-      "clrName": "System.Transactions.TransactionStatus",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionStatus",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -557,24 +557,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -582,63 +582,63 @@
       "fields": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67108955,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionStatus",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionStatus",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus::ActiveSystem.Transactions.TransactionStatus",
-          "clrName": "Active",
+          "targetName": "Active",
           "metadataToken": 67108956,
           "normalizedSignature": "Active|System.Transactions.TransactionStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionStatus",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionStatus",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus::CommittedSystem.Transactions.TransactionStatus",
-          "clrName": "Committed",
+          "targetName": "Committed",
           "metadataToken": 67108957,
           "normalizedSignature": "Committed|System.Transactions.TransactionStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionStatus",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionStatus",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus::AbortedSystem.Transactions.TransactionStatus",
-          "clrName": "Aborted",
+          "targetName": "Aborted",
           "metadataToken": 67108958,
           "normalizedSignature": "Aborted|System.Transactions.TransactionStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionStatus",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionStatus",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus::InDoubtSystem.Transactions.TransactionStatus",
-          "clrName": "InDoubt",
+          "targetName": "InDoubt",
           "metadataToken": 67108959,
           "normalizedSignature": "InDoubt|System.Transactions.TransactionStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionStatus",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionStatus",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "events": [],
@@ -646,8 +646,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback",
-      "clrName": "System.Transactions.HostCurrentTransactionCallback",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.HostCurrentTransactionCallback",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Delegate",
       "accessibility": "Public",
@@ -657,22 +657,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
+        "targetName": "System.MulticastDelegate"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback::Invoke():System.Transactions.Transaction",
-          "clrName": "Invoke",
+          "targetName": "Invoke",
           "metadataToken": 100663643,
           "canonicalSignature": "():System.Transactions.Transaction",
           "normalizedSignature": "Invoke|():System.Transactions.Transaction|static=false",
@@ -686,13 +686,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.HostCurrentTransactionCallback",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback::BeginInvoke(System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
+          "targetName": "BeginInvoke",
           "metadataToken": 100663644,
           "canonicalSignature": "(System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -706,13 +706,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.HostCurrentTransactionCallback",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.HostCurrentTransactionCallback::EndInvoke(System.IAsyncResult):System.Transactions.Transaction",
-          "clrName": "EndInvoke",
+          "targetName": "EndInvoke",
           "metadataToken": 100663645,
           "canonicalSignature": "(System.IAsyncResult):System.Transactions.Transaction",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Transactions.Transaction|static=false",
@@ -726,8 +726,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.HostCurrentTransactionCallback",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -743,15 +743,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.HostCurrentTransactionCallback",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.HostCurrentTransactionCallback",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler",
-      "clrName": "System.Transactions.TransactionCompletedEventHandler",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionCompletedEventHandler",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Delegate",
       "accessibility": "Public",
@@ -761,22 +761,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
+        "targetName": "System.MulticastDelegate"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler::Invoke(System.Object,System.Transactions.TransactionEventArgs):System.Void",
-          "clrName": "Invoke",
+          "targetName": "Invoke",
           "metadataToken": 100663550,
           "canonicalSignature": "(System.Object,System.Transactions.TransactionEventArgs):System.Void",
           "normalizedSignature": "Invoke|(System.Object,System.Transactions.TransactionEventArgs):System.Void|static=false",
@@ -790,13 +790,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionCompletedEventHandler",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler::BeginInvoke(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
+          "targetName": "BeginInvoke",
           "metadataToken": 100663551,
           "canonicalSignature": "(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -810,13 +810,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionCompletedEventHandler",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionCompletedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
+          "targetName": "EndInvoke",
           "metadataToken": 100663552,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
@@ -830,8 +830,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionCompletedEventHandler",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -847,15 +847,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionCompletedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionCompletedEventHandler",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler",
-      "clrName": "System.Transactions.TransactionStartedEventHandler",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionStartedEventHandler",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Delegate",
       "accessibility": "Public",
@@ -865,22 +865,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.MulticastDelegate",
-        "clrName": "System.MulticastDelegate"
+        "targetName": "System.MulticastDelegate"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.ICloneable",
-          "clrName": "System.ICloneable"
+          "targetName": "System.ICloneable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler::Invoke(System.Object,System.Transactions.TransactionEventArgs):System.Void",
-          "clrName": "Invoke",
+          "targetName": "Invoke",
           "metadataToken": 100663647,
           "canonicalSignature": "(System.Object,System.Transactions.TransactionEventArgs):System.Void",
           "normalizedSignature": "Invoke|(System.Object,System.Transactions.TransactionEventArgs):System.Void|static=false",
@@ -894,13 +894,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionStartedEventHandler",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler::BeginInvoke(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
+          "targetName": "BeginInvoke",
           "metadataToken": 100663648,
           "canonicalSignature": "(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginInvoke|(System.Object,System.Transactions.TransactionEventArgs,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -914,13 +914,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionStartedEventHandler",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStartedEventHandler::EndInvoke(System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
+          "targetName": "EndInvoke",
           "metadataToken": 100663649,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndInvoke|(System.IAsyncResult):System.Void|static=false",
@@ -934,8 +934,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionStartedEventHandler",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -951,15 +951,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionStartedEventHandler",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionStartedEventHandler",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.IDtcTransaction",
-      "clrName": "System.Transactions.IDtcTransaction",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.IDtcTransaction",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -970,7 +970,7 @@
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.IDtcTransaction::Commit(System.Int32,System.Int32,System.Int32):System.Void",
-          "clrName": "Commit",
+          "targetName": "Commit",
           "metadataToken": 100663491,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Commit|(System.Int32,System.Int32,System.Int32):System.Void|static=false",
@@ -984,13 +984,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IDtcTransaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.IDtcTransaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IDtcTransaction::Abort(System.IntPtr,System.Int32,System.Int32):System.Void",
-          "clrName": "Abort",
+          "targetName": "Abort",
           "metadataToken": 100663492,
           "canonicalSignature": "(System.IntPtr,System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Abort|(System.IntPtr,System.Int32,System.Int32):System.Void|static=false",
@@ -1004,13 +1004,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IDtcTransaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.IDtcTransaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IDtcTransaction::GetTransactionInfo(System.IntPtr):System.Void",
-          "clrName": "GetTransactionInfo",
+          "targetName": "GetTransactionInfo",
           "metadataToken": 100663493,
           "canonicalSignature": "(System.IntPtr):System.Void",
           "normalizedSignature": "GetTransactionInfo|(System.IntPtr):System.Void|static=false",
@@ -1024,8 +1024,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IDtcTransaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.IDtcTransaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -1036,8 +1036,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification",
-      "clrName": "System.Transactions.IEnlistmentNotification",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.IEnlistmentNotification",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -1048,7 +1048,7 @@
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Prepare(System.Transactions.PreparingEnlistment):System.Void",
-          "clrName": "Prepare",
+          "targetName": "Prepare",
           "metadataToken": 100663498,
           "canonicalSignature": "(System.Transactions.PreparingEnlistment):System.Void",
           "normalizedSignature": "Prepare|(System.Transactions.PreparingEnlistment):System.Void|static=false",
@@ -1062,13 +1062,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IEnlistmentNotification",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.IEnlistmentNotification",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Commit(System.Transactions.Enlistment):System.Void",
-          "clrName": "Commit",
+          "targetName": "Commit",
           "metadataToken": 100663499,
           "canonicalSignature": "(System.Transactions.Enlistment):System.Void",
           "normalizedSignature": "Commit|(System.Transactions.Enlistment):System.Void|static=false",
@@ -1082,8 +1082,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IEnlistmentNotification",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.IEnlistmentNotification",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -1094,8 +1094,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.IPromotableSinglePhaseNotification",
-      "clrName": "System.Transactions.IPromotableSinglePhaseNotification",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.IPromotableSinglePhaseNotification",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -1106,13 +1106,13 @@
       "interfaces": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter",
-          "clrName": "System.Transactions.ITransactionPromoter"
+          "targetName": "System.Transactions.ITransactionPromoter"
         }
       ],
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.IPromotableSinglePhaseNotification::Initialize():System.Void",
-          "clrName": "Initialize",
+          "targetName": "Initialize",
           "metadataToken": 100663528,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Initialize|():System.Void|static=false",
@@ -1126,13 +1126,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IPromotableSinglePhaseNotification",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.IPromotableSinglePhaseNotification",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IPromotableSinglePhaseNotification::SinglePhaseCommit(System.Transactions.SinglePhaseEnlistment):System.Void",
-          "clrName": "SinglePhaseCommit",
+          "targetName": "SinglePhaseCommit",
           "metadataToken": 100663529,
           "canonicalSignature": "(System.Transactions.SinglePhaseEnlistment):System.Void",
           "normalizedSignature": "SinglePhaseCommit|(System.Transactions.SinglePhaseEnlistment):System.Void|static=false",
@@ -1146,13 +1146,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IPromotableSinglePhaseNotification",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.IPromotableSinglePhaseNotification",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter::Promote():System.Byte[]",
-          "clrName": "Promote",
+          "targetName": "Promote",
           "metadataToken": 100663534,
           "canonicalSignature": "():System.Byte[]",
           "normalizedSignature": "Promote|():System.Byte[]|static=false",
@@ -1166,8 +1166,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.ITransactionPromoter",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.ITransactionPromoter",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -1178,8 +1178,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.ISimpleTransactionSuperior",
-      "clrName": "System.Transactions.ISimpleTransactionSuperior",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.ISimpleTransactionSuperior",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -1190,13 +1190,13 @@
       "interfaces": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter",
-          "clrName": "System.Transactions.ITransactionPromoter"
+          "targetName": "System.Transactions.ITransactionPromoter"
         }
       ],
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.ISimpleTransactionSuperior::Rollback():System.Void",
-          "clrName": "Rollback",
+          "targetName": "Rollback",
           "metadataToken": 100663531,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Rollback|():System.Void|static=false",
@@ -1210,13 +1210,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.ISimpleTransactionSuperior",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.ISimpleTransactionSuperior",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter::Promote():System.Byte[]",
-          "clrName": "Promote",
+          "targetName": "Promote",
           "metadataToken": 100663534,
           "canonicalSignature": "():System.Byte[]",
           "normalizedSignature": "Promote|():System.Byte[]|static=false",
@@ -1230,8 +1230,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.ITransactionPromoter",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.ITransactionPromoter",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -1242,8 +1242,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.ISinglePhaseNotification",
-      "clrName": "System.Transactions.ISinglePhaseNotification",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.ISinglePhaseNotification",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -1254,13 +1254,13 @@
       "interfaces": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification",
-          "clrName": "System.Transactions.IEnlistmentNotification"
+          "targetName": "System.Transactions.IEnlistmentNotification"
         }
       ],
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.ISinglePhaseNotification::SinglePhaseCommit(System.Transactions.SinglePhaseEnlistment):System.Void",
-          "clrName": "SinglePhaseCommit",
+          "targetName": "SinglePhaseCommit",
           "metadataToken": 100663533,
           "canonicalSignature": "(System.Transactions.SinglePhaseEnlistment):System.Void",
           "normalizedSignature": "SinglePhaseCommit|(System.Transactions.SinglePhaseEnlistment):System.Void|static=false",
@@ -1274,13 +1274,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.ISinglePhaseNotification",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.ISinglePhaseNotification",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Prepare(System.Transactions.PreparingEnlistment):System.Void",
-          "clrName": "Prepare",
+          "targetName": "Prepare",
           "metadataToken": 100663498,
           "canonicalSignature": "(System.Transactions.PreparingEnlistment):System.Void",
           "normalizedSignature": "Prepare|(System.Transactions.PreparingEnlistment):System.Void|static=false",
@@ -1294,13 +1294,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IEnlistmentNotification",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.IEnlistmentNotification",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.IEnlistmentNotification::Commit(System.Transactions.Enlistment):System.Void",
-          "clrName": "Commit",
+          "targetName": "Commit",
           "metadataToken": 100663499,
           "canonicalSignature": "(System.Transactions.Enlistment):System.Void",
           "normalizedSignature": "Commit|(System.Transactions.Enlistment):System.Void|static=false",
@@ -1314,8 +1314,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.IEnlistmentNotification",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.IEnlistmentNotification",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -1326,8 +1326,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter",
-      "clrName": "System.Transactions.ITransactionPromoter",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.ITransactionPromoter",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -1338,7 +1338,7 @@
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.ITransactionPromoter::Promote():System.Byte[]",
-          "clrName": "Promote",
+          "targetName": "Promote",
           "metadataToken": 100663534,
           "canonicalSignature": "():System.Byte[]",
           "normalizedSignature": "Promote|():System.Byte[]|static=false",
@@ -1352,8 +1352,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.ITransactionPromoter",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.ITransactionPromoter",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -1364,8 +1364,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions",
-      "clrName": "System.Transactions.TransactionOptions",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionOptions",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -1375,12 +1375,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601",
-          "clrName": "System.IEquatable\u00601",
+          "targetName": "System.IEquatable\u00601",
           "typeArguments": [
             "TransactionOptions"
           ]
@@ -1389,7 +1389,7 @@
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::GetHashCode():System.Int32",
-          "clrName": "GetHashCode",
+          "targetName": "GetHashCode",
           "metadataToken": 100663685,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
@@ -1403,13 +1403,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionOptions",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionOptions",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::Equals(System.Object):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100663686,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
@@ -1423,13 +1423,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionOptions",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionOptions",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::Equals(System.Transactions.TransactionOptions):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100663687,
           "canonicalSignature": "(System.Transactions.TransactionOptions):System.Boolean",
           "normalizedSignature": "Equals|(System.Transactions.TransactionOptions):System.Boolean|static=false",
@@ -1443,13 +1443,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionOptions",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionOptions",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100668531,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Equals|(T):System.Boolean|static=false",
@@ -1463,8 +1463,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IEquatable\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IEquatable\u00601",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IEquatable\u00601"
         }
@@ -1472,7 +1472,7 @@
       "properties": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::Timeout:System.TimeSpan",
-          "clrName": "Timeout",
+          "targetName": "Timeout",
           "metadataToken": 385876067,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "Timeout|:System.TimeSpan|static=false|accessor=getset",
@@ -1486,12 +1486,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionOptions",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionOptions",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::IsolationLevel:System.Transactions.IsolationLevel",
-          "clrName": "IsolationLevel",
+          "targetName": "IsolationLevel",
           "metadataToken": 385876068,
           "canonicalSignature": ":System.Transactions.IsolationLevel",
           "normalizedSignature": "IsolationLevel|:System.Transactions.IsolationLevel|static=false|accessor=getset",
@@ -1505,8 +1505,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionOptions",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionOptions",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "fields": [],
@@ -1515,8 +1515,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction",
-      "clrName": "System.Transactions.CommittableTransaction",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.CommittableTransaction",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1526,26 +1526,26 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Transactions.Local:System.Transactions.Transaction",
-        "clrName": "System.Transactions.Transaction"
+        "targetName": "System.Transactions.Transaction"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncResult",
-          "clrName": "System.IAsyncResult"
+          "targetName": "System.IAsyncResult"
         }
       ],
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::BeginCommit(System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginCommit",
+          "targetName": "BeginCommit",
           "metadataToken": 100663344,
           "canonicalSignature": "(System.AsyncCallback,System.Object):System.IAsyncResult",
           "normalizedSignature": "BeginCommit|(System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
@@ -1559,13 +1559,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.CommittableTransaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::Commit():System.Void",
-          "clrName": "Commit",
+          "targetName": "Commit",
           "metadataToken": 100663345,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Commit|():System.Void|static=false",
@@ -1579,13 +1579,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.CommittableTransaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::EndCommit(System.IAsyncResult):System.Void",
-          "clrName": "EndCommit",
+          "targetName": "EndCommit",
           "metadataToken": 100663347,
           "canonicalSignature": "(System.IAsyncResult):System.Void",
           "normalizedSignature": "EndCommit|(System.IAsyncResult):System.Void|static=false",
@@ -1599,13 +1599,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.CommittableTransaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1619,14 +1619,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -1640,8 +1640,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -1649,7 +1649,7 @@
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.IAsyncResult::IsCompleted:System.Boolean",
-          "clrName": "IsCompleted",
+          "targetName": "IsCompleted",
           "metadataToken": 385876486,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsCompleted|:System.Boolean|static=false|accessor=get",
@@ -1664,12 +1664,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
-          "declaringClrType": "System.IAsyncResult",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.IAsyncResult",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncResult::AsyncWaitHandle:System.Threading.WaitHandle",
-          "clrName": "AsyncWaitHandle",
+          "targetName": "AsyncWaitHandle",
           "metadataToken": 385876487,
           "canonicalSignature": ":System.Threading.WaitHandle",
           "normalizedSignature": "AsyncWaitHandle|:System.Threading.WaitHandle|static=false|accessor=get",
@@ -1684,12 +1684,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
-          "declaringClrType": "System.IAsyncResult",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.IAsyncResult",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncResult::AsyncState:System.Object",
-          "clrName": "AsyncState",
+          "targetName": "AsyncState",
           "metadataToken": 385876488,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "AsyncState|:System.Object|static=false|accessor=get",
@@ -1704,12 +1704,12 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
-          "declaringClrType": "System.IAsyncResult",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.IAsyncResult",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.IAsyncResult::CompletedSynchronously:System.Boolean",
-          "clrName": "CompletedSynchronously",
+          "targetName": "CompletedSynchronously",
           "metadataToken": 385876489,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "CompletedSynchronously|:System.Boolean|static=false|accessor=get",
@@ -1724,8 +1724,8 @@
           "isOverride": false,
           "visibility": "Public",
           "sourceInterface": "System.IAsyncResult",
-          "declaringClrType": "System.IAsyncResult",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.IAsyncResult",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -1739,8 +1739,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.CommittableTransaction",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::.ctor(System.TimeSpan):void",
@@ -1750,8 +1750,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.CommittableTransaction",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.CommittableTransaction::.ctor(System.Transactions.TransactionOptions):void",
@@ -1761,15 +1761,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.CommittableTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.CommittableTransaction",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.DependentTransaction",
-      "clrName": "System.Transactions.DependentTransaction",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.DependentTransaction",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1779,22 +1779,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Transactions.Local:System.Transactions.Transaction",
-        "clrName": "System.Transactions.Transaction"
+        "targetName": "System.Transactions.Transaction"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.DependentTransaction::Complete():System.Void",
-          "clrName": "Complete",
+          "targetName": "Complete",
           "metadataToken": 100663353,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Complete|():System.Void|static=false",
@@ -1808,13 +1808,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.DependentTransaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.DependentTransaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1828,14 +1828,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -1849,8 +1849,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -1862,8 +1862,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.Enlistment",
-      "clrName": "System.Transactions.Enlistment",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.Enlistment",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1873,12 +1873,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.Enlistment::Done():System.Void",
-          "clrName": "Done",
+          "targetName": "Done",
           "metadataToken": 100663452,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Done|():System.Void|static=false",
@@ -1892,8 +1892,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Enlistment",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Enlistment",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -1904,8 +1904,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment",
-      "clrName": "System.Transactions.PreparingEnlistment",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.PreparingEnlistment",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1915,12 +1915,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Transactions.Local:System.Transactions.Enlistment",
-        "clrName": "System.Transactions.Enlistment"
+        "targetName": "System.Transactions.Enlistment"
       },
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::Prepared():System.Void",
-          "clrName": "Prepared",
+          "targetName": "Prepared",
           "metadataToken": 100663536,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Prepared|():System.Void|static=false",
@@ -1934,13 +1934,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.PreparingEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.PreparingEnlistment",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::ForceRollback():System.Void",
-          "clrName": "ForceRollback",
+          "targetName": "ForceRollback",
           "metadataToken": 100663537,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "ForceRollback|():System.Void|static=false",
@@ -1954,13 +1954,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.PreparingEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.PreparingEnlistment",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::ForceRollback(System.Exception):System.Void",
-          "clrName": "ForceRollback",
+          "targetName": "ForceRollback",
           "metadataToken": 100663538,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "ForceRollback|(System.Exception):System.Void|static=false",
@@ -1974,13 +1974,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.PreparingEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.PreparingEnlistment",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::RecoveryInformation():System.Byte[]",
-          "clrName": "RecoveryInformation",
+          "targetName": "RecoveryInformation",
           "metadataToken": 100663539,
           "canonicalSignature": "():System.Byte[]",
           "normalizedSignature": "RecoveryInformation|():System.Byte[]|static=false",
@@ -1994,8 +1994,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.PreparingEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.PreparingEnlistment",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -2006,8 +2006,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment",
-      "clrName": "System.Transactions.SinglePhaseEnlistment",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.SinglePhaseEnlistment",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2017,12 +2017,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Transactions.Local:System.Transactions.Enlistment",
-        "clrName": "System.Transactions.Enlistment"
+        "targetName": "System.Transactions.Enlistment"
       },
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::Aborted():System.Void",
-          "clrName": "Aborted",
+          "targetName": "Aborted",
           "metadataToken": 100663541,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Aborted|():System.Void|static=false",
@@ -2036,13 +2036,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.SinglePhaseEnlistment",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::Aborted(System.Exception):System.Void",
-          "clrName": "Aborted",
+          "targetName": "Aborted",
           "metadataToken": 100663542,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "Aborted|(System.Exception):System.Void|static=false",
@@ -2056,13 +2056,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.SinglePhaseEnlistment",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::Committed():System.Void",
-          "clrName": "Committed",
+          "targetName": "Committed",
           "metadataToken": 100663543,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Committed|():System.Void|static=false",
@@ -2076,13 +2076,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.SinglePhaseEnlistment",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::InDoubt():System.Void",
-          "clrName": "InDoubt",
+          "targetName": "InDoubt",
           "metadataToken": 100663544,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "InDoubt|():System.Void|static=false",
@@ -2096,13 +2096,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.SinglePhaseEnlistment",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::InDoubt(System.Exception):System.Void",
-          "clrName": "InDoubt",
+          "targetName": "InDoubt",
           "metadataToken": 100663545,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "InDoubt|(System.Exception):System.Void|static=false",
@@ -2116,8 +2116,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.SinglePhaseEnlistment",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.SinglePhaseEnlistment",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -2128,8 +2128,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.SubordinateTransaction",
-      "clrName": "System.Transactions.SubordinateTransaction",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.SubordinateTransaction",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2139,22 +2139,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Transactions.Local:System.Transactions.Transaction",
-        "clrName": "System.Transactions.Transaction"
+        "targetName": "System.Transactions.Transaction"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2168,14 +2168,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2189,8 +2189,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -2207,15 +2207,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.SubordinateTransaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.SubordinateTransaction",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.Transaction",
-      "clrName": "System.Transactions.Transaction",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.Transaction",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2225,22 +2225,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::GetHashCode():System.Int32",
-          "clrName": "GetHashCode",
+          "targetName": "GetHashCode",
           "metadataToken": 100663563,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
@@ -2254,13 +2254,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Equals(System.Object):System.Boolean",
-          "clrName": "Equals",
+          "targetName": "Equals",
           "metadataToken": 100663564,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
@@ -2274,13 +2274,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::GetPromotedToken():System.Byte[]",
-          "clrName": "GetPromotedToken",
+          "targetName": "GetPromotedToken",
           "metadataToken": 100663570,
           "canonicalSignature": "():System.Byte[]",
           "normalizedSignature": "GetPromotedToken|():System.Byte[]|static=false",
@@ -2294,13 +2294,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistDurable(System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
-          "clrName": "EnlistDurable",
+          "targetName": "EnlistDurable",
           "metadataToken": 100663571,
           "canonicalSignature": "(System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "normalizedSignature": "EnlistDurable|(System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
@@ -2314,13 +2314,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistDurable(System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
-          "clrName": "EnlistDurable",
+          "targetName": "EnlistDurable",
           "metadataToken": 100663572,
           "canonicalSignature": "(System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "normalizedSignature": "EnlistDurable|(System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
@@ -2334,13 +2334,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Rollback():System.Void",
-          "clrName": "Rollback",
+          "targetName": "Rollback",
           "metadataToken": 100663573,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Rollback|():System.Void|static=false",
@@ -2354,13 +2354,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Rollback(System.Exception):System.Void",
-          "clrName": "Rollback",
+          "targetName": "Rollback",
           "metadataToken": 100663574,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "Rollback|(System.Exception):System.Void|static=false",
@@ -2374,13 +2374,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistVolatile(System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
-          "clrName": "EnlistVolatile",
+          "targetName": "EnlistVolatile",
           "metadataToken": 100663575,
           "canonicalSignature": "(System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "normalizedSignature": "EnlistVolatile|(System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
@@ -2394,13 +2394,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistVolatile(System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
-          "clrName": "EnlistVolatile",
+          "targetName": "EnlistVolatile",
           "metadataToken": 100663576,
           "canonicalSignature": "(System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "normalizedSignature": "EnlistVolatile|(System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
@@ -2414,13 +2414,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Clone():System.Transactions.Transaction",
-          "clrName": "Clone",
+          "targetName": "Clone",
           "metadataToken": 100663577,
           "canonicalSignature": "():System.Transactions.Transaction",
           "normalizedSignature": "Clone|():System.Transactions.Transaction|static=false",
@@ -2434,13 +2434,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::DependentClone(System.Transactions.DependentCloneOption):System.Transactions.DependentTransaction",
-          "clrName": "DependentClone",
+          "targetName": "DependentClone",
           "metadataToken": 100663579,
           "canonicalSignature": "(System.Transactions.DependentCloneOption):System.Transactions.DependentTransaction",
           "normalizedSignature": "DependentClone|(System.Transactions.DependentCloneOption):System.Transactions.DependentTransaction|static=false",
@@ -2454,13 +2454,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663583,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2474,13 +2474,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistPromotableSinglePhase(System.Transactions.IPromotableSinglePhaseNotification):System.Boolean",
-          "clrName": "EnlistPromotableSinglePhase",
+          "targetName": "EnlistPromotableSinglePhase",
           "metadataToken": 100663586,
           "canonicalSignature": "(System.Transactions.IPromotableSinglePhaseNotification):System.Boolean",
           "normalizedSignature": "EnlistPromotableSinglePhase|(System.Transactions.IPromotableSinglePhaseNotification):System.Boolean|static=false",
@@ -2494,13 +2494,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistPromotableSinglePhase(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Boolean",
-          "clrName": "EnlistPromotableSinglePhase",
+          "targetName": "EnlistPromotableSinglePhase",
           "metadataToken": 100663587,
           "canonicalSignature": "(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Boolean",
           "normalizedSignature": "EnlistPromotableSinglePhase|(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Boolean|static=false",
@@ -2514,13 +2514,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::PromoteAndEnlistDurable(System.Guid,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
-          "clrName": "PromoteAndEnlistDurable",
+          "targetName": "PromoteAndEnlistDurable",
           "metadataToken": 100663588,
           "canonicalSignature": "(System.Guid,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "normalizedSignature": "PromoteAndEnlistDurable|(System.Guid,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
@@ -2534,13 +2534,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::SetDistributedTransactionIdentifier(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Void",
-          "clrName": "SetDistributedTransactionIdentifier",
+          "targetName": "SetDistributedTransactionIdentifier",
           "metadataToken": 100663589,
           "canonicalSignature": "(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Void",
           "normalizedSignature": "SetDistributedTransactionIdentifier|(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Void|static=false",
@@ -2554,13 +2554,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2574,14 +2574,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -2595,8 +2595,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -2604,7 +2604,7 @@
       "properties": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Current:System.Transactions.Transaction",
-          "clrName": "Current",
+          "targetName": "Current",
           "metadataToken": 385876046,
           "canonicalSignature": ":System.Transactions.Transaction",
           "normalizedSignature": "Current|:System.Transactions.Transaction|static=true|accessor=getset",
@@ -2618,12 +2618,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::TransactionInformation:System.Transactions.TransactionInformation",
-          "clrName": "TransactionInformation",
+          "targetName": "TransactionInformation",
           "metadataToken": 385876049,
           "canonicalSignature": ":System.Transactions.TransactionInformation",
           "normalizedSignature": "TransactionInformation|:System.Transactions.TransactionInformation|static=false|accessor=get",
@@ -2637,12 +2637,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::IsolationLevel:System.Transactions.IsolationLevel",
-          "clrName": "IsolationLevel",
+          "targetName": "IsolationLevel",
           "metadataToken": 385876050,
           "canonicalSignature": ":System.Transactions.IsolationLevel",
           "normalizedSignature": "IsolationLevel|:System.Transactions.IsolationLevel|static=false|accessor=get",
@@ -2656,12 +2656,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::PromoterType:System.Guid",
-          "clrName": "PromoterType",
+          "targetName": "PromoterType",
           "metadataToken": 385876051,
           "canonicalSignature": ":System.Guid",
           "normalizedSignature": "PromoterType|:System.Guid|static=false|accessor=get",
@@ -2675,29 +2675,29 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "fields": [],
       "events": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::TransactionCompletedSystem.Transactions.TransactionCompletedEventHandler",
-          "clrName": "TransactionCompleted",
+          "targetName": "TransactionCompleted",
           "metadataToken": 335544321,
           "normalizedSignature": "TransactionCompleted|System.Transactions.TransactionCompletedEventHandler|static=false",
           "isStatic": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.Transaction",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.Transaction",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "constructors": []
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionAbortedException",
-      "clrName": "System.Transactions.TransactionAbortedException",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionAbortedException",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2707,18 +2707,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Transactions.Local:System.Transactions.TransactionException",
-        "clrName": "System.Transactions.TransactionException"
+        "targetName": "System.Transactions.TransactionException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2732,8 +2732,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -2750,8 +2750,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionAbortedException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionAbortedException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionAbortedException::.ctor(System.String):void",
@@ -2761,8 +2761,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionAbortedException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionAbortedException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionAbortedException::.ctor(System.String,System.Exception):void",
@@ -2772,8 +2772,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionAbortedException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionAbortedException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionAbortedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -2783,15 +2783,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Transactions.TransactionAbortedException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionAbortedException",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionEventArgs",
-      "clrName": "System.Transactions.TransactionEventArgs",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionEventArgs",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2801,13 +2801,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.EventArgs",
-        "clrName": "System.EventArgs"
+        "targetName": "System.EventArgs"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionEventArgs::Transaction:System.Transactions.Transaction",
-          "clrName": "Transaction",
+          "targetName": "Transaction",
           "metadataToken": 385876045,
           "canonicalSignature": ":System.Transactions.Transaction",
           "normalizedSignature": "Transaction|:System.Transactions.Transaction|static=false|accessor=get",
@@ -2821,8 +2821,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionEventArgs",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionEventArgs",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "fields": [],
@@ -2836,15 +2836,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionEventArgs",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionEventArgs",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionException",
-      "clrName": "System.Transactions.TransactionException",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionException",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2854,18 +2854,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.SystemException",
-        "clrName": "System.SystemException"
+        "targetName": "System.SystemException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2879,8 +2879,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -2897,8 +2897,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionException::.ctor(System.String):void",
@@ -2908,8 +2908,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionException::.ctor(System.String,System.Exception):void",
@@ -2919,8 +2919,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -2930,15 +2930,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Transactions.TransactionException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionException",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionInDoubtException",
-      "clrName": "System.Transactions.TransactionInDoubtException",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionInDoubtException",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -2948,18 +2948,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Transactions.Local:System.Transactions.TransactionException",
-        "clrName": "System.Transactions.TransactionException"
+        "targetName": "System.Transactions.TransactionException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -2973,8 +2973,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -2991,8 +2991,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInDoubtException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionInDoubtException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInDoubtException::.ctor(System.String):void",
@@ -3002,8 +3002,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInDoubtException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionInDoubtException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInDoubtException::.ctor(System.String,System.Exception):void",
@@ -3013,8 +3013,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInDoubtException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionInDoubtException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInDoubtException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -3024,15 +3024,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Transactions.TransactionInDoubtException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionInDoubtException",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionInformation",
-      "clrName": "System.Transactions.TransactionInformation",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionInformation",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3042,13 +3042,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInformation::LocalIdentifier:System.String",
-          "clrName": "LocalIdentifier",
+          "targetName": "LocalIdentifier",
           "metadataToken": 385876054,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "LocalIdentifier|:System.String|static=false|accessor=get",
@@ -3062,12 +3062,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInformation",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionInformation",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInformation::DistributedIdentifier:System.Guid",
-          "clrName": "DistributedIdentifier",
+          "targetName": "DistributedIdentifier",
           "metadataToken": 385876055,
           "canonicalSignature": ":System.Guid",
           "normalizedSignature": "DistributedIdentifier|:System.Guid|static=false|accessor=get",
@@ -3081,12 +3081,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInformation",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionInformation",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInformation::CreationTime:System.DateTime",
-          "clrName": "CreationTime",
+          "targetName": "CreationTime",
           "metadataToken": 385876056,
           "canonicalSignature": ":System.DateTime",
           "normalizedSignature": "CreationTime|:System.DateTime|static=false|accessor=get",
@@ -3100,12 +3100,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInformation",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionInformation",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInformation::Status:System.Transactions.TransactionStatus",
-          "clrName": "Status",
+          "targetName": "Status",
           "metadataToken": 385876057,
           "canonicalSignature": ":System.Transactions.TransactionStatus",
           "normalizedSignature": "Status|:System.Transactions.TransactionStatus|static=false|accessor=get",
@@ -3119,8 +3119,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInformation",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionInformation",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "fields": [],
@@ -3129,8 +3129,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionManagerCommunicationException",
-      "clrName": "System.Transactions.TransactionManagerCommunicationException",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionManagerCommunicationException",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3140,18 +3140,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Transactions.Local:System.Transactions.TransactionException",
-        "clrName": "System.Transactions.TransactionException"
+        "targetName": "System.Transactions.TransactionException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -3165,8 +3165,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -3183,8 +3183,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionManagerCommunicationException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionManagerCommunicationException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManagerCommunicationException::.ctor(System.String):void",
@@ -3194,8 +3194,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionManagerCommunicationException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionManagerCommunicationException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManagerCommunicationException::.ctor(System.String,System.Exception):void",
@@ -3205,8 +3205,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionManagerCommunicationException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionManagerCommunicationException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManagerCommunicationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -3216,15 +3216,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Transactions.TransactionManagerCommunicationException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionManagerCommunicationException",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionPromotionException",
-      "clrName": "System.Transactions.TransactionPromotionException",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionPromotionException",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3234,18 +3234,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Transactions.Local:System.Transactions.TransactionException",
-        "clrName": "System.Transactions.TransactionException"
+        "targetName": "System.Transactions.TransactionException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -3259,8 +3259,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -3277,8 +3277,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionPromotionException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionPromotionException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionPromotionException::.ctor(System.String):void",
@@ -3288,8 +3288,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionPromotionException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionPromotionException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionPromotionException::.ctor(System.String,System.Exception):void",
@@ -3299,8 +3299,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionPromotionException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionPromotionException",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionPromotionException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -3310,15 +3310,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Transactions.TransactionPromotionException",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionPromotionException",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionScope",
-      "clrName": "System.Transactions.TransactionScope",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionScope",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -3328,18 +3328,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663706,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3353,13 +3353,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::Complete():System.Void",
-          "clrName": "Complete",
+          "targetName": "Complete",
           "metadataToken": 100663708,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Complete|():System.Void|static=false",
@@ -3373,13 +3373,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -3393,8 +3393,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -3411,8 +3411,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.TransactionScopeOption):void",
@@ -3422,8 +3422,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.TransactionScopeAsyncFlowOption):void",
@@ -3433,8 +3433,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.TransactionScopeOption,System.Transactions.TransactionScopeAsyncFlowOption):void",
@@ -3444,8 +3444,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.TransactionScopeOption,System.TimeSpan):void",
@@ -3455,8 +3455,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.TransactionScopeOption,System.TimeSpan,System.Transactions.TransactionScopeAsyncFlowOption):void",
@@ -3466,8 +3466,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.TransactionScopeOption,System.Transactions.TransactionOptions):void",
@@ -3477,8 +3477,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.TransactionScopeOption,System.Transactions.TransactionOptions,System.Transactions.TransactionScopeAsyncFlowOption):void",
@@ -3488,8 +3488,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.TransactionScopeOption,System.Transactions.TransactionOptions,System.Transactions.EnterpriseServicesInteropOption):void",
@@ -3499,8 +3499,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.Transaction):void",
@@ -3510,8 +3510,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.Transaction,System.Transactions.TransactionScopeAsyncFlowOption):void",
@@ -3521,8 +3521,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.Transaction,System.TimeSpan):void",
@@ -3532,8 +3532,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.Transaction,System.TimeSpan,System.Transactions.TransactionScopeAsyncFlowOption):void",
@@ -3543,8 +3543,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScope::.ctor(System.Transactions.Transaction,System.TimeSpan,System.Transactions.EnterpriseServicesInteropOption):void",
@@ -3554,15 +3554,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionScope",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionScope",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ]
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop",
-      "clrName": "System.Transactions.TransactionInterop",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionInterop",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -3572,12 +3572,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetExportCookie(System.Transactions.Transaction,System.Byte[]):System.Byte[]",
-          "clrName": "GetExportCookie",
+          "targetName": "GetExportCookie",
           "metadataToken": 100664434,
           "canonicalSignature": "(System.Transactions.Transaction,System.Byte[]):System.Byte[]",
           "normalizedSignature": "GetExportCookie|(System.Transactions.Transaction,System.Byte[]):System.Byte[]|static=true",
@@ -3591,13 +3591,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionInterop",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransactionFromExportCookie(System.Byte[]):System.Transactions.Transaction",
-          "clrName": "GetTransactionFromExportCookie",
+          "targetName": "GetTransactionFromExportCookie",
           "metadataToken": 100664435,
           "canonicalSignature": "(System.Byte[]):System.Transactions.Transaction",
           "normalizedSignature": "GetTransactionFromExportCookie|(System.Byte[]):System.Transactions.Transaction|static=true",
@@ -3611,13 +3611,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionInterop",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransmitterPropagationToken(System.Transactions.Transaction):System.Byte[]",
-          "clrName": "GetTransmitterPropagationToken",
+          "targetName": "GetTransmitterPropagationToken",
           "metadataToken": 100664436,
           "canonicalSignature": "(System.Transactions.Transaction):System.Byte[]",
           "normalizedSignature": "GetTransmitterPropagationToken|(System.Transactions.Transaction):System.Byte[]|static=true",
@@ -3631,13 +3631,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionInterop",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransactionFromTransmitterPropagationToken(System.Byte[]):System.Transactions.Transaction",
-          "clrName": "GetTransactionFromTransmitterPropagationToken",
+          "targetName": "GetTransactionFromTransmitterPropagationToken",
           "metadataToken": 100664437,
           "canonicalSignature": "(System.Byte[]):System.Transactions.Transaction",
           "normalizedSignature": "GetTransactionFromTransmitterPropagationToken|(System.Byte[]):System.Transactions.Transaction|static=true",
@@ -3651,13 +3651,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionInterop",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetDtcTransaction(System.Transactions.Transaction):System.Transactions.IDtcTransaction",
-          "clrName": "GetDtcTransaction",
+          "targetName": "GetDtcTransaction",
           "metadataToken": 100664438,
           "canonicalSignature": "(System.Transactions.Transaction):System.Transactions.IDtcTransaction",
           "normalizedSignature": "GetDtcTransaction|(System.Transactions.Transaction):System.Transactions.IDtcTransaction|static=true",
@@ -3671,13 +3671,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionInterop",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetTransactionFromDtcTransaction(System.Transactions.IDtcTransaction):System.Transactions.Transaction",
-          "clrName": "GetTransactionFromDtcTransaction",
+          "targetName": "GetTransactionFromDtcTransaction",
           "metadataToken": 100664439,
           "canonicalSignature": "(System.Transactions.IDtcTransaction):System.Transactions.Transaction",
           "normalizedSignature": "GetTransactionFromDtcTransaction|(System.Transactions.IDtcTransaction):System.Transactions.Transaction|static=true",
@@ -3691,13 +3691,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionInterop",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::GetWhereabouts():System.Byte[]",
-          "clrName": "GetWhereabouts",
+          "targetName": "GetWhereabouts",
           "metadataToken": 100664440,
           "canonicalSignature": "():System.Byte[]",
           "normalizedSignature": "GetWhereabouts|():System.Byte[]|static=true",
@@ -3711,8 +3711,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionInterop",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
@@ -3720,15 +3720,15 @@
       "fields": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionInterop::PromoterTypeDtcSystem.Guid",
-          "clrName": "PromoterTypeDtc",
+          "targetName": "PromoterTypeDtc",
           "metadataToken": 67109252,
           "normalizedSignature": "PromoterTypeDtc|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionInterop",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionInterop",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "events": [],
@@ -3736,8 +3736,8 @@
     },
     {
       "stableId": "System.Transactions.Local:System.Transactions.TransactionManager",
-      "clrName": "System.Transactions.TransactionManager",
-      "assemblyName": "System.Transactions.Local",
+      "targetName": "System.Transactions.TransactionManager",
+      "ownerIdentity": "System.Transactions.Local",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -3747,12 +3747,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::Reenlist(System.Guid,System.Byte[],System.Transactions.IEnlistmentNotification):System.Transactions.Enlistment",
-          "clrName": "Reenlist",
+          "targetName": "Reenlist",
           "metadataToken": 100663656,
           "canonicalSignature": "(System.Guid,System.Byte[],System.Transactions.IEnlistmentNotification):System.Transactions.Enlistment",
           "normalizedSignature": "Reenlist|(System.Guid,System.Byte[],System.Transactions.IEnlistmentNotification):System.Transactions.Enlistment|static=true",
@@ -3766,13 +3766,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionManager",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionManager",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::RecoveryComplete(System.Guid):System.Void",
-          "clrName": "RecoveryComplete",
+          "targetName": "RecoveryComplete",
           "metadataToken": 100663657,
           "canonicalSignature": "(System.Guid):System.Void",
           "normalizedSignature": "RecoveryComplete|(System.Guid):System.Void|static=true",
@@ -3786,15 +3786,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionManager",
-          "declaringAssemblyName": "System.Transactions.Local",
+          "ownerQualifiedName": "System.Transactions.TransactionManager",
+          "ownerIdentity": "System.Transactions.Local",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::HostCurrentCallback:System.Transactions.HostCurrentTransactionCallback",
-          "clrName": "HostCurrentCallback",
+          "targetName": "HostCurrentCallback",
           "metadataToken": 385876058,
           "canonicalSignature": ":System.Transactions.HostCurrentTransactionCallback",
           "normalizedSignature": "HostCurrentCallback|:System.Transactions.HostCurrentTransactionCallback|static=true|accessor=getset",
@@ -3808,12 +3808,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionManager",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionManager",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::DefaultTimeout:System.TimeSpan",
-          "clrName": "DefaultTimeout",
+          "targetName": "DefaultTimeout",
           "metadataToken": 385876061,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "DefaultTimeout|:System.TimeSpan|static=true|accessor=getset",
@@ -3827,12 +3827,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionManager",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionManager",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::MaximumTimeout:System.TimeSpan",
-          "clrName": "MaximumTimeout",
+          "targetName": "MaximumTimeout",
           "metadataToken": 385876062,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "MaximumTimeout|:System.TimeSpan|static=true|accessor=getset",
@@ -3846,12 +3846,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionManager",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionManager",
+          "ownerIdentity": "System.Transactions.Local"
         },
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::ImplicitDistributedTransactions:System.Boolean",
-          "clrName": "ImplicitDistributedTransactions",
+          "targetName": "ImplicitDistributedTransactions",
           "metadataToken": 385876063,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ImplicitDistributedTransactions|:System.Boolean|static=true|accessor=getset",
@@ -3865,21 +3865,21 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionManager",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionManager",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "fields": [],
       "events": [
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionManager::DistributedTransactionStartedSystem.Transactions.TransactionStartedEventHandler",
-          "clrName": "DistributedTransactionStarted",
+          "targetName": "DistributedTransactionStarted",
           "metadataToken": 335544322,
           "normalizedSignature": "DistributedTransactionStarted|System.Transactions.TransactionStartedEventHandler|static=true",
           "isStatic": true,
           "visibility": "Public",
-          "declaringClrType": "System.Transactions.TransactionManager",
-          "declaringAssemblyName": "System.Transactions.Local"
+          "ownerQualifiedName": "System.Transactions.TransactionManager",
+          "ownerIdentity": "System.Transactions.Local"
         }
       ],
       "constructors": []

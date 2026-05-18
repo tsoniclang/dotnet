@@ -7,8 +7,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.Resources.UltimateResourceFallbackLocation",
-      "clrName": "System.Resources.UltimateResourceFallbackLocation",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Resources.UltimateResourceFallbackLocation",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -18,24 +18,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -43,39 +43,39 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.UltimateResourceFallbackLocation::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67110871,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.UltimateResourceFallbackLocation",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.UltimateResourceFallbackLocation",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.UltimateResourceFallbackLocation::MainAssemblySystem.Resources.UltimateResourceFallbackLocation",
-          "clrName": "MainAssembly",
+          "targetName": "MainAssembly",
           "metadataToken": 67110872,
           "normalizedSignature": "MainAssembly|System.Resources.UltimateResourceFallbackLocation|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.UltimateResourceFallbackLocation",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.UltimateResourceFallbackLocation",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.UltimateResourceFallbackLocation::SatelliteSystem.Resources.UltimateResourceFallbackLocation",
-          "clrName": "Satellite",
+          "targetName": "Satellite",
           "metadataToken": 67110873,
           "normalizedSignature": "Satellite|System.Resources.UltimateResourceFallbackLocation|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.UltimateResourceFallbackLocation",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.UltimateResourceFallbackLocation",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -83,8 +83,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Resources.IResourceReader",
-      "clrName": "System.Resources.IResourceReader",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Resources.IResourceReader",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -95,17 +95,17 @@
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "targetName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.IResourceReader::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100674335,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -119,13 +119,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.IResourceReader",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.IResourceReader::GetEnumerator():System.Collections.IDictionaryEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100674336,
           "canonicalSignature": "():System.Collections.IDictionaryEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
@@ -139,13 +139,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.IResourceReader",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -159,8 +159,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IEnumerable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -171,8 +171,8 @@
     },
     {
       "stableId": "System.Resources.Writer:System.Resources.IResourceWriter",
-      "clrName": "System.Resources.IResourceWriter",
-      "assemblyName": "System.Resources.Writer",
+      "targetName": "System.Resources.IResourceWriter",
+      "ownerIdentity": "System.Resources.Writer",
       "metadataToken": 0,
       "kind": "Interface",
       "accessibility": "Public",
@@ -183,13 +183,13 @@
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.String):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663313,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.String):System.Void|static=false",
@@ -203,13 +203,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.IResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.Object):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663314,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.Object):System.Void|static=false",
@@ -223,13 +223,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.IResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.Byte[]):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663315,
           "canonicalSignature": "(System.String,System.Byte[]):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.Byte[]):System.Void|static=false",
@@ -243,13 +243,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.IResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100663316,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -263,8 +263,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.IResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         }
       ],
@@ -275,8 +275,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Resources.MissingManifestResourceException",
-      "clrName": "System.Resources.MissingManifestResourceException",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Resources.MissingManifestResourceException",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -286,18 +286,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.SystemException",
-        "clrName": "System.SystemException"
+        "targetName": "System.SystemException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -311,8 +311,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -329,8 +329,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.MissingManifestResourceException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.MissingManifestResourceException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.MissingManifestResourceException::.ctor(System.String):void",
@@ -340,8 +340,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.MissingManifestResourceException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.MissingManifestResourceException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.MissingManifestResourceException::.ctor(System.String,System.Exception):void",
@@ -351,8 +351,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.MissingManifestResourceException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.MissingManifestResourceException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.MissingManifestResourceException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -362,15 +362,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.MissingManifestResourceException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.MissingManifestResourceException",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Resources.MissingSatelliteAssemblyException",
-      "clrName": "System.Resources.MissingSatelliteAssemblyException",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Resources.MissingSatelliteAssemblyException",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -380,18 +380,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.SystemException",
-        "clrName": "System.SystemException"
+        "targetName": "System.SystemException"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -405,8 +405,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -414,7 +414,7 @@
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.MissingSatelliteAssemblyException::CultureName:System.String",
-          "clrName": "CultureName",
+          "targetName": "CultureName",
           "metadataToken": 385878159,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "CultureName|:System.String|static=false|accessor=get",
@@ -428,8 +428,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.MissingSatelliteAssemblyException",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -443,8 +443,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.MissingSatelliteAssemblyException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.MissingSatelliteAssemblyException::.ctor(System.String):void",
@@ -454,8 +454,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.MissingSatelliteAssemblyException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.MissingSatelliteAssemblyException::.ctor(System.String,System.String):void",
@@ -465,8 +465,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.MissingSatelliteAssemblyException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.MissingSatelliteAssemblyException::.ctor(System.String,System.Exception):void",
@@ -476,8 +476,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.MissingSatelliteAssemblyException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.MissingSatelliteAssemblyException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
@@ -487,15 +487,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.MissingSatelliteAssemblyException",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Resources.NeutralResourcesLanguageAttribute",
-      "clrName": "System.Resources.NeutralResourcesLanguageAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Resources.NeutralResourcesLanguageAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -505,13 +505,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.NeutralResourcesLanguageAttribute::CultureName:System.String",
-          "clrName": "CultureName",
+          "targetName": "CultureName",
           "metadataToken": 385878160,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "CultureName|:System.String|static=false|accessor=get",
@@ -525,12 +525,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.NeutralResourcesLanguageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.NeutralResourcesLanguageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.NeutralResourcesLanguageAttribute::Location:System.Resources.UltimateResourceFallbackLocation",
-          "clrName": "Location",
+          "targetName": "Location",
           "metadataToken": 385878161,
           "canonicalSignature": ":System.Resources.UltimateResourceFallbackLocation",
           "normalizedSignature": "Location|:System.Resources.UltimateResourceFallbackLocation|static=false|accessor=get",
@@ -544,8 +544,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.NeutralResourcesLanguageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.NeutralResourcesLanguageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -559,8 +559,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.NeutralResourcesLanguageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.NeutralResourcesLanguageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.NeutralResourcesLanguageAttribute::.ctor(System.String,System.Resources.UltimateResourceFallbackLocation):void",
@@ -570,15 +570,15 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.NeutralResourcesLanguageAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.NeutralResourcesLanguageAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Resources.ResourceManager",
-      "clrName": "System.Resources.ResourceManager",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Resources.ResourceManager",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -588,12 +588,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::ReleaseAllResources():System.Void",
-          "clrName": "ReleaseAllResources",
+          "targetName": "ReleaseAllResources",
           "metadataToken": 100674386,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "ReleaseAllResources|():System.Void|static=false",
@@ -607,13 +607,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::CreateFileBasedResourceManager(System.String,System.String,System.Type):System.Resources.ResourceManager",
-          "clrName": "CreateFileBasedResourceManager",
+          "targetName": "CreateFileBasedResourceManager",
           "metadataToken": 100674387,
           "canonicalSignature": "(System.String,System.String,System.Type):System.Resources.ResourceManager",
           "normalizedSignature": "CreateFileBasedResourceManager|(System.String,System.String,System.Type):System.Resources.ResourceManager|static=true",
@@ -627,13 +627,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetResourceFileName(System.Globalization.CultureInfo):System.String",
-          "clrName": "GetResourceFileName",
+          "targetName": "GetResourceFileName",
           "metadataToken": 100674388,
           "canonicalSignature": "(System.Globalization.CultureInfo):System.String",
           "normalizedSignature": "GetResourceFileName|(System.Globalization.CultureInfo):System.String|static=false",
@@ -647,13 +647,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean):System.Resources.ResourceSet",
-          "clrName": "GetResourceSet",
+          "targetName": "GetResourceSet",
           "metadataToken": 100674390,
           "canonicalSignature": "(System.Globalization.CultureInfo,System.Boolean,System.Boolean):System.Resources.ResourceSet",
           "normalizedSignature": "GetResourceSet|(System.Globalization.CultureInfo,System.Boolean,System.Boolean):System.Resources.ResourceSet|static=false",
@@ -667,13 +667,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::InternalGetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean):System.Resources.ResourceSet",
-          "clrName": "InternalGetResourceSet",
+          "targetName": "InternalGetResourceSet",
           "metadataToken": 100674391,
           "canonicalSignature": "(System.Globalization.CultureInfo,System.Boolean,System.Boolean):System.Resources.ResourceSet",
           "normalizedSignature": "InternalGetResourceSet|(System.Globalization.CultureInfo,System.Boolean,System.Boolean):System.Resources.ResourceSet|static=false",
@@ -687,13 +687,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetSatelliteContractVersion(System.Reflection.Assembly):System.Version",
-          "clrName": "GetSatelliteContractVersion",
+          "targetName": "GetSatelliteContractVersion",
           "metadataToken": 100674393,
           "canonicalSignature": "(System.Reflection.Assembly):System.Version",
           "normalizedSignature": "GetSatelliteContractVersion|(System.Reflection.Assembly):System.Version|static=true",
@@ -707,13 +707,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetNeutralResourcesLanguage(System.Reflection.Assembly):System.Globalization.CultureInfo",
-          "clrName": "GetNeutralResourcesLanguage",
+          "targetName": "GetNeutralResourcesLanguage",
           "metadataToken": 100674394,
           "canonicalSignature": "(System.Reflection.Assembly):System.Globalization.CultureInfo",
           "normalizedSignature": "GetNeutralResourcesLanguage|(System.Reflection.Assembly):System.Globalization.CultureInfo|static=true",
@@ -727,13 +727,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetString(System.String):System.String",
-          "clrName": "GetString",
+          "targetName": "GetString",
           "metadataToken": 100674396,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "GetString|(System.String):System.String|static=false",
@@ -747,13 +747,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetString(System.String,System.Globalization.CultureInfo):System.String",
-          "clrName": "GetString",
+          "targetName": "GetString",
           "metadataToken": 100674397,
           "canonicalSignature": "(System.String,System.Globalization.CultureInfo):System.String",
           "normalizedSignature": "GetString|(System.String,System.Globalization.CultureInfo):System.String|static=false",
@@ -767,13 +767,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetObject(System.String):System.Object",
-          "clrName": "GetObject",
+          "targetName": "GetObject",
           "metadataToken": 100674398,
           "canonicalSignature": "(System.String):System.Object",
           "normalizedSignature": "GetObject|(System.String):System.Object|static=false",
@@ -787,13 +787,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetObject(System.String,System.Globalization.CultureInfo):System.Object",
-          "clrName": "GetObject",
+          "targetName": "GetObject",
           "metadataToken": 100674399,
           "canonicalSignature": "(System.String,System.Globalization.CultureInfo):System.Object",
           "normalizedSignature": "GetObject|(System.String,System.Globalization.CultureInfo):System.Object|static=false",
@@ -807,13 +807,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetStream(System.String):System.IO.UnmanagedMemoryStream",
-          "clrName": "GetStream",
+          "targetName": "GetStream",
           "metadataToken": 100674401,
           "canonicalSignature": "(System.String):System.IO.UnmanagedMemoryStream",
           "normalizedSignature": "GetStream|(System.String):System.IO.UnmanagedMemoryStream|static=false",
@@ -827,13 +827,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::GetStream(System.String,System.Globalization.CultureInfo):System.IO.UnmanagedMemoryStream",
-          "clrName": "GetStream",
+          "targetName": "GetStream",
           "metadataToken": 100674402,
           "canonicalSignature": "(System.String,System.Globalization.CultureInfo):System.IO.UnmanagedMemoryStream",
           "normalizedSignature": "GetStream|(System.String,System.Globalization.CultureInfo):System.IO.UnmanagedMemoryStream|static=false",
@@ -847,15 +847,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::BaseName:System.String",
-          "clrName": "BaseName",
+          "targetName": "BaseName",
           "metadataToken": 385878164,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "BaseName|:System.String|static=false|accessor=get",
@@ -869,12 +869,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::IgnoreCase:System.Boolean",
-          "clrName": "IgnoreCase",
+          "targetName": "IgnoreCase",
           "metadataToken": 385878165,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IgnoreCase|:System.Boolean|static=false|accessor=getset",
@@ -888,12 +888,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::ResourceSetType:System.Type",
-          "clrName": "ResourceSetType",
+          "targetName": "ResourceSetType",
           "metadataToken": 385878166,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ResourceSetType|:System.Type|static=false|accessor=get",
@@ -907,12 +907,12 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::FallbackLocation:System.Resources.UltimateResourceFallbackLocation",
-          "clrName": "FallbackLocation",
+          "targetName": "FallbackLocation",
           "metadataToken": 385878167,
           "canonicalSignature": ":System.Resources.UltimateResourceFallbackLocation",
           "normalizedSignature": "FallbackLocation|:System.Resources.UltimateResourceFallbackLocation|static=false|accessor=getset",
@@ -926,58 +926,58 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::BaseNameFieldSystem.String",
-          "clrName": "BaseNameField",
+          "targetName": "BaseNameField",
           "metadataToken": 67110801,
           "normalizedSignature": "BaseNameField|System.String|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::MainAssemblySystem.Reflection.Assembly",
-          "clrName": "MainAssembly",
+          "targetName": "MainAssembly",
           "metadataToken": 67110802,
           "normalizedSignature": "MainAssembly|System.Reflection.Assembly|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::MagicNumberSystem.Int32",
-          "clrName": "MagicNumber",
+          "targetName": "MagicNumber",
           "metadataToken": 67110814,
           "normalizedSignature": "MagicNumber|System.Int32|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::HeaderVersionNumberSystem.Int32",
-          "clrName": "HeaderVersionNumber",
+          "targetName": "HeaderVersionNumber",
           "metadataToken": 67110815,
           "normalizedSignature": "HeaderVersionNumber|System.Int32|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -990,8 +990,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::.ctor(System.String,System.Reflection.Assembly):void",
@@ -1001,8 +1001,8 @@
           "isStatic": false,
           "parameterCount": 2,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::.ctor(System.String,System.Reflection.Assembly,System.Type):void",
@@ -1012,8 +1012,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::.ctor(System.Type):void",
@@ -1023,15 +1023,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceManager",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceManager",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Resources.ResourceReader",
-      "clrName": "System.Resources.ResourceReader",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Resources.ResourceReader",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1041,26 +1041,26 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.IResourceReader",
-          "clrName": "System.Resources.IResourceReader"
+          "targetName": "System.Resources.IResourceReader"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "targetName": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceReader::GetResourceData(System.String,System.String\u0026,System.Byte[]\u0026):System.Void",
-          "clrName": "GetResourceData",
+          "targetName": "GetResourceData",
           "metadataToken": 100674425,
           "canonicalSignature": "(System.String,System.String\u0026,System.Byte[]\u0026):System.Void",
           "normalizedSignature": "GetResourceData|(System.String,System.String\u0026,System.Byte[]\u0026):System.Void|static=false",
@@ -1074,8 +1074,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceReader",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1090,7 +1090,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceReader::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100674429,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -1104,13 +1104,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceReader",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceReader::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100674430,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1124,13 +1124,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceReader",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceReader::GetEnumerator():System.Collections.IDictionaryEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100674437,
           "canonicalSignature": "():System.Collections.IDictionaryEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
@@ -1144,13 +1144,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceReader",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -1164,14 +1164,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IEnumerable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.IResourceReader::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100674335,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -1185,14 +1185,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.IResourceReader",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.IResourceReader::GetEnumerator():System.Collections.IDictionaryEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100674336,
           "canonicalSignature": "():System.Collections.IDictionaryEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
@@ -1206,14 +1206,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.IResourceReader",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Resources.IResourceReader"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1227,8 +1227,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -1245,8 +1245,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceReader",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceReader::.ctor(System.IO.Stream):void",
@@ -1256,15 +1256,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceReader",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceReader",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Resources.ResourceSet",
-      "clrName": "System.Resources.ResourceSet",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Resources.ResourceSet",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1274,22 +1274,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable",
-          "clrName": "System.Collections.IEnumerable"
+          "targetName": "System.Collections.IEnumerable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100674476,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -1303,13 +1303,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::Dispose(System.Boolean):System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100674477,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Dispose|(System.Boolean):System.Void|static=false",
@@ -1323,13 +1323,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100674478,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1343,13 +1343,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetDefaultReader():System.Type",
-          "clrName": "GetDefaultReader",
+          "targetName": "GetDefaultReader",
           "metadataToken": 100674479,
           "canonicalSignature": "():System.Type",
           "normalizedSignature": "GetDefaultReader|():System.Type|static=false",
@@ -1363,13 +1363,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetDefaultWriter():System.Type",
-          "clrName": "GetDefaultWriter",
+          "targetName": "GetDefaultWriter",
           "metadataToken": 100674480,
           "canonicalSignature": "():System.Type",
           "normalizedSignature": "GetDefaultWriter|():System.Type|static=false",
@@ -1383,13 +1383,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetEnumerator():System.Collections.IDictionaryEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100674481,
           "canonicalSignature": "():System.Collections.IDictionaryEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IDictionaryEnumerator|static=false",
@@ -1403,13 +1403,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetString(System.String):System.String",
-          "clrName": "GetString",
+          "targetName": "GetString",
           "metadataToken": 100674484,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "GetString|(System.String):System.String|static=false",
@@ -1423,13 +1423,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetString(System.String,System.Boolean):System.String",
-          "clrName": "GetString",
+          "targetName": "GetString",
           "metadataToken": 100674485,
           "canonicalSignature": "(System.String,System.Boolean):System.String",
           "normalizedSignature": "GetString|(System.String,System.Boolean):System.String|static=false",
@@ -1443,13 +1443,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetObject(System.String):System.Object",
-          "clrName": "GetObject",
+          "targetName": "GetObject",
           "metadataToken": 100674486,
           "canonicalSignature": "(System.String):System.Object",
           "normalizedSignature": "GetObject|(System.String):System.Object|static=false",
@@ -1463,13 +1463,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::GetObject(System.String,System.Boolean):System.Object",
-          "clrName": "GetObject",
+          "targetName": "GetObject",
           "metadataToken": 100674487,
           "canonicalSignature": "(System.String,System.Boolean):System.Object",
           "normalizedSignature": "GetObject|(System.String,System.Boolean):System.Object|static=false",
@@ -1483,13 +1483,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::ReadResources():System.Void",
-          "clrName": "ReadResources",
+          "targetName": "ReadResources",
           "metadataToken": 100674488,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "ReadResources|():System.Void|static=false",
@@ -1503,13 +1503,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
-          "clrName": "GetEnumerator",
+          "targetName": "GetEnumerator",
           "metadataToken": 100703850,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
@@ -1523,14 +1523,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Collections.IEnumerable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Collections.IEnumerable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Collections.IEnumerable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1544,8 +1544,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -1554,15 +1554,15 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::ReaderSystem.Resources.IResourceReader",
-          "clrName": "Reader",
+          "targetName": "Reader",
           "metadataToken": 67110842,
           "normalizedSignature": "Reader|System.Resources.IResourceReader|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -1575,8 +1575,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::.ctor(System.String):void",
@@ -1586,8 +1586,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::.ctor(System.IO.Stream):void",
@@ -1597,8 +1597,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Resources.ResourceSet::.ctor(System.Resources.IResourceReader):void",
@@ -1608,15 +1608,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceSet",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.ResourceSet",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Resources.Writer:System.Resources.ResourceWriter",
-      "clrName": "System.Resources.ResourceWriter",
-      "assemblyName": "System.Resources.Writer",
+      "targetName": "System.Resources.ResourceWriter",
+      "ownerIdentity": "System.Resources.Writer",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1626,22 +1626,22 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "interfaces": [
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter",
-          "clrName": "System.Resources.IResourceWriter"
+          "targetName": "System.Resources.IResourceWriter"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable",
-          "clrName": "System.IDisposable"
+          "targetName": "System.IDisposable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResource(System.String,System.IO.Stream):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663320,
           "canonicalSignature": "(System.String,System.IO.Stream):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.IO.Stream):System.Void|static=false",
@@ -1655,13 +1655,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResourceData(System.String,System.String,System.Byte[]):System.Void",
-          "clrName": "AddResourceData",
+          "targetName": "AddResourceData",
           "metadataToken": 100663321,
           "canonicalSignature": "(System.String,System.String,System.Byte[]):System.Void",
           "normalizedSignature": "AddResourceData|(System.String,System.String,System.Byte[]):System.Void|static=false",
@@ -1675,13 +1675,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResource(System.String,System.String):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663325,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.String):System.Void|static=false",
@@ -1695,13 +1695,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResource(System.String,System.Object):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663326,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.Object):System.Void|static=false",
@@ -1715,13 +1715,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResource(System.String,System.IO.Stream,System.Boolean):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663327,
           "canonicalSignature": "(System.String,System.IO.Stream,System.Boolean):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.IO.Stream,System.Boolean):System.Void|static=false",
@@ -1735,13 +1735,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::AddResource(System.String,System.Byte[]):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663329,
           "canonicalSignature": "(System.String,System.Byte[]):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.Byte[]):System.Void|static=false",
@@ -1755,13 +1755,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100663331,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -1775,13 +1775,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100663333,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1795,13 +1795,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::Generate():System.Void",
-          "clrName": "Generate",
+          "targetName": "Generate",
           "metadataToken": 100663334,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Generate|():System.Void|static=false",
@@ -1815,13 +1815,13 @@
           "isOverride": false,
           "isSealed": true,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.String):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663313,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.String):System.Void|static=false",
@@ -1835,14 +1835,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.IResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false,
           "sourceInterface": "System.Resources.IResourceWriter"
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.Object):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663314,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.Object):System.Void|static=false",
@@ -1856,14 +1856,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.IResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false,
           "sourceInterface": "System.Resources.IResourceWriter"
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::AddResource(System.String,System.Byte[]):System.Void",
-          "clrName": "AddResource",
+          "targetName": "AddResource",
           "metadataToken": 100663315,
           "canonicalSignature": "(System.String,System.Byte[]):System.Void",
           "normalizedSignature": "AddResource|(System.String,System.Byte[]):System.Void|static=false",
@@ -1877,14 +1877,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.IResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false,
           "sourceInterface": "System.Resources.IResourceWriter"
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.IResourceWriter::Close():System.Void",
-          "clrName": "Close",
+          "targetName": "Close",
           "metadataToken": 100663316,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
@@ -1898,14 +1898,14 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.IResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer",
+          "ownerQualifiedName": "System.Resources.IResourceWriter",
+          "ownerIdentity": "System.Resources.Writer",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
-          "clrName": "Dispose",
+          "targetName": "Dispose",
           "metadataToken": 100668530,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
@@ -1919,8 +1919,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.IDisposable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.IDisposable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.IDisposable"
         }
@@ -1928,7 +1928,7 @@
       "properties": [
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::TypeNameConverter:System.Func_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "TypeNameConverter",
+          "targetName": "TypeNameConverter",
           "metadataToken": 385875975,
           "canonicalSignature": ":System.Func_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "TypeNameConverter|:System.Func_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
@@ -1942,8 +1942,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer"
         }
       ],
       "fields": [],
@@ -1957,8 +1957,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer"
         },
         {
           "stableId": "System.Resources.Writer:System.Resources.ResourceWriter::.ctor(System.IO.Stream):void",
@@ -1968,15 +1968,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.ResourceWriter",
-          "declaringAssemblyName": "System.Resources.Writer"
+          "ownerQualifiedName": "System.Resources.ResourceWriter",
+          "ownerIdentity": "System.Resources.Writer"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Resources.SatelliteContractVersionAttribute",
-      "clrName": "System.Resources.SatelliteContractVersionAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Resources.SatelliteContractVersionAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -1986,13 +1986,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Resources.SatelliteContractVersionAttribute::Version:System.String",
-          "clrName": "Version",
+          "targetName": "Version",
           "metadataToken": 385878186,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Version|:System.String|static=false|accessor=get",
@@ -2006,8 +2006,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.SatelliteContractVersionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.SatelliteContractVersionAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -2021,8 +2021,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Resources.SatelliteContractVersionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Resources.SatelliteContractVersionAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     }

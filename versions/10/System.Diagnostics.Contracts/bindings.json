@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind",
-      "clrName": "System.Diagnostics.Contracts.ContractFailureKind",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractFailureKind",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Enum",
       "accessibility": "Public",
@@ -17,24 +17,24 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Enum",
-        "clrName": "System.Enum"
+        "targetName": "System.Enum"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.IComparable",
-          "clrName": "System.IComparable"
+          "targetName": "System.IComparable"
         },
         {
           "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "clrName": "System.ISpanFormattable"
+          "targetName": "System.ISpanFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IFormattable",
-          "clrName": "System.IFormattable"
+          "targetName": "System.IFormattable"
         },
         {
           "stableId": "System.Private.CoreLib:System.IConvertible",
-          "clrName": "System.IConvertible"
+          "targetName": "System.IConvertible"
         }
       ],
       "methods": [],
@@ -42,87 +42,87 @@
       "fields": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::value__System.Int32",
-          "clrName": "value__",
+          "targetName": "value__",
           "metadataToken": 67117651,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
           "isLiteral": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailureKind",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PreconditionSystem.Diagnostics.Contracts.ContractFailureKind",
-          "clrName": "Precondition",
+          "targetName": "Precondition",
           "metadataToken": 67117652,
           "normalizedSignature": "Precondition|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailureKind",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PostconditionSystem.Diagnostics.Contracts.ContractFailureKind",
-          "clrName": "Postcondition",
+          "targetName": "Postcondition",
           "metadataToken": 67117653,
           "normalizedSignature": "Postcondition|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailureKind",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PostconditionOnExceptionSystem.Diagnostics.Contracts.ContractFailureKind",
-          "clrName": "PostconditionOnException",
+          "targetName": "PostconditionOnException",
           "metadataToken": 67117654,
           "normalizedSignature": "PostconditionOnException|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailureKind",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::InvariantSystem.Diagnostics.Contracts.ContractFailureKind",
-          "clrName": "Invariant",
+          "targetName": "Invariant",
           "metadataToken": 67117655,
           "normalizedSignature": "Invariant|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailureKind",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::AssertSystem.Diagnostics.Contracts.ContractFailureKind",
-          "clrName": "Assert",
+          "targetName": "Assert",
           "metadataToken": 67117656,
           "normalizedSignature": "Assert|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailureKind",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::AssumeSystem.Diagnostics.Contracts.ContractFailureKind",
-          "clrName": "Assume",
+          "targetName": "Assume",
           "metadataToken": 67117657,
           "normalizedSignature": "Assume|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
           "isLiteral": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailureKind",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "events": [],
@@ -130,8 +130,8 @@
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractAbbreviatorAttribute",
-      "clrName": "System.Diagnostics.Contracts.ContractAbbreviatorAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractAbbreviatorAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -141,7 +141,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -156,15 +156,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractAbbreviatorAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractAbbreviatorAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute",
-      "clrName": "System.Diagnostics.Contracts.ContractArgumentValidatorAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractArgumentValidatorAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -174,7 +174,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -189,15 +189,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractArgumentValidatorAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractArgumentValidatorAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassAttribute",
-      "clrName": "System.Diagnostics.Contracts.ContractClassAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractClassAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -207,13 +207,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassAttribute::TypeContainingContracts:System.Type",
-          "clrName": "TypeContainingContracts",
+          "targetName": "TypeContainingContracts",
           "metadataToken": 385881087,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "TypeContainingContracts|:System.Type|static=false|accessor=get",
@@ -227,8 +227,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractClassAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractClassAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -242,15 +242,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractClassAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractClassAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassForAttribute",
-      "clrName": "System.Diagnostics.Contracts.ContractClassForAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractClassForAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -260,13 +260,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassForAttribute::TypeContractsAreFor:System.Type",
-          "clrName": "TypeContractsAreFor",
+          "targetName": "TypeContractsAreFor",
           "metadataToken": 385881088,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "TypeContractsAreFor|:System.Type|static=false|accessor=get",
@@ -280,8 +280,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractClassForAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractClassForAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -295,15 +295,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractClassForAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractClassForAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException",
-      "clrName": "System.Diagnostics.Contracts.ContractException",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractException",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -313,18 +313,18 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Exception",
-        "clrName": "System.Exception"
+        "targetName": "System.Exception"
       },
       "interfaces": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable",
-          "clrName": "System.Runtime.Serialization.ISerializable"
+          "targetName": "System.Runtime.Serialization.ISerializable"
         }
       ],
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100703149,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -338,13 +338,13 @@
           "isOverride": true,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractException",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractException",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
+          "targetName": "GetObjectData",
           "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
@@ -358,8 +358,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Runtime.Serialization.ISerializable",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "sourceInterface": "System.Runtime.Serialization.ISerializable"
         }
@@ -367,7 +367,7 @@
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Kind:System.Diagnostics.Contracts.ContractFailureKind",
-          "clrName": "Kind",
+          "targetName": "Kind",
           "metadataToken": 385881077,
           "canonicalSignature": ":System.Diagnostics.Contracts.ContractFailureKind",
           "normalizedSignature": "Kind|:System.Diagnostics.Contracts.ContractFailureKind|static=false|accessor=get",
@@ -381,12 +381,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Failure:System.String",
-          "clrName": "Failure",
+          "targetName": "Failure",
           "metadataToken": 385881078,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Failure|:System.String|static=false|accessor=get",
@@ -400,12 +400,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::UserMessage:System.String",
-          "clrName": "UserMessage",
+          "targetName": "UserMessage",
           "metadataToken": 385881079,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "UserMessage|:System.String|static=false|accessor=get",
@@ -419,12 +419,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractException",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Condition:System.String",
-          "clrName": "Condition",
+          "targetName": "Condition",
           "metadataToken": 385881080,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=get",
@@ -438,8 +438,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractException",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -453,15 +453,15 @@
           "isStatic": false,
           "parameterCount": 5,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractException",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractException",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs",
-      "clrName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -471,12 +471,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.EventArgs",
-        "clrName": "System.EventArgs"
+        "targetName": "System.EventArgs"
       },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::SetHandled():System.Void",
-          "clrName": "SetHandled",
+          "targetName": "SetHandled",
           "metadataToken": 100703156,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "SetHandled|():System.Void|static=false",
@@ -490,13 +490,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::SetUnwind():System.Void",
-          "clrName": "SetUnwind",
+          "targetName": "SetUnwind",
           "metadataToken": 100703158,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "SetUnwind|():System.Void|static=false",
@@ -510,15 +510,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Message:System.String",
-          "clrName": "Message",
+          "targetName": "Message",
           "metadataToken": 385881081,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
@@ -532,12 +532,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Condition:System.String",
-          "clrName": "Condition",
+          "targetName": "Condition",
           "metadataToken": 385881082,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=get",
@@ -551,12 +551,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::FailureKind:System.Diagnostics.Contracts.ContractFailureKind",
-          "clrName": "FailureKind",
+          "targetName": "FailureKind",
           "metadataToken": 385881083,
           "canonicalSignature": ":System.Diagnostics.Contracts.ContractFailureKind",
           "normalizedSignature": "FailureKind|:System.Diagnostics.Contracts.ContractFailureKind|static=false|accessor=get",
@@ -570,12 +570,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::OriginalException:System.Exception",
-          "clrName": "OriginalException",
+          "targetName": "OriginalException",
           "metadataToken": 385881084,
           "canonicalSignature": ":System.Exception",
           "normalizedSignature": "OriginalException|:System.Exception|static=false|accessor=get",
@@ -589,12 +589,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Handled:System.Boolean",
-          "clrName": "Handled",
+          "targetName": "Handled",
           "metadataToken": 385881085,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Handled|:System.Boolean|static=false|accessor=get",
@@ -608,12 +608,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Unwind:System.Boolean",
-          "clrName": "Unwind",
+          "targetName": "Unwind",
           "metadataToken": 385881086,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Unwind|:System.Boolean|static=false|accessor=get",
@@ -627,8 +627,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -642,15 +642,15 @@
           "isStatic": false,
           "parameterCount": 4,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractFailedEventArgs",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractInvariantMethodAttribute",
-      "clrName": "System.Diagnostics.Contracts.ContractInvariantMethodAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractInvariantMethodAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -660,7 +660,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -675,15 +675,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractInvariantMethodAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractInvariantMethodAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute",
-      "clrName": "System.Diagnostics.Contracts.ContractOptionAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractOptionAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -693,13 +693,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Category:System.String",
-          "clrName": "Category",
+          "targetName": "Category",
           "metadataToken": 385881091,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Category|:System.String|static=false|accessor=get",
@@ -713,12 +713,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractOptionAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Setting:System.String",
-          "clrName": "Setting",
+          "targetName": "Setting",
           "metadataToken": 385881092,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Setting|:System.String|static=false|accessor=get",
@@ -732,12 +732,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractOptionAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Enabled:System.Boolean",
-          "clrName": "Enabled",
+          "targetName": "Enabled",
           "metadataToken": 385881093,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Enabled|:System.Boolean|static=false|accessor=get",
@@ -751,12 +751,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractOptionAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Value:System.String",
-          "clrName": "Value",
+          "targetName": "Value",
           "metadataToken": 385881094,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Value|:System.String|static=false|accessor=get",
@@ -770,8 +770,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractOptionAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -785,8 +785,8 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractOptionAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::.ctor(System.String,System.String,System.String):void",
@@ -796,15 +796,15 @@
           "isStatic": false,
           "parameterCount": 3,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractOptionAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
-      "clrName": "System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -814,13 +814,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute::Name:System.String",
-          "clrName": "Name",
+          "targetName": "Name",
           "metadataToken": 385881090,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
@@ -834,8 +834,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -849,15 +849,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute",
-      "clrName": "System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -867,7 +867,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -882,15 +882,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute",
-      "clrName": "System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -900,7 +900,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -915,15 +915,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractVerificationAttribute",
-      "clrName": "System.Diagnostics.Contracts.ContractVerificationAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.ContractVerificationAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -933,13 +933,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractVerificationAttribute::Value:System.Boolean",
-          "clrName": "Value",
+          "targetName": "Value",
           "metadataToken": 385881089,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Value|:System.Boolean|static=false|accessor=get",
@@ -953,8 +953,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractVerificationAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractVerificationAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -968,15 +968,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.ContractVerificationAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.ContractVerificationAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.PureAttribute",
-      "clrName": "System.Diagnostics.Contracts.PureAttribute",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.PureAttribute",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -986,7 +986,7 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Attribute",
-        "clrName": "System.Attribute"
+        "targetName": "System.Attribute"
       },
       "methods": [],
       "properties": [],
@@ -1001,15 +1001,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.PureAttribute",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.PureAttribute",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract",
-      "clrName": "System.Diagnostics.Contracts.Contract",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Diagnostics.Contracts.Contract",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "StaticNamespace",
       "accessibility": "Public",
@@ -1019,12 +1019,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assume(System.Boolean):System.Void",
-          "clrName": "Assume",
+          "targetName": "Assume",
           "metadataToken": 100703179,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Assume|(System.Boolean):System.Void|static=true",
@@ -1038,13 +1038,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assume(System.Boolean,System.String):System.Void",
-          "clrName": "Assume",
+          "targetName": "Assume",
           "metadataToken": 100703180,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Assume|(System.Boolean,System.String):System.Void|static=true",
@@ -1058,13 +1058,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean):System.Void",
-          "clrName": "Assert",
+          "targetName": "Assert",
           "metadataToken": 100703181,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Assert|(System.Boolean):System.Void|static=true",
@@ -1078,13 +1078,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean,System.String):System.Void",
-          "clrName": "Assert",
+          "targetName": "Assert",
           "metadataToken": 100703182,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Assert|(System.Boolean,System.String):System.Void|static=true",
@@ -1098,13 +1098,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean):System.Void",
-          "clrName": "Requires",
+          "targetName": "Requires",
           "metadataToken": 100703183,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Requires|(System.Boolean):System.Void|static=true",
@@ -1118,13 +1118,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean,System.String):System.Void",
-          "clrName": "Requires",
+          "targetName": "Requires",
           "metadataToken": 100703184,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Requires|(System.Boolean,System.String):System.Void|static=true",
@@ -1138,13 +1138,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean):System.Void",
-          "clrName": "Ensures",
+          "targetName": "Ensures",
           "metadataToken": 100703187,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Ensures|(System.Boolean):System.Void|static=true",
@@ -1158,13 +1158,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean,System.String):System.Void",
-          "clrName": "Ensures",
+          "targetName": "Ensures",
           "metadataToken": 100703188,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Ensures|(System.Boolean,System.String):System.Void|static=true",
@@ -1178,13 +1178,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean):System.Void",
-          "clrName": "EnsuresOnThrow",
+          "targetName": "EnsuresOnThrow",
           "metadataToken": 100703189,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "EnsuresOnThrow|(System.Boolean):System.Void|static=true",
@@ -1198,13 +1198,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean,System.String):System.Void",
-          "clrName": "EnsuresOnThrow",
+          "targetName": "EnsuresOnThrow",
           "metadataToken": 100703190,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "EnsuresOnThrow|(System.Boolean,System.String):System.Void|static=true",
@@ -1218,13 +1218,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Result():T",
-          "clrName": "Result",
+          "targetName": "Result",
           "metadataToken": 100703191,
           "canonicalSignature": "():T",
           "normalizedSignature": "Result|():T|static=true",
@@ -1238,13 +1238,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ValueAtReturn(T\u0026):T",
-          "clrName": "ValueAtReturn",
+          "targetName": "ValueAtReturn",
           "metadataToken": 100703192,
           "canonicalSignature": "(T\u0026):T",
           "normalizedSignature": "ValueAtReturn|(T\u0026):T|static=true",
@@ -1258,8 +1258,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -1270,7 +1270,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::OldValue(T):T",
-          "clrName": "OldValue",
+          "targetName": "OldValue",
           "metadataToken": 100703193,
           "canonicalSignature": "(T):T",
           "normalizedSignature": "OldValue|(T):T|static=true",
@@ -1284,13 +1284,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean):System.Void",
-          "clrName": "Invariant",
+          "targetName": "Invariant",
           "metadataToken": 100703194,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Invariant|(System.Boolean):System.Void|static=true",
@@ -1304,13 +1304,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean,System.String):System.Void",
-          "clrName": "Invariant",
+          "targetName": "Invariant",
           "metadataToken": 100703195,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Invariant|(System.Boolean,System.String):System.Void|static=true",
@@ -1324,13 +1324,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
-          "clrName": "ForAll",
+          "targetName": "ForAll",
           "metadataToken": 100703196,
           "canonicalSignature": "(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "ForAll|(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
@@ -1344,13 +1344,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(IEnumerable_1,Predicate_1):System.Boolean",
-          "clrName": "ForAll",
+          "targetName": "ForAll",
           "metadataToken": 100703197,
           "canonicalSignature": "(IEnumerable_1,Predicate_1):System.Boolean",
           "normalizedSignature": "ForAll|(IEnumerable_1,Predicate_1):System.Boolean|static=true",
@@ -1364,13 +1364,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
-          "clrName": "Exists",
+          "targetName": "Exists",
           "metadataToken": 100703198,
           "canonicalSignature": "(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "Exists|(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
@@ -1384,13 +1384,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(IEnumerable_1,Predicate_1):System.Boolean",
-          "clrName": "Exists",
+          "targetName": "Exists",
           "metadataToken": 100703199,
           "canonicalSignature": "(IEnumerable_1,Predicate_1):System.Boolean",
           "normalizedSignature": "Exists|(IEnumerable_1,Predicate_1):System.Boolean|static=true",
@@ -1404,13 +1404,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EndContractBlock():System.Void",
-          "clrName": "EndContractBlock",
+          "targetName": "EndContractBlock",
           "metadataToken": 100703200,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "EndContractBlock|():System.Void|static=true",
@@ -1424,8 +1424,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib",
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib",
           "isExtensionMethod": false
         }
       ],
@@ -1434,13 +1434,13 @@
       "events": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ContractFailedSystem.EventHandler\u00601[[System.Diagnostics.Contracts.ContractFailedEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "ContractFailed",
+          "targetName": "ContractFailed",
           "metadataToken": 335544352,
           "normalizedSignature": "ContractFailed|System.EventHandler\u00601[[System.Diagnostics.Contracts.ContractFailedEventArgs, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "isStatic": true,
           "visibility": "Public",
-          "declaringClrType": "System.Diagnostics.Contracts.Contract",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Diagnostics.Contracts.Contract",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "constructors": []

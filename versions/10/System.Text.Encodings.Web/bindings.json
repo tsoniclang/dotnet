@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.HtmlEncoder",
-      "clrName": "System.Text.Encodings.Web.HtmlEncoder",
-      "assemblyName": "System.Text.Encodings.Web",
+      "targetName": "System.Text.Encodings.Web.HtmlEncoder",
+      "ownerIdentity": "System.Text.Encodings.Web",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -17,12 +17,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder",
-        "clrName": "System.Text.Encodings.Web.TextEncoder"
+        "targetName": "System.Text.Encodings.Web.TextEncoder"
       },
       "methods": [
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.HtmlEncoder::Create(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663543,
           "canonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder",
           "normalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder|static=true",
@@ -36,13 +36,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.HtmlEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.HtmlEncoder::Create(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663544,
           "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder",
           "normalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder|static=true",
@@ -56,15 +56,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.HtmlEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.HtmlEncoder::Default:System.Text.Encodings.Web.HtmlEncoder",
-          "clrName": "Default",
+          "targetName": "Default",
           "metadataToken": 385876139,
           "canonicalSignature": ":System.Text.Encodings.Web.HtmlEncoder",
           "normalizedSignature": "Default|:System.Text.Encodings.Web.HtmlEncoder|static=true|accessor=get",
@@ -78,8 +78,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.HtmlEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web"
         }
       ],
       "fields": [],
@@ -93,15 +93,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Text.Encodings.Web.HtmlEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.HtmlEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web"
         }
       ]
     },
     {
       "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder",
-      "clrName": "System.Text.Encodings.Web.JavaScriptEncoder",
-      "assemblyName": "System.Text.Encodings.Web",
+      "targetName": "System.Text.Encodings.Web.JavaScriptEncoder",
+      "ownerIdentity": "System.Text.Encodings.Web",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -111,12 +111,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder",
-        "clrName": "System.Text.Encodings.Web.TextEncoder"
+        "targetName": "System.Text.Encodings.Web.TextEncoder"
       },
       "methods": [
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::Create(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663564,
           "canonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder",
           "normalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
@@ -130,13 +130,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.JavaScriptEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::Create(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663565,
           "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder",
           "normalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder|static=true",
@@ -150,15 +150,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.JavaScriptEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::Default:System.Text.Encodings.Web.JavaScriptEncoder",
-          "clrName": "Default",
+          "targetName": "Default",
           "metadataToken": 385876141,
           "canonicalSignature": ":System.Text.Encodings.Web.JavaScriptEncoder",
           "normalizedSignature": "Default|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
@@ -172,12 +172,12 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.JavaScriptEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web"
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::UnsafeRelaxedJsonEscaping:System.Text.Encodings.Web.JavaScriptEncoder",
-          "clrName": "UnsafeRelaxedJsonEscaping",
+          "targetName": "UnsafeRelaxedJsonEscaping",
           "metadataToken": 385876142,
           "canonicalSignature": ":System.Text.Encodings.Web.JavaScriptEncoder",
           "normalizedSignature": "UnsafeRelaxedJsonEscaping|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
@@ -191,8 +191,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.JavaScriptEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web"
         }
       ],
       "fields": [],
@@ -206,15 +206,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Text.Encodings.Web.JavaScriptEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.JavaScriptEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web"
         }
       ]
     },
     {
       "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder",
-      "clrName": "System.Text.Encodings.Web.TextEncoder",
-      "assemblyName": "System.Text.Encodings.Web",
+      "targetName": "System.Text.Encodings.Web.TextEncoder",
+      "ownerIdentity": "System.Text.Encodings.Web",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -224,12 +224,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::TryEncodeUnicodeScalar(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean",
-          "clrName": "TryEncodeUnicodeScalar",
+          "targetName": "TryEncodeUnicodeScalar",
           "metadataToken": 100663567,
           "canonicalSignature": "(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryEncodeUnicodeScalar|(System.Int32,System.Char*,System.Int32,System.Int32\u0026):System.Boolean|static=false",
@@ -243,8 +243,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -255,7 +255,7 @@
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::FindFirstCharacterToEncode(System.Char*,System.Int32):System.Int32",
-          "clrName": "FindFirstCharacterToEncode",
+          "targetName": "FindFirstCharacterToEncode",
           "metadataToken": 100663570,
           "canonicalSignature": "(System.Char*,System.Int32):System.Int32",
           "normalizedSignature": "FindFirstCharacterToEncode|(System.Char*,System.Int32):System.Int32|static=false",
@@ -269,13 +269,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::WillEncode(System.Int32):System.Boolean",
-          "clrName": "WillEncode",
+          "targetName": "WillEncode",
           "metadataToken": 100663571,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "WillEncode|(System.Int32):System.Boolean|static=false",
@@ -289,13 +289,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.String):System.String",
-          "clrName": "Encode",
+          "targetName": "Encode",
           "metadataToken": 100663573,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "Encode|(System.String):System.String|static=false",
@@ -309,13 +309,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.IO.TextWriter,System.String):System.Void",
-          "clrName": "Encode",
+          "targetName": "Encode",
           "metadataToken": 100663575,
           "canonicalSignature": "(System.IO.TextWriter,System.String):System.Void",
           "normalizedSignature": "Encode|(System.IO.TextWriter,System.String):System.Void|static=false",
@@ -329,13 +329,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void",
-          "clrName": "Encode",
+          "targetName": "Encode",
           "metadataToken": 100663576,
           "canonicalSignature": "(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Encode|(System.IO.TextWriter,System.String,System.Int32,System.Int32):System.Void|static=false",
@@ -349,13 +349,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void",
-          "clrName": "Encode",
+          "targetName": "Encode",
           "metadataToken": 100663577,
           "canonicalSignature": "(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Encode|(System.IO.TextWriter,System.Char[],System.Int32,System.Int32):System.Void|static=false",
@@ -369,13 +369,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::EncodeUtf8(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
-          "clrName": "EncodeUtf8",
+          "targetName": "EncodeUtf8",
           "metadataToken": 100663578,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
           "normalizedSignature": "EncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
@@ -389,8 +389,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -405,7 +405,7 @@
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::Encode(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
-          "clrName": "Encode",
+          "targetName": "Encode",
           "metadataToken": 100663580,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus",
           "normalizedSignature": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean):System.Buffers.OperationStatus|static=false",
@@ -419,8 +419,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false,
           "parameterModifiers": [
             {
@@ -435,7 +435,7 @@
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::FindFirstCharacterToEncodeUtf8(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
-          "clrName": "FindFirstCharacterToEncodeUtf8",
+          "targetName": "FindFirstCharacterToEncodeUtf8",
           "metadataToken": 100663584,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "FindFirstCharacterToEncodeUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -449,15 +449,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::MaxOutputCharactersPerInputCharacter:System.Int32",
-          "clrName": "MaxOutputCharactersPerInputCharacter",
+          "targetName": "MaxOutputCharactersPerInputCharacter",
           "metadataToken": 385876143,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "MaxOutputCharactersPerInputCharacter|:System.Int32|static=false|accessor=get",
@@ -471,8 +471,8 @@
           "isVirtual": true,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web"
         }
       ],
       "fields": [],
@@ -486,15 +486,15 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web"
         }
       ]
     },
     {
       "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings",
-      "clrName": "System.Text.Encodings.Web.TextEncoderSettings",
-      "assemblyName": "System.Text.Encodings.Web",
+      "targetName": "System.Text.Encodings.Web.TextEncoderSettings",
+      "ownerIdentity": "System.Text.Encodings.Web",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -504,12 +504,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowCharacter(System.Char):System.Void",
-          "clrName": "AllowCharacter",
+          "targetName": "AllowCharacter",
           "metadataToken": 100663591,
           "canonicalSignature": "(System.Char):System.Void",
           "normalizedSignature": "AllowCharacter|(System.Char):System.Void|static=false",
@@ -523,13 +523,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowCharacters(System.Char[]):System.Void",
-          "clrName": "AllowCharacters",
+          "targetName": "AllowCharacters",
           "metadataToken": 100663592,
           "canonicalSignature": "(System.Char[]):System.Void",
           "normalizedSignature": "AllowCharacters|(System.Char[]):System.Void|static=false",
@@ -543,13 +543,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowCodePoints(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
-          "clrName": "AllowCodePoints",
+          "targetName": "AllowCodePoints",
           "metadataToken": 100663593,
           "canonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "AllowCodePoints|(System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -563,13 +563,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowRange(System.Text.Unicode.UnicodeRange):System.Void",
-          "clrName": "AllowRange",
+          "targetName": "AllowRange",
           "metadataToken": 100663594,
           "canonicalSignature": "(System.Text.Unicode.UnicodeRange):System.Void",
           "normalizedSignature": "AllowRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
@@ -583,13 +583,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::AllowRanges(System.Text.Unicode.UnicodeRange[]):System.Void",
-          "clrName": "AllowRanges",
+          "targetName": "AllowRanges",
           "metadataToken": 100663595,
           "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Void",
           "normalizedSignature": "AllowRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
@@ -603,13 +603,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::Clear():System.Void",
-          "clrName": "Clear",
+          "targetName": "Clear",
           "metadataToken": 100663596,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
@@ -623,13 +623,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidCharacter(System.Char):System.Void",
-          "clrName": "ForbidCharacter",
+          "targetName": "ForbidCharacter",
           "metadataToken": 100663597,
           "canonicalSignature": "(System.Char):System.Void",
           "normalizedSignature": "ForbidCharacter|(System.Char):System.Void|static=false",
@@ -643,13 +643,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidCharacters(System.Char[]):System.Void",
-          "clrName": "ForbidCharacters",
+          "targetName": "ForbidCharacters",
           "metadataToken": 100663598,
           "canonicalSignature": "(System.Char[]):System.Void",
           "normalizedSignature": "ForbidCharacters|(System.Char[]):System.Void|static=false",
@@ -663,13 +663,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidRange(System.Text.Unicode.UnicodeRange):System.Void",
-          "clrName": "ForbidRange",
+          "targetName": "ForbidRange",
           "metadataToken": 100663599,
           "canonicalSignature": "(System.Text.Unicode.UnicodeRange):System.Void",
           "normalizedSignature": "ForbidRange|(System.Text.Unicode.UnicodeRange):System.Void|static=false",
@@ -683,13 +683,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::ForbidRanges(System.Text.Unicode.UnicodeRange[]):System.Void",
-          "clrName": "ForbidRanges",
+          "targetName": "ForbidRanges",
           "metadataToken": 100663600,
           "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Void",
           "normalizedSignature": "ForbidRanges|(System.Text.Unicode.UnicodeRange[]):System.Void|static=false",
@@ -703,13 +703,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::GetAllowedCodePoints():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-          "clrName": "GetAllowedCodePoints",
+          "targetName": "GetAllowedCodePoints",
           "metadataToken": 100663601,
           "canonicalSignature": "():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetAllowedCodePoints|():System.Collections.Generic.IEnumerable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
@@ -723,8 +723,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         }
       ],
@@ -740,8 +740,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web"
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::.ctor(System.Text.Encodings.Web.TextEncoderSettings):void",
@@ -751,8 +751,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web"
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings::.ctor(System.Text.Unicode.UnicodeRange[]):void",
@@ -762,15 +762,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.TextEncoderSettings",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoderSettings",
+          "ownerIdentity": "System.Text.Encodings.Web"
         }
       ]
     },
     {
       "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.UrlEncoder",
-      "clrName": "System.Text.Encodings.Web.UrlEncoder",
-      "assemblyName": "System.Text.Encodings.Web",
+      "targetName": "System.Text.Encodings.Web.UrlEncoder",
+      "ownerIdentity": "System.Text.Encodings.Web",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -780,12 +780,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder",
-        "clrName": "System.Text.Encodings.Web.TextEncoder"
+        "targetName": "System.Text.Encodings.Web.TextEncoder"
       },
       "methods": [
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.UrlEncoder::Create(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663614,
           "canonicalSignature": "(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder",
           "normalizedSignature": "Create|(System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder|static=true",
@@ -799,13 +799,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.UrlEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.UrlEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.UrlEncoder::Create(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder",
-          "clrName": "Create",
+          "targetName": "Create",
           "metadataToken": 100663615,
           "canonicalSignature": "(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder",
           "normalizedSignature": "Create|(System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder|static=true",
@@ -819,15 +819,15 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.UrlEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web",
+          "ownerQualifiedName": "System.Text.Encodings.Web.UrlEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web",
           "isExtensionMethod": false
         }
       ],
       "properties": [
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.UrlEncoder::Default:System.Text.Encodings.Web.UrlEncoder",
-          "clrName": "Default",
+          "targetName": "Default",
           "metadataToken": 385876146,
           "canonicalSignature": ":System.Text.Encodings.Web.UrlEncoder",
           "normalizedSignature": "Default|:System.Text.Encodings.Web.UrlEncoder|static=true|accessor=get",
@@ -841,8 +841,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Text.Encodings.Web.UrlEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.UrlEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web"
         }
       ],
       "fields": [],
@@ -856,8 +856,8 @@
           "isStatic": false,
           "parameterCount": 0,
           "visibility": "Protected",
-          "declaringClrType": "System.Text.Encodings.Web.UrlEncoder",
-          "declaringAssemblyName": "System.Text.Encodings.Web"
+          "ownerQualifiedName": "System.Text.Encodings.Web.UrlEncoder",
+          "ownerIdentity": "System.Text.Encodings.Web"
         }
       ]
     }

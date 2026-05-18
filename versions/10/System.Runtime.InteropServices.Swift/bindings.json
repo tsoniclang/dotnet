@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError",
-      "clrName": "System.Runtime.InteropServices.Swift.SwiftError",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.InteropServices.Swift.SwiftError",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -17,13 +17,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError::Value:System.Void*",
-          "clrName": "Value",
+          "targetName": "Value",
           "metadataToken": 385879685,
           "canonicalSignature": ":System.Void*",
           "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
@@ -37,8 +37,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftError",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -52,15 +52,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftError",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-      "clrName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -70,13 +70,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult::Value:System.Void*",
-          "clrName": "Value",
+          "targetName": "Value",
           "metadataToken": 385879686,
           "canonicalSignature": ":System.Void*",
           "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
@@ -90,8 +90,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -105,15 +105,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf",
-      "clrName": "System.Runtime.InteropServices.Swift.SwiftSelf",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.InteropServices.Swift.SwiftSelf",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -123,13 +123,13 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "methods": [],
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf::Value:System.Void*",
-          "clrName": "Value",
+          "targetName": "Value",
           "metadataToken": 385879683,
           "canonicalSignature": ":System.Void*",
           "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
@@ -143,8 +143,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -158,15 +158,15 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     },
     {
       "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-      "clrName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-      "assemblyName": "System.Private.CoreLib",
+      "targetName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
+      "ownerIdentity": "System.Private.CoreLib",
       "metadataToken": 0,
       "kind": "Struct",
       "accessibility": "Public",
@@ -176,7 +176,7 @@
       "arity": 1,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.ValueType",
-        "clrName": "System.ValueType"
+        "targetName": "System.ValueType"
       },
       "typeParameters": [
         "T"
@@ -185,7 +185,7 @@
       "properties": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf\u00601::Value:T",
-          "clrName": "Value",
+          "targetName": "Value",
           "metadataToken": 385879684,
           "canonicalSignature": ":T",
           "normalizedSignature": "Value|:T|static=false|accessor=get",
@@ -199,8 +199,8 @@
           "isVirtual": false,
           "isOverride": false,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ],
       "fields": [],
@@ -214,8 +214,8 @@
           "isStatic": false,
           "parameterCount": 1,
           "visibility": "Public",
-          "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib"
+          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
+          "ownerIdentity": "System.Private.CoreLib"
         }
       ]
     }

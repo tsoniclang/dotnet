@@ -6,8 +6,8 @@
   "types": [
     {
       "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda",
-      "clrName": "System.Linq.Expressions.Interpreter.LightLambda",
-      "assemblyName": "System.Linq.Expressions",
+      "targetName": "System.Linq.Expressions.Interpreter.LightLambda",
+      "ownerIdentity": "System.Linq.Expressions",
       "metadataToken": 0,
       "kind": "Class",
       "accessibility": "Public",
@@ -17,12 +17,12 @@
       "arity": 0,
       "baseType": {
         "stableId": "System.Private.CoreLib:System.Object",
-        "clrName": "System.Object"
+        "targetName": "System.Object"
       },
       "methods": [
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::Run(System.Object[]):System.Object",
-          "clrName": "Run",
+          "targetName": "Run",
           "metadataToken": 100666475,
           "canonicalSignature": "(System.Object[]):System.Object",
           "normalizedSignature": "Run|(System.Object[]):System.Object|static=false",
@@ -36,13 +36,13 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Linq.Expressions.Interpreter.LightLambda",
-          "declaringAssemblyName": "System.Linq.Expressions",
+          "ownerQualifiedName": "System.Linq.Expressions.Interpreter.LightLambda",
+          "ownerIdentity": "System.Linq.Expressions",
           "isExtensionMethod": false
         },
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::RunVoid(System.Object[]):System.Object",
-          "clrName": "RunVoid",
+          "targetName": "RunVoid",
           "metadataToken": 100666476,
           "canonicalSignature": "(System.Object[]):System.Object",
           "normalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
@@ -56,8 +56,8 @@
           "isOverride": false,
           "isSealed": false,
           "visibility": "Public",
-          "declaringClrType": "System.Linq.Expressions.Interpreter.LightLambda",
-          "declaringAssemblyName": "System.Linq.Expressions",
+          "ownerQualifiedName": "System.Linq.Expressions.Interpreter.LightLambda",
+          "ownerIdentity": "System.Linq.Expressions",
           "isExtensionMethod": false
         }
       ],
