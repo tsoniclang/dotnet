@@ -1,77 +1,82 @@
 {
-  "namespace": "System.Windows.Input",
-  "contributingAssemblies": [
-    "System.ObjectModel"
-  ],
-  "types": [
-    {
-      "stableId": "System.ObjectModel:System.Windows.Input.ICommand",
-      "targetName": "System.Windows.Input.ICommand",
-      "ownerIdentity": "System.ObjectModel",
-      "metadataToken": 0,
-      "kind": "Interface",
-      "accessibility": "Public",
-      "isAbstract": true,
-      "isSealed": false,
-      "isStatic": false,
-      "arity": 0,
-      "methods": [
-        {
-          "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecute(System.Object):System.Boolean",
-          "targetName": "CanExecute",
-          "metadataToken": 100663318,
-          "canonicalSignature": "(System.Object):System.Boolean",
-          "normalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": true,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Windows.Input.ICommand",
-          "ownerIdentity": "System.ObjectModel",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.ObjectModel:System.Windows.Input.ICommand::Execute(System.Object):System.Void",
-          "targetName": "Execute",
-          "metadataToken": 100663319,
-          "canonicalSignature": "(System.Object):System.Void",
-          "normalizedSignature": "Execute|(System.Object):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": true,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Windows.Input.ICommand",
-          "ownerIdentity": "System.ObjectModel",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [
-        {
-          "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecuteChangedSystem.EventHandler",
-          "targetName": "CanExecuteChanged",
-          "metadataToken": 335544321,
-          "normalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
-          "isStatic": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Windows.Input.ICommand",
-          "ownerIdentity": "System.ObjectModel"
-        }
-      ],
-      "constructors": []
-    }
-  ]
+  "schema": "tsonic.bindings",
+  "provider": {
+    "namespace": "System.Windows.Input",
+    "ownerIdentities": [
+      "System.ObjectModel"
+    ]
+  },
+  "targetSurface": {
+    "types": [
+      {
+        "stableId": "System.ObjectModel:System.Windows.Input.ICommand",
+        "targetName": "System.Windows.Input.ICommand",
+        "ownerIdentity": "System.ObjectModel",
+        "metadataToken": 0,
+        "kind": "Interface",
+        "accessibility": "Public",
+        "isAbstract": true,
+        "isSealed": false,
+        "isStatic": false,
+        "arity": 0,
+        "methods": [
+          {
+            "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecute(System.Object):System.Boolean",
+            "targetName": "CanExecute",
+            "metadataToken": 100663318,
+            "canonicalSignature": "(System.Object):System.Boolean",
+            "normalizedSignature": "CanExecute|(System.Object):System.Boolean|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 1,
+            "isStatic": false,
+            "isAbstract": true,
+            "isVirtual": true,
+            "isOverride": false,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Windows.Input.ICommand",
+            "ownerIdentity": "System.ObjectModel",
+            "isExtensionMethod": false
+          },
+          {
+            "stableId": "System.ObjectModel:System.Windows.Input.ICommand::Execute(System.Object):System.Void",
+            "targetName": "Execute",
+            "metadataToken": 100663319,
+            "canonicalSignature": "(System.Object):System.Void",
+            "normalizedSignature": "Execute|(System.Object):System.Void|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 1,
+            "isStatic": false,
+            "isAbstract": true,
+            "isVirtual": true,
+            "isOverride": false,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Windows.Input.ICommand",
+            "ownerIdentity": "System.ObjectModel",
+            "isExtensionMethod": false
+          }
+        ],
+        "properties": [],
+        "fields": [],
+        "events": [
+          {
+            "stableId": "System.ObjectModel:System.Windows.Input.ICommand::CanExecuteChangedSystem.EventHandler",
+            "targetName": "CanExecuteChanged",
+            "metadataToken": 335544321,
+            "normalizedSignature": "CanExecuteChanged|System.EventHandler|static=false",
+            "isStatic": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Windows.Input.ICommand",
+            "ownerIdentity": "System.ObjectModel"
+          }
+        ],
+        "constructors": []
+      }
+    ]
+  }
 }

@@ -1,719 +1,724 @@
 {
-  "namespace": "System.Net.Cache",
-  "contributingAssemblies": [
-    "System.Net.Primitives",
-    "System.Net.Requests"
-  ],
-  "types": [
-    {
-      "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl",
-      "targetName": "System.Net.Cache.HttpCacheAgeControl",
-      "ownerIdentity": "System.Net.Requests",
-      "metadataToken": 0,
-      "kind": "Enum",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Enum",
-        "targetName": "System.Enum"
+  "schema": "tsonic.bindings",
+  "provider": {
+    "namespace": "System.Net.Cache",
+    "ownerIdentities": [
+      "System.Net.Primitives",
+      "System.Net.Requests"
+    ]
+  },
+  "targetSurface": {
+    "types": [
+      {
+        "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl",
+        "targetName": "System.Net.Cache.HttpCacheAgeControl",
+        "ownerIdentity": "System.Net.Requests",
+        "metadataToken": 0,
+        "kind": "Enum",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Enum",
+          "targetName": "System.Enum"
+        },
+        "interfaces": [
+          {
+            "stableId": "System.Private.CoreLib:System.IComparable",
+            "targetName": "System.IComparable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+            "targetName": "System.ISpanFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IFormattable",
+            "targetName": "System.IFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IConvertible",
+            "targetName": "System.IConvertible"
+          }
+        ],
+        "methods": [],
+        "properties": [],
+        "fields": [
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::value__System.Int32",
+            "targetName": "value__",
+            "metadataToken": 67109427,
+            "normalizedSignature": "value__|System.Int32|static=false|const=false",
+            "isStatic": false,
+            "isReadOnly": false,
+            "isLiteral": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::NoneSystem.Net.Cache.HttpCacheAgeControl",
+            "targetName": "None",
+            "metadataToken": 67109428,
+            "normalizedSignature": "None|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MinFreshSystem.Net.Cache.HttpCacheAgeControl",
+            "targetName": "MinFresh",
+            "metadataToken": 67109429,
+            "normalizedSignature": "MinFresh|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxAgeSystem.Net.Cache.HttpCacheAgeControl",
+            "targetName": "MaxAge",
+            "metadataToken": 67109430,
+            "normalizedSignature": "MaxAge|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxStaleSystem.Net.Cache.HttpCacheAgeControl",
+            "targetName": "MaxStale",
+            "metadataToken": 67109431,
+            "normalizedSignature": "MaxStale|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxAgeAndMinFreshSystem.Net.Cache.HttpCacheAgeControl",
+            "targetName": "MaxAgeAndMinFresh",
+            "metadataToken": 67109432,
+            "normalizedSignature": "MaxAgeAndMinFresh|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxAgeAndMaxStaleSystem.Net.Cache.HttpCacheAgeControl",
+            "targetName": "MaxAgeAndMaxStale",
+            "metadataToken": 67109433,
+            "normalizedSignature": "MaxAgeAndMaxStale|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
+            "ownerIdentity": "System.Net.Requests"
+          }
+        ],
+        "events": [],
+        "constructors": []
       },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IComparable",
-          "targetName": "System.IComparable"
+      {
+        "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel",
+        "targetName": "System.Net.Cache.HttpRequestCacheLevel",
+        "ownerIdentity": "System.Net.Requests",
+        "metadataToken": 0,
+        "kind": "Enum",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Enum",
+          "targetName": "System.Enum"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "targetName": "System.ISpanFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IFormattable",
-          "targetName": "System.IFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "targetName": "System.IConvertible"
-        }
-      ],
-      "methods": [],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::value__System.Int32",
-          "targetName": "value__",
-          "metadataToken": 67109427,
-          "normalizedSignature": "value__|System.Int32|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::NoneSystem.Net.Cache.HttpCacheAgeControl",
-          "targetName": "None",
-          "metadataToken": 67109428,
-          "normalizedSignature": "None|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MinFreshSystem.Net.Cache.HttpCacheAgeControl",
-          "targetName": "MinFresh",
-          "metadataToken": 67109429,
-          "normalizedSignature": "MinFresh|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxAgeSystem.Net.Cache.HttpCacheAgeControl",
-          "targetName": "MaxAge",
-          "metadataToken": 67109430,
-          "normalizedSignature": "MaxAge|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxStaleSystem.Net.Cache.HttpCacheAgeControl",
-          "targetName": "MaxStale",
-          "metadataToken": 67109431,
-          "normalizedSignature": "MaxStale|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxAgeAndMinFreshSystem.Net.Cache.HttpCacheAgeControl",
-          "targetName": "MaxAgeAndMinFresh",
-          "metadataToken": 67109432,
-          "normalizedSignature": "MaxAgeAndMinFresh|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpCacheAgeControl::MaxAgeAndMaxStaleSystem.Net.Cache.HttpCacheAgeControl",
-          "targetName": "MaxAgeAndMaxStale",
-          "metadataToken": 67109433,
-          "normalizedSignature": "MaxAgeAndMaxStale|System.Net.Cache.HttpCacheAgeControl|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpCacheAgeControl",
-          "ownerIdentity": "System.Net.Requests"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel",
-      "targetName": "System.Net.Cache.HttpRequestCacheLevel",
-      "ownerIdentity": "System.Net.Requests",
-      "metadataToken": 0,
-      "kind": "Enum",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Enum",
-        "targetName": "System.Enum"
+        "interfaces": [
+          {
+            "stableId": "System.Private.CoreLib:System.IComparable",
+            "targetName": "System.IComparable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+            "targetName": "System.ISpanFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IFormattable",
+            "targetName": "System.IFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IConvertible",
+            "targetName": "System.IConvertible"
+          }
+        ],
+        "methods": [],
+        "properties": [],
+        "fields": [
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::value__System.Int32",
+            "targetName": "value__",
+            "metadataToken": 67109434,
+            "normalizedSignature": "value__|System.Int32|static=false|const=false",
+            "isStatic": false,
+            "isReadOnly": false,
+            "isLiteral": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::DefaultSystem.Net.Cache.HttpRequestCacheLevel",
+            "targetName": "Default",
+            "metadataToken": 67109435,
+            "normalizedSignature": "Default|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::BypassCacheSystem.Net.Cache.HttpRequestCacheLevel",
+            "targetName": "BypassCache",
+            "metadataToken": 67109436,
+            "normalizedSignature": "BypassCache|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::CacheOnlySystem.Net.Cache.HttpRequestCacheLevel",
+            "targetName": "CacheOnly",
+            "metadataToken": 67109437,
+            "normalizedSignature": "CacheOnly|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::CacheIfAvailableSystem.Net.Cache.HttpRequestCacheLevel",
+            "targetName": "CacheIfAvailable",
+            "metadataToken": 67109438,
+            "normalizedSignature": "CacheIfAvailable|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::RevalidateSystem.Net.Cache.HttpRequestCacheLevel",
+            "targetName": "Revalidate",
+            "metadataToken": 67109439,
+            "normalizedSignature": "Revalidate|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::ReloadSystem.Net.Cache.HttpRequestCacheLevel",
+            "targetName": "Reload",
+            "metadataToken": 67109440,
+            "normalizedSignature": "Reload|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::NoCacheNoStoreSystem.Net.Cache.HttpRequestCacheLevel",
+            "targetName": "NoCacheNoStore",
+            "metadataToken": 67109441,
+            "normalizedSignature": "NoCacheNoStore|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::CacheOrNextCacheOnlySystem.Net.Cache.HttpRequestCacheLevel",
+            "targetName": "CacheOrNextCacheOnly",
+            "metadataToken": 67109442,
+            "normalizedSignature": "CacheOrNextCacheOnly|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::RefreshSystem.Net.Cache.HttpRequestCacheLevel",
+            "targetName": "Refresh",
+            "metadataToken": 67109443,
+            "normalizedSignature": "Refresh|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
+            "ownerIdentity": "System.Net.Requests"
+          }
+        ],
+        "events": [],
+        "constructors": []
       },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IComparable",
-          "targetName": "System.IComparable"
+      {
+        "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel",
+        "targetName": "System.Net.Cache.RequestCacheLevel",
+        "ownerIdentity": "System.Net.Primitives",
+        "metadataToken": 0,
+        "kind": "Enum",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Enum",
+          "targetName": "System.Enum"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "targetName": "System.ISpanFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IFormattable",
-          "targetName": "System.IFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "targetName": "System.IConvertible"
-        }
-      ],
-      "methods": [],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::value__System.Int32",
-          "targetName": "value__",
-          "metadataToken": 67109434,
-          "normalizedSignature": "value__|System.Int32|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::DefaultSystem.Net.Cache.HttpRequestCacheLevel",
-          "targetName": "Default",
-          "metadataToken": 67109435,
-          "normalizedSignature": "Default|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::BypassCacheSystem.Net.Cache.HttpRequestCacheLevel",
-          "targetName": "BypassCache",
-          "metadataToken": 67109436,
-          "normalizedSignature": "BypassCache|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::CacheOnlySystem.Net.Cache.HttpRequestCacheLevel",
-          "targetName": "CacheOnly",
-          "metadataToken": 67109437,
-          "normalizedSignature": "CacheOnly|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::CacheIfAvailableSystem.Net.Cache.HttpRequestCacheLevel",
-          "targetName": "CacheIfAvailable",
-          "metadataToken": 67109438,
-          "normalizedSignature": "CacheIfAvailable|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::RevalidateSystem.Net.Cache.HttpRequestCacheLevel",
-          "targetName": "Revalidate",
-          "metadataToken": 67109439,
-          "normalizedSignature": "Revalidate|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::ReloadSystem.Net.Cache.HttpRequestCacheLevel",
-          "targetName": "Reload",
-          "metadataToken": 67109440,
-          "normalizedSignature": "Reload|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::NoCacheNoStoreSystem.Net.Cache.HttpRequestCacheLevel",
-          "targetName": "NoCacheNoStore",
-          "metadataToken": 67109441,
-          "normalizedSignature": "NoCacheNoStore|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::CacheOrNextCacheOnlySystem.Net.Cache.HttpRequestCacheLevel",
-          "targetName": "CacheOrNextCacheOnly",
-          "metadataToken": 67109442,
-          "normalizedSignature": "CacheOrNextCacheOnly|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::RefreshSystem.Net.Cache.HttpRequestCacheLevel",
-          "targetName": "Refresh",
-          "metadataToken": 67109443,
-          "normalizedSignature": "Refresh|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCacheLevel",
-          "ownerIdentity": "System.Net.Requests"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel",
-      "targetName": "System.Net.Cache.RequestCacheLevel",
-      "ownerIdentity": "System.Net.Primitives",
-      "metadataToken": 0,
-      "kind": "Enum",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Enum",
-        "targetName": "System.Enum"
+        "interfaces": [
+          {
+            "stableId": "System.Private.CoreLib:System.IComparable",
+            "targetName": "System.IComparable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+            "targetName": "System.ISpanFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IFormattable",
+            "targetName": "System.IFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IConvertible",
+            "targetName": "System.IConvertible"
+          }
+        ],
+        "methods": [],
+        "properties": [],
+        "fields": [
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::value__System.Int32",
+            "targetName": "value__",
+            "metadataToken": 67109231,
+            "normalizedSignature": "value__|System.Int32|static=false|const=false",
+            "isStatic": false,
+            "isReadOnly": false,
+            "isLiteral": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
+            "ownerIdentity": "System.Net.Primitives"
+          },
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::DefaultSystem.Net.Cache.RequestCacheLevel",
+            "targetName": "Default",
+            "metadataToken": 67109232,
+            "normalizedSignature": "Default|System.Net.Cache.RequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
+            "ownerIdentity": "System.Net.Primitives"
+          },
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::BypassCacheSystem.Net.Cache.RequestCacheLevel",
+            "targetName": "BypassCache",
+            "metadataToken": 67109233,
+            "normalizedSignature": "BypassCache|System.Net.Cache.RequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
+            "ownerIdentity": "System.Net.Primitives"
+          },
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::CacheOnlySystem.Net.Cache.RequestCacheLevel",
+            "targetName": "CacheOnly",
+            "metadataToken": 67109234,
+            "normalizedSignature": "CacheOnly|System.Net.Cache.RequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
+            "ownerIdentity": "System.Net.Primitives"
+          },
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::CacheIfAvailableSystem.Net.Cache.RequestCacheLevel",
+            "targetName": "CacheIfAvailable",
+            "metadataToken": 67109235,
+            "normalizedSignature": "CacheIfAvailable|System.Net.Cache.RequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
+            "ownerIdentity": "System.Net.Primitives"
+          },
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::RevalidateSystem.Net.Cache.RequestCacheLevel",
+            "targetName": "Revalidate",
+            "metadataToken": 67109236,
+            "normalizedSignature": "Revalidate|System.Net.Cache.RequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
+            "ownerIdentity": "System.Net.Primitives"
+          },
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::ReloadSystem.Net.Cache.RequestCacheLevel",
+            "targetName": "Reload",
+            "metadataToken": 67109237,
+            "normalizedSignature": "Reload|System.Net.Cache.RequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
+            "ownerIdentity": "System.Net.Primitives"
+          },
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::NoCacheNoStoreSystem.Net.Cache.RequestCacheLevel",
+            "targetName": "NoCacheNoStore",
+            "metadataToken": 67109238,
+            "normalizedSignature": "NoCacheNoStore|System.Net.Cache.RequestCacheLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
+            "ownerIdentity": "System.Net.Primitives"
+          }
+        ],
+        "events": [],
+        "constructors": []
       },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IComparable",
-          "targetName": "System.IComparable"
+      {
+        "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy",
+        "targetName": "System.Net.Cache.HttpRequestCachePolicy",
+        "ownerIdentity": "System.Net.Requests",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": false,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy",
+          "targetName": "System.Net.Cache.RequestCachePolicy"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "targetName": "System.ISpanFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IFormattable",
-          "targetName": "System.IFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "targetName": "System.IConvertible"
-        }
-      ],
-      "methods": [],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::value__System.Int32",
-          "targetName": "value__",
-          "metadataToken": 67109231,
-          "normalizedSignature": "value__|System.Int32|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
-          "ownerIdentity": "System.Net.Primitives"
-        },
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::DefaultSystem.Net.Cache.RequestCacheLevel",
-          "targetName": "Default",
-          "metadataToken": 67109232,
-          "normalizedSignature": "Default|System.Net.Cache.RequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
-          "ownerIdentity": "System.Net.Primitives"
-        },
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::BypassCacheSystem.Net.Cache.RequestCacheLevel",
-          "targetName": "BypassCache",
-          "metadataToken": 67109233,
-          "normalizedSignature": "BypassCache|System.Net.Cache.RequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
-          "ownerIdentity": "System.Net.Primitives"
-        },
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::CacheOnlySystem.Net.Cache.RequestCacheLevel",
-          "targetName": "CacheOnly",
-          "metadataToken": 67109234,
-          "normalizedSignature": "CacheOnly|System.Net.Cache.RequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
-          "ownerIdentity": "System.Net.Primitives"
-        },
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::CacheIfAvailableSystem.Net.Cache.RequestCacheLevel",
-          "targetName": "CacheIfAvailable",
-          "metadataToken": 67109235,
-          "normalizedSignature": "CacheIfAvailable|System.Net.Cache.RequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
-          "ownerIdentity": "System.Net.Primitives"
-        },
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::RevalidateSystem.Net.Cache.RequestCacheLevel",
-          "targetName": "Revalidate",
-          "metadataToken": 67109236,
-          "normalizedSignature": "Revalidate|System.Net.Cache.RequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
-          "ownerIdentity": "System.Net.Primitives"
-        },
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::ReloadSystem.Net.Cache.RequestCacheLevel",
-          "targetName": "Reload",
-          "metadataToken": 67109237,
-          "normalizedSignature": "Reload|System.Net.Cache.RequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
-          "ownerIdentity": "System.Net.Primitives"
-        },
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::NoCacheNoStoreSystem.Net.Cache.RequestCacheLevel",
-          "targetName": "NoCacheNoStore",
-          "metadataToken": 67109238,
-          "normalizedSignature": "NoCacheNoStore|System.Net.Cache.RequestCacheLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCacheLevel",
-          "ownerIdentity": "System.Net.Primitives"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy",
-      "targetName": "System.Net.Cache.HttpRequestCachePolicy",
-      "ownerIdentity": "System.Net.Requests",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": false,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
+        "methods": [
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::ToString():System.String",
+            "targetName": "ToString",
+            "metadataToken": 100664256,
+            "canonicalSignature": "():System.String",
+            "normalizedSignature": "ToString|():System.String|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 0,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": true,
+            "isOverride": true,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests",
+            "isExtensionMethod": false
+          }
+        ],
+        "properties": [
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::Level:System.Net.Cache.HttpRequestCacheLevel",
+            "targetName": "Level",
+            "metadataToken": 385876294,
+            "canonicalSignature": ":System.Net.Cache.HttpRequestCacheLevel",
+            "normalizedSignature": "Level|:System.Net.Cache.HttpRequestCacheLevel|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::CacheSyncDate:System.DateTime",
+            "targetName": "CacheSyncDate",
+            "metadataToken": 385876295,
+            "canonicalSignature": ":System.DateTime",
+            "normalizedSignature": "CacheSyncDate|:System.DateTime|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::MaxAge:System.TimeSpan",
+            "targetName": "MaxAge",
+            "metadataToken": 385876296,
+            "canonicalSignature": ":System.TimeSpan",
+            "normalizedSignature": "MaxAge|:System.TimeSpan|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::MinFresh:System.TimeSpan",
+            "targetName": "MinFresh",
+            "metadataToken": 385876297,
+            "canonicalSignature": ":System.TimeSpan",
+            "normalizedSignature": "MinFresh|:System.TimeSpan|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::MaxStale:System.TimeSpan",
+            "targetName": "MaxStale",
+            "metadataToken": 385876298,
+            "canonicalSignature": ":System.TimeSpan",
+            "normalizedSignature": "MaxStale|:System.TimeSpan|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor():void",
+            "metadataToken": 100664245,
+            "canonicalSignature": "():void",
+            "normalizedSignature": "constructor|():void|static=false",
+            "isStatic": false,
+            "parameterCount": 0,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor(System.Net.Cache.HttpRequestCacheLevel):void",
+            "metadataToken": 100664246,
+            "canonicalSignature": "(System.Net.Cache.HttpRequestCacheLevel):void",
+            "normalizedSignature": "constructor|(System.Net.Cache.HttpRequestCacheLevel):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan):void",
+            "metadataToken": 100664247,
+            "canonicalSignature": "(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan):void",
+            "normalizedSignature": "constructor|(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan):void|static=false",
+            "isStatic": false,
+            "parameterCount": 2,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan):void",
+            "metadataToken": 100664248,
+            "canonicalSignature": "(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan):void",
+            "normalizedSignature": "constructor|(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan):void|static=false",
+            "isStatic": false,
+            "parameterCount": 3,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor(System.DateTime):void",
+            "metadataToken": 100664249,
+            "canonicalSignature": "(System.DateTime):void",
+            "normalizedSignature": "constructor|(System.DateTime):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          },
+          {
+            "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan,System.DateTime):void",
+            "metadataToken": 100664250,
+            "canonicalSignature": "(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan,System.DateTime):void",
+            "normalizedSignature": "constructor|(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan,System.DateTime):void|static=false",
+            "isStatic": false,
+            "parameterCount": 4,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
+            "ownerIdentity": "System.Net.Requests"
+          }
+        ]
+      },
+      {
         "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy",
-        "targetName": "System.Net.Cache.RequestCachePolicy"
-      },
-      "methods": [
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::ToString():System.String",
-          "targetName": "ToString",
-          "metadataToken": 100664256,
-          "canonicalSignature": "():System.String",
-          "normalizedSignature": "ToString|():System.String|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": true,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::Level:System.Net.Cache.HttpRequestCacheLevel",
-          "targetName": "Level",
-          "metadataToken": 385876294,
-          "canonicalSignature": ":System.Net.Cache.HttpRequestCacheLevel",
-          "normalizedSignature": "Level|:System.Net.Cache.HttpRequestCacheLevel|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
+        "targetName": "System.Net.Cache.RequestCachePolicy",
+        "ownerIdentity": "System.Net.Primitives",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": false,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Object",
+          "targetName": "System.Object"
         },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::CacheSyncDate:System.DateTime",
-          "targetName": "CacheSyncDate",
-          "metadataToken": 385876295,
-          "canonicalSignature": ":System.DateTime",
-          "normalizedSignature": "CacheSyncDate|:System.DateTime|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::MaxAge:System.TimeSpan",
-          "targetName": "MaxAge",
-          "metadataToken": 385876296,
-          "canonicalSignature": ":System.TimeSpan",
-          "normalizedSignature": "MaxAge|:System.TimeSpan|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::MinFresh:System.TimeSpan",
-          "targetName": "MinFresh",
-          "metadataToken": 385876297,
-          "canonicalSignature": ":System.TimeSpan",
-          "normalizedSignature": "MinFresh|:System.TimeSpan|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::MaxStale:System.TimeSpan",
-          "targetName": "MaxStale",
-          "metadataToken": 385876298,
-          "canonicalSignature": ":System.TimeSpan",
-          "normalizedSignature": "MaxStale|:System.TimeSpan|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor():void",
-          "metadataToken": 100664245,
-          "canonicalSignature": "():void",
-          "normalizedSignature": "constructor|():void|static=false",
-          "isStatic": false,
-          "parameterCount": 0,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor(System.Net.Cache.HttpRequestCacheLevel):void",
-          "metadataToken": 100664246,
-          "canonicalSignature": "(System.Net.Cache.HttpRequestCacheLevel):void",
-          "normalizedSignature": "constructor|(System.Net.Cache.HttpRequestCacheLevel):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan):void",
-          "metadataToken": 100664247,
-          "canonicalSignature": "(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan):void",
-          "normalizedSignature": "constructor|(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan):void",
-          "metadataToken": 100664248,
-          "canonicalSignature": "(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan):void",
-          "normalizedSignature": "constructor|(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan):void|static=false",
-          "isStatic": false,
-          "parameterCount": 3,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor(System.DateTime):void",
-          "metadataToken": 100664249,
-          "canonicalSignature": "(System.DateTime):void",
-          "normalizedSignature": "constructor|(System.DateTime):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
-        },
-        {
-          "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCachePolicy::.ctor(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan,System.DateTime):void",
-          "metadataToken": 100664250,
-          "canonicalSignature": "(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan,System.DateTime):void",
-          "normalizedSignature": "constructor|(System.Net.Cache.HttpCacheAgeControl,System.TimeSpan,System.TimeSpan,System.DateTime):void|static=false",
-          "isStatic": false,
-          "parameterCount": 4,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.HttpRequestCachePolicy",
-          "ownerIdentity": "System.Net.Requests"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy",
-      "targetName": "System.Net.Cache.RequestCachePolicy",
-      "ownerIdentity": "System.Net.Primitives",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": false,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Object",
-        "targetName": "System.Object"
-      },
-      "methods": [
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy::ToString():System.String",
-          "targetName": "ToString",
-          "metadataToken": 100663769,
-          "canonicalSignature": "():System.String",
-          "normalizedSignature": "ToString|():System.String|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": true,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCachePolicy",
-          "ownerIdentity": "System.Net.Primitives",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy::Level:System.Net.Cache.RequestCacheLevel",
-          "targetName": "Level",
-          "metadataToken": 385876077,
-          "canonicalSignature": ":System.Net.Cache.RequestCacheLevel",
-          "normalizedSignature": "Level|:System.Net.Cache.RequestCacheLevel|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCachePolicy",
-          "ownerIdentity": "System.Net.Primitives"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy::.ctor():void",
-          "metadataToken": 100663766,
-          "canonicalSignature": "():void",
-          "normalizedSignature": "constructor|():void|static=false",
-          "isStatic": false,
-          "parameterCount": 0,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCachePolicy",
-          "ownerIdentity": "System.Net.Primitives"
-        },
-        {
-          "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy::.ctor(System.Net.Cache.RequestCacheLevel):void",
-          "metadataToken": 100663767,
-          "canonicalSignature": "(System.Net.Cache.RequestCacheLevel):void",
-          "normalizedSignature": "constructor|(System.Net.Cache.RequestCacheLevel):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Net.Cache.RequestCachePolicy",
-          "ownerIdentity": "System.Net.Primitives"
-        }
-      ]
-    }
-  ]
+        "methods": [
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy::ToString():System.String",
+            "targetName": "ToString",
+            "metadataToken": 100663769,
+            "canonicalSignature": "():System.String",
+            "normalizedSignature": "ToString|():System.String|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 0,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": true,
+            "isOverride": true,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCachePolicy",
+            "ownerIdentity": "System.Net.Primitives",
+            "isExtensionMethod": false
+          }
+        ],
+        "properties": [
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy::Level:System.Net.Cache.RequestCacheLevel",
+            "targetName": "Level",
+            "metadataToken": 385876077,
+            "canonicalSignature": ":System.Net.Cache.RequestCacheLevel",
+            "normalizedSignature": "Level|:System.Net.Cache.RequestCacheLevel|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCachePolicy",
+            "ownerIdentity": "System.Net.Primitives"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy::.ctor():void",
+            "metadataToken": 100663766,
+            "canonicalSignature": "():void",
+            "normalizedSignature": "constructor|():void|static=false",
+            "isStatic": false,
+            "parameterCount": 0,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCachePolicy",
+            "ownerIdentity": "System.Net.Primitives"
+          },
+          {
+            "stableId": "System.Net.Primitives:System.Net.Cache.RequestCachePolicy::.ctor(System.Net.Cache.RequestCacheLevel):void",
+            "metadataToken": 100663767,
+            "canonicalSignature": "(System.Net.Cache.RequestCacheLevel):void",
+            "normalizedSignature": "constructor|(System.Net.Cache.RequestCacheLevel):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Net.Cache.RequestCachePolicy",
+            "ownerIdentity": "System.Net.Primitives"
+          }
+        ]
+      }
+    ]
+  }
 }

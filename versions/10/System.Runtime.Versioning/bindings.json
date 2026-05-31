@@ -1,1213 +1,1218 @@
 {
-  "namespace": "System.Runtime.Versioning",
-  "contributingAssemblies": [
-    "System.Private.CoreLib"
-  ],
-  "types": [
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions",
-      "targetName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Enum",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Enum",
-        "targetName": "System.Enum"
+  "schema": "tsonic.bindings",
+  "provider": {
+    "namespace": "System.Runtime.Versioning",
+    "ownerIdentities": [
+      "System.Private.CoreLib"
+    ]
+  },
+  "targetSurface": {
+    "types": [
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions",
+        "targetName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Enum",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Enum",
+          "targetName": "System.Enum"
+        },
+        "interfaces": [
+          {
+            "stableId": "System.Private.CoreLib:System.IComparable",
+            "targetName": "System.IComparable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+            "targetName": "System.ISpanFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IFormattable",
+            "targetName": "System.IFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IConvertible",
+            "targetName": "System.IConvertible"
+          }
+        ],
+        "methods": [],
+        "properties": [],
+        "fields": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::value__System.Int32",
+            "targetName": "value__",
+            "metadataToken": 67113233,
+            "normalizedSignature": "value__|System.Int32|static=false|const=false",
+            "isStatic": false,
+            "isReadOnly": false,
+            "isLiteral": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::NoneSystem.Runtime.Versioning.ComponentGuaranteesOptions",
+            "targetName": "None",
+            "metadataToken": 67113234,
+            "normalizedSignature": "None|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::ExchangeSystem.Runtime.Versioning.ComponentGuaranteesOptions",
+            "targetName": "Exchange",
+            "metadataToken": 67113235,
+            "normalizedSignature": "Exchange|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::StableSystem.Runtime.Versioning.ComponentGuaranteesOptions",
+            "targetName": "Stable",
+            "metadataToken": 67113236,
+            "normalizedSignature": "Stable|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::SideBySideSystem.Runtime.Versioning.ComponentGuaranteesOptions",
+            "targetName": "SideBySide",
+            "metadataToken": 67113237,
+            "normalizedSignature": "SideBySide|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "events": [],
+        "constructors": []
       },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IComparable",
-          "targetName": "System.IComparable"
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope",
+        "targetName": "System.Runtime.Versioning.ResourceScope",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Enum",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Enum",
+          "targetName": "System.Enum"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "targetName": "System.ISpanFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IFormattable",
-          "targetName": "System.IFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "targetName": "System.IConvertible"
-        }
-      ],
-      "methods": [],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::value__System.Int32",
-          "targetName": "value__",
-          "metadataToken": 67113233,
-          "normalizedSignature": "value__|System.Int32|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::NoneSystem.Runtime.Versioning.ComponentGuaranteesOptions",
-          "targetName": "None",
-          "metadataToken": 67113234,
-          "normalizedSignature": "None|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::ExchangeSystem.Runtime.Versioning.ComponentGuaranteesOptions",
-          "targetName": "Exchange",
-          "metadataToken": 67113235,
-          "normalizedSignature": "Exchange|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::StableSystem.Runtime.Versioning.ComponentGuaranteesOptions",
-          "targetName": "Stable",
-          "metadataToken": 67113236,
-          "normalizedSignature": "Stable|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::SideBySideSystem.Runtime.Versioning.ComponentGuaranteesOptions",
-          "targetName": "SideBySide",
-          "metadataToken": 67113237,
-          "normalizedSignature": "SideBySide|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesOptions",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope",
-      "targetName": "System.Runtime.Versioning.ResourceScope",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Enum",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Enum",
-        "targetName": "System.Enum"
+        "interfaces": [
+          {
+            "stableId": "System.Private.CoreLib:System.IComparable",
+            "targetName": "System.IComparable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+            "targetName": "System.ISpanFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IFormattable",
+            "targetName": "System.IFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IConvertible",
+            "targetName": "System.IConvertible"
+          }
+        ],
+        "methods": [],
+        "properties": [],
+        "fields": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::value__System.Int32",
+            "targetName": "value__",
+            "metadataToken": 67113251,
+            "normalizedSignature": "value__|System.Int32|static=false|const=false",
+            "isStatic": false,
+            "isReadOnly": false,
+            "isLiteral": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::NoneSystem.Runtime.Versioning.ResourceScope",
+            "targetName": "None",
+            "metadataToken": 67113252,
+            "normalizedSignature": "None|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::MachineSystem.Runtime.Versioning.ResourceScope",
+            "targetName": "Machine",
+            "metadataToken": 67113253,
+            "normalizedSignature": "Machine|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::ProcessSystem.Runtime.Versioning.ResourceScope",
+            "targetName": "Process",
+            "metadataToken": 67113254,
+            "normalizedSignature": "Process|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::AppDomainSystem.Runtime.Versioning.ResourceScope",
+            "targetName": "AppDomain",
+            "metadataToken": 67113255,
+            "normalizedSignature": "AppDomain|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::LibrarySystem.Runtime.Versioning.ResourceScope",
+            "targetName": "Library",
+            "metadataToken": 67113256,
+            "normalizedSignature": "Library|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::PrivateSystem.Runtime.Versioning.ResourceScope",
+            "targetName": "Private",
+            "metadataToken": 67113257,
+            "normalizedSignature": "Private|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::AssemblySystem.Runtime.Versioning.ResourceScope",
+            "targetName": "Assembly",
+            "metadataToken": 67113258,
+            "normalizedSignature": "Assembly|System.Runtime.Versioning.ResourceScope|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "events": [],
+        "constructors": []
       },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IComparable",
-          "targetName": "System.IComparable"
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesAttribute",
+        "targetName": "System.Runtime.Versioning.ComponentGuaranteesAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Attribute",
+          "targetName": "System.Attribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "targetName": "System.ISpanFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IFormattable",
-          "targetName": "System.IFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "targetName": "System.IConvertible"
-        }
-      ],
-      "methods": [],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::value__System.Int32",
-          "targetName": "value__",
-          "metadataToken": 67113251,
-          "normalizedSignature": "value__|System.Int32|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::NoneSystem.Runtime.Versioning.ResourceScope",
-          "targetName": "None",
-          "metadataToken": 67113252,
-          "normalizedSignature": "None|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::MachineSystem.Runtime.Versioning.ResourceScope",
-          "targetName": "Machine",
-          "metadataToken": 67113253,
-          "normalizedSignature": "Machine|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::ProcessSystem.Runtime.Versioning.ResourceScope",
-          "targetName": "Process",
-          "metadataToken": 67113254,
-          "normalizedSignature": "Process|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::AppDomainSystem.Runtime.Versioning.ResourceScope",
-          "targetName": "AppDomain",
-          "metadataToken": 67113255,
-          "normalizedSignature": "AppDomain|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::LibrarySystem.Runtime.Versioning.ResourceScope",
-          "targetName": "Library",
-          "metadataToken": 67113256,
-          "normalizedSignature": "Library|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::PrivateSystem.Runtime.Versioning.ResourceScope",
-          "targetName": "Private",
-          "metadataToken": 67113257,
-          "normalizedSignature": "Private|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::AssemblySystem.Runtime.Versioning.ResourceScope",
-          "targetName": "Assembly",
-          "metadataToken": 67113258,
-          "normalizedSignature": "Assembly|System.Runtime.Versioning.ResourceScope|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceScope",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesAttribute",
-      "targetName": "System.Runtime.Versioning.ComponentGuaranteesAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Attribute",
-        "targetName": "System.Attribute"
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesAttribute::Guarantees:System.Runtime.Versioning.ComponentGuaranteesOptions",
+            "targetName": "Guarantees",
+            "metadataToken": 385879304,
+            "canonicalSignature": ":System.Runtime.Versioning.ComponentGuaranteesOptions",
+            "normalizedSignature": "Guarantees|:System.Runtime.Versioning.ComponentGuaranteesOptions|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesAttribute::.ctor(System.Runtime.Versioning.ComponentGuaranteesOptions):void",
+            "metadataToken": 100682577,
+            "canonicalSignature": "(System.Runtime.Versioning.ComponentGuaranteesOptions):void",
+            "normalizedSignature": "constructor|(System.Runtime.Versioning.ComponentGuaranteesOptions):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
       },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesAttribute::Guarantees:System.Runtime.Versioning.ComponentGuaranteesOptions",
-          "targetName": "Guarantees",
-          "metadataToken": 385879304,
-          "canonicalSignature": ":System.Runtime.Versioning.ComponentGuaranteesOptions",
-          "normalizedSignature": "Guarantees|:System.Runtime.Versioning.ComponentGuaranteesOptions|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesAttribute::.ctor(System.Runtime.Versioning.ComponentGuaranteesOptions):void",
-          "metadataToken": 100682577,
-          "canonicalSignature": "(System.Runtime.Versioning.ComponentGuaranteesOptions):void",
-          "normalizedSignature": "constructor|(System.Runtime.Versioning.ComponentGuaranteesOptions):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ComponentGuaranteesAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName",
-      "targetName": "System.Runtime.Versioning.FrameworkName",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Object",
-        "targetName": "System.Object"
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName",
+        "targetName": "System.Runtime.Versioning.FrameworkName",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Object",
+          "targetName": "System.Object"
+        },
+        "interfaces": [
+          {
+            "stableId": "System.Private.CoreLib:System.IEquatable`1",
+            "targetName": "System.IEquatable`1",
+            "typeArguments": [
+              "FrameworkName"
+            ]
+          }
+        ],
+        "methods": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Equals(System.Object):System.Boolean",
+            "targetName": "Equals",
+            "metadataToken": 100682582,
+            "canonicalSignature": "(System.Object):System.Boolean",
+            "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 1,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": true,
+            "isOverride": true,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib",
+            "isExtensionMethod": false
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Equals(System.Runtime.Versioning.FrameworkName):System.Boolean",
+            "targetName": "Equals",
+            "metadataToken": 100682583,
+            "canonicalSignature": "(System.Runtime.Versioning.FrameworkName):System.Boolean",
+            "normalizedSignature": "Equals|(System.Runtime.Versioning.FrameworkName):System.Boolean|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 1,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": true,
+            "isOverride": false,
+            "isSealed": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib",
+            "isExtensionMethod": false
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::GetHashCode():System.Int32",
+            "targetName": "GetHashCode",
+            "metadataToken": 100682584,
+            "canonicalSignature": "():System.Int32",
+            "normalizedSignature": "GetHashCode|():System.Int32|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 0,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": true,
+            "isOverride": true,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib",
+            "isExtensionMethod": false
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::ToString():System.String",
+            "targetName": "ToString",
+            "metadataToken": 100682585,
+            "canonicalSignature": "():System.String",
+            "normalizedSignature": "ToString|():System.String|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 0,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": true,
+            "isOverride": true,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib",
+            "isExtensionMethod": false
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IEquatable`1::Equals(T):System.Boolean",
+            "targetName": "Equals",
+            "metadataToken": 100668531,
+            "canonicalSignature": "(T):System.Boolean",
+            "normalizedSignature": "Equals|(T):System.Boolean|static=false",
+            "emitScope": "ViewOnly",
+            "provenance": "ExplicitView",
+            "arity": 0,
+            "parameterCount": 1,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": true,
+            "isOverride": false,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.IEquatable`1",
+            "ownerIdentity": "System.Private.CoreLib",
+            "isExtensionMethod": false,
+            "sourceInterface": "System.IEquatable`1"
+          }
+        ],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Identifier:System.String",
+            "targetName": "Identifier",
+            "metadataToken": 385879305,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "Identifier|:System.String|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Version:System.Version",
+            "targetName": "Version",
+            "metadataToken": 385879306,
+            "canonicalSignature": ":System.Version",
+            "normalizedSignature": "Version|:System.Version|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Profile:System.String",
+            "targetName": "Profile",
+            "metadataToken": 385879307,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "Profile|:System.String|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::FullName:System.String",
+            "targetName": "FullName",
+            "metadataToken": 385879308,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "FullName|:System.String|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::.ctor(System.String,System.Version):void",
+            "metadataToken": 100682586,
+            "canonicalSignature": "(System.String,System.Version):void",
+            "normalizedSignature": "constructor|(System.String,System.Version):void|static=false",
+            "isStatic": false,
+            "parameterCount": 2,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::.ctor(System.String,System.Version,System.String):void",
+            "metadataToken": 100682587,
+            "canonicalSignature": "(System.String,System.Version,System.String):void",
+            "normalizedSignature": "constructor|(System.String,System.Version,System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 3,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::.ctor(System.String):void",
+            "metadataToken": 100682588,
+            "canonicalSignature": "(System.String):void",
+            "normalizedSignature": "constructor|(System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
       },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IEquatable\u00601",
-          "targetName": "System.IEquatable\u00601",
-          "typeArguments": [
-            "FrameworkName"
-          ]
-        }
-      ],
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Equals(System.Object):System.Boolean",
-          "targetName": "Equals",
-          "metadataToken": 100682582,
-          "canonicalSignature": "(System.Object):System.Boolean",
-          "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": true,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib",
-          "isExtensionMethod": false
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
+        "targetName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
+          "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Equals(System.Runtime.Versioning.FrameworkName):System.Boolean",
-          "targetName": "Equals",
-          "metadataToken": 100682583,
-          "canonicalSignature": "(System.Runtime.Versioning.FrameworkName):System.Boolean",
-          "normalizedSignature": "Equals|(System.Runtime.Versioning.FrameworkName):System.Boolean|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::GetHashCode():System.Int32",
-          "targetName": "GetHashCode",
-          "metadataToken": 100682584,
-          "canonicalSignature": "():System.Int32",
-          "normalizedSignature": "GetHashCode|():System.Int32|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": true,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::ToString():System.String",
-          "targetName": "ToString",
-          "metadataToken": 100682585,
-          "canonicalSignature": "():System.String",
-          "normalizedSignature": "ToString|():System.String|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": true,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IEquatable\u00601::Equals(T):System.Boolean",
-          "targetName": "Equals",
-          "metadataToken": 100668531,
-          "canonicalSignature": "(T):System.Boolean",
-          "normalizedSignature": "Equals|(T):System.Boolean|static=false",
-          "emitScope": "ViewOnly",
-          "provenance": "ExplicitView",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.IEquatable\u00601",
-          "ownerIdentity": "System.Private.CoreLib",
-          "isExtensionMethod": false,
-          "sourceInterface": "System.IEquatable\u00601"
-        }
-      ],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Identifier:System.String",
-          "targetName": "Identifier",
-          "metadataToken": 385879305,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "Identifier|:System.String|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Version:System.Version",
-          "targetName": "Version",
-          "metadataToken": 385879306,
-          "canonicalSignature": ":System.Version",
-          "normalizedSignature": "Version|:System.Version|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Profile:System.String",
-          "targetName": "Profile",
-          "metadataToken": 385879307,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "Profile|:System.String|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::FullName:System.String",
-          "targetName": "FullName",
-          "metadataToken": 385879308,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "FullName|:System.String|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::.ctor(System.String,System.Version):void",
-          "metadataToken": 100682586,
-          "canonicalSignature": "(System.String,System.Version):void",
-          "normalizedSignature": "constructor|(System.String,System.Version):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::.ctor(System.String,System.Version,System.String):void",
-          "metadataToken": 100682587,
-          "canonicalSignature": "(System.String,System.Version,System.String):void",
-          "normalizedSignature": "constructor|(System.String,System.Version,System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 3,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::.ctor(System.String):void",
-          "metadataToken": 100682588,
-          "canonicalSignature": "(System.String):void",
-          "normalizedSignature": "constructor|(System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.FrameworkName",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
-      "targetName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::Message:System.String",
+            "targetName": "Message",
+            "metadataToken": 385879311,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "Message|:System.String|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::Url:System.String",
+            "targetName": "Url",
+            "metadataToken": 385879312,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": true,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::.ctor(System.String):void",
+            "metadataToken": 100682598,
+            "canonicalSignature": "(System.String):void",
+            "normalizedSignature": "constructor|(System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::.ctor(System.String,System.String):void",
+            "metadataToken": 100682599,
+            "canonicalSignature": "(System.String,System.String):void",
+            "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 2,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
+      },
+      {
         "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
-        "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
-      },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::Message:System.String",
-          "targetName": "Message",
-          "metadataToken": 385879311,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "Message|:System.String|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
+        "targetName": "System.Runtime.Versioning.OSPlatformAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": true,
+        "isSealed": false,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Attribute",
+          "targetName": "System.Attribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::Url:System.String",
-          "targetName": "Url",
-          "metadataToken": 385879312,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": true,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::.ctor(System.String):void",
-          "metadataToken": 100682598,
-          "canonicalSignature": "(System.String):void",
-          "normalizedSignature": "constructor|(System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute::PlatformName:System.String",
+            "targetName": "PlatformName",
+            "metadataToken": 385879309,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "PlatformName|:System.String|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.OSPlatformAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": []
+      },
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
+        "targetName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Attribute",
+          "targetName": "System.Attribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::.ctor(System.String,System.String):void",
-          "metadataToken": 100682599,
-          "canonicalSignature": "(System.String,System.String):void",
-          "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
-      "targetName": "System.Runtime.Versioning.OSPlatformAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": true,
-      "isSealed": false,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Attribute",
-        "targetName": "System.Attribute"
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::Message:System.String",
+            "targetName": "Message",
+            "metadataToken": 385879313,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "Message|:System.String|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::Url:System.String",
+            "targetName": "Url",
+            "metadataToken": 385879314,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": true,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::.ctor():void",
+            "metadataToken": 100682605,
+            "canonicalSignature": "():void",
+            "normalizedSignature": "constructor|():void|static=false",
+            "isStatic": false,
+            "parameterCount": 0,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::.ctor(System.String):void",
+            "metadataToken": 100682606,
+            "canonicalSignature": "(System.String):void",
+            "normalizedSignature": "constructor|(System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
       },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute::PlatformName:System.String",
-          "targetName": "PlatformName",
-          "metadataToken": 385879309,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "PlatformName|:System.String|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.OSPlatformAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
-      "targetName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Attribute",
-        "targetName": "System.Attribute"
-      },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::Message:System.String",
-          "targetName": "Message",
-          "metadataToken": 385879313,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "Message|:System.String|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute",
+        "targetName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Attribute",
+          "targetName": "System.Attribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::Url:System.String",
-          "targetName": "Url",
-          "metadataToken": 385879314,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": true,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::.ctor():void",
-          "metadataToken": 100682605,
-          "canonicalSignature": "():void",
-          "normalizedSignature": "constructor|():void|static=false",
-          "isStatic": false,
-          "parameterCount": 0,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::ResourceScope:System.Runtime.Versioning.ResourceScope",
+            "targetName": "ResourceScope",
+            "metadataToken": 385879315,
+            "canonicalSignature": ":System.Runtime.Versioning.ResourceScope",
+            "normalizedSignature": "ResourceScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::ConsumptionScope:System.Runtime.Versioning.ResourceScope",
+            "targetName": "ConsumptionScope",
+            "metadataToken": 385879316,
+            "canonicalSignature": ":System.Runtime.Versioning.ResourceScope",
+            "normalizedSignature": "ConsumptionScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::.ctor(System.Runtime.Versioning.ResourceScope):void",
+            "metadataToken": 100682612,
+            "canonicalSignature": "(System.Runtime.Versioning.ResourceScope):void",
+            "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::.ctor(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void",
+            "metadataToken": 100682613,
+            "canonicalSignature": "(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void",
+            "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void|static=false",
+            "isStatic": false,
+            "parameterCount": 2,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
+      },
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceExposureAttribute",
+        "targetName": "System.Runtime.Versioning.ResourceExposureAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Attribute",
+          "targetName": "System.Attribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::.ctor(System.String):void",
-          "metadataToken": 100682606,
-          "canonicalSignature": "(System.String):void",
-          "normalizedSignature": "constructor|(System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute",
-      "targetName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Attribute",
-        "targetName": "System.Attribute"
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceExposureAttribute::ResourceExposureLevel:System.Runtime.Versioning.ResourceScope",
+            "targetName": "ResourceExposureLevel",
+            "metadataToken": 385879317,
+            "canonicalSignature": ":System.Runtime.Versioning.ResourceScope",
+            "normalizedSignature": "ResourceExposureLevel|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceExposureAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceExposureAttribute::.ctor(System.Runtime.Versioning.ResourceScope):void",
+            "metadataToken": 100682615,
+            "canonicalSignature": "(System.Runtime.Versioning.ResourceScope):void",
+            "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.ResourceExposureAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
       },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::ResourceScope:System.Runtime.Versioning.ResourceScope",
-          "targetName": "ResourceScope",
-          "metadataToken": 385879315,
-          "canonicalSignature": ":System.Runtime.Versioning.ResourceScope",
-          "normalizedSignature": "ResourceScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.SupportedOSPlatformAttribute",
+        "targetName": "System.Runtime.Versioning.SupportedOSPlatformAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
+          "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::ConsumptionScope:System.Runtime.Versioning.ResourceScope",
-          "targetName": "ConsumptionScope",
-          "metadataToken": 385879316,
-          "canonicalSignature": ":System.Runtime.Versioning.ResourceScope",
-          "normalizedSignature": "ConsumptionScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::.ctor(System.Runtime.Versioning.ResourceScope):void",
-          "metadataToken": 100682612,
-          "canonicalSignature": "(System.Runtime.Versioning.ResourceScope):void",
-          "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
+        "methods": [],
+        "properties": [],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.SupportedOSPlatformAttribute::.ctor(System.String):void",
+            "metadataToken": 100682594,
+            "canonicalSignature": "(System.String):void",
+            "normalizedSignature": "constructor|(System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.SupportedOSPlatformAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
+      },
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.SupportedOSPlatformGuardAttribute",
+        "targetName": "System.Runtime.Versioning.SupportedOSPlatformGuardAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
+          "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::.ctor(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void",
-          "metadataToken": 100682613,
-          "canonicalSignature": "(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void",
-          "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceConsumptionAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceExposureAttribute",
-      "targetName": "System.Runtime.Versioning.ResourceExposureAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Attribute",
-        "targetName": "System.Attribute"
+        "methods": [],
+        "properties": [],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.SupportedOSPlatformGuardAttribute::.ctor(System.String):void",
+            "metadataToken": 100682603,
+            "canonicalSignature": "(System.String):void",
+            "normalizedSignature": "constructor|(System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.SupportedOSPlatformGuardAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
       },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceExposureAttribute::ResourceExposureLevel:System.Runtime.Versioning.ResourceScope",
-          "targetName": "ResourceExposureLevel",
-          "metadataToken": 385879317,
-          "canonicalSignature": ":System.Runtime.Versioning.ResourceScope",
-          "normalizedSignature": "ResourceExposureLevel|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceExposureAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceExposureAttribute::.ctor(System.Runtime.Versioning.ResourceScope):void",
-          "metadataToken": 100682615,
-          "canonicalSignature": "(System.Runtime.Versioning.ResourceScope):void",
-          "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.ResourceExposureAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.SupportedOSPlatformAttribute",
-      "targetName": "System.Runtime.Versioning.SupportedOSPlatformAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
-        "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
-      },
-      "methods": [],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.SupportedOSPlatformAttribute::.ctor(System.String):void",
-          "metadataToken": 100682594,
-          "canonicalSignature": "(System.String):void",
-          "normalizedSignature": "constructor|(System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.SupportedOSPlatformAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.SupportedOSPlatformGuardAttribute",
-      "targetName": "System.Runtime.Versioning.SupportedOSPlatformGuardAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
-        "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
-      },
-      "methods": [],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.SupportedOSPlatformGuardAttribute::.ctor(System.String):void",
-          "metadataToken": 100682603,
-          "canonicalSignature": "(System.String):void",
-          "normalizedSignature": "constructor|(System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.SupportedOSPlatformGuardAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute",
-      "targetName": "System.Runtime.Versioning.TargetFrameworkAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Attribute",
-        "targetName": "System.Attribute"
-      },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::FrameworkName:System.String",
-          "targetName": "FrameworkName",
-          "metadataToken": 385879318,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "FrameworkName|:System.String|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.TargetFrameworkAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute",
+        "targetName": "System.Runtime.Versioning.TargetFrameworkAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Attribute",
+          "targetName": "System.Attribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::FrameworkDisplayName:System.String",
-          "targetName": "FrameworkDisplayName",
-          "metadataToken": 385879319,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "FrameworkDisplayName|:System.String|static=false|accessor=getset",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": true,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.TargetFrameworkAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(System.String):void",
-          "metadataToken": 100682616,
-          "canonicalSignature": "(System.String):void",
-          "normalizedSignature": "constructor|(System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.TargetFrameworkAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetPlatformAttribute",
-      "targetName": "System.Runtime.Versioning.TargetPlatformAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
-        "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::FrameworkName:System.String",
+            "targetName": "FrameworkName",
+            "metadataToken": 385879318,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "FrameworkName|:System.String|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.TargetFrameworkAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::FrameworkDisplayName:System.String",
+            "targetName": "FrameworkDisplayName",
+            "metadataToken": 385879319,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "FrameworkDisplayName|:System.String|static=false|accessor=getset",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": true,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.TargetFrameworkAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(System.String):void",
+            "metadataToken": 100682616,
+            "canonicalSignature": "(System.String):void",
+            "normalizedSignature": "constructor|(System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.TargetFrameworkAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
       },
-      "methods": [],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetPlatformAttribute::.ctor(System.String):void",
-          "metadataToken": 100682593,
-          "canonicalSignature": "(System.String):void",
-          "normalizedSignature": "constructor|(System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.TargetPlatformAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
-      "targetName": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
-        "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
-      },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute::Message:System.String",
-          "targetName": "Message",
-          "metadataToken": 385879310,
-          "canonicalSignature": ":System.String",
-          "normalizedSignature": "Message|:System.String|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute::.ctor(System.String):void",
-          "metadataToken": 100682595,
-          "canonicalSignature": "(System.String):void",
-          "normalizedSignature": "constructor|(System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetPlatformAttribute",
+        "targetName": "System.Runtime.Versioning.TargetPlatformAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
+          "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute::.ctor(System.String,System.String):void",
-          "metadataToken": 100682596,
-          "canonicalSignature": "(System.String,System.String):void",
-          "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute",
-      "targetName": "System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
-        "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
+        "methods": [],
+        "properties": [],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetPlatformAttribute::.ctor(System.String):void",
+            "metadataToken": 100682593,
+            "canonicalSignature": "(System.String):void",
+            "normalizedSignature": "constructor|(System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.TargetPlatformAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
       },
-      "methods": [],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute::.ctor(System.String):void",
-          "metadataToken": 100682604,
-          "canonicalSignature": "(System.String):void",
-          "normalizedSignature": "constructor|(System.String):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper",
-      "targetName": "System.Runtime.Versioning.VersioningHelper",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "StaticNamespace",
-      "accessibility": "Public",
-      "isAbstract": true,
-      "isSealed": true,
-      "isStatic": true,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Object",
-        "targetName": "System.Object"
-      },
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper::MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String",
-          "targetName": "MakeVersionSafeName",
-          "metadataToken": 100682620,
-          "canonicalSignature": "(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String",
-          "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String|static=true",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 3,
-          "isStatic": true,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.VersioningHelper",
-          "ownerIdentity": "System.Private.CoreLib",
-          "isExtensionMethod": false
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
+        "targetName": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
+          "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper::MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String",
-          "targetName": "MakeVersionSafeName",
-          "metadataToken": 100682621,
-          "canonicalSignature": "(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String",
-          "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String|static=true",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 4,
-          "isStatic": true,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Versioning.VersioningHelper",
-          "ownerIdentity": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    }
-  ]
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute::Message:System.String",
+            "targetName": "Message",
+            "metadataToken": 385879310,
+            "canonicalSignature": ":System.String",
+            "normalizedSignature": "Message|:System.String|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute::.ctor(System.String):void",
+            "metadataToken": 100682595,
+            "canonicalSignature": "(System.String):void",
+            "normalizedSignature": "constructor|(System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute::.ctor(System.String,System.String):void",
+            "metadataToken": 100682596,
+            "canonicalSignature": "(System.String,System.String):void",
+            "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 2,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
+      },
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute",
+        "targetName": "System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute",
+          "targetName": "System.Runtime.Versioning.OSPlatformAttribute"
+        },
+        "methods": [],
+        "properties": [],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute::.ctor(System.String):void",
+            "metadataToken": 100682604,
+            "canonicalSignature": "(System.String):void",
+            "normalizedSignature": "constructor|(System.String):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
+      },
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper",
+        "targetName": "System.Runtime.Versioning.VersioningHelper",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "StaticNamespace",
+        "accessibility": "Public",
+        "isAbstract": true,
+        "isSealed": true,
+        "isStatic": true,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Object",
+          "targetName": "System.Object"
+        },
+        "methods": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper::MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String",
+            "targetName": "MakeVersionSafeName",
+            "metadataToken": 100682620,
+            "canonicalSignature": "(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String",
+            "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String|static=true",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 3,
+            "isStatic": true,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.VersioningHelper",
+            "ownerIdentity": "System.Private.CoreLib",
+            "isExtensionMethod": false
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper::MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String",
+            "targetName": "MakeVersionSafeName",
+            "metadataToken": 100682621,
+            "canonicalSignature": "(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String",
+            "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String|static=true",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 4,
+            "isStatic": true,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Versioning.VersioningHelper",
+            "ownerIdentity": "System.Private.CoreLib",
+            "isExtensionMethod": false
+          }
+        ],
+        "properties": [],
+        "fields": [],
+        "events": [],
+        "constructors": []
+      }
+    ]
+  }
 }

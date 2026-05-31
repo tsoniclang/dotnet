@@ -1,62 +1,67 @@
 {
-  "namespace": "System.Runtime.Remoting",
-  "contributingAssemblies": [
-    "System.Private.CoreLib"
-  ],
-  "types": [
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle",
-      "targetName": "System.Runtime.Remoting.ObjectHandle",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": false,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.MarshalByRefObject",
-        "targetName": "System.MarshalByRefObject"
-      },
-      "methods": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::Unwrap():System.Object",
-          "targetName": "Unwrap",
-          "metadataToken": 100682741,
-          "canonicalSignature": "():System.Object",
-          "normalizedSignature": "Unwrap|():System.Object|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 0,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Remoting.ObjectHandle",
-          "ownerIdentity": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::.ctor(System.Object):void",
-          "metadataToken": 100682740,
-          "canonicalSignature": "(System.Object):void",
-          "normalizedSignature": "constructor|(System.Object):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Remoting.ObjectHandle",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    }
-  ]
+  "schema": "tsonic.bindings",
+  "provider": {
+    "namespace": "System.Runtime.Remoting",
+    "ownerIdentities": [
+      "System.Private.CoreLib"
+    ]
+  },
+  "targetSurface": {
+    "types": [
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle",
+        "targetName": "System.Runtime.Remoting.ObjectHandle",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": false,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.MarshalByRefObject",
+          "targetName": "System.MarshalByRefObject"
+        },
+        "methods": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::Unwrap():System.Object",
+            "targetName": "Unwrap",
+            "metadataToken": 100682741,
+            "canonicalSignature": "():System.Object",
+            "normalizedSignature": "Unwrap|():System.Object|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 0,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Remoting.ObjectHandle",
+            "ownerIdentity": "System.Private.CoreLib",
+            "isExtensionMethod": false
+          }
+        ],
+        "properties": [],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::.ctor(System.Object):void",
+            "metadataToken": 100682740,
+            "canonicalSignature": "(System.Object):void",
+            "normalizedSignature": "constructor|(System.Object):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Remoting.ObjectHandle",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,223 +1,228 @@
 {
-  "namespace": "System.Runtime.InteropServices.Swift",
-  "contributingAssemblies": [
-    "System.Private.CoreLib"
-  ],
-  "types": [
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError",
-      "targetName": "System.Runtime.InteropServices.Swift.SwiftError",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "targetName": "System.ValueType"
+  "schema": "tsonic.bindings",
+  "provider": {
+    "namespace": "System.Runtime.InteropServices.Swift",
+    "ownerIdentities": [
+      "System.Private.CoreLib"
+    ]
+  },
+  "targetSurface": {
+    "types": [
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError",
+        "targetName": "System.Runtime.InteropServices.Swift.SwiftError",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Struct",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.ValueType",
+          "targetName": "System.ValueType"
+        },
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError::Value:System.Void*",
+            "targetName": "Value",
+            "metadataToken": 385879685,
+            "canonicalSignature": ":System.Void*",
+            "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftError",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError::.ctor(System.Void*):void",
+            "metadataToken": 100695205,
+            "canonicalSignature": "(System.Void*):void",
+            "normalizedSignature": "constructor|(System.Void*):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftError",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
       },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError::Value:System.Void*",
-          "targetName": "Value",
-          "metadataToken": 385879685,
-          "canonicalSignature": ":System.Void*",
-          "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftError",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError::.ctor(System.Void*):void",
-          "metadataToken": 100695205,
-          "canonicalSignature": "(System.Void*):void",
-          "normalizedSignature": "constructor|(System.Void*):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftError",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-      "targetName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "targetName": "System.ValueType"
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+        "targetName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Struct",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.ValueType",
+          "targetName": "System.ValueType"
+        },
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult::Value:System.Void*",
+            "targetName": "Value",
+            "metadataToken": 385879686,
+            "canonicalSignature": ":System.Void*",
+            "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult::.ctor(System.Void*):void",
+            "metadataToken": 100695207,
+            "canonicalSignature": "(System.Void*):void",
+            "normalizedSignature": "constructor|(System.Void*):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
       },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult::Value:System.Void*",
-          "targetName": "Value",
-          "metadataToken": 385879686,
-          "canonicalSignature": ":System.Void*",
-          "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult::.ctor(System.Void*):void",
-          "metadataToken": 100695207,
-          "canonicalSignature": "(System.Void*):void",
-          "normalizedSignature": "constructor|(System.Void*):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf",
-      "targetName": "System.Runtime.InteropServices.Swift.SwiftSelf",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "targetName": "System.ValueType"
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf",
+        "targetName": "System.Runtime.InteropServices.Swift.SwiftSelf",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Struct",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.ValueType",
+          "targetName": "System.ValueType"
+        },
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf::Value:System.Void*",
+            "targetName": "Value",
+            "metadataToken": 385879683,
+            "canonicalSignature": ":System.Void*",
+            "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf::.ctor(System.Void*):void",
+            "metadataToken": 100695201,
+            "canonicalSignature": "(System.Void*):void",
+            "normalizedSignature": "constructor|(System.Void*):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
       },
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf::Value:System.Void*",
-          "targetName": "Value",
-          "metadataToken": 385879683,
-          "canonicalSignature": ":System.Void*",
-          "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf::.ctor(System.Void*):void",
-          "metadataToken": 100695201,
-          "canonicalSignature": "(System.Void*):void",
-          "normalizedSignature": "constructor|(System.Void*):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    },
-    {
-      "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-      "targetName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-      "ownerIdentity": "System.Private.CoreLib",
-      "metadataToken": 0,
-      "kind": "Struct",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 1,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.ValueType",
-        "targetName": "System.ValueType"
-      },
-      "typeParameters": [
-        "T"
-      ],
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf\u00601::Value:T",
-          "targetName": "Value",
-          "metadataToken": 385879684,
-          "canonicalSignature": ":T",
-          "normalizedSignature": "Value|:T|static=false|accessor=get",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": false,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf\u00601::.ctor(T):void",
-          "metadataToken": 100695203,
-          "canonicalSignature": "(T):void",
-          "normalizedSignature": "constructor|(T):void|static=false",
-          "isStatic": false,
-          "parameterCount": 1,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
-          "ownerIdentity": "System.Private.CoreLib"
-        }
-      ]
-    }
-  ]
+      {
+        "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf`1",
+        "targetName": "System.Runtime.InteropServices.Swift.SwiftSelf`1",
+        "ownerIdentity": "System.Private.CoreLib",
+        "metadataToken": 0,
+        "kind": "Struct",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 1,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.ValueType",
+          "targetName": "System.ValueType"
+        },
+        "typeParameters": [
+          "T"
+        ],
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf`1::Value:T",
+            "targetName": "Value",
+            "metadataToken": 385879684,
+            "canonicalSignature": ":T",
+            "normalizedSignature": "Value|:T|static=false|accessor=get",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": false,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf`1",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": [
+          {
+            "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf`1::.ctor(T):void",
+            "metadataToken": 100695203,
+            "canonicalSignature": "(T):void",
+            "normalizedSignature": "constructor|(T):void|static=false",
+            "isStatic": false,
+            "parameterCount": 1,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.InteropServices.Swift.SwiftSelf`1",
+            "ownerIdentity": "System.Private.CoreLib"
+          }
+        ]
+      }
+    ]
+  }
 }

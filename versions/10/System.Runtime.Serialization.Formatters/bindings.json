@@ -1,304 +1,309 @@
 {
-  "namespace": "System.Runtime.Serialization.Formatters",
-  "contributingAssemblies": [
-    "System.Runtime.Serialization.Formatters"
-  ],
-  "types": [
-    {
-      "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
-      "targetName": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
-      "ownerIdentity": "System.Runtime.Serialization.Formatters",
-      "metadataToken": 0,
-      "kind": "Enum",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Enum",
-        "targetName": "System.Enum"
+  "schema": "tsonic.bindings",
+  "provider": {
+    "namespace": "System.Runtime.Serialization.Formatters",
+    "ownerIdentities": [
+      "System.Runtime.Serialization.Formatters"
+    ]
+  },
+  "targetSurface": {
+    "types": [
+      {
+        "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
+        "targetName": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
+        "ownerIdentity": "System.Runtime.Serialization.Formatters",
+        "metadataToken": 0,
+        "kind": "Enum",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Enum",
+          "targetName": "System.Enum"
+        },
+        "interfaces": [
+          {
+            "stableId": "System.Private.CoreLib:System.IComparable",
+            "targetName": "System.IComparable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+            "targetName": "System.ISpanFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IFormattable",
+            "targetName": "System.IFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IConvertible",
+            "targetName": "System.IConvertible"
+          }
+        ],
+        "methods": [],
+        "properties": [],
+        "fields": [
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle::value__System.Int32",
+            "targetName": "value__",
+            "metadataToken": 67108943,
+            "normalizedSignature": "value__|System.Int32|static=false|const=false",
+            "isStatic": false,
+            "isReadOnly": false,
+            "isLiteral": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          },
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle::SimpleSystem.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
+            "targetName": "Simple",
+            "metadataToken": 67108944,
+            "normalizedSignature": "Simple|System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          },
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle::FullSystem.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
+            "targetName": "Full",
+            "metadataToken": 67108945,
+            "normalizedSignature": "Full|System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          }
+        ],
+        "events": [],
+        "constructors": []
       },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IComparable",
-          "targetName": "System.IComparable"
+      {
+        "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle",
+        "targetName": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
+        "ownerIdentity": "System.Runtime.Serialization.Formatters",
+        "metadataToken": 0,
+        "kind": "Enum",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Enum",
+          "targetName": "System.Enum"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "targetName": "System.ISpanFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IFormattable",
-          "targetName": "System.IFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "targetName": "System.IConvertible"
-        }
-      ],
-      "methods": [],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle::value__System.Int32",
-          "targetName": "value__",
-          "metadataToken": 67108943,
-          "normalizedSignature": "value__|System.Int32|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        },
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle::SimpleSystem.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
-          "targetName": "Simple",
-          "metadataToken": 67108944,
-          "normalizedSignature": "Simple|System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        },
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle::FullSystem.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
-          "targetName": "Full",
-          "metadataToken": 67108945,
-          "normalizedSignature": "Full|System.Runtime.Serialization.Formatters.FormatterAssemblyStyle|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterAssemblyStyle",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle",
-      "targetName": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
-      "ownerIdentity": "System.Runtime.Serialization.Formatters",
-      "metadataToken": 0,
-      "kind": "Enum",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Enum",
-        "targetName": "System.Enum"
+        "interfaces": [
+          {
+            "stableId": "System.Private.CoreLib:System.IComparable",
+            "targetName": "System.IComparable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+            "targetName": "System.ISpanFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IFormattable",
+            "targetName": "System.IFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IConvertible",
+            "targetName": "System.IConvertible"
+          }
+        ],
+        "methods": [],
+        "properties": [],
+        "fields": [
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle::value__System.Int32",
+            "targetName": "value__",
+            "metadataToken": 67108939,
+            "normalizedSignature": "value__|System.Int32|static=false|const=false",
+            "isStatic": false,
+            "isReadOnly": false,
+            "isLiteral": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          },
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle::TypesWhenNeededSystem.Runtime.Serialization.Formatters.FormatterTypeStyle",
+            "targetName": "TypesWhenNeeded",
+            "metadataToken": 67108940,
+            "normalizedSignature": "TypesWhenNeeded|System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          },
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle::TypesAlwaysSystem.Runtime.Serialization.Formatters.FormatterTypeStyle",
+            "targetName": "TypesAlways",
+            "metadataToken": 67108941,
+            "normalizedSignature": "TypesAlways|System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          },
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle::XsdStringSystem.Runtime.Serialization.Formatters.FormatterTypeStyle",
+            "targetName": "XsdString",
+            "metadataToken": 67108942,
+            "normalizedSignature": "XsdString|System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          }
+        ],
+        "events": [],
+        "constructors": []
       },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IComparable",
-          "targetName": "System.IComparable"
+      {
+        "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.TypeFilterLevel",
+        "targetName": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
+        "ownerIdentity": "System.Runtime.Serialization.Formatters",
+        "metadataToken": 0,
+        "kind": "Enum",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": true,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Enum",
+          "targetName": "System.Enum"
         },
-        {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "targetName": "System.ISpanFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IFormattable",
-          "targetName": "System.IFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "targetName": "System.IConvertible"
-        }
-      ],
-      "methods": [],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle::value__System.Int32",
-          "targetName": "value__",
-          "metadataToken": 67108939,
-          "normalizedSignature": "value__|System.Int32|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        },
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle::TypesWhenNeededSystem.Runtime.Serialization.Formatters.FormatterTypeStyle",
-          "targetName": "TypesWhenNeeded",
-          "metadataToken": 67108940,
-          "normalizedSignature": "TypesWhenNeeded|System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        },
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle::TypesAlwaysSystem.Runtime.Serialization.Formatters.FormatterTypeStyle",
-          "targetName": "TypesAlways",
-          "metadataToken": 67108941,
-          "normalizedSignature": "TypesAlways|System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        },
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle::XsdStringSystem.Runtime.Serialization.Formatters.FormatterTypeStyle",
-          "targetName": "XsdString",
-          "metadataToken": 67108942,
-          "normalizedSignature": "XsdString|System.Runtime.Serialization.Formatters.FormatterTypeStyle|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.FormatterTypeStyle",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.TypeFilterLevel",
-      "targetName": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
-      "ownerIdentity": "System.Runtime.Serialization.Formatters",
-      "metadataToken": 0,
-      "kind": "Enum",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": true,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Enum",
-        "targetName": "System.Enum"
+        "interfaces": [
+          {
+            "stableId": "System.Private.CoreLib:System.IComparable",
+            "targetName": "System.IComparable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.ISpanFormattable",
+            "targetName": "System.ISpanFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IFormattable",
+            "targetName": "System.IFormattable"
+          },
+          {
+            "stableId": "System.Private.CoreLib:System.IConvertible",
+            "targetName": "System.IConvertible"
+          }
+        ],
+        "methods": [],
+        "properties": [],
+        "fields": [
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.TypeFilterLevel::value__System.Int32",
+            "targetName": "value__",
+            "metadataToken": 67108946,
+            "normalizedSignature": "value__|System.Int32|static=false|const=false",
+            "isStatic": false,
+            "isReadOnly": false,
+            "isLiteral": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          },
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.TypeFilterLevel::LowSystem.Runtime.Serialization.Formatters.TypeFilterLevel",
+            "targetName": "Low",
+            "metadataToken": 67108947,
+            "normalizedSignature": "Low|System.Runtime.Serialization.Formatters.TypeFilterLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          },
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.TypeFilterLevel::FullSystem.Runtime.Serialization.Formatters.TypeFilterLevel",
+            "targetName": "Full",
+            "metadataToken": 67108948,
+            "normalizedSignature": "Full|System.Runtime.Serialization.Formatters.TypeFilterLevel|static=true|const=true",
+            "isStatic": true,
+            "isReadOnly": false,
+            "isLiteral": true,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          }
+        ],
+        "events": [],
+        "constructors": []
       },
-      "interfaces": [
-        {
-          "stableId": "System.Private.CoreLib:System.IComparable",
-          "targetName": "System.IComparable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.ISpanFormattable",
-          "targetName": "System.ISpanFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IFormattable",
-          "targetName": "System.IFormattable"
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.IConvertible",
-          "targetName": "System.IConvertible"
-        }
-      ],
-      "methods": [],
-      "properties": [],
-      "fields": [
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.TypeFilterLevel::value__System.Int32",
-          "targetName": "value__",
-          "metadataToken": 67108946,
-          "normalizedSignature": "value__|System.Int32|static=false|const=false",
-          "isStatic": false,
-          "isReadOnly": false,
-          "isLiteral": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        },
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.TypeFilterLevel::LowSystem.Runtime.Serialization.Formatters.TypeFilterLevel",
-          "targetName": "Low",
-          "metadataToken": 67108947,
-          "normalizedSignature": "Low|System.Runtime.Serialization.Formatters.TypeFilterLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        },
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.TypeFilterLevel::FullSystem.Runtime.Serialization.Formatters.TypeFilterLevel",
-          "targetName": "Full",
-          "metadataToken": 67108948,
-          "normalizedSignature": "Full|System.Runtime.Serialization.Formatters.TypeFilterLevel|static=true|const=true",
-          "isStatic": true,
-          "isReadOnly": false,
-          "isLiteral": true,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.TypeFilterLevel",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        }
-      ],
-      "events": [],
-      "constructors": []
-    },
-    {
-      "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.IFieldInfo",
-      "targetName": "System.Runtime.Serialization.Formatters.IFieldInfo",
-      "ownerIdentity": "System.Runtime.Serialization.Formatters",
-      "metadataToken": 0,
-      "kind": "Interface",
-      "accessibility": "Public",
-      "isAbstract": true,
-      "isSealed": false,
-      "isStatic": false,
-      "arity": 0,
-      "methods": [],
-      "properties": [
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.IFieldInfo::FieldNames:System.String[]",
-          "targetName": "FieldNames",
-          "metadataToken": 385876053,
-          "canonicalSignature": ":System.String[]",
-          "normalizedSignature": "FieldNames|:System.String[]|static=false|accessor=getset",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": true,
-          "isStatic": false,
-          "isAbstract": true,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.IFieldInfo",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        },
-        {
-          "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.IFieldInfo::FieldTypes:System.Type[]",
-          "targetName": "FieldTypes",
-          "metadataToken": 385876054,
-          "canonicalSignature": ":System.Type[]",
-          "normalizedSignature": "FieldTypes|:System.Type[]|static=false|accessor=getset",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "isIndexer": false,
-          "hasGetter": true,
-          "hasSetter": true,
-          "isStatic": false,
-          "isAbstract": true,
-          "isVirtual": true,
-          "isOverride": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Runtime.Serialization.Formatters.IFieldInfo",
-          "ownerIdentity": "System.Runtime.Serialization.Formatters"
-        }
-      ],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    }
-  ]
+      {
+        "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.IFieldInfo",
+        "targetName": "System.Runtime.Serialization.Formatters.IFieldInfo",
+        "ownerIdentity": "System.Runtime.Serialization.Formatters",
+        "metadataToken": 0,
+        "kind": "Interface",
+        "accessibility": "Public",
+        "isAbstract": true,
+        "isSealed": false,
+        "isStatic": false,
+        "arity": 0,
+        "methods": [],
+        "properties": [
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.IFieldInfo::FieldNames:System.String[]",
+            "targetName": "FieldNames",
+            "metadataToken": 385876053,
+            "canonicalSignature": ":System.String[]",
+            "normalizedSignature": "FieldNames|:System.String[]|static=false|accessor=getset",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": true,
+            "isStatic": false,
+            "isAbstract": true,
+            "isVirtual": true,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.IFieldInfo",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          },
+          {
+            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.IFieldInfo::FieldTypes:System.Type[]",
+            "targetName": "FieldTypes",
+            "metadataToken": 385876054,
+            "canonicalSignature": ":System.Type[]",
+            "normalizedSignature": "FieldTypes|:System.Type[]|static=false|accessor=getset",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "isIndexer": false,
+            "hasGetter": true,
+            "hasSetter": true,
+            "isStatic": false,
+            "isAbstract": true,
+            "isVirtual": true,
+            "isOverride": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Runtime.Serialization.Formatters.IFieldInfo",
+            "ownerIdentity": "System.Runtime.Serialization.Formatters"
+          }
+        ],
+        "fields": [],
+        "events": [],
+        "constructors": []
+      }
+    ]
+  }
 }
