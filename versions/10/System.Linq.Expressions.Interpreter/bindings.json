@@ -1,70 +1,75 @@
 {
-  "namespace": "System.Linq.Expressions.Interpreter",
-  "contributingAssemblies": [
-    "System.Linq.Expressions"
-  ],
-  "types": [
-    {
-      "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda",
-      "targetName": "System.Linq.Expressions.Interpreter.LightLambda",
-      "ownerIdentity": "System.Linq.Expressions",
-      "metadataToken": 0,
-      "kind": "Class",
-      "accessibility": "Public",
-      "isAbstract": false,
-      "isSealed": false,
-      "isStatic": false,
-      "arity": 0,
-      "baseType": {
-        "stableId": "System.Private.CoreLib:System.Object",
-        "targetName": "System.Object"
-      },
-      "methods": [
-        {
-          "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::Run(System.Object[]):System.Object",
-          "targetName": "Run",
-          "metadataToken": 100666475,
-          "canonicalSignature": "(System.Object[]):System.Object",
-          "normalizedSignature": "Run|(System.Object[]):System.Object|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Linq.Expressions.Interpreter.LightLambda",
-          "ownerIdentity": "System.Linq.Expressions",
-          "isExtensionMethod": false
+  "schema": "tsonic.bindings",
+  "provider": {
+    "namespace": "System.Linq.Expressions.Interpreter",
+    "ownerIdentities": [
+      "System.Linq.Expressions"
+    ]
+  },
+  "targetSurface": {
+    "types": [
+      {
+        "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda",
+        "targetName": "System.Linq.Expressions.Interpreter.LightLambda",
+        "ownerIdentity": "System.Linq.Expressions",
+        "metadataToken": 0,
+        "kind": "Class",
+        "accessibility": "Public",
+        "isAbstract": false,
+        "isSealed": false,
+        "isStatic": false,
+        "arity": 0,
+        "baseType": {
+          "stableId": "System.Private.CoreLib:System.Object",
+          "targetName": "System.Object"
         },
-        {
-          "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::RunVoid(System.Object[]):System.Object",
-          "targetName": "RunVoid",
-          "metadataToken": 100666476,
-          "canonicalSignature": "(System.Object[]):System.Object",
-          "normalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
-          "emitScope": "ClassSurface",
-          "provenance": "Original",
-          "arity": 0,
-          "parameterCount": 1,
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": false,
-          "isOverride": false,
-          "isSealed": false,
-          "visibility": "Public",
-          "ownerQualifiedName": "System.Linq.Expressions.Interpreter.LightLambda",
-          "ownerIdentity": "System.Linq.Expressions",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": []
-    }
-  ]
+        "methods": [
+          {
+            "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::Run(System.Object[]):System.Object",
+            "targetName": "Run",
+            "metadataToken": 100666475,
+            "canonicalSignature": "(System.Object[]):System.Object",
+            "normalizedSignature": "Run|(System.Object[]):System.Object|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 1,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Linq.Expressions.Interpreter.LightLambda",
+            "ownerIdentity": "System.Linq.Expressions",
+            "isExtensionMethod": false
+          },
+          {
+            "stableId": "System.Linq.Expressions:System.Linq.Expressions.Interpreter.LightLambda::RunVoid(System.Object[]):System.Object",
+            "targetName": "RunVoid",
+            "metadataToken": 100666476,
+            "canonicalSignature": "(System.Object[]):System.Object",
+            "normalizedSignature": "RunVoid|(System.Object[]):System.Object|static=false",
+            "emitScope": "ClassSurface",
+            "provenance": "Original",
+            "arity": 0,
+            "parameterCount": 1,
+            "isStatic": false,
+            "isAbstract": false,
+            "isVirtual": false,
+            "isOverride": false,
+            "isSealed": false,
+            "visibility": "Public",
+            "ownerQualifiedName": "System.Linq.Expressions.Interpreter.LightLambda",
+            "ownerIdentity": "System.Linq.Expressions",
+            "isExtensionMethod": false
+          }
+        ],
+        "properties": [],
+        "fields": [],
+        "events": [],
+        "constructors": []
+      }
+    ]
+  }
 }
