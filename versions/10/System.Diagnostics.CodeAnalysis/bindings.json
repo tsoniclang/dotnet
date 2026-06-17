@@ -47,7 +47,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::value__System.Int32",
             "targetName": "value__",
-            "metadataToken": 67117660,
+            "metadataToken": 67117661,
             "normalizedSignature": "value__|System.Int32|static=false|const=false",
             "isStatic": false,
             "isReadOnly": false,
@@ -59,7 +59,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NoneSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "None",
-            "metadataToken": 67117661,
+            "metadataToken": 67117662,
             "normalizedSignature": "None|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -71,7 +71,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicParameterlessConstructorSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "PublicParameterlessConstructor",
-            "metadataToken": 67117662,
+            "metadataToken": 67117663,
             "normalizedSignature": "PublicParameterlessConstructor|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -83,7 +83,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicConstructorsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "PublicConstructors",
-            "metadataToken": 67117663,
+            "metadataToken": 67117664,
             "normalizedSignature": "PublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -95,7 +95,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicConstructorsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicConstructors",
-            "metadataToken": 67117664,
+            "metadataToken": 67117665,
             "normalizedSignature": "NonPublicConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -107,7 +107,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicMethodsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "PublicMethods",
-            "metadataToken": 67117665,
+            "metadataToken": 67117666,
             "normalizedSignature": "PublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -119,7 +119,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicMethodsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicMethods",
-            "metadataToken": 67117666,
+            "metadataToken": 67117667,
             "normalizedSignature": "NonPublicMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -131,7 +131,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicFieldsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "PublicFields",
-            "metadataToken": 67117667,
+            "metadataToken": 67117668,
             "normalizedSignature": "PublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -143,7 +143,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicFieldsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicFields",
-            "metadataToken": 67117668,
+            "metadataToken": 67117669,
             "normalizedSignature": "NonPublicFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -155,7 +155,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicNestedTypesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "PublicNestedTypes",
-            "metadataToken": 67117669,
+            "metadataToken": 67117670,
             "normalizedSignature": "PublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -167,7 +167,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicNestedTypesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicNestedTypes",
-            "metadataToken": 67117670,
+            "metadataToken": 67117671,
             "normalizedSignature": "NonPublicNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -179,7 +179,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicPropertiesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "PublicProperties",
-            "metadataToken": 67117671,
+            "metadataToken": 67117672,
             "normalizedSignature": "PublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -191,7 +191,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicPropertiesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicProperties",
-            "metadataToken": 67117672,
+            "metadataToken": 67117673,
             "normalizedSignature": "NonPublicProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -203,7 +203,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicEventsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "PublicEvents",
-            "metadataToken": 67117673,
+            "metadataToken": 67117674,
             "normalizedSignature": "PublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -215,7 +215,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicEventsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicEvents",
-            "metadataToken": 67117674,
+            "metadataToken": 67117675,
             "normalizedSignature": "NonPublicEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -227,7 +227,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::InterfacesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "Interfaces",
-            "metadataToken": 67117675,
+            "metadataToken": 67117676,
             "normalizedSignature": "Interfaces|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -239,7 +239,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicConstructorsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicConstructorsWithInherited",
-            "metadataToken": 67117676,
+            "metadataToken": 67117677,
             "normalizedSignature": "NonPublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -251,7 +251,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicMethodsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicMethodsWithInherited",
-            "metadataToken": 67117677,
+            "metadataToken": 67117678,
             "normalizedSignature": "NonPublicMethodsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -263,7 +263,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicFieldsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicFieldsWithInherited",
-            "metadataToken": 67117678,
+            "metadataToken": 67117679,
             "normalizedSignature": "NonPublicFieldsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -275,7 +275,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicNestedTypesWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicNestedTypesWithInherited",
-            "metadataToken": 67117679,
+            "metadataToken": 67117680,
             "normalizedSignature": "NonPublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -287,7 +287,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicPropertiesWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicPropertiesWithInherited",
-            "metadataToken": 67117680,
+            "metadataToken": 67117681,
             "normalizedSignature": "NonPublicPropertiesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -299,7 +299,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::NonPublicEventsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "NonPublicEventsWithInherited",
-            "metadataToken": 67117681,
+            "metadataToken": 67117682,
             "normalizedSignature": "NonPublicEventsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -311,7 +311,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicConstructorsWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "PublicConstructorsWithInherited",
-            "metadataToken": 67117682,
+            "metadataToken": 67117683,
             "normalizedSignature": "PublicConstructorsWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -323,7 +323,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::PublicNestedTypesWithInheritedSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "PublicNestedTypesWithInherited",
-            "metadataToken": 67117683,
+            "metadataToken": 67117684,
             "normalizedSignature": "PublicNestedTypesWithInherited|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -335,7 +335,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllConstructorsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "AllConstructors",
-            "metadataToken": 67117684,
+            "metadataToken": 67117685,
             "normalizedSignature": "AllConstructors|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -347,7 +347,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllMethodsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "AllMethods",
-            "metadataToken": 67117685,
+            "metadataToken": 67117686,
             "normalizedSignature": "AllMethods|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -359,7 +359,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllFieldsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "AllFields",
-            "metadataToken": 67117686,
+            "metadataToken": 67117687,
             "normalizedSignature": "AllFields|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -371,7 +371,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllNestedTypesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "AllNestedTypes",
-            "metadataToken": 67117687,
+            "metadataToken": 67117688,
             "normalizedSignature": "AllNestedTypes|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -383,7 +383,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllPropertiesSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "AllProperties",
-            "metadataToken": 67117688,
+            "metadataToken": 67117689,
             "normalizedSignature": "AllProperties|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -395,7 +395,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllEventsSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "AllEvents",
-            "metadataToken": 67117689,
+            "metadataToken": 67117690,
             "normalizedSignature": "AllEvents|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -407,7 +407,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes::AllSystem.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
             "targetName": "All",
-            "metadataToken": 67117690,
+            "metadataToken": 67117691,
             "normalizedSignature": "All|System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -442,7 +442,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.AllowNullAttribute::.ctor():void",
-            "metadataToken": 100703237,
+            "metadataToken": 100703239,
             "canonicalSignature": "():void",
             "normalizedSignature": "constructor|():void|static=false",
             "isStatic": false,
@@ -514,7 +514,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute::.ctor():void",
-            "metadataToken": 100703209,
+            "metadataToken": 100703211,
             "canonicalSignature": "():void",
             "normalizedSignature": "constructor|():void|static=false",
             "isStatic": false,
@@ -547,7 +547,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DisallowNullAttribute::.ctor():void",
-            "metadataToken": 100703238,
+            "metadataToken": 100703240,
             "canonicalSignature": "():void",
             "normalizedSignature": "constructor|():void|static=false",
             "isStatic": false,
@@ -580,7 +580,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute::.ctor():void",
-            "metadataToken": 100703247,
+            "metadataToken": 100703249,
             "canonicalSignature": "():void",
             "normalizedSignature": "constructor|():void|static=false",
             "isStatic": false,
@@ -633,7 +633,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute::.ctor(System.Boolean):void",
-            "metadataToken": 100703248,
+            "metadataToken": 100703250,
             "canonicalSignature": "(System.Boolean):void",
             "normalizedSignature": "constructor|(System.Boolean):void|static=false",
             "isStatic": false,
@@ -686,7 +686,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute::.ctor(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes):void",
-            "metadataToken": 100703210,
+            "metadataToken": 100703212,
             "canonicalSignature": "(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes):void",
             "normalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes):void|static=false",
             "isStatic": false,
@@ -834,7 +834,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::.ctor(System.String):void",
-            "metadataToken": 100703212,
+            "metadataToken": 100703214,
             "canonicalSignature": "(System.String):void",
             "normalizedSignature": "constructor|(System.String):void|static=false",
             "isStatic": false,
@@ -845,7 +845,7 @@
           },
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::.ctor(System.String,System.Type):void",
-            "metadataToken": 100703213,
+            "metadataToken": 100703215,
             "canonicalSignature": "(System.String,System.Type):void",
             "normalizedSignature": "constructor|(System.String,System.Type):void|static=false",
             "isStatic": false,
@@ -856,7 +856,7 @@
           },
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::.ctor(System.String,System.String,System.String):void",
-            "metadataToken": 100703214,
+            "metadataToken": 100703216,
             "canonicalSignature": "(System.String,System.String,System.String):void",
             "normalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
             "isStatic": false,
@@ -867,7 +867,7 @@
           },
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::.ctor(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.Type):void",
-            "metadataToken": 100703215,
+            "metadataToken": 100703217,
             "canonicalSignature": "(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.Type):void",
             "normalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.Type):void|static=false",
             "isStatic": false,
@@ -878,7 +878,7 @@
           },
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute::.ctor(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.String,System.String):void",
-            "metadataToken": 100703216,
+            "metadataToken": 100703218,
             "canonicalSignature": "(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.String,System.String):void",
             "normalizedSignature": "constructor|(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes,System.String,System.String):void|static=false",
             "isStatic": false,
@@ -931,7 +931,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute::.ctor():void",
-            "metadataToken": 100703224,
+            "metadataToken": 100703226,
             "canonicalSignature": "():void",
             "normalizedSignature": "constructor|():void|static=false",
             "isStatic": false,
@@ -1022,7 +1022,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.ExperimentalAttribute::.ctor(System.String):void",
-            "metadataToken": 100703227,
+            "metadataToken": 100703229,
             "canonicalSignature": "(System.String):void",
             "normalizedSignature": "constructor|(System.String):void|static=false",
             "isStatic": false,
@@ -1075,7 +1075,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.FeatureGuardAttribute::.ctor(System.Type):void",
-            "metadataToken": 100703233,
+            "metadataToken": 100703235,
             "canonicalSignature": "(System.Type):void",
             "normalizedSignature": "constructor|(System.Type):void|static=false",
             "isStatic": false,
@@ -1128,7 +1128,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute::.ctor(System.String):void",
-            "metadataToken": 100703235,
+            "metadataToken": 100703237,
             "canonicalSignature": "(System.String):void",
             "normalizedSignature": "constructor|(System.String):void|static=false",
             "isStatic": false,
@@ -1161,7 +1161,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MaybeNullAttribute::.ctor():void",
-            "metadataToken": 100703239,
+            "metadataToken": 100703241,
             "canonicalSignature": "():void",
             "normalizedSignature": "constructor|():void|static=false",
             "isStatic": false,
@@ -1214,7 +1214,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute::.ctor(System.Boolean):void",
-            "metadataToken": 100703241,
+            "metadataToken": 100703243,
             "canonicalSignature": "(System.Boolean):void",
             "normalizedSignature": "constructor|(System.Boolean):void|static=false",
             "isStatic": false,
@@ -1267,7 +1267,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute::.ctor(System.String):void",
-            "metadataToken": 100703250,
+            "metadataToken": 100703252,
             "canonicalSignature": "(System.String):void",
             "normalizedSignature": "constructor|(System.String):void|static=false",
             "isStatic": false,
@@ -1278,7 +1278,7 @@
           },
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute::.ctor(System.String[]):void",
-            "metadataToken": 100703251,
+            "metadataToken": 100703253,
             "canonicalSignature": "(System.String[]):void",
             "normalizedSignature": "constructor|(System.String[]):void|static=false",
             "isStatic": false,
@@ -1350,7 +1350,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute::.ctor(System.Boolean,System.String):void",
-            "metadataToken": 100703253,
+            "metadataToken": 100703255,
             "canonicalSignature": "(System.Boolean,System.String):void",
             "normalizedSignature": "constructor|(System.Boolean,System.String):void|static=false",
             "isStatic": false,
@@ -1361,7 +1361,7 @@
           },
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute::.ctor(System.Boolean,System.String[]):void",
-            "metadataToken": 100703254,
+            "metadataToken": 100703256,
             "canonicalSignature": "(System.Boolean,System.String[]):void",
             "normalizedSignature": "constructor|(System.Boolean,System.String[]):void|static=false",
             "isStatic": false,
@@ -1394,7 +1394,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.NotNullAttribute::.ctor():void",
-            "metadataToken": 100703240,
+            "metadataToken": 100703242,
             "canonicalSignature": "():void",
             "normalizedSignature": "constructor|():void|static=false",
             "isStatic": false,
@@ -1447,7 +1447,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute::.ctor(System.String):void",
-            "metadataToken": 100703245,
+            "metadataToken": 100703247,
             "canonicalSignature": "(System.String):void",
             "normalizedSignature": "constructor|(System.String):void|static=false",
             "isStatic": false,
@@ -1500,7 +1500,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute::.ctor(System.Boolean):void",
-            "metadataToken": 100703243,
+            "metadataToken": 100703245,
             "canonicalSignature": "(System.Boolean):void",
             "normalizedSignature": "constructor|(System.Boolean):void|static=false",
             "isStatic": false,
@@ -1572,7 +1572,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute::.ctor():void",
-            "metadataToken": 100703258,
+            "metadataToken": 100703260,
             "canonicalSignature": "():void",
             "normalizedSignature": "constructor|():void|static=false",
             "isStatic": false,
@@ -1583,7 +1583,7 @@
           },
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute::.ctor(System.String):void",
-            "metadataToken": 100703259,
+            "metadataToken": 100703261,
             "canonicalSignature": "(System.String):void",
             "normalizedSignature": "constructor|(System.String):void|static=false",
             "isStatic": false,
@@ -1674,7 +1674,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute::.ctor(System.String):void",
-            "metadataToken": 100703263,
+            "metadataToken": 100703265,
             "canonicalSignature": "(System.String):void",
             "normalizedSignature": "constructor|(System.String):void|static=false",
             "isStatic": false,
@@ -1765,7 +1765,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute::.ctor(System.String):void",
-            "metadataToken": 100703269,
+            "metadataToken": 100703271,
             "canonicalSignature": "(System.String):void",
             "normalizedSignature": "constructor|(System.String):void|static=false",
             "isStatic": false,
@@ -1798,7 +1798,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute::.ctor():void",
-            "metadataToken": 100703275,
+            "metadataToken": 100703277,
             "canonicalSignature": "():void",
             "normalizedSignature": "constructor|():void|static=false",
             "isStatic": false,
@@ -1869,7 +1869,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::CompositeFormatSystem.String",
             "targetName": "CompositeFormat",
-            "metadataToken": 67117721,
+            "metadataToken": 67117722,
             "normalizedSignature": "CompositeFormat|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -1881,7 +1881,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::DateOnlyFormatSystem.String",
             "targetName": "DateOnlyFormat",
-            "metadataToken": 67117722,
+            "metadataToken": 67117723,
             "normalizedSignature": "DateOnlyFormat|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -1893,7 +1893,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::DateTimeFormatSystem.String",
             "targetName": "DateTimeFormat",
-            "metadataToken": 67117723,
+            "metadataToken": 67117724,
             "normalizedSignature": "DateTimeFormat|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -1905,7 +1905,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::EnumFormatSystem.String",
             "targetName": "EnumFormat",
-            "metadataToken": 67117724,
+            "metadataToken": 67117725,
             "normalizedSignature": "EnumFormat|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -1917,7 +1917,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::GuidFormatSystem.String",
             "targetName": "GuidFormat",
-            "metadataToken": 67117725,
+            "metadataToken": 67117726,
             "normalizedSignature": "GuidFormat|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -1929,7 +1929,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::JsonSystem.String",
             "targetName": "Json",
-            "metadataToken": 67117726,
+            "metadataToken": 67117727,
             "normalizedSignature": "Json|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -1941,7 +1941,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::NumericFormatSystem.String",
             "targetName": "NumericFormat",
-            "metadataToken": 67117727,
+            "metadataToken": 67117728,
             "normalizedSignature": "NumericFormat|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -1953,7 +1953,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::RegexSystem.String",
             "targetName": "Regex",
-            "metadataToken": 67117728,
+            "metadataToken": 67117729,
             "normalizedSignature": "Regex|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -1965,7 +1965,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::TimeOnlyFormatSystem.String",
             "targetName": "TimeOnlyFormat",
-            "metadataToken": 67117729,
+            "metadataToken": 67117730,
             "normalizedSignature": "TimeOnlyFormat|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -1977,7 +1977,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::TimeSpanFormatSystem.String",
             "targetName": "TimeSpanFormat",
-            "metadataToken": 67117730,
+            "metadataToken": 67117731,
             "normalizedSignature": "TimeSpanFormat|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -1989,7 +1989,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::UriSystem.String",
             "targetName": "Uri",
-            "metadataToken": 67117731,
+            "metadataToken": 67117732,
             "normalizedSignature": "Uri|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -2001,7 +2001,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::XmlSystem.String",
             "targetName": "Xml",
-            "metadataToken": 67117732,
+            "metadataToken": 67117733,
             "normalizedSignature": "Xml|System.String|static=true|const=true",
             "isStatic": true,
             "isReadOnly": false,
@@ -2015,7 +2015,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::.ctor(System.String):void",
-            "metadataToken": 100703276,
+            "metadataToken": 100703278,
             "canonicalSignature": "(System.String):void",
             "normalizedSignature": "constructor|(System.String):void|static=false",
             "isStatic": false,
@@ -2026,7 +2026,7 @@
           },
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.StringSyntaxAttribute::.ctor(System.String,System.Object[]):void",
-            "metadataToken": 100703277,
+            "metadataToken": 100703279,
             "canonicalSignature": "(System.String,System.Object[]):void",
             "normalizedSignature": "constructor|(System.String,System.Object[]):void|static=false",
             "isStatic": false,
@@ -2174,7 +2174,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute::.ctor(System.String,System.String):void",
-            "metadataToken": 100703280,
+            "metadataToken": 100703282,
             "canonicalSignature": "(System.String,System.String):void",
             "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
             "isStatic": false,
@@ -2322,7 +2322,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute::.ctor(System.String,System.String):void",
-            "metadataToken": 100703291,
+            "metadataToken": 100703293,
             "canonicalSignature": "(System.String,System.String):void",
             "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
             "isStatic": false,
@@ -2355,7 +2355,7 @@
         "constructors": [
           {
             "stableId": "System.Private.CoreLib:System.Diagnostics.CodeAnalysis.UnscopedRefAttribute::.ctor():void",
-            "metadataToken": 100703257,
+            "metadataToken": 100703259,
             "canonicalSignature": "():void",
             "normalizedSignature": "constructor|():void|static=false",
             "isStatic": false,

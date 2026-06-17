@@ -6713,7 +6713,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::MoveNext():System.Boolean",
             "targetName": "MoveNext",
-            "metadataToken": 100703851,
+            "metadataToken": 100703853,
             "canonicalSignature": "():System.Boolean",
             "normalizedSignature": "MoveNext|():System.Boolean|static=false",
             "emitScope": "ViewOnly",
@@ -6734,7 +6734,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.IEnumerator::Reset():System.Void",
             "targetName": "Reset",
-            "metadataToken": 100703853,
+            "metadataToken": 100703855,
             "canonicalSignature": "():System.Void",
             "normalizedSignature": "Reset|():System.Void|static=false",
             "emitScope": "ViewOnly",

@@ -5027,7 +5027,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.Generic.IComparer`1::Compare(T,T):System.Int32",
             "targetName": "Compare",
-            "metadataToken": 100704550,
+            "metadataToken": 100704552,
             "canonicalSignature": "(T,T):System.Int32",
             "normalizedSignature": "Compare|(T,T):System.Int32|static=false",
             "emitScope": "ViewOnly",
@@ -5048,7 +5048,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.IComparer::Compare(System.Object,System.Object):System.Int32",
             "targetName": "Compare",
-            "metadataToken": 100703835,
+            "metadataToken": 100703837,
             "canonicalSignature": "(System.Object,System.Object):System.Int32",
             "normalizedSignature": "Compare|(System.Object,System.Object):System.Int32|static=false",
             "emitScope": "ViewOnly",
@@ -5156,7 +5156,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.Generic.IEqualityComparer`1::Equals(T,T):System.Boolean",
             "targetName": "Equals",
-            "metadataToken": 100704567,
+            "metadataToken": 100704569,
             "canonicalSignature": "(T,T):System.Boolean",
             "normalizedSignature": "Equals|(T,T):System.Boolean|static=false",
             "emitScope": "ViewOnly",
@@ -5177,7 +5177,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.Generic.IEqualityComparer`1::GetHashCode(T):System.Int32",
             "targetName": "GetHashCode",
-            "metadataToken": 100704568,
+            "metadataToken": 100704570,
             "canonicalSignature": "(T):System.Int32",
             "normalizedSignature": "GetHashCode|(T):System.Int32|static=false",
             "emitScope": "ViewOnly",
@@ -5198,7 +5198,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.IEqualityComparer::Equals(System.Object,System.Object):System.Boolean",
             "targetName": "Equals",
-            "metadataToken": 100703854,
+            "metadataToken": 100703856,
             "canonicalSignature": "(System.Object,System.Object):System.Boolean",
             "normalizedSignature": "Equals|(System.Object,System.Object):System.Boolean|static=false",
             "emitScope": "ViewOnly",
@@ -5219,7 +5219,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.IEqualityComparer::GetHashCode(System.Object):System.Int32",
             "targetName": "GetHashCode",
-            "metadataToken": 100703855,
+            "metadataToken": 100703857,
             "canonicalSignature": "(System.Object):System.Int32",
             "normalizedSignature": "GetHashCode|(System.Object):System.Int32|static=false",
             "emitScope": "ViewOnly",

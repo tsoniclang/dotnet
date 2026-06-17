@@ -99,7 +99,7 @@ This repo is versioned by .NET major:
 
 ## Development
 
-Regenerate the .NET 10 package from a sibling `tsbindgen` checkout:
+Regenerate the .NET 10 package from a sibling `dotnet-bindgen` checkout:
 
 ```bash
 npm install
@@ -109,7 +109,7 @@ npm run generate:10
 The generation script requires:
 
 - .NET 10 SDK/runtime
-- `../tsbindgen`
+- `../dotnet-bindgen`
 - a `Microsoft.NETCore.App` runtime directory selected by `DOTNET_HOME` and
   `DOTNET_VERSION`
 
