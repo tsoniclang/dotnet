@@ -2,11 +2,11 @@
 # Generate TypeScript declarations for .NET BCL
 #
 # This script regenerates all TypeScript type declarations from .NET assemblies
-# using tsbindgen.
+# using dotnet-bindgen.
 #
 # Prerequisites:
 #   - .NET 10 SDK installed
-#   - tsbindgen repository cloned at ../tsbindgen (sibling directory)
+#   - dotnet-bindgen repository cloned at ../dotnet-bindgen (sibling directory)
 #
 # Usage:
 #   ./__build/scripts/generate.sh [dotnetMajor]
@@ -15,12 +15,12 @@ set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_DIR="$(cd "$SCRIPT_DIR/../.." && pwd)"
-TSBINDGEN_DIR="$PROJECT_DIR/../tsbindgen"
+DOTNET_BINDGEN_DIR="$PROJECT_DIR/../dotnet-bindgen"
 
 # .NET major to generate (publishes to versions/<major>/)
 DOTNET_MAJOR="${1:-10}"
 OUT_DIR="$PROJECT_DIR/versions/$DOTNET_MAJOR"
-SEMANTICS_FILE="$PROJECT_DIR/__build/templates/$DOTNET_MAJOR/tsbindgen.bindings-semantics.json"
+SEMANTICS_FILE="$PROJECT_DIR/__build/templates/$DOTNET_MAJOR/dotnet-bindgen.bindings-semantics.json"
 
 # .NET runtime path
 DOTNET_VERSION="${DOTNET_VERSION:-10.0.1}"
@@ -33,7 +33,7 @@ echo "================================================================"
 echo ""
 echo "Configuration:"
 echo "  .NET Runtime: $DOTNET_RUNTIME_PATH"
-echo "  tsbindgen:    $TSBINDGEN_DIR"
+echo "  dotnet-bindgen:    $DOTNET_BINDGEN_DIR"
 echo "  Output:       $OUT_DIR"
 echo ""
 
@@ -44,9 +44,9 @@ if [ ! -d "$DOTNET_RUNTIME_PATH" ]; then
     exit 1
 fi
 
-if [ ! -d "$TSBINDGEN_DIR" ]; then
-    echo "ERROR: tsbindgen not found at $TSBINDGEN_DIR"
-    echo "Clone it: git clone https://github.com/tsoniclang/tsbindgen ../tsbindgen"
+if [ ! -d "$DOTNET_BINDGEN_DIR" ]; then
+    echo "ERROR: dotnet-bindgen not found at $DOTNET_BINDGEN_DIR"
+    echo "Clone it: git clone https://github.com/tsoniclang/dotnet-bindgen ../dotnet-bindgen"
     exit 1
 fi
 
@@ -71,15 +71,15 @@ rm -rf __internal Internal internal 2>/dev/null || true
 
 echo "  Done"
 
-# Build tsbindgen
-echo "[2/3] Building tsbindgen..."
-cd "$TSBINDGEN_DIR"
-dotnet build src/tsbindgen/tsbindgen.csproj -c Release --verbosity quiet
+# Build dotnet-bindgen
+echo "[2/3] Building dotnet-bindgen..."
+cd "$DOTNET_BINDGEN_DIR"
+dotnet build src/DotnetBindgen/DotnetBindgen.csproj -c Release --verbosity quiet
 echo "  Done"
 
 # Generate types with CLR-faithful naming (no casing transforms).
 echo "[3/3] Generating TypeScript declarations..."
-dotnet run --project src/tsbindgen/tsbindgen.csproj --no-build -c Release -- \
+dotnet run --project src/DotnetBindgen/DotnetBindgen.csproj --no-build -c Release -- \
     generate -d "$DOTNET_RUNTIME_PATH" -o "$OUT_DIR" \
     --bindings-semantics "$SEMANTICS_FILE"
 
