@@ -20,160 +20,172 @@ import * as System_Security_Claims_Internal from "../../System.Security.Claims/i
 import type { Claim, ClaimsIdentity, ClaimsPrincipal } from "../../System.Security.Claims/internal/index.js";
 import type { Task, Task_1 } from "../../System.Threading.Tasks/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Action, Boolean as ClrBoolean, Byte, Enum, Exception, Func_1, IComparable, IComparable_1, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, SystemException, Type, TypeCode, Void } from "../../System/internal/index.js";
+import type { Action, Boolean as ClrBoolean, Byte, Char, Decimal, Enum, Exception, Func_1, IComparable, IComparable_1, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, SystemException, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum PrincipalPolicy {
-    UnauthenticatedPrincipal = 0,
-    NoPrincipal = 1,
-    WindowsPrincipal = 2
-}
+export type PrincipalPolicy = number & { readonly __tsonic_type_System_Security_Principal_PrincipalPolicy: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum TokenAccessLevels {
-    AssignPrimary = 1,
-    Duplicate = 2,
-    Impersonate = 4,
-    Query = 8,
-    QuerySource = 16,
-    AdjustPrivileges = 32,
-    AdjustGroups = 64,
-    AdjustDefault = 128,
-    AdjustSessionId = 256,
-    Read = 131080,
-    Write = 131296,
-    AllAccess = 983551,
-    MaximumAllowed = 33554432
-}
+export const PrincipalPolicy: {
+    readonly UnauthenticatedPrincipal: PrincipalPolicy;
+    readonly NoPrincipal: PrincipalPolicy;
+    readonly WindowsPrincipal: PrincipalPolicy;
+};
 
 
-export enum TokenImpersonationLevel {
-    None = 0,
-    Anonymous = 1,
-    Identification = 2,
-    Impersonation = 3,
-    Delegation = 4
-}
+export type TokenAccessLevels = number & { readonly __tsonic_type_System_Security_Principal_TokenAccessLevels: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TokenAccessLevels: {
+    readonly AssignPrimary: TokenAccessLevels;
+    readonly Duplicate: TokenAccessLevels;
+    readonly Impersonate: TokenAccessLevels;
+    readonly Query: TokenAccessLevels;
+    readonly QuerySource: TokenAccessLevels;
+    readonly AdjustPrivileges: TokenAccessLevels;
+    readonly AdjustGroups: TokenAccessLevels;
+    readonly AdjustDefault: TokenAccessLevels;
+    readonly AdjustSessionId: TokenAccessLevels;
+    readonly Read: TokenAccessLevels;
+    readonly Write: TokenAccessLevels;
+    readonly AllAccess: TokenAccessLevels;
+    readonly MaximumAllowed: TokenAccessLevels;
+};
 
 
-export enum WellKnownSidType {
-    NullSid = 0,
-    WorldSid = 1,
-    LocalSid = 2,
-    CreatorOwnerSid = 3,
-    CreatorGroupSid = 4,
-    CreatorOwnerServerSid = 5,
-    CreatorGroupServerSid = 6,
-    NTAuthoritySid = 7,
-    DialupSid = 8,
-    NetworkSid = 9,
-    BatchSid = 10,
-    InteractiveSid = 11,
-    ServiceSid = 12,
-    AnonymousSid = 13,
-    ProxySid = 14,
-    EnterpriseControllersSid = 15,
-    SelfSid = 16,
-    AuthenticatedUserSid = 17,
-    RestrictedCodeSid = 18,
-    TerminalServerSid = 19,
-    RemoteLogonIdSid = 20,
-    LogonIdsSid = 21,
-    LocalSystemSid = 22,
-    LocalServiceSid = 23,
-    NetworkServiceSid = 24,
-    BuiltinDomainSid = 25,
-    BuiltinAdministratorsSid = 26,
-    BuiltinUsersSid = 27,
-    BuiltinGuestsSid = 28,
-    BuiltinPowerUsersSid = 29,
-    BuiltinAccountOperatorsSid = 30,
-    BuiltinSystemOperatorsSid = 31,
-    BuiltinPrintOperatorsSid = 32,
-    BuiltinBackupOperatorsSid = 33,
-    BuiltinReplicatorSid = 34,
-    BuiltinPreWindows2000CompatibleAccessSid = 35,
-    BuiltinRemoteDesktopUsersSid = 36,
-    BuiltinNetworkConfigurationOperatorsSid = 37,
-    AccountAdministratorSid = 38,
-    AccountGuestSid = 39,
-    AccountKrbtgtSid = 40,
-    AccountDomainAdminsSid = 41,
-    AccountDomainUsersSid = 42,
-    AccountDomainGuestsSid = 43,
-    AccountComputersSid = 44,
-    AccountControllersSid = 45,
-    AccountCertAdminsSid = 46,
-    AccountSchemaAdminsSid = 47,
-    AccountEnterpriseAdminsSid = 48,
-    AccountPolicyAdminsSid = 49,
-    AccountRasAndIasServersSid = 50,
-    NtlmAuthenticationSid = 51,
-    DigestAuthenticationSid = 52,
-    SChannelAuthenticationSid = 53,
-    ThisOrganizationSid = 54,
-    OtherOrganizationSid = 55,
-    BuiltinIncomingForestTrustBuildersSid = 56,
-    BuiltinPerformanceMonitoringUsersSid = 57,
-    BuiltinPerformanceLoggingUsersSid = 58,
-    BuiltinAuthorizationAccessSid = 59,
-    MaxDefined = 60,
-    WinBuiltinTerminalServerLicenseServersSid = 60,
-    WinBuiltinDCOMUsersSid = 61,
-    WinBuiltinIUsersSid = 62,
-    WinIUserSid = 63,
-    WinBuiltinCryptoOperatorsSid = 64,
-    WinUntrustedLabelSid = 65,
-    WinLowLabelSid = 66,
-    WinMediumLabelSid = 67,
-    WinHighLabelSid = 68,
-    WinSystemLabelSid = 69,
-    WinWriteRestrictedCodeSid = 70,
-    WinCreatorOwnerRightsSid = 71,
-    WinCacheablePrincipalsGroupSid = 72,
-    WinNonCacheablePrincipalsGroupSid = 73,
-    WinEnterpriseReadonlyControllersSid = 74,
-    WinAccountReadonlyControllersSid = 75,
-    WinBuiltinEventLogReadersGroup = 76,
-    WinNewEnterpriseReadonlyControllersSid = 77,
-    WinBuiltinCertSvcDComAccessGroup = 78,
-    WinMediumPlusLabelSid = 79,
-    WinLocalLogonSid = 80,
-    WinConsoleLogonSid = 81,
-    WinThisOrganizationCertificateSid = 82,
-    WinApplicationPackageAuthoritySid = 83,
-    WinBuiltinAnyPackageSid = 84,
-    WinCapabilityInternetClientSid = 85,
-    WinCapabilityInternetClientServerSid = 86,
-    WinCapabilityPrivateNetworkClientServerSid = 87,
-    WinCapabilityPicturesLibrarySid = 88,
-    WinCapabilityVideosLibrarySid = 89,
-    WinCapabilityMusicLibrarySid = 90,
-    WinCapabilityDocumentsLibrarySid = 91,
-    WinCapabilitySharedUserCertificatesSid = 92,
-    WinCapabilityEnterpriseAuthenticationSid = 93,
-    WinCapabilityRemovableStorageSid = 94
-}
+export type TokenImpersonationLevel = number & { readonly __tsonic_type_System_Security_Principal_TokenImpersonationLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TokenImpersonationLevel: {
+    readonly None: TokenImpersonationLevel;
+    readonly Anonymous: TokenImpersonationLevel;
+    readonly Identification: TokenImpersonationLevel;
+    readonly Impersonation: TokenImpersonationLevel;
+    readonly Delegation: TokenImpersonationLevel;
+};
 
 
-export enum WindowsAccountType {
-    Normal = 0,
-    Guest = 1,
-    System = 2,
-    Anonymous = 3
-}
+export type WellKnownSidType = number & { readonly __tsonic_type_System_Security_Principal_WellKnownSidType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const WellKnownSidType: {
+    readonly NullSid: WellKnownSidType;
+    readonly WorldSid: WellKnownSidType;
+    readonly LocalSid: WellKnownSidType;
+    readonly CreatorOwnerSid: WellKnownSidType;
+    readonly CreatorGroupSid: WellKnownSidType;
+    readonly CreatorOwnerServerSid: WellKnownSidType;
+    readonly CreatorGroupServerSid: WellKnownSidType;
+    readonly NTAuthoritySid: WellKnownSidType;
+    readonly DialupSid: WellKnownSidType;
+    readonly NetworkSid: WellKnownSidType;
+    readonly BatchSid: WellKnownSidType;
+    readonly InteractiveSid: WellKnownSidType;
+    readonly ServiceSid: WellKnownSidType;
+    readonly AnonymousSid: WellKnownSidType;
+    readonly ProxySid: WellKnownSidType;
+    readonly EnterpriseControllersSid: WellKnownSidType;
+    readonly SelfSid: WellKnownSidType;
+    readonly AuthenticatedUserSid: WellKnownSidType;
+    readonly RestrictedCodeSid: WellKnownSidType;
+    readonly TerminalServerSid: WellKnownSidType;
+    readonly RemoteLogonIdSid: WellKnownSidType;
+    readonly LogonIdsSid: WellKnownSidType;
+    readonly LocalSystemSid: WellKnownSidType;
+    readonly LocalServiceSid: WellKnownSidType;
+    readonly NetworkServiceSid: WellKnownSidType;
+    readonly BuiltinDomainSid: WellKnownSidType;
+    readonly BuiltinAdministratorsSid: WellKnownSidType;
+    readonly BuiltinUsersSid: WellKnownSidType;
+    readonly BuiltinGuestsSid: WellKnownSidType;
+    readonly BuiltinPowerUsersSid: WellKnownSidType;
+    readonly BuiltinAccountOperatorsSid: WellKnownSidType;
+    readonly BuiltinSystemOperatorsSid: WellKnownSidType;
+    readonly BuiltinPrintOperatorsSid: WellKnownSidType;
+    readonly BuiltinBackupOperatorsSid: WellKnownSidType;
+    readonly BuiltinReplicatorSid: WellKnownSidType;
+    readonly BuiltinPreWindows2000CompatibleAccessSid: WellKnownSidType;
+    readonly BuiltinRemoteDesktopUsersSid: WellKnownSidType;
+    readonly BuiltinNetworkConfigurationOperatorsSid: WellKnownSidType;
+    readonly AccountAdministratorSid: WellKnownSidType;
+    readonly AccountGuestSid: WellKnownSidType;
+    readonly AccountKrbtgtSid: WellKnownSidType;
+    readonly AccountDomainAdminsSid: WellKnownSidType;
+    readonly AccountDomainUsersSid: WellKnownSidType;
+    readonly AccountDomainGuestsSid: WellKnownSidType;
+    readonly AccountComputersSid: WellKnownSidType;
+    readonly AccountControllersSid: WellKnownSidType;
+    readonly AccountCertAdminsSid: WellKnownSidType;
+    readonly AccountSchemaAdminsSid: WellKnownSidType;
+    readonly AccountEnterpriseAdminsSid: WellKnownSidType;
+    readonly AccountPolicyAdminsSid: WellKnownSidType;
+    readonly AccountRasAndIasServersSid: WellKnownSidType;
+    readonly NtlmAuthenticationSid: WellKnownSidType;
+    readonly DigestAuthenticationSid: WellKnownSidType;
+    readonly SChannelAuthenticationSid: WellKnownSidType;
+    readonly ThisOrganizationSid: WellKnownSidType;
+    readonly OtherOrganizationSid: WellKnownSidType;
+    readonly BuiltinIncomingForestTrustBuildersSid: WellKnownSidType;
+    readonly BuiltinPerformanceMonitoringUsersSid: WellKnownSidType;
+    readonly BuiltinPerformanceLoggingUsersSid: WellKnownSidType;
+    readonly BuiltinAuthorizationAccessSid: WellKnownSidType;
+    readonly MaxDefined: WellKnownSidType;
+    readonly WinBuiltinTerminalServerLicenseServersSid: WellKnownSidType;
+    readonly WinBuiltinDCOMUsersSid: WellKnownSidType;
+    readonly WinBuiltinIUsersSid: WellKnownSidType;
+    readonly WinIUserSid: WellKnownSidType;
+    readonly WinBuiltinCryptoOperatorsSid: WellKnownSidType;
+    readonly WinUntrustedLabelSid: WellKnownSidType;
+    readonly WinLowLabelSid: WellKnownSidType;
+    readonly WinMediumLabelSid: WellKnownSidType;
+    readonly WinHighLabelSid: WellKnownSidType;
+    readonly WinSystemLabelSid: WellKnownSidType;
+    readonly WinWriteRestrictedCodeSid: WellKnownSidType;
+    readonly WinCreatorOwnerRightsSid: WellKnownSidType;
+    readonly WinCacheablePrincipalsGroupSid: WellKnownSidType;
+    readonly WinNonCacheablePrincipalsGroupSid: WellKnownSidType;
+    readonly WinEnterpriseReadonlyControllersSid: WellKnownSidType;
+    readonly WinAccountReadonlyControllersSid: WellKnownSidType;
+    readonly WinBuiltinEventLogReadersGroup: WellKnownSidType;
+    readonly WinNewEnterpriseReadonlyControllersSid: WellKnownSidType;
+    readonly WinBuiltinCertSvcDComAccessGroup: WellKnownSidType;
+    readonly WinMediumPlusLabelSid: WellKnownSidType;
+    readonly WinLocalLogonSid: WellKnownSidType;
+    readonly WinConsoleLogonSid: WellKnownSidType;
+    readonly WinThisOrganizationCertificateSid: WellKnownSidType;
+    readonly WinApplicationPackageAuthoritySid: WellKnownSidType;
+    readonly WinBuiltinAnyPackageSid: WellKnownSidType;
+    readonly WinCapabilityInternetClientSid: WellKnownSidType;
+    readonly WinCapabilityInternetClientServerSid: WellKnownSidType;
+    readonly WinCapabilityPrivateNetworkClientServerSid: WellKnownSidType;
+    readonly WinCapabilityPicturesLibrarySid: WellKnownSidType;
+    readonly WinCapabilityVideosLibrarySid: WellKnownSidType;
+    readonly WinCapabilityMusicLibrarySid: WellKnownSidType;
+    readonly WinCapabilityDocumentsLibrarySid: WellKnownSidType;
+    readonly WinCapabilitySharedUserCertificatesSid: WellKnownSidType;
+    readonly WinCapabilityEnterpriseAuthenticationSid: WellKnownSidType;
+    readonly WinCapabilityRemovableStorageSid: WellKnownSidType;
+};
 
 
-export enum WindowsBuiltInRole {
-    Administrator = 544,
-    User = 545,
-    Guest = 546,
-    PowerUser = 547,
-    AccountOperator = 548,
-    SystemOperator = 549,
-    PrintOperator = 550,
-    BackupOperator = 551,
-    Replicator = 552
-}
+export type WindowsAccountType = number & { readonly __tsonic_type_System_Security_Principal_WindowsAccountType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const WindowsAccountType: {
+    readonly Normal: WindowsAccountType;
+    readonly Guest: WindowsAccountType;
+    readonly System: WindowsAccountType;
+    readonly Anonymous: WindowsAccountType;
+};
+
+
+export type WindowsBuiltInRole = number & { readonly __tsonic_type_System_Security_Principal_WindowsBuiltInRole: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const WindowsBuiltInRole: {
+    readonly Administrator: WindowsBuiltInRole;
+    readonly User: WindowsBuiltInRole;
+    readonly Guest: WindowsBuiltInRole;
+    readonly PowerUser: WindowsBuiltInRole;
+    readonly AccountOperator: WindowsBuiltInRole;
+    readonly SystemOperator: WindowsBuiltInRole;
+    readonly PrintOperator: WindowsBuiltInRole;
+    readonly BackupOperator: WindowsBuiltInRole;
+    readonly Replicator: WindowsBuiltInRole;
+};
 
 
 export interface IIdentity$instance {
@@ -197,16 +209,15 @@ export interface IPrincipal$instance {
 
 export type IPrincipal = IPrincipal$instance;
 
-export interface GenericIdentity$instance extends ClaimsIdentity {
+export interface GenericIdentity$instance extends System_Security_Claims_Internal.ClaimsIdentity$instance {
+    readonly __tsonic_type_System_Security_Claims_ClaimsIdentity: never;
     readonly __tsonic_type_System_Security_Principal_GenericIdentity: never;
 
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
     readonly AuthenticationType: string | string | null;
-    readonly Claims: IEnumerable_1<Claim>;
-    readonly IsAuthenticated: boolean;
     readonly Name: string | string | null;
-    Clone(): ClaimsIdentity;
+    Clone: System_Security_Claims_Internal.ClaimsIdentity$instance["Clone"] & (() => ClaimsIdentity);
 }
 
 
@@ -223,13 +234,14 @@ export interface __GenericIdentity$views {
 export type GenericIdentity = GenericIdentity$instance & __GenericIdentity$views;
 
 
-export interface GenericPrincipal$instance extends ClaimsPrincipal {
+export interface GenericPrincipal$instance extends System_Security_Claims_Internal.ClaimsPrincipal$instance {
+    readonly __tsonic_type_System_Security_Claims_ClaimsPrincipal: never;
     readonly __tsonic_type_System_Security_Principal_GenericPrincipal: never;
 
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
 
     readonly Identity: IIdentity | IIdentity | null;
-    IsInRole(role: string | null): boolean;
+    IsInRole: System_Security_Claims_Internal.ClaimsPrincipal$instance["IsInRole"] & ((role: string | null) => boolean);
 }
 
 
@@ -245,13 +257,15 @@ export interface __GenericPrincipal$views {
 export type GenericPrincipal = GenericPrincipal$instance & __GenericPrincipal$views;
 
 
-export interface IdentityNotMappedException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface IdentityNotMappedException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Security_Principal_IdentityNotMappedException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly UnmappedIdentities: IdentityReferenceCollection;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    GetObjectData: System_Internal.SystemException$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
 }
 
 
@@ -321,15 +335,15 @@ export interface __IdentityReferenceCollection$views {
 export type IdentityReferenceCollection = IdentityReferenceCollection$instance & __IdentityReferenceCollection$views & { [index: number]: IdentityReference; };
 
 
-export interface NTAccount$instance extends IdentityReference {
+export interface NTAccount$instance extends IdentityReference$instance {
+    readonly __tsonic_type_System_Security_Principal_IdentityReference: never;
     readonly __tsonic_type_System_Security_Principal_NTAccount: never;
 
-    readonly Value: string;
-    Equals(o: unknown | null): boolean;
-    GetHashCode(): int;
-    IsValidTargetType(targetType: Type): boolean;
-    ToString(): string;
-    Translate(targetType: Type): IdentityReference;
+    Equals: IdentityReference$instance["Equals"] & ((o: unknown | null) => boolean);
+    GetHashCode: IdentityReference$instance["GetHashCode"] & (() => int);
+    IsValidTargetType: IdentityReference$instance["IsValidTargetType"] & ((targetType: Type) => boolean);
+    ToString: IdentityReference$instance["ToString"] & (() => string);
+    Translate: IdentityReference$instance["Translate"] & ((targetType: Type) => IdentityReference);
 }
 
 
@@ -341,25 +355,24 @@ export const NTAccount: {
 
 export type NTAccount = NTAccount$instance;
 
-export interface SecurityIdentifier$instance extends IdentityReference {
+export interface SecurityIdentifier$instance extends IdentityReference$instance {
+    readonly __tsonic_type_System_Security_Principal_IdentityReference: never;
     readonly __tsonic_type_System_Security_Principal_SecurityIdentifier: never;
 
     readonly __tsonic_iface_System_IComparable_1: never;
 
     readonly AccountDomainSid: SecurityIdentifier | null;
     readonly BinaryLength: int;
-    readonly Value: string;
     CompareTo(sid: SecurityIdentifier | null): int;
-    Equals(o: unknown | null): boolean;
-    Equals(sid: SecurityIdentifier): boolean;
+    Equals: IdentityReference$instance["Equals"] & ((o: unknown | null) => boolean) & ((sid: SecurityIdentifier) => boolean);
     GetBinaryForm(binaryForm: byte[], offset: int): void;
-    GetHashCode(): int;
+    GetHashCode: IdentityReference$instance["GetHashCode"] & (() => int);
     IsAccountSid(): boolean;
     IsEqualDomainSid(sid: SecurityIdentifier): boolean;
-    IsValidTargetType(targetType: Type): boolean;
+    IsValidTargetType: IdentityReference$instance["IsValidTargetType"] & ((targetType: Type) => boolean);
     IsWellKnown(type: WellKnownSidType): boolean;
-    ToString(): string;
-    Translate(targetType: Type): IdentityReference;
+    ToString: IdentityReference$instance["ToString"] & (() => string);
+    Translate: IdentityReference$instance["Translate"] & ((targetType: Type) => IdentityReference);
 }
 
 
@@ -383,7 +396,8 @@ export interface __SecurityIdentifier$views {
 export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentifier$views;
 
 
-export interface WindowsIdentity$instance extends ClaimsIdentity, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface WindowsIdentity$instance extends System_Security_Claims_Internal.ClaimsIdentity$instance {
+    readonly __tsonic_type_System_Security_Claims_ClaimsIdentity: never;
     readonly __tsonic_type_System_Security_Principal_WindowsIdentity: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -392,13 +406,10 @@ export interface WindowsIdentity$instance extends ClaimsIdentity, System_Runtime
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
     readonly AccessToken: SafeAccessTokenHandle;
-    readonly AuthenticationType: string | null;
-    readonly Claims: IEnumerable_1<Claim>;
     readonly DeviceClaims: IEnumerable_1<Claim>;
     readonly Groups: IdentityReferenceCollection | null;
     readonly ImpersonationLevel: TokenImpersonationLevel;
     readonly IsAnonymous: boolean;
-    readonly IsAuthenticated: boolean;
     readonly IsGuest: boolean;
     readonly IsSystem: boolean;
     readonly Name: string | string | null;
@@ -406,7 +417,7 @@ export interface WindowsIdentity$instance extends ClaimsIdentity, System_Runtime
     readonly Token: nint;
     readonly User: SecurityIdentifier | null;
     readonly UserClaims: IEnumerable_1<Claim>;
-    Clone(): ClaimsIdentity;
+    Clone: System_Security_Claims_Internal.ClaimsIdentity$instance["Clone"] & (() => ClaimsIdentity);
     Dispose(): void;
     Dispose(disposing: boolean): void;
 }
@@ -441,7 +452,8 @@ export interface __WindowsIdentity$views {
 export type WindowsIdentity = WindowsIdentity$instance & __WindowsIdentity$views;
 
 
-export interface WindowsPrincipal$instance extends ClaimsPrincipal {
+export interface WindowsPrincipal$instance extends System_Security_Claims_Internal.ClaimsPrincipal$instance {
+    readonly __tsonic_type_System_Security_Claims_ClaimsPrincipal: never;
     readonly __tsonic_type_System_Security_Principal_WindowsPrincipal: never;
 
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;
@@ -449,10 +461,7 @@ export interface WindowsPrincipal$instance extends ClaimsPrincipal {
     readonly DeviceClaims: IEnumerable_1<Claim>;
     readonly Identity: IIdentity | IIdentity | null;
     readonly UserClaims: IEnumerable_1<Claim>;
-    IsInRole(rid: int): boolean;
-    IsInRole(sid: SecurityIdentifier): boolean;
-    IsInRole(role: WindowsBuiltInRole): boolean;
-    IsInRole(role: string): boolean;
+    IsInRole: System_Security_Claims_Internal.ClaimsPrincipal$instance["IsInRole"] & ((rid: int) => boolean) & ((role: WindowsBuiltInRole) => boolean) & ((role: string) => boolean) & ((sid: SecurityIdentifier) => boolean);
 }
 
 

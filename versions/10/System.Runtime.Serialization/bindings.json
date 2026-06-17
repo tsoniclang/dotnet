@@ -2194,19 +2194,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractResolver::.ctor():void",
-            "metadataToken": 100665560,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Serialization.DataContractResolver",
-            "ownerIdentity": "System.Private.DataContractSerialization"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer",
@@ -4015,46 +4003,9 @@
             "ownerIdentity": "System.Runtime.Serialization.Formatters"
           }
         ],
-        "fields": [
-          {
-            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatter::m_idGeneratorSystem.Runtime.Serialization.ObjectIDGenerator",
-            "targetName": "m_idGenerator",
-            "metadataToken": 67108867,
-            "normalizedSignature": "m_idGenerator|System.Runtime.Serialization.ObjectIDGenerator|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Serialization.Formatter",
-            "ownerIdentity": "System.Runtime.Serialization.Formatters"
-          },
-          {
-            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatter::m_objectQueueSystem.Collections.Queue",
-            "targetName": "m_objectQueue",
-            "metadataToken": 67108868,
-            "normalizedSignature": "m_objectQueue|System.Collections.Queue|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Serialization.Formatter",
-            "ownerIdentity": "System.Runtime.Serialization.Formatters"
-          }
-        ],
+        "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatter::.ctor():void",
-            "metadataToken": 100663348,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Serialization.Formatter",
-            "ownerIdentity": "System.Runtime.Serialization.Formatters"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter",
@@ -4906,17 +4857,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Runtime.Serialization.InvalidDataContractException",
             "ownerIdentity": "System.Runtime.Serialization.Primitives"
-          },
-          {
-            "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.InvalidDataContractException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663354,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Serialization.InvalidDataContractException",
-            "ownerIdentity": "System.Runtime.Serialization.Primitives"
           }
         ]
       },
@@ -5680,19 +5620,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.SerializationBinder::.ctor():void",
-            "metadataToken": 100663540,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Serialization.SerializationBinder",
-            "ownerIdentity": "System.Runtime.Serialization.Formatters"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationException",
@@ -5772,17 +5700,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Runtime.Serialization.SerializationException",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100682662,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Runtime.Serialization.SerializationException",
             "ownerIdentity": "System.Private.CoreLib"
           }
@@ -6549,12 +6466,12 @@
             "targetName": "IsFullTypeNameSetExplicit",
             "metadataToken": 385879325,
             "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "IsFullTypeNameSetExplicit|:System.Boolean|static=false|accessor=getset",
+            "normalizedSignature": "IsFullTypeNameSetExplicit|:System.Boolean|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -6568,12 +6485,12 @@
             "targetName": "IsAssemblyNameSetExplicit",
             "metadataToken": 385879326,
             "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "IsAssemblyNameSetExplicit|:System.Boolean|static=false|accessor=getset",
+            "normalizedSignature": "IsAssemblyNameSetExplicit|:System.Boolean|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -7505,19 +7422,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::.ctor():void",
-            "metadataToken": 100666287,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Serialization.XmlObjectSerializer",
-            "ownerIdentity": "System.Private.DataContractSerialization"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter",

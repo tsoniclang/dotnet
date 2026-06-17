@@ -909,17 +909,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Private.Xml:System.Xml.XPath.XPathException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100678056,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XPath.XPathException",
-            "ownerIdentity": "System.Private.Xml"
-          },
-          {
             "stableId": "System.Private.Xml:System.Xml.XPath.XPathException::.ctor():void",
             "metadataToken": 100678058,
             "canonicalSignature": "():void",
@@ -1406,19 +1395,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::.ctor():void",
-            "metadataToken": 100678091,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XPath.XPathItem",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator",
@@ -3813,19 +3790,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::.ctor():void",
-            "metadataToken": 100678228,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XPath.XPathNavigator",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeIterator",
@@ -4017,19 +3982,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeIterator::.ctor():void",
-            "metadataToken": 100678338,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XPath.XPathNodeIterator",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions",

@@ -15,7 +15,7 @@ import type { IDictionary } from './System.Collections/internal/index.js';
 import type { ICustomTypeDescriptor, IExtenderProvider, TypeDescriptionProvider } from './System.ComponentModel/internal/index.js';
 import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
-import type { Attribute, Boolean as ClrBoolean, Double, Enum, Exception, Func_1, Func_2, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, IServiceProvider, ISpanFormattable, Nullable_1, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode, Void } from './System/internal/index.js';
+import type { Attribute, Boolean as ClrBoolean, Double, Enum, Exception, Func_2, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, IServiceProvider, ISpanFormattable, Nullable_1, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { AllowedValuesAttribute as AllowedValuesAttribute } from './System.ComponentModel.DataAnnotations/internal/index.js';

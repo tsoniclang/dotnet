@@ -12,7 +12,7 @@ import type { ICollection_1, IEnumerable_1, IEnumerator_1 } from "../../System.C
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
 import type { IDictionary, IEnumerable, IEnumerator } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { AsyncCompletedEventArgs, Component, EventHandlerList, IComponent, IContainer, ISite, Win32Exception } from "../../System.ComponentModel/internal/index.js";
+import type { AsyncCompletedEventArgs, Component, IComponent, IContainer, ISite, Win32Exception } from "../../System.ComponentModel/internal/index.js";
 import * as System_Net_Internal from "../../System.Net/internal/index.js";
 import type { IPAddress, IPEndPoint } from "../../System.Net/internal/index.js";
 import type { MethodBase, MethodInfo } from "../../System.Reflection/internal/index.js";
@@ -21,149 +21,169 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import type { Task_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, InvalidOperationException, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Object as ClrObject, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, InvalidOperationException, ISpanFormattable, MulticastDelegate, Object as ClrObject, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum DuplicateAddressDetectionState {
-    Invalid = 0,
-    Tentative = 1,
-    Duplicate = 2,
-    Deprecated = 3,
-    Preferred = 4
-}
+export type DuplicateAddressDetectionState = number & { readonly __tsonic_type_System_Net_NetworkInformation_DuplicateAddressDetectionState: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum IPStatus {
-    Success = 0,
-    DestinationNetworkUnreachable = 11002,
-    DestinationHostUnreachable = 11003,
-    DestinationProtocolUnreachable = 11004,
-    DestinationPortUnreachable = 11005,
-    DestinationProhibited = 11004,
-    NoResources = 11006,
-    BadOption = 11007,
-    HardwareError = 11008,
-    PacketTooBig = 11009,
-    TimedOut = 11010,
-    BadRoute = 11012,
-    TtlExpired = 11013,
-    TtlReassemblyTimeExceeded = 11014,
-    ParameterProblem = 11015,
-    SourceQuench = 11016,
-    BadDestination = 11018,
-    DestinationUnreachable = 11040,
-    TimeExceeded = 11041,
-    BadHeader = 11042,
-    UnrecognizedNextHeader = 11043,
-    IcmpError = 11044,
-    DestinationScopeMismatch = 11045,
-    Unknown = -1
-}
+export const DuplicateAddressDetectionState: {
+    readonly Invalid: DuplicateAddressDetectionState;
+    readonly Tentative: DuplicateAddressDetectionState;
+    readonly Duplicate: DuplicateAddressDetectionState;
+    readonly Deprecated: DuplicateAddressDetectionState;
+    readonly Preferred: DuplicateAddressDetectionState;
+};
 
 
-export enum NetBiosNodeType {
-    Unknown = 0,
-    Broadcast = 1,
-    Peer2Peer = 2,
-    Mixed = 4,
-    Hybrid = 8
-}
+export type IPStatus = number & { readonly __tsonic_type_System_Net_NetworkInformation_IPStatus: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const IPStatus: {
+    readonly Success: IPStatus;
+    readonly DestinationNetworkUnreachable: IPStatus;
+    readonly DestinationHostUnreachable: IPStatus;
+    readonly DestinationProtocolUnreachable: IPStatus;
+    readonly DestinationPortUnreachable: IPStatus;
+    readonly DestinationProhibited: IPStatus;
+    readonly NoResources: IPStatus;
+    readonly BadOption: IPStatus;
+    readonly HardwareError: IPStatus;
+    readonly PacketTooBig: IPStatus;
+    readonly TimedOut: IPStatus;
+    readonly BadRoute: IPStatus;
+    readonly TtlExpired: IPStatus;
+    readonly TtlReassemblyTimeExceeded: IPStatus;
+    readonly ParameterProblem: IPStatus;
+    readonly SourceQuench: IPStatus;
+    readonly BadDestination: IPStatus;
+    readonly DestinationUnreachable: IPStatus;
+    readonly TimeExceeded: IPStatus;
+    readonly BadHeader: IPStatus;
+    readonly UnrecognizedNextHeader: IPStatus;
+    readonly IcmpError: IPStatus;
+    readonly DestinationScopeMismatch: IPStatus;
+    readonly Unknown: IPStatus;
+};
 
 
-export enum NetworkInterfaceComponent {
-    IPv4 = 0,
-    IPv6 = 1
-}
+export type NetBiosNodeType = number & { readonly __tsonic_type_System_Net_NetworkInformation_NetBiosNodeType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const NetBiosNodeType: {
+    readonly Unknown: NetBiosNodeType;
+    readonly Broadcast: NetBiosNodeType;
+    readonly Peer2Peer: NetBiosNodeType;
+    readonly Mixed: NetBiosNodeType;
+    readonly Hybrid: NetBiosNodeType;
+};
 
 
-export enum NetworkInterfaceType {
-    Unknown = 1,
-    Ethernet = 6,
-    TokenRing = 9,
-    Fddi = 15,
-    BasicIsdn = 20,
-    PrimaryIsdn = 21,
-    Ppp = 23,
-    Loopback = 24,
-    Ethernet3Megabit = 26,
-    Slip = 28,
-    Atm = 37,
-    GenericModem = 48,
-    FastEthernetT = 62,
-    Isdn = 63,
-    FastEthernetFx = 69,
-    Wireless80211 = 71,
-    AsymmetricDsl = 94,
-    RateAdaptDsl = 95,
-    SymmetricDsl = 96,
-    VeryHighSpeedDsl = 97,
-    IPOverAtm = 114,
-    GigabitEthernet = 117,
-    Tunnel = 131,
-    MultiRateSymmetricDsl = 143,
-    HighPerformanceSerialBus = 144,
-    Wman = 237,
-    Wwanpp = 243,
-    Wwanpp2 = 244
-}
+export type NetworkInterfaceComponent = number & { readonly __tsonic_type_System_Net_NetworkInformation_NetworkInterfaceComponent: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const NetworkInterfaceComponent: {
+    readonly IPv4: NetworkInterfaceComponent;
+    readonly IPv6: NetworkInterfaceComponent;
+};
 
 
-export enum OperationalStatus {
-    Up = 1,
-    Down = 2,
-    Testing = 3,
-    Unknown = 4,
-    Dormant = 5,
-    NotPresent = 6,
-    LowerLayerDown = 7
-}
+export type NetworkInterfaceType = number & { readonly __tsonic_type_System_Net_NetworkInformation_NetworkInterfaceType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const NetworkInterfaceType: {
+    readonly Unknown: NetworkInterfaceType;
+    readonly Ethernet: NetworkInterfaceType;
+    readonly TokenRing: NetworkInterfaceType;
+    readonly Fddi: NetworkInterfaceType;
+    readonly BasicIsdn: NetworkInterfaceType;
+    readonly PrimaryIsdn: NetworkInterfaceType;
+    readonly Ppp: NetworkInterfaceType;
+    readonly Loopback: NetworkInterfaceType;
+    readonly Ethernet3Megabit: NetworkInterfaceType;
+    readonly Slip: NetworkInterfaceType;
+    readonly Atm: NetworkInterfaceType;
+    readonly GenericModem: NetworkInterfaceType;
+    readonly FastEthernetT: NetworkInterfaceType;
+    readonly Isdn: NetworkInterfaceType;
+    readonly FastEthernetFx: NetworkInterfaceType;
+    readonly Wireless80211: NetworkInterfaceType;
+    readonly AsymmetricDsl: NetworkInterfaceType;
+    readonly RateAdaptDsl: NetworkInterfaceType;
+    readonly SymmetricDsl: NetworkInterfaceType;
+    readonly VeryHighSpeedDsl: NetworkInterfaceType;
+    readonly IPOverAtm: NetworkInterfaceType;
+    readonly GigabitEthernet: NetworkInterfaceType;
+    readonly Tunnel: NetworkInterfaceType;
+    readonly MultiRateSymmetricDsl: NetworkInterfaceType;
+    readonly HighPerformanceSerialBus: NetworkInterfaceType;
+    readonly Wman: NetworkInterfaceType;
+    readonly Wwanpp: NetworkInterfaceType;
+    readonly Wwanpp2: NetworkInterfaceType;
+};
 
 
-export enum PrefixOrigin {
-    Other = 0,
-    Manual = 1,
-    WellKnown = 2,
-    Dhcp = 3,
-    RouterAdvertisement = 4
-}
+export type OperationalStatus = number & { readonly __tsonic_type_System_Net_NetworkInformation_OperationalStatus: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const OperationalStatus: {
+    readonly Up: OperationalStatus;
+    readonly Down: OperationalStatus;
+    readonly Testing: OperationalStatus;
+    readonly Unknown: OperationalStatus;
+    readonly Dormant: OperationalStatus;
+    readonly NotPresent: OperationalStatus;
+    readonly LowerLayerDown: OperationalStatus;
+};
 
 
-export enum ScopeLevel {
-    None = 0,
-    Interface = 1,
-    Link = 2,
-    Subnet = 3,
-    Admin = 4,
-    Site = 5,
-    Organization = 8,
-    Global = 14
-}
+export type PrefixOrigin = number & { readonly __tsonic_type_System_Net_NetworkInformation_PrefixOrigin: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PrefixOrigin: {
+    readonly Other: PrefixOrigin;
+    readonly Manual: PrefixOrigin;
+    readonly WellKnown: PrefixOrigin;
+    readonly Dhcp: PrefixOrigin;
+    readonly RouterAdvertisement: PrefixOrigin;
+};
 
 
-export enum SuffixOrigin {
-    Other = 0,
-    Manual = 1,
-    WellKnown = 2,
-    OriginDhcp = 3,
-    LinkLayerAddress = 4,
-    Random = 5
-}
+export type ScopeLevel = number & { readonly __tsonic_type_System_Net_NetworkInformation_ScopeLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ScopeLevel: {
+    readonly None: ScopeLevel;
+    readonly Interface: ScopeLevel;
+    readonly Link: ScopeLevel;
+    readonly Subnet: ScopeLevel;
+    readonly Admin: ScopeLevel;
+    readonly Site: ScopeLevel;
+    readonly Organization: ScopeLevel;
+    readonly Global: ScopeLevel;
+};
 
 
-export enum TcpState {
-    Unknown = 0,
-    Closed = 1,
-    Listen = 2,
-    SynSent = 3,
-    SynReceived = 4,
-    Established = 5,
-    FinWait1 = 6,
-    FinWait2 = 7,
-    CloseWait = 8,
-    Closing = 9,
-    LastAck = 10,
-    TimeWait = 11,
-    DeleteTcb = 12
-}
+export type SuffixOrigin = number & { readonly __tsonic_type_System_Net_NetworkInformation_SuffixOrigin: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SuffixOrigin: {
+    readonly Other: SuffixOrigin;
+    readonly Manual: SuffixOrigin;
+    readonly WellKnown: SuffixOrigin;
+    readonly OriginDhcp: SuffixOrigin;
+    readonly LinkLayerAddress: SuffixOrigin;
+    readonly Random: SuffixOrigin;
+};
+
+
+export type TcpState = number & { readonly __tsonic_type_System_Net_NetworkInformation_TcpState: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TcpState: {
+    readonly Unknown: TcpState;
+    readonly Closed: TcpState;
+    readonly Listen: TcpState;
+    readonly SynSent: TcpState;
+    readonly SynReceived: TcpState;
+    readonly Established: TcpState;
+    readonly FinWait1: TcpState;
+    readonly FinWait2: TcpState;
+    readonly CloseWait: TcpState;
+    readonly Closing: TcpState;
+    readonly LastAck: TcpState;
+    readonly TimeWait: TcpState;
+    readonly DeleteTcb: TcpState;
+};
 
 
 export type NetworkAddressChangedEventHandler = (sender: unknown | null, e: EventArgs) => void;
@@ -182,7 +202,7 @@ export interface GatewayIPAddressInformation$instance {
 }
 
 
-export const GatewayIPAddressInformation: (abstract new() => GatewayIPAddressInformation) & {
+export const GatewayIPAddressInformation: {
 };
 
 
@@ -206,7 +226,7 @@ export interface GatewayIPAddressInformationCollection$instance {
 }
 
 
-export const GatewayIPAddressInformationCollection: (abstract new() => GatewayIPAddressInformationCollection) & {
+export const GatewayIPAddressInformationCollection: {
 };
 
 
@@ -251,7 +271,7 @@ export interface IcmpV4Statistics$instance {
 }
 
 
-export const IcmpV4Statistics: (abstract new() => IcmpV4Statistics) & {
+export const IcmpV4Statistics: {
 };
 
 
@@ -295,7 +315,7 @@ export interface IcmpV6Statistics$instance {
 }
 
 
-export const IcmpV6Statistics: (abstract new() => IcmpV6Statistics) & {
+export const IcmpV6Statistics: {
 };
 
 
@@ -319,7 +339,7 @@ export interface IPAddressCollection$instance {
 }
 
 
-export const IPAddressCollection: (abstract new() => IPAddressCollection) & {
+export const IPAddressCollection: {
 };
 
 
@@ -341,7 +361,7 @@ export interface IPAddressInformation$instance {
 }
 
 
-export const IPAddressInformation: (abstract new() => IPAddressInformation) & {
+export const IPAddressInformation: {
 };
 
 
@@ -404,7 +424,7 @@ export interface IPGlobalProperties$instance {
 }
 
 
-export const IPGlobalProperties: (abstract new() => IPGlobalProperties) & {
+export const IPGlobalProperties: {
     GetIPGlobalProperties(): IPGlobalProperties;
 };
 
@@ -439,7 +459,7 @@ export interface IPGlobalStatistics$instance {
 }
 
 
-export const IPGlobalStatistics: (abstract new() => IPGlobalStatistics) & {
+export const IPGlobalStatistics: {
 };
 
 
@@ -463,7 +483,7 @@ export interface IPInterfaceProperties$instance {
 }
 
 
-export const IPInterfaceProperties: (abstract new() => IPInterfaceProperties) & {
+export const IPInterfaceProperties: {
 };
 
 
@@ -487,7 +507,7 @@ export interface IPInterfaceStatistics$instance {
 }
 
 
-export const IPInterfaceStatistics: (abstract new() => IPInterfaceStatistics) & {
+export const IPInterfaceStatistics: {
 };
 
 
@@ -506,7 +526,7 @@ export interface IPv4InterfaceProperties$instance {
 }
 
 
-export const IPv4InterfaceProperties: (abstract new() => IPv4InterfaceProperties) & {
+export const IPv4InterfaceProperties: {
 };
 
 
@@ -530,7 +550,7 @@ export interface IPv4InterfaceStatistics$instance {
 }
 
 
-export const IPv4InterfaceStatistics: (abstract new() => IPv4InterfaceStatistics) & {
+export const IPv4InterfaceStatistics: {
 };
 
 
@@ -545,13 +565,14 @@ export interface IPv6InterfaceProperties$instance {
 }
 
 
-export const IPv6InterfaceProperties: (abstract new() => IPv6InterfaceProperties) & {
+export const IPv6InterfaceProperties: {
 };
 
 
 export type IPv6InterfaceProperties = IPv6InterfaceProperties$instance;
 
-export interface MulticastIPAddressInformation$instance extends IPAddressInformation {
+export interface MulticastIPAddressInformation$instance extends IPAddressInformation$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPAddressInformation: never;
     readonly __tsonic_type_System_Net_NetworkInformation_MulticastIPAddressInformation: never;
 
     readonly AddressPreferredLifetime: long;
@@ -563,7 +584,7 @@ export interface MulticastIPAddressInformation$instance extends IPAddressInforma
 }
 
 
-export const MulticastIPAddressInformation: (abstract new() => MulticastIPAddressInformation) & {
+export const MulticastIPAddressInformation: {
 };
 
 
@@ -587,7 +608,7 @@ export interface MulticastIPAddressInformationCollection$instance {
 }
 
 
-export const MulticastIPAddressInformationCollection: (abstract new() => MulticastIPAddressInformationCollection) & {
+export const MulticastIPAddressInformationCollection: {
 };
 
 
@@ -600,7 +621,8 @@ export interface __MulticastIPAddressInformationCollection$views {
 export type MulticastIPAddressInformationCollection = MulticastIPAddressInformationCollection$instance & __MulticastIPAddressInformationCollection$views & { readonly [index: number]: MulticastIPAddressInformation; };
 
 
-export interface NetworkAvailabilityEventArgs$instance extends EventArgs {
+export interface NetworkAvailabilityEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_NetworkInformation_NetworkAvailabilityEventArgs: never;
 
     readonly IsAvailable: boolean;
@@ -627,12 +649,15 @@ export const NetworkChange: {
 
 export type NetworkChange = NetworkChange$instance;
 
-export interface NetworkInformationException$instance extends Win32Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface NetworkInformationException$instance extends System_ComponentModel_Internal.Win32Exception$instance {
+    readonly __tsonic_type_System_ComponentModel_Win32Exception: never;
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Net_NetworkInformation_NetworkInformationException: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_ExternalException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly ErrorCode: int;
 }
 
 
@@ -668,7 +693,7 @@ export interface NetworkInterface$instance {
 }
 
 
-export const NetworkInterface: (abstract new() => NetworkInterface) & {
+export const NetworkInterface: {
     readonly IPv6LoopbackInterfaceIndex: int;
     readonly LoopbackInterfaceIndex: int;
     GetAllNetworkInterfaces(): NetworkInterface[];
@@ -700,43 +725,44 @@ export const PhysicalAddress: {
 
 export type PhysicalAddress = PhysicalAddress$instance;
 
-export interface Ping$instance extends Component {
+export interface Ping$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_NetworkInformation_Ping: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    Send(hostNameOrAddress: string): PingReply;
-    Send(hostNameOrAddress: string, timeout: int): PingReply;
+    Dispose: System_ComponentModel_Internal.Component$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     Send(address: IPAddress): PingReply;
-    Send(address: IPAddress, timeout: int): PingReply;
-    Send(hostNameOrAddress: string, timeout: int, buffer: byte[]): PingReply;
-    Send(address: IPAddress, timeout: int, buffer: byte[]): PingReply;
-    Send(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null): PingReply;
-    Send(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null): PingReply;
     Send(address: IPAddress, timeout: TimeSpan, buffer?: byte[] | null, options?: PingOptions | null): PingReply;
+    Send(address: IPAddress, timeout: int): PingReply;
+    Send(address: IPAddress, timeout: int, buffer: byte[]): PingReply;
+    Send(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null): PingReply;
+    Send(hostNameOrAddress: string): PingReply;
     Send(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[] | null, options?: PingOptions | null): PingReply;
-    SendAsync(hostNameOrAddress: string, userToken: unknown | null): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, userToken: unknown | null): void;
-    SendAsync(address: IPAddress, userToken: unknown | null): void;
-    SendAsync(address: IPAddress, timeout: int, userToken: unknown | null): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], userToken: unknown | null): void;
-    SendAsync(address: IPAddress, timeout: int, buffer: byte[], userToken: unknown | null): void;
-    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null, userToken: unknown | null): void;
+    Send(hostNameOrAddress: string, timeout: int): PingReply;
+    Send(hostNameOrAddress: string, timeout: int, buffer: byte[]): PingReply;
+    Send(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null): PingReply;
     SendAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null, userToken: unknown | null): void;
+    SendAsync(address: IPAddress, timeout: int, buffer: byte[], userToken: unknown | null): void;
+    SendAsync(address: IPAddress, timeout: int, userToken: unknown | null): void;
+    SendAsync(address: IPAddress, userToken: unknown | null): void;
+    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null, userToken: unknown | null): void;
+    SendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], userToken: unknown | null): void;
+    SendAsync(hostNameOrAddress: string, timeout: int, userToken: unknown | null): void;
+    SendAsync(hostNameOrAddress: string, userToken: unknown | null): void;
     SendAsyncCancel(): void;
     SendPingAsync(address: IPAddress): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string): Task_1<PingReply>;
-    SendPingAsync(address: IPAddress, timeout: int): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string, timeout: int): Task_1<PingReply>;
-    SendPingAsync(address: IPAddress, timeout: int, buffer: byte[]): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[]): Task_1<PingReply>;
-    SendPingAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null): Task_1<PingReply>;
     SendPingAsync(address: IPAddress, timeout: TimeSpan, buffer?: byte[] | null, options?: PingOptions | null, cancellationToken?: CancellationToken): Task_1<PingReply>;
-    SendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null): Task_1<PingReply>;
+    SendPingAsync(address: IPAddress, timeout: int): Task_1<PingReply>;
+    SendPingAsync(address: IPAddress, timeout: int, buffer: byte[]): Task_1<PingReply>;
+    SendPingAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions | null): Task_1<PingReply>;
+    SendPingAsync(hostNameOrAddress: string): Task_1<PingReply>;
     SendPingAsync(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[] | null, options?: PingOptions | null, cancellationToken?: CancellationToken): Task_1<PingReply>;
+    SendPingAsync(hostNameOrAddress: string, timeout: int): Task_1<PingReply>;
+    SendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[]): Task_1<PingReply>;
+    SendPingAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions | null): Task_1<PingReply>;
 }
 
 
@@ -753,7 +779,9 @@ export interface __Ping$views {
 export type Ping = Ping$instance & __Ping$views;
 
 
-export interface PingCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+export interface PingCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_AsyncCompletedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_NetworkInformation_PingCompletedEventArgs: never;
 
     readonly Reply: PingReply | null;
@@ -766,8 +794,11 @@ export const PingCompletedEventArgs: {
 
 export type PingCompletedEventArgs = PingCompletedEventArgs$instance;
 
-export interface PingException$instance extends InvalidOperationException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface PingException$instance extends System_Internal.InvalidOperationException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_InvalidOperationException: never;
     readonly __tsonic_type_System_Net_NetworkInformation_PingException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -829,7 +860,7 @@ export interface TcpConnectionInformation$instance {
 }
 
 
-export const TcpConnectionInformation: (abstract new() => TcpConnectionInformation) & {
+export const TcpConnectionInformation: {
 };
 
 
@@ -855,7 +886,7 @@ export interface TcpStatistics$instance {
 }
 
 
-export const TcpStatistics: (abstract new() => TcpStatistics) & {
+export const TcpStatistics: {
 };
 
 
@@ -872,13 +903,14 @@ export interface UdpStatistics$instance {
 }
 
 
-export const UdpStatistics: (abstract new() => UdpStatistics) & {
+export const UdpStatistics: {
 };
 
 
 export type UdpStatistics = UdpStatistics$instance;
 
-export interface UnicastIPAddressInformation$instance extends IPAddressInformation {
+export interface UnicastIPAddressInformation$instance extends IPAddressInformation$instance {
+    readonly __tsonic_type_System_Net_NetworkInformation_IPAddressInformation: never;
     readonly __tsonic_type_System_Net_NetworkInformation_UnicastIPAddressInformation: never;
 
     readonly AddressPreferredLifetime: long;
@@ -892,7 +924,7 @@ export interface UnicastIPAddressInformation$instance extends IPAddressInformati
 }
 
 
-export const UnicastIPAddressInformation: (abstract new() => UnicastIPAddressInformation) & {
+export const UnicastIPAddressInformation: {
 };
 
 
@@ -916,7 +948,7 @@ export interface UnicastIPAddressInformationCollection$instance {
 }
 
 
-export const UnicastIPAddressInformationCollection: (abstract new() => UnicastIPAddressInformationCollection) & {
+export const UnicastIPAddressInformationCollection: {
 };
 
 

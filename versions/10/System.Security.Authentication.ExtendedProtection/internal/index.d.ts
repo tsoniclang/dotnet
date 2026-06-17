@@ -10,36 +10,45 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as Microsoft_Win32_SafeHandles_Internal from "../../Microsoft.Win32.SafeHandles/internal/index.js";
 import type { SafeHandleZeroOrMinusOneIsInvalid } from "../../Microsoft.Win32.SafeHandles/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from "../../System.Collections/internal/index.js";
+import type { ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
 import type { ITypeDescriptorContext, PropertyDescriptorCollection, TypeConverter, TypeConverter_StandardValuesCollection } from "../../System.ComponentModel/internal/index.js";
 import type { CultureInfo } from "../../System.Globalization/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum ChannelBindingKind {
-    Unknown = 0,
-    Unique = 25,
-    Endpoint = 26
-}
+export type ChannelBindingKind = number & { readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ChannelBindingKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum PolicyEnforcement {
-    Never = 0,
-    WhenSupported = 1,
-    Always = 2
-}
+export const ChannelBindingKind: {
+    readonly Unknown: ChannelBindingKind;
+    readonly Unique: ChannelBindingKind;
+    readonly Endpoint: ChannelBindingKind;
+};
 
 
-export enum ProtectionScenario {
-    TransportSelected = 0,
-    TrustedProxy = 1
-}
+export type PolicyEnforcement = number & { readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_PolicyEnforcement: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PolicyEnforcement: {
+    readonly Never: PolicyEnforcement;
+    readonly WhenSupported: PolicyEnforcement;
+    readonly Always: PolicyEnforcement;
+};
 
 
-export interface ChannelBinding$instance extends SafeHandleZeroOrMinusOneIsInvalid {
+export type ProtectionScenario = number & { readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ProtectionScenario: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ProtectionScenario: {
+    readonly TransportSelected: ProtectionScenario;
+    readonly TrustedProxy: ProtectionScenario;
+};
+
+
+export interface ChannelBinding$instance extends Microsoft_Win32_SafeHandles_Internal.SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
     readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ChannelBinding: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -48,7 +57,7 @@ export interface ChannelBinding$instance extends SafeHandleZeroOrMinusOneIsInval
 }
 
 
-export const ChannelBinding: (abstract new() => ChannelBinding) & (abstract new(ownsHandle: boolean) => ChannelBinding) & {
+export const ChannelBinding: {
 };
 
 
@@ -59,7 +68,7 @@ export interface __ChannelBinding$views {
 export type ChannelBinding = ChannelBinding$instance & __ChannelBinding$views;
 
 
-export interface ExtendedProtectionPolicy$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface ExtendedProtectionPolicy$instance {
     readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ExtendedProtectionPolicy: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -88,13 +97,12 @@ export interface __ExtendedProtectionPolicy$views {
 export type ExtendedProtectionPolicy = ExtendedProtectionPolicy$instance & __ExtendedProtectionPolicy$views;
 
 
-export interface ExtendedProtectionPolicyTypeConverter$instance extends TypeConverter {
+export interface ExtendedProtectionPolicyTypeConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
+    readonly __tsonic_type_System_ComponentModel_TypeConverter: never;
     readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ExtendedProtectionPolicyTypeConverter: never;
 
-    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
-    CanConvertTo(destinationType: Type | null): boolean;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
-    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
+    CanConvertTo: System_ComponentModel_Internal.TypeConverter$instance["CanConvertTo"] & ((context: ITypeDescriptorContext | null, destinationType: Type | null) => boolean) & ((destinationType: Type | null) => boolean);
+    ConvertTo: System_ComponentModel_Internal.TypeConverter$instance["ConvertTo"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type) => unknown | null) & ((value: unknown | null, destinationType: Type) => unknown | null);
 }
 
 
@@ -105,7 +113,8 @@ export const ExtendedProtectionPolicyTypeConverter: {
 
 export type ExtendedProtectionPolicyTypeConverter = ExtendedProtectionPolicyTypeConverter$instance;
 
-export interface ServiceNameCollection$instance extends ReadOnlyCollectionBase {
+export interface ServiceNameCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
+    readonly __tsonic_type_System_Collections_ReadOnlyCollectionBase: never;
     readonly __tsonic_type_System_Security_Authentication_ExtendedProtection_ServiceNameCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;

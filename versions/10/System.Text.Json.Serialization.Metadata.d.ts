@@ -45,7 +45,7 @@ export type JsonTypeInfo<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.JsonTypeInfo :
-  [T1] extends [unknown] ? Internal.JsonTypeInfo_1<T1> : never;
+  Internal.JsonTypeInfo_1<T1>;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Text_Json_Serialization_Metadata as ExtensionMethods } from './__internal/extensions/index.js';

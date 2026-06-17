@@ -15,20 +15,24 @@ import type { Assembly, MethodBase } from "../../System.Reflection/internal/inde
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Attribute, Boolean as ClrBoolean, Byte, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Version, Void } from "../../System/internal/index.js";
+import type { Attribute, Boolean as ClrBoolean, Byte, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum UltimateResourceFallbackLocation {
-    MainAssembly = 0,
-    Satellite = 1
-}
+export type UltimateResourceFallbackLocation = number & { readonly __tsonic_type_System_Resources_UltimateResourceFallbackLocation: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const UltimateResourceFallbackLocation: {
+    readonly MainAssembly: UltimateResourceFallbackLocation;
+    readonly Satellite: UltimateResourceFallbackLocation;
+};
 
 
-export interface IResourceReader$instance extends IEnumerable, IDisposable {
+export interface IResourceReader$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Resources_IResourceReader: never;
 
     Close(): void;
-    GetEnumerator(): IEnumerator;
     GetEnumerator(): IDictionaryEnumerator;
+    GetEnumerator(): IEnumerator;
     Dispose(): void;
 }
 
@@ -37,12 +41,13 @@ export interface IResourceReader$instance extends System_Internal.IDisposable$in
 
 export type IResourceReader = IResourceReader$instance;
 
-export interface IResourceWriter$instance extends IDisposable {
+export interface IResourceWriter$instance {
+    readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Resources_IResourceWriter: never;
 
     AddResource(name: string, value: byte[] | null): void;
-    AddResource(name: string, value: unknown | null): void;
     AddResource(name: string, value: string | null): void;
+    AddResource(name: string, value: unknown | null): void;
     Close(): void;
     Dispose(): void;
 }
@@ -52,8 +57,10 @@ export interface IResourceWriter$instance extends System_Internal.IDisposable$in
 
 export type IResourceWriter = IResourceWriter$instance;
 
-export interface MissingManifestResourceException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface MissingManifestResourceException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Resources_MissingManifestResourceException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -74,8 +81,10 @@ export interface __MissingManifestResourceException$views {
 export type MissingManifestResourceException = MissingManifestResourceException$instance & __MissingManifestResourceException$views;
 
 
-export interface MissingSatelliteAssemblyException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface MissingSatelliteAssemblyException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Resources_MissingSatelliteAssemblyException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -98,7 +107,8 @@ export interface __MissingSatelliteAssemblyException$views {
 export type MissingSatelliteAssemblyException = MissingSatelliteAssemblyException$instance & __MissingSatelliteAssemblyException$views;
 
 
-export interface NeutralResourcesLanguageAttribute$instance extends Attribute {
+export interface NeutralResourcesLanguageAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Resources_NeutralResourcesLanguageAttribute: never;
 
     readonly CultureName: string;
@@ -140,8 +150,6 @@ export const ResourceManager: {
     readonly MagicNumber: int;
     readonly HeaderVersionNumber: int;
     CreateFileBasedResourceManager(baseName: string, resourceDir: string, usingResourceSet: Type | null): ResourceManager;
-    GetNeutralResourcesLanguage(a: Assembly): CultureInfo;
-    GetSatelliteContractVersion(a: Assembly): Version | null;
 };
 
 
@@ -183,8 +191,8 @@ export interface ResourceSet$instance {
     readonly __tsonic_iface_System_IDisposable: never;
 
     Close(): void;
-    Dispose(disposing: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     GetDefaultReader(): Type;
     GetDefaultWriter(): Type;
     GetEnumerator(): IDictionaryEnumerator;
@@ -220,10 +228,10 @@ export interface ResourceWriter$instance {
     get TypeNameConverter(): Func_2<Type, System_Internal.String> | null;
     set TypeNameConverter(value: Func_2<Type, System_Internal.String> | null);
     AddResource(name: string, value: Stream | null): void;
-    AddResource(name: string, value: string | null): void;
-    AddResource(name: string, value: unknown | null): void;
     AddResource(name: string, value: Stream | null, closeAfterWrite?: boolean): void;
     AddResource(name: string, value: byte[] | null): void;
+    AddResource(name: string, value: string | null): void;
+    AddResource(name: string, value: unknown | null): void;
     AddResourceData(name: string, typeName: string, serializedData: byte[]): void;
     Close(): void;
     Dispose(): void;
@@ -245,7 +253,8 @@ export interface __ResourceWriter$views {
 export type ResourceWriter = ResourceWriter$instance & __ResourceWriter$views;
 
 
-export interface SatelliteContractVersionAttribute$instance extends Attribute {
+export interface SatelliteContractVersionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Resources_SatelliteContractVersionAttribute: never;
 
     readonly Version: string;

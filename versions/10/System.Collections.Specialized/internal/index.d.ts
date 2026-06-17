@@ -13,15 +13,17 @@ import type { MethodInfo } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { IDeserializationCallback, ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Delegate, Enum, EventArgs, IAsyncResult, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, ConsoleKeyInfo, Delegate, Enum, EventArgs, IAsyncResult, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum NotifyCollectionChangedAction {
-    Add = 0,
-    Remove = 1,
-    Replace = 2,
-    Move = 3,
-    Reset = 4
-}
+export type NotifyCollectionChangedAction = number & { readonly __tsonic_type_System_Collections_Specialized_NotifyCollectionChangedAction: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const NotifyCollectionChangedAction: {
+    readonly Add: NotifyCollectionChangedAction;
+    readonly Remove: NotifyCollectionChangedAction;
+    readonly Replace: NotifyCollectionChangedAction;
+    readonly Move: NotifyCollectionChangedAction;
+    readonly Reset: NotifyCollectionChangedAction;
+};
 
 
 export type NotifyCollectionChangedEventHandler = (sender: unknown | null, e: NotifyCollectionChangedEventArgs) => void;
@@ -35,7 +37,10 @@ export interface INotifyCollectionChanged$instance {
 
 export type INotifyCollectionChanged = INotifyCollectionChanged$instance;
 
-export interface IOrderedDictionary$instance extends IDictionary, ICollection, IEnumerable {
+export interface IOrderedDictionary$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IDictionary: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_Specialized_IOrderedDictionary: never;
 
     readonly Keys: ICollection;
@@ -66,6 +71,7 @@ export type IOrderedDictionary = IOrderedDictionary$instance;
 
 export interface BitVector32$instance {
     readonly __tsonic_type_System_Collections_Specialized_BitVector32: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -104,6 +110,7 @@ export type BitVector32 = BitVector32$instance & __BitVector32$views;
 
 export interface BitVector32_Section$instance {
     readonly __tsonic_type_System_Collections_Specialized_BitVector32_Section: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -239,7 +246,7 @@ export const ListDictionary_DictionaryNode: {
 
 export type ListDictionary_DictionaryNode = ListDictionary_DictionaryNode$instance;
 
-export interface NameObjectCollectionBase$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface NameObjectCollectionBase$instance {
     readonly __tsonic_type_System_Collections_Specialized_NameObjectCollectionBase: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -255,7 +262,7 @@ export interface NameObjectCollectionBase$instance extends System_Runtime_Serial
 }
 
 
-export const NameObjectCollectionBase: (abstract new() => NameObjectCollectionBase) & (abstract new(equalityComparer: IEqualityComparer | null) => NameObjectCollectionBase) & (abstract new(capacity: int, equalityComparer: IEqualityComparer | null) => NameObjectCollectionBase) & (abstract new(hashProvider: IHashCodeProvider | null, comparer: IComparer | null) => NameObjectCollectionBase) & (abstract new(capacity: int, hashProvider: IHashCodeProvider | null, comparer: IComparer | null) => NameObjectCollectionBase) & (abstract new(capacity: int) => NameObjectCollectionBase) & (abstract new(info: SerializationInfo, context: StreamingContext) => NameObjectCollectionBase) & {
+export const NameObjectCollectionBase: {
 };
 
 
@@ -287,7 +294,8 @@ export const NameObjectCollectionBase_KeysCollection: {
 
 export type NameObjectCollectionBase_KeysCollection = NameObjectCollectionBase_KeysCollection$instance & { readonly [index: number]: string | null; };
 
-export interface NameValueCollection$instance extends NameObjectCollectionBase$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface NameValueCollection$instance extends NameObjectCollectionBase$instance {
+    readonly __tsonic_type_System_Collections_Specialized_NameObjectCollectionBase: never;
     readonly __tsonic_type_System_Collections_Specialized_NameValueCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -300,13 +308,13 @@ export interface NameValueCollection$instance extends NameObjectCollectionBase$i
     Add(name: string | null, value: string | null): void;
     Clear(): void;
     CopyTo(dest: ClrArray, index: int): void;
-    Get(name: string | null): string | null;
     Get(index: int): string | null;
-    get_Item(name: string | null): string | null;
+    Get(name: string | null): string | null;
     get_Item(index: int): string | null;
+    get_Item(name: string | null): string | null;
     GetKey(index: int): string | null;
-    GetValues(name: string | null): string[] | null;
     GetValues(index: int): string[] | null;
+    GetValues(name: string | null): string[] | null;
     HasKeys(): boolean;
     Remove(name: string | null): void;
     Set(name: string | null, value: string | null): void;
@@ -336,8 +344,9 @@ export interface __NameValueCollection$views {
 export type NameValueCollection = NameValueCollection$instance & __NameValueCollection$views;
 
 
-export interface NotifyCollectionChangedEventArgs$instance extends EventArgs {
+export interface NotifyCollectionChangedEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_Collections_Specialized_NotifyCollectionChangedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Action: NotifyCollectionChangedAction;
     readonly NewItems: IList | null;
@@ -364,7 +373,7 @@ export const NotifyCollectionChangedEventArgs: {
 
 export type NotifyCollectionChangedEventArgs = NotifyCollectionChangedEventArgs$instance;
 
-export interface OrderedDictionary$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface OrderedDictionary$instance {
     readonly __tsonic_type_System_Collections_Specialized_OrderedDictionary: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;

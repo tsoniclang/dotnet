@@ -3742,12 +3742,12 @@
             "targetName": "FullName",
             "metadataToken": 385876041,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "FullName|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "FullName|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -3968,17 +3968,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.IO.Compression.ZLibException",
-            "ownerIdentity": "System.IO.Compression"
-          },
-          {
-            "stableId": "System.IO.Compression:System.IO.Compression.ZLibException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664003,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.IO.Compression.ZLibException",
             "ownerIdentity": "System.IO.Compression"
           }

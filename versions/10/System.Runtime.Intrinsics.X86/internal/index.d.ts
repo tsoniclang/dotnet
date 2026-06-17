@@ -11,52 +11,59 @@ import type { Vector128_1, Vector256_1, Vector512_1 } from "../../System.Runtime
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Double, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Object as ClrObject, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueTuple_4, Void } from "../../System/internal/index.js";
 
-export enum FloatComparisonMode {
-    OrderedEqualNonSignaling = 0,
-    OrderedLessThanSignaling = 1,
-    OrderedLessThanOrEqualSignaling = 2,
-    UnorderedNonSignaling = 3,
-    UnorderedNotEqualNonSignaling = 4,
-    UnorderedNotLessThanSignaling = 5,
-    UnorderedNotLessThanOrEqualSignaling = 6,
-    OrderedNonSignaling = 7,
-    UnorderedEqualNonSignaling = 8,
-    UnorderedNotGreaterThanOrEqualSignaling = 9,
-    UnorderedNotGreaterThanSignaling = 10,
-    OrderedFalseNonSignaling = 11,
-    OrderedNotEqualNonSignaling = 12,
-    OrderedGreaterThanOrEqualSignaling = 13,
-    OrderedGreaterThanSignaling = 14,
-    UnorderedTrueNonSignaling = 15,
-    OrderedEqualSignaling = 16,
-    OrderedLessThanNonSignaling = 17,
-    OrderedLessThanOrEqualNonSignaling = 18,
-    UnorderedSignaling = 19,
-    UnorderedNotEqualSignaling = 20,
-    UnorderedNotLessThanNonSignaling = 21,
-    UnorderedNotLessThanOrEqualNonSignaling = 22,
-    OrderedSignaling = 23,
-    UnorderedEqualSignaling = 24,
-    UnorderedNotGreaterThanOrEqualNonSignaling = 25,
-    UnorderedNotGreaterThanNonSignaling = 26,
-    OrderedFalseSignaling = 27,
-    OrderedNotEqualSignaling = 28,
-    OrderedGreaterThanOrEqualNonSignaling = 29,
-    OrderedGreaterThanNonSignaling = 30,
-    UnorderedTrueSignaling = 31
-}
+export type FloatComparisonMode = number & { readonly __tsonic_type_System_Runtime_Intrinsics_X86_FloatComparisonMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FloatComparisonMode: {
+    readonly OrderedEqualNonSignaling: FloatComparisonMode;
+    readonly OrderedLessThanSignaling: FloatComparisonMode;
+    readonly OrderedLessThanOrEqualSignaling: FloatComparisonMode;
+    readonly UnorderedNonSignaling: FloatComparisonMode;
+    readonly UnorderedNotEqualNonSignaling: FloatComparisonMode;
+    readonly UnorderedNotLessThanSignaling: FloatComparisonMode;
+    readonly UnorderedNotLessThanOrEqualSignaling: FloatComparisonMode;
+    readonly OrderedNonSignaling: FloatComparisonMode;
+    readonly UnorderedEqualNonSignaling: FloatComparisonMode;
+    readonly UnorderedNotGreaterThanOrEqualSignaling: FloatComparisonMode;
+    readonly UnorderedNotGreaterThanSignaling: FloatComparisonMode;
+    readonly OrderedFalseNonSignaling: FloatComparisonMode;
+    readonly OrderedNotEqualNonSignaling: FloatComparisonMode;
+    readonly OrderedGreaterThanOrEqualSignaling: FloatComparisonMode;
+    readonly OrderedGreaterThanSignaling: FloatComparisonMode;
+    readonly UnorderedTrueNonSignaling: FloatComparisonMode;
+    readonly OrderedEqualSignaling: FloatComparisonMode;
+    readonly OrderedLessThanNonSignaling: FloatComparisonMode;
+    readonly OrderedLessThanOrEqualNonSignaling: FloatComparisonMode;
+    readonly UnorderedSignaling: FloatComparisonMode;
+    readonly UnorderedNotEqualSignaling: FloatComparisonMode;
+    readonly UnorderedNotLessThanNonSignaling: FloatComparisonMode;
+    readonly UnorderedNotLessThanOrEqualNonSignaling: FloatComparisonMode;
+    readonly OrderedSignaling: FloatComparisonMode;
+    readonly UnorderedEqualSignaling: FloatComparisonMode;
+    readonly UnorderedNotGreaterThanOrEqualNonSignaling: FloatComparisonMode;
+    readonly UnorderedNotGreaterThanNonSignaling: FloatComparisonMode;
+    readonly OrderedFalseSignaling: FloatComparisonMode;
+    readonly OrderedNotEqualSignaling: FloatComparisonMode;
+    readonly OrderedGreaterThanOrEqualNonSignaling: FloatComparisonMode;
+    readonly OrderedGreaterThanNonSignaling: FloatComparisonMode;
+    readonly UnorderedTrueSignaling: FloatComparisonMode;
+};
 
 
-export enum FloatRoundingMode {
-    ToEven = 8,
-    ToNegativeInfinity = 9,
-    ToPositiveInfinity = 10,
-    ToZero = 11
-}
+export type FloatRoundingMode = number & { readonly __tsonic_type_System_Runtime_Intrinsics_X86_FloatRoundingMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FloatRoundingMode: {
+    readonly ToEven: FloatRoundingMode;
+    readonly ToNegativeInfinity: FloatRoundingMode;
+    readonly ToPositiveInfinity: FloatRoundingMode;
+    readonly ToZero: FloatRoundingMode;
+};
 
 
 export interface Aes$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Aes: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -74,8 +81,11 @@ export const Aes: {
 
 export type Aes = Aes$instance;
 
-export interface Aes_X64$instance extends Sse2_X64 {
+export interface Aes_X64$instance extends Sse2_X64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Aes_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -89,6 +99,13 @@ export type Aes_X64 = Aes_X64$instance;
 
 export interface Avx$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -342,8 +359,15 @@ export const Avx: {
 
 export type Avx = Avx$instance;
 
-export interface Avx_X64$instance extends Sse42_X64 {
+export interface Avx_X64$instance extends Sse42_X64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -356,7 +380,16 @@ export const Avx_X64: {
 export type Avx_X64 = Avx_X64$instance;
 
 export interface Avx10v1$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v1: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -1053,8 +1086,19 @@ export const Avx10v1: {
 
 export type Avx10v1 = Avx10v1$instance;
 
-export interface Avx10v1_V512$instance extends Avx512BW {
+export interface Avx10v1_V512$instance extends Avx512BW$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v1_V512: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -1156,8 +1200,19 @@ export const Avx10v1_V512: {
 
 export type Avx10v1_V512 = Avx10v1_V512$instance;
 
-export interface Avx10v1_V512_X64$instance extends Avx512BW_X64 {
+export interface Avx10v1_V512_X64$instance extends Avx512BW_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v1_V512_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -1169,8 +1224,17 @@ export const Avx10v1_V512_X64: {
 
 export type Avx10v1_V512_X64 = Avx10v1_V512_X64$instance;
 
-export interface Avx10v1_X64$instance extends Avx2_X64 {
+export interface Avx10v1_X64$instance extends Avx2_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v1_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -1197,7 +1261,17 @@ export const Avx10v1_X64: {
 export type Avx10v1_X64 = Avx10v1_X64$instance;
 
 export interface Avx10v2$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v1: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -1229,8 +1303,20 @@ export const Avx10v2: {
 
 export type Avx10v2 = Avx10v2$instance;
 
-export interface Avx10v2_V512$instance extends Avx10v1_V512 {
+export interface Avx10v2_V512$instance extends Avx10v1_V512$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v1_V512: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v2_V512: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -1251,8 +1337,20 @@ export const Avx10v2_V512: {
 
 export type Avx10v2_V512 = Avx10v2_V512$instance;
 
-export interface Avx10v2_V512_X64$instance extends Avx10v1_V512_X64 {
+export interface Avx10v2_V512_X64$instance extends Avx10v1_V512_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v1_V512_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v2_V512_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -1264,8 +1362,18 @@ export const Avx10v2_V512_X64: {
 
 export type Avx10v2_V512_X64 = Avx10v2_V512_X64$instance;
 
-export interface Avx10v2_X64$instance extends Avx10v1_X64 {
+export interface Avx10v2_X64$instance extends Avx10v1_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v1_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx10v2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -1278,7 +1386,15 @@ export const Avx10v2_X64: {
 export type Avx10v2_X64 = Avx10v2_X64$instance;
 
 export interface Avx2$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -1675,8 +1791,16 @@ export const Avx2: {
 
 export type Avx2 = Avx2$instance;
 
-export interface Avx2_X64$instance extends Avx_X64 {
+export interface Avx2_X64$instance extends Avx_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -1689,7 +1813,17 @@ export const Avx2_X64: {
 export type Avx2_X64 = Avx2_X64$instance;
 
 export interface Avx512BW$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -1842,8 +1976,9 @@ export const Avx512BW: {
 
 export type Avx512BW = Avx512BW$instance;
 
-export interface Avx512BW_VL$instance extends Avx512F_VL {
+export interface Avx512BW_VL$instance extends Avx512F_VL$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW_VL: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_VL: never;
 
 }
 
@@ -1959,8 +2094,18 @@ export const Avx512BW_VL: {
 
 export type Avx512BW_VL = Avx512BW_VL$instance;
 
-export interface Avx512BW_X64$instance extends Avx512F_X64 {
+export interface Avx512BW_X64$instance extends Avx512F_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -1973,7 +2118,17 @@ export const Avx512BW_X64: {
 export type Avx512BW_X64 = Avx512BW_X64$instance;
 
 export interface Avx512CD$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512CD: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -1993,8 +2148,9 @@ export const Avx512CD: {
 
 export type Avx512CD = Avx512CD$instance;
 
-export interface Avx512CD_VL$instance extends Avx512F_VL {
+export interface Avx512CD_VL$instance extends Avx512F_VL$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512CD_VL: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_VL: never;
 
 }
 
@@ -2022,8 +2178,18 @@ export const Avx512CD_VL: {
 
 export type Avx512CD_VL = Avx512CD_VL$instance;
 
-export interface Avx512CD_X64$instance extends Avx512F_X64 {
+export interface Avx512CD_X64$instance extends Avx512F_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512CD_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -2036,7 +2202,17 @@ export const Avx512CD_X64: {
 export type Avx512CD_X64 = Avx512CD_X64$instance;
 
 export interface Avx512DQ$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512DQ: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -2124,8 +2300,9 @@ export const Avx512DQ: {
 
 export type Avx512DQ = Avx512DQ$instance;
 
-export interface Avx512DQ_VL$instance extends Avx512F_VL {
+export interface Avx512DQ_VL$instance extends Avx512F_VL$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512DQ_VL: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_VL: never;
 
 }
 
@@ -2182,8 +2359,18 @@ export const Avx512DQ_VL: {
 
 export type Avx512DQ_VL = Avx512DQ_VL$instance;
 
-export interface Avx512DQ_X64$instance extends Avx512F_X64 {
+export interface Avx512DQ_X64$instance extends Avx512F_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512DQ_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -2196,7 +2383,16 @@ export const Avx512DQ_X64: {
 export type Avx512DQ_X64 = Avx512DQ_X64$instance;
 
 export interface Avx512F$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3158,8 +3354,17 @@ export const Avx512F_VL: {
 
 export type Avx512F_VL = Avx512F_VL$instance;
 
-export interface Avx512F_X64$instance extends Avx2_X64 {
+export interface Avx512F_X64$instance extends Avx2_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3186,7 +3391,18 @@ export const Avx512F_X64: {
 export type Avx512F_X64 = Avx512F_X64$instance;
 
 export interface Avx512Vbmi$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512Vbmi: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3204,7 +3420,9 @@ export const Avx512Vbmi: {
 
 export type Avx512Vbmi = Avx512Vbmi$instance;
 
-export interface Avx512Vbmi_VL$instance extends Avx512BW_VL {
+export interface Avx512Vbmi_VL$instance extends Avx512BW_VL$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW_VL: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_VL: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512Vbmi_VL: never;
 
 }
@@ -3229,8 +3447,19 @@ export const Avx512Vbmi_VL: {
 
 export type Avx512Vbmi_VL = Avx512Vbmi_VL$instance;
 
-export interface Avx512Vbmi_X64$instance extends Avx512BW_X64 {
+export interface Avx512Vbmi_X64$instance extends Avx512BW_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512Vbmi_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3243,7 +3472,19 @@ export const Avx512Vbmi_X64: {
 export type Avx512Vbmi_X64 = Avx512Vbmi_X64$instance;
 
 export interface Avx512Vbmi2$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512Vbmi: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512Vbmi2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3271,7 +3512,10 @@ export const Avx512Vbmi2: {
 
 export type Avx512Vbmi2 = Avx512Vbmi2$instance;
 
-export interface Avx512Vbmi2_VL$instance extends Avx512Vbmi_VL {
+export interface Avx512Vbmi2_VL$instance extends Avx512Vbmi_VL$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW_VL: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_VL: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512Vbmi_VL: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512Vbmi2_VL: never;
 
 }
@@ -3316,8 +3560,20 @@ export const Avx512Vbmi2_VL: {
 
 export type Avx512Vbmi2_VL = Avx512Vbmi2_VL$instance;
 
-export interface Avx512Vbmi2_X64$instance extends Avx512Vbmi_X64 {
+export interface Avx512Vbmi2_X64$instance extends Avx512Vbmi_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512BW_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512F_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512Vbmi_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx512Vbmi2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3330,7 +3586,16 @@ export const Avx512Vbmi2_X64: {
 export type Avx512Vbmi2_X64 = Avx512Vbmi2_X64$instance;
 
 export interface AvxVnni$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_AvxVnni: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3350,8 +3615,17 @@ export const AvxVnni: {
 
 export type AvxVnni = AvxVnni$instance;
 
-export interface AvxVnni_X64$instance extends Avx2_X64 {
+export interface AvxVnni_X64$instance extends Avx2_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_AvxVnni_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3364,7 +3638,16 @@ export const AvxVnni_X64: {
 export type AvxVnni_X64 = AvxVnni_X64$instance;
 
 export interface AvxVnniInt16$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_AvxVnniInt16: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3407,8 +3690,17 @@ export const AvxVnniInt16_V512: {
 
 export type AvxVnniInt16_V512 = AvxVnniInt16_V512$instance;
 
-export interface AvxVnniInt16_X64$instance extends Avx2_X64 {
+export interface AvxVnniInt16_X64$instance extends Avx2_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_AvxVnniInt16_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3421,7 +3713,16 @@ export const AvxVnniInt16_X64: {
 export type AvxVnniInt16_X64 = AvxVnniInt16_X64$instance;
 
 export interface AvxVnniInt8$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_AvxVnniInt8: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3464,8 +3765,17 @@ export const AvxVnniInt8_V512: {
 
 export type AvxVnniInt8_V512 = AvxVnniInt8_V512$instance;
 
-export interface AvxVnniInt8_X64$instance extends Avx2_X64 {
+export interface AvxVnniInt8_X64$instance extends Avx2_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx2_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_AvxVnniInt8_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3479,6 +3789,7 @@ export type AvxVnniInt8_X64 = AvxVnniInt8_X64$instance;
 
 export interface Bmi1$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Bmi1: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3497,8 +3808,9 @@ export const Bmi1: {
 
 export type Bmi1 = Bmi1$instance;
 
-export interface Bmi1_X64$instance extends X86Base_X64 {
+export interface Bmi1_X64$instance extends X86Base_X64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Bmi1_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3519,6 +3831,7 @@ export type Bmi1_X64 = Bmi1_X64$instance;
 
 export interface Bmi2$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Bmi2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3535,8 +3848,9 @@ export const Bmi2: {
 
 export type Bmi2 = Bmi2$instance;
 
-export interface Bmi2_X64$instance extends X86Base_X64 {
+export interface Bmi2_X64$instance extends X86Base_X64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Bmi2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3554,7 +3868,15 @@ export const Bmi2_X64: {
 export type Bmi2_X64 = Bmi2_X64$instance;
 
 export interface Fma$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Fma: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3598,8 +3920,16 @@ export const Fma: {
 
 export type Fma = Fma$instance;
 
-export interface Fma_X64$instance extends Avx_X64 {
+export interface Fma_X64$instance extends Avx_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Avx_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Fma_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3613,6 +3943,12 @@ export type Fma_X64 = Fma_X64$instance;
 
 export interface Gfni$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Gfni: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3659,8 +3995,14 @@ export const Gfni_V512: {
 
 export type Gfni_V512 = Gfni_V512$instance;
 
-export interface Gfni_X64$instance extends Sse41_X64 {
+export interface Gfni_X64$instance extends Sse41_X64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Gfni_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3674,6 +4016,7 @@ export type Gfni_X64 = Gfni_X64$instance;
 
 export interface Lzcnt$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Lzcnt: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3686,8 +4029,9 @@ export const Lzcnt: {
 
 export type Lzcnt = Lzcnt$instance;
 
-export interface Lzcnt_X64$instance extends X86Base_X64 {
+export interface Lzcnt_X64$instance extends X86Base_X64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Lzcnt_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3702,6 +4046,9 @@ export type Lzcnt_X64 = Lzcnt_X64$instance;
 
 export interface Pclmulqdq$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Pclmulqdq: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3745,8 +4092,11 @@ export const Pclmulqdq_V512: {
 
 export type Pclmulqdq_V512 = Pclmulqdq_V512$instance;
 
-export interface Pclmulqdq_X64$instance extends Sse2_X64 {
+export interface Pclmulqdq_X64$instance extends Sse2_X64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Pclmulqdq_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3760,6 +4110,13 @@ export type Pclmulqdq_X64 = Pclmulqdq_X64$instance;
 
 export interface Popcnt$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Popcnt: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3772,8 +4129,15 @@ export const Popcnt: {
 
 export type Popcnt = Popcnt$instance;
 
-export interface Popcnt_X64$instance extends Sse42_X64 {
+export interface Popcnt_X64$instance extends Sse42_X64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Popcnt_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3788,6 +4152,7 @@ export type Popcnt_X64 = Popcnt_X64$instance;
 
 export interface Sse$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -3886,8 +4251,9 @@ export const Sse: {
 
 export type Sse = Sse$instance;
 
-export interface Sse_X64$instance extends X86Base_X64 {
+export interface Sse_X64$instance extends X86Base_X64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -3903,7 +4269,9 @@ export const Sse_X64: {
 export type Sse_X64 = Sse_X64$instance;
 
 export interface Sse2$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -4200,8 +4568,10 @@ export const Sse2: {
 
 export type Sse2 = Sse2$instance;
 
-export interface Sse2_X64$instance extends Sse_X64 {
+export interface Sse2_X64$instance extends Sse_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -4223,7 +4593,10 @@ export const Sse2_X64: {
 export type Sse2_X64 = Sse2_X64$instance;
 
 export interface Sse3$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -4253,8 +4626,11 @@ export const Sse3: {
 
 export type Sse3 = Sse3$instance;
 
-export interface Sse3_X64$instance extends Sse2_X64 {
+export interface Sse3_X64$instance extends Sse2_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -4267,7 +4643,12 @@ export const Sse3_X64: {
 export type Sse3_X64 = Sse3_X64$instance;
 
 export interface Sse41$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -4418,8 +4799,13 @@ export const Sse41: {
 
 export type Sse41 = Sse41$instance;
 
-export interface Sse41_X64$instance extends Ssse3_X64 {
+export interface Sse41_X64$instance extends Ssse3_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -4436,7 +4822,13 @@ export const Sse41_X64: {
 export type Sse41_X64 = Sse41_X64$instance;
 
 export interface Sse42$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -4452,8 +4844,14 @@ export const Sse42: {
 
 export type Sse42 = Sse42$instance;
 
-export interface Sse42_X64$instance extends Sse41_X64 {
+export interface Sse42_X64$instance extends Sse41_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse41_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse42_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -4467,7 +4865,11 @@ export const Sse42_X64: {
 export type Sse42_X64 = Sse42_X64$instance;
 
 export interface Ssse3$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
 
 }
 
@@ -4503,8 +4905,12 @@ export const Ssse3: {
 
 export type Ssse3 = Ssse3$instance;
 
-export interface Ssse3_X64$instance extends Sse3_X64 {
+export interface Ssse3_X64$instance extends Sse3_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse2_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_Sse3_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_Ssse3_X64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
 
 }
 
@@ -4551,6 +4957,7 @@ export const X86Base_X64: {
 export type X86Base_X64 = X86Base_X64$instance;
 
 export interface X86Serialize$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Serialize: never;
 
 }
@@ -4564,7 +4971,8 @@ export const X86Serialize: {
 
 export type X86Serialize = X86Serialize$instance;
 
-export interface X86Serialize_X64$instance extends X86Base_X64 {
+export interface X86Serialize_X64$instance extends X86Base_X64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Base_X64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_X86_X86Serialize_X64: never;
 
 }

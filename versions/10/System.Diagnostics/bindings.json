@@ -4904,12 +4904,12 @@
             "targetName": "HasRemoteParent",
             "metadataToken": 385875997,
             "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "HasRemoteParent|:System.Boolean|static=false|accessor=getset",
+            "normalizedSignature": "HasRemoteParent|:System.Boolean|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -4942,12 +4942,12 @@
             "targetName": "Kind",
             "metadataToken": 385875999,
             "canonicalSignature": ":System.Diagnostics.ActivityKind",
-            "normalizedSignature": "Kind|:System.Diagnostics.ActivityKind|static=false|accessor=getset",
+            "normalizedSignature": "Kind|:System.Diagnostics.ActivityKind|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -4999,12 +4999,12 @@
             "targetName": "Source",
             "metadataToken": 385876002,
             "canonicalSignature": ":System.Diagnostics.ActivitySource",
-            "normalizedSignature": "Source|:System.Diagnostics.ActivitySource|static=false|accessor=getset",
+            "normalizedSignature": "Source|:System.Diagnostics.ActivitySource|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5018,12 +5018,12 @@
             "targetName": "Parent",
             "metadataToken": 385876003,
             "canonicalSignature": ":System.Diagnostics.Activity",
-            "normalizedSignature": "Parent|:System.Diagnostics.Activity|static=false|accessor=getset",
+            "normalizedSignature": "Parent|:System.Diagnostics.Activity|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5037,12 +5037,12 @@
             "targetName": "Duration",
             "metadataToken": 385876004,
             "canonicalSignature": ":System.TimeSpan",
-            "normalizedSignature": "Duration|:System.TimeSpan|static=false|accessor=getset",
+            "normalizedSignature": "Duration|:System.TimeSpan|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5056,12 +5056,12 @@
             "targetName": "StartTimeUtc",
             "metadataToken": 385876005,
             "canonicalSignature": ":System.DateTime",
-            "normalizedSignature": "StartTimeUtc|:System.DateTime|static=false|accessor=getset",
+            "normalizedSignature": "StartTimeUtc|:System.DateTime|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5417,12 +5417,12 @@
             "targetName": "IsStopped",
             "metadataToken": 385876025,
             "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "IsStopped|:System.Boolean|static=false|accessor=getset",
+            "normalizedSignature": "IsStopped|:System.Boolean|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5436,12 +5436,12 @@
             "targetName": "IdFormat",
             "metadataToken": 385876026,
             "canonicalSignature": ":System.Diagnostics.ActivityIdFormat",
-            "normalizedSignature": "IdFormat|:System.Diagnostics.ActivityIdFormat|static=false|accessor=getset",
+            "normalizedSignature": "IdFormat|:System.Diagnostics.ActivityIdFormat|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -9706,19 +9706,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticSource::.ctor():void",
-            "metadataToken": 100663679,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.DiagnosticSource",
-            "ownerIdentity": "System.Diagnostics.DiagnosticSource"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator",
@@ -9949,19 +9937,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator::.ctor():void",
-            "metadataToken": 100663790,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.DistributedContextPropagator",
-            "ownerIdentity": "System.Diagnostics.DiagnosticSource"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DistributedContextPropagator+PropagatorGetterCallback",
@@ -11291,26 +11267,6 @@
             "isOverride": false,
             "isSealed": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Diagnostics.Process",
-            "ownerIdentity": "System.Diagnostics.Process",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::OnExited():System.Void",
-            "targetName": "OnExited",
-            "metadataToken": 100663576,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "OnExited|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Diagnostics.Process",
             "ownerIdentity": "System.Diagnostics.Process",
             "isExtensionMethod": false
@@ -12928,12 +12884,12 @@
             "targetName": "BaseAddress",
             "metadataToken": 385876096,
             "canonicalSignature": ":System.IntPtr",
-            "normalizedSignature": "BaseAddress|:System.IntPtr|static=false|accessor=getset",
+            "normalizedSignature": "BaseAddress|:System.IntPtr|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -12947,12 +12903,12 @@
             "targetName": "ModuleMemorySize",
             "metadataToken": 385876097,
             "canonicalSignature": ":System.Int32",
-            "normalizedSignature": "ModuleMemorySize|:System.Int32|static=false|accessor=getset",
+            "normalizedSignature": "ModuleMemorySize|:System.Int32|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -12966,12 +12922,12 @@
             "targetName": "EntryPointAddress",
             "metadataToken": 385876098,
             "canonicalSignature": ":System.IntPtr",
-            "normalizedSignature": "EntryPointAddress|:System.IntPtr|static=false|accessor=getset",
+            "normalizedSignature": "EntryPointAddress|:System.IntPtr|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -13237,17 +13193,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessModuleCollection::.ctor():void",
-            "metadataToken": 100663748,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.ProcessModuleCollection",
-            "ownerIdentity": "System.Diagnostics.Process"
-          },
           {
             "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessModuleCollection::.ctor(System.Diagnostics.ProcessModule[]):void",
             "metadataToken": 100663749,
@@ -14456,17 +14401,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessThreadCollection::.ctor():void",
-            "metadataToken": 100663837,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.ProcessThreadCollection",
-            "ownerIdentity": "System.Diagnostics.Process"
-          },
-          {
             "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessThreadCollection::.ctor(System.Diagnostics.ProcessThread[]):void",
             "metadataToken": 100663838,
             "canonicalSignature": "(System.Diagnostics.ProcessThread[]):void",
@@ -15631,25 +15565,6 @@
             "ownerIdentity": "System.Diagnostics.TraceSource"
           },
           {
-            "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Switch::SwitchSetting:System.Int32",
-            "targetName": "SwitchSetting",
-            "metadataToken": 385876003,
-            "canonicalSignature": ":System.Int32",
-            "normalizedSignature": "SwitchSetting|:System.Int32|static=false|accessor=getset",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": true,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.Switch",
-            "ownerIdentity": "System.Diagnostics.TraceSource"
-          },
-          {
             "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Switch::DefaultValue:System.String",
             "targetName": "DefaultValue",
             "metadataToken": 385876004,
@@ -15701,30 +15616,7 @@
             "ownerIdentity": "System.Diagnostics.TraceSource"
           }
         ],
-        "constructors": [
-          {
-            "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Switch::.ctor(System.String,System.String):void",
-            "metadataToken": 100663385,
-            "canonicalSignature": "(System.String,System.String):void",
-            "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.Switch",
-            "ownerIdentity": "System.Diagnostics.TraceSource"
-          },
-          {
-            "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Switch::.ctor(System.String,System.String,System.String):void",
-            "metadataToken": 100663386,
-            "canonicalSignature": "(System.String,System.String,System.String):void",
-            "normalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
-            "isStatic": false,
-            "parameterCount": 3,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.Switch",
-            "ownerIdentity": "System.Diagnostics.TraceSource"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.SwitchAttribute",
@@ -17254,19 +17146,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceFilter::.ctor():void",
-            "metadataToken": 100663464,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.TraceFilter",
-            "ownerIdentity": "System.Diagnostics.TraceSource"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener",
@@ -17868,25 +17748,6 @@
             "ownerIdentity": "System.Diagnostics.TraceSource"
           },
           {
-            "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::NeedIndent:System.Boolean",
-            "targetName": "NeedIndent",
-            "metadataToken": 385876030,
-            "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "NeedIndent|:System.Boolean|static=false|accessor=getset",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": true,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.TraceListener",
-            "ownerIdentity": "System.Diagnostics.TraceSource"
-          },
-          {
             "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::TraceOutputOptions:System.Diagnostics.TraceOptions",
             "targetName": "TraceOutputOptions",
             "metadataToken": 385876031,
@@ -17908,30 +17769,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::.ctor():void",
-            "metadataToken": 100663510,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.TraceListener",
-            "ownerIdentity": "System.Diagnostics.TraceSource"
-          },
-          {
-            "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::.ctor(System.String):void",
-            "metadataToken": 100663511,
-            "canonicalSignature": "(System.String):void",
-            "normalizedSignature": "constructor|(System.String):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Diagnostics.TraceListener",
-            "ownerIdentity": "System.Diagnostics.TraceSource"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection",

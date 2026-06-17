@@ -23,18 +23,15 @@ export interface DataContract$instance {
     readonly ContractType: string | null;
     readonly DataMembers: ReadOnlyCollection_1<DataMember>;
     readonly IsBuiltInDataContract: boolean;
-    IsISerializable: boolean;
-    IsReference: boolean;
-    IsValueType: boolean;
-    get KnownDataContracts(): Dictionary_2<XmlQualifiedName, DataContract> | null;
-    set KnownDataContracts(value: Dictionary_2<XmlQualifiedName, DataContract> | null);
+    readonly IsISerializable: boolean;
+    readonly IsReference: boolean;
+    readonly IsValueType: boolean;
+    readonly KnownDataContracts: Dictionary_2<XmlQualifiedName, DataContract> | null;
     readonly OriginalUnderlyingType: Type;
-    get TopLevelElementName(): XmlDictionaryString | null;
-    set TopLevelElementName(value: XmlDictionaryString | null);
-    get TopLevelElementNamespace(): XmlDictionaryString | null;
-    set TopLevelElementNamespace(value: XmlDictionaryString | null);
+    readonly TopLevelElementName: XmlDictionaryString | null;
+    readonly TopLevelElementNamespace: XmlDictionaryString | null;
     readonly UnderlyingType: Type;
-    XmlName: XmlQualifiedName;
+    readonly XmlName: XmlQualifiedName;
     Equals(obj: unknown | null): boolean;
     GetArrayTypeName(isNullable: boolean): XmlQualifiedName;
     GetHashCode(): int;
@@ -54,15 +51,14 @@ export interface DataContractSet$instance {
     readonly __tsonic_type_System_Runtime_Serialization_DataContracts_DataContractSet: never;
 
     readonly Contracts: Dictionary_2<XmlQualifiedName, DataContract>;
-    get KnownTypesForObject(): Dictionary_2<XmlQualifiedName, DataContract> | null;
-    set KnownTypesForObject(value: Dictionary_2<XmlQualifiedName, DataContract> | null);
+    readonly KnownTypesForObject: Dictionary_2<XmlQualifiedName, DataContract> | null;
     readonly ProcessedContracts: Dictionary_2<DataContract, unknown>;
     readonly SurrogateData: Hashtable;
-    GetDataContract(type: Type): DataContract;
     GetDataContract(key: XmlQualifiedName): DataContract | null;
+    GetDataContract(type: Type): DataContract;
     GetReferencedType(xmlName: XmlQualifiedName, dataContract: DataContract, referencedContract: DataContract | null, genericParameters: unknown[] | null, supportGenericTypes?: Nullable_1<System_Internal.Boolean>): Type | null;
-    ImportSchemaSet(schemaSet: XmlSchemaSet, typeNames: IEnumerable_1<XmlQualifiedName> | null, importXmlDataType: boolean): void;
     ImportSchemaSet(schemaSet: XmlSchemaSet, elements: IEnumerable_1<XmlSchemaElement>, importXmlDataType: boolean): List_1<XmlQualifiedName>;
+    ImportSchemaSet(schemaSet: XmlSchemaSet, typeNames: IEnumerable_1<XmlQualifiedName> | null, importXmlDataType: boolean): void;
 }
 
 
@@ -77,12 +73,12 @@ export type DataContractSet = DataContractSet$instance;
 export interface DataMember$instance {
     readonly __tsonic_type_System_Runtime_Serialization_DataContracts_DataMember: never;
 
-    EmitDefaultValue: boolean;
-    IsNullable: boolean;
-    IsRequired: boolean;
+    readonly EmitDefaultValue: boolean;
+    readonly IsNullable: boolean;
+    readonly IsRequired: boolean;
     readonly MemberTypeContract: DataContract;
-    Name: string;
-    Order: long;
+    readonly Name: string;
+    readonly Order: long;
 }
 
 
@@ -92,24 +88,15 @@ export const DataMember: {
 
 export type DataMember = DataMember$instance;
 
-export interface XmlDataContract$instance extends DataContract {
+export interface XmlDataContract$instance extends DataContract$instance {
+    readonly __tsonic_type_System_Runtime_Serialization_DataContracts_DataContract: never;
     readonly __tsonic_type_System_Runtime_Serialization_DataContracts_XmlDataContract: never;
 
-    readonly ContractType: string | null;
-    HasRoot: boolean;
+    readonly HasRoot: boolean;
     readonly IsAnonymous: boolean;
-    readonly IsBuiltInDataContract: boolean;
-    IsTopLevelElementNullable: boolean;
+    readonly IsTopLevelElementNullable: boolean;
     IsTypeDefinedOnImport: boolean;
-    IsValueType: boolean;
-    get KnownDataContracts(): Dictionary_2<XmlQualifiedName, DataContract> | null;
-    set KnownDataContracts(value: Dictionary_2<XmlQualifiedName, DataContract> | null);
-    get TopLevelElementName(): XmlDictionaryString | null;
-    set TopLevelElementName(value: XmlDictionaryString | null);
-    get TopLevelElementNamespace(): XmlDictionaryString | null;
-    set TopLevelElementNamespace(value: XmlDictionaryString | null);
-    get XsdType(): XmlSchemaType | null;
-    set XsdType(value: XmlSchemaType | null);
+    readonly XsdType: XmlSchemaType | null;
 }
 
 

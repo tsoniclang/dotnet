@@ -4615,19 +4615,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.OrderablePartitioner`1::.ctor(System.Boolean,System.Boolean,System.Boolean):void",
-            "metadataToken": 100663611,
-            "canonicalSignature": "(System.Boolean,System.Boolean,System.Boolean):void",
-            "normalizedSignature": "constructor|(System.Boolean,System.Boolean,System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 3,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.Concurrent.OrderablePartitioner`1",
-            "ownerIdentity": "System.Collections.Concurrent"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner`1",
@@ -4712,19 +4700,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner`1::.ctor():void",
-            "metadataToken": 100663632,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.Concurrent.Partitioner`1",
-            "ownerIdentity": "System.Collections.Concurrent"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner",

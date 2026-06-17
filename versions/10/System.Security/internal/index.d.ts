@@ -16,27 +16,34 @@ import type { PermissionState } from "../../System.Security.Permissions/internal
 import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum PartialTrustVisibilityLevel {
-    VisibleToAllHosts = 0,
-    NotVisibleByDefault = 1
-}
+export type PartialTrustVisibilityLevel = number & { readonly __tsonic_type_System_Security_PartialTrustVisibilityLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PartialTrustVisibilityLevel: {
+    readonly VisibleToAllHosts: PartialTrustVisibilityLevel;
+    readonly NotVisibleByDefault: PartialTrustVisibilityLevel;
+};
 
 
-export enum SecurityCriticalScope {
-    Explicit = 0,
-    Everything = 1
-}
+export type SecurityCriticalScope = number & { readonly __tsonic_type_System_Security_SecurityCriticalScope: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SecurityCriticalScope: {
+    readonly Explicit: SecurityCriticalScope;
+    readonly Everything: SecurityCriticalScope;
+};
 
 
-export enum SecurityRuleSet {
-    None = 0,
-    Level1 = 1,
-    Level2 = 2
-}
+export type SecurityRuleSet = number & { readonly __tsonic_type_System_Security_SecurityRuleSet: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SecurityRuleSet: {
+    readonly None: SecurityRuleSet;
+    readonly Level1: SecurityRuleSet;
+    readonly Level2: SecurityRuleSet;
+};
 
 
-export interface IPermission$instance extends ISecurityEncodable {
+export interface IPermission$instance {
     readonly __tsonic_iface_System_Security_IPermission: never;
+    readonly __tsonic_iface_System_Security_ISecurityEncodable: never;
 
     Copy(): IPermission;
     Demand(): void;
@@ -70,7 +77,8 @@ export interface IStackWalk$instance {
 
 export type IStackWalk = IStackWalk$instance;
 
-export interface AllowPartiallyTrustedCallersAttribute$instance extends Attribute {
+export interface AllowPartiallyTrustedCallersAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Security_AllowPartiallyTrustedCallersAttribute: never;
 
     PartialTrustVisibilityLevel: PartialTrustVisibilityLevel;
@@ -84,7 +92,7 @@ export const AllowPartiallyTrustedCallersAttribute: {
 
 export type AllowPartiallyTrustedCallersAttribute = AllowPartiallyTrustedCallersAttribute$instance;
 
-export interface PermissionSet$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, ISecurityEncodable$instance, IStackWalk$instance {
+export interface PermissionSet$instance {
     readonly __tsonic_type_System_Security_PermissionSet: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -146,7 +154,7 @@ export interface __PermissionSet$views {
 export type PermissionSet = PermissionSet$instance & __PermissionSet$views;
 
 
-export interface SecureString$instance extends System_Internal.IDisposable$instance {
+export interface SecureString$instance {
     readonly __tsonic_type_System_Security_SecureString: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -177,7 +185,8 @@ export interface __SecureString$views {
 export type SecureString = SecureString$instance & __SecureString$views;
 
 
-export interface SecurityCriticalAttribute$instance extends Attribute {
+export interface SecurityCriticalAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Security_SecurityCriticalAttribute: never;
 
     readonly Scope: SecurityCriticalScope;
@@ -227,8 +236,10 @@ export const SecurityElement: {
 
 export type SecurityElement = SecurityElement$instance;
 
-export interface SecurityException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SecurityException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Security_SecurityException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -252,8 +263,8 @@ export interface SecurityException$instance extends SystemException, System_Runt
     set RefusedSet(value: string | null);
     get Url(): string | null;
     set Url(value: string | null);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    ToString(): string;
+    GetObjectData: System_Internal.SystemException$instance["GetObjectData"] & ((info: SerializationInfo, context: StreamingContext) => void);
+    ToString: System_Internal.SystemException$instance["ToString"] & (() => string);
 }
 
 
@@ -273,7 +284,8 @@ export interface __SecurityException$views {
 export type SecurityException = SecurityException$instance & __SecurityException$views;
 
 
-export interface SecurityRulesAttribute$instance extends Attribute {
+export interface SecurityRulesAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Security_SecurityRulesAttribute: never;
 
     readonly RuleSet: SecurityRuleSet;
@@ -288,7 +300,8 @@ export const SecurityRulesAttribute: {
 
 export type SecurityRulesAttribute = SecurityRulesAttribute$instance;
 
-export interface SecuritySafeCriticalAttribute$instance extends Attribute {
+export interface SecuritySafeCriticalAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Security_SecuritySafeCriticalAttribute: never;
 
 }
@@ -301,7 +314,8 @@ export const SecuritySafeCriticalAttribute: {
 
 export type SecuritySafeCriticalAttribute = SecuritySafeCriticalAttribute$instance;
 
-export interface SecurityTransparentAttribute$instance extends Attribute {
+export interface SecurityTransparentAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Security_SecurityTransparentAttribute: never;
 
 }
@@ -314,7 +328,8 @@ export const SecurityTransparentAttribute: {
 
 export type SecurityTransparentAttribute = SecurityTransparentAttribute$instance;
 
-export interface SecurityTreatAsSafeAttribute$instance extends Attribute {
+export interface SecurityTreatAsSafeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Security_SecurityTreatAsSafeAttribute: never;
 
 }
@@ -327,7 +342,8 @@ export const SecurityTreatAsSafeAttribute: {
 
 export type SecurityTreatAsSafeAttribute = SecurityTreatAsSafeAttribute$instance;
 
-export interface SuppressUnmanagedCodeSecurityAttribute$instance extends Attribute {
+export interface SuppressUnmanagedCodeSecurityAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Security_SuppressUnmanagedCodeSecurityAttribute: never;
 
 }
@@ -340,7 +356,8 @@ export const SuppressUnmanagedCodeSecurityAttribute: {
 
 export type SuppressUnmanagedCodeSecurityAttribute = SuppressUnmanagedCodeSecurityAttribute$instance;
 
-export interface UnverifiableCodeAttribute$instance extends Attribute {
+export interface UnverifiableCodeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Security_UnverifiableCodeAttribute: never;
 
 }
@@ -353,8 +370,10 @@ export const UnverifiableCodeAttribute: {
 
 export type UnverifiableCodeAttribute = UnverifiableCodeAttribute$instance;
 
-export interface VerificationException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface VerificationException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Security_VerificationException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 

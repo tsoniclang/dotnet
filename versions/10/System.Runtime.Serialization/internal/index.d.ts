@@ -10,7 +10,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import type { ICollection_1, IEnumerable_1 } from "../../System.Collections.Generic/internal/index.js";
 import type { Collection_1, ReadOnlyCollection_1 } from "../../System.Collections.ObjectModel/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { IDictionary, IEnumerator, Queue } from "../../System.Collections/internal/index.js";
+import type { IDictionary, IEnumerator } from "../../System.Collections/internal/index.js";
 import type { DateTimeStyles } from "../../System.Globalization/internal/index.js";
 import type { Stream } from "../../System.IO/internal/index.js";
 import type { Assembly, ConstructorInfo, MemberInfo, MethodBase, MethodInfo, PropertyInfo } from "../../System.Reflection/internal/index.js";
@@ -21,24 +21,28 @@ import type { XmlDictionaryReader, XmlDictionaryString, XmlDictionaryWriter, Xml
 import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Delegate, Double, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, SByte, Single, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
-export enum EmitTypeInformation {
-    AsNeeded = 0,
-    Always = 1,
-    Never = 2
-}
+export type EmitTypeInformation = number & { readonly __tsonic_type_System_Runtime_Serialization_EmitTypeInformation: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EmitTypeInformation: {
+    readonly AsNeeded: EmitTypeInformation;
+    readonly Always: EmitTypeInformation;
+    readonly Never: EmitTypeInformation;
+};
 
 
-export enum StreamingContextStates {
-    CrossProcess = 1,
-    CrossMachine = 2,
-    File = 4,
-    Persistence = 8,
-    Remoting = 16,
-    Other = 32,
-    Clone = 64,
-    CrossAppDomain = 128,
-    All = 255
-}
+export type StreamingContextStates = number & { readonly __tsonic_type_System_Runtime_Serialization_StreamingContextStates: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const StreamingContextStates: {
+    readonly CrossProcess: StreamingContextStates;
+    readonly CrossMachine: StreamingContextStates;
+    readonly File: StreamingContextStates;
+    readonly Persistence: StreamingContextStates;
+    readonly Remoting: StreamingContextStates;
+    readonly Other: StreamingContextStates;
+    readonly Clone: StreamingContextStates;
+    readonly CrossAppDomain: StreamingContextStates;
+    readonly All: StreamingContextStates;
+};
 
 
 export type SerializationEventHandler = (context: StreamingContext) => void;
@@ -150,7 +154,8 @@ export interface ISerializationSurrogateProvider$instance {
 
 export type ISerializationSurrogateProvider = ISerializationSurrogateProvider$instance;
 
-export interface ISerializationSurrogateProvider2$instance extends ISerializationSurrogateProvider {
+export interface ISerializationSurrogateProvider2$instance {
+    readonly __tsonic_iface_System_Runtime_Serialization_ISerializationSurrogateProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializationSurrogateProvider2: never;
 
     GetCustomDataToExport(memberInfo: MemberInfo, dataContractType: Type): unknown | null;
@@ -177,8 +182,9 @@ export interface ISurrogateSelector$instance {
 
 export type ISurrogateSelector = ISurrogateSelector$instance;
 
-export interface DeserializationToken$instance extends System_Internal.IDisposable$instance {
+export interface DeserializationToken$instance {
     readonly __tsonic_type_System_Runtime_Serialization_DeserializationToken: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -200,6 +206,7 @@ export type DeserializationToken = DeserializationToken$instance & __Deserializa
 
 export interface SerializationEntry$instance {
     readonly __tsonic_type_System_Runtime_Serialization_SerializationEntry: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Name: string;
     readonly ObjectType: Type;
@@ -216,6 +223,7 @@ export type SerializationEntry = SerializationEntry$instance;
 
 export interface StreamingContext$instance {
     readonly __tsonic_type_System_Runtime_Serialization_StreamingContext: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Context: unknown | null;
     readonly State: StreamingContextStates;
@@ -232,7 +240,8 @@ export const StreamingContext: {
 
 export type StreamingContext = StreamingContext$instance;
 
-export interface CollectionDataContractAttribute$instance extends Attribute {
+export interface CollectionDataContractAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_CollectionDataContractAttribute: never;
 
     readonly IsItemNameSetExplicitly: boolean;
@@ -262,7 +271,8 @@ export const CollectionDataContractAttribute: {
 
 export type CollectionDataContractAttribute = CollectionDataContractAttribute$instance;
 
-export interface ContractNamespaceAttribute$instance extends Attribute {
+export interface ContractNamespaceAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_ContractNamespaceAttribute: never;
 
     get ClrNamespace(): string | null;
@@ -278,7 +288,8 @@ export const ContractNamespaceAttribute: {
 
 export type ContractNamespaceAttribute = ContractNamespaceAttribute$instance;
 
-export interface DataContractAttribute$instance extends Attribute {
+export interface DataContractAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_DataContractAttribute: never;
 
     readonly IsNameSetExplicitly: boolean;
@@ -307,14 +318,15 @@ export interface DataContractResolver$instance {
 }
 
 
-export const DataContractResolver: (abstract new() => DataContractResolver) & {
+export const DataContractResolver: {
 };
 
 
 export type DataContractResolver = DataContractResolver$instance;
 
-export interface DataContractSerializer$instance extends XmlObjectSerializer {
+export interface DataContractSerializer$instance extends XmlObjectSerializer$instance {
     readonly __tsonic_type_System_Runtime_Serialization_DataContractSerializer: never;
+    readonly __tsonic_type_System_Runtime_Serialization_XmlObjectSerializer: never;
 
     readonly DataContractResolver: DataContractResolver | null;
     readonly IgnoreExtensionDataObject: boolean;
@@ -322,24 +334,12 @@ export interface DataContractSerializer$instance extends XmlObjectSerializer {
     readonly MaxItemsInObjectGraph: int;
     readonly PreserveObjectReferences: boolean;
     readonly SerializeReadOnlyTypes: boolean;
-    IsStartObject(reader: XmlReader): boolean;
-    IsStartObject(reader: XmlDictionaryReader): boolean;
-    ReadObject(reader: XmlReader): unknown | null;
-    ReadObject(reader: XmlReader, verifyObjectName: boolean): unknown | null;
-    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | null;
-    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean, dataContractResolver: DataContractResolver | null): unknown | null;
-    ReadObject(stream: Stream): unknown | null;
-    ReadObject(reader: XmlDictionaryReader): unknown | null;
-    WriteEndObject(writer: XmlWriter): void;
-    WriteEndObject(writer: XmlDictionaryWriter): void;
-    WriteObject(writer: XmlWriter, graph: unknown | null): void;
-    WriteObject(writer: XmlDictionaryWriter, graph: unknown | null, dataContractResolver: DataContractResolver | null): void;
-    WriteObject(stream: Stream, graph: unknown | null): void;
-    WriteObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
-    WriteObjectContent(writer: XmlWriter, graph: unknown | null): void;
-    WriteObjectContent(writer: XmlDictionaryWriter, graph: unknown | null): void;
-    WriteStartObject(writer: XmlWriter, graph: unknown | null): void;
-    WriteStartObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
+    IsStartObject: XmlObjectSerializer$instance["IsStartObject"] & ((reader: XmlDictionaryReader) => boolean) & ((reader: XmlReader) => boolean);
+    ReadObject: XmlObjectSerializer$instance["ReadObject"] & ((reader: XmlDictionaryReader) => unknown | null) & ((reader: XmlDictionaryReader, verifyObjectName: boolean) => unknown | null) & ((reader: XmlDictionaryReader, verifyObjectName: boolean, dataContractResolver: DataContractResolver | null) => unknown | null) & ((reader: XmlReader) => unknown | null) & ((reader: XmlReader, verifyObjectName: boolean) => unknown | null) & ((stream: Stream) => unknown | null);
+    WriteEndObject: XmlObjectSerializer$instance["WriteEndObject"] & ((writer: XmlDictionaryWriter) => void) & ((writer: XmlWriter) => void);
+    WriteObject: XmlObjectSerializer$instance["WriteObject"] & ((stream: Stream, graph: unknown | null) => void) & ((writer: XmlDictionaryWriter, graph: unknown | null) => void) & ((writer: XmlDictionaryWriter, graph: unknown | null, dataContractResolver: DataContractResolver | null) => void) & ((writer: XmlWriter, graph: unknown | null) => void);
+    WriteObjectContent: XmlObjectSerializer$instance["WriteObjectContent"] & ((writer: XmlDictionaryWriter, graph: unknown | null) => void) & ((writer: XmlWriter, graph: unknown | null) => void);
+    WriteStartObject: XmlObjectSerializer$instance["WriteStartObject"] & ((writer: XmlDictionaryWriter, graph: unknown | null) => void) & ((writer: XmlWriter, graph: unknown | null) => void);
 }
 
 
@@ -381,7 +381,8 @@ export const DataContractSerializerSettings: {
 
 export type DataContractSerializerSettings = DataContractSerializerSettings$instance;
 
-export interface DataMemberAttribute$instance extends Attribute {
+export interface DataMemberAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_DataMemberAttribute: never;
 
     EmitDefaultValue: boolean;
@@ -417,7 +418,8 @@ export const DateTimeFormat: {
 
 export type DateTimeFormat = DateTimeFormat$instance;
 
-export interface EnumMemberAttribute$instance extends Attribute {
+export interface EnumMemberAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_EnumMemberAttribute: never;
 
     readonly IsValueSetExplicitly: boolean;
@@ -461,7 +463,7 @@ export const ExtensionDataObject: {
 
 export type ExtensionDataObject = ExtensionDataObject$instance;
 
-export interface Formatter$instance extends IFormatter$instance {
+export interface Formatter$instance {
     readonly __tsonic_type_System_Runtime_Serialization_Formatter: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_IFormatter: never;
@@ -497,7 +499,7 @@ export interface Formatter$instance extends IFormatter$instance {
 }
 
 
-export const Formatter: (abstract new() => Formatter) & {
+export const Formatter: {
 };
 
 
@@ -526,8 +528,8 @@ export interface FormatterConverter$instance {
     ToInt64(value: unknown): long;
     ToSByte(value: unknown): sbyte;
     ToSingle(value: unknown): float;
-    ToString(value: unknown): string | null;
     ToString(): string | null;
+    ToString(value: unknown): string | null;
     ToUInt16(value: unknown): ushort;
     ToUInt32(value: unknown): uint;
     ToUInt64(value: unknown): ulong;
@@ -546,7 +548,8 @@ export interface __FormatterConverter$views {
 export type FormatterConverter = FormatterConverter$instance & __FormatterConverter$views;
 
 
-export interface IgnoreDataMemberAttribute$instance extends Attribute {
+export interface IgnoreDataMemberAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_IgnoreDataMemberAttribute: never;
 
 }
@@ -559,7 +562,8 @@ export const IgnoreDataMemberAttribute: {
 
 export type IgnoreDataMemberAttribute = IgnoreDataMemberAttribute$instance;
 
-export interface InvalidDataContractException$instance extends Exception, ISerializable$instance {
+export interface InvalidDataContractException$instance extends System_Internal.Exception$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_Serialization_InvalidDataContractException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -581,7 +585,8 @@ export interface __InvalidDataContractException$views {
 export type InvalidDataContractException = InvalidDataContractException$instance & __InvalidDataContractException$views;
 
 
-export interface KnownTypeAttribute$instance extends Attribute {
+export interface KnownTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_KnownTypeAttribute: never;
 
     readonly MethodName: string | null;
@@ -624,9 +629,9 @@ export interface ObjectManager$instance {
     RecordDelayedFixup(objectToBeFixed: long, memberName: string, objectRequired: long): void;
     RecordFixup(objectToBeFixed: long, member: MemberInfo, objectRequired: long): void;
     RegisterObject(obj: unknown, objectID: long): void;
-    RegisterObject(obj: unknown, objectID: long, info: SerializationInfo): void;
     RegisterObject(obj: unknown, objectID: long, info: SerializationInfo | null, idOfContainingObj: long, member: MemberInfo | null): void;
     RegisterObject(obj: unknown, objectID: long, info: SerializationInfo | null, idOfContainingObj: long, member: MemberInfo | null, arrayIndex: int[] | null): void;
+    RegisterObject(obj: unknown, objectID: long, info: SerializationInfo): void;
 }
 
 
@@ -637,7 +642,8 @@ export const ObjectManager: {
 
 export type ObjectManager = ObjectManager$instance;
 
-export interface OnDeserializedAttribute$instance extends Attribute {
+export interface OnDeserializedAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_OnDeserializedAttribute: never;
 
 }
@@ -650,7 +656,8 @@ export const OnDeserializedAttribute: {
 
 export type OnDeserializedAttribute = OnDeserializedAttribute$instance;
 
-export interface OnDeserializingAttribute$instance extends Attribute {
+export interface OnDeserializingAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_OnDeserializingAttribute: never;
 
 }
@@ -663,7 +670,8 @@ export const OnDeserializingAttribute: {
 
 export type OnDeserializingAttribute = OnDeserializingAttribute$instance;
 
-export interface OnSerializedAttribute$instance extends Attribute {
+export interface OnSerializedAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_OnSerializedAttribute: never;
 
 }
@@ -676,7 +684,8 @@ export const OnSerializedAttribute: {
 
 export type OnSerializedAttribute = OnSerializedAttribute$instance;
 
-export interface OnSerializingAttribute$instance extends Attribute {
+export interface OnSerializingAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_OnSerializingAttribute: never;
 
 }
@@ -689,7 +698,8 @@ export const OnSerializingAttribute: {
 
 export type OnSerializingAttribute = OnSerializingAttribute$instance;
 
-export interface OptionalFieldAttribute$instance extends Attribute {
+export interface OptionalFieldAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Serialization_OptionalFieldAttribute: never;
 
     VersionAdded: int;
@@ -703,7 +713,8 @@ export const OptionalFieldAttribute: {
 
 export type OptionalFieldAttribute = OptionalFieldAttribute$instance;
 
-export interface SafeSerializationEventArgs$instance extends EventArgs {
+export interface SafeSerializationEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Runtime_Serialization_SafeSerializationEventArgs: never;
 
     readonly StreamingContext: StreamingContext;
@@ -725,14 +736,16 @@ export interface SerializationBinder$instance {
 }
 
 
-export const SerializationBinder: (abstract new() => SerializationBinder) & {
+export const SerializationBinder: {
 };
 
 
 export type SerializationBinder = SerializationBinder$instance;
 
-export interface SerializationException$instance extends SystemException, ISerializable$instance {
+export interface SerializationException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_Serialization_SerializationException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -758,26 +771,26 @@ export interface SerializationInfo$instance {
 
     AssemblyName: string;
     FullTypeName: string;
-    IsAssemblyNameSetExplicit: boolean;
-    IsFullTypeNameSetExplicit: boolean;
+    readonly IsAssemblyNameSetExplicit: boolean;
+    readonly IsFullTypeNameSetExplicit: boolean;
     readonly MemberCount: int;
     readonly ObjectType: Type;
-    AddValue(name: string, value: unknown | null, type: Type): void;
-    AddValue(name: string, value: unknown | null): void;
-    AddValue(name: string, value: boolean): void;
-    AddValue(name: string, value: char): void;
-    AddValue(name: string, value: sbyte): void;
-    AddValue(name: string, value: byte): void;
-    AddValue(name: string, value: short): void;
-    AddValue(name: string, value: ushort): void;
-    AddValue(name: string, value: int): void;
-    AddValue(name: string, value: uint): void;
-    AddValue(name: string, value: long): void;
-    AddValue(name: string, value: ulong): void;
-    AddValue(name: string, value: float): void;
-    AddValue(name: string, value: double): void;
-    AddValue(name: string, value: decimal): void;
     AddValue(name: string, value: DateTime): void;
+    AddValue(name: string, value: boolean): void;
+    AddValue(name: string, value: byte): void;
+    AddValue(name: string, value: char): void;
+    AddValue(name: string, value: decimal): void;
+    AddValue(name: string, value: double): void;
+    AddValue(name: string, value: float): void;
+    AddValue(name: string, value: int): void;
+    AddValue(name: string, value: long): void;
+    AddValue(name: string, value: sbyte): void;
+    AddValue(name: string, value: short): void;
+    AddValue(name: string, value: uint): void;
+    AddValue(name: string, value: ulong): void;
+    AddValue(name: string, value: unknown | null): void;
+    AddValue(name: string, value: unknown | null, type: Type): void;
+    AddValue(name: string, value: ushort): void;
     GetBoolean(name: string): boolean;
     GetByte(name: string): byte;
     GetChar(name: string): char;
@@ -848,7 +861,7 @@ export const SerializationObjectManager: {
 
 export type SerializationObjectManager = SerializationObjectManager$instance;
 
-export interface SurrogateSelector$instance extends ISurrogateSelector$instance {
+export interface SurrogateSelector$instance {
     readonly __tsonic_type_System_Runtime_Serialization_SurrogateSelector: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISurrogateSelector: never;
@@ -888,18 +901,18 @@ export type TypeLoadExceptionHolder = TypeLoadExceptionHolder$instance;
 export interface XmlObjectSerializer$instance {
     readonly __tsonic_type_System_Runtime_Serialization_XmlObjectSerializer: never;
 
-    IsStartObject(reader: XmlReader): boolean;
     IsStartObject(reader: XmlDictionaryReader): boolean;
-    ReadObject(stream: Stream): unknown | null;
-    ReadObject(reader: XmlReader): unknown | null;
+    IsStartObject(reader: XmlReader): boolean;
     ReadObject(reader: XmlDictionaryReader): unknown | null;
-    ReadObject(reader: XmlReader, verifyObjectName: boolean): unknown | null;
     ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | null;
+    ReadObject(reader: XmlReader): unknown | null;
+    ReadObject(reader: XmlReader, verifyObjectName: boolean): unknown | null;
+    ReadObject(stream: Stream): unknown | null;
     WriteEndObject(writer: XmlDictionaryWriter): void;
     WriteEndObject(writer: XmlWriter): void;
     WriteObject(stream: Stream, graph: unknown | null): void;
-    WriteObject(writer: XmlWriter, graph: unknown | null): void;
     WriteObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
+    WriteObject(writer: XmlWriter, graph: unknown | null): void;
     WriteObjectContent(writer: XmlDictionaryWriter, graph: unknown | null): void;
     WriteObjectContent(writer: XmlWriter, graph: unknown | null): void;
     WriteStartObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
@@ -907,7 +920,7 @@ export interface XmlObjectSerializer$instance {
 }
 
 
-export const XmlObjectSerializer: (abstract new() => XmlObjectSerializer) & {
+export const XmlObjectSerializer: {
 };
 
 
@@ -920,11 +933,11 @@ export interface XsdDataContractExporter$instance {
     set Options(value: ExportOptions | null);
     readonly Schemas: XmlSchemaSet;
     CanExport(assemblies: ICollection_1<Assembly>): boolean;
-    CanExport(types: ICollection_1<Type>): boolean;
     CanExport(type: Type): boolean;
+    CanExport(types: ICollection_1<Type>): boolean;
     Export(assemblies: ICollection_1<Assembly>): void;
-    Export(types: ICollection_1<Type>): void;
     Export(type: Type): void;
+    Export(types: ICollection_1<Type>): void;
     GetRootElementName(type: Type): XmlQualifiedName | null;
     GetSchemaType(type: Type): XmlSchemaType | null;
     GetSchemaTypeName(type: Type): XmlQualifiedName;

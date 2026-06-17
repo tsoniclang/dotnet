@@ -358,28 +358,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Security.Claims.Claim",
             "ownerIdentity": "System.Security.Claims"
-          },
-          {
-            "stableId": "System.Security.Claims:System.Security.Claims.Claim::.ctor(System.Security.Claims.Claim):void",
-            "metadataToken": 100663329,
-            "canonicalSignature": "(System.Security.Claims.Claim):void",
-            "normalizedSignature": "constructor|(System.Security.Claims.Claim):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Claims.Claim",
-            "ownerIdentity": "System.Security.Claims"
-          },
-          {
-            "stableId": "System.Security.Claims:System.Security.Claims.Claim::.ctor(System.Security.Claims.Claim,System.Security.Claims.ClaimsIdentity):void",
-            "metadataToken": 100663330,
-            "canonicalSignature": "(System.Security.Claims.Claim,System.Security.Claims.ClaimsIdentity):void",
-            "normalizedSignature": "constructor|(System.Security.Claims.Claim,System.Security.Claims.ClaimsIdentity):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Claims.Claim",
-            "ownerIdentity": "System.Security.Claims"
           }
         ]
       },
@@ -1120,28 +1098,6 @@
             "ownerIdentity": "System.Security.Claims"
           },
           {
-            "stableId": "System.Security.Claims:System.Security.Claims.ClaimsIdentity::.ctor(System.Security.Claims.ClaimsIdentity):void",
-            "metadataToken": 100663355,
-            "canonicalSignature": "(System.Security.Claims.ClaimsIdentity):void",
-            "normalizedSignature": "constructor|(System.Security.Claims.ClaimsIdentity):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Claims.ClaimsIdentity",
-            "ownerIdentity": "System.Security.Claims"
-          },
-          {
-            "stableId": "System.Security.Claims:System.Security.Claims.ClaimsIdentity::.ctor(System.Security.Claims.ClaimsIdentity,System.StringComparison):void",
-            "metadataToken": 100663356,
-            "canonicalSignature": "(System.Security.Claims.ClaimsIdentity,System.StringComparison):void",
-            "normalizedSignature": "constructor|(System.Security.Claims.ClaimsIdentity,System.StringComparison):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Claims.ClaimsIdentity",
-            "ownerIdentity": "System.Security.Claims"
-          },
-          {
             "stableId": "System.Security.Claims:System.Security.Claims.ClaimsIdentity::.ctor(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String,System.StringComparison):void",
             "metadataToken": 100663357,
             "canonicalSignature": "(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.String,System.String,System.String,System.StringComparison):void",
@@ -1149,28 +1105,6 @@
             "isStatic": false,
             "parameterCount": 6,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Security.Claims.ClaimsIdentity",
-            "ownerIdentity": "System.Security.Claims"
-          },
-          {
-            "stableId": "System.Security.Claims:System.Security.Claims.ClaimsIdentity::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663358,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Claims.ClaimsIdentity",
-            "ownerIdentity": "System.Security.Claims"
-          },
-          {
-            "stableId": "System.Security.Claims:System.Security.Claims.ClaimsIdentity::.ctor(System.Runtime.Serialization.SerializationInfo):void",
-            "metadataToken": 100663359,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Security.Claims.ClaimsIdentity",
             "ownerIdentity": "System.Security.Claims"
           }
@@ -1658,17 +1592,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Security.Claims:System.Security.Claims.ClaimsPrincipal::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663427,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Claims.ClaimsPrincipal",
-            "ownerIdentity": "System.Security.Claims"
-          },
           {
             "stableId": "System.Security.Claims:System.Security.Claims.ClaimsPrincipal::.ctor():void",
             "metadataToken": 100663433,

@@ -15,6 +15,7 @@ import type { Boolean as ClrBoolean, Func_3, Int32, Object as ClrObject, ReadOnl
 
 export interface JsonSchemaExporterContext$instance {
     readonly __tsonic_type_System_Text_Json_Schema_JsonSchemaExporterContext: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly BaseTypeInfo: JsonTypeInfo | null;
     readonly Path: ReadOnlySpan_1<System_Internal.String>;

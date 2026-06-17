@@ -47,7 +47,7 @@ export const Claim: {
 
 export type Claim = Claim$instance;
 
-export interface ClaimsIdentity$instance extends System_Security_Principal_Internal.IIdentity$instance {
+export interface ClaimsIdentity$instance {
     readonly __tsonic_type_System_Security_Claims_ClaimsIdentity: never;
 
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
@@ -109,7 +109,7 @@ export interface __ClaimsIdentity$views {
 export type ClaimsIdentity = ClaimsIdentity$instance & __ClaimsIdentity$views;
 
 
-export interface ClaimsPrincipal$instance extends System_Security_Principal_Internal.IPrincipal$instance {
+export interface ClaimsPrincipal$instance {
     readonly __tsonic_type_System_Security_Claims_ClaimsPrincipal: never;
 
     readonly __tsonic_iface_System_Security_Principal_IPrincipal: never;

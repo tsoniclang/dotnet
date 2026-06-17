@@ -13,7 +13,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import type { ICollection_1, IEnumerable_1, IEnumerator_1, IReadOnlyCollection_1 } from './System.Collections.Generic/internal/index.js';
 import type { NameObjectCollectionBase_KeysCollection, NameValueCollection, StringDictionary } from './System.Collections.Specialized/internal/index.js';
 import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator } from './System.Collections/internal/index.js';
-import type { AsyncCompletedEventArgs, AsyncCompletedEventHandler, Component, EventHandlerList, IComponent, IContainer, ISite, ProgressChangedEventArgs, Win32Exception } from './System.ComponentModel/internal/index.js';
+import type { AsyncCompletedEventArgs, AsyncCompletedEventHandler, Component, IComponent, IContainer, ISite, ProgressChangedEventArgs, Win32Exception } from './System.ComponentModel/internal/index.js';
 import type { BinaryReader, BinaryWriter, Stream, TextWriter } from './System.IO/internal/index.js';
 import type { RequestCachePolicy } from './System.Net.Cache/internal/index.js';
 import type { AuthenticationLevel, EncryptionPolicy, RemoteCertificateValidationCallback } from './System.Net.Security/internal/index.js';
@@ -29,7 +29,7 @@ import type { SecureString } from './System.Security/internal/index.js';
 import type { Encoding } from './System.Text/internal/index.js';
 import type { Task, Task_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { Array as ClrArray, ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, Delegate, Enum, EventArgs, Exception, FormatException, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, InvalidOperationException, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from './System/internal/index.js';
+import type { Array as ClrArray, ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, DateTime, Decimal, Delegate, Enum, EventArgs, Exception, FormatException, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, InvalidOperationException, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { HttpListenerPrefixCollection as HttpListenerPrefixCollection } from './System.Net/internal/index.js';

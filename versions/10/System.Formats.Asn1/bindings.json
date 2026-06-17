@@ -1432,17 +1432,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Formats.Asn1.AsnContentException",
             "ownerIdentity": "System.Formats.Asn1"
-          },
-          {
-            "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnContentException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663409,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Formats.Asn1.AsnContentException",
-            "ownerIdentity": "System.Formats.Asn1"
           }
         ]
       },

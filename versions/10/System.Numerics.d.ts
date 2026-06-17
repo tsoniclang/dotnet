@@ -12,7 +12,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 // Cross-namespace type imports for constraints
 import type { IComparer_1, IEqualityComparer_1 } from './System.Collections.Generic/internal/index.js';
 import type { NumberStyles } from './System.Globalization/internal/index.js';
-import type { Boolean as ClrBoolean, Byte, Char, Decimal, Double, IComparable, IComparable_1, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MidpointRounding, Object as ClrObject, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, UInt16, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueType, Void } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, Decimal, Double, IComparable, IComparable_1, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MidpointRounding, Object as ClrObject, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, UInt16, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { BitOperations$instance as BitOperations } from './System.Numerics/internal/index.js';
@@ -24,38 +24,38 @@ export { TotalOrderIeee754Comparer_1 as TotalOrderIeee754Comparer } from './Syst
 export { Vector2 as Vector2 } from './System.Numerics/internal/index.js';
 export { Vector3 as Vector3 } from './System.Numerics/internal/index.js';
 export { Vector4 as Vector4 } from './System.Numerics/internal/index.js';
-export type IAdditionOperators<TSelf extends unknown & Internal.IAdditionOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = Internal.IAdditionOperators_3<TSelf, TOther, TResult>;
-export type IAdditiveIdentity<TSelf extends unknown & Internal.IAdditiveIdentity_2<TSelf, TResult>, TResult extends unknown> = Internal.IAdditiveIdentity_2<TSelf, TResult>;
-export type IBinaryFloatingPointIeee754<TSelf extends unknown & Internal.IBinaryFloatingPointIeee754_1<TSelf>> = Internal.IBinaryFloatingPointIeee754_1<TSelf>;
-export type IBinaryInteger<TSelf extends unknown & Internal.IBinaryInteger_1<TSelf>> = Internal.IBinaryInteger_1<TSelf>;
-export type IBinaryNumber<TSelf extends unknown & Internal.IBinaryNumber_1<TSelf>> = Internal.IBinaryNumber_1<TSelf>;
-export type IBitwiseOperators<TSelf extends unknown & Internal.IBitwiseOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = Internal.IBitwiseOperators_3<TSelf, TOther, TResult>;
-export type IComparisonOperators<TSelf extends unknown & Internal.IComparisonOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = Internal.IComparisonOperators_3<TSelf, TOther, TResult>;
-export type IDecrementOperators<TSelf extends unknown & Internal.IDecrementOperators_1<TSelf>> = Internal.IDecrementOperators_1<TSelf>;
-export type IDivisionOperators<TSelf extends unknown & Internal.IDivisionOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = Internal.IDivisionOperators_3<TSelf, TOther, TResult>;
-export type IEqualityOperators<TSelf extends unknown & Internal.IEqualityOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = Internal.IEqualityOperators_3<TSelf, TOther, TResult>;
-export type IExponentialFunctions<TSelf extends unknown & Internal.IExponentialFunctions_1<TSelf>> = Internal.IExponentialFunctions_1<TSelf>;
-export type IFloatingPoint<TSelf extends unknown & Internal.IFloatingPoint_1<TSelf>> = Internal.IFloatingPoint_1<TSelf>;
-export type IFloatingPointConstants<TSelf extends unknown & Internal.IFloatingPointConstants_1<TSelf>> = Internal.IFloatingPointConstants_1<TSelf>;
-export type IFloatingPointIeee754<TSelf extends unknown & Internal.IFloatingPointIeee754_1<TSelf>> = Internal.IFloatingPointIeee754_1<TSelf>;
-export type IHyperbolicFunctions<TSelf extends unknown & Internal.IHyperbolicFunctions_1<TSelf>> = Internal.IHyperbolicFunctions_1<TSelf>;
-export type IIncrementOperators<TSelf extends unknown & Internal.IIncrementOperators_1<TSelf>> = Internal.IIncrementOperators_1<TSelf>;
-export type ILogarithmicFunctions<TSelf extends unknown & Internal.ILogarithmicFunctions_1<TSelf>> = Internal.ILogarithmicFunctions_1<TSelf>;
-export type IMinMaxValue<TSelf extends unknown & Internal.IMinMaxValue_1<TSelf>> = Internal.IMinMaxValue_1<TSelf>;
-export type IModulusOperators<TSelf extends unknown & Internal.IModulusOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = Internal.IModulusOperators_3<TSelf, TOther, TResult>;
-export type IMultiplicativeIdentity<TSelf extends unknown & Internal.IMultiplicativeIdentity_2<TSelf, TResult>, TResult extends unknown> = Internal.IMultiplicativeIdentity_2<TSelf, TResult>;
-export type IMultiplyOperators<TSelf extends unknown & Internal.IMultiplyOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = Internal.IMultiplyOperators_3<TSelf, TOther, TResult>;
-export type INumber<TSelf extends unknown & Internal.INumber_1<TSelf>> = Internal.INumber_1<TSelf>;
-export type INumberBase<TSelf extends unknown & Internal.INumberBase_1<TSelf>> = Internal.INumberBase_1<TSelf>;
-export type IPowerFunctions<TSelf extends unknown & Internal.IPowerFunctions_1<TSelf>> = Internal.IPowerFunctions_1<TSelf>;
-export type IRootFunctions<TSelf extends unknown & Internal.IRootFunctions_1<TSelf>> = Internal.IRootFunctions_1<TSelf>;
-export type IShiftOperators<TSelf extends unknown & Internal.IShiftOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = Internal.IShiftOperators_3<TSelf, TOther, TResult>;
-export type ISignedNumber<TSelf extends unknown & Internal.ISignedNumber_1<TSelf>> = Internal.ISignedNumber_1<TSelf>;
-export type ISubtractionOperators<TSelf extends unknown & Internal.ISubtractionOperators_3<TSelf, TOther, TResult>, TOther extends unknown, TResult extends unknown> = Internal.ISubtractionOperators_3<TSelf, TOther, TResult>;
-export type ITrigonometricFunctions<TSelf extends unknown & Internal.ITrigonometricFunctions_1<TSelf>> = Internal.ITrigonometricFunctions_1<TSelf>;
-export type IUnaryNegationOperators<TSelf extends unknown & Internal.IUnaryNegationOperators_2<TSelf, TResult>, TResult extends unknown> = Internal.IUnaryNegationOperators_2<TSelf, TResult>;
-export type IUnaryPlusOperators<TSelf extends unknown & Internal.IUnaryPlusOperators_2<TSelf, TResult>, TResult extends unknown> = Internal.IUnaryPlusOperators_2<TSelf, TResult>;
-export type IUnsignedNumber<TSelf extends unknown & Internal.IUnsignedNumber_1<TSelf>> = Internal.IUnsignedNumber_1<TSelf>;
+export type IAdditionOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never }, TOther extends unknown, TResult extends unknown> = Internal.IAdditionOperators_3<TSelf, TOther, TResult>;
+export type IAdditiveIdentity<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IAdditiveIdentity_2: never }, TResult extends unknown> = Internal.IAdditiveIdentity_2<TSelf, TResult>;
+export type IBinaryFloatingPointIeee754<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IBinaryFloatingPointIeee754_1: never }> = Internal.IBinaryFloatingPointIeee754_1<TSelf>;
+export type IBinaryInteger<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never }> = Internal.IBinaryInteger_1<TSelf>;
+export type IBinaryNumber<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IBinaryNumber_1: never }> = Internal.IBinaryNumber_1<TSelf>;
+export type IBitwiseOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IBitwiseOperators_3: never }, TOther extends unknown, TResult extends unknown> = Internal.IBitwiseOperators_3<TSelf, TOther, TResult>;
+export type IComparisonOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IComparisonOperators_3: never }, TOther extends unknown, TResult extends unknown> = Internal.IComparisonOperators_3<TSelf, TOther, TResult>;
+export type IDecrementOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IDecrementOperators_1: never }> = Internal.IDecrementOperators_1<TSelf>;
+export type IDivisionOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IDivisionOperators_3: never }, TOther extends unknown, TResult extends unknown> = Internal.IDivisionOperators_3<TSelf, TOther, TResult>;
+export type IEqualityOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IEqualityOperators_3: never }, TOther extends unknown, TResult extends unknown> = Internal.IEqualityOperators_3<TSelf, TOther, TResult>;
+export type IExponentialFunctions<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IExponentialFunctions_1: never }> = Internal.IExponentialFunctions_1<TSelf>;
+export type IFloatingPoint<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IFloatingPoint_1: never }> = Internal.IFloatingPoint_1<TSelf>;
+export type IFloatingPointConstants<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IFloatingPointConstants_1: never }> = Internal.IFloatingPointConstants_1<TSelf>;
+export type IFloatingPointIeee754<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IFloatingPointIeee754_1: never }> = Internal.IFloatingPointIeee754_1<TSelf>;
+export type IHyperbolicFunctions<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IHyperbolicFunctions_1: never }> = Internal.IHyperbolicFunctions_1<TSelf>;
+export type IIncrementOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IIncrementOperators_1: never }> = Internal.IIncrementOperators_1<TSelf>;
+export type ILogarithmicFunctions<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_ILogarithmicFunctions_1: never }> = Internal.ILogarithmicFunctions_1<TSelf>;
+export type IMinMaxValue<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IMinMaxValue_1: never }> = Internal.IMinMaxValue_1<TSelf>;
+export type IModulusOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IModulusOperators_3: never }, TOther extends unknown, TResult extends unknown> = Internal.IModulusOperators_3<TSelf, TOther, TResult>;
+export type IMultiplicativeIdentity<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IMultiplicativeIdentity_2: never }, TResult extends unknown> = Internal.IMultiplicativeIdentity_2<TSelf, TResult>;
+export type IMultiplyOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IMultiplyOperators_3: never }, TOther extends unknown, TResult extends unknown> = Internal.IMultiplyOperators_3<TSelf, TOther, TResult>;
+export type INumber<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_INumber_1: never }> = Internal.INumber_1<TSelf>;
+export type INumberBase<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_INumberBase_1: never }> = Internal.INumberBase_1<TSelf>;
+export type IPowerFunctions<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IPowerFunctions_1: never }> = Internal.IPowerFunctions_1<TSelf>;
+export type IRootFunctions<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IRootFunctions_1: never }> = Internal.IRootFunctions_1<TSelf>;
+export type IShiftOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IShiftOperators_3: never }, TOther extends unknown, TResult extends unknown> = Internal.IShiftOperators_3<TSelf, TOther, TResult>;
+export type ISignedNumber<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_ISignedNumber_1: never }> = Internal.ISignedNumber_1<TSelf>;
+export type ISubtractionOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_ISubtractionOperators_3: never }, TOther extends unknown, TResult extends unknown> = Internal.ISubtractionOperators_3<TSelf, TOther, TResult>;
+export type ITrigonometricFunctions<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_ITrigonometricFunctions_1: never }> = Internal.ITrigonometricFunctions_1<TSelf>;
+export type IUnaryNegationOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IUnaryNegationOperators_2: never }, TResult extends unknown> = Internal.IUnaryNegationOperators_2<TSelf, TResult>;
+export type IUnaryPlusOperators<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IUnaryPlusOperators_2: never }, TResult extends unknown> = Internal.IUnaryPlusOperators_2<TSelf, TResult>;
+export type IUnsignedNumber<TSelf extends unknown & { readonly __tsonic_iface_System_Numerics_IUnsignedNumber_1: never }> = Internal.IUnsignedNumber_1<TSelf>;
 export { BigInteger as BigInteger } from './System.Numerics/internal/index.js';
 export { Complex as Complex } from './System.Numerics/internal/index.js';
 
@@ -70,7 +70,7 @@ export type Vector<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Vector :
-  [T1] extends [unknown] ? Internal.Vector_1<T1> : never;
+  Internal.Vector_1<T1>;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Numerics as ExtensionMethods } from './__internal/extensions/index.js';

@@ -36,6 +36,9 @@ export { JSType_Array_1 as JSType_Array } from './System.Runtime.InteropServices
 export { JSType_Promise_1 as JSType_Promise } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType_Function as JSType_Function_0 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType_Function_1 as JSType_Function } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
+export { JSType_Function_2 as JSType_Function_2 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
+export { JSType_Function_3 as JSType_Function_3 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
+export { JSType_Function_4 as JSType_Function_4 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType_Any as JSType_Any } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSObject as JSObject } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSException as JSException } from './System.Runtime.InteropServices.JavaScript/internal/index.js';

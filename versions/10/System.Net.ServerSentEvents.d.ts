@@ -35,5 +35,5 @@ export type SseParser<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.SseParser :
-  [T1] extends [unknown] ? Internal.SseParser_1<T1> : never;
+  Internal.SseParser_1<T1>;
 

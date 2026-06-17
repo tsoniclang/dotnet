@@ -15,67 +15,76 @@ import type { SafeHandle } from "../../System.Runtime.InteropServices/internal/i
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Security_AccessControl_Internal from "../../System.Security.AccessControl/internal/index.js";
-import type { AccessControlModification, AccessControlSections, AccessControlType, AccessRule, AuditFlags, AuditRule, AuthorizationRuleCollection, CommonSecurityDescriptor, InheritanceFlags, NativeObjectSecurity, PropagationFlags } from "../../System.Security.AccessControl/internal/index.js";
+import type { AccessControlModification, AccessControlSections, AccessControlType, AccessRule, AuditFlags, AuditRule, AuthorizationRuleCollection, InheritanceFlags, NativeObjectSecurity, PropagationFlags } from "../../System.Security.AccessControl/internal/index.js";
 import type { IdentityReference, TokenImpersonationLevel } from "../../System.Security.Principal/internal/index.js";
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum PipeAccessRights {
-    ReadData = 1,
-    WriteData = 2,
-    ReadAttributes = 128,
-    WriteAttributes = 256,
-    ReadExtendedAttributes = 8,
-    WriteExtendedAttributes = 16,
-    CreateNewInstance = 4,
-    Delete = 65536,
-    ReadPermissions = 131072,
-    ChangePermissions = 262144,
-    TakeOwnership = 524288,
-    Synchronize = 1048576,
-    FullControl = 2032031,
-    Read = 131209,
-    Write = 274,
-    ReadWrite = 131483,
-    AccessSystemSecurity = 16777216
-}
+export type PipeAccessRights = number & { readonly __tsonic_type_System_IO_Pipes_PipeAccessRights: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum PipeDirection {
-    In = 1,
-    Out = 2,
-    InOut = 3
-}
+export const PipeAccessRights: {
+    readonly ReadData: PipeAccessRights;
+    readonly WriteData: PipeAccessRights;
+    readonly ReadAttributes: PipeAccessRights;
+    readonly WriteAttributes: PipeAccessRights;
+    readonly ReadExtendedAttributes: PipeAccessRights;
+    readonly WriteExtendedAttributes: PipeAccessRights;
+    readonly CreateNewInstance: PipeAccessRights;
+    readonly Delete: PipeAccessRights;
+    readonly ReadPermissions: PipeAccessRights;
+    readonly ChangePermissions: PipeAccessRights;
+    readonly TakeOwnership: PipeAccessRights;
+    readonly Synchronize: PipeAccessRights;
+    readonly FullControl: PipeAccessRights;
+    readonly Read: PipeAccessRights;
+    readonly Write: PipeAccessRights;
+    readonly ReadWrite: PipeAccessRights;
+    readonly AccessSystemSecurity: PipeAccessRights;
+};
 
 
-export enum PipeOptions {
-    None = 0,
-    WriteThrough = -2147483648,
-    Asynchronous = 1073741824,
-    CurrentUserOnly = 536870912,
-    FirstPipeInstance = 524288
-}
+export type PipeDirection = number & { readonly __tsonic_type_System_IO_Pipes_PipeDirection: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PipeDirection: {
+    readonly In: PipeDirection;
+    readonly Out: PipeDirection;
+    readonly InOut: PipeDirection;
+};
 
 
-export enum PipeTransmissionMode {
-    Byte = 0,
-    Message = 1
-}
+export type PipeOptions = number & { readonly __tsonic_type_System_IO_Pipes_PipeOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PipeOptions: {
+    readonly None: PipeOptions;
+    readonly WriteThrough: PipeOptions;
+    readonly Asynchronous: PipeOptions;
+    readonly CurrentUserOnly: PipeOptions;
+    readonly FirstPipeInstance: PipeOptions;
+};
+
+
+export type PipeTransmissionMode = number & { readonly __tsonic_type_System_IO_Pipes_PipeTransmissionMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PipeTransmissionMode: {
+    readonly Byte: PipeTransmissionMode;
+    readonly Message: PipeTransmissionMode;
+};
 
 
 export type PipeStreamImpersonationWorker = () => void;
 
 
-export interface AnonymousPipeClientStream$instance extends PipeStream$instance, System_Internal.IAsyncDisposable$instance {
+export interface AnonymousPipeClientStream$instance extends PipeStream$instance {
     readonly __tsonic_type_System_IO_Pipes_AnonymousPipeClientStream: never;
+    readonly __tsonic_type_System_IO_Pipes_PipeStream: never;
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ReadMode: PipeTransmissionMode;
-    readonly TransmissionMode: PipeTransmissionMode;
     Finalize(): void;
 }
 
@@ -95,17 +104,17 @@ export interface __AnonymousPipeClientStream$views {
 export type AnonymousPipeClientStream = AnonymousPipeClientStream$instance & __AnonymousPipeClientStream$views;
 
 
-export interface AnonymousPipeServerStream$instance extends PipeStream$instance, System_Internal.IAsyncDisposable$instance {
+export interface AnonymousPipeServerStream$instance extends PipeStream$instance {
     readonly __tsonic_type_System_IO_Pipes_AnonymousPipeServerStream: never;
+    readonly __tsonic_type_System_IO_Pipes_PipeStream: never;
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly ClientSafePipeHandle: SafePipeHandle;
-    ReadMode: PipeTransmissionMode;
-    readonly TransmissionMode: PipeTransmissionMode;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
+    Dispose: PipeStream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     DisposeLocalCopyOfClientHandle(): void;
     Finalize(): void;
     GetClientHandleAsString(): string;
@@ -129,24 +138,25 @@ export interface __AnonymousPipeServerStream$views {
 export type AnonymousPipeServerStream = AnonymousPipeServerStream$instance & __AnonymousPipeServerStream$views;
 
 
-export interface NamedPipeClientStream$instance extends PipeStream$instance, System_Internal.IAsyncDisposable$instance {
+export interface NamedPipeClientStream$instance extends PipeStream$instance {
     readonly __tsonic_type_System_IO_Pipes_NamedPipeClientStream: never;
+    readonly __tsonic_type_System_IO_Pipes_PipeStream: never;
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly InBufferSize: int;
     readonly NumberOfServerInstances: int;
-    readonly OutBufferSize: int;
-    CheckPipePropertyOperations(): void;
+    CheckPipePropertyOperations: PipeStream$instance["CheckPipePropertyOperations"] & (() => void);
     Connect(): void;
-    Connect(timeout: int): void;
     Connect(timeout: TimeSpan): void;
+    Connect(timeout: int): void;
     ConnectAsync(): Task;
-    ConnectAsync(timeout: int): Task;
     ConnectAsync(cancellationToken: CancellationToken): Task;
-    ConnectAsync(timeout: int, cancellationToken: CancellationToken): Task;
     ConnectAsync(timeout: TimeSpan, cancellationToken?: CancellationToken): Task;
+    ConnectAsync(timeout: int): Task;
+    ConnectAsync(timeout: int, cancellationToken: CancellationToken): Task;
     Finalize(): void;
 }
 
@@ -171,14 +181,15 @@ export interface __NamedPipeClientStream$views {
 export type NamedPipeClientStream = NamedPipeClientStream$instance & __NamedPipeClientStream$views;
 
 
-export interface NamedPipeServerStream$instance extends PipeStream$instance, System_Internal.IAsyncDisposable$instance {
+export interface NamedPipeServerStream$instance extends PipeStream$instance {
     readonly __tsonic_type_System_IO_Pipes_NamedPipeServerStream: never;
+    readonly __tsonic_type_System_IO_Pipes_PipeStream: never;
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly InBufferSize: int;
-    readonly OutBufferSize: int;
     BeginWaitForConnection(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     Disconnect(): void;
     EndWaitForConnection(asyncResult: IAsyncResult): void;
@@ -211,8 +222,10 @@ export interface __NamedPipeServerStream$views {
 export type NamedPipeServerStream = NamedPipeServerStream$instance & __NamedPipeServerStream$views;
 
 
-export interface PipeAccessRule$instance extends AccessRule {
+export interface PipeAccessRule$instance extends System_Security_AccessControl_Internal.AccessRule$instance {
     readonly __tsonic_type_System_IO_Pipes_PipeAccessRule: never;
+    readonly __tsonic_type_System_Security_AccessControl_AccessRule: never;
+    readonly __tsonic_type_System_Security_AccessControl_AuthorizationRule: never;
 
     readonly PipeAccessRights: PipeAccessRights;
 }
@@ -226,8 +239,10 @@ export const PipeAccessRule: {
 
 export type PipeAccessRule = PipeAccessRule$instance;
 
-export interface PipeAuditRule$instance extends AuditRule {
+export interface PipeAuditRule$instance extends System_Security_AccessControl_Internal.AuditRule$instance {
     readonly __tsonic_type_System_IO_Pipes_PipeAuditRule: never;
+    readonly __tsonic_type_System_Security_AccessControl_AuditRule: never;
+    readonly __tsonic_type_System_Security_AccessControl_AuthorizationRule: never;
 
     readonly PipeAccessRights: PipeAccessRights;
 }
@@ -241,27 +256,24 @@ export const PipeAuditRule: {
 
 export type PipeAuditRule = PipeAuditRule$instance;
 
-export interface PipeSecurity$instance extends NativeObjectSecurity {
+export interface PipeSecurity$instance extends System_Security_AccessControl_Internal.NativeObjectSecurity$instance {
     readonly __tsonic_type_System_IO_Pipes_PipeSecurity: never;
+    readonly __tsonic_type_System_Security_AccessControl_CommonObjectSecurity: never;
+    readonly __tsonic_type_System_Security_AccessControl_NativeObjectSecurity: never;
+    readonly __tsonic_type_System_Security_AccessControl_ObjectSecurity: never;
 
-    readonly AccessRightType: Type;
-    readonly AccessRuleType: Type;
-    readonly AuditRuleType: Type;
-    AccessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
-    AddAccessRule2(rule: PipeAccessRule): void;
-    AddAuditRule2(rule: PipeAuditRule): void;
-    AuditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    Persist(handle: SafeHandle, includeSections: AccessControlSections): void;
-    Persist(name: string, includeSections: AccessControlSections): void;
-    Persist(enableOwnershipPrivilege: boolean, name: string, includeSections: AccessControlSections): void;
-    RemoveAccessRule2(rule: PipeAccessRule): boolean;
-    RemoveAccessRuleSpecific2(rule: PipeAccessRule): void;
-    RemoveAuditRule2(rule: PipeAuditRule): boolean;
-    RemoveAuditRuleAll2(rule: PipeAuditRule): void;
-    RemoveAuditRuleSpecific2(rule: PipeAuditRule): void;
-    ResetAccessRule2(rule: PipeAccessRule): void;
-    SetAccessRule2(rule: PipeAccessRule): void;
-    SetAuditRule2(rule: PipeAuditRule): void;
+    AccessRuleFactory: System_Security_AccessControl_Internal.NativeObjectSecurity$instance["AccessRuleFactory"] & ((identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType) => AccessRule);
+    AddAccessRule(rule: PipeAccessRule): void;
+    AddAuditRule(rule: PipeAuditRule): void;
+    AuditRuleFactory: System_Security_AccessControl_Internal.NativeObjectSecurity$instance["AuditRuleFactory"] & ((identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags) => AuditRule);
+    RemoveAccessRule(rule: PipeAccessRule): boolean;
+    RemoveAccessRuleSpecific(rule: PipeAccessRule): void;
+    RemoveAuditRule(rule: PipeAuditRule): boolean;
+    RemoveAuditRuleAll(rule: PipeAuditRule): void;
+    RemoveAuditRuleSpecific(rule: PipeAuditRule): void;
+    ResetAccessRule(rule: PipeAccessRule): void;
+    SetAccessRule(rule: PipeAccessRule): void;
+    SetAuditRule(rule: PipeAuditRule): void;
 }
 
 
@@ -272,54 +284,43 @@ export const PipeSecurity: {
 
 export type PipeSecurity = PipeSecurity$instance;
 
-export interface PipeStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
+export interface PipeStream$instance extends System_IO_Internal.Stream$instance {
     readonly __tsonic_type_System_IO_Pipes_PipeStream: never;
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
     readonly InBufferSize: int;
     readonly IsAsync: boolean;
-    IsConnected: boolean;
+    readonly IsConnected: boolean;
     readonly IsMessageComplete: boolean;
-    readonly Length: long;
     readonly OutBufferSize: int;
-    Position: long;
     ReadMode: PipeTransmissionMode;
     readonly SafePipeHandle: SafePipeHandle;
     readonly TransmissionMode: PipeTransmissionMode;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginRead: System_IO_Internal.Stream$instance["BeginRead"] & ((buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    BeginWrite: System_IO_Internal.Stream$instance["BeginWrite"] & ((buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
     CheckPipePropertyOperations(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
+    Dispose: System_IO_Internal.Stream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    EndRead: System_IO_Internal.Stream$instance["EndRead"] & ((asyncResult: IAsyncResult) => int);
+    EndWrite: System_IO_Internal.Stream$instance["EndWrite"] & ((asyncResult: IAsyncResult) => void);
+    Flush: System_IO_Internal.Stream$instance["Flush"] & (() => void);
+    FlushAsync: System_IO_Internal.Stream$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
+    Read: System_IO_Internal.Stream$instance["Read"] & ((buffer: Span_1<System_Internal.Byte>) => int) & ((buffer: byte[], offset: int, count: int) => int);
+    ReadAsync: System_IO_Internal.Stream$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int) => Task_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task_1<System_Internal.Int32>);
+    ReadByte: System_IO_Internal.Stream$instance["ReadByte"] & (() => int);
+    Seek: System_IO_Internal.Stream$instance["Seek"] & ((offset: long, origin: SeekOrigin) => long);
+    SetLength: System_IO_Internal.Stream$instance["SetLength"] & ((value: long) => void);
     WaitForPipeDrain(): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteByte(value: byte): void;
+    Write: System_IO_Internal.Stream$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Byte>) => void) & ((buffer: byte[], offset: int, count: int) => void);
+    WriteAsync: System_IO_Internal.Stream$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask) & ((buffer: byte[], offset: int, count: int) => Task) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task);
+    WriteByte: System_IO_Internal.Stream$instance["WriteByte"] & ((value: byte) => void);
 }
 
 
-export const PipeStream: (abstract new(direction: PipeDirection, bufferSize: int) => PipeStream) & (abstract new(direction: PipeDirection, transmissionMode: PipeTransmissionMode, outBufferSize: int) => PipeStream) & {
+export const PipeStream: {
 };
 
 

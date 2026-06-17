@@ -16,7 +16,7 @@ import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnu
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
 import type { INotifyPropertyChanged, PropertyChangedEventArgs, PropertyChangedEventHandler } from "../../System.ComponentModel/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, Boolean as ClrBoolean, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, Boolean as ClrBoolean, Char, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
 export interface Collection_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_ObjectModel_Collection_1: never;
@@ -67,6 +67,7 @@ export type Collection_1<T extends unknown> = Collection_1$instance<T> & __Colle
 
 
 export interface KeyedCollection_2$instance<TKey extends unknown, TItem extends unknown> extends Collection_1$instance<TItem> {
+    readonly __tsonic_type_System_Collections_ObjectModel_Collection_1: never;
     readonly __tsonic_type_System_Collections_ObjectModel_KeyedCollection_2: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -79,20 +80,18 @@ export interface KeyedCollection_2$instance<TKey extends unknown, TItem extends 
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly Comparer: IEqualityComparer_1<TKey>;
-    ClearItems(): void;
-    Contains(key: TKey): boolean;
-    Contains(item: TItem): boolean;
+    ClearItems: Collection_1$instance<TItem>["ClearItems"] & (() => void);
+    Contains: Collection_1$instance<TItem>["Contains"] & ((item: TItem) => boolean) & ((key: TKey) => boolean);
     GetKeyForItem(item: TItem): TKey;
-    InsertItem(index: int, item: TItem): void;
-    Remove(key: TKey): boolean;
-    Remove(item: TItem): boolean;
-    RemoveItem(index: int): void;
-    SetItem(index: int, item: TItem): void;
+    InsertItem: Collection_1$instance<TItem>["InsertItem"] & ((index: int, item: TItem) => void);
+    Remove: Collection_1$instance<TItem>["Remove"] & ((item: TItem) => boolean) & ((key: TKey) => boolean);
+    RemoveItem: Collection_1$instance<TItem>["RemoveItem"] & ((index: int) => void);
+    SetItem: Collection_1$instance<TItem>["SetItem"] & ((index: int, item: TItem) => void);
     TryGetValue(key: TKey, item: TItem): boolean;
 }
 
 
-export const KeyedCollection_2: (abstract new<TKey extends unknown, TItem extends unknown>() => KeyedCollection_2<TKey, TItem>) & (abstract new<TKey extends unknown, TItem extends unknown>(comparer: IEqualityComparer_1<TKey> | null) => KeyedCollection_2<TKey, TItem>) & (abstract new<TKey extends unknown, TItem extends unknown>(comparer: IEqualityComparer_1<TKey> | null, dictionaryCreationThreshold: int) => KeyedCollection_2<TKey, TItem>) & {
+export const KeyedCollection_2: {
 };
 
 
@@ -109,7 +108,8 @@ export interface __KeyedCollection_2$views<TKey extends unknown, TItem extends u
 export type KeyedCollection_2<TKey extends unknown, TItem extends unknown> = KeyedCollection_2$instance<TKey, TItem> & __KeyedCollection_2$views<TKey, TItem>;
 
 
-export interface ObservableCollection_1$instance<T extends unknown> extends Collection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged, System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
+export interface ObservableCollection_1$instance<T extends unknown> extends Collection_1$instance<T> {
+    readonly __tsonic_type_System_Collections_ObjectModel_Collection_1: never;
     readonly __tsonic_type_System_Collections_ObjectModel_ObservableCollection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -123,14 +123,14 @@ export interface ObservableCollection_1$instance<T extends unknown> extends Coll
     readonly __tsonic_iface_System_Collections_Specialized_INotifyCollectionChanged: never;
     readonly __tsonic_iface_System_ComponentModel_INotifyPropertyChanged: never;
 
-    ClearItems(): void;
-    InsertItem(index: int, item: T): void;
+    ClearItems: Collection_1$instance<T>["ClearItems"] & (() => void);
+    InsertItem: Collection_1$instance<T>["InsertItem"] & ((index: int, item: T) => void);
     Move(oldIndex: int, newIndex: int): void;
     MoveItem(oldIndex: int, newIndex: int): void;
     OnCollectionChanged(e: NotifyCollectionChangedEventArgs): void;
     OnPropertyChanged(e: PropertyChangedEventArgs): void;
-    RemoveItem(index: int): void;
-    SetItem(index: int, item: T): void;
+    RemoveItem: Collection_1$instance<T>["RemoveItem"] & ((index: int) => void);
+    SetItem: Collection_1$instance<T>["SetItem"] & ((index: int, item: T) => void);
 }
 
 
@@ -278,7 +278,8 @@ export const ReadOnlyDictionary_2_ValueCollection: {
 
 export type ReadOnlyDictionary_2_ValueCollection<TKey extends unknown, TValue extends unknown> = ReadOnlyDictionary_2_ValueCollection$instance<TKey, TValue>;
 
-export interface ReadOnlyObservableCollection_1$instance<T extends unknown> extends ReadOnlyCollection_1$instance<T>, INotifyCollectionChanged, INotifyPropertyChanged, System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
+export interface ReadOnlyObservableCollection_1$instance<T extends unknown> extends ReadOnlyCollection_1$instance<T> {
+    readonly __tsonic_type_System_Collections_ObjectModel_ReadOnlyCollection_1: never;
     readonly __tsonic_type_System_Collections_ObjectModel_ReadOnlyObservableCollection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;

@@ -13,7 +13,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import type { IAsyncEnumerable_1, IEnumerable_1, IList_1 } from './System.Collections.Generic/internal/index.js';
 import type { Task, Task_1, TaskScheduler } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { Action_1, Boolean as ClrBoolean, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IObservable_1, IObserver_1, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, TimeSpan, Tuple_2, Tuple_3, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { Action_1, Boolean as ClrBoolean, ConsoleKeyInfo, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IObservable_1, IObserver_1, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, TimeSpan, Tuple_2, Tuple_3, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { DataflowBlock$instance as DataflowBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
@@ -47,16 +47,16 @@ export type BatchedJoinBlock<
   T2 extends unknown | __ = __,
   T3 extends unknown | __ = __,
 > =
-  [T3] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? Internal.BatchedJoinBlock_2<T1, T2> : never : never :
-  [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? Internal.BatchedJoinBlock_3<T1, T2, T3> : never : never : never;
+  [T3] extends [__] ? Internal.BatchedJoinBlock_2<T1, T2> :
+  Internal.BatchedJoinBlock_3<T1, T2, T3>;
 
 export type JoinBlock<
   T1 extends unknown | __ = __,
   T2 extends unknown | __ = __,
   T3 extends unknown | __ = __,
 > =
-  [T3] extends [__] ? [T1] extends [unknown] ? [T2] extends [unknown] ? Internal.JoinBlock_2<T1, T2> : never : never :
-  [T1] extends [unknown] ? [T2] extends [unknown] ? [T3] extends [unknown] ? Internal.JoinBlock_3<T1, T2, T3> : never : never : never;
+  [T3] extends [__] ? Internal.JoinBlock_2<T1, T2> :
+  Internal.JoinBlock_3<T1, T2, T3>;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Threading_Tasks_Dataflow as ExtensionMethods } from './__internal/extensions/index.js';

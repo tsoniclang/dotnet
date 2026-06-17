@@ -16,115 +16,140 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Byte, DateTime, Double, Enum, EventArgs, EventHandler_1, Exception, Func_1, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Object as ClrObject, Single, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum EventActivityOptions {
-    None = 0,
-    Disable = 2,
-    Recursive = 4,
-    Detachable = 8
-}
+export type EventActivityOptions = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventActivityOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventActivityOptions: {
+    readonly None: EventActivityOptions;
+    readonly Disable: EventActivityOptions;
+    readonly Recursive: EventActivityOptions;
+    readonly Detachable: EventActivityOptions;
+};
 
 
-export enum EventChannel {
-    None = 0,
-    Admin = 16,
-    Operational = 17,
-    Analytic = 18,
-    Debug = 19
-}
+export type EventChannel = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventChannel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventChannel: {
+    readonly None: EventChannel;
+    readonly Admin: EventChannel;
+    readonly Operational: EventChannel;
+    readonly Analytic: EventChannel;
+    readonly Debug: EventChannel;
+};
 
 
-export enum EventCommand {
-    Update = 0,
-    SendManifest = -1,
-    Enable = -2,
-    Disable = -3
-}
+export type EventCommand = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventCommand: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventCommand: {
+    readonly Update: EventCommand;
+    readonly SendManifest: EventCommand;
+    readonly Enable: EventCommand;
+    readonly Disable: EventCommand;
+};
 
 
-export enum EventFieldFormat {
-    Default = 0,
-    String = 2,
-    Boolean = 3,
-    Hexadecimal = 4,
-    Xml = 11,
-    Json = 12,
-    HResult = 15
-}
+export type EventFieldFormat = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventFieldFormat: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventFieldFormat: {
+    readonly Default: EventFieldFormat;
+    readonly String: EventFieldFormat;
+    readonly Boolean: EventFieldFormat;
+    readonly Hexadecimal: EventFieldFormat;
+    readonly Xml: EventFieldFormat;
+    readonly Json: EventFieldFormat;
+    readonly HResult: EventFieldFormat;
+};
 
 
-export enum EventFieldTags {
-    None = 0
-}
+export type EventFieldTags = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventFieldTags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventFieldTags: {
+    readonly None: EventFieldTags;
+};
 
 
-export enum EventKeywords {
-    None = 0,
-    All = -1,
-    MicrosoftTelemetry = 562949953421312,
-    WdiContext = 562949953421312,
-    WdiDiagnostic = 1125899906842624,
-    Sqm = 2251799813685248,
-    AuditFailure = 4503599627370496,
-    AuditSuccess = 9007199254740992,
-    CorrelationHint = 4503599627370496,
-    EventLogClassic = 36028797018963968
-}
+export type EventKeywords = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventKeywords: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventKeywords: {
+    readonly None: EventKeywords;
+    readonly All: EventKeywords;
+    readonly MicrosoftTelemetry: EventKeywords;
+    readonly WdiContext: EventKeywords;
+    readonly WdiDiagnostic: EventKeywords;
+    readonly Sqm: EventKeywords;
+    readonly AuditFailure: EventKeywords;
+    readonly AuditSuccess: EventKeywords;
+    readonly CorrelationHint: EventKeywords;
+    readonly EventLogClassic: EventKeywords;
+};
 
 
-export enum EventLevel {
-    LogAlways = 0,
-    Critical = 1,
-    Error = 2,
-    Warning = 3,
-    Informational = 4,
-    Verbose = 5
-}
+export type EventLevel = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventLevel: {
+    readonly LogAlways: EventLevel;
+    readonly Critical: EventLevel;
+    readonly Error: EventLevel;
+    readonly Warning: EventLevel;
+    readonly Informational: EventLevel;
+    readonly Verbose: EventLevel;
+};
 
 
-export enum EventManifestOptions {
-    None = 0,
-    Strict = 1,
-    AllCultures = 2,
-    OnlyIfNeededForRegistration = 4,
-    AllowEventSourceOverride = 8
-}
+export type EventManifestOptions = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventManifestOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventManifestOptions: {
+    readonly None: EventManifestOptions;
+    readonly Strict: EventManifestOptions;
+    readonly AllCultures: EventManifestOptions;
+    readonly OnlyIfNeededForRegistration: EventManifestOptions;
+    readonly AllowEventSourceOverride: EventManifestOptions;
+};
 
 
-export enum EventOpcode {
-    Info = 0,
-    Start = 1,
-    Stop = 2,
-    DataCollectionStart = 3,
-    DataCollectionStop = 4,
-    Extension = 5,
-    Reply = 6,
-    Resume = 7,
-    Suspend = 8,
-    Send = 9,
-    Receive = 240
-}
+export type EventOpcode = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventOpcode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventOpcode: {
+    readonly Info: EventOpcode;
+    readonly Start: EventOpcode;
+    readonly Stop: EventOpcode;
+    readonly DataCollectionStart: EventOpcode;
+    readonly DataCollectionStop: EventOpcode;
+    readonly Extension: EventOpcode;
+    readonly Reply: EventOpcode;
+    readonly Resume: EventOpcode;
+    readonly Suspend: EventOpcode;
+    readonly Send: EventOpcode;
+    readonly Receive: EventOpcode;
+};
 
 
-export enum EventSourceSettings {
-    Default = 0,
-    ThrowOnEventWriteErrors = 1,
-    EtwManifestEventFormat = 4,
-    EtwSelfDescribingEventFormat = 8
-}
+export type EventSourceSettings = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceSettings: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventSourceSettings: {
+    readonly Default: EventSourceSettings;
+    readonly ThrowOnEventWriteErrors: EventSourceSettings;
+    readonly EtwManifestEventFormat: EventSourceSettings;
+    readonly EtwSelfDescribingEventFormat: EventSourceSettings;
+};
 
 
-export enum EventTags {
-    None = 0
-}
+export type EventTags = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventTags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventTags: {
+    readonly None: EventTags;
+};
 
 
-export enum EventTask {
-    None = 0
-}
+export type EventTask = number & { readonly __tsonic_type_System_Diagnostics_Tracing_EventTask: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventTask: {
+    readonly None: EventTask;
+};
 
 
 export interface EventSourceOptions$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceOptions: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     ActivityOptions: EventActivityOptions;
     Keywords: EventKeywords;
@@ -141,7 +166,7 @@ export const EventSourceOptions: {
 
 export type EventSourceOptions = EventSourceOptions$instance;
 
-export interface DiagnosticCounter$instance extends System_Internal.IDisposable$instance {
+export interface DiagnosticCounter$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_DiagnosticCounter: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -166,7 +191,8 @@ export interface __DiagnosticCounter$views {
 export type DiagnosticCounter = DiagnosticCounter$instance & __DiagnosticCounter$views;
 
 
-export interface EventAttribute$instance extends Attribute {
+export interface EventAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Tracing_EventAttribute: never;
 
     ActivityOptions: EventActivityOptions;
@@ -190,12 +216,12 @@ export const EventAttribute: {
 
 export type EventAttribute = EventAttribute$instance;
 
-export interface EventCommandEventArgs$instance extends EventArgs {
+export interface EventCommandEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventCommandEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
-    get Arguments(): IDictionary_2<System_Internal.String, string | null> | null;
-    set Arguments(value: IDictionary_2<System_Internal.String, string | null> | null);
-    Command: EventCommand;
+    readonly Arguments: IDictionary_2<System_Internal.String, string | null> | null;
+    readonly Command: EventCommand;
     DisableEvent(eventId: int): boolean;
     EnableEvent(eventId: int): boolean;
 }
@@ -207,14 +233,15 @@ export const EventCommandEventArgs: {
 
 export type EventCommandEventArgs = EventCommandEventArgs$instance;
 
-export interface EventCounter$instance extends DiagnosticCounter$instance, System_Internal.IDisposable$instance {
+export interface EventCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_DiagnosticCounter: never;
     readonly __tsonic_type_System_Diagnostics_Tracing_EventCounter: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     ToString(): string;
-    WriteMetric(value: float): void;
     WriteMetric(value: double): void;
+    WriteMetric(value: float): void;
 }
 
 
@@ -230,7 +257,8 @@ export interface __EventCounter$views {
 export type EventCounter = EventCounter$instance & __EventCounter$views;
 
 
-export interface EventDataAttribute$instance extends Attribute {
+export interface EventDataAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Tracing_EventDataAttribute: never;
 
     get Name(): string | null;
@@ -245,7 +273,8 @@ export const EventDataAttribute: {
 
 export type EventDataAttribute = EventDataAttribute$instance;
 
-export interface EventFieldAttribute$instance extends Attribute {
+export interface EventFieldAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Tracing_EventFieldAttribute: never;
 
     Format: EventFieldFormat;
@@ -260,7 +289,8 @@ export const EventFieldAttribute: {
 
 export type EventFieldAttribute = EventFieldAttribute$instance;
 
-export interface EventIgnoreAttribute$instance extends Attribute {
+export interface EventIgnoreAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Tracing_EventIgnoreAttribute: never;
 
 }
@@ -273,7 +303,7 @@ export const EventIgnoreAttribute: {
 
 export type EventIgnoreAttribute = EventIgnoreAttribute$instance;
 
-export interface EventListener$instance extends System_Internal.IDisposable$instance {
+export interface EventListener$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventListener: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -288,8 +318,7 @@ export interface EventListener$instance extends System_Internal.IDisposable$inst
 }
 
 
-export const EventListener: (abstract new() => EventListener) & {
-    EventSourceIndex(eventSource: EventSource): int;
+export const EventListener: {
 };
 
 
@@ -321,9 +350,8 @@ export interface EventSource$instance {
     Write(eventName: string | null): void;
     Write(eventName: string | null, options: EventSourceOptions): void;
     Write<T extends unknown>(eventName: string | null, data: T): void;
-    Write<T extends unknown>(eventName: string | null, options: EventSourceOptions, data: T): void;
-    Write<T extends unknown>(eventName: string | null, options: EventSourceOptions, data: T): void;
     Write<T extends unknown>(eventName: string | null, options: EventSourceOptions, activityId: Guid, relatedActivityId: Guid, data: T): void;
+    Write<T extends unknown>(eventName: string | null, options: EventSourceOptions, data: T): void;
 }
 
 
@@ -352,6 +380,7 @@ export type EventSource = EventSource$instance & __EventSource$views;
 
 export interface EventSource_EventData$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventSource_EventData: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     DataPointer: nint;
     Size: int;
@@ -367,6 +396,7 @@ export type EventSource_EventData = EventSource_EventData$instance;
 
 export interface EventSource_EventSourcePrimitive$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventSource_EventSourcePrimitive: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -378,7 +408,8 @@ export const EventSource_EventSourcePrimitive: {
 
 export type EventSource_EventSourcePrimitive = EventSource_EventSourcePrimitive$instance;
 
-export interface EventSourceAttribute$instance extends Attribute {
+export interface EventSourceAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceAttribute: never;
 
     get Guid(): string | null;
@@ -397,11 +428,11 @@ export const EventSourceAttribute: {
 
 export type EventSourceAttribute = EventSourceAttribute$instance;
 
-export interface EventSourceCreatedEventArgs$instance extends EventArgs {
+export interface EventSourceCreatedEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceCreatedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
-    get EventSource(): EventSource | null;
-    set EventSource(value: EventSource | null);
+    readonly EventSource: EventSource | null;
 }
 
 
@@ -412,8 +443,9 @@ export const EventSourceCreatedEventArgs: {
 
 export type EventSourceCreatedEventArgs = EventSourceCreatedEventArgs$instance;
 
-export interface EventSourceException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface EventSourceException$instance extends System_Internal.Exception$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventSourceException: never;
+    readonly __tsonic_type_System_Exception: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -434,29 +466,26 @@ export interface __EventSourceException$views {
 export type EventSourceException = EventSourceException$instance & __EventSourceException$views;
 
 
-export interface EventWrittenEventArgs$instance extends EventArgs {
+export interface EventWrittenEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_Diagnostics_Tracing_EventWrittenEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly ActivityId: Guid;
     readonly Channel: EventChannel;
     readonly EventId: int;
-    get EventName(): string | null;
-    set EventName(value: string | null);
+    readonly EventName: string | null;
     readonly EventSource: EventSource;
-    Keywords: EventKeywords;
-    Level: EventLevel;
-    get Message(): string | null;
-    set Message(value: string | null);
-    Opcode: EventOpcode;
-    OSThreadId: long;
-    get Payload(): ReadOnlyCollection_1<unknown | null> | null;
-    set Payload(value: ReadOnlyCollection_1<unknown | null> | null);
-    get PayloadNames(): ReadOnlyCollection_1<System_Internal.String> | null;
-    set PayloadNames(value: ReadOnlyCollection_1<System_Internal.String> | null);
+    readonly Keywords: EventKeywords;
+    readonly Level: EventLevel;
+    readonly Message: string | null;
+    readonly Opcode: EventOpcode;
+    readonly OSThreadId: long;
+    readonly Payload: ReadOnlyCollection_1<unknown | null> | null;
+    readonly PayloadNames: ReadOnlyCollection_1<System_Internal.String> | null;
     readonly RelatedActivityId: Guid;
-    Tags: EventTags;
+    readonly Tags: EventTags;
     readonly Task: EventTask;
-    TimeStamp: DateTime;
+    readonly TimeStamp: DateTime;
     readonly Version: byte;
 }
 
@@ -467,7 +496,8 @@ export const EventWrittenEventArgs: {
 
 export type EventWrittenEventArgs = EventWrittenEventArgs$instance;
 
-export interface IncrementingEventCounter$instance extends DiagnosticCounter$instance, System_Internal.IDisposable$instance {
+export interface IncrementingEventCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_DiagnosticCounter: never;
     readonly __tsonic_type_System_Diagnostics_Tracing_IncrementingEventCounter: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -490,7 +520,8 @@ export interface __IncrementingEventCounter$views {
 export type IncrementingEventCounter = IncrementingEventCounter$instance & __IncrementingEventCounter$views;
 
 
-export interface IncrementingPollingCounter$instance extends DiagnosticCounter$instance, System_Internal.IDisposable$instance {
+export interface IncrementingPollingCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_DiagnosticCounter: never;
     readonly __tsonic_type_System_Diagnostics_Tracing_IncrementingPollingCounter: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -512,7 +543,8 @@ export interface __IncrementingPollingCounter$views {
 export type IncrementingPollingCounter = IncrementingPollingCounter$instance & __IncrementingPollingCounter$views;
 
 
-export interface NonEventAttribute$instance extends Attribute {
+export interface NonEventAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Tracing_NonEventAttribute: never;
 
 }
@@ -525,7 +557,8 @@ export const NonEventAttribute: {
 
 export type NonEventAttribute = NonEventAttribute$instance;
 
-export interface PollingCounter$instance extends DiagnosticCounter$instance, System_Internal.IDisposable$instance {
+export interface PollingCounter$instance extends DiagnosticCounter$instance {
+    readonly __tsonic_type_System_Diagnostics_Tracing_DiagnosticCounter: never;
     readonly __tsonic_type_System_Diagnostics_Tracing_PollingCounter: never;
 
     readonly __tsonic_iface_System_IDisposable: never;

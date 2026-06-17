@@ -222,19 +222,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::.ctor(System.Linq.Expressions.ExpressionType):void",
-            "metadataToken": 100667607,
-            "canonicalSignature": "(System.Linq.Expressions.ExpressionType):void",
-            "normalizedSignature": "constructor|(System.Linq.Expressions.ExpressionType):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.BinaryOperationBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.BindingRestrictions",
@@ -673,19 +661,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::.ctor(System.Type,System.Boolean):void",
-            "metadataToken": 100667738,
-            "canonicalSignature": "(System.Type,System.Boolean):void",
-            "normalizedSignature": "constructor|(System.Type,System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.ConvertBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder",
@@ -826,19 +802,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::.ctor(System.Dynamic.CallInfo):void",
-            "metadataToken": 100667746,
-            "canonicalSignature": "(System.Dynamic.CallInfo):void",
-            "normalizedSignature": "constructor|(System.Dynamic.CallInfo):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.CreateInstanceBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder",
@@ -979,19 +943,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::.ctor(System.Dynamic.CallInfo):void",
-            "metadataToken": 100667753,
-            "canonicalSignature": "(System.Dynamic.CallInfo):void",
-            "normalizedSignature": "constructor|(System.Dynamic.CallInfo):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.DeleteIndexBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder",
@@ -1151,19 +1103,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::.ctor(System.String,System.Boolean):void",
-            "metadataToken": 100667760,
-            "canonicalSignature": "(System.String,System.Boolean):void",
-            "normalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.DeleteMemberBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObject",
@@ -1758,19 +1698,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::.ctor():void",
-            "metadataToken": 100667538,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.DynamicMetaObjectBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject",
@@ -2147,19 +2075,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.DynamicObject::.ctor():void",
-            "metadataToken": 100667768,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.DynamicObject",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.ExpandoObject",
@@ -2667,19 +2583,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::.ctor(System.Dynamic.CallInfo):void",
-            "metadataToken": 100667837,
-            "canonicalSignature": "(System.Dynamic.CallInfo):void",
-            "normalizedSignature": "constructor|(System.Dynamic.CallInfo):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.GetIndexBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder",
@@ -2839,19 +2743,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::.ctor(System.String,System.Boolean):void",
-            "metadataToken": 100667844,
-            "canonicalSignature": "(System.String,System.Boolean):void",
-            "normalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.GetMemberBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder",
@@ -2992,19 +2884,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::.ctor(System.Dynamic.CallInfo):void",
-            "metadataToken": 100667852,
-            "canonicalSignature": "(System.Dynamic.CallInfo):void",
-            "normalizedSignature": "constructor|(System.Dynamic.CallInfo):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.InvokeBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder",
@@ -3203,19 +3083,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::.ctor(System.String,System.Boolean,System.Dynamic.CallInfo):void",
-            "metadataToken": 100667859,
-            "canonicalSignature": "(System.String,System.Boolean,System.Dynamic.CallInfo):void",
-            "normalizedSignature": "constructor|(System.String,System.Boolean,System.Dynamic.CallInfo):void|static=false",
-            "isStatic": false,
-            "parameterCount": 3,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.InvokeMemberBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder",
@@ -3356,19 +3224,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::.ctor(System.Dynamic.CallInfo):void",
-            "metadataToken": 100667869,
-            "canonicalSignature": "(System.Dynamic.CallInfo):void",
-            "normalizedSignature": "constructor|(System.Dynamic.CallInfo):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.SetIndexBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder",
@@ -3528,19 +3384,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::.ctor(System.String,System.Boolean):void",
-            "metadataToken": 100667876,
-            "canonicalSignature": "(System.String,System.Boolean):void",
-            "normalizedSignature": "constructor|(System.String,System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.SetMemberBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder",
@@ -3681,19 +3525,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::.ctor(System.Linq.Expressions.ExpressionType):void",
-            "metadataToken": 100667884,
-            "canonicalSignature": "(System.Linq.Expressions.ExpressionType):void",
-            "normalizedSignature": "constructor|(System.Linq.Expressions.ExpressionType):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Dynamic.UnaryOperationBinder",
-            "ownerIdentity": "System.Linq.Expressions"
-          }
-        ]
+        "constructors": []
       }
     ]
   }

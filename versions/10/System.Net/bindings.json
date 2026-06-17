@@ -5857,12 +5857,12 @@
             "targetName": "Complete",
             "metadataToken": 385876041,
             "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "Complete|:System.Boolean|static=false|accessor=getset",
+            "normalizedSignature": "Complete|:System.Boolean|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -7381,17 +7381,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Net.CookieException",
             "ownerIdentity": "System.Net.Primitives"
-          },
-          {
-            "stableId": "System.Net.Primitives:System.Net.CookieException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663485,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.CookieException",
-            "ownerIdentity": "System.Net.Primitives"
           }
         ]
       },
@@ -8070,19 +8059,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Primitives:System.Net.EndPoint::.ctor():void",
-            "metadataToken": 100663530,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.EndPoint",
-            "ownerIdentity": "System.Net.Primitives"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Requests:System.Net.FileWebRequest",
@@ -8541,19 +8518,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Requests:System.Net.FileWebRequest::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663394,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.FileWebRequest",
-            "ownerIdentity": "System.Net.Requests"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Requests:System.Net.FileWebResponse",
@@ -8783,19 +8748,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Requests:System.Net.FileWebResponse::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663456,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.FileWebResponse",
-            "ownerIdentity": "System.Net.Requests"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Requests:System.Net.FtpWebRequest",
@@ -10715,17 +10668,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Net.HttpListenerException",
-            "ownerIdentity": "System.Net.HttpListener"
-          },
-          {
-            "stableId": "System.Net.HttpListener:System.Net.HttpListenerException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663603,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Net.HttpListenerException",
             "ownerIdentity": "System.Net.HttpListener"
           }
@@ -13660,19 +13602,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Requests:System.Net.HttpWebRequest::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663480,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.HttpWebRequest",
-            "ownerIdentity": "System.Net.Requests"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Requests:System.Net.HttpWebResponse",
@@ -14161,17 +14091,6 @@
             "isStatic": false,
             "parameterCount": 0,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Net.HttpWebResponse",
-            "ownerIdentity": "System.Net.Requests"
-          },
-          {
-            "stableId": "System.Net.Requests:System.Net.HttpWebResponse::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663625,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Net.HttpWebResponse",
             "ownerIdentity": "System.Net.Requests"
           }
@@ -16144,17 +16063,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Net.ProtocolViolationException",
             "ownerIdentity": "System.Net.Requests"
-          },
-          {
-            "stableId": "System.Net.Requests:System.Net.ProtocolViolationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663678,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.ProtocolViolationException",
-            "ownerIdentity": "System.Net.Requests"
           }
         ]
       },
@@ -16354,12 +16262,12 @@
             "targetName": "IdleSince",
             "metadataToken": 385876262,
             "canonicalSignature": ":System.DateTime",
-            "normalizedSignature": "IdleSince|:System.DateTime|static=false|accessor=getset",
+            "normalizedSignature": "IdleSince|:System.DateTime|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -16373,12 +16281,12 @@
             "targetName": "ProtocolVersion",
             "metadataToken": 385876263,
             "canonicalSignature": ":System.Version",
-            "normalizedSignature": "ProtocolVersion|:System.Version|static=false|accessor=getset",
+            "normalizedSignature": "ProtocolVersion|:System.Version|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": true,
@@ -16449,12 +16357,12 @@
             "targetName": "Certificate",
             "metadataToken": 385876267,
             "canonicalSignature": ":System.Security.Cryptography.X509Certificates.X509Certificate",
-            "normalizedSignature": "Certificate|:System.Security.Cryptography.X509Certificates.X509Certificate|static=false|accessor=getset",
+            "normalizedSignature": "Certificate|:System.Security.Cryptography.X509Certificates.X509Certificate|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -17154,19 +17062,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Primitives:System.Net.TransportContext::.ctor():void",
-            "metadataToken": 100663698,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.TransportContext",
-            "ownerIdentity": "System.Net.Primitives"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.WebClient:System.Net.UploadDataCompletedEventArgs",
@@ -19926,17 +19822,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Net.WebException",
             "ownerIdentity": "System.Net.Requests"
-          },
-          {
-            "stableId": "System.Net.Requests:System.Net.WebException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663734,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.WebException",
-            "ownerIdentity": "System.Net.Requests"
           }
         ]
       },
@@ -20355,26 +20240,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::AddWithoutValidate(System.String,System.String):System.Void",
-            "targetName": "AddWithoutValidate",
-            "metadataToken": 100663338,
-            "canonicalSignature": "(System.String,System.String):System.Void",
-            "normalizedSignature": "AddWithoutValidate|(System.String,System.String):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.WebHeaderCollection",
-            "ownerIdentity": "System.Net.WebHeaderCollection",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Remove(System.String):System.Void",
             "targetName": "Remove",
             "metadataToken": 100663339,
@@ -20761,17 +20626,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663309,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.WebHeaderCollection",
-            "ownerIdentity": "System.Net.WebHeaderCollection"
-          },
           {
             "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::.ctor():void",
             "metadataToken": 100663342,
@@ -21201,17 +21055,6 @@
             "isStatic": false,
             "parameterCount": 4,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Net.WebProxy",
-            "ownerIdentity": "System.Net.WebProxy"
-          },
-          {
-            "stableId": "System.Net.WebProxy:System.Net.WebProxy::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663326,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Net.WebProxy",
             "ownerIdentity": "System.Net.WebProxy"
           }
@@ -21909,30 +21752,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Requests:System.Net.WebRequest::.ctor():void",
-            "metadataToken": 100663742,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.WebRequest",
-            "ownerIdentity": "System.Net.Requests"
-          },
-          {
-            "stableId": "System.Net.Requests:System.Net.WebRequest::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663743,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.WebRequest",
-            "ownerIdentity": "System.Net.Requests"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Requests:System.Net.WebResponse",
@@ -22240,30 +22060,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Requests:System.Net.WebResponse::.ctor():void",
-            "metadataToken": 100663811,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.WebResponse",
-            "ownerIdentity": "System.Net.Requests"
-          },
-          {
-            "stableId": "System.Net.Requests:System.Net.WebResponse::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663812,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.WebResponse",
-            "ownerIdentity": "System.Net.Requests"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.WebClient:System.Net.WriteStreamClosedEventArgs",

@@ -27,5 +27,5 @@ export type IValueTaskSource<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.IValueTaskSource :
-  [T1] extends [unknown] ? Internal.IValueTaskSource_1<T1> : never;
+  Internal.IValueTaskSource_1<T1>;
 

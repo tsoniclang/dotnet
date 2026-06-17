@@ -10,41 +10,44 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum DynamicallyAccessedMemberTypes {
-    None = 0,
-    PublicParameterlessConstructor = 1,
-    PublicConstructors = 3,
-    NonPublicConstructors = 4,
-    PublicMethods = 8,
-    NonPublicMethods = 16,
-    PublicFields = 32,
-    NonPublicFields = 64,
-    PublicNestedTypes = 128,
-    NonPublicNestedTypes = 256,
-    PublicProperties = 512,
-    NonPublicProperties = 1024,
-    PublicEvents = 2048,
-    NonPublicEvents = 4096,
-    Interfaces = 8192,
-    NonPublicConstructorsWithInherited = 16388,
-    NonPublicMethodsWithInherited = 32784,
-    NonPublicFieldsWithInherited = 65600,
-    NonPublicNestedTypesWithInherited = 131328,
-    NonPublicPropertiesWithInherited = 263168,
-    NonPublicEventsWithInherited = 528384,
-    PublicConstructorsWithInherited = 1048579,
-    PublicNestedTypesWithInherited = 2097280,
-    AllConstructors = 1064967,
-    AllMethods = 32792,
-    AllFields = 65632,
-    AllNestedTypes = 2228608,
-    AllProperties = 263680,
-    AllEvents = 530432,
-    All = -1
-}
+export type DynamicallyAccessedMemberTypes = number & { readonly __tsonic_type_System_Diagnostics_CodeAnalysis_DynamicallyAccessedMemberTypes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DynamicallyAccessedMemberTypes: {
+    readonly None: DynamicallyAccessedMemberTypes;
+    readonly PublicParameterlessConstructor: DynamicallyAccessedMemberTypes;
+    readonly PublicConstructors: DynamicallyAccessedMemberTypes;
+    readonly NonPublicConstructors: DynamicallyAccessedMemberTypes;
+    readonly PublicMethods: DynamicallyAccessedMemberTypes;
+    readonly NonPublicMethods: DynamicallyAccessedMemberTypes;
+    readonly PublicFields: DynamicallyAccessedMemberTypes;
+    readonly NonPublicFields: DynamicallyAccessedMemberTypes;
+    readonly PublicNestedTypes: DynamicallyAccessedMemberTypes;
+    readonly NonPublicNestedTypes: DynamicallyAccessedMemberTypes;
+    readonly PublicProperties: DynamicallyAccessedMemberTypes;
+    readonly NonPublicProperties: DynamicallyAccessedMemberTypes;
+    readonly PublicEvents: DynamicallyAccessedMemberTypes;
+    readonly NonPublicEvents: DynamicallyAccessedMemberTypes;
+    readonly Interfaces: DynamicallyAccessedMemberTypes;
+    readonly NonPublicConstructorsWithInherited: DynamicallyAccessedMemberTypes;
+    readonly NonPublicMethodsWithInherited: DynamicallyAccessedMemberTypes;
+    readonly NonPublicFieldsWithInherited: DynamicallyAccessedMemberTypes;
+    readonly NonPublicNestedTypesWithInherited: DynamicallyAccessedMemberTypes;
+    readonly NonPublicPropertiesWithInherited: DynamicallyAccessedMemberTypes;
+    readonly NonPublicEventsWithInherited: DynamicallyAccessedMemberTypes;
+    readonly PublicConstructorsWithInherited: DynamicallyAccessedMemberTypes;
+    readonly PublicNestedTypesWithInherited: DynamicallyAccessedMemberTypes;
+    readonly AllConstructors: DynamicallyAccessedMemberTypes;
+    readonly AllMethods: DynamicallyAccessedMemberTypes;
+    readonly AllFields: DynamicallyAccessedMemberTypes;
+    readonly AllNestedTypes: DynamicallyAccessedMemberTypes;
+    readonly AllProperties: DynamicallyAccessedMemberTypes;
+    readonly AllEvents: DynamicallyAccessedMemberTypes;
+    readonly All: DynamicallyAccessedMemberTypes;
+};
 
 
-export interface AllowNullAttribute$instance extends Attribute {
+export interface AllowNullAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_AllowNullAttribute: never;
 
 }
@@ -57,7 +60,8 @@ export const AllowNullAttribute: {
 
 export type AllowNullAttribute = AllowNullAttribute$instance;
 
-export interface ConstantExpectedAttribute$instance extends Attribute {
+export interface ConstantExpectedAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_ConstantExpectedAttribute: never;
 
     get Max(): unknown | null;
@@ -74,7 +78,8 @@ export const ConstantExpectedAttribute: {
 
 export type ConstantExpectedAttribute = ConstantExpectedAttribute$instance;
 
-export interface DisallowNullAttribute$instance extends Attribute {
+export interface DisallowNullAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_DisallowNullAttribute: never;
 
 }
@@ -87,7 +92,8 @@ export const DisallowNullAttribute: {
 
 export type DisallowNullAttribute = DisallowNullAttribute$instance;
 
-export interface DoesNotReturnAttribute$instance extends Attribute {
+export interface DoesNotReturnAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_DoesNotReturnAttribute: never;
 
 }
@@ -100,7 +106,8 @@ export const DoesNotReturnAttribute: {
 
 export type DoesNotReturnAttribute = DoesNotReturnAttribute$instance;
 
-export interface DoesNotReturnIfAttribute$instance extends Attribute {
+export interface DoesNotReturnIfAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_DoesNotReturnIfAttribute: never;
 
     readonly ParameterValue: boolean;
@@ -114,7 +121,8 @@ export const DoesNotReturnIfAttribute: {
 
 export type DoesNotReturnIfAttribute = DoesNotReturnIfAttribute$instance;
 
-export interface DynamicallyAccessedMembersAttribute$instance extends Attribute {
+export interface DynamicallyAccessedMembersAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_DynamicallyAccessedMembersAttribute: never;
 
     readonly MemberTypes: DynamicallyAccessedMemberTypes;
@@ -128,7 +136,8 @@ export const DynamicallyAccessedMembersAttribute: {
 
 export type DynamicallyAccessedMembersAttribute = DynamicallyAccessedMembersAttribute$instance;
 
-export interface DynamicDependencyAttribute$instance extends Attribute {
+export interface DynamicDependencyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_DynamicDependencyAttribute: never;
 
     readonly AssemblyName: string | null;
@@ -152,7 +161,8 @@ export const DynamicDependencyAttribute: {
 
 export type DynamicDependencyAttribute = DynamicDependencyAttribute$instance;
 
-export interface ExcludeFromCodeCoverageAttribute$instance extends Attribute {
+export interface ExcludeFromCodeCoverageAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_ExcludeFromCodeCoverageAttribute: never;
 
     get Justification(): string | null;
@@ -167,7 +177,8 @@ export const ExcludeFromCodeCoverageAttribute: {
 
 export type ExcludeFromCodeCoverageAttribute = ExcludeFromCodeCoverageAttribute$instance;
 
-export interface ExperimentalAttribute$instance extends Attribute {
+export interface ExperimentalAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_ExperimentalAttribute: never;
 
     readonly DiagnosticId: string;
@@ -185,7 +196,8 @@ export const ExperimentalAttribute: {
 
 export type ExperimentalAttribute = ExperimentalAttribute$instance;
 
-export interface FeatureGuardAttribute$instance extends Attribute {
+export interface FeatureGuardAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_FeatureGuardAttribute: never;
 
     readonly FeatureType: Type;
@@ -199,7 +211,8 @@ export const FeatureGuardAttribute: {
 
 export type FeatureGuardAttribute = FeatureGuardAttribute$instance;
 
-export interface FeatureSwitchDefinitionAttribute$instance extends Attribute {
+export interface FeatureSwitchDefinitionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_FeatureSwitchDefinitionAttribute: never;
 
     readonly SwitchName: string;
@@ -213,7 +226,8 @@ export const FeatureSwitchDefinitionAttribute: {
 
 export type FeatureSwitchDefinitionAttribute = FeatureSwitchDefinitionAttribute$instance;
 
-export interface MaybeNullAttribute$instance extends Attribute {
+export interface MaybeNullAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_MaybeNullAttribute: never;
 
 }
@@ -226,7 +240,8 @@ export const MaybeNullAttribute: {
 
 export type MaybeNullAttribute = MaybeNullAttribute$instance;
 
-export interface MaybeNullWhenAttribute$instance extends Attribute {
+export interface MaybeNullWhenAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_MaybeNullWhenAttribute: never;
 
     readonly ReturnValue: boolean;
@@ -240,7 +255,8 @@ export const MaybeNullWhenAttribute: {
 
 export type MaybeNullWhenAttribute = MaybeNullWhenAttribute$instance;
 
-export interface MemberNotNullAttribute$instance extends Attribute {
+export interface MemberNotNullAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_MemberNotNullAttribute: never;
 
     readonly Members: string[];
@@ -255,7 +271,8 @@ export const MemberNotNullAttribute: {
 
 export type MemberNotNullAttribute = MemberNotNullAttribute$instance;
 
-export interface MemberNotNullWhenAttribute$instance extends Attribute {
+export interface MemberNotNullWhenAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_MemberNotNullWhenAttribute: never;
 
     readonly Members: string[];
@@ -271,7 +288,8 @@ export const MemberNotNullWhenAttribute: {
 
 export type MemberNotNullWhenAttribute = MemberNotNullWhenAttribute$instance;
 
-export interface NotNullAttribute$instance extends Attribute {
+export interface NotNullAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_NotNullAttribute: never;
 
 }
@@ -284,7 +302,8 @@ export const NotNullAttribute: {
 
 export type NotNullAttribute = NotNullAttribute$instance;
 
-export interface NotNullIfNotNullAttribute$instance extends Attribute {
+export interface NotNullIfNotNullAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_NotNullIfNotNullAttribute: never;
 
     readonly ParameterName: string;
@@ -298,7 +317,8 @@ export const NotNullIfNotNullAttribute: {
 
 export type NotNullIfNotNullAttribute = NotNullIfNotNullAttribute$instance;
 
-export interface NotNullWhenAttribute$instance extends Attribute {
+export interface NotNullWhenAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_NotNullWhenAttribute: never;
 
     readonly ReturnValue: boolean;
@@ -312,7 +332,8 @@ export const NotNullWhenAttribute: {
 
 export type NotNullWhenAttribute = NotNullWhenAttribute$instance;
 
-export interface RequiresAssemblyFilesAttribute$instance extends Attribute {
+export interface RequiresAssemblyFilesAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_RequiresAssemblyFilesAttribute: never;
 
     readonly Message: string | null;
@@ -329,7 +350,8 @@ export const RequiresAssemblyFilesAttribute: {
 
 export type RequiresAssemblyFilesAttribute = RequiresAssemblyFilesAttribute$instance;
 
-export interface RequiresDynamicCodeAttribute$instance extends Attribute {
+export interface RequiresDynamicCodeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_RequiresDynamicCodeAttribute: never;
 
     ExcludeStatics: boolean;
@@ -346,7 +368,8 @@ export const RequiresDynamicCodeAttribute: {
 
 export type RequiresDynamicCodeAttribute = RequiresDynamicCodeAttribute$instance;
 
-export interface RequiresUnreferencedCodeAttribute$instance extends Attribute {
+export interface RequiresUnreferencedCodeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_RequiresUnreferencedCodeAttribute: never;
 
     ExcludeStatics: boolean;
@@ -363,7 +386,8 @@ export const RequiresUnreferencedCodeAttribute: {
 
 export type RequiresUnreferencedCodeAttribute = RequiresUnreferencedCodeAttribute$instance;
 
-export interface SetsRequiredMembersAttribute$instance extends Attribute {
+export interface SetsRequiredMembersAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_SetsRequiredMembersAttribute: never;
 
 }
@@ -376,7 +400,8 @@ export const SetsRequiredMembersAttribute: {
 
 export type SetsRequiredMembersAttribute = SetsRequiredMembersAttribute$instance;
 
-export interface StringSyntaxAttribute$instance extends Attribute {
+export interface StringSyntaxAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_StringSyntaxAttribute: never;
 
     readonly Arguments: (unknown | null)[];
@@ -404,7 +429,8 @@ export const StringSyntaxAttribute: {
 
 export type StringSyntaxAttribute = StringSyntaxAttribute$instance;
 
-export interface SuppressMessageAttribute$instance extends Attribute {
+export interface SuppressMessageAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_SuppressMessageAttribute: never;
 
     readonly Category: string;
@@ -427,7 +453,8 @@ export const SuppressMessageAttribute: {
 
 export type SuppressMessageAttribute = SuppressMessageAttribute$instance;
 
-export interface UnconditionalSuppressMessageAttribute$instance extends Attribute {
+export interface UnconditionalSuppressMessageAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_UnconditionalSuppressMessageAttribute: never;
 
     readonly Category: string;
@@ -450,7 +477,8 @@ export const UnconditionalSuppressMessageAttribute: {
 
 export type UnconditionalSuppressMessageAttribute = UnconditionalSuppressMessageAttribute$instance;
 
-export interface UnscopedRefAttribute$instance extends Attribute {
+export interface UnscopedRefAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_CodeAnalysis_UnscopedRefAttribute: never;
 
 }

@@ -13,7 +13,7 @@ import type { ImmutableArray_1 } from "../../System.Collections.Immutable/intern
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
 import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator } from "../../System.Collections/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, Boolean as ClrBoolean, Func_2, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, Boolean as ClrBoolean, Char, Func_2, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export interface FrozenDictionary_2$instance<TKey extends unknown, TValue extends unknown> {
     readonly __tsonic_type_System_Collections_Frozen_FrozenDictionary_2: never;
@@ -64,6 +64,7 @@ export type FrozenDictionary_2<TKey extends unknown, TValue extends unknown> = F
 
 export interface FrozenDictionary_2_AlternateLookup_1$instance<TKey extends unknown, TValue extends unknown, TAlternateKey extends unknown> {
     readonly __tsonic_type_System_Collections_Frozen_FrozenDictionary_2_AlternateLookup_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Dictionary: FrozenDictionary_2<TKey, TValue>;
     readonly Item: TValue;
@@ -79,8 +80,9 @@ export const FrozenDictionary_2_AlternateLookup_1: {
 
 export type FrozenDictionary_2_AlternateLookup_1<TKey extends unknown, TValue extends unknown, TAlternateKey extends unknown> = FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
-export interface FrozenDictionary_2_Enumerator$instance<TKey extends unknown, TValue extends unknown> extends IEnumerator_1<KeyValuePair_2<TKey, TValue>> {
+export interface FrozenDictionary_2_Enumerator$instance<TKey extends unknown, TValue extends unknown> extends System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>> {
     readonly __tsonic_type_System_Collections_Frozen_FrozenDictionary_2_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -114,8 +116,8 @@ export interface FrozenSet_1$instance<T extends unknown> {
     readonly Count: int;
     readonly Items: ImmutableArray_1<T>;
     Contains(item: T): boolean;
-    CopyTo(destination: T[], destinationIndex: int): void;
     CopyTo(destination: Span_1<T>): void;
+    CopyTo(destination: T[], destinationIndex: int): void;
     GetAlternateLookup<TAlternate extends unknown>(): FrozenSet_1_AlternateLookup_1<T, TAlternate>;
     GetEnumerator(): FrozenSet_1_Enumerator<T>;
     IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
@@ -149,6 +151,7 @@ export type FrozenSet_1<T extends unknown> = FrozenSet_1$instance<T> & __FrozenS
 
 export interface FrozenSet_1_AlternateLookup_1$instance<T extends unknown, TAlternate extends unknown> {
     readonly __tsonic_type_System_Collections_Frozen_FrozenSet_1_AlternateLookup_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Set: FrozenSet_1<T>;
     Contains(item: TAlternate): boolean;
@@ -163,8 +166,9 @@ export const FrozenSet_1_AlternateLookup_1: {
 
 export type FrozenSet_1_AlternateLookup_1<T extends unknown, TAlternate extends unknown> = FrozenSet_1_AlternateLookup_1$instance<T, TAlternate>;
 
-export interface FrozenSet_1_Enumerator$instance<T extends unknown> extends IEnumerator_1<T> {
+export interface FrozenSet_1_Enumerator$instance<T extends unknown> extends System_Collections_Generic_Internal.IEnumerator_1$instance<T> {
     readonly __tsonic_type_System_Collections_Frozen_FrozenSet_1_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;

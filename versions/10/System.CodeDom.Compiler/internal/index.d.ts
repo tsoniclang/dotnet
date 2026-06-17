@@ -13,9 +13,10 @@ import type { Encoding, StringBuilder } from "../../System.Text/internal/index.j
 import type { Task, ValueTask } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDisposable, IDisposable, IFormatProvider, Int32, Int64, MarshalByRefObject, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Single, String as ClrString, Type, UInt32, UInt64, Void } from "../../System/internal/index.js";
+import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDisposable, IDisposable, IFormatProvider, Int32, Int64, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Single, String as ClrString, Type, UInt32, UInt64, Void } from "../../System/internal/index.js";
 
-export interface GeneratedCodeAttribute$instance extends Attribute {
+export interface GeneratedCodeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_CodeDom_Compiler_GeneratedCodeAttribute: never;
 
     readonly Tool: string | null;
@@ -30,77 +31,26 @@ export const GeneratedCodeAttribute: {
 
 export type GeneratedCodeAttribute = GeneratedCodeAttribute$instance;
 
-export interface IndentedTextWriter$instance extends TextWriter, System_Internal.IAsyncDisposable$instance {
+export interface IndentedTextWriter$instance extends System_IO_Internal.TextWriter$instance {
     readonly __tsonic_type_System_CodeDom_Compiler_IndentedTextWriter: never;
+    readonly __tsonic_type_System_IO_TextWriter: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly Encoding: Encoding;
     Indent: int;
     readonly InnerWriter: TextWriter;
-    NewLine: string;
-    Close(): void;
-    DisposeAsync(): ValueTask;
-    Flush(): void;
-    FlushAsync(): Task;
-    FlushAsync(cancellationToken: CancellationToken): Task;
+    Close: System_IO_Internal.TextWriter$instance["Close"] & (() => void);
+    DisposeAsync: System_IO_Internal.TextWriter$instance["DisposeAsync"] & (() => ValueTask);
+    Flush: System_IO_Internal.TextWriter$instance["Flush"] & (() => void);
+    FlushAsync: System_IO_Internal.TextWriter$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
     OutputTabs(): void;
     OutputTabsAsync(): Task;
-    Write(s: string | null): void;
-    Write(value: boolean): void;
-    Write(value: char): void;
-    Write(buffer: char[] | null): void;
-    Write(buffer: char[], index: int, count: int): void;
-    Write(value: double): void;
-    Write(value: float): void;
-    Write(value: int): void;
-    Write(value: long): void;
-    Write(value: unknown | null): void;
-    Write(format: string, arg0: unknown | null): void;
-    Write(format: string, arg0: unknown | null, arg1: unknown | null): void;
-    Write(format: string, ...arg: (unknown | null)[]): void;
-    Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
-    Write(value: uint): void;
-    Write(value: ulong): void;
-    Write(value: decimal): void;
-    Write(value: StringBuilder | null): void;
-    Write(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
-    WriteAsync(value: char): Task;
-    WriteAsync(buffer: char[], index: int, count: int): Task;
-    WriteAsync(value: string | null): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
-    WriteAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
-    WriteAsync(buffer: char[] | null): Task;
-    WriteLine(s: string | null): void;
-    WriteLine(): void;
-    WriteLine(value: boolean): void;
-    WriteLine(value: char): void;
-    WriteLine(buffer: char[] | null): void;
-    WriteLine(buffer: char[], index: int, count: int): void;
-    WriteLine(value: double): void;
-    WriteLine(value: float): void;
-    WriteLine(value: int): void;
-    WriteLine(value: long): void;
-    WriteLine(value: unknown | null): void;
-    WriteLine(format: string, arg0: unknown | null): void;
-    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null): void;
-    WriteLine(format: string, ...arg: (unknown | null)[]): void;
-    WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    WriteLine(value: uint): void;
-    WriteLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
-    WriteLine(value: ulong): void;
-    WriteLine(value: decimal): void;
-    WriteLine(value: StringBuilder | null): void;
-    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
-    WriteLineAsync(): Task;
-    WriteLineAsync(value: char): Task;
-    WriteLineAsync(buffer: char[], index: int, count: int): Task;
-    WriteLineAsync(value: string | null): Task;
-    WriteLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
-    WriteLineAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
-    WriteLineAsync(buffer: char[] | null): Task;
+    Write: System_IO_Internal.TextWriter$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Char>) => void) & ((buffer: char[] | null) => void) & ((buffer: char[], index: int, count: int) => void) & ((format: string, ...arg: (unknown | null)[]) => void) & ((format: string, arg0: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null) => void) & ((format: string, arg: ReadOnlySpan_1<unknown>) => void) & ((s: string | null) => void) & ((value: StringBuilder | null) => void) & ((value: boolean) => void) & ((value: char) => void) & ((value: decimal) => void) & ((value: double) => void) & ((value: float) => void) & ((value: int) => void) & ((value: long) => void) & ((value: uint) => void) & ((value: ulong) => void) & ((value: unknown | null) => void);
+    WriteAsync: System_IO_Internal.TextWriter$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken) => Task) & ((buffer: char[] | null) => Task) & ((buffer: char[], index: int, count: int) => Task) & ((value: StringBuilder | null, cancellationToken?: CancellationToken) => Task) & ((value: char) => Task) & ((value: string | null) => Task);
+    WriteLine: System_IO_Internal.TextWriter$instance["WriteLine"] & (() => void) & ((buffer: ReadOnlySpan_1<System_Internal.Char>) => void) & ((buffer: char[] | null) => void) & ((buffer: char[], index: int, count: int) => void) & ((format: string, ...arg: (unknown | null)[]) => void) & ((format: string, arg0: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null) => void) & ((format: string, arg: ReadOnlySpan_1<unknown>) => void) & ((s: string | null) => void) & ((value: StringBuilder | null) => void) & ((value: boolean) => void) & ((value: char) => void) & ((value: decimal) => void) & ((value: double) => void) & ((value: float) => void) & ((value: int) => void) & ((value: long) => void) & ((value: uint) => void) & ((value: ulong) => void) & ((value: unknown | null) => void);
+    WriteLineAsync: System_IO_Internal.TextWriter$instance["WriteLineAsync"] & (() => Task) & ((buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken) => Task) & ((buffer: char[] | null) => Task) & ((buffer: char[], index: int, count: int) => Task) & ((value: StringBuilder | null, cancellationToken?: CancellationToken) => Task) & ((value: char) => Task) & ((value: string | null) => Task);
     WriteLineNoTabs(s: string | null): void;
     WriteLineNoTabsAsync(s: string | null): Task;
 }

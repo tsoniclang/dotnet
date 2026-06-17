@@ -11,7 +11,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 
 // Cross-namespace type imports for constraints
 import type { FieldAttributes, ParameterAttributes } from './System.Reflection/internal/index.js';
-import type { Boolean as ClrBoolean, Byte, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, Byte, ConsoleKeyInfo, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export type ISymbolBinder = Internal.ISymbolBinder;

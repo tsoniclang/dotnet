@@ -36,8 +36,9 @@ export interface IXmlJsonWriterInitializer$instance {
 
 export type IXmlJsonWriterInitializer = IXmlJsonWriterInitializer$instance;
 
-export interface DataContractJsonSerializer$instance extends XmlObjectSerializer {
+export interface DataContractJsonSerializer$instance extends System_Runtime_Serialization_Internal.XmlObjectSerializer$instance {
     readonly __tsonic_type_System_Runtime_Serialization_Json_DataContractJsonSerializer: never;
+    readonly __tsonic_type_System_Runtime_Serialization_XmlObjectSerializer: never;
 
     readonly DateTimeFormat: DateTimeFormat | null;
     readonly EmitTypeInformation: EmitTypeInformation;
@@ -47,23 +48,13 @@ export interface DataContractJsonSerializer$instance extends XmlObjectSerializer
     readonly SerializeReadOnlyTypes: boolean;
     readonly UseSimpleDictionaryFormat: boolean;
     GetSerializationSurrogateProvider(): ISerializationSurrogateProvider | null;
-    IsStartObject(reader: XmlReader): boolean;
-    IsStartObject(reader: XmlDictionaryReader): boolean;
-    ReadObject(stream: Stream): unknown | null;
-    ReadObject(reader: XmlReader): unknown | null;
-    ReadObject(reader: XmlReader, verifyObjectName: boolean): unknown | null;
-    ReadObject(reader: XmlDictionaryReader): unknown | null;
-    ReadObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | null;
+    IsStartObject: System_Runtime_Serialization_Internal.XmlObjectSerializer$instance["IsStartObject"] & ((reader: XmlDictionaryReader) => boolean) & ((reader: XmlReader) => boolean);
+    ReadObject: System_Runtime_Serialization_Internal.XmlObjectSerializer$instance["ReadObject"] & ((reader: XmlDictionaryReader) => unknown | null) & ((reader: XmlDictionaryReader, verifyObjectName: boolean) => unknown | null) & ((reader: XmlReader) => unknown | null) & ((reader: XmlReader, verifyObjectName: boolean) => unknown | null) & ((stream: Stream) => unknown | null);
     SetSerializationSurrogateProvider(provider: ISerializationSurrogateProvider | null): void;
-    WriteEndObject(writer: XmlWriter): void;
-    WriteEndObject(writer: XmlDictionaryWriter): void;
-    WriteObject(stream: Stream, graph: unknown | null): void;
-    WriteObject(writer: XmlWriter, graph: unknown | null): void;
-    WriteObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
-    WriteObjectContent(writer: XmlWriter, graph: unknown | null): void;
-    WriteObjectContent(writer: XmlDictionaryWriter, graph: unknown | null): void;
-    WriteStartObject(writer: XmlWriter, graph: unknown | null): void;
-    WriteStartObject(writer: XmlDictionaryWriter, graph: unknown | null): void;
+    WriteEndObject: System_Runtime_Serialization_Internal.XmlObjectSerializer$instance["WriteEndObject"] & ((writer: XmlDictionaryWriter) => void) & ((writer: XmlWriter) => void);
+    WriteObject: System_Runtime_Serialization_Internal.XmlObjectSerializer$instance["WriteObject"] & ((stream: Stream, graph: unknown | null) => void) & ((writer: XmlDictionaryWriter, graph: unknown | null) => void) & ((writer: XmlWriter, graph: unknown | null) => void);
+    WriteObjectContent: System_Runtime_Serialization_Internal.XmlObjectSerializer$instance["WriteObjectContent"] & ((writer: XmlDictionaryWriter, graph: unknown | null) => void) & ((writer: XmlWriter, graph: unknown | null) => void);
+    WriteStartObject: System_Runtime_Serialization_Internal.XmlObjectSerializer$instance["WriteStartObject"] & ((writer: XmlDictionaryWriter, graph: unknown | null) => void) & ((writer: XmlWriter, graph: unknown | null) => void);
 }
 
 

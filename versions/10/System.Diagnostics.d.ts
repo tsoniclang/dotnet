@@ -14,8 +14,8 @@ import type { SafeProcessHandle } from './Microsoft.Win32.SafeHandles/internal/i
 import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IList_1, IReadOnlyCollection_1, IReadOnlyList_1, KeyValuePair_2 } from './System.Collections.Generic/internal/index.js';
 import type { Collection_1 } from './System.Collections.ObjectModel/internal/index.js';
 import type { StringDictionary } from './System.Collections.Specialized/internal/index.js';
-import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, IList, ReadOnlyCollectionBase, Stack } from './System.Collections/internal/index.js';
-import type { Component, DescriptionAttribute, EventHandlerList, IComponent, IContainer, ISite, ISynchronizeInvoke } from './System.ComponentModel/internal/index.js';
+import type { ICollection, IDictionary, IEnumerable, IEnumerator, IList, ReadOnlyCollectionBase, Stack } from './System.Collections/internal/index.js';
+import type { Component, DescriptionAttribute, IComponent, IContainer, ISite, ISynchronizeInvoke } from './System.ComponentModel/internal/index.js';
 import type { Stream, StreamReader, StreamWriter, TextWriter } from './System.IO/internal/index.js';
 import type { Assembly, MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
@@ -23,7 +23,7 @@ import type { SecureString } from './System.Security/internal/index.js';
 import type { Encoding } from './System.Text/internal/index.js';
 import type { Task } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { Action_1, Action_2, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Delegate, Enum, EventArgs, EventHandler, EventHandler_1, Exception, Func_1, Func_2, Func_4, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, IObservable_1, IObserver_1, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { Action_1, Action_2, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, DateTime, DateTimeOffset, Delegate, Enum, EventArgs, EventHandler, EventHandler_1, Exception, Func_1, Func_2, Func_4, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, IObservable_1, IObserver_1, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { ActivityChangedEventArgs as ActivityChangedEventArgs } from './System.Diagnostics/internal/index.js';

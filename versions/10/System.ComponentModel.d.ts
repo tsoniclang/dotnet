@@ -12,12 +12,12 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 // Cross-namespace type imports for constraints
 import type { ICollection_1, IEnumerable_1, IEnumerator_1, IList_1, IReadOnlyCollection_1, IReadOnlyList_1 } from './System.Collections.Generic/internal/index.js';
 import type { Collection_1 } from './System.Collections.ObjectModel/internal/index.js';
-import type { ArrayList, Hashtable, ICollection, IComparer, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IList, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';
+import type { Hashtable, ICollection, IComparer, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IList, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';
 import type { IDesigner } from './System.ComponentModel.Design/internal/index.js';
 import type { CultureInfo } from './System.Globalization/internal/index.js';
 import type { UnmanagedMemoryStream } from './System.IO/internal/index.js';
 import type { Assembly, MethodBase, MethodInfo, Module } from './System.Reflection/internal/index.js';
-import type { ResourceManager, ResourceSet, UltimateResourceFallbackLocation } from './System.Resources/internal/index.js';
+import type { ResourceManager, ResourceSet } from './System.Resources/internal/index.js';
 import type { ExternalException } from './System.Runtime.InteropServices/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { SendOrPostCallback, SynchronizationContext } from './System.Threading/internal/index.js';

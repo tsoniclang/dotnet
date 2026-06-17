@@ -545,26 +545,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Data.Common:System.Data.Common.DataAdapter::HasTableMappings():System.Boolean",
-            "targetName": "HasTableMappings",
-            "metadataToken": 100668589,
-            "canonicalSignature": "():System.Boolean",
-            "normalizedSignature": "HasTableMappings|():System.Boolean|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DataAdapter",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Data.Common:System.Data.Common.DataAdapter::CloneInternals():System.Data.Common.DataAdapter",
             "targetName": "CloneInternals",
             "metadataToken": 100668592,
@@ -1176,30 +1156,7 @@
             "ownerIdentity": "System.Data.Common"
           }
         ],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DataAdapter::.ctor():void",
-            "metadataToken": 100668566,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DataAdapter",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DataAdapter::.ctor(System.Data.Common.DataAdapter):void",
-            "metadataToken": 100668567,
-            "canonicalSignature": "(System.Data.Common.DataAdapter):void",
-            "normalizedSignature": "constructor|(System.Data.Common.DataAdapter):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DataAdapter",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DataColumnMapping",
@@ -4137,19 +4094,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbBatch::.ctor():void",
-            "metadataToken": 100668901,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbBatch",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbBatchCommand",
@@ -4306,19 +4251,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbBatchCommand::.ctor():void",
-            "metadataToken": 100668911,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbBatchCommand",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbBatchCommandCollection",
@@ -4874,19 +4807,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbBatchCommandCollection::.ctor():void",
-            "metadataToken": 100668928,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbBatchCommandCollection",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbColumn",
@@ -4910,12 +4831,12 @@
             "targetName": "AllowDBNull",
             "metadataToken": 385877148,
             "canonicalSignature": ":System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "AllowDBNull|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "AllowDBNull|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -4929,12 +4850,12 @@
             "targetName": "BaseCatalogName",
             "metadataToken": 385877149,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "BaseCatalogName|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "BaseCatalogName|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -4948,12 +4869,12 @@
             "targetName": "BaseColumnName",
             "metadataToken": 385877150,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "BaseColumnName|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "BaseColumnName|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -4967,12 +4888,12 @@
             "targetName": "BaseSchemaName",
             "metadataToken": 385877151,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "BaseSchemaName|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "BaseSchemaName|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -4986,12 +4907,12 @@
             "targetName": "BaseServerName",
             "metadataToken": 385877152,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "BaseServerName|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "BaseServerName|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5005,12 +4926,12 @@
             "targetName": "BaseTableName",
             "metadataToken": 385877153,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "BaseTableName|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "BaseTableName|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5024,12 +4945,12 @@
             "targetName": "ColumnName",
             "metadataToken": 385877154,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "ColumnName|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "ColumnName|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5043,12 +4964,12 @@
             "targetName": "ColumnOrdinal",
             "metadataToken": 385877155,
             "canonicalSignature": ":System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "ColumnOrdinal|:System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "ColumnOrdinal|:System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5062,12 +4983,12 @@
             "targetName": "ColumnSize",
             "metadataToken": 385877156,
             "canonicalSignature": ":System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "ColumnSize|:System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "ColumnSize|:System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5081,12 +5002,12 @@
             "targetName": "IsAliased",
             "metadataToken": 385877157,
             "canonicalSignature": ":System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "IsAliased|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "IsAliased|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5100,12 +5021,12 @@
             "targetName": "IsAutoIncrement",
             "metadataToken": 385877158,
             "canonicalSignature": ":System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "IsAutoIncrement|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "IsAutoIncrement|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5119,12 +5040,12 @@
             "targetName": "IsExpression",
             "metadataToken": 385877159,
             "canonicalSignature": ":System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "IsExpression|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "IsExpression|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5138,12 +5059,12 @@
             "targetName": "IsHidden",
             "metadataToken": 385877160,
             "canonicalSignature": ":System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "IsHidden|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "IsHidden|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5157,12 +5078,12 @@
             "targetName": "IsIdentity",
             "metadataToken": 385877161,
             "canonicalSignature": ":System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "IsIdentity|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "IsIdentity|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5176,12 +5097,12 @@
             "targetName": "IsKey",
             "metadataToken": 385877162,
             "canonicalSignature": ":System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "IsKey|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "IsKey|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5195,12 +5116,12 @@
             "targetName": "IsLong",
             "metadataToken": 385877163,
             "canonicalSignature": ":System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "IsLong|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "IsLong|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5214,12 +5135,12 @@
             "targetName": "IsReadOnly",
             "metadataToken": 385877164,
             "canonicalSignature": ":System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "IsReadOnly|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "IsReadOnly|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5233,12 +5154,12 @@
             "targetName": "IsUnique",
             "metadataToken": 385877165,
             "canonicalSignature": ":System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "IsUnique|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "IsUnique|:System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5252,12 +5173,12 @@
             "targetName": "NumericPrecision",
             "metadataToken": 385877166,
             "canonicalSignature": ":System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "NumericPrecision|:System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "NumericPrecision|:System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5271,12 +5192,12 @@
             "targetName": "NumericScale",
             "metadataToken": 385877167,
             "canonicalSignature": ":System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
-            "normalizedSignature": "NumericScale|:System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
+            "normalizedSignature": "NumericScale|:System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5290,12 +5211,12 @@
             "targetName": "UdtAssemblyQualifiedName",
             "metadataToken": 385877168,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "UdtAssemblyQualifiedName|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "UdtAssemblyQualifiedName|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5309,12 +5230,12 @@
             "targetName": "DataType",
             "metadataToken": 385877169,
             "canonicalSignature": ":System.Type",
-            "normalizedSignature": "DataType|:System.Type|static=false|accessor=getset",
+            "normalizedSignature": "DataType|:System.Type|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5328,12 +5249,12 @@
             "targetName": "DataTypeName",
             "metadataToken": 385877170,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "DataTypeName|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "DataTypeName|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5364,19 +5285,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbColumn::.ctor():void",
-            "metadataToken": 100668976,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbColumn",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbCommand",
@@ -6354,19 +6263,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbCommand::.ctor():void",
-            "metadataToken": 100668977,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbCommand",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder",
@@ -6610,26 +6507,6 @@
             "isOverride": false,
             "isSealed": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Data.Common.DbCommandBuilder",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::RowUpdatingHandler(System.Data.Common.RowUpdatingEventArgs):System.Void",
-            "targetName": "RowUpdatingHandler",
-            "metadataToken": 100669095,
-            "canonicalSignature": "(System.Data.Common.RowUpdatingEventArgs):System.Void",
-            "normalizedSignature": "RowUpdatingHandler|(System.Data.Common.RowUpdatingEventArgs):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Data.Common.DbCommandBuilder",
             "ownerIdentity": "System.Data.Common",
             "isExtensionMethod": false
@@ -6972,19 +6849,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::.ctor():void",
-            "metadataToken": 100669032,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbCommandBuilder",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbConnection",
@@ -7955,19 +7820,7 @@
             "ownerIdentity": "System.Data.Common"
           }
         ],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbConnection::.ctor():void",
-            "metadataToken": 100669113,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbConnection",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder",
@@ -8079,26 +7932,6 @@
             "isOverride": false,
             "isSealed": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Data.Common.DbConnectionStringBuilder",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::ClearPropertyDescriptors():System.Void",
-            "targetName": "ClearPropertyDescriptors",
-            "metadataToken": 100669195,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "ClearPropertyDescriptors|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "ProtectedInternal",
             "ownerQualifiedName": "System.Data.Common.DbConnectionStringBuilder",
             "ownerIdentity": "System.Data.Common",
             "isExtensionMethod": false
@@ -9884,25 +9717,6 @@
             "ownerIdentity": "System.Data.Common"
           },
           {
-            "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::FillCommandBehavior:System.Data.CommandBehavior",
-            "targetName": "FillCommandBehavior",
-            "metadataToken": 385877231,
-            "canonicalSignature": ":System.Data.CommandBehavior",
-            "normalizedSignature": "FillCommandBehavior|:System.Data.CommandBehavior|static=false|accessor=getset",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": true,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Data.Common.DbDataAdapter",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
             "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::InsertCommand:System.Data.Common.DbCommand",
             "targetName": "InsertCommand",
             "metadataToken": 385877232,
@@ -10154,30 +9968,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::.ctor():void",
-            "metadataToken": 100669235,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbDataAdapter",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::.ctor(System.Data.Common.DbDataAdapter):void",
-            "metadataToken": 100669236,
-            "canonicalSignature": "(System.Data.Common.DbDataAdapter):void",
-            "normalizedSignature": "constructor|(System.Data.Common.DbDataAdapter):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbDataAdapter",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbDataReader",
@@ -11941,19 +11732,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbDataReader::.ctor():void",
-            "metadataToken": 100669316,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbDataReader",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbDataRecord",
@@ -13175,19 +12954,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::.ctor():void",
-            "metadataToken": 100669380,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbDataRecord",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbDataSource",
@@ -13561,19 +13328,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbDataSource::.ctor():void",
-            "metadataToken": 100669434,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbDataSource",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbDataSourceEnumerator",
@@ -13615,19 +13370,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbDataSourceEnumerator::.ctor():void",
-            "metadataToken": 100669503,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbDataSourceEnumerator",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbEnumerator",
@@ -13948,63 +13691,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbException::.ctor():void",
-            "metadataToken": 100669522,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbException::.ctor(System.String):void",
-            "metadataToken": 100669523,
-            "canonicalSignature": "(System.String):void",
-            "normalizedSignature": "constructor|(System.String):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbException::.ctor(System.String,System.Exception):void",
-            "metadataToken": 100669524,
-            "canonicalSignature": "(System.String,System.Exception):void",
-            "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbException::.ctor(System.String,System.Int32):void",
-            "metadataToken": 100669525,
-            "canonicalSignature": "(System.String,System.Int32):void",
-            "normalizedSignature": "constructor|(System.String,System.Int32):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100669526,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbException",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbParameter",
@@ -14466,19 +14153,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbParameter::.ctor():void",
-            "metadataToken": 100669533,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbParameter",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection",
@@ -15365,19 +15040,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::.ctor():void",
-            "metadataToken": 100669561,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbParameterCollection",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory",
@@ -15676,19 +15339,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbProviderFactory::.ctor():void",
-            "metadataToken": 100669597,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbProviderFactory",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.DbProviderSpecificTypePropertyAttribute",
@@ -16217,19 +15868,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.Common.DbTransaction::.ctor():void",
-            "metadataToken": 100669675,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Common.DbTransaction",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.Common.RowUpdatedEventArgs",

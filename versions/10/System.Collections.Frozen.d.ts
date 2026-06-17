@@ -13,11 +13,15 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IEqualityComparer_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, IReadOnlySet_1, ISet_1, KeyValuePair_2 } from './System.Collections.Generic/internal/index.js';
 import type { ImmutableArray_1 } from './System.Collections.Immutable/internal/index.js';
 import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator } from './System.Collections/internal/index.js';
-import type { Array as ClrArray, Boolean as ClrBoolean, Func_2, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
+import type { Array as ClrArray, Boolean as ClrBoolean, Char, Func_2, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { FrozenDictionary$instance as FrozenDictionary_0 } from './System.Collections.Frozen/internal/index.js';
 export { FrozenDictionary_2 as FrozenDictionary } from './System.Collections.Frozen/internal/index.js';
+export { FrozenDictionary_2_Enumerator as FrozenDictionary_2_Enumerator } from './System.Collections.Frozen/internal/index.js';
+export { FrozenDictionary_2_AlternateLookup_1 as FrozenDictionary_2_AlternateLookup_1 } from './System.Collections.Frozen/internal/index.js';
+export { FrozenSet_1_Enumerator as FrozenSet_1_Enumerator } from './System.Collections.Frozen/internal/index.js';
+export { FrozenSet_1_AlternateLookup_1 as FrozenSet_1_AlternateLookup_1 } from './System.Collections.Frozen/internal/index.js';
 
 // Multi-arity family value exports (arity-0 constructors/static namespaces)
 export const FrozenSet: typeof Internal.FrozenSet$instance;
@@ -30,7 +34,7 @@ export type FrozenSet<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.FrozenSet :
-  [T1] extends [unknown] ? Internal.FrozenSet_1<T1> : never;
+  Internal.FrozenSet_1<T1>;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Collections_Frozen as ExtensionMethods } from './__internal/extensions/index.js';

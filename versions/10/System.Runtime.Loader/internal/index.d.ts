@@ -63,8 +63,9 @@ export const AssemblyLoadContext: {
 
 export type AssemblyLoadContext = AssemblyLoadContext$instance;
 
-export interface AssemblyLoadContext_ContextualReflectionScope$instance extends IDisposable {
+export interface AssemblyLoadContext_ContextualReflectionScope$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Runtime_Loader_AssemblyLoadContext_ContextualReflectionScope: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 

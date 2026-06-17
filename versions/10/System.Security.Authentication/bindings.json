@@ -633,17 +633,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Security.Authentication.AuthenticationException",
             "ownerIdentity": "System.Net.Security"
-          },
-          {
-            "stableId": "System.Net.Security:System.Security.Authentication.AuthenticationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664776,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Authentication.AuthenticationException",
-            "ownerIdentity": "System.Net.Security"
           }
         ]
       },
@@ -725,17 +714,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Security.Authentication.InvalidCredentialException",
-            "ownerIdentity": "System.Net.Security"
-          },
-          {
-            "stableId": "System.Net.Security:System.Security.Authentication.InvalidCredentialException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664780,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Security.Authentication.InvalidCredentialException",
             "ownerIdentity": "System.Net.Security"
           }

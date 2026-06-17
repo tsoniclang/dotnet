@@ -26,64 +26,74 @@ import type { Encoding } from "../../System.Text/internal/index.js";
 import type { Task } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Char, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, Void } from "../../System/internal/index.js";
 
-export enum DeliveryNotificationOptions {
-    None = 0,
-    OnSuccess = 1,
-    OnFailure = 2,
-    Delay = 4,
-    Never = 134217728
-}
+export type DeliveryNotificationOptions = number & { readonly __tsonic_type_System_Net_Mail_DeliveryNotificationOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum MailPriority {
-    Normal = 0,
-    Low = 1,
-    High = 2
-}
+export const DeliveryNotificationOptions: {
+    readonly None: DeliveryNotificationOptions;
+    readonly OnSuccess: DeliveryNotificationOptions;
+    readonly OnFailure: DeliveryNotificationOptions;
+    readonly Delay: DeliveryNotificationOptions;
+    readonly Never: DeliveryNotificationOptions;
+};
 
 
-export enum SmtpDeliveryFormat {
-    SevenBit = 0,
-    International = 1
-}
+export type MailPriority = number & { readonly __tsonic_type_System_Net_Mail_MailPriority: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MailPriority: {
+    readonly Normal: MailPriority;
+    readonly Low: MailPriority;
+    readonly High: MailPriority;
+};
 
 
-export enum SmtpDeliveryMethod {
-    Network = 0,
-    SpecifiedPickupDirectory = 1,
-    PickupDirectoryFromIis = 2
-}
+export type SmtpDeliveryFormat = number & { readonly __tsonic_type_System_Net_Mail_SmtpDeliveryFormat: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SmtpDeliveryFormat: {
+    readonly SevenBit: SmtpDeliveryFormat;
+    readonly International: SmtpDeliveryFormat;
+};
 
 
-export enum SmtpStatusCode {
-    SystemStatus = 211,
-    HelpMessage = 214,
-    ServiceReady = 220,
-    ServiceClosingTransmissionChannel = 221,
-    Ok = 250,
-    UserNotLocalWillForward = 251,
-    CannotVerifyUserWillAttemptDelivery = 252,
-    StartMailInput = 354,
-    ServiceNotAvailable = 421,
-    MailboxBusy = 450,
-    LocalErrorInProcessing = 451,
-    InsufficientStorage = 452,
-    ClientNotPermitted = 454,
-    CommandUnrecognized = 500,
-    SyntaxError = 501,
-    CommandNotImplemented = 502,
-    BadCommandSequence = 503,
-    MustIssueStartTlsFirst = 530,
-    CommandParameterNotImplemented = 504,
-    MailboxUnavailable = 550,
-    UserNotLocalTryAlternatePath = 551,
-    ExceededStorageAllocation = 552,
-    MailboxNameNotAllowed = 553,
-    TransactionFailed = 554,
-    GeneralFailure = -1
-}
+export type SmtpDeliveryMethod = number & { readonly __tsonic_type_System_Net_Mail_SmtpDeliveryMethod: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SmtpDeliveryMethod: {
+    readonly Network: SmtpDeliveryMethod;
+    readonly SpecifiedPickupDirectory: SmtpDeliveryMethod;
+    readonly PickupDirectoryFromIis: SmtpDeliveryMethod;
+};
+
+
+export type SmtpStatusCode = number & { readonly __tsonic_type_System_Net_Mail_SmtpStatusCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SmtpStatusCode: {
+    readonly SystemStatus: SmtpStatusCode;
+    readonly HelpMessage: SmtpStatusCode;
+    readonly ServiceReady: SmtpStatusCode;
+    readonly ServiceClosingTransmissionChannel: SmtpStatusCode;
+    readonly Ok: SmtpStatusCode;
+    readonly UserNotLocalWillForward: SmtpStatusCode;
+    readonly CannotVerifyUserWillAttemptDelivery: SmtpStatusCode;
+    readonly StartMailInput: SmtpStatusCode;
+    readonly ServiceNotAvailable: SmtpStatusCode;
+    readonly MailboxBusy: SmtpStatusCode;
+    readonly LocalErrorInProcessing: SmtpStatusCode;
+    readonly InsufficientStorage: SmtpStatusCode;
+    readonly ClientNotPermitted: SmtpStatusCode;
+    readonly CommandUnrecognized: SmtpStatusCode;
+    readonly SyntaxError: SmtpStatusCode;
+    readonly CommandNotImplemented: SmtpStatusCode;
+    readonly BadCommandSequence: SmtpStatusCode;
+    readonly MustIssueStartTlsFirst: SmtpStatusCode;
+    readonly CommandParameterNotImplemented: SmtpStatusCode;
+    readonly MailboxUnavailable: SmtpStatusCode;
+    readonly UserNotLocalTryAlternatePath: SmtpStatusCode;
+    readonly ExceededStorageAllocation: SmtpStatusCode;
+    readonly MailboxNameNotAllowed: SmtpStatusCode;
+    readonly TransactionFailed: SmtpStatusCode;
+    readonly GeneralFailure: SmtpStatusCode;
+};
 
 
 export type SendCompletedEventHandler = (sender: unknown, e: AsyncCompletedEventArgs) => void;
@@ -91,14 +101,14 @@ export type SendCompletedEventHandler = (sender: unknown, e: AsyncCompletedEvent
 
 export interface AlternateView$instance extends AttachmentBase$instance {
     readonly __tsonic_type_System_Net_Mail_AlternateView: never;
+    readonly __tsonic_type_System_Net_Mail_AttachmentBase: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     get BaseUri(): Uri | null;
     set BaseUri(value: Uri | null);
     readonly LinkedResources: LinkedResourceCollection;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
+    Dispose: AttachmentBase$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
 }
 
 
@@ -122,7 +132,8 @@ export interface __AlternateView$views {
 export type AlternateView = AlternateView$instance & __AlternateView$views;
 
 
-export interface AlternateViewCollection$instance extends Collection_1<AlternateView>, System_Internal.IDisposable$instance {
+export interface AlternateViewCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<AlternateView> {
+    readonly __tsonic_type_System_Collections_ObjectModel_Collection_1: never;
     readonly __tsonic_type_System_Net_Mail_AlternateViewCollection: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -135,11 +146,11 @@ export interface AlternateViewCollection$instance extends Collection_1<Alternate
     readonly __tsonic_iface_System_Collections_IList: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ClearItems(): void;
+    ClearItems: System_Collections_ObjectModel_Internal.Collection_1$instance<AlternateView>["ClearItems"] & (() => void);
     Dispose(): void;
-    InsertItem(index: int, item: AlternateView): void;
-    RemoveItem(index: int): void;
-    SetItem(index: int, item: AlternateView): void;
+    InsertItem: System_Collections_ObjectModel_Internal.Collection_1$instance<AlternateView>["InsertItem"] & ((index: int, item: AlternateView) => void);
+    RemoveItem: System_Collections_ObjectModel_Internal.Collection_1$instance<AlternateView>["RemoveItem"] & ((index: int) => void);
+    SetItem: System_Collections_ObjectModel_Internal.Collection_1$instance<AlternateView>["SetItem"] & ((index: int, item: AlternateView) => void);
 }
 
 
@@ -163,6 +174,7 @@ export type AlternateViewCollection = AlternateViewCollection$instance & __Alter
 
 export interface Attachment$instance extends AttachmentBase$instance {
     readonly __tsonic_type_System_Net_Mail_Attachment: never;
+    readonly __tsonic_type_System_Net_Mail_AttachmentBase: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -208,7 +220,7 @@ export interface AttachmentBase$instance {
 }
 
 
-export const AttachmentBase: (abstract new(fileName: string) => AttachmentBase) & (abstract new(fileName: string, mediaType: string | null) => AttachmentBase) & (abstract new(fileName: string, contentType: ContentType | null) => AttachmentBase) & (abstract new(contentStream: Stream) => AttachmentBase) & (abstract new(contentStream: Stream, mediaType: string | null) => AttachmentBase) & (abstract new(contentStream: Stream, contentType: ContentType | null) => AttachmentBase) & {
+export const AttachmentBase: {
 };
 
 
@@ -219,7 +231,8 @@ export interface __AttachmentBase$views {
 export type AttachmentBase = AttachmentBase$instance & __AttachmentBase$views;
 
 
-export interface AttachmentCollection$instance extends Collection_1<Attachment>, System_Internal.IDisposable$instance {
+export interface AttachmentCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<Attachment> {
+    readonly __tsonic_type_System_Collections_ObjectModel_Collection_1: never;
     readonly __tsonic_type_System_Net_Mail_AttachmentCollection: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -232,11 +245,11 @@ export interface AttachmentCollection$instance extends Collection_1<Attachment>,
     readonly __tsonic_iface_System_Collections_IList: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ClearItems(): void;
+    ClearItems: System_Collections_ObjectModel_Internal.Collection_1$instance<Attachment>["ClearItems"] & (() => void);
     Dispose(): void;
-    InsertItem(index: int, item: Attachment): void;
-    RemoveItem(index: int): void;
-    SetItem(index: int, item: Attachment): void;
+    InsertItem: System_Collections_ObjectModel_Internal.Collection_1$instance<Attachment>["InsertItem"] & ((index: int, item: Attachment) => void);
+    RemoveItem: System_Collections_ObjectModel_Internal.Collection_1$instance<Attachment>["RemoveItem"] & ((index: int) => void);
+    SetItem: System_Collections_ObjectModel_Internal.Collection_1$instance<Attachment>["SetItem"] & ((index: int, item: Attachment) => void);
 }
 
 
@@ -259,6 +272,7 @@ export type AttachmentCollection = AttachmentCollection$instance & __AttachmentC
 
 
 export interface LinkedResource$instance extends AttachmentBase$instance {
+    readonly __tsonic_type_System_Net_Mail_AttachmentBase: never;
     readonly __tsonic_type_System_Net_Mail_LinkedResource: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -288,7 +302,8 @@ export interface __LinkedResource$views {
 export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
 
-export interface LinkedResourceCollection$instance extends Collection_1<LinkedResource>, System_Internal.IDisposable$instance {
+export interface LinkedResourceCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<LinkedResource> {
+    readonly __tsonic_type_System_Collections_ObjectModel_Collection_1: never;
     readonly __tsonic_type_System_Net_Mail_LinkedResourceCollection: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -301,11 +316,11 @@ export interface LinkedResourceCollection$instance extends Collection_1<LinkedRe
     readonly __tsonic_iface_System_Collections_IList: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ClearItems(): void;
+    ClearItems: System_Collections_ObjectModel_Internal.Collection_1$instance<LinkedResource>["ClearItems"] & (() => void);
     Dispose(): void;
-    InsertItem(index: int, item: LinkedResource): void;
-    RemoveItem(index: int): void;
-    SetItem(index: int, item: LinkedResource): void;
+    InsertItem: System_Collections_ObjectModel_Internal.Collection_1$instance<LinkedResource>["InsertItem"] & ((index: int, item: LinkedResource) => void);
+    RemoveItem: System_Collections_ObjectModel_Internal.Collection_1$instance<LinkedResource>["RemoveItem"] & ((index: int) => void);
+    SetItem: System_Collections_ObjectModel_Internal.Collection_1$instance<LinkedResource>["SetItem"] & ((index: int, item: LinkedResource) => void);
 }
 
 
@@ -352,7 +367,8 @@ export const MailAddress: {
 
 export type MailAddress = MailAddress$instance;
 
-export interface MailAddressCollection$instance extends Collection_1<MailAddress> {
+export interface MailAddressCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<MailAddress> {
+    readonly __tsonic_type_System_Collections_ObjectModel_Collection_1: never;
     readonly __tsonic_type_System_Net_Mail_MailAddressCollection: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -364,10 +380,9 @@ export interface MailAddressCollection$instance extends Collection_1<MailAddress
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
-    Add(addresses: string): void;
-    Add(item: MailAddress): void;
-    InsertItem(index: int, item: MailAddress): void;
-    SetItem(index: int, item: MailAddress): void;
+    Add: System_Collections_ObjectModel_Internal.Collection_1$instance<MailAddress>["Add"] & ((addresses: string) => void) & ((item: MailAddress) => void);
+    InsertItem: System_Collections_ObjectModel_Internal.Collection_1$instance<MailAddress>["InsertItem"] & ((index: int, item: MailAddress) => void);
+    SetItem: System_Collections_ObjectModel_Internal.Collection_1$instance<MailAddress>["SetItem"] & ((index: int, item: MailAddress) => void);
     ToString(): string;
 }
 
@@ -469,8 +484,8 @@ export interface SmtpClient$instance {
     SendAsync(message: MailMessage, userToken: unknown | null): void;
     SendAsyncCancel(): void;
     SendMailAsync(from: string, recipients: string, subject: string | null, body: string | null): Task;
-    SendMailAsync(message: MailMessage): Task;
     SendMailAsync(from: string, recipients: string, subject: string | null, body: string | null, cancellationToken: CancellationToken): Task;
+    SendMailAsync(message: MailMessage): Task;
     SendMailAsync(message: MailMessage, cancellationToken: CancellationToken): Task;
 }
 
@@ -489,13 +504,14 @@ export interface __SmtpClient$views {
 export type SmtpClient = SmtpClient$instance & __SmtpClient$views;
 
 
-export interface SmtpException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SmtpException$instance extends System_Internal.Exception$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Net_Mail_SmtpException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     StatusCode: SmtpStatusCode;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    GetObjectData: System_Internal.Exception$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
 }
 
 
@@ -515,13 +531,15 @@ export interface __SmtpException$views {
 export type SmtpException = SmtpException$instance & __SmtpException$views;
 
 
-export interface SmtpFailedRecipientException$instance extends SmtpException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SmtpFailedRecipientException$instance extends SmtpException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_Net_Mail_SmtpException: never;
     readonly __tsonic_type_System_Net_Mail_SmtpFailedRecipientException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly FailedRecipient: string | null;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    GetObjectData: SmtpException$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
 }
 
 
@@ -542,13 +560,16 @@ export interface __SmtpFailedRecipientException$views {
 export type SmtpFailedRecipientException = SmtpFailedRecipientException$instance & __SmtpFailedRecipientException$views;
 
 
-export interface SmtpFailedRecipientsException$instance extends SmtpFailedRecipientException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SmtpFailedRecipientsException$instance extends SmtpFailedRecipientException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_Net_Mail_SmtpException: never;
+    readonly __tsonic_type_System_Net_Mail_SmtpFailedRecipientException: never;
     readonly __tsonic_type_System_Net_Mail_SmtpFailedRecipientsException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly InnerExceptions: SmtpFailedRecipientException[];
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    GetObjectData: SmtpFailedRecipientException$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
 }
 
 

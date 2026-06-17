@@ -2778,17 +2778,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Transactions.TransactionAbortedException",
             "ownerIdentity": "System.Transactions.Local"
-          },
-          {
-            "stableId": "System.Transactions.Local:System.Transactions.TransactionAbortedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663622,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Transactions.TransactionAbortedException",
-            "ownerIdentity": "System.Transactions.Local"
           }
         ]
       },
@@ -2925,17 +2914,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Transactions.TransactionException",
             "ownerIdentity": "System.Transactions.Local"
-          },
-          {
-            "stableId": "System.Transactions.Local:System.Transactions.TransactionException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663610,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Transactions.TransactionException",
-            "ownerIdentity": "System.Transactions.Local"
           }
         ]
       },
@@ -3017,17 +2995,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Transactions.TransactionInDoubtException",
-            "ownerIdentity": "System.Transactions.Local"
-          },
-          {
-            "stableId": "System.Transactions.Local:System.Transactions.TransactionInDoubtException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663628,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Transactions.TransactionInDoubtException",
             "ownerIdentity": "System.Transactions.Local"
           }
@@ -3211,17 +3178,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Transactions.TransactionManagerCommunicationException",
             "ownerIdentity": "System.Transactions.Local"
-          },
-          {
-            "stableId": "System.Transactions.Local:System.Transactions.TransactionManagerCommunicationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663632,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Transactions.TransactionManagerCommunicationException",
-            "ownerIdentity": "System.Transactions.Local"
           }
         ]
       },
@@ -3303,17 +3259,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Transactions.TransactionPromotionException",
-            "ownerIdentity": "System.Transactions.Local"
-          },
-          {
-            "stableId": "System.Transactions.Local:System.Transactions.TransactionPromotionException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663636,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Transactions.TransactionPromotionException",
             "ownerIdentity": "System.Transactions.Local"
           }

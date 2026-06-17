@@ -2082,19 +2082,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ComponentSerializationService::.ctor():void",
-            "metadataToken": 100665495,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Design.Serialization.ComponentSerializationService",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack",
@@ -2414,19 +2402,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.DesignerLoader::.ctor():void",
-            "metadataToken": 100665510,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Design.Serialization.DesignerLoader",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Design.Serialization.DesignerSerializerAttribute",
@@ -2824,19 +2800,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::.ctor():void",
-            "metadataToken": 100665555,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Design.Serialization.MemberRelationshipService",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ResolveNameEventArgs",
@@ -3169,19 +3133,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.SerializationStore::.ctor():void",
-            "metadataToken": 100665516,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Design.Serialization.SerializationStore",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       }
     ]
   }

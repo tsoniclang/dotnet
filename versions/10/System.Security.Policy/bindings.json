@@ -603,19 +603,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.AccessControl:System.Security.Policy.EvidenceBase::.ctor():void",
-            "metadataToken": 100663381,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Policy.EvidenceBase",
-            "ownerIdentity": "System.Security.AccessControl"
-          }
-        ]
+        "constructors": []
       }
     ]
   }

@@ -3351,19 +3351,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Text.Decoder::.ctor():void",
-            "metadataToken": 100681490,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Decoder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Text.DecoderExceptionFallback",
@@ -3691,19 +3679,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Text.DecoderFallback::.ctor():void",
-            "metadataToken": 100681530,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.DecoderFallback",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Text.DecoderFallbackBuffer",
@@ -3825,19 +3801,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Text.DecoderFallbackBuffer::.ctor():void",
-            "metadataToken": 100681547,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.DecoderFallbackBuffer",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Text.DecoderFallbackException",
@@ -4551,19 +4515,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Text.Encoder::.ctor():void",
-            "metadataToken": 100681583,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Encoder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Text.EncoderExceptionFallback",
@@ -4911,19 +4863,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Text.EncoderFallback::.ctor():void",
-            "metadataToken": 100681625,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.EncoderFallback",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Text.EncoderFallbackBuffer",
@@ -5065,19 +5005,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Text.EncoderFallbackBuffer::.ctor():void",
-            "metadataToken": 100681644,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.EncoderFallbackBuffer",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Text.EncoderFallbackException",
@@ -6845,12 +6773,12 @@
             "targetName": "IsReadOnly",
             "metadataToken": 385879219,
             "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=getset",
+            "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -7014,41 +6942,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Text.Encoding::.ctor():void",
-            "metadataToken": 100681689,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Encoding",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Text.Encoding::.ctor(System.Int32):void",
-            "metadataToken": 100681690,
-            "canonicalSignature": "(System.Int32):void",
-            "normalizedSignature": "constructor|(System.Int32):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Encoding",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Text.Encoding::.ctor(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback):void",
-            "metadataToken": 100681691,
-            "canonicalSignature": "(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback):void",
-            "normalizedSignature": "constructor|(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback):void|static=false",
-            "isStatic": false,
-            "parameterCount": 3,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Encoding",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Text.EncodingInfo",

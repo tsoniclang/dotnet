@@ -11,13 +11,15 @@ import type { StringDictionary } from "../../System.Collections.Specialized/inte
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum TransferEncoding {
-    Unknown = -1,
-    QuotedPrintable = 0,
-    Base64 = 1,
-    SevenBit = 2,
-    EightBit = 3
-}
+export type TransferEncoding = number & { readonly __tsonic_type_System_Net_Mime_TransferEncoding: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TransferEncoding: {
+    readonly Unknown: TransferEncoding;
+    readonly QuotedPrintable: TransferEncoding;
+    readonly Base64: TransferEncoding;
+    readonly SevenBit: TransferEncoding;
+    readonly EightBit: TransferEncoding;
+};
 
 
 export interface ContentDisposition$instance {

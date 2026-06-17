@@ -10,49 +10,56 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum HttpCacheAgeControl {
-    None = 0,
-    MinFresh = 1,
-    MaxAge = 2,
-    MaxStale = 4,
-    MaxAgeAndMinFresh = 3,
-    MaxAgeAndMaxStale = 6
-}
+export type HttpCacheAgeControl = number & { readonly __tsonic_type_System_Net_Cache_HttpCacheAgeControl: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HttpCacheAgeControl: {
+    readonly None: HttpCacheAgeControl;
+    readonly MinFresh: HttpCacheAgeControl;
+    readonly MaxAge: HttpCacheAgeControl;
+    readonly MaxStale: HttpCacheAgeControl;
+    readonly MaxAgeAndMinFresh: HttpCacheAgeControl;
+    readonly MaxAgeAndMaxStale: HttpCacheAgeControl;
+};
 
 
-export enum HttpRequestCacheLevel {
-    Default = 0,
-    BypassCache = 1,
-    CacheOnly = 2,
-    CacheIfAvailable = 3,
-    Revalidate = 4,
-    Reload = 5,
-    NoCacheNoStore = 6,
-    CacheOrNextCacheOnly = 7,
-    Refresh = 8
-}
+export type HttpRequestCacheLevel = number & { readonly __tsonic_type_System_Net_Cache_HttpRequestCacheLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HttpRequestCacheLevel: {
+    readonly Default: HttpRequestCacheLevel;
+    readonly BypassCache: HttpRequestCacheLevel;
+    readonly CacheOnly: HttpRequestCacheLevel;
+    readonly CacheIfAvailable: HttpRequestCacheLevel;
+    readonly Revalidate: HttpRequestCacheLevel;
+    readonly Reload: HttpRequestCacheLevel;
+    readonly NoCacheNoStore: HttpRequestCacheLevel;
+    readonly CacheOrNextCacheOnly: HttpRequestCacheLevel;
+    readonly Refresh: HttpRequestCacheLevel;
+};
 
 
-export enum RequestCacheLevel {
-    Default = 0,
-    BypassCache = 1,
-    CacheOnly = 2,
-    CacheIfAvailable = 3,
-    Revalidate = 4,
-    Reload = 5,
-    NoCacheNoStore = 6
-}
+export type RequestCacheLevel = number & { readonly __tsonic_type_System_Net_Cache_RequestCacheLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RequestCacheLevel: {
+    readonly Default: RequestCacheLevel;
+    readonly BypassCache: RequestCacheLevel;
+    readonly CacheOnly: RequestCacheLevel;
+    readonly CacheIfAvailable: RequestCacheLevel;
+    readonly Revalidate: RequestCacheLevel;
+    readonly Reload: RequestCacheLevel;
+    readonly NoCacheNoStore: RequestCacheLevel;
+};
 
 
-export interface HttpRequestCachePolicy$instance extends RequestCachePolicy {
+export interface HttpRequestCachePolicy$instance extends RequestCachePolicy$instance {
     readonly __tsonic_type_System_Net_Cache_HttpRequestCachePolicy: never;
+    readonly __tsonic_type_System_Net_Cache_RequestCachePolicy: never;
 
     readonly CacheSyncDate: DateTime;
     readonly Level: HttpRequestCacheLevel | RequestCacheLevel;
     readonly MaxAge: TimeSpan;
     readonly MaxStale: TimeSpan;
     readonly MinFresh: TimeSpan;
-    ToString(): string;
+    ToString: RequestCachePolicy$instance["ToString"] & (() => string);
 }
 
 

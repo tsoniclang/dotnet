@@ -10,201 +10,237 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Enum, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum ADVF {
-    ADVF_NODATA = 1,
-    ADVF_PRIMEFIRST = 2,
-    ADVF_ONLYONCE = 4,
-    ADVF_DATAONSTOP = 64,
-    ADVFCACHE_NOHANDLER = 8,
-    ADVFCACHE_FORCEBUILTIN = 16,
-    ADVFCACHE_ONSAVE = 32
-}
+export type ADVF = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_ADVF: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ADVF: {
+    readonly ADVF_NODATA: ADVF;
+    readonly ADVF_PRIMEFIRST: ADVF;
+    readonly ADVF_ONLYONCE: ADVF;
+    readonly ADVF_DATAONSTOP: ADVF;
+    readonly ADVFCACHE_NOHANDLER: ADVF;
+    readonly ADVFCACHE_FORCEBUILTIN: ADVF;
+    readonly ADVFCACHE_ONSAVE: ADVF;
+};
 
 
-export enum CALLCONV {
-    CC_CDECL = 1,
-    CC_MSCPASCAL = 2,
-    CC_PASCAL = 2,
-    CC_MACPASCAL = 3,
-    CC_STDCALL = 4,
-    CC_RESERVED = 5,
-    CC_SYSCALL = 6,
-    CC_MPWCDECL = 7,
-    CC_MPWPASCAL = 8,
-    CC_MAX = 9
-}
+export type CALLCONV = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_CALLCONV: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CALLCONV: {
+    readonly CC_CDECL: CALLCONV;
+    readonly CC_MSCPASCAL: CALLCONV;
+    readonly CC_PASCAL: CALLCONV;
+    readonly CC_MACPASCAL: CALLCONV;
+    readonly CC_STDCALL: CALLCONV;
+    readonly CC_RESERVED: CALLCONV;
+    readonly CC_SYSCALL: CALLCONV;
+    readonly CC_MPWCDECL: CALLCONV;
+    readonly CC_MPWPASCAL: CALLCONV;
+    readonly CC_MAX: CALLCONV;
+};
 
 
-export enum DATADIR {
-    DATADIR_GET = 1,
-    DATADIR_SET = 2
-}
+export type DATADIR = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_DATADIR: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DATADIR: {
+    readonly DATADIR_GET: DATADIR;
+    readonly DATADIR_SET: DATADIR;
+};
 
 
-export enum DESCKIND {
-    DESCKIND_NONE = 0,
-    DESCKIND_FUNCDESC = 1,
-    DESCKIND_VARDESC = 2,
-    DESCKIND_TYPECOMP = 3,
-    DESCKIND_IMPLICITAPPOBJ = 4,
-    DESCKIND_MAX = 5
-}
+export type DESCKIND = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_DESCKIND: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DESCKIND: {
+    readonly DESCKIND_NONE: DESCKIND;
+    readonly DESCKIND_FUNCDESC: DESCKIND;
+    readonly DESCKIND_VARDESC: DESCKIND;
+    readonly DESCKIND_TYPECOMP: DESCKIND;
+    readonly DESCKIND_IMPLICITAPPOBJ: DESCKIND;
+    readonly DESCKIND_MAX: DESCKIND;
+};
 
 
-export enum DVASPECT {
-    DVASPECT_CONTENT = 1,
-    DVASPECT_THUMBNAIL = 2,
-    DVASPECT_ICON = 4,
-    DVASPECT_DOCPRINT = 8
-}
+export type DVASPECT = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_DVASPECT: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DVASPECT: {
+    readonly DVASPECT_CONTENT: DVASPECT;
+    readonly DVASPECT_THUMBNAIL: DVASPECT;
+    readonly DVASPECT_ICON: DVASPECT;
+    readonly DVASPECT_DOCPRINT: DVASPECT;
+};
 
 
-export enum FUNCFLAGS {
-    FUNCFLAG_FRESTRICTED = 1,
-    FUNCFLAG_FSOURCE = 2,
-    FUNCFLAG_FBINDABLE = 4,
-    FUNCFLAG_FREQUESTEDIT = 8,
-    FUNCFLAG_FDISPLAYBIND = 16,
-    FUNCFLAG_FDEFAULTBIND = 32,
-    FUNCFLAG_FHIDDEN = 64,
-    FUNCFLAG_FUSESGETLASTERROR = 128,
-    FUNCFLAG_FDEFAULTCOLLELEM = 256,
-    FUNCFLAG_FUIDEFAULT = 512,
-    FUNCFLAG_FNONBROWSABLE = 1024,
-    FUNCFLAG_FREPLACEABLE = 2048,
-    FUNCFLAG_FIMMEDIATEBIND = 4096
-}
+export type FUNCFLAGS = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_FUNCFLAGS: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FUNCFLAGS: {
+    readonly FUNCFLAG_FRESTRICTED: FUNCFLAGS;
+    readonly FUNCFLAG_FSOURCE: FUNCFLAGS;
+    readonly FUNCFLAG_FBINDABLE: FUNCFLAGS;
+    readonly FUNCFLAG_FREQUESTEDIT: FUNCFLAGS;
+    readonly FUNCFLAG_FDISPLAYBIND: FUNCFLAGS;
+    readonly FUNCFLAG_FDEFAULTBIND: FUNCFLAGS;
+    readonly FUNCFLAG_FHIDDEN: FUNCFLAGS;
+    readonly FUNCFLAG_FUSESGETLASTERROR: FUNCFLAGS;
+    readonly FUNCFLAG_FDEFAULTCOLLELEM: FUNCFLAGS;
+    readonly FUNCFLAG_FUIDEFAULT: FUNCFLAGS;
+    readonly FUNCFLAG_FNONBROWSABLE: FUNCFLAGS;
+    readonly FUNCFLAG_FREPLACEABLE: FUNCFLAGS;
+    readonly FUNCFLAG_FIMMEDIATEBIND: FUNCFLAGS;
+};
 
 
-export enum FUNCKIND {
-    FUNC_VIRTUAL = 0,
-    FUNC_PUREVIRTUAL = 1,
-    FUNC_NONVIRTUAL = 2,
-    FUNC_STATIC = 3,
-    FUNC_DISPATCH = 4
-}
+export type FUNCKIND = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_FUNCKIND: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FUNCKIND: {
+    readonly FUNC_VIRTUAL: FUNCKIND;
+    readonly FUNC_PUREVIRTUAL: FUNCKIND;
+    readonly FUNC_NONVIRTUAL: FUNCKIND;
+    readonly FUNC_STATIC: FUNCKIND;
+    readonly FUNC_DISPATCH: FUNCKIND;
+};
 
 
-export enum IDLFLAG {
-    IDLFLAG_NONE = 0,
-    IDLFLAG_FIN = 1,
-    IDLFLAG_FOUT = 2,
-    IDLFLAG_FLCID = 4,
-    IDLFLAG_FRETVAL = 8
-}
+export type IDLFLAG = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_IDLFLAG: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const IDLFLAG: {
+    readonly IDLFLAG_NONE: IDLFLAG;
+    readonly IDLFLAG_FIN: IDLFLAG;
+    readonly IDLFLAG_FOUT: IDLFLAG;
+    readonly IDLFLAG_FLCID: IDLFLAG;
+    readonly IDLFLAG_FRETVAL: IDLFLAG;
+};
 
 
-export enum IMPLTYPEFLAGS {
-    IMPLTYPEFLAG_FDEFAULT = 1,
-    IMPLTYPEFLAG_FSOURCE = 2,
-    IMPLTYPEFLAG_FRESTRICTED = 4,
-    IMPLTYPEFLAG_FDEFAULTVTABLE = 8
-}
+export type IMPLTYPEFLAGS = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_IMPLTYPEFLAGS: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const IMPLTYPEFLAGS: {
+    readonly IMPLTYPEFLAG_FDEFAULT: IMPLTYPEFLAGS;
+    readonly IMPLTYPEFLAG_FSOURCE: IMPLTYPEFLAGS;
+    readonly IMPLTYPEFLAG_FRESTRICTED: IMPLTYPEFLAGS;
+    readonly IMPLTYPEFLAG_FDEFAULTVTABLE: IMPLTYPEFLAGS;
+};
 
 
-export enum INVOKEKIND {
-    INVOKE_FUNC = 1,
-    INVOKE_PROPERTYGET = 2,
-    INVOKE_PROPERTYPUT = 4,
-    INVOKE_PROPERTYPUTREF = 8
-}
+export type INVOKEKIND = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_INVOKEKIND: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const INVOKEKIND: {
+    readonly INVOKE_FUNC: INVOKEKIND;
+    readonly INVOKE_PROPERTYGET: INVOKEKIND;
+    readonly INVOKE_PROPERTYPUT: INVOKEKIND;
+    readonly INVOKE_PROPERTYPUTREF: INVOKEKIND;
+};
 
 
-export enum LIBFLAGS {
-    LIBFLAG_FRESTRICTED = 1,
-    LIBFLAG_FCONTROL = 2,
-    LIBFLAG_FHIDDEN = 4,
-    LIBFLAG_FHASDISKIMAGE = 8
-}
+export type LIBFLAGS = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_LIBFLAGS: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const LIBFLAGS: {
+    readonly LIBFLAG_FRESTRICTED: LIBFLAGS;
+    readonly LIBFLAG_FCONTROL: LIBFLAGS;
+    readonly LIBFLAG_FHIDDEN: LIBFLAGS;
+    readonly LIBFLAG_FHASDISKIMAGE: LIBFLAGS;
+};
 
 
-export enum PARAMFLAG {
-    PARAMFLAG_NONE = 0,
-    PARAMFLAG_FIN = 1,
-    PARAMFLAG_FOUT = 2,
-    PARAMFLAG_FLCID = 4,
-    PARAMFLAG_FRETVAL = 8,
-    PARAMFLAG_FOPT = 16,
-    PARAMFLAG_FHASDEFAULT = 32,
-    PARAMFLAG_FHASCUSTDATA = 64
-}
+export type PARAMFLAG = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_PARAMFLAG: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PARAMFLAG: {
+    readonly PARAMFLAG_NONE: PARAMFLAG;
+    readonly PARAMFLAG_FIN: PARAMFLAG;
+    readonly PARAMFLAG_FOUT: PARAMFLAG;
+    readonly PARAMFLAG_FLCID: PARAMFLAG;
+    readonly PARAMFLAG_FRETVAL: PARAMFLAG;
+    readonly PARAMFLAG_FOPT: PARAMFLAG;
+    readonly PARAMFLAG_FHASDEFAULT: PARAMFLAG;
+    readonly PARAMFLAG_FHASCUSTDATA: PARAMFLAG;
+};
 
 
-export enum SYSKIND {
-    SYS_WIN16 = 0,
-    SYS_WIN32 = 1,
-    SYS_MAC = 2,
-    SYS_WIN64 = 3
-}
+export type SYSKIND = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_SYSKIND: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SYSKIND: {
+    readonly SYS_WIN16: SYSKIND;
+    readonly SYS_WIN32: SYSKIND;
+    readonly SYS_MAC: SYSKIND;
+    readonly SYS_WIN64: SYSKIND;
+};
 
 
-export enum TYMED {
-    TYMED_HGLOBAL = 1,
-    TYMED_FILE = 2,
-    TYMED_ISTREAM = 4,
-    TYMED_ISTORAGE = 8,
-    TYMED_GDI = 16,
-    TYMED_MFPICT = 32,
-    TYMED_ENHMF = 64,
-    TYMED_NULL = 0
-}
+export type TYMED = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_TYMED: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TYMED: {
+    readonly TYMED_HGLOBAL: TYMED;
+    readonly TYMED_FILE: TYMED;
+    readonly TYMED_ISTREAM: TYMED;
+    readonly TYMED_ISTORAGE: TYMED;
+    readonly TYMED_GDI: TYMED;
+    readonly TYMED_MFPICT: TYMED;
+    readonly TYMED_ENHMF: TYMED;
+    readonly TYMED_NULL: TYMED;
+};
 
 
-export enum TYPEFLAGS {
-    TYPEFLAG_FAPPOBJECT = 1,
-    TYPEFLAG_FCANCREATE = 2,
-    TYPEFLAG_FLICENSED = 4,
-    TYPEFLAG_FPREDECLID = 8,
-    TYPEFLAG_FHIDDEN = 16,
-    TYPEFLAG_FCONTROL = 32,
-    TYPEFLAG_FDUAL = 64,
-    TYPEFLAG_FNONEXTENSIBLE = 128,
-    TYPEFLAG_FOLEAUTOMATION = 256,
-    TYPEFLAG_FRESTRICTED = 512,
-    TYPEFLAG_FAGGREGATABLE = 1024,
-    TYPEFLAG_FREPLACEABLE = 2048,
-    TYPEFLAG_FDISPATCHABLE = 4096,
-    TYPEFLAG_FREVERSEBIND = 8192,
-    TYPEFLAG_FPROXY = 16384
-}
+export type TYPEFLAGS = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_TYPEFLAGS: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TYPEFLAGS: {
+    readonly TYPEFLAG_FAPPOBJECT: TYPEFLAGS;
+    readonly TYPEFLAG_FCANCREATE: TYPEFLAGS;
+    readonly TYPEFLAG_FLICENSED: TYPEFLAGS;
+    readonly TYPEFLAG_FPREDECLID: TYPEFLAGS;
+    readonly TYPEFLAG_FHIDDEN: TYPEFLAGS;
+    readonly TYPEFLAG_FCONTROL: TYPEFLAGS;
+    readonly TYPEFLAG_FDUAL: TYPEFLAGS;
+    readonly TYPEFLAG_FNONEXTENSIBLE: TYPEFLAGS;
+    readonly TYPEFLAG_FOLEAUTOMATION: TYPEFLAGS;
+    readonly TYPEFLAG_FRESTRICTED: TYPEFLAGS;
+    readonly TYPEFLAG_FAGGREGATABLE: TYPEFLAGS;
+    readonly TYPEFLAG_FREPLACEABLE: TYPEFLAGS;
+    readonly TYPEFLAG_FDISPATCHABLE: TYPEFLAGS;
+    readonly TYPEFLAG_FREVERSEBIND: TYPEFLAGS;
+    readonly TYPEFLAG_FPROXY: TYPEFLAGS;
+};
 
 
-export enum TYPEKIND {
-    TKIND_ENUM = 0,
-    TKIND_RECORD = 1,
-    TKIND_MODULE = 2,
-    TKIND_INTERFACE = 3,
-    TKIND_DISPATCH = 4,
-    TKIND_COCLASS = 5,
-    TKIND_ALIAS = 6,
-    TKIND_UNION = 7,
-    TKIND_MAX = 8
-}
+export type TYPEKIND = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_TYPEKIND: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TYPEKIND: {
+    readonly TKIND_ENUM: TYPEKIND;
+    readonly TKIND_RECORD: TYPEKIND;
+    readonly TKIND_MODULE: TYPEKIND;
+    readonly TKIND_INTERFACE: TYPEKIND;
+    readonly TKIND_DISPATCH: TYPEKIND;
+    readonly TKIND_COCLASS: TYPEKIND;
+    readonly TKIND_ALIAS: TYPEKIND;
+    readonly TKIND_UNION: TYPEKIND;
+    readonly TKIND_MAX: TYPEKIND;
+};
 
 
-export enum VARFLAGS {
-    VARFLAG_FREADONLY = 1,
-    VARFLAG_FSOURCE = 2,
-    VARFLAG_FBINDABLE = 4,
-    VARFLAG_FREQUESTEDIT = 8,
-    VARFLAG_FDISPLAYBIND = 16,
-    VARFLAG_FDEFAULTBIND = 32,
-    VARFLAG_FHIDDEN = 64,
-    VARFLAG_FRESTRICTED = 128,
-    VARFLAG_FDEFAULTCOLLELEM = 256,
-    VARFLAG_FUIDEFAULT = 512,
-    VARFLAG_FNONBROWSABLE = 1024,
-    VARFLAG_FREPLACEABLE = 2048,
-    VARFLAG_FIMMEDIATEBIND = 4096
-}
+export type VARFLAGS = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_VARFLAGS: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const VARFLAGS: {
+    readonly VARFLAG_FREADONLY: VARFLAGS;
+    readonly VARFLAG_FSOURCE: VARFLAGS;
+    readonly VARFLAG_FBINDABLE: VARFLAGS;
+    readonly VARFLAG_FREQUESTEDIT: VARFLAGS;
+    readonly VARFLAG_FDISPLAYBIND: VARFLAGS;
+    readonly VARFLAG_FDEFAULTBIND: VARFLAGS;
+    readonly VARFLAG_FHIDDEN: VARFLAGS;
+    readonly VARFLAG_FRESTRICTED: VARFLAGS;
+    readonly VARFLAG_FDEFAULTCOLLELEM: VARFLAGS;
+    readonly VARFLAG_FUIDEFAULT: VARFLAGS;
+    readonly VARFLAG_FNONBROWSABLE: VARFLAGS;
+    readonly VARFLAG_FREPLACEABLE: VARFLAGS;
+    readonly VARFLAG_FIMMEDIATEBIND: VARFLAGS;
+};
 
 
-export enum VARKIND {
-    VAR_PERINSTANCE = 0,
-    VAR_STATIC = 1,
-    VAR_CONST = 2,
-    VAR_DISPATCH = 3
-}
+export type VARKIND = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_VARKIND: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const VARKIND: {
+    readonly VAR_PERINSTANCE: VARKIND;
+    readonly VAR_STATIC: VARKIND;
+    readonly VAR_CONST: VARKIND;
+    readonly VAR_DISPATCH: VARKIND;
+};
 
 
 export interface IAdviseSink$instance {
@@ -464,7 +500,8 @@ export interface ITypeInfo$instance {
 
 export type ITypeInfo = ITypeInfo$instance;
 
-export interface ITypeInfo2$instance extends ITypeInfo {
+export interface ITypeInfo2$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeInfo: never;
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeInfo2: never;
 
     AddressOfMember(memid: int, invKind: INVOKEKIND, ppv: nint): void;
@@ -517,7 +554,8 @@ export interface ITypeLib$instance {
 
 export type ITypeLib = ITypeLib$instance;
 
-export interface ITypeLib2$instance extends ITypeLib {
+export interface ITypeLib2$instance {
+    readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeLib: never;
     readonly __tsonic_iface_System_Runtime_InteropServices_ComTypes_ITypeLib2: never;
 
     FindName(szNameBuf: string, lHashVal: int, ppTInfo: ITypeInfo[], rgMemId: int[], pcFound: short): void;
@@ -542,6 +580,7 @@ export type ITypeLib2 = ITypeLib2$instance;
 
 export interface BIND_OPTS$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_BIND_OPTS: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     cbStruct: int;
     grfFlags: int;
@@ -559,6 +598,7 @@ export type BIND_OPTS = BIND_OPTS$instance;
 
 export interface BINDPTR$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_BINDPTR: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     lpfuncdesc: nint;
     lpvardesc: nint;
@@ -575,6 +615,7 @@ export type BINDPTR = BINDPTR$instance;
 
 export interface CONNECTDATA$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_CONNECTDATA: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     pUnk: unknown;
     dwCookie: int;
@@ -590,6 +631,7 @@ export type CONNECTDATA = CONNECTDATA$instance;
 
 export interface DISPPARAMS$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_DISPPARAMS: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     rgvarg: nint;
     rgdispidNamedArgs: nint;
@@ -607,6 +649,7 @@ export type DISPPARAMS = DISPPARAMS$instance;
 
 export interface ELEMDESC$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_ELEMDESC: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     tdesc: TYPEDESC;
     desc: ELEMDESC_DESCUNION;
@@ -622,6 +665,7 @@ export type ELEMDESC = ELEMDESC$instance;
 
 export interface ELEMDESC_DESCUNION$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_ELEMDESC_DESCUNION: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     idldesc: IDLDESC;
     paramdesc: PARAMDESC;
@@ -637,6 +681,7 @@ export type ELEMDESC_DESCUNION = ELEMDESC_DESCUNION$instance;
 
 export interface EXCEPINFO$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_EXCEPINFO: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     wCode: short;
     wReserved: short;
@@ -659,6 +704,7 @@ export type EXCEPINFO = EXCEPINFO$instance;
 
 export interface FILETIME$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_FILETIME: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     dwLowDateTime: int;
     dwHighDateTime: int;
@@ -674,6 +720,7 @@ export type FILETIME = FILETIME$instance;
 
 export interface FORMATETC$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_FORMATETC: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     cfFormat: short;
     ptd: nint;
@@ -692,6 +739,7 @@ export type FORMATETC = FORMATETC$instance;
 
 export interface FUNCDESC$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_FUNCDESC: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     memid: int;
     lprgscode: nint;
@@ -717,6 +765,7 @@ export type FUNCDESC = FUNCDESC$instance;
 
 export interface IDLDESC$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_IDLDESC: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     dwReserved: nint;
     wIDLFlags: IDLFLAG;
@@ -732,6 +781,7 @@ export type IDLDESC = IDLDESC$instance;
 
 export interface PARAMDESC$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_PARAMDESC: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     lpVarValue: nint;
     wParamFlags: PARAMFLAG;
@@ -747,6 +797,7 @@ export type PARAMDESC = PARAMDESC$instance;
 
 export interface STATDATA$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_STATDATA: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     formatetc: FORMATETC;
     advf: ADVF;
@@ -764,6 +815,7 @@ export type STATDATA = STATDATA$instance;
 
 export interface STATSTG$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_STATSTG: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     pwcsName: string;
     type: int;
@@ -788,6 +840,7 @@ export type STATSTG = STATSTG$instance;
 
 export interface STGMEDIUM$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_STGMEDIUM: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     tymed: TYMED;
     unionmember: nint;
@@ -804,6 +857,7 @@ export type STGMEDIUM = STGMEDIUM$instance;
 
 export interface TYPEATTR$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_TYPEATTR: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     guid: Guid;
     lcid: int;
@@ -836,6 +890,7 @@ export type TYPEATTR = TYPEATTR$instance;
 
 export interface TYPEDESC$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_TYPEDESC: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     lpValue: nint;
     vt: short;
@@ -851,6 +906,7 @@ export type TYPEDESC = TYPEDESC$instance;
 
 export interface TYPELIBATTR$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_TYPELIBATTR: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     guid: Guid;
     lcid: int;
@@ -870,6 +926,7 @@ export type TYPELIBATTR = TYPELIBATTR$instance;
 
 export interface VARDESC$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_VARDESC: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     memid: int;
     lpstrSchema: string;
@@ -889,6 +946,7 @@ export type VARDESC = VARDESC$instance;
 
 export interface VARDESC_DESCUNION$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComTypes_VARDESC_DESCUNION: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     oInst: int;
     lpvarValue: nint;

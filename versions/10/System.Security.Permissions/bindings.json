@@ -507,19 +507,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Security.Permissions.CodeAccessSecurityAttribute::.ctor(System.Security.Permissions.SecurityAction):void",
-            "metadataToken": 100674273,
-            "canonicalSignature": "(System.Security.Permissions.SecurityAction):void",
-            "normalizedSignature": "constructor|(System.Security.Permissions.SecurityAction):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Permissions.CodeAccessSecurityAttribute",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAttribute",
@@ -600,19 +588,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAttribute::.ctor(System.Security.Permissions.SecurityAction):void",
-            "metadataToken": 100674274,
-            "canonicalSignature": "(System.Security.Permissions.SecurityAction):void",
-            "normalizedSignature": "constructor|(System.Security.Permissions.SecurityAction):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Permissions.SecurityAttribute",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute",

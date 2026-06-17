@@ -13,24 +13,29 @@ import * as System_Collections_Internal from "../../System.Collections/internal/
 import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator } from "../../System.Collections/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, Boolean as ClrBoolean, Enum, Func_2, Func_3, Func_4, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Tuple_2, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, Boolean as ClrBoolean, Char, Enum, Func_2, Func_3, Func_4, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Tuple_2, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum EnumerablePartitionerOptions {
-    None = 0,
-    NoBuffering = 1
-}
+export type EnumerablePartitionerOptions = number & { readonly __tsonic_type_System_Collections_Concurrent_EnumerablePartitionerOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EnumerablePartitionerOptions: {
+    readonly None: EnumerablePartitionerOptions;
+    readonly NoBuffering: EnumerablePartitionerOptions;
+};
 
 
-export interface IProducerConsumerCollection_1$instance<T extends unknown> extends IEnumerable_1<T>, IEnumerable, ICollection {
+export interface IProducerConsumerCollection_1$instance<T extends unknown> {
     readonly __tsonic_iface_System_Collections_Concurrent_IProducerConsumerCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
     readonly SyncRoot: unknown;
     readonly IsSynchronized: boolean;
-    CopyTo(array: T[], index: int): void;
     CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
+    CopyTo(array: T[], index: int): void;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<T>;
     ToArray(): T[];
     TryAdd(item: T): boolean;
     TryTake(item: T): boolean;
@@ -40,7 +45,7 @@ export interface IProducerConsumerCollection_1$instance<T extends unknown> exten
 
 export type IProducerConsumerCollection_1<T extends unknown> = IProducerConsumerCollection_1$instance<T>;
 
-export interface BlockingCollection_1$instance<T extends unknown> extends System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T> {
+export interface BlockingCollection_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_Concurrent_BlockingCollection_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -65,13 +70,13 @@ export interface BlockingCollection_1$instance<T extends unknown> extends System
     Take(cancellationToken: CancellationToken): T;
     ToArray(): T[];
     TryAdd(item: T): boolean;
-    TryAdd(item: T, timeout: TimeSpan): boolean;
     TryAdd(item: T, millisecondsTimeout: int): boolean;
     TryAdd(item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
+    TryAdd(item: T, timeout: TimeSpan): boolean;
     TryTake(item: T): boolean;
-    TryTake(item: T, timeout: TimeSpan): boolean;
     TryTake(item: T, millisecondsTimeout: int): boolean;
     TryTake(item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
+    TryTake(item: T, timeout: TimeSpan): boolean;
 }
 
 
@@ -162,22 +167,22 @@ export interface ConcurrentDictionary_2$instance<TKey extends unknown, TValue ex
     Item: TValue;
     readonly Keys: ICollection_1<TKey>;
     readonly Values: ICollection_1<TValue>;
-    AddOrUpdate<TArg extends unknown>(key: TKey, addValueFactory: Func_3<TKey, TArg, TValue>, updateValueFactory: Func_4<TKey, TValue, TArg, TValue>, factoryArgument: TArg): TValue;
-    AddOrUpdate(key: TKey, addValueFactory: Func_2<TKey, TValue>, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
     AddOrUpdate(key: TKey, addValue: TValue, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
+    AddOrUpdate(key: TKey, addValueFactory: Func_2<TKey, TValue>, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
+    AddOrUpdate<TArg extends unknown>(key: TKey, addValueFactory: Func_3<TKey, TArg, TValue>, updateValueFactory: Func_4<TKey, TValue, TArg, TValue>, factoryArgument: TArg): TValue;
     Clear(): void;
     ContainsKey(key: TKey): boolean;
     GetAlternateLookup<TAlternateKey extends unknown>(): ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
     GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
+    GetOrAdd(key: TKey, value: TValue): TValue;
     GetOrAdd(key: TKey, valueFactory: Func_2<TKey, TValue>): TValue;
     GetOrAdd<TArg extends unknown>(key: TKey, valueFactory: Func_3<TKey, TArg, TValue>, factoryArgument: TArg): TValue;
-    GetOrAdd(key: TKey, value: TValue): TValue;
     ToArray(): KeyValuePair_2<TKey, TValue>[];
     TryAdd(key: TKey, value: TValue): boolean;
     TryGetAlternateLookup<TAlternateKey extends unknown>(lookup: ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>): boolean;
     TryGetValue(key: TKey, value: TValue): boolean;
-    TryRemove(key: TKey, value: TValue): boolean;
     TryRemove(item: KeyValuePair_2<TKey, TValue>): boolean;
+    TryRemove(key: TKey, value: TValue): boolean;
     TryUpdate(key: TKey, newValue: TValue, comparisonValue: TValue): boolean;
 }
 
@@ -209,15 +214,16 @@ export type ConcurrentDictionary_2<TKey extends unknown, TValue extends unknown>
 
 export interface ConcurrentDictionary_2_AlternateLookup_1$instance<TKey extends unknown, TValue extends unknown, TAlternateKey extends unknown> {
     readonly __tsonic_type_System_Collections_Concurrent_ConcurrentDictionary_2_AlternateLookup_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Dictionary: ConcurrentDictionary_2<TKey, TValue>;
     Item: TValue;
     ContainsKey(key: TAlternateKey): boolean;
     TryAdd(key: TAlternateKey, value: TValue): boolean;
-    TryGetValue(key: TAlternateKey, value: TValue): boolean;
     TryGetValue(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
-    TryRemove(key: TAlternateKey, value: TValue): boolean;
+    TryGetValue(key: TAlternateKey, value: TValue): boolean;
     TryRemove(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
+    TryRemove(key: TAlternateKey, value: TValue): boolean;
 }
 
 
@@ -308,20 +314,21 @@ export interface __ConcurrentStack_1$views<T extends unknown> {
 export type ConcurrentStack_1<T extends unknown> = ConcurrentStack_1$instance<T> & __ConcurrentStack_1$views<T>;
 
 
-export interface OrderablePartitioner_1$instance<TSource extends unknown> extends Partitioner_1<TSource> {
+export interface OrderablePartitioner_1$instance<TSource extends unknown> extends Partitioner_1$instance<TSource> {
     readonly __tsonic_type_System_Collections_Concurrent_OrderablePartitioner_1: never;
+    readonly __tsonic_type_System_Collections_Concurrent_Partitioner_1: never;
 
     readonly KeysNormalized: boolean;
     readonly KeysOrderedAcrossPartitions: boolean;
     readonly KeysOrderedInEachPartition: boolean;
-    GetDynamicPartitions(): IEnumerable_1<TSource>;
+    GetDynamicPartitions: Partitioner_1$instance<TSource>["GetDynamicPartitions"] & (() => IEnumerable_1<TSource>);
     GetOrderableDynamicPartitions(): IEnumerable_1<KeyValuePair_2<System_Internal.Int64, TSource>>;
     GetOrderablePartitions(partitionCount: int): IList_1<IEnumerator_1<KeyValuePair_2<System_Internal.Int64, TSource>>>;
-    GetPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
+    GetPartitions: Partitioner_1$instance<TSource>["GetPartitions"] & ((partitionCount: int) => IList_1<IEnumerator_1<TSource>>);
 }
 
 
-export const OrderablePartitioner_1: (abstract new<TSource extends unknown>(keysOrderedInEachPartition: boolean, keysOrderedAcrossPartitions: boolean, keysNormalized: boolean) => OrderablePartitioner_1<TSource>) & {
+export const OrderablePartitioner_1: {
 };
 
 
@@ -336,7 +343,7 @@ export interface Partitioner_1$instance<TSource extends unknown> {
 }
 
 
-export const Partitioner_1: (abstract new<TSource extends unknown>() => Partitioner_1<TSource>) & {
+export const Partitioner_1: {
 };
 
 

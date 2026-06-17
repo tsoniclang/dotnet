@@ -18,7 +18,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from './Syste
 import type { XmlSchema, XmlSchemaSet } from './System.Xml.Schema/internal/index.js';
 import type { IXmlSerializable } from './System.Xml.Serialization/internal/index.js';
 import type { XmlQualifiedName, XmlReader, XmlWriter } from './System.Xml/internal/index.js';
-import type { Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, Span_1, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt32, ValueType, Void } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, DateTime, Decimal, Double, Enum, Exception, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, Span_1, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt32, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { SqlChars as SqlChars } from './System.Data.SqlTypes/internal/index.js';

@@ -15,184 +15,203 @@ import type { Blob, BlobBuilder, BlobContentId, BlobReader, MetadataReaderProvid
 import * as System_Internal from "../../System/internal/index.js";
 import type { Action_2, Boolean as ClrBoolean, Byte, Enum, Func_2, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
-export enum Characteristics {
-    RelocsStripped = 1,
-    ExecutableImage = 2,
-    LineNumsStripped = 4,
-    LocalSymsStripped = 8,
-    AggressiveWSTrim = 16,
-    LargeAddressAware = 32,
-    BytesReversedLo = 128,
-    Bit32Machine = 256,
-    DebugStripped = 512,
-    RemovableRunFromSwap = 1024,
-    NetRunFromSwap = 2048,
-    System = 4096,
-    Dll = 8192,
-    UpSystemOnly = 16384,
-    BytesReversedHi = 32768
-}
+export type Characteristics = number & { readonly __tsonic_type_System_Reflection_PortableExecutable_Characteristics: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const Characteristics: {
+    readonly RelocsStripped: Characteristics;
+    readonly ExecutableImage: Characteristics;
+    readonly LineNumsStripped: Characteristics;
+    readonly LocalSymsStripped: Characteristics;
+    readonly AggressiveWSTrim: Characteristics;
+    readonly LargeAddressAware: Characteristics;
+    readonly BytesReversedLo: Characteristics;
+    readonly Bit32Machine: Characteristics;
+    readonly DebugStripped: Characteristics;
+    readonly RemovableRunFromSwap: Characteristics;
+    readonly NetRunFromSwap: Characteristics;
+    readonly System: Characteristics;
+    readonly Dll: Characteristics;
+    readonly UpSystemOnly: Characteristics;
+    readonly BytesReversedHi: Characteristics;
+};
 
 
-export enum CorFlags {
-    ILOnly = 1,
-    Requires32Bit = 2,
-    ILLibrary = 4,
-    StrongNameSigned = 8,
-    NativeEntryPoint = 16,
-    TrackDebugData = 65536,
-    Prefers32Bit = 131072
-}
+export type CorFlags = number & { readonly __tsonic_type_System_Reflection_PortableExecutable_CorFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CorFlags: {
+    readonly ILOnly: CorFlags;
+    readonly Requires32Bit: CorFlags;
+    readonly ILLibrary: CorFlags;
+    readonly StrongNameSigned: CorFlags;
+    readonly NativeEntryPoint: CorFlags;
+    readonly TrackDebugData: CorFlags;
+    readonly Prefers32Bit: CorFlags;
+};
 
 
-export enum DebugDirectoryEntryType {
-    Unknown = 0,
-    Coff = 1,
-    CodeView = 2,
-    Reproducible = 16,
-    EmbeddedPortablePdb = 17,
-    PdbChecksum = 19
-}
+export type DebugDirectoryEntryType = number & { readonly __tsonic_type_System_Reflection_PortableExecutable_DebugDirectoryEntryType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DebugDirectoryEntryType: {
+    readonly Unknown: DebugDirectoryEntryType;
+    readonly Coff: DebugDirectoryEntryType;
+    readonly CodeView: DebugDirectoryEntryType;
+    readonly Reproducible: DebugDirectoryEntryType;
+    readonly EmbeddedPortablePdb: DebugDirectoryEntryType;
+    readonly PdbChecksum: DebugDirectoryEntryType;
+};
 
 
-export enum DllCharacteristics {
-    ProcessInit = 1,
-    ProcessTerm = 2,
-    ThreadInit = 4,
-    ThreadTerm = 8,
-    HighEntropyVirtualAddressSpace = 32,
-    DynamicBase = 64,
-    ForceIntegrity = 128,
-    NxCompatible = 256,
-    NoIsolation = 512,
-    NoSeh = 1024,
-    NoBind = 2048,
-    AppContainer = 4096,
-    WdmDriver = 8192,
-    ControlFlowGuard = 16384,
-    TerminalServerAware = 32768
-}
+export type DllCharacteristics = number & { readonly __tsonic_type_System_Reflection_PortableExecutable_DllCharacteristics: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DllCharacteristics: {
+    readonly ProcessInit: DllCharacteristics;
+    readonly ProcessTerm: DllCharacteristics;
+    readonly ThreadInit: DllCharacteristics;
+    readonly ThreadTerm: DllCharacteristics;
+    readonly HighEntropyVirtualAddressSpace: DllCharacteristics;
+    readonly DynamicBase: DllCharacteristics;
+    readonly ForceIntegrity: DllCharacteristics;
+    readonly NxCompatible: DllCharacteristics;
+    readonly NoIsolation: DllCharacteristics;
+    readonly NoSeh: DllCharacteristics;
+    readonly NoBind: DllCharacteristics;
+    readonly AppContainer: DllCharacteristics;
+    readonly WdmDriver: DllCharacteristics;
+    readonly ControlFlowGuard: DllCharacteristics;
+    readonly TerminalServerAware: DllCharacteristics;
+};
 
 
-export enum Machine {
-    Unknown = 0,
-    I386 = 332,
-    WceMipsV2 = 361,
-    Alpha = 388,
-    SH3 = 418,
-    SH3Dsp = 419,
-    SH3E = 420,
-    SH4 = 422,
-    SH5 = 424,
-    Arm = 448,
-    Thumb = 450,
-    ArmThumb2 = 452,
-    AM33 = 467,
-    PowerPC = 496,
-    PowerPCFP = 497,
-    IA64 = 512,
-    MIPS16 = 614,
-    Alpha64 = 644,
-    MipsFpu = 870,
-    MipsFpu16 = 1126,
-    Tricore = 1312,
-    Ebc = 3772,
-    Amd64 = 34404,
-    M32R = 36929,
-    Arm64 = 43620,
-    LoongArch32 = 25138,
-    LoongArch64 = 25188,
-    RiscV32 = 20530,
-    RiscV64 = 20580,
-    RiscV128 = 20776
-}
+export type Machine = number & { readonly __tsonic_type_System_Reflection_PortableExecutable_Machine: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const Machine: {
+    readonly Unknown: Machine;
+    readonly I386: Machine;
+    readonly WceMipsV2: Machine;
+    readonly Alpha: Machine;
+    readonly SH3: Machine;
+    readonly SH3Dsp: Machine;
+    readonly SH3E: Machine;
+    readonly SH4: Machine;
+    readonly SH5: Machine;
+    readonly Arm: Machine;
+    readonly Thumb: Machine;
+    readonly ArmThumb2: Machine;
+    readonly AM33: Machine;
+    readonly PowerPC: Machine;
+    readonly PowerPCFP: Machine;
+    readonly IA64: Machine;
+    readonly MIPS16: Machine;
+    readonly Alpha64: Machine;
+    readonly MipsFpu: Machine;
+    readonly MipsFpu16: Machine;
+    readonly Tricore: Machine;
+    readonly Ebc: Machine;
+    readonly Amd64: Machine;
+    readonly M32R: Machine;
+    readonly Arm64: Machine;
+    readonly LoongArch32: Machine;
+    readonly LoongArch64: Machine;
+    readonly RiscV32: Machine;
+    readonly RiscV64: Machine;
+    readonly RiscV128: Machine;
+};
 
 
-export enum PEMagic {
-    PE32 = 267,
-    PE32Plus = 523
-}
+export type PEMagic = number & { readonly __tsonic_type_System_Reflection_PortableExecutable_PEMagic: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PEMagic: {
+    readonly PE32: PEMagic;
+    readonly PE32Plus: PEMagic;
+};
 
 
-export enum PEStreamOptions {
-    Default = 0,
-    LeaveOpen = 1,
-    PrefetchMetadata = 2,
-    PrefetchEntireImage = 4,
-    IsLoadedImage = 8
-}
+export type PEStreamOptions = number & { readonly __tsonic_type_System_Reflection_PortableExecutable_PEStreamOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PEStreamOptions: {
+    readonly Default: PEStreamOptions;
+    readonly LeaveOpen: PEStreamOptions;
+    readonly PrefetchMetadata: PEStreamOptions;
+    readonly PrefetchEntireImage: PEStreamOptions;
+    readonly IsLoadedImage: PEStreamOptions;
+};
 
 
-export enum SectionCharacteristics {
-    TypeReg = 0,
-    TypeDSect = 1,
-    TypeNoLoad = 2,
-    TypeGroup = 4,
-    TypeNoPad = 8,
-    TypeCopy = 16,
-    ContainsCode = 32,
-    ContainsInitializedData = 64,
-    ContainsUninitializedData = 128,
-    LinkerOther = 256,
-    LinkerInfo = 512,
-    TypeOver = 1024,
-    LinkerRemove = 2048,
-    LinkerComdat = 4096,
-    MemProtected = 16384,
-    NoDeferSpecExc = 16384,
-    GPRel = 32768,
-    MemFardata = 32768,
-    MemSysheap = 65536,
-    MemPurgeable = 131072,
-    Mem16Bit = 131072,
-    MemLocked = 262144,
-    MemPreload = 524288,
-    Align1Bytes = 1048576,
-    Align2Bytes = 2097152,
-    Align4Bytes = 3145728,
-    Align8Bytes = 4194304,
-    Align16Bytes = 5242880,
-    Align32Bytes = 6291456,
-    Align64Bytes = 7340032,
-    Align128Bytes = 8388608,
-    Align256Bytes = 9437184,
-    Align512Bytes = 10485760,
-    Align1024Bytes = 11534336,
-    Align2048Bytes = 12582912,
-    Align4096Bytes = 13631488,
-    Align8192Bytes = 14680064,
-    AlignMask = 15728640,
-    LinkerNRelocOvfl = 16777216,
-    MemDiscardable = 33554432,
-    MemNotCached = 67108864,
-    MemNotPaged = 134217728,
-    MemShared = 268435456,
-    MemExecute = 536870912,
-    MemRead = 1073741824,
-    MemWrite = 2147483648
-}
+export type SectionCharacteristics = number & { readonly __tsonic_type_System_Reflection_PortableExecutable_SectionCharacteristics: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SectionCharacteristics: {
+    readonly TypeReg: SectionCharacteristics;
+    readonly TypeDSect: SectionCharacteristics;
+    readonly TypeNoLoad: SectionCharacteristics;
+    readonly TypeGroup: SectionCharacteristics;
+    readonly TypeNoPad: SectionCharacteristics;
+    readonly TypeCopy: SectionCharacteristics;
+    readonly ContainsCode: SectionCharacteristics;
+    readonly ContainsInitializedData: SectionCharacteristics;
+    readonly ContainsUninitializedData: SectionCharacteristics;
+    readonly LinkerOther: SectionCharacteristics;
+    readonly LinkerInfo: SectionCharacteristics;
+    readonly TypeOver: SectionCharacteristics;
+    readonly LinkerRemove: SectionCharacteristics;
+    readonly LinkerComdat: SectionCharacteristics;
+    readonly MemProtected: SectionCharacteristics;
+    readonly NoDeferSpecExc: SectionCharacteristics;
+    readonly GPRel: SectionCharacteristics;
+    readonly MemFardata: SectionCharacteristics;
+    readonly MemSysheap: SectionCharacteristics;
+    readonly MemPurgeable: SectionCharacteristics;
+    readonly Mem16Bit: SectionCharacteristics;
+    readonly MemLocked: SectionCharacteristics;
+    readonly MemPreload: SectionCharacteristics;
+    readonly Align1Bytes: SectionCharacteristics;
+    readonly Align2Bytes: SectionCharacteristics;
+    readonly Align4Bytes: SectionCharacteristics;
+    readonly Align8Bytes: SectionCharacteristics;
+    readonly Align16Bytes: SectionCharacteristics;
+    readonly Align32Bytes: SectionCharacteristics;
+    readonly Align64Bytes: SectionCharacteristics;
+    readonly Align128Bytes: SectionCharacteristics;
+    readonly Align256Bytes: SectionCharacteristics;
+    readonly Align512Bytes: SectionCharacteristics;
+    readonly Align1024Bytes: SectionCharacteristics;
+    readonly Align2048Bytes: SectionCharacteristics;
+    readonly Align4096Bytes: SectionCharacteristics;
+    readonly Align8192Bytes: SectionCharacteristics;
+    readonly AlignMask: SectionCharacteristics;
+    readonly LinkerNRelocOvfl: SectionCharacteristics;
+    readonly MemDiscardable: SectionCharacteristics;
+    readonly MemNotCached: SectionCharacteristics;
+    readonly MemNotPaged: SectionCharacteristics;
+    readonly MemShared: SectionCharacteristics;
+    readonly MemExecute: SectionCharacteristics;
+    readonly MemRead: SectionCharacteristics;
+    readonly MemWrite: SectionCharacteristics;
+};
 
 
-export enum Subsystem {
-    Unknown = 0,
-    Native = 1,
-    WindowsGui = 2,
-    WindowsCui = 3,
-    OS2Cui = 5,
-    PosixCui = 7,
-    NativeWindows = 8,
-    WindowsCEGui = 9,
-    EfiApplication = 10,
-    EfiBootServiceDriver = 11,
-    EfiRuntimeDriver = 12,
-    EfiRom = 13,
-    Xbox = 14,
-    WindowsBootApplication = 16
-}
+export type Subsystem = number & { readonly __tsonic_type_System_Reflection_PortableExecutable_Subsystem: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const Subsystem: {
+    readonly Unknown: Subsystem;
+    readonly Native: Subsystem;
+    readonly WindowsGui: Subsystem;
+    readonly WindowsCui: Subsystem;
+    readonly OS2Cui: Subsystem;
+    readonly PosixCui: Subsystem;
+    readonly NativeWindows: Subsystem;
+    readonly WindowsCEGui: Subsystem;
+    readonly EfiApplication: Subsystem;
+    readonly EfiBootServiceDriver: Subsystem;
+    readonly EfiRuntimeDriver: Subsystem;
+    readonly EfiRom: Subsystem;
+    readonly Xbox: Subsystem;
+    readonly WindowsBootApplication: Subsystem;
+};
 
 
 export interface CodeViewDebugDirectoryData$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_CodeViewDebugDirectoryData: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Age: int;
     readonly Guid: Guid;
@@ -209,6 +228,7 @@ export type CodeViewDebugDirectoryData = CodeViewDebugDirectoryData$instance;
 
 export interface DebugDirectoryEntry$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_DebugDirectoryEntry: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly DataPointer: int;
     readonly DataRelativeVirtualAddress: int;
@@ -230,6 +250,7 @@ export type DebugDirectoryEntry = DebugDirectoryEntry$instance;
 
 export interface DirectoryEntry$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_DirectoryEntry: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly RelativeVirtualAddress: int;
     readonly Size: int;
@@ -245,6 +266,7 @@ export type DirectoryEntry = DirectoryEntry$instance;
 
 export interface PdbChecksumDebugDirectoryData$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_PdbChecksumDebugDirectoryData: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly AlgorithmName: string;
     readonly Checksum: ImmutableArray_1<System_Internal.Byte>;
@@ -260,6 +282,7 @@ export type PdbChecksumDebugDirectoryData = PdbChecksumDebugDirectoryData$instan
 
 export interface PEMemoryBlock$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_PEMemoryBlock: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Length: int;
     readonly Pointer: ptr<byte>;
@@ -279,6 +302,7 @@ export type PEMemoryBlock = PEMemoryBlock$instance;
 
 export interface SectionHeader$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_SectionHeader: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Name: string;
     readonly NumberOfLineNumbers: ushort;
@@ -302,6 +326,7 @@ export type SectionHeader = SectionHeader$instance;
 
 export interface SectionLocation$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_SectionLocation: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly PointerToRawData: int;
     readonly RelativeVirtualAddress: int;
@@ -377,12 +402,13 @@ export const DebugDirectoryBuilder: {
 
 export type DebugDirectoryBuilder = DebugDirectoryBuilder$instance;
 
-export interface ManagedPEBuilder$instance extends PEBuilder {
+export interface ManagedPEBuilder$instance extends PEBuilder$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_ManagedPEBuilder: never;
+    readonly __tsonic_type_System_Reflection_PortableExecutable_PEBuilder: never;
 
-    CreateSections(): ImmutableArray_1<PEBuilder_Section>;
-    GetDirectories(): PEDirectoriesBuilder;
-    SerializeSection(name: string, location: SectionLocation): BlobBuilder;
+    CreateSections: PEBuilder$instance["CreateSections"] & (() => ImmutableArray_1<PEBuilder_Section>);
+    GetDirectories: PEBuilder$instance["GetDirectories"] & (() => PEDirectoriesBuilder);
+    SerializeSection: PEBuilder$instance["SerializeSection"] & ((name: string, location: SectionLocation) => BlobBuilder);
     Sign(peImage: BlobBuilder, signatureProvider: Func_2<IEnumerable_1<Blob>, byte[]>): void;
 }
 
@@ -409,7 +435,7 @@ export interface PEBuilder$instance {
 }
 
 
-export const PEBuilder: (abstract new(header: PEHeaderBuilder, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId> | null) => PEBuilder) & {
+export const PEBuilder: {
 };
 
 
@@ -417,6 +443,7 @@ export type PEBuilder = PEBuilder$instance;
 
 export interface PEBuilder_Section$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_PEBuilder_Section: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Name: string;
     readonly Characteristics: SectionCharacteristics;
@@ -577,7 +604,7 @@ export const PEHeaders: {
 
 export type PEHeaders = PEHeaders$instance;
 
-export interface PEReader$instance extends System_Internal.IDisposable$instance {
+export interface PEReader$instance {
     readonly __tsonic_type_System_Reflection_PortableExecutable_PEReader: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -623,7 +650,7 @@ export interface ResourceSectionBuilder$instance {
 }
 
 
-export const ResourceSectionBuilder: (abstract new() => ResourceSectionBuilder) & {
+export const ResourceSectionBuilder: {
 };
 
 

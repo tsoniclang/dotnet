@@ -17,7 +17,7 @@ import type { CultureInfo, UnicodeCategory } from './System.Globalization/intern
 import type { Stream } from './System.IO/internal/index.js';
 import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
-import type { ArgumentException, Boolean as ClrBoolean, Byte, Char, Decimal, Double, Enum, Exception, ICloneable, IComparable, IComparable_1, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, IUtf8SpanFormattable, IUtf8SpanParsable_1, Object as ClrObject, Range, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
+import type { ArgumentException, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, Decimal, Double, Enum, Exception, ICloneable, IComparable, IComparable_1, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, IUtf8SpanFormattable, IUtf8SpanParsable_1, Object as ClrObject, Range, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { EncodingExtensions$instance as EncodingExtensions } from './System.Text/internal/index.js';

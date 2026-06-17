@@ -19,7 +19,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from './Syste
 import type { Encoding } from './System.Text/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, MarshalByRefObject, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt32, ValueType, Void } from './System/internal/index.js';
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt32, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { ZipArchive as ZipArchive } from './System.IO.Compression/internal/index.js';

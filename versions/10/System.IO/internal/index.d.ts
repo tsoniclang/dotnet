@@ -12,7 +12,7 @@ import type { IAsyncEnumerable_1, IEnumerable_1, IReadOnlyList_1 } from "../../S
 import type { Collection_1 } from "../../System.Collections.ObjectModel/internal/index.js";
 import type { IDictionary } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { Component, EventHandlerList, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
+import type { Component, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
 import type { MethodBase, MethodInfo } from "../../System.Reflection/internal/index.js";
 import type { SafeBuffer } from "../../System.Runtime.InteropServices/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
@@ -24,144 +24,172 @@ import type { CancellationToken, WaitHandle } from "../../System.Threading/inter
 import * as System_Internal from "../../System/internal/index.js";
 import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Delegate, Double, Enum, EventArgs, Exception, Half, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
-export enum DriveType {
-    Unknown = 0,
-    NoRootDirectory = 1,
-    Removable = 2,
-    Fixed = 3,
-    Network = 4,
-    CDRom = 5,
-    Ram = 6
-}
+export type DriveType = number & { readonly __tsonic_type_System_IO_DriveType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DriveType: {
+    readonly Unknown: DriveType;
+    readonly NoRootDirectory: DriveType;
+    readonly Removable: DriveType;
+    readonly Fixed: DriveType;
+    readonly Network: DriveType;
+    readonly CDRom: DriveType;
+    readonly Ram: DriveType;
+};
 
 
-export enum FileAccess {
-    Read = 1,
-    Write = 2,
-    ReadWrite = 3
-}
+export type FileAccess = number & { readonly __tsonic_type_System_IO_FileAccess: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FileAccess: {
+    readonly Read: FileAccess;
+    readonly Write: FileAccess;
+    readonly ReadWrite: FileAccess;
+};
 
 
-export enum FileAttributes {
-    None = 0,
-    ReadOnly = 1,
-    Hidden = 2,
-    System = 4,
-    Directory = 16,
-    Archive = 32,
-    Device = 64,
-    Normal = 128,
-    Temporary = 256,
-    SparseFile = 512,
-    ReparsePoint = 1024,
-    Compressed = 2048,
-    Offline = 4096,
-    NotContentIndexed = 8192,
-    Encrypted = 16384,
-    IntegrityStream = 32768,
-    NoScrubData = 131072
-}
+export type FileAttributes = number & { readonly __tsonic_type_System_IO_FileAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FileAttributes: {
+    readonly None: FileAttributes;
+    readonly ReadOnly: FileAttributes;
+    readonly Hidden: FileAttributes;
+    readonly System: FileAttributes;
+    readonly Directory: FileAttributes;
+    readonly Archive: FileAttributes;
+    readonly Device: FileAttributes;
+    readonly Normal: FileAttributes;
+    readonly Temporary: FileAttributes;
+    readonly SparseFile: FileAttributes;
+    readonly ReparsePoint: FileAttributes;
+    readonly Compressed: FileAttributes;
+    readonly Offline: FileAttributes;
+    readonly NotContentIndexed: FileAttributes;
+    readonly Encrypted: FileAttributes;
+    readonly IntegrityStream: FileAttributes;
+    readonly NoScrubData: FileAttributes;
+};
 
 
-export enum FileMode {
-    CreateNew = 1,
-    Create = 2,
-    Open = 3,
-    OpenOrCreate = 4,
-    Truncate = 5,
-    Append = 6
-}
+export type FileMode = number & { readonly __tsonic_type_System_IO_FileMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FileMode: {
+    readonly CreateNew: FileMode;
+    readonly Create: FileMode;
+    readonly Open: FileMode;
+    readonly OpenOrCreate: FileMode;
+    readonly Truncate: FileMode;
+    readonly Append: FileMode;
+};
 
 
-export enum FileOptions {
-    None = 0,
-    WriteThrough = -2147483648,
-    Asynchronous = 1073741824,
-    RandomAccess = 268435456,
-    DeleteOnClose = 67108864,
-    SequentialScan = 134217728,
-    Encrypted = 16384
-}
+export type FileOptions = number & { readonly __tsonic_type_System_IO_FileOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FileOptions: {
+    readonly None: FileOptions;
+    readonly WriteThrough: FileOptions;
+    readonly Asynchronous: FileOptions;
+    readonly RandomAccess: FileOptions;
+    readonly DeleteOnClose: FileOptions;
+    readonly SequentialScan: FileOptions;
+    readonly Encrypted: FileOptions;
+};
 
 
-export enum FileShare {
-    None = 0,
-    Read = 1,
-    Write = 2,
-    ReadWrite = 3,
-    Delete = 4,
-    Inheritable = 16
-}
+export type FileShare = number & { readonly __tsonic_type_System_IO_FileShare: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FileShare: {
+    readonly None: FileShare;
+    readonly Read: FileShare;
+    readonly Write: FileShare;
+    readonly ReadWrite: FileShare;
+    readonly Delete: FileShare;
+    readonly Inheritable: FileShare;
+};
 
 
-export enum HandleInheritability {
-    None = 0,
-    Inheritable = 1
-}
+export type HandleInheritability = number & { readonly __tsonic_type_System_IO_HandleInheritability: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HandleInheritability: {
+    readonly None: HandleInheritability;
+    readonly Inheritable: HandleInheritability;
+};
 
 
-export enum MatchCasing {
-    PlatformDefault = 0,
-    CaseSensitive = 1,
-    CaseInsensitive = 2
-}
+export type MatchCasing = number & { readonly __tsonic_type_System_IO_MatchCasing: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MatchCasing: {
+    readonly PlatformDefault: MatchCasing;
+    readonly CaseSensitive: MatchCasing;
+    readonly CaseInsensitive: MatchCasing;
+};
 
 
-export enum MatchType {
-    Simple = 0,
-    Win32 = 1
-}
+export type MatchType = number & { readonly __tsonic_type_System_IO_MatchType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MatchType: {
+    readonly Simple: MatchType;
+    readonly Win32: MatchType;
+};
 
 
-export enum NotifyFilters {
-    FileName = 1,
-    DirectoryName = 2,
-    Attributes = 4,
-    Size = 8,
-    LastWrite = 16,
-    LastAccess = 32,
-    CreationTime = 64,
-    Security = 256
-}
+export type NotifyFilters = number & { readonly __tsonic_type_System_IO_NotifyFilters: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const NotifyFilters: {
+    readonly FileName: NotifyFilters;
+    readonly DirectoryName: NotifyFilters;
+    readonly Attributes: NotifyFilters;
+    readonly Size: NotifyFilters;
+    readonly LastWrite: NotifyFilters;
+    readonly LastAccess: NotifyFilters;
+    readonly CreationTime: NotifyFilters;
+    readonly Security: NotifyFilters;
+};
 
 
-export enum SearchOption {
-    TopDirectoryOnly = 0,
-    AllDirectories = 1
-}
+export type SearchOption = number & { readonly __tsonic_type_System_IO_SearchOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SearchOption: {
+    readonly TopDirectoryOnly: SearchOption;
+    readonly AllDirectories: SearchOption;
+};
 
 
-export enum SeekOrigin {
-    Begin = 0,
-    Current = 1,
-    End = 2
-}
+export type SeekOrigin = number & { readonly __tsonic_type_System_IO_SeekOrigin: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SeekOrigin: {
+    readonly Begin: SeekOrigin;
+    readonly Current: SeekOrigin;
+    readonly End: SeekOrigin;
+};
 
 
-export enum UnixFileMode {
-    None = 0,
-    OtherExecute = 1,
-    OtherWrite = 2,
-    OtherRead = 4,
-    GroupExecute = 8,
-    GroupWrite = 16,
-    GroupRead = 32,
-    UserExecute = 64,
-    UserWrite = 128,
-    UserRead = 256,
-    StickyBit = 512,
-    SetGroup = 1024,
-    SetUser = 2048
-}
+export type UnixFileMode = number & { readonly __tsonic_type_System_IO_UnixFileMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const UnixFileMode: {
+    readonly None: UnixFileMode;
+    readonly OtherExecute: UnixFileMode;
+    readonly OtherWrite: UnixFileMode;
+    readonly OtherRead: UnixFileMode;
+    readonly GroupExecute: UnixFileMode;
+    readonly GroupWrite: UnixFileMode;
+    readonly GroupRead: UnixFileMode;
+    readonly UserExecute: UnixFileMode;
+    readonly UserWrite: UnixFileMode;
+    readonly UserRead: UnixFileMode;
+    readonly StickyBit: UnixFileMode;
+    readonly SetGroup: UnixFileMode;
+    readonly SetUser: UnixFileMode;
+};
 
 
-export enum WatcherChangeTypes {
-    Created = 1,
-    Deleted = 2,
-    Changed = 4,
-    Renamed = 8,
-    All = 15
-}
+export type WatcherChangeTypes = number & { readonly __tsonic_type_System_IO_WatcherChangeTypes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const WatcherChangeTypes: {
+    readonly Created: WatcherChangeTypes;
+    readonly Deleted: WatcherChangeTypes;
+    readonly Changed: WatcherChangeTypes;
+    readonly Renamed: WatcherChangeTypes;
+    readonly All: WatcherChangeTypes;
+};
 
 
 export type ErrorEventHandler = (sender: unknown, e: ErrorEventArgs) => void;
@@ -175,6 +203,7 @@ export type RenamedEventHandler = (sender: unknown, e: RenamedEventArgs) => void
 
 export interface WaitForChangedResult$instance {
     readonly __tsonic_type_System_IO_WaitForChangedResult: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     ChangeType: WatcherChangeTypes;
     get Name(): string | null;
@@ -199,15 +228,15 @@ export interface BinaryReader$instance {
 
     readonly BaseStream: Stream;
     Close(): void;
-    Dispose(disposing: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     FillBuffer(numBytes: int): void;
     PeekChar(): int;
     Read(): int;
-    Read(buffer: char[], index: int, count: int): int;
+    Read(buffer: Span_1<System_Internal.Byte>): int;
     Read(buffer: Span_1<System_Internal.Char>): int;
     Read(buffer: byte[], index: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
+    Read(buffer: char[], index: int, count: int): int;
     Read7BitEncodedInt(): int;
     Read7BitEncodedInt64(): long;
     ReadBoolean(): boolean;
@@ -245,7 +274,7 @@ export interface __BinaryReader$views {
 export type BinaryReader = BinaryReader$instance & __BinaryReader$views;
 
 
-export interface BinaryWriter$instance extends System_Internal.IAsyncDisposable$instance {
+export interface BinaryWriter$instance {
     readonly __tsonic_type_System_IO_BinaryWriter: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -253,32 +282,32 @@ export interface BinaryWriter$instance extends System_Internal.IAsyncDisposable$
 
     readonly BaseStream: Stream;
     Close(): void;
-    Dispose(disposing: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
     Seek(offset: int, origin: SeekOrigin): long;
-    Write(value: boolean): void;
-    Write(value: byte): void;
-    Write(value: sbyte): void;
+    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     Write(buffer: byte[]): void;
     Write(buffer: byte[], index: int, count: int): void;
     Write(ch: char): void;
+    Write(chars: ReadOnlySpan_1<System_Internal.Char>): void;
     Write(chars: char[]): void;
     Write(chars: char[], index: int, count: int): void;
-    Write(value: double): void;
+    Write(value: boolean): void;
+    Write(value: byte): void;
     Write(value: decimal): void;
-    Write(value: short): void;
-    Write(value: ushort): void;
-    Write(value: int): void;
-    Write(value: uint): void;
-    Write(value: long): void;
-    Write(value: ulong): void;
+    Write(value: double): void;
     Write(value: float): void;
     Write(value: half): void;
+    Write(value: int): void;
+    Write(value: long): void;
+    Write(value: sbyte): void;
+    Write(value: short): void;
     Write(value: string): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    Write(chars: ReadOnlySpan_1<System_Internal.Char>): void;
+    Write(value: uint): void;
+    Write(value: ulong): void;
+    Write(value: ushort): void;
     Write7BitEncodedInt(value: int): void;
     Write7BitEncodedInt64(value: long): void;
 }
@@ -300,49 +329,34 @@ export interface __BinaryWriter$views {
 export type BinaryWriter = BinaryWriter$instance & __BinaryWriter$views;
 
 
-export interface BufferedStream$instance extends Stream$instance, System_Internal.IAsyncDisposable$instance {
+export interface BufferedStream$instance extends Stream$instance {
     readonly __tsonic_type_System_IO_BufferedStream: never;
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly BufferSize: int;
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
-    readonly Length: long;
-    Position: long;
     readonly UnderlyingStream: Stream;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    CopyTo(destination: Stream, bufferSize: int): void;
-    CopyTo(destination: Stream): void;
-    CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
-    CopyToAsync(destination: Stream): Task;
-    CopyToAsync(destination: Stream, bufferSize: int): Task;
-    CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(destination: Span_1<System_Internal.Byte>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteByte(value: byte): void;
+    BeginRead: Stream$instance["BeginRead"] & ((buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    BeginWrite: Stream$instance["BeginWrite"] & ((buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    CopyTo: Stream$instance["CopyTo"] & ((destination: Stream) => void) & ((destination: Stream, bufferSize: int) => void);
+    CopyToAsync: Stream$instance["CopyToAsync"] & ((destination: Stream) => Task) & ((destination: Stream, bufferSize: int) => Task) & ((destination: Stream, bufferSize: int, cancellationToken: CancellationToken) => Task) & ((destination: Stream, cancellationToken: CancellationToken) => Task);
+    Dispose: Stream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    DisposeAsync: Stream$instance["DisposeAsync"] & (() => ValueTask);
+    EndRead: Stream$instance["EndRead"] & ((asyncResult: IAsyncResult) => int);
+    EndWrite: Stream$instance["EndWrite"] & ((asyncResult: IAsyncResult) => void);
+    Flush: Stream$instance["Flush"] & (() => void);
+    FlushAsync: Stream$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
+    Read: Stream$instance["Read"] & ((buffer: byte[], offset: int, count: int) => int) & ((destination: Span_1<System_Internal.Byte>) => int);
+    ReadAsync: Stream$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int) => Task_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task_1<System_Internal.Int32>);
+    ReadByte: Stream$instance["ReadByte"] & (() => int);
+    Seek: Stream$instance["Seek"] & ((offset: long, origin: SeekOrigin) => long);
+    SetLength: Stream$instance["SetLength"] & ((value: long) => void);
+    Write: Stream$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Byte>) => void) & ((buffer: byte[], offset: int, count: int) => void);
+    WriteAsync: Stream$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask) & ((buffer: byte[], offset: int, count: int) => Task) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task);
+    WriteByte: Stream$instance["WriteByte"] & ((value: byte) => void);
 }
 
 
@@ -360,43 +374,42 @@ export interface __BufferedStream$views {
 export type BufferedStream = BufferedStream$instance & __BufferedStream$views;
 
 
-export interface DirectoryInfo$instance extends FileSystemInfo$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface DirectoryInfo$instance extends FileSystemInfo$instance {
     readonly __tsonic_type_System_IO_DirectoryInfo: never;
+    readonly __tsonic_type_System_IO_FileSystemInfo: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly Exists: boolean;
-    readonly Name: string;
     readonly Parent: DirectoryInfo | null;
     readonly Root: DirectoryInfo;
     Create(): void;
     CreateSubdirectory(path: string): DirectoryInfo;
-    Delete(): void;
-    Delete(recursive: boolean): void;
+    Delete: FileSystemInfo$instance["Delete"] & (() => void) & ((recursive: boolean) => void);
     EnumerateDirectories(): IEnumerable_1<DirectoryInfo>;
     EnumerateDirectories(searchPattern: string): IEnumerable_1<DirectoryInfo>;
-    EnumerateDirectories(searchPattern: string, searchOption: SearchOption): IEnumerable_1<DirectoryInfo>;
     EnumerateDirectories(searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<DirectoryInfo>;
+    EnumerateDirectories(searchPattern: string, searchOption: SearchOption): IEnumerable_1<DirectoryInfo>;
     EnumerateFiles(): IEnumerable_1<FileInfo>;
     EnumerateFiles(searchPattern: string): IEnumerable_1<FileInfo>;
-    EnumerateFiles(searchPattern: string, searchOption: SearchOption): IEnumerable_1<FileInfo>;
     EnumerateFiles(searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<FileInfo>;
+    EnumerateFiles(searchPattern: string, searchOption: SearchOption): IEnumerable_1<FileInfo>;
     EnumerateFileSystemInfos(): IEnumerable_1<FileSystemInfo>;
     EnumerateFileSystemInfos(searchPattern: string): IEnumerable_1<FileSystemInfo>;
-    EnumerateFileSystemInfos(searchPattern: string, searchOption: SearchOption): IEnumerable_1<FileSystemInfo>;
     EnumerateFileSystemInfos(searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<FileSystemInfo>;
+    EnumerateFileSystemInfos(searchPattern: string, searchOption: SearchOption): IEnumerable_1<FileSystemInfo>;
     GetDirectories(): DirectoryInfo[];
     GetDirectories(searchPattern: string): DirectoryInfo[];
-    GetDirectories(searchPattern: string, searchOption: SearchOption): DirectoryInfo[];
     GetDirectories(searchPattern: string, enumerationOptions: EnumerationOptions): DirectoryInfo[];
+    GetDirectories(searchPattern: string, searchOption: SearchOption): DirectoryInfo[];
     GetFiles(): FileInfo[];
     GetFiles(searchPattern: string): FileInfo[];
-    GetFiles(searchPattern: string, searchOption: SearchOption): FileInfo[];
     GetFiles(searchPattern: string, enumerationOptions: EnumerationOptions): FileInfo[];
+    GetFiles(searchPattern: string, searchOption: SearchOption): FileInfo[];
     GetFileSystemInfos(): FileSystemInfo[];
     GetFileSystemInfos(searchPattern: string): FileSystemInfo[];
-    GetFileSystemInfos(searchPattern: string, searchOption: SearchOption): FileSystemInfo[];
     GetFileSystemInfos(searchPattern: string, enumerationOptions: EnumerationOptions): FileSystemInfo[];
+    GetFileSystemInfos(searchPattern: string, searchOption: SearchOption): FileSystemInfo[];
     MoveTo(destDirName: string): void;
 }
 
@@ -413,8 +426,11 @@ export interface __DirectoryInfo$views {
 export type DirectoryInfo = DirectoryInfo$instance & __DirectoryInfo$views;
 
 
-export interface DirectoryNotFoundException$instance extends IOException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface DirectoryNotFoundException$instance extends IOException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_IO_DirectoryNotFoundException: never;
+    readonly __tsonic_type_System_IO_IOException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -435,7 +451,7 @@ export interface __DirectoryNotFoundException$views {
 export type DirectoryNotFoundException = DirectoryNotFoundException$instance & __DirectoryNotFoundException$views;
 
 
-export interface DriveInfo$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface DriveInfo$instance {
     readonly __tsonic_type_System_IO_DriveInfo: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -466,8 +482,11 @@ export interface __DriveInfo$views {
 export type DriveInfo = DriveInfo$instance & __DriveInfo$views;
 
 
-export interface DriveNotFoundException$instance extends IOException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface DriveNotFoundException$instance extends IOException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_IO_DriveNotFoundException: never;
+    readonly __tsonic_type_System_IO_IOException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -488,8 +507,11 @@ export interface __DriveNotFoundException$views {
 export type DriveNotFoundException = DriveNotFoundException$instance & __DriveNotFoundException$views;
 
 
-export interface EndOfStreamException$instance extends IOException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface EndOfStreamException$instance extends IOException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_IO_EndOfStreamException: never;
+    readonly __tsonic_type_System_IO_IOException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -531,7 +553,8 @@ export const EnumerationOptions: {
 
 export type EnumerationOptions = EnumerationOptions$instance;
 
-export interface ErrorEventArgs$instance extends EventArgs {
+export interface ErrorEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_IO_ErrorEventArgs: never;
 
     GetException(): Exception;
@@ -545,31 +568,31 @@ export const ErrorEventArgs: {
 
 export type ErrorEventArgs = ErrorEventArgs$instance;
 
-export interface FileInfo$instance extends FileSystemInfo$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface FileInfo$instance extends FileSystemInfo$instance {
     readonly __tsonic_type_System_IO_FileInfo: never;
+    readonly __tsonic_type_System_IO_FileSystemInfo: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Directory: DirectoryInfo | null;
     readonly DirectoryName: string | null;
-    readonly Exists: boolean;
     IsReadOnly: boolean;
     readonly Length: long;
-    readonly Name: string;
     AppendText(): StreamWriter;
     CopyTo(destFileName: string): FileInfo;
     CopyTo(destFileName: string, overwrite: boolean): FileInfo;
     Create(): FileStream;
     CreateText(): StreamWriter;
     Decrypt(): void;
-    Delete(): void;
+    Delete: FileSystemInfo$instance["Delete"] & (() => void);
     Encrypt(): void;
     MoveTo(destFileName: string): void;
     MoveTo(destFileName: string, overwrite: boolean): void;
-    Open(options: FileStreamOptions): FileStream;
     Open(mode: FileMode): FileStream;
     Open(mode: FileMode, access: FileAccess): FileStream;
     Open(mode: FileMode, access: FileAccess, share: FileShare): FileStream;
+    Open(options: FileStreamOptions): FileStream;
     OpenRead(): FileStream;
     OpenText(): StreamReader;
     OpenWrite(): FileStream;
@@ -590,16 +613,18 @@ export interface __FileInfo$views {
 export type FileInfo = FileInfo$instance & __FileInfo$views;
 
 
-export interface FileLoadException$instance extends IOException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface FileLoadException$instance extends IOException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_IO_FileLoadException: never;
+    readonly __tsonic_type_System_IO_IOException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly FileName: string | null;
     readonly FusionLog: string | null;
-    readonly Message: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    ToString(): string;
+    GetObjectData: IOException$instance["GetObjectData"] & ((info: SerializationInfo, context: StreamingContext) => void);
+    ToString: IOException$instance["ToString"] & (() => string);
 }
 
 
@@ -619,16 +644,18 @@ export interface __FileLoadException$views {
 export type FileLoadException = FileLoadException$instance & __FileLoadException$views;
 
 
-export interface FileNotFoundException$instance extends IOException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface FileNotFoundException$instance extends IOException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_IO_FileNotFoundException: never;
+    readonly __tsonic_type_System_IO_IOException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly FileName: string | null;
     readonly FusionLog: string | null;
-    readonly Message: string;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    ToString(): string;
+    GetObjectData: IOException$instance["GetObjectData"] & ((info: SerializationInfo, context: StreamingContext) => void);
+    ToString: IOException$instance["ToString"] & (() => string);
 }
 
 
@@ -648,55 +675,39 @@ export interface __FileNotFoundException$views {
 export type FileNotFoundException = FileNotFoundException$instance & __FileNotFoundException$views;
 
 
-export interface FileStream$instance extends Stream$instance, System_Internal.IAsyncDisposable$instance {
+export interface FileStream$instance extends Stream$instance {
     readonly __tsonic_type_System_IO_FileStream: never;
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
     readonly Handle: nint;
     readonly IsAsync: boolean;
-    readonly Length: long;
     readonly Name: string;
-    Position: long;
     readonly SafeFileHandle: SafeFileHandle;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    CopyTo(destination: Stream, bufferSize: int): void;
-    CopyTo(destination: Stream): void;
-    CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
-    CopyToAsync(destination: Stream): Task;
-    CopyToAsync(destination: Stream, bufferSize: int): Task;
-    CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
+    BeginRead: Stream$instance["BeginRead"] & ((buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    BeginWrite: Stream$instance["BeginWrite"] & ((buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    CopyTo: Stream$instance["CopyTo"] & ((destination: Stream) => void) & ((destination: Stream, bufferSize: int) => void);
+    CopyToAsync: Stream$instance["CopyToAsync"] & ((destination: Stream) => Task) & ((destination: Stream, bufferSize: int) => Task) & ((destination: Stream, bufferSize: int, cancellationToken: CancellationToken) => Task) & ((destination: Stream, cancellationToken: CancellationToken) => Task);
+    Dispose: Stream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    DisposeAsync: Stream$instance["DisposeAsync"] & (() => ValueTask);
+    EndRead: Stream$instance["EndRead"] & ((asyncResult: IAsyncResult) => int);
+    EndWrite: Stream$instance["EndWrite"] & ((asyncResult: IAsyncResult) => void);
     Finalize(): void;
-    Flush(): void;
-    Flush(flushToDisk: boolean): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
+    Flush: Stream$instance["Flush"] & (() => void) & ((flushToDisk: boolean) => void);
+    FlushAsync: Stream$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
     Lock(position: long, length: long): void;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
+    Read: Stream$instance["Read"] & ((buffer: Span_1<System_Internal.Byte>) => int) & ((buffer: byte[], offset: int, count: int) => int);
+    ReadAsync: Stream$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int) => Task_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task_1<System_Internal.Int32>);
+    ReadByte: Stream$instance["ReadByte"] & (() => int);
+    Seek: Stream$instance["Seek"] & ((offset: long, origin: SeekOrigin) => long);
+    SetLength: Stream$instance["SetLength"] & ((value: long) => void);
     Unlock(position: long, length: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteByte(value: byte): void;
+    Write: Stream$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Byte>) => void) & ((buffer: byte[], offset: int, count: int) => void);
+    WriteAsync: Stream$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask) & ((buffer: byte[], offset: int, count: int) => Task) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task);
+    WriteByte: Stream$instance["WriteByte"] & ((value: byte) => void);
 }
 
 
@@ -747,7 +758,8 @@ export const FileStreamOptions: {
 
 export type FileStreamOptions = FileStreamOptions$instance;
 
-export interface FileSystemEventArgs$instance extends EventArgs {
+export interface FileSystemEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_IO_FileSystemEventArgs: never;
 
     readonly ChangeType: WatcherChangeTypes;
@@ -763,8 +775,9 @@ export const FileSystemEventArgs: {
 
 export type FileSystemEventArgs = FileSystemEventArgs$instance;
 
-export interface FileSystemInfo$instance extends MarshalByRefObject, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface FileSystemInfo$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_IO_FileSystemInfo: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -790,7 +803,7 @@ export interface FileSystemInfo$instance extends MarshalByRefObject, System_Runt
 }
 
 
-export const FileSystemInfo: (abstract new(info: SerializationInfo, context: StreamingContext) => FileSystemInfo) & (abstract new() => FileSystemInfo) & {
+export const FileSystemInfo: {
 };
 
 
@@ -801,8 +814,10 @@ export interface __FileSystemInfo$views {
 export type FileSystemInfo = FileSystemInfo$instance & __FileSystemInfo$views;
 
 
-export interface FileSystemWatcher$instance extends Component, System_ComponentModel_Internal.ISupportInitialize$instance {
+export interface FileSystemWatcher$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
     readonly __tsonic_type_System_IO_FileSystemWatcher: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_ComponentModel_ISupportInitialize: never;
@@ -815,17 +830,14 @@ export interface FileSystemWatcher$instance extends Component, System_ComponentM
     InternalBufferSize: int;
     NotifyFilter: NotifyFilters;
     Path: string;
-    get Site(): ISite | null;
-    set Site(value: ISite | null);
     get SynchronizingObject(): ISynchronizeInvoke | null;
     set SynchronizingObject(value: ISynchronizeInvoke | null);
     BeginInit(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
+    Dispose: System_ComponentModel_Internal.Component$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     EndInit(): void;
     WaitForChanged(changeType: WatcherChangeTypes): WaitForChangedResult;
-    WaitForChanged(changeType: WatcherChangeTypes, timeout: int): WaitForChangedResult;
     WaitForChanged(changeType: WatcherChangeTypes, timeout: TimeSpan): WaitForChangedResult;
+    WaitForChanged(changeType: WatcherChangeTypes, timeout: int): WaitForChangedResult;
 }
 
 
@@ -845,8 +857,10 @@ export interface __FileSystemWatcher$views {
 export type FileSystemWatcher = FileSystemWatcher$instance & __FileSystemWatcher$views;
 
 
-export interface InternalBufferOverflowException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface InternalBufferOverflowException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_IO_InternalBufferOverflowException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -867,8 +881,10 @@ export interface __InternalBufferOverflowException$views {
 export type InternalBufferOverflowException = InternalBufferOverflowException$instance & __InternalBufferOverflowException$views;
 
 
-export interface InvalidDataException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface InvalidDataException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_IO_InvalidDataException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -889,8 +905,10 @@ export interface __InvalidDataException$views {
 export type InvalidDataException = InvalidDataException$instance & __InvalidDataException$views;
 
 
-export interface IOException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface IOException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_IO_IOException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -912,46 +930,31 @@ export interface __IOException$views {
 export type IOException = IOException$instance & __IOException$views;
 
 
-export interface MemoryStream$instance extends Stream$instance, System_Internal.IAsyncDisposable$instance {
+export interface MemoryStream$instance extends Stream$instance {
     readonly __tsonic_type_System_IO_MemoryStream: never;
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
     Capacity: int;
-    readonly Length: long;
-    Position: long;
-    CopyTo(destination: Stream, bufferSize: int): void;
-    CopyTo(destination: Stream): void;
-    CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
-    CopyToAsync(destination: Stream): Task;
-    CopyToAsync(destination: Stream, bufferSize: int): Task;
-    CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
+    CopyTo: Stream$instance["CopyTo"] & ((destination: Stream) => void) & ((destination: Stream, bufferSize: int) => void);
+    CopyToAsync: Stream$instance["CopyToAsync"] & ((destination: Stream) => Task) & ((destination: Stream, bufferSize: int) => Task) & ((destination: Stream, bufferSize: int, cancellationToken: CancellationToken) => Task) & ((destination: Stream, cancellationToken: CancellationToken) => Task);
+    Dispose: Stream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    Flush: Stream$instance["Flush"] & (() => void);
+    FlushAsync: Stream$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
     GetBuffer(): byte[];
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadByte(): int;
-    Seek(offset: long, loc: SeekOrigin): long;
-    SetLength(value: long): void;
+    Read: Stream$instance["Read"] & ((buffer: Span_1<System_Internal.Byte>) => int) & ((buffer: byte[], offset: int, count: int) => int);
+    ReadAsync: Stream$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int) => Task_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task_1<System_Internal.Int32>);
+    ReadByte: Stream$instance["ReadByte"] & (() => int);
+    Seek: Stream$instance["Seek"] & ((offset: long, loc: SeekOrigin) => long);
+    SetLength: Stream$instance["SetLength"] & ((value: long) => void);
     ToArray(): byte[];
     TryGetBuffer(buffer: ArraySegment_1<System_Internal.Byte>): boolean;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteByte(value: byte): void;
+    Write: Stream$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Byte>) => void) & ((buffer: byte[], offset: int, count: int) => void);
+    WriteAsync: Stream$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask) & ((buffer: byte[], offset: int, count: int) => Task) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task);
+    WriteByte: Stream$instance["WriteByte"] & ((value: byte) => void);
     WriteTo(stream: Stream): void;
 }
 
@@ -975,8 +978,11 @@ export interface __MemoryStream$views {
 export type MemoryStream = MemoryStream$instance & __MemoryStream$views;
 
 
-export interface PathTooLongException$instance extends IOException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface PathTooLongException$instance extends IOException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_IO_IOException: never;
     readonly __tsonic_type_System_IO_PathTooLongException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -997,7 +1003,9 @@ export interface __PathTooLongException$views {
 export type PathTooLongException = PathTooLongException$instance & __PathTooLongException$views;
 
 
-export interface RenamedEventArgs$instance extends FileSystemEventArgs {
+export interface RenamedEventArgs$instance extends FileSystemEventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
+    readonly __tsonic_type_System_IO_FileSystemEventArgs: never;
     readonly __tsonic_type_System_IO_RenamedEventArgs: never;
 
     readonly OldFullPath: string;
@@ -1012,8 +1020,9 @@ export const RenamedEventArgs: {
 
 export type RenamedEventArgs = RenamedEventArgs$instance;
 
-export interface Stream$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
+export interface Stream$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1033,8 +1042,8 @@ export interface Stream$instance extends MarshalByRefObject, System_Internal.IAs
     CopyTo(destination: Stream, bufferSize: int): void;
     CopyToAsync(destination: Stream): Task;
     CopyToAsync(destination: Stream, bufferSize: int): Task;
-    CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
     CopyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
+    CopyToAsync(destination: Stream, cancellationToken: CancellationToken): Task;
     CreateWaitHandle(): WaitHandle;
     Dispose(): void;
     Dispose(disposing: boolean): void;
@@ -1045,11 +1054,11 @@ export interface Stream$instance extends MarshalByRefObject, System_Internal.IAs
     FlushAsync(): Task;
     FlushAsync(cancellationToken: CancellationToken): Task;
     ObjectInvariant(): void;
-    Read(buffer: byte[], offset: int, count: int): int;
     Read(buffer: Span_1<System_Internal.Byte>): int;
+    Read(buffer: byte[], offset: int, count: int): int;
+    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
     ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadAtLeast(buffer: Span_1<System_Internal.Byte>, minimumBytes: int, throwOnEndOfStream?: boolean): int;
     ReadAtLeastAsync(buffer: Memory_1<System_Internal.Byte>, minimumBytes: int, throwOnEndOfStream?: boolean, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReadByte(): int;
@@ -1059,20 +1068,18 @@ export interface Stream$instance extends MarshalByRefObject, System_Internal.IAs
     ReadExactlyAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): ValueTask;
     Seek(offset: long, origin: SeekOrigin): long;
     SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
     Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
+    Write(buffer: byte[], offset: int, count: int): void;
+    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteAsync(buffer: byte[], offset: int, count: int): Task;
     WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     WriteByte(value: byte): void;
 }
 
 
-export const Stream: (abstract new() => Stream) & {
+export const Stream: {
     readonly Null: Stream;
     Synchronized(stream: Stream): Stream;
-    ValidateBufferArguments(buffer: byte[], offset: int, count: int): void;
-    ValidateCopyToArguments(destination: Stream, bufferSize: int): void;
 };
 
 
@@ -1086,32 +1093,26 @@ export type Stream = Stream$instance & __Stream$views;
 
 export interface StreamReader$instance extends TextReader$instance {
     readonly __tsonic_type_System_IO_StreamReader: never;
+    readonly __tsonic_type_System_IO_TextReader: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly BaseStream: Stream;
     readonly CurrentEncoding: Encoding;
     readonly EndOfStream: boolean;
-    Close(): void;
+    Close: TextReader$instance["Close"] & (() => void);
     DiscardBufferedData(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    Peek(): int;
-    Read(): int;
-    Read(buffer: char[], index: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Char>): int;
-    ReadAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadBlock(buffer: char[], index: int, count: int): int;
-    ReadBlock(buffer: Span_1<System_Internal.Char>): int;
-    ReadBlockAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
-    ReadBlockAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadLine(): string | null;
-    ReadLineAsync(): Task_1<string | null>;
-    ReadLineAsync(cancellationToken: CancellationToken): ValueTask_1<System_Internal.String>;
-    ReadToEnd(): string;
-    ReadToEndAsync(): Task_1<System_Internal.String>;
-    ReadToEndAsync(cancellationToken: CancellationToken): Task_1<System_Internal.String>;
+    Dispose: TextReader$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    Peek: TextReader$instance["Peek"] & (() => int);
+    Read: TextReader$instance["Read"] & (() => int) & ((buffer: Span_1<System_Internal.Char>) => int) & ((buffer: char[], index: int, count: int) => int);
+    ReadAsync: TextReader$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: char[], index: int, count: int) => Task_1<System_Internal.Int32>);
+    ReadBlock: TextReader$instance["ReadBlock"] & ((buffer: Span_1<System_Internal.Char>) => int) & ((buffer: char[], index: int, count: int) => int);
+    ReadBlockAsync: TextReader$instance["ReadBlockAsync"] & ((buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: char[], index: int, count: int) => Task_1<System_Internal.Int32>);
+    ReadLine: TextReader$instance["ReadLine"] & (() => string | null);
+    ReadLineAsync: TextReader$instance["ReadLineAsync"] & (() => Task_1<string | null>) & ((cancellationToken: CancellationToken) => ValueTask_1<System_Internal.String>);
+    ReadToEnd: TextReader$instance["ReadToEnd"] & (() => string);
+    ReadToEndAsync: TextReader$instance["ReadToEndAsync"] & (() => Task_1<System_Internal.String>) & ((cancellationToken: CancellationToken) => Task_1<System_Internal.String>);
 }
 
 
@@ -1139,76 +1140,25 @@ export interface __StreamReader$views {
 export type StreamReader = StreamReader$instance & __StreamReader$views;
 
 
-export interface StreamWriter$instance extends TextWriter$instance, System_Internal.IAsyncDisposable$instance {
+export interface StreamWriter$instance extends TextWriter$instance {
     readonly __tsonic_type_System_IO_StreamWriter: never;
+    readonly __tsonic_type_System_IO_TextWriter: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
     AutoFlush: boolean;
     readonly BaseStream: Stream;
-    readonly Encoding: Encoding;
-    Close(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    Flush(): void;
-    FlushAsync(): Task;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    Write(value: char): void;
-    Write(buffer: char[] | null): void;
-    Write(buffer: char[], index: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
-    Write(value: string | null): void;
-    Write(format: string, arg0: unknown | null): void;
-    Write(format: string, arg0: unknown | null, arg1: unknown | null): void;
-    Write(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
-    Write(format: string, ...arg: (unknown | null)[]): void;
-    Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    Write(value: boolean): void;
-    Write(value: int): void;
-    Write(value: uint): void;
-    Write(value: long): void;
-    Write(value: ulong): void;
-    Write(value: float): void;
-    Write(value: double): void;
-    Write(value: decimal): void;
-    Write(value: unknown | null): void;
-    Write(value: StringBuilder | null): void;
-    WriteAsync(value: char): Task;
-    WriteAsync(value: string | null): Task;
-    WriteAsync(buffer: char[], index: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
-    WriteAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
-    WriteAsync(buffer: char[] | null): Task;
-    WriteLine(value: string | null): void;
-    WriteLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
-    WriteLine(format: string, arg0: unknown | null): void;
-    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null): void;
-    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
-    WriteLine(format: string, ...arg: (unknown | null)[]): void;
-    WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    WriteLine(): void;
-    WriteLine(value: char): void;
-    WriteLine(buffer: char[] | null): void;
-    WriteLine(buffer: char[], index: int, count: int): void;
-    WriteLine(value: boolean): void;
-    WriteLine(value: int): void;
-    WriteLine(value: uint): void;
-    WriteLine(value: long): void;
-    WriteLine(value: ulong): void;
-    WriteLine(value: float): void;
-    WriteLine(value: double): void;
-    WriteLine(value: decimal): void;
-    WriteLine(value: StringBuilder | null): void;
-    WriteLine(value: unknown | null): void;
-    WriteLineAsync(): Task;
-    WriteLineAsync(value: char): Task;
-    WriteLineAsync(value: string | null): Task;
-    WriteLineAsync(buffer: char[], index: int, count: int): Task;
-    WriteLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
-    WriteLineAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
-    WriteLineAsync(buffer: char[] | null): Task;
+    Close: TextWriter$instance["Close"] & (() => void);
+    Dispose: TextWriter$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    DisposeAsync: TextWriter$instance["DisposeAsync"] & (() => ValueTask);
+    Flush: TextWriter$instance["Flush"] & (() => void);
+    FlushAsync: TextWriter$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
+    Write: TextWriter$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Char>) => void) & ((buffer: char[] | null) => void) & ((buffer: char[], index: int, count: int) => void) & ((format: string, ...arg: (unknown | null)[]) => void) & ((format: string, arg0: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null) => void) & ((format: string, arg: ReadOnlySpan_1<unknown>) => void) & ((value: StringBuilder | null) => void) & ((value: boolean) => void) & ((value: char) => void) & ((value: decimal) => void) & ((value: double) => void) & ((value: float) => void) & ((value: int) => void) & ((value: long) => void) & ((value: string | null) => void) & ((value: uint) => void) & ((value: ulong) => void) & ((value: unknown | null) => void);
+    WriteAsync: TextWriter$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken) => Task) & ((buffer: char[] | null) => Task) & ((buffer: char[], index: int, count: int) => Task) & ((value: StringBuilder | null, cancellationToken?: CancellationToken) => Task) & ((value: char) => Task) & ((value: string | null) => Task);
+    WriteLine: TextWriter$instance["WriteLine"] & (() => void) & ((buffer: ReadOnlySpan_1<System_Internal.Char>) => void) & ((buffer: char[] | null) => void) & ((buffer: char[], index: int, count: int) => void) & ((format: string, ...arg: (unknown | null)[]) => void) & ((format: string, arg0: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null) => void) & ((format: string, arg: ReadOnlySpan_1<unknown>) => void) & ((value: StringBuilder | null) => void) & ((value: boolean) => void) & ((value: char) => void) & ((value: decimal) => void) & ((value: double) => void) & ((value: float) => void) & ((value: int) => void) & ((value: long) => void) & ((value: string | null) => void) & ((value: uint) => void) & ((value: ulong) => void) & ((value: unknown | null) => void);
+    WriteLineAsync: TextWriter$instance["WriteLineAsync"] & (() => Task) & ((buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken) => Task) & ((buffer: char[] | null) => Task) & ((buffer: char[], index: int, count: int) => Task) & ((value: StringBuilder | null, cancellationToken?: CancellationToken) => Task) & ((value: char) => Task) & ((value: string | null) => Task);
 }
 
 
@@ -1236,28 +1186,22 @@ export type StreamWriter = StreamWriter$instance & __StreamWriter$views;
 
 export interface StringReader$instance extends TextReader$instance {
     readonly __tsonic_type_System_IO_StringReader: never;
+    readonly __tsonic_type_System_IO_TextReader: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Close(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    Peek(): int;
-    Read(): int;
-    Read(buffer: char[], index: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Char>): int;
-    ReadAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadBlock(buffer: Span_1<System_Internal.Char>): int;
-    ReadBlock(buffer: char[], index: int, count: int): int;
-    ReadBlockAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
-    ReadBlockAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadLine(): string | null;
-    ReadLineAsync(): Task_1<string | null>;
-    ReadLineAsync(cancellationToken: CancellationToken): ValueTask_1<System_Internal.String>;
-    ReadToEnd(): string;
-    ReadToEndAsync(): Task_1<System_Internal.String>;
-    ReadToEndAsync(cancellationToken: CancellationToken): Task_1<System_Internal.String>;
+    Close: TextReader$instance["Close"] & (() => void);
+    Dispose: TextReader$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    Peek: TextReader$instance["Peek"] & (() => int);
+    Read: TextReader$instance["Read"] & (() => int) & ((buffer: Span_1<System_Internal.Char>) => int) & ((buffer: char[], index: int, count: int) => int);
+    ReadAsync: TextReader$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: char[], index: int, count: int) => Task_1<System_Internal.Int32>);
+    ReadBlock: TextReader$instance["ReadBlock"] & ((buffer: Span_1<System_Internal.Char>) => int) & ((buffer: char[], index: int, count: int) => int);
+    ReadBlockAsync: TextReader$instance["ReadBlockAsync"] & ((buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: char[], index: int, count: int) => Task_1<System_Internal.Int32>);
+    ReadLine: TextReader$instance["ReadLine"] & (() => string | null);
+    ReadLineAsync: TextReader$instance["ReadLineAsync"] & (() => Task_1<string | null>) & ((cancellationToken: CancellationToken) => ValueTask_1<System_Internal.String>);
+    ReadToEnd: TextReader$instance["ReadToEnd"] & (() => string);
+    ReadToEndAsync: TextReader$instance["ReadToEndAsync"] & (() => Task_1<System_Internal.String>) & ((cancellationToken: CancellationToken) => Task_1<System_Internal.String>);
 }
 
 
@@ -1273,74 +1217,23 @@ export interface __StringReader$views {
 export type StringReader = StringReader$instance & __StringReader$views;
 
 
-export interface StringWriter$instance extends TextWriter$instance, System_Internal.IAsyncDisposable$instance {
+export interface StringWriter$instance extends TextWriter$instance {
     readonly __tsonic_type_System_IO_StringWriter: never;
+    readonly __tsonic_type_System_IO_TextWriter: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly Encoding: Encoding;
-    Close(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    FlushAsync(): Task;
-    FlushAsync(cancellationToken: CancellationToken): Task;
+    Close: TextWriter$instance["Close"] & (() => void);
+    Dispose: TextWriter$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    FlushAsync: TextWriter$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
     GetStringBuilder(): StringBuilder;
     ToString(): string;
-    Write(value: char): void;
-    Write(buffer: char[], index: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
-    Write(value: string | null): void;
-    Write(value: StringBuilder | null): void;
-    Write(buffer: char[] | null): void;
-    Write(value: boolean): void;
-    Write(value: int): void;
-    Write(value: uint): void;
-    Write(value: long): void;
-    Write(value: ulong): void;
-    Write(value: float): void;
-    Write(value: double): void;
-    Write(value: decimal): void;
-    Write(value: unknown | null): void;
-    Write(format: string, arg0: unknown | null): void;
-    Write(format: string, arg0: unknown | null, arg1: unknown | null): void;
-    Write(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
-    Write(format: string, ...arg: (unknown | null)[]): void;
-    Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    WriteAsync(value: char): Task;
-    WriteAsync(value: string | null): Task;
-    WriteAsync(buffer: char[], index: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
-    WriteAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
-    WriteAsync(buffer: char[] | null): Task;
-    WriteLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
-    WriteLine(value: StringBuilder | null): void;
-    WriteLine(): void;
-    WriteLine(value: char): void;
-    WriteLine(buffer: char[] | null): void;
-    WriteLine(buffer: char[], index: int, count: int): void;
-    WriteLine(value: boolean): void;
-    WriteLine(value: int): void;
-    WriteLine(value: uint): void;
-    WriteLine(value: long): void;
-    WriteLine(value: ulong): void;
-    WriteLine(value: float): void;
-    WriteLine(value: double): void;
-    WriteLine(value: decimal): void;
-    WriteLine(value: string | null): void;
-    WriteLine(value: unknown | null): void;
-    WriteLine(format: string, arg0: unknown | null): void;
-    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null): void;
-    WriteLine(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
-    WriteLine(format: string, ...arg: (unknown | null)[]): void;
-    WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    WriteLineAsync(value: char): Task;
-    WriteLineAsync(value: string | null): Task;
-    WriteLineAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
-    WriteLineAsync(buffer: char[], index: int, count: int): Task;
-    WriteLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
-    WriteLineAsync(buffer: char[] | null): Task;
-    WriteLineAsync(): Task;
+    Write: TextWriter$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Char>) => void) & ((buffer: char[] | null) => void) & ((buffer: char[], index: int, count: int) => void) & ((format: string, ...arg: (unknown | null)[]) => void) & ((format: string, arg0: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null) => void) & ((format: string, arg: ReadOnlySpan_1<unknown>) => void) & ((value: StringBuilder | null) => void) & ((value: boolean) => void) & ((value: char) => void) & ((value: decimal) => void) & ((value: double) => void) & ((value: float) => void) & ((value: int) => void) & ((value: long) => void) & ((value: string | null) => void) & ((value: uint) => void) & ((value: ulong) => void) & ((value: unknown | null) => void);
+    WriteAsync: TextWriter$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken) => Task) & ((buffer: char[] | null) => Task) & ((buffer: char[], index: int, count: int) => Task) & ((value: StringBuilder | null, cancellationToken?: CancellationToken) => Task) & ((value: char) => Task) & ((value: string | null) => Task);
+    WriteLine: TextWriter$instance["WriteLine"] & (() => void) & ((buffer: ReadOnlySpan_1<System_Internal.Char>) => void) & ((buffer: char[] | null) => void) & ((buffer: char[], index: int, count: int) => void) & ((format: string, ...arg: (unknown | null)[]) => void) & ((format: string, arg0: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null) => void) & ((format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null) => void) & ((format: string, arg: ReadOnlySpan_1<unknown>) => void) & ((value: StringBuilder | null) => void) & ((value: boolean) => void) & ((value: char) => void) & ((value: decimal) => void) & ((value: double) => void) & ((value: float) => void) & ((value: int) => void) & ((value: long) => void) & ((value: string | null) => void) & ((value: uint) => void) & ((value: ulong) => void) & ((value: unknown | null) => void);
+    WriteLineAsync: TextWriter$instance["WriteLineAsync"] & (() => Task) & ((buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken) => Task) & ((buffer: char[] | null) => Task) & ((buffer: char[], index: int, count: int) => Task) & ((value: StringBuilder | null, cancellationToken?: CancellationToken) => Task) & ((value: char) => Task) & ((value: string | null) => Task);
 }
 
 
@@ -1360,8 +1253,9 @@ export interface __StringWriter$views {
 export type StringWriter = StringWriter$instance & __StringWriter$views;
 
 
-export interface TextReader$instance extends MarshalByRefObject {
+export interface TextReader$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_IO_TextReader: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1370,14 +1264,14 @@ export interface TextReader$instance extends MarshalByRefObject {
     Dispose(disposing: boolean): void;
     Peek(): int;
     Read(): int;
-    Read(buffer: char[], index: int, count: int): int;
     Read(buffer: Span_1<System_Internal.Char>): int;
-    ReadAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    Read(buffer: char[], index: int, count: int): int;
     ReadAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadBlock(buffer: char[], index: int, count: int): int;
+    ReadAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
     ReadBlock(buffer: Span_1<System_Internal.Char>): int;
-    ReadBlockAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    ReadBlock(buffer: char[], index: int, count: int): int;
     ReadBlockAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    ReadBlockAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
     ReadLine(): string | null;
     ReadLineAsync(): Task_1<string | null>;
     ReadLineAsync(cancellationToken: CancellationToken): ValueTask_1<System_Internal.String>;
@@ -1387,7 +1281,7 @@ export interface TextReader$instance extends MarshalByRefObject {
 }
 
 
-export const TextReader: (abstract new() => TextReader) & {
+export const TextReader: {
     readonly Null: TextReader;
     Synchronized(reader: TextReader): TextReader;
 };
@@ -1400,8 +1294,9 @@ export interface __TextReader$views {
 export type TextReader = TextReader$instance & __TextReader$views;
 
 
-export interface TextWriter$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
+export interface TextWriter$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_IO_TextWriter: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1410,70 +1305,70 @@ export interface TextWriter$instance extends MarshalByRefObject, System_Internal
     readonly FormatProvider: IFormatProvider;
     NewLine: string;
     Close(): void;
-    Dispose(disposing: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
     Flush(): void;
     FlushAsync(): Task;
     FlushAsync(cancellationToken: CancellationToken): Task;
-    Write(value: char): void;
+    Write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     Write(buffer: char[] | null): void;
     Write(buffer: char[], index: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
-    Write(value: boolean): void;
-    Write(value: int): void;
-    Write(value: uint): void;
-    Write(value: long): void;
-    Write(value: ulong): void;
-    Write(value: float): void;
-    Write(value: double): void;
-    Write(value: decimal): void;
-    Write(value: string | null): void;
-    Write(value: unknown | null): void;
-    Write(value: StringBuilder | null): void;
+    Write(format: string, ...arg: (unknown | null)[]): void;
     Write(format: string, arg0: unknown | null): void;
     Write(format: string, arg0: unknown | null, arg1: unknown | null): void;
     Write(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
-    Write(format: string, ...arg: (unknown | null)[]): void;
     Write(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    WriteAsync(value: char): Task;
-    WriteAsync(value: string | null): Task;
-    WriteAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
+    Write(value: StringBuilder | null): void;
+    Write(value: boolean): void;
+    Write(value: char): void;
+    Write(value: decimal): void;
+    Write(value: double): void;
+    Write(value: float): void;
+    Write(value: int): void;
+    Write(value: long): void;
+    Write(value: string | null): void;
+    Write(value: uint): void;
+    Write(value: ulong): void;
+    Write(value: unknown | null): void;
+    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     WriteAsync(buffer: char[] | null): Task;
     WriteAsync(buffer: char[], index: int, count: int): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
+    WriteAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
+    WriteAsync(value: char): Task;
+    WriteAsync(value: string | null): Task;
     WriteLine(): void;
-    WriteLine(value: char): void;
+    WriteLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     WriteLine(buffer: char[] | null): void;
     WriteLine(buffer: char[], index: int, count: int): void;
-    WriteLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
-    WriteLine(value: boolean): void;
-    WriteLine(value: int): void;
-    WriteLine(value: uint): void;
-    WriteLine(value: long): void;
-    WriteLine(value: ulong): void;
-    WriteLine(value: float): void;
-    WriteLine(value: double): void;
-    WriteLine(value: decimal): void;
-    WriteLine(value: string | null): void;
-    WriteLine(value: StringBuilder | null): void;
-    WriteLine(value: unknown | null): void;
+    WriteLine(format: string, ...arg: (unknown | null)[]): void;
     WriteLine(format: string, arg0: unknown | null): void;
     WriteLine(format: string, arg0: unknown | null, arg1: unknown | null): void;
     WriteLine(format: string, arg0: unknown | null, arg1: unknown | null, arg2: unknown | null): void;
-    WriteLine(format: string, ...arg: (unknown | null)[]): void;
     WriteLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    WriteLineAsync(value: char): Task;
-    WriteLineAsync(value: string | null): Task;
-    WriteLineAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
+    WriteLine(value: StringBuilder | null): void;
+    WriteLine(value: boolean): void;
+    WriteLine(value: char): void;
+    WriteLine(value: decimal): void;
+    WriteLine(value: double): void;
+    WriteLine(value: float): void;
+    WriteLine(value: int): void;
+    WriteLine(value: long): void;
+    WriteLine(value: string | null): void;
+    WriteLine(value: uint): void;
+    WriteLine(value: ulong): void;
+    WriteLine(value: unknown | null): void;
+    WriteLineAsync(): Task;
+    WriteLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     WriteLineAsync(buffer: char[] | null): Task;
     WriteLineAsync(buffer: char[], index: int, count: int): Task;
-    WriteLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
-    WriteLineAsync(): Task;
+    WriteLineAsync(value: StringBuilder | null, cancellationToken?: CancellationToken): Task;
+    WriteLineAsync(value: char): Task;
+    WriteLineAsync(value: string | null): Task;
 }
 
 
-export const TextWriter: (abstract new() => TextWriter) & (abstract new(formatProvider: IFormatProvider | null) => TextWriter) & {
+export const TextWriter: {
     readonly Null: TextWriter;
     CreateBroadcasting(...writers: TextWriter[]): TextWriter;
     Synchronized(writer: TextWriter): TextWriter;
@@ -1496,10 +1391,10 @@ export interface UnmanagedMemoryAccessor$instance {
     readonly CanRead: boolean;
     readonly CanWrite: boolean;
     readonly Capacity: long;
-    Dispose(disposing: boolean): void;
     Dispose(): void;
-    Read<T extends NonNullable<unknown>>(position: long, structure: T): void;
-    ReadArray<T extends NonNullable<unknown>>(position: long, array: T[], offset: int, count: int): int;
+    Dispose(disposing: boolean): void;
+    Read<T extends { readonly __tsonic_type_System_ValueType: never }>(position: long, structure: T): void;
+    ReadArray<T extends { readonly __tsonic_type_System_ValueType: never }>(position: long, array: T[], offset: int, count: int): int;
     ReadBoolean(position: long): boolean;
     ReadByte(position: long): byte;
     ReadChar(position: long): char;
@@ -1516,18 +1411,18 @@ export interface UnmanagedMemoryAccessor$instance {
     Write(position: long, value: boolean): void;
     Write(position: long, value: byte): void;
     Write(position: long, value: char): void;
-    Write(position: long, value: short): void;
+    Write(position: long, value: decimal): void;
+    Write(position: long, value: double): void;
+    Write(position: long, value: float): void;
     Write(position: long, value: int): void;
     Write(position: long, value: long): void;
-    Write(position: long, value: decimal): void;
-    Write(position: long, value: float): void;
-    Write(position: long, value: double): void;
     Write(position: long, value: sbyte): void;
-    Write(position: long, value: ushort): void;
+    Write(position: long, value: short): void;
     Write(position: long, value: uint): void;
     Write(position: long, value: ulong): void;
-    Write<T extends NonNullable<unknown>>(position: long, structure: T): void;
-    WriteArray<T extends NonNullable<unknown>>(position: long, array: T[], offset: int, count: int): void;
+    Write(position: long, value: ushort): void;
+    Write<T extends { readonly __tsonic_type_System_ValueType: never }>(position: long, structure: T): void;
+    WriteArray<T extends { readonly __tsonic_type_System_ValueType: never }>(position: long, array: T[], offset: int, count: int): void;
 }
 
 
@@ -1544,38 +1439,27 @@ export interface __UnmanagedMemoryAccessor$views {
 export type UnmanagedMemoryAccessor = UnmanagedMemoryAccessor$instance & __UnmanagedMemoryAccessor$views;
 
 
-export interface UnmanagedMemoryStream$instance extends Stream$instance, System_Internal.IAsyncDisposable$instance {
+export interface UnmanagedMemoryStream$instance extends Stream$instance {
+    readonly __tsonic_type_System_IO_Stream: never;
     readonly __tsonic_type_System_IO_UnmanagedMemoryStream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanWrite: boolean;
     readonly Capacity: long;
-    readonly Length: long;
-    Position: long;
     PositionPointer: ptr<byte>;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadByte(): int;
-    Seek(offset: long, loc: SeekOrigin): long;
-    SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteByte(value: byte): void;
+    Dispose: Stream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    Flush: Stream$instance["Flush"] & (() => void);
+    FlushAsync: Stream$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
+    Read: Stream$instance["Read"] & ((buffer: Span_1<System_Internal.Byte>) => int) & ((buffer: byte[], offset: int, count: int) => int);
+    ReadAsync: Stream$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int) => Task_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task_1<System_Internal.Int32>);
+    ReadByte: Stream$instance["ReadByte"] & (() => int);
+    Seek: Stream$instance["Seek"] & ((offset: long, loc: SeekOrigin) => long);
+    SetLength: Stream$instance["SetLength"] & ((value: long) => void);
+    Write: Stream$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Byte>) => void) & ((buffer: byte[], offset: int, count: int) => void);
+    WriteAsync: Stream$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask) & ((buffer: byte[], offset: int, count: int) => Task) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task);
+    WriteByte: Stream$instance["WriteByte"] & ((value: byte) => void);
 }
 
 

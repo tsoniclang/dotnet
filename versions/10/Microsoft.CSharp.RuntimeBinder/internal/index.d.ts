@@ -17,29 +17,33 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum CSharpArgumentInfoFlags {
-    None = 0,
-    UseCompileTimeType = 1,
-    Constant = 2,
-    NamedArgument = 4,
-    IsRef = 8,
-    IsOut = 16,
-    IsStaticType = 32
-}
+export type CSharpArgumentInfoFlags = number & { readonly __tsonic_type_Microsoft_CSharp_RuntimeBinder_CSharpArgumentInfoFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CSharpArgumentInfoFlags: {
+    readonly None: CSharpArgumentInfoFlags;
+    readonly UseCompileTimeType: CSharpArgumentInfoFlags;
+    readonly Constant: CSharpArgumentInfoFlags;
+    readonly NamedArgument: CSharpArgumentInfoFlags;
+    readonly IsRef: CSharpArgumentInfoFlags;
+    readonly IsOut: CSharpArgumentInfoFlags;
+    readonly IsStaticType: CSharpArgumentInfoFlags;
+};
 
 
-export enum CSharpBinderFlags {
-    None = 0,
-    CheckedContext = 1,
-    InvokeSimpleName = 2,
-    InvokeSpecialName = 4,
-    BinaryOperationLogical = 8,
-    ConvertExplicit = 16,
-    ConvertArrayIndex = 32,
-    ResultIndexed = 64,
-    ValueFromCompoundAssignment = 128,
-    ResultDiscarded = 256
-}
+export type CSharpBinderFlags = number & { readonly __tsonic_type_Microsoft_CSharp_RuntimeBinder_CSharpBinderFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CSharpBinderFlags: {
+    readonly None: CSharpBinderFlags;
+    readonly CheckedContext: CSharpBinderFlags;
+    readonly InvokeSimpleName: CSharpBinderFlags;
+    readonly InvokeSpecialName: CSharpBinderFlags;
+    readonly BinaryOperationLogical: CSharpBinderFlags;
+    readonly ConvertExplicit: CSharpBinderFlags;
+    readonly ConvertArrayIndex: CSharpBinderFlags;
+    readonly ResultIndexed: CSharpBinderFlags;
+    readonly ValueFromCompoundAssignment: CSharpBinderFlags;
+    readonly ResultDiscarded: CSharpBinderFlags;
+};
 
 
 export interface CSharpArgumentInfo$instance {
@@ -55,8 +59,9 @@ export const CSharpArgumentInfo: {
 
 export type CSharpArgumentInfo = CSharpArgumentInfo$instance;
 
-export interface RuntimeBinderException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface RuntimeBinderException$instance extends System_Internal.Exception$instance {
     readonly __tsonic_type_Microsoft_CSharp_RuntimeBinder_RuntimeBinderException: never;
+    readonly __tsonic_type_System_Exception: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -77,8 +82,9 @@ export interface __RuntimeBinderException$views {
 export type RuntimeBinderException = RuntimeBinderException$instance & __RuntimeBinderException$views;
 
 
-export interface RuntimeBinderInternalCompilerException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface RuntimeBinderInternalCompilerException$instance extends System_Internal.Exception$instance {
     readonly __tsonic_type_Microsoft_CSharp_RuntimeBinder_RuntimeBinderInternalCompilerException: never;
+    readonly __tsonic_type_System_Exception: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 

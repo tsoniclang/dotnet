@@ -9,44 +9,49 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 // Import types from other namespaces
 import type { SafeFileHandle, SafeMemoryMappedFileHandle, SafeMemoryMappedViewHandle } from "../../Microsoft.Win32.SafeHandles/internal/index.js";
 import * as System_IO_Internal from "../../System.IO/internal/index.js";
-import type { FileAccess, FileMode, FileStream, HandleInheritability, SeekOrigin, Stream, UnmanagedMemoryAccessor, UnmanagedMemoryStream } from "../../System.IO/internal/index.js";
-import type { SafeBuffer } from "../../System.Runtime.InteropServices/internal/index.js";
+import type { FileMode, FileStream, HandleInheritability, SeekOrigin, Stream, UnmanagedMemoryAccessor, UnmanagedMemoryStream } from "../../System.IO/internal/index.js";
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Decimal, Double, Enum, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, MarshalByRefObject, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Decimal, Double, Enum, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, Void } from "../../System/internal/index.js";
 
-export enum MemoryMappedFileAccess {
-    ReadWrite = 0,
-    Read = 1,
-    Write = 2,
-    CopyOnWrite = 3,
-    ReadExecute = 4,
-    ReadWriteExecute = 5
-}
+export type MemoryMappedFileAccess = number & { readonly __tsonic_type_System_IO_MemoryMappedFiles_MemoryMappedFileAccess: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum MemoryMappedFileOptions {
-    None = 0,
-    DelayAllocatePages = 67108864
-}
+export const MemoryMappedFileAccess: {
+    readonly ReadWrite: MemoryMappedFileAccess;
+    readonly Read: MemoryMappedFileAccess;
+    readonly Write: MemoryMappedFileAccess;
+    readonly CopyOnWrite: MemoryMappedFileAccess;
+    readonly ReadExecute: MemoryMappedFileAccess;
+    readonly ReadWriteExecute: MemoryMappedFileAccess;
+};
 
 
-export enum MemoryMappedFileRights {
-    CopyOnWrite = 1,
-    Write = 2,
-    Read = 4,
-    Execute = 8,
-    Delete = 65536,
-    ReadPermissions = 131072,
-    ChangePermissions = 262144,
-    TakeOwnership = 524288,
-    ReadWrite = 6,
-    ReadExecute = 12,
-    ReadWriteExecute = 14,
-    FullControl = 983055,
-    AccessSystemSecurity = 16777216
-}
+export type MemoryMappedFileOptions = number & { readonly __tsonic_type_System_IO_MemoryMappedFiles_MemoryMappedFileOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MemoryMappedFileOptions: {
+    readonly None: MemoryMappedFileOptions;
+    readonly DelayAllocatePages: MemoryMappedFileOptions;
+};
+
+
+export type MemoryMappedFileRights = number & { readonly __tsonic_type_System_IO_MemoryMappedFiles_MemoryMappedFileRights: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MemoryMappedFileRights: {
+    readonly CopyOnWrite: MemoryMappedFileRights;
+    readonly Write: MemoryMappedFileRights;
+    readonly Read: MemoryMappedFileRights;
+    readonly Execute: MemoryMappedFileRights;
+    readonly Delete: MemoryMappedFileRights;
+    readonly ReadPermissions: MemoryMappedFileRights;
+    readonly ChangePermissions: MemoryMappedFileRights;
+    readonly TakeOwnership: MemoryMappedFileRights;
+    readonly ReadWrite: MemoryMappedFileRights;
+    readonly ReadExecute: MemoryMappedFileRights;
+    readonly ReadWriteExecute: MemoryMappedFileRights;
+    readonly FullControl: MemoryMappedFileRights;
+    readonly AccessSystemSecurity: MemoryMappedFileRights;
+};
 
 
 export interface MemoryMappedFile$instance {
@@ -93,15 +98,15 @@ export interface __MemoryMappedFile$views {
 export type MemoryMappedFile = MemoryMappedFile$instance & __MemoryMappedFile$views;
 
 
-export interface MemoryMappedViewAccessor$instance extends UnmanagedMemoryAccessor {
+export interface MemoryMappedViewAccessor$instance extends System_IO_Internal.UnmanagedMemoryAccessor$instance {
     readonly __tsonic_type_System_IO_MemoryMappedFiles_MemoryMappedViewAccessor: never;
+    readonly __tsonic_type_System_IO_UnmanagedMemoryAccessor: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly PointerOffset: long;
     readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
+    Dispose: System_IO_Internal.UnmanagedMemoryAccessor$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     Flush(): void;
 }
 
@@ -117,18 +122,20 @@ export interface __MemoryMappedViewAccessor$views {
 export type MemoryMappedViewAccessor = MemoryMappedViewAccessor$instance & __MemoryMappedViewAccessor$views;
 
 
-export interface MemoryMappedViewStream$instance extends UnmanagedMemoryStream, System_Internal.IAsyncDisposable$instance {
+export interface MemoryMappedViewStream$instance extends System_IO_Internal.UnmanagedMemoryStream$instance {
     readonly __tsonic_type_System_IO_MemoryMappedFiles_MemoryMappedViewStream: never;
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_IO_UnmanagedMemoryStream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly PointerOffset: long;
     readonly SafeMemoryMappedViewHandle: SafeMemoryMappedViewHandle;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    Flush(): void;
-    SetLength(value: long): void;
+    Dispose: System_IO_Internal.UnmanagedMemoryStream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    Flush: System_IO_Internal.UnmanagedMemoryStream$instance["Flush"] & (() => void);
+    SetLength: System_IO_Internal.UnmanagedMemoryStream$instance["SetLength"] & ((value: long) => void);
 }
 
 

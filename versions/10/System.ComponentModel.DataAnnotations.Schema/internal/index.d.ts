@@ -10,14 +10,17 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum DatabaseGeneratedOption {
-    None = 0,
-    Identity = 1,
-    Computed = 2
-}
+export type DatabaseGeneratedOption = number & { readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_DatabaseGeneratedOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DatabaseGeneratedOption: {
+    readonly None: DatabaseGeneratedOption;
+    readonly Identity: DatabaseGeneratedOption;
+    readonly Computed: DatabaseGeneratedOption;
+};
 
 
-export interface ColumnAttribute$instance extends Attribute {
+export interface ColumnAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_ColumnAttribute: never;
 
     readonly Name: string | null;
@@ -35,7 +38,8 @@ export const ColumnAttribute: {
 
 export type ColumnAttribute = ColumnAttribute$instance;
 
-export interface ComplexTypeAttribute$instance extends Attribute {
+export interface ComplexTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_ComplexTypeAttribute: never;
 
 }
@@ -48,7 +52,8 @@ export const ComplexTypeAttribute: {
 
 export type ComplexTypeAttribute = ComplexTypeAttribute$instance;
 
-export interface DatabaseGeneratedAttribute$instance extends Attribute {
+export interface DatabaseGeneratedAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_DatabaseGeneratedAttribute: never;
 
     readonly DatabaseGeneratedOption: DatabaseGeneratedOption;
@@ -62,7 +67,8 @@ export const DatabaseGeneratedAttribute: {
 
 export type DatabaseGeneratedAttribute = DatabaseGeneratedAttribute$instance;
 
-export interface ForeignKeyAttribute$instance extends Attribute {
+export interface ForeignKeyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_ForeignKeyAttribute: never;
 
     readonly Name: string;
@@ -76,7 +82,8 @@ export const ForeignKeyAttribute: {
 
 export type ForeignKeyAttribute = ForeignKeyAttribute$instance;
 
-export interface InversePropertyAttribute$instance extends Attribute {
+export interface InversePropertyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_InversePropertyAttribute: never;
 
     readonly Property: string;
@@ -90,7 +97,8 @@ export const InversePropertyAttribute: {
 
 export type InversePropertyAttribute = InversePropertyAttribute$instance;
 
-export interface NotMappedAttribute$instance extends Attribute {
+export interface NotMappedAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_NotMappedAttribute: never;
 
 }
@@ -103,7 +111,8 @@ export const NotMappedAttribute: {
 
 export type NotMappedAttribute = NotMappedAttribute$instance;
 
-export interface TableAttribute$instance extends Attribute {
+export interface TableAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_DataAnnotations_Schema_TableAttribute: never;
 
     readonly Name: string;

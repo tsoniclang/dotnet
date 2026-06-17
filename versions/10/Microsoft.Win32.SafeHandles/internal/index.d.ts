@@ -12,16 +12,17 @@ import type { CriticalHandle, SafeBuffer, SafeHandle } from "../../System.Runtim
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, IDisposable, Int32, IntPtr, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, UInt32, UInt64, Void } from "../../System/internal/index.js";
 
-export interface CriticalHandleMinusOneIsInvalid$instance extends CriticalHandle {
+export interface CriticalHandleMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.CriticalHandle$instance {
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_CriticalHandleMinusOneIsInvalid: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_CriticalHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly IsInvalid: boolean;
 }
 
 
-export const CriticalHandleMinusOneIsInvalid: (abstract new() => CriticalHandleMinusOneIsInvalid) & {
+export const CriticalHandleMinusOneIsInvalid: {
 };
 
 
@@ -32,16 +33,17 @@ export interface __CriticalHandleMinusOneIsInvalid$views {
 export type CriticalHandleMinusOneIsInvalid = CriticalHandleMinusOneIsInvalid$instance & __CriticalHandleMinusOneIsInvalid$views;
 
 
-export interface CriticalHandleZeroOrMinusOneIsInvalid$instance extends CriticalHandle {
+export interface CriticalHandleZeroOrMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.CriticalHandle$instance {
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_CriticalHandleZeroOrMinusOneIsInvalid: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_CriticalHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly IsInvalid: boolean;
 }
 
 
-export const CriticalHandleZeroOrMinusOneIsInvalid: (abstract new() => CriticalHandleZeroOrMinusOneIsInvalid) & {
+export const CriticalHandleZeroOrMinusOneIsInvalid: {
 };
 
 
@@ -52,13 +54,14 @@ export interface __CriticalHandleZeroOrMinusOneIsInvalid$views {
 export type CriticalHandleZeroOrMinusOneIsInvalid = CriticalHandleZeroOrMinusOneIsInvalid$instance & __CriticalHandleZeroOrMinusOneIsInvalid$views;
 
 
-export interface SafeAccessTokenHandle$instance extends SafeHandle {
+export interface SafeAccessTokenHandle$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeAccessTokenHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly IsInvalid: boolean;
-    ReleaseHandle(): boolean;
+    ReleaseHandle: System_Runtime_InteropServices_Internal.SafeHandle$instance["ReleaseHandle"] & (() => boolean);
 }
 
 
@@ -78,12 +81,14 @@ export type SafeAccessTokenHandle = SafeAccessTokenHandle$instance & __SafeAcces
 
 export interface SafeFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeFileHandle: never;
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    IsAsync: boolean;
-    readonly IsInvalid: boolean;
-    ReleaseHandle(): boolean;
+    readonly IsAsync: boolean;
+    ReleaseHandle: SafeHandleZeroOrMinusOneIsInvalid$instance["ReleaseHandle"] & (() => boolean);
 }
 
 
@@ -100,16 +105,17 @@ export interface __SafeFileHandle$views {
 export type SafeFileHandle = SafeFileHandle$instance & __SafeFileHandle$views;
 
 
-export interface SafeHandleMinusOneIsInvalid$instance extends SafeHandle {
+export interface SafeHandleMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleMinusOneIsInvalid: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly IsInvalid: boolean;
 }
 
 
-export const SafeHandleMinusOneIsInvalid: (abstract new(ownsHandle: boolean) => SafeHandleMinusOneIsInvalid) & {
+export const SafeHandleMinusOneIsInvalid: {
 };
 
 
@@ -120,16 +126,17 @@ export interface __SafeHandleMinusOneIsInvalid$views {
 export type SafeHandleMinusOneIsInvalid = SafeHandleMinusOneIsInvalid$instance & __SafeHandleMinusOneIsInvalid$views;
 
 
-export interface SafeHandleZeroOrMinusOneIsInvalid$instance extends SafeHandle {
+export interface SafeHandleZeroOrMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly IsInvalid: boolean;
 }
 
 
-export const SafeHandleZeroOrMinusOneIsInvalid: (abstract new(ownsHandle: boolean) => SafeHandleZeroOrMinusOneIsInvalid) & {
+export const SafeHandleZeroOrMinusOneIsInvalid: {
 };
 
 
@@ -141,12 +148,14 @@ export type SafeHandleZeroOrMinusOneIsInvalid = SafeHandleZeroOrMinusOneIsInvali
 
 
 export interface SafeMemoryMappedFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeMemoryMappedFileHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly IsInvalid: boolean;
-    ReleaseHandle(): boolean;
+    ReleaseHandle: SafeHandleZeroOrMinusOneIsInvalid$instance["ReleaseHandle"] & (() => boolean);
 }
 
 
@@ -162,12 +171,16 @@ export interface __SafeMemoryMappedFileHandle$views {
 export type SafeMemoryMappedFileHandle = SafeMemoryMappedFileHandle$instance & __SafeMemoryMappedFileHandle$views;
 
 
-export interface SafeMemoryMappedViewHandle$instance extends SafeBuffer {
+export interface SafeMemoryMappedViewHandle$instance extends System_Runtime_InteropServices_Internal.SafeBuffer$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeMemoryMappedViewHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeBuffer: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ReleaseHandle(): boolean;
+    ReleaseHandle: System_Runtime_InteropServices_Internal.SafeBuffer$instance["ReleaseHandle"] & (() => boolean);
 }
 
 
@@ -184,16 +197,19 @@ export type SafeMemoryMappedViewHandle = SafeMemoryMappedViewHandle$instance & _
 
 
 export interface SafeNCryptHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ReleaseHandle(): boolean;
+    ReleaseHandle: SafeHandleZeroOrMinusOneIsInvalid$instance["ReleaseHandle"] & (() => boolean);
     ReleaseNativeHandle(): boolean;
 }
 
 
-export const SafeNCryptHandle: (abstract new() => SafeNCryptHandle) & (abstract new(handle: nint, parentHandle: SafeHandle) => SafeNCryptHandle) & {
+export const SafeNCryptHandle: {
 };
 
 
@@ -205,11 +221,15 @@ export type SafeNCryptHandle = SafeNCryptHandle$instance & __SafeNCryptHandle$vi
 
 
 export interface SafeNCryptKeyHandle$instance extends SafeNCryptHandle$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptHandle: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptKeyHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ReleaseNativeHandle(): boolean;
+    ReleaseNativeHandle: SafeNCryptHandle$instance["ReleaseNativeHandle"] & (() => boolean);
 }
 
 
@@ -227,11 +247,15 @@ export type SafeNCryptKeyHandle = SafeNCryptKeyHandle$instance & __SafeNCryptKey
 
 
 export interface SafeNCryptProviderHandle$instance extends SafeNCryptHandle$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptHandle: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptProviderHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ReleaseNativeHandle(): boolean;
+    ReleaseNativeHandle: SafeNCryptHandle$instance["ReleaseNativeHandle"] & (() => boolean);
 }
 
 
@@ -248,11 +272,15 @@ export type SafeNCryptProviderHandle = SafeNCryptProviderHandle$instance & __Saf
 
 
 export interface SafeNCryptSecretHandle$instance extends SafeNCryptHandle$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptHandle: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeNCryptSecretHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ReleaseNativeHandle(): boolean;
+    ReleaseNativeHandle: SafeNCryptHandle$instance["ReleaseNativeHandle"] & (() => boolean);
 }
 
 
@@ -269,14 +297,15 @@ export type SafeNCryptSecretHandle = SafeNCryptSecretHandle$instance & __SafeNCr
 
 
 export interface SafePipeHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafePipeHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly IsInvalid: boolean;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    ReleaseHandle(): boolean;
+    Dispose: SafeHandleZeroOrMinusOneIsInvalid$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    ReleaseHandle: SafeHandleZeroOrMinusOneIsInvalid$instance["ReleaseHandle"] & (() => boolean);
 }
 
 
@@ -294,11 +323,14 @@ export type SafePipeHandle = SafePipeHandle$instance & __SafePipeHandle$views;
 
 
 export interface SafeProcessHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeProcessHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ReleaseHandle(): boolean;
+    ReleaseHandle: SafeHandleZeroOrMinusOneIsInvalid$instance["ReleaseHandle"] & (() => boolean);
 }
 
 
@@ -316,11 +348,14 @@ export type SafeProcessHandle = SafeProcessHandle$instance & __SafeProcessHandle
 
 
 export interface SafeRegistryHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeRegistryHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ReleaseHandle(): boolean;
+    ReleaseHandle: SafeHandleZeroOrMinusOneIsInvalid$instance["ReleaseHandle"] & (() => boolean);
 }
 
 
@@ -338,11 +373,14 @@ export type SafeRegistryHandle = SafeRegistryHandle$instance & __SafeRegistryHan
 
 
 export interface SafeWaitHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeWaitHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    ReleaseHandle(): boolean;
+    ReleaseHandle: SafeHandleZeroOrMinusOneIsInvalid$instance["ReleaseHandle"] & (() => boolean);
 }
 
 
@@ -360,13 +398,15 @@ export type SafeWaitHandle = SafeWaitHandle$instance & __SafeWaitHandle$views;
 
 
 export interface SafeX509ChainHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
     readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeX509ChainHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    ReleaseHandle(): boolean;
+    Dispose: SafeHandleZeroOrMinusOneIsInvalid$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    ReleaseHandle: SafeHandleZeroOrMinusOneIsInvalid$instance["ReleaseHandle"] & (() => boolean);
 }
 
 

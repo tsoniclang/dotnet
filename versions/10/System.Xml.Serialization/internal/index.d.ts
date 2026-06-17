@@ -11,32 +11,36 @@ import * as System_Collections_Generic_Internal from "../../System.Collections.G
 import type { IEnumerable_1, IEnumerator_1 } from "../../System.Collections.Generic/internal/index.js";
 import type { StringCollection } from "../../System.Collections.Specialized/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { ArrayList, CollectionBase, Hashtable, ICollection, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
+import type { CollectionBase, Hashtable, ICollection, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import type { Stream, TextReader, TextWriter } from "../../System.IO/internal/index.js";
-import type { Assembly, ICustomAttributeProvider, MethodInfo } from "../../System.Reflection/internal/index.js";
+import type { ICustomAttributeProvider, MethodInfo } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Xml_Schema_Internal from "../../System.Xml.Schema/internal/index.js";
 import type { ValidationEventHandler, XmlSchema, XmlSchemaForm } from "../../System.Xml.Schema/internal/index.js";
-import type { WhitespaceHandling, XmlAttribute, XmlDocument, XmlElement, XmlNode, XmlNodeType, XmlQualifiedName, XmlReader, XmlWriter } from "../../System.Xml/internal/index.js";
+import type { WhitespaceHandling, XmlAttribute, XmlElement, XmlNodeType, XmlQualifiedName, XmlReader, XmlWriter } from "../../System.Xml/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateOnly, DateTime, Delegate, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, TimeOnly, Type, TypeCode, Uri, ValueType, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Char, Delegate, Enum, EventArgs, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, ValueType, Void } from "../../System/internal/index.js";
 
-export enum CodeGenerationOptions {
-    None = 0,
-    GenerateProperties = 1,
-    GenerateNewAsync = 2,
-    GenerateOldAsync = 4,
-    GenerateOrder = 8,
-    EnableDataBinding = 16
-}
+export type CodeGenerationOptions = number & { readonly __tsonic_type_System_Xml_Serialization_CodeGenerationOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CodeGenerationOptions: {
+    readonly None: CodeGenerationOptions;
+    readonly GenerateProperties: CodeGenerationOptions;
+    readonly GenerateNewAsync: CodeGenerationOptions;
+    readonly GenerateOldAsync: CodeGenerationOptions;
+    readonly GenerateOrder: CodeGenerationOptions;
+    readonly EnableDataBinding: CodeGenerationOptions;
+};
 
 
-export enum XmlMappingAccess {
-    None = 0,
-    Read = 1,
-    Write = 2
-}
+export type XmlMappingAccess = number & { readonly __tsonic_type_System_Xml_Serialization_XmlMappingAccess: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const XmlMappingAccess: {
+    readonly None: XmlMappingAccess;
+    readonly Read: XmlMappingAccess;
+    readonly Write: XmlMappingAccess;
+};
 
 
 export type UnreferencedObjectEventHandler = (sender: unknown | null, e: UnreferencedObjectEventArgs) => void;
@@ -85,6 +89,7 @@ export interface IXmlTextParser$instance {
 export type IXmlTextParser = IXmlTextParser$instance;
 
 export interface XmlDeserializationEvents$instance {
+    readonly __tsonic_type_System_ValueType: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlDeserializationEvents: never;
 
     get OnUnknownAttribute(): XmlAttributeEventHandler | null;
@@ -174,7 +179,8 @@ export const SchemaImporter: {
 
 export type SchemaImporter = SchemaImporter$instance;
 
-export interface SoapAttributeAttribute$instance extends Attribute {
+export interface SoapAttributeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_SoapAttributeAttribute: never;
 
     AttributeName: string;
@@ -234,7 +240,8 @@ export const SoapAttributes: {
 
 export type SoapAttributes = SoapAttributes$instance;
 
-export interface SoapElementAttribute$instance extends Attribute {
+export interface SoapElementAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_SoapElementAttribute: never;
 
     DataType: string;
@@ -251,7 +258,8 @@ export const SoapElementAttribute: {
 
 export type SoapElementAttribute = SoapElementAttribute$instance;
 
-export interface SoapEnumAttribute$instance extends Attribute {
+export interface SoapEnumAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_SoapEnumAttribute: never;
 
     Name: string;
@@ -266,7 +274,8 @@ export const SoapEnumAttribute: {
 
 export type SoapEnumAttribute = SoapEnumAttribute$instance;
 
-export interface SoapIgnoreAttribute$instance extends Attribute {
+export interface SoapIgnoreAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_SoapIgnoreAttribute: never;
 
 }
@@ -279,7 +288,8 @@ export const SoapIgnoreAttribute: {
 
 export type SoapIgnoreAttribute = SoapIgnoreAttribute$instance;
 
-export interface SoapIncludeAttribute$instance extends Attribute {
+export interface SoapIncludeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_SoapIncludeAttribute: never;
 
     Type: Type;
@@ -333,7 +343,8 @@ export const SoapSchemaMember: {
 
 export type SoapSchemaMember = SoapSchemaMember$instance;
 
-export interface SoapTypeAttribute$instance extends Attribute {
+export interface SoapTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_SoapTypeAttribute: never;
 
     IncludeInSchema: boolean;
@@ -352,7 +363,8 @@ export const SoapTypeAttribute: {
 
 export type SoapTypeAttribute = SoapTypeAttribute$instance;
 
-export interface UnreferencedObjectEventArgs$instance extends EventArgs {
+export interface UnreferencedObjectEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Xml_Serialization_UnreferencedObjectEventArgs: never;
 
     readonly UnreferencedId: string | null;
@@ -367,7 +379,8 @@ export const UnreferencedObjectEventArgs: {
 
 export type UnreferencedObjectEventArgs = UnreferencedObjectEventArgs$instance;
 
-export interface XmlAnyAttributeAttribute$instance extends Attribute {
+export interface XmlAnyAttributeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlAnyAttributeAttribute: never;
 
 }
@@ -380,7 +393,8 @@ export const XmlAnyAttributeAttribute: {
 
 export type XmlAnyAttributeAttribute = XmlAnyAttributeAttribute$instance;
 
-export interface XmlAnyElementAttribute$instance extends Attribute {
+export interface XmlAnyElementAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlAnyElementAttribute: never;
 
     Name: string;
@@ -399,7 +413,8 @@ export const XmlAnyElementAttribute: {
 
 export type XmlAnyElementAttribute = XmlAnyElementAttribute$instance;
 
-export interface XmlAnyElementAttributes$instance extends CollectionBase {
+export interface XmlAnyElementAttributes$instance extends System_Collections_Internal.CollectionBase$instance {
+    readonly __tsonic_type_System_Collections_CollectionBase: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlAnyElementAttributes: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -429,7 +444,8 @@ export interface __XmlAnyElementAttributes$views {
 export type XmlAnyElementAttributes = XmlAnyElementAttributes$instance & __XmlAnyElementAttributes$views & { [index: number]: XmlAnyElementAttribute; };
 
 
-export interface XmlArrayAttribute$instance extends Attribute {
+export interface XmlArrayAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlArrayAttribute: never;
 
     ElementName: string;
@@ -449,7 +465,8 @@ export const XmlArrayAttribute: {
 
 export type XmlArrayAttribute = XmlArrayAttribute$instance;
 
-export interface XmlArrayItemAttribute$instance extends Attribute {
+export interface XmlArrayItemAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlArrayItemAttribute: never;
 
     DataType: string;
@@ -474,7 +491,8 @@ export const XmlArrayItemAttribute: {
 
 export type XmlArrayItemAttribute = XmlArrayItemAttribute$instance;
 
-export interface XmlArrayItemAttributes$instance extends CollectionBase {
+export interface XmlArrayItemAttributes$instance extends System_Collections_Internal.CollectionBase$instance {
+    readonly __tsonic_type_System_Collections_CollectionBase: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlArrayItemAttributes: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -504,7 +522,8 @@ export interface __XmlArrayItemAttributes$views {
 export type XmlArrayItemAttributes = XmlArrayItemAttributes$instance & __XmlArrayItemAttributes$views & { [index: number]: XmlArrayItemAttribute; };
 
 
-export interface XmlAttributeAttribute$instance extends Attribute {
+export interface XmlAttributeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlAttributeAttribute: never;
 
     AttributeName: string;
@@ -527,7 +546,8 @@ export const XmlAttributeAttribute: {
 
 export type XmlAttributeAttribute = XmlAttributeAttribute$instance;
 
-export interface XmlAttributeEventArgs$instance extends EventArgs {
+export interface XmlAttributeEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlAttributeEventArgs: never;
 
     readonly Attr: XmlAttribute;
@@ -597,7 +617,8 @@ export const XmlAttributes: {
 
 export type XmlAttributes = XmlAttributes$instance;
 
-export interface XmlChoiceIdentifierAttribute$instance extends Attribute {
+export interface XmlChoiceIdentifierAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlChoiceIdentifierAttribute: never;
 
     MemberName: string;
@@ -612,7 +633,8 @@ export const XmlChoiceIdentifierAttribute: {
 
 export type XmlChoiceIdentifierAttribute = XmlChoiceIdentifierAttribute$instance;
 
-export interface XmlElementAttribute$instance extends Attribute {
+export interface XmlElementAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlElementAttribute: never;
 
     DataType: string;
@@ -637,7 +659,8 @@ export const XmlElementAttribute: {
 
 export type XmlElementAttribute = XmlElementAttribute$instance;
 
-export interface XmlElementAttributes$instance extends CollectionBase {
+export interface XmlElementAttributes$instance extends System_Collections_Internal.CollectionBase$instance {
+    readonly __tsonic_type_System_Collections_CollectionBase: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlElementAttributes: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -667,7 +690,8 @@ export interface __XmlElementAttributes$views {
 export type XmlElementAttributes = XmlElementAttributes$instance & __XmlElementAttributes$views & { [index: number]: XmlElementAttribute; };
 
 
-export interface XmlElementEventArgs$instance extends EventArgs {
+export interface XmlElementEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlElementEventArgs: never;
 
     readonly Element: XmlElement;
@@ -684,7 +708,8 @@ export const XmlElementEventArgs: {
 
 export type XmlElementEventArgs = XmlElementEventArgs$instance;
 
-export interface XmlEnumAttribute$instance extends Attribute {
+export interface XmlEnumAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlEnumAttribute: never;
 
     get Name(): string | null;
@@ -700,7 +725,8 @@ export const XmlEnumAttribute: {
 
 export type XmlEnumAttribute = XmlEnumAttribute$instance;
 
-export interface XmlIgnoreAttribute$instance extends Attribute {
+export interface XmlIgnoreAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlIgnoreAttribute: never;
 
 }
@@ -713,7 +739,8 @@ export const XmlIgnoreAttribute: {
 
 export type XmlIgnoreAttribute = XmlIgnoreAttribute$instance;
 
-export interface XmlIncludeAttribute$instance extends Attribute {
+export interface XmlIncludeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlIncludeAttribute: never;
 
     get Type(): Type | null;
@@ -765,7 +792,8 @@ export const XmlMemberMapping: {
 
 export type XmlMemberMapping = XmlMemberMapping$instance;
 
-export interface XmlMembersMapping$instance extends XmlMapping {
+export interface XmlMembersMapping$instance extends XmlMapping$instance {
+    readonly __tsonic_type_System_Xml_Serialization_XmlMapping: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlMembersMapping: never;
 
     readonly Count: int;
@@ -780,7 +808,8 @@ export const XmlMembersMapping: {
 
 export type XmlMembersMapping = XmlMembersMapping$instance & { readonly [index: number]: XmlMemberMapping; };
 
-export interface XmlNamespaceDeclarationsAttribute$instance extends Attribute {
+export interface XmlNamespaceDeclarationsAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlNamespaceDeclarationsAttribute: never;
 
 }
@@ -793,7 +822,8 @@ export const XmlNamespaceDeclarationsAttribute: {
 
 export type XmlNamespaceDeclarationsAttribute = XmlNamespaceDeclarationsAttribute$instance;
 
-export interface XmlNodeEventArgs$instance extends EventArgs {
+export interface XmlNodeEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlNodeEventArgs: never;
 
     readonly LineNumber: int;
@@ -859,7 +889,8 @@ export const XmlReflectionMember: {
 
 export type XmlReflectionMember = XmlReflectionMember$instance;
 
-export interface XmlRootAttribute$instance extends Attribute {
+export interface XmlRootAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlRootAttribute: never;
 
     DataType: string;
@@ -878,7 +909,7 @@ export const XmlRootAttribute: {
 
 export type XmlRootAttribute = XmlRootAttribute$instance;
 
-export interface XmlSchemaEnumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<XmlSchema> {
+export interface XmlSchemaEnumerator$instance {
     readonly __tsonic_type_System_Xml_Serialization_XmlSchemaEnumerator: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -908,12 +939,12 @@ export type XmlSchemaEnumerator = XmlSchemaEnumerator$instance & __XmlSchemaEnum
 export interface XmlSchemaExporter$instance {
     readonly __tsonic_type_System_Xml_Serialization_XmlSchemaExporter: never;
 
-    ExportAnyType(ns: string | null): string;
     ExportAnyType(members: XmlMembersMapping): string | null;
+    ExportAnyType(ns: string | null): string;
     ExportMembersMapping(xmlMembersMapping: XmlMembersMapping): void;
     ExportMembersMapping(xmlMembersMapping: XmlMembersMapping, exportEnclosingType: boolean): void;
-    ExportTypeMapping(xmlTypeMapping: XmlTypeMapping): void;
     ExportTypeMapping(xmlMembersMapping: XmlMembersMapping): XmlQualifiedName | null;
+    ExportTypeMapping(xmlTypeMapping: XmlTypeMapping): void;
 }
 
 
@@ -924,16 +955,17 @@ export const XmlSchemaExporter: {
 
 export type XmlSchemaExporter = XmlSchemaExporter$instance;
 
-export interface XmlSchemaImporter$instance extends SchemaImporter {
+export interface XmlSchemaImporter$instance extends SchemaImporter$instance {
+    readonly __tsonic_type_System_Xml_Serialization_SchemaImporter: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlSchemaImporter: never;
 
     ImportAnyType(typeName: XmlQualifiedName, elementName: string): XmlMembersMapping | null;
     ImportDerivedTypeMapping(name: XmlQualifiedName, baseType: Type | null): XmlTypeMapping;
     ImportDerivedTypeMapping(name: XmlQualifiedName, baseType: Type | null, baseTypeCanBeIndirect: boolean): XmlTypeMapping;
     ImportMembersMapping(name: XmlQualifiedName): XmlMembersMapping;
+    ImportMembersMapping(name: string, ns: string | null, members: SoapSchemaMember[]): XmlMembersMapping;
     ImportMembersMapping(names: XmlQualifiedName[]): XmlMembersMapping;
     ImportMembersMapping(names: XmlQualifiedName[], baseType: Type | null, baseTypeCanBeIndirect: boolean): XmlMembersMapping;
-    ImportMembersMapping(name: string, ns: string | null, members: SoapSchemaMember[]): XmlMembersMapping;
     ImportSchemaType(typeName: XmlQualifiedName): XmlTypeMapping;
     ImportSchemaType(typeName: XmlQualifiedName, baseType: Type | null): XmlTypeMapping;
     ImportSchemaType(typeName: XmlQualifiedName, baseType: Type | null, baseTypeCanBeIndirect: boolean): XmlTypeMapping;
@@ -949,7 +981,8 @@ export const XmlSchemaImporter: {
 
 export type XmlSchemaImporter = XmlSchemaImporter$instance;
 
-export interface XmlSchemaProviderAttribute$instance extends Attribute {
+export interface XmlSchemaProviderAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlSchemaProviderAttribute: never;
 
     IsAny: boolean;
@@ -964,7 +997,8 @@ export const XmlSchemaProviderAttribute: {
 
 export type XmlSchemaProviderAttribute = XmlSchemaProviderAttribute$instance;
 
-export interface XmlSchemas$instance extends CollectionBase {
+export interface XmlSchemas$instance extends System_Collections_Internal.CollectionBase$instance {
+    readonly __tsonic_type_System_Collections_CollectionBase: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlSchemas: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -987,10 +1021,10 @@ export interface XmlSchemas$instance extends CollectionBase {
     GetSchemas(ns: string | null): IList;
     IndexOf(schema: XmlSchema): int;
     Insert(index: int, schema: XmlSchema): void;
-    OnClear(): void;
-    OnInsert(index: int, value: unknown | null): void;
-    OnRemove(index: int, value: unknown | null): void;
-    OnSet(index: int, oldValue: unknown | null, newValue: unknown | null): void;
+    OnClear: System_Collections_Internal.CollectionBase$instance["OnClear"] & (() => void);
+    OnInsert: System_Collections_Internal.CollectionBase$instance["OnInsert"] & ((index: int, value: unknown | null) => void);
+    OnRemove: System_Collections_Internal.CollectionBase$instance["OnRemove"] & ((index: int, value: unknown | null) => void);
+    OnSet: System_Collections_Internal.CollectionBase$instance["OnSet"] & ((index: int, oldValue: unknown | null, newValue: unknown | null) => void);
     Remove(schema: XmlSchema): void;
     set_Item(index: int, value: XmlSchema): void;
 }
@@ -1018,13 +1052,14 @@ export interface XmlSerializationGeneratedCode$instance {
 }
 
 
-export const XmlSerializationGeneratedCode: (abstract new() => XmlSerializationGeneratedCode) & {
+export const XmlSerializationGeneratedCode: {
 };
 
 
 export type XmlSerializationGeneratedCode = XmlSerializationGeneratedCode$instance;
 
-export interface XmlSerializationReader$instance extends XmlSerializationGeneratedCode {
+export interface XmlSerializationReader$instance extends XmlSerializationGeneratedCode$instance {
+    readonly __tsonic_type_System_Xml_Serialization_XmlSerializationGeneratedCode: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlSerializationReader: never;
 
     InitCallbacks(): void;
@@ -1032,22 +1067,7 @@ export interface XmlSerializationReader$instance extends XmlSerializationGenerat
 }
 
 
-export const XmlSerializationReader: (abstract new() => XmlSerializationReader) & {
-    ResolveDynamicAssembly(assemblyFullName: string): Assembly | null;
-    ToByteArrayBase64(value: string | null): byte[] | null;
-    ToByteArrayHex(value: string | null): byte[] | null;
-    ToChar(value: string): char;
-    ToDate(value: string): DateTime;
-    ToDateOnly(value: string): DateOnly;
-    ToDateTime(value: string): DateTime;
-    ToEnum(value: string, h: Hashtable, typeName: string): long;
-    ToTime(value: string): DateTime;
-    ToTimeOnly(value: string): TimeOnly;
-    ToTimeOnlyIgnoreOffset(value: string): TimeOnly;
-    ToXmlName(value: string | null): string | null;
-    ToXmlNCName(value: string | null): string | null;
-    ToXmlNmToken(value: string | null): string | null;
-    ToXmlNmTokens(value: string | null): string | null;
+export const XmlSerializationReader: {
 };
 
 
@@ -1087,30 +1107,15 @@ export const XmlSerializationReader_Fixup: {
 
 export type XmlSerializationReader_Fixup = XmlSerializationReader_Fixup$instance;
 
-export interface XmlSerializationWriter$instance extends XmlSerializationGeneratedCode {
+export interface XmlSerializationWriter$instance extends XmlSerializationGeneratedCode$instance {
+    readonly __tsonic_type_System_Xml_Serialization_XmlSerializationGeneratedCode: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlSerializationWriter: never;
 
     InitCallbacks(): void;
 }
 
 
-export const XmlSerializationWriter: (abstract new() => XmlSerializationWriter) & {
-    FromByteArrayBase64(value: byte[]): byte[];
-    FromByteArrayHex(value: byte[] | null): string | null;
-    FromChar(value: char): string;
-    FromDate(value: DateTime): string;
-    FromDateOnly(value: DateOnly): string;
-    FromDateTime(value: DateTime): string;
-    FromEnum(value: long, values: string[], ids: long[], typeName: string): string;
-    FromEnum(value: long, values: string[], ids: long[]): string;
-    FromTime(value: DateTime): string;
-    FromTimeOnly(value: TimeOnly): string;
-    FromTimeOnlyIgnoreOffset(value: TimeOnly): string;
-    FromXmlName(name: string | null): string | null;
-    FromXmlNCName(ncName: string | null): string | null;
-    FromXmlNmToken(nmToken: string | null): string | null;
-    FromXmlNmTokens(nmTokens: string | null): string | null;
-    ResolveDynamicAssembly(assemblyFullName: string): Assembly | null;
+export const XmlSerializationWriter: {
 };
 
 
@@ -1122,22 +1127,22 @@ export interface XmlSerializer$instance {
     CanDeserialize(xmlReader: XmlReader): boolean;
     CreateReader(): XmlSerializationReader;
     CreateWriter(): XmlSerializationWriter;
+    Deserialize(reader: XmlSerializationReader): unknown;
     Deserialize(stream: Stream): unknown | null;
     Deserialize(textReader: TextReader): unknown | null;
     Deserialize(xmlReader: XmlReader): unknown | null;
-    Deserialize(xmlReader: XmlReader, events: XmlDeserializationEvents): unknown | null;
     Deserialize(xmlReader: XmlReader, encodingStyle: string | null): unknown | null;
     Deserialize(xmlReader: XmlReader, encodingStyle: string | null, events: XmlDeserializationEvents): unknown | null;
-    Deserialize(reader: XmlSerializationReader): unknown;
-    Serialize(textWriter: TextWriter, o: unknown | null): void;
-    Serialize(textWriter: TextWriter, o: unknown | null, namespaces: XmlSerializerNamespaces | null): void;
+    Deserialize(xmlReader: XmlReader, events: XmlDeserializationEvents): unknown | null;
+    Serialize(o: unknown | null, writer: XmlSerializationWriter): void;
     Serialize(stream: Stream, o: unknown | null): void;
     Serialize(stream: Stream, o: unknown | null, namespaces: XmlSerializerNamespaces | null): void;
+    Serialize(textWriter: TextWriter, o: unknown | null): void;
+    Serialize(textWriter: TextWriter, o: unknown | null, namespaces: XmlSerializerNamespaces | null): void;
     Serialize(xmlWriter: XmlWriter, o: unknown | null): void;
     Serialize(xmlWriter: XmlWriter, o: unknown | null, namespaces: XmlSerializerNamespaces | null): void;
     Serialize(xmlWriter: XmlWriter, o: unknown | null, namespaces: XmlSerializerNamespaces | null, encodingStyle: string | null): void;
     Serialize(xmlWriter: XmlWriter, o: unknown | null, namespaces: XmlSerializerNamespaces | null, encodingStyle: string | null, id: string | null): void;
-    Serialize(o: unknown | null, writer: XmlSerializationWriter): void;
 }
 
 
@@ -1160,7 +1165,8 @@ export const XmlSerializer: {
 
 export type XmlSerializer = XmlSerializer$instance;
 
-export interface XmlSerializerAssemblyAttribute$instance extends Attribute {
+export interface XmlSerializerAssemblyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlSerializerAssemblyAttribute: never;
 
     get AssemblyName(): string | null;
@@ -1182,14 +1188,14 @@ export type XmlSerializerAssemblyAttribute = XmlSerializerAssemblyAttribute$inst
 export interface XmlSerializerFactory$instance {
     readonly __tsonic_type_System_Xml_Serialization_XmlSerializerFactory: never;
 
-    CreateSerializer(type: Type, overrides: XmlAttributeOverrides | null, extraTypes: Type[] | null, root: XmlRootAttribute | null, defaultNamespace: string | null): XmlSerializer;
-    CreateSerializer(type: Type, root: XmlRootAttribute | null): XmlSerializer;
-    CreateSerializer(type: Type, extraTypes: Type[] | null): XmlSerializer;
-    CreateSerializer(type: Type, overrides: XmlAttributeOverrides | null): XmlSerializer;
-    CreateSerializer(xmlTypeMapping: XmlTypeMapping): XmlSerializer;
     CreateSerializer(type: Type): XmlSerializer;
     CreateSerializer(type: Type, defaultNamespace: string | null): XmlSerializer;
+    CreateSerializer(type: Type, extraTypes: Type[] | null): XmlSerializer;
+    CreateSerializer(type: Type, overrides: XmlAttributeOverrides | null): XmlSerializer;
+    CreateSerializer(type: Type, overrides: XmlAttributeOverrides | null, extraTypes: Type[] | null, root: XmlRootAttribute | null, defaultNamespace: string | null): XmlSerializer;
     CreateSerializer(type: Type, overrides: XmlAttributeOverrides | null, extraTypes: Type[] | null, root: XmlRootAttribute | null, defaultNamespace: string | null, location: string | null): XmlSerializer;
+    CreateSerializer(type: Type, root: XmlRootAttribute | null): XmlSerializer;
+    CreateSerializer(xmlTypeMapping: XmlTypeMapping): XmlSerializer;
 }
 
 
@@ -1213,7 +1219,7 @@ export interface XmlSerializerImplementation$instance {
 }
 
 
-export const XmlSerializerImplementation: (abstract new() => XmlSerializerImplementation) & {
+export const XmlSerializerImplementation: {
 };
 
 
@@ -1237,7 +1243,8 @@ export const XmlSerializerNamespaces: {
 
 export type XmlSerializerNamespaces = XmlSerializerNamespaces$instance;
 
-export interface XmlSerializerVersionAttribute$instance extends Attribute {
+export interface XmlSerializerVersionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlSerializerVersionAttribute: never;
 
     get Namespace(): string | null;
@@ -1259,7 +1266,8 @@ export const XmlSerializerVersionAttribute: {
 
 export type XmlSerializerVersionAttribute = XmlSerializerVersionAttribute$instance;
 
-export interface XmlTextAttribute$instance extends Attribute {
+export interface XmlTextAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlTextAttribute: never;
 
     DataType: string;
@@ -1276,7 +1284,8 @@ export const XmlTextAttribute: {
 
 export type XmlTextAttribute = XmlTextAttribute$instance;
 
-export interface XmlTypeAttribute$instance extends Attribute {
+export interface XmlTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlTypeAttribute: never;
 
     AnonymousType: boolean;
@@ -1295,7 +1304,8 @@ export const XmlTypeAttribute: {
 
 export type XmlTypeAttribute = XmlTypeAttribute$instance;
 
-export interface XmlTypeMapping$instance extends XmlMapping {
+export interface XmlTypeMapping$instance extends XmlMapping$instance {
+    readonly __tsonic_type_System_Xml_Serialization_XmlMapping: never;
     readonly __tsonic_type_System_Xml_Serialization_XmlTypeMapping: never;
 
     readonly TypeFullName: string;

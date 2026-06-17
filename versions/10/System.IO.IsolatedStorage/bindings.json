@@ -237,46 +237,6 @@
             "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
             "ownerIdentity": "System.IO.IsolatedStorage",
             "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.Void",
-            "targetName": "InitStore",
-            "metadataToken": 100663457,
-            "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.Void",
-            "normalizedSignature": "InitStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
-            "ownerIdentity": "System.IO.IsolatedStorage",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.Void",
-            "targetName": "InitStore",
-            "metadataToken": 100663458,
-            "canonicalSignature": "(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.Void",
-            "normalizedSignature": "InitStore|(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 3,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
-            "ownerIdentity": "System.IO.IsolatedStorage",
-            "isExtensionMethod": false
           }
         ],
         "properties": [
@@ -437,12 +397,12 @@
             "targetName": "Scope",
             "metadataToken": 385876016,
             "canonicalSignature": ":System.IO.IsolatedStorage.IsolatedStorageScope",
-            "normalizedSignature": "Scope|:System.IO.IsolatedStorage.IsolatedStorageScope|static=false|accessor=getset",
+            "normalizedSignature": "Scope|:System.IO.IsolatedStorage.IsolatedStorageScope|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -492,19 +452,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorage::.ctor():void",
-            "metadataToken": 100663440,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorage",
-            "ownerIdentity": "System.IO.IsolatedStorage"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException",
@@ -584,17 +532,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageException",
-            "ownerIdentity": "System.IO.IsolatedStorage"
-          },
-          {
-            "stableId": "System.IO.IsolatedStorage:System.IO.IsolatedStorage.IsolatedStorageException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663331,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.IO.IsolatedStorage.IsolatedStorageException",
             "ownerIdentity": "System.IO.IsolatedStorage"
           }

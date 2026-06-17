@@ -18,7 +18,7 @@ import type { Expression, Expression_1 } from './System.Linq.Expressions/interna
 import type { IAdditionOperators_3, INumber_1 } from './System.Numerics/internal/index.js';
 import type { ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { Action_1, Boolean as ClrBoolean, Decimal, Double, Enum, Func_1, Func_2, Func_3, Func_4, IComparable, IConvertible, IFormatProvider, IFormattable, Index, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, Range, Single, String as ClrString, Type, TypeCode, ValueTuple_2, ValueTuple_3, Void } from './System/internal/index.js';
+import type { Action_1, Boolean as ClrBoolean, Char, Decimal, Double, Enum, Func_1, Func_2, Func_3, Func_4, IComparable, IConvertible, IFormatProvider, IFormattable, Index, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, Range, Single, String as ClrString, Type, TypeCode, ValueTuple_2, ValueTuple_3, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { ImmutableArrayExtensions$instance as ImmutableArrayExtensions } from './System.Linq/internal/index.js';
@@ -49,31 +49,31 @@ export type EnumerableExecutor<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.EnumerableExecutor :
-  [T1] extends [unknown] ? Internal.EnumerableExecutor_1<T1> : never;
+  Internal.EnumerableExecutor_1<T1>;
 
 export type EnumerableQuery<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.EnumerableQuery :
-  [T1] extends [unknown] ? Internal.EnumerableQuery_1<T1> : never;
+  Internal.EnumerableQuery_1<T1>;
 
 export type IOrderedQueryable<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.IOrderedQueryable :
-  [T1] extends [unknown] ? Internal.IOrderedQueryable_1<T1> : never;
+  Internal.IOrderedQueryable_1<T1>;
 
 export type IQueryable<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.IQueryable :
-  [T1] extends [unknown] ? Internal.IQueryable_1<T1> : never;
+  Internal.IQueryable_1<T1>;
 
 export type ParallelQuery<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ParallelQuery :
-  [T1] extends [unknown] ? Internal.ParallelQuery_1<T1> : never;
+  Internal.ParallelQuery_1<T1>;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Linq as ExtensionMethods } from './__internal/extensions/index.js';

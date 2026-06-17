@@ -2252,19 +2252,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.AssemblyBuilder::.ctor():void",
-            "metadataToken": 100698457,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.AssemblyBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.ConstructorBuilder",
@@ -2594,19 +2582,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.ConstructorBuilder::.ctor():void",
-            "metadataToken": 100699171,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.ConstructorBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.CustomAttributeBuilder",
@@ -4431,19 +4407,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.EnumBuilder::.ctor():void",
-            "metadataToken": 100699213,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.EnumBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.EventBuilder",
@@ -4685,19 +4649,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.EventBuilder::.ctor():void",
-            "metadataToken": 100699228,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.EventBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.FieldBuilder",
@@ -4928,19 +4880,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.FieldBuilder::.ctor():void",
-            "metadataToken": 100699240,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.FieldBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.GenericTypeParameterBuilder",
@@ -5492,19 +5432,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.GenericTypeParameterBuilder::.ctor():void",
-            "metadataToken": 100699270,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.GenericTypeParameterBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator",
@@ -5522,26 +5450,6 @@
           "targetName": "System.Object"
         },
         "methods": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::CreateLabel(System.Int32):System.Reflection.Emit.Label",
-            "targetName": "CreateLabel",
-            "metadataToken": 100699281,
-            "canonicalSignature": "(System.Int32):System.Reflection.Emit.Label",
-            "normalizedSignature": "CreateLabel|(System.Int32):System.Reflection.Emit.Label|static=true",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": true,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.ILGenerator",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
-          },
           {
             "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode):System.Void",
             "targetName": "Emit",
@@ -6346,19 +6254,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::.ctor():void",
-            "metadataToken": 100699280,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.ILGenerator",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.LocalBuilder",
@@ -6420,19 +6316,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.LocalBuilder::.ctor():void",
-            "metadataToken": 100699330,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.LocalBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.MethodBuilder",
@@ -6882,19 +6766,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.MethodBuilder::.ctor():void",
-            "metadataToken": 100699333,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.MethodBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder",
@@ -7750,19 +7622,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::.ctor():void",
-            "metadataToken": 100699409,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.ModuleBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.OpCodes",
@@ -10734,19 +10594,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.ParameterBuilder::.ctor():void",
-            "metadataToken": 100699466,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.ParameterBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Reflection.Emit:System.Reflection.Emit.PersistedAssemblyBuilder",
@@ -11428,19 +11276,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.PropertyBuilder::.ctor():void",
-            "metadataToken": 100699477,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.PropertyBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Emit.SignatureHelper",
@@ -13543,19 +13379,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::.ctor():void",
-            "metadataToken": 100699545,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Emit.TypeBuilder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       }
     ]
   }

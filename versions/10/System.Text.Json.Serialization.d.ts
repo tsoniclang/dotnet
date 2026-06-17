@@ -63,17 +63,17 @@ export type JsonConverter<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.JsonConverter :
-  [T1] extends [unknown] ? Internal.JsonConverter_1<T1> : never;
+  Internal.JsonConverter_1<T1>;
 
 export type JsonStringEnumConverter<
-  T1 extends NonNullable<unknown> & number | __ = __,
+  T1 extends { readonly __tsonic_type_System_ValueType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never } | __ = __,
 > =
   [T1] extends [__] ? Internal.JsonStringEnumConverter :
-  [T1] extends [NonNullable<unknown> & number] ? Internal.JsonStringEnumConverter_1<T1> : never;
+  [T1] extends [{ readonly __tsonic_type_System_ValueType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never }] ? Internal.JsonStringEnumConverter_1<T1> : never;
 
 export type ReferenceHandler<
-  T1 extends unknown & Internal.ReferenceResolver | __ = __,
+  T1 extends unknown & { readonly __tsonic_type_System_Text_Json_Serialization_ReferenceResolver: never } | __ = __,
 > =
   [T1] extends [__] ? Internal.ReferenceHandler :
-  [T1] extends [unknown & Internal.ReferenceResolver] ? Internal.ReferenceHandler_1<T1> : never;
+  [T1] extends [unknown & { readonly __tsonic_type_System_Text_Json_Serialization_ReferenceResolver: never }] ? Internal.ReferenceHandler_1<T1> : never;
 

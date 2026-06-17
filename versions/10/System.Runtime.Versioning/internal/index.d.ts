@@ -8,28 +8,33 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
-import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Version, Void } from "../../System/internal/index.js";
+import type { Attribute, Boolean as ClrBoolean, ConsoleKeyInfo, Enum, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Version, Void } from "../../System/internal/index.js";
 
-export enum ComponentGuaranteesOptions {
-    None = 0,
-    Exchange = 1,
-    Stable = 2,
-    SideBySide = 4
-}
+export type ComponentGuaranteesOptions = number & { readonly __tsonic_type_System_Runtime_Versioning_ComponentGuaranteesOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum ResourceScope {
-    None = 0,
-    Machine = 1,
-    Process = 2,
-    AppDomain = 4,
-    Library = 8,
-    Private = 16,
-    Assembly = 32
-}
+export const ComponentGuaranteesOptions: {
+    readonly None: ComponentGuaranteesOptions;
+    readonly Exchange: ComponentGuaranteesOptions;
+    readonly Stable: ComponentGuaranteesOptions;
+    readonly SideBySide: ComponentGuaranteesOptions;
+};
 
 
-export interface ComponentGuaranteesAttribute$instance extends Attribute {
+export type ResourceScope = number & { readonly __tsonic_type_System_Runtime_Versioning_ResourceScope: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ResourceScope: {
+    readonly None: ResourceScope;
+    readonly Machine: ResourceScope;
+    readonly Process: ResourceScope;
+    readonly AppDomain: ResourceScope;
+    readonly Library: ResourceScope;
+    readonly Private: ResourceScope;
+    readonly Assembly: ResourceScope;
+};
+
+
+export interface ComponentGuaranteesAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_ComponentGuaranteesAttribute: never;
 
     readonly Guarantees: ComponentGuaranteesOptions;
@@ -76,7 +81,9 @@ export interface __FrameworkName$views {
 export type FrameworkName = FrameworkName$instance & __FrameworkName$views;
 
 
-export interface ObsoletedOSPlatformAttribute$instance extends OSPlatformAttribute {
+export interface ObsoletedOSPlatformAttribute$instance extends OSPlatformAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_Runtime_Versioning_OSPlatformAttribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_ObsoletedOSPlatformAttribute: never;
 
     readonly Message: string | null;
@@ -93,7 +100,8 @@ export const ObsoletedOSPlatformAttribute: {
 
 export type ObsoletedOSPlatformAttribute = ObsoletedOSPlatformAttribute$instance;
 
-export interface OSPlatformAttribute$instance extends Attribute {
+export interface OSPlatformAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_OSPlatformAttribute: never;
 
     readonly PlatformName: string;
@@ -106,7 +114,8 @@ export const OSPlatformAttribute: {
 
 export type OSPlatformAttribute = OSPlatformAttribute$instance;
 
-export interface RequiresPreviewFeaturesAttribute$instance extends Attribute {
+export interface RequiresPreviewFeaturesAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_RequiresPreviewFeaturesAttribute: never;
 
     readonly Message: string | null;
@@ -123,7 +132,8 @@ export const RequiresPreviewFeaturesAttribute: {
 
 export type RequiresPreviewFeaturesAttribute = RequiresPreviewFeaturesAttribute$instance;
 
-export interface ResourceConsumptionAttribute$instance extends Attribute {
+export interface ResourceConsumptionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_ResourceConsumptionAttribute: never;
 
     readonly ConsumptionScope: ResourceScope;
@@ -139,7 +149,8 @@ export const ResourceConsumptionAttribute: {
 
 export type ResourceConsumptionAttribute = ResourceConsumptionAttribute$instance;
 
-export interface ResourceExposureAttribute$instance extends Attribute {
+export interface ResourceExposureAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_ResourceExposureAttribute: never;
 
     readonly ResourceExposureLevel: ResourceScope;
@@ -153,7 +164,9 @@ export const ResourceExposureAttribute: {
 
 export type ResourceExposureAttribute = ResourceExposureAttribute$instance;
 
-export interface SupportedOSPlatformAttribute$instance extends OSPlatformAttribute {
+export interface SupportedOSPlatformAttribute$instance extends OSPlatformAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_Runtime_Versioning_OSPlatformAttribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_SupportedOSPlatformAttribute: never;
 
 }
@@ -166,7 +179,9 @@ export const SupportedOSPlatformAttribute: {
 
 export type SupportedOSPlatformAttribute = SupportedOSPlatformAttribute$instance;
 
-export interface SupportedOSPlatformGuardAttribute$instance extends OSPlatformAttribute {
+export interface SupportedOSPlatformGuardAttribute$instance extends OSPlatformAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_Runtime_Versioning_OSPlatformAttribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_SupportedOSPlatformGuardAttribute: never;
 
 }
@@ -179,7 +194,8 @@ export const SupportedOSPlatformGuardAttribute: {
 
 export type SupportedOSPlatformGuardAttribute = SupportedOSPlatformGuardAttribute$instance;
 
-export interface TargetFrameworkAttribute$instance extends Attribute {
+export interface TargetFrameworkAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_TargetFrameworkAttribute: never;
 
     get FrameworkDisplayName(): string | null;
@@ -195,7 +211,9 @@ export const TargetFrameworkAttribute: {
 
 export type TargetFrameworkAttribute = TargetFrameworkAttribute$instance;
 
-export interface TargetPlatformAttribute$instance extends OSPlatformAttribute {
+export interface TargetPlatformAttribute$instance extends OSPlatformAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_Runtime_Versioning_OSPlatformAttribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_TargetPlatformAttribute: never;
 
 }
@@ -208,7 +226,9 @@ export const TargetPlatformAttribute: {
 
 export type TargetPlatformAttribute = TargetPlatformAttribute$instance;
 
-export interface UnsupportedOSPlatformAttribute$instance extends OSPlatformAttribute {
+export interface UnsupportedOSPlatformAttribute$instance extends OSPlatformAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_Runtime_Versioning_OSPlatformAttribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_UnsupportedOSPlatformAttribute: never;
 
     readonly Message: string | null;
@@ -223,7 +243,9 @@ export const UnsupportedOSPlatformAttribute: {
 
 export type UnsupportedOSPlatformAttribute = UnsupportedOSPlatformAttribute$instance;
 
-export interface UnsupportedOSPlatformGuardAttribute$instance extends OSPlatformAttribute {
+export interface UnsupportedOSPlatformGuardAttribute$instance extends OSPlatformAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_Runtime_Versioning_OSPlatformAttribute: never;
     readonly __tsonic_type_System_Runtime_Versioning_UnsupportedOSPlatformGuardAttribute: never;
 
 }

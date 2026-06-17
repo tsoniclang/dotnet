@@ -10,19 +10,23 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum ValueTaskSourceOnCompletedFlags {
-    None = 0,
-    UseSchedulingContext = 1,
-    FlowExecutionContext = 2
-}
+export type ValueTaskSourceOnCompletedFlags = number & { readonly __tsonic_type_System_Threading_Tasks_Sources_ValueTaskSourceOnCompletedFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ValueTaskSourceOnCompletedFlags: {
+    readonly None: ValueTaskSourceOnCompletedFlags;
+    readonly UseSchedulingContext: ValueTaskSourceOnCompletedFlags;
+    readonly FlowExecutionContext: ValueTaskSourceOnCompletedFlags;
+};
 
 
-export enum ValueTaskSourceStatus {
-    Pending = 0,
-    Succeeded = 1,
-    Faulted = 2,
-    Canceled = 3
-}
+export type ValueTaskSourceStatus = number & { readonly __tsonic_type_System_Threading_Tasks_Sources_ValueTaskSourceStatus: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ValueTaskSourceStatus: {
+    readonly Pending: ValueTaskSourceStatus;
+    readonly Succeeded: ValueTaskSourceStatus;
+    readonly Faulted: ValueTaskSourceStatus;
+    readonly Canceled: ValueTaskSourceStatus;
+};
 
 
 export interface IValueTaskSource$instance {
@@ -49,6 +53,7 @@ export type IValueTaskSource_1<TResult extends unknown> = IValueTaskSource_1$ins
 
 export interface ManualResetValueTaskSourceCore_1$instance<TResult extends unknown> {
     readonly __tsonic_type_System_Threading_Tasks_Sources_ManualResetValueTaskSourceCore_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     RunContinuationsAsynchronously: boolean;
     readonly Version: short;

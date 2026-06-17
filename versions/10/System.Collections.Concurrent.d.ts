@@ -13,12 +13,13 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IEqualityComparer_1, IList_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, KeyValuePair_2 } from './System.Collections.Generic/internal/index.js';
 import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator } from './System.Collections/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { Array as ClrArray, Boolean as ClrBoolean, Enum, Func_2, Func_3, Func_4, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Tuple_2, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { Array as ClrArray, Boolean as ClrBoolean, Char, Enum, Func_2, Func_3, Func_4, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Tuple_2, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { BlockingCollection_1 as BlockingCollection } from './System.Collections.Concurrent/internal/index.js';
 export { ConcurrentBag_1 as ConcurrentBag } from './System.Collections.Concurrent/internal/index.js';
 export { ConcurrentDictionary_2 as ConcurrentDictionary } from './System.Collections.Concurrent/internal/index.js';
+export { ConcurrentDictionary_2_AlternateLookup_1 as ConcurrentDictionary_2_AlternateLookup_1 } from './System.Collections.Concurrent/internal/index.js';
 export { ConcurrentStack_1 as ConcurrentStack } from './System.Collections.Concurrent/internal/index.js';
 export { OrderablePartitioner_1 as OrderablePartitioner } from './System.Collections.Concurrent/internal/index.js';
 export { EnumerablePartitionerOptions as EnumerablePartitionerOptions } from './System.Collections.Concurrent/internal/index.js';
@@ -36,5 +37,5 @@ export type Partitioner<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Partitioner :
-  [T1] extends [unknown] ? Internal.Partitioner_1<T1> : never;
+  Internal.Partitioner_1<T1>;
 

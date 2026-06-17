@@ -18,110 +18,111 @@ import type { Action, Action_1, Action_2, Action_3, ArraySegment_1, AsyncCallbac
 
 export interface JSMarshalerArgument$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSMarshalerArgument: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     Initialize(): void;
-    ToJS(value: boolean): void;
+    ToJS(value: (JSObject | null)[] | null): void;
+    ToJS(value: (string | null)[] | null): void;
+    ToJS(value: (unknown | null)[] | null): void;
+    ToJS(value: Action | null): void;
+    ToJS(value: ArraySegment_1<System_Internal.Byte>): void;
+    ToJS(value: ArraySegment_1<System_Internal.Double>): void;
+    ToJS(value: ArraySegment_1<System_Internal.Int32>): void;
+    ToJS(value: DateTime): void;
+    ToJS(value: DateTimeOffset): void;
+    ToJS(value: Exception | null): void;
+    ToJS(value: JSObject | null): void;
+    ToJS(value: Nullable_1<DateTime>): void;
+    ToJS(value: Nullable_1<DateTimeOffset>): void;
     ToJS(value: Nullable_1<System_Internal.Boolean>): void;
-    ToJS(value: byte): void;
     ToJS(value: Nullable_1<System_Internal.Byte>): void;
+    ToJS(value: Nullable_1<System_Internal.Char>): void;
+    ToJS(value: Nullable_1<System_Internal.Double>): void;
+    ToJS(value: Nullable_1<System_Internal.Int16>): void;
+    ToJS(value: Nullable_1<System_Internal.Int32>): void;
+    ToJS(value: Nullable_1<System_Internal.Int64>): void;
+    ToJS(value: Nullable_1<System_Internal.IntPtr>): void;
+    ToJS(value: Nullable_1<System_Internal.Single>): void;
+    ToJS(value: Span_1<System_Internal.Byte>): void;
+    ToJS(value: Span_1<System_Internal.Double>): void;
+    ToJS(value: Span_1<System_Internal.Int32>): void;
+    ToJS(value: Task | null): void;
+    ToJS(value: boolean): void;
+    ToJS(value: byte): void;
     ToJS(value: byte[] | null): void;
     ToJS(value: char): void;
-    ToJS(value: Nullable_1<System_Internal.Char>): void;
-    ToJS(value: short): void;
-    ToJS(value: Nullable_1<System_Internal.Int16>): void;
+    ToJS(value: double): void;
+    ToJS(value: double[] | null): void;
+    ToJS(value: float): void;
     ToJS(value: int): void;
-    ToJS(value: Nullable_1<System_Internal.Int32>): void;
     ToJS(value: int[] | null): void;
     ToJS(value: long): void;
-    ToJS(value: Nullable_1<System_Internal.Int64>): void;
-    ToJS(value: float): void;
-    ToJS(value: Nullable_1<System_Internal.Single>): void;
-    ToJS(value: double): void;
-    ToJS(value: Nullable_1<System_Internal.Double>): void;
-    ToJS(value: double[] | null): void;
     ToJS(value: nint): void;
-    ToJS(value: Nullable_1<System_Internal.IntPtr>): void;
-    ToJS(value: DateTimeOffset): void;
-    ToJS(value: Nullable_1<DateTimeOffset>): void;
-    ToJS(value: DateTime): void;
-    ToJS(value: Nullable_1<DateTime>): void;
-    ToJS(value: string | null): void;
-    ToJS(value: (string | null)[] | null): void;
-    ToJS(value: Exception | null): void;
-    ToJS(value: unknown | null): void;
-    ToJS(value: (unknown | null)[] | null): void;
-    ToJS(value: JSObject | null): void;
-    ToJS(value: (JSObject | null)[] | null): void;
-    ToJS(value: Task | null): void;
-    ToJS<T extends unknown>(value: Task_1<T> | null, marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>): void;
-    ToJS(value: Action | null): void;
-    ToJS<T extends unknown>(value: Action_1<T> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>): void;
-    ToJS<T1 extends unknown, T2 extends unknown>(value: Action_2<T1, T2> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>): void;
-    ToJS<T1 extends unknown, T2 extends unknown, T3 extends unknown>(value: Action_3<T1, T2, T3> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T3>): void;
-    ToJS<TResult extends unknown>(value: Func_1<TResult> | null, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
-    ToJS<T extends unknown, TResult extends unknown>(value: Func_2<T, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
-    ToJS<T1 extends unknown, T2 extends unknown, TResult extends unknown>(value: Func_3<T1, T2, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
-    ToJS<T1 extends unknown, T2 extends unknown, T3 extends unknown, TResult extends unknown>(value: Func_4<T1, T2, T3, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T3>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
     ToJS(value: ptr<void>): void;
-    ToJS(value: Span_1<System_Internal.Byte>): void;
-    ToJS(value: ArraySegment_1<System_Internal.Byte>): void;
-    ToJS(value: Span_1<System_Internal.Int32>): void;
-    ToJS(value: Span_1<System_Internal.Double>): void;
-    ToJS(value: ArraySegment_1<System_Internal.Int32>): void;
-    ToJS(value: ArraySegment_1<System_Internal.Double>): void;
-    ToJSBig(value: long): void;
+    ToJS(value: short): void;
+    ToJS(value: string | null): void;
+    ToJS(value: unknown | null): void;
+    ToJS<T extends unknown, TResult extends unknown>(value: Func_2<T, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
+    ToJS<T extends unknown>(value: Action_1<T> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>): void;
+    ToJS<T extends unknown>(value: Task_1<T> | null, marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>): void;
+    ToJS<T1 extends unknown, T2 extends unknown, T3 extends unknown, TResult extends unknown>(value: Func_4<T1, T2, T3, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T3>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
+    ToJS<T1 extends unknown, T2 extends unknown, T3 extends unknown>(value: Action_3<T1, T2, T3> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T3>): void;
+    ToJS<T1 extends unknown, T2 extends unknown, TResult extends unknown>(value: Func_3<T1, T2, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
+    ToJS<T1 extends unknown, T2 extends unknown>(value: Action_2<T1, T2> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T2>): void;
+    ToJS<TResult extends unknown>(value: Func_1<TResult> | null, resMarshaler: JSMarshalerArgument_ArgumentToJSCallback_1<TResult>): void;
     ToJSBig(value: Nullable_1<System_Internal.Int64>): void;
-    ToManaged(value: boolean): void;
+    ToJSBig(value: long): void;
+    ToManaged(value: (JSObject | null)[] | null): void;
+    ToManaged(value: (string | null)[] | null): void;
+    ToManaged(value: (unknown | null)[] | null): void;
+    ToManaged(value: Action | null): void;
+    ToManaged(value: ArraySegment_1<System_Internal.Byte>): void;
+    ToManaged(value: ArraySegment_1<System_Internal.Double>): void;
+    ToManaged(value: ArraySegment_1<System_Internal.Int32>): void;
+    ToManaged(value: DateTime): void;
+    ToManaged(value: DateTimeOffset): void;
+    ToManaged(value: Exception | null): void;
+    ToManaged(value: JSObject | null): void;
+    ToManaged(value: Nullable_1<DateTime>): void;
+    ToManaged(value: Nullable_1<DateTimeOffset>): void;
     ToManaged(value: Nullable_1<System_Internal.Boolean>): void;
-    ToManaged(value: byte): void;
     ToManaged(value: Nullable_1<System_Internal.Byte>): void;
+    ToManaged(value: Nullable_1<System_Internal.Char>): void;
+    ToManaged(value: Nullable_1<System_Internal.Double>): void;
+    ToManaged(value: Nullable_1<System_Internal.Int16>): void;
+    ToManaged(value: Nullable_1<System_Internal.Int32>): void;
+    ToManaged(value: Nullable_1<System_Internal.Int64>): void;
+    ToManaged(value: Nullable_1<System_Internal.IntPtr>): void;
+    ToManaged(value: Nullable_1<System_Internal.Single>): void;
+    ToManaged(value: Span_1<System_Internal.Byte>): void;
+    ToManaged(value: Span_1<System_Internal.Double>): void;
+    ToManaged(value: Span_1<System_Internal.Int32>): void;
+    ToManaged(value: Task | null): void;
+    ToManaged(value: boolean): void;
+    ToManaged(value: byte): void;
     ToManaged(value: byte[] | null): void;
     ToManaged(value: char): void;
-    ToManaged(value: Nullable_1<System_Internal.Char>): void;
-    ToManaged(value: short): void;
-    ToManaged(value: Nullable_1<System_Internal.Int16>): void;
+    ToManaged(value: double): void;
+    ToManaged(value: double[] | null): void;
+    ToManaged(value: float): void;
     ToManaged(value: int): void;
-    ToManaged(value: Nullable_1<System_Internal.Int32>): void;
     ToManaged(value: int[] | null): void;
     ToManaged(value: long): void;
-    ToManaged(value: Nullable_1<System_Internal.Int64>): void;
-    ToManaged(value: float): void;
-    ToManaged(value: Nullable_1<System_Internal.Single>): void;
-    ToManaged(value: double): void;
-    ToManaged(value: Nullable_1<System_Internal.Double>): void;
-    ToManaged(value: double[] | null): void;
     ToManaged(value: nint): void;
-    ToManaged(value: Nullable_1<System_Internal.IntPtr>): void;
-    ToManaged(value: DateTimeOffset): void;
-    ToManaged(value: Nullable_1<DateTimeOffset>): void;
-    ToManaged(value: DateTime): void;
-    ToManaged(value: Nullable_1<DateTime>): void;
-    ToManaged(value: string | null): void;
-    ToManaged(value: (string | null)[] | null): void;
-    ToManaged(value: Exception | null): void;
-    ToManaged(value: unknown | null): void;
-    ToManaged(value: (unknown | null)[] | null): void;
-    ToManaged(value: JSObject | null): void;
-    ToManaged(value: (JSObject | null)[] | null): void;
-    ToManaged(value: Task | null): void;
-    ToManaged<T extends unknown>(value: Task_1<T> | null, marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>): void;
-    ToManaged(value: Action | null): void;
-    ToManaged<T extends unknown>(value: Action_1<T> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>): void;
-    ToManaged<T1 extends unknown, T2 extends unknown>(value: Action_2<T1, T2> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>): void;
-    ToManaged<T1 extends unknown, T2 extends unknown, T3 extends unknown>(value: Action_3<T1, T2, T3> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T3>): void;
-    ToManaged<TResult extends unknown>(value: Func_1<TResult> | null, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
-    ToManaged<T extends unknown, TResult extends unknown>(value: Func_2<T, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
-    ToManaged<T1 extends unknown, T2 extends unknown, TResult extends unknown>(value: Func_3<T1, T2, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
-    ToManaged<T1 extends unknown, T2 extends unknown, T3 extends unknown, TResult extends unknown>(value: Func_4<T1, T2, T3, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T3>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
     ToManaged(value: ptr<void>): void;
-    ToManaged(value: Span_1<System_Internal.Byte>): void;
-    ToManaged(value: ArraySegment_1<System_Internal.Byte>): void;
-    ToManaged(value: Span_1<System_Internal.Int32>): void;
-    ToManaged(value: Span_1<System_Internal.Double>): void;
-    ToManaged(value: ArraySegment_1<System_Internal.Int32>): void;
-    ToManaged(value: ArraySegment_1<System_Internal.Double>): void;
-    ToManagedBig(value: long): void;
+    ToManaged(value: short): void;
+    ToManaged(value: string | null): void;
+    ToManaged(value: unknown | null): void;
+    ToManaged<T extends unknown, TResult extends unknown>(value: Func_2<T, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
+    ToManaged<T extends unknown>(value: Action_1<T> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T>): void;
+    ToManaged<T extends unknown>(value: Task_1<T> | null, marshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<T>): void;
+    ToManaged<T1 extends unknown, T2 extends unknown, T3 extends unknown, TResult extends unknown>(value: Func_4<T1, T2, T3, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T3>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
+    ToManaged<T1 extends unknown, T2 extends unknown, T3 extends unknown>(value: Action_3<T1, T2, T3> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, arg3Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T3>): void;
+    ToManaged<T1 extends unknown, T2 extends unknown, TResult extends unknown>(value: Func_3<T1, T2, TResult> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
+    ToManaged<T1 extends unknown, T2 extends unknown>(value: Action_2<T1, T2> | null, arg1Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T1>, arg2Marshaler: JSMarshalerArgument_ArgumentToJSCallback_1<T2>): void;
+    ToManaged<TResult extends unknown>(value: Func_1<TResult> | null, resMarshaler: JSMarshalerArgument_ArgumentToManagedCallback_1<TResult>): void;
     ToManagedBig(value: Nullable_1<System_Internal.Int64>): void;
+    ToManagedBig(value: long): void;
 }
 
 
@@ -138,7 +139,8 @@ export type JSMarshalerArgument_ArgumentToJSCallback_1<T extends unknown> = (arg
 export type JSMarshalerArgument_ArgumentToManagedCallback_1<T extends unknown> = (arg: JSMarshalerArgument, value: T) => void;
 
 
-export interface JSException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface JSException$instance extends System_Internal.Exception$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -158,7 +160,8 @@ export interface __JSException$views {
 export type JSException = JSException$instance & __JSException$views;
 
 
-export interface JSExportAttribute$instance extends Attribute {
+export interface JSExportAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSExportAttribute: never;
 
 }
@@ -186,7 +189,8 @@ export const JSFunctionBinding: {
 
 export type JSFunctionBinding = JSFunctionBinding$instance;
 
-export interface JSImportAttribute$instance extends Attribute {
+export interface JSImportAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSImportAttribute: never;
 
     readonly FunctionName: string;
@@ -202,18 +206,19 @@ export const JSImportAttribute: {
 
 export type JSImportAttribute = JSImportAttribute$instance;
 
-export interface JSMarshalAsAttribute_1$instance<T extends unknown & JSType> extends Attribute {
+export interface JSMarshalAsAttribute_1$instance<T extends unknown & { readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never }> extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSMarshalAsAttribute_1: never;
 
 }
 
 
 export const JSMarshalAsAttribute_1: {
-    new<T extends unknown & JSType>(): JSMarshalAsAttribute_1<T>;
+    new<T extends unknown & { readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never }>(): JSMarshalAsAttribute_1<T>;
 };
 
 
-export type JSMarshalAsAttribute_1<T extends unknown & JSType> = JSMarshalAsAttribute_1$instance<T>;
+export type JSMarshalAsAttribute_1<T extends unknown & { readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never }> = JSMarshalAsAttribute_1$instance<T>;
 
 export interface JSMarshalerType$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSMarshalerType: never;
@@ -259,7 +264,7 @@ export const JSMarshalerType: {
 
 export type JSMarshalerType = JSMarshalerType$instance;
 
-export interface JSObject$instance extends System_Internal.IDisposable$instance {
+export interface JSObject$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -274,12 +279,12 @@ export interface JSObject$instance extends System_Internal.IDisposable$instance 
     GetPropertyAsString(propertyName: string): string | null;
     GetTypeOfProperty(propertyName: string): string;
     HasProperty(propertyName: string): boolean;
-    SetProperty(propertyName: string, value: boolean): void;
-    SetProperty(propertyName: string, value: int): void;
-    SetProperty(propertyName: string, value: double): void;
-    SetProperty(propertyName: string, value: string | null): void;
     SetProperty(propertyName: string, value: JSObject | null): void;
+    SetProperty(propertyName: string, value: boolean): void;
     SetProperty(propertyName: string, value: byte[] | null): void;
+    SetProperty(propertyName: string, value: double): void;
+    SetProperty(propertyName: string, value: int): void;
+    SetProperty(propertyName: string, value: string | null): void;
 }
 
 
@@ -306,7 +311,8 @@ export const JSType: {
 
 export type JSType = JSType$instance;
 
-export interface JSType_Any$instance extends JSType {
+export interface JSType_Any$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Any: never;
 
 }
@@ -318,7 +324,8 @@ export const JSType_Any: {
 
 export type JSType_Any = JSType_Any$instance;
 
-export interface JSType_Array_1$instance<T extends unknown> extends JSType {
+export interface JSType_Array_1$instance<T extends unknown> extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Array_1: never;
 
 }
@@ -330,7 +337,8 @@ export const JSType_Array_1: {
 
 export type JSType_Array_1<T extends unknown> = JSType_Array_1$instance<T>;
 
-export interface JSType_BigInt$instance extends JSType {
+export interface JSType_BigInt$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_BigInt: never;
 
 }
@@ -342,7 +350,8 @@ export const JSType_BigInt: {
 
 export type JSType_BigInt = JSType_BigInt$instance;
 
-export interface JSType_Boolean$instance extends JSType {
+export interface JSType_Boolean$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Boolean: never;
 
 }
@@ -354,7 +363,8 @@ export const JSType_Boolean: {
 
 export type JSType_Boolean = JSType_Boolean$instance;
 
-export interface JSType_Date$instance extends JSType {
+export interface JSType_Date$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Date: never;
 
 }
@@ -366,7 +376,8 @@ export const JSType_Date: {
 
 export type JSType_Date = JSType_Date$instance;
 
-export interface JSType_Discard$instance extends JSType {
+export interface JSType_Discard$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Discard: never;
 
 }
@@ -378,7 +389,8 @@ export const JSType_Discard: {
 
 export type JSType_Discard = JSType_Discard$instance;
 
-export interface JSType_Error$instance extends JSType {
+export interface JSType_Error$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Error: never;
 
 }
@@ -390,7 +402,8 @@ export const JSType_Error: {
 
 export type JSType_Error = JSType_Error$instance;
 
-export interface JSType_Function$instance extends JSType {
+export interface JSType_Function$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Function: never;
 
 }
@@ -402,7 +415,8 @@ export const JSType_Function: {
 
 export type JSType_Function = JSType_Function$instance;
 
-export interface JSType_Function_1$instance<T extends unknown> extends JSType {
+export interface JSType_Function_1$instance<T extends unknown> extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Function_1: never;
 
 }
@@ -414,7 +428,8 @@ export const JSType_Function_1: {
 
 export type JSType_Function_1<T extends unknown> = JSType_Function_1$instance<T>;
 
-export interface JSType_Function_2$instance<T1 extends unknown, T2 extends unknown> extends JSType {
+export interface JSType_Function_2$instance<T1 extends unknown, T2 extends unknown> extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Function_2: never;
 
 }
@@ -426,7 +441,8 @@ export const JSType_Function_2: {
 
 export type JSType_Function_2<T1 extends unknown, T2 extends unknown> = JSType_Function_2$instance<T1, T2>;
 
-export interface JSType_Function_3$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown> extends JSType {
+export interface JSType_Function_3$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown> extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Function_3: never;
 
 }
@@ -438,7 +454,8 @@ export const JSType_Function_3: {
 
 export type JSType_Function_3<T1 extends unknown, T2 extends unknown, T3 extends unknown> = JSType_Function_3$instance<T1, T2, T3>;
 
-export interface JSType_Function_4$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown> extends JSType {
+export interface JSType_Function_4$instance<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown> extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Function_4: never;
 
 }
@@ -450,7 +467,8 @@ export const JSType_Function_4: {
 
 export type JSType_Function_4<T1 extends unknown, T2 extends unknown, T3 extends unknown, T4 extends unknown> = JSType_Function_4$instance<T1, T2, T3, T4>;
 
-export interface JSType_MemoryView$instance extends JSType {
+export interface JSType_MemoryView$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_MemoryView: never;
 
 }
@@ -462,7 +480,8 @@ export const JSType_MemoryView: {
 
 export type JSType_MemoryView = JSType_MemoryView$instance;
 
-export interface JSType_Number$instance extends JSType {
+export interface JSType_Number$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Number: never;
 
 }
@@ -474,7 +493,8 @@ export const JSType_Number: {
 
 export type JSType_Number = JSType_Number$instance;
 
-export interface JSType_Object$instance extends JSType {
+export interface JSType_Object$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Object: never;
 
 }
@@ -486,7 +506,8 @@ export const JSType_Object: {
 
 export type JSType_Object = JSType_Object$instance;
 
-export interface JSType_Promise_1$instance<T extends unknown> extends JSType {
+export interface JSType_Promise_1$instance<T extends unknown> extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Promise_1: never;
 
 }
@@ -498,7 +519,8 @@ export const JSType_Promise_1: {
 
 export type JSType_Promise_1<T extends unknown> = JSType_Promise_1$instance<T>;
 
-export interface JSType_String$instance extends JSType {
+export interface JSType_String$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_String: never;
 
 }
@@ -510,7 +532,8 @@ export const JSType_String: {
 
 export type JSType_String = JSType_String$instance;
 
-export interface JSType_Void$instance extends JSType {
+export interface JSType_Void$instance extends JSType$instance {
+    readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType: never;
     readonly __tsonic_type_System_Runtime_InteropServices_JavaScript_JSType_Void: never;
 
 }

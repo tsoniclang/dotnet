@@ -1759,17 +1759,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "Microsoft.VisualBasic.FileIO.MalformedLineException",
             "ownerIdentity": "Microsoft.VisualBasic.Core"
-          },
-          {
-            "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.MalformedLineException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664673,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "Microsoft.VisualBasic.FileIO.MalformedLineException",
-            "ownerIdentity": "Microsoft.VisualBasic.Core"
           }
         ]
       },

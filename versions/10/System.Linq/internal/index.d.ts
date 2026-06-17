@@ -18,49 +18,58 @@ import type { IAdditionOperators_3, INumber_1 } from "../../System.Numerics/inte
 import type { ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Action_1, Boolean as ClrBoolean, Decimal, Double, Enum, Func_1, Func_2, Func_3, Func_4, IComparable, IConvertible, IFormatProvider, IFormattable, Index, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, Range, Single, String as ClrString, Type, TypeCode, ValueTuple_2, ValueTuple_3, Void } from "../../System/internal/index.js";
+import type { Action_1, Boolean as ClrBoolean, Char, Decimal, Double, Enum, Func_1, Func_2, Func_3, Func_4, IComparable, IConvertible, IFormatProvider, IFormattable, Index, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, Range, Single, String as ClrString, Type, TypeCode, ValueTuple_2, ValueTuple_3, Void } from "../../System/internal/index.js";
 
-export enum ParallelExecutionMode {
-    Default = 0,
-    ForceParallelism = 1
-}
+export type ParallelExecutionMode = number & { readonly __tsonic_type_System_Linq_ParallelExecutionMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum ParallelMergeOptions {
-    Default = 0,
-    NotBuffered = 1,
-    AutoBuffered = 2,
-    FullyBuffered = 3
-}
+export const ParallelExecutionMode: {
+    readonly Default: ParallelExecutionMode;
+    readonly ForceParallelism: ParallelExecutionMode;
+};
 
 
-export interface IGrouping_2$instance<TKey extends unknown, TElement extends unknown> extends IEnumerable_1<TElement>, IEnumerable {
+export type ParallelMergeOptions = number & { readonly __tsonic_type_System_Linq_ParallelMergeOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ParallelMergeOptions: {
+    readonly Default: ParallelMergeOptions;
+    readonly NotBuffered: ParallelMergeOptions;
+    readonly AutoBuffered: ParallelMergeOptions;
+    readonly FullyBuffered: ParallelMergeOptions;
+};
+
+
+export interface IGrouping_2$instance<TKey extends unknown, TElement extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Linq_IGrouping_2: never;
 
     readonly Key: TKey;
-    GetEnumerator(): IEnumerator_1<TElement>;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<TElement>;
     GetEnumerator2(): IEnumerator;
 }
 
 
 export type IGrouping_2<TKey extends unknown, TElement extends unknown> = IGrouping_2$instance<TKey, TElement>;
 
-export interface ILookup_2$instance<TKey extends unknown, TElement extends unknown> extends IEnumerable_1<IGrouping_2<TKey, TElement>>, IEnumerable {
+export interface ILookup_2$instance<TKey extends unknown, TElement extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Linq_ILookup_2: never;
 
     readonly Count: int;
     readonly Item: IEnumerable_1<TElement>;
     Contains(key: TKey): boolean;
-    GetEnumerator(): IEnumerator_1<IGrouping_2<TKey, TElement>>;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<IGrouping_2<TKey, TElement>>;
     GetEnumerator2(): IEnumerator;
 }
 
 
 export type ILookup_2<TKey extends unknown, TElement extends unknown> = ILookup_2$instance<TKey, TElement>;
 
-export interface IOrderedAsyncEnumerable_1$instance<TElement extends unknown> extends IAsyncEnumerable_1<TElement> {
+export interface IOrderedAsyncEnumerable_1$instance<TElement extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IAsyncEnumerable_1: never;
     readonly __tsonic_iface_System_Linq_IOrderedAsyncEnumerable_1: never;
 
     CreateOrderedAsyncEnumerable<TKey extends unknown>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey> | null, descending: boolean): IOrderedAsyncEnumerable_1<TElement>;
@@ -73,20 +82,24 @@ export interface IOrderedAsyncEnumerable_1$instance<TElement extends unknown> ex
 
 export type IOrderedAsyncEnumerable_1<TElement extends unknown> = IOrderedAsyncEnumerable_1$instance<TElement>;
 
-export interface IOrderedEnumerable_1$instance<TElement extends unknown> extends IEnumerable_1<TElement>, IEnumerable {
+export interface IOrderedEnumerable_1$instance<TElement extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Linq_IOrderedEnumerable_1: never;
 
     CreateOrderedEnumerable<TKey extends unknown>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey> | null, descending: boolean): IOrderedEnumerable_1<TElement>;
-    GetEnumerator(): IEnumerator_1<TElement>;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<TElement>;
     GetEnumerator2(): IEnumerator;
 }
 
 
 export type IOrderedEnumerable_1<TElement extends unknown> = IOrderedEnumerable_1$instance<TElement>;
 
-export interface IOrderedQueryable$instance extends IQueryable, IEnumerable {
+export interface IOrderedQueryable$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Linq_IOrderedQueryable: never;
+    readonly __tsonic_iface_System_Linq_IQueryable: never;
 
     readonly Expression: Expression;
     readonly ElementType: Type;
@@ -99,21 +112,27 @@ export interface IOrderedQueryable$instance extends IQueryable$instance {}
 
 export type IOrderedQueryable = IOrderedQueryable$instance;
 
-export interface IOrderedQueryable_1$instance<T extends unknown> extends IQueryable_1<T>, IEnumerable_1<T>, IEnumerable, IQueryable, IOrderedQueryable {
+export interface IOrderedQueryable_1$instance<T extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Linq_IOrderedQueryable: never;
     readonly __tsonic_iface_System_Linq_IOrderedQueryable_1: never;
+    readonly __tsonic_iface_System_Linq_IQueryable: never;
+    readonly __tsonic_iface_System_Linq_IQueryable_1: never;
 
     readonly Expression: Expression;
     readonly ElementType: Type;
     readonly Provider: IQueryProvider;
-    GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator2(): IEnumerator;
 }
 
 
 export type IOrderedQueryable_1<T extends unknown> = IOrderedQueryable_1$instance<T>;
 
-export interface IQueryable$instance extends IEnumerable {
+export interface IQueryable$instance {
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Linq_IQueryable: never;
 
     readonly Expression: Expression;
@@ -125,14 +144,17 @@ export interface IQueryable$instance extends IEnumerable {
 
 export type IQueryable = IQueryable$instance;
 
-export interface IQueryable_1$instance<T extends unknown> extends IEnumerable_1<T>, IEnumerable, IQueryable {
+export interface IQueryable_1$instance<T extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
+    readonly __tsonic_iface_System_Linq_IQueryable: never;
     readonly __tsonic_iface_System_Linq_IQueryable_1: never;
 
     readonly Expression: Expression;
     readonly ElementType: Type;
     readonly Provider: IQueryProvider;
-    GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator2(): IEnumerator;
 }
 
@@ -142,8 +164,8 @@ export type IQueryable_1<T extends unknown> = IQueryable_1$instance<T>;
 export interface IQueryProvider$instance {
     readonly __tsonic_iface_System_Linq_IQueryProvider: never;
 
-    CreateQuery<TElement extends unknown>(expression: Expression): IQueryable_1<TElement>;
     CreateQuery(expression: Expression): IQueryable;
+    CreateQuery<TElement extends unknown>(expression: Expression): IQueryable_1<TElement>;
     Execute(expression: Expression): unknown | null;
     Execute<TResult extends unknown>(expression: Expression): TResult;
 }
@@ -163,7 +185,8 @@ export const EnumerableExecutor: {
 
 export type EnumerableExecutor = EnumerableExecutor$instance;
 
-export interface EnumerableExecutor_1$instance<T extends unknown> extends EnumerableExecutor {
+export interface EnumerableExecutor_1$instance<T extends unknown> extends EnumerableExecutor$instance {
+    readonly __tsonic_type_System_Linq_EnumerableExecutor: never;
     readonly __tsonic_type_System_Linq_EnumerableExecutor_1: never;
 
 }
@@ -188,7 +211,8 @@ export const EnumerableQuery: {
 
 export type EnumerableQuery = EnumerableQuery$instance;
 
-export interface EnumerableQuery_1$instance<T extends unknown> extends EnumerableQuery, IOrderedQueryable_1$instance<T>, IQueryProvider$instance {
+export interface EnumerableQuery_1$instance<T extends unknown> extends EnumerableQuery$instance {
+    readonly __tsonic_type_System_Linq_EnumerableQuery: never;
     readonly __tsonic_type_System_Linq_EnumerableQuery_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -249,11 +273,13 @@ export type Lookup_2<TKey extends unknown, TElement extends unknown> = Lookup_2$
 
 export interface OrderedParallelQuery_1$instance<TSource extends unknown> extends ParallelQuery_1$instance<TSource> {
     readonly __tsonic_type_System_Linq_OrderedParallelQuery_1: never;
+    readonly __tsonic_type_System_Linq_ParallelQuery: never;
+    readonly __tsonic_type_System_Linq_ParallelQuery_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
-    GetEnumerator(): IEnumerator_1<TSource>;
+    GetEnumerator: ParallelQuery_1$instance<TSource>["GetEnumerator"] & (() => IEnumerator_1<TSource>);
 }
 
 
@@ -289,6 +315,7 @@ export type ParallelQuery = ParallelQuery$instance & __ParallelQuery$views;
 
 
 export interface ParallelQuery_1$instance<TSource extends unknown> extends ParallelQuery$instance {
+    readonly __tsonic_type_System_Linq_ParallelQuery: never;
     readonly __tsonic_type_System_Linq_ParallelQuery_1: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -379,7 +406,7 @@ export abstract class AsyncEnumerable$instance {
     static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
     static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IAsyncEnumerable_1<TOuter>, inner: IAsyncEnumerable_1<TInner>, outerKeySelector: Func_3<TOuter, CancellationToken, ValueTask_1<TKey>>, innerKeySelector: Func_3<TInner, CancellationToken, ValueTask_1<TKey>>, resultSelector: Func_4<TOuter, IEnumerable_1<TInner>, CancellationToken, ValueTask_1<TResult>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TResult>;
     static Index<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<ValueTuple_2<System_Internal.Int32, TSource>>;
-    static InfiniteSequence<T extends unknown & IAdditionOperators_3<T, T, T>>(start: T, step: T): IAsyncEnumerable_1<T>;
+    static InfiniteSequence<T extends unknown & { readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never }>(start: T, step: T): IAsyncEnumerable_1<T>;
     static Intersect<TSource extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null): IAsyncEnumerable_1<TSource>;
     static IntersectBy<TSource extends unknown, TKey extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
     static IntersectBy<TSource extends unknown, TKey extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TKey>, keySelector: Func_3<TSource, CancellationToken, ValueTask_1<TKey>>, comparer?: IEqualityComparer_1<TKey> | null): IAsyncEnumerable_1<TSource>;
@@ -429,7 +456,7 @@ export abstract class AsyncEnumerable$instance {
     static SelectMany<TSource extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, selector: Func_3<TSource, CancellationToken, ValueTask_1<IEnumerable_1<TResult>>>): IAsyncEnumerable_1<TResult>;
     static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, collectionSelector: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<IEnumerable_1<TCollection>>>, resultSelector: Func_4<TSource, TCollection, CancellationToken, ValueTask_1<TResult>>): IAsyncEnumerable_1<TResult>;
     static SelectMany<TSource extends unknown, TResult extends unknown>(source: IAsyncEnumerable_1<TSource>, selector: Func_4<TSource, System_Internal.Int32, CancellationToken, ValueTask_1<IEnumerable_1<TResult>>>): IAsyncEnumerable_1<TResult>;
-    static Sequence<T extends unknown & INumber_1<T>>(start: T, endInclusive: T, step: T): IAsyncEnumerable_1<T>;
+    static Sequence<T extends unknown & { readonly __tsonic_iface_System_Numerics_INumber_1: never }>(start: T, endInclusive: T, step: T): IAsyncEnumerable_1<T>;
     static SequenceEqualAsync<TSource extends unknown>(first: IAsyncEnumerable_1<TSource>, second: IAsyncEnumerable_1<TSource>, comparer?: IEqualityComparer_1<TSource> | null, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
     static Shuffle<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>): IAsyncEnumerable_1<TSource>;
     static SingleAsync<TSource extends unknown>(source: IAsyncEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, cancellationToken?: CancellationToken): ValueTask_1<TSource>;
@@ -561,7 +588,7 @@ export abstract class Enumerable$instance {
     static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TResult>;
     static GroupJoin<TOuter extends unknown, TInner extends unknown, TKey extends unknown, TResult extends unknown>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, IEnumerable_1<TInner>, TResult>): IEnumerable_1<TResult>;
     static Index<TSource extends unknown>(source: IEnumerable_1<TSource>): IEnumerable_1<ValueTuple_2<System_Internal.Int32, TSource>>;
-    static InfiniteSequence<T extends unknown & IAdditionOperators_3<T, T, T>>(start: T, step: T): IEnumerable_1<T>;
+    static InfiniteSequence<T extends unknown & { readonly __tsonic_iface_System_Numerics_IAdditionOperators_3: never }>(start: T, step: T): IEnumerable_1<T>;
     static Intersect<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): IEnumerable_1<TSource>;
     static Intersect<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
     static IntersectBy<TSource extends unknown, TKey extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TKey>, keySelector: Func_2<TSource, TKey>, comparer: IEqualityComparer_1<TKey> | null): IEnumerable_1<TSource>;
@@ -650,7 +677,7 @@ export abstract class Enumerable$instance {
     static SelectMany<TSource extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, IEnumerable_1<TResult>>): IEnumerable_1<TResult>;
     static SelectMany<TSource extends unknown, TCollection extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, collectionSelector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IEnumerable_1<TResult>;
     static SelectMany<TSource extends unknown, TResult extends unknown>(source: IEnumerable_1<TSource>, selector: Func_3<TSource, System_Internal.Int32, IEnumerable_1<TResult>>): IEnumerable_1<TResult>;
-    static Sequence<T extends unknown & INumber_1<T>>(start: T, endInclusive: T, step: T): IEnumerable_1<T>;
+    static Sequence<T extends unknown & { readonly __tsonic_iface_System_Numerics_INumber_1: never }>(start: T, endInclusive: T, step: T): IEnumerable_1<T>;
     static SequenceEqual<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | null): boolean;
     static SequenceEqual<TSource extends unknown>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): boolean;
     static Shuffle<TSource extends unknown>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource>;

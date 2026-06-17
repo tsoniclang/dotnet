@@ -12,7 +12,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 // Cross-namespace type imports for constraints
 import type { ICollection_1, IEnumerable_1, IEnumerator_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, KeyValuePair_2 } from './System.Collections.Generic/internal/index.js';
 import type { IEnumerable, IEnumerator } from './System.Collections/internal/index.js';
-import type { Boolean as ClrBoolean, Byte, DateTimeOffset, Double, ICloneable, IDisposable, Int32, Int64, Nullable_1, Object as ClrObject, String as ClrString, TimeSpan, Type, Uri, ValueType, Void } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, Byte, Char, DateTimeOffset, Double, ICloneable, IDisposable, Int32, Int64, Nullable_1, Object as ClrObject, String as ClrString, TimeSpan, Type, Uri, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { AuthenticationHeaderValue as AuthenticationHeaderValue } from './System.Net.Http.Headers/internal/index.js';

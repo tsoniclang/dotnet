@@ -12,7 +12,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 // Cross-namespace type imports for constraints
 import type { ICollection_1, IEnumerable_1 } from './System.Collections.Generic/internal/index.js';
 import type { Collection_1, ReadOnlyCollection_1 } from './System.Collections.ObjectModel/internal/index.js';
-import type { IDictionary, IEnumerator, Queue } from './System.Collections/internal/index.js';
+import type { IDictionary, IEnumerator } from './System.Collections/internal/index.js';
 import type { DateTimeStyles } from './System.Globalization/internal/index.js';
 import type { Stream } from './System.IO/internal/index.js';
 import type { Assembly, ConstructorInfo, MemberInfo, MethodBase, MethodInfo, PropertyInfo } from './System.Reflection/internal/index.js';

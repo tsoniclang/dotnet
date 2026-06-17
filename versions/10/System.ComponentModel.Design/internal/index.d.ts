@@ -8,7 +8,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { ArrayList, CollectionBase, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
+import type { CollectionBase, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
 import type { EventDescriptor, EventDescriptorCollection, IComponent, IContainer, IExtenderProvider, InheritanceAttribute, LicenseContext, LicenseUsageMode, MemberDescriptor, PropertyDescriptor, PropertyDescriptorCollection, TypeDescriptionProvider } from "../../System.ComponentModel/internal/index.js";
 import type { CultureInfo } from "../../System.Globalization/internal/index.js";
@@ -22,41 +22,49 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, Enum, EventArgs, EventHandler, Exception, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, IServiceProvider, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum HelpContextType {
-    Ambient = 0,
-    Window = 1,
-    Selection = 2,
-    ToolWindowSelection = 3
-}
+export type HelpContextType = number & { readonly __tsonic_type_System_ComponentModel_Design_HelpContextType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HelpContextType: {
+    readonly Ambient: HelpContextType;
+    readonly Window: HelpContextType;
+    readonly Selection: HelpContextType;
+    readonly ToolWindowSelection: HelpContextType;
+};
 
 
-export enum HelpKeywordType {
-    F1Keyword = 0,
-    GeneralKeyword = 1,
-    FilterKeyword = 2
-}
+export type HelpKeywordType = number & { readonly __tsonic_type_System_ComponentModel_Design_HelpKeywordType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HelpKeywordType: {
+    readonly F1Keyword: HelpKeywordType;
+    readonly GeneralKeyword: HelpKeywordType;
+    readonly FilterKeyword: HelpKeywordType;
+};
 
 
-export enum SelectionTypes {
-    Auto = 1,
-    Normal = 1,
-    Replace = 2,
-    MouseDown = 4,
-    MouseUp = 8,
-    Click = 16,
-    Primary = 16,
-    Toggle = 32,
-    Add = 64,
-    Remove = 128,
-    Valid = 31
-}
+export type SelectionTypes = number & { readonly __tsonic_type_System_ComponentModel_Design_SelectionTypes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SelectionTypes: {
+    readonly Auto: SelectionTypes;
+    readonly Normal: SelectionTypes;
+    readonly Replace: SelectionTypes;
+    readonly MouseDown: SelectionTypes;
+    readonly MouseUp: SelectionTypes;
+    readonly Click: SelectionTypes;
+    readonly Primary: SelectionTypes;
+    readonly Toggle: SelectionTypes;
+    readonly Add: SelectionTypes;
+    readonly Remove: SelectionTypes;
+    readonly Valid: SelectionTypes;
+};
 
 
-export enum ViewTechnology {
-    Passthrough = 0,
-    WindowsForms = 1,
-    Default = 2
-}
+export type ViewTechnology = number & { readonly __tsonic_type_System_ComponentModel_Design_ViewTechnology: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ViewTechnology: {
+    readonly Passthrough: ViewTechnology;
+    readonly WindowsForms: ViewTechnology;
+    readonly Default: ViewTechnology;
+};
 
 
 export type ActiveDesignerEventHandler = (sender: unknown | null, e: ActiveDesignerEventArgs) => void;
@@ -111,8 +119,9 @@ export interface IComponentInitializer$instance {
 
 export type IComponentInitializer = IComponentInitializer$instance;
 
-export interface IDesigner$instance extends IDisposable {
+export interface IDesigner$instance {
     readonly __tsonic_iface_System_ComponentModel_Design_IDesigner: never;
+    readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Component: IComponent;
     readonly Verbs: DesignerVerbCollection | null;
@@ -145,8 +154,10 @@ export interface IDesignerFilter$instance {
 
 export type IDesignerFilter = IDesignerFilter$instance;
 
-export interface IDesignerHost$instance extends IServiceContainer, IServiceProvider {
+export interface IDesignerHost$instance {
     readonly __tsonic_iface_System_ComponentModel_Design_IDesignerHost: never;
+    readonly __tsonic_iface_System_ComponentModel_Design_IServiceContainer: never;
+    readonly __tsonic_iface_System_IServiceProvider: never;
 
     readonly Loading: boolean;
     readonly InTransaction: boolean;
@@ -155,20 +166,20 @@ export interface IDesignerHost$instance extends IServiceContainer, IServiceProvi
     readonly RootComponentClassName: string;
     readonly TransactionDescription: string;
     Activate(): void;
-    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, serviceInstance: unknown): void;
-    CreateComponent(componentClass: Type, name: string): IComponent;
+    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
     CreateComponent(componentClass: Type): IComponent;
+    CreateComponent(componentClass: Type, name: string): IComponent;
     CreateTransaction(): DesignerTransaction;
     CreateTransaction(description: string): DesignerTransaction;
     DestroyComponent(component: IComponent): void;
     GetDesigner(component: IComponent): IDesigner | null;
     GetService(serviceType: Type): unknown | null;
     GetType(typeName: string): Type | null;
-    RemoveService(serviceType: Type, promote: boolean): void;
     RemoveService(serviceType: Type): void;
+    RemoveService(serviceType: Type, promote: boolean): void;
 }
 
 
@@ -298,8 +309,10 @@ export interface IResourceService$instance {
 
 export type IResourceService = IResourceService$instance;
 
-export interface IRootDesigner$instance extends IDesigner, IDisposable {
+export interface IRootDesigner$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesigner: never;
     readonly __tsonic_iface_System_ComponentModel_Design_IRootDesigner: never;
+    readonly __tsonic_iface_System_IDisposable: never;
 
     readonly SupportedTechnologies: ViewTechnology[];
     readonly Component: IComponent;
@@ -322,23 +335,24 @@ export interface ISelectionService$instance {
     readonly SelectionCount: int;
     GetComponentSelected(component: unknown): boolean;
     GetSelectedComponents(): ICollection;
-    SetSelectedComponents(components: ICollection | null, selectionType: SelectionTypes): void;
     SetSelectedComponents(components: ICollection | null): void;
+    SetSelectedComponents(components: ICollection | null, selectionType: SelectionTypes): void;
 }
 
 
 export type ISelectionService = ISelectionService$instance;
 
-export interface IServiceContainer$instance extends IServiceProvider {
+export interface IServiceContainer$instance {
     readonly __tsonic_iface_System_ComponentModel_Design_IServiceContainer: never;
+    readonly __tsonic_iface_System_IServiceProvider: never;
 
-    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, serviceInstance: unknown): void;
+    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
     GetService(serviceType: Type): unknown | null;
-    RemoveService(serviceType: Type, promote: boolean): void;
     RemoveService(serviceType: Type): void;
+    RemoveService(serviceType: Type, promote: boolean): void;
 }
 
 
@@ -346,8 +360,10 @@ export interface IServiceContainer$instance extends System_Internal.IServiceProv
 
 export type IServiceContainer = IServiceContainer$instance;
 
-export interface ITreeDesigner$instance extends IDesigner, IDisposable {
+export interface ITreeDesigner$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesigner: never;
     readonly __tsonic_iface_System_ComponentModel_Design_ITreeDesigner: never;
+    readonly __tsonic_iface_System_IDisposable: never;
 
     readonly Children: ICollection;
     readonly Parent: IDesigner | null;
@@ -384,20 +400,21 @@ export type ITypeDiscoveryService = ITypeDiscoveryService$instance;
 export interface ITypeResolutionService$instance {
     readonly __tsonic_iface_System_ComponentModel_Design_ITypeResolutionService: never;
 
-    GetAssembly(name: AssemblyName, throwOnError: boolean): Assembly | null;
     GetAssembly(name: AssemblyName): Assembly | null;
+    GetAssembly(name: AssemblyName, throwOnError: boolean): Assembly | null;
     GetPathOfAssembly(name: AssemblyName): string | null;
-    GetType(name: string, throwOnError: boolean, ignoreCase: boolean): Type | null;
-    GetType(name: string, throwOnError: boolean): Type | null;
     GetType(name: string): Type | null;
+    GetType(name: string, throwOnError: boolean): Type | null;
+    GetType(name: string, throwOnError: boolean, ignoreCase: boolean): Type | null;
     ReferenceAssembly(name: AssemblyName): void;
 }
 
 
 export type ITypeResolutionService = ITypeResolutionService$instance;
 
-export interface ActiveDesignerEventArgs$instance extends EventArgs {
+export interface ActiveDesignerEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_ComponentModel_Design_ActiveDesignerEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly NewDesigner: IDesignerHost | null;
     readonly OldDesigner: IDesignerHost | null;
@@ -411,8 +428,11 @@ export const ActiveDesignerEventArgs: {
 
 export type ActiveDesignerEventArgs = ActiveDesignerEventArgs$instance;
 
-export interface CheckoutException$instance extends ExternalException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface CheckoutException$instance extends System_Runtime_InteropServices_Internal.ExternalException$instance {
     readonly __tsonic_type_System_ComponentModel_Design_CheckoutException: never;
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_ExternalException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -453,8 +473,9 @@ export const CommandID: {
 
 export type CommandID = CommandID$instance;
 
-export interface ComponentChangedEventArgs$instance extends EventArgs {
+export interface ComponentChangedEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_ComponentModel_Design_ComponentChangedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Component: unknown | null;
     readonly Member: MemberDescriptor | null;
@@ -470,8 +491,9 @@ export const ComponentChangedEventArgs: {
 
 export type ComponentChangedEventArgs = ComponentChangedEventArgs$instance;
 
-export interface ComponentChangingEventArgs$instance extends EventArgs {
+export interface ComponentChangingEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_ComponentModel_Design_ComponentChangingEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Component: unknown | null;
     readonly Member: MemberDescriptor | null;
@@ -485,8 +507,9 @@ export const ComponentChangingEventArgs: {
 
 export type ComponentChangingEventArgs = ComponentChangingEventArgs$instance;
 
-export interface ComponentEventArgs$instance extends EventArgs {
+export interface ComponentEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_ComponentModel_Design_ComponentEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Component: IComponent | null;
 }
@@ -499,8 +522,9 @@ export const ComponentEventArgs: {
 
 export type ComponentEventArgs = ComponentEventArgs$instance;
 
-export interface ComponentRenameEventArgs$instance extends EventArgs {
+export interface ComponentRenameEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_ComponentModel_Design_ComponentRenameEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Component: unknown | null;
     readonly NewName: string | null;
@@ -540,8 +564,9 @@ export interface __DesignerCollection$views {
 export type DesignerCollection = DesignerCollection$instance & __DesignerCollection$views & { readonly [index: number]: IDesignerHost | null; };
 
 
-export interface DesignerEventArgs$instance extends EventArgs {
+export interface DesignerEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_ComponentModel_Design_DesignerEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Designer: IDesignerHost | null;
 }
@@ -554,7 +579,7 @@ export const DesignerEventArgs: {
 
 export type DesignerEventArgs = DesignerEventArgs$instance;
 
-export interface DesignerOptionService$instance extends IDesignerOptionService$instance {
+export interface DesignerOptionService$instance {
     readonly __tsonic_type_System_ComponentModel_Design_DesignerOptionService: never;
 
     readonly __tsonic_iface_System_ComponentModel_Design_IDesignerOptionService: never;
@@ -565,7 +590,7 @@ export interface DesignerOptionService$instance extends IDesignerOptionService$i
 }
 
 
-export const DesignerOptionService: (abstract new() => DesignerOptionService) & {
+export const DesignerOptionService: {
 };
 
 
@@ -605,8 +630,8 @@ export interface DesignerTransaction$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Canceled: boolean;
-    Committed: boolean;
+    readonly Canceled: boolean;
+    readonly Committed: boolean;
     readonly Description: string;
     Cancel(): void;
     Commit(): void;
@@ -617,7 +642,7 @@ export interface DesignerTransaction$instance {
 }
 
 
-export const DesignerTransaction: (abstract new() => DesignerTransaction) & (abstract new(description: string) => DesignerTransaction) & {
+export const DesignerTransaction: {
 };
 
 
@@ -628,8 +653,9 @@ export interface __DesignerTransaction$views {
 export type DesignerTransaction = DesignerTransaction$instance & __DesignerTransaction$views;
 
 
-export interface DesignerTransactionCloseEventArgs$instance extends EventArgs {
+export interface DesignerTransactionCloseEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_ComponentModel_Design_DesignerTransactionCloseEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly LastTransaction: boolean;
     readonly TransactionCommitted: boolean;
@@ -644,12 +670,13 @@ export const DesignerTransactionCloseEventArgs: {
 
 export type DesignerTransactionCloseEventArgs = DesignerTransactionCloseEventArgs$instance;
 
-export interface DesignerVerb$instance extends MenuCommand {
+export interface DesignerVerb$instance extends MenuCommand$instance {
     readonly __tsonic_type_System_ComponentModel_Design_DesignerVerb: never;
+    readonly __tsonic_type_System_ComponentModel_Design_MenuCommand: never;
 
     Description: string;
     readonly Text: string;
-    ToString(): string;
+    ToString: MenuCommand$instance["ToString"] & (() => string);
 }
 
 
@@ -661,7 +688,8 @@ export const DesignerVerb: {
 
 export type DesignerVerb = DesignerVerb$instance;
 
-export interface DesignerVerbCollection$instance extends CollectionBase {
+export interface DesignerVerbCollection$instance extends System_Collections_Internal.CollectionBase$instance {
+    readonly __tsonic_type_System_Collections_CollectionBase: never;
     readonly __tsonic_type_System_ComponentModel_Design_DesignerVerbCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -675,7 +703,7 @@ export interface DesignerVerbCollection$instance extends CollectionBase {
     CopyTo(array: (DesignerVerb | null)[], index: int): void;
     IndexOf(value: DesignerVerb | null): int;
     Insert(index: int, value: DesignerVerb | null): void;
-    OnValidate(value: unknown): void;
+    OnValidate: System_Collections_Internal.CollectionBase$instance["OnValidate"] & ((value: unknown) => void);
     Remove(value: DesignerVerb | null): void;
 }
 
@@ -695,14 +723,14 @@ export interface __DesignerVerbCollection$views {
 export type DesignerVerbCollection = DesignerVerbCollection$instance & __DesignerVerbCollection$views & { [index: number]: DesignerVerb; };
 
 
-export interface DesigntimeLicenseContext$instance extends LicenseContext, System_Internal.IServiceProvider$instance {
+export interface DesigntimeLicenseContext$instance extends System_ComponentModel_Internal.LicenseContext$instance {
     readonly __tsonic_type_System_ComponentModel_Design_DesigntimeLicenseContext: never;
+    readonly __tsonic_type_System_ComponentModel_LicenseContext: never;
 
     readonly __tsonic_iface_System_IServiceProvider: never;
 
-    readonly UsageMode: LicenseUsageMode;
-    GetSavedLicenseKey(type: Type, resourceAssembly: Assembly | null): string | null;
-    SetSavedLicenseKey(type: Type, key: string): void;
+    GetSavedLicenseKey: System_ComponentModel_Internal.LicenseContext$instance["GetSavedLicenseKey"] & ((type: Type, resourceAssembly: Assembly | null) => string | null);
+    SetSavedLicenseKey: System_ComponentModel_Internal.LicenseContext$instance["SetSavedLicenseKey"] & ((type: Type, key: string) => void);
 }
 
 
@@ -731,13 +759,14 @@ export const DesigntimeLicenseContextSerializer: {
 
 export type DesigntimeLicenseContextSerializer = DesigntimeLicenseContextSerializer$instance;
 
-export interface HelpKeywordAttribute$instance extends Attribute {
+export interface HelpKeywordAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_Design_HelpKeywordAttribute: never;
 
     readonly HelpKeyword: string | null;
-    Equals(obj: unknown | null): boolean;
-    GetHashCode(): int;
-    IsDefaultAttribute(): boolean;
+    Equals: System_Internal.Attribute$instance["Equals"] & ((obj: unknown | null) => boolean);
+    GetHashCode: System_Internal.Attribute$instance["GetHashCode"] & (() => int);
+    IsDefaultAttribute: System_Internal.Attribute$instance["IsDefaultAttribute"] & (() => boolean);
 }
 
 
@@ -783,10 +812,10 @@ export interface ServiceContainer$instance {
     readonly __tsonic_iface_System_IServiceProvider: never;
 
     readonly DefaultServices: Type[];
-    AddService(serviceType: Type, serviceInstance: unknown): void;
-    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    AddService(serviceType: Type, serviceInstance: unknown): void;
+    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
     Dispose(): void;
     Dispose(disposing: boolean): void;
     GetService(serviceType: Type): unknown | null;
@@ -907,7 +936,7 @@ export interface TypeDescriptionProviderService$instance {
 }
 
 
-export const TypeDescriptionProviderService: (abstract new() => TypeDescriptionProviderService) & {
+export const TypeDescriptionProviderService: {
 };
 
 

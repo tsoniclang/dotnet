@@ -4088,17 +4088,6 @@
             "ownerIdentity": "System.ComponentModel.TypeConverter"
           },
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CheckoutException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100665151,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Design.CheckoutException",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
             "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CheckoutException::.ctor(System.String,System.Exception):void",
             "metadataToken": 100665152,
             "canonicalSignature": "(System.String,System.Exception):void",
@@ -4862,26 +4851,6 @@
         ],
         "methods": [
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService::CreateOptionCollection(System.ComponentModel.Design.DesignerOptionService+DesignerOptionCollection,System.String,System.Object):System.ComponentModel.Design.DesignerOptionService+DesignerOptionCollection",
-            "targetName": "CreateOptionCollection",
-            "metadataToken": 100665307,
-            "canonicalSignature": "(System.ComponentModel.Design.DesignerOptionService+DesignerOptionCollection,System.String,System.Object):System.ComponentModel.Design.DesignerOptionService+DesignerOptionCollection",
-            "normalizedSignature": "CreateOptionCollection|(System.ComponentModel.Design.DesignerOptionService+DesignerOptionCollection,System.String,System.Object):System.ComponentModel.Design.DesignerOptionService+DesignerOptionCollection|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 3,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Design.DesignerOptionService",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService::PopulateOptionCollection(System.ComponentModel.Design.DesignerOptionService+DesignerOptionCollection):System.Void",
             "targetName": "PopulateOptionCollection",
             "metadataToken": 100665309,
@@ -4987,19 +4956,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService::.ctor():void",
-            "metadataToken": 100665313,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Design.DesignerOptionService",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService+DesignerOptionCollection",
@@ -5402,12 +5359,12 @@
             "targetName": "Canceled",
             "metadataToken": 385876374,
             "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "Canceled|:System.Boolean|static=false|accessor=getset",
+            "normalizedSignature": "Canceled|:System.Boolean|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5421,12 +5378,12 @@
             "targetName": "Committed",
             "metadataToken": 385876375,
             "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "Committed|:System.Boolean|static=false|accessor=getset",
+            "normalizedSignature": "Committed|:System.Boolean|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -5457,30 +5414,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::.ctor():void",
-            "metadataToken": 100665234,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Design.DesignerTransaction",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransaction::.ctor(System.String):void",
-            "metadataToken": 100665235,
-            "canonicalSignature": "(System.String):void",
-            "normalizedSignature": "constructor|(System.String):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Design.DesignerTransaction",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerTransactionCloseEventArgs",
@@ -8078,19 +8012,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.TypeDescriptionProviderService::.ctor():void",
-            "metadataToken": 100665477,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Design.TypeDescriptionProviderService",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       }
     ]
   }

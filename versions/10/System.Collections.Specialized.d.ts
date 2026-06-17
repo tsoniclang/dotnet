@@ -13,7 +13,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import type { Hashtable, ICollection, IComparer, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IEqualityComparer, IHashCodeProvider, IList, SortedList } from './System.Collections/internal/index.js';
 import type { MethodInfo } from './System.Reflection/internal/index.js';
 import type { IDeserializationCallback, ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
-import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Delegate, Enum, EventArgs, IAsyncResult, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, ConsoleKeyInfo, Delegate, Enum, EventArgs, IAsyncResult, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { CollectionsUtil as CollectionsUtil } from './System.Collections.Specialized/internal/index.js';

@@ -8172,46 +8172,6 @@
         },
         "methods": [
           {
-            "stableId": "System.Data.Common:System.Data.Constraint::CheckStateForProperty():System.Void",
-            "targetName": "CheckStateForProperty",
-            "metadataToken": 100664517,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "CheckStateForProperty|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.Constraint",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.Constraint::SetDataSet(System.Data.DataSet):System.Void",
-            "targetName": "SetDataSet",
-            "metadataToken": 100664519,
-            "canonicalSignature": "(System.Data.DataSet):System.Void",
-            "normalizedSignature": "SetDataSet|(System.Data.DataSet):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Data.Constraint",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Data.Common:System.Data.Constraint::ToString():System.String",
             "targetName": "ToString",
             "metadataToken": 100664521,
@@ -8888,17 +8848,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Data.Common:System.Data.ConstraintException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664836,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.ConstraintException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
             "stableId": "System.Data.Common:System.Data.ConstraintException::.ctor():void",
             "metadataToken": 100664837,
             "canonicalSignature": "():void",
@@ -8984,46 +8933,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Data.Common:System.Data.DataColumn::CheckNotAllowNull():System.Void",
-            "targetName": "CheckNotAllowNull",
-            "metadataToken": 100664666,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "CheckNotAllowNull|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Data.DataColumn",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataColumn::CheckUnique():System.Void",
-            "targetName": "CheckUnique",
-            "metadataToken": 100664668,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "CheckUnique|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataColumn",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Data.Common:System.Data.DataColumn::OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs):System.Void",
             "targetName": "OnPropertyChanging",
             "metadataToken": 100664687,
@@ -9039,26 +8948,6 @@
             "isOverride": false,
             "isSealed": false,
             "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataColumn",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataColumn::RaisePropertyChanging(System.String):System.Void",
-            "targetName": "RaisePropertyChanging",
-            "metadataToken": 100664688,
-            "canonicalSignature": "(System.String):System.Void",
-            "normalizedSignature": "RaisePropertyChanging|(System.String):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "ProtectedInternal",
             "ownerQualifiedName": "System.Data.DataColumn",
             "ownerIdentity": "System.Data.Common",
             "isExtensionMethod": false
@@ -10234,17 +10123,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Data.Common:System.Data.DataException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664832,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
             "stableId": "System.Data.Common:System.Data.DataException::.ctor():void",
             "metadataToken": 100664833,
             "canonicalSignature": "():void",
@@ -10295,66 +10173,6 @@
           "targetName": "System.Object"
         },
         "methods": [
-          {
-            "stableId": "System.Data.Common:System.Data.DataRelation::CheckStateForProperty():System.Void",
-            "targetName": "CheckStateForProperty",
-            "metadataToken": 100665221,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "CheckStateForProperty|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataRelation",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataRelation::OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs):System.Void",
-            "targetName": "OnPropertyChanging",
-            "metadataToken": 100665224,
-            "canonicalSignature": "(System.ComponentModel.PropertyChangedEventArgs):System.Void",
-            "normalizedSignature": "OnPropertyChanging|(System.ComponentModel.PropertyChangedEventArgs):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Data.DataRelation",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataRelation::RaisePropertyChanging(System.String):System.Void",
-            "targetName": "RaisePropertyChanging",
-            "metadataToken": 100665225,
-            "canonicalSignature": "(System.String):System.Void",
-            "normalizedSignature": "RaisePropertyChanging|(System.String):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Data.DataRelation",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
           {
             "stableId": "System.Data.Common:System.Data.DataRelation::ToString():System.String",
             "targetName": "ToString",
@@ -11283,19 +11101,7 @@
             "ownerIdentity": "System.Data.Common"
           }
         ],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.DataRelationCollection::.ctor():void",
-            "metadataToken": 100665264,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataRelationCollection",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.DataRow",
@@ -11934,26 +11740,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Data.Common:System.Data.DataRow::SetNull(System.Data.DataColumn):System.Void",
-            "targetName": "SetNull",
-            "metadataToken": 100665385,
-            "canonicalSignature": "(System.Data.DataColumn):System.Void",
-            "normalizedSignature": "SetNull|(System.Data.DataColumn):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataRow",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Data.Common:System.Data.DataRow::SetParentRow(System.Data.DataRow):System.Void",
             "targetName": "SetParentRow",
             "metadataToken": 100665387,
@@ -12313,19 +12099,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.DataRow::.ctor(System.Data.DataRowBuilder):void",
-            "metadataToken": 100665301,
-            "canonicalSignature": "(System.Data.DataRowBuilder):void",
-            "normalizedSignature": "constructor|(System.Data.DataRowBuilder):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Data.DataRow",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.DataRowBuilder",
@@ -13782,86 +13556,6 @@
         ],
         "methods": [
           {
-            "stableId": "System.Data.Common:System.Data.DataSet::IsBinarySerialized(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Boolean",
-            "targetName": "IsBinarySerialized",
-            "metadataToken": 100665507,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Boolean",
-            "normalizedSignature": "IsBinarySerialized|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Boolean|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataSet",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataSet::DetermineSchemaSerializationMode(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Data.SchemaSerializationMode",
-            "targetName": "DetermineSchemaSerializationMode",
-            "metadataToken": 100665508,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Data.SchemaSerializationMode",
-            "normalizedSignature": "DetermineSchemaSerializationMode|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Data.SchemaSerializationMode|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataSet",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataSet::DetermineSchemaSerializationMode(System.Xml.XmlReader):System.Data.SchemaSerializationMode",
-            "targetName": "DetermineSchemaSerializationMode",
-            "metadataToken": 100665509,
-            "canonicalSignature": "(System.Xml.XmlReader):System.Data.SchemaSerializationMode",
-            "normalizedSignature": "DetermineSchemaSerializationMode|(System.Xml.XmlReader):System.Data.SchemaSerializationMode|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataSet",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataSet::GetSerializationData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-            "targetName": "GetSerializationData",
-            "metadataToken": 100665510,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-            "normalizedSignature": "GetSerializationData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataSet",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Data.Common:System.Data.DataSet::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
             "targetName": "GetObjectData",
             "metadataToken": 100665513,
@@ -15022,26 +14716,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Data.Common:System.Data.DataSet::RaisePropertyChanging(System.String):System.Void",
-            "targetName": "RaisePropertyChanging",
-            "metadataToken": 100665648,
-            "canonicalSignature": "(System.String):System.Void",
-            "normalizedSignature": "RaisePropertyChanging|(System.String):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Data.DataSet",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Data.Common:System.Data.DataSet::RejectChanges():System.Void",
             "targetName": "RejectChanges",
             "metadataToken": 100665651,
@@ -15802,28 +15476,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Data.DataSet",
             "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataSet::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100665511,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataSet",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataSet::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Boolean):void",
-            "metadataToken": 100665512,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Boolean):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 3,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataSet",
-            "ownerIdentity": "System.Data.Common"
           }
         ]
       },
@@ -16246,26 +15898,6 @@
             "isOverride": false,
             "isSealed": false,
             "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataTable",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataTable::NewRowArray(System.Int32):System.Data.DataRow[]",
-            "targetName": "NewRowArray",
-            "metadataToken": 100665864,
-            "canonicalSignature": "(System.Int32):System.Data.DataRow[]",
-            "normalizedSignature": "NewRowArray|(System.Int32):System.Data.DataRow[]|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "ProtectedInternal",
             "ownerQualifiedName": "System.Data.DataTable",
             "ownerIdentity": "System.Data.Common",
             "isExtensionMethod": false
@@ -18161,20 +17793,7 @@
             "ownerIdentity": "System.ComponentModel.TypeConverter"
           }
         ],
-        "fields": [
-          {
-            "stableId": "System.Data.Common:System.Data.DataTable::fInitInProgressSystem.Boolean",
-            "targetName": "fInitInProgress",
-            "metadataToken": 67109348,
-            "normalizedSignature": "fInitInProgress|System.Boolean|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Data.DataTable",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ],
+        "fields": [],
         "events": [
           {
             "stableId": "System.Data.Common:System.Data.DataTable::ColumnChangingSystem.Data.DataColumnChangeEventHandler",
@@ -18308,17 +17927,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Data.DataTable",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataTable::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100665683,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Data.DataTable",
             "ownerIdentity": "System.Data.Common"
           }
@@ -20574,26 +20182,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Data.Common:System.Data.DataView::Close():System.Void",
-            "targetName": "Close",
-            "metadataToken": 100666181,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "Close|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataView",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Data.Common:System.Data.DataView::CopyTo(System.Array,System.Int32):System.Void",
             "targetName": "CopyTo",
             "metadataToken": 100666182,
@@ -20786,66 +20374,6 @@
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": true,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataView",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataView::Open():System.Void",
-            "targetName": "Open",
-            "metadataToken": 100666251,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "Open|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataView",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataView::Reset():System.Void",
-            "targetName": "Reset",
-            "metadataToken": 100666252,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "Reset|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DataView",
-            "ownerIdentity": "System.Data.Common",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataView::UpdateIndex():System.Void",
-            "targetName": "UpdateIndex",
-            "metadataToken": 100666258,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "UpdateIndex|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
             "isOverride": false,
             "isSealed": false,
             "visibility": "Protected",
@@ -21585,25 +21113,6 @@
             "isVirtual": true,
             "isOverride": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Data.DataView",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.DataView::IsOpen:System.Boolean",
-            "targetName": "IsOpen",
-            "metadataToken": 385876789,
-            "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "IsOpen|:System.Boolean|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Data.DataView",
             "ownerIdentity": "System.Data.Common"
           },
@@ -23796,17 +23305,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Data.Common:System.Data.DeletedRowInaccessibleException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664840,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DeletedRowInaccessibleException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
             "stableId": "System.Data.Common:System.Data.DeletedRowInaccessibleException::.ctor():void",
             "metadataToken": 100664841,
             "canonicalSignature": "():void",
@@ -23889,17 +23387,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.DuplicateNameException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664844,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.DuplicateNameException",
-            "ownerIdentity": "System.Data.Common"
-          },
           {
             "stableId": "System.Data.Common:System.Data.DuplicateNameException::.ctor():void",
             "metadataToken": 100664845,
@@ -24132,17 +23619,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.EvaluateException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100667104,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.EvaluateException",
-            "ownerIdentity": "System.Data.Common"
-          },
           {
             "stableId": "System.Data.Common:System.Data.EvaluateException::.ctor():void",
             "metadataToken": 100667105,
@@ -24600,17 +24076,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Data.Common:System.Data.InRowChangingEventException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664848,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.InRowChangingEventException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
             "stableId": "System.Data.Common:System.Data.InRowChangingEventException::.ctor():void",
             "metadataToken": 100664849,
             "canonicalSignature": "():void",
@@ -24976,17 +24441,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Data.Common:System.Data.InvalidConstraintException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664852,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.InvalidConstraintException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
             "stableId": "System.Data.Common:System.Data.InvalidConstraintException::.ctor():void",
             "metadataToken": 100664853,
             "canonicalSignature": "():void",
@@ -25069,17 +24523,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.InvalidExpressionException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100667100,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.InvalidExpressionException",
-            "ownerIdentity": "System.Data.Common"
-          },
           {
             "stableId": "System.Data.Common:System.Data.InvalidExpressionException::.ctor():void",
             "metadataToken": 100667101,
@@ -25236,17 +24679,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Data.Common:System.Data.MissingPrimaryKeyException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664856,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.MissingPrimaryKeyException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
             "stableId": "System.Data.Common:System.Data.MissingPrimaryKeyException::.ctor():void",
             "metadataToken": 100664857,
             "canonicalSignature": "():void",
@@ -25329,17 +24761,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.NoNullAllowedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664860,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.NoNullAllowedException",
-            "ownerIdentity": "System.Data.Common"
-          },
           {
             "stableId": "System.Data.Common:System.Data.NoNullAllowedException::.ctor():void",
             "metadataToken": 100664861,
@@ -25886,17 +25307,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Data.PropertyCollection",
             "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.PropertyCollection::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100666667,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.PropertyCollection",
-            "ownerIdentity": "System.Data.Common"
           }
         ]
       },
@@ -25948,17 +25358,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.ReadOnlyException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664864,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.ReadOnlyException",
-            "ownerIdentity": "System.Data.Common"
-          },
           {
             "stableId": "System.Data.Common:System.Data.ReadOnlyException::.ctor():void",
             "metadataToken": 100664865,
@@ -26042,17 +25441,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.RowNotInTableException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664868,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.RowNotInTableException",
-            "ownerIdentity": "System.Data.Common"
-          },
           {
             "stableId": "System.Data.Common:System.Data.RowNotInTableException::.ctor():void",
             "metadataToken": 100664869,
@@ -26262,17 +25650,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Data.Common:System.Data.StrongTypingException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100666946,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.StrongTypingException",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
             "stableId": "System.Data.Common:System.Data.StrongTypingException::.ctor():void",
             "metadataToken": 100666947,
             "canonicalSignature": "():void",
@@ -26355,17 +25732,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.SyntaxErrorException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100667108,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.SyntaxErrorException",
-            "ownerIdentity": "System.Data.Common"
-          },
           {
             "stableId": "System.Data.Common:System.Data.SyntaxErrorException::.ctor():void",
             "metadataToken": 100667109,
@@ -26780,30 +26146,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.TypedTableBase`1::.ctor():void",
-            "metadataToken": 100666950,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.TypedTableBase`1",
-            "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.TypedTableBase`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100666951,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.TypedTableBase`1",
-            "ownerIdentity": "System.Data.Common"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Data.Common:System.Data.UniqueConstraint",
@@ -27073,17 +26416,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Data.Common:System.Data.VersionNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664872,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.VersionNotFoundException",
-            "ownerIdentity": "System.Data.Common"
-          },
           {
             "stableId": "System.Data.Common:System.Data.VersionNotFoundException::.ctor():void",
             "metadataToken": 100664873,

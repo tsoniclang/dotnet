@@ -14,7 +14,7 @@ import type { NameObjectCollectionBase_KeysCollection, NameValueCollection, Stri
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
 import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { AsyncCompletedEventArgs, AsyncCompletedEventHandler, Component, EventHandlerList, IComponent, IContainer, ISite, ProgressChangedEventArgs, Win32Exception } from "../../System.ComponentModel/internal/index.js";
+import type { AsyncCompletedEventArgs, AsyncCompletedEventHandler, Component, IComponent, IContainer, ISite, ProgressChangedEventArgs, Win32Exception } from "../../System.ComponentModel/internal/index.js";
 import type { BinaryReader, BinaryWriter, Stream, TextWriter } from "../../System.IO/internal/index.js";
 import type { RequestCachePolicy } from "../../System.Net.Cache/internal/index.js";
 import type { AuthenticationLevel, EncryptionPolicy, RemoteCertificateValidationCallback } from "../../System.Net.Security/internal/index.js";
@@ -33,261 +33,279 @@ import type { Encoding } from "../../System.Text/internal/index.js";
 import type { Task, Task_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, Delegate, Enum, EventArgs, Exception, FormatException, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, InvalidOperationException, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, DateTime, Decimal, Delegate, Enum, EventArgs, Exception, FormatException, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, InvalidOperationException, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from "../../System/internal/index.js";
 
-export enum AuthenticationSchemes {
-    None = 0,
-    Digest = 1,
-    Negotiate = 2,
-    Ntlm = 4,
-    Basic = 8,
-    Anonymous = 32768,
-    IntegratedWindowsAuthentication = 6
-}
+export type AuthenticationSchemes = number & { readonly __tsonic_type_System_Net_AuthenticationSchemes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum CookieVariant {
-    Unknown = 0,
-    Plain = 1,
-    Rfc2109 = 2,
-    Rfc2965 = 3,
-    Default = 2
-}
+export const AuthenticationSchemes: {
+    readonly None: AuthenticationSchemes;
+    readonly Digest: AuthenticationSchemes;
+    readonly Negotiate: AuthenticationSchemes;
+    readonly Ntlm: AuthenticationSchemes;
+    readonly Basic: AuthenticationSchemes;
+    readonly Anonymous: AuthenticationSchemes;
+    readonly IntegratedWindowsAuthentication: AuthenticationSchemes;
+};
 
 
-export enum DecompressionMethods {
-    None = 0,
-    GZip = 1,
-    Deflate = 2,
-    Brotli = 4,
-    All = -1
-}
+export type CookieVariant = number & { readonly __tsonic_type_System_Net_CookieVariant: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CookieVariant: {
+    readonly Unknown: CookieVariant;
+    readonly Plain: CookieVariant;
+    readonly Rfc2109: CookieVariant;
+    readonly Rfc2965: CookieVariant;
+    readonly Default: CookieVariant;
+};
 
 
-export enum FtpStatusCode {
-    Undefined = 0,
-    RestartMarker = 110,
-    ServiceTemporarilyNotAvailable = 120,
-    DataAlreadyOpen = 125,
-    OpeningData = 150,
-    CommandOK = 200,
-    CommandExtraneous = 202,
-    DirectoryStatus = 212,
-    FileStatus = 213,
-    SystemType = 215,
-    SendUserCommand = 220,
-    ClosingControl = 221,
-    ClosingData = 226,
-    EnteringPassive = 227,
-    LoggedInProceed = 230,
-    ServerWantsSecureSession = 234,
-    FileActionOK = 250,
-    PathnameCreated = 257,
-    SendPasswordCommand = 331,
-    NeedLoginAccount = 332,
-    FileCommandPending = 350,
-    ServiceNotAvailable = 421,
-    CantOpenData = 425,
-    ConnectionClosed = 426,
-    ActionNotTakenFileUnavailableOrBusy = 450,
-    ActionAbortedLocalProcessingError = 451,
-    ActionNotTakenInsufficientSpace = 452,
-    CommandSyntaxError = 500,
-    ArgumentSyntaxError = 501,
-    CommandNotImplemented = 502,
-    BadCommandSequence = 503,
-    NotLoggedIn = 530,
-    AccountNeeded = 532,
-    ActionNotTakenFileUnavailable = 550,
-    ActionAbortedUnknownPageType = 551,
-    FileActionAborted = 552,
-    ActionNotTakenFilenameNotAllowed = 553
-}
+export type DecompressionMethods = number & { readonly __tsonic_type_System_Net_DecompressionMethods: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DecompressionMethods: {
+    readonly None: DecompressionMethods;
+    readonly GZip: DecompressionMethods;
+    readonly Deflate: DecompressionMethods;
+    readonly Brotli: DecompressionMethods;
+    readonly All: DecompressionMethods;
+};
 
 
-export enum HttpRequestHeader {
-    CacheControl = 0,
-    Connection = 1,
-    Date = 2,
-    KeepAlive = 3,
-    Pragma = 4,
-    Trailer = 5,
-    TransferEncoding = 6,
-    Upgrade = 7,
-    Via = 8,
-    Warning = 9,
-    Allow = 10,
-    ContentLength = 11,
-    ContentType = 12,
-    ContentEncoding = 13,
-    ContentLanguage = 14,
-    ContentLocation = 15,
-    ContentMd5 = 16,
-    ContentRange = 17,
-    Expires = 18,
-    LastModified = 19,
-    Accept = 20,
-    AcceptCharset = 21,
-    AcceptEncoding = 22,
-    AcceptLanguage = 23,
-    Authorization = 24,
-    Cookie = 25,
-    Expect = 26,
-    From = 27,
-    Host = 28,
-    IfMatch = 29,
-    IfModifiedSince = 30,
-    IfNoneMatch = 31,
-    IfRange = 32,
-    IfUnmodifiedSince = 33,
-    MaxForwards = 34,
-    ProxyAuthorization = 35,
-    Referer = 36,
-    Range = 37,
-    Te = 38,
-    Translate = 39,
-    UserAgent = 40
-}
+export type FtpStatusCode = number & { readonly __tsonic_type_System_Net_FtpStatusCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FtpStatusCode: {
+    readonly Undefined: FtpStatusCode;
+    readonly RestartMarker: FtpStatusCode;
+    readonly ServiceTemporarilyNotAvailable: FtpStatusCode;
+    readonly DataAlreadyOpen: FtpStatusCode;
+    readonly OpeningData: FtpStatusCode;
+    readonly CommandOK: FtpStatusCode;
+    readonly CommandExtraneous: FtpStatusCode;
+    readonly DirectoryStatus: FtpStatusCode;
+    readonly FileStatus: FtpStatusCode;
+    readonly SystemType: FtpStatusCode;
+    readonly SendUserCommand: FtpStatusCode;
+    readonly ClosingControl: FtpStatusCode;
+    readonly ClosingData: FtpStatusCode;
+    readonly EnteringPassive: FtpStatusCode;
+    readonly LoggedInProceed: FtpStatusCode;
+    readonly ServerWantsSecureSession: FtpStatusCode;
+    readonly FileActionOK: FtpStatusCode;
+    readonly PathnameCreated: FtpStatusCode;
+    readonly SendPasswordCommand: FtpStatusCode;
+    readonly NeedLoginAccount: FtpStatusCode;
+    readonly FileCommandPending: FtpStatusCode;
+    readonly ServiceNotAvailable: FtpStatusCode;
+    readonly CantOpenData: FtpStatusCode;
+    readonly ConnectionClosed: FtpStatusCode;
+    readonly ActionNotTakenFileUnavailableOrBusy: FtpStatusCode;
+    readonly ActionAbortedLocalProcessingError: FtpStatusCode;
+    readonly ActionNotTakenInsufficientSpace: FtpStatusCode;
+    readonly CommandSyntaxError: FtpStatusCode;
+    readonly ArgumentSyntaxError: FtpStatusCode;
+    readonly CommandNotImplemented: FtpStatusCode;
+    readonly BadCommandSequence: FtpStatusCode;
+    readonly NotLoggedIn: FtpStatusCode;
+    readonly AccountNeeded: FtpStatusCode;
+    readonly ActionNotTakenFileUnavailable: FtpStatusCode;
+    readonly ActionAbortedUnknownPageType: FtpStatusCode;
+    readonly FileActionAborted: FtpStatusCode;
+    readonly ActionNotTakenFilenameNotAllowed: FtpStatusCode;
+};
 
 
-export enum HttpResponseHeader {
-    CacheControl = 0,
-    Connection = 1,
-    Date = 2,
-    KeepAlive = 3,
-    Pragma = 4,
-    Trailer = 5,
-    TransferEncoding = 6,
-    Upgrade = 7,
-    Via = 8,
-    Warning = 9,
-    Allow = 10,
-    ContentLength = 11,
-    ContentType = 12,
-    ContentEncoding = 13,
-    ContentLanguage = 14,
-    ContentLocation = 15,
-    ContentMd5 = 16,
-    ContentRange = 17,
-    Expires = 18,
-    LastModified = 19,
-    AcceptRanges = 20,
-    Age = 21,
-    ETag = 22,
-    Location = 23,
-    ProxyAuthenticate = 24,
-    RetryAfter = 25,
-    Server = 26,
-    SetCookie = 27,
-    Vary = 28,
-    WwwAuthenticate = 29
-}
+export type HttpRequestHeader = number & { readonly __tsonic_type_System_Net_HttpRequestHeader: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HttpRequestHeader: {
+    readonly CacheControl: HttpRequestHeader;
+    readonly Connection: HttpRequestHeader;
+    readonly Date: HttpRequestHeader;
+    readonly KeepAlive: HttpRequestHeader;
+    readonly Pragma: HttpRequestHeader;
+    readonly Trailer: HttpRequestHeader;
+    readonly TransferEncoding: HttpRequestHeader;
+    readonly Upgrade: HttpRequestHeader;
+    readonly Via: HttpRequestHeader;
+    readonly Warning: HttpRequestHeader;
+    readonly Allow: HttpRequestHeader;
+    readonly ContentLength: HttpRequestHeader;
+    readonly ContentType: HttpRequestHeader;
+    readonly ContentEncoding: HttpRequestHeader;
+    readonly ContentLanguage: HttpRequestHeader;
+    readonly ContentLocation: HttpRequestHeader;
+    readonly ContentMd5: HttpRequestHeader;
+    readonly ContentRange: HttpRequestHeader;
+    readonly Expires: HttpRequestHeader;
+    readonly LastModified: HttpRequestHeader;
+    readonly Accept: HttpRequestHeader;
+    readonly AcceptCharset: HttpRequestHeader;
+    readonly AcceptEncoding: HttpRequestHeader;
+    readonly AcceptLanguage: HttpRequestHeader;
+    readonly Authorization: HttpRequestHeader;
+    readonly Cookie: HttpRequestHeader;
+    readonly Expect: HttpRequestHeader;
+    readonly From: HttpRequestHeader;
+    readonly Host: HttpRequestHeader;
+    readonly IfMatch: HttpRequestHeader;
+    readonly IfModifiedSince: HttpRequestHeader;
+    readonly IfNoneMatch: HttpRequestHeader;
+    readonly IfRange: HttpRequestHeader;
+    readonly IfUnmodifiedSince: HttpRequestHeader;
+    readonly MaxForwards: HttpRequestHeader;
+    readonly ProxyAuthorization: HttpRequestHeader;
+    readonly Referer: HttpRequestHeader;
+    readonly Range: HttpRequestHeader;
+    readonly Te: HttpRequestHeader;
+    readonly Translate: HttpRequestHeader;
+    readonly UserAgent: HttpRequestHeader;
+};
 
 
-export enum HttpStatusCode {
-    Continue = 100,
-    SwitchingProtocols = 101,
-    Processing = 102,
-    EarlyHints = 103,
-    OK = 200,
-    Created = 201,
-    Accepted = 202,
-    NonAuthoritativeInformation = 203,
-    NoContent = 204,
-    ResetContent = 205,
-    PartialContent = 206,
-    MultiStatus = 207,
-    AlreadyReported = 208,
-    IMUsed = 226,
-    MultipleChoices = 300,
-    Ambiguous = 300,
-    MovedPermanently = 301,
-    Moved = 301,
-    Found = 302,
-    Redirect = 302,
-    SeeOther = 303,
-    RedirectMethod = 303,
-    NotModified = 304,
-    UseProxy = 305,
-    Unused = 306,
-    TemporaryRedirect = 307,
-    RedirectKeepVerb = 307,
-    PermanentRedirect = 308,
-    BadRequest = 400,
-    Unauthorized = 401,
-    PaymentRequired = 402,
-    Forbidden = 403,
-    NotFound = 404,
-    MethodNotAllowed = 405,
-    NotAcceptable = 406,
-    ProxyAuthenticationRequired = 407,
-    RequestTimeout = 408,
-    Conflict = 409,
-    Gone = 410,
-    LengthRequired = 411,
-    PreconditionFailed = 412,
-    RequestEntityTooLarge = 413,
-    RequestUriTooLong = 414,
-    UnsupportedMediaType = 415,
-    RequestedRangeNotSatisfiable = 416,
-    ExpectationFailed = 417,
-    MisdirectedRequest = 421,
-    UnprocessableEntity = 422,
-    UnprocessableContent = 422,
-    Locked = 423,
-    FailedDependency = 424,
-    UpgradeRequired = 426,
-    PreconditionRequired = 428,
-    TooManyRequests = 429,
-    RequestHeaderFieldsTooLarge = 431,
-    UnavailableForLegalReasons = 451,
-    InternalServerError = 500,
-    NotImplemented = 501,
-    BadGateway = 502,
-    ServiceUnavailable = 503,
-    GatewayTimeout = 504,
-    HttpVersionNotSupported = 505,
-    VariantAlsoNegotiates = 506,
-    InsufficientStorage = 507,
-    LoopDetected = 508,
-    NotExtended = 510,
-    NetworkAuthenticationRequired = 511
-}
+export type HttpResponseHeader = number & { readonly __tsonic_type_System_Net_HttpResponseHeader: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HttpResponseHeader: {
+    readonly CacheControl: HttpResponseHeader;
+    readonly Connection: HttpResponseHeader;
+    readonly Date: HttpResponseHeader;
+    readonly KeepAlive: HttpResponseHeader;
+    readonly Pragma: HttpResponseHeader;
+    readonly Trailer: HttpResponseHeader;
+    readonly TransferEncoding: HttpResponseHeader;
+    readonly Upgrade: HttpResponseHeader;
+    readonly Via: HttpResponseHeader;
+    readonly Warning: HttpResponseHeader;
+    readonly Allow: HttpResponseHeader;
+    readonly ContentLength: HttpResponseHeader;
+    readonly ContentType: HttpResponseHeader;
+    readonly ContentEncoding: HttpResponseHeader;
+    readonly ContentLanguage: HttpResponseHeader;
+    readonly ContentLocation: HttpResponseHeader;
+    readonly ContentMd5: HttpResponseHeader;
+    readonly ContentRange: HttpResponseHeader;
+    readonly Expires: HttpResponseHeader;
+    readonly LastModified: HttpResponseHeader;
+    readonly AcceptRanges: HttpResponseHeader;
+    readonly Age: HttpResponseHeader;
+    readonly ETag: HttpResponseHeader;
+    readonly Location: HttpResponseHeader;
+    readonly ProxyAuthenticate: HttpResponseHeader;
+    readonly RetryAfter: HttpResponseHeader;
+    readonly Server: HttpResponseHeader;
+    readonly SetCookie: HttpResponseHeader;
+    readonly Vary: HttpResponseHeader;
+    readonly WwwAuthenticate: HttpResponseHeader;
+};
 
 
-export enum SecurityProtocolType {
-    SystemDefault = 0,
-    Ssl3 = 48,
-    Tls = 192,
-    Tls11 = 768,
-    Tls12 = 3072,
-    Tls13 = 12288
-}
+export type HttpStatusCode = number & { readonly __tsonic_type_System_Net_HttpStatusCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HttpStatusCode: {
+    readonly Continue: HttpStatusCode;
+    readonly SwitchingProtocols: HttpStatusCode;
+    readonly Processing: HttpStatusCode;
+    readonly EarlyHints: HttpStatusCode;
+    readonly OK: HttpStatusCode;
+    readonly Created: HttpStatusCode;
+    readonly Accepted: HttpStatusCode;
+    readonly NonAuthoritativeInformation: HttpStatusCode;
+    readonly NoContent: HttpStatusCode;
+    readonly ResetContent: HttpStatusCode;
+    readonly PartialContent: HttpStatusCode;
+    readonly MultiStatus: HttpStatusCode;
+    readonly AlreadyReported: HttpStatusCode;
+    readonly IMUsed: HttpStatusCode;
+    readonly MultipleChoices: HttpStatusCode;
+    readonly Ambiguous: HttpStatusCode;
+    readonly MovedPermanently: HttpStatusCode;
+    readonly Moved: HttpStatusCode;
+    readonly Found: HttpStatusCode;
+    readonly Redirect: HttpStatusCode;
+    readonly SeeOther: HttpStatusCode;
+    readonly RedirectMethod: HttpStatusCode;
+    readonly NotModified: HttpStatusCode;
+    readonly UseProxy: HttpStatusCode;
+    readonly Unused: HttpStatusCode;
+    readonly TemporaryRedirect: HttpStatusCode;
+    readonly RedirectKeepVerb: HttpStatusCode;
+    readonly PermanentRedirect: HttpStatusCode;
+    readonly BadRequest: HttpStatusCode;
+    readonly Unauthorized: HttpStatusCode;
+    readonly PaymentRequired: HttpStatusCode;
+    readonly Forbidden: HttpStatusCode;
+    readonly NotFound: HttpStatusCode;
+    readonly MethodNotAllowed: HttpStatusCode;
+    readonly NotAcceptable: HttpStatusCode;
+    readonly ProxyAuthenticationRequired: HttpStatusCode;
+    readonly RequestTimeout: HttpStatusCode;
+    readonly Conflict: HttpStatusCode;
+    readonly Gone: HttpStatusCode;
+    readonly LengthRequired: HttpStatusCode;
+    readonly PreconditionFailed: HttpStatusCode;
+    readonly RequestEntityTooLarge: HttpStatusCode;
+    readonly RequestUriTooLong: HttpStatusCode;
+    readonly UnsupportedMediaType: HttpStatusCode;
+    readonly RequestedRangeNotSatisfiable: HttpStatusCode;
+    readonly ExpectationFailed: HttpStatusCode;
+    readonly MisdirectedRequest: HttpStatusCode;
+    readonly UnprocessableEntity: HttpStatusCode;
+    readonly UnprocessableContent: HttpStatusCode;
+    readonly Locked: HttpStatusCode;
+    readonly FailedDependency: HttpStatusCode;
+    readonly UpgradeRequired: HttpStatusCode;
+    readonly PreconditionRequired: HttpStatusCode;
+    readonly TooManyRequests: HttpStatusCode;
+    readonly RequestHeaderFieldsTooLarge: HttpStatusCode;
+    readonly UnavailableForLegalReasons: HttpStatusCode;
+    readonly InternalServerError: HttpStatusCode;
+    readonly NotImplemented: HttpStatusCode;
+    readonly BadGateway: HttpStatusCode;
+    readonly ServiceUnavailable: HttpStatusCode;
+    readonly GatewayTimeout: HttpStatusCode;
+    readonly HttpVersionNotSupported: HttpStatusCode;
+    readonly VariantAlsoNegotiates: HttpStatusCode;
+    readonly InsufficientStorage: HttpStatusCode;
+    readonly LoopDetected: HttpStatusCode;
+    readonly NotExtended: HttpStatusCode;
+    readonly NetworkAuthenticationRequired: HttpStatusCode;
+};
 
 
-export enum WebExceptionStatus {
-    Success = 0,
-    NameResolutionFailure = 1,
-    ConnectFailure = 2,
-    ReceiveFailure = 3,
-    SendFailure = 4,
-    PipelineFailure = 5,
-    RequestCanceled = 6,
-    ProtocolError = 7,
-    ConnectionClosed = 8,
-    TrustFailure = 9,
-    SecureChannelFailure = 10,
-    ServerProtocolViolation = 11,
-    KeepAliveFailure = 12,
-    Pending = 13,
-    Timeout = 14,
-    ProxyNameResolutionFailure = 15,
-    UnknownError = 16,
-    MessageLengthLimitExceeded = 17,
-    CacheEntryNotFound = 18,
-    RequestProhibitedByCachePolicy = 19,
-    RequestProhibitedByProxy = 20
-}
+export type SecurityProtocolType = number & { readonly __tsonic_type_System_Net_SecurityProtocolType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SecurityProtocolType: {
+    readonly SystemDefault: SecurityProtocolType;
+    readonly Ssl3: SecurityProtocolType;
+    readonly Tls: SecurityProtocolType;
+    readonly Tls11: SecurityProtocolType;
+    readonly Tls12: SecurityProtocolType;
+    readonly Tls13: SecurityProtocolType;
+};
+
+
+export type WebExceptionStatus = number & { readonly __tsonic_type_System_Net_WebExceptionStatus: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const WebExceptionStatus: {
+    readonly Success: WebExceptionStatus;
+    readonly NameResolutionFailure: WebExceptionStatus;
+    readonly ConnectFailure: WebExceptionStatus;
+    readonly ReceiveFailure: WebExceptionStatus;
+    readonly SendFailure: WebExceptionStatus;
+    readonly PipelineFailure: WebExceptionStatus;
+    readonly RequestCanceled: WebExceptionStatus;
+    readonly ProtocolError: WebExceptionStatus;
+    readonly ConnectionClosed: WebExceptionStatus;
+    readonly TrustFailure: WebExceptionStatus;
+    readonly SecureChannelFailure: WebExceptionStatus;
+    readonly ServerProtocolViolation: WebExceptionStatus;
+    readonly KeepAliveFailure: WebExceptionStatus;
+    readonly Pending: WebExceptionStatus;
+    readonly Timeout: WebExceptionStatus;
+    readonly ProxyNameResolutionFailure: WebExceptionStatus;
+    readonly UnknownError: WebExceptionStatus;
+    readonly MessageLengthLimitExceeded: WebExceptionStatus;
+    readonly CacheEntryNotFound: WebExceptionStatus;
+    readonly RequestProhibitedByCachePolicy: WebExceptionStatus;
+    readonly RequestProhibitedByProxy: WebExceptionStatus;
+};
 
 
 export type AuthenticationSchemeSelector = (httpRequest: HttpListenerRequest) => AuthenticationSchemes;
@@ -403,8 +421,9 @@ export interface IWebRequestCreate$instance {
 
 export type IWebRequestCreate = IWebRequestCreate$instance;
 
-export interface IPNetwork$instance extends System_Internal.ISpanParsable_1$instance<IPNetwork> {
+export interface IPNetwork$instance {
     readonly __tsonic_type_System_Net_IPNetwork: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
     readonly __tsonic_iface_System_IFormattable: never;
@@ -417,8 +436,8 @@ export interface IPNetwork$instance extends System_Internal.ISpanParsable_1$inst
     readonly BaseAddress: IPAddress;
     readonly PrefixLength: int;
     Contains(address: IPAddress): boolean;
-    Equals(other: IPNetwork): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(other: IPNetwork): boolean;
     GetHashCode(): int;
     ToString(): string;
     TryFormat(destination: Span_1<System_Internal.Char>, charsWritten: int): boolean;
@@ -448,7 +467,7 @@ export interface __IPNetwork$views {
 
     // Structural method bridges for numeric interface constraints
     Equals(other: IPNetwork): boolean;
-    TryFormat(utf8Destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>, bytesWritten: int, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").Char>, provider: import("../../System/internal/index").IFormatProvider): boolean;
+    TryFormat(utf8Destination: import("../../System/internal/index.js").Span_1<import("../../System/internal/index.js").Byte>, bytesWritten: int, format: import("../../System/internal/index.js").ReadOnlySpan_1<import("../../System/internal/index.js").Char>, provider: import("../../System/internal/index.js").IFormatProvider): boolean;
 }
 
 export type IPNetwork = IPNetwork$instance & __IPNetwork$views;
@@ -478,7 +497,7 @@ export type AuthenticationManager = AuthenticationManager$instance;
 export interface Authorization$instance {
     readonly __tsonic_type_System_Net_Authorization: never;
 
-    Complete: boolean;
+    readonly Complete: boolean;
     readonly ConnectionGroupId: string | null;
     readonly Message: string | null;
     MutuallyAuthenticated: boolean;
@@ -602,12 +621,15 @@ export const CookieContainer: {
 
 export type CookieContainer = CookieContainer$instance;
 
-export interface CookieException$instance extends FormatException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface CookieException$instance extends System_Internal.FormatException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_FormatException: never;
     readonly __tsonic_type_System_Net_CookieException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    GetObjectData: System_Internal.FormatException$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
 }
 
 
@@ -632,13 +654,13 @@ export interface CredentialCache$instance {
     readonly __tsonic_iface_System_Net_ICredentials: never;
     readonly __tsonic_iface_System_Net_ICredentialsByHost: never;
 
-    Add(uriPrefix: Uri, authType: string, cred: NetworkCredential): void;
     Add(host: string, port: int, authenticationType: string, credential: NetworkCredential): void;
-    GetCredential(uriPrefix: Uri, authType: string): NetworkCredential;
+    Add(uriPrefix: Uri, authType: string, cred: NetworkCredential): void;
     GetCredential(host: string, port: int, authenticationType: string): NetworkCredential;
+    GetCredential(uriPrefix: Uri, authType: string): NetworkCredential;
     GetEnumerator(): IEnumerator;
-    Remove(uriPrefix: Uri | null, authType: string | null): void;
     Remove(host: string | null, port: int, authenticationType: string | null): void;
+    Remove(uriPrefix: Uri | null, authType: string | null): void;
 }
 
 
@@ -658,10 +680,10 @@ export interface __CredentialCache$views {
 export type CredentialCache = CredentialCache$instance & __CredentialCache$views;
 
 
-export interface DnsEndPoint$instance extends EndPoint {
+export interface DnsEndPoint$instance extends EndPoint$instance {
     readonly __tsonic_type_System_Net_DnsEndPoint: never;
+    readonly __tsonic_type_System_Net_EndPoint: never;
 
-    readonly AddressFamily: AddressFamily;
     readonly Host: string;
     readonly Port: int;
     Equals(comparand: unknown | null): boolean;
@@ -678,7 +700,9 @@ export const DnsEndPoint: {
 
 export type DnsEndPoint = DnsEndPoint$instance;
 
-export interface DownloadDataCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+export interface DownloadDataCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_AsyncCompletedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_DownloadDataCompletedEventArgs: never;
 
     readonly Result: byte[];
@@ -691,7 +715,9 @@ export const DownloadDataCompletedEventArgs: {
 
 export type DownloadDataCompletedEventArgs = DownloadDataCompletedEventArgs$instance;
 
-export interface DownloadProgressChangedEventArgs$instance extends ProgressChangedEventArgs {
+export interface DownloadProgressChangedEventArgs$instance extends System_ComponentModel_Internal.ProgressChangedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_ProgressChangedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_DownloadProgressChangedEventArgs: never;
 
     readonly BytesReceived: long;
@@ -705,7 +731,9 @@ export const DownloadProgressChangedEventArgs: {
 
 export type DownloadProgressChangedEventArgs = DownloadProgressChangedEventArgs$instance;
 
-export interface DownloadStringCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+export interface DownloadStringCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_AsyncCompletedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_DownloadStringCompletedEventArgs: never;
 
     readonly Result: string;
@@ -727,46 +755,33 @@ export interface EndPoint$instance {
 }
 
 
-export const EndPoint: (abstract new() => EndPoint) & {
+export const EndPoint: {
 };
 
 
 export type EndPoint = EndPoint$instance;
 
-export interface FileWebRequest$instance extends WebRequest$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface FileWebRequest$instance extends WebRequest$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_FileWebRequest: never;
+    readonly __tsonic_type_System_Net_WebRequest: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    get ConnectionGroupName(): string | null;
-    set ConnectionGroupName(value: string | null);
-    ContentLength: long;
-    get ContentType(): string | null;
-    set ContentType(value: string | null);
-    get Credentials(): ICredentials | null;
-    set Credentials(value: ICredentials | null);
-    readonly Headers: WebHeaderCollection;
-    Method: string;
-    PreAuthenticate: boolean;
-    get Proxy(): IWebProxy | null;
-    set Proxy(value: IWebProxy | null);
-    readonly RequestUri: Uri;
-    Timeout: int;
-    UseDefaultCredentials: boolean;
-    Abort(): void;
-    BeginGetRequestStream(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginGetResponse(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    EndGetRequestStream(asyncResult: IAsyncResult): Stream;
-    EndGetResponse(asyncResult: IAsyncResult): WebResponse;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-    GetRequestStream(): Stream;
-    GetRequestStreamAsync(): Task_1<Stream>;
-    GetResponse(): WebResponse;
-    GetResponseAsync(): Task_1<WebResponse>;
+    Abort: WebRequest$instance["Abort"] & (() => void);
+    BeginGetRequestStream: WebRequest$instance["BeginGetRequestStream"] & ((callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    BeginGetResponse: WebRequest$instance["BeginGetResponse"] & ((callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    EndGetRequestStream: WebRequest$instance["EndGetRequestStream"] & ((asyncResult: IAsyncResult) => Stream);
+    EndGetResponse: WebRequest$instance["EndGetResponse"] & ((asyncResult: IAsyncResult) => WebResponse);
+    GetObjectData: WebRequest$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
+    GetRequestStream: WebRequest$instance["GetRequestStream"] & (() => Stream);
+    GetRequestStreamAsync: WebRequest$instance["GetRequestStreamAsync"] & (() => Task_1<Stream>);
+    GetResponse: WebRequest$instance["GetResponse"] & (() => WebResponse);
+    GetResponseAsync: WebRequest$instance["GetResponseAsync"] & (() => Task_1<WebResponse>);
 }
 
 
-export const FileWebRequest: (abstract new(serializationInfo: SerializationInfo, streamingContext: StreamingContext) => FileWebRequest) & {
+export const FileWebRequest: {
 };
 
 
@@ -777,24 +792,21 @@ export interface __FileWebRequest$views {
 export type FileWebRequest = FileWebRequest$instance & __FileWebRequest$views;
 
 
-export interface FileWebResponse$instance extends WebResponse$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface FileWebResponse$instance extends WebResponse$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_FileWebResponse: never;
+    readonly __tsonic_type_System_Net_WebResponse: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly ContentLength: long;
-    readonly ContentType: string;
-    readonly Headers: WebHeaderCollection;
-    readonly ResponseUri: Uri;
-    readonly SupportsHeaders: boolean;
-    Close(): void;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-    GetResponseStream(): Stream;
+    Close: WebResponse$instance["Close"] & (() => void);
+    GetObjectData: WebResponse$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
+    GetResponseStream: WebResponse$instance["GetResponseStream"] & (() => Stream);
 }
 
 
-export const FileWebResponse: (abstract new(serializationInfo: SerializationInfo, streamingContext: StreamingContext) => FileWebResponse) & {
+export const FileWebResponse: {
 };
 
 
@@ -806,45 +818,30 @@ export interface __FileWebResponse$views {
 export type FileWebResponse = FileWebResponse$instance & __FileWebResponse$views;
 
 
-export interface FtpWebRequest$instance extends WebRequest$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface FtpWebRequest$instance extends WebRequest$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_FtpWebRequest: never;
+    readonly __tsonic_type_System_Net_WebRequest: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    get CachePolicy(): RequestCachePolicy | null;
-    set CachePolicy(value: RequestCachePolicy | null);
     ClientCertificates: X509CertificateCollection;
-    get ConnectionGroupName(): string | null;
-    set ConnectionGroupName(value: string | null);
-    ContentLength: long;
     ContentOffset: long;
-    get ContentType(): string | null;
-    set ContentType(value: string | null);
-    get Credentials(): ICredentials | null;
-    set Credentials(value: ICredentials | null);
     EnableSsl: boolean;
-    Headers: WebHeaderCollection;
     KeepAlive: boolean;
-    Method: string;
-    PreAuthenticate: boolean;
-    get Proxy(): IWebProxy | null;
-    set Proxy(value: IWebProxy | null);
     ReadWriteTimeout: int;
     get RenameTo(): string | null;
     set RenameTo(value: string | null);
-    readonly RequestUri: Uri;
     readonly ServicePoint: ServicePoint;
-    Timeout: int;
     UseBinary: boolean;
-    UseDefaultCredentials: boolean;
     UsePassive: boolean;
-    Abort(): void;
-    BeginGetRequestStream(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginGetResponse(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    EndGetRequestStream(asyncResult: IAsyncResult): Stream;
-    EndGetResponse(asyncResult: IAsyncResult): WebResponse;
-    GetRequestStream(): Stream;
-    GetResponse(): WebResponse;
+    Abort: WebRequest$instance["Abort"] & (() => void);
+    BeginGetRequestStream: WebRequest$instance["BeginGetRequestStream"] & ((callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    BeginGetResponse: WebRequest$instance["BeginGetResponse"] & ((callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    EndGetRequestStream: WebRequest$instance["EndGetRequestStream"] & ((asyncResult: IAsyncResult) => Stream);
+    EndGetResponse: WebRequest$instance["EndGetResponse"] & ((asyncResult: IAsyncResult) => WebResponse);
+    GetRequestStream: WebRequest$instance["GetRequestStream"] & (() => Stream);
+    GetResponse: WebRequest$instance["GetResponse"] & (() => WebResponse);
 }
 
 
@@ -861,24 +858,22 @@ export interface __FtpWebRequest$views {
 export type FtpWebRequest = FtpWebRequest$instance & __FtpWebRequest$views;
 
 
-export interface FtpWebResponse$instance extends WebResponse$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface FtpWebResponse$instance extends WebResponse$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_FtpWebResponse: never;
+    readonly __tsonic_type_System_Net_WebResponse: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly BannerMessage: string | null;
-    readonly ContentLength: long;
     readonly ExitMessage: string | null;
-    readonly Headers: WebHeaderCollection;
     readonly LastModified: DateTime;
-    readonly ResponseUri: Uri;
     readonly StatusCode: FtpStatusCode;
     readonly StatusDescription: string | null;
-    readonly SupportsHeaders: boolean;
     readonly WelcomeMessage: string | null;
-    Close(): void;
-    GetResponseStream(): Stream;
+    Close: WebResponse$instance["Close"] & (() => void);
+    GetResponseStream: WebResponse$instance["GetResponseStream"] & (() => Stream);
 }
 
 
@@ -909,7 +904,7 @@ export const GlobalProxySelection: {
 
 export type GlobalProxySelection = GlobalProxySelection$instance;
 
-export interface HttpListener$instance extends System_Internal.IDisposable$instance {
+export interface HttpListener$instance {
     readonly __tsonic_type_System_Net_HttpListener: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -955,8 +950,10 @@ export type HttpListener = HttpListener$instance & __HttpListener$views;
 export type HttpListener_ExtendedProtectionSelector = (request: HttpListenerRequest) => ExtendedProtectionPolicy;
 
 
-export interface HttpListenerBasicIdentity$instance extends GenericIdentity {
+export interface HttpListenerBasicIdentity$instance extends System_Security_Principal_Internal.GenericIdentity$instance {
     readonly __tsonic_type_System_Net_HttpListenerBasicIdentity: never;
+    readonly __tsonic_type_System_Security_Claims_ClaimsIdentity: never;
+    readonly __tsonic_type_System_Security_Principal_GenericIdentity: never;
 
     readonly __tsonic_iface_System_Security_Principal_IIdentity: never;
 
@@ -995,12 +992,15 @@ export const HttpListenerContext: {
 
 export type HttpListenerContext = HttpListenerContext$instance;
 
-export interface HttpListenerException$instance extends Win32Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface HttpListenerException$instance extends System_ComponentModel_Internal.Win32Exception$instance {
+    readonly __tsonic_type_System_ComponentModel_Win32Exception: never;
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Net_HttpListenerException: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_ExternalException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly ErrorCode: int;
 }
 
 
@@ -1096,7 +1096,7 @@ export const HttpListenerRequest: {
 
 export type HttpListenerRequest = HttpListenerRequest$instance;
 
-export interface HttpListenerResponse$instance extends System_Internal.IDisposable$instance {
+export interface HttpListenerResponse$instance {
     readonly __tsonic_type_System_Net_HttpListenerResponse: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1157,8 +1157,10 @@ export const HttpListenerTimeoutManager: {
 
 export type HttpListenerTimeoutManager = HttpListenerTimeoutManager$instance;
 
-export interface HttpWebRequest$instance extends WebRequest$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface HttpWebRequest$instance extends WebRequest$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_HttpWebRequest: never;
+    readonly __tsonic_type_System_Net_WebRequest: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1172,23 +1174,15 @@ export interface HttpWebRequest$instance extends WebRequest$instance, System_Run
     ClientCertificates: X509CertificateCollection;
     get Connection(): string | null;
     set Connection(value: string | null);
-    get ConnectionGroupName(): string | null;
-    set ConnectionGroupName(value: string | null);
-    ContentLength: long;
-    get ContentType(): string | null;
-    set ContentType(value: string | null);
     get ContinueDelegate(): HttpContinueDelegate | null;
     set ContinueDelegate(value: HttpContinueDelegate | null);
     ContinueTimeout: int;
     get CookieContainer(): CookieContainer | null;
     set CookieContainer(value: CookieContainer | null);
-    get Credentials(): ICredentials | null;
-    set Credentials(value: ICredentials | null);
     Date: DateTime;
     get Expect(): string | null;
     set Expect(value: string | null);
     readonly HaveResponse: boolean;
-    Headers: WebHeaderCollection;
     Host: string;
     IfModifiedSince: DateTime;
     KeepAlive: boolean;
@@ -1196,29 +1190,22 @@ export interface HttpWebRequest$instance extends WebRequest$instance, System_Run
     MaximumResponseHeadersLength: int;
     get MediaType(): string | null;
     set MediaType(value: string | null);
-    Method: string;
     Pipelined: boolean;
-    PreAuthenticate: boolean;
     ProtocolVersion: Version;
-    get Proxy(): IWebProxy | null;
-    set Proxy(value: IWebProxy | null);
     ReadWriteTimeout: int;
     get Referer(): string | null;
     set Referer(value: string | null);
-    readonly RequestUri: Uri;
     SendChunked: boolean;
     get ServerCertificateValidationCallback(): RemoteCertificateValidationCallback | null;
     set ServerCertificateValidationCallback(value: RemoteCertificateValidationCallback | null);
     readonly ServicePoint: ServicePoint;
     readonly SupportsCookieContainer: boolean;
-    Timeout: int;
     get TransferEncoding(): string | null;
     set TransferEncoding(value: string | null);
     UnsafeAuthenticatedConnectionSharing: boolean;
-    UseDefaultCredentials: boolean;
     get UserAgent(): string | null;
     set UserAgent(value: string | null);
-    Abort(): void;
+    Abort: WebRequest$instance["Abort"] & (() => void);
     AddRange(from: int, to: int): void;
     AddRange(from: long, to: long): void;
     AddRange(range: int): void;
@@ -1227,19 +1214,17 @@ export interface HttpWebRequest$instance extends WebRequest$instance, System_Run
     AddRange(rangeSpecifier: string, from: long, to: long): void;
     AddRange(rangeSpecifier: string, range: int): void;
     AddRange(rangeSpecifier: string, range: long): void;
-    BeginGetRequestStream(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginGetResponse(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    EndGetRequestStream(asyncResult: IAsyncResult, context: TransportContext | null): Stream;
-    EndGetRequestStream(asyncResult: IAsyncResult): Stream;
-    EndGetResponse(asyncResult: IAsyncResult): WebResponse;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-    GetRequestStream(): Stream;
-    GetRequestStream(context: TransportContext | null): Stream;
-    GetResponse(): WebResponse;
+    BeginGetRequestStream: WebRequest$instance["BeginGetRequestStream"] & ((callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    BeginGetResponse: WebRequest$instance["BeginGetResponse"] & ((callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    EndGetRequestStream: WebRequest$instance["EndGetRequestStream"] & ((asyncResult: IAsyncResult) => Stream) & ((asyncResult: IAsyncResult, context: TransportContext | null) => Stream);
+    EndGetResponse: WebRequest$instance["EndGetResponse"] & ((asyncResult: IAsyncResult) => WebResponse);
+    GetObjectData: WebRequest$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
+    GetRequestStream: WebRequest$instance["GetRequestStream"] & (() => Stream) & ((context: TransportContext | null) => Stream);
+    GetResponse: WebRequest$instance["GetResponse"] & (() => WebResponse);
 }
 
 
-export const HttpWebRequest: (abstract new(serializationInfo: SerializationInfo, streamingContext: StreamingContext) => HttpWebRequest) & {
+export const HttpWebRequest: {
     DefaultMaximumResponseHeadersLength: int;
     DefaultMaximumErrorResponseLength: int;
     get DefaultCachePolicy(): RequestCachePolicy | null;
@@ -1254,33 +1239,28 @@ export interface __HttpWebRequest$views {
 export type HttpWebRequest = HttpWebRequest$instance & __HttpWebRequest$views;
 
 
-export interface HttpWebResponse$instance extends WebResponse$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface HttpWebResponse$instance extends WebResponse$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_HttpWebResponse: never;
+    readonly __tsonic_type_System_Net_WebResponse: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly CharacterSet: string | null;
     readonly ContentEncoding: string;
-    readonly ContentLength: long;
-    readonly ContentType: string;
     Cookies: CookieCollection;
-    readonly Headers: WebHeaderCollection;
-    readonly IsMutuallyAuthenticated: boolean;
     readonly LastModified: DateTime;
     readonly Method: string;
     readonly ProtocolVersion: Version;
-    readonly ResponseUri: Uri;
     readonly Server: string;
     readonly StatusCode: HttpStatusCode;
     readonly StatusDescription: string;
-    readonly SupportsHeaders: boolean;
-    Close(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    Close: WebResponse$instance["Close"] & (() => void);
+    Dispose: WebResponse$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    GetObjectData: WebResponse$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
     GetResponseHeader(headerName: string): string;
-    GetResponseStream(): Stream;
+    GetResponseStream: WebResponse$instance["GetResponseStream"] & (() => Stream);
 }
 
 
@@ -1297,7 +1277,7 @@ export interface __HttpWebResponse$views {
 export type HttpWebResponse = HttpWebResponse$instance & __HttpWebResponse$views;
 
 
-export interface IPAddress$instance extends System_Internal.ISpanParsable_1$instance<IPAddress> {
+export interface IPAddress$instance {
     readonly __tsonic_type_System_Net_IPAddress: never;
 
     readonly __tsonic_iface_System_IFormattable: never;
@@ -1368,22 +1348,22 @@ export interface __IPAddress$views {
     As_IUtf8SpanParsable_1(): System_Internal.IUtf8SpanParsable_1$instance<IPAddress>;
 
     // Structural method bridges for numeric interface constraints
-    TryFormat(utf8Destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>, bytesWritten: int, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").Char>, provider: import("../../System/internal/index").IFormatProvider): boolean;
+    TryFormat(utf8Destination: import("../../System/internal/index.js").Span_1<import("../../System/internal/index.js").Byte>, bytesWritten: int, format: import("../../System/internal/index.js").ReadOnlySpan_1<import("../../System/internal/index.js").Char>, provider: import("../../System/internal/index.js").IFormatProvider): boolean;
 }
 
 export type IPAddress = IPAddress$instance & __IPAddress$views;
 
 
-export interface IPEndPoint$instance extends EndPoint {
+export interface IPEndPoint$instance extends EndPoint$instance {
+    readonly __tsonic_type_System_Net_EndPoint: never;
     readonly __tsonic_type_System_Net_IPEndPoint: never;
 
     Address: IPAddress;
-    readonly AddressFamily: AddressFamily;
     Port: int;
-    Create(socketAddress: SocketAddress): EndPoint;
+    Create: EndPoint$instance["Create"] & ((socketAddress: SocketAddress) => EndPoint);
     Equals(comparand: unknown | null): boolean;
     GetHashCode(): int;
-    Serialize(): SocketAddress;
+    Serialize: EndPoint$instance["Serialize"] & (() => SocketAddress);
     ToString(): string;
 }
 
@@ -1428,8 +1408,8 @@ export interface NetworkCredential$instance {
     Password: string;
     SecurePassword: SecureString;
     UserName: string;
-    GetCredential(uri: Uri | null, authenticationType: string | null): NetworkCredential;
     GetCredential(host: string | null, port: int, authenticationType: string | null): NetworkCredential;
+    GetCredential(uri: Uri | null, authenticationType: string | null): NetworkCredential;
 }
 
 
@@ -1450,7 +1430,9 @@ export interface __NetworkCredential$views {
 export type NetworkCredential = NetworkCredential$instance & __NetworkCredential$views;
 
 
-export interface OpenReadCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+export interface OpenReadCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_AsyncCompletedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_OpenReadCompletedEventArgs: never;
 
     readonly Result: Stream;
@@ -1463,7 +1445,9 @@ export const OpenReadCompletedEventArgs: {
 
 export type OpenReadCompletedEventArgs = OpenReadCompletedEventArgs$instance;
 
-export interface OpenWriteCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+export interface OpenWriteCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_AsyncCompletedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_OpenWriteCompletedEventArgs: never;
 
     readonly Result: Stream;
@@ -1489,12 +1473,15 @@ export const PathList: {
 
 export type PathList = PathList$instance;
 
-export interface ProtocolViolationException$instance extends InvalidOperationException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface ProtocolViolationException$instance extends System_Internal.InvalidOperationException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_InvalidOperationException: never;
     readonly __tsonic_type_System_Net_ProtocolViolationException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    GetObjectData: System_Internal.InvalidOperationException$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
 }
 
 
@@ -1517,17 +1504,16 @@ export interface ServicePoint$instance {
     readonly Address: Uri;
     get BindIPEndPointDelegate(): BindIPEndPoint | null;
     set BindIPEndPointDelegate(value: BindIPEndPoint | null);
-    get Certificate(): X509Certificate | null;
-    set Certificate(value: X509Certificate | null);
+    readonly Certificate: X509Certificate | null;
     readonly ClientCertificate: X509Certificate | null;
     ConnectionLeaseTimeout: int;
     ConnectionLimit: int;
     readonly ConnectionName: string;
     readonly CurrentConnections: int;
     Expect100Continue: boolean;
-    IdleSince: DateTime;
+    readonly IdleSince: DateTime;
     MaxIdleTime: int;
-    ProtocolVersion: Version;
+    readonly ProtocolVersion: Version;
     ReceiveBufferSize: int;
     readonly SupportsPipelining: boolean;
     UseNagleAlgorithm: boolean;
@@ -1581,8 +1567,8 @@ export interface SocketAddress$instance {
     readonly Buffer: Memory_1<System_Internal.Byte>;
     readonly Family: AddressFamily;
     Size: int;
-    Equals(comparand: unknown | null): boolean;
     Equals(comparand: SocketAddress | null): boolean;
+    Equals(comparand: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -1612,13 +1598,15 @@ export interface TransportContext$instance {
 }
 
 
-export const TransportContext: (abstract new() => TransportContext) & {
+export const TransportContext: {
 };
 
 
 export type TransportContext = TransportContext$instance;
 
-export interface UploadDataCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+export interface UploadDataCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_AsyncCompletedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_UploadDataCompletedEventArgs: never;
 
     readonly Result: byte[];
@@ -1631,7 +1619,9 @@ export const UploadDataCompletedEventArgs: {
 
 export type UploadDataCompletedEventArgs = UploadDataCompletedEventArgs$instance;
 
-export interface UploadFileCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+export interface UploadFileCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_AsyncCompletedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_UploadFileCompletedEventArgs: never;
 
     readonly Result: byte[];
@@ -1644,7 +1634,9 @@ export const UploadFileCompletedEventArgs: {
 
 export type UploadFileCompletedEventArgs = UploadFileCompletedEventArgs$instance;
 
-export interface UploadProgressChangedEventArgs$instance extends ProgressChangedEventArgs {
+export interface UploadProgressChangedEventArgs$instance extends System_ComponentModel_Internal.ProgressChangedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_ProgressChangedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_UploadProgressChangedEventArgs: never;
 
     readonly BytesReceived: long;
@@ -1660,7 +1652,9 @@ export const UploadProgressChangedEventArgs: {
 
 export type UploadProgressChangedEventArgs = UploadProgressChangedEventArgs$instance;
 
-export interface UploadStringCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+export interface UploadStringCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_AsyncCompletedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_UploadStringCompletedEventArgs: never;
 
     readonly Result: string;
@@ -1673,7 +1667,9 @@ export const UploadStringCompletedEventArgs: {
 
 export type UploadStringCompletedEventArgs = UploadStringCompletedEventArgs$instance;
 
-export interface UploadValuesCompletedEventArgs$instance extends AsyncCompletedEventArgs {
+export interface UploadValuesCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
+    readonly __tsonic_type_System_ComponentModel_AsyncCompletedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_UploadValuesCompletedEventArgs: never;
 
     readonly Result: byte[];
@@ -1686,7 +1682,9 @@ export const UploadValuesCompletedEventArgs: {
 
 export type UploadValuesCompletedEventArgs = UploadValuesCompletedEventArgs$instance;
 
-export interface WebClient$instance extends Component {
+export interface WebClient$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_WebClient: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
@@ -1708,24 +1706,24 @@ export interface WebClient$instance extends Component {
     readonly ResponseHeaders: WebHeaderCollection | null;
     UseDefaultCredentials: boolean;
     CancelAsync(): void;
-    DownloadData(address: string): byte[];
     DownloadData(address: Uri): byte[];
+    DownloadData(address: string): byte[];
     DownloadDataAsync(address: Uri): void;
     DownloadDataAsync(address: Uri, userToken: unknown | null): void;
-    DownloadDataTaskAsync(address: string): Task_1<byte[]>;
     DownloadDataTaskAsync(address: Uri): Task_1<byte[]>;
-    DownloadFile(address: string, fileName: string): void;
+    DownloadDataTaskAsync(address: string): Task_1<byte[]>;
     DownloadFile(address: Uri, fileName: string): void;
+    DownloadFile(address: string, fileName: string): void;
     DownloadFileAsync(address: Uri, fileName: string): void;
     DownloadFileAsync(address: Uri, fileName: string, userToken: unknown | null): void;
-    DownloadFileTaskAsync(address: string, fileName: string): Task;
     DownloadFileTaskAsync(address: Uri, fileName: string): Task;
-    DownloadString(address: string): string;
+    DownloadFileTaskAsync(address: string, fileName: string): Task;
     DownloadString(address: Uri): string;
+    DownloadString(address: string): string;
     DownloadStringAsync(address: Uri): void;
     DownloadStringAsync(address: Uri, userToken: unknown | null): void;
-    DownloadStringTaskAsync(address: string): Task_1<System_Internal.String>;
     DownloadStringTaskAsync(address: Uri): Task_1<System_Internal.String>;
+    DownloadStringTaskAsync(address: string): Task_1<System_Internal.String>;
     GetWebRequest(address: Uri): WebRequest;
     GetWebResponse(request: WebRequest): WebResponse;
     GetWebResponse(request: WebRequest, result: IAsyncResult): WebResponse;
@@ -1741,67 +1739,67 @@ export interface WebClient$instance extends Component {
     OnUploadStringCompleted(e: UploadStringCompletedEventArgs): void;
     OnUploadValuesCompleted(e: UploadValuesCompletedEventArgs): void;
     OnWriteStreamClosed(e: WriteStreamClosedEventArgs): void;
-    OpenRead(address: string): Stream;
     OpenRead(address: Uri): Stream;
+    OpenRead(address: string): Stream;
     OpenReadAsync(address: Uri): void;
     OpenReadAsync(address: Uri, userToken: unknown | null): void;
-    OpenReadTaskAsync(address: string): Task_1<Stream>;
     OpenReadTaskAsync(address: Uri): Task_1<Stream>;
-    OpenWrite(address: string): Stream;
+    OpenReadTaskAsync(address: string): Task_1<Stream>;
     OpenWrite(address: Uri): Stream;
-    OpenWrite(address: string, method: string | null): Stream;
     OpenWrite(address: Uri, method: string | null): Stream;
+    OpenWrite(address: string): Stream;
+    OpenWrite(address: string, method: string | null): Stream;
     OpenWriteAsync(address: Uri): void;
     OpenWriteAsync(address: Uri, method: string | null): void;
     OpenWriteAsync(address: Uri, method: string | null, userToken: unknown | null): void;
-    OpenWriteTaskAsync(address: string): Task_1<Stream>;
     OpenWriteTaskAsync(address: Uri): Task_1<Stream>;
-    OpenWriteTaskAsync(address: string, method: string | null): Task_1<Stream>;
     OpenWriteTaskAsync(address: Uri, method: string | null): Task_1<Stream>;
-    UploadData(address: string, data: byte[]): byte[];
+    OpenWriteTaskAsync(address: string): Task_1<Stream>;
+    OpenWriteTaskAsync(address: string, method: string | null): Task_1<Stream>;
     UploadData(address: Uri, data: byte[]): byte[];
-    UploadData(address: string, method: string | null, data: byte[]): byte[];
     UploadData(address: Uri, method: string | null, data: byte[]): byte[];
+    UploadData(address: string, data: byte[]): byte[];
+    UploadData(address: string, method: string | null, data: byte[]): byte[];
     UploadDataAsync(address: Uri, data: byte[]): void;
     UploadDataAsync(address: Uri, method: string | null, data: byte[]): void;
     UploadDataAsync(address: Uri, method: string | null, data: byte[], userToken: unknown | null): void;
-    UploadDataTaskAsync(address: string, data: byte[]): Task_1<byte[]>;
     UploadDataTaskAsync(address: Uri, data: byte[]): Task_1<byte[]>;
-    UploadDataTaskAsync(address: string, method: string | null, data: byte[]): Task_1<byte[]>;
     UploadDataTaskAsync(address: Uri, method: string | null, data: byte[]): Task_1<byte[]>;
-    UploadFile(address: string, fileName: string): byte[];
+    UploadDataTaskAsync(address: string, data: byte[]): Task_1<byte[]>;
+    UploadDataTaskAsync(address: string, method: string | null, data: byte[]): Task_1<byte[]>;
     UploadFile(address: Uri, fileName: string): byte[];
-    UploadFile(address: string, method: string | null, fileName: string): byte[];
     UploadFile(address: Uri, method: string | null, fileName: string): byte[];
+    UploadFile(address: string, fileName: string): byte[];
+    UploadFile(address: string, method: string | null, fileName: string): byte[];
     UploadFileAsync(address: Uri, fileName: string): void;
     UploadFileAsync(address: Uri, method: string | null, fileName: string): void;
     UploadFileAsync(address: Uri, method: string | null, fileName: string, userToken: unknown | null): void;
-    UploadFileTaskAsync(address: string, fileName: string): Task_1<byte[]>;
     UploadFileTaskAsync(address: Uri, fileName: string): Task_1<byte[]>;
-    UploadFileTaskAsync(address: string, method: string | null, fileName: string): Task_1<byte[]>;
     UploadFileTaskAsync(address: Uri, method: string | null, fileName: string): Task_1<byte[]>;
-    UploadString(address: string, data: string): string;
+    UploadFileTaskAsync(address: string, fileName: string): Task_1<byte[]>;
+    UploadFileTaskAsync(address: string, method: string | null, fileName: string): Task_1<byte[]>;
     UploadString(address: Uri, data: string): string;
-    UploadString(address: string, method: string | null, data: string): string;
     UploadString(address: Uri, method: string | null, data: string): string;
+    UploadString(address: string, data: string): string;
+    UploadString(address: string, method: string | null, data: string): string;
     UploadStringAsync(address: Uri, data: string): void;
     UploadStringAsync(address: Uri, method: string | null, data: string): void;
     UploadStringAsync(address: Uri, method: string | null, data: string, userToken: unknown | null): void;
-    UploadStringTaskAsync(address: string, data: string): Task_1<System_Internal.String>;
     UploadStringTaskAsync(address: Uri, data: string): Task_1<System_Internal.String>;
-    UploadStringTaskAsync(address: string, method: string | null, data: string): Task_1<System_Internal.String>;
     UploadStringTaskAsync(address: Uri, method: string | null, data: string): Task_1<System_Internal.String>;
-    UploadValues(address: string, data: NameValueCollection): byte[];
+    UploadStringTaskAsync(address: string, data: string): Task_1<System_Internal.String>;
+    UploadStringTaskAsync(address: string, method: string | null, data: string): Task_1<System_Internal.String>;
     UploadValues(address: Uri, data: NameValueCollection): byte[];
-    UploadValues(address: string, method: string | null, data: NameValueCollection): byte[];
     UploadValues(address: Uri, method: string | null, data: NameValueCollection): byte[];
+    UploadValues(address: string, data: NameValueCollection): byte[];
+    UploadValues(address: string, method: string | null, data: NameValueCollection): byte[];
     UploadValuesAsync(address: Uri, data: NameValueCollection): void;
     UploadValuesAsync(address: Uri, method: string | null, data: NameValueCollection): void;
     UploadValuesAsync(address: Uri, method: string | null, data: NameValueCollection, userToken: unknown | null): void;
-    UploadValuesTaskAsync(address: string, data: NameValueCollection): Task_1<byte[]>;
-    UploadValuesTaskAsync(address: string, method: string | null, data: NameValueCollection): Task_1<byte[]>;
     UploadValuesTaskAsync(address: Uri, data: NameValueCollection): Task_1<byte[]>;
     UploadValuesTaskAsync(address: Uri, method: string | null, data: NameValueCollection): Task_1<byte[]>;
+    UploadValuesTaskAsync(address: string, data: NameValueCollection): Task_1<byte[]>;
+    UploadValuesTaskAsync(address: string, method: string | null, data: NameValueCollection): Task_1<byte[]>;
 }
 
 
@@ -1818,14 +1816,17 @@ export interface __WebClient$views {
 export type WebClient = WebClient$instance & __WebClient$views;
 
 
-export interface WebException$instance extends InvalidOperationException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface WebException$instance extends System_Internal.InvalidOperationException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_InvalidOperationException: never;
     readonly __tsonic_type_System_Net_WebException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Response: WebResponse | null;
     readonly Status: WebExceptionStatus;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
+    GetObjectData: System_Internal.InvalidOperationException$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
 }
 
 
@@ -1845,7 +1846,9 @@ export interface __WebException$views {
 export type WebException = WebException$instance & __WebException$views;
 
 
-export interface WebHeaderCollection$instance extends NameValueCollection, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface WebHeaderCollection$instance extends System_Collections_Specialized_Internal.NameValueCollection$instance {
+    readonly __tsonic_type_System_Collections_Specialized_NameObjectCollectionBase: never;
+    readonly __tsonic_type_System_Collections_Specialized_NameValueCollection: never;
     readonly __tsonic_type_System_Net_WebHeaderCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -1854,35 +1857,18 @@ export interface WebHeaderCollection$instance extends NameValueCollection, Syste
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly AllKeys: (string | null)[] | string[];
-    readonly Count: int;
-    readonly Keys: NameObjectCollectionBase_KeysCollection;
-    Add(header: HttpRequestHeader, value: string | null): void;
-    Add(header: HttpResponseHeader, value: string | null): void;
-    Add(header: string): void;
-    Add(name: string, value: string | null): void;
-    Add(c: NameValueCollection): void;
-    Clear(): void;
-    Get(index: int): string | null;
-    Get(name: string | null): string | null;
-    get_Item(header: HttpRequestHeader): string | null;
-    get_Item(header: HttpResponseHeader): string | null;
-    get_Item(name: string | null): string | null;
-    get_Item(index: int): string | null;
-    GetEnumerator(): IEnumerator;
-    GetKey(index: int): string;
-    GetObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
-    GetValues(index: int): string[] | null;
-    GetValues(header: string): string[] | null;
-    OnDeserialization(sender: unknown | null): void;
-    Remove(header: HttpRequestHeader): void;
-    Remove(header: HttpResponseHeader): void;
-    Remove(name: string): void;
-    Set(name: string, value: string | null): void;
-    Set(header: HttpRequestHeader, value: string | null): void;
-    Set(header: HttpResponseHeader, value: string | null): void;
-    set_Item(header: HttpRequestHeader, value: string | null): void;
-    set_Item(header: HttpResponseHeader, value: string | null): void;
-    set_Item(name: string | null, value: string | null): void;
+    Add: System_Collections_Specialized_Internal.NameValueCollection$instance["Add"] & ((c: NameValueCollection) => void) & ((header: HttpRequestHeader, value: string | null) => void) & ((header: HttpResponseHeader, value: string | null) => void) & ((header: string) => void) & ((name: string, value: string | null) => void);
+    Clear: System_Collections_Specialized_Internal.NameValueCollection$instance["Clear"] & (() => void);
+    Get: System_Collections_Specialized_Internal.NameValueCollection$instance["Get"] & ((index: int) => string | null) & ((name: string | null) => string | null);
+    get_Item: System_Collections_Specialized_Internal.NameValueCollection$instance["get_Item"] & ((header: HttpRequestHeader) => string | null) & ((header: HttpResponseHeader) => string | null) & ((index: int) => string | null) & ((name: string | null) => string | null);
+    GetEnumerator: System_Collections_Specialized_Internal.NameValueCollection$instance["GetEnumerator"] & (() => IEnumerator);
+    GetKey: System_Collections_Specialized_Internal.NameValueCollection$instance["GetKey"] & ((index: int) => string);
+    GetObjectData: System_Collections_Specialized_Internal.NameValueCollection$instance["GetObjectData"] & ((serializationInfo: SerializationInfo, streamingContext: StreamingContext) => void);
+    GetValues: System_Collections_Specialized_Internal.NameValueCollection$instance["GetValues"] & ((header: string) => string[] | null) & ((index: int) => string[] | null);
+    OnDeserialization: System_Collections_Specialized_Internal.NameValueCollection$instance["OnDeserialization"] & ((sender: unknown | null) => void);
+    Remove: System_Collections_Specialized_Internal.NameValueCollection$instance["Remove"] & ((header: HttpRequestHeader) => void) & ((header: HttpResponseHeader) => void) & ((name: string) => void);
+    Set: System_Collections_Specialized_Internal.NameValueCollection$instance["Set"] & ((header: HttpRequestHeader, value: string | null) => void) & ((header: HttpResponseHeader, value: string | null) => void) & ((name: string, value: string | null) => void);
+    set_Item: System_Collections_Specialized_Internal.NameValueCollection$instance["set_Item"] & ((header: HttpRequestHeader, value: string | null) => void) & ((header: HttpResponseHeader, value: string | null) => void) & ((name: string | null, value: string | null) => void);
     ToByteArray(): byte[];
     ToString(): string;
 }
@@ -1905,7 +1891,7 @@ export interface __WebHeaderCollection$views {
 export type WebHeaderCollection = WebHeaderCollection$instance & __WebHeaderCollection$views;
 
 
-export interface WebProxy$instance extends IWebProxy$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface WebProxy$instance {
     readonly __tsonic_type_System_Net_WebProxy: never;
 
     readonly __tsonic_iface_System_Net_IWebProxy: never;
@@ -1948,7 +1934,8 @@ export interface __WebProxy$views {
 export type WebProxy = WebProxy$instance & __WebProxy$views;
 
 
-export interface WebRequest$instance extends MarshalByRefObject, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface WebRequest$instance extends System_Internal.MarshalByRefObject$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_WebRequest: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1985,7 +1972,7 @@ export interface WebRequest$instance extends MarshalByRefObject, System_Runtime_
 }
 
 
-export const WebRequest: (abstract new() => WebRequest) & (abstract new(serializationInfo: SerializationInfo, streamingContext: StreamingContext) => WebRequest) & {
+export const WebRequest: {
     get DefaultCachePolicy(): RequestCachePolicy | null;
     set DefaultCachePolicy(value: RequestCachePolicy | null);
     get DefaultWebProxy(): IWebProxy | null;
@@ -2007,7 +1994,8 @@ export interface __WebRequest$views {
 export type WebRequest = WebRequest$instance & __WebRequest$views;
 
 
-export interface WebResponse$instance extends MarshalByRefObject, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface WebResponse$instance extends System_Internal.MarshalByRefObject$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_WebResponse: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -2028,7 +2016,7 @@ export interface WebResponse$instance extends MarshalByRefObject, System_Runtime
 }
 
 
-export const WebResponse: (abstract new() => WebResponse) & (abstract new(serializationInfo: SerializationInfo, streamingContext: StreamingContext) => WebResponse) & {
+export const WebResponse: {
 };
 
 
@@ -2040,7 +2028,8 @@ export interface __WebResponse$views {
 export type WebResponse = WebResponse$instance & __WebResponse$views;
 
 
-export interface WriteStreamClosedEventArgs$instance extends EventArgs {
+export interface WriteStreamClosedEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_WriteStreamClosedEventArgs: never;
 
     readonly Error: Exception | null;

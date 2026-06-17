@@ -2369,12 +2369,12 @@
             "targetName": "Name",
             "metadataToken": 385876483,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "Name|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -2640,12 +2640,12 @@
             "targetName": "Oid",
             "metadataToken": 385876508,
             "canonicalSignature": ":System.Security.Cryptography.Oid",
-            "normalizedSignature": "Oid|:System.Security.Cryptography.Oid|static=false|accessor=getset",
+            "normalizedSignature": "Oid|:System.Security.Cryptography.Oid|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -4321,19 +4321,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.Aes::.ctor():void",
-            "metadataToken": 100665272,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.Aes",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.AesCcm",
@@ -5988,17 +5976,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsnEncodedData::.ctor():void",
-            "metadataToken": 100665392,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.AsnEncodedData",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
             "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsnEncodedData::.ctor(System.Byte[]):void",
             "metadataToken": 100665393,
             "canonicalSignature": "(System.Byte[]):void",
@@ -7335,46 +7312,9 @@
             "ownerIdentity": "System.Security.Cryptography"
           }
         ],
-        "fields": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricAlgorithm::KeySizeValueSystem.Int32",
-            "targetName": "KeySizeValue",
-            "metadataToken": 67109459,
-            "normalizedSignature": "KeySizeValue|System.Int32|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.AsymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricAlgorithm::LegalKeySizesValueSystem.Security.Cryptography.KeySizes[]",
-            "targetName": "LegalKeySizesValue",
-            "metadataToken": 67109460,
-            "normalizedSignature": "LegalKeySizesValue|System.Security.Cryptography.KeySizes[]|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.AsymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ],
+        "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricAlgorithm::.ctor():void",
-            "metadataToken": 100665435,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.AsymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricKeyExchangeDeformatter",
@@ -7456,19 +7396,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricKeyExchangeDeformatter::.ctor():void",
-            "metadataToken": 100665482,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.AsymmetricKeyExchangeDeformatter",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricKeyExchangeFormatter",
@@ -7570,19 +7498,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricKeyExchangeFormatter::.ctor():void",
-            "metadataToken": 100665487,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.AsymmetricKeyExchangeFormatter",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricSignatureDeformatter",
@@ -7684,19 +7600,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricSignatureDeformatter::.ctor():void",
-            "metadataToken": 100665492,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.AsymmetricSignatureDeformatter",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricSignatureFormatter",
@@ -7798,19 +7702,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.AsymmetricSignatureFormatter::.ctor():void",
-            "metadataToken": 100665497,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.AsymmetricSignatureFormatter",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.AuthenticationTagMismatchException",
@@ -12294,19 +12186,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.CompositeMLDsa::.ctor(System.Security.Cryptography.CompositeMLDsaAlgorithm):void",
-            "metadataToken": 100664545,
-            "canonicalSignature": "(System.Security.Cryptography.CompositeMLDsaAlgorithm):void",
-            "normalizedSignature": "constructor|(System.Security.Cryptography.CompositeMLDsaAlgorithm):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.CompositeMLDsa",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.CompositeMLDsaAlgorithm",
@@ -13284,17 +13164,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Security.Cryptography.CryptographicException",
             "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Security.Cryptography.CryptographicException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100674317,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.CryptographicException",
-            "ownerIdentity": "System.Private.CoreLib"
           }
         ]
       },
@@ -13387,17 +13256,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Security.Cryptography.CryptographicUnexpectedOperationException",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.CryptographicUnexpectedOperationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100665721,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Security.Cryptography.CryptographicUnexpectedOperationException",
             "ownerIdentity": "System.Security.Cryptography"
           }
@@ -14837,19 +14695,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.DeriveBytes::.ctor():void",
-            "metadataToken": 100665799,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.DeriveBytes",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.DES",
@@ -14998,19 +14844,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.DES::.ctor():void",
-            "metadataToken": 100665800,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.DES",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.DESCryptoServiceProvider",
@@ -16662,19 +16496,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.DSA::.ctor():void",
-            "metadataToken": 100665829,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.DSA",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.DSACng",
@@ -19431,19 +19253,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECAlgorithm::.ctor():void",
-            "metadataToken": 100665921,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.ECAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECDiffieHellman",
@@ -19810,19 +19620,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECDiffieHellman::.ctor():void",
-            "metadataToken": 100665993,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.ECDiffieHellman",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECDiffieHellmanCng",
@@ -21166,30 +20964,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECDiffieHellmanPublicKey::.ctor():void",
-            "metadataToken": 100665994,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.ECDiffieHellmanPublicKey",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECDiffieHellmanPublicKey::.ctor(System.Byte[]):void",
-            "metadataToken": 100665995,
-            "canonicalSignature": "(System.Byte[]):void",
-            "normalizedSignature": "constructor|(System.Byte[]):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.ECDiffieHellmanPublicKey",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECDsa",
@@ -22319,19 +22094,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECDsa::.ctor():void",
-            "metadataToken": 100666004,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.ECDsa",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECDsaCng",
@@ -24893,58 +24656,9 @@
             "ownerIdentity": "System.Security.Cryptography"
           }
         ],
-        "fields": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithm::HashSizeValueSystem.Int32",
-            "targetName": "HashSizeValue",
-            "metadataToken": 67109737,
-            "normalizedSignature": "HashSizeValue|System.Int32|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.HashAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithm::HashValueSystem.Byte[]",
-            "targetName": "HashValue",
-            "metadataToken": 67109738,
-            "normalizedSignature": "HashValue|System.Byte[]|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Security.Cryptography.HashAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithm::StateSystem.Int32",
-            "targetName": "State",
-            "metadataToken": 67109739,
-            "normalizedSignature": "State|System.Int32|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.HashAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ],
+        "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithm::.ctor():void",
-            "metadataToken": 100666066,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.HashAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.HMAC",
@@ -25224,25 +24938,6 @@
         ],
         "properties": [
           {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.HMAC::BlockSizeValue:System.Int32",
-            "targetName": "BlockSizeValue",
-            "metadataToken": 385876553,
-            "canonicalSignature": ":System.Int32",
-            "normalizedSignature": "BlockSizeValue|:System.Int32|static=false|accessor=getset",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": true,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.HMAC",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
             "stableId": "System.Security.Cryptography:System.Security.Cryptography.HMAC::HashName:System.String",
             "targetName": "HashName",
             "metadataToken": 385876554,
@@ -25363,19 +25058,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.HMAC::.ctor():void",
-            "metadataToken": 100666143,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.HMAC",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.HMACMD5",
@@ -30894,34 +30577,9 @@
             "ownerIdentity": "System.Security.Cryptography"
           }
         ],
-        "fields": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.KeyedHashAlgorithm::KeyValueSystem.Byte[]",
-            "targetName": "KeyValue",
-            "metadataToken": 67109789,
-            "normalizedSignature": "KeyValue|System.Byte[]|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.KeyedHashAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ],
+        "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.KeyedHashAlgorithm::.ctor():void",
-            "metadataToken": 100666383,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.KeyedHashAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.KeySizes",
@@ -32782,19 +32440,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.MaskGenerationMethod::.ctor():void",
-            "metadataToken": 100666531,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.MaskGenerationMethod",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.MD5",
@@ -33201,19 +32847,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.MD5::.ctor():void",
-            "metadataToken": 100666532,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.MD5",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.MD5CryptoServiceProvider",
@@ -34991,19 +34625,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.MLDsa::.ctor(System.Security.Cryptography.MLDsaAlgorithm):void",
-            "metadataToken": 100664759,
-            "canonicalSignature": "(System.Security.Cryptography.MLDsaAlgorithm):void",
-            "normalizedSignature": "constructor|(System.Security.Cryptography.MLDsaAlgorithm):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.MLDsa",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.MLDsaAlgorithm",
@@ -37115,19 +36737,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.MLKem::.ctor(System.Security.Cryptography.MLKemAlgorithm):void",
-            "metadataToken": 100664907,
-            "canonicalSignature": "(System.Security.Cryptography.MLKemAlgorithm):void",
-            "normalizedSignature": "constructor|(System.Security.Cryptography.MLKemAlgorithm):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.MLKem",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.MLKemAlgorithm",
@@ -39375,19 +38985,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.RandomNumberGenerator::.ctor():void",
-            "metadataToken": 100666704,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.RandomNumberGenerator",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.RC2",
@@ -39513,34 +39111,9 @@
             "ownerIdentity": "System.Security.Cryptography"
           }
         ],
-        "fields": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.RC2::EffectiveKeySizeValueSystem.Int32",
-            "targetName": "EffectiveKeySizeValue",
-            "metadataToken": 67109910,
-            "normalizedSignature": "EffectiveKeySizeValue|System.Int32|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.RC2",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ],
+        "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.RC2::.ctor():void",
-            "metadataToken": 100666740,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.RC2",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.RC2CryptoServiceProvider",
@@ -40496,19 +40069,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.Rijndael::.ctor():void",
-            "metadataToken": 100666772,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.Rijndael",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.RijndaelManaged",
@@ -42498,19 +42059,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSA::.ctor():void",
-            "metadataToken": 100666931,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.RSA",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSACng",
@@ -46661,19 +46210,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA1::.ctor():void",
-            "metadataToken": 100667015,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SHA1",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA1CryptoServiceProvider",
@@ -47748,19 +47285,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA256::.ctor():void",
-            "metadataToken": 100667047,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SHA256",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA256CryptoServiceProvider",
@@ -48834,19 +48359,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA3_256::.ctor():void",
-            "metadataToken": 100667143,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SHA3_256",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA3_384",
@@ -49252,19 +48765,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA3_384::.ctor():void",
-            "metadataToken": 100667163,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SHA3_384",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA3_512",
@@ -49670,19 +49171,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA3_512::.ctor():void",
-            "metadataToken": 100667183,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SHA3_512",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA384",
@@ -50089,19 +49578,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA384::.ctor():void",
-            "metadataToken": 100667079,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SHA384",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA384CryptoServiceProvider",
@@ -51176,19 +50653,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA512::.ctor():void",
-            "metadataToken": 100667111,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SHA512",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.SHA512CryptoServiceProvider",
@@ -54124,19 +53589,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SlhDsa::.ctor(System.Security.Cryptography.SlhDsaAlgorithm):void",
-            "metadataToken": 100665110,
-            "canonicalSignature": "(System.Security.Cryptography.SlhDsaAlgorithm):void",
-            "normalizedSignature": "constructor|(System.Security.Cryptography.SlhDsaAlgorithm):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SlhDsa",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.SlhDsaAlgorithm",
@@ -56604,130 +56057,9 @@
             "ownerIdentity": "System.Security.Cryptography"
           }
         ],
-        "fields": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::ModeValueSystem.Security.Cryptography.CipherMode",
-            "targetName": "ModeValue",
-            "metadataToken": 67110027,
-            "normalizedSignature": "ModeValue|System.Security.Cryptography.CipherMode|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::PaddingValueSystem.Security.Cryptography.PaddingMode",
-            "targetName": "PaddingValue",
-            "metadataToken": 67110028,
-            "normalizedSignature": "PaddingValue|System.Security.Cryptography.PaddingMode|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::KeyValueSystem.Byte[]",
-            "targetName": "KeyValue",
-            "metadataToken": 67110029,
-            "normalizedSignature": "KeyValue|System.Byte[]|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::IVValueSystem.Byte[]",
-            "targetName": "IVValue",
-            "metadataToken": 67110030,
-            "normalizedSignature": "IVValue|System.Byte[]|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::BlockSizeValueSystem.Int32",
-            "targetName": "BlockSizeValue",
-            "metadataToken": 67110031,
-            "normalizedSignature": "BlockSizeValue|System.Int32|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::FeedbackSizeValueSystem.Int32",
-            "targetName": "FeedbackSizeValue",
-            "metadataToken": 67110032,
-            "normalizedSignature": "FeedbackSizeValue|System.Int32|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::KeySizeValueSystem.Int32",
-            "targetName": "KeySizeValue",
-            "metadataToken": 67110033,
-            "normalizedSignature": "KeySizeValue|System.Int32|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::LegalBlockSizesValueSystem.Security.Cryptography.KeySizes[]",
-            "targetName": "LegalBlockSizesValue",
-            "metadataToken": 67110034,
-            "normalizedSignature": "LegalBlockSizesValue|System.Security.Cryptography.KeySizes[]|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::LegalKeySizesValueSystem.Security.Cryptography.KeySizes[]",
-            "targetName": "LegalKeySizesValue",
-            "metadataToken": 67110035,
-            "normalizedSignature": "LegalKeySizesValue|System.Security.Cryptography.KeySizes[]|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ],
+        "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::.ctor():void",
-            "metadataToken": 100667282,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.SymmetricAlgorithm",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.ToBase64Transform",
@@ -57240,19 +56572,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.TripleDES::.ctor():void",
-            "metadataToken": 100667354,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.TripleDES",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.TripleDESCng",

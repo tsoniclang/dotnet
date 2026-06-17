@@ -14,7 +14,7 @@ import type { SafeFileHandle } from './Microsoft.Win32.SafeHandles/internal/inde
 import type { IAsyncEnumerable_1, IEnumerable_1, IReadOnlyList_1 } from './System.Collections.Generic/internal/index.js';
 import type { Collection_1 } from './System.Collections.ObjectModel/internal/index.js';
 import type { IDictionary } from './System.Collections/internal/index.js';
-import type { Component, EventHandlerList, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from './System.ComponentModel/internal/index.js';
+import type { Component, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from './System.ComponentModel/internal/index.js';
 import type { MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
 import type { SafeBuffer } from './System.Runtime.InteropServices/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';

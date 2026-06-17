@@ -15,17 +15,20 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Enum, EventArgs, EventHandler_1, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum ContractFailureKind {
-    Precondition = 0,
-    Postcondition = 1,
-    PostconditionOnException = 2,
-    Invariant = 3,
-    Assert = 4,
-    Assume = 5
-}
+export type ContractFailureKind = number & { readonly __tsonic_type_System_Diagnostics_Contracts_ContractFailureKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ContractFailureKind: {
+    readonly Precondition: ContractFailureKind;
+    readonly Postcondition: ContractFailureKind;
+    readonly PostconditionOnException: ContractFailureKind;
+    readonly Invariant: ContractFailureKind;
+    readonly Assert: ContractFailureKind;
+    readonly Assume: ContractFailureKind;
+};
 
 
-export interface ContractAbbreviatorAttribute$instance extends Attribute {
+export interface ContractAbbreviatorAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractAbbreviatorAttribute: never;
 
 }
@@ -38,7 +41,8 @@ export const ContractAbbreviatorAttribute: {
 
 export type ContractAbbreviatorAttribute = ContractAbbreviatorAttribute$instance;
 
-export interface ContractArgumentValidatorAttribute$instance extends Attribute {
+export interface ContractArgumentValidatorAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractArgumentValidatorAttribute: never;
 
 }
@@ -51,7 +55,8 @@ export const ContractArgumentValidatorAttribute: {
 
 export type ContractArgumentValidatorAttribute = ContractArgumentValidatorAttribute$instance;
 
-export interface ContractClassAttribute$instance extends Attribute {
+export interface ContractClassAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractClassAttribute: never;
 
     readonly TypeContainingContracts: Type;
@@ -65,7 +70,8 @@ export const ContractClassAttribute: {
 
 export type ContractClassAttribute = ContractClassAttribute$instance;
 
-export interface ContractClassForAttribute$instance extends Attribute {
+export interface ContractClassForAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractClassForAttribute: never;
 
     readonly TypeContractsAreFor: Type;
@@ -79,8 +85,9 @@ export const ContractClassForAttribute: {
 
 export type ContractClassForAttribute = ContractClassForAttribute$instance;
 
-export interface ContractException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface ContractException$instance extends System_Internal.Exception$instance {
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractException: never;
+    readonly __tsonic_type_System_Exception: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -88,7 +95,7 @@ export interface ContractException$instance extends Exception, System_Runtime_Se
     readonly Failure: string;
     readonly Kind: ContractFailureKind;
     readonly UserMessage: string | null;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData: System_Internal.Exception$instance["GetObjectData"] & ((info: SerializationInfo, context: StreamingContext) => void);
 }
 
 
@@ -104,8 +111,9 @@ export interface __ContractException$views {
 export type ContractException = ContractException$instance & __ContractException$views;
 
 
-export interface ContractFailedEventArgs$instance extends EventArgs {
+export interface ContractFailedEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractFailedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Condition: string | null;
     readonly FailureKind: ContractFailureKind;
@@ -125,7 +133,8 @@ export const ContractFailedEventArgs: {
 
 export type ContractFailedEventArgs = ContractFailedEventArgs$instance;
 
-export interface ContractInvariantMethodAttribute$instance extends Attribute {
+export interface ContractInvariantMethodAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractInvariantMethodAttribute: never;
 
 }
@@ -138,7 +147,8 @@ export const ContractInvariantMethodAttribute: {
 
 export type ContractInvariantMethodAttribute = ContractInvariantMethodAttribute$instance;
 
-export interface ContractOptionAttribute$instance extends Attribute {
+export interface ContractOptionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractOptionAttribute: never;
 
     readonly Category: string;
@@ -156,7 +166,8 @@ export const ContractOptionAttribute: {
 
 export type ContractOptionAttribute = ContractOptionAttribute$instance;
 
-export interface ContractPublicPropertyNameAttribute$instance extends Attribute {
+export interface ContractPublicPropertyNameAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractPublicPropertyNameAttribute: never;
 
     readonly Name: string;
@@ -170,7 +181,8 @@ export const ContractPublicPropertyNameAttribute: {
 
 export type ContractPublicPropertyNameAttribute = ContractPublicPropertyNameAttribute$instance;
 
-export interface ContractReferenceAssemblyAttribute$instance extends Attribute {
+export interface ContractReferenceAssemblyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractReferenceAssemblyAttribute: never;
 
 }
@@ -183,7 +195,8 @@ export const ContractReferenceAssemblyAttribute: {
 
 export type ContractReferenceAssemblyAttribute = ContractReferenceAssemblyAttribute$instance;
 
-export interface ContractRuntimeIgnoredAttribute$instance extends Attribute {
+export interface ContractRuntimeIgnoredAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractRuntimeIgnoredAttribute: never;
 
 }
@@ -196,7 +209,8 @@ export const ContractRuntimeIgnoredAttribute: {
 
 export type ContractRuntimeIgnoredAttribute = ContractRuntimeIgnoredAttribute$instance;
 
-export interface ContractVerificationAttribute$instance extends Attribute {
+export interface ContractVerificationAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_ContractVerificationAttribute: never;
 
     readonly Value: boolean;
@@ -210,7 +224,8 @@ export const ContractVerificationAttribute: {
 
 export type ContractVerificationAttribute = ContractVerificationAttribute$instance;
 
-export interface PureAttribute$instance extends Attribute {
+export interface PureAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_Contracts_PureAttribute: never;
 
 }
@@ -231,8 +246,8 @@ export abstract class Contract$instance {
     static EndContractBlock(): void;
     static Ensures(condition: boolean, userMessage: string | null): void;
     static Ensures(condition: boolean): void;
-    static EnsuresOnThrow<TException extends unknown & Exception>(condition: boolean, userMessage: string | null): void;
-    static EnsuresOnThrow<TException extends unknown & Exception>(condition: boolean): void;
+    static EnsuresOnThrow<TException extends unknown & { readonly __tsonic_type_System_Exception: never }>(condition: boolean, userMessage: string | null): void;
+    static EnsuresOnThrow<TException extends unknown & { readonly __tsonic_type_System_Exception: never }>(condition: boolean): void;
     static Exists<T extends unknown>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
     static Exists(fromInclusive: int, toExclusive: int, predicate: Predicate_1<System_Internal.Int32>): boolean;
     static ForAll<T extends unknown>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;

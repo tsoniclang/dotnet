@@ -21,7 +21,7 @@ import type { SslProtocols } from './System.Security.Authentication/internal/ind
 import type { X509Certificate } from './System.Security.Cryptography.X509Certificates/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
-import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, Func_4, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, MarshalByRefObject, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, Func_4, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { QuicAbortDirection as QuicAbortDirection } from './System.Net.Quic/internal/index.js';

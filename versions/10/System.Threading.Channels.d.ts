@@ -40,6 +40,6 @@ export type Channel<
   T2 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Channel :
-  [T2] extends [__] ? [T1] extends [unknown] ? Internal.Channel_1<T1> : never :
-  [T1] extends [unknown] ? [T2] extends [unknown] ? Internal.Channel_2<T1, T2> : never : never;
+  [T2] extends [__] ? Internal.Channel_1<T1> :
+  Internal.Channel_2<T1, T2>;
 

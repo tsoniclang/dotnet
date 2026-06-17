@@ -208,18 +208,19 @@ export type Utf8 = Utf8$instance;
 
 export interface Utf8_TryWriteInterpolatedStringHandler$instance {
     readonly __tsonic_type_System_Text_Unicode_Utf8_TryWriteInterpolatedStringHandler: never;
+    readonly __tsonic_type_System_ValueType: never;
 
-    AppendFormatted<T extends unknown>(value: T): boolean;
-    AppendFormatted<T extends unknown>(value: T, format: string | null): boolean;
-    AppendFormatted<T extends unknown>(value: T, alignment: int): boolean;
-    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): boolean;
-    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): boolean;
-    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): boolean;
     AppendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     AppendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>, alignment?: int, format?: string | null): boolean;
+    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): boolean;
+    AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): boolean;
     AppendFormatted(value: string | null): boolean;
     AppendFormatted(value: string | null, alignment?: int, format?: string | null): boolean;
     AppendFormatted(value: unknown | null, alignment?: int, format?: string | null): boolean;
+    AppendFormatted<T extends unknown>(value: T): boolean;
+    AppendFormatted<T extends unknown>(value: T, alignment: int): boolean;
+    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): boolean;
+    AppendFormatted<T extends unknown>(value: T, format: string | null): boolean;
     AppendLiteral(value: string): boolean;
 }
 

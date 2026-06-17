@@ -1048,30 +1048,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Http:System.Net.Http.DelegatingHandler::.ctor():void",
-            "metadataToken": 100663621,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Http.DelegatingHandler",
-            "ownerIdentity": "System.Net.Http"
-          },
-          {
-            "stableId": "System.Net.Http:System.Net.Http.DelegatingHandler::.ctor(System.Net.Http.HttpMessageHandler):void",
-            "metadataToken": 100663622,
-            "canonicalSignature": "(System.Net.Http.HttpMessageHandler):void",
-            "normalizedSignature": "constructor|(System.Net.Http.HttpMessageHandler):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Http.DelegatingHandler",
-            "ownerIdentity": "System.Net.Http"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Http:System.Net.Http.FormUrlEncodedContent",
@@ -3541,19 +3518,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Http:System.Net.Http.HttpContent::.ctor():void",
-            "metadataToken": 100663899,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Http.HttpContent",
-            "ownerIdentity": "System.Net.Http"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Http:System.Net.Http.HttpIOException",
@@ -3782,19 +3747,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Http:System.Net.Http.HttpMessageHandler::.ctor():void",
-            "metadataToken": 100663989,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Http.HttpMessageHandler",
-            "ownerIdentity": "System.Net.Http"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Http:System.Net.Http.HttpMessageInvoker",
@@ -5782,30 +5735,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Http:System.Net.Http.MessageProcessingHandler::.ctor():void",
-            "metadataToken": 100664215,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Http.MessageProcessingHandler",
-            "ownerIdentity": "System.Net.Http"
-          },
-          {
-            "stableId": "System.Net.Http:System.Net.Http.MessageProcessingHandler::.ctor(System.Net.Http.HttpMessageHandler):void",
-            "metadataToken": 100664216,
-            "canonicalSignature": "(System.Net.Http.HttpMessageHandler):void",
-            "normalizedSignature": "constructor|(System.Net.Http.HttpMessageHandler):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Http.MessageProcessingHandler",
-            "ownerIdentity": "System.Net.Http"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Http:System.Net.Http.MultipartContent",

@@ -3680,26 +3680,6 @@
         },
         "methods": [
           {
-            "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::GetSections():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder+Section,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-            "targetName": "GetSections",
-            "metadataToken": 100663618,
-            "canonicalSignature": "():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder+Section,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
-            "normalizedSignature": "GetSections|():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder+Section,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.PortableExecutable.PEBuilder",
-            "ownerIdentity": "System.Reflection.Metadata",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::CreateSections():System.Collections.Immutable.ImmutableArray_1[[System.Reflection.PortableExecutable.PEBuilder+Section,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
             "targetName": "CreateSections",
             "metadataToken": 100663619,
@@ -3841,19 +3821,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder::.ctor(System.Reflection.PortableExecutable.PEHeaderBuilder,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void",
-            "metadataToken": 100663617,
-            "canonicalSignature": "(System.Reflection.PortableExecutable.PEHeaderBuilder,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void",
-            "normalizedSignature": "constructor|(System.Reflection.PortableExecutable.PEHeaderBuilder,System.Func_2[[System.Collections.Generic.IEnumerable_1[[System.Reflection.Metadata.Blob,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Reflection.Metadata.BlobContentId,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.PortableExecutable.PEBuilder",
-            "ownerIdentity": "System.Reflection.Metadata"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEBuilder+Section",
@@ -6300,19 +6268,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.ResourceSectionBuilder::.ctor():void",
-            "metadataToken": 100663747,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.PortableExecutable.ResourceSectionBuilder",
-            "ownerIdentity": "System.Reflection.Metadata"
-          }
-        ]
+        "constructors": []
       }
     ]
   }

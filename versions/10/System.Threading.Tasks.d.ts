@@ -19,7 +19,7 @@ import type { ConfiguredAsyncDisposable, ConfiguredCancelableAsyncEnumerable_1, 
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { IValueTaskSource, IValueTaskSource_1 } from './System.Threading.Tasks.Sources/internal/index.js';
 import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
-import type { Action, Action_1, Action_2, Action_3, AggregateException, AsyncCallback, Boolean as ClrBoolean, Enum, EventArgs, EventHandler_1, Exception, Func_1, Func_2, Func_3, Func_4, Func_5, Func_6, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, OperationCanceledException, ReadOnlySpan_1, String as ClrString, TimeProvider, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { Action, Action_1, Action_2, Action_3, AggregateException, AsyncCallback, Boolean as ClrBoolean, ConsoleKeyInfo, Enum, EventArgs, EventHandler_1, Exception, Func_1, Func_2, Func_3, Func_4, Func_5, Func_6, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, OperationCanceledException, ReadOnlySpan_1, String as ClrString, TimeProvider, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { ConcurrentExclusiveSchedulerPair as ConcurrentExclusiveSchedulerPair } from './System.Threading.Tasks/internal/index.js';
@@ -53,25 +53,25 @@ export type Task<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Task :
-  [T1] extends [unknown] ? Internal.Task_1<T1> : never;
+  Internal.Task_1<T1>;
 
 export type TaskCompletionSource<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.TaskCompletionSource :
-  [T1] extends [unknown] ? Internal.TaskCompletionSource_1<T1> : never;
+  Internal.TaskCompletionSource_1<T1>;
 
 export type TaskFactory<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.TaskFactory :
-  [T1] extends [unknown] ? Internal.TaskFactory_1<T1> : never;
+  Internal.TaskFactory_1<T1>;
 
 export type ValueTask<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ValueTask :
-  [T1] extends [unknown] ? Internal.ValueTask_1<T1> : never;
+  Internal.ValueTask_1<T1>;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Threading_Tasks as ExtensionMethods } from './__internal/extensions/index.js';

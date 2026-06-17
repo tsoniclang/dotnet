@@ -14,7 +14,7 @@ import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IEqual
 import type { INotifyCollectionChanged, NotifyCollectionChangedEventArgs, NotifyCollectionChangedEventHandler } from './System.Collections.Specialized/internal/index.js';
 import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
 import type { INotifyPropertyChanged, PropertyChangedEventArgs, PropertyChangedEventHandler } from './System.ComponentModel/internal/index.js';
-import type { Array as ClrArray, Boolean as ClrBoolean, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from './System/internal/index.js';
+import type { Array as ClrArray, Boolean as ClrBoolean, Char, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { KeyedCollection_2 as KeyedCollection } from './System.Collections.ObjectModel/internal/index.js';
@@ -22,6 +22,8 @@ export { ObservableCollection_1 as ObservableCollection } from './System.Collect
 export { ReadOnlyObservableCollection_1 as ReadOnlyObservableCollection } from './System.Collections.ObjectModel/internal/index.js';
 export { Collection_1 as Collection } from './System.Collections.ObjectModel/internal/index.js';
 export { ReadOnlyDictionary_2 as ReadOnlyDictionary } from './System.Collections.ObjectModel/internal/index.js';
+export { ReadOnlyDictionary_2_KeyCollection as ReadOnlyDictionary_2_KeyCollection } from './System.Collections.ObjectModel/internal/index.js';
+export { ReadOnlyDictionary_2_ValueCollection as ReadOnlyDictionary_2_ValueCollection } from './System.Collections.ObjectModel/internal/index.js';
 export { ReadOnlySet_1 as ReadOnlySet } from './System.Collections.ObjectModel/internal/index.js';
 
 // Multi-arity family value exports (arity-0 constructors/static namespaces)
@@ -35,5 +37,5 @@ export type ReadOnlyCollection<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ReadOnlyCollection :
-  [T1] extends [unknown] ? Internal.ReadOnlyCollection_1<T1> : never;
+  Internal.ReadOnlyCollection_1<T1>;
 

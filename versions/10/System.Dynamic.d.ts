@@ -16,7 +16,7 @@ import type { IEnumerable, IEnumerator } from './System.Collections/internal/ind
 import type { INotifyPropertyChanged } from './System.ComponentModel/internal/index.js';
 import type { Expression, ExpressionType, LabelTarget, ParameterExpression } from './System.Linq.Expressions/internal/index.js';
 import type { CallSite_1, CallSiteBinder } from './System.Runtime.CompilerServices/internal/index.js';
-import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, Char, Int32, Object as ClrObject, String as ClrString, Type, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { DynamicMetaObjectBinder as DynamicMetaObjectBinder } from './System.Dynamic/internal/index.js';

@@ -14,108 +14,114 @@ import type { CallSiteBinder, DebugInfoGenerator } from "../../System.Runtime.Co
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Delegate, Enum, Func_2, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum ExpressionType {
-    Add = 0,
-    AddChecked = 1,
-    And = 2,
-    AndAlso = 3,
-    ArrayLength = 4,
-    ArrayIndex = 5,
-    Call = 6,
-    Coalesce = 7,
-    Conditional = 8,
-    Constant = 9,
-    Convert = 10,
-    ConvertChecked = 11,
-    Divide = 12,
-    Equal = 13,
-    ExclusiveOr = 14,
-    GreaterThan = 15,
-    GreaterThanOrEqual = 16,
-    Invoke = 17,
-    Lambda = 18,
-    LeftShift = 19,
-    LessThan = 20,
-    LessThanOrEqual = 21,
-    ListInit = 22,
-    MemberAccess = 23,
-    MemberInit = 24,
-    Modulo = 25,
-    Multiply = 26,
-    MultiplyChecked = 27,
-    Negate = 28,
-    UnaryPlus = 29,
-    NegateChecked = 30,
-    New = 31,
-    NewArrayInit = 32,
-    NewArrayBounds = 33,
-    Not = 34,
-    NotEqual = 35,
-    Or = 36,
-    OrElse = 37,
-    Parameter = 38,
-    Power = 39,
-    Quote = 40,
-    RightShift = 41,
-    Subtract = 42,
-    SubtractChecked = 43,
-    TypeAs = 44,
-    TypeIs = 45,
-    Assign = 46,
-    Block = 47,
-    DebugInfo = 48,
-    Decrement = 49,
-    Dynamic = 50,
-    Default = 51,
-    Extension = 52,
-    Goto = 53,
-    Increment = 54,
-    Index = 55,
-    Label = 56,
-    RuntimeVariables = 57,
-    Loop = 58,
-    Switch = 59,
-    Throw = 60,
-    Try = 61,
-    Unbox = 62,
-    AddAssign = 63,
-    AndAssign = 64,
-    DivideAssign = 65,
-    ExclusiveOrAssign = 66,
-    LeftShiftAssign = 67,
-    ModuloAssign = 68,
-    MultiplyAssign = 69,
-    OrAssign = 70,
-    PowerAssign = 71,
-    RightShiftAssign = 72,
-    SubtractAssign = 73,
-    AddAssignChecked = 74,
-    MultiplyAssignChecked = 75,
-    SubtractAssignChecked = 76,
-    PreIncrementAssign = 77,
-    PreDecrementAssign = 78,
-    PostIncrementAssign = 79,
-    PostDecrementAssign = 80,
-    TypeEqual = 81,
-    OnesComplement = 82,
-    IsTrue = 83,
-    IsFalse = 84
-}
+export type ExpressionType = number & { readonly __tsonic_type_System_Linq_Expressions_ExpressionType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ExpressionType: {
+    readonly Add: ExpressionType;
+    readonly AddChecked: ExpressionType;
+    readonly And: ExpressionType;
+    readonly AndAlso: ExpressionType;
+    readonly ArrayLength: ExpressionType;
+    readonly ArrayIndex: ExpressionType;
+    readonly Call: ExpressionType;
+    readonly Coalesce: ExpressionType;
+    readonly Conditional: ExpressionType;
+    readonly Constant: ExpressionType;
+    readonly Convert: ExpressionType;
+    readonly ConvertChecked: ExpressionType;
+    readonly Divide: ExpressionType;
+    readonly Equal: ExpressionType;
+    readonly ExclusiveOr: ExpressionType;
+    readonly GreaterThan: ExpressionType;
+    readonly GreaterThanOrEqual: ExpressionType;
+    readonly Invoke: ExpressionType;
+    readonly Lambda: ExpressionType;
+    readonly LeftShift: ExpressionType;
+    readonly LessThan: ExpressionType;
+    readonly LessThanOrEqual: ExpressionType;
+    readonly ListInit: ExpressionType;
+    readonly MemberAccess: ExpressionType;
+    readonly MemberInit: ExpressionType;
+    readonly Modulo: ExpressionType;
+    readonly Multiply: ExpressionType;
+    readonly MultiplyChecked: ExpressionType;
+    readonly Negate: ExpressionType;
+    readonly UnaryPlus: ExpressionType;
+    readonly NegateChecked: ExpressionType;
+    readonly New: ExpressionType;
+    readonly NewArrayInit: ExpressionType;
+    readonly NewArrayBounds: ExpressionType;
+    readonly Not: ExpressionType;
+    readonly NotEqual: ExpressionType;
+    readonly Or: ExpressionType;
+    readonly OrElse: ExpressionType;
+    readonly Parameter: ExpressionType;
+    readonly Power: ExpressionType;
+    readonly Quote: ExpressionType;
+    readonly RightShift: ExpressionType;
+    readonly Subtract: ExpressionType;
+    readonly SubtractChecked: ExpressionType;
+    readonly TypeAs: ExpressionType;
+    readonly TypeIs: ExpressionType;
+    readonly Assign: ExpressionType;
+    readonly Block: ExpressionType;
+    readonly DebugInfo: ExpressionType;
+    readonly Decrement: ExpressionType;
+    readonly Dynamic: ExpressionType;
+    readonly Default: ExpressionType;
+    readonly Extension: ExpressionType;
+    readonly Goto: ExpressionType;
+    readonly Increment: ExpressionType;
+    readonly Index: ExpressionType;
+    readonly Label: ExpressionType;
+    readonly RuntimeVariables: ExpressionType;
+    readonly Loop: ExpressionType;
+    readonly Switch: ExpressionType;
+    readonly Throw: ExpressionType;
+    readonly Try: ExpressionType;
+    readonly Unbox: ExpressionType;
+    readonly AddAssign: ExpressionType;
+    readonly AndAssign: ExpressionType;
+    readonly DivideAssign: ExpressionType;
+    readonly ExclusiveOrAssign: ExpressionType;
+    readonly LeftShiftAssign: ExpressionType;
+    readonly ModuloAssign: ExpressionType;
+    readonly MultiplyAssign: ExpressionType;
+    readonly OrAssign: ExpressionType;
+    readonly PowerAssign: ExpressionType;
+    readonly RightShiftAssign: ExpressionType;
+    readonly SubtractAssign: ExpressionType;
+    readonly AddAssignChecked: ExpressionType;
+    readonly MultiplyAssignChecked: ExpressionType;
+    readonly SubtractAssignChecked: ExpressionType;
+    readonly PreIncrementAssign: ExpressionType;
+    readonly PreDecrementAssign: ExpressionType;
+    readonly PostIncrementAssign: ExpressionType;
+    readonly PostDecrementAssign: ExpressionType;
+    readonly TypeEqual: ExpressionType;
+    readonly OnesComplement: ExpressionType;
+    readonly IsTrue: ExpressionType;
+    readonly IsFalse: ExpressionType;
+};
 
 
-export enum GotoExpressionKind {
-    Goto = 0,
-    Return = 1,
-    Break = 2,
-    Continue = 3
-}
+export type GotoExpressionKind = number & { readonly __tsonic_type_System_Linq_Expressions_GotoExpressionKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const GotoExpressionKind: {
+    readonly Goto: GotoExpressionKind;
+    readonly Return: GotoExpressionKind;
+    readonly Break: GotoExpressionKind;
+    readonly Continue: GotoExpressionKind;
+};
 
 
-export enum MemberBindingType {
-    Assignment = 0,
-    MemberBinding = 1,
-    ListBinding = 2
-}
+export type MemberBindingType = number & { readonly __tsonic_type_System_Linq_Expressions_MemberBindingType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MemberBindingType: {
+    readonly Assignment: MemberBindingType;
+    readonly MemberBinding: MemberBindingType;
+    readonly ListBinding: MemberBindingType;
+};
 
 
 export interface IArgumentProvider$instance {
@@ -128,7 +134,8 @@ export interface IArgumentProvider$instance {
 
 export type IArgumentProvider = IArgumentProvider$instance;
 
-export interface IDynamicExpression$instance extends IArgumentProvider {
+export interface IDynamicExpression$instance {
+    readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
     readonly __tsonic_iface_System_Linq_Expressions_IDynamicExpression: never;
 
     readonly DelegateType: Type;
@@ -143,18 +150,18 @@ export interface IDynamicExpression$instance extends IArgumentProvider$instance 
 
 export type IDynamicExpression = IDynamicExpression$instance;
 
-export interface BinaryExpression$instance extends Expression {
+export interface BinaryExpression$instance extends Expression$instance {
     readonly __tsonic_type_System_Linq_Expressions_BinaryExpression: never;
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
 
-    readonly CanReduce: boolean;
     readonly Conversion: LambdaExpression | null;
     readonly IsLifted: boolean;
     readonly IsLiftedToNull: boolean;
     readonly Left: Expression;
     readonly Method: MethodInfo | null;
     readonly Right: Expression;
-    Accept(visitor: ExpressionVisitor): Expression;
-    Reduce(): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
+    Reduce: Expression$instance["Reduce"] & (() => Expression);
     Update(left: Expression, conversion: LambdaExpression | null, right: Expression): BinaryExpression;
 }
 
@@ -165,15 +172,14 @@ export const BinaryExpression: {
 
 export type BinaryExpression = BinaryExpression$instance;
 
-export interface BlockExpression$instance extends Expression {
+export interface BlockExpression$instance extends Expression$instance {
     readonly __tsonic_type_System_Linq_Expressions_BlockExpression: never;
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
 
     readonly Expressions: ReadOnlyCollection_1<Expression>;
-    readonly NodeType: ExpressionType;
     readonly Result: Expression;
-    readonly Type: Type;
     readonly Variables: ReadOnlyCollection_1<ParameterExpression>;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(variables: IEnumerable_1<ParameterExpression> | null, expressions: IEnumerable_1<Expression>): BlockExpression;
 }
 
@@ -202,15 +208,14 @@ export const CatchBlock: {
 
 export type CatchBlock = CatchBlock$instance;
 
-export interface ConditionalExpression$instance extends Expression {
+export interface ConditionalExpression$instance extends Expression$instance {
     readonly __tsonic_type_System_Linq_Expressions_ConditionalExpression: never;
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
 
     readonly IfFalse: Expression;
     readonly IfTrue: Expression;
-    readonly NodeType: ExpressionType;
     readonly Test: Expression;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(test: Expression, ifTrue: Expression, ifFalse: Expression): ConditionalExpression;
 }
 
@@ -221,13 +226,12 @@ export const ConditionalExpression: {
 
 export type ConditionalExpression = ConditionalExpression$instance;
 
-export interface ConstantExpression$instance extends Expression {
+export interface ConstantExpression$instance extends Expression$instance {
     readonly __tsonic_type_System_Linq_Expressions_ConstantExpression: never;
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
 
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
     readonly Value: unknown | null;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
 }
 
 
@@ -237,18 +241,17 @@ export const ConstantExpression: {
 
 export type ConstantExpression = ConstantExpression$instance;
 
-export interface DebugInfoExpression$instance extends Expression {
+export interface DebugInfoExpression$instance extends Expression$instance {
     readonly __tsonic_type_System_Linq_Expressions_DebugInfoExpression: never;
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
 
     readonly Document: SymbolDocumentInfo;
     readonly EndColumn: int;
     readonly EndLine: int;
     readonly IsClear: boolean;
-    readonly NodeType: ExpressionType;
     readonly StartColumn: int;
     readonly StartLine: int;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
 }
 
 
@@ -258,12 +261,11 @@ export const DebugInfoExpression: {
 
 export type DebugInfoExpression = DebugInfoExpression$instance;
 
-export interface DefaultExpression$instance extends Expression {
+export interface DefaultExpression$instance extends Expression$instance {
     readonly __tsonic_type_System_Linq_Expressions_DefaultExpression: never;
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
 
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
 }
 
 
@@ -273,20 +275,18 @@ export const DefaultExpression: {
 
 export type DefaultExpression = DefaultExpression$instance;
 
-export interface DynamicExpression$instance extends Expression, IDynamicExpression$instance {
+export interface DynamicExpression$instance extends Expression$instance {
     readonly __tsonic_type_System_Linq_Expressions_DynamicExpression: never;
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
 
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
     readonly __tsonic_iface_System_Linq_Expressions_IDynamicExpression: never;
 
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Binder: CallSiteBinder;
-    readonly CanReduce: boolean;
     readonly DelegateType: Type;
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
-    Reduce(): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
+    Reduce: Expression$instance["Reduce"] & (() => Expression);
     Update(arguments: IEnumerable_1<Expression> | null): DynamicExpression;
 }
 
@@ -316,10 +316,11 @@ export interface __DynamicExpression$views {
 export type DynamicExpression = DynamicExpression$instance & __DynamicExpression$views;
 
 
-export interface DynamicExpressionVisitor$instance extends ExpressionVisitor {
+export interface DynamicExpressionVisitor$instance extends ExpressionVisitor$instance {
     readonly __tsonic_type_System_Linq_Expressions_DynamicExpressionVisitor: never;
+    readonly __tsonic_type_System_Linq_Expressions_ExpressionVisitor: never;
 
-    VisitDynamic(node: DynamicExpression): Expression;
+    VisitDynamic: ExpressionVisitor$instance["VisitDynamic"] & ((node: DynamicExpression) => Expression);
 }
 
 
@@ -330,7 +331,7 @@ export const DynamicExpressionVisitor: {
 
 export type DynamicExpressionVisitor = DynamicExpressionVisitor$instance;
 
-export interface ElementInit$instance extends IArgumentProvider$instance {
+export interface ElementInit$instance {
     readonly __tsonic_type_System_Linq_Expressions_ElementInit: never;
 
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
@@ -370,7 +371,7 @@ export interface Expression$instance {
 }
 
 
-export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => Expression) & (abstract new() => Expression) & {
+export const Expression: {
     Add(left: Expression, right: Expression, method: MethodInfo | null): BinaryExpression;
     Add(left: Expression, right: Expression): BinaryExpression;
     AddAssign(left: Expression, right: Expression, method: MethodInfo | null, conversion: LambdaExpression | null): BinaryExpression;
@@ -710,18 +711,15 @@ export const Expression: (abstract new(nodeType: ExpressionType, type: Type) => 
 
 export type Expression = Expression$instance;
 
-export interface Expression_1$instance<TDelegate extends unknown> extends LambdaExpression {
+export interface Expression_1$instance<TDelegate extends unknown> extends LambdaExpression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_Expression_1: never;
+    readonly __tsonic_type_System_Linq_Expressions_LambdaExpression: never;
 
     readonly __tsonic_iface_System_Linq_Expressions_IParameterProvider: never;
 
-    Accept(visitor: ExpressionVisitor): Expression;
-    Compile(): TDelegate;
-    Compile(preferInterpretation: boolean): TDelegate;
-    Compile(debugInfoGenerator: DebugInfoGenerator): TDelegate;
-    Compile(): Function;
-    Compile(preferInterpretation: boolean): Function;
-    Compile(debugInfoGenerator: DebugInfoGenerator): Function;
+    Accept: LambdaExpression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
+    Compile: LambdaExpression$instance["Compile"] & (() => Function) & (() => TDelegate) & ((debugInfoGenerator: DebugInfoGenerator) => Function) & ((debugInfoGenerator: DebugInfoGenerator) => TDelegate) & ((preferInterpretation: boolean) => Function) & ((preferInterpretation: boolean) => TDelegate);
     Update(body: Expression, parameters: IEnumerable_1<ParameterExpression> | null): Expression_1<TDelegate>;
 }
 
@@ -737,8 +735,8 @@ export interface ExpressionVisitor$instance {
 
     Visit(node: Expression | null): Expression | null;
     Visit(nodes: ReadOnlyCollection_1<Expression>): ReadOnlyCollection_1<Expression>;
-    VisitAndConvert<T extends unknown & Expression>(node: T | null, callerName: string | null): T | null;
-    VisitAndConvert<T extends unknown & Expression>(nodes: ReadOnlyCollection_1<T>, callerName: string | null): ReadOnlyCollection_1<T>;
+    VisitAndConvert<T extends unknown & { readonly __tsonic_type_System_Linq_Expressions_Expression: never }>(node: T | null, callerName: string | null): T | null;
+    VisitAndConvert<T extends unknown & { readonly __tsonic_type_System_Linq_Expressions_Expression: never }>(nodes: ReadOnlyCollection_1<T>, callerName: string | null): ReadOnlyCollection_1<T>;
     VisitBinary(node: BinaryExpression): Expression;
     VisitBlock(node: BlockExpression): Expression;
     VisitCatchBlock(node: CatchBlock): CatchBlock;
@@ -776,22 +774,21 @@ export interface ExpressionVisitor$instance {
 }
 
 
-export const ExpressionVisitor: (abstract new() => ExpressionVisitor) & {
+export const ExpressionVisitor: {
     Visit<T extends unknown>(nodes: ReadOnlyCollection_1<T>, elementVisitor: Func_2<T, T>): ReadOnlyCollection_1<T>;
 };
 
 
 export type ExpressionVisitor = ExpressionVisitor$instance;
 
-export interface GotoExpression$instance extends Expression {
+export interface GotoExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_GotoExpression: never;
 
     readonly Kind: GotoExpressionKind;
-    readonly NodeType: ExpressionType;
     readonly Target: LabelTarget;
-    readonly Type: Type;
     readonly Value: Expression | null;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(target: LabelTarget, value: Expression | null): GotoExpression;
 }
 
@@ -802,7 +799,8 @@ export const GotoExpression: {
 
 export type GotoExpression = GotoExpression$instance;
 
-export interface IndexExpression$instance extends Expression, IArgumentProvider$instance {
+export interface IndexExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_IndexExpression: never;
 
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
@@ -810,10 +808,8 @@ export interface IndexExpression$instance extends Expression, IArgumentProvider$
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Indexer: PropertyInfo | null;
-    readonly NodeType: ExpressionType;
     readonly Object: Expression | null;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     GetArgument(index: int): Expression;
     Update(object: Expression, arguments: IEnumerable_1<Expression> | null): IndexExpression;
 }
@@ -830,7 +826,8 @@ export interface __IndexExpression$views {
 export type IndexExpression = IndexExpression$instance & __IndexExpression$views;
 
 
-export interface InvocationExpression$instance extends Expression, IArgumentProvider$instance {
+export interface InvocationExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_InvocationExpression: never;
 
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
@@ -838,9 +835,7 @@ export interface InvocationExpression$instance extends Expression, IArgumentProv
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Expression: Expression;
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     GetArgument(index: int): Expression;
     Update(expression: Expression, arguments: IEnumerable_1<Expression> | null): InvocationExpression;
 }
@@ -857,14 +852,13 @@ export interface __InvocationExpression$views {
 export type InvocationExpression = InvocationExpression$instance & __InvocationExpression$views;
 
 
-export interface LabelExpression$instance extends Expression {
+export interface LabelExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_LabelExpression: never;
 
     readonly DefaultValue: Expression | null;
-    readonly NodeType: ExpressionType;
     readonly Target: LabelTarget;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(target: LabelTarget, defaultValue: Expression | null): LabelExpression;
 }
 
@@ -890,21 +884,20 @@ export const LabelTarget: {
 
 export type LabelTarget = LabelTarget$instance;
 
-export interface LambdaExpression$instance extends Expression {
+export interface LambdaExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_LambdaExpression: never;
 
     readonly __tsonic_iface_System_Linq_Expressions_IParameterProvider: never;
 
     readonly Body: Expression;
     readonly Name: string | null;
-    readonly NodeType: ExpressionType;
     readonly Parameters: ReadOnlyCollection_1<ParameterExpression>;
     readonly ReturnType: Type;
     readonly TailCall: boolean;
-    readonly Type: Type;
     Compile(): Function;
-    Compile(preferInterpretation: boolean): Function;
     Compile(debugInfoGenerator: DebugInfoGenerator): Function;
+    Compile(preferInterpretation: boolean): Function;
 }
 
 
@@ -916,16 +909,14 @@ export const LambdaExpression: {
 
 export type LambdaExpression = LambdaExpression$instance;
 
-export interface ListInitExpression$instance extends Expression {
+export interface ListInitExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_ListInitExpression: never;
 
-    readonly CanReduce: boolean;
     readonly Initializers: ReadOnlyCollection_1<ElementInit>;
     readonly NewExpression: NewExpression;
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
-    Reduce(): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
+    Reduce: Expression$instance["Reduce"] & (() => Expression);
     Update(newExpression: NewExpression, initializers: IEnumerable_1<ElementInit>): ListInitExpression;
 }
 
@@ -936,15 +927,14 @@ export const ListInitExpression: {
 
 export type ListInitExpression = ListInitExpression$instance;
 
-export interface LoopExpression$instance extends Expression {
+export interface LoopExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_LoopExpression: never;
 
     readonly Body: Expression;
     readonly BreakLabel: LabelTarget | null;
     readonly ContinueLabel: LabelTarget | null;
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(breakLabel: LabelTarget | null, continueLabel: LabelTarget | null, body: Expression): LoopExpression;
 }
 
@@ -955,8 +945,9 @@ export const LoopExpression: {
 
 export type LoopExpression = LoopExpression$instance;
 
-export interface MemberAssignment$instance extends MemberBinding {
+export interface MemberAssignment$instance extends MemberBinding$instance {
     readonly __tsonic_type_System_Linq_Expressions_MemberAssignment: never;
+    readonly __tsonic_type_System_Linq_Expressions_MemberBinding: never;
 
     readonly Expression: Expression;
     Update(expression: Expression): MemberAssignment;
@@ -978,19 +969,19 @@ export interface MemberBinding$instance {
 }
 
 
-export const MemberBinding: (abstract new(type: MemberBindingType, member: MemberInfo) => MemberBinding) & {
+export const MemberBinding: {
 };
 
 
 export type MemberBinding = MemberBinding$instance;
 
-export interface MemberExpression$instance extends Expression {
+export interface MemberExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_MemberExpression: never;
 
     readonly Expression: Expression | null;
     readonly Member: MemberInfo;
-    readonly NodeType: ExpressionType;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(expression: Expression | null): MemberExpression;
 }
 
@@ -1001,16 +992,14 @@ export const MemberExpression: {
 
 export type MemberExpression = MemberExpression$instance;
 
-export interface MemberInitExpression$instance extends Expression {
+export interface MemberInitExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_MemberInitExpression: never;
 
     readonly Bindings: ReadOnlyCollection_1<MemberBinding>;
-    readonly CanReduce: boolean;
     readonly NewExpression: NewExpression;
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
-    Reduce(): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
+    Reduce: Expression$instance["Reduce"] & (() => Expression);
     Update(newExpression: NewExpression, bindings: IEnumerable_1<MemberBinding>): MemberInitExpression;
 }
 
@@ -1021,7 +1010,8 @@ export const MemberInitExpression: {
 
 export type MemberInitExpression = MemberInitExpression$instance;
 
-export interface MemberListBinding$instance extends MemberBinding {
+export interface MemberListBinding$instance extends MemberBinding$instance {
+    readonly __tsonic_type_System_Linq_Expressions_MemberBinding: never;
     readonly __tsonic_type_System_Linq_Expressions_MemberListBinding: never;
 
     readonly Initializers: ReadOnlyCollection_1<ElementInit>;
@@ -1035,7 +1025,8 @@ export const MemberListBinding: {
 
 export type MemberListBinding = MemberListBinding$instance;
 
-export interface MemberMemberBinding$instance extends MemberBinding {
+export interface MemberMemberBinding$instance extends MemberBinding$instance {
+    readonly __tsonic_type_System_Linq_Expressions_MemberBinding: never;
     readonly __tsonic_type_System_Linq_Expressions_MemberMemberBinding: never;
 
     readonly Bindings: ReadOnlyCollection_1<MemberBinding>;
@@ -1049,7 +1040,8 @@ export const MemberMemberBinding: {
 
 export type MemberMemberBinding = MemberMemberBinding$instance;
 
-export interface MethodCallExpression$instance extends Expression, IArgumentProvider$instance {
+export interface MethodCallExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_MethodCallExpression: never;
 
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
@@ -1057,10 +1049,8 @@ export interface MethodCallExpression$instance extends Expression, IArgumentProv
     readonly ArgumentCount: int;
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Method: MethodInfo;
-    readonly NodeType: ExpressionType;
     readonly Object: Expression | null;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     GetArgument(index: int): Expression;
     Update(object: Expression | null, arguments: IEnumerable_1<Expression> | null): MethodCallExpression;
 }
@@ -1077,12 +1067,12 @@ export interface __MethodCallExpression$views {
 export type MethodCallExpression = MethodCallExpression$instance & __MethodCallExpression$views;
 
 
-export interface NewArrayExpression$instance extends Expression {
+export interface NewArrayExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_NewArrayExpression: never;
 
     readonly Expressions: ReadOnlyCollection_1<Expression>;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(expressions: IEnumerable_1<Expression>): NewArrayExpression;
 }
 
@@ -1093,7 +1083,8 @@ export const NewArrayExpression: {
 
 export type NewArrayExpression = NewArrayExpression$instance;
 
-export interface NewExpression$instance extends Expression, IArgumentProvider$instance {
+export interface NewExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_NewExpression: never;
 
     readonly __tsonic_iface_System_Linq_Expressions_IArgumentProvider: never;
@@ -1102,9 +1093,7 @@ export interface NewExpression$instance extends Expression, IArgumentProvider$in
     readonly Arguments: ReadOnlyCollection_1<Expression>;
     readonly Constructor: ConstructorInfo | null;
     readonly Members: ReadOnlyCollection_1<MemberInfo> | null;
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     GetArgument(index: int): Expression;
     Update(arguments: IEnumerable_1<Expression> | null): NewExpression;
 }
@@ -1121,14 +1110,13 @@ export interface __NewExpression$views {
 export type NewExpression = NewExpression$instance & __NewExpression$views;
 
 
-export interface ParameterExpression$instance extends Expression {
+export interface ParameterExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_ParameterExpression: never;
 
     readonly IsByRef: boolean;
     readonly Name: string | null;
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
 }
 
 
@@ -1138,13 +1126,12 @@ export const ParameterExpression: {
 
 export type ParameterExpression = ParameterExpression$instance;
 
-export interface RuntimeVariablesExpression$instance extends Expression {
+export interface RuntimeVariablesExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_RuntimeVariablesExpression: never;
 
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
     readonly Variables: ReadOnlyCollection_1<ParameterExpression>;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(variables: IEnumerable_1<ParameterExpression>): RuntimeVariablesExpression;
 }
 
@@ -1171,16 +1158,15 @@ export const SwitchCase: {
 
 export type SwitchCase = SwitchCase$instance;
 
-export interface SwitchExpression$instance extends Expression {
+export interface SwitchExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_SwitchExpression: never;
 
     readonly Cases: ReadOnlyCollection_1<SwitchCase>;
     readonly Comparison: MethodInfo | null;
     readonly DefaultBody: Expression | null;
-    readonly NodeType: ExpressionType;
     readonly SwitchValue: Expression;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(switchValue: Expression, cases: IEnumerable_1<SwitchCase> | null, defaultBody: Expression | null): SwitchExpression;
 }
 
@@ -1207,16 +1193,15 @@ export const SymbolDocumentInfo: {
 
 export type SymbolDocumentInfo = SymbolDocumentInfo$instance;
 
-export interface TryExpression$instance extends Expression {
+export interface TryExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_TryExpression: never;
 
     readonly Body: Expression;
     readonly Fault: Expression | null;
     readonly Finally: Expression | null;
     readonly Handlers: ReadOnlyCollection_1<CatchBlock>;
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(body: Expression, handlers: IEnumerable_1<CatchBlock> | null, finally_: Expression | null, fault: Expression | null): TryExpression;
 }
 
@@ -1227,14 +1212,13 @@ export const TryExpression: {
 
 export type TryExpression = TryExpression$instance;
 
-export interface TypeBinaryExpression$instance extends Expression {
+export interface TypeBinaryExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_TypeBinaryExpression: never;
 
     readonly Expression: Expression;
-    readonly NodeType: ExpressionType;
-    readonly Type: Type;
     readonly TypeOperand: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
     Update(expression: Expression): TypeBinaryExpression;
 }
 
@@ -1245,18 +1229,16 @@ export const TypeBinaryExpression: {
 
 export type TypeBinaryExpression = TypeBinaryExpression$instance;
 
-export interface UnaryExpression$instance extends Expression {
+export interface UnaryExpression$instance extends Expression$instance {
+    readonly __tsonic_type_System_Linq_Expressions_Expression: never;
     readonly __tsonic_type_System_Linq_Expressions_UnaryExpression: never;
 
-    readonly CanReduce: boolean;
     readonly IsLifted: boolean;
     readonly IsLiftedToNull: boolean;
     readonly Method: MethodInfo | null;
-    readonly NodeType: ExpressionType;
     readonly Operand: Expression;
-    readonly Type: Type;
-    Accept(visitor: ExpressionVisitor): Expression;
-    Reduce(): Expression;
+    Accept: Expression$instance["Accept"] & ((visitor: ExpressionVisitor) => Expression);
+    Reduce: Expression$instance["Reduce"] & (() => Expression);
     Update(operand: Expression): UnaryExpression;
 }
 

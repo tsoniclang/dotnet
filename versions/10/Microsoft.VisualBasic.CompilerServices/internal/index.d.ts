@@ -170,8 +170,9 @@ export const DecimalType: {
 
 export type DecimalType = DecimalType$instance;
 
-export interface DesignerGeneratedAttribute$instance extends Attribute {
+export interface DesignerGeneratedAttribute$instance extends System_Internal.Attribute$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_DesignerGeneratedAttribute: never;
+    readonly __tsonic_type_System_Attribute: never;
 
 }
 
@@ -201,8 +202,9 @@ export const DoubleType: {
 
 export type DoubleType = DoubleType$instance;
 
-export interface IncompleteInitialization$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface IncompleteInitialization$instance extends System_Internal.Exception$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_IncompleteInitialization: never;
+    readonly __tsonic_type_System_Exception: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -417,8 +419,9 @@ export const Operators: {
 
 export type Operators = Operators$instance;
 
-export interface OptionCompareAttribute$instance extends Attribute {
+export interface OptionCompareAttribute$instance extends System_Internal.Attribute$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_OptionCompareAttribute: never;
+    readonly __tsonic_type_System_Attribute: never;
 
 }
 
@@ -430,8 +433,9 @@ export const OptionCompareAttribute: {
 
 export type OptionCompareAttribute = OptionCompareAttribute$instance;
 
-export interface OptionTextAttribute$instance extends Attribute {
+export interface OptionTextAttribute$instance extends System_Internal.Attribute$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_OptionTextAttribute: never;
+    readonly __tsonic_type_System_Attribute: never;
 
 }
 
@@ -490,8 +494,9 @@ export const SingleType: {
 
 export type SingleType = SingleType$instance;
 
-export interface StandardModuleAttribute$instance extends Attribute {
+export interface StandardModuleAttribute$instance extends System_Internal.Attribute$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_CompilerServices_StandardModuleAttribute: never;
+    readonly __tsonic_type_System_Attribute: never;
 
 }
 

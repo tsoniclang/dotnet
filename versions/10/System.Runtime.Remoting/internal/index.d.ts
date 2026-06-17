@@ -10,7 +10,8 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Int32, MarshalByRefObject, Object as ClrObject, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
-export interface ObjectHandle$instance extends MarshalByRefObject {
+export interface ObjectHandle$instance extends System_Internal.MarshalByRefObject$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Runtime_Remoting_ObjectHandle: never;
 
     Unwrap(): unknown | null;

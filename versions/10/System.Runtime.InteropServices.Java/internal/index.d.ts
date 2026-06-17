@@ -13,6 +13,7 @@ import type { Boolean as ClrBoolean, Int32, Object as ClrObject, ReadOnlySpan_1,
 
 export interface ComponentCrossReference$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_Java_ComponentCrossReference: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     SourceGroupIndex: nuint;
     DestinationGroupIndex: nuint;
@@ -28,6 +29,7 @@ export type ComponentCrossReference = ComponentCrossReference$instance;
 
 export interface MarkCrossReferencesArgs$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_Java_MarkCrossReferencesArgs: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     ComponentCount: nuint;
     Components: ptr<StronglyConnectedComponent>;
@@ -45,6 +47,7 @@ export type MarkCrossReferencesArgs = MarkCrossReferencesArgs$instance;
 
 export interface StronglyConnectedComponent$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_Java_StronglyConnectedComponent: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     Count: nuint;
     Contexts: ptr<void>;
