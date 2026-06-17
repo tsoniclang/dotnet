@@ -628,4 +628,3 @@ export const ResourceSectionBuilder: (abstract new() => ResourceSectionBuilder) 
 
 
 export type ResourceSectionBuilder = ResourceSectionBuilder$instance;
-

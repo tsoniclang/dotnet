@@ -1297,4 +1297,3 @@ export abstract class SchemaTableOptionalColumn$instance {
 
 
 export type SchemaTableOptionalColumn = SchemaTableOptionalColumn$instance;
-

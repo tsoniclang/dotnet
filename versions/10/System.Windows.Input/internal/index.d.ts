@@ -19,4 +19,3 @@ export interface ICommand$instance {
 
 
 export type ICommand = ICommand$instance;
-

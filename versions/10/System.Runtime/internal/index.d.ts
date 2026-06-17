@@ -163,4 +163,3 @@ export abstract class ProfileOptimization$instance {
 
 
 export type ProfileOptimization = ProfileOptimization$instance;
-

@@ -121,4 +121,3 @@ export abstract class FileSystemName$instance {
 
 
 export type FileSystemName = FileSystemName$instance;
-

@@ -352,4 +352,3 @@ export abstract class PipesAclExtensions$instance {
 
 
 export type PipesAclExtensions = PipesAclExtensions$instance;
-

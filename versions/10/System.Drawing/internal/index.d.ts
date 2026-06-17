@@ -844,4 +844,3 @@ export abstract class SystemColors$instance {
 
 
 export type SystemColors = SystemColors$instance;
-

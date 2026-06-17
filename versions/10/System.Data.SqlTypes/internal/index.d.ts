@@ -1139,5 +1139,3 @@ export interface __SqlXml$views {
 }
 
 export type SqlXml = SqlXml$instance & __SqlXml$views;
-
-

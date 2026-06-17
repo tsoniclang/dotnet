@@ -384,4 +384,3 @@ export abstract class SecureStringMarshal$instance {
 
 
 export type SecureStringMarshal = SecureStringMarshal$instance;
-

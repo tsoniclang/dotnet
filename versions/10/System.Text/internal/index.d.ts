@@ -1171,4 +1171,3 @@ export abstract class EncodingExtensions$instance {
 
 
 export type EncodingExtensions = EncodingExtensions$instance;
-

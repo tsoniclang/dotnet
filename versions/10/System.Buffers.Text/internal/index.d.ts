@@ -101,4 +101,3 @@ export abstract class Utf8Parser$instance {
 
 
 export type Utf8Parser = Utf8Parser$instance;
-

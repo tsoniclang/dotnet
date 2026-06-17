@@ -565,5 +565,3 @@ export interface __SmtpFailedRecipientsException$views {
 }
 
 export type SmtpFailedRecipientsException = SmtpFailedRecipientsException$instance & __SmtpFailedRecipientsException$views;
-
-

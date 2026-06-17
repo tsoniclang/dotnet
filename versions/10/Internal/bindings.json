@@ -27,7 +27,7 @@
           {
             "stableId": "System.Private.CoreLib:Internal.Console::WriteLine(System.String):System.Void",
             "targetName": "WriteLine",
-            "metadataToken": 100704804,
+            "metadataToken": 100704806,
             "canonicalSignature": "(System.String):System.Void",
             "normalizedSignature": "WriteLine|(System.String):System.Void|static=true",
             "emitScope": "ClassSurface",
@@ -47,7 +47,7 @@
           {
             "stableId": "System.Private.CoreLib:Internal.Console::WriteLine():System.Void",
             "targetName": "WriteLine",
-            "metadataToken": 100704805,
+            "metadataToken": 100704807,
             "canonicalSignature": "():System.Void",
             "normalizedSignature": "WriteLine|():System.Void|static=true",
             "emitScope": "ClassSurface",
@@ -67,7 +67,7 @@
           {
             "stableId": "System.Private.CoreLib:Internal.Console::Write(System.String):System.Void",
             "targetName": "Write",
-            "metadataToken": 100704806,
+            "metadataToken": 100704808,
             "canonicalSignature": "(System.String):System.Void",
             "normalizedSignature": "Write|(System.String):System.Void|static=true",
             "emitScope": "ClassSurface",
@@ -109,7 +109,7 @@
           {
             "stableId": "System.Private.CoreLib:Internal.Console+Error::WriteLine():System.Void",
             "targetName": "WriteLine",
-            "metadataToken": 100704807,
+            "metadataToken": 100704809,
             "canonicalSignature": "():System.Void",
             "normalizedSignature": "WriteLine|():System.Void|static=true",
             "emitScope": "ClassSurface",
@@ -129,7 +129,7 @@
           {
             "stableId": "System.Private.CoreLib:Internal.Console+Error::Write(System.String):System.Void",
             "targetName": "Write",
-            "metadataToken": 100704808,
+            "metadataToken": 100704810,
             "canonicalSignature": "(System.String):System.Void",
             "normalizedSignature": "Write|(System.String):System.Void|static=true",
             "emitScope": "ClassSurface",

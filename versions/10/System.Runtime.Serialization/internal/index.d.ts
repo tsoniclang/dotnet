@@ -1020,4 +1020,3 @@ export abstract class XPathQueryGenerator$instance {
 
 
 export type XPathQueryGenerator = XPathQueryGenerator$instance;
-

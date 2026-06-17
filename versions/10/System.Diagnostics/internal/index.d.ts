@@ -2130,4 +2130,3 @@ export abstract class StackFrameExtensions$instance {
 
 
 export type StackFrameExtensions = StackFrameExtensions$instance;
-

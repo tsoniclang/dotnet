@@ -2488,4 +2488,3 @@ export const XmlWriterSettings: {
 
 
 export type XmlWriterSettings = XmlWriterSettings$instance;
-

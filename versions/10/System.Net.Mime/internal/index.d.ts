@@ -160,4 +160,3 @@ export abstract class MediaTypeNames_Text$instance {
 
 
 export type MediaTypeNames_Text = MediaTypeNames_Text$instance;
-

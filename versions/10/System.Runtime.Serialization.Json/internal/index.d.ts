@@ -127,4 +127,3 @@ export abstract class JsonReaderWriterFactory$instance {
 
 
 export type JsonReaderWriterFactory = JsonReaderWriterFactory$instance;
-

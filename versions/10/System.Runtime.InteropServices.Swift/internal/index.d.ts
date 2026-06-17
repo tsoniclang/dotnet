@@ -65,4 +65,3 @@ export const SwiftSelf_1: {
 
 
 export type SwiftSelf_1<T extends NonNullable<unknown>> = SwiftSelf_1$instance<T>;
-

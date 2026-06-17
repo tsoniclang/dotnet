@@ -258,4 +258,3 @@ export const SatelliteContractVersionAttribute: {
 
 
 export type SatelliteContractVersionAttribute = SatelliteContractVersionAttribute$instance;
-

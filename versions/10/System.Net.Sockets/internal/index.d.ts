@@ -1128,4 +1128,3 @@ export abstract class SocketTaskExtensions$instance {
 
 
 export type SocketTaskExtensions = SocketTaskExtensions$instance;
-

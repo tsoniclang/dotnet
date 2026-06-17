@@ -231,4 +231,3 @@ export const Utf8_TryWriteInterpolatedStringHandler: {
 
 
 export type Utf8_TryWriteInterpolatedStringHandler = Utf8_TryWriteInterpolatedStringHandler$instance;
-

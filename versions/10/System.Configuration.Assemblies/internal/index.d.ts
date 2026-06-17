@@ -25,5 +25,3 @@ export enum AssemblyVersionCompatibility {
     SameProcess = 2,
     SameDomain = 3
 }
-
-

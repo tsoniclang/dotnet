@@ -2390,4 +2390,3 @@ export abstract class TypedTableBaseExtensions$instance {
 
 
 export type TypedTableBaseExtensions = TypedTableBaseExtensions$instance;
-

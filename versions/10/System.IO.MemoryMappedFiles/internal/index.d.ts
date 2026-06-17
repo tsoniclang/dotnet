@@ -142,5 +142,3 @@ export interface __MemoryMappedViewStream$views {
 }
 
 export type MemoryMappedViewStream = MemoryMappedViewStream$instance & __MemoryMappedViewStream$views;
-
-

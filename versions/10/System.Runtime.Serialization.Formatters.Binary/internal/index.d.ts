@@ -43,5 +43,3 @@ export interface __BinaryFormatter$views {
 }
 
 export type BinaryFormatter = BinaryFormatter$instance & __BinaryFormatter$views;
-
-

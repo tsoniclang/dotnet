@@ -512,4 +512,3 @@ export abstract class ZipFileExtensions$instance {
 
 
 export type ZipFileExtensions = ZipFileExtensions$instance;
-

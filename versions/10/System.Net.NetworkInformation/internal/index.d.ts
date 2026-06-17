@@ -927,5 +927,3 @@ export interface __UnicastIPAddressInformationCollection$views {
 }
 
 export type UnicastIPAddressInformationCollection = UnicastIPAddressInformationCollection$instance & __UnicastIPAddressInformationCollection$views & { readonly [index: number]: UnicastIPAddressInformation; };
-
-

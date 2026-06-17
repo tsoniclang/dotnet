@@ -118,4 +118,3 @@ export const TableAttribute: {
 
 
 export type TableAttribute = TableAttribute$instance;
-

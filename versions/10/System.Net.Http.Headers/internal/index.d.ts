@@ -926,5 +926,3 @@ export interface __WarningHeaderValue$views {
 }
 
 export type WarningHeaderValue = WarningHeaderValue$instance & __WarningHeaderValue$views;
-
-

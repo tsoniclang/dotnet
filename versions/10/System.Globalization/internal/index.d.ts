@@ -1433,4 +1433,3 @@ export abstract class ISOWeek$instance {
 
 
 export type ISOWeek = ISOWeek$instance;
-

@@ -1279,4 +1279,3 @@ export abstract class X509CertificateLoader$instance {
 
 
 export type X509CertificateLoader = X509CertificateLoader$instance;
-

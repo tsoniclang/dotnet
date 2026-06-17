@@ -2475,4 +2475,3 @@ export abstract class TypeMapping$instance {
 
 
 export type TypeMapping = TypeMapping$instance;
-

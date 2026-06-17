@@ -3522,4 +3522,3 @@ export abstract class SyntaxCheck$instance {
 
 
 export type SyntaxCheck = SyntaxCheck$instance;
-

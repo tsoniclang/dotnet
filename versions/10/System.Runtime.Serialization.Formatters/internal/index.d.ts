@@ -40,4 +40,3 @@ export interface IFieldInfo$instance {
 
 
 export type IFieldInfo = IFieldInfo$instance;
-

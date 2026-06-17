@@ -381,4 +381,3 @@ export abstract class SequenceReaderExtensions$instance {
 
 
 export type SequenceReaderExtensions = SequenceReaderExtensions$instance;
-

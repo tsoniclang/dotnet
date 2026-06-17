@@ -100,5 +100,3 @@ export interface __InvalidCredentialException$views {
 }
 
 export type InvalidCredentialException = InvalidCredentialException$instance & __InvalidCredentialException$views;
-
-

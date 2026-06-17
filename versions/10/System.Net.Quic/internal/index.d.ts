@@ -297,5 +297,3 @@ export interface __QuicStream$views {
 }
 
 export type QuicStream = QuicStream$instance & __QuicStream$views;
-
-

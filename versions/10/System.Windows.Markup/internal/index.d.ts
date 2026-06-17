@@ -25,4 +25,3 @@ export const ValueSerializerAttribute: {
 
 
 export type ValueSerializerAttribute = ValueSerializerAttribute$instance;
-

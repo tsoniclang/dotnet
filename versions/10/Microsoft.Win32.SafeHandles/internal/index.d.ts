@@ -380,5 +380,3 @@ export interface __SafeX509ChainHandle$views {
 }
 
 export type SafeX509ChainHandle = SafeX509ChainHandle$instance & __SafeX509ChainHandle$views;
-
-

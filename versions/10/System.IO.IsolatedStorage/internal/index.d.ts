@@ -212,5 +212,3 @@ export interface __IsolatedStorageFileStream$views {
 }
 
 export type IsolatedStorageFileStream = IsolatedStorageFileStream$instance & __IsolatedStorageFileStream$views;
-
-

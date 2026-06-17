@@ -215,5 +215,3 @@ export interface __TextFieldParser$views {
 }
 
 export type TextFieldParser = TextFieldParser$instance & __TextFieldParser$views;
-
-

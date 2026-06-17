@@ -65,4 +65,3 @@ export const ReliabilityContractAttribute: {
 
 
 export type ReliabilityContractAttribute = ReliabilityContractAttribute$instance;
-

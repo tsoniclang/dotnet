@@ -62,4 +62,3 @@ export abstract class ExceptionHandling$instance {
 
 
 export type ExceptionHandling = ExceptionHandling$instance;
-

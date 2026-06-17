@@ -545,4 +545,3 @@ export const ReferenceResolver: (abstract new() => ReferenceResolver) & {
 
 
 export type ReferenceResolver = ReferenceResolver$instance;
-

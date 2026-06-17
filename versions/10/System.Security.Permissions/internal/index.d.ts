@@ -105,4 +105,3 @@ export const SecurityPermissionAttribute: {
 
 
 export type SecurityPermissionAttribute = SecurityPermissionAttribute$instance;
-

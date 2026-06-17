@@ -119,5 +119,3 @@ export interface __IndentedTextWriter$views {
 }
 
 export type IndentedTextWriter = IndentedTextWriter$instance & __IndentedTextWriter$views;
-
-

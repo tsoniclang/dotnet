@@ -413,4 +413,3 @@ export const UnaryOperationBinder: (abstract new(operation: ExpressionType) => U
 
 
 export type UnaryOperationBinder = UnaryOperationBinder$instance;
-

@@ -248,4 +248,3 @@ export abstract class Contract$instance {
 
 
 export type Contract = Contract$instance;
-

@@ -247,4 +247,3 @@ export abstract class ClaimValueTypes$instance {
 
 
 export type ClaimValueTypes = ClaimValueTypes$instance;
-

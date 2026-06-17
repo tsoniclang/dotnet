@@ -54,4 +54,3 @@ export abstract class JsonSchemaExporter$instance {
 
 
 export type JsonSchemaExporter = JsonSchemaExporter$instance;
-

@@ -47,5 +47,3 @@ export enum ObjectiveCMarshal_MessageSendFunction {
 
 
 export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = (exception: Exception, lastMethod: RuntimeMethodHandle, context: nint) => fnptr<[nint], void>;
-
-

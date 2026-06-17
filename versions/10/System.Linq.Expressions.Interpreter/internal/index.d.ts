@@ -23,4 +23,3 @@ export const LightLambda: {
 
 
 export type LightLambda = LightLambda$instance;
-

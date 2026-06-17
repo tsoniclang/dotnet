@@ -324,4 +324,3 @@ export abstract class AsnDecoder$instance {
 
 
 export type AsnDecoder = AsnDecoder$instance;
-

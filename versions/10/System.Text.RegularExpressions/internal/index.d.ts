@@ -519,4 +519,3 @@ export const RegexRunnerFactory: (abstract new() => RegexRunnerFactory) & {
 
 
 export type RegexRunnerFactory = RegexRunnerFactory$instance;
-

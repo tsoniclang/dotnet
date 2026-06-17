@@ -1089,5 +1089,3 @@ export interface __TypeBuilder$views {
 }
 
 export type TypeBuilder = TypeBuilder$instance & __TypeBuilder$views;
-
-

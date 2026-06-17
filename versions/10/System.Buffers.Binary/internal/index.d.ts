@@ -141,4 +141,3 @@ export abstract class BinaryPrimitives$instance {
 
 
 export type BinaryPrimitives = BinaryPrimitives$instance;
-

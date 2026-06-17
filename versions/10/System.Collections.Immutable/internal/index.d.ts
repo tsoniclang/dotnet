@@ -1271,4 +1271,3 @@ export abstract class ImmutableStack$instance {
 
 
 export type ImmutableStack = ImmutableStack$instance;
-

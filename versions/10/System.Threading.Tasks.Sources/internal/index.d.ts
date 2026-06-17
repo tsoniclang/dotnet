@@ -67,4 +67,3 @@ export const ManualResetValueTaskSourceCore_1: {
 
 
 export type ManualResetValueTaskSourceCore_1<TResult extends unknown> = ManualResetValueTaskSourceCore_1$instance<TResult>;
-

@@ -1128,4 +1128,3 @@ export abstract class Queryable$instance {
 
 
 export type Queryable = Queryable$instance;
-

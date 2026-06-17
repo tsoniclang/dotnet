@@ -530,4 +530,3 @@ export abstract class JSHost$instance {
 
 
 export type JSHost = JSHost$instance;
-

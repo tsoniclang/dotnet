@@ -128,5 +128,3 @@ export interface __ServiceNameCollection$views {
 }
 
 export type ServiceNameCollection = ServiceNameCollection$instance & __ServiceNameCollection$views;
-
-

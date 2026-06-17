@@ -2409,4 +2409,3 @@ export abstract class Unsafe$instance {
 
 
 export type Unsafe = Unsafe$instance;
-

@@ -1847,4 +1847,3 @@ export abstract class Vector$instance {
 
 
 export type Vector = Vector$instance;
-

@@ -26,4 +26,3 @@ export abstract class Console_Error$instance {
 
 
 export type Console_Error = Console_Error$instance;
-

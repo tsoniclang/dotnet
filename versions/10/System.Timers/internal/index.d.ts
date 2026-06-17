@@ -85,4 +85,3 @@ export const TimersDescriptionAttribute: {
 
 
 export type TimersDescriptionAttribute = TimersDescriptionAttribute$instance;
-

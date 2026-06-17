@@ -118,4 +118,3 @@ export abstract class HttpContentJsonExtensions$instance {
 
 
 export type HttpContentJsonExtensions = HttpContentJsonExtensions$instance;
-

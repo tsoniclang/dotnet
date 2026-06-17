@@ -389,4 +389,3 @@ export abstract class JsonTypeInfoResolver$instance {
 
 
 export type JsonTypeInfoResolver = JsonTypeInfoResolver$instance;
-

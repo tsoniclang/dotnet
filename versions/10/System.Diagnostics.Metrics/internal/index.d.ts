@@ -333,4 +333,3 @@ export abstract class MeterFactoryExtensions$instance {
 
 
 export type MeterFactoryExtensions = MeterFactoryExtensions$instance;
-

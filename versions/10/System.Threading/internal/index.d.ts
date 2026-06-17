@@ -1668,4 +1668,3 @@ export abstract class WaitHandleExtensions$instance {
 
 
 export type WaitHandleExtensions = WaitHandleExtensions$instance;
-

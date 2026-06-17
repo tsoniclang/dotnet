@@ -578,4 +578,3 @@ export const Versioned: {
 
 
 export type Versioned = Versioned$instance;
-

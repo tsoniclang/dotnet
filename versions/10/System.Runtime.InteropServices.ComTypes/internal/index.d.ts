@@ -901,4 +901,3 @@ export const VARDESC_DESCUNION: {
 
 
 export type VARDESC_DESCUNION = VARDESC_DESCUNION$instance;
-

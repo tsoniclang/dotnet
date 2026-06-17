@@ -182,4 +182,3 @@ export abstract class Channel$instance {
 
 
 export type Channel = Channel$instance;
-

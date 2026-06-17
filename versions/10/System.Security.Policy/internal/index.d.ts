@@ -68,4 +68,3 @@ export const EvidenceBase: (abstract new() => EvidenceBase) & {
 
 
 export type EvidenceBase = EvidenceBase$instance;
-

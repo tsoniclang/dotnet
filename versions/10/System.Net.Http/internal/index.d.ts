@@ -865,5 +865,3 @@ export interface __StringContent$views {
 }
 
 export type StringContent = StringContent$instance & __StringContent$views;
-
-

@@ -493,4 +493,3 @@ export const PackedSimd: (abstract new() => PackedSimd) & {
 
 
 export type PackedSimd = PackedSimd$instance;
-

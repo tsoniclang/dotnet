@@ -912,4 +912,3 @@ export const TypeDescriptionProviderService: (abstract new() => TypeDescriptionP
 
 
 export type TypeDescriptionProviderService = TypeDescriptionProviderService$instance;
-

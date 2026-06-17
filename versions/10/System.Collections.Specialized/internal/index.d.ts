@@ -500,4 +500,3 @@ export const StringEnumerator: {
 
 
 export type StringEnumerator = StringEnumerator$instance;
-

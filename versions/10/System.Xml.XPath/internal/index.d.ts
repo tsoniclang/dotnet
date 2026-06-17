@@ -361,4 +361,3 @@ export abstract class XDocumentExtensions$instance {
 
 
 export type XDocumentExtensions = XDocumentExtensions$instance;
-

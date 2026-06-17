@@ -233,4 +233,3 @@ export abstract class TarFile$instance {
 
 
 export type TarFile = TarFile$instance;
-

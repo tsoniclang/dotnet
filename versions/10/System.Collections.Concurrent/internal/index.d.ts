@@ -355,4 +355,3 @@ export abstract class Partitioner$instance {
 
 
 export type Partitioner = Partitioner$instance;
-

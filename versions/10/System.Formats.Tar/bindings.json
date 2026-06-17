@@ -449,7 +449,7 @@
         "constructors": [
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.GnuTarEntry::.ctor(System.Formats.Tar.TarEntryType,System.String):void",
-            "metadataToken": 100663610,
+            "metadataToken": 100663613,
             "canonicalSignature": "(System.Formats.Tar.TarEntryType,System.String):void",
             "normalizedSignature": "constructor|(System.Formats.Tar.TarEntryType,System.String):void|static=false",
             "isStatic": false,
@@ -460,7 +460,7 @@
           },
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.GnuTarEntry::.ctor(System.Formats.Tar.TarEntry):void",
-            "metadataToken": 100663611,
+            "metadataToken": 100663614,
             "canonicalSignature": "(System.Formats.Tar.TarEntry):void",
             "normalizedSignature": "constructor|(System.Formats.Tar.TarEntry):void|static=false",
             "isStatic": false,
@@ -513,7 +513,7 @@
         "constructors": [
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.PaxGlobalExtendedAttributesTarEntry::.ctor(System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
-            "metadataToken": 100663618,
+            "metadataToken": 100663621,
             "canonicalSignature": "(System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
             "normalizedSignature": "constructor|(System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
             "isStatic": false,
@@ -566,7 +566,7 @@
         "constructors": [
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.PaxTarEntry::.ctor(System.Formats.Tar.TarEntryType,System.String):void",
-            "metadataToken": 100663622,
+            "metadataToken": 100663625,
             "canonicalSignature": "(System.Formats.Tar.TarEntryType,System.String):void",
             "normalizedSignature": "constructor|(System.Formats.Tar.TarEntryType,System.String):void|static=false",
             "isStatic": false,
@@ -577,7 +577,7 @@
           },
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.PaxTarEntry::.ctor(System.Formats.Tar.TarEntryType,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
-            "metadataToken": 100663623,
+            "metadataToken": 100663626,
             "canonicalSignature": "(System.Formats.Tar.TarEntryType,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
             "normalizedSignature": "constructor|(System.Formats.Tar.TarEntryType,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
             "isStatic": false,
@@ -588,7 +588,7 @@
           },
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.PaxTarEntry::.ctor(System.Formats.Tar.TarEntry):void",
-            "metadataToken": 100663624,
+            "metadataToken": 100663627,
             "canonicalSignature": "(System.Formats.Tar.TarEntry):void",
             "normalizedSignature": "constructor|(System.Formats.Tar.TarEntry):void|static=false",
             "isStatic": false,
@@ -1056,7 +1056,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::Dispose():System.Void",
             "targetName": "Dispose",
-            "metadataToken": 100663665,
+            "metadataToken": 100663668,
             "canonicalSignature": "():System.Void",
             "normalizedSignature": "Dispose|():System.Void|static=false",
             "emitScope": "ClassSurface",
@@ -1076,7 +1076,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::DisposeAsync():System.Threading.Tasks.ValueTask",
             "targetName": "DisposeAsync",
-            "metadataToken": 100663666,
+            "metadataToken": 100663669,
             "canonicalSignature": "():System.Threading.Tasks.ValueTask",
             "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
             "emitScope": "ClassSurface",
@@ -1096,7 +1096,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::GetNextEntry(System.Boolean):System.Formats.Tar.TarEntry",
             "targetName": "GetNextEntry",
-            "metadataToken": 100663667,
+            "metadataToken": 100663670,
             "canonicalSignature": "(System.Boolean):System.Formats.Tar.TarEntry",
             "normalizedSignature": "GetNextEntry|(System.Boolean):System.Formats.Tar.TarEntry|static=false",
             "emitScope": "ClassSurface",
@@ -1116,7 +1116,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::GetNextEntryAsync(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Formats.Tar.TarEntry,System.Formats.Tar,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
             "targetName": "GetNextEntryAsync",
-            "metadataToken": 100663668,
+            "metadataToken": 100663671,
             "canonicalSignature": "(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Formats.Tar.TarEntry,System.Formats.Tar,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
             "normalizedSignature": "GetNextEntryAsync|(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Formats.Tar.TarEntry,System.Formats.Tar,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
             "emitScope": "ClassSurface",
@@ -1182,7 +1182,7 @@
         "constructors": [
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarReader::.ctor(System.IO.Stream,System.Boolean):void",
-            "metadataToken": 100663664,
+            "metadataToken": 100663667,
             "canonicalSignature": "(System.IO.Stream,System.Boolean):void",
             "normalizedSignature": "constructor|(System.IO.Stream,System.Boolean):void|static=false",
             "isStatic": false,
@@ -1222,7 +1222,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::Dispose():System.Void",
             "targetName": "Dispose",
-            "metadataToken": 100663695,
+            "metadataToken": 100663698,
             "canonicalSignature": "():System.Void",
             "normalizedSignature": "Dispose|():System.Void|static=false",
             "emitScope": "ClassSurface",
@@ -1242,7 +1242,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
             "targetName": "DisposeAsync",
-            "metadataToken": 100663696,
+            "metadataToken": 100663699,
             "canonicalSignature": "():System.Threading.Tasks.ValueTask",
             "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
             "emitScope": "ClassSurface",
@@ -1262,7 +1262,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntry(System.String,System.String):System.Void",
             "targetName": "WriteEntry",
-            "metadataToken": 100663697,
+            "metadataToken": 100663700,
             "canonicalSignature": "(System.String,System.String):System.Void",
             "normalizedSignature": "WriteEntry|(System.String,System.String):System.Void|static=false",
             "emitScope": "ClassSurface",
@@ -1282,7 +1282,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntryAsync(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "targetName": "WriteEntryAsync",
-            "metadataToken": 100663698,
+            "metadataToken": 100663701,
             "canonicalSignature": "(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "normalizedSignature": "WriteEntryAsync|(System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
             "emitScope": "ClassSurface",
@@ -1302,7 +1302,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntry(System.Formats.Tar.TarEntry):System.Void",
             "targetName": "WriteEntry",
-            "metadataToken": 100663701,
+            "metadataToken": 100663704,
             "canonicalSignature": "(System.Formats.Tar.TarEntry):System.Void",
             "normalizedSignature": "WriteEntry|(System.Formats.Tar.TarEntry):System.Void|static=false",
             "emitScope": "ClassSurface",
@@ -1322,7 +1322,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntryAsync(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "targetName": "WriteEntryAsync",
-            "metadataToken": 100663702,
+            "metadataToken": 100663705,
             "canonicalSignature": "(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "normalizedSignature": "WriteEntryAsync|(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
             "emitScope": "ClassSurface",
@@ -1408,7 +1408,7 @@
         "constructors": [
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::.ctor(System.IO.Stream):void",
-            "metadataToken": 100663691,
+            "metadataToken": 100663694,
             "canonicalSignature": "(System.IO.Stream):void",
             "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
             "isStatic": false,
@@ -1419,7 +1419,7 @@
           },
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::.ctor(System.IO.Stream,System.Boolean):void",
-            "metadataToken": 100663692,
+            "metadataToken": 100663695,
             "canonicalSignature": "(System.IO.Stream,System.Boolean):void",
             "normalizedSignature": "constructor|(System.IO.Stream,System.Boolean):void|static=false",
             "isStatic": false,
@@ -1430,7 +1430,7 @@
           },
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::.ctor(System.IO.Stream,System.Formats.Tar.TarEntryFormat,System.Boolean):void",
-            "metadataToken": 100663693,
+            "metadataToken": 100663696,
             "canonicalSignature": "(System.IO.Stream,System.Formats.Tar.TarEntryFormat,System.Boolean):void",
             "normalizedSignature": "constructor|(System.IO.Stream,System.Formats.Tar.TarEntryFormat,System.Boolean):void|static=false",
             "isStatic": false,
@@ -1463,7 +1463,7 @@
         "constructors": [
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.UstarTarEntry::.ctor(System.Formats.Tar.TarEntryType,System.String):void",
-            "metadataToken": 100663606,
+            "metadataToken": 100663609,
             "canonicalSignature": "(System.Formats.Tar.TarEntryType,System.String):void",
             "normalizedSignature": "constructor|(System.Formats.Tar.TarEntryType,System.String):void|static=false",
             "isStatic": false,
@@ -1474,7 +1474,7 @@
           },
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.UstarTarEntry::.ctor(System.Formats.Tar.TarEntry):void",
-            "metadataToken": 100663607,
+            "metadataToken": 100663610,
             "canonicalSignature": "(System.Formats.Tar.TarEntry):void",
             "normalizedSignature": "constructor|(System.Formats.Tar.TarEntry):void|static=false",
             "isStatic": false,
@@ -1548,7 +1548,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectory(System.String,System.IO.Stream,System.Boolean):System.Void",
             "targetName": "CreateFromDirectory",
-            "metadataToken": 100663627,
+            "metadataToken": 100663630,
             "canonicalSignature": "(System.String,System.IO.Stream,System.Boolean):System.Void",
             "normalizedSignature": "CreateFromDirectory|(System.String,System.IO.Stream,System.Boolean):System.Void|static=true",
             "emitScope": "ClassSurface",
@@ -1568,7 +1568,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectoryAsync(System.String,System.IO.Stream,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "targetName": "CreateFromDirectoryAsync",
-            "metadataToken": 100663628,
+            "metadataToken": 100663631,
             "canonicalSignature": "(System.String,System.IO.Stream,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.IO.Stream,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
             "emitScope": "ClassSurface",
@@ -1588,7 +1588,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectory(System.String,System.String,System.Boolean):System.Void",
             "targetName": "CreateFromDirectory",
-            "metadataToken": 100663629,
+            "metadataToken": 100663632,
             "canonicalSignature": "(System.String,System.String,System.Boolean):System.Void",
             "normalizedSignature": "CreateFromDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
             "emitScope": "ClassSurface",
@@ -1608,7 +1608,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "targetName": "CreateFromDirectoryAsync",
-            "metadataToken": 100663630,
+            "metadataToken": 100663633,
             "canonicalSignature": "(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
             "emitScope": "ClassSurface",
@@ -1628,7 +1628,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectory(System.IO.Stream,System.String,System.Boolean):System.Void",
             "targetName": "ExtractToDirectory",
-            "metadataToken": 100663631,
+            "metadataToken": 100663634,
             "canonicalSignature": "(System.IO.Stream,System.String,System.Boolean):System.Void",
             "normalizedSignature": "ExtractToDirectory|(System.IO.Stream,System.String,System.Boolean):System.Void|static=true",
             "emitScope": "ClassSurface",
@@ -1648,7 +1648,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectoryAsync(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "targetName": "ExtractToDirectoryAsync",
-            "metadataToken": 100663632,
+            "metadataToken": 100663635,
             "canonicalSignature": "(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "normalizedSignature": "ExtractToDirectoryAsync|(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
             "emitScope": "ClassSurface",
@@ -1668,7 +1668,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectory(System.String,System.String,System.Boolean):System.Void",
             "targetName": "ExtractToDirectory",
-            "metadataToken": 100663633,
+            "metadataToken": 100663636,
             "canonicalSignature": "(System.String,System.String,System.Boolean):System.Void",
             "normalizedSignature": "ExtractToDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
             "emitScope": "ClassSurface",
@@ -1688,7 +1688,7 @@
           {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "targetName": "ExtractToDirectoryAsync",
-            "metadataToken": 100663634,
+            "metadataToken": 100663637,
             "canonicalSignature": "(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
             "normalizedSignature": "ExtractToDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
             "emitScope": "ClassSurface",

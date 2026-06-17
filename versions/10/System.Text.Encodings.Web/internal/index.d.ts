@@ -108,4 +108,3 @@ export const UrlEncoder: (abstract new() => UrlEncoder) & {
 
 
 export type UrlEncoder = UrlEncoder$instance;
-

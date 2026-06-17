@@ -816,4 +816,3 @@ export abstract class TaskToAsyncResult$instance {
 
 
 export type TaskToAsyncResult = TaskToAsyncResult$instance;
-

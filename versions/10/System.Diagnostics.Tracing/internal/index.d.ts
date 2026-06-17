@@ -544,5 +544,3 @@ export interface __PollingCounter$views {
 }
 
 export type PollingCounter = PollingCounter$instance & __PollingCounter$views;
-
-

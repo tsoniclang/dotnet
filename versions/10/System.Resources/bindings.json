@@ -150,7 +150,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
             "targetName": "GetEnumerator",
-            "metadataToken": 100703850,
+            "metadataToken": 100703852,
             "canonicalSignature": "():System.Collections.IEnumerator",
             "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
             "emitScope": "ClassSurface",
@@ -1155,7 +1155,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
             "targetName": "GetEnumerator",
-            "metadataToken": 100703850,
+            "metadataToken": 100703852,
             "canonicalSignature": "():System.Collections.IEnumerator",
             "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
             "emitScope": "ViewOnly",
@@ -1514,7 +1514,7 @@
           {
             "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
             "targetName": "GetEnumerator",
-            "metadataToken": 100703850,
+            "metadataToken": 100703852,
             "canonicalSignature": "():System.Collections.IEnumerator",
             "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
             "emitScope": "ViewOnly",

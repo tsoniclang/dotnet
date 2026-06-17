@@ -401,5 +401,3 @@ export interface __WebSocketStream$views {
 }
 
 export type WebSocketStream = WebSocketStream$instance & __WebSocketStream$views;
-
-

@@ -1040,4 +1040,3 @@ export abstract class XsltFunctions$instance {
 
 
 export type XsltFunctions = XsltFunctions$instance;
-

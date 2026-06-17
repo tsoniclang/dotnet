@@ -243,4 +243,3 @@ export abstract class VersioningHelper$instance {
 
 
 export type VersioningHelper = VersioningHelper$instance;
-

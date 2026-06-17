@@ -118,4 +118,3 @@ export const XmlDataContract: {
 
 
 export type XmlDataContract = XmlDataContract$instance;
-

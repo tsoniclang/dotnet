@@ -364,4 +364,3 @@ export abstract class ReadOnlyCollection$instance {
 
 
 export type ReadOnlyCollection = ReadOnlyCollection$instance;
-

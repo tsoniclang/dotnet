@@ -51,4 +51,3 @@ export const XmlPreloadedResolver: {
 
 
 export type XmlPreloadedResolver = XmlPreloadedResolver$instance;
-

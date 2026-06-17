@@ -202,4 +202,3 @@ export abstract class FrozenSet$instance {
 
 
 export type FrozenSet = FrozenSet$instance;
-

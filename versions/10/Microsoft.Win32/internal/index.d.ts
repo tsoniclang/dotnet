@@ -136,4 +136,3 @@ export abstract class Registry$instance {
 
 
 export type Registry = Registry$instance;
-

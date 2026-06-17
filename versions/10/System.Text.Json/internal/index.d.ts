@@ -767,4 +767,3 @@ export abstract class JsonSerializer$instance {
 
 
 export type JsonSerializer = JsonSerializer$instance;
-

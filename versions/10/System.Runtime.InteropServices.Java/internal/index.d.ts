@@ -67,4 +67,3 @@ export abstract class JavaMarshal$instance {
 
 
 export type JavaMarshal = JavaMarshal$instance;
-

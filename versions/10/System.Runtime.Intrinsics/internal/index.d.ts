@@ -1411,4 +1411,3 @@ export abstract class Vector64$instance {
 
 
 export type Vector64 = Vector64$instance;
-

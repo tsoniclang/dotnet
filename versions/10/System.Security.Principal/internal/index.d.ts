@@ -466,5 +466,3 @@ export interface __WindowsPrincipal$views {
 }
 
 export type WindowsPrincipal = WindowsPrincipal$instance & __WindowsPrincipal$views;
-
-

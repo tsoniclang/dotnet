@@ -721,4 +721,3 @@ export abstract class StructuralComparisons$instance {
 
 
 export type StructuralComparisons = StructuralComparisons$instance;
-

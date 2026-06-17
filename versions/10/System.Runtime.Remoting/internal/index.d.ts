@@ -23,4 +23,3 @@ export const ObjectHandle: {
 
 
 export type ObjectHandle = ObjectHandle$instance;
-

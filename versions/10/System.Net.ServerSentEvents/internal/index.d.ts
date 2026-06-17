@@ -72,4 +72,3 @@ export abstract class SseParser$instance {
 
 
 export type SseParser = SseParser$instance;
-

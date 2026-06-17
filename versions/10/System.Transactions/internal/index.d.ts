@@ -533,4 +533,3 @@ export abstract class TransactionManager$instance {
 
 
 export type TransactionManager = TransactionManager$instance;
-

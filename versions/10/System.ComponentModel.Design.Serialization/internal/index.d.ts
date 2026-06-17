@@ -361,5 +361,3 @@ export interface __SerializationStore$views {
 }
 
 export type SerializationStore = SerializationStore$instance & __SerializationStore$views;
-
-

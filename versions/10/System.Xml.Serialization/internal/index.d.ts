@@ -1310,4 +1310,3 @@ export const XmlTypeMapping: {
 
 
 export type XmlTypeMapping = XmlTypeMapping$instance;
-

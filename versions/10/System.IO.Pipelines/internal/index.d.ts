@@ -210,4 +210,3 @@ export abstract class StreamPipeExtensions$instance {
 
 
 export type StreamPipeExtensions = StreamPipeExtensions$instance;
-
