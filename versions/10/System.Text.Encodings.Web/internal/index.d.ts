@@ -14,13 +14,14 @@ import type { UnicodeRange } from "../../System.Text.Unicode/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Char, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, Void } from "../../System/internal/index.js";
 
-export interface HtmlEncoder$instance extends TextEncoder {
+export interface HtmlEncoder$instance extends TextEncoder$instance {
     readonly __tsonic_type_System_Text_Encodings_Web_HtmlEncoder: never;
+    readonly __tsonic_type_System_Text_Encodings_Web_TextEncoder: never;
 
 }
 
 
-export const HtmlEncoder: (abstract new() => HtmlEncoder) & {
+export const HtmlEncoder: {
     readonly Default: HtmlEncoder;
     Create(settings: TextEncoderSettings): HtmlEncoder;
     Create(...allowedRanges: UnicodeRange[]): HtmlEncoder;
@@ -29,13 +30,14 @@ export const HtmlEncoder: (abstract new() => HtmlEncoder) & {
 
 export type HtmlEncoder = HtmlEncoder$instance;
 
-export interface JavaScriptEncoder$instance extends TextEncoder {
+export interface JavaScriptEncoder$instance extends TextEncoder$instance {
     readonly __tsonic_type_System_Text_Encodings_Web_JavaScriptEncoder: never;
+    readonly __tsonic_type_System_Text_Encodings_Web_TextEncoder: never;
 
 }
 
 
-export const JavaScriptEncoder: (abstract new() => JavaScriptEncoder) & {
+export const JavaScriptEncoder: {
     readonly Default: JavaScriptEncoder;
     readonly UnsafeRelaxedJsonEscaping: JavaScriptEncoder;
     Create(settings: TextEncoderSettings): JavaScriptEncoder;
@@ -49,11 +51,11 @@ export interface TextEncoder$instance {
     readonly __tsonic_type_System_Text_Encodings_Web_TextEncoder: never;
 
     readonly MaxOutputCharactersPerInputCharacter: int;
-    Encode(value: string): string;
+    Encode(output: TextWriter, value: char[], startIndex: int, characterCount: int): void;
     Encode(output: TextWriter, value: string): void;
     Encode(output: TextWriter, value: string, startIndex: int, characterCount: int): void;
-    Encode(output: TextWriter, value: char[], startIndex: int, characterCount: int): void;
     Encode(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Char>, charsConsumed: int, charsWritten: int, isFinalBlock?: boolean): OperationStatus;
+    Encode(value: string): string;
     EncodeUtf8(utf8Source: ReadOnlySpan_1<System_Internal.Byte>, utf8Destination: Span_1<System_Internal.Byte>, bytesConsumed: int, bytesWritten: int, isFinalBlock?: boolean): OperationStatus;
     FindFirstCharacterToEncode(text: ptr<char>, textLength: int): int;
     FindFirstCharacterToEncodeUtf8(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): int;
@@ -62,7 +64,7 @@ export interface TextEncoder$instance {
 }
 
 
-export const TextEncoder: (abstract new() => TextEncoder) & {
+export const TextEncoder: {
 };
 
 
@@ -94,13 +96,14 @@ export const TextEncoderSettings: {
 
 export type TextEncoderSettings = TextEncoderSettings$instance;
 
-export interface UrlEncoder$instance extends TextEncoder {
+export interface UrlEncoder$instance extends TextEncoder$instance {
+    readonly __tsonic_type_System_Text_Encodings_Web_TextEncoder: never;
     readonly __tsonic_type_System_Text_Encodings_Web_UrlEncoder: never;
 
 }
 
 
-export const UrlEncoder: (abstract new() => UrlEncoder) & {
+export const UrlEncoder: {
     readonly Default: UrlEncoder;
     Create(settings: TextEncoderSettings): UrlEncoder;
     Create(...allowedRanges: UnicodeRange[]): UrlEncoder;

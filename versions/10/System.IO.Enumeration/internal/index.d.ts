@@ -22,18 +22,19 @@ import type { AsyncCallback, Boolean as ClrBoolean, Char, DateTimeOffset, Delega
 
 export interface FileSystemEntry$instance {
     readonly __tsonic_type_System_IO_Enumeration_FileSystemEntry: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: FileAttributes;
     readonly CreationTimeUtc: DateTimeOffset;
-    Directory: ReadOnlySpan_1<System_Internal.Char>;
+    readonly Directory: ReadOnlySpan_1<System_Internal.Char>;
     readonly FileName: ReadOnlySpan_1<System_Internal.Char>;
     readonly IsDirectory: boolean;
     readonly IsHidden: boolean;
     readonly LastAccessTimeUtc: DateTimeOffset;
     readonly LastWriteTimeUtc: DateTimeOffset;
     readonly Length: long;
-    OriginalRootDirectory: ReadOnlySpan_1<System_Internal.Char>;
-    RootDirectory: ReadOnlySpan_1<System_Internal.Char>;
+    readonly OriginalRootDirectory: ReadOnlySpan_1<System_Internal.Char>;
+    readonly RootDirectory: ReadOnlySpan_1<System_Internal.Char>;
     ToFileSystemInfo(): FileSystemInfo;
     ToFullPath(): string;
     ToSpecifiedFullPath(): string;
@@ -80,8 +81,9 @@ export type FileSystemEnumerable_1_FindPredicate<TResult extends unknown> = (ent
 export type FileSystemEnumerable_1_FindTransform<TResult extends unknown> = (entry: FileSystemEntry) => TResult;
 
 
-export interface FileSystemEnumerator_1$instance<TResult extends unknown> extends CriticalFinalizerObject {
+export interface FileSystemEnumerator_1$instance<TResult extends unknown> extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
     readonly __tsonic_type_System_IO_Enumeration_FileSystemEnumerator_1: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -91,7 +93,7 @@ export interface FileSystemEnumerator_1$instance<TResult extends unknown> extend
     ContinueOnError(error: int): boolean;
     Dispose(): void;
     Dispose(disposing: boolean): void;
-    Finalize(): void;
+    Finalize: System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance["Finalize"] & (() => void);
     MoveNext(): boolean;
     OnDirectoryFinished(directory: ReadOnlySpan_1<System_Internal.Char>): void;
     Reset(): void;

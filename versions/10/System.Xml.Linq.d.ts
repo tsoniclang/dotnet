@@ -19,7 +19,7 @@ import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { XmlSchema } from './System.Xml.Schema/internal/index.js';
 import type { IXmlSerializable } from './System.Xml.Serialization/internal/index.js';
 import type { IXmlLineInfo, XmlNodeType, XmlReader, XmlWriter } from './System.Xml/internal/index.js';
-import type { Boolean as ClrBoolean, Enum, EventArgs, EventHandler_1, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, ConsoleKeyInfo, Enum, EventArgs, EventHandler_1, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { Extensions$instance as Extensions } from './System.Xml.Linq/internal/index.js';

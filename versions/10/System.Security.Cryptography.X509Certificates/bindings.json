@@ -6642,26 +6642,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::FormatDate(System.DateTime):System.String",
-            "targetName": "FormatDate",
-            "metadataToken": 100668889,
-            "canonicalSignature": "(System.DateTime):System.String",
-            "normalizedSignature": "FormatDate|(System.DateTime):System.String|static=true",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": true,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.X509Certificates.X509Certificate",
-            "ownerIdentity": "System.Security.Cryptography",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IDeserializationCallback::OnDeserialization(System.Object):System.Void",
             "targetName": "OnDeserialization",
             "metadataToken": 100682629,
@@ -8284,17 +8264,6 @@
             "isStatic": false,
             "parameterCount": 1,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Security.Cryptography.X509Certificates.X509Certificate2",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100668912,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Security.Cryptography.X509Certificates.X509Certificate2",
             "ownerIdentity": "System.Security.Cryptography"
           }
@@ -11670,17 +11639,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Extension::.ctor():void",
-            "metadataToken": 100669136,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.X509Certificates.X509Extension",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
             "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Extension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean):void",
             "metadataToken": 100669137,
             "canonicalSignature": "(System.Security.Cryptography.AsnEncodedData,System.Boolean):void",
@@ -12567,19 +12525,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SignatureGenerator::.ctor():void",
-            "metadataToken": 100669185,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Cryptography.X509Certificates.X509SignatureGenerator",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Store",

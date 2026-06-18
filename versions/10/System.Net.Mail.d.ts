@@ -24,7 +24,7 @@ import type { X509CertificateCollection } from './System.Security.Cryptography.X
 import type { Encoding } from './System.Text/internal/index.js';
 import type { Task } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, Void } from './System/internal/index.js';
+import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Char, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { AlternateView as AlternateView } from './System.Net.Mail/internal/index.js';

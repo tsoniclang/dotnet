@@ -10,7 +10,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 
 
 // Cross-namespace type imports for constraints
-import type { ICollection, IEnumerator, IList } from './System.Collections/internal/index.js';
+import type { ICollection, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)

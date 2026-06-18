@@ -12,56 +12,69 @@ import type { AccessControlSections, RegistryRights, RegistrySecurity } from "..
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, ISpanFormattable, MarshalByRefObject, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum RegistryHive {
-    ClassesRoot = -2147483648,
-    CurrentUser = -2147483647,
-    LocalMachine = -2147483646,
-    Users = -2147483645,
-    PerformanceData = -2147483644,
-    CurrentConfig = -2147483643
-}
+export type RegistryHive = number & { readonly __tsonic_type_Microsoft_Win32_RegistryHive: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RegistryHive: {
+    readonly ClassesRoot: RegistryHive;
+    readonly CurrentUser: RegistryHive;
+    readonly LocalMachine: RegistryHive;
+    readonly Users: RegistryHive;
+    readonly PerformanceData: RegistryHive;
+    readonly CurrentConfig: RegistryHive;
+};
 
 
-export enum RegistryKeyPermissionCheck {
-    Default = 0,
-    ReadSubTree = 1,
-    ReadWriteSubTree = 2
-}
+export type RegistryKeyPermissionCheck = number & { readonly __tsonic_type_Microsoft_Win32_RegistryKeyPermissionCheck: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RegistryKeyPermissionCheck: {
+    readonly Default: RegistryKeyPermissionCheck;
+    readonly ReadSubTree: RegistryKeyPermissionCheck;
+    readonly ReadWriteSubTree: RegistryKeyPermissionCheck;
+};
 
 
-export enum RegistryOptions {
-    None = 0,
-    Volatile = 1
-}
+export type RegistryOptions = number & { readonly __tsonic_type_Microsoft_Win32_RegistryOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RegistryOptions: {
+    readonly None: RegistryOptions;
+    readonly Volatile: RegistryOptions;
+};
 
 
-export enum RegistryValueKind {
-    None = -1,
-    Unknown = 0,
-    String = 1,
-    ExpandString = 2,
-    Binary = 3,
-    DWord = 4,
-    MultiString = 7,
-    QWord = 11
-}
+export type RegistryValueKind = number & { readonly __tsonic_type_Microsoft_Win32_RegistryValueKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RegistryValueKind: {
+    readonly None: RegistryValueKind;
+    readonly Unknown: RegistryValueKind;
+    readonly String: RegistryValueKind;
+    readonly ExpandString: RegistryValueKind;
+    readonly Binary: RegistryValueKind;
+    readonly DWord: RegistryValueKind;
+    readonly MultiString: RegistryValueKind;
+    readonly QWord: RegistryValueKind;
+};
 
 
-export enum RegistryValueOptions {
-    None = 0,
-    DoNotExpandEnvironmentNames = 1
-}
+export type RegistryValueOptions = number & { readonly __tsonic_type_Microsoft_Win32_RegistryValueOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RegistryValueOptions: {
+    readonly None: RegistryValueOptions;
+    readonly DoNotExpandEnvironmentNames: RegistryValueOptions;
+};
 
 
-export enum RegistryView {
-    Default = 0,
-    Registry64 = 256,
-    Registry32 = 512
-}
+export type RegistryView = number & { readonly __tsonic_type_Microsoft_Win32_RegistryView: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RegistryView: {
+    readonly Default: RegistryView;
+    readonly Registry64: RegistryView;
+    readonly Registry32: RegistryView;
+};
 
 
-export interface RegistryKey$instance extends MarshalByRefObject, System_Internal.IDisposable$instance {
+export interface RegistryKey$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_Microsoft_Win32_RegistryKey: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -97,8 +110,8 @@ export interface RegistryKey$instance extends MarshalByRefObject, System_Interna
     OpenSubKey(name: string): RegistryKey | null;
     OpenSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck): RegistryKey | null;
     OpenSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck, rights: RegistryRights): RegistryKey | null;
-    OpenSubKey(name: string, writable: boolean): RegistryKey | null;
     OpenSubKey(name: string, rights: RegistryRights): RegistryKey | null;
+    OpenSubKey(name: string, writable: boolean): RegistryKey | null;
     SetAccessControl(registrySecurity: RegistrySecurity): void;
     SetValue(name: string | null, value: unknown): void;
     SetValue(name: string | null, value: unknown, valueKind: RegistryValueKind): void;

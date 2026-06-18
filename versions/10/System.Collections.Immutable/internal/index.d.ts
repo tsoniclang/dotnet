@@ -12,9 +12,13 @@ import type { ICollection_1, IComparer_1, IDictionary_2, IEnumerable_1, IEnumera
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
 import type { ICollection, IComparer, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IEqualityComparer, IList, IStructuralComparable, IStructuralEquatable } from "../../System.Collections/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Action_1, Array as ClrArray, Boolean as ClrBoolean, Comparison_1, Func_2, Func_3, IDisposable, IEquatable_1, Int32, Object as ClrObject, Predicate_1, Range, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
+import type { Action_1, Array as ClrArray, Boolean as ClrBoolean, Char, Comparison_1, ConsoleKeyInfo, Func_2, Func_3, IDisposable, IEquatable_1, Int32, Object as ClrObject, Predicate_1, Range, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
-export interface IImmutableDictionary_2$instance<TKey extends unknown, TValue extends unknown> extends IReadOnlyDictionary_2<TKey, TValue>, IEnumerable_1<KeyValuePair_2<TKey, TValue>>, IEnumerable, IReadOnlyCollection_1<KeyValuePair_2<TKey, TValue>> {
+export interface IImmutableDictionary_2$instance<TKey extends unknown, TValue extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyDictionary_2: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_Immutable_IImmutableDictionary_2: never;
 
     readonly Item: TValue;
@@ -26,8 +30,8 @@ export interface IImmutableDictionary_2$instance<TKey extends unknown, TValue ex
     Clear(): IImmutableDictionary_2<TKey, TValue>;
     Contains(pair: KeyValuePair_2<TKey, TValue>): boolean;
     ContainsKey(key: TKey): boolean;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
     Remove(key: TKey): IImmutableDictionary_2<TKey, TValue>;
     TryGetKey(equalKey: TKey, actualKey: TKey): boolean;
     TryGetValue(key: TKey, value: TValue): boolean;
@@ -37,23 +41,27 @@ export interface IImmutableDictionary_2$instance<TKey extends unknown, TValue ex
 
 export type IImmutableDictionary_2<TKey extends unknown, TValue extends unknown> = IImmutableDictionary_2$instance<TKey, TValue>;
 
-export interface IImmutableList_1$instance<T extends unknown> extends IReadOnlyList_1<T>, IEnumerable_1<T>, IEnumerable, IReadOnlyCollection_1<T> {
+export interface IImmutableList_1$instance<T extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyList_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_Immutable_IImmutableList_1: never;
 
     readonly Count: int;
     Add(value: T): IImmutableList_1<T>;
     AddRange(items: IEnumerable_1<T>): IImmutableList_1<T>;
     Clear(): IImmutableList_1<T>;
-    GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<T>;
     IndexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T> | null): int;
     Insert(index: int, element: T): IImmutableList_1<T>;
     InsertRange(index: int, items: IEnumerable_1<T>): IImmutableList_1<T>;
     Remove(value: T, equalityComparer: IEqualityComparer_1<T> | null): IImmutableList_1<T>;
     RemoveAll(match: Predicate_1<T>): IImmutableList_1<T>;
     RemoveAt(index: int): IImmutableList_1<T>;
-    RemoveRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T> | null): IImmutableList_1<T>;
     RemoveRange(index: int, count: int): IImmutableList_1<T>;
+    RemoveRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T> | null): IImmutableList_1<T>;
     Replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T> | null): IImmutableList_1<T>;
     GetEnumerator2(): IEnumerator;
 }
@@ -61,14 +69,16 @@ export interface IImmutableList_1$instance<T extends unknown> extends IReadOnlyL
 
 export type IImmutableList_1<T extends unknown> = IImmutableList_1$instance<T> & { readonly [index: number]: T; };
 
-export interface IImmutableQueue_1$instance<T extends unknown> extends IEnumerable_1<T>, IEnumerable {
+export interface IImmutableQueue_1$instance<T extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_Immutable_IImmutableQueue_1: never;
 
     readonly IsEmpty: boolean;
     Clear(): IImmutableQueue_1<T>;
     Enqueue(value: T): IImmutableQueue_1<T>;
-    GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<T>;
     Peek(): T;
     GetEnumerator2(): IEnumerator;
 }
@@ -76,15 +86,18 @@ export interface IImmutableQueue_1$instance<T extends unknown> extends IEnumerab
 
 export type IImmutableQueue_1<T extends unknown> = IImmutableQueue_1$instance<T>;
 
-export interface IImmutableSet_1$instance<T extends unknown> extends IReadOnlyCollection_1<T>, IEnumerable_1<T>, IEnumerable {
+export interface IImmutableSet_1$instance<T extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_Immutable_IImmutableSet_1: never;
 
     readonly Count: int;
     Add(value: T): IImmutableSet_1<T>;
     Clear(): IImmutableSet_1<T>;
     Contains(value: T): boolean;
-    GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<T>;
     Intersect(other: IEnumerable_1<T>): IImmutableSet_1<T>;
     SetEquals(other: IEnumerable_1<T>): boolean;
     TryGetValue(equalValue: T, actualValue: T): boolean;
@@ -94,13 +107,15 @@ export interface IImmutableSet_1$instance<T extends unknown> extends IReadOnlyCo
 
 export type IImmutableSet_1<T extends unknown> = IImmutableSet_1$instance<T>;
 
-export interface IImmutableStack_1$instance<T extends unknown> extends IEnumerable_1<T>, IEnumerable {
+export interface IImmutableStack_1$instance<T extends unknown> {
+    readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_Immutable_IImmutableStack_1: never;
 
     readonly IsEmpty: boolean;
     Clear(): IImmutableStack_1<T>;
-    GetEnumerator(): IEnumerator_1<T>;
     GetEnumerator(): IEnumerator;
+    GetEnumerator(): IEnumerator_1<T>;
     Peek(): T;
     Push(value: T): IImmutableStack_1<T>;
     GetEnumerator2(): IEnumerator;
@@ -111,6 +126,7 @@ export type IImmutableStack_1<T extends unknown> = IImmutableStack_1$instance<T>
 
 export interface ImmutableArray_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_Immutable_ImmutableArray_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -130,18 +146,18 @@ export interface ImmutableArray_1$instance<T extends unknown> {
     readonly IsEmpty: boolean;
     readonly Length: int;
     Add(item: T): ImmutableArray_1<T>;
-    AddRange(items: IEnumerable_1<T>): ImmutableArray_1<T>;
-    AddRange(items: T[], length: int): ImmutableArray_1<T>;
-    AddRange<TDerived extends unknown & T>(items: TDerived[]): ImmutableArray_1<T>;
-    AddRange(items: ImmutableArray_1<T>, length: int): ImmutableArray_1<T>;
-    AddRange<TDerived extends unknown & T>(items: ImmutableArray_1<TDerived>): ImmutableArray_1<T>;
-    AddRange(items: ReadOnlySpan_1<T>): ImmutableArray_1<T>;
     AddRange(...items: T[]): ImmutableArray_1<T>;
+    AddRange(items: IEnumerable_1<T>): ImmutableArray_1<T>;
+    AddRange(items: ImmutableArray_1<T>, length: int): ImmutableArray_1<T>;
+    AddRange(items: ReadOnlySpan_1<T>): ImmutableArray_1<T>;
+    AddRange(items: T[], length: int): ImmutableArray_1<T>;
+    AddRange<TDerived extends unknown & T>(items: ImmutableArray_1<TDerived>): ImmutableArray_1<T>;
+    AddRange<TDerived extends unknown & T>(items: TDerived[]): ImmutableArray_1<T>;
     As<TOther extends (object | null)>(): ImmutableArray_1<TOther>;
     AsMemory(): ReadOnlyMemory_1<T>;
     AsSpan(): ReadOnlySpan_1<T>;
-    AsSpan(start: int, length: int): ReadOnlySpan_1<T>;
     AsSpan(range: Range): ReadOnlySpan_1<T>;
+    AsSpan(start: int, length: int): ReadOnlySpan_1<T>;
     CastArray<TOther extends (object | null)>(): ImmutableArray_1<TOther>;
     Clear(): ImmutableArray_1<T>;
     Contains(item: T): boolean;
@@ -155,15 +171,15 @@ export interface ImmutableArray_1$instance<T extends unknown> {
     GetEnumerator(): ImmutableArray_1_Enumerator<T>;
     GetHashCode(): int;
     IndexOf(item: T): int;
-    IndexOf(item: T, startIndex: int, equalityComparer: IEqualityComparer_1<T> | null): int;
     IndexOf(item: T, startIndex: int): int;
     IndexOf(item: T, startIndex: int, count: int): int;
     IndexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T> | null): int;
+    IndexOf(item: T, startIndex: int, equalityComparer: IEqualityComparer_1<T> | null): int;
     Insert(index: int, item: T): ImmutableArray_1<T>;
     InsertRange(index: int, items: IEnumerable_1<T>): ImmutableArray_1<T>;
     InsertRange(index: int, items: ImmutableArray_1<T>): ImmutableArray_1<T>;
-    InsertRange(index: int, items: T[]): ImmutableArray_1<T>;
     InsertRange(index: int, items: ReadOnlySpan_1<T>): ImmutableArray_1<T>;
+    InsertRange(index: int, items: T[]): ImmutableArray_1<T>;
     ItemRef(index: int): T;
     LastIndexOf(item: T): int;
     LastIndexOf(item: T, startIndex: int): int;
@@ -186,8 +202,8 @@ export interface ImmutableArray_1$instance<T extends unknown> {
     SetItem(index: int, item: T): ImmutableArray_1<T>;
     Slice(start: int, length: int): ImmutableArray_1<T>;
     Sort(): ImmutableArray_1<T>;
-    Sort(comparison: Comparison_1<T>): ImmutableArray_1<T>;
     Sort(comparer: IComparer_1<T> | null): ImmutableArray_1<T>;
+    Sort(comparison: Comparison_1<T>): ImmutableArray_1<T>;
     Sort(index: int, count: int, comparer: IComparer_1<T> | null): ImmutableArray_1<T>;
     ToBuilder(): ImmutableArray_1_Builder<T>;
 }
@@ -222,6 +238,7 @@ export type ImmutableArray_1<T extends unknown> = ImmutableArray_1$instance<T> &
 
 export interface ImmutableArray_1_Enumerator$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_Immutable_ImmutableArray_1_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Current: T;
     MoveNext(): boolean;
@@ -248,20 +265,20 @@ export interface ImmutableArray_1_Builder$instance<T extends unknown> {
     Capacity: int;
     Count: int;
     Add(item: T): void;
-    AddRange(items: IEnumerable_1<T>): void;
     AddRange(...items: T[]): void;
-    AddRange<TDerived extends unknown>(items: TDerived[]): void;
-    AddRange(items: T[], length: int): void;
+    AddRange(items: IEnumerable_1<T>): void;
     AddRange(items: ImmutableArray_1<T>): void;
     AddRange(items: ImmutableArray_1<T>, length: int): void;
-    AddRange(items: ReadOnlySpan_1<T>): void;
     AddRange(items: ImmutableArray_1_Builder<T>): void;
+    AddRange(items: ReadOnlySpan_1<T>): void;
+    AddRange(items: T[], length: int): void;
+    AddRange<TDerived extends unknown>(items: TDerived[]): void;
     Clear(): void;
     Contains(item: T): boolean;
     CopyTo(array: T[], index: int): void;
+    CopyTo(destination: Span_1<T>): void;
     CopyTo(destination: T[]): void;
     CopyTo(sourceIndex: int, destination: T[], destinationIndex: int, length: int): void;
-    CopyTo(destination: Span_1<T>): void;
     DrainToImmutable(): ImmutableArray_1<T>;
     GetEnumerator(): IEnumerator_1<T>;
     IndexOf(item: T): int;
@@ -289,8 +306,8 @@ export interface ImmutableArray_1_Builder$instance<T extends unknown> {
     Replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T> | null): void;
     Reverse(): void;
     Sort(): void;
-    Sort(comparison: Comparison_1<T>): void;
     Sort(comparer: IComparer_1<T> | null): void;
+    Sort(comparison: Comparison_1<T>): void;
     Sort(index: int, count: int, comparer: IComparer_1<T> | null): void;
     ToArray(): T[];
     ToImmutable(): ImmutableArray_1<T>;
@@ -337,8 +354,8 @@ export interface ImmutableDictionary_2$instance<TKey extends unknown, TValue ext
     ToBuilder(): ImmutableDictionary_2_Builder<TKey, TValue>;
     TryGetKey(equalKey: TKey, actualKey: TKey): boolean;
     TryGetValue(key: TKey, value: TValue): boolean;
-    WithComparers(keyComparer: IEqualityComparer_1<TKey> | null, valueComparer: IEqualityComparer_1<TValue> | null): ImmutableDictionary_2<TKey, TValue>;
     WithComparers(keyComparer: IEqualityComparer_1<TKey> | null): ImmutableDictionary_2<TKey, TValue>;
+    WithComparers(keyComparer: IEqualityComparer_1<TKey> | null, valueComparer: IEqualityComparer_1<TValue> | null): ImmutableDictionary_2<TKey, TValue>;
 }
 
 
@@ -362,8 +379,9 @@ export interface __ImmutableDictionary_2$views<TKey extends unknown, TValue exte
 export type ImmutableDictionary_2<TKey extends unknown, TValue extends unknown> = ImmutableDictionary_2$instance<TKey, TValue> & __ImmutableDictionary_2$views<TKey, TValue>;
 
 
-export interface ImmutableDictionary_2_Enumerator$instance<TKey extends unknown, TValue extends unknown> extends IEnumerator_1<KeyValuePair_2<TKey, TValue>> {
+export interface ImmutableDictionary_2_Enumerator$instance<TKey extends unknown, TValue extends unknown> extends System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>> {
     readonly __tsonic_type_System_Collections_Immutable_ImmutableDictionary_2_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -401,8 +419,8 @@ export interface ImmutableDictionary_2_Builder$instance<TKey extends unknown, TV
     readonly Keys: IEnumerable_1<TKey>;
     ValueComparer: IEqualityComparer_1<TValue>;
     readonly Values: IEnumerable_1<TValue>;
-    Add(key: TKey, value: TValue): void;
     Add(item: KeyValuePair_2<TKey, TValue>): void;
+    Add(key: TKey, value: TValue): void;
     AddRange(items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): void;
     Clear(): void;
     Contains(item: KeyValuePair_2<TKey, TValue>): boolean;
@@ -411,8 +429,8 @@ export interface ImmutableDictionary_2_Builder$instance<TKey extends unknown, TV
     GetEnumerator(): ImmutableDictionary_2_Enumerator<TKey, TValue>;
     GetValueOrDefault(key: TKey): TValue | null;
     GetValueOrDefault(key: TKey, defaultValue: TValue): TValue;
-    Remove(key: TKey): boolean;
     Remove(item: KeyValuePair_2<TKey, TValue>): boolean;
+    Remove(key: TKey): boolean;
     RemoveRange(keys: IEnumerable_1<TKey>): void;
     ToImmutable(): ImmutableDictionary_2<TKey, TValue>;
     TryGetKey(equalKey: TKey, actualKey: TKey): boolean;
@@ -481,8 +499,9 @@ export interface __ImmutableHashSet_1$views<T extends unknown> {
 export type ImmutableHashSet_1<T extends unknown> = ImmutableHashSet_1$instance<T> & __ImmutableHashSet_1$views<T>;
 
 
-export interface ImmutableHashSet_1_Enumerator$instance<T extends unknown> extends IEnumerator_1<T> {
+export interface ImmutableHashSet_1_Enumerator$instance<T extends unknown> extends System_Collections_Generic_Internal.IEnumerator_1$instance<T> {
     readonly __tsonic_type_System_Collections_Immutable_ImmutableHashSet_1_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -557,9 +576,9 @@ export interface ImmutableList_1$instance<T extends unknown> {
     readonly IsEmpty: boolean;
     Add(value: T): ImmutableList_1<T>;
     AddRange(items: IEnumerable_1<T>): ImmutableList_1<T>;
+    BinarySearch(index: int, count: int, item: T, comparer: IComparer_1<T> | null): int;
     BinarySearch(item: T): int;
     BinarySearch(item: T, comparer: IComparer_1<T> | null): int;
-    BinarySearch(index: int, count: int, item: T, comparer: IComparer_1<T> | null): int;
     Clear(): ImmutableList_1<T>;
     Contains(value: T): boolean;
     ConvertAll<TOutput extends unknown>(converter: Func_2<T, TOutput>): ImmutableList_1<TOutput>;
@@ -570,12 +589,12 @@ export interface ImmutableList_1$instance<T extends unknown> {
     Find(match: Predicate_1<T>): T | null;
     FindAll(match: Predicate_1<T>): ImmutableList_1<T>;
     FindIndex(match: Predicate_1<T>): int;
-    FindIndex(startIndex: int, match: Predicate_1<T>): int;
     FindIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
+    FindIndex(startIndex: int, match: Predicate_1<T>): int;
     FindLast(match: Predicate_1<T>): T | null;
     FindLastIndex(match: Predicate_1<T>): int;
-    FindLastIndex(startIndex: int, match: Predicate_1<T>): int;
     FindLastIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
+    FindLastIndex(startIndex: int, match: Predicate_1<T>): int;
     ForEach(action: Action_1<T>): void;
     GetEnumerator(): ImmutableList_1_Enumerator<T>;
     GetRange(index: int, count: int): ImmutableList_1<T>;
@@ -598,8 +617,8 @@ export interface ImmutableList_1$instance<T extends unknown> {
     Reverse(index: int, count: int): ImmutableList_1<T>;
     SetItem(index: int, value: T): ImmutableList_1<T>;
     Sort(): ImmutableList_1<T>;
-    Sort(comparison: Comparison_1<T>): ImmutableList_1<T>;
     Sort(comparer: IComparer_1<T> | null): ImmutableList_1<T>;
+    Sort(comparison: Comparison_1<T>): ImmutableList_1<T>;
     Sort(index: int, count: int, comparer: IComparer_1<T> | null): ImmutableList_1<T>;
     ToBuilder(): ImmutableList_1_Builder<T>;
     TrueForAll(match: Predicate_1<T>): boolean;
@@ -625,8 +644,9 @@ export interface __ImmutableList_1$views<T extends unknown> {
 export type ImmutableList_1<T extends unknown> = ImmutableList_1$instance<T> & __ImmutableList_1$views<T> & { readonly [index: number]: T; };
 
 
-export interface ImmutableList_1_Enumerator$instance<T extends unknown> extends IEnumerator_1<T> {
+export interface ImmutableList_1_Enumerator$instance<T extends unknown> extends System_Collections_Generic_Internal.IEnumerator_1$instance<T> {
     readonly __tsonic_type_System_Collections_Immutable_ImmutableList_1_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -663,9 +683,9 @@ export interface ImmutableList_1_Builder$instance<T extends unknown> {
     readonly Count: int;
     Add(item: T): void;
     AddRange(items: IEnumerable_1<T>): void;
+    BinarySearch(index: int, count: int, item: T, comparer: IComparer_1<T> | null): int;
     BinarySearch(item: T): int;
     BinarySearch(item: T, comparer: IComparer_1<T> | null): int;
-    BinarySearch(index: int, count: int, item: T, comparer: IComparer_1<T> | null): int;
     Clear(): void;
     Contains(item: T): boolean;
     ConvertAll<TOutput extends unknown>(converter: Func_2<T, TOutput>): ImmutableList_1<TOutput>;
@@ -676,12 +696,12 @@ export interface ImmutableList_1_Builder$instance<T extends unknown> {
     Find(match: Predicate_1<T>): T | null;
     FindAll(match: Predicate_1<T>): ImmutableList_1<T>;
     FindIndex(match: Predicate_1<T>): int;
-    FindIndex(startIndex: int, match: Predicate_1<T>): int;
     FindIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
+    FindIndex(startIndex: int, match: Predicate_1<T>): int;
     FindLast(match: Predicate_1<T>): T | null;
     FindLastIndex(match: Predicate_1<T>): int;
-    FindLastIndex(startIndex: int, match: Predicate_1<T>): int;
     FindLastIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
+    FindLastIndex(startIndex: int, match: Predicate_1<T>): int;
     ForEach(action: Action_1<T>): void;
     GetEnumerator(): ImmutableList_1_Enumerator<T>;
     GetRange(index: int, count: int): ImmutableList_1<T>;
@@ -701,15 +721,15 @@ export interface ImmutableList_1_Builder$instance<T extends unknown> {
     RemoveAll(match: Predicate_1<T>): int;
     RemoveAt(index: int): void;
     RemoveRange(index: int, count: int): void;
-    RemoveRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T> | null): void;
     RemoveRange(items: IEnumerable_1<T>): void;
+    RemoveRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T> | null): void;
     Replace(oldValue: T, newValue: T): void;
     Replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T> | null): void;
     Reverse(): void;
     Reverse(index: int, count: int): void;
     Sort(): void;
-    Sort(comparison: Comparison_1<T>): void;
     Sort(comparer: IComparer_1<T> | null): void;
+    Sort(comparison: Comparison_1<T>): void;
     Sort(index: int, count: int, comparer: IComparer_1<T> | null): void;
     ToImmutable(): ImmutableList_1<T>;
     TrueForAll(match: Predicate_1<T>): boolean;
@@ -756,6 +776,7 @@ export type ImmutableQueue_1<T extends unknown> = ImmutableQueue_1$instance<T> &
 
 export interface ImmutableQueue_1_Enumerator$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_Immutable_ImmutableQueue_1_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Current: T;
     MoveNext(): boolean;
@@ -804,8 +825,8 @@ export interface ImmutableSortedDictionary_2$instance<TKey extends unknown, TVal
     TryGetKey(equalKey: TKey, actualKey: TKey): boolean;
     TryGetValue(key: TKey, value: TValue): boolean;
     ValueRef(key: TKey): TValue;
-    WithComparers(keyComparer: IComparer_1<TKey> | null, valueComparer: IEqualityComparer_1<TValue> | null): ImmutableSortedDictionary_2<TKey, TValue>;
     WithComparers(keyComparer: IComparer_1<TKey> | null): ImmutableSortedDictionary_2<TKey, TValue>;
+    WithComparers(keyComparer: IComparer_1<TKey> | null, valueComparer: IEqualityComparer_1<TValue> | null): ImmutableSortedDictionary_2<TKey, TValue>;
 }
 
 
@@ -829,8 +850,9 @@ export interface __ImmutableSortedDictionary_2$views<TKey extends unknown, TValu
 export type ImmutableSortedDictionary_2<TKey extends unknown, TValue extends unknown> = ImmutableSortedDictionary_2$instance<TKey, TValue> & __ImmutableSortedDictionary_2$views<TKey, TValue>;
 
 
-export interface ImmutableSortedDictionary_2_Enumerator$instance<TKey extends unknown, TValue extends unknown> extends IEnumerator_1<KeyValuePair_2<TKey, TValue>> {
+export interface ImmutableSortedDictionary_2_Enumerator$instance<TKey extends unknown, TValue extends unknown> extends System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>> {
     readonly __tsonic_type_System_Collections_Immutable_ImmutableSortedDictionary_2_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -869,8 +891,8 @@ export interface ImmutableSortedDictionary_2_Builder$instance<TKey extends unkno
     readonly Keys: IEnumerable_1<TKey>;
     ValueComparer: IEqualityComparer_1<TValue>;
     readonly Values: IEnumerable_1<TValue>;
-    Add(key: TKey, value: TValue): void;
     Add(item: KeyValuePair_2<TKey, TValue>): void;
+    Add(key: TKey, value: TValue): void;
     AddRange(items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): void;
     Clear(): void;
     Contains(item: KeyValuePair_2<TKey, TValue>): boolean;
@@ -879,8 +901,8 @@ export interface ImmutableSortedDictionary_2_Builder$instance<TKey extends unkno
     GetEnumerator(): ImmutableSortedDictionary_2_Enumerator<TKey, TValue>;
     GetValueOrDefault(key: TKey): TValue | null;
     GetValueOrDefault(key: TKey, defaultValue: TValue): TValue;
-    Remove(key: TKey): boolean;
     Remove(item: KeyValuePair_2<TKey, TValue>): boolean;
+    Remove(key: TKey): boolean;
     RemoveRange(keys: IEnumerable_1<TKey>): void;
     ToImmutable(): ImmutableSortedDictionary_2<TKey, TValue>;
     TryGetKey(equalKey: TKey, actualKey: TKey): boolean;
@@ -960,8 +982,9 @@ export interface __ImmutableSortedSet_1$views<T extends unknown> {
 export type ImmutableSortedSet_1<T extends unknown> = ImmutableSortedSet_1$instance<T> & __ImmutableSortedSet_1$views<T> & { readonly [index: number]: T; };
 
 
-export interface ImmutableSortedSet_1_Enumerator$instance<T extends unknown> extends IEnumerator_1<T> {
+export interface ImmutableSortedSet_1_Enumerator$instance<T extends unknown> extends System_Collections_Generic_Internal.IEnumerator_1$instance<T> {
     readonly __tsonic_type_System_Collections_Immutable_ImmutableSortedSet_1_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -1060,6 +1083,7 @@ export type ImmutableStack_1<T extends unknown> = ImmutableStack_1$instance<T> &
 
 export interface ImmutableStack_1_Enumerator$instance<T extends unknown> {
     readonly __tsonic_type_System_Collections_Immutable_ImmutableStack_1_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Current: T;
     MoveNext(): boolean;

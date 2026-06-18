@@ -4052,44 +4052,6 @@
         ],
         "properties": [
           {
-            "stableId": "System.Collections.NonGeneric:System.Collections.CollectionBase::InnerList:System.Collections.ArrayList",
-            "targetName": "InnerList",
-            "metadataToken": 385875990,
-            "canonicalSignature": ":System.Collections.ArrayList",
-            "normalizedSignature": "InnerList|:System.Collections.ArrayList|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.CollectionBase",
-            "ownerIdentity": "System.Collections.NonGeneric"
-          },
-          {
-            "stableId": "System.Collections.NonGeneric:System.Collections.CollectionBase::List:System.Collections.IList",
-            "targetName": "List",
-            "metadataToken": 385875991,
-            "canonicalSignature": ":System.Collections.IList",
-            "normalizedSignature": "List|:System.Collections.IList|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.CollectionBase",
-            "ownerIdentity": "System.Collections.NonGeneric"
-          },
-          {
             "stableId": "System.Collections.NonGeneric:System.Collections.CollectionBase::Capacity:System.Int32",
             "targetName": "Capacity",
             "metadataToken": 385875992,
@@ -4230,30 +4192,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Collections.NonGeneric:System.Collections.CollectionBase::.ctor():void",
-            "metadataToken": 100663329,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.CollectionBase",
-            "ownerIdentity": "System.Collections.NonGeneric"
-          },
-          {
-            "stableId": "System.Collections.NonGeneric:System.Collections.CollectionBase::.ctor(System.Int32):void",
-            "metadataToken": 100663330,
-            "canonicalSignature": "(System.Int32):void",
-            "normalizedSignature": "constructor|(System.Int32):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.CollectionBase",
-            "ownerIdentity": "System.Collections.NonGeneric"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Collections.Comparer",
@@ -4846,44 +4785,6 @@
         ],
         "properties": [
           {
-            "stableId": "System.Collections.NonGeneric:System.Collections.DictionaryBase::InnerHashtable:System.Collections.Hashtable",
-            "targetName": "InnerHashtable",
-            "metadataToken": 385875999,
-            "canonicalSignature": ":System.Collections.Hashtable",
-            "normalizedSignature": "InnerHashtable|:System.Collections.Hashtable|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.DictionaryBase",
-            "ownerIdentity": "System.Collections.NonGeneric"
-          },
-          {
-            "stableId": "System.Collections.NonGeneric:System.Collections.DictionaryBase::Dictionary:System.Collections.IDictionary",
-            "targetName": "Dictionary",
-            "metadataToken": 385876000,
-            "canonicalSignature": ":System.Collections.IDictionary",
-            "normalizedSignature": "Dictionary|:System.Collections.IDictionary|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.DictionaryBase",
-            "ownerIdentity": "System.Collections.NonGeneric"
-          },
-          {
             "stableId": "System.Collections.NonGeneric:System.Collections.DictionaryBase::Count:System.Int32",
             "targetName": "Count",
             "metadataToken": 385876001,
@@ -5045,19 +4946,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Collections.NonGeneric:System.Collections.DictionaryBase::.ctor():void",
-            "metadataToken": 100663388,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.DictionaryBase",
-            "ownerIdentity": "System.Collections.NonGeneric"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Collections.Hashtable",
@@ -5594,63 +5483,6 @@
         ],
         "properties": [
           {
-            "stableId": "System.Private.CoreLib:System.Collections.Hashtable::hcp:System.Collections.IHashCodeProvider",
-            "targetName": "hcp",
-            "metadataToken": 385881228,
-            "canonicalSignature": ":System.Collections.IHashCodeProvider",
-            "normalizedSignature": "hcp|:System.Collections.IHashCodeProvider|static=false|accessor=getset",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": true,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.Hashtable",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Collections.Hashtable::comparer:System.Collections.IComparer",
-            "targetName": "comparer",
-            "metadataToken": 385881229,
-            "canonicalSignature": ":System.Collections.IComparer",
-            "normalizedSignature": "comparer|:System.Collections.IComparer|static=false|accessor=getset",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": true,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.Hashtable",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Collections.Hashtable::EqualityComparer:System.Collections.IEqualityComparer",
-            "targetName": "EqualityComparer",
-            "metadataToken": 385881230,
-            "canonicalSignature": ":System.Collections.IEqualityComparer",
-            "normalizedSignature": "EqualityComparer|:System.Collections.IEqualityComparer|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.Hashtable",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
             "stableId": "System.Private.CoreLib:System.Collections.Hashtable::Item[System.Object]:System.Object",
             "targetName": "Item",
             "metadataToken": 385881231,
@@ -6108,17 +5940,6 @@
             "isStatic": false,
             "parameterCount": 3,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Collections.Hashtable",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Collections.Hashtable::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100703752,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Collections.Hashtable",
             "ownerIdentity": "System.Private.CoreLib"
           }
@@ -7305,25 +7126,6 @@
         ],
         "properties": [
           {
-            "stableId": "System.Collections.NonGeneric:System.Collections.ReadOnlyCollectionBase::InnerList:System.Collections.ArrayList",
-            "targetName": "InnerList",
-            "metadataToken": 385876017,
-            "canonicalSignature": ":System.Collections.ArrayList",
-            "normalizedSignature": "InnerList|:System.Collections.ArrayList|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ReadOnlyCollectionBase",
-            "ownerIdentity": "System.Collections.NonGeneric"
-          },
-          {
             "stableId": "System.Collections.NonGeneric:System.Collections.ReadOnlyCollectionBase::Count:System.Int32",
             "targetName": "Count",
             "metadataToken": 385876018,
@@ -7405,19 +7207,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Collections.NonGeneric:System.Collections.ReadOnlyCollectionBase::.ctor():void",
-            "metadataToken": 100663436,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ReadOnlyCollectionBase",
-            "ownerIdentity": "System.Collections.NonGeneric"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Collections.NonGeneric:System.Collections.SortedList",

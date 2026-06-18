@@ -18,7 +18,7 @@ import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { IDeserializationCallback, ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Claim, ClaimsIdentity, ClaimsPrincipal } from './System.Security.Claims/internal/index.js';
 import type { Task, Task_1 } from './System.Threading.Tasks/internal/index.js';
-import type { Action, Boolean as ClrBoolean, Byte, Enum, Exception, Func_1, IComparable, IComparable_1, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, SystemException, Type, TypeCode, Void } from './System/internal/index.js';
+import type { Action, Boolean as ClrBoolean, Byte, Char, Decimal, Enum, Exception, Func_1, IComparable, IComparable_1, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, SystemException, Type, TypeCode, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export type IIdentity = Internal.IIdentity;

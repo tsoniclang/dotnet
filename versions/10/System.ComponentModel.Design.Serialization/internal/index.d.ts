@@ -16,13 +16,16 @@ import type { MemberInfo, MethodInfo } from "../../System.Reflection/internal/in
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, EventArgs, EventHandler, IAsyncResult, ICloneable, IDisposable, IEquatable_1, Int32, IntPtr, IServiceProvider, MulticastDelegate, Object as ClrObject, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Attribute, Boolean as ClrBoolean, ConsoleKeyInfo, Delegate, EventArgs, EventHandler, IAsyncResult, ICloneable, IDisposable, IEquatable_1, Int32, IntPtr, IServiceProvider, MulticastDelegate, Object as ClrObject, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
 export type ResolveNameEventHandler = (sender: unknown | null, e: ResolveNameEventArgs) => void;
 
 
-export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceContainer, IServiceProvider {
+export interface IDesignerLoaderHost$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesignerHost: never;
+    readonly __tsonic_iface_System_ComponentModel_Design_IServiceContainer: never;
     readonly __tsonic_iface_System_ComponentModel_Design_Serialization_IDesignerLoaderHost: never;
+    readonly __tsonic_iface_System_IServiceProvider: never;
 
     readonly Loading: boolean;
     readonly InTransaction: boolean;
@@ -30,12 +33,12 @@ export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceCon
     readonly RootComponent: IComponent;
     readonly RootComponentClassName: string;
     readonly TransactionDescription: string;
-    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, serviceInstance: unknown): void;
-    CreateComponent(componentClass: Type, name: string): IComponent;
+    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
     CreateComponent(componentClass: Type): IComponent;
+    CreateComponent(componentClass: Type, name: string): IComponent;
     CreateTransaction(): DesignerTransaction;
     CreateTransaction(description: string): DesignerTransaction;
     DestroyComponent(component: IComponent): void;
@@ -44,16 +47,20 @@ export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceCon
     GetService(serviceType: Type): unknown | null;
     GetType(typeName: string): Type | null;
     Reload(): void;
-    RemoveService(serviceType: Type, promote: boolean): void;
     RemoveService(serviceType: Type): void;
+    RemoveService(serviceType: Type, promote: boolean): void;
     Activate(): void;
 }
 
 
 export type IDesignerLoaderHost = IDesignerLoaderHost$instance;
 
-export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDesignerHost, IServiceContainer, IServiceProvider {
+export interface IDesignerLoaderHost2$instance {
+    readonly __tsonic_iface_System_ComponentModel_Design_IDesignerHost: never;
+    readonly __tsonic_iface_System_ComponentModel_Design_IServiceContainer: never;
+    readonly __tsonic_iface_System_ComponentModel_Design_Serialization_IDesignerLoaderHost: never;
     readonly __tsonic_iface_System_ComponentModel_Design_Serialization_IDesignerLoaderHost2: never;
+    readonly __tsonic_iface_System_IServiceProvider: never;
 
     IgnoreErrorsDuringReload: boolean;
     CanReloadWithErrors: boolean;
@@ -63,12 +70,12 @@ export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDes
     readonly RootComponent: IComponent;
     readonly RootComponentClassName: string;
     readonly TransactionDescription: string;
-    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, callback: ServiceCreatorCallback): void;
-    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    AddService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
     AddService(serviceType: Type, serviceInstance: unknown): void;
-    CreateComponent(componentClass: Type, name: string): IComponent;
+    AddService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
     CreateComponent(componentClass: Type): IComponent;
+    CreateComponent(componentClass: Type, name: string): IComponent;
     CreateTransaction(): DesignerTransaction;
     CreateTransaction(description: string): DesignerTransaction;
     DestroyComponent(component: IComponent): void;
@@ -77,8 +84,8 @@ export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDes
     GetService(serviceType: Type): unknown | null;
     GetType(typeName: string): Type | null;
     Reload(): void;
-    RemoveService(serviceType: Type, promote: boolean): void;
     RemoveService(serviceType: Type): void;
+    RemoveService(serviceType: Type, promote: boolean): void;
     Activate(): void;
 }
 
@@ -96,8 +103,9 @@ export interface IDesignerLoaderService$instance {
 
 export type IDesignerLoaderService = IDesignerLoaderService$instance;
 
-export interface IDesignerSerializationManager$instance extends IServiceProvider {
+export interface IDesignerSerializationManager$instance {
     readonly __tsonic_iface_System_ComponentModel_Design_Serialization_IDesignerSerializationManager: never;
+    readonly __tsonic_iface_System_IServiceProvider: never;
 
     readonly Context: ContextStack;
     readonly Properties: PropertyDescriptorCollection;
@@ -149,6 +157,7 @@ export type INameCreationService = INameCreationService$instance;
 
 export interface MemberRelationship$instance {
     readonly __tsonic_type_System_ComponentModel_Design_Serialization_MemberRelationship: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -183,9 +192,9 @@ export interface ComponentSerializationService$instance {
     CreateStore(): SerializationStore;
     Deserialize(store: SerializationStore): ICollection;
     Deserialize(store: SerializationStore, container: IContainer): ICollection;
-    DeserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean, applyDefaults: boolean): void;
     DeserializeTo(store: SerializationStore, container: IContainer): void;
     DeserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean): void;
+    DeserializeTo(store: SerializationStore, container: IContainer, validateRecycledTypes: boolean, applyDefaults: boolean): void;
     LoadStore(stream: Stream): SerializationStore;
     Serialize(store: SerializationStore, value: unknown): void;
     SerializeAbsolute(store: SerializationStore, value: unknown): void;
@@ -194,7 +203,7 @@ export interface ComponentSerializationService$instance {
 }
 
 
-export const ComponentSerializationService: (abstract new() => ComponentSerializationService) & {
+export const ComponentSerializationService: {
 };
 
 
@@ -219,7 +228,8 @@ export const ContextStack: {
 
 export type ContextStack = ContextStack$instance;
 
-export interface DefaultSerializationProviderAttribute$instance extends Attribute {
+export interface DefaultSerializationProviderAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_Design_Serialization_DefaultSerializationProviderAttribute: never;
 
     readonly ProviderTypeName: string;
@@ -244,18 +254,18 @@ export interface DesignerLoader$instance {
 }
 
 
-export const DesignerLoader: (abstract new() => DesignerLoader) & {
+export const DesignerLoader: {
 };
 
 
 export type DesignerLoader = DesignerLoader$instance;
 
-export interface DesignerSerializerAttribute$instance extends Attribute {
+export interface DesignerSerializerAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_Design_Serialization_DesignerSerializerAttribute: never;
 
     readonly SerializerBaseTypeName: string | null;
     readonly SerializerTypeName: string | null;
-    readonly TypeId: unknown;
 }
 
 
@@ -299,14 +309,15 @@ export interface MemberRelationshipService$instance {
 }
 
 
-export const MemberRelationshipService: (abstract new() => MemberRelationshipService) & {
+export const MemberRelationshipService: {
 };
 
 
 export type MemberRelationshipService = MemberRelationshipService$instance;
 
-export interface ResolveNameEventArgs$instance extends EventArgs {
+export interface ResolveNameEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_ComponentModel_Design_Serialization_ResolveNameEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Name: string | null;
     get Value(): unknown | null;
@@ -321,13 +332,13 @@ export const ResolveNameEventArgs: {
 
 export type ResolveNameEventArgs = ResolveNameEventArgs$instance;
 
-export interface RootDesignerSerializerAttribute$instance extends Attribute {
+export interface RootDesignerSerializerAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_ComponentModel_Design_Serialization_RootDesignerSerializerAttribute: never;
 
     readonly Reloadable: boolean;
     readonly SerializerBaseTypeName: string | null;
     readonly SerializerTypeName: string | null;
-    readonly TypeId: unknown;
 }
 
 
@@ -352,7 +363,7 @@ export interface SerializationStore$instance {
 }
 
 
-export const SerializationStore: (abstract new() => SerializationStore) & {
+export const SerializationStore: {
 };
 
 

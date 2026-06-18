@@ -14,7 +14,7 @@ import type { TextWriter } from './System.IO/internal/index.js';
 import type { Encoding, StringBuilder } from './System.Text/internal/index.js';
 import type { Task, ValueTask } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDisposable, IDisposable, IFormatProvider, Int32, Int64, MarshalByRefObject, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Single, String as ClrString, Type, UInt32, UInt64, Void } from './System/internal/index.js';
+import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDisposable, IDisposable, IFormatProvider, Int32, Int64, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Single, String as ClrString, Type, UInt32, UInt64, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { GeneratedCodeAttribute as GeneratedCodeAttribute } from './System.CodeDom.Compiler/internal/index.js';

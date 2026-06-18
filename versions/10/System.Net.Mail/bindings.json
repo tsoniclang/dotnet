@@ -2177,74 +2177,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.String):void",
-            "metadataToken": 100663564,
-            "canonicalSignature": "(System.String):void",
-            "normalizedSignature": "constructor|(System.String):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Mail.AttachmentBase",
-            "ownerIdentity": "System.Net.Mail"
-          },
-          {
-            "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.String,System.String):void",
-            "metadataToken": 100663565,
-            "canonicalSignature": "(System.String,System.String):void",
-            "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Mail.AttachmentBase",
-            "ownerIdentity": "System.Net.Mail"
-          },
-          {
-            "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.String,System.Net.Mime.ContentType):void",
-            "metadataToken": 100663566,
-            "canonicalSignature": "(System.String,System.Net.Mime.ContentType):void",
-            "normalizedSignature": "constructor|(System.String,System.Net.Mime.ContentType):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Mail.AttachmentBase",
-            "ownerIdentity": "System.Net.Mail"
-          },
-          {
-            "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.IO.Stream):void",
-            "metadataToken": 100663567,
-            "canonicalSignature": "(System.IO.Stream):void",
-            "normalizedSignature": "constructor|(System.IO.Stream):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Mail.AttachmentBase",
-            "ownerIdentity": "System.Net.Mail"
-          },
-          {
-            "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.IO.Stream,System.String):void",
-            "metadataToken": 100663568,
-            "canonicalSignature": "(System.IO.Stream,System.String):void",
-            "normalizedSignature": "constructor|(System.IO.Stream,System.String):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Mail.AttachmentBase",
-            "ownerIdentity": "System.Net.Mail"
-          },
-          {
-            "stableId": "System.Net.Mail:System.Net.Mail.AttachmentBase::.ctor(System.IO.Stream,System.Net.Mime.ContentType):void",
-            "metadataToken": 100663570,
-            "canonicalSignature": "(System.IO.Stream,System.Net.Mime.ContentType):void",
-            "normalizedSignature": "constructor|(System.IO.Stream,System.Net.Mime.ContentType):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Mail.AttachmentBase",
-            "ownerIdentity": "System.Net.Mail"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Mail:System.Net.Mail.AttachmentCollection",
@@ -5307,26 +5240,6 @@
         ],
         "methods": [
           {
-            "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::OnSendCompleted(System.ComponentModel.AsyncCompletedEventArgs):System.Void",
-            "targetName": "OnSendCompleted",
-            "metadataToken": 100663818,
-            "canonicalSignature": "(System.ComponentModel.AsyncCompletedEventArgs):System.Void",
-            "normalizedSignature": "OnSendCompleted|(System.ComponentModel.AsyncCompletedEventArgs):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Mail.SmtpClient",
-            "ownerIdentity": "System.Net.Mail",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Send(System.String,System.String,System.String,System.String):System.Void",
             "targetName": "Send",
             "metadataToken": 100663819,
@@ -5989,17 +5902,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Net.Mail.SmtpException",
             "ownerIdentity": "System.Net.Mail"
-          },
-          {
-            "stableId": "System.Net.Mail:System.Net.Mail.SmtpException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663759,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Mail.SmtpException",
-            "ownerIdentity": "System.Net.Mail"
           }
         ]
       },
@@ -6121,17 +6023,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Net.Mail.SmtpFailedRecipientException",
-            "ownerIdentity": "System.Net.Mail"
-          },
-          {
-            "stableId": "System.Net.Mail:System.Net.Mail.SmtpFailedRecipientException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663768,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Net.Mail.SmtpFailedRecipientException",
             "ownerIdentity": "System.Net.Mail"
           },
@@ -6288,17 +6179,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Net.Mail.SmtpFailedRecipientsException",
-            "ownerIdentity": "System.Net.Mail"
-          },
-          {
-            "stableId": "System.Net.Mail:System.Net.Mail.SmtpFailedRecipientsException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663777,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Net.Mail.SmtpFailedRecipientsException",
             "ownerIdentity": "System.Net.Mail"
           },

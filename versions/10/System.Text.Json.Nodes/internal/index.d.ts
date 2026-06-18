@@ -21,6 +21,7 @@ import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decim
 
 export interface JsonNodeOptions$instance {
     readonly __tsonic_type_System_Text_Json_Nodes_JsonNodeOptions: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     PropertyNameCaseInsensitive: boolean;
 }
@@ -33,8 +34,9 @@ export const JsonNodeOptions: {
 
 export type JsonNodeOptions = JsonNodeOptions$instance;
 
-export interface JsonArray$instance extends JsonNode {
+export interface JsonArray$instance extends JsonNode$instance {
     readonly __tsonic_type_System_Text_Json_Nodes_JsonArray: never;
+    readonly __tsonic_type_System_Text_Json_Nodes_JsonNode: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -42,8 +44,8 @@ export interface JsonArray$instance extends JsonNode {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    Add<T extends unknown>(value: T | null): void;
     Add(item: JsonNode | null): void;
+    Add<T extends unknown>(value: T | null): void;
     Clear(): void;
     Contains(item: JsonNode | null): boolean;
     GetEnumerator(): IEnumerator_1<JsonNode | null>;
@@ -54,7 +56,7 @@ export interface JsonArray$instance extends JsonNode {
     RemoveAll(match: Func_2<JsonNode | null, System_Internal.Boolean>): int;
     RemoveAt(index: int): void;
     RemoveRange(index: int, count: int): void;
-    WriteTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions | null): void;
+    WriteTo: JsonNode$instance["WriteTo"] & ((writer: Utf8JsonWriter, options?: JsonSerializerOptions | null) => void);
 }
 
 
@@ -82,8 +84,7 @@ export interface JsonNode$instance {
     readonly __tsonic_type_System_Text_Json_Nodes_JsonNode: never;
 
     readonly Options: Nullable_1<JsonNodeOptions>;
-    get Parent(): JsonNode | null;
-    set Parent(value: JsonNode | null);
+    readonly Parent: JsonNode | null;
     readonly Root: JsonNode;
     AsArray(): JsonArray;
     AsObject(): JsonObject;
@@ -117,7 +118,8 @@ export const JsonNode: {
 
 export type JsonNode = JsonNode$instance;
 
-export interface JsonObject$instance extends JsonNode {
+export interface JsonObject$instance extends JsonNode$instance {
+    readonly __tsonic_type_System_Text_Json_Nodes_JsonNode: never;
     readonly __tsonic_type_System_Text_Json_Nodes_JsonObject: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
@@ -127,8 +129,8 @@ export interface JsonObject$instance extends JsonNode {
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
-    Add(propertyName: string, value: JsonNode | null): void;
     Add(property: KeyValuePair_2<System_Internal.String, JsonNode>): void;
+    Add(propertyName: string, value: JsonNode | null): void;
     Clear(): void;
     ContainsKey(propertyName: string): boolean;
     GetAt(index: int): KeyValuePair_2<System_Internal.String, JsonNode>;
@@ -143,7 +145,7 @@ export interface JsonObject$instance extends JsonNode {
     TryAdd(propertyName: string, value: JsonNode | null, index: int): boolean;
     TryGetPropertyValue(propertyName: string, jsonNode: JsonNode | null): boolean;
     TryGetPropertyValue(propertyName: string, jsonNode: JsonNode | null, index: int): boolean;
-    WriteTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions | null): void;
+    WriteTo: JsonNode$instance["WriteTo"] & ((writer: Utf8JsonWriter, options?: JsonSerializerOptions | null) => void);
 }
 
 
@@ -165,7 +167,8 @@ export interface __JsonObject$views {
 export type JsonObject = JsonObject$instance & __JsonObject$views;
 
 
-export interface JsonValue$instance extends JsonNode {
+export interface JsonValue$instance extends JsonNode$instance {
+    readonly __tsonic_type_System_Text_Json_Nodes_JsonNode: never;
     readonly __tsonic_type_System_Text_Json_Nodes_JsonValue: never;
 
     TryGetValue<T extends unknown>(value: T | null): boolean;

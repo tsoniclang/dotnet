@@ -695,25 +695,6 @@
             "ownerIdentity": "System.Private.CoreLib"
           },
           {
-            "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.Collection`1::Items:IList_1",
-            "targetName": "Items",
-            "metadataToken": 385881291,
-            "canonicalSignature": ":IList_1",
-            "normalizedSignature": "Items|:IList_1|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ObjectModel.Collection`1",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
             "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.Collection`1::Item[System.Int32]:T",
             "targetName": "Item",
             "metadataToken": 385881292,
@@ -1054,26 +1035,6 @@
             "isOverride": false,
             "isSealed": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Collections.ObjectModel.KeyedCollection`2",
-            "ownerIdentity": "System.ObjectModel",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection`2::ChangeItemKey(TItem,TKey):System.Void",
-            "targetName": "ChangeItemKey",
-            "metadataToken": 100663369,
-            "canonicalSignature": "(TItem,TKey):System.Void",
-            "normalizedSignature": "ChangeItemKey|(TItem,TKey):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Collections.ObjectModel.KeyedCollection`2",
             "ownerIdentity": "System.ObjectModel",
             "isExtensionMethod": false
@@ -1595,25 +1556,6 @@
             "ownerIdentity": "System.ObjectModel"
           },
           {
-            "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection`2::Dictionary:IDictionary_2",
-            "targetName": "Dictionary",
-            "metadataToken": 385875994,
-            "canonicalSignature": ":IDictionary_2",
-            "normalizedSignature": "Dictionary|:IDictionary_2|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ObjectModel.KeyedCollection`2",
-            "ownerIdentity": "System.ObjectModel"
-          },
-          {
             "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection`1::Count:System.Int32",
             "targetName": "Count",
             "metadataToken": 385881419,
@@ -1776,41 +1718,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection`2::.ctor():void",
-            "metadataToken": 100663358,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ObjectModel.KeyedCollection`2",
-            "ownerIdentity": "System.ObjectModel"
-          },
-          {
-            "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection`2::.ctor(IEqualityComparer_1):void",
-            "metadataToken": 100663359,
-            "canonicalSignature": "(IEqualityComparer_1):void",
-            "normalizedSignature": "constructor|(IEqualityComparer_1):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ObjectModel.KeyedCollection`2",
-            "ownerIdentity": "System.ObjectModel"
-          },
-          {
-            "stableId": "System.ObjectModel:System.Collections.ObjectModel.KeyedCollection`2::.ctor(IEqualityComparer_1,System.Int32):void",
-            "metadataToken": 100663360,
-            "canonicalSignature": "(IEqualityComparer_1,System.Int32):void",
-            "normalizedSignature": "constructor|(IEqualityComparer_1,System.Int32):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ObjectModel.KeyedCollection`2",
-            "ownerIdentity": "System.ObjectModel"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection`1",
@@ -2044,46 +1952,6 @@
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": true,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ObjectModel.ObservableCollection`1",
-            "ownerIdentity": "System.ObjectModel",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection`1::BlockReentrancy():System.IDisposable",
-            "targetName": "BlockReentrancy",
-            "metadataToken": 100663400,
-            "canonicalSignature": "():System.IDisposable",
-            "normalizedSignature": "BlockReentrancy|():System.IDisposable|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ObjectModel.ObservableCollection`1",
-            "ownerIdentity": "System.ObjectModel",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection`1::CheckReentrancy():System.Void",
-            "targetName": "CheckReentrancy",
-            "metadataToken": 100663401,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "CheckReentrancy|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
             "isOverride": false,
             "isSealed": false,
             "visibility": "Protected",
@@ -3217,25 +3085,6 @@
             "ownerIdentity": "System.Private.CoreLib"
           },
           {
-            "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.ReadOnlyCollection`1::Items:IList_1",
-            "targetName": "Items",
-            "metadataToken": 385881302,
-            "canonicalSignature": ":IList_1",
-            "normalizedSignature": "Items|:IList_1|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ObjectModel.ReadOnlyCollection`1",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
             "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection`1::IsReadOnly:System.Boolean",
             "targetName": "IsReadOnly",
             "metadataToken": 385881420,
@@ -3962,25 +3811,6 @@
             "emitSemantics": {
               "callableStaticAccessorKind": "property"
             }
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.ReadOnlyDictionary`2::Dictionary:IDictionary_2",
-            "targetName": "Dictionary",
-            "metadataToken": 385881311,
-            "canonicalSignature": ":IDictionary_2",
-            "normalizedSignature": "Dictionary|:IDictionary_2|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ObjectModel.ReadOnlyDictionary`2",
-            "ownerIdentity": "System.Private.CoreLib"
           },
           {
             "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.ReadOnlyDictionary`2::Keys:KeyCollection",
@@ -5785,25 +5615,6 @@
             "emitSemantics": {
               "callableStaticAccessorKind": "property"
             }
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.ReadOnlySet`1::Set:ISet_1",
-            "targetName": "Set",
-            "metadataToken": 385881342,
-            "canonicalSignature": ":ISet_1",
-            "normalizedSignature": "Set|:ISet_1|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Collections.ObjectModel.ReadOnlySet`1",
-            "ownerIdentity": "System.Private.CoreLib"
           },
           {
             "stableId": "System.Private.CoreLib:System.Collections.ObjectModel.ReadOnlySet`1::Count:System.Int32",

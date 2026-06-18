@@ -6470,28 +6470,7 @@
           "stableId": "System.Private.CoreLib:System.EventArgs",
           "targetName": "System.EventArgs"
         },
-        "methods": [
-          {
-            "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.AsyncCompletedEventArgs::RaiseExceptionIfNecessary():System.Void",
-            "targetName": "RaiseExceptionIfNecessary",
-            "metadataToken": 100663313,
-            "canonicalSignature": "():System.Void",
-            "normalizedSignature": "RaiseExceptionIfNecessary|():System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 0,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.AsyncCompletedEventArgs",
-            "ownerIdentity": "System.ComponentModel.EventBasedAsync",
-            "isExtensionMethod": false
-          }
-        ],
+        "methods": [],
         "properties": [
           {
             "stableId": "System.ComponentModel.EventBasedAsync:System.ComponentModel.AsyncCompletedEventArgs::Cancelled:System.Boolean",
@@ -6795,26 +6774,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.AttributeCollection::GetDefaultAttribute(System.Type):System.Attribute",
-            "targetName": "GetDefaultAttribute",
-            "metadataToken": 100663788,
-            "canonicalSignature": "(System.Type):System.Attribute",
-            "normalizedSignature": "GetDefaultAttribute|(System.Type):System.Attribute|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.AttributeCollection",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.AttributeCollection::GetEnumerator():System.Collections.IEnumerator",
             "targetName": "GetEnumerator",
             "metadataToken": 100663789,
@@ -7101,17 +7060,6 @@
             "isStatic": false,
             "parameterCount": 1,
             "visibility": "Public",
-            "ownerQualifiedName": "System.ComponentModel.AttributeCollection",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.AttributeCollection::.ctor():void",
-            "metadataToken": 100663780,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.ComponentModel.AttributeCollection",
             "ownerIdentity": "System.ComponentModel.TypeConverter"
           }
@@ -11005,25 +10953,6 @@
             "ownerIdentity": "System.ComponentModel.Primitives"
           },
           {
-            "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Component::Events:System.ComponentModel.EventHandlerList",
-            "targetName": "Events",
-            "metadataToken": 385876011,
-            "canonicalSignature": ":System.ComponentModel.EventHandlerList",
-            "normalizedSignature": "Events|:System.ComponentModel.EventHandlerList|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Component",
-            "ownerIdentity": "System.ComponentModel.Primitives"
-          },
-          {
             "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Component::Site:System.ComponentModel.ISite",
             "targetName": "Site",
             "metadataToken": 385876012,
@@ -11058,25 +10987,6 @@
             "isVirtual": false,
             "isOverride": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.ComponentModel.Component",
-            "ownerIdentity": "System.ComponentModel.Primitives"
-          },
-          {
-            "stableId": "System.ComponentModel.Primitives:System.ComponentModel.Component::DesignMode:System.Boolean",
-            "targetName": "DesignMode",
-            "metadataToken": 385876014,
-            "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "DesignMode|:System.Boolean|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.ComponentModel.Component",
             "ownerIdentity": "System.ComponentModel.Primitives"
           },
@@ -11529,19 +11439,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ComponentEditor::.ctor():void",
-            "metadataToken": 100664635,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.ComponentEditor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ComponentResourceManager",
@@ -11835,26 +11733,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Container::RemoveWithoutUnsiting(System.ComponentModel.IComponent):System.Void",
-            "targetName": "RemoveWithoutUnsiting",
-            "metadataToken": 100664646,
-            "canonicalSignature": "(System.ComponentModel.IComponent):System.Void",
-            "normalizedSignature": "RemoveWithoutUnsiting|(System.ComponentModel.IComponent):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.Container",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Container::ValidateName(System.ComponentModel.IComponent,System.String):System.Void",
             "targetName": "ValidateName",
             "metadataToken": 100664647,
@@ -12035,19 +11913,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ContainerFilterService::.ctor():void",
-            "metadataToken": 100664656,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.ContainerFilterService",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CultureInfoConverter",
@@ -12980,30 +12846,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CustomTypeDescriptor::.ctor():void",
-            "metadataToken": 100663814,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.CustomTypeDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CustomTypeDescriptor::.ctor(System.ComponentModel.ICustomTypeDescriptor):void",
-            "metadataToken": 100663815,
-            "canonicalSignature": "(System.ComponentModel.ICustomTypeDescriptor):void",
-            "normalizedSignature": "constructor|(System.ComponentModel.ICustomTypeDescriptor):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.CustomTypeDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ObjectModel:System.ComponentModel.DataErrorsChangedEventArgs",
@@ -14631,26 +14474,6 @@
             "ownerQualifiedName": "System.ComponentModel.DefaultValueAttribute",
             "ownerIdentity": "System.Private.CoreLib",
             "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.ComponentModel.DefaultValueAttribute::SetValue(System.Object):System.Void",
-            "targetName": "SetValue",
-            "metadataToken": 100677623,
-            "canonicalSignature": "(System.Object):System.Void",
-            "normalizedSignature": "SetValue|(System.Object):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.DefaultValueAttribute",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
           }
         ],
         "properties": [
@@ -14938,25 +14761,6 @@
             "isVirtual": true,
             "isOverride": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.ComponentModel.DescriptionAttribute",
-            "ownerIdentity": "System.ComponentModel.Primitives"
-          },
-          {
-            "stableId": "System.ComponentModel.Primitives:System.ComponentModel.DescriptionAttribute::DescriptionValue:System.String",
-            "targetName": "DescriptionValue",
-            "metadataToken": 385876018,
-            "canonicalSignature": ":System.String",
-            "normalizedSignature": "DescriptionValue|:System.String|static=false|accessor=getset",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": true,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.ComponentModel.DescriptionAttribute",
             "ownerIdentity": "System.ComponentModel.Primitives"
           }
@@ -15942,25 +15746,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.ComponentModel.DisplayNameAttribute",
             "ownerIdentity": "System.ComponentModel.Primitives"
-          },
-          {
-            "stableId": "System.ComponentModel.Primitives:System.ComponentModel.DisplayNameAttribute::DisplayNameValue:System.String",
-            "targetName": "DisplayNameValue",
-            "metadataToken": 385876027,
-            "canonicalSignature": ":System.String",
-            "normalizedSignature": "DisplayNameValue|:System.String|static=false|accessor=getset",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": true,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.DisplayNameAttribute",
-            "ownerIdentity": "System.ComponentModel.Primitives"
           }
         ],
         "fields": [
@@ -16717,44 +16502,6 @@
         ],
         "properties": [
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::EnumType:System.Type",
-            "targetName": "EnumType",
-            "metadataToken": 385876055,
-            "canonicalSignature": ":System.Type",
-            "normalizedSignature": "EnumType|:System.Type|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.EnumConverter",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::Values:System.ComponentModel.TypeConverter+StandardValuesCollection",
-            "targetName": "Values",
-            "metadataToken": 385876056,
-            "canonicalSignature": ":System.ComponentModel.TypeConverter+StandardValuesCollection",
-            "normalizedSignature": "Values|:System.ComponentModel.TypeConverter+StandardValuesCollection|static=false|accessor=getset",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": true,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.EnumConverter",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
             "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EnumConverter::Comparer:System.Collections.IComparer",
             "targetName": "Comparer",
             "metadataToken": 385876057,
@@ -16908,41 +16655,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EventDescriptor::.ctor(System.String,System.Attribute[]):void",
-            "metadataToken": 100663859,
-            "canonicalSignature": "(System.String,System.Attribute[]):void",
-            "normalizedSignature": "constructor|(System.String,System.Attribute[]):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.EventDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EventDescriptor::.ctor(System.ComponentModel.MemberDescriptor):void",
-            "metadataToken": 100663860,
-            "canonicalSignature": "(System.ComponentModel.MemberDescriptor):void",
-            "normalizedSignature": "constructor|(System.ComponentModel.MemberDescriptor):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.EventDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EventDescriptor::.ctor(System.ComponentModel.MemberDescriptor,System.Attribute[]):void",
-            "metadataToken": 100663861,
-            "canonicalSignature": "(System.ComponentModel.MemberDescriptor,System.Attribute[]):void",
-            "normalizedSignature": "constructor|(System.ComponentModel.MemberDescriptor,System.Attribute[]):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.EventDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EventDescriptorCollection",
@@ -17235,46 +16948,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EventDescriptorCollection::InternalSort(System.String[]):System.Void",
-            "targetName": "InternalSort",
-            "metadataToken": 100663890,
-            "canonicalSignature": "(System.String[]):System.Void",
-            "normalizedSignature": "InternalSort|(System.String[]):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.EventDescriptorCollection",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EventDescriptorCollection::InternalSort(System.Collections.IComparer):System.Void",
-            "targetName": "InternalSort",
-            "metadataToken": 100663891,
-            "canonicalSignature": "(System.Collections.IComparer):System.Void",
-            "normalizedSignature": "InternalSort|(System.Collections.IComparer):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.EventDescriptorCollection",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
             "targetName": "CopyTo",
             "metadataToken": 100703833,
@@ -17489,12 +17162,12 @@
             "targetName": "Count",
             "metadataToken": 385876112,
             "canonicalSignature": ":System.Int32",
-            "normalizedSignature": "Count|:System.Int32|static=false|accessor=getset",
+            "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -18022,12 +17695,12 @@
             "targetName": "ExtenderProperty",
             "metadataToken": 385876126,
             "canonicalSignature": ":System.ComponentModel.PropertyDescriptor",
-            "normalizedSignature": "ExtenderProperty|:System.ComponentModel.PropertyDescriptor|static=false|accessor=getset",
+            "normalizedSignature": "ExtenderProperty|:System.ComponentModel.PropertyDescriptor|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -18041,12 +17714,12 @@
             "targetName": "Provider",
             "metadataToken": 385876127,
             "canonicalSignature": ":System.ComponentModel.IExtenderProvider",
-            "normalizedSignature": "Provider|:System.ComponentModel.IExtenderProvider|static=false|accessor=getset",
+            "normalizedSignature": "Provider|:System.ComponentModel.IExtenderProvider|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -18060,12 +17733,12 @@
             "targetName": "ReceiverType",
             "metadataToken": 385876128,
             "canonicalSignature": ":System.Type",
-            "normalizedSignature": "ReceiverType|:System.Type|static=false|accessor=getset",
+            "normalizedSignature": "ReceiverType|:System.Type|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -18945,19 +18618,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.InstanceCreationEditor::.ctor():void",
-            "metadataToken": 100664778,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.InstanceCreationEditor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Int128Converter",
@@ -19171,17 +18832,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.ComponentModel.InvalidAsynchronousStateException",
             "ownerIdentity": "System.ComponentModel.Primitives"
-          },
-          {
-            "stableId": "System.ComponentModel.Primitives:System.ComponentModel.InvalidAsynchronousStateException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663463,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.InvalidAsynchronousStateException",
-            "ownerIdentity": "System.ComponentModel.Primitives"
           }
         ]
       },
@@ -19276,17 +18926,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.ComponentModel.InvalidEnumArgumentException",
             "ownerIdentity": "System.ComponentModel.Primitives"
-          },
-          {
-            "stableId": "System.ComponentModel.Primitives:System.ComponentModel.InvalidEnumArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663468,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.InvalidEnumArgumentException",
-            "ownerIdentity": "System.ComponentModel.Primitives"
           }
         ]
       },
@@ -19377,19 +19016,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.License::.ctor():void",
-            "metadataToken": 100664784,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.License",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.LicenseContext",
@@ -19661,17 +19288,6 @@
             "isStatic": false,
             "parameterCount": 4,
             "visibility": "Public",
-            "ownerQualifiedName": "System.ComponentModel.LicenseException",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.LicenseException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664794,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.ComponentModel.LicenseException",
             "ownerIdentity": "System.ComponentModel.TypeConverter"
           }
@@ -19964,19 +19580,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.LicenseProvider::.ctor():void",
-            "metadataToken": 100664830,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.LicenseProvider",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.LicenseProviderAttribute",
@@ -21524,25 +21128,6 @@
         ],
         "properties": [
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MarshalByValueComponent::Events:System.ComponentModel.EventHandlerList",
-            "targetName": "Events",
-            "metadataToken": 385876294,
-            "canonicalSignature": ":System.ComponentModel.EventHandlerList",
-            "normalizedSignature": "Events|:System.ComponentModel.EventHandlerList|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.MarshalByValueComponent",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
             "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MarshalByValueComponent::Site:System.ComponentModel.ISite",
             "targetName": "Site",
             "metadataToken": 385876295,
@@ -22848,12 +22433,12 @@
             "targetName": "AssignedEditPositionCount",
             "metadataToken": 385876299,
             "canonicalSignature": ":System.Int32",
-            "normalizedSignature": "AssignedEditPositionCount|:System.Int32|static=false|accessor=getset",
+            "normalizedSignature": "AssignedEditPositionCount|:System.Int32|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -23421,46 +23006,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MemberDescriptor::FindMethod(System.Type,System.String,System.Type[],System.Type):System.Reflection.MethodInfo",
-            "targetName": "FindMethod",
-            "metadataToken": 100663989,
-            "canonicalSignature": "(System.Type,System.String,System.Type[],System.Type):System.Reflection.MethodInfo",
-            "normalizedSignature": "FindMethod|(System.Type,System.String,System.Type[],System.Type):System.Reflection.MethodInfo|static=true",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 4,
-            "isStatic": true,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.MemberDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MemberDescriptor::FindMethod(System.Type,System.String,System.Type[],System.Type,System.Boolean):System.Reflection.MethodInfo",
-            "targetName": "FindMethod",
-            "metadataToken": 100663990,
-            "canonicalSignature": "(System.Type,System.String,System.Type[],System.Type,System.Boolean):System.Reflection.MethodInfo",
-            "normalizedSignature": "FindMethod|(System.Type,System.String,System.Type[],System.Type,System.Boolean):System.Reflection.MethodInfo|static=true",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 5,
-            "isStatic": true,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.MemberDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MemberDescriptor::GetHashCode():System.Int32",
             "targetName": "GetHashCode",
             "metadataToken": 100663991,
@@ -23493,46 +23038,6 @@
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": true,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.MemberDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MemberDescriptor::GetSite(System.Object):System.ComponentModel.ISite",
-            "targetName": "GetSite",
-            "metadataToken": 100663993,
-            "canonicalSignature": "(System.Object):System.ComponentModel.ISite",
-            "normalizedSignature": "GetSite|(System.Object):System.ComponentModel.ISite|static=true",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": true,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.MemberDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MemberDescriptor::GetInvokee(System.Type,System.Object):System.Object",
-            "targetName": "GetInvokee",
-            "metadataToken": 100663994,
-            "canonicalSignature": "(System.Type,System.Object):System.Object",
-            "normalizedSignature": "GetInvokee|(System.Type,System.Object):System.Object|static=true",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": true,
-            "isAbstract": false,
-            "isVirtual": false,
             "isOverride": false,
             "isSealed": false,
             "visibility": "Protected",
@@ -23716,52 +23221,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MemberDescriptor::.ctor(System.String):void",
-            "metadataToken": 100663970,
-            "canonicalSignature": "(System.String):void",
-            "normalizedSignature": "constructor|(System.String):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.MemberDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MemberDescriptor::.ctor(System.String,System.Attribute[]):void",
-            "metadataToken": 100663971,
-            "canonicalSignature": "(System.String,System.Attribute[]):void",
-            "normalizedSignature": "constructor|(System.String,System.Attribute[]):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.MemberDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MemberDescriptor::.ctor(System.ComponentModel.MemberDescriptor):void",
-            "metadataToken": 100663972,
-            "canonicalSignature": "(System.ComponentModel.MemberDescriptor):void",
-            "normalizedSignature": "constructor|(System.ComponentModel.MemberDescriptor):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.MemberDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MemberDescriptor::.ctor(System.ComponentModel.MemberDescriptor,System.Attribute[]):void",
-            "metadataToken": 100663973,
-            "canonicalSignature": "(System.ComponentModel.MemberDescriptor,System.Attribute[]):void",
-            "normalizedSignature": "constructor|(System.ComponentModel.MemberDescriptor,System.Attribute[]):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.MemberDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.Primitives:System.ComponentModel.MergablePropertyAttribute",
@@ -25656,26 +25116,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptor::CreateInstance(System.Type):System.Object",
-            "targetName": "CreateInstance",
-            "metadataToken": 100663646,
-            "canonicalSignature": "(System.Type):System.Object",
-            "normalizedSignature": "CreateInstance|(System.Type):System.Object|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.PropertyDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptor::FillAttributes(System.Collections.IList):System.Void",
             "targetName": "FillAttributes",
             "metadataToken": 100663647,
@@ -25836,26 +25276,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptor::GetTypeFromName(System.String):System.Type",
-            "targetName": "GetTypeFromName",
-            "metadataToken": 100663655,
-            "canonicalSignature": "(System.String):System.Type",
-            "normalizedSignature": "GetTypeFromName|(System.String):System.Type|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.PropertyDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptor::GetValue(System.Object):System.Object",
             "targetName": "GetValue",
             "metadataToken": 100663656,
@@ -25911,26 +25331,6 @@
             "isOverride": false,
             "isSealed": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.ComponentModel.PropertyDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptor::GetValueChangedHandler(System.Object):System.EventHandler",
-            "targetName": "GetValueChangedHandler",
-            "metadataToken": 100663659,
-            "canonicalSignature": "(System.Object):System.EventHandler",
-            "normalizedSignature": "GetValueChangedHandler|(System.Object):System.EventHandler|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "ProtectedInternal",
             "ownerQualifiedName": "System.ComponentModel.PropertyDescriptor",
             "ownerIdentity": "System.ComponentModel.TypeConverter",
             "isExtensionMethod": false
@@ -26152,41 +25552,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptor::.ctor(System.String,System.Attribute[]):void",
-            "metadataToken": 100663632,
-            "canonicalSignature": "(System.String,System.Attribute[]):void",
-            "normalizedSignature": "constructor|(System.String,System.Attribute[]):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.PropertyDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptor::.ctor(System.ComponentModel.MemberDescriptor):void",
-            "metadataToken": 100663633,
-            "canonicalSignature": "(System.ComponentModel.MemberDescriptor):void",
-            "normalizedSignature": "constructor|(System.ComponentModel.MemberDescriptor):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.PropertyDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptor::.ctor(System.ComponentModel.MemberDescriptor,System.Attribute[]):void",
-            "metadataToken": 100663634,
-            "canonicalSignature": "(System.ComponentModel.MemberDescriptor,System.Attribute[]):void",
-            "normalizedSignature": "constructor|(System.ComponentModel.MemberDescriptor,System.Attribute[]):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.PropertyDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptorCollection",
@@ -26478,46 +25844,6 @@
             "isOverride": false,
             "isSealed": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.ComponentModel.PropertyDescriptorCollection",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptorCollection::InternalSort(System.String[]):System.Void",
-            "targetName": "InternalSort",
-            "metadataToken": 100664017,
-            "canonicalSignature": "(System.String[]):System.Void",
-            "normalizedSignature": "InternalSort|(System.String[]):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.PropertyDescriptorCollection",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptorCollection::InternalSort(System.Collections.IComparer):System.Void",
-            "targetName": "InternalSort",
-            "metadataToken": 100664018,
-            "canonicalSignature": "(System.Collections.IComparer):System.Void",
-            "normalizedSignature": "InternalSort|(System.Collections.IComparer):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.ComponentModel.PropertyDescriptorCollection",
             "ownerIdentity": "System.ComponentModel.TypeConverter",
             "isExtensionMethod": false
@@ -26862,12 +26188,12 @@
             "targetName": "Count",
             "metadataToken": 385876142,
             "canonicalSignature": ":System.Int32",
-            "normalizedSignature": "Count|:System.Int32|static=false|accessor=getset",
+            "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -27172,46 +26498,6 @@
             "ownerQualifiedName": "System.ComponentModel.PropertyTabAttribute",
             "ownerIdentity": "System.ComponentModel.TypeConverter",
             "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyTabAttribute::InitializeArrays(System.String[],System.ComponentModel.PropertyTabScope[]):System.Void",
-            "targetName": "InitializeArrays",
-            "metadataToken": 100665024,
-            "canonicalSignature": "(System.String[],System.ComponentModel.PropertyTabScope[]):System.Void",
-            "normalizedSignature": "InitializeArrays|(System.String[],System.ComponentModel.PropertyTabScope[]):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.PropertyTabAttribute",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyTabAttribute::InitializeArrays(System.Type[],System.ComponentModel.PropertyTabScope[]):System.Void",
-            "targetName": "InitializeArrays",
-            "metadataToken": 100665025,
-            "canonicalSignature": "(System.Type[],System.ComponentModel.PropertyTabScope[]):System.Void",
-            "normalizedSignature": "InitializeArrays|(System.Type[],System.ComponentModel.PropertyTabScope[]):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.PropertyTabAttribute",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
           }
         ],
         "properties": [
@@ -27235,35 +26521,16 @@
             "ownerIdentity": "System.ComponentModel.TypeConverter"
           },
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyTabAttribute::TabClassNames:System.String[]",
-            "targetName": "TabClassNames",
-            "metadataToken": 385876330,
-            "canonicalSignature": ":System.String[]",
-            "normalizedSignature": "TabClassNames|:System.String[]|static=false|accessor=get",
+            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyTabAttribute::TabScopes:System.ComponentModel.PropertyTabScope[]",
+            "targetName": "TabScopes",
+            "metadataToken": 385876331,
+            "canonicalSignature": ":System.ComponentModel.PropertyTabScope[]",
+            "normalizedSignature": "TabScopes|:System.ComponentModel.PropertyTabScope[]|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
             "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.PropertyTabAttribute",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyTabAttribute::TabScopes:System.ComponentModel.PropertyTabScope[]",
-            "targetName": "TabScopes",
-            "metadataToken": 385876331,
-            "canonicalSignature": ":System.ComponentModel.PropertyTabScope[]",
-            "normalizedSignature": "TabScopes|:System.ComponentModel.PropertyTabScope[]|static=false|accessor=getset",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": true,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -29996,46 +29263,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeConverter::GetConvertFromException(System.Object):System.Exception",
-            "targetName": "GetConvertFromException",
-            "metadataToken": 100663711,
-            "canonicalSignature": "(System.Object):System.Exception",
-            "normalizedSignature": "GetConvertFromException|(System.Object):System.Exception|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.TypeConverter",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeConverter::GetConvertToException(System.Object,System.Type):System.Exception",
-            "targetName": "GetConvertToException",
-            "metadataToken": 100663712,
-            "canonicalSignature": "(System.Object,System.Type):System.Exception",
-            "normalizedSignature": "GetConvertToException|(System.Object,System.Type):System.Exception|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.TypeConverter",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeConverter::GetCreateInstanceSupported():System.Boolean",
             "targetName": "GetCreateInstanceSupported",
             "metadataToken": 100663713,
@@ -30334,26 +29561,6 @@
             "ownerQualifiedName": "System.ComponentModel.TypeConverter",
             "ownerIdentity": "System.ComponentModel.TypeConverter",
             "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeConverter::SortProperties(System.ComponentModel.PropertyDescriptorCollection,System.String[]):System.ComponentModel.PropertyDescriptorCollection",
-            "targetName": "SortProperties",
-            "metadataToken": 100663728,
-            "canonicalSignature": "(System.ComponentModel.PropertyDescriptorCollection,System.String[]):System.ComponentModel.PropertyDescriptorCollection",
-            "normalizedSignature": "SortProperties|(System.ComponentModel.PropertyDescriptorCollection,System.String[]):System.ComponentModel.PropertyDescriptorCollection|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.TypeConverter",
-            "ownerIdentity": "System.ComponentModel.TypeConverter",
-            "isExtensionMethod": false
           }
         ],
         "properties": [],
@@ -30511,30 +29718,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeConverter+SimplePropertyDescriptor::.ctor(System.Type,System.String,System.Type):void",
-            "metadataToken": 100663730,
-            "canonicalSignature": "(System.Type,System.String,System.Type):void",
-            "normalizedSignature": "constructor|(System.Type,System.String,System.Type):void|static=false",
-            "isStatic": false,
-            "parameterCount": 3,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.TypeConverter+SimplePropertyDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeConverter+SimplePropertyDescriptor::.ctor(System.Type,System.String,System.Type,System.Attribute[]):void",
-            "metadataToken": 100663731,
-            "canonicalSignature": "(System.Type,System.String,System.Type,System.Attribute[]):void",
-            "normalizedSignature": "constructor|(System.Type,System.String,System.Type,System.Attribute[]):void|static=false",
-            "isStatic": false,
-            "parameterCount": 4,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.TypeConverter+SimplePropertyDescriptor",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeConverter+StandardValuesCollection",
@@ -31208,30 +30392,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeDescriptionProvider::.ctor():void",
-            "metadataToken": 100664453,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.TypeDescriptionProvider",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeDescriptionProvider::.ctor(System.ComponentModel.TypeDescriptionProvider):void",
-            "metadataToken": 100664454,
-            "canonicalSignature": "(System.ComponentModel.TypeDescriptionProvider):void",
-            "normalizedSignature": "constructor|(System.ComponentModel.TypeDescriptionProvider):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.TypeDescriptionProvider",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ObjectModel:System.ComponentModel.TypeDescriptionProviderAttribute",
@@ -33068,19 +32229,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.TypeListConverter::.ctor(System.Type[]):void",
-            "metadataToken": 100663745,
-            "canonicalSignature": "(System.Type[]):void",
-            "normalizedSignature": "constructor|(System.Type[]):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.TypeListConverter",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.UInt128Converter",
@@ -33609,17 +32758,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.ComponentModel.WarningException",
             "ownerIdentity": "System.ComponentModel.TypeConverter"
-          },
-          {
-            "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.WarningException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100665074,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.ComponentModel.WarningException",
-            "ownerIdentity": "System.ComponentModel.TypeConverter"
           }
         ]
       },
@@ -33783,17 +32921,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.ComponentModel.Win32Exception",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.ComponentModel.Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100677637,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.ComponentModel.Win32Exception",
             "ownerIdentity": "System.Private.CoreLib"
           }

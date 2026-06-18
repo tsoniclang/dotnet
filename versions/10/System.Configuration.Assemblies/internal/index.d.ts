@@ -10,18 +10,22 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum AssemblyHashAlgorithm {
-    None = 0,
-    MD5 = 32771,
-    SHA1 = 32772,
-    SHA256 = 32780,
-    SHA384 = 32781,
-    SHA512 = 32782
-}
+export type AssemblyHashAlgorithm = number & { readonly __tsonic_type_System_Configuration_Assemblies_AssemblyHashAlgorithm: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const AssemblyHashAlgorithm: {
+    readonly None: AssemblyHashAlgorithm;
+    readonly MD5: AssemblyHashAlgorithm;
+    readonly SHA1: AssemblyHashAlgorithm;
+    readonly SHA256: AssemblyHashAlgorithm;
+    readonly SHA384: AssemblyHashAlgorithm;
+    readonly SHA512: AssemblyHashAlgorithm;
+};
 
 
-export enum AssemblyVersionCompatibility {
-    SameMachine = 1,
-    SameProcess = 2,
-    SameDomain = 3
-}
+export type AssemblyVersionCompatibility = number & { readonly __tsonic_type_System_Configuration_Assemblies_AssemblyVersionCompatibility: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const AssemblyVersionCompatibility: {
+    readonly SameMachine: AssemblyVersionCompatibility;
+    readonly SameProcess: AssemblyVersionCompatibility;
+    readonly SameDomain: AssemblyVersionCompatibility;
+};

@@ -21,39 +21,46 @@ import type { X509Certificate } from "../../System.Security.Cryptography.X509Cer
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, Func_4, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, MarshalByRefObject, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, Func_4, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum QuicAbortDirection {
-    Read = 1,
-    Write = 2,
-    Both = 3
-}
+export type QuicAbortDirection = number & { readonly __tsonic_type_System_Net_Quic_QuicAbortDirection: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum QuicError {
-    Success = 0,
-    InternalError = 1,
-    ConnectionAborted = 2,
-    StreamAborted = 3,
-    ConnectionTimeout = 6,
-    ConnectionRefused = 8,
-    VersionNegotiationError = 9,
-    ConnectionIdle = 10,
-    OperationAborted = 12,
-    AlpnInUse = 13,
-    TransportError = 14,
-    CallbackError = 15
-}
+export const QuicAbortDirection: {
+    readonly Read: QuicAbortDirection;
+    readonly Write: QuicAbortDirection;
+    readonly Both: QuicAbortDirection;
+};
 
 
-export enum QuicStreamType {
-    Unidirectional = 0,
-    Bidirectional = 1
-}
+export type QuicError = number & { readonly __tsonic_type_System_Net_Quic_QuicError: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const QuicError: {
+    readonly Success: QuicError;
+    readonly InternalError: QuicError;
+    readonly ConnectionAborted: QuicError;
+    readonly StreamAborted: QuicError;
+    readonly ConnectionTimeout: QuicError;
+    readonly ConnectionRefused: QuicError;
+    readonly VersionNegotiationError: QuicError;
+    readonly ConnectionIdle: QuicError;
+    readonly OperationAborted: QuicError;
+    readonly AlpnInUse: QuicError;
+    readonly TransportError: QuicError;
+    readonly CallbackError: QuicError;
+};
+
+
+export type QuicStreamType = number & { readonly __tsonic_type_System_Net_Quic_QuicStreamType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const QuicStreamType: {
+    readonly Unidirectional: QuicStreamType;
+    readonly Bidirectional: QuicStreamType;
+};
 
 
 export interface QuicStreamCapacityChangedArgs$instance {
     readonly __tsonic_type_System_Net_Quic_QuicStreamCapacityChangedArgs: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     BidirectionalIncrement: int;
     UnidirectionalIncrement: int;
@@ -67,8 +74,9 @@ export const QuicStreamCapacityChangedArgs: {
 
 export type QuicStreamCapacityChangedArgs = QuicStreamCapacityChangedArgs$instance;
 
-export interface QuicClientConnectionOptions$instance extends QuicConnectionOptions {
+export interface QuicClientConnectionOptions$instance extends QuicConnectionOptions$instance {
     readonly __tsonic_type_System_Net_Quic_QuicClientConnectionOptions: never;
+    readonly __tsonic_type_System_Net_Quic_QuicConnectionOptions: never;
 
     ClientAuthenticationOptions: SslClientAuthenticationOptions;
     get LocalEndPoint(): IPEndPoint | null;
@@ -84,7 +92,7 @@ export const QuicClientConnectionOptions: {
 
 export type QuicClientConnectionOptions = QuicClientConnectionOptions$instance;
 
-export interface QuicConnection$instance extends System_Internal.IAsyncDisposable$instance {
+export interface QuicConnection$instance {
     readonly __tsonic_type_System_Net_Quic_QuicConnection: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -139,8 +147,11 @@ export const QuicConnectionOptions: {
 
 export type QuicConnectionOptions = QuicConnectionOptions$instance;
 
-export interface QuicException$instance extends IOException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface QuicException$instance extends System_IO_Internal.IOException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_IO_IOException: never;
     readonly __tsonic_type_System_Net_Quic_QuicException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -162,7 +173,7 @@ export interface __QuicException$views {
 export type QuicException = QuicException$instance & __QuicException$views;
 
 
-export interface QuicListener$instance extends System_Internal.IAsyncDisposable$instance {
+export interface QuicListener$instance {
     readonly __tsonic_type_System_Net_Quic_QuicListener: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -221,7 +232,8 @@ export const QuicReceiveWindowSizes: {
 
 export type QuicReceiveWindowSizes = QuicReceiveWindowSizes$instance;
 
-export interface QuicServerConnectionOptions$instance extends QuicConnectionOptions {
+export interface QuicServerConnectionOptions$instance extends QuicConnectionOptions$instance {
+    readonly __tsonic_type_System_Net_Quic_QuicConnectionOptions: never;
     readonly __tsonic_type_System_Net_Quic_QuicServerConnectionOptions: never;
 
     ServerAuthenticationOptions: SslServerAuthenticationOptions;
@@ -235,55 +247,37 @@ export const QuicServerConnectionOptions: {
 
 export type QuicServerConnectionOptions = QuicServerConnectionOptions$instance;
 
-export interface QuicStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
+export interface QuicStream$instance extends System_IO_Internal.Stream$instance {
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_Quic_QuicStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanTimeout: boolean;
-    readonly CanWrite: boolean;
     readonly Id: long;
-    readonly Length: long;
-    Position: long;
     readonly ReadsClosed: Task;
-    ReadTimeout: int;
     readonly Type: QuicStreamType;
     readonly WritesClosed: Task;
-    WriteTimeout: int;
     Abort(abortDirection: QuicAbortDirection, errorCode: long): void;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginRead: System_IO_Internal.Stream$instance["BeginRead"] & ((buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    BeginWrite: System_IO_Internal.Stream$instance["BeginWrite"] & ((buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
     CompleteWrites(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken?: CancellationToken): Task;
-    FlushAsync(): Task;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
+    Dispose: System_IO_Internal.Stream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    DisposeAsync: System_IO_Internal.Stream$instance["DisposeAsync"] & (() => ValueTask);
+    EndRead: System_IO_Internal.Stream$instance["EndRead"] & ((asyncResult: IAsyncResult) => int);
+    EndWrite: System_IO_Internal.Stream$instance["EndWrite"] & ((asyncResult: IAsyncResult) => void);
+    Flush: System_IO_Internal.Stream$instance["Flush"] & (() => void);
+    FlushAsync: System_IO_Internal.Stream$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task) & ((cancellationToken?: CancellationToken) => Task);
+    Read: System_IO_Internal.Stream$instance["Read"] & ((buffer: Span_1<System_Internal.Byte>) => int) & ((buffer: byte[], offset: int, count: int) => int);
+    ReadAsync: System_IO_Internal.Stream$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int) => Task_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken) => Task_1<System_Internal.Int32>);
+    ReadByte: System_IO_Internal.Stream$instance["ReadByte"] & (() => int);
+    Seek: System_IO_Internal.Stream$instance["Seek"] & ((offset: long, origin: SeekOrigin) => long);
+    SetLength: System_IO_Internal.Stream$instance["SetLength"] & ((value: long) => void);
     ToString(): string;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, completeWrites: boolean, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): Task;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteByte(value: byte): void;
+    Write: System_IO_Internal.Stream$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Byte>) => void) & ((buffer: byte[], offset: int, count: int) => void);
+    WriteAsync: System_IO_Internal.Stream$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask) & ((buffer: ReadOnlyMemory_1<System_Internal.Byte>, completeWrites: boolean, cancellationToken?: CancellationToken) => ValueTask) & ((buffer: byte[], offset: int, count: int) => Task) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task) & ((buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken) => Task);
+    WriteByte: System_IO_Internal.Stream$instance["WriteByte"] & ((value: byte) => void);
 }
 
 

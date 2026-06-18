@@ -24,52 +24,61 @@ import type { JsonConverter, JsonIgnoreCondition, JsonNumberHandling, JsonObject
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Enum, Exception, Guid, IAsyncDisposable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, SequencePosition, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
+import type { Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, DateTime, DateTimeOffset, Decimal, Double, Enum, Exception, Guid, IAsyncDisposable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, SequencePosition, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
-export enum JsonCommentHandling {
-    Disallow = 0,
-    Skip = 1,
-    Allow = 2
-}
+export type JsonCommentHandling = number & { readonly __tsonic_type_System_Text_Json_JsonCommentHandling: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum JsonSerializerDefaults {
-    General = 0,
-    Web = 1,
-    Strict = 2
-}
+export const JsonCommentHandling: {
+    readonly Disallow: JsonCommentHandling;
+    readonly Skip: JsonCommentHandling;
+    readonly Allow: JsonCommentHandling;
+};
 
 
-export enum JsonTokenType {
-    None = 0,
-    StartObject = 1,
-    EndObject = 2,
-    StartArray = 3,
-    EndArray = 4,
-    PropertyName = 5,
-    Comment = 6,
-    String = 7,
-    Number = 8,
-    True = 9,
-    False = 10,
-    Null = 11
-}
+export type JsonSerializerDefaults = number & { readonly __tsonic_type_System_Text_Json_JsonSerializerDefaults: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const JsonSerializerDefaults: {
+    readonly General: JsonSerializerDefaults;
+    readonly Web: JsonSerializerDefaults;
+    readonly Strict: JsonSerializerDefaults;
+};
 
 
-export enum JsonValueKind {
-    Undefined = 0,
-    Object = 1,
-    Array = 2,
-    String = 3,
-    Number = 4,
-    True = 5,
-    False = 6,
-    Null = 7
-}
+export type JsonTokenType = number & { readonly __tsonic_type_System_Text_Json_JsonTokenType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const JsonTokenType: {
+    readonly None: JsonTokenType;
+    readonly StartObject: JsonTokenType;
+    readonly EndObject: JsonTokenType;
+    readonly StartArray: JsonTokenType;
+    readonly EndArray: JsonTokenType;
+    readonly PropertyName: JsonTokenType;
+    readonly Comment: JsonTokenType;
+    readonly String: JsonTokenType;
+    readonly Number: JsonTokenType;
+    readonly True: JsonTokenType;
+    readonly False: JsonTokenType;
+    readonly Null: JsonTokenType;
+};
+
+
+export type JsonValueKind = number & { readonly __tsonic_type_System_Text_Json_JsonValueKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const JsonValueKind: {
+    readonly Undefined: JsonValueKind;
+    readonly Object: JsonValueKind;
+    readonly Array: JsonValueKind;
+    readonly String: JsonValueKind;
+    readonly Number: JsonValueKind;
+    readonly True: JsonValueKind;
+    readonly False: JsonValueKind;
+    readonly Null: JsonValueKind;
+};
 
 
 export interface JsonDocumentOptions$instance {
     readonly __tsonic_type_System_Text_Json_JsonDocumentOptions: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     AllowDuplicateProperties: boolean;
     AllowTrailingCommas: boolean;
@@ -87,6 +96,7 @@ export type JsonDocumentOptions = JsonDocumentOptions$instance;
 
 export interface JsonElement$instance {
     readonly __tsonic_type_System_Text_Json_JsonElement: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly ValueKind: JsonValueKind;
     Clone(): JsonElement;
@@ -104,8 +114,8 @@ export interface JsonElement$instance {
     GetInt16(): short;
     GetInt32(): int;
     GetInt64(): long;
-    GetProperty(propertyName: string): JsonElement;
     GetProperty(propertyName: ReadOnlySpan_1<System_Internal.Char>): JsonElement;
+    GetProperty(propertyName: string): JsonElement;
     GetProperty(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): JsonElement;
     GetPropertyCount(): int;
     GetRawText(): string;
@@ -126,17 +136,17 @@ export interface JsonElement$instance {
     TryGetInt16(value: short): boolean;
     TryGetInt32(value: int): boolean;
     TryGetInt64(value: long): boolean;
-    TryGetProperty(propertyName: string, value: JsonElement): boolean;
     TryGetProperty(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: JsonElement): boolean;
+    TryGetProperty(propertyName: string, value: JsonElement): boolean;
     TryGetProperty(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: JsonElement): boolean;
     TryGetSByte(value: sbyte): boolean;
     TryGetSingle(value: float): boolean;
     TryGetUInt16(value: ushort): boolean;
     TryGetUInt32(value: uint): boolean;
     TryGetUInt64(value: ulong): boolean;
+    ValueEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
     ValueEquals(text: string | null): boolean;
     ValueEquals(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    ValueEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
     WriteTo(writer: Utf8JsonWriter): void;
 }
 
@@ -154,8 +164,9 @@ export const JsonElement: {
 
 export type JsonElement = JsonElement$instance & { readonly [index: number]: JsonElement; };
 
-export interface JsonElement_ArrayEnumerator$instance extends IEnumerator_1<JsonElement> {
+export interface JsonElement_ArrayEnumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<JsonElement> {
     readonly __tsonic_type_System_Text_Json_JsonElement_ArrayEnumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -178,8 +189,9 @@ export const JsonElement_ArrayEnumerator: {
 
 export type JsonElement_ArrayEnumerator = JsonElement_ArrayEnumerator$instance;
 
-export interface JsonElement_ObjectEnumerator$instance extends IEnumerator_1<JsonProperty> {
+export interface JsonElement_ObjectEnumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<JsonProperty> {
     readonly __tsonic_type_System_Text_Json_JsonElement_ObjectEnumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -204,13 +216,14 @@ export type JsonElement_ObjectEnumerator = JsonElement_ObjectEnumerator$instance
 
 export interface JsonEncodedText$instance {
     readonly __tsonic_type_System_Text_Json_JsonEncodedText: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly EncodedUtf8Bytes: ReadOnlySpan_1<System_Internal.Byte>;
     readonly Value: string;
-    Equals(other: JsonEncodedText): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(other: JsonEncodedText): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -236,12 +249,13 @@ export type JsonEncodedText = JsonEncodedText$instance & __JsonEncodedText$views
 
 export interface JsonProperty$instance {
     readonly __tsonic_type_System_Text_Json_JsonProperty: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Name: string;
     readonly Value: JsonElement;
+    NameEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
     NameEquals(text: string | null): boolean;
     NameEquals(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    NameEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
     ToString(): string;
     WriteTo(writer: Utf8JsonWriter): void;
 }
@@ -256,6 +270,7 @@ export type JsonProperty = JsonProperty$instance;
 
 export interface JsonReaderOptions$instance {
     readonly __tsonic_type_System_Text_Json_JsonReaderOptions: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     AllowMultipleValues: boolean;
     AllowTrailingCommas: boolean;
@@ -273,6 +288,7 @@ export type JsonReaderOptions = JsonReaderOptions$instance;
 
 export interface JsonReaderState$instance {
     readonly __tsonic_type_System_Text_Json_JsonReaderState: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Options: JsonReaderOptions;
 }
@@ -287,6 +303,7 @@ export type JsonReaderState = JsonReaderState$instance;
 
 export interface JsonWriterOptions$instance {
     readonly __tsonic_type_System_Text_Json_JsonWriterOptions: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     get Encoder(): JavaScriptEncoder | null;
     set Encoder(value: JavaScriptEncoder | null);
@@ -308,20 +325,21 @@ export type JsonWriterOptions = JsonWriterOptions$instance;
 
 export interface Utf8JsonReader$instance {
     readonly __tsonic_type_System_Text_Json_Utf8JsonReader: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly BytesConsumed: long;
     readonly CurrentDepth: int;
     readonly CurrentState: JsonReaderState;
-    HasValueSequence: boolean;
+    readonly HasValueSequence: boolean;
     readonly IsFinalBlock: boolean;
     readonly Position: SequencePosition;
-    TokenStartIndex: long;
+    readonly TokenStartIndex: long;
     readonly TokenType: JsonTokenType;
-    ValueIsEscaped: boolean;
-    ValueSequence: ReadOnlySequence_1<System_Internal.Byte>;
-    ValueSpan: ReadOnlySpan_1<System_Internal.Byte>;
-    CopyString(utf8Destination: Span_1<System_Internal.Byte>): int;
+    readonly ValueIsEscaped: boolean;
+    readonly ValueSequence: ReadOnlySequence_1<System_Internal.Byte>;
+    readonly ValueSpan: ReadOnlySpan_1<System_Internal.Byte>;
     CopyString(destination: Span_1<System_Internal.Char>): int;
+    CopyString(utf8Destination: Span_1<System_Internal.Byte>): int;
     GetBoolean(): boolean;
     GetByte(): byte;
     GetBytesFromBase64(): byte[];
@@ -358,9 +376,9 @@ export interface Utf8JsonReader$instance {
     TryGetUInt32(value: uint): boolean;
     TryGetUInt64(value: ulong): boolean;
     TrySkip(): boolean;
-    ValueTextEquals(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    ValueTextEquals(text: string | null): boolean;
     ValueTextEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
+    ValueTextEquals(text: string | null): boolean;
+    ValueTextEquals(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): boolean;
 }
 
 
@@ -374,7 +392,7 @@ export const Utf8JsonReader: {
 
 export type Utf8JsonReader = Utf8JsonReader$instance;
 
-export interface JsonDocument$instance extends System_Internal.IDisposable$instance {
+export interface JsonDocument$instance {
     readonly __tsonic_type_System_Text_Json_JsonDocument: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -404,19 +422,16 @@ export interface __JsonDocument$views {
 export type JsonDocument = JsonDocument$instance & __JsonDocument$views;
 
 
-export interface JsonException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface JsonException$instance extends System_Internal.Exception$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Text_Json_JsonException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    get BytePositionInLine(): Nullable_1<System_Internal.Int64>;
-    set BytePositionInLine(value: Nullable_1<System_Internal.Int64> | long);
-    get LineNumber(): Nullable_1<System_Internal.Int64>;
-    set LineNumber(value: Nullable_1<System_Internal.Int64> | long);
-    readonly Message: string;
-    get Path(): string | null;
-    set Path(value: string | null);
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly BytePositionInLine: Nullable_1<System_Internal.Int64>;
+    readonly LineNumber: Nullable_1<System_Internal.Int64>;
+    readonly Path: string | null;
+    GetObjectData: System_Internal.Exception$instance["GetObjectData"] & ((info: SerializationInfo, context: StreamingContext) => void);
 }
 
 
@@ -443,7 +458,7 @@ export interface JsonNamingPolicy$instance {
 }
 
 
-export const JsonNamingPolicy: (abstract new() => JsonNamingPolicy) & {
+export const JsonNamingPolicy: {
     readonly CamelCase: JsonNamingPolicy;
     readonly SnakeCaseLower: JsonNamingPolicy;
     readonly SnakeCaseUpper: JsonNamingPolicy;
@@ -492,7 +507,7 @@ export interface JsonSerializerOptions$instance {
     UnknownTypeHandling: JsonUnknownTypeHandling;
     UnmappedMemberHandling: JsonUnmappedMemberHandling;
     WriteIndented: boolean;
-    AddContext<TContext extends unknown & JsonSerializerContext>(): void;
+    AddContext<TContext extends unknown & { readonly __tsonic_type_System_Text_Json_Serialization_JsonSerializerContext: never }>(): void;
     GetConverter(typeToConvert: Type): JsonConverter;
     GetTypeInfo(type: Type): JsonTypeInfo;
     MakeReadOnly(): void;
@@ -513,14 +528,14 @@ export const JsonSerializerOptions: {
 
 export type JsonSerializerOptions = JsonSerializerOptions$instance;
 
-export interface Utf8JsonWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
+export interface Utf8JsonWriter$instance {
     readonly __tsonic_type_System_Text_Json_Utf8JsonWriter: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    BytesCommitted: long;
-    BytesPending: int;
+    readonly BytesCommitted: long;
+    readonly BytesPending: int;
     readonly CurrentDepth: int;
     readonly Options: JsonWriterOptions;
     Dispose(): void;
@@ -528,57 +543,57 @@ export interface Utf8JsonWriter$instance extends System_Internal.IAsyncDisposabl
     Flush(): void;
     FlushAsync(cancellationToken?: CancellationToken): Task;
     Reset(): void;
-    Reset(utf8Json: Stream): void;
     Reset(bufferWriter: IBufferWriter_1<System_Internal.Byte>): void;
+    Reset(utf8Json: Stream): void;
     WriteBase64String(propertyName: JsonEncodedText, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteBase64String(propertyName: string, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteBase64String(propertyName: ReadOnlySpan_1<System_Internal.Char>, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
+    WriteBase64String(propertyName: string, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteBase64String(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteBase64StringSegment(value: ReadOnlySpan_1<System_Internal.Byte>, isFinalSegment: boolean): void;
     WriteBase64StringValue(bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteBoolean(propertyName: JsonEncodedText, value: boolean): void;
-    WriteBoolean(propertyName: string, value: boolean): void;
     WriteBoolean(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: boolean): void;
+    WriteBoolean(propertyName: string, value: boolean): void;
     WriteBoolean(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: boolean): void;
     WriteBooleanValue(value: boolean): void;
-    WriteCommentValue(value: string): void;
-    WriteCommentValue(value: ReadOnlySpan_1<System_Internal.Char>): void;
     WriteCommentValue(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
+    WriteCommentValue(value: ReadOnlySpan_1<System_Internal.Char>): void;
+    WriteCommentValue(value: string): void;
     WriteEndArray(): void;
     WriteEndObject(): void;
     WriteNull(propertyName: JsonEncodedText): void;
-    WriteNull(propertyName: string): void;
     WriteNull(propertyName: ReadOnlySpan_1<System_Internal.Char>): void;
+    WriteNull(propertyName: string): void;
     WriteNull(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteNullValue(): void;
     WriteNumber(propertyName: JsonEncodedText, value: decimal): void;
-    WriteNumber(propertyName: string, value: decimal): void;
-    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: decimal): void;
-    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: decimal): void;
     WriteNumber(propertyName: JsonEncodedText, value: double): void;
-    WriteNumber(propertyName: string, value: double): void;
-    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: double): void;
-    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: double): void;
     WriteNumber(propertyName: JsonEncodedText, value: float): void;
-    WriteNumber(propertyName: string, value: float): void;
-    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: float): void;
-    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: float): void;
-    WriteNumber(propertyName: JsonEncodedText, value: long): void;
-    WriteNumber(propertyName: string, value: long): void;
-    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: long): void;
-    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: long): void;
     WriteNumber(propertyName: JsonEncodedText, value: int): void;
-    WriteNumber(propertyName: string, value: int): void;
-    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: int): void;
-    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: int): void;
-    WriteNumber(propertyName: JsonEncodedText, value: ulong): void;
-    WriteNumber(propertyName: string, value: ulong): void;
-    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: ulong): void;
-    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: ulong): void;
+    WriteNumber(propertyName: JsonEncodedText, value: long): void;
     WriteNumber(propertyName: JsonEncodedText, value: uint): void;
-    WriteNumber(propertyName: string, value: uint): void;
+    WriteNumber(propertyName: JsonEncodedText, value: ulong): void;
+    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: decimal): void;
+    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: double): void;
+    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: float): void;
+    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: int): void;
+    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: long): void;
     WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: uint): void;
+    WriteNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: ulong): void;
+    WriteNumber(propertyName: string, value: decimal): void;
+    WriteNumber(propertyName: string, value: double): void;
+    WriteNumber(propertyName: string, value: float): void;
+    WriteNumber(propertyName: string, value: int): void;
+    WriteNumber(propertyName: string, value: long): void;
+    WriteNumber(propertyName: string, value: uint): void;
+    WriteNumber(propertyName: string, value: ulong): void;
+    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: decimal): void;
+    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: double): void;
+    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: float): void;
+    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: int): void;
+    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: long): void;
     WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: uint): void;
+    WriteNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: ulong): void;
     WriteNumberValue(value: decimal): void;
     WriteNumberValue(value: double): void;
     WriteNumberValue(value: float): void;
@@ -587,60 +602,60 @@ export interface Utf8JsonWriter$instance extends System_Internal.IAsyncDisposabl
     WriteNumberValue(value: uint): void;
     WriteNumberValue(value: ulong): void;
     WritePropertyName(propertyName: JsonEncodedText): void;
-    WritePropertyName(propertyName: string): void;
     WritePropertyName(propertyName: ReadOnlySpan_1<System_Internal.Char>): void;
+    WritePropertyName(propertyName: string): void;
     WritePropertyName(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteRawValue(json: string, skipInputValidation?: boolean): void;
     WriteRawValue(json: ReadOnlySpan_1<System_Internal.Char>, skipInputValidation?: boolean): void;
-    WriteRawValue(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, skipInputValidation?: boolean): void;
+    WriteRawValue(json: string, skipInputValidation?: boolean): void;
     WriteRawValue(utf8Json: ReadOnlySequence_1<System_Internal.Byte>, skipInputValidation?: boolean): void;
+    WriteRawValue(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, skipInputValidation?: boolean): void;
     WriteStartArray(): void;
     WriteStartArray(propertyName: JsonEncodedText): void;
-    WriteStartArray(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteStartArray(propertyName: string): void;
     WriteStartArray(propertyName: ReadOnlySpan_1<System_Internal.Char>): void;
+    WriteStartArray(propertyName: string): void;
+    WriteStartArray(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteStartObject(): void;
     WriteStartObject(propertyName: JsonEncodedText): void;
-    WriteStartObject(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteStartObject(propertyName: string): void;
     WriteStartObject(propertyName: ReadOnlySpan_1<System_Internal.Char>): void;
-    WriteString(propertyName: JsonEncodedText, value: DateTime): void;
-    WriteString(propertyName: string, value: DateTime): void;
-    WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: DateTime): void;
-    WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: DateTime): void;
-    WriteString(propertyName: JsonEncodedText, value: DateTimeOffset): void;
-    WriteString(propertyName: string, value: DateTimeOffset): void;
-    WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: DateTimeOffset): void;
-    WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: DateTimeOffset): void;
-    WriteString(propertyName: JsonEncodedText, value: Guid): void;
-    WriteString(propertyName: string, value: Guid): void;
-    WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: Guid): void;
-    WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: Guid): void;
-    WriteString(propertyName: JsonEncodedText, value: JsonEncodedText): void;
-    WriteString(propertyName: string, value: JsonEncodedText): void;
-    WriteString(propertyName: string, value: string | null): void;
-    WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>): void;
-    WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteString(propertyName: JsonEncodedText, value: string | null): void;
-    WriteString(propertyName: JsonEncodedText, value: ReadOnlySpan_1<System_Internal.Char>): void;
-    WriteString(propertyName: string, value: ReadOnlySpan_1<System_Internal.Char>): void;
-    WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: ReadOnlySpan_1<System_Internal.Char>): void;
+    WriteStartObject(propertyName: string): void;
+    WriteStartObject(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteString(propertyName: JsonEncodedText, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteString(propertyName: string, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
+    WriteString(propertyName: JsonEncodedText, value: DateTime): void;
+    WriteString(propertyName: JsonEncodedText, value: DateTimeOffset): void;
+    WriteString(propertyName: JsonEncodedText, value: Guid): void;
+    WriteString(propertyName: JsonEncodedText, value: JsonEncodedText): void;
+    WriteString(propertyName: JsonEncodedText, value: ReadOnlySpan_1<System_Internal.Char>): void;
+    WriteString(propertyName: JsonEncodedText, value: string | null): void;
     WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
+    WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: DateTime): void;
+    WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: DateTimeOffset): void;
+    WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: Guid): void;
     WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: JsonEncodedText): void;
+    WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>): void;
     WriteString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: string | null): void;
+    WriteString(propertyName: string, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
+    WriteString(propertyName: string, value: DateTime): void;
+    WriteString(propertyName: string, value: DateTimeOffset): void;
+    WriteString(propertyName: string, value: Guid): void;
+    WriteString(propertyName: string, value: JsonEncodedText): void;
+    WriteString(propertyName: string, value: ReadOnlySpan_1<System_Internal.Char>): void;
+    WriteString(propertyName: string, value: string | null): void;
+    WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
+    WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: DateTime): void;
+    WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: DateTimeOffset): void;
+    WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: Guid): void;
     WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: JsonEncodedText): void;
+    WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: ReadOnlySpan_1<System_Internal.Char>): void;
     WriteString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: string | null): void;
+    WriteStringValue(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteStringValue(value: DateTime): void;
     WriteStringValue(value: DateTimeOffset): void;
     WriteStringValue(value: Guid): void;
     WriteStringValue(value: JsonEncodedText): void;
-    WriteStringValue(value: string | null): void;
     WriteStringValue(value: ReadOnlySpan_1<System_Internal.Char>): void;
-    WriteStringValue(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteStringValueSegment(value: ReadOnlySpan_1<System_Internal.Char>, isFinalSegment: boolean): void;
+    WriteStringValue(value: string | null): void;
     WriteStringValueSegment(value: ReadOnlySpan_1<System_Internal.Byte>, isFinalSegment: boolean): void;
+    WriteStringValueSegment(value: ReadOnlySpan_1<System_Internal.Char>, isFinalSegment: boolean): void;
 }
 
 

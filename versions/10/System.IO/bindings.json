@@ -3542,33 +3542,10 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.IO.BinaryWriter",
             "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::OutStreamSystem.IO.Stream",
-            "targetName": "OutStream",
-            "metadataToken": 67116110,
-            "normalizedSignature": "OutStream|System.IO.Stream|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.BinaryWriter",
-            "ownerIdentity": "System.Private.CoreLib"
           }
         ],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::.ctor():void",
-            "metadataToken": 100699921,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.BinaryWriter",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
           {
             "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::.ctor(System.IO.Stream):void",
             "metadataToken": 100699922,
@@ -5233,17 +5210,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.IO.DirectoryNotFoundException",
             "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.DirectoryNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100700117,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.DirectoryNotFoundException",
-            "ownerIdentity": "System.Private.CoreLib"
           }
         ]
       },
@@ -5600,17 +5566,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.IO.DriveNotFoundException",
             "ownerIdentity": "System.IO.FileSystem.DriveInfo"
-          },
-          {
-            "stableId": "System.IO.FileSystem.DriveInfo:System.IO.DriveNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663375,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.DriveNotFoundException",
-            "ownerIdentity": "System.IO.FileSystem.DriveInfo"
           }
         ]
       },
@@ -5692,17 +5647,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.IO.EndOfStreamException",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.EndOfStreamException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100700144,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.IO.EndOfStreamException",
             "ownerIdentity": "System.Private.CoreLib"
           }
@@ -6704,17 +6648,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.IO.FileLoadException",
             "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.FileLoadException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100699713,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.FileLoadException",
-            "ownerIdentity": "System.Private.CoreLib"
           }
         ]
       },
@@ -6916,17 +6849,6 @@
             "isStatic": false,
             "parameterCount": 3,
             "visibility": "Public",
-            "ownerQualifiedName": "System.IO.FileNotFoundException",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.FileNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100699726,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.IO.FileNotFoundException",
             "ownerIdentity": "System.Private.CoreLib"
           }
@@ -8684,57 +8606,9 @@
             "ownerIdentity": "System.Private.CoreLib"
           }
         ],
-        "fields": [
-          {
-            "stableId": "System.Private.CoreLib:System.IO.FileSystemInfo::FullPathSystem.String",
-            "targetName": "FullPath",
-            "metadataToken": 67116327,
-            "normalizedSignature": "FullPath|System.String|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.FileSystemInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.FileSystemInfo::OriginalPathSystem.String",
-            "targetName": "OriginalPath",
-            "metadataToken": 67116328,
-            "normalizedSignature": "OriginalPath|System.String|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.FileSystemInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ],
+        "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.IO.FileSystemInfo::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100700463,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.FileSystemInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.FileSystemInfo::.ctor():void",
-            "metadataToken": 100700489,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.FileSystemInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemWatcher",
@@ -8780,106 +8654,6 @@
             "isAbstract": false,
             "isVirtual": true,
             "isOverride": true,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.FileSystemWatcher",
-            "ownerIdentity": "System.IO.FileSystem.Watcher",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemWatcher::OnChanged(System.IO.FileSystemEventArgs):System.Void",
-            "targetName": "OnChanged",
-            "metadataToken": 100663406,
-            "canonicalSignature": "(System.IO.FileSystemEventArgs):System.Void",
-            "normalizedSignature": "OnChanged|(System.IO.FileSystemEventArgs):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.FileSystemWatcher",
-            "ownerIdentity": "System.IO.FileSystem.Watcher",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemWatcher::OnCreated(System.IO.FileSystemEventArgs):System.Void",
-            "targetName": "OnCreated",
-            "metadataToken": 100663407,
-            "canonicalSignature": "(System.IO.FileSystemEventArgs):System.Void",
-            "normalizedSignature": "OnCreated|(System.IO.FileSystemEventArgs):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.FileSystemWatcher",
-            "ownerIdentity": "System.IO.FileSystem.Watcher",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemWatcher::OnDeleted(System.IO.FileSystemEventArgs):System.Void",
-            "targetName": "OnDeleted",
-            "metadataToken": 100663408,
-            "canonicalSignature": "(System.IO.FileSystemEventArgs):System.Void",
-            "normalizedSignature": "OnDeleted|(System.IO.FileSystemEventArgs):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.FileSystemWatcher",
-            "ownerIdentity": "System.IO.FileSystem.Watcher",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemWatcher::OnError(System.IO.ErrorEventArgs):System.Void",
-            "targetName": "OnError",
-            "metadataToken": 100663410,
-            "canonicalSignature": "(System.IO.ErrorEventArgs):System.Void",
-            "normalizedSignature": "OnError|(System.IO.ErrorEventArgs):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.FileSystemWatcher",
-            "ownerIdentity": "System.IO.FileSystem.Watcher",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemWatcher::OnRenamed(System.IO.RenamedEventArgs):System.Void",
-            "targetName": "OnRenamed",
-            "metadataToken": 100663411,
-            "canonicalSignature": "(System.IO.RenamedEventArgs):System.Void",
-            "normalizedSignature": "OnRenamed|(System.IO.RenamedEventArgs):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
             "isSealed": false,
             "visibility": "Protected",
             "ownerQualifiedName": "System.IO.FileSystemWatcher",
@@ -9411,17 +9185,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.IO.InternalBufferOverflowException",
             "ownerIdentity": "System.IO.FileSystem.Watcher"
-          },
-          {
-            "stableId": "System.IO.FileSystem.Watcher:System.IO.InternalBufferOverflowException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663477,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.InternalBufferOverflowException",
-            "ownerIdentity": "System.IO.FileSystem.Watcher"
           }
         ]
       },
@@ -9597,17 +9360,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.IO.IOException",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.IOException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100700515,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.IO.IOException",
             "ownerIdentity": "System.Private.CoreLib"
           }
@@ -10546,17 +10298,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.IO.PathTooLongException",
             "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.PathTooLongException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100700635,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.PathTooLongException",
-            "ownerIdentity": "System.Private.CoreLib"
           }
         ]
       },
@@ -11459,46 +11200,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Private.CoreLib:System.IO.Stream::ValidateBufferArguments(System.Byte[],System.Int32,System.Int32):System.Void",
-            "targetName": "ValidateBufferArguments",
-            "metadataToken": 100699794,
-            "canonicalSignature": "(System.Byte[],System.Int32,System.Int32):System.Void",
-            "normalizedSignature": "ValidateBufferArguments|(System.Byte[],System.Int32,System.Int32):System.Void|static=true",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 3,
-            "isStatic": true,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.Stream",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.Stream::ValidateCopyToArguments(System.IO.Stream,System.Int32):System.Void",
-            "targetName": "ValidateCopyToArguments",
-            "metadataToken": 100699796,
-            "canonicalSignature": "(System.IO.Stream,System.Int32):System.Void",
-            "normalizedSignature": "ValidateCopyToArguments|(System.IO.Stream,System.Int32):System.Void|static=true",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": true,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.Stream",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Private.CoreLib:System.IDisposable::Dispose():System.Void",
             "targetName": "Dispose",
             "metadataToken": 100668530,
@@ -11710,19 +11411,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.IO.Stream::.ctor():void",
-            "metadataToken": 100699797,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.Stream",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.IO.StreamReader",
@@ -16124,19 +15813,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.IO.TextReader::.ctor():void",
-            "metadataToken": 100700933,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.TextReader",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.IO.TextWriter",
@@ -17538,45 +17215,10 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.IO.TextWriter",
             "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.TextWriter::CoreNewLineSystem.Char[]",
-            "targetName": "CoreNewLine",
-            "metadataToken": 67116508,
-            "normalizedSignature": "CoreNewLine|System.Char[]|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.TextWriter",
-            "ownerIdentity": "System.Private.CoreLib"
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.IO.TextWriter::.ctor():void",
-            "metadataToken": 100700983,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.TextWriter",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.TextWriter::.ctor(System.IFormatProvider):void",
-            "metadataToken": 100700984,
-            "canonicalSignature": "(System.IFormatProvider):void",
-            "normalizedSignature": "constructor|(System.IFormatProvider):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.TextWriter",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor",
@@ -17600,26 +17242,6 @@
           }
         ],
         "methods": [
-          {
-            "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Initialize(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess):System.Void",
-            "targetName": "Initialize",
-            "metadataToken": 100701286,
-            "canonicalSignature": "(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess):System.Void",
-            "normalizedSignature": "Initialize|(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 4,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.UnmanagedMemoryAccessor",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
-          },
           {
             "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Dispose(System.Boolean):System.Void",
             "targetName": "Dispose",
@@ -18351,41 +17973,11 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.IO.UnmanagedMemoryAccessor",
             "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::IsOpen:System.Boolean",
-            "targetName": "IsOpen",
-            "metadataToken": 385880811,
-            "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "IsOpen|:System.Boolean|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.UnmanagedMemoryAccessor",
-            "ownerIdentity": "System.Private.CoreLib"
           }
         ],
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::.ctor():void",
-            "metadataToken": 100701283,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.UnmanagedMemoryAccessor",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
           {
             "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::.ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64):void",
             "metadataToken": 100701284,
@@ -18436,46 +18028,6 @@
           }
         ],
         "methods": [
-          {
-            "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Initialize(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess):System.Void",
-            "targetName": "Initialize",
-            "metadataToken": 100701328,
-            "canonicalSignature": "(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess):System.Void",
-            "normalizedSignature": "Initialize|(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 4,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.UnmanagedMemoryStream",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Initialize(System.Byte*,System.Int64,System.Int64,System.IO.FileAccess):System.Void",
-            "targetName": "Initialize",
-            "metadataToken": 100701331,
-            "canonicalSignature": "(System.Byte*,System.Int64,System.Int64,System.IO.FileAccess):System.Void",
-            "normalizedSignature": "Initialize|(System.Byte*,System.Int64,System.Int64,System.IO.FileAccess):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 4,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.UnmanagedMemoryStream",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
-          },
           {
             "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Dispose(System.Boolean):System.Void",
             "targetName": "Dispose",
@@ -19037,17 +18589,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::.ctor():void",
-            "metadataToken": 100701325,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.IO.UnmanagedMemoryStream",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
           {
             "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::.ctor(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64):void",
             "metadataToken": 100701326,

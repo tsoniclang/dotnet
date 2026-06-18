@@ -776,25 +776,6 @@
         ],
         "properties": [
           {
-            "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::FormatIsOctalOnly:System.Boolean",
-            "targetName": "FormatIsOctalOnly",
-            "metadataToken": 385876027,
-            "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "FormatIsOctalOnly|:System.Boolean|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Formats.Tar.TarEntry",
-            "ownerIdentity": "System.Formats.Tar"
-          },
-          {
             "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntry::Checksum:System.Int32",
             "targetName": "Checksum",
             "metadataToken": 385876028,

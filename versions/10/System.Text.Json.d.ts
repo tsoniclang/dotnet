@@ -23,7 +23,7 @@ import type { IJsonTypeInfoResolver, JsonTypeInfo, JsonTypeInfo_1 } from './Syst
 import type { JsonConverter, JsonIgnoreCondition, JsonNumberHandling, JsonObjectCreationHandling, JsonSerializerContext, JsonUnknownTypeHandling, JsonUnmappedMemberHandling, ReferenceHandler } from './System.Text.Json.Serialization/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Enum, Exception, Guid, IAsyncDisposable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, SequencePosition, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
+import type { Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, DateTime, DateTimeOffset, Decimal, Double, Enum, Exception, Guid, IAsyncDisposable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, SequencePosition, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { JsonNamingPolicy as JsonNamingPolicy } from './System.Text.Json/internal/index.js';

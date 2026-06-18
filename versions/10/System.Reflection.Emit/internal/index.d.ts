@@ -21,120 +21,135 @@ import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Ser
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { SecurityRuleSet } from "../../System.Security/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Delegate, Double, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, ModuleHandle, Object as ClrObject, ReadOnlySpan_1, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, SByte, Single, String as ClrString, Type, TypeCode, TypedReference, ValueType, Version, Void } from "../../System/internal/index.js";
+import type { Array as ClrArray, Boolean as ClrBoolean, Byte, ConsoleKeyInfo, Delegate, Double, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, ModuleHandle, Object as ClrObject, ReadOnlySpan_1, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, SByte, Single, String as ClrString, Type, TypeCode, TypedReference, ValueType, Version, Void } from "../../System/internal/index.js";
 
-export enum AssemblyBuilderAccess {
-    Run = 1,
-    RunAndCollect = 9
-}
+export type AssemblyBuilderAccess = number & { readonly __tsonic_type_System_Reflection_Emit_AssemblyBuilderAccess: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum FlowControl {
-    Branch = 0,
-    Break = 1,
-    Call = 2,
-    Cond_Branch = 3,
-    Meta = 4,
-    Next = 5,
-    Phi = 6,
-    Return = 7,
-    Throw = 8
-}
+export const AssemblyBuilderAccess: {
+    readonly Run: AssemblyBuilderAccess;
+    readonly RunAndCollect: AssemblyBuilderAccess;
+};
 
 
-export enum OpCodeType {
-    Annotation = 0,
-    Macro = 1,
-    Nternal = 2,
-    Objmodel = 3,
-    Prefix = 4,
-    Primitive = 5
-}
+export type FlowControl = number & { readonly __tsonic_type_System_Reflection_Emit_FlowControl: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FlowControl: {
+    readonly Branch: FlowControl;
+    readonly Break: FlowControl;
+    readonly Call: FlowControl;
+    readonly Cond_Branch: FlowControl;
+    readonly Meta: FlowControl;
+    readonly Next: FlowControl;
+    readonly Phi: FlowControl;
+    readonly Return: FlowControl;
+    readonly Throw: FlowControl;
+};
 
 
-export enum OperandType {
-    InlineBrTarget = 0,
-    InlineField = 1,
-    InlineI = 2,
-    InlineI8 = 3,
-    InlineMethod = 4,
-    InlineNone = 5,
-    InlinePhi = 6,
-    InlineR = 7,
-    InlineSig = 9,
-    InlineString = 10,
-    InlineSwitch = 11,
-    InlineTok = 12,
-    InlineType = 13,
-    InlineVar = 14,
-    ShortInlineBrTarget = 15,
-    ShortInlineI = 16,
-    ShortInlineR = 17,
-    ShortInlineVar = 18
-}
+export type OpCodeType = number & { readonly __tsonic_type_System_Reflection_Emit_OpCodeType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const OpCodeType: {
+    readonly Annotation: OpCodeType;
+    readonly Macro: OpCodeType;
+    readonly Nternal: OpCodeType;
+    readonly Objmodel: OpCodeType;
+    readonly Prefix: OpCodeType;
+    readonly Primitive: OpCodeType;
+};
 
 
-export enum PackingSize {
-    Unspecified = 0,
-    Size1 = 1,
-    Size2 = 2,
-    Size4 = 4,
-    Size8 = 8,
-    Size16 = 16,
-    Size32 = 32,
-    Size64 = 64,
-    Size128 = 128
-}
+export type OperandType = number & { readonly __tsonic_type_System_Reflection_Emit_OperandType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const OperandType: {
+    readonly InlineBrTarget: OperandType;
+    readonly InlineField: OperandType;
+    readonly InlineI: OperandType;
+    readonly InlineI8: OperandType;
+    readonly InlineMethod: OperandType;
+    readonly InlineNone: OperandType;
+    readonly InlinePhi: OperandType;
+    readonly InlineR: OperandType;
+    readonly InlineSig: OperandType;
+    readonly InlineString: OperandType;
+    readonly InlineSwitch: OperandType;
+    readonly InlineTok: OperandType;
+    readonly InlineType: OperandType;
+    readonly InlineVar: OperandType;
+    readonly ShortInlineBrTarget: OperandType;
+    readonly ShortInlineI: OperandType;
+    readonly ShortInlineR: OperandType;
+    readonly ShortInlineVar: OperandType;
+};
 
 
-export enum PEFileKinds {
-    Dll = 1,
-    ConsoleApplication = 2,
-    WindowApplication = 3
-}
+export type PackingSize = number & { readonly __tsonic_type_System_Reflection_Emit_PackingSize: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PackingSize: {
+    readonly Unspecified: PackingSize;
+    readonly Size1: PackingSize;
+    readonly Size2: PackingSize;
+    readonly Size4: PackingSize;
+    readonly Size8: PackingSize;
+    readonly Size16: PackingSize;
+    readonly Size32: PackingSize;
+    readonly Size64: PackingSize;
+    readonly Size128: PackingSize;
+};
 
 
-export enum StackBehaviour {
-    Pop0 = 0,
-    Pop1 = 1,
-    Pop1_pop1 = 2,
-    Popi = 3,
-    Popi_pop1 = 4,
-    Popi_popi = 5,
-    Popi_popi8 = 6,
-    Popi_popi_popi = 7,
-    Popi_popr4 = 8,
-    Popi_popr8 = 9,
-    Popref = 10,
-    Popref_pop1 = 11,
-    Popref_popi = 12,
-    Popref_popi_popi = 13,
-    Popref_popi_popi8 = 14,
-    Popref_popi_popr4 = 15,
-    Popref_popi_popr8 = 16,
-    Popref_popi_popref = 17,
-    Push0 = 18,
-    Push1 = 19,
-    Push1_push1 = 20,
-    Pushi = 21,
-    Pushi8 = 22,
-    Pushr4 = 23,
-    Pushr8 = 24,
-    Pushref = 25,
-    Varpop = 26,
-    Varpush = 27,
-    Popref_popi_pop1 = 28
-}
+export type PEFileKinds = number & { readonly __tsonic_type_System_Reflection_Emit_PEFileKinds: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PEFileKinds: {
+    readonly Dll: PEFileKinds;
+    readonly ConsoleApplication: PEFileKinds;
+    readonly WindowApplication: PEFileKinds;
+};
+
+
+export type StackBehaviour = number & { readonly __tsonic_type_System_Reflection_Emit_StackBehaviour: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const StackBehaviour: {
+    readonly Pop0: StackBehaviour;
+    readonly Pop1: StackBehaviour;
+    readonly Pop1_pop1: StackBehaviour;
+    readonly Popi: StackBehaviour;
+    readonly Popi_pop1: StackBehaviour;
+    readonly Popi_popi: StackBehaviour;
+    readonly Popi_popi8: StackBehaviour;
+    readonly Popi_popi_popi: StackBehaviour;
+    readonly Popi_popr4: StackBehaviour;
+    readonly Popi_popr8: StackBehaviour;
+    readonly Popref: StackBehaviour;
+    readonly Popref_pop1: StackBehaviour;
+    readonly Popref_popi: StackBehaviour;
+    readonly Popref_popi_popi: StackBehaviour;
+    readonly Popref_popi_popi8: StackBehaviour;
+    readonly Popref_popi_popr4: StackBehaviour;
+    readonly Popref_popi_popr8: StackBehaviour;
+    readonly Popref_popi_popref: StackBehaviour;
+    readonly Push0: StackBehaviour;
+    readonly Push1: StackBehaviour;
+    readonly Push1_push1: StackBehaviour;
+    readonly Pushi: StackBehaviour;
+    readonly Pushi8: StackBehaviour;
+    readonly Pushr4: StackBehaviour;
+    readonly Pushr8: StackBehaviour;
+    readonly Pushref: StackBehaviour;
+    readonly Varpop: StackBehaviour;
+    readonly Varpush: StackBehaviour;
+    readonly Popref_popi_pop1: StackBehaviour;
+};
 
 
 export interface Label$instance {
     readonly __tsonic_type_System_Reflection_Emit_Label: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Id: int;
-    Equals(obj: unknown | null): boolean;
     Equals(obj: Label): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
 }
 
@@ -156,6 +171,7 @@ export type Label = Label$instance & __Label$views;
 
 export interface OpCode$instance {
     readonly __tsonic_type_System_Reflection_Emit_OpCode: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -168,8 +184,8 @@ export interface OpCode$instance {
     readonly StackBehaviourPop: StackBehaviour;
     readonly StackBehaviourPush: StackBehaviour;
     readonly Value: short;
-    Equals(obj: unknown | null): boolean;
     Equals(obj: OpCode): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     ToString(): string | null;
 }
@@ -190,35 +206,30 @@ export interface __OpCode$views {
 export type OpCode = OpCode$instance & __OpCode$views;
 
 
-export interface AssemblyBuilder$instance extends Assembly, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface AssemblyBuilder$instance extends System_Reflection_Internal.Assembly$instance {
+    readonly __tsonic_type_System_Reflection_Assembly: never;
     readonly __tsonic_type_System_Reflection_Emit_AssemblyBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly CodeBase: string | null;
-    readonly EntryPoint: MethodInfo | null;
-    readonly IsDynamic: boolean;
-    readonly Location: string;
     DefineDynamicModule(name: string): ModuleBuilder;
     DefineDynamicModuleCore(name: string): ModuleBuilder;
     GetDynamicModule(name: string): ModuleBuilder | null;
     GetDynamicModuleCore(name: string): ModuleBuilder | null;
-    GetExportedTypes(): Type[];
-    GetFile(name: string): FileStream;
-    GetFiles(getResourceModules: boolean): FileStream[];
-    GetFiles(): FileStream[];
-    GetManifestResourceInfo(resourceName: string): ManifestResourceInfo | null;
-    GetManifestResourceNames(): string[];
-    GetManifestResourceStream(name: string): Stream | null;
-    GetManifestResourceStream(type: Type, name: string): Stream | null;
+    GetExportedTypes: System_Reflection_Internal.Assembly$instance["GetExportedTypes"] & (() => Type[]);
+    GetFile: System_Reflection_Internal.Assembly$instance["GetFile"] & ((name: string) => FileStream);
+    GetFiles: System_Reflection_Internal.Assembly$instance["GetFiles"] & (() => FileStream[]) & ((getResourceModules: boolean) => FileStream[]);
+    GetManifestResourceInfo: System_Reflection_Internal.Assembly$instance["GetManifestResourceInfo"] & ((resourceName: string) => ManifestResourceInfo | null);
+    GetManifestResourceNames: System_Reflection_Internal.Assembly$instance["GetManifestResourceNames"] & (() => string[]);
+    GetManifestResourceStream: System_Reflection_Internal.Assembly$instance["GetManifestResourceStream"] & ((name: string) => Stream | null) & ((type: Type, name: string) => Stream | null);
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
 
-export const AssemblyBuilder: (abstract new() => AssemblyBuilder) & {
+export const AssemblyBuilder: {
     DefineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder> | null): AssemblyBuilder;
     DefineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess): AssemblyBuilder;
 };
@@ -232,8 +243,11 @@ export interface __AssemblyBuilder$views {
 export type AssemblyBuilder = AssemblyBuilder$instance & __AssemblyBuilder$views;
 
 
-export interface ConstructorBuilder$instance extends ConstructorInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
+export interface ConstructorBuilder$instance extends System_Reflection_Internal.ConstructorInfo$instance {
+    readonly __tsonic_type_System_Reflection_ConstructorInfo: never;
     readonly __tsonic_type_System_Reflection_Emit_ConstructorBuilder: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
+    readonly __tsonic_type_System_Reflection_MethodBase: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
@@ -252,7 +266,7 @@ export interface ConstructorBuilder$instance extends ConstructorInfo, System_Ref
 }
 
 
-export const ConstructorBuilder: (abstract new() => ConstructorBuilder) & {
+export const ConstructorBuilder: {
 };
 
 
@@ -283,14 +297,14 @@ export interface DynamicILInfo$instance {
     readonly __tsonic_type_System_Reflection_Emit_DynamicILInfo: never;
 
     readonly DynamicMethod: DynamicMethod;
-    GetTokenFor(method: RuntimeMethodHandle): int;
-    GetTokenFor(method: DynamicMethod): int;
-    GetTokenFor(method: RuntimeMethodHandle, contextType: RuntimeTypeHandle): int;
     GetTokenFor(field: RuntimeFieldHandle): int;
     GetTokenFor(field: RuntimeFieldHandle, contextType: RuntimeTypeHandle): int;
-    GetTokenFor(type: RuntimeTypeHandle): int;
     GetTokenFor(literal: string): int;
+    GetTokenFor(method: DynamicMethod): int;
+    GetTokenFor(method: RuntimeMethodHandle): int;
+    GetTokenFor(method: RuntimeMethodHandle, contextType: RuntimeTypeHandle): int;
     GetTokenFor(signature: byte[]): int;
+    GetTokenFor(type: RuntimeTypeHandle): int;
     SetCode(code: byte[] | null, maxStackSize: int): void;
     SetCode(code: ptr<byte>, codeSize: int, maxStackSize: int): void;
     SetExceptions(exceptions: byte[] | null): void;
@@ -306,41 +320,26 @@ export const DynamicILInfo: {
 
 export type DynamicILInfo = DynamicILInfo$instance;
 
-export interface DynamicMethod$instance extends MethodInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
+export interface DynamicMethod$instance extends System_Reflection_Internal.MethodInfo$instance {
     readonly __tsonic_type_System_Reflection_Emit_DynamicMethod: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
+    readonly __tsonic_type_System_Reflection_MethodBase: never;
+    readonly __tsonic_type_System_Reflection_MethodInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
-    readonly Attributes: MethodAttributes;
-    readonly CallingConvention: CallingConventions;
-    readonly DeclaringType: Type | null;
     InitLocals: boolean;
-    readonly IsSecurityCritical: boolean;
-    readonly IsSecuritySafeCritical: boolean;
-    readonly IsSecurityTransparent: boolean;
-    readonly MethodHandle: RuntimeMethodHandle;
-    readonly Module: Module;
-    readonly Name: string;
-    readonly ReflectedType: Type | null;
-    readonly ReturnParameter: ParameterInfo;
-    readonly ReturnType: Type;
-    readonly ReturnTypeCustomAttributes: ICustomAttributeProvider;
-    CreateDelegate(delegateType: Type): Function;
-    CreateDelegate(delegateType: Type, target: unknown | null): Function;
-    CreateDelegate<T extends unknown & Function>(): T;
-    CreateDelegate<T extends unknown & Function>(target: unknown | null): T;
+    CreateDelegate: System_Reflection_Internal.MethodInfo$instance["CreateDelegate"] & ((delegateType: Type) => Function) & ((delegateType: Type, target: unknown | null) => Function) & (<T extends unknown & { readonly __tsonic_type_System_Delegate: never }>() => T) & (<T extends unknown & { readonly __tsonic_type_System_Delegate: never }>(target: unknown | null) => T);
     DefineParameter(position: int, attributes: ParameterAttributes, parameterName: string | null): ParameterBuilder | null;
-    GetBaseDefinition(): MethodInfo;
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    GetCustomAttributes(inherit: boolean): unknown[];
+    GetBaseDefinition: System_Reflection_Internal.MethodInfo$instance["GetBaseDefinition"] & (() => MethodInfo);
+    GetCustomAttributes: System_Reflection_Internal.MethodInfo$instance["GetCustomAttributes"] & ((attributeType: Type, inherit: boolean) => unknown[]) & ((inherit: boolean) => unknown[]);
     GetDynamicILInfo(): DynamicILInfo;
-    GetILGenerator(streamSize: int): ILGenerator;
     GetILGenerator(): ILGenerator;
-    GetMethodImplementationFlags(): MethodImplAttributes;
-    GetParameters(): ParameterInfo[];
-    Invoke(obj: unknown | null, invokeAttr: BindingFlags, binder: Binder | null, parameters: (unknown | null)[] | null, culture: CultureInfo | null): unknown | null;
-    Invoke(obj: unknown | null, parameters: (unknown | null)[] | null): unknown | null;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
+    GetILGenerator(streamSize: int): ILGenerator;
+    GetMethodImplementationFlags: System_Reflection_Internal.MethodInfo$instance["GetMethodImplementationFlags"] & (() => MethodImplAttributes);
+    GetParameters: System_Reflection_Internal.MethodInfo$instance["GetParameters"] & (() => ParameterInfo[]);
+    Invoke: System_Reflection_Internal.MethodInfo$instance["Invoke"] & ((obj: unknown | null, invokeAttr: BindingFlags, binder: Binder | null, parameters: (unknown | null)[] | null, culture: CultureInfo | null) => unknown | null) & ((obj: unknown | null, parameters: (unknown | null)[] | null) => unknown | null);
+    IsDefined: System_Reflection_Internal.MethodInfo$instance["IsDefined"] & ((attributeType: Type, inherit: boolean) => boolean);
     ToString(): string;
 }
 
@@ -364,8 +363,11 @@ export interface __DynamicMethod$views {
 export type DynamicMethod = DynamicMethod$instance & __DynamicMethod$views;
 
 
-export interface EnumBuilder$instance extends TypeInfo, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Reflection_Internal.IReflectableType$instance {
+export interface EnumBuilder$instance extends System_Reflection_Internal.TypeInfo$instance {
     readonly __tsonic_type_System_Reflection_Emit_EnumBuilder: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
+    readonly __tsonic_type_System_Reflection_TypeInfo: never;
+    readonly __tsonic_type_System_Type: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
@@ -378,17 +380,16 @@ export interface EnumBuilder$instance extends TypeInfo, System_Reflection_Intern
     CreateTypeInfoCore(): TypeInfo;
     DefineLiteral(literalName: string, literalValue: unknown | null): FieldBuilder;
     DefineLiteralCore(literalName: string, literalValue: unknown | null): FieldBuilder;
-    MakeArrayType(): Type;
-    MakeArrayType(rank: int): Type;
-    MakeByRefType(): Type;
-    MakePointerType(): Type;
+    MakeArrayType: System_Reflection_Internal.TypeInfo$instance["MakeArrayType"] & (() => Type) & ((rank: int) => Type);
+    MakeByRefType: System_Reflection_Internal.TypeInfo$instance["MakeByRefType"] & (() => Type);
+    MakePointerType: System_Reflection_Internal.TypeInfo$instance["MakePointerType"] & (() => Type);
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
 
-export const EnumBuilder: (abstract new() => EnumBuilder) & {
+export const EnumBuilder: {
 };
 
 
@@ -418,14 +419,16 @@ export interface EventBuilder$instance {
 }
 
 
-export const EventBuilder: (abstract new() => EventBuilder) & {
+export const EventBuilder: {
 };
 
 
 export type EventBuilder = EventBuilder$instance;
 
-export interface FieldBuilder$instance extends FieldInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
+export interface FieldBuilder$instance extends System_Reflection_Internal.FieldInfo$instance {
     readonly __tsonic_type_System_Reflection_Emit_FieldBuilder: never;
+    readonly __tsonic_type_System_Reflection_FieldInfo: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
@@ -439,7 +442,7 @@ export interface FieldBuilder$instance extends FieldInfo, System_Reflection_Inte
 }
 
 
-export const FieldBuilder: (abstract new() => FieldBuilder) & {
+export const FieldBuilder: {
 };
 
 
@@ -450,8 +453,11 @@ export interface __FieldBuilder$views {
 export type FieldBuilder = FieldBuilder$instance & __FieldBuilder$views;
 
 
-export interface GenericTypeParameterBuilder$instance extends TypeInfo, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Reflection_Internal.IReflectableType$instance {
+export interface GenericTypeParameterBuilder$instance extends System_Reflection_Internal.TypeInfo$instance {
     readonly __tsonic_type_System_Reflection_Emit_GenericTypeParameterBuilder: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
+    readonly __tsonic_type_System_Reflection_TypeInfo: never;
+    readonly __tsonic_type_System_Type: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
@@ -471,7 +477,7 @@ export interface GenericTypeParameterBuilder$instance extends TypeInfo, System_R
 }
 
 
-export const GenericTypeParameterBuilder: (abstract new() => GenericTypeParameterBuilder) & {
+export const GenericTypeParameterBuilder: {
 };
 
 
@@ -499,27 +505,27 @@ export interface ILGenerator$instance {
     DefineLabel(): Label;
     Emit(opcode: OpCode): void;
     Emit(opcode: OpCode, arg: byte): void;
-    Emit(opcode: OpCode, arg: short): void;
-    Emit(opcode: OpCode, arg: long): void;
-    Emit(opcode: OpCode, arg: float): void;
     Emit(opcode: OpCode, arg: double): void;
+    Emit(opcode: OpCode, arg: float): void;
     Emit(opcode: OpCode, arg: int): void;
-    Emit(opcode: OpCode, meth: MethodInfo): void;
-    Emit(opcode: OpCode, signature: SignatureHelper): void;
-    Emit(opcode: OpCode, con: ConstructorInfo): void;
+    Emit(opcode: OpCode, arg: long): void;
+    Emit(opcode: OpCode, arg: sbyte): void;
+    Emit(opcode: OpCode, arg: short): void;
     Emit(opcode: OpCode, cls: Type): void;
+    Emit(opcode: OpCode, con: ConstructorInfo): void;
+    Emit(opcode: OpCode, field: FieldInfo): void;
     Emit(opcode: OpCode, label: Label): void;
     Emit(opcode: OpCode, labels: Label[]): void;
-    Emit(opcode: OpCode, field: FieldInfo): void;
-    Emit(opcode: OpCode, str: string): void;
     Emit(opcode: OpCode, local: LocalBuilder): void;
-    Emit(opcode: OpCode, arg: sbyte): void;
+    Emit(opcode: OpCode, meth: MethodInfo): void;
+    Emit(opcode: OpCode, signature: SignatureHelper): void;
+    Emit(opcode: OpCode, str: string): void;
     EmitCall(opcode: OpCode, methodInfo: MethodInfo, optionalParameterTypes: Type[] | null): void;
     EmitCalli(opcode: OpCode, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, optionalParameterTypes: Type[] | null): void;
     EmitCalli(opcode: OpCode, unmanagedCallConv: CallingConvention, returnType: Type | null, parameterTypes: Type[] | null): void;
-    EmitWriteLine(value: string): void;
-    EmitWriteLine(localBuilder: LocalBuilder): void;
     EmitWriteLine(fld: FieldInfo): void;
+    EmitWriteLine(localBuilder: LocalBuilder): void;
+    EmitWriteLine(value: string): void;
     EndExceptionBlock(): void;
     EndScope(): void;
     MarkLabel(loc: Label): void;
@@ -530,29 +536,32 @@ export interface ILGenerator$instance {
 }
 
 
-export const ILGenerator: (abstract new() => ILGenerator) & {
-    CreateLabel(id: int): Label;
+export const ILGenerator: {
 };
 
 
 export type ILGenerator = ILGenerator$instance;
 
-export interface LocalBuilder$instance extends LocalVariableInfo {
+export interface LocalBuilder$instance extends System_Reflection_Internal.LocalVariableInfo$instance {
     readonly __tsonic_type_System_Reflection_Emit_LocalBuilder: never;
+    readonly __tsonic_type_System_Reflection_LocalVariableInfo: never;
 
     SetLocalSymInfo(name: string): void;
     SetLocalSymInfoCore(name: string): void;
 }
 
 
-export const LocalBuilder: (abstract new() => LocalBuilder) & {
+export const LocalBuilder: {
 };
 
 
 export type LocalBuilder = LocalBuilder$instance;
 
-export interface MethodBuilder$instance extends MethodInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
+export interface MethodBuilder$instance extends System_Reflection_Internal.MethodInfo$instance {
     readonly __tsonic_type_System_Reflection_Emit_MethodBuilder: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
+    readonly __tsonic_type_System_Reflection_MethodBase: never;
+    readonly __tsonic_type_System_Reflection_MethodInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
@@ -577,7 +586,7 @@ export interface MethodBuilder$instance extends MethodInfo, System_Reflection_In
 }
 
 
-export const MethodBuilder: (abstract new() => MethodBuilder) & {
+export const MethodBuilder: {
 };
 
 
@@ -588,8 +597,9 @@ export interface __MethodBuilder$views {
 export type MethodBuilder = MethodBuilder$instance & __MethodBuilder$views;
 
 
-export interface ModuleBuilder$instance extends Module, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface ModuleBuilder$instance extends System_Reflection_Internal.Module$instance {
     readonly __tsonic_type_System_Reflection_Emit_ModuleBuilder: never;
+    readonly __tsonic_type_System_Reflection_Module: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -601,9 +611,9 @@ export interface ModuleBuilder$instance extends Module, System_Reflection_Intern
     DefineDocumentCore(url: string, language?: Guid): ISymbolDocumentWriter;
     DefineEnum(name: string, visibility: TypeAttributes, underlyingType: Type): EnumBuilder;
     DefineEnumCore(name: string, visibility: TypeAttributes, underlyingType: Type): EnumBuilder;
-    DefineGlobalMethod(name: string, attributes: MethodAttributes, returnType: Type | null, parameterTypes: Type[] | null): MethodBuilder;
     DefineGlobalMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null): MethodBuilder;
     DefineGlobalMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, requiredReturnTypeCustomModifiers: Type[] | null, optionalReturnTypeCustomModifiers: Type[] | null, parameterTypes: Type[] | null, requiredParameterTypeCustomModifiers: Type[][] | null, optionalParameterTypeCustomModifiers: Type[][] | null): MethodBuilder;
+    DefineGlobalMethod(name: string, attributes: MethodAttributes, returnType: Type | null, parameterTypes: Type[] | null): MethodBuilder;
     DefineGlobalMethodCore(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, requiredReturnTypeCustomModifiers: Type[] | null, optionalReturnTypeCustomModifiers: Type[] | null, parameterTypes: Type[] | null, requiredParameterTypeCustomModifiers: Type[][] | null, optionalParameterTypeCustomModifiers: Type[][] | null): MethodBuilder;
     DefineInitializedData(name: string, data: byte[], attributes: FieldAttributes): FieldBuilder;
     DefineInitializedDataCore(name: string, data: byte[], attributes: FieldAttributes): FieldBuilder;
@@ -614,17 +624,17 @@ export interface ModuleBuilder$instance extends Module, System_Reflection_Intern
     DefineType(name: string, attr: TypeAttributes): TypeBuilder;
     DefineType(name: string, attr: TypeAttributes, parent: Type | null): TypeBuilder;
     DefineType(name: string, attr: TypeAttributes, parent: Type | null, interfaces: Type[] | null): TypeBuilder;
-    DefineType(name: string, attr: TypeAttributes, parent: Type | null, typesize: int): TypeBuilder;
-    DefineType(name: string, attr: TypeAttributes, parent: Type | null, packsize: PackingSize): TypeBuilder;
     DefineType(name: string, attr: TypeAttributes, parent: Type | null, packingSize: PackingSize, typesize: int): TypeBuilder;
+    DefineType(name: string, attr: TypeAttributes, parent: Type | null, packsize: PackingSize): TypeBuilder;
+    DefineType(name: string, attr: TypeAttributes, parent: Type | null, typesize: int): TypeBuilder;
     DefineTypeCore(name: string, attr: TypeAttributes, parent: Type | null, interfaces: Type[] | null, packingSize: PackingSize, typesize: int): TypeBuilder;
     DefineUninitializedData(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
     DefineUninitializedDataCore(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
     GetArrayMethod(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null): MethodInfo;
     GetArrayMethodCore(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null): MethodInfo;
     GetFieldMetadataToken(field: FieldInfo): int;
-    GetMethodMetadataToken(method: MethodInfo): int;
     GetMethodMetadataToken(constructor: ConstructorInfo): int;
+    GetMethodMetadataToken(method: MethodInfo): int;
     GetSignatureMetadataToken(signature: SignatureHelper): int;
     GetStringMetadataToken(stringConstant: string): int;
     GetTypeMetadataToken(type: Type): int;
@@ -634,7 +644,7 @@ export interface ModuleBuilder$instance extends Module, System_Reflection_Intern
 }
 
 
-export const ModuleBuilder: (abstract new() => ModuleBuilder) & {
+export const ModuleBuilder: {
 };
 
 
@@ -901,29 +911,28 @@ export interface ParameterBuilder$instance {
 }
 
 
-export const ParameterBuilder: (abstract new() => ParameterBuilder) & {
+export const ParameterBuilder: {
 };
 
 
 export type ParameterBuilder = ParameterBuilder$instance;
 
-export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance {
+    readonly __tsonic_type_System_Reflection_Assembly: never;
+    readonly __tsonic_type_System_Reflection_Emit_AssemblyBuilder: never;
     readonly __tsonic_type_System_Reflection_Emit_PersistedAssemblyBuilder: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly FullName: string | null;
-    readonly ManifestModule: Module;
-    DefineDynamicModuleCore(name: string): ModuleBuilder;
+    DefineDynamicModuleCore: AssemblyBuilder$instance["DefineDynamicModuleCore"] & ((name: string) => ModuleBuilder);
     GenerateMetadata(ilStream: BlobBuilder, mappedFieldData: BlobBuilder): MetadataBuilder;
     GenerateMetadata(ilStream: BlobBuilder, mappedFieldData: BlobBuilder, pdbBuilder: MetadataBuilder): MetadataBuilder;
-    GetDynamicModuleCore(name: string): ModuleBuilder | null;
-    GetName(copiedName: boolean): AssemblyName;
-    GetName(): AssemblyName;
-    Save(stream: Stream): void;
+    GetDynamicModuleCore: AssemblyBuilder$instance["GetDynamicModuleCore"] & ((name: string) => ModuleBuilder | null);
+    GetName: AssemblyBuilder$instance["GetName"] & (() => AssemblyName) & ((copiedName: boolean) => AssemblyName);
     Save(assemblyFileName: string): void;
-    SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
+    Save(stream: Stream): void;
+    SetCustomAttributeCore: AssemblyBuilder$instance["SetCustomAttributeCore"] & ((con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>) => void);
 }
 
 
@@ -940,8 +949,10 @@ export interface __PersistedAssemblyBuilder$views {
 export type PersistedAssemblyBuilder = PersistedAssemblyBuilder$instance & __PersistedAssemblyBuilder$views;
 
 
-export interface PropertyBuilder$instance extends PropertyInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
+export interface PropertyBuilder$instance extends System_Reflection_Internal.PropertyInfo$instance {
     readonly __tsonic_type_System_Reflection_Emit_PropertyBuilder: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
+    readonly __tsonic_type_System_Reflection_PropertyInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
@@ -959,7 +970,7 @@ export interface PropertyBuilder$instance extends PropertyInfo, System_Reflectio
 }
 
 
-export const PropertyBuilder: (abstract new() => PropertyBuilder) & {
+export const PropertyBuilder: {
 };
 
 
@@ -973,9 +984,9 @@ export type PropertyBuilder = PropertyBuilder$instance & __PropertyBuilder$views
 export interface SignatureHelper$instance {
     readonly __tsonic_type_System_Reflection_Emit_SignatureHelper: never;
 
-    AddArgument(clsArgument: Type): void;
     AddArgument(argument: Type, pinned: boolean): void;
     AddArgument(argument: Type, requiredCustomModifiers: Type[] | null, optionalCustomModifiers: Type[] | null): void;
+    AddArgument(clsArgument: Type): void;
     AddArguments(arguments: Type[] | null, requiredCustomModifiers: Type[][] | null, optionalCustomModifiers: Type[][] | null): void;
     AddSentinel(): void;
     Equals(obj: unknown | null): boolean;
@@ -1000,8 +1011,11 @@ export const SignatureHelper: {
 
 export type SignatureHelper = SignatureHelper$instance;
 
-export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Internal.ICustomAttributeProvider$instance, System_Reflection_Internal.IReflectableType$instance {
+export interface TypeBuilder$instance extends System_Reflection_Internal.TypeInfo$instance {
     readonly __tsonic_type_System_Reflection_Emit_TypeBuilder: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
+    readonly __tsonic_type_System_Reflection_TypeInfo: never;
+    readonly __tsonic_type_System_Type: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
@@ -1033,8 +1047,8 @@ export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Intern
     DefineMethod(name: string, attributes: MethodAttributes): MethodBuilder;
     DefineMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions): MethodBuilder;
     DefineMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null): MethodBuilder;
-    DefineMethod(name: string, attributes: MethodAttributes, returnType: Type | null, parameterTypes: Type[] | null): MethodBuilder;
     DefineMethod(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): MethodBuilder;
+    DefineMethod(name: string, attributes: MethodAttributes, returnType: Type | null, parameterTypes: Type[] | null): MethodBuilder;
     DefineMethodCore(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): MethodBuilder;
     DefineMethodOverride(methodInfoBody: MethodInfo, methodInfoDeclaration: MethodInfo): void;
     DefineMethodOverrideCore(methodInfoBody: MethodInfo, methodInfoDeclaration: MethodInfo): void;
@@ -1042,18 +1056,18 @@ export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Intern
     DefineNestedType(name: string, attr: TypeAttributes): TypeBuilder;
     DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null): TypeBuilder;
     DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null, interfaces: Type[] | null): TypeBuilder;
-    DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null, typeSize: int): TypeBuilder;
     DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null, packSize: PackingSize): TypeBuilder;
     DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null, packSize: PackingSize, typeSize: int): TypeBuilder;
+    DefineNestedType(name: string, attr: TypeAttributes, parent: Type | null, typeSize: int): TypeBuilder;
     DefineNestedTypeCore(name: string, attr: TypeAttributes, parent: Type | null, interfaces: Type[] | null, packSize: PackingSize, typeSize: int): TypeBuilder;
     DefinePInvokeMethod(name: string, dllName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
     DefinePInvokeMethod(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
     DefinePInvokeMethod(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
     DefinePInvokeMethodCore(name: string, dllName: string, entryName: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null, nativeCallConv: CallingConvention, nativeCharSet: CharSet): MethodBuilder;
-    DefineProperty(name: string, attributes: PropertyAttributes, returnType: Type | null, parameterTypes: Type[] | null): PropertyBuilder;
     DefineProperty(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type | null, parameterTypes: Type[] | null): PropertyBuilder;
-    DefineProperty(name: string, attributes: PropertyAttributes, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): PropertyBuilder;
     DefineProperty(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): PropertyBuilder;
+    DefineProperty(name: string, attributes: PropertyAttributes, returnType: Type | null, parameterTypes: Type[] | null): PropertyBuilder;
+    DefineProperty(name: string, attributes: PropertyAttributes, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): PropertyBuilder;
     DefinePropertyCore(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type | null, returnTypeRequiredCustomModifiers: Type[] | null, returnTypeOptionalCustomModifiers: Type[] | null, parameterTypes: Type[] | null, parameterTypeRequiredCustomModifiers: Type[][] | null, parameterTypeOptionalCustomModifiers: Type[][] | null): PropertyBuilder;
     DefineTypeInitializer(): ConstructorBuilder;
     DefineTypeInitializerCore(): ConstructorBuilder;
@@ -1061,11 +1075,10 @@ export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Intern
     DefineUninitializedDataCore(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
     IsCreated(): boolean;
     IsCreatedCore(): boolean;
-    MakeArrayType(): Type;
-    MakeArrayType(rank: int): Type;
-    MakeByRefType(): Type;
-    MakeGenericType(...typeArguments: Type[]): Type;
-    MakePointerType(): Type;
+    MakeArrayType: System_Reflection_Internal.TypeInfo$instance["MakeArrayType"] & (() => Type) & ((rank: int) => Type);
+    MakeByRefType: System_Reflection_Internal.TypeInfo$instance["MakeByRefType"] & (() => Type);
+    MakeGenericType: System_Reflection_Internal.TypeInfo$instance["MakeGenericType"] & ((...typeArguments: Type[]) => Type);
+    MakePointerType: System_Reflection_Internal.TypeInfo$instance["MakePointerType"] & (() => Type);
     SetCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     SetCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     SetCustomAttributeCore(con: ConstructorInfo, binaryAttribute: ReadOnlySpan_1<System_Internal.Byte>): void;
@@ -1074,7 +1087,7 @@ export interface TypeBuilder$instance extends TypeInfo, System_Reflection_Intern
 }
 
 
-export const TypeBuilder: (abstract new() => TypeBuilder) & {
+export const TypeBuilder: {
     readonly UnspecifiedTypeSize: int;
     GetConstructor(type: Type, constructor: ConstructorInfo): ConstructorInfo;
     GetField(type: Type, field: FieldInfo): FieldInfo;

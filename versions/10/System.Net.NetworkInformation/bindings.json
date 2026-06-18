@@ -2117,19 +2117,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformation::.ctor():void",
-            "metadataToken": 100663357,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.GatewayIPAddressInformation",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
@@ -2515,19 +2503,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.GatewayIPAddressInformationCollection::.ctor():void",
-            "metadataToken": 100663358,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Net.NetworkInformation.GatewayIPAddressInformationCollection",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IcmpV4Statistics",
@@ -3043,19 +3019,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IcmpV4Statistics::.ctor():void",
-            "metadataToken": 100663396,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IcmpV4Statistics",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IcmpV6Statistics",
@@ -3685,19 +3649,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IcmpV6Statistics::.ctor():void",
-            "metadataToken": 100663429,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IcmpV6Statistics",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Primitives:System.Net.NetworkInformation.IPAddressCollection",
@@ -4083,19 +4035,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Primitives:System.Net.NetworkInformation.IPAddressCollection::.ctor():void",
-            "metadataToken": 100663770,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IPAddressCollection",
-            "ownerIdentity": "System.Net.Primitives"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformation",
@@ -4174,19 +4114,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformation::.ctor():void",
-            "metadataToken": 100663433,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IPAddressInformation",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPAddressInformationCollection",
@@ -5010,19 +4938,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalProperties::.ctor():void",
-            "metadataToken": 100663465,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IPGlobalProperties",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalStatistics",
@@ -5462,19 +5378,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPGlobalStatistics::.ctor():void",
-            "metadataToken": 100663488,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IPGlobalStatistics",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPInterfaceProperties",
@@ -5727,19 +5631,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPInterfaceProperties::.ctor():void",
-            "metadataToken": 100663501,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IPInterfaceProperties",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPInterfaceStatistics",
@@ -5989,19 +5881,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPInterfaceStatistics::.ctor():void",
-            "metadataToken": 100663514,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IPInterfaceStatistics",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv4InterfaceProperties",
@@ -6156,19 +6036,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv4InterfaceProperties::.ctor():void",
-            "metadataToken": 100663522,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IPv4InterfaceProperties",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv4InterfaceStatistics",
@@ -6418,19 +6286,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv4InterfaceStatistics::.ctor():void",
-            "metadataToken": 100663523,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IPv4InterfaceStatistics",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv6InterfaceProperties",
@@ -6511,19 +6367,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.IPv6InterfaceProperties::.ctor():void",
-            "metadataToken": 100663539,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.IPv6InterfaceProperties",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformation",
@@ -6659,19 +6503,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformation::.ctor():void",
-            "metadataToken": 100663546,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.MulticastIPAddressInformation",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
@@ -7057,19 +6889,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.MulticastIPAddressInformationCollection::.ctor():void",
-            "metadataToken": 100663547,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Net.NetworkInformation.MulticastIPAddressInformationCollection",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkAvailabilityEventArgs",
@@ -7274,17 +7094,6 @@
             "isStatic": false,
             "parameterCount": 1,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Net.NetworkInformation.NetworkInformationException",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          },
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInformationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663680,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Net.NetworkInformation.NetworkInformationException",
             "ownerIdentity": "System.Net.NetworkInformation"
           }
@@ -7641,19 +7450,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterface::.ctor():void",
-            "metadataToken": 100663608,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.NetworkInterface",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress",
@@ -7914,26 +7711,6 @@
             "isAbstract": false,
             "isVirtual": true,
             "isOverride": true,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.Ping",
-            "ownerIdentity": "System.Net.Ping",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::OnPingCompleted(System.Net.NetworkInformation.PingCompletedEventArgs):System.Void",
-            "targetName": "OnPingCompleted",
-            "metadataToken": 100663347,
-            "canonicalSignature": "(System.Net.NetworkInformation.PingCompletedEventArgs):System.Void",
-            "normalizedSignature": "OnPingCompleted|(System.Net.NetworkInformation.PingCompletedEventArgs):System.Void|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
             "isSealed": false,
             "visibility": "Protected",
             "ownerQualifiedName": "System.Net.NetworkInformation.Ping",
@@ -8721,17 +8498,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Net.NetworkInformation.PingException",
             "ownerIdentity": "System.Net.Ping"
-          },
-          {
-            "stableId": "System.Net.Ping:System.Net.NetworkInformation.PingException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663431,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.PingException",
-            "ownerIdentity": "System.Net.Ping"
           }
         ]
       },
@@ -9012,19 +8778,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.TcpConnectionInformation::.ctor():void",
-            "metadataToken": 100663623,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.TcpConnectionInformation",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.TcpStatistics",
@@ -9312,19 +9066,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.TcpStatistics::.ctor():void",
-            "metadataToken": 100663638,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.TcpStatistics",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UdpStatistics",
@@ -9441,19 +9183,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UdpStatistics::.ctor():void",
-            "metadataToken": 100663644,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.UdpStatistics",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformation",
@@ -9627,19 +9357,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformation::.ctor():void",
-            "metadataToken": 100663654,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.NetworkInformation.UnicastIPAddressInformation",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
@@ -10025,19 +9743,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.UnicastIPAddressInformationCollection::.ctor():void",
-            "metadataToken": 100663655,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Net.NetworkInformation.UnicastIPAddressInformationCollection",
-            "ownerIdentity": "System.Net.NetworkInformation"
-          }
-        ]
+        "constructors": []
       }
     ]
   }

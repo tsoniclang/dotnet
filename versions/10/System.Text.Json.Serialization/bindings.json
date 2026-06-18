@@ -1019,19 +1019,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonAttribute::.ctor():void",
-            "metadataToken": 100665654,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Json.Serialization.JsonAttribute",
-            "ownerIdentity": "System.Text.Json"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConstructorAttribute",
@@ -1302,19 +1290,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter`1::.ctor():void",
-            "metadataToken": 100665930,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Text.Json.Serialization.JsonConverter`1",
-            "ownerIdentity": "System.Text.Json"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterAttribute",
@@ -1387,17 +1363,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Text.Json.Serialization.JsonConverterAttribute",
             "ownerIdentity": "System.Text.Json"
-          },
-          {
-            "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterAttribute::.ctor():void",
-            "metadataToken": 100665720,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Json.Serialization.JsonConverterAttribute",
-            "ownerIdentity": "System.Text.Json"
           }
         ]
       },
@@ -1461,19 +1426,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterFactory::.ctor():void",
-            "metadataToken": 100665911,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Json.Serialization.JsonConverterFactory",
-            "ownerIdentity": "System.Text.Json"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonDerivedTypeAttribute",
@@ -2279,19 +2232,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSerializerContext::.ctor(System.Text.Json.JsonSerializerOptions):void",
-            "metadataToken": 100665772,
-            "canonicalSignature": "(System.Text.Json.JsonSerializerOptions):void",
-            "normalizedSignature": "constructor|(System.Text.Json.JsonSerializerOptions):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Json.Serialization.JsonSerializerContext",
-            "ownerIdentity": "System.Text.Json"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationOptionsAttribute",
@@ -3209,19 +3150,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceHandler::.ctor():void",
-            "metadataToken": 100666000,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Json.Serialization.ReferenceHandler",
-            "ownerIdentity": "System.Text.Json"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceHandler`1",
@@ -3366,19 +3295,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Text.Json:System.Text.Json.Serialization.ReferenceResolver::.ctor():void",
-            "metadataToken": 100666010,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Json.Serialization.ReferenceResolver",
-            "ownerIdentity": "System.Text.Json"
-          }
-        ]
+        "constructors": []
       }
     ]
   }

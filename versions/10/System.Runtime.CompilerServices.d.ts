@@ -62,9 +62,12 @@ export { CompilerGeneratedAttribute as CompilerGeneratedAttribute } from './Syst
 export { CompilerLoweringPreserveAttribute as CompilerLoweringPreserveAttribute } from './System.Runtime.CompilerServices/internal/index.js';
 export { CompilerGlobalScopeAttribute as CompilerGlobalScopeAttribute } from './System.Runtime.CompilerServices/internal/index.js';
 export { ConditionalWeakTable_2 as ConditionalWeakTable } from './System.Runtime.CompilerServices/internal/index.js';
+export type ConditionalWeakTable_2_CreateValueCallback<TKey extends (object | null), TValue extends (object | null)> = Internal.ConditionalWeakTable_2_CreateValueCallback<TKey, TValue>;
 export { ConfiguredAsyncDisposable as ConfiguredAsyncDisposable } from './System.Runtime.CompilerServices/internal/index.js';
 export { ConfiguredCancelableAsyncEnumerable_1 as ConfiguredCancelableAsyncEnumerable } from './System.Runtime.CompilerServices/internal/index.js';
+export { ConfiguredCancelableAsyncEnumerable_1_Enumerator as ConfiguredCancelableAsyncEnumerable_1_Enumerator } from './System.Runtime.CompilerServices/internal/index.js';
 export { ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter as ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter } from './System.Runtime.CompilerServices/internal/index.js';
+export { ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter as ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter } from './System.Runtime.CompilerServices/internal/index.js';
 export { ContractHelper$instance as ContractHelper } from './System.Runtime.CompilerServices/internal/index.js';
 export { CreateNewOnMetadataUpdateAttribute as CreateNewOnMetadataUpdateAttribute } from './System.Runtime.CompilerServices/internal/index.js';
 export { CustomConstantAttribute as CustomConstantAttribute } from './System.Runtime.CompilerServices/internal/index.js';
@@ -143,6 +146,7 @@ export type IStrongBox = Internal.IStrongBox;
 export { SuppressIldasmAttribute as SuppressIldasmAttribute } from './System.Runtime.CompilerServices/internal/index.js';
 export { SwitchExpressionException as SwitchExpressionException } from './System.Runtime.CompilerServices/internal/index.js';
 export { ConfiguredTaskAwaitable_ConfiguredTaskAwaiter as ConfiguredTaskAwaitable_ConfiguredTaskAwaiter } from './System.Runtime.CompilerServices/internal/index.js';
+export { ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter as ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter } from './System.Runtime.CompilerServices/internal/index.js';
 export { TupleElementNamesAttribute as TupleElementNamesAttribute } from './System.Runtime.CompilerServices/internal/index.js';
 export { TypeForwardedFromAttribute as TypeForwardedFromAttribute } from './System.Runtime.CompilerServices/internal/index.js';
 export { TypeForwardedToAttribute as TypeForwardedToAttribute } from './System.Runtime.CompilerServices/internal/index.js';
@@ -190,13 +194,13 @@ export type AsyncTaskMethodBuilder<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.AsyncTaskMethodBuilder :
-  [T1] extends [unknown] ? Internal.AsyncTaskMethodBuilder_1<T1> : never;
+  Internal.AsyncTaskMethodBuilder_1<T1>;
 
 export type AsyncValueTaskMethodBuilder<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.AsyncValueTaskMethodBuilder :
-  [T1] extends [unknown] ? Internal.AsyncValueTaskMethodBuilder_1<T1> : never;
+  Internal.AsyncValueTaskMethodBuilder_1<T1>;
 
 export type CallSite<
   T1 extends (object | null) | __ = __,
@@ -208,29 +212,29 @@ export type ConfiguredTaskAwaitable<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ConfiguredTaskAwaitable :
-  [T1] extends [unknown] ? Internal.ConfiguredTaskAwaitable_1<T1> : never;
+  Internal.ConfiguredTaskAwaitable_1<T1>;
 
 export type ConfiguredValueTaskAwaitable<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ConfiguredValueTaskAwaitable :
-  [T1] extends [unknown] ? Internal.ConfiguredValueTaskAwaitable_1<T1> : never;
+  Internal.ConfiguredValueTaskAwaitable_1<T1>;
 
 export type PoolingAsyncValueTaskMethodBuilder<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.PoolingAsyncValueTaskMethodBuilder :
-  [T1] extends [unknown] ? Internal.PoolingAsyncValueTaskMethodBuilder_1<T1> : never;
+  Internal.PoolingAsyncValueTaskMethodBuilder_1<T1>;
 
 export type TaskAwaiter<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.TaskAwaiter :
-  [T1] extends [unknown] ? Internal.TaskAwaiter_1<T1> : never;
+  Internal.TaskAwaiter_1<T1>;
 
 export type ValueTaskAwaiter<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ValueTaskAwaiter :
-  [T1] extends [unknown] ? Internal.ValueTaskAwaiter_1<T1> : never;
+  Internal.ValueTaskAwaiter_1<T1>;
 

@@ -2622,19 +2622,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Globalization.Calendar::.ctor():void",
-            "metadataToken": 100676033,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Globalization.Calendar",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Globalization.ChineseLunisolarCalendar",
@@ -5322,17 +5310,6 @@
             "isStatic": false,
             "parameterCount": 3,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Globalization.CultureNotFoundException",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Globalization.CultureNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100676563,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Globalization.CultureNotFoundException",
             "ownerIdentity": "System.Private.CoreLib"
           }

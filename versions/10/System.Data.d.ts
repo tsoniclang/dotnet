@@ -12,8 +12,8 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 // Cross-namespace type imports for constraints
 import type { IComparer_1, IEnumerable_1, IEnumerator_1, IEqualityComparer_1 } from './System.Collections.Generic/internal/index.js';
 import type { ReadOnlyCollection_1 } from './System.Collections.ObjectModel/internal/index.js';
-import type { ArrayList, Hashtable, ICollection, IComparer, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IEqualityComparer, IHashCodeProvider, IList } from './System.Collections/internal/index.js';
-import type { AttributeCollection, CollectionChangeEventArgs, CollectionChangeEventHandler, DescriptionAttribute, EventDescriptor, EventDescriptorCollection, EventHandlerList, IBindingList, IBindingListView, IComponent, IContainer, ICustomTypeDescriptor, IDataErrorInfo, IEditableObject, IListSource, INotifyPropertyChanged, ISite, ISupportInitialize, ISupportInitializeNotification, ITypedList, ListChangedEventArgs, ListChangedEventHandler, ListSortDescriptionCollection, ListSortDirection, MarshalByValueComponent, PropertyChangedEventArgs, PropertyChangedEventHandler, PropertyDescriptor, PropertyDescriptorCollection, TypeConverter } from './System.ComponentModel/internal/index.js';
+import type { ArrayList, Hashtable, ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IList } from './System.Collections/internal/index.js';
+import type { AttributeCollection, CollectionChangeEventArgs, CollectionChangeEventHandler, DescriptionAttribute, EventDescriptor, EventDescriptorCollection, IBindingList, IBindingListView, IComponent, IContainer, ICustomTypeDescriptor, IDataErrorInfo, IEditableObject, IListSource, INotifyPropertyChanged, ISite, ISupportInitialize, ISupportInitializeNotification, ITypedList, ListChangedEventArgs, ListChangedEventHandler, ListSortDescriptionCollection, ListSortDirection, MarshalByValueComponent, PropertyChangedEventArgs, PropertyChangedEventHandler, PropertyDescriptor, PropertyDescriptorCollection, TypeConverter } from './System.ComponentModel/internal/index.js';
 import type { DbColumn, DbDataReader } from './System.Data.Common/internal/index.js';
 import type { CultureInfo } from './System.Globalization/internal/index.js';
 import type { Stream, TextReader, TextWriter } from './System.IO/internal/index.js';
@@ -24,7 +24,7 @@ import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { XmlSchema, XmlSchemaComplexType, XmlSchemaSet } from './System.Xml.Schema/internal/index.js';
 import type { IXmlSerializable } from './System.Xml.Serialization/internal/index.js';
 import type { XmlReader, XmlWriter } from './System.Xml/internal/index.js';
-import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, Converter_2, DateTime, Decimal, Delegate, Double, Enum, EventArgs, EventHandler, Exception, Func_2, Guid, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, IServiceProvider, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Nullable_1, Object as ClrObject, Single, String as ClrString, SystemException, Type, TypeCode, Void } from './System/internal/index.js';
+import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, Converter_2, DateTime, Decimal, Delegate, Double, Enum, EventArgs, EventHandler, Exception, Func_2, Guid, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, IServiceProvider, ISpanFormattable, MulticastDelegate, Nullable_1, Object as ClrObject, Single, String as ClrString, SystemException, Type, TypeCode, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { DataReaderExtensions$instance as DataReaderExtensions } from './System.Data/internal/index.js';
@@ -141,16 +141,16 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type DataRowComparer<
-  T1 extends unknown & Internal.DataRow | __ = __,
+  T1 extends unknown & { readonly __tsonic_type_System_Data_DataRow: never } | __ = __,
 > =
   [T1] extends [__] ? Internal.DataRowComparer :
-  [T1] extends [unknown & Internal.DataRow] ? Internal.DataRowComparer_1<T1> : never;
+  [T1] extends [unknown & { readonly __tsonic_type_System_Data_DataRow: never }] ? Internal.DataRowComparer_1<T1> : never;
 
 export type EnumerableRowCollection<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.EnumerableRowCollection :
-  [T1] extends [unknown] ? Internal.EnumerableRowCollection_1<T1> : never;
+  Internal.EnumerableRowCollection_1<T1>;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Data as ExtensionMethods } from './__internal/extensions/index.js';

@@ -23,6 +23,7 @@ export type SseItemParser_1<T extends unknown> = (eventType: string, data: ReadO
 
 export interface SseItem_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Net_ServerSentEvents_SseItem_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Data: T;
     get EventId(): string | null;
@@ -43,8 +44,8 @@ export type SseItem_1<T extends unknown> = SseItem_1$instance<T>;
 export interface SseParser_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Net_ServerSentEvents_SseParser_1: never;
 
-    LastEventId: string;
-    ReconnectionInterval: TimeSpan;
+    readonly LastEventId: string;
+    readonly ReconnectionInterval: TimeSpan;
     Enumerate(): IEnumerable_1<SseItem_1<T>>;
     EnumerateAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<SseItem_1<T>>;
 }

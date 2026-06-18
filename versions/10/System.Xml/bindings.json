@@ -3877,19 +3877,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlAttribute::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100669644,
-            "canonicalSignature": "(System.String,System.String,System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.String,System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 4,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlAttribute",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlAttributeCollection",
@@ -4838,19 +4826,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlCDataSection::.ctor(System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100669713,
-            "canonicalSignature": "(System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlCDataSection",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlCharacterData",
@@ -5126,19 +5102,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlCharacterData::.ctor(System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100669724,
-            "canonicalSignature": "(System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlCharacterData",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlComment",
@@ -5355,19 +5319,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlComment::.ctor(System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100669749,
-            "canonicalSignature": "(System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlComment",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlConvert",
@@ -7205,12 +7157,12 @@
             "targetName": "Version",
             "metadataToken": 385877969,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "Version|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "Version|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -7355,19 +7307,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlDeclaration::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100669757,
-            "canonicalSignature": "(System.String,System.String,System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.String,System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 4,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlDeclaration",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionary",
@@ -8568,26 +8508,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadContentAsString(System.Int32):System.String",
-            "targetName": "ReadContentAsString",
-            "metadataToken": 100664921,
-            "canonicalSignature": "(System.Int32):System.String",
-            "normalizedSignature": "ReadContentAsString|(System.Int32):System.String|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlDictionaryReader",
-            "ownerIdentity": "System.Private.DataContractSerialization",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadString():System.String",
             "targetName": "ReadString",
             "metadataToken": 100664922,
@@ -8608,26 +8528,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadString(System.Int32):System.String",
-            "targetName": "ReadString",
-            "metadataToken": 100664923,
-            "canonicalSignature": "(System.Int32):System.String",
-            "normalizedSignature": "ReadString|(System.Int32):System.String|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlDictionaryReader",
-            "ownerIdentity": "System.Private.DataContractSerialization",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadContentAsBinHex():System.Byte[]",
             "targetName": "ReadContentAsBinHex",
             "metadataToken": 100664924,
@@ -8643,46 +8543,6 @@
             "isOverride": false,
             "isSealed": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Xml.XmlDictionaryReader",
-            "ownerIdentity": "System.Private.DataContractSerialization",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadContentAsBinHex(System.Int32):System.Byte[]",
-            "targetName": "ReadContentAsBinHex",
-            "metadataToken": 100664925,
-            "canonicalSignature": "(System.Int32):System.Byte[]",
-            "normalizedSignature": "ReadContentAsBinHex|(System.Int32):System.Byte[]|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlDictionaryReader",
-            "ownerIdentity": "System.Private.DataContractSerialization",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::IsTextNode(System.Xml.XmlNodeType):System.Boolean",
-            "targetName": "IsTextNode",
-            "metadataToken": 100664927,
-            "canonicalSignature": "(System.Xml.XmlNodeType):System.Boolean",
-            "normalizedSignature": "IsTextNode|(System.Xml.XmlNodeType):System.Boolean|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Xml.XmlDictionaryReader",
             "ownerIdentity": "System.Private.DataContractSerialization",
             "isExtensionMethod": false
@@ -10613,19 +10473,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::.ctor():void",
-            "metadataToken": 100664998,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlDictionaryReader",
-            "ownerIdentity": "System.Private.DataContractSerialization"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReaderQuotas",
@@ -12718,19 +12566,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::.ctor():void",
-            "metadataToken": 100664867,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlDictionaryWriter",
-            "ownerIdentity": "System.Private.DataContractSerialization"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlDocument",
@@ -14056,17 +13892,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Xml.XmlDocument",
             "ownerIdentity": "System.Private.Xml"
-          },
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlDocument::.ctor(System.Xml.XmlImplementation):void",
-            "metadataToken": 100669777,
-            "canonicalSignature": "(System.Xml.XmlImplementation):void",
-            "normalizedSignature": "constructor|(System.Xml.XmlImplementation):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlDocument",
-            "ownerIdentity": "System.Private.Xml"
           }
         ]
       },
@@ -14342,19 +14167,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlDocumentFragment::.ctor(System.Xml.XmlDocument):void",
-            "metadataToken": 100669907,
-            "canonicalSignature": "(System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlDocumentFragment",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlDocumentType",
@@ -14685,19 +14498,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlDocumentType::.ctor(System.String,System.String,System.String,System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100669925,
-            "canonicalSignature": "(System.String,System.String,System.String,System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.String,System.String,System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 5,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlDocumentType",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlElement",
@@ -15503,19 +15304,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlElement::.ctor(System.String,System.String,System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100669972,
-            "canonicalSignature": "(System.String,System.String,System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.String,System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 4,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlElement",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlEntity",
@@ -16158,19 +15947,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlEntityReference::.ctor(System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100670077,
-            "canonicalSignature": "(System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlEntityReference",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlException",
@@ -16317,17 +16094,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100666432,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlException",
-            "ownerIdentity": "System.Private.Xml"
-          },
           {
             "stableId": "System.Private.Xml:System.Xml.XmlException::.ctor():void",
             "metadataToken": 100666434,
@@ -17232,19 +16998,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlNameTable::.ctor():void",
-            "metadataToken": 100666483,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlNameTable",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlNode",
@@ -18543,19 +18297,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlNodeList::.ctor():void",
-            "metadataToken": 100670267,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlNodeList",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlNodeReader",
@@ -20345,19 +20087,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlProcessingInstruction::.ctor(System.String,System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100670389,
-            "canonicalSignature": "(System.String,System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 3,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlProcessingInstruction",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlQualifiedName",
@@ -20462,12 +20192,12 @@
             "targetName": "Namespace",
             "metadataToken": 385877329,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "Namespace|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -20481,12 +20211,12 @@
             "targetName": "Name",
             "metadataToken": 385877330,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "Name|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -23249,19 +22979,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlReader::.ctor():void",
-            "metadataToken": 100667468,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlReader",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlReaderSettings",
@@ -23849,19 +23567,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlResolver::.ctor():void",
-            "metadataToken": 100666513,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlResolver",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlSecureResolver",
@@ -24249,19 +23955,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlSignificantWhitespace::.ctor(System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100670405,
-            "canonicalSignature": "(System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlSignificantWhitespace",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlText",
@@ -24555,19 +24249,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlText::.ctor(System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100670419,
-            "canonicalSignature": "(System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlText",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlTextReader",
@@ -25879,28 +25561,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlTextReader::.ctor():void",
-            "metadataToken": 100667681,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlTextReader",
-            "ownerIdentity": "System.Private.Xml"
-          },
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlTextReader::.ctor(System.Xml.XmlNameTable):void",
-            "metadataToken": 100667682,
-            "canonicalSignature": "(System.Xml.XmlNameTable):void",
-            "normalizedSignature": "constructor|(System.Xml.XmlNameTable):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlTextReader",
-            "ownerIdentity": "System.Private.Xml"
-          },
           {
             "stableId": "System.Private.Xml:System.Xml.XmlTextReader::.ctor(System.IO.Stream):void",
             "metadataToken": 100667683,
@@ -28596,19 +28256,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlWhitespace::.ctor(System.String,System.Xml.XmlDocument):void",
-            "metadataToken": 100670444,
-            "canonicalSignature": "(System.String,System.Xml.XmlDocument):void",
-            "normalizedSignature": "constructor|(System.String,System.Xml.XmlDocument):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Xml.XmlWhitespace",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlWriter",
@@ -30679,19 +30327,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.XmlWriter::.ctor():void",
-            "metadataToken": 100669123,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.XmlWriter",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.XmlWriterSettings",
@@ -31003,12 +30639,12 @@
             "targetName": "OutputMethod",
             "metadataToken": 385877826,
             "canonicalSignature": ":System.Xml.XmlOutputMethod",
-            "normalizedSignature": "OutputMethod|:System.Xml.XmlOutputMethod|static=false|accessor=getset",
+            "normalizedSignature": "OutputMethod|:System.Xml.XmlOutputMethod|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,

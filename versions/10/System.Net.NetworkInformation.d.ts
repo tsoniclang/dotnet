@@ -12,13 +12,13 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 // Cross-namespace type imports for constraints
 import type { ICollection_1, IEnumerable_1, IEnumerator_1 } from './System.Collections.Generic/internal/index.js';
 import type { IDictionary, IEnumerable, IEnumerator } from './System.Collections/internal/index.js';
-import type { AsyncCompletedEventArgs, Component, EventHandlerList, IComponent, IContainer, ISite, Win32Exception } from './System.ComponentModel/internal/index.js';
+import type { AsyncCompletedEventArgs, Component, IComponent, IContainer, ISite, Win32Exception } from './System.ComponentModel/internal/index.js';
 import type { IPAddress, IPEndPoint } from './System.Net/internal/index.js';
 import type { MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Task_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, InvalidOperationException, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Object as ClrObject, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from './System/internal/index.js';
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, InvalidOperationException, ISpanFormattable, MulticastDelegate, Object as ClrObject, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { DuplicateAddressDetectionState as DuplicateAddressDetectionState } from './System.Net.NetworkInformation/internal/index.js';

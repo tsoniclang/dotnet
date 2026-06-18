@@ -9,20 +9,22 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 // Import types from other namespaces
 import type { FieldAttributes, ParameterAttributes } from "../../System.Reflection/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Boolean as ClrBoolean, Byte, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { Boolean as ClrBoolean, Byte, ConsoleKeyInfo, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum SymAddressKind {
-    ILOffset = 1,
-    NativeRVA = 2,
-    NativeRegister = 3,
-    NativeRegisterRelative = 4,
-    NativeOffset = 5,
-    NativeRegisterRegister = 6,
-    NativeRegisterStack = 7,
-    NativeStackRegister = 8,
-    BitField = 9,
-    NativeSectionOffset = 10
-}
+export type SymAddressKind = number & { readonly __tsonic_type_System_Diagnostics_SymbolStore_SymAddressKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SymAddressKind: {
+    readonly ILOffset: SymAddressKind;
+    readonly NativeRVA: SymAddressKind;
+    readonly NativeRegister: SymAddressKind;
+    readonly NativeRegisterRelative: SymAddressKind;
+    readonly NativeOffset: SymAddressKind;
+    readonly NativeRegisterRegister: SymAddressKind;
+    readonly NativeRegisterStack: SymAddressKind;
+    readonly NativeStackRegister: SymAddressKind;
+    readonly BitField: SymAddressKind;
+    readonly NativeSectionOffset: SymAddressKind;
+};
 
 
 export interface ISymbolBinder$instance {
@@ -107,8 +109,8 @@ export interface ISymbolReader$instance {
     GetDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocument | null;
     GetDocuments(): ISymbolDocument[];
     GetGlobalVariables(): ISymbolVariable[];
-    GetMethod(method: SymbolToken, version: int): ISymbolMethod | null;
     GetMethod(method: SymbolToken): ISymbolMethod | null;
+    GetMethod(method: SymbolToken, version: int): ISymbolMethod | null;
     GetMethodFromDocumentPosition(document: ISymbolDocument, line: int, column: int): ISymbolMethod;
     GetNamespaces(): ISymbolNamespace[];
     GetSymAttribute(parent: SymbolToken, name: string): byte[];
@@ -176,11 +178,12 @@ export type ISymbolWriter = ISymbolWriter$instance;
 
 export interface SymbolToken$instance {
     readonly __tsonic_type_System_Diagnostics_SymbolStore_SymbolToken: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
-    Equals(obj: unknown | null): boolean;
     Equals(obj: SymbolToken): boolean;
+    Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
     GetToken(): int;
 }

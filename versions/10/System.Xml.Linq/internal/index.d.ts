@@ -22,46 +22,54 @@ import type { IXmlSerializable } from "../../System.Xml.Serialization/internal/i
 import * as System_Xml_Internal from "../../System.Xml/internal/index.js";
 import type { IXmlLineInfo, XmlNodeType, XmlReader, XmlWriter } from "../../System.Xml/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Boolean as ClrBoolean, Enum, EventArgs, EventHandler_1, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
+import type { Boolean as ClrBoolean, ConsoleKeyInfo, Enum, EventArgs, EventHandler_1, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum LoadOptions {
-    None = 0,
-    PreserveWhitespace = 1,
-    SetBaseUri = 2,
-    SetLineInfo = 4
-}
+export type LoadOptions = number & { readonly __tsonic_type_System_Xml_Linq_LoadOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum ReaderOptions {
-    None = 0,
-    OmitDuplicateNamespaces = 1
-}
+export const LoadOptions: {
+    readonly None: LoadOptions;
+    readonly PreserveWhitespace: LoadOptions;
+    readonly SetBaseUri: LoadOptions;
+    readonly SetLineInfo: LoadOptions;
+};
 
 
-export enum SaveOptions {
-    None = 0,
-    DisableFormatting = 1,
-    OmitDuplicateNamespaces = 2
-}
+export type ReaderOptions = number & { readonly __tsonic_type_System_Xml_Linq_ReaderOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ReaderOptions: {
+    readonly None: ReaderOptions;
+    readonly OmitDuplicateNamespaces: ReaderOptions;
+};
 
 
-export enum XObjectChange {
-    Add = 0,
-    Remove = 1,
-    Name = 2,
-    Value = 3
-}
+export type SaveOptions = number & { readonly __tsonic_type_System_Xml_Linq_SaveOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SaveOptions: {
+    readonly None: SaveOptions;
+    readonly DisableFormatting: SaveOptions;
+    readonly OmitDuplicateNamespaces: SaveOptions;
+};
 
 
-export interface XAttribute$instance extends XObject$instance, System_Xml_Internal.IXmlLineInfo$instance {
+export type XObjectChange = number & { readonly __tsonic_type_System_Xml_Linq_XObjectChange: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const XObjectChange: {
+    readonly Add: XObjectChange;
+    readonly Remove: XObjectChange;
+    readonly Name: XObjectChange;
+    readonly Value: XObjectChange;
+};
+
+
+export interface XAttribute$instance extends XObject$instance {
     readonly __tsonic_type_System_Xml_Linq_XAttribute: never;
+    readonly __tsonic_type_System_Xml_Linq_XObject: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     readonly IsNamespaceDeclaration: boolean;
     readonly Name: XName;
     readonly NextAttribute: XAttribute | null;
-    readonly NodeType: XmlNodeType;
     readonly PreviousAttribute: XAttribute | null;
     Value: string;
     Remove(): void;
@@ -84,14 +92,16 @@ export interface __XAttribute$views {
 export type XAttribute = XAttribute$instance & __XAttribute$views;
 
 
-export interface XCData$instance extends XText$instance, System_Xml_Internal.IXmlLineInfo$instance {
+export interface XCData$instance extends XText$instance {
     readonly __tsonic_type_System_Xml_Linq_XCData: never;
+    readonly __tsonic_type_System_Xml_Linq_XNode: never;
+    readonly __tsonic_type_System_Xml_Linq_XObject: never;
+    readonly __tsonic_type_System_Xml_Linq_XText: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
-    readonly NodeType: XmlNodeType;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    WriteTo: XText$instance["WriteTo"] & ((writer: XmlWriter) => void);
+    WriteToAsync: XText$instance["WriteToAsync"] & ((writer: XmlWriter, cancellationToken: CancellationToken) => Task);
 }
 
 
@@ -108,15 +118,16 @@ export interface __XCData$views {
 export type XCData = XCData$instance & __XCData$views;
 
 
-export interface XComment$instance extends XNode$instance, System_Xml_Internal.IXmlLineInfo$instance {
+export interface XComment$instance extends XNode$instance {
     readonly __tsonic_type_System_Xml_Linq_XComment: never;
+    readonly __tsonic_type_System_Xml_Linq_XNode: never;
+    readonly __tsonic_type_System_Xml_Linq_XObject: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
-    readonly NodeType: XmlNodeType;
     Value: string;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    WriteTo: XNode$instance["WriteTo"] & ((writer: XmlWriter) => void);
+    WriteToAsync: XNode$instance["WriteToAsync"] & ((writer: XmlWriter, cancellationToken: CancellationToken) => Task);
 }
 
 
@@ -133,17 +144,19 @@ export interface __XComment$views {
 export type XComment = XComment$instance & __XComment$views;
 
 
-export interface XContainer$instance extends XNode$instance, System_Xml_Internal.IXmlLineInfo$instance {
+export interface XContainer$instance extends XNode$instance {
     readonly __tsonic_type_System_Xml_Linq_XContainer: never;
+    readonly __tsonic_type_System_Xml_Linq_XNode: never;
+    readonly __tsonic_type_System_Xml_Linq_XObject: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     readonly FirstNode: XNode | null;
     readonly LastNode: XNode | null;
-    Add(content: unknown | null): void;
     Add(...content: (unknown | null)[]): void;
-    AddFirst(content: unknown | null): void;
+    Add(content: unknown | null): void;
     AddFirst(...content: (unknown | null)[]): void;
+    AddFirst(content: unknown | null): void;
     CreateWriter(): XmlWriter;
     DescendantNodes(): IEnumerable_1<XNode>;
     Descendants(): IEnumerable_1<XElement>;
@@ -153,8 +166,8 @@ export interface XContainer$instance extends XNode$instance, System_Xml_Internal
     Elements(name: XName | null): IEnumerable_1<XElement>;
     Nodes(): IEnumerable_1<XNode>;
     RemoveNodes(): void;
-    ReplaceNodes(content: unknown | null): void;
     ReplaceNodes(...content: (unknown | null)[]): void;
+    ReplaceNodes(content: unknown | null): void;
 }
 
 
@@ -190,28 +203,30 @@ export const XDeclaration: {
 
 export type XDeclaration = XDeclaration$instance;
 
-export interface XDocument$instance extends XContainer$instance, System_Xml_Internal.IXmlLineInfo$instance {
+export interface XDocument$instance extends XContainer$instance {
+    readonly __tsonic_type_System_Xml_Linq_XContainer: never;
     readonly __tsonic_type_System_Xml_Linq_XDocument: never;
+    readonly __tsonic_type_System_Xml_Linq_XNode: never;
+    readonly __tsonic_type_System_Xml_Linq_XObject: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     get Declaration(): XDeclaration | null;
     set Declaration(value: XDeclaration | null);
     readonly DocumentType: XDocumentType | null;
-    readonly NodeType: XmlNodeType;
     readonly Root: XElement | null;
+    Save(fileName: string): void;
+    Save(fileName: string, options: SaveOptions): void;
     Save(stream: Stream): void;
     Save(stream: Stream, options: SaveOptions): void;
     Save(textWriter: TextWriter): void;
     Save(textWriter: TextWriter, options: SaveOptions): void;
     Save(writer: XmlWriter): void;
-    Save(fileName: string): void;
-    Save(fileName: string, options: SaveOptions): void;
     SaveAsync(stream: Stream, options: SaveOptions, cancellationToken: CancellationToken): Task;
     SaveAsync(textWriter: TextWriter, options: SaveOptions, cancellationToken: CancellationToken): Task;
     SaveAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    WriteTo: XContainer$instance["WriteTo"] & ((writer: XmlWriter) => void);
+    WriteToAsync: XContainer$instance["WriteToAsync"] & ((writer: XmlWriter, cancellationToken: CancellationToken) => Task);
 }
 
 
@@ -243,21 +258,22 @@ export interface __XDocument$views {
 export type XDocument = XDocument$instance & __XDocument$views;
 
 
-export interface XDocumentType$instance extends XNode$instance, System_Xml_Internal.IXmlLineInfo$instance {
+export interface XDocumentType$instance extends XNode$instance {
     readonly __tsonic_type_System_Xml_Linq_XDocumentType: never;
+    readonly __tsonic_type_System_Xml_Linq_XNode: never;
+    readonly __tsonic_type_System_Xml_Linq_XObject: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     get InternalSubset(): string | null;
     set InternalSubset(value: string | null);
     Name: string;
-    readonly NodeType: XmlNodeType;
     get PublicId(): string | null;
     set PublicId(value: string | null);
     get SystemId(): string | null;
     set SystemId(value: string | null);
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    WriteTo: XNode$instance["WriteTo"] & ((writer: XmlWriter) => void);
+    WriteToAsync: XNode$instance["WriteToAsync"] & ((writer: XmlWriter, cancellationToken: CancellationToken) => Task);
 }
 
 
@@ -274,8 +290,11 @@ export interface __XDocumentType$views {
 export type XDocumentType = XDocumentType$instance & __XDocumentType$views;
 
 
-export interface XElement$instance extends XContainer$instance, System_Xml_Internal.IXmlLineInfo$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {
+export interface XElement$instance extends XContainer$instance {
+    readonly __tsonic_type_System_Xml_Linq_XContainer: never;
     readonly __tsonic_type_System_Xml_Linq_XElement: never;
+    readonly __tsonic_type_System_Xml_Linq_XNode: never;
+    readonly __tsonic_type_System_Xml_Linq_XObject: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
     readonly __tsonic_iface_System_Xml_Serialization_IXmlSerializable: never;
@@ -286,7 +305,6 @@ export interface XElement$instance extends XContainer$instance, System_Xml_Inter
     readonly IsEmpty: boolean;
     readonly LastAttribute: XAttribute | null;
     Name: XName;
-    readonly NodeType: XmlNodeType;
     Value: string;
     AncestorsAndSelf(): IEnumerable_1<XElement>;
     AncestorsAndSelf(name: XName | null): IEnumerable_1<XElement>;
@@ -301,10 +319,10 @@ export interface XElement$instance extends XContainer$instance, System_Xml_Inter
     GetPrefixOfNamespace(ns: XNamespace): string | null;
     RemoveAll(): void;
     RemoveAttributes(): void;
-    ReplaceAll(content: unknown | null): void;
     ReplaceAll(...content: (unknown | null)[]): void;
-    ReplaceAttributes(content: unknown | null): void;
+    ReplaceAll(content: unknown | null): void;
     ReplaceAttributes(...content: (unknown | null)[]): void;
+    ReplaceAttributes(content: unknown | null): void;
     Save(fileName: string): void;
     Save(fileName: string, options: SaveOptions): void;
     Save(stream: Stream): void;
@@ -318,8 +336,8 @@ export interface XElement$instance extends XContainer$instance, System_Xml_Inter
     SetAttributeValue(name: XName, value: unknown | null): void;
     SetElementValue(name: XName, value: unknown | null): void;
     SetValue(value: unknown): void;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    WriteTo: XContainer$instance["WriteTo"] & ((writer: XmlWriter) => void);
+    WriteToAsync: XContainer$instance["WriteToAsync"] & ((writer: XmlWriter, cancellationToken: CancellationToken) => Task);
 }
 
 
@@ -354,7 +372,7 @@ export interface __XElement$views {
 export type XElement = XElement$instance & __XElement$views;
 
 
-export interface XName$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface XName$instance {
     readonly __tsonic_type_System_Xml_Linq_XName: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -407,17 +425,18 @@ export const XNamespace: {
 
 export type XNamespace = XNamespace$instance;
 
-export interface XNode$instance extends XObject$instance, System_Xml_Internal.IXmlLineInfo$instance {
+export interface XNode$instance extends XObject$instance {
     readonly __tsonic_type_System_Xml_Linq_XNode: never;
+    readonly __tsonic_type_System_Xml_Linq_XObject: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     readonly NextNode: XNode | null;
     readonly PreviousNode: XNode | null;
-    AddAfterSelf(content: unknown | null): void;
     AddAfterSelf(...content: (unknown | null)[]): void;
-    AddBeforeSelf(content: unknown | null): void;
+    AddAfterSelf(content: unknown | null): void;
     AddBeforeSelf(...content: (unknown | null)[]): void;
+    AddBeforeSelf(content: unknown | null): void;
     Ancestors(): IEnumerable_1<XElement>;
     Ancestors(name: XName | null): IEnumerable_1<XElement>;
     CreateReader(): XmlReader;
@@ -431,8 +450,8 @@ export interface XNode$instance extends XObject$instance, System_Xml_Internal.IX
     NodesAfterSelf(): IEnumerable_1<XNode>;
     NodesBeforeSelf(): IEnumerable_1<XNode>;
     Remove(): void;
-    ReplaceWith(content: unknown | null): void;
     ReplaceWith(...content: (unknown | null)[]): void;
+    ReplaceWith(content: unknown | null): void;
     ToString(): string;
     ToString(options: SaveOptions): string;
     WriteTo(writer: XmlWriter): void;
@@ -486,10 +505,10 @@ export interface XNodeEqualityComparer$instance {
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
     readonly __tsonic_iface_System_Collections_IEqualityComparer: never;
 
-    Equals(x: XNode | null, y: XNode | null): boolean;
     Equals(obj: unknown | null): boolean;
-    GetHashCode(obj: XNode): int;
+    Equals(x: XNode | null, y: XNode | null): boolean;
     GetHashCode(): int;
+    GetHashCode(obj: XNode): int;
 }
 
 
@@ -506,7 +525,7 @@ export interface __XNodeEqualityComparer$views {
 export type XNodeEqualityComparer = XNodeEqualityComparer$instance & __XNodeEqualityComparer$views;
 
 
-export interface XObject$instance extends System_Xml_Internal.IXmlLineInfo$instance {
+export interface XObject$instance {
     readonly __tsonic_type_System_Xml_Linq_XObject: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
@@ -536,7 +555,8 @@ export interface __XObject$views {
 export type XObject = XObject$instance & __XObject$views;
 
 
-export interface XObjectChangeEventArgs$instance extends EventArgs {
+export interface XObjectChangeEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Xml_Linq_XObjectChangeEventArgs: never;
 
     readonly ObjectChange: XObjectChange;
@@ -554,16 +574,17 @@ export const XObjectChangeEventArgs: {
 
 export type XObjectChangeEventArgs = XObjectChangeEventArgs$instance;
 
-export interface XProcessingInstruction$instance extends XNode$instance, System_Xml_Internal.IXmlLineInfo$instance {
+export interface XProcessingInstruction$instance extends XNode$instance {
+    readonly __tsonic_type_System_Xml_Linq_XNode: never;
+    readonly __tsonic_type_System_Xml_Linq_XObject: never;
     readonly __tsonic_type_System_Xml_Linq_XProcessingInstruction: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
     Data: string;
-    readonly NodeType: XmlNodeType;
     Target: string;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    WriteTo: XNode$instance["WriteTo"] & ((writer: XmlWriter) => void);
+    WriteToAsync: XNode$instance["WriteToAsync"] & ((writer: XmlWriter, cancellationToken: CancellationToken) => Task);
 }
 
 
@@ -584,15 +605,15 @@ export interface XStreamingElement$instance {
     readonly __tsonic_type_System_Xml_Linq_XStreamingElement: never;
 
     Name: XName;
-    Add(content: unknown | null): void;
     Add(...content: (unknown | null)[]): void;
+    Add(content: unknown | null): void;
+    Save(fileName: string): void;
+    Save(fileName: string, options: SaveOptions): void;
     Save(stream: Stream): void;
     Save(stream: Stream, options: SaveOptions): void;
     Save(textWriter: TextWriter): void;
     Save(textWriter: TextWriter, options: SaveOptions): void;
     Save(writer: XmlWriter): void;
-    Save(fileName: string): void;
-    Save(fileName: string, options: SaveOptions): void;
     ToString(): string;
     ToString(options: SaveOptions): string;
     WriteTo(writer: XmlWriter): void;
@@ -608,15 +629,16 @@ export const XStreamingElement: {
 
 export type XStreamingElement = XStreamingElement$instance;
 
-export interface XText$instance extends XNode$instance, System_Xml_Internal.IXmlLineInfo$instance {
+export interface XText$instance extends XNode$instance {
+    readonly __tsonic_type_System_Xml_Linq_XNode: never;
+    readonly __tsonic_type_System_Xml_Linq_XObject: never;
     readonly __tsonic_type_System_Xml_Linq_XText: never;
 
     readonly __tsonic_iface_System_Xml_IXmlLineInfo: never;
 
-    readonly NodeType: XmlNodeType;
     Value: string;
-    WriteTo(writer: XmlWriter): void;
-    WriteToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
+    WriteTo: XNode$instance["WriteTo"] & ((writer: XmlWriter) => void);
+    WriteToAsync: XNode$instance["WriteToAsync"] & ((writer: XmlWriter, cancellationToken: CancellationToken) => Task);
 }
 
 
@@ -634,23 +656,23 @@ export type XText = XText$instance & __XText$views;
 
 
 export abstract class Extensions$instance {
-    static Ancestors<T extends unknown & XNode>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
-    static Ancestors<T extends unknown & XNode>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
+    static Ancestors<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
+    static Ancestors<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
     static AncestorsAndSelf(source: IEnumerable_1<XElement | null>, name: XName | null): IEnumerable_1<XElement>;
     static AncestorsAndSelf(source: IEnumerable_1<XElement | null>): IEnumerable_1<XElement>;
     static Attributes(source: IEnumerable_1<XElement | null>, name: XName | null): IEnumerable_1<XAttribute>;
     static Attributes(source: IEnumerable_1<XElement | null>): IEnumerable_1<XAttribute>;
-    static DescendantNodes<T extends unknown & XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XNode>;
+    static DescendantNodes<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(source: IEnumerable_1<T | null>): IEnumerable_1<XNode>;
     static DescendantNodesAndSelf(source: IEnumerable_1<XElement | null>): IEnumerable_1<XNode>;
-    static Descendants<T extends unknown & XContainer>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
-    static Descendants<T extends unknown & XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
+    static Descendants<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
+    static Descendants<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
     static DescendantsAndSelf(source: IEnumerable_1<XElement | null>, name: XName | null): IEnumerable_1<XElement>;
     static DescendantsAndSelf(source: IEnumerable_1<XElement | null>): IEnumerable_1<XElement>;
-    static Elements<T extends unknown & XContainer>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
-    static Elements<T extends unknown & XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
-    static InDocumentOrder<T extends unknown & XNode>(source: IEnumerable_1<T>): IEnumerable_1<T>;
-    static Nodes<T extends unknown & XContainer>(source: IEnumerable_1<T | null>): IEnumerable_1<XNode>;
-    static Remove<T extends unknown & XNode>(source: IEnumerable_1<T | null>): void;
+    static Elements<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(source: IEnumerable_1<T | null>, name: XName | null): IEnumerable_1<XElement>;
+    static Elements<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(source: IEnumerable_1<T | null>): IEnumerable_1<XElement>;
+    static InDocumentOrder<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(source: IEnumerable_1<T>): IEnumerable_1<T>;
+    static Nodes<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(source: IEnumerable_1<T | null>): IEnumerable_1<XNode>;
+    static Remove<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(source: IEnumerable_1<T | null>): void;
     static Remove(source: IEnumerable_1<XAttribute | null>): void;
 }
 

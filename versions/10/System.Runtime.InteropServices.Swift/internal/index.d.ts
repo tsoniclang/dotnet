@@ -12,6 +12,7 @@ import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrSt
 
 export interface SwiftError$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_Swift_SwiftError: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Value: ptr<void>;
 }
@@ -26,6 +27,7 @@ export type SwiftError = SwiftError$instance;
 
 export interface SwiftIndirectResult$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_Swift_SwiftIndirectResult: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Value: ptr<void>;
 }
@@ -40,6 +42,7 @@ export type SwiftIndirectResult = SwiftIndirectResult$instance;
 
 export interface SwiftSelf$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_Swift_SwiftSelf: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Value: ptr<void>;
 }
@@ -52,16 +55,17 @@ export const SwiftSelf: {
 
 export type SwiftSelf = SwiftSelf$instance;
 
-export interface SwiftSelf_1$instance<T extends NonNullable<unknown>> {
+export interface SwiftSelf_1$instance<T extends { readonly __tsonic_type_System_ValueType: never }> {
     readonly __tsonic_type_System_Runtime_InteropServices_Swift_SwiftSelf_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Value: T;
 }
 
 
 export const SwiftSelf_1: {
-    new<T extends NonNullable<unknown>>(value: T): SwiftSelf_1<T>;
+    new<T extends { readonly __tsonic_type_System_ValueType: never }>(value: T): SwiftSelf_1<T>;
 };
 
 
-export type SwiftSelf_1<T extends NonNullable<unknown>> = SwiftSelf_1$instance<T>;
+export type SwiftSelf_1<T extends { readonly __tsonic_type_System_ValueType: never }> = SwiftSelf_1$instance<T>;

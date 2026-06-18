@@ -10,23 +10,29 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum FormatterAssemblyStyle {
-    Simple = 0,
-    Full = 1
-}
+export type FormatterAssemblyStyle = number & { readonly __tsonic_type_System_Runtime_Serialization_Formatters_FormatterAssemblyStyle: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FormatterAssemblyStyle: {
+    readonly Simple: FormatterAssemblyStyle;
+    readonly Full: FormatterAssemblyStyle;
+};
 
 
-export enum FormatterTypeStyle {
-    TypesWhenNeeded = 0,
-    TypesAlways = 1,
-    XsdString = 2
-}
+export type FormatterTypeStyle = number & { readonly __tsonic_type_System_Runtime_Serialization_Formatters_FormatterTypeStyle: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FormatterTypeStyle: {
+    readonly TypesWhenNeeded: FormatterTypeStyle;
+    readonly TypesAlways: FormatterTypeStyle;
+    readonly XsdString: FormatterTypeStyle;
+};
 
 
-export enum TypeFilterLevel {
-    Low = 2,
-    Full = 3
-}
+export type TypeFilterLevel = number & { readonly __tsonic_type_System_Runtime_Serialization_Formatters_TypeFilterLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TypeFilterLevel: {
+    readonly Low: TypeFilterLevel;
+    readonly Full: TypeFilterLevel;
+};
 
 
 export interface IFieldInfo$instance {

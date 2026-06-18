@@ -11,58 +11,67 @@ import type { IPermission } from "../../System.Security/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum PermissionState {
-    None = 0,
-    Unrestricted = 1
-}
+export type PermissionState = number & { readonly __tsonic_type_System_Security_Permissions_PermissionState: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PermissionState: {
+    readonly None: PermissionState;
+    readonly Unrestricted: PermissionState;
+};
 
 
-export enum SecurityAction {
-    Assert = 3,
-    Demand = 2,
-    Deny = 4,
-    InheritanceDemand = 7,
-    LinkDemand = 6,
-    PermitOnly = 5,
-    RequestMinimum = 8,
-    RequestOptional = 9,
-    RequestRefuse = 10
-}
+export type SecurityAction = number & { readonly __tsonic_type_System_Security_Permissions_SecurityAction: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SecurityAction: {
+    readonly Assert: SecurityAction;
+    readonly Demand: SecurityAction;
+    readonly Deny: SecurityAction;
+    readonly InheritanceDemand: SecurityAction;
+    readonly LinkDemand: SecurityAction;
+    readonly PermitOnly: SecurityAction;
+    readonly RequestMinimum: SecurityAction;
+    readonly RequestOptional: SecurityAction;
+    readonly RequestRefuse: SecurityAction;
+};
 
 
-export enum SecurityPermissionFlag {
-    AllFlags = 16383,
-    Assertion = 1,
-    BindingRedirects = 8192,
-    ControlAppDomain = 1024,
-    ControlDomainPolicy = 256,
-    ControlEvidence = 32,
-    ControlPolicy = 64,
-    ControlPrincipal = 512,
-    ControlThread = 16,
-    Execution = 8,
-    Infrastructure = 4096,
-    NoFlags = 0,
-    RemotingConfiguration = 2048,
-    SerializationFormatter = 128,
-    SkipVerification = 4,
-    UnmanagedCode = 2
-}
+export type SecurityPermissionFlag = number & { readonly __tsonic_type_System_Security_Permissions_SecurityPermissionFlag: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SecurityPermissionFlag: {
+    readonly AllFlags: SecurityPermissionFlag;
+    readonly Assertion: SecurityPermissionFlag;
+    readonly BindingRedirects: SecurityPermissionFlag;
+    readonly ControlAppDomain: SecurityPermissionFlag;
+    readonly ControlDomainPolicy: SecurityPermissionFlag;
+    readonly ControlEvidence: SecurityPermissionFlag;
+    readonly ControlPolicy: SecurityPermissionFlag;
+    readonly ControlPrincipal: SecurityPermissionFlag;
+    readonly ControlThread: SecurityPermissionFlag;
+    readonly Execution: SecurityPermissionFlag;
+    readonly Infrastructure: SecurityPermissionFlag;
+    readonly NoFlags: SecurityPermissionFlag;
+    readonly RemotingConfiguration: SecurityPermissionFlag;
+    readonly SerializationFormatter: SecurityPermissionFlag;
+    readonly SkipVerification: SecurityPermissionFlag;
+    readonly UnmanagedCode: SecurityPermissionFlag;
+};
 
 
-export interface CodeAccessSecurityAttribute$instance extends SecurityAttribute {
+export interface CodeAccessSecurityAttribute$instance extends SecurityAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Security_Permissions_CodeAccessSecurityAttribute: never;
+    readonly __tsonic_type_System_Security_Permissions_SecurityAttribute: never;
 
 }
 
 
-export const CodeAccessSecurityAttribute: (abstract new(action: SecurityAction) => CodeAccessSecurityAttribute) & {
+export const CodeAccessSecurityAttribute: {
 };
 
 
 export type CodeAccessSecurityAttribute = CodeAccessSecurityAttribute$instance;
 
-export interface SecurityAttribute$instance extends Attribute {
+export interface SecurityAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Security_Permissions_SecurityAttribute: never;
 
     Action: SecurityAction;
@@ -71,13 +80,16 @@ export interface SecurityAttribute$instance extends Attribute {
 }
 
 
-export const SecurityAttribute: (abstract new(action: SecurityAction) => SecurityAttribute) & {
+export const SecurityAttribute: {
 };
 
 
 export type SecurityAttribute = SecurityAttribute$instance;
 
-export interface SecurityPermissionAttribute$instance extends CodeAccessSecurityAttribute {
+export interface SecurityPermissionAttribute$instance extends CodeAccessSecurityAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_Security_Permissions_CodeAccessSecurityAttribute: never;
+    readonly __tsonic_type_System_Security_Permissions_SecurityAttribute: never;
     readonly __tsonic_type_System_Security_Permissions_SecurityPermissionAttribute: never;
 
     Assertion: boolean;
@@ -95,7 +107,7 @@ export interface SecurityPermissionAttribute$instance extends CodeAccessSecurity
     SerializationFormatter: boolean;
     SkipVerification: boolean;
     UnmanagedCode: boolean;
-    CreatePermission(): IPermission | null;
+    CreatePermission: CodeAccessSecurityAttribute$instance["CreatePermission"] & (() => IPermission | null);
 }
 
 

@@ -81,19 +81,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid::.ctor():void",
-            "metadataToken": 100663599,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid",
@@ -162,19 +150,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid::.ctor():void",
-            "metadataToken": 100663601,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Principal.Windows:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
@@ -377,12 +353,12 @@
             "targetName": "IsAsync",
             "metadataToken": 385875983,
             "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=getset",
+            "normalizedSignature": "IsAsync|:System.Boolean|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -505,19 +481,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid::.ctor(System.Boolean):void",
-            "metadataToken": 100663603,
-            "canonicalSignature": "(System.Boolean):void",
-            "normalizedSignature": "constructor|(System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
@@ -586,19 +550,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::.ctor(System.Boolean):void",
-            "metadataToken": 100663605,
-            "canonicalSignature": "(System.Boolean):void",
-            "normalizedSignature": "constructor|(System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.IO.MemoryMappedFiles:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle",
@@ -869,30 +821,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptHandle::.ctor():void",
-            "metadataToken": 100664161,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "Microsoft.Win32.SafeHandles.SafeNCryptHandle",
-            "ownerIdentity": "System.Security.Cryptography"
-          },
-          {
-            "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptHandle::.ctor(System.IntPtr,System.Runtime.InteropServices.SafeHandle):void",
-            "metadataToken": 100664162,
-            "canonicalSignature": "(System.IntPtr,System.Runtime.InteropServices.SafeHandle):void",
-            "normalizedSignature": "constructor|(System.IntPtr,System.Runtime.InteropServices.SafeHandle):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "Microsoft.Win32.SafeHandles.SafeNCryptHandle",
-            "ownerIdentity": "System.Security.Cryptography"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Security.Cryptography:Microsoft.Win32.SafeHandles.SafeNCryptKeyHandle",

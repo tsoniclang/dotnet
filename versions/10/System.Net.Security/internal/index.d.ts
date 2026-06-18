@@ -23,396 +23,408 @@ import type { IIdentity, TokenImpersonationLevel } from "../../System.Security.P
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, ConsoleKeyInfo, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from "../../System/internal/index.js";
 
-export enum AuthenticationLevel {
-    None = 0,
-    MutualAuthRequested = 1,
-    MutualAuthRequired = 2
-}
+export type AuthenticationLevel = number & { readonly __tsonic_type_System_Net_Security_AuthenticationLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum EncryptionPolicy {
-    RequireEncryption = 0,
-    AllowNoEncryption = 1,
-    NoEncryption = 2
-}
+export const AuthenticationLevel: {
+    readonly None: AuthenticationLevel;
+    readonly MutualAuthRequested: AuthenticationLevel;
+    readonly MutualAuthRequired: AuthenticationLevel;
+};
 
 
-export enum NegotiateAuthenticationStatusCode {
-    Completed = 0,
-    ContinueNeeded = 1,
-    GenericFailure = 2,
-    BadBinding = 3,
-    Unsupported = 4,
-    MessageAltered = 5,
-    ContextExpired = 6,
-    CredentialsExpired = 7,
-    InvalidCredentials = 8,
-    InvalidToken = 9,
-    UnknownCredentials = 10,
-    QopNotSupported = 11,
-    OutOfSequence = 12,
-    SecurityQosFailed = 13,
-    TargetUnknown = 14,
-    ImpersonationValidationFailed = 15
-}
+export type EncryptionPolicy = number & { readonly __tsonic_type_System_Net_Security_EncryptionPolicy: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EncryptionPolicy: {
+    readonly RequireEncryption: EncryptionPolicy;
+    readonly AllowNoEncryption: EncryptionPolicy;
+    readonly NoEncryption: EncryptionPolicy;
+};
 
 
-export enum ProtectionLevel {
-    None = 0,
-    Sign = 1,
-    EncryptAndSign = 2
-}
+export type NegotiateAuthenticationStatusCode = number & { readonly __tsonic_type_System_Net_Security_NegotiateAuthenticationStatusCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const NegotiateAuthenticationStatusCode: {
+    readonly Completed: NegotiateAuthenticationStatusCode;
+    readonly ContinueNeeded: NegotiateAuthenticationStatusCode;
+    readonly GenericFailure: NegotiateAuthenticationStatusCode;
+    readonly BadBinding: NegotiateAuthenticationStatusCode;
+    readonly Unsupported: NegotiateAuthenticationStatusCode;
+    readonly MessageAltered: NegotiateAuthenticationStatusCode;
+    readonly ContextExpired: NegotiateAuthenticationStatusCode;
+    readonly CredentialsExpired: NegotiateAuthenticationStatusCode;
+    readonly InvalidCredentials: NegotiateAuthenticationStatusCode;
+    readonly InvalidToken: NegotiateAuthenticationStatusCode;
+    readonly UnknownCredentials: NegotiateAuthenticationStatusCode;
+    readonly QopNotSupported: NegotiateAuthenticationStatusCode;
+    readonly OutOfSequence: NegotiateAuthenticationStatusCode;
+    readonly SecurityQosFailed: NegotiateAuthenticationStatusCode;
+    readonly TargetUnknown: NegotiateAuthenticationStatusCode;
+    readonly ImpersonationValidationFailed: NegotiateAuthenticationStatusCode;
+};
 
 
-export enum SslPolicyErrors {
-    None = 0,
-    RemoteCertificateNotAvailable = 1,
-    RemoteCertificateNameMismatch = 2,
-    RemoteCertificateChainErrors = 4
-}
+export type ProtectionLevel = number & { readonly __tsonic_type_System_Net_Security_ProtectionLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ProtectionLevel: {
+    readonly None: ProtectionLevel;
+    readonly Sign: ProtectionLevel;
+    readonly EncryptAndSign: ProtectionLevel;
+};
 
 
-export enum TlsCipherSuite {
-    TLS_NULL_WITH_NULL_NULL = 0,
-    TLS_RSA_WITH_NULL_MD5 = 1,
-    TLS_RSA_WITH_NULL_SHA = 2,
-    TLS_RSA_EXPORT_WITH_RC4_40_MD5 = 3,
-    TLS_RSA_WITH_RC4_128_MD5 = 4,
-    TLS_RSA_WITH_RC4_128_SHA = 5,
-    TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5 = 6,
-    TLS_RSA_WITH_IDEA_CBC_SHA = 7,
-    TLS_RSA_EXPORT_WITH_DES40_CBC_SHA = 8,
-    TLS_RSA_WITH_DES_CBC_SHA = 9,
-    TLS_RSA_WITH_3DES_EDE_CBC_SHA = 10,
-    TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA = 11,
-    TLS_DH_DSS_WITH_DES_CBC_SHA = 12,
-    TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA = 13,
-    TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA = 14,
-    TLS_DH_RSA_WITH_DES_CBC_SHA = 15,
-    TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA = 16,
-    TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA = 17,
-    TLS_DHE_DSS_WITH_DES_CBC_SHA = 18,
-    TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA = 19,
-    TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA = 20,
-    TLS_DHE_RSA_WITH_DES_CBC_SHA = 21,
-    TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA = 22,
-    TLS_DH_anon_EXPORT_WITH_RC4_40_MD5 = 23,
-    TLS_DH_anon_WITH_RC4_128_MD5 = 24,
-    TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA = 25,
-    TLS_DH_anon_WITH_DES_CBC_SHA = 26,
-    TLS_DH_anon_WITH_3DES_EDE_CBC_SHA = 27,
-    TLS_KRB5_WITH_DES_CBC_SHA = 30,
-    TLS_KRB5_WITH_3DES_EDE_CBC_SHA = 31,
-    TLS_KRB5_WITH_RC4_128_SHA = 32,
-    TLS_KRB5_WITH_IDEA_CBC_SHA = 33,
-    TLS_KRB5_WITH_DES_CBC_MD5 = 34,
-    TLS_KRB5_WITH_3DES_EDE_CBC_MD5 = 35,
-    TLS_KRB5_WITH_RC4_128_MD5 = 36,
-    TLS_KRB5_WITH_IDEA_CBC_MD5 = 37,
-    TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA = 38,
-    TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA = 39,
-    TLS_KRB5_EXPORT_WITH_RC4_40_SHA = 40,
-    TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5 = 41,
-    TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5 = 42,
-    TLS_KRB5_EXPORT_WITH_RC4_40_MD5 = 43,
-    TLS_PSK_WITH_NULL_SHA = 44,
-    TLS_DHE_PSK_WITH_NULL_SHA = 45,
-    TLS_RSA_PSK_WITH_NULL_SHA = 46,
-    TLS_RSA_WITH_AES_128_CBC_SHA = 47,
-    TLS_DH_DSS_WITH_AES_128_CBC_SHA = 48,
-    TLS_DH_RSA_WITH_AES_128_CBC_SHA = 49,
-    TLS_DHE_DSS_WITH_AES_128_CBC_SHA = 50,
-    TLS_DHE_RSA_WITH_AES_128_CBC_SHA = 51,
-    TLS_DH_anon_WITH_AES_128_CBC_SHA = 52,
-    TLS_RSA_WITH_AES_256_CBC_SHA = 53,
-    TLS_DH_DSS_WITH_AES_256_CBC_SHA = 54,
-    TLS_DH_RSA_WITH_AES_256_CBC_SHA = 55,
-    TLS_DHE_DSS_WITH_AES_256_CBC_SHA = 56,
-    TLS_DHE_RSA_WITH_AES_256_CBC_SHA = 57,
-    TLS_DH_anon_WITH_AES_256_CBC_SHA = 58,
-    TLS_RSA_WITH_NULL_SHA256 = 59,
-    TLS_RSA_WITH_AES_128_CBC_SHA256 = 60,
-    TLS_RSA_WITH_AES_256_CBC_SHA256 = 61,
-    TLS_DH_DSS_WITH_AES_128_CBC_SHA256 = 62,
-    TLS_DH_RSA_WITH_AES_128_CBC_SHA256 = 63,
-    TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 = 64,
-    TLS_RSA_WITH_CAMELLIA_128_CBC_SHA = 65,
-    TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA = 66,
-    TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA = 67,
-    TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA = 68,
-    TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA = 69,
-    TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA = 70,
-    TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 = 103,
-    TLS_DH_DSS_WITH_AES_256_CBC_SHA256 = 104,
-    TLS_DH_RSA_WITH_AES_256_CBC_SHA256 = 105,
-    TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 = 106,
-    TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 = 107,
-    TLS_DH_anon_WITH_AES_128_CBC_SHA256 = 108,
-    TLS_DH_anon_WITH_AES_256_CBC_SHA256 = 109,
-    TLS_RSA_WITH_CAMELLIA_256_CBC_SHA = 132,
-    TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA = 133,
-    TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA = 134,
-    TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA = 135,
-    TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA = 136,
-    TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA = 137,
-    TLS_PSK_WITH_RC4_128_SHA = 138,
-    TLS_PSK_WITH_3DES_EDE_CBC_SHA = 139,
-    TLS_PSK_WITH_AES_128_CBC_SHA = 140,
-    TLS_PSK_WITH_AES_256_CBC_SHA = 141,
-    TLS_DHE_PSK_WITH_RC4_128_SHA = 142,
-    TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA = 143,
-    TLS_DHE_PSK_WITH_AES_128_CBC_SHA = 144,
-    TLS_DHE_PSK_WITH_AES_256_CBC_SHA = 145,
-    TLS_RSA_PSK_WITH_RC4_128_SHA = 146,
-    TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA = 147,
-    TLS_RSA_PSK_WITH_AES_128_CBC_SHA = 148,
-    TLS_RSA_PSK_WITH_AES_256_CBC_SHA = 149,
-    TLS_RSA_WITH_SEED_CBC_SHA = 150,
-    TLS_DH_DSS_WITH_SEED_CBC_SHA = 151,
-    TLS_DH_RSA_WITH_SEED_CBC_SHA = 152,
-    TLS_DHE_DSS_WITH_SEED_CBC_SHA = 153,
-    TLS_DHE_RSA_WITH_SEED_CBC_SHA = 154,
-    TLS_DH_anon_WITH_SEED_CBC_SHA = 155,
-    TLS_RSA_WITH_AES_128_GCM_SHA256 = 156,
-    TLS_RSA_WITH_AES_256_GCM_SHA384 = 157,
-    TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 = 158,
-    TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 = 159,
-    TLS_DH_RSA_WITH_AES_128_GCM_SHA256 = 160,
-    TLS_DH_RSA_WITH_AES_256_GCM_SHA384 = 161,
-    TLS_DHE_DSS_WITH_AES_128_GCM_SHA256 = 162,
-    TLS_DHE_DSS_WITH_AES_256_GCM_SHA384 = 163,
-    TLS_DH_DSS_WITH_AES_128_GCM_SHA256 = 164,
-    TLS_DH_DSS_WITH_AES_256_GCM_SHA384 = 165,
-    TLS_DH_anon_WITH_AES_128_GCM_SHA256 = 166,
-    TLS_DH_anon_WITH_AES_256_GCM_SHA384 = 167,
-    TLS_PSK_WITH_AES_128_GCM_SHA256 = 168,
-    TLS_PSK_WITH_AES_256_GCM_SHA384 = 169,
-    TLS_DHE_PSK_WITH_AES_128_GCM_SHA256 = 170,
-    TLS_DHE_PSK_WITH_AES_256_GCM_SHA384 = 171,
-    TLS_RSA_PSK_WITH_AES_128_GCM_SHA256 = 172,
-    TLS_RSA_PSK_WITH_AES_256_GCM_SHA384 = 173,
-    TLS_PSK_WITH_AES_128_CBC_SHA256 = 174,
-    TLS_PSK_WITH_AES_256_CBC_SHA384 = 175,
-    TLS_PSK_WITH_NULL_SHA256 = 176,
-    TLS_PSK_WITH_NULL_SHA384 = 177,
-    TLS_DHE_PSK_WITH_AES_128_CBC_SHA256 = 178,
-    TLS_DHE_PSK_WITH_AES_256_CBC_SHA384 = 179,
-    TLS_DHE_PSK_WITH_NULL_SHA256 = 180,
-    TLS_DHE_PSK_WITH_NULL_SHA384 = 181,
-    TLS_RSA_PSK_WITH_AES_128_CBC_SHA256 = 182,
-    TLS_RSA_PSK_WITH_AES_256_CBC_SHA384 = 183,
-    TLS_RSA_PSK_WITH_NULL_SHA256 = 184,
-    TLS_RSA_PSK_WITH_NULL_SHA384 = 185,
-    TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 186,
-    TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256 = 187,
-    TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 188,
-    TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256 = 189,
-    TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 190,
-    TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 = 191,
-    TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 192,
-    TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256 = 193,
-    TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 194,
-    TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256 = 195,
-    TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 196,
-    TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 = 197,
-    TLS_AES_128_GCM_SHA256 = 4865,
-    TLS_AES_256_GCM_SHA384 = 4866,
-    TLS_CHACHA20_POLY1305_SHA256 = 4867,
-    TLS_AES_128_CCM_SHA256 = 4868,
-    TLS_AES_128_CCM_8_SHA256 = 4869,
-    TLS_ECDH_ECDSA_WITH_NULL_SHA = 49153,
-    TLS_ECDH_ECDSA_WITH_RC4_128_SHA = 49154,
-    TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA = 49155,
-    TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA = 49156,
-    TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA = 49157,
-    TLS_ECDHE_ECDSA_WITH_NULL_SHA = 49158,
-    TLS_ECDHE_ECDSA_WITH_RC4_128_SHA = 49159,
-    TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA = 49160,
-    TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA = 49161,
-    TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA = 49162,
-    TLS_ECDH_RSA_WITH_NULL_SHA = 49163,
-    TLS_ECDH_RSA_WITH_RC4_128_SHA = 49164,
-    TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA = 49165,
-    TLS_ECDH_RSA_WITH_AES_128_CBC_SHA = 49166,
-    TLS_ECDH_RSA_WITH_AES_256_CBC_SHA = 49167,
-    TLS_ECDHE_RSA_WITH_NULL_SHA = 49168,
-    TLS_ECDHE_RSA_WITH_RC4_128_SHA = 49169,
-    TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA = 49170,
-    TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA = 49171,
-    TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA = 49172,
-    TLS_ECDH_anon_WITH_NULL_SHA = 49173,
-    TLS_ECDH_anon_WITH_RC4_128_SHA = 49174,
-    TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA = 49175,
-    TLS_ECDH_anon_WITH_AES_128_CBC_SHA = 49176,
-    TLS_ECDH_anon_WITH_AES_256_CBC_SHA = 49177,
-    TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA = 49178,
-    TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA = 49179,
-    TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA = 49180,
-    TLS_SRP_SHA_WITH_AES_128_CBC_SHA = 49181,
-    TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA = 49182,
-    TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA = 49183,
-    TLS_SRP_SHA_WITH_AES_256_CBC_SHA = 49184,
-    TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA = 49185,
-    TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA = 49186,
-    TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 = 49187,
-    TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 = 49188,
-    TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 = 49189,
-    TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 = 49190,
-    TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 = 49191,
-    TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 = 49192,
-    TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 = 49193,
-    TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 = 49194,
-    TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 = 49195,
-    TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 = 49196,
-    TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256 = 49197,
-    TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384 = 49198,
-    TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 = 49199,
-    TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 = 49200,
-    TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256 = 49201,
-    TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384 = 49202,
-    TLS_ECDHE_PSK_WITH_RC4_128_SHA = 49203,
-    TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA = 49204,
-    TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA = 49205,
-    TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA = 49206,
-    TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256 = 49207,
-    TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384 = 49208,
-    TLS_ECDHE_PSK_WITH_NULL_SHA = 49209,
-    TLS_ECDHE_PSK_WITH_NULL_SHA256 = 49210,
-    TLS_ECDHE_PSK_WITH_NULL_SHA384 = 49211,
-    TLS_RSA_WITH_ARIA_128_CBC_SHA256 = 49212,
-    TLS_RSA_WITH_ARIA_256_CBC_SHA384 = 49213,
-    TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256 = 49214,
-    TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384 = 49215,
-    TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256 = 49216,
-    TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384 = 49217,
-    TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256 = 49218,
-    TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384 = 49219,
-    TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256 = 49220,
-    TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384 = 49221,
-    TLS_DH_anon_WITH_ARIA_128_CBC_SHA256 = 49222,
-    TLS_DH_anon_WITH_ARIA_256_CBC_SHA384 = 49223,
-    TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256 = 49224,
-    TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384 = 49225,
-    TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256 = 49226,
-    TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384 = 49227,
-    TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256 = 49228,
-    TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384 = 49229,
-    TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256 = 49230,
-    TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384 = 49231,
-    TLS_RSA_WITH_ARIA_128_GCM_SHA256 = 49232,
-    TLS_RSA_WITH_ARIA_256_GCM_SHA384 = 49233,
-    TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256 = 49234,
-    TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384 = 49235,
-    TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256 = 49236,
-    TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384 = 49237,
-    TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256 = 49238,
-    TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384 = 49239,
-    TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256 = 49240,
-    TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384 = 49241,
-    TLS_DH_anon_WITH_ARIA_128_GCM_SHA256 = 49242,
-    TLS_DH_anon_WITH_ARIA_256_GCM_SHA384 = 49243,
-    TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256 = 49244,
-    TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384 = 49245,
-    TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256 = 49246,
-    TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384 = 49247,
-    TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256 = 49248,
-    TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384 = 49249,
-    TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256 = 49250,
-    TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384 = 49251,
-    TLS_PSK_WITH_ARIA_128_CBC_SHA256 = 49252,
-    TLS_PSK_WITH_ARIA_256_CBC_SHA384 = 49253,
-    TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256 = 49254,
-    TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384 = 49255,
-    TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256 = 49256,
-    TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384 = 49257,
-    TLS_PSK_WITH_ARIA_128_GCM_SHA256 = 49258,
-    TLS_PSK_WITH_ARIA_256_GCM_SHA384 = 49259,
-    TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256 = 49260,
-    TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384 = 49261,
-    TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256 = 49262,
-    TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384 = 49263,
-    TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256 = 49264,
-    TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384 = 49265,
-    TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256 = 49266,
-    TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384 = 49267,
-    TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256 = 49268,
-    TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384 = 49269,
-    TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 49270,
-    TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384 = 49271,
-    TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 49272,
-    TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384 = 49273,
-    TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49274,
-    TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49275,
-    TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49276,
-    TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49277,
-    TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49278,
-    TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49279,
-    TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256 = 49280,
-    TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384 = 49281,
-    TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256 = 49282,
-    TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384 = 49283,
-    TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256 = 49284,
-    TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384 = 49285,
-    TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256 = 49286,
-    TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384 = 49287,
-    TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256 = 49288,
-    TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384 = 49289,
-    TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49290,
-    TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49291,
-    TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49292,
-    TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49293,
-    TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49294,
-    TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49295,
-    TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49296,
-    TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49297,
-    TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49298,
-    TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49299,
-    TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49300,
-    TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49301,
-    TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49302,
-    TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49303,
-    TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49304,
-    TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49305,
-    TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49306,
-    TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49307,
-    TLS_RSA_WITH_AES_128_CCM = 49308,
-    TLS_RSA_WITH_AES_256_CCM = 49309,
-    TLS_DHE_RSA_WITH_AES_128_CCM = 49310,
-    TLS_DHE_RSA_WITH_AES_256_CCM = 49311,
-    TLS_RSA_WITH_AES_128_CCM_8 = 49312,
-    TLS_RSA_WITH_AES_256_CCM_8 = 49313,
-    TLS_DHE_RSA_WITH_AES_128_CCM_8 = 49314,
-    TLS_DHE_RSA_WITH_AES_256_CCM_8 = 49315,
-    TLS_PSK_WITH_AES_128_CCM = 49316,
-    TLS_PSK_WITH_AES_256_CCM = 49317,
-    TLS_DHE_PSK_WITH_AES_128_CCM = 49318,
-    TLS_DHE_PSK_WITH_AES_256_CCM = 49319,
-    TLS_PSK_WITH_AES_128_CCM_8 = 49320,
-    TLS_PSK_WITH_AES_256_CCM_8 = 49321,
-    TLS_PSK_DHE_WITH_AES_128_CCM_8 = 49322,
-    TLS_PSK_DHE_WITH_AES_256_CCM_8 = 49323,
-    TLS_ECDHE_ECDSA_WITH_AES_128_CCM = 49324,
-    TLS_ECDHE_ECDSA_WITH_AES_256_CCM = 49325,
-    TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8 = 49326,
-    TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8 = 49327,
-    TLS_ECCPWD_WITH_AES_128_GCM_SHA256 = 49328,
-    TLS_ECCPWD_WITH_AES_256_GCM_SHA384 = 49329,
-    TLS_ECCPWD_WITH_AES_128_CCM_SHA256 = 49330,
-    TLS_ECCPWD_WITH_AES_256_CCM_SHA384 = 49331,
-    TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 = 52392,
-    TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 = 52393,
-    TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 = 52394,
-    TLS_PSK_WITH_CHACHA20_POLY1305_SHA256 = 52395,
-    TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256 = 52396,
-    TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256 = 52397,
-    TLS_RSA_PSK_WITH_CHACHA20_POLY1305_SHA256 = 52398,
-    TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256 = 53249,
-    TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384 = 53250,
-    TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256 = 53251,
-    TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256 = 53253
-}
+export type SslPolicyErrors = number & { readonly __tsonic_type_System_Net_Security_SslPolicyErrors: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SslPolicyErrors: {
+    readonly None: SslPolicyErrors;
+    readonly RemoteCertificateNotAvailable: SslPolicyErrors;
+    readonly RemoteCertificateNameMismatch: SslPolicyErrors;
+    readonly RemoteCertificateChainErrors: SslPolicyErrors;
+};
+
+
+export type TlsCipherSuite = number & { readonly __tsonic_type_System_Net_Security_TlsCipherSuite: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TlsCipherSuite: {
+    readonly TLS_NULL_WITH_NULL_NULL: TlsCipherSuite;
+    readonly TLS_RSA_WITH_NULL_MD5: TlsCipherSuite;
+    readonly TLS_RSA_WITH_NULL_SHA: TlsCipherSuite;
+    readonly TLS_RSA_EXPORT_WITH_RC4_40_MD5: TlsCipherSuite;
+    readonly TLS_RSA_WITH_RC4_128_MD5: TlsCipherSuite;
+    readonly TLS_RSA_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5: TlsCipherSuite;
+    readonly TLS_RSA_WITH_IDEA_CBC_SHA: TlsCipherSuite;
+    readonly TLS_RSA_EXPORT_WITH_DES40_CBC_SHA: TlsCipherSuite;
+    readonly TLS_RSA_WITH_DES_CBC_SHA: TlsCipherSuite;
+    readonly TLS_RSA_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_DES_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_DES_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_DES_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_DES_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_anon_EXPORT_WITH_RC4_40_MD5: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_RC4_128_MD5: TlsCipherSuite;
+    readonly TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_DES_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_KRB5_WITH_DES_CBC_SHA: TlsCipherSuite;
+    readonly TLS_KRB5_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_KRB5_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_KRB5_WITH_IDEA_CBC_SHA: TlsCipherSuite;
+    readonly TLS_KRB5_WITH_DES_CBC_MD5: TlsCipherSuite;
+    readonly TLS_KRB5_WITH_3DES_EDE_CBC_MD5: TlsCipherSuite;
+    readonly TLS_KRB5_WITH_RC4_128_MD5: TlsCipherSuite;
+    readonly TLS_KRB5_WITH_IDEA_CBC_MD5: TlsCipherSuite;
+    readonly TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA: TlsCipherSuite;
+    readonly TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA: TlsCipherSuite;
+    readonly TLS_KRB5_EXPORT_WITH_RC4_40_SHA: TlsCipherSuite;
+    readonly TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5: TlsCipherSuite;
+    readonly TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5: TlsCipherSuite;
+    readonly TLS_KRB5_EXPORT_WITH_RC4_40_MD5: TlsCipherSuite;
+    readonly TLS_PSK_WITH_NULL_SHA: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_NULL_SHA: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_NULL_SHA: TlsCipherSuite;
+    readonly TLS_RSA_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_RSA_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_RSA_WITH_NULL_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_WITH_AES_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_WITH_CAMELLIA_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_AES_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_AES_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_AES_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_AES_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_AES_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_WITH_CAMELLIA_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_PSK_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_PSK_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_PSK_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_PSK_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_RSA_WITH_SEED_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_SEED_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_SEED_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_SEED_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_SEED_CBC_SHA: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_SEED_CBC_SHA: TlsCipherSuite;
+    readonly TLS_RSA_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_PSK_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_PSK_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_PSK_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_PSK_WITH_AES_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_PSK_WITH_NULL_SHA256: TlsCipherSuite;
+    readonly TLS_PSK_WITH_NULL_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_AES_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_NULL_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_NULL_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_AES_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_NULL_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_NULL_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_CHACHA20_POLY1305_SHA256: TlsCipherSuite;
+    readonly TLS_AES_128_CCM_SHA256: TlsCipherSuite;
+    readonly TLS_AES_128_CCM_8_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_NULL_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_NULL_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_NULL_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_NULL_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_anon_WITH_NULL_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_anon_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_anon_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDH_anon_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_SRP_SHA_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_SRP_SHA_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_RC4_128_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_NULL_SHA: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_NULL_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_NULL_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_PSK_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_PSK_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_PSK_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_PSK_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384: TlsCipherSuite;
+    readonly TLS_RSA_WITH_AES_128_CCM: TlsCipherSuite;
+    readonly TLS_RSA_WITH_AES_256_CCM: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_AES_128_CCM: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_AES_256_CCM: TlsCipherSuite;
+    readonly TLS_RSA_WITH_AES_128_CCM_8: TlsCipherSuite;
+    readonly TLS_RSA_WITH_AES_256_CCM_8: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_AES_128_CCM_8: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_AES_256_CCM_8: TlsCipherSuite;
+    readonly TLS_PSK_WITH_AES_128_CCM: TlsCipherSuite;
+    readonly TLS_PSK_WITH_AES_256_CCM: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_AES_128_CCM: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_AES_256_CCM: TlsCipherSuite;
+    readonly TLS_PSK_WITH_AES_128_CCM_8: TlsCipherSuite;
+    readonly TLS_PSK_WITH_AES_256_CCM_8: TlsCipherSuite;
+    readonly TLS_PSK_DHE_WITH_AES_128_CCM_8: TlsCipherSuite;
+    readonly TLS_PSK_DHE_WITH_AES_256_CCM_8: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_AES_128_CCM: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_AES_256_CCM: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8: TlsCipherSuite;
+    readonly TLS_ECCPWD_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECCPWD_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECCPWD_WITH_AES_128_CCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECCPWD_WITH_AES_256_CCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256: TlsCipherSuite;
+    readonly TLS_PSK_WITH_CHACHA20_POLY1305_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256: TlsCipherSuite;
+    readonly TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256: TlsCipherSuite;
+    readonly TLS_RSA_PSK_WITH_CHACHA20_POLY1305_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256: TlsCipherSuite;
+    readonly TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256: TlsCipherSuite;
+};
 
 
 export type LocalCertificateSelectionCallback = (sender: unknown, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate | null, acceptableIssuers: string[]) => X509Certificate | null;
@@ -429,12 +441,13 @@ export type ServerOptionsSelectionCallback = (stream: SslStream, clientHelloInfo
 
 export interface SslApplicationProtocol$instance {
     readonly __tsonic_type_System_Net_Security_SslApplicationProtocol: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Protocol: ReadOnlyMemory_1<System_Internal.Byte>;
-    Equals(other: SslApplicationProtocol): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(other: SslApplicationProtocol): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -461,6 +474,7 @@ export type SslApplicationProtocol = SslApplicationProtocol$instance & __SslAppl
 
 export interface SslClientHelloInfo$instance {
     readonly __tsonic_type_System_Net_Security_SslClientHelloInfo: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly ServerName: string;
     readonly SslProtocols: SslProtocols;
@@ -474,7 +488,9 @@ export const SslClientHelloInfo: {
 
 export type SslClientHelloInfo = SslClientHelloInfo$instance;
 
-export interface AuthenticatedStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
+export interface AuthenticatedStream$instance extends System_IO_Internal.Stream$instance {
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_Security_AuthenticatedStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -486,13 +502,12 @@ export interface AuthenticatedStream$instance extends Stream, System_Internal.IA
     readonly IsServer: boolean;
     readonly IsSigned: boolean;
     readonly LeaveInnerStreamOpen: boolean;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    Dispose: System_IO_Internal.Stream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    DisposeAsync: System_IO_Internal.Stream$instance["DisposeAsync"] & (() => ValueTask);
 }
 
 
-export const AuthenticatedStream: (abstract new(innerStream: Stream, leaveInnerStreamOpen: boolean) => AuthenticatedStream) & {
+export const AuthenticatedStream: {
 };
 
 
@@ -518,7 +533,7 @@ export const CipherSuitesPolicy: {
 
 export type CipherSuitesPolicy = CipherSuitesPolicy$instance;
 
-export interface NegotiateAuthentication$instance extends System_Internal.IDisposable$instance {
+export interface NegotiateAuthentication$instance {
     readonly __tsonic_type_System_Net_Security_NegotiateAuthentication: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -600,78 +615,60 @@ export const NegotiateAuthenticationServerOptions: {
 
 export type NegotiateAuthenticationServerOptions = NegotiateAuthenticationServerOptions$instance;
 
-export interface NegotiateStream$instance extends AuthenticatedStream$instance, System_Internal.IAsyncDisposable$instance {
+export interface NegotiateStream$instance extends AuthenticatedStream$instance {
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
+    readonly __tsonic_type_System_Net_Security_AuthenticatedStream: never;
     readonly __tsonic_type_System_Net_Security_NegotiateStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanTimeout: boolean;
-    readonly CanWrite: boolean;
     readonly ImpersonationLevel: TokenImpersonationLevel;
-    readonly IsAuthenticated: boolean;
-    readonly IsEncrypted: boolean;
-    readonly IsMutuallyAuthenticated: boolean;
-    readonly IsServer: boolean;
-    readonly IsSigned: boolean;
-    readonly Length: long;
-    Position: long;
-    ReadTimeout: int;
     readonly RemoteIdentity: IIdentity;
-    WriteTimeout: int;
     AuthenticateAsClient(): void;
-    AuthenticateAsClient(credential: NetworkCredential, targetName: string): void;
     AuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string): void;
-    AuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): void;
     AuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): void;
+    AuthenticateAsClient(credential: NetworkCredential, targetName: string): void;
+    AuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): void;
     AuthenticateAsClientAsync(): Task;
-    AuthenticateAsClientAsync(credential: NetworkCredential, targetName: string): Task;
-    AuthenticateAsClientAsync(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): Task;
     AuthenticateAsClientAsync(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string): Task;
     AuthenticateAsClientAsync(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): Task;
+    AuthenticateAsClientAsync(credential: NetworkCredential, targetName: string): Task;
+    AuthenticateAsClientAsync(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel): Task;
     AuthenticateAsServer(): void;
-    AuthenticateAsServer(policy: ExtendedProtectionPolicy | null): void;
-    AuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): void;
     AuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy | null, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): void;
+    AuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): void;
+    AuthenticateAsServer(policy: ExtendedProtectionPolicy | null): void;
     AuthenticateAsServerAsync(): Task;
-    AuthenticateAsServerAsync(policy: ExtendedProtectionPolicy | null): Task;
-    AuthenticateAsServerAsync(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
     AuthenticateAsServerAsync(credential: NetworkCredential, policy: ExtendedProtectionPolicy | null, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
+    AuthenticateAsServerAsync(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel): Task;
+    AuthenticateAsServerAsync(policy: ExtendedProtectionPolicy | null): Task;
     BeginAuthenticateAsClient(asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
-    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     BeginAuthenticateAsClient(credential: NetworkCredential, binding: ChannelBinding | null, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsClient(credential: NetworkCredential, targetName: string, requiredProtectionLevel: ProtectionLevel, allowedImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     BeginAuthenticateAsServer(asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
-    BeginAuthenticateAsServer(policy: ExtendedProtectionPolicy | null, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
-    BeginAuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     BeginAuthenticateAsServer(credential: NetworkCredential, policy: ExtendedProtectionPolicy | null, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    BeginAuthenticateAsServer(credential: NetworkCredential, requiredProtectionLevel: ProtectionLevel, requiredImpersonationLevel: TokenImpersonationLevel, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginAuthenticateAsServer(policy: ExtendedProtectionPolicy | null, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
+    BeginRead: AuthenticatedStream$instance["BeginRead"] & ((buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null) => IAsyncResult);
+    BeginWrite: AuthenticatedStream$instance["BeginWrite"] & ((buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null) => IAsyncResult);
+    Dispose: AuthenticatedStream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    DisposeAsync: AuthenticatedStream$instance["DisposeAsync"] & (() => ValueTask);
     EndAuthenticateAsClient(asyncResult: IAsyncResult): void;
     EndAuthenticateAsServer(asyncResult: IAsyncResult): void;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
+    EndRead: AuthenticatedStream$instance["EndRead"] & ((asyncResult: IAsyncResult) => int);
+    EndWrite: AuthenticatedStream$instance["EndWrite"] & ((asyncResult: IAsyncResult) => void);
+    Flush: AuthenticatedStream$instance["Flush"] & (() => void);
+    FlushAsync: AuthenticatedStream$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
+    Read: AuthenticatedStream$instance["Read"] & ((buffer: Span_1<System_Internal.Byte>) => int) & ((buffer: byte[], offset: int, count: int) => int);
+    ReadAsync: AuthenticatedStream$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int) => Task_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task_1<System_Internal.Int32>);
+    Seek: AuthenticatedStream$instance["Seek"] & ((offset: long, origin: SeekOrigin) => long);
+    SetLength: AuthenticatedStream$instance["SetLength"] & ((value: long) => void);
+    Write: AuthenticatedStream$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Byte>) => void) & ((buffer: byte[], offset: int, count: int) => void);
+    WriteAsync: AuthenticatedStream$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask) & ((buffer: byte[], offset: int, count: int) => Task) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task);
 }
 
 
@@ -774,92 +771,73 @@ export const SslServerAuthenticationOptions: {
 
 export type SslServerAuthenticationOptions = SslServerAuthenticationOptions$instance;
 
-export interface SslStream$instance extends AuthenticatedStream$instance, System_Internal.IAsyncDisposable$instance {
+export interface SslStream$instance extends AuthenticatedStream$instance {
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
+    readonly __tsonic_type_System_Net_Security_AuthenticatedStream: never;
     readonly __tsonic_type_System_Net_Security_SslStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanTimeout: boolean;
-    readonly CanWrite: boolean;
     readonly CheckCertRevocationStatus: boolean;
     readonly CipherAlgorithm: CipherAlgorithmType;
     readonly CipherStrength: int;
     readonly HashAlgorithm: HashAlgorithmType;
     readonly HashStrength: int;
-    readonly IsAuthenticated: boolean;
-    readonly IsEncrypted: boolean;
-    readonly IsMutuallyAuthenticated: boolean;
-    readonly IsServer: boolean;
-    readonly IsSigned: boolean;
     readonly KeyExchangeAlgorithm: ExchangeAlgorithmType;
     readonly KeyExchangeStrength: int;
-    readonly Length: long;
     readonly LocalCertificate: X509Certificate | null;
     readonly NegotiatedApplicationProtocol: SslApplicationProtocol;
     readonly NegotiatedCipherSuite: TlsCipherSuite;
-    Position: long;
-    ReadTimeout: int;
     readonly RemoteCertificate: X509Certificate | null;
     readonly SslProtocol: SslProtocols;
     readonly TargetHostName: string;
     readonly TransportContext: TransportContext;
-    WriteTimeout: int;
+    AuthenticateAsClient(sslClientAuthenticationOptions: SslClientAuthenticationOptions): void;
     AuthenticateAsClient(targetHost: string): void;
     AuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, checkCertificateRevocation: boolean): void;
     AuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): void;
-    AuthenticateAsClient(sslClientAuthenticationOptions: SslClientAuthenticationOptions): void;
+    AuthenticateAsClientAsync(sslClientAuthenticationOptions: SslClientAuthenticationOptions, cancellationToken?: CancellationToken): Task;
     AuthenticateAsClientAsync(targetHost: string): Task;
     AuthenticateAsClientAsync(targetHost: string, clientCertificates: X509CertificateCollection | null, checkCertificateRevocation: boolean): Task;
     AuthenticateAsClientAsync(targetHost: string, clientCertificates: X509CertificateCollection | null, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): Task;
-    AuthenticateAsClientAsync(sslClientAuthenticationOptions: SslClientAuthenticationOptions, cancellationToken?: CancellationToken): Task;
     AuthenticateAsServer(serverCertificate: X509Certificate): void;
     AuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean): void;
     AuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): void;
     AuthenticateAsServer(sslServerAuthenticationOptions: SslServerAuthenticationOptions): void;
+    AuthenticateAsServerAsync(optionsCallback: ServerOptionsSelectionCallback, state: unknown | null, cancellationToken?: CancellationToken): Task;
     AuthenticateAsServerAsync(serverCertificate: X509Certificate): Task;
     AuthenticateAsServerAsync(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean): Task;
     AuthenticateAsServerAsync(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean): Task;
     AuthenticateAsServerAsync(sslServerAuthenticationOptions: SslServerAuthenticationOptions, cancellationToken?: CancellationToken): Task;
-    AuthenticateAsServerAsync(optionsCallback: ServerOptionsSelectionCallback, state: unknown | null, cancellationToken?: CancellationToken): Task;
     BeginAuthenticateAsClient(targetHost: string, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     BeginAuthenticateAsClient(targetHost: string, clientCertificates: X509CertificateCollection | null, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     BeginAuthenticateAsServer(serverCertificate: X509Certificate, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
     BeginAuthenticateAsServer(serverCertificate: X509Certificate, clientCertificateRequired: boolean, enabledSslProtocols: SslProtocols, checkCertificateRevocation: boolean, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
-    BeginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null): IAsyncResult;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    DisposeAsync(): ValueTask;
+    BeginRead: AuthenticatedStream$instance["BeginRead"] & ((buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null) => IAsyncResult);
+    BeginWrite: AuthenticatedStream$instance["BeginWrite"] & ((buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback | null, asyncState: unknown | null) => IAsyncResult);
+    Dispose: AuthenticatedStream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    DisposeAsync: AuthenticatedStream$instance["DisposeAsync"] & (() => ValueTask);
     EndAuthenticateAsClient(asyncResult: IAsyncResult): void;
     EndAuthenticateAsServer(asyncResult: IAsyncResult): void;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
+    EndRead: AuthenticatedStream$instance["EndRead"] & ((asyncResult: IAsyncResult) => int);
+    EndWrite: AuthenticatedStream$instance["EndWrite"] & ((asyncResult: IAsyncResult) => void);
     Finalize(): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
+    Flush: AuthenticatedStream$instance["Flush"] & (() => void);
+    FlushAsync: AuthenticatedStream$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
     NegotiateClientCertificateAsync(cancellationToken?: CancellationToken): Task;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
-    Read(buffer: byte[], offset: int, count: int): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
+    Read: AuthenticatedStream$instance["Read"] & ((buffer: Span_1<System_Internal.Byte>) => int) & ((buffer: byte[], offset: int, count: int) => int);
+    ReadAsync: AuthenticatedStream$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int) => Task_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task_1<System_Internal.Int32>);
+    ReadByte: AuthenticatedStream$instance["ReadByte"] & (() => int);
+    Seek: AuthenticatedStream$instance["Seek"] & ((offset: long, origin: SeekOrigin) => long);
+    SetLength: AuthenticatedStream$instance["SetLength"] & ((value: long) => void);
     ShutdownAsync(): Task;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    Write(buffer: byte[]): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteByte(value: byte): void;
+    Write: AuthenticatedStream$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Byte>) => void) & ((buffer: byte[]) => void) & ((buffer: byte[], offset: int, count: int) => void);
+    WriteAsync: AuthenticatedStream$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask) & ((buffer: byte[], offset: int, count: int) => Task) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task);
+    WriteByte: AuthenticatedStream$instance["WriteByte"] & ((value: byte) => void);
 }
 
 

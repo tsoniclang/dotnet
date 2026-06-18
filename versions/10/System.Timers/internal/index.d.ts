@@ -8,17 +8,18 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 
 // Import types from other namespaces
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { Component, DescriptionAttribute, EventHandlerList, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
+import type { Component, DescriptionAttribute, IComponent, IContainer, ISite, ISupportInitialize, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
 import type { MethodInfo } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, DateTime, Delegate, Double, EventArgs, IAsyncResult, ICloneable, IDisposable, Int32, IntPtr, MarshalByRefObject, MulticastDelegate, Object as ClrObject, String as ClrString, TimeSpan, Type, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, DateTime, Delegate, Double, EventArgs, IAsyncResult, ICloneable, IDisposable, Int32, IntPtr, MulticastDelegate, Object as ClrObject, String as ClrString, TimeSpan, Type, Void } from "../../System/internal/index.js";
 
 export type ElapsedEventHandler = (sender: unknown | null, e: ElapsedEventArgs) => void;
 
 
-export interface ElapsedEventArgs$instance extends EventArgs {
+export interface ElapsedEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Timers_ElapsedEventArgs: never;
 
     readonly SignalTime: DateTime;
@@ -32,7 +33,9 @@ export const ElapsedEventArgs: {
 
 export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
-export interface Timer$instance extends Component, System_ComponentModel_Internal.ISupportInitialize$instance {
+export interface Timer$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Timers_Timer: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
@@ -42,14 +45,11 @@ export interface Timer$instance extends Component, System_ComponentModel_Interna
     AutoReset: boolean;
     Enabled: boolean;
     Interval: double;
-    get Site(): ISite | null;
-    set Site(value: ISite | null);
     get SynchronizingObject(): ISynchronizeInvoke | null;
     set SynchronizingObject(value: ISynchronizeInvoke | null);
     BeginInit(): void;
     Close(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
+    Dispose: System_ComponentModel_Internal.Component$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     EndInit(): void;
     Start(): void;
     Stop(): void;
@@ -72,10 +72,11 @@ export interface __Timer$views {
 export type Timer = Timer$instance & __Timer$views;
 
 
-export interface TimersDescriptionAttribute$instance extends DescriptionAttribute {
+export interface TimersDescriptionAttribute$instance extends System_ComponentModel_Internal.DescriptionAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_ComponentModel_DescriptionAttribute: never;
     readonly __tsonic_type_System_Timers_TimersDescriptionAttribute: never;
 
-    readonly Description: string;
 }
 
 

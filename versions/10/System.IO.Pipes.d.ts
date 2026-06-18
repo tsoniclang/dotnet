@@ -15,11 +15,11 @@ import type { HandleInheritability, SeekOrigin, Stream } from './System.IO/inter
 import type { MethodInfo } from './System.Reflection/internal/index.js';
 import type { SafeHandle } from './System.Runtime.InteropServices/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
-import type { AccessControlModification, AccessControlSections, AccessControlType, AccessRule, AuditFlags, AuditRule, AuthorizationRuleCollection, CommonSecurityDescriptor, InheritanceFlags, NativeObjectSecurity, PropagationFlags } from './System.Security.AccessControl/internal/index.js';
+import type { AccessControlModification, AccessControlSections, AccessControlType, AccessRule, AuditFlags, AuditRule, AuthorizationRuleCollection, InheritanceFlags, NativeObjectSecurity, PropagationFlags } from './System.Security.AccessControl/internal/index.js';
 import type { IdentityReference, TokenImpersonationLevel } from './System.Security.Principal/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from './System/internal/index.js';
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { AnonymousPipeClientStream as AnonymousPipeClientStream } from './System.IO.Pipes/internal/index.js';

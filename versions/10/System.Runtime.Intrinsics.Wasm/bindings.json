@@ -9448,19 +9448,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Wasm.PackedSimd::.ctor():void",
-            "metadataToken": 100685501,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Intrinsics.Wasm.PackedSimd",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       }
     ]
   }

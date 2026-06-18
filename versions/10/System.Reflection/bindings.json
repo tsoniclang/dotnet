@@ -7208,19 +7208,7 @@
             "ownerIdentity": "System.Private.CoreLib"
           }
         ],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Assembly::.ctor():void",
-            "metadataToken": 100696349,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Assembly",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.AssemblyAlgorithmIdAttribute",
@@ -9099,19 +9087,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Binder::.ctor():void",
-            "metadataToken": 100697448,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Binder",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo",
@@ -9367,19 +9343,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::.ctor():void",
-            "metadataToken": 100696479,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.ConstructorInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInvoker",
@@ -9740,19 +9704,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeData::.ctor():void",
-            "metadataToken": 100697459,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.CustomAttributeData",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeFormatException",
@@ -9832,17 +9784,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Reflection.CustomAttributeFormatException",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeFormatException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100697504,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Reflection.CustomAttributeFormatException",
             "ownerIdentity": "System.Private.CoreLib"
           }
@@ -9981,19 +9922,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Reflection.DispatchProxy:System.Reflection.DispatchProxy::.ctor():void",
-            "metadataToken": 100663309,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.DispatchProxy",
-            "ownerIdentity": "System.Reflection.DispatchProxy"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.EventInfo",
@@ -10477,19 +10406,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::.ctor():void",
-            "metadataToken": 100697520,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.EventInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.ExceptionHandlingClause",
@@ -10665,19 +10582,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.ExceptionHandlingClause::.ctor():void",
-            "metadataToken": 100697543,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.ExceptionHandlingClause",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.FieldInfo",
@@ -11390,19 +11295,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.FieldInfo::.ctor():void",
-            "metadataToken": 100696507,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.FieldInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.InvalidFilterCriteriaException",
@@ -11482,17 +11375,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Reflection.InvalidFilterCriteriaException",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.InvalidFilterCriteriaException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100697574,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Reflection.InvalidFilterCriteriaException",
             "ownerIdentity": "System.Private.CoreLib"
           }
@@ -11596,19 +11478,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.LocalVariableInfo::.ctor():void",
-            "metadataToken": 100697613,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.LocalVariableInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.ManifestResourceInfo",
@@ -12083,19 +11953,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.MemberInfo::.ctor():void",
-            "metadataToken": 100696655,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.MemberInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.MethodBase",
@@ -12863,19 +12721,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.MethodBase::.ctor():void",
-            "metadataToken": 100696679,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.MethodBase",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.MethodBody",
@@ -13013,19 +12859,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.MethodBody::.ctor():void",
-            "metadataToken": 100697623,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.MethodBody",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo",
@@ -13393,19 +13227,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo::.ctor():void",
-            "metadataToken": 100697630,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.MethodInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.MethodInvoker",
@@ -14652,19 +14474,7 @@
           }
         ],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.Module::.ctor():void",
-            "metadataToken": 100697668,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.Module",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.NullabilityInfo",
@@ -14707,12 +14517,12 @@
             "targetName": "ReadState",
             "metadataToken": 385880193,
             "canonicalSignature": ":System.Reflection.NullabilityState",
-            "normalizedSignature": "ReadState|:System.Reflection.NullabilityState|static=false|accessor=getset",
+            "normalizedSignature": "ReadState|:System.Reflection.NullabilityState|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -14726,12 +14536,12 @@
             "targetName": "WriteState",
             "metadataToken": 385880194,
             "canonicalSignature": ":System.Reflection.NullabilityState",
-            "normalizedSignature": "WriteState|:System.Reflection.NullabilityState|static=false|accessor=getset",
+            "normalizedSignature": "WriteState|:System.Reflection.NullabilityState|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -15657,94 +15467,9 @@
             "ownerIdentity": "System.Private.CoreLib"
           }
         ],
-        "fields": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.ParameterInfo::AttrsImplSystem.Reflection.ParameterAttributes",
-            "targetName": "AttrsImpl",
-            "metadataToken": 67115101,
-            "normalizedSignature": "AttrsImpl|System.Reflection.ParameterAttributes|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.ParameterInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.ParameterInfo::ClassImplSystem.Type",
-            "targetName": "ClassImpl",
-            "metadataToken": 67115102,
-            "normalizedSignature": "ClassImpl|System.Type|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.ParameterInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.ParameterInfo::DefaultValueImplSystem.Object",
-            "targetName": "DefaultValueImpl",
-            "metadataToken": 67115103,
-            "normalizedSignature": "DefaultValueImpl|System.Object|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.ParameterInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.ParameterInfo::MemberImplSystem.Reflection.MemberInfo",
-            "targetName": "MemberImpl",
-            "metadataToken": 67115104,
-            "normalizedSignature": "MemberImpl|System.Reflection.MemberInfo|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.ParameterInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.ParameterInfo::NameImplSystem.String",
-            "targetName": "NameImpl",
-            "metadataToken": 67115105,
-            "normalizedSignature": "NameImpl|System.String|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.ParameterInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.ParameterInfo::PositionImplSystem.Int32",
-            "targetName": "PositionImpl",
-            "metadataToken": 67115106,
-            "normalizedSignature": "PositionImpl|System.Int32|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.ParameterInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ],
+        "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.ParameterInfo::.ctor():void",
-            "metadataToken": 100697779,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.ParameterInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.Pointer",
@@ -16517,19 +16242,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::.ctor():void",
-            "metadataToken": 100697815,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.PropertyInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.ReflectionContext",
@@ -16611,19 +16324,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.ReflectionContext::.ctor():void",
-            "metadataToken": 100697846,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.ReflectionContext",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Reflection.ReflectionTypeLoadException",
@@ -16911,17 +16612,6 @@
             "ownerIdentity": "System.Private.CoreLib"
           },
           {
-            "stableId": "System.Private.CoreLib:System.Reflection.StrongNameKeyPair::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100698086,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.StrongNameKeyPair",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
             "stableId": "System.Private.CoreLib:System.Reflection.StrongNameKeyPair::.ctor(System.String):void",
             "metadataToken": 100698087,
             "canonicalSignature": "(System.String):void",
@@ -17012,17 +16702,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Reflection.TargetException",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.TargetException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100698094,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Reflection.TargetException",
             "ownerIdentity": "System.Private.CoreLib"
           }
@@ -19010,33 +18689,9 @@
             "ownerIdentity": "System.Private.CoreLib"
           }
         ],
-        "fields": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::typeImplSystem.Type",
-            "targetName": "typeImpl",
-            "metadataToken": 67115188,
-            "normalizedSignature": "typeImpl|System.Type|static=false|const=false",
-            "isStatic": false,
-            "isReadOnly": false,
-            "isLiteral": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.TypeDelegator",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ],
+        "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::.ctor():void",
-            "metadataToken": 100698103,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.TypeDelegator",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
           {
             "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::.ctor(System.Type):void",
             "metadataToken": 100698104,
@@ -19771,19 +19426,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Reflection.TypeInfo::.ctor():void",
-            "metadataToken": 100698166,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Reflection.TypeInfo",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Reflection.TypeExtensions:System.Reflection.AssemblyExtensions",

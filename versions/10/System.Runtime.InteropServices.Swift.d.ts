@@ -24,8 +24,8 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type SwiftSelf<
-  T1 extends NonNullable<unknown> | __ = __,
+  T1 extends { readonly __tsonic_type_System_ValueType: never } | __ = __,
 > =
   [T1] extends [__] ? Internal.SwiftSelf :
-  [T1] extends [NonNullable<unknown>] ? Internal.SwiftSelf_1<T1> : never;
+  [T1] extends [{ readonly __tsonic_type_System_ValueType: never }] ? Internal.SwiftSelf_1<T1> : never;
 

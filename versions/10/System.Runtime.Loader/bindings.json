@@ -339,26 +339,6 @@
             "isExtensionMethod": false
           },
           {
-            "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::LoadUnmanagedDllFromPath(System.String):System.IntPtr",
-            "targetName": "LoadUnmanagedDllFromPath",
-            "metadataToken": 100682816,
-            "canonicalSignature": "(System.String):System.IntPtr",
-            "normalizedSignature": "LoadUnmanagedDllFromPath|(System.String):System.IntPtr|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Loader.AssemblyLoadContext",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
-          },
-          {
             "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::LoadUnmanagedDll(System.String):System.IntPtr",
             "targetName": "LoadUnmanagedDll",
             "metadataToken": 100682817,
@@ -589,28 +569,6 @@
           }
         ],
         "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::.ctor():void",
-            "metadataToken": 100682782,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Loader.AssemblyLoadContext",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::.ctor(System.Boolean):void",
-            "metadataToken": 100682783,
-            "canonicalSignature": "(System.Boolean):void",
-            "normalizedSignature": "constructor|(System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.Loader.AssemblyLoadContext",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
           {
             "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::.ctor(System.String,System.Boolean):void",
             "metadataToken": 100682784,

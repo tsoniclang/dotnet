@@ -21,17 +21,17 @@ import type { CancellationToken } from "../../System.Threading/internal/index.js
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, IDisposable, Int32, Int64, Object as ClrObject, String as ClrString, Type, Uri, Void } from "../../System/internal/index.js";
 
-export interface JsonContent$instance extends HttpContent {
+export interface JsonContent$instance extends System_Net_Http_Internal.HttpContent$instance {
+    readonly __tsonic_type_System_Net_Http_HttpContent: never;
     readonly __tsonic_type_System_Net_Http_Json_JsonContent: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     readonly ObjectType: Type;
     readonly Value: unknown | null;
-    SerializeToStream(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): void;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null): Task;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): Task;
-    TryComputeLength(length: long): boolean;
+    SerializeToStream: System_Net_Http_Internal.HttpContent$instance["SerializeToStream"] & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => void);
+    SerializeToStreamAsync: System_Net_Http_Internal.HttpContent$instance["SerializeToStreamAsync"] & ((stream: Stream, context: TransportContext | null) => Task) & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => Task);
+    TryComputeLength: System_Net_Http_Internal.HttpContent$instance["TryComputeLength"] & ((length: long) => boolean);
 }
 
 

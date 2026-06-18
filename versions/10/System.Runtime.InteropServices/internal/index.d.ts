@@ -27,328 +27,378 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import type { SecureString } from "../../System.Security/internal/index.js";
 import type { JsonElement, JsonProperty } from "../../System.Text.Json/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Action_1, Array as ClrArray, ArraySegment_1, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, Decimal, Delegate, Double, Enum, Exception, Guid, IAsyncResult, ICloneable, IComparable, IComparable_1, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MarshalByRefObject, Memory_1, MidpointRounding, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, RuntimeTypeHandle, Single, Span_1, String as ClrString, SystemException, Type, TypeCode, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
+import type { Action_1, Array as ClrArray, ArraySegment_1, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, Decimal, Delegate, Double, Enum, Exception, Guid, IAsyncResult, ICloneable, IComparable, IComparable_1, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MarshalByRefObject, Memory_1, MidpointRounding, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, RuntimeTypeHandle, Single, Span_1, String as ClrString, SystemException, Type, TypeCode, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
 
-export enum Architecture {
-    X86 = 0,
-    X64 = 1,
-    Arm = 2,
-    Arm64 = 3,
-    Wasm = 4,
-    S390x = 5,
-    LoongArch64 = 6,
-    Armv6 = 7,
-    Ppc64le = 8,
-    RiscV64 = 9
-}
+export type Architecture = number & { readonly __tsonic_type_System_Runtime_InteropServices_Architecture: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum AssemblyRegistrationFlags {
-    None = 0,
-    SetCodeBase = 1
-}
+export const Architecture: {
+    readonly X86: Architecture;
+    readonly X64: Architecture;
+    readonly Arm: Architecture;
+    readonly Arm64: Architecture;
+    readonly Wasm: Architecture;
+    readonly S390x: Architecture;
+    readonly LoongArch64: Architecture;
+    readonly Armv6: Architecture;
+    readonly Ppc64le: Architecture;
+    readonly RiscV64: Architecture;
+};
 
 
-export enum CallingConvention {
-    Winapi = 1,
-    Cdecl = 2,
-    StdCall = 3,
-    ThisCall = 4,
-    FastCall = 5
-}
+export type AssemblyRegistrationFlags = number & { readonly __tsonic_type_System_Runtime_InteropServices_AssemblyRegistrationFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const AssemblyRegistrationFlags: {
+    readonly None: AssemblyRegistrationFlags;
+    readonly SetCodeBase: AssemblyRegistrationFlags;
+};
 
 
-export enum CharSet {
-    None = 1,
-    Ansi = 2,
-    Unicode = 3,
-    Auto = 4
-}
+export type CallingConvention = number & { readonly __tsonic_type_System_Runtime_InteropServices_CallingConvention: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CallingConvention: {
+    readonly Winapi: CallingConvention;
+    readonly Cdecl: CallingConvention;
+    readonly StdCall: CallingConvention;
+    readonly ThisCall: CallingConvention;
+    readonly FastCall: CallingConvention;
+};
 
 
-export enum ClassInterfaceType {
-    None = 0,
-    AutoDispatch = 1,
-    AutoDual = 2
-}
+export type CharSet = number & { readonly __tsonic_type_System_Runtime_InteropServices_CharSet: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CharSet: {
+    readonly None: CharSet;
+    readonly Ansi: CharSet;
+    readonly Unicode: CharSet;
+    readonly Auto: CharSet;
+};
 
 
-export enum ComInterfaceType {
-    InterfaceIsDual = 0,
-    InterfaceIsIUnknown = 1,
-    InterfaceIsIDispatch = 2,
-    InterfaceIsIInspectable = 3
-}
+export type ClassInterfaceType = number & { readonly __tsonic_type_System_Runtime_InteropServices_ClassInterfaceType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ClassInterfaceType: {
+    readonly None: ClassInterfaceType;
+    readonly AutoDispatch: ClassInterfaceType;
+    readonly AutoDual: ClassInterfaceType;
+};
 
 
-export enum ComMemberType {
-    Method = 0,
-    PropGet = 1,
-    PropSet = 2
-}
+export type ComInterfaceType = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComInterfaceType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ComInterfaceType: {
+    readonly InterfaceIsDual: ComInterfaceType;
+    readonly InterfaceIsIUnknown: ComInterfaceType;
+    readonly InterfaceIsIDispatch: ComInterfaceType;
+    readonly InterfaceIsIInspectable: ComInterfaceType;
+};
 
 
-export enum CreateComInterfaceFlags {
-    None = 0,
-    CallerDefinedIUnknown = 1,
-    TrackerSupport = 2
-}
+export type ComMemberType = number & { readonly __tsonic_type_System_Runtime_InteropServices_ComMemberType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ComMemberType: {
+    readonly Method: ComMemberType;
+    readonly PropGet: ComMemberType;
+    readonly PropSet: ComMemberType;
+};
 
 
-export enum CreatedWrapperFlags {
-    None = 0,
-    TrackerObject = 1,
-    NonWrapping = 2
-}
+export type CreateComInterfaceFlags = number & { readonly __tsonic_type_System_Runtime_InteropServices_CreateComInterfaceFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CreateComInterfaceFlags: {
+    readonly None: CreateComInterfaceFlags;
+    readonly CallerDefinedIUnknown: CreateComInterfaceFlags;
+    readonly TrackerSupport: CreateComInterfaceFlags;
+};
 
 
-export enum CreateObjectFlags {
-    None = 0,
-    TrackerObject = 1,
-    UniqueInstance = 2,
-    Aggregation = 4,
-    Unwrap = 8
-}
+export type CreatedWrapperFlags = number & { readonly __tsonic_type_System_Runtime_InteropServices_CreatedWrapperFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CreatedWrapperFlags: {
+    readonly None: CreatedWrapperFlags;
+    readonly TrackerObject: CreatedWrapperFlags;
+    readonly NonWrapping: CreatedWrapperFlags;
+};
 
 
-export enum CustomQueryInterfaceMode {
-    Ignore = 0,
-    Allow = 1
-}
+export type CreateObjectFlags = number & { readonly __tsonic_type_System_Runtime_InteropServices_CreateObjectFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CreateObjectFlags: {
+    readonly None: CreateObjectFlags;
+    readonly TrackerObject: CreateObjectFlags;
+    readonly UniqueInstance: CreateObjectFlags;
+    readonly Aggregation: CreateObjectFlags;
+    readonly Unwrap: CreateObjectFlags;
+};
 
 
-export enum CustomQueryInterfaceResult {
-    Handled = 0,
-    NotHandled = 1,
-    Failed = 2
-}
+export type CustomQueryInterfaceMode = number & { readonly __tsonic_type_System_Runtime_InteropServices_CustomQueryInterfaceMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CustomQueryInterfaceMode: {
+    readonly Ignore: CustomQueryInterfaceMode;
+    readonly Allow: CustomQueryInterfaceMode;
+};
 
 
-export enum DllImportSearchPath {
-    UseDllDirectoryForDependencies = 256,
-    ApplicationDirectory = 512,
-    UserDirectories = 1024,
-    System32 = 2048,
-    SafeDirectories = 4096,
-    AssemblyDirectory = 2,
-    LegacyBehavior = 0
-}
+export type CustomQueryInterfaceResult = number & { readonly __tsonic_type_System_Runtime_InteropServices_CustomQueryInterfaceResult: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CustomQueryInterfaceResult: {
+    readonly Handled: CustomQueryInterfaceResult;
+    readonly NotHandled: CustomQueryInterfaceResult;
+    readonly Failed: CustomQueryInterfaceResult;
+};
 
 
-export enum ExporterEventKind {
-    NOTIF_TYPECONVERTED = 0,
-    NOTIF_CONVERTWARNING = 1,
-    ERROR_REFTOINVALIDASSEMBLY = 2
-}
+export type DllImportSearchPath = number & { readonly __tsonic_type_System_Runtime_InteropServices_DllImportSearchPath: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DllImportSearchPath: {
+    readonly UseDllDirectoryForDependencies: DllImportSearchPath;
+    readonly ApplicationDirectory: DllImportSearchPath;
+    readonly UserDirectories: DllImportSearchPath;
+    readonly System32: DllImportSearchPath;
+    readonly SafeDirectories: DllImportSearchPath;
+    readonly AssemblyDirectory: DllImportSearchPath;
+    readonly LegacyBehavior: DllImportSearchPath;
+};
 
 
-export enum GCHandleType {
-    Weak = 0,
-    WeakTrackResurrection = 1,
-    Normal = 2,
-    Pinned = 3
-}
+export type ExporterEventKind = number & { readonly __tsonic_type_System_Runtime_InteropServices_ExporterEventKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ExporterEventKind: {
+    readonly NOTIF_TYPECONVERTED: ExporterEventKind;
+    readonly NOTIF_CONVERTWARNING: ExporterEventKind;
+    readonly ERROR_REFTOINVALIDASSEMBLY: ExporterEventKind;
+};
 
 
-export enum LayoutKind {
-    Sequential = 0,
-    Explicit = 2,
-    Auto = 3
-}
+export type GCHandleType = number & { readonly __tsonic_type_System_Runtime_InteropServices_GCHandleType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const GCHandleType: {
+    readonly Weak: GCHandleType;
+    readonly WeakTrackResurrection: GCHandleType;
+    readonly Normal: GCHandleType;
+    readonly Pinned: GCHandleType;
+};
 
 
-export enum PosixSignal {
-    SIGHUP = -1,
-    SIGINT = -2,
-    SIGQUIT = -3,
-    SIGTERM = -4,
-    SIGCHLD = -5,
-    SIGCONT = -6,
-    SIGWINCH = -7,
-    SIGTTIN = -8,
-    SIGTTOU = -9,
-    SIGTSTP = -10
-}
+export type LayoutKind = number & { readonly __tsonic_type_System_Runtime_InteropServices_LayoutKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const LayoutKind: {
+    readonly Sequential: LayoutKind;
+    readonly Explicit: LayoutKind;
+    readonly Auto: LayoutKind;
+};
 
 
-export enum RegistrationClassContext {
-    InProcessServer = 1,
-    InProcessHandler = 2,
-    LocalServer = 4,
-    InProcessServer16 = 8,
-    RemoteServer = 16,
-    InProcessHandler16 = 32,
-    Reserved1 = 64,
-    Reserved2 = 128,
-    Reserved3 = 256,
-    Reserved4 = 512,
-    NoCodeDownload = 1024,
-    Reserved5 = 2048,
-    NoCustomMarshal = 4096,
-    EnableCodeDownload = 8192,
-    NoFailureLog = 16384,
-    DisableActivateAsActivator = 32768,
-    EnableActivateAsActivator = 65536,
-    FromDefaultContext = 131072
-}
+export type PosixSignal = number & { readonly __tsonic_type_System_Runtime_InteropServices_PosixSignal: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PosixSignal: {
+    readonly SIGHUP: PosixSignal;
+    readonly SIGINT: PosixSignal;
+    readonly SIGQUIT: PosixSignal;
+    readonly SIGTERM: PosixSignal;
+    readonly SIGCHLD: PosixSignal;
+    readonly SIGCONT: PosixSignal;
+    readonly SIGWINCH: PosixSignal;
+    readonly SIGTTIN: PosixSignal;
+    readonly SIGTTOU: PosixSignal;
+    readonly SIGTSTP: PosixSignal;
+};
 
 
-export enum RegistrationConnectionType {
-    SingleUse = 0,
-    MultipleUse = 1,
-    MultiSeparate = 2,
-    Suspended = 4,
-    Surrogate = 8
-}
+export type RegistrationClassContext = number & { readonly __tsonic_type_System_Runtime_InteropServices_RegistrationClassContext: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RegistrationClassContext: {
+    readonly InProcessServer: RegistrationClassContext;
+    readonly InProcessHandler: RegistrationClassContext;
+    readonly LocalServer: RegistrationClassContext;
+    readonly InProcessServer16: RegistrationClassContext;
+    readonly RemoteServer: RegistrationClassContext;
+    readonly InProcessHandler16: RegistrationClassContext;
+    readonly Reserved1: RegistrationClassContext;
+    readonly Reserved2: RegistrationClassContext;
+    readonly Reserved3: RegistrationClassContext;
+    readonly Reserved4: RegistrationClassContext;
+    readonly NoCodeDownload: RegistrationClassContext;
+    readonly Reserved5: RegistrationClassContext;
+    readonly NoCustomMarshal: RegistrationClassContext;
+    readonly EnableCodeDownload: RegistrationClassContext;
+    readonly NoFailureLog: RegistrationClassContext;
+    readonly DisableActivateAsActivator: RegistrationClassContext;
+    readonly EnableActivateAsActivator: RegistrationClassContext;
+    readonly FromDefaultContext: RegistrationClassContext;
+};
 
 
-export enum StringMarshalling {
-    Custom = 0,
-    Utf8 = 1,
-    Utf16 = 2
-}
+export type RegistrationConnectionType = number & { readonly __tsonic_type_System_Runtime_InteropServices_RegistrationConnectionType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RegistrationConnectionType: {
+    readonly SingleUse: RegistrationConnectionType;
+    readonly MultipleUse: RegistrationConnectionType;
+    readonly MultiSeparate: RegistrationConnectionType;
+    readonly Suspended: RegistrationConnectionType;
+    readonly Surrogate: RegistrationConnectionType;
+};
 
 
-export enum TypeLibFuncFlags {
-    FRestricted = 1,
-    FSource = 2,
-    FBindable = 4,
-    FRequestEdit = 8,
-    FDisplayBind = 16,
-    FDefaultBind = 32,
-    FHidden = 64,
-    FUsesGetLastError = 128,
-    FDefaultCollelem = 256,
-    FUiDefault = 512,
-    FNonBrowsable = 1024,
-    FReplaceable = 2048,
-    FImmediateBind = 4096
-}
+export type StringMarshalling = number & { readonly __tsonic_type_System_Runtime_InteropServices_StringMarshalling: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const StringMarshalling: {
+    readonly Custom: StringMarshalling;
+    readonly Utf8: StringMarshalling;
+    readonly Utf16: StringMarshalling;
+};
 
 
-export enum TypeLibTypeFlags {
-    FAppObject = 1,
-    FCanCreate = 2,
-    FLicensed = 4,
-    FPreDeclId = 8,
-    FHidden = 16,
-    FControl = 32,
-    FDual = 64,
-    FNonExtensible = 128,
-    FOleAutomation = 256,
-    FRestricted = 512,
-    FAggregatable = 1024,
-    FReplaceable = 2048,
-    FDispatchable = 4096,
-    FReverseBind = 8192
-}
+export type TypeLibFuncFlags = number & { readonly __tsonic_type_System_Runtime_InteropServices_TypeLibFuncFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TypeLibFuncFlags: {
+    readonly FRestricted: TypeLibFuncFlags;
+    readonly FSource: TypeLibFuncFlags;
+    readonly FBindable: TypeLibFuncFlags;
+    readonly FRequestEdit: TypeLibFuncFlags;
+    readonly FDisplayBind: TypeLibFuncFlags;
+    readonly FDefaultBind: TypeLibFuncFlags;
+    readonly FHidden: TypeLibFuncFlags;
+    readonly FUsesGetLastError: TypeLibFuncFlags;
+    readonly FDefaultCollelem: TypeLibFuncFlags;
+    readonly FUiDefault: TypeLibFuncFlags;
+    readonly FNonBrowsable: TypeLibFuncFlags;
+    readonly FReplaceable: TypeLibFuncFlags;
+    readonly FImmediateBind: TypeLibFuncFlags;
+};
 
 
-export enum TypeLibVarFlags {
-    FReadOnly = 1,
-    FSource = 2,
-    FBindable = 4,
-    FRequestEdit = 8,
-    FDisplayBind = 16,
-    FDefaultBind = 32,
-    FHidden = 64,
-    FRestricted = 128,
-    FDefaultCollelem = 256,
-    FUiDefault = 512,
-    FNonBrowsable = 1024,
-    FReplaceable = 2048,
-    FImmediateBind = 4096
-}
+export type TypeLibTypeFlags = number & { readonly __tsonic_type_System_Runtime_InteropServices_TypeLibTypeFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TypeLibTypeFlags: {
+    readonly FAppObject: TypeLibTypeFlags;
+    readonly FCanCreate: TypeLibTypeFlags;
+    readonly FLicensed: TypeLibTypeFlags;
+    readonly FPreDeclId: TypeLibTypeFlags;
+    readonly FHidden: TypeLibTypeFlags;
+    readonly FControl: TypeLibTypeFlags;
+    readonly FDual: TypeLibTypeFlags;
+    readonly FNonExtensible: TypeLibTypeFlags;
+    readonly FOleAutomation: TypeLibTypeFlags;
+    readonly FRestricted: TypeLibTypeFlags;
+    readonly FAggregatable: TypeLibTypeFlags;
+    readonly FReplaceable: TypeLibTypeFlags;
+    readonly FDispatchable: TypeLibTypeFlags;
+    readonly FReverseBind: TypeLibTypeFlags;
+};
 
 
-export enum UnmanagedType {
-    Bool = 2,
-    I1 = 3,
-    U1 = 4,
-    I2 = 5,
-    U2 = 6,
-    I4 = 7,
-    U4 = 8,
-    I8 = 9,
-    U8 = 10,
-    R4 = 11,
-    R8 = 12,
-    Currency = 15,
-    BStr = 19,
-    LPStr = 20,
-    LPWStr = 21,
-    LPTStr = 22,
-    ByValTStr = 23,
-    IUnknown = 25,
-    IDispatch = 26,
-    Struct = 27,
-    Interface = 28,
-    SafeArray = 29,
-    ByValArray = 30,
-    SysInt = 31,
-    SysUInt = 32,
-    VBByRefStr = 34,
-    AnsiBStr = 35,
-    TBStr = 36,
-    VariantBool = 37,
-    FunctionPtr = 38,
-    AsAny = 40,
-    LPArray = 42,
-    LPStruct = 43,
-    CustomMarshaler = 44,
-    Error = 45,
-    IInspectable = 46,
-    HString = 47,
-    LPUTF8Str = 48
-}
+export type TypeLibVarFlags = number & { readonly __tsonic_type_System_Runtime_InteropServices_TypeLibVarFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TypeLibVarFlags: {
+    readonly FReadOnly: TypeLibVarFlags;
+    readonly FSource: TypeLibVarFlags;
+    readonly FBindable: TypeLibVarFlags;
+    readonly FRequestEdit: TypeLibVarFlags;
+    readonly FDisplayBind: TypeLibVarFlags;
+    readonly FDefaultBind: TypeLibVarFlags;
+    readonly FHidden: TypeLibVarFlags;
+    readonly FRestricted: TypeLibVarFlags;
+    readonly FDefaultCollelem: TypeLibVarFlags;
+    readonly FUiDefault: TypeLibVarFlags;
+    readonly FNonBrowsable: TypeLibVarFlags;
+    readonly FReplaceable: TypeLibVarFlags;
+    readonly FImmediateBind: TypeLibVarFlags;
+};
 
 
-export enum VarEnum {
-    VT_EMPTY = 0,
-    VT_NULL = 1,
-    VT_I2 = 2,
-    VT_I4 = 3,
-    VT_R4 = 4,
-    VT_R8 = 5,
-    VT_CY = 6,
-    VT_DATE = 7,
-    VT_BSTR = 8,
-    VT_DISPATCH = 9,
-    VT_ERROR = 10,
-    VT_BOOL = 11,
-    VT_VARIANT = 12,
-    VT_UNKNOWN = 13,
-    VT_DECIMAL = 14,
-    VT_I1 = 16,
-    VT_UI1 = 17,
-    VT_UI2 = 18,
-    VT_UI4 = 19,
-    VT_I8 = 20,
-    VT_UI8 = 21,
-    VT_INT = 22,
-    VT_UINT = 23,
-    VT_VOID = 24,
-    VT_HRESULT = 25,
-    VT_PTR = 26,
-    VT_SAFEARRAY = 27,
-    VT_CARRAY = 28,
-    VT_USERDEFINED = 29,
-    VT_LPSTR = 30,
-    VT_LPWSTR = 31,
-    VT_RECORD = 36,
-    VT_FILETIME = 64,
-    VT_BLOB = 65,
-    VT_STREAM = 66,
-    VT_STORAGE = 67,
-    VT_STREAMED_OBJECT = 68,
-    VT_STORED_OBJECT = 69,
-    VT_BLOB_OBJECT = 70,
-    VT_CF = 71,
-    VT_CLSID = 72,
-    VT_VECTOR = 4096,
-    VT_ARRAY = 8192,
-    VT_BYREF = 16384
-}
+export type UnmanagedType = number & { readonly __tsonic_type_System_Runtime_InteropServices_UnmanagedType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const UnmanagedType: {
+    readonly Bool: UnmanagedType;
+    readonly I1: UnmanagedType;
+    readonly U1: UnmanagedType;
+    readonly I2: UnmanagedType;
+    readonly U2: UnmanagedType;
+    readonly I4: UnmanagedType;
+    readonly U4: UnmanagedType;
+    readonly I8: UnmanagedType;
+    readonly U8: UnmanagedType;
+    readonly R4: UnmanagedType;
+    readonly R8: UnmanagedType;
+    readonly Currency: UnmanagedType;
+    readonly BStr: UnmanagedType;
+    readonly LPStr: UnmanagedType;
+    readonly LPWStr: UnmanagedType;
+    readonly LPTStr: UnmanagedType;
+    readonly ByValTStr: UnmanagedType;
+    readonly IUnknown: UnmanagedType;
+    readonly IDispatch: UnmanagedType;
+    readonly Struct: UnmanagedType;
+    readonly Interface: UnmanagedType;
+    readonly SafeArray: UnmanagedType;
+    readonly ByValArray: UnmanagedType;
+    readonly SysInt: UnmanagedType;
+    readonly SysUInt: UnmanagedType;
+    readonly VBByRefStr: UnmanagedType;
+    readonly AnsiBStr: UnmanagedType;
+    readonly TBStr: UnmanagedType;
+    readonly VariantBool: UnmanagedType;
+    readonly FunctionPtr: UnmanagedType;
+    readonly AsAny: UnmanagedType;
+    readonly LPArray: UnmanagedType;
+    readonly LPStruct: UnmanagedType;
+    readonly CustomMarshaler: UnmanagedType;
+    readonly Error: UnmanagedType;
+    readonly IInspectable: UnmanagedType;
+    readonly HString: UnmanagedType;
+    readonly LPUTF8Str: UnmanagedType;
+};
+
+
+export type VarEnum = number & { readonly __tsonic_type_System_Runtime_InteropServices_VarEnum: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const VarEnum: {
+    readonly VT_EMPTY: VarEnum;
+    readonly VT_NULL: VarEnum;
+    readonly VT_I2: VarEnum;
+    readonly VT_I4: VarEnum;
+    readonly VT_R4: VarEnum;
+    readonly VT_R8: VarEnum;
+    readonly VT_CY: VarEnum;
+    readonly VT_DATE: VarEnum;
+    readonly VT_BSTR: VarEnum;
+    readonly VT_DISPATCH: VarEnum;
+    readonly VT_ERROR: VarEnum;
+    readonly VT_BOOL: VarEnum;
+    readonly VT_VARIANT: VarEnum;
+    readonly VT_UNKNOWN: VarEnum;
+    readonly VT_DECIMAL: VarEnum;
+    readonly VT_I1: VarEnum;
+    readonly VT_UI1: VarEnum;
+    readonly VT_UI2: VarEnum;
+    readonly VT_UI4: VarEnum;
+    readonly VT_I8: VarEnum;
+    readonly VT_UI8: VarEnum;
+    readonly VT_INT: VarEnum;
+    readonly VT_UINT: VarEnum;
+    readonly VT_VOID: VarEnum;
+    readonly VT_HRESULT: VarEnum;
+    readonly VT_PTR: VarEnum;
+    readonly VT_SAFEARRAY: VarEnum;
+    readonly VT_CARRAY: VarEnum;
+    readonly VT_USERDEFINED: VarEnum;
+    readonly VT_LPSTR: VarEnum;
+    readonly VT_LPWSTR: VarEnum;
+    readonly VT_RECORD: VarEnum;
+    readonly VT_FILETIME: VarEnum;
+    readonly VT_BLOB: VarEnum;
+    readonly VT_STREAM: VarEnum;
+    readonly VT_STORAGE: VarEnum;
+    readonly VT_STREAMED_OBJECT: VarEnum;
+    readonly VT_STORED_OBJECT: VarEnum;
+    readonly VT_BLOB_OBJECT: VarEnum;
+    readonly VT_CF: VarEnum;
+    readonly VT_CLSID: VarEnum;
+    readonly VT_VECTOR: VarEnum;
+    readonly VT_ARRAY: VarEnum;
+    readonly VT_BYREF: VarEnum;
+};
 
 
 export type DllImportResolver = (libraryName: string, assembly: Assembly, searchPath: Nullable_1<DllImportSearchPath>) => nint;
@@ -406,11 +456,12 @@ export type IDynamicInterfaceCastable = IDynamicInterfaceCastable$instance;
 
 export interface ArrayWithOffset$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ArrayWithOffset: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
-    Equals(obj: unknown | null): boolean;
     Equals(obj: ArrayWithOffset): boolean;
+    Equals(obj: unknown | null): boolean;
     GetArray(): unknown | null;
     GetHashCode(): int;
     GetOffset(): int;
@@ -434,6 +485,7 @@ export type ArrayWithOffset = ArrayWithOffset$instance & __ArrayWithOffset$views
 
 export interface CLong$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_CLong: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -463,6 +515,7 @@ export type CLong = CLong$instance & __CLong$views;
 
 export interface CULong$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_CULong: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -492,6 +545,7 @@ export type CULong = CULong$instance & __CULong$views;
 
 export interface GCHandle$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_GCHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -525,8 +579,9 @@ export interface __GCHandle$views {
 export type GCHandle = GCHandle$instance & __GCHandle$views;
 
 
-export interface GCHandle_1$instance<T extends (object | null)> extends System_Internal.IDisposable$instance {
+export interface GCHandle_1$instance<T extends (object | null)> {
     readonly __tsonic_type_System_Runtime_InteropServices_GCHandle_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -560,6 +615,7 @@ export type GCHandle_1<T extends (object | null)> = GCHandle_1$instance<T> & __G
 
 export interface HandleRef$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_HandleRef: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Handle: nint;
     readonly Wrapper: unknown | null;
@@ -574,8 +630,9 @@ export const HandleRef: {
 
 export type HandleRef = HandleRef$instance;
 
-export interface NFloat$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<NFloat> {
+export interface NFloat$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_NFloat: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IComparable: never;
     readonly __tsonic_iface_System_IComparable_1: never;
@@ -624,8 +681,8 @@ export interface NFloat$instance extends System_Numerics_Internal.IMinMaxValue_1
     GetHashCode(): int;
     ToString(): string;
     ToString(format: string | null): string;
-    ToString(provider: IFormatProvider | null): string;
     ToString(format: string | null, provider: IFormatProvider | null): string;
+    ToString(provider: IFormatProvider | null): string;
     TryFormat(destination: Span_1<System_Internal.Char>, charsWritten: int, format?: ReadOnlySpan_1<System_Internal.Char>, provider?: IFormatProvider | null): boolean;
     TryFormat(utf8Destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: ReadOnlySpan_1<System_Internal.Char>, provider?: IFormatProvider | null): boolean;
 }
@@ -663,15 +720,15 @@ export const NFloat: {
     Ceiling(x: NFloat): NFloat;
     Clamp(value: NFloat, min: NFloat, max: NFloat): NFloat;
     ClampNative(value: NFloat, min: NFloat, max: NFloat): NFloat;
-    ConvertToInteger<TInteger extends unknown & IBinaryInteger_1<TInteger>>(value: NFloat): TInteger;
-    ConvertToIntegerNative<TInteger extends unknown & IBinaryInteger_1<TInteger>>(value: NFloat): TInteger;
+    ConvertToInteger<TInteger extends unknown & { readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never }>(value: NFloat): TInteger;
+    ConvertToIntegerNative<TInteger extends unknown & { readonly __tsonic_iface_System_Numerics_IBinaryInteger_1: never }>(value: NFloat): TInteger;
     CopySign(value: NFloat, sign: NFloat): NFloat;
     Cos(x: NFloat): NFloat;
     Cosh(x: NFloat): NFloat;
     CosPi(x: NFloat): NFloat;
-    CreateChecked<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): NFloat;
-    CreateSaturating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): NFloat;
-    CreateTruncating<TOther extends unknown & INumberBase_1<TOther>>(value: TOther): NFloat;
+    CreateChecked<TOther extends unknown & { readonly __tsonic_iface_System_Numerics_INumberBase_1: never }>(value: TOther): NFloat;
+    CreateSaturating<TOther extends unknown & { readonly __tsonic_iface_System_Numerics_INumberBase_1: never }>(value: TOther): NFloat;
+    CreateTruncating<TOther extends unknown & { readonly __tsonic_iface_System_Numerics_INumberBase_1: never }>(value: TOther): NFloat;
     DegreesToRadians(degrees: NFloat): NFloat;
     Exp(x: NFloat): NFloat;
     Exp10(x: NFloat): NFloat;
@@ -778,15 +835,15 @@ export interface __NFloat$views {
     // Structural method bridges for numeric interface constraints
     Equals(other: NFloat): boolean;
     CompareTo(obj: unknown): int;
-    ToString(format: string, formatProvider: import("../../System/internal/index").IFormatProvider): string;
-    TryFormat(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Char>, charsWritten: int, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").Char>, provider: import("../../System/internal/index").IFormatProvider): boolean;
-    TryFormat(utf8Destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>, bytesWritten: int, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").Char>, provider: import("../../System/internal/index").IFormatProvider): boolean;
+    ToString(format: string, formatProvider: import("../../System/internal/index.js").IFormatProvider): string;
+    TryFormat(destination: import("../../System/internal/index.js").Span_1<import("../../System/internal/index.js").Char>, charsWritten: int, format: import("../../System/internal/index.js").ReadOnlySpan_1<import("../../System/internal/index.js").Char>, provider: import("../../System/internal/index.js").IFormatProvider): boolean;
+    TryFormat(utf8Destination: import("../../System/internal/index.js").Span_1<import("../../System/internal/index.js").Byte>, bytesWritten: int, format: import("../../System/internal/index.js").ReadOnlySpan_1<import("../../System/internal/index.js").Char>, provider: import("../../System/internal/index.js").IFormatProvider): boolean;
     GetExponentByteCount(): int;
     GetExponentShortestBitLength(): int;
-    TryWriteExponentBigEndian(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>, bytesWritten: int): boolean;
+    TryWriteExponentBigEndian(destination: import("../../System/internal/index.js").Span_1<import("../../System/internal/index.js").Byte>, bytesWritten: int): boolean;
     WriteExponentBigEndian(destination: byte[], startIndex: int): int;
     WriteExponentBigEndian(destination: byte[]): int;
-    WriteExponentBigEndian(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").Byte>): int;
+    WriteExponentBigEndian(destination: import("../../System/internal/index.js").Span_1<import("../../System/internal/index.js").Byte>): int;
 }
 
 export type NFloat = NFloat$instance & __NFloat$views;
@@ -794,11 +851,12 @@ export type NFloat = NFloat$instance & __NFloat$views;
 
 export interface OSPlatform$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_OSPlatform: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
-    Equals(other: OSPlatform): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(other: OSPlatform): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -824,8 +882,9 @@ export interface __OSPlatform$views {
 export type OSPlatform = OSPlatform$instance & __OSPlatform$views;
 
 
-export interface PinnedGCHandle_1$instance<T extends (object | null)> extends System_Internal.IDisposable$instance {
+export interface PinnedGCHandle_1$instance<T extends (object | null)> {
     readonly __tsonic_type_System_Runtime_InteropServices_PinnedGCHandle_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -858,8 +917,9 @@ export interface __PinnedGCHandle_1$views<T extends (object | null)> {
 export type PinnedGCHandle_1<T extends (object | null)> = PinnedGCHandle_1$instance<T> & __PinnedGCHandle_1$views<T>;
 
 
-export interface WeakGCHandle_1$instance<T extends (object | null)> extends System_Internal.IDisposable$instance {
+export interface WeakGCHandle_1$instance<T extends (object | null)> {
     readonly __tsonic_type_System_Runtime_InteropServices_WeakGCHandle_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IEquatable_1: never;
@@ -892,7 +952,8 @@ export interface __WeakGCHandle_1$views<T extends (object | null)> {
 export type WeakGCHandle_1<T extends (object | null)> = WeakGCHandle_1$instance<T> & __WeakGCHandle_1$views<T>;
 
 
-export interface AllowReversePInvokeCallsAttribute$instance extends Attribute {
+export interface AllowReversePInvokeCallsAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_AllowReversePInvokeCallsAttribute: never;
 
 }
@@ -905,7 +966,8 @@ export const AllowReversePInvokeCallsAttribute: {
 
 export type AllowReversePInvokeCallsAttribute = AllowReversePInvokeCallsAttribute$instance;
 
-export interface AutomationProxyAttribute$instance extends Attribute {
+export interface AutomationProxyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_AutomationProxyAttribute: never;
 
     readonly Value: boolean;
@@ -919,7 +981,8 @@ export const AutomationProxyAttribute: {
 
 export type AutomationProxyAttribute = AutomationProxyAttribute$instance;
 
-export interface BestFitMappingAttribute$instance extends Attribute {
+export interface BestFitMappingAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_BestFitMappingAttribute: never;
 
     ThrowOnUnmappableChar: boolean;
@@ -949,7 +1012,8 @@ export const BStrWrapper: {
 
 export type BStrWrapper = BStrWrapper$instance;
 
-export interface ClassInterfaceAttribute$instance extends Attribute {
+export interface ClassInterfaceAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ClassInterfaceAttribute: never;
 
     readonly Value: ClassInterfaceType;
@@ -964,7 +1028,8 @@ export const ClassInterfaceAttribute: {
 
 export type ClassInterfaceAttribute = ClassInterfaceAttribute$instance;
 
-export interface CoClassAttribute$instance extends Attribute {
+export interface CoClassAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_CoClassAttribute: never;
 
     readonly CoClass: Type;
@@ -978,7 +1043,8 @@ export const CoClassAttribute: {
 
 export type CoClassAttribute = CoClassAttribute$instance;
 
-export interface ComAliasNameAttribute$instance extends Attribute {
+export interface ComAliasNameAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComAliasNameAttribute: never;
 
     readonly Value: string;
@@ -992,31 +1058,22 @@ export const ComAliasNameAttribute: {
 
 export type ComAliasNameAttribute = ComAliasNameAttribute$instance;
 
-export interface ComAwareEventInfo$instance extends EventInfo, System_Reflection_Internal.ICustomAttributeProvider$instance {
+export interface ComAwareEventInfo$instance extends System_Reflection_Internal.EventInfo$instance {
+    readonly __tsonic_type_System_Reflection_EventInfo: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComAwareEventInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
-    readonly Attributes: EventAttributes;
-    readonly DeclaringType: Type | null;
-    readonly MetadataToken: int;
-    readonly Module: Module;
-    readonly Name: string;
-    readonly ReflectedType: Type | null;
-    AddEventHandler(target: unknown, handler: Function): void;
-    GetAddMethod(nonPublic: boolean): MethodInfo | null;
-    GetAddMethod(): MethodInfo | null;
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributesData(): IList_1<CustomAttributeData>;
-    GetOtherMethods(nonPublic: boolean): MethodInfo[];
-    GetOtherMethods(): MethodInfo[];
-    GetRaiseMethod(nonPublic: boolean): MethodInfo | null;
-    GetRaiseMethod(): MethodInfo | null;
-    GetRemoveMethod(nonPublic: boolean): MethodInfo | null;
-    GetRemoveMethod(): MethodInfo | null;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
-    RemoveEventHandler(target: unknown, handler: Function): void;
+    AddEventHandler: System_Reflection_Internal.EventInfo$instance["AddEventHandler"] & ((target: unknown, handler: Function) => void);
+    GetAddMethod: System_Reflection_Internal.EventInfo$instance["GetAddMethod"] & (() => MethodInfo | null) & ((nonPublic: boolean) => MethodInfo | null);
+    GetCustomAttributes: System_Reflection_Internal.EventInfo$instance["GetCustomAttributes"] & ((attributeType: Type, inherit: boolean) => unknown[]) & ((inherit: boolean) => unknown[]);
+    GetCustomAttributesData: System_Reflection_Internal.EventInfo$instance["GetCustomAttributesData"] & (() => IList_1<CustomAttributeData>);
+    GetOtherMethods: System_Reflection_Internal.EventInfo$instance["GetOtherMethods"] & (() => MethodInfo[]) & ((nonPublic: boolean) => MethodInfo[]);
+    GetRaiseMethod: System_Reflection_Internal.EventInfo$instance["GetRaiseMethod"] & (() => MethodInfo | null) & ((nonPublic: boolean) => MethodInfo | null);
+    GetRemoveMethod: System_Reflection_Internal.EventInfo$instance["GetRemoveMethod"] & (() => MethodInfo | null) & ((nonPublic: boolean) => MethodInfo | null);
+    IsDefined: System_Reflection_Internal.EventInfo$instance["IsDefined"] & ((attributeType: Type, inherit: boolean) => boolean);
+    RemoveEventHandler: System_Reflection_Internal.EventInfo$instance["RemoveEventHandler"] & ((target: unknown, handler: Function) => void);
 }
 
 
@@ -1032,7 +1089,8 @@ export interface __ComAwareEventInfo$views {
 export type ComAwareEventInfo = ComAwareEventInfo$instance & __ComAwareEventInfo$views;
 
 
-export interface ComCompatibleVersionAttribute$instance extends Attribute {
+export interface ComCompatibleVersionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComCompatibleVersionAttribute: never;
 
     readonly BuildNumber: int;
@@ -1049,7 +1107,8 @@ export const ComCompatibleVersionAttribute: {
 
 export type ComCompatibleVersionAttribute = ComCompatibleVersionAttribute$instance;
 
-export interface ComConversionLossAttribute$instance extends Attribute {
+export interface ComConversionLossAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComConversionLossAttribute: never;
 
 }
@@ -1062,7 +1121,8 @@ export const ComConversionLossAttribute: {
 
 export type ComConversionLossAttribute = ComConversionLossAttribute$instance;
 
-export interface ComDefaultInterfaceAttribute$instance extends Attribute {
+export interface ComDefaultInterfaceAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComDefaultInterfaceAttribute: never;
 
     readonly Value: Type;
@@ -1076,7 +1136,8 @@ export const ComDefaultInterfaceAttribute: {
 
 export type ComDefaultInterfaceAttribute = ComDefaultInterfaceAttribute$instance;
 
-export interface ComEventInterfaceAttribute$instance extends Attribute {
+export interface ComEventInterfaceAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComEventInterfaceAttribute: never;
 
     readonly EventProvider: Type;
@@ -1091,12 +1152,15 @@ export const ComEventInterfaceAttribute: {
 
 export type ComEventInterfaceAttribute = ComEventInterfaceAttribute$instance;
 
-export interface COMException$instance extends ExternalException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface COMException$instance extends ExternalException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_InteropServices_COMException: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_ExternalException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    ToString(): string;
+    ToString: ExternalException$instance["ToString"] & (() => string);
 }
 
 
@@ -1115,7 +1179,8 @@ export interface __COMException$views {
 export type COMException = COMException$instance & __COMException$views;
 
 
-export interface ComImportAttribute$instance extends Attribute {
+export interface ComImportAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComImportAttribute: never;
 
 }
@@ -1128,7 +1193,8 @@ export const ComImportAttribute: {
 
 export type ComImportAttribute = ComImportAttribute$instance;
 
-export interface ComRegisterFunctionAttribute$instance extends Attribute {
+export interface ComRegisterFunctionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComRegisterFunctionAttribute: never;
 
 }
@@ -1141,7 +1207,8 @@ export const ComRegisterFunctionAttribute: {
 
 export type ComRegisterFunctionAttribute = ComRegisterFunctionAttribute$instance;
 
-export interface ComSourceInterfacesAttribute$instance extends Attribute {
+export interface ComSourceInterfacesAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComSourceInterfacesAttribute: never;
 
     readonly Value: string;
@@ -1159,7 +1226,8 @@ export const ComSourceInterfacesAttribute: {
 
 export type ComSourceInterfacesAttribute = ComSourceInterfacesAttribute$instance;
 
-export interface ComUnregisterFunctionAttribute$instance extends Attribute {
+export interface ComUnregisterFunctionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComUnregisterFunctionAttribute: never;
 
 }
@@ -1172,7 +1240,8 @@ export const ComUnregisterFunctionAttribute: {
 
 export type ComUnregisterFunctionAttribute = ComUnregisterFunctionAttribute$instance;
 
-export interface ComVisibleAttribute$instance extends Attribute {
+export interface ComVisibleAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ComVisibleAttribute: never;
 
     readonly Value: boolean;
@@ -1201,7 +1270,7 @@ export interface ComWrappers$instance {
 }
 
 
-export const ComWrappers: (abstract new() => ComWrappers) & {
+export const ComWrappers: {
     GetIUnknownImpl(fpQueryInterface: nint, fpAddRef: nint, fpRelease: nint): void;
     RegisterForMarshalling(instance: ComWrappers): void;
     RegisterForTrackerSupport(instance: ComWrappers): void;
@@ -1214,6 +1283,7 @@ export type ComWrappers = ComWrappers$instance;
 
 export interface ComWrappers_ComInterfaceDispatch$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComWrappers_ComInterfaceDispatch: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     Vtable: nint;
 }
@@ -1229,6 +1299,7 @@ export type ComWrappers_ComInterfaceDispatch = ComWrappers_ComInterfaceDispatch$
 
 export interface ComWrappers_ComInterfaceEntry$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_ComWrappers_ComInterfaceEntry: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     IID: Guid;
     Vtable: nint;
@@ -1242,7 +1313,8 @@ export const ComWrappers_ComInterfaceEntry: {
 
 export type ComWrappers_ComInterfaceEntry = ComWrappers_ComInterfaceEntry$instance;
 
-export interface CriticalHandle$instance extends CriticalFinalizerObject {
+export interface CriticalHandle$instance extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
     readonly __tsonic_type_System_Runtime_InteropServices_CriticalHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1252,13 +1324,13 @@ export interface CriticalHandle$instance extends CriticalFinalizerObject {
     Close(): void;
     Dispose(): void;
     Dispose(disposing: boolean): void;
-    Finalize(): void;
+    Finalize: System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance["Finalize"] & (() => void);
     ReleaseHandle(): boolean;
     SetHandleAsInvalid(): void;
 }
 
 
-export const CriticalHandle: (abstract new(invalidHandleValue: nint) => CriticalHandle) & {
+export const CriticalHandle: {
 };
 
 
@@ -1284,7 +1356,8 @@ export const CurrencyWrapper: {
 
 export type CurrencyWrapper = CurrencyWrapper$instance;
 
-export interface DefaultCharSetAttribute$instance extends Attribute {
+export interface DefaultCharSetAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_DefaultCharSetAttribute: never;
 
     readonly CharSet: CharSet;
@@ -1298,7 +1371,8 @@ export const DefaultCharSetAttribute: {
 
 export type DefaultCharSetAttribute = DefaultCharSetAttribute$instance;
 
-export interface DefaultDllImportSearchPathsAttribute$instance extends Attribute {
+export interface DefaultDllImportSearchPathsAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_DefaultDllImportSearchPathsAttribute: never;
 
     readonly Paths: DllImportSearchPath;
@@ -1312,7 +1386,8 @@ export const DefaultDllImportSearchPathsAttribute: {
 
 export type DefaultDllImportSearchPathsAttribute = DefaultDllImportSearchPathsAttribute$instance;
 
-export interface DefaultParameterValueAttribute$instance extends Attribute {
+export interface DefaultParameterValueAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_DefaultParameterValueAttribute: never;
 
     readonly Value: unknown | null;
@@ -1340,7 +1415,8 @@ export const DispatchWrapper: {
 
 export type DispatchWrapper = DispatchWrapper$instance;
 
-export interface DispIdAttribute$instance extends Attribute {
+export interface DispIdAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_DispIdAttribute: never;
 
     readonly Value: int;
@@ -1354,7 +1430,8 @@ export const DispIdAttribute: {
 
 export type DispIdAttribute = DispIdAttribute$instance;
 
-export interface DllImportAttribute$instance extends Attribute {
+export interface DllImportAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_DllImportAttribute: never;
 
     EntryPoint: string | null;
@@ -1376,7 +1453,8 @@ export const DllImportAttribute: {
 
 export type DllImportAttribute = DllImportAttribute$instance;
 
-export interface DynamicInterfaceCastableImplementationAttribute$instance extends Attribute {
+export interface DynamicInterfaceCastableImplementationAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_DynamicInterfaceCastableImplementationAttribute: never;
 
 }
@@ -1405,13 +1483,15 @@ export const ErrorWrapper: {
 
 export type ErrorWrapper = ErrorWrapper$instance;
 
-export interface ExternalException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface ExternalException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ExternalException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly ErrorCode: int;
-    ToString(): string;
+    ToString: System_Internal.SystemException$instance["ToString"] & (() => string);
 }
 
 
@@ -1430,7 +1510,8 @@ export interface __ExternalException$views {
 export type ExternalException = ExternalException$instance & __ExternalException$views;
 
 
-export interface FieldOffsetAttribute$instance extends Attribute {
+export interface FieldOffsetAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_FieldOffsetAttribute: never;
 
     readonly Value: int;
@@ -1444,7 +1525,8 @@ export const FieldOffsetAttribute: {
 
 export type FieldOffsetAttribute = FieldOffsetAttribute$instance;
 
-export interface GuidAttribute$instance extends Attribute {
+export interface GuidAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_GuidAttribute: never;
 
     readonly Value: string;
@@ -1478,7 +1560,8 @@ export const HandleCollector: {
 
 export type HandleCollector = HandleCollector$instance;
 
-export interface ImportedFromTypeLibAttribute$instance extends Attribute {
+export interface ImportedFromTypeLibAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ImportedFromTypeLibAttribute: never;
 
     readonly Value: string;
@@ -1492,7 +1575,8 @@ export const ImportedFromTypeLibAttribute: {
 
 export type ImportedFromTypeLibAttribute = ImportedFromTypeLibAttribute$instance;
 
-export interface InAttribute$instance extends Attribute {
+export interface InAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_InAttribute: never;
 
 }
@@ -1505,7 +1589,8 @@ export const InAttribute: {
 
 export type InAttribute = InAttribute$instance;
 
-export interface InterfaceTypeAttribute$instance extends Attribute {
+export interface InterfaceTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_InterfaceTypeAttribute: never;
 
     readonly Value: ComInterfaceType;
@@ -1520,8 +1605,10 @@ export const InterfaceTypeAttribute: {
 
 export type InterfaceTypeAttribute = InterfaceTypeAttribute$instance;
 
-export interface InvalidComObjectException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface InvalidComObjectException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_InteropServices_InvalidComObjectException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1542,8 +1629,10 @@ export interface __InvalidComObjectException$views {
 export type InvalidComObjectException = InvalidComObjectException$instance & __InvalidComObjectException$views;
 
 
-export interface InvalidOleVariantTypeException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface InvalidOleVariantTypeException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_InteropServices_InvalidOleVariantTypeException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1564,7 +1653,8 @@ export interface __InvalidOleVariantTypeException$views {
 export type InvalidOleVariantTypeException = InvalidOleVariantTypeException$instance & __InvalidOleVariantTypeException$views;
 
 
-export interface LCIDConversionAttribute$instance extends Attribute {
+export interface LCIDConversionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_LCIDConversionAttribute: never;
 
     readonly Value: int;
@@ -1578,7 +1668,8 @@ export const LCIDConversionAttribute: {
 
 export type LCIDConversionAttribute = LCIDConversionAttribute$instance;
 
-export interface LibraryImportAttribute$instance extends Attribute {
+export interface LibraryImportAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_LibraryImportAttribute: never;
 
     get EntryPoint(): string | null;
@@ -1598,7 +1689,8 @@ export const LibraryImportAttribute: {
 
 export type LibraryImportAttribute = LibraryImportAttribute$instance;
 
-export interface ManagedToNativeComInteropStubAttribute$instance extends Attribute {
+export interface ManagedToNativeComInteropStubAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ManagedToNativeComInteropStubAttribute: never;
 
     readonly ClassType: Type;
@@ -1613,7 +1705,8 @@ export const ManagedToNativeComInteropStubAttribute: {
 
 export type ManagedToNativeComInteropStubAttribute = ManagedToNativeComInteropStubAttribute$instance;
 
-export interface MarshalAsAttribute$instance extends Attribute {
+export interface MarshalAsAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_MarshalAsAttribute: never;
 
     SafeArraySubType: VarEnum;
@@ -1637,8 +1730,10 @@ export const MarshalAsAttribute: {
 
 export type MarshalAsAttribute = MarshalAsAttribute$instance;
 
-export interface MarshalDirectiveException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface MarshalDirectiveException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_InteropServices_MarshalDirectiveException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1659,7 +1754,8 @@ export interface __MarshalDirectiveException$views {
 export type MarshalDirectiveException = MarshalDirectiveException$instance & __MarshalDirectiveException$views;
 
 
-export interface OptionalAttribute$instance extends Attribute {
+export interface OptionalAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_OptionalAttribute: never;
 
 }
@@ -1672,7 +1768,8 @@ export const OptionalAttribute: {
 
 export type OptionalAttribute = OptionalAttribute$instance;
 
-export interface OutAttribute$instance extends Attribute {
+export interface OutAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_OutAttribute: never;
 
 }
@@ -1689,7 +1786,7 @@ export interface PosixSignalContext$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_PosixSignalContext: never;
 
     Cancel: boolean;
-    Signal: PosixSignal;
+    readonly Signal: PosixSignal;
 }
 
 
@@ -1700,7 +1797,7 @@ export const PosixSignalContext: {
 
 export type PosixSignalContext = PosixSignalContext$instance;
 
-export interface PosixSignalRegistration$instance extends System_Internal.IDisposable$instance {
+export interface PosixSignalRegistration$instance {
     readonly __tsonic_type_System_Runtime_InteropServices_PosixSignalRegistration: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1722,7 +1819,8 @@ export interface __PosixSignalRegistration$views {
 export type PosixSignalRegistration = PosixSignalRegistration$instance & __PosixSignalRegistration$views;
 
 
-export interface PreserveSigAttribute$instance extends Attribute {
+export interface PreserveSigAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_PreserveSigAttribute: never;
 
 }
@@ -1735,7 +1833,8 @@ export const PreserveSigAttribute: {
 
 export type PreserveSigAttribute = PreserveSigAttribute$instance;
 
-export interface PrimaryInteropAssemblyAttribute$instance extends Attribute {
+export interface PrimaryInteropAssemblyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_PrimaryInteropAssemblyAttribute: never;
 
     readonly MajorVersion: int;
@@ -1750,7 +1849,8 @@ export const PrimaryInteropAssemblyAttribute: {
 
 export type PrimaryInteropAssemblyAttribute = PrimaryInteropAssemblyAttribute$instance;
 
-export interface ProgIdAttribute$instance extends Attribute {
+export interface ProgIdAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ProgIdAttribute: never;
 
     readonly Value: string;
@@ -1764,8 +1864,10 @@ export const ProgIdAttribute: {
 
 export type ProgIdAttribute = ProgIdAttribute$instance;
 
-export interface SafeArrayRankMismatchException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SafeArrayRankMismatchException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_InteropServices_SafeArrayRankMismatchException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1786,8 +1888,10 @@ export interface __SafeArrayRankMismatchException$views {
 export type SafeArrayRankMismatchException = SafeArrayRankMismatchException$instance & __SafeArrayRankMismatchException$views;
 
 
-export interface SafeArrayTypeMismatchException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SafeArrayTypeMismatchException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_InteropServices_SafeArrayTypeMismatchException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1808,8 +1912,11 @@ export interface __SafeArrayTypeMismatchException$views {
 export type SafeArrayTypeMismatchException = SafeArrayTypeMismatchException$instance & __SafeArrayTypeMismatchException$views;
 
 
-export interface SafeBuffer$instance extends SafeHandleZeroOrMinusOneIsInvalid {
+export interface SafeBuffer$instance extends Microsoft_Win32_SafeHandles_Internal.SafeHandleZeroOrMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
     readonly __tsonic_type_System_Runtime_InteropServices_SafeBuffer: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1817,18 +1924,18 @@ export interface SafeBuffer$instance extends SafeHandleZeroOrMinusOneIsInvalid {
     AcquirePointer(pointer: ptr<byte>): void;
     Initialize(numBytes: ulong): void;
     Initialize(numElements: uint, sizeOfEachElement: uint): void;
-    Initialize<T extends NonNullable<unknown>>(numElements: uint): void;
-    Read<T extends NonNullable<unknown>>(byteOffset: ulong): T;
-    ReadArray<T extends NonNullable<unknown>>(byteOffset: ulong, array: T[], index: int, count: int): void;
-    ReadSpan<T extends NonNullable<unknown>>(byteOffset: ulong, buffer: Span_1<T>): void;
+    Initialize<T extends { readonly __tsonic_type_System_ValueType: never }>(numElements: uint): void;
+    Read<T extends { readonly __tsonic_type_System_ValueType: never }>(byteOffset: ulong): T;
+    ReadArray<T extends { readonly __tsonic_type_System_ValueType: never }>(byteOffset: ulong, array: T[], index: int, count: int): void;
+    ReadSpan<T extends { readonly __tsonic_type_System_ValueType: never }>(byteOffset: ulong, buffer: Span_1<T>): void;
     ReleasePointer(): void;
-    Write<T extends NonNullable<unknown>>(byteOffset: ulong, value: T): void;
-    WriteArray<T extends NonNullable<unknown>>(byteOffset: ulong, array: T[], index: int, count: int): void;
-    WriteSpan<T extends NonNullable<unknown>>(byteOffset: ulong, data: ReadOnlySpan_1<T>): void;
+    Write<T extends { readonly __tsonic_type_System_ValueType: never }>(byteOffset: ulong, value: T): void;
+    WriteArray<T extends { readonly __tsonic_type_System_ValueType: never }>(byteOffset: ulong, array: T[], index: int, count: int): void;
+    WriteSpan<T extends { readonly __tsonic_type_System_ValueType: never }>(byteOffset: ulong, data: ReadOnlySpan_1<T>): void;
 }
 
 
-export const SafeBuffer: (abstract new(ownsHandle: boolean) => SafeBuffer) & {
+export const SafeBuffer: {
 };
 
 
@@ -1839,7 +1946,8 @@ export interface __SafeBuffer$views {
 export type SafeBuffer = SafeBuffer$instance & __SafeBuffer$views;
 
 
-export interface SafeHandle$instance extends CriticalFinalizerObject {
+export interface SafeHandle$instance extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
     readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1852,13 +1960,13 @@ export interface SafeHandle$instance extends CriticalFinalizerObject {
     DangerousRelease(): void;
     Dispose(): void;
     Dispose(disposing: boolean): void;
-    Finalize(): void;
+    Finalize: System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance["Finalize"] & (() => void);
     ReleaseHandle(): boolean;
     SetHandleAsInvalid(): void;
 }
 
 
-export const SafeHandle: (abstract new(invalidHandleValue: nint, ownsHandle: boolean) => SafeHandle) & {
+export const SafeHandle: {
 };
 
 
@@ -1869,8 +1977,11 @@ export interface __SafeHandle$views {
 export type SafeHandle = SafeHandle$instance & __SafeHandle$views;
 
 
-export interface SEHException$instance extends ExternalException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SEHException$instance extends ExternalException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_ExternalException: never;
     readonly __tsonic_type_System_Runtime_InteropServices_SEHException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1892,19 +2003,21 @@ export interface __SEHException$views {
 export type SEHException = SEHException$instance & __SEHException$views;
 
 
-export interface StandardOleMarshalObject$instance extends MarshalByRefObject {
+export interface StandardOleMarshalObject$instance extends System_Internal.MarshalByRefObject$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Runtime_InteropServices_StandardOleMarshalObject: never;
 
 }
 
 
-export const StandardOleMarshalObject: (abstract new() => StandardOleMarshalObject) & {
+export const StandardOleMarshalObject: {
 };
 
 
 export type StandardOleMarshalObject = StandardOleMarshalObject$instance;
 
-export interface StructLayoutAttribute$instance extends Attribute {
+export interface StructLayoutAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_StructLayoutAttribute: never;
 
     Pack: int;
@@ -1922,7 +2035,8 @@ export const StructLayoutAttribute: {
 
 export type StructLayoutAttribute = StructLayoutAttribute$instance;
 
-export interface SuppressGCTransitionAttribute$instance extends Attribute {
+export interface SuppressGCTransitionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_SuppressGCTransitionAttribute: never;
 
 }
@@ -1935,7 +2049,8 @@ export const SuppressGCTransitionAttribute: {
 
 export type SuppressGCTransitionAttribute = SuppressGCTransitionAttribute$instance;
 
-export interface TypeIdentifierAttribute$instance extends Attribute {
+export interface TypeIdentifierAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_TypeIdentifierAttribute: never;
 
     readonly Identifier: string | null;
@@ -1951,7 +2066,8 @@ export const TypeIdentifierAttribute: {
 
 export type TypeIdentifierAttribute = TypeIdentifierAttribute$instance;
 
-export interface TypeLibFuncAttribute$instance extends Attribute {
+export interface TypeLibFuncAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_TypeLibFuncAttribute: never;
 
     readonly Value: TypeLibFuncFlags;
@@ -1966,7 +2082,8 @@ export const TypeLibFuncAttribute: {
 
 export type TypeLibFuncAttribute = TypeLibFuncAttribute$instance;
 
-export interface TypeLibImportClassAttribute$instance extends Attribute {
+export interface TypeLibImportClassAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_TypeLibImportClassAttribute: never;
 
     readonly Value: string;
@@ -1980,7 +2097,8 @@ export const TypeLibImportClassAttribute: {
 
 export type TypeLibImportClassAttribute = TypeLibImportClassAttribute$instance;
 
-export interface TypeLibTypeAttribute$instance extends Attribute {
+export interface TypeLibTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_TypeLibTypeAttribute: never;
 
     readonly Value: TypeLibTypeFlags;
@@ -1995,7 +2113,8 @@ export const TypeLibTypeAttribute: {
 
 export type TypeLibTypeAttribute = TypeLibTypeAttribute$instance;
 
-export interface TypeLibVarAttribute$instance extends Attribute {
+export interface TypeLibVarAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_TypeLibVarAttribute: never;
 
     readonly Value: TypeLibVarFlags;
@@ -2010,7 +2129,8 @@ export const TypeLibVarAttribute: {
 
 export type TypeLibVarAttribute = TypeLibVarAttribute$instance;
 
-export interface TypeLibVersionAttribute$instance extends Attribute {
+export interface TypeLibVersionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_TypeLibVersionAttribute: never;
 
     readonly MajorVersion: int;
@@ -2025,7 +2145,8 @@ export const TypeLibVersionAttribute: {
 
 export type TypeLibVersionAttribute = TypeLibVersionAttribute$instance;
 
-export interface TypeMapAssemblyTargetAttribute_1$instance<TTypeMapGroup extends unknown> extends Attribute {
+export interface TypeMapAssemblyTargetAttribute_1$instance<TTypeMapGroup extends unknown> extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_TypeMapAssemblyTargetAttribute_1: never;
 
 }
@@ -2038,7 +2159,8 @@ export const TypeMapAssemblyTargetAttribute_1: {
 
 export type TypeMapAssemblyTargetAttribute_1<TTypeMapGroup extends unknown> = TypeMapAssemblyTargetAttribute_1$instance<TTypeMapGroup>;
 
-export interface TypeMapAssociationAttribute_1$instance<TTypeMapGroup extends unknown> extends Attribute {
+export interface TypeMapAssociationAttribute_1$instance<TTypeMapGroup extends unknown> extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_TypeMapAssociationAttribute_1: never;
 
 }
@@ -2051,7 +2173,8 @@ export const TypeMapAssociationAttribute_1: {
 
 export type TypeMapAssociationAttribute_1<TTypeMapGroup extends unknown> = TypeMapAssociationAttribute_1$instance<TTypeMapGroup>;
 
-export interface TypeMapAttribute_1$instance<TTypeMapGroup extends unknown> extends Attribute {
+export interface TypeMapAttribute_1$instance<TTypeMapGroup extends unknown> extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_TypeMapAttribute_1: never;
 
 }
@@ -2079,7 +2202,8 @@ export const UnknownWrapper: {
 
 export type UnknownWrapper = UnknownWrapper$instance;
 
-export interface UnmanagedCallConvAttribute$instance extends Attribute {
+export interface UnmanagedCallConvAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_UnmanagedCallConvAttribute: never;
 
     CallConvs: Type[] | null;
@@ -2093,7 +2217,8 @@ export const UnmanagedCallConvAttribute: {
 
 export type UnmanagedCallConvAttribute = UnmanagedCallConvAttribute$instance;
 
-export interface UnmanagedCallersOnlyAttribute$instance extends Attribute {
+export interface UnmanagedCallersOnlyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_UnmanagedCallersOnlyAttribute: never;
 
     CallConvs: Type[] | null;
@@ -2108,7 +2233,8 @@ export const UnmanagedCallersOnlyAttribute: {
 
 export type UnmanagedCallersOnlyAttribute = UnmanagedCallersOnlyAttribute$instance;
 
-export interface UnmanagedFunctionPointerAttribute$instance extends Attribute {
+export interface UnmanagedFunctionPointerAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_UnmanagedFunctionPointerAttribute: never;
 
     BestFitMapping: boolean;
@@ -2140,7 +2266,8 @@ export const VariantWrapper: {
 
 export type VariantWrapper = VariantWrapper$instance;
 
-export interface WasmImportLinkageAttribute$instance extends Attribute {
+export interface WasmImportLinkageAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_WasmImportLinkageAttribute: never;
 
 }
@@ -2371,13 +2498,13 @@ export abstract class Marshal$instance {
 export type Marshal = Marshal$instance;
 
 export abstract class MemoryMarshal$instance {
-    static AsBytes<T extends NonNullable<unknown>>(span: ReadOnlySpan_1<T>): ReadOnlySpan_1<System_Internal.Byte>;
-    static AsBytes<T extends NonNullable<unknown>>(span: Span_1<T>): Span_1<System_Internal.Byte>;
+    static AsBytes<T extends { readonly __tsonic_type_System_ValueType: never }>(span: ReadOnlySpan_1<T>): ReadOnlySpan_1<System_Internal.Byte>;
+    static AsBytes<T extends { readonly __tsonic_type_System_ValueType: never }>(span: Span_1<T>): Span_1<System_Internal.Byte>;
     static AsMemory<T extends unknown>(memory: ReadOnlyMemory_1<T>): Memory_1<T>;
-    static AsRef<T extends NonNullable<unknown>>(span: ReadOnlySpan_1<System_Internal.Byte>): T;
-    static AsRef<T extends NonNullable<unknown>>(span: Span_1<System_Internal.Byte>): T;
-    static Cast<TFrom extends NonNullable<unknown>, TTo extends NonNullable<unknown>>(span: ReadOnlySpan_1<TFrom>): ReadOnlySpan_1<TTo>;
-    static Cast<TFrom extends NonNullable<unknown>, TTo extends NonNullable<unknown>>(span: Span_1<TFrom>): Span_1<TTo>;
+    static AsRef<T extends { readonly __tsonic_type_System_ValueType: never }>(span: ReadOnlySpan_1<System_Internal.Byte>): T;
+    static AsRef<T extends { readonly __tsonic_type_System_ValueType: never }>(span: Span_1<System_Internal.Byte>): T;
+    static Cast<TFrom extends { readonly __tsonic_type_System_ValueType: never }, TTo extends { readonly __tsonic_type_System_ValueType: never }>(span: ReadOnlySpan_1<TFrom>): ReadOnlySpan_1<TTo>;
+    static Cast<TFrom extends { readonly __tsonic_type_System_ValueType: never }, TTo extends { readonly __tsonic_type_System_ValueType: never }>(span: Span_1<TFrom>): Span_1<TTo>;
     static CreateFromPinnedArray<T extends unknown>(array: T[] | null, start: int, length: int): Memory_1<T>;
     static CreateReadOnlySpan<T extends unknown>(reference: T, length: int): ReadOnlySpan_1<T>;
     static CreateReadOnlySpanFromNullTerminated(value: ptr<byte>): ReadOnlySpan_1<System_Internal.Byte>;
@@ -2387,15 +2514,15 @@ export abstract class MemoryMarshal$instance {
     static GetArrayDataReference<T extends unknown>(array: T[]): T;
     static GetReference<T extends unknown>(span: ReadOnlySpan_1<T>): T;
     static GetReference<T extends unknown>(span: Span_1<T>): T;
-    static Read<T extends NonNullable<unknown>>(source: ReadOnlySpan_1<System_Internal.Byte>): T;
+    static Read<T extends { readonly __tsonic_type_System_ValueType: never }>(source: ReadOnlySpan_1<System_Internal.Byte>): T;
     static ToEnumerable<T extends unknown>(memory: ReadOnlyMemory_1<T>): IEnumerable_1<T>;
     static TryGetArray<T extends unknown>(memory: ReadOnlyMemory_1<T>, segment: ArraySegment_1<T>): boolean;
-    static TryGetMemoryManager<T extends unknown, TManager extends unknown & MemoryManager_1<T>>(memory: ReadOnlyMemory_1<T>, manager: TManager | null, start: int, length: int): boolean;
-    static TryGetMemoryManager<T extends unknown, TManager extends unknown & MemoryManager_1<T>>(memory: ReadOnlyMemory_1<T>, manager: TManager | null): boolean;
+    static TryGetMemoryManager<T extends unknown, TManager extends unknown & { readonly __tsonic_type_System_Buffers_MemoryManager_1: never }>(memory: ReadOnlyMemory_1<T>, manager: TManager | null, start: int, length: int): boolean;
+    static TryGetMemoryManager<T extends unknown, TManager extends unknown & { readonly __tsonic_type_System_Buffers_MemoryManager_1: never }>(memory: ReadOnlyMemory_1<T>, manager: TManager | null): boolean;
     static TryGetString(memory: ReadOnlyMemory_1<System_Internal.Char>, text: string | null, start: int, length: int): boolean;
-    static TryRead<T extends NonNullable<unknown>>(source: ReadOnlySpan_1<System_Internal.Byte>, value: T): boolean;
-    static TryWrite<T extends NonNullable<unknown>>(destination: Span_1<System_Internal.Byte>, value: T): boolean;
-    static Write<T extends NonNullable<unknown>>(destination: Span_1<System_Internal.Byte>, value: T): void;
+    static TryRead<T extends { readonly __tsonic_type_System_ValueType: never }>(source: ReadOnlySpan_1<System_Internal.Byte>, value: T): boolean;
+    static TryWrite<T extends { readonly __tsonic_type_System_ValueType: never }>(destination: Span_1<System_Internal.Byte>, value: T): boolean;
+    static Write<T extends { readonly __tsonic_type_System_ValueType: never }>(destination: Span_1<System_Internal.Byte>, value: T): void;
 }
 
 
@@ -2462,7 +2589,7 @@ export abstract class SequenceMarshal$instance {
     static TryGetArray<T extends unknown>(sequence: ReadOnlySequence_1<T>, segment: ArraySegment_1<T>): boolean;
     static TryGetReadOnlyMemory<T extends unknown>(sequence: ReadOnlySequence_1<T>, memory: ReadOnlyMemory_1<T>): boolean;
     static TryGetReadOnlySequenceSegment<T extends unknown>(sequence: ReadOnlySequence_1<T>, startSegment: ReadOnlySequenceSegment_1<T> | null, startIndex: int, endSegment: ReadOnlySequenceSegment_1<T> | null, endIndex: int): boolean;
-    static TryRead<T extends NonNullable<unknown>>(reader: SequenceReader_1<System_Internal.Byte>, value: T): boolean;
+    static TryRead<T extends { readonly __tsonic_type_System_ValueType: never }>(reader: SequenceReader_1<System_Internal.Byte>, value: T): boolean;
 }
 
 

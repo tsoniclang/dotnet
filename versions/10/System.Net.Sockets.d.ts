@@ -20,7 +20,7 @@ import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
-import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, EventArgs, EventHandler_1, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, ConsoleKeyInfo, Enum, EventArgs, EventHandler_1, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { SocketException as SocketException } from './System.Net.Sockets/internal/index.js';

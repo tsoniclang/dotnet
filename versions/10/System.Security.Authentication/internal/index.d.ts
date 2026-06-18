@@ -14,52 +14,62 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum CipherAlgorithmType {
-    None = 0,
-    Rc2 = 26114,
-    Rc4 = 26625,
-    Des = 26113,
-    TripleDes = 26115,
-    Aes = 26129,
-    Aes128 = 26126,
-    Aes192 = 26127,
-    Aes256 = 26128,
-    Null = 24576
-}
+export type CipherAlgorithmType = number & { readonly __tsonic_type_System_Security_Authentication_CipherAlgorithmType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CipherAlgorithmType: {
+    readonly None: CipherAlgorithmType;
+    readonly Rc2: CipherAlgorithmType;
+    readonly Rc4: CipherAlgorithmType;
+    readonly Des: CipherAlgorithmType;
+    readonly TripleDes: CipherAlgorithmType;
+    readonly Aes: CipherAlgorithmType;
+    readonly Aes128: CipherAlgorithmType;
+    readonly Aes192: CipherAlgorithmType;
+    readonly Aes256: CipherAlgorithmType;
+    readonly Null: CipherAlgorithmType;
+};
 
 
-export enum ExchangeAlgorithmType {
-    None = 0,
-    RsaSign = 9216,
-    RsaKeyX = 41984,
-    DiffieHellman = 43522
-}
+export type ExchangeAlgorithmType = number & { readonly __tsonic_type_System_Security_Authentication_ExchangeAlgorithmType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ExchangeAlgorithmType: {
+    readonly None: ExchangeAlgorithmType;
+    readonly RsaSign: ExchangeAlgorithmType;
+    readonly RsaKeyX: ExchangeAlgorithmType;
+    readonly DiffieHellman: ExchangeAlgorithmType;
+};
 
 
-export enum HashAlgorithmType {
-    None = 0,
-    Md5 = 32771,
-    Sha1 = 32772,
-    Sha256 = 32780,
-    Sha384 = 32781,
-    Sha512 = 32782
-}
+export type HashAlgorithmType = number & { readonly __tsonic_type_System_Security_Authentication_HashAlgorithmType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HashAlgorithmType: {
+    readonly None: HashAlgorithmType;
+    readonly Md5: HashAlgorithmType;
+    readonly Sha1: HashAlgorithmType;
+    readonly Sha256: HashAlgorithmType;
+    readonly Sha384: HashAlgorithmType;
+    readonly Sha512: HashAlgorithmType;
+};
 
 
-export enum SslProtocols {
-    None = 0,
-    Ssl2 = 12,
-    Ssl3 = 48,
-    Tls = 192,
-    Tls11 = 768,
-    Tls12 = 3072,
-    Tls13 = 12288,
-    Default = 240
-}
+export type SslProtocols = number & { readonly __tsonic_type_System_Security_Authentication_SslProtocols: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SslProtocols: {
+    readonly None: SslProtocols;
+    readonly Ssl2: SslProtocols;
+    readonly Ssl3: SslProtocols;
+    readonly Tls: SslProtocols;
+    readonly Tls11: SslProtocols;
+    readonly Tls12: SslProtocols;
+    readonly Tls13: SslProtocols;
+    readonly Default: SslProtocols;
+};
 
 
-export interface AuthenticationException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface AuthenticationException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Security_Authentication_AuthenticationException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -80,8 +90,11 @@ export interface __AuthenticationException$views {
 export type AuthenticationException = AuthenticationException$instance & __AuthenticationException$views;
 
 
-export interface InvalidCredentialException$instance extends AuthenticationException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface InvalidCredentialException$instance extends AuthenticationException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_Security_Authentication_AuthenticationException: never;
     readonly __tsonic_type_System_Security_Authentication_InvalidCredentialException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 

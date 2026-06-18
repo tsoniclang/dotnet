@@ -13,70 +13,77 @@ import type { MethodBase } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Action_2, Boolean as ClrBoolean, Byte, Char, DateTimeOffset, Enum, Exception, Func_2, Func_3, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
+import type { Action_2, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, DateTimeOffset, Enum, Exception, Func_2, Func_3, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
-export enum AsnEncodingRules {
-    BER = 0,
-    CER = 1,
-    DER = 2
-}
+export type AsnEncodingRules = number & { readonly __tsonic_type_System_Formats_Asn1_AsnEncodingRules: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum TagClass {
-    Universal = 0,
-    Application = 64,
-    ContextSpecific = 128,
-    Private = 192
-}
+export const AsnEncodingRules: {
+    readonly BER: AsnEncodingRules;
+    readonly CER: AsnEncodingRules;
+    readonly DER: AsnEncodingRules;
+};
 
 
-export enum UniversalTagNumber {
-    EndOfContents = 0,
-    Boolean = 1,
-    Integer = 2,
-    BitString = 3,
-    OctetString = 4,
-    Null = 5,
-    ObjectIdentifier = 6,
-    ObjectDescriptor = 7,
-    External = 8,
-    InstanceOf = 8,
-    Real = 9,
-    Enumerated = 10,
-    Embedded = 11,
-    UTF8String = 12,
-    RelativeObjectIdentifier = 13,
-    Time = 14,
-    Sequence = 16,
-    SequenceOf = 16,
-    Set = 17,
-    SetOf = 17,
-    NumericString = 18,
-    PrintableString = 19,
-    TeletexString = 20,
-    T61String = 20,
-    VideotexString = 21,
-    IA5String = 22,
-    UtcTime = 23,
-    GeneralizedTime = 24,
-    GraphicString = 25,
-    VisibleString = 26,
-    ISO646String = 26,
-    GeneralString = 27,
-    UniversalString = 28,
-    UnrestrictedCharacterString = 29,
-    BMPString = 30,
-    Date = 31,
-    TimeOfDay = 32,
-    DateTime = 33,
-    Duration = 34,
-    ObjectIdentifierIRI = 35,
-    RelativeObjectIdentifierIRI = 36
-}
+export type TagClass = number & { readonly __tsonic_type_System_Formats_Asn1_TagClass: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TagClass: {
+    readonly Universal: TagClass;
+    readonly Application: TagClass;
+    readonly ContextSpecific: TagClass;
+    readonly Private: TagClass;
+};
+
+
+export type UniversalTagNumber = number & { readonly __tsonic_type_System_Formats_Asn1_UniversalTagNumber: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const UniversalTagNumber: {
+    readonly EndOfContents: UniversalTagNumber;
+    readonly Boolean: UniversalTagNumber;
+    readonly Integer: UniversalTagNumber;
+    readonly BitString: UniversalTagNumber;
+    readonly OctetString: UniversalTagNumber;
+    readonly Null: UniversalTagNumber;
+    readonly ObjectIdentifier: UniversalTagNumber;
+    readonly ObjectDescriptor: UniversalTagNumber;
+    readonly External: UniversalTagNumber;
+    readonly InstanceOf: UniversalTagNumber;
+    readonly Real: UniversalTagNumber;
+    readonly Enumerated: UniversalTagNumber;
+    readonly Embedded: UniversalTagNumber;
+    readonly UTF8String: UniversalTagNumber;
+    readonly RelativeObjectIdentifier: UniversalTagNumber;
+    readonly Time: UniversalTagNumber;
+    readonly Sequence: UniversalTagNumber;
+    readonly SequenceOf: UniversalTagNumber;
+    readonly Set: UniversalTagNumber;
+    readonly SetOf: UniversalTagNumber;
+    readonly NumericString: UniversalTagNumber;
+    readonly PrintableString: UniversalTagNumber;
+    readonly TeletexString: UniversalTagNumber;
+    readonly T61String: UniversalTagNumber;
+    readonly VideotexString: UniversalTagNumber;
+    readonly IA5String: UniversalTagNumber;
+    readonly UtcTime: UniversalTagNumber;
+    readonly GeneralizedTime: UniversalTagNumber;
+    readonly GraphicString: UniversalTagNumber;
+    readonly VisibleString: UniversalTagNumber;
+    readonly ISO646String: UniversalTagNumber;
+    readonly GeneralString: UniversalTagNumber;
+    readonly UniversalString: UniversalTagNumber;
+    readonly UnrestrictedCharacterString: UniversalTagNumber;
+    readonly BMPString: UniversalTagNumber;
+    readonly Date: UniversalTagNumber;
+    readonly TimeOfDay: UniversalTagNumber;
+    readonly DateTime: UniversalTagNumber;
+    readonly Duration: UniversalTagNumber;
+    readonly ObjectIdentifierIRI: UniversalTagNumber;
+    readonly RelativeObjectIdentifierIRI: UniversalTagNumber;
+};
 
 
 export interface Asn1Tag$instance {
     readonly __tsonic_type_System_Formats_Asn1_Asn1Tag: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -87,8 +94,8 @@ export interface Asn1Tag$instance {
     AsPrimitive(): Asn1Tag;
     CalculateEncodedSize(): int;
     Encode(destination: Span_1<System_Internal.Byte>): int;
-    Equals(other: Asn1Tag): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(other: Asn1Tag): boolean;
     GetHashCode(): int;
     HasSameClassAndValue(other: Asn1Tag): boolean;
     ToString(): string;
@@ -129,6 +136,7 @@ export type Asn1Tag = Asn1Tag$instance & __Asn1Tag$views;
 
 export interface AsnReaderOptions$instance {
     readonly __tsonic_type_System_Formats_Asn1_AsnReaderOptions: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     SkipSetSortOrderVerification: boolean;
     UtcTimeTwoDigitYearMax: int;
@@ -142,7 +150,8 @@ export const AsnReaderOptions: {
 
 export type AsnReaderOptions = AsnReaderOptions$instance;
 
-export interface AsnContentException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface AsnContentException$instance extends System_Internal.Exception$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Formats_Asn1_AsnContentException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -178,14 +187,14 @@ export interface AsnReader$instance {
     ReadCharacterString(encodingType: UniversalTagNumber, expectedTag?: Nullable_1<Asn1Tag>): string;
     ReadEncodedValue(): ReadOnlyMemory_1<System_Internal.Byte>;
     ReadEnumeratedBytes(expectedTag?: Nullable_1<Asn1Tag>): ReadOnlyMemory_1<System_Internal.Byte>;
-    ReadEnumeratedValue<TEnum extends unknown & number>(expectedTag?: Nullable_1<Asn1Tag>): TEnum;
     ReadEnumeratedValue(enumType: Type, expectedTag?: Nullable_1<Asn1Tag>): number;
+    ReadEnumeratedValue<TEnum extends unknown & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never }>(expectedTag?: Nullable_1<Asn1Tag>): TEnum;
     ReadGeneralizedTime(expectedTag?: Nullable_1<Asn1Tag>): DateTimeOffset;
     ReadInteger(expectedTag?: Nullable_1<Asn1Tag>): BigInteger;
     ReadIntegerBytes(expectedTag?: Nullable_1<Asn1Tag>): ReadOnlyMemory_1<System_Internal.Byte>;
     ReadNamedBitList(expectedTag?: Nullable_1<Asn1Tag>): BitArray;
-    ReadNamedBitListValue<TFlagsEnum extends unknown & number>(expectedTag?: Nullable_1<Asn1Tag>): TFlagsEnum;
     ReadNamedBitListValue(flagsEnumType: Type, expectedTag?: Nullable_1<Asn1Tag>): number;
+    ReadNamedBitListValue<TFlagsEnum extends unknown & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never }>(expectedTag?: Nullable_1<Asn1Tag>): TFlagsEnum;
     ReadNull(expectedTag?: Nullable_1<Asn1Tag>): void;
     ReadObjectIdentifier(expectedTag?: Nullable_1<Asn1Tag>): string;
     ReadOctetString(expectedTag?: Nullable_1<Asn1Tag>): byte[];
@@ -221,13 +230,13 @@ export interface AsnWriter$instance {
 
     readonly RuleSet: AsnEncodingRules;
     CopyTo(destination: AsnWriter): void;
-    Encode(destination: Span_1<System_Internal.Byte>): int;
     Encode(): byte[];
+    Encode(destination: Span_1<System_Internal.Byte>): int;
     Encode<TReturn extends unknown>(encodeCallback: Func_2<ReadOnlySpan_1<System_Internal.Byte>, TReturn>): TReturn;
     Encode<TState extends unknown, TReturn extends unknown>(state: TState, encodeCallback: Func_3<TState, ReadOnlySpan_1<System_Internal.Byte>, TReturn>): TReturn;
     Encode<TState extends unknown>(state: TState, encodeCallback: Action_2<TState, ReadOnlySpan_1<System_Internal.Byte>>): void;
-    EncodedValueEquals(other: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     EncodedValueEquals(other: AsnWriter): boolean;
+    EncodedValueEquals(other: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     GetEncodedLength(): int;
     PopOctetString(tag?: Nullable_1<Asn1Tag>): void;
     PopSequence(tag?: Nullable_1<Asn1Tag>): void;
@@ -239,23 +248,23 @@ export interface AsnWriter$instance {
     TryEncode(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     WriteBitString(value: ReadOnlySpan_1<System_Internal.Byte>, unusedBitCount?: int, tag?: Nullable_1<Asn1Tag>): void;
     WriteBoolean(value: boolean, tag?: Nullable_1<Asn1Tag>): void;
-    WriteCharacterString(encodingType: UniversalTagNumber, value: string, tag?: Nullable_1<Asn1Tag>): void;
     WriteCharacterString(encodingType: UniversalTagNumber, str: ReadOnlySpan_1<System_Internal.Char>, tag?: Nullable_1<Asn1Tag>): void;
+    WriteCharacterString(encodingType: UniversalTagNumber, value: string, tag?: Nullable_1<Asn1Tag>): void;
     WriteEncodedValue(value: ReadOnlySpan_1<System_Internal.Byte>): void;
     WriteEnumeratedValue(value: number, tag?: Nullable_1<Asn1Tag>): void;
-    WriteEnumeratedValue<TEnum extends unknown & number>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
+    WriteEnumeratedValue<TEnum extends unknown & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never }>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
     WriteGeneralizedTime(value: DateTimeOffset, omitFractionalSeconds?: boolean, tag?: Nullable_1<Asn1Tag>): void;
-    WriteInteger(value: long, tag?: Nullable_1<Asn1Tag>): void;
-    WriteInteger(value: ulong, tag?: Nullable_1<Asn1Tag>): void;
     WriteInteger(value: BigInteger, tag?: Nullable_1<Asn1Tag>): void;
     WriteInteger(value: ReadOnlySpan_1<System_Internal.Byte>, tag?: Nullable_1<Asn1Tag>): void;
+    WriteInteger(value: long, tag?: Nullable_1<Asn1Tag>): void;
+    WriteInteger(value: ulong, tag?: Nullable_1<Asn1Tag>): void;
     WriteIntegerUnsigned(value: ReadOnlySpan_1<System_Internal.Byte>, tag?: Nullable_1<Asn1Tag>): void;
-    WriteNamedBitList(value: number, tag?: Nullable_1<Asn1Tag>): void;
-    WriteNamedBitList<TEnum extends unknown & number>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
     WriteNamedBitList(value: BitArray, tag?: Nullable_1<Asn1Tag>): void;
+    WriteNamedBitList(value: number, tag?: Nullable_1<Asn1Tag>): void;
+    WriteNamedBitList<TEnum extends unknown & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never }>(value: TEnum, tag?: Nullable_1<Asn1Tag>): void;
     WriteNull(tag?: Nullable_1<Asn1Tag>): void;
-    WriteObjectIdentifier(oidValue: string, tag?: Nullable_1<Asn1Tag>): void;
     WriteObjectIdentifier(oidValue: ReadOnlySpan_1<System_Internal.Char>, tag?: Nullable_1<Asn1Tag>): void;
+    WriteObjectIdentifier(oidValue: string, tag?: Nullable_1<Asn1Tag>): void;
     WriteOctetString(value: ReadOnlySpan_1<System_Internal.Byte>, tag?: Nullable_1<Asn1Tag>): void;
     WriteUtcTime(value: DateTimeOffset, tag?: Nullable_1<Asn1Tag>): void;
     WriteUtcTime(value: DateTimeOffset, twoDigitYearMax: int, tag?: Nullable_1<Asn1Tag>): void;
@@ -270,8 +279,9 @@ export const AsnWriter: {
 
 export type AsnWriter = AsnWriter$instance;
 
-export interface AsnWriter_Scope$instance extends IDisposable {
+export interface AsnWriter_Scope$instance extends System_Internal.IDisposable$instance {
     readonly __tsonic_type_System_Formats_Asn1_AsnWriter_Scope: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -293,13 +303,13 @@ export abstract class AsnDecoder$instance {
     static ReadCharacterString(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, encodingType: UniversalTagNumber, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): string;
     static ReadEncodedValue(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, contentOffset: int, contentLength: int, bytesConsumed: int): Asn1Tag;
     static ReadEnumeratedBytes(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): ReadOnlySpan_1<System_Internal.Byte>;
-    static ReadEnumeratedValue<TEnum extends unknown & number>(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): TEnum;
+    static ReadEnumeratedValue<TEnum extends unknown & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never }>(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): TEnum;
     static ReadEnumeratedValue(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, enumType: Type, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): number;
     static ReadGeneralizedTime(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): DateTimeOffset;
     static ReadInteger(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): BigInteger;
     static ReadIntegerBytes(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): ReadOnlySpan_1<System_Internal.Byte>;
     static ReadNamedBitList(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): BitArray;
-    static ReadNamedBitListValue<TFlagsEnum extends unknown & number>(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): TFlagsEnum;
+    static ReadNamedBitListValue<TFlagsEnum extends unknown & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never }>(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): TFlagsEnum;
     static ReadNamedBitListValue(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, flagsEnumType: Type, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): number;
     static ReadNull(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): void;
     static ReadObjectIdentifier(source: ReadOnlySpan_1<System_Internal.Byte>, ruleSet: AsnEncodingRules, bytesConsumed: int, expectedTag?: Nullable_1<Asn1Tag>): string;

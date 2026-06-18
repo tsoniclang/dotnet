@@ -25,7 +25,7 @@ import type { X509Certificate2, X509CertificateCollection, X509Chain } from './S
 import type { Encoding } from './System.Text/internal/index.js';
 import type { Task, Task_1, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, Exception, Func_3, Func_5, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from './System/internal/index.js';
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, Delegate, Enum, Exception, Func_3, Func_5, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { ByteArrayContent as ByteArrayContent } from './System.Net.Http/internal/index.js';

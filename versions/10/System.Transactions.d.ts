@@ -14,7 +14,7 @@ import type { IDictionary } from './System.Collections/internal/index.js';
 import type { MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { WaitHandle } from './System.Threading/internal/index.js';
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTime, Delegate, Enum, EventArgs, Exception, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, ConsoleKeyInfo, DateTime, Delegate, Enum, EventArgs, Exception, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { CommittableTransaction as CommittableTransaction } from './System.Transactions/internal/index.js';

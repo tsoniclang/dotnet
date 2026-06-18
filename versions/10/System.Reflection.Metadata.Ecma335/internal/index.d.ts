@@ -12,98 +12,109 @@ import type { ImmutableArray_1 } from "../../System.Collections.Immutable/intern
 import type { AssemblyDefinitionHandle, AssemblyFileHandle, AssemblyReferenceHandle, Blob, BlobBuilder, BlobContentId, BlobHandle, BlobReader, ConstantHandle, CustomAttributeHandle, CustomDebugInformationHandle, DeclarativeSecurityAttributeHandle, DocumentHandle, DocumentNameBlobHandle, EntityHandle, EventDefinitionHandle, ExceptionRegionKind, ExportedType, ExportedTypeHandle, FieldDefinitionHandle, GenericParameterConstraintHandle, GenericParameterHandle, GuidHandle, Handle, HandleKind, ILOpCode, ImportScopeHandle, InterfaceImplementationHandle, ISignatureTypeProvider_2, LocalConstantHandle, LocalScopeHandle, LocalVariableAttributes, LocalVariableHandle, ManifestResourceHandle, MemberReferenceHandle, MetadataReader, MethodDebugInformationHandle, MethodDefinitionHandle, MethodImplementationHandle, MethodSignature_1, MethodSpecificationHandle, ModuleDefinitionHandle, ModuleReferenceHandle, ParameterHandle, PrimitiveSerializationTypeCode, PrimitiveTypeCode, PropertyDefinitionHandle, ReservedBlob_1, SignatureCallingConvention, SignatureTypeKind, StandaloneSignatureHandle, StringHandle, TypeDefinitionHandle, TypeReferenceHandle, TypeSpecificationHandle, UserStringHandle } from "../../System.Reflection.Metadata/internal/index.js";
 import type { AssemblyFlags, AssemblyHashAlgorithm, DeclarativeSecurityAction, EventAttributes, FieldAttributes, GenericParameterAttributes, ManifestResourceAttributes, MethodAttributes, MethodImplAttributes, MethodImportAttributes, MethodSemanticsAttributes, ParameterAttributes, PropertyAttributes, TypeAttributes } from "../../System.Reflection/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Action_1, Boolean as ClrBoolean, Byte, Double, Enum, Func_2, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, ValueType, Version, Void } from "../../System/internal/index.js";
+import type { Action_1, Boolean as ClrBoolean, Byte, ConsoleKeyInfo, Double, Enum, Func_2, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, ValueType, Version, Void } from "../../System/internal/index.js";
 
-export enum EditAndContinueOperation {
-    Default = 0,
-    AddMethod = 1,
-    AddField = 2,
-    AddParameter = 3,
-    AddProperty = 4,
-    AddEvent = 5
-}
+export type EditAndContinueOperation = number & { readonly __tsonic_type_System_Reflection_Metadata_Ecma335_EditAndContinueOperation: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum FunctionPointerAttributes {
-    None = 0,
-    HasThis = 32,
-    HasExplicitThis = 96
-}
+export const EditAndContinueOperation: {
+    readonly Default: EditAndContinueOperation;
+    readonly AddMethod: EditAndContinueOperation;
+    readonly AddField: EditAndContinueOperation;
+    readonly AddParameter: EditAndContinueOperation;
+    readonly AddProperty: EditAndContinueOperation;
+    readonly AddEvent: EditAndContinueOperation;
+};
 
 
-export enum HeapIndex {
-    UserString = 0,
-    String = 1,
-    Blob = 2,
-    Guid = 3
-}
+export type FunctionPointerAttributes = number & { readonly __tsonic_type_System_Reflection_Metadata_Ecma335_FunctionPointerAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FunctionPointerAttributes: {
+    readonly None: FunctionPointerAttributes;
+    readonly HasThis: FunctionPointerAttributes;
+    readonly HasExplicitThis: FunctionPointerAttributes;
+};
 
 
-export enum MethodBodyAttributes {
-    None = 0,
-    InitLocals = 1
-}
+export type HeapIndex = number & { readonly __tsonic_type_System_Reflection_Metadata_Ecma335_HeapIndex: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HeapIndex: {
+    readonly UserString: HeapIndex;
+    readonly String: HeapIndex;
+    readonly Blob: HeapIndex;
+    readonly Guid: HeapIndex;
+};
 
 
-export enum TableIndex {
-    Module = 0,
-    TypeRef = 1,
-    TypeDef = 2,
-    FieldPtr = 3,
-    Field = 4,
-    MethodPtr = 5,
-    MethodDef = 6,
-    ParamPtr = 7,
-    Param = 8,
-    InterfaceImpl = 9,
-    MemberRef = 10,
-    Constant = 11,
-    CustomAttribute = 12,
-    FieldMarshal = 13,
-    DeclSecurity = 14,
-    ClassLayout = 15,
-    FieldLayout = 16,
-    StandAloneSig = 17,
-    EventMap = 18,
-    EventPtr = 19,
-    Event = 20,
-    PropertyMap = 21,
-    PropertyPtr = 22,
-    Property = 23,
-    MethodSemantics = 24,
-    MethodImpl = 25,
-    ModuleRef = 26,
-    TypeSpec = 27,
-    ImplMap = 28,
-    FieldRva = 29,
-    EncLog = 30,
-    EncMap = 31,
-    Assembly = 32,
-    AssemblyProcessor = 33,
-    AssemblyOS = 34,
-    AssemblyRef = 35,
-    AssemblyRefProcessor = 36,
-    AssemblyRefOS = 37,
-    File = 38,
-    ExportedType = 39,
-    ManifestResource = 40,
-    NestedClass = 41,
-    GenericParam = 42,
-    MethodSpec = 43,
-    GenericParamConstraint = 44,
-    Document = 48,
-    MethodDebugInformation = 49,
-    LocalScope = 50,
-    LocalVariable = 51,
-    LocalConstant = 52,
-    ImportScope = 53,
-    StateMachineMethod = 54,
-    CustomDebugInformation = 55
-}
+export type MethodBodyAttributes = number & { readonly __tsonic_type_System_Reflection_Metadata_Ecma335_MethodBodyAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MethodBodyAttributes: {
+    readonly None: MethodBodyAttributes;
+    readonly InitLocals: MethodBodyAttributes;
+};
+
+
+export type TableIndex = number & { readonly __tsonic_type_System_Reflection_Metadata_Ecma335_TableIndex: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TableIndex: {
+    readonly Module: TableIndex;
+    readonly TypeRef: TableIndex;
+    readonly TypeDef: TableIndex;
+    readonly FieldPtr: TableIndex;
+    readonly Field: TableIndex;
+    readonly MethodPtr: TableIndex;
+    readonly MethodDef: TableIndex;
+    readonly ParamPtr: TableIndex;
+    readonly Param: TableIndex;
+    readonly InterfaceImpl: TableIndex;
+    readonly MemberRef: TableIndex;
+    readonly Constant: TableIndex;
+    readonly CustomAttribute: TableIndex;
+    readonly FieldMarshal: TableIndex;
+    readonly DeclSecurity: TableIndex;
+    readonly ClassLayout: TableIndex;
+    readonly FieldLayout: TableIndex;
+    readonly StandAloneSig: TableIndex;
+    readonly EventMap: TableIndex;
+    readonly EventPtr: TableIndex;
+    readonly Event: TableIndex;
+    readonly PropertyMap: TableIndex;
+    readonly PropertyPtr: TableIndex;
+    readonly Property: TableIndex;
+    readonly MethodSemantics: TableIndex;
+    readonly MethodImpl: TableIndex;
+    readonly ModuleRef: TableIndex;
+    readonly TypeSpec: TableIndex;
+    readonly ImplMap: TableIndex;
+    readonly FieldRva: TableIndex;
+    readonly EncLog: TableIndex;
+    readonly EncMap: TableIndex;
+    readonly Assembly: TableIndex;
+    readonly AssemblyProcessor: TableIndex;
+    readonly AssemblyOS: TableIndex;
+    readonly AssemblyRef: TableIndex;
+    readonly AssemblyRefProcessor: TableIndex;
+    readonly AssemblyRefOS: TableIndex;
+    readonly File: TableIndex;
+    readonly ExportedType: TableIndex;
+    readonly ManifestResource: TableIndex;
+    readonly NestedClass: TableIndex;
+    readonly GenericParam: TableIndex;
+    readonly MethodSpec: TableIndex;
+    readonly GenericParamConstraint: TableIndex;
+    readonly Document: TableIndex;
+    readonly MethodDebugInformation: TableIndex;
+    readonly LocalScope: TableIndex;
+    readonly LocalVariable: TableIndex;
+    readonly LocalConstant: TableIndex;
+    readonly ImportScope: TableIndex;
+    readonly StateMachineMethod: TableIndex;
+    readonly CustomDebugInformation: TableIndex;
+};
 
 
 export interface ArrayShapeEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_ArrayShapeEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     Shape(rank: int, sizes: ImmutableArray_1<System_Internal.Int32>, lowerBounds: ImmutableArray_1<System_Internal.Int32>): void;
@@ -119,10 +130,11 @@ export type ArrayShapeEncoder = ArrayShapeEncoder$instance;
 
 export interface BlobEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_BlobEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
-    CustomAttributeSignature(fixedArguments: FixedArgumentsEncoder, namedArguments: CustomAttributeNamedArgumentsEncoder): void;
     CustomAttributeSignature(fixedArguments: Action_1<FixedArgumentsEncoder>, namedArguments: Action_1<CustomAttributeNamedArgumentsEncoder>): void;
+    CustomAttributeSignature(fixedArguments: FixedArgumentsEncoder, namedArguments: CustomAttributeNamedArgumentsEncoder): void;
     Field(): FieldTypeEncoder;
     FieldSignature(): SignatureTypeEncoder;
     LocalVariableSignature(variableCount: int): LocalVariablesEncoder;
@@ -144,6 +156,7 @@ export type BlobEncoder = BlobEncoder$instance;
 
 export interface CustomAttributeArrayTypeEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_CustomAttributeArrayTypeEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     ElementType(): CustomAttributeElementTypeEncoder;
@@ -160,6 +173,7 @@ export type CustomAttributeArrayTypeEncoder = CustomAttributeArrayTypeEncoder$in
 
 export interface CustomAttributeElementTypeEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_CustomAttributeElementTypeEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     Boolean(): void;
@@ -190,6 +204,7 @@ export type CustomAttributeElementTypeEncoder = CustomAttributeElementTypeEncode
 
 export interface CustomAttributeNamedArgumentsEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_CustomAttributeNamedArgumentsEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     Count(count: int): NamedArgumentsEncoder;
@@ -205,6 +220,7 @@ export type CustomAttributeNamedArgumentsEncoder = CustomAttributeNamedArguments
 
 export interface CustomModifiersEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_CustomModifiersEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     AddModifier(type: EntityHandle, isOptional: boolean): CustomModifiersEncoder;
@@ -220,6 +236,7 @@ export type CustomModifiersEncoder = CustomModifiersEncoder$instance;
 
 export interface EditAndContinueLogEntry$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_EditAndContinueLogEntry: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -248,6 +265,7 @@ export type EditAndContinueLogEntry = EditAndContinueLogEntry$instance & __EditA
 
 export interface ExceptionRegionEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_ExceptionRegionEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     readonly HasSmallFormat: boolean;
@@ -270,6 +288,7 @@ export type ExceptionRegionEncoder = ExceptionRegionEncoder$instance;
 
 export interface FieldTypeEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_FieldTypeEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     CustomModifiers(): CustomModifiersEncoder;
@@ -287,6 +306,7 @@ export type FieldTypeEncoder = FieldTypeEncoder$instance;
 
 export interface FixedArgumentsEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_FixedArgumentsEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     AddArgument(): LiteralEncoder;
@@ -302,6 +322,7 @@ export type FixedArgumentsEncoder = FixedArgumentsEncoder$instance;
 
 export interface GenericTypeArgumentsEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_GenericTypeArgumentsEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     AddArgument(): SignatureTypeEncoder;
@@ -317,15 +338,16 @@ export type GenericTypeArgumentsEncoder = GenericTypeArgumentsEncoder$instance;
 
 export interface InstructionEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_InstructionEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly CodeBuilder: BlobBuilder;
     readonly ControlFlowBuilder: ControlFlowBuilder | null;
     readonly Offset: int;
     Branch(code: ILOpCode, label: LabelHandle): void;
     Call(methodHandle: EntityHandle): void;
+    Call(methodHandle: MemberReferenceHandle): void;
     Call(methodHandle: MethodDefinitionHandle): void;
     Call(methodHandle: MethodSpecificationHandle): void;
-    Call(methodHandle: MemberReferenceHandle): void;
     CallIndirect(signature: StandaloneSignatureHandle): void;
     DefineLabel(): LabelHandle;
     LoadArgument(argumentIndex: int): void;
@@ -356,13 +378,14 @@ export type InstructionEncoder = InstructionEncoder$instance;
 
 export interface LabelHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_LabelHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Id: int;
     readonly IsNil: boolean;
-    Equals(other: LabelHandle): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(other: LabelHandle): boolean;
     GetHashCode(): int;
 }
 
@@ -384,13 +407,14 @@ export type LabelHandle = LabelHandle$instance & __LabelHandle$views;
 
 export interface LiteralEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_LiteralEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     Scalar(): ScalarEncoder;
-    TaggedScalar(type: CustomAttributeElementTypeEncoder, scalar: ScalarEncoder): void;
     TaggedScalar(type: Action_1<CustomAttributeElementTypeEncoder>, scalar: Action_1<ScalarEncoder>): void;
-    TaggedVector(arrayType: CustomAttributeArrayTypeEncoder, vector: VectorEncoder): void;
+    TaggedScalar(type: CustomAttributeElementTypeEncoder, scalar: ScalarEncoder): void;
     TaggedVector(arrayType: Action_1<CustomAttributeArrayTypeEncoder>, vector: Action_1<VectorEncoder>): void;
+    TaggedVector(arrayType: CustomAttributeArrayTypeEncoder, vector: VectorEncoder): void;
     Vector(): VectorEncoder;
 }
 
@@ -404,6 +428,7 @@ export type LiteralEncoder = LiteralEncoder$instance;
 
 export interface LiteralsEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_LiteralsEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     AddLiteral(): LiteralEncoder;
@@ -419,6 +444,7 @@ export type LiteralsEncoder = LiteralsEncoder$instance;
 
 export interface LocalVariablesEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_LocalVariablesEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     AddVariable(): LocalVariableTypeEncoder;
@@ -434,6 +460,7 @@ export type LocalVariablesEncoder = LocalVariablesEncoder$instance;
 
 export interface LocalVariableTypeEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_LocalVariableTypeEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     CustomModifiers(): CustomModifiersEncoder;
@@ -451,6 +478,7 @@ export type LocalVariableTypeEncoder = LocalVariableTypeEncoder$instance;
 
 export interface MethodBodyStreamEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_MethodBodyStreamEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     AddMethodBody(codeSize: int, maxStack: int, exceptionRegionCount: int, hasSmallExceptionRegions: boolean, localVariablesSignature: StandaloneSignatureHandle, attributes: MethodBodyAttributes): MethodBodyStreamEncoder_MethodBody;
@@ -469,6 +497,7 @@ export type MethodBodyStreamEncoder = MethodBodyStreamEncoder$instance;
 
 export interface MethodBodyStreamEncoder_MethodBody$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_MethodBodyStreamEncoder_MethodBody: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly ExceptionRegions: ExceptionRegionEncoder;
     readonly Instructions: Blob;
@@ -485,11 +514,12 @@ export type MethodBodyStreamEncoder_MethodBody = MethodBodyStreamEncoder_MethodB
 
 export interface MethodSignatureEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_MethodSignatureEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     readonly HasVarArgs: boolean;
-    Parameters(parameterCount: int, returnType: ReturnTypeEncoder, parameters: ParametersEncoder): void;
     Parameters(parameterCount: int, returnType: Action_1<ReturnTypeEncoder>, parameters: Action_1<ParametersEncoder>): void;
+    Parameters(parameterCount: int, returnType: ReturnTypeEncoder, parameters: ParametersEncoder): void;
 }
 
 
@@ -502,10 +532,11 @@ export type MethodSignatureEncoder = MethodSignatureEncoder$instance;
 
 export interface NamedArgumentsEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_NamedArgumentsEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
-    AddArgument(isField: boolean, type: NamedArgumentTypeEncoder, name: NameEncoder, literal: LiteralEncoder): void;
     AddArgument(isField: boolean, type: Action_1<NamedArgumentTypeEncoder>, name: Action_1<NameEncoder>, literal: Action_1<LiteralEncoder>): void;
+    AddArgument(isField: boolean, type: NamedArgumentTypeEncoder, name: NameEncoder, literal: LiteralEncoder): void;
 }
 
 
@@ -518,6 +549,7 @@ export type NamedArgumentsEncoder = NamedArgumentsEncoder$instance;
 
 export interface NamedArgumentTypeEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_NamedArgumentTypeEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     Object(): void;
@@ -535,6 +567,7 @@ export type NamedArgumentTypeEncoder = NamedArgumentTypeEncoder$instance;
 
 export interface NameEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_NameEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     Name(name: string): void;
@@ -550,6 +583,7 @@ export type NameEncoder = NameEncoder$instance;
 
 export interface ParametersEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_ParametersEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     readonly HasVarArgs: boolean;
@@ -567,6 +601,7 @@ export type ParametersEncoder = ParametersEncoder$instance;
 
 export interface ParameterTypeEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_ParameterTypeEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     CustomModifiers(): CustomModifiersEncoder;
@@ -584,10 +619,11 @@ export type ParameterTypeEncoder = ParameterTypeEncoder$instance;
 
 export interface PermissionSetEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_PermissionSetEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
-    AddPermission(typeName: string, encodedArguments: ImmutableArray_1<System_Internal.Byte>): PermissionSetEncoder;
     AddPermission(typeName: string, encodedArguments: BlobBuilder): PermissionSetEncoder;
+    AddPermission(typeName: string, encodedArguments: ImmutableArray_1<System_Internal.Byte>): PermissionSetEncoder;
 }
 
 
@@ -600,6 +636,7 @@ export type PermissionSetEncoder = PermissionSetEncoder$instance;
 
 export interface ReturnTypeEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_ReturnTypeEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     CustomModifiers(): CustomModifiersEncoder;
@@ -618,6 +655,7 @@ export type ReturnTypeEncoder = ReturnTypeEncoder$instance;
 
 export interface ScalarEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_ScalarEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     Constant(value: unknown | null): void;
@@ -635,6 +673,7 @@ export type ScalarEncoder = ScalarEncoder$instance;
 
 export interface SignatureDecoder_2$instance<TType extends unknown, TGenericContext extends unknown> {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_SignatureDecoder_2: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     DecodeFieldSignature(blobReader: BlobReader): TType;
     DecodeLocalSignature(blobReader: BlobReader): ImmutableArray_1<TType>;
@@ -653,10 +692,11 @@ export type SignatureDecoder_2<TType extends unknown, TGenericContext extends un
 
 export interface SignatureTypeEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_SignatureTypeEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
-    Array(elementType: SignatureTypeEncoder, arrayShape: ArrayShapeEncoder): void;
     Array(elementType: Action_1<SignatureTypeEncoder>, arrayShape: Action_1<ArrayShapeEncoder>): void;
+    Array(elementType: SignatureTypeEncoder, arrayShape: ArrayShapeEncoder): void;
     Boolean(): void;
     Byte(): void;
     Char(): void;
@@ -696,6 +736,7 @@ export type SignatureTypeEncoder = SignatureTypeEncoder$instance;
 
 export interface SwitchInstructionEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_SwitchInstructionEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     Branch(label: LabelHandle): void;
 }
@@ -710,6 +751,7 @@ export type SwitchInstructionEncoder = SwitchInstructionEncoder$instance;
 
 export interface VectorEncoder$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Ecma335_VectorEncoder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Builder: BlobBuilder;
     Count(count: int): LiteralsEncoder;
@@ -804,8 +846,8 @@ export interface MetadataBuilder$instance {
     AddTypeReference(resolutionScope: EntityHandle, namespace: StringHandle, name: StringHandle): TypeReferenceHandle;
     AddTypeSpecification(signature: BlobHandle): TypeSpecificationHandle;
     GetOrAddBlob(value: BlobBuilder): BlobHandle;
-    GetOrAddBlob(value: byte[]): BlobHandle;
     GetOrAddBlob(value: ImmutableArray_1<System_Internal.Byte>): BlobHandle;
+    GetOrAddBlob(value: byte[]): BlobHandle;
     GetOrAddBlobUTF16(value: string): BlobHandle;
     GetOrAddBlobUTF8(value: string, allowUnpairedSurrogates?: boolean): BlobHandle;
     GetOrAddConstantBlob(value: unknown | null): BlobHandle;
@@ -817,8 +859,8 @@ export interface MetadataBuilder$instance {
     GetRowCounts(): ImmutableArray_1<System_Internal.Int32>;
     ReserveGuid(): ReservedBlob_1<GuidHandle>;
     ReserveUserString(length: int): ReservedBlob_1<UserStringHandle>;
-    SetCapacity(table: TableIndex, rowCount: int): void;
     SetCapacity(heap: HeapIndex, byteCount: int): void;
+    SetCapacity(table: TableIndex, rowCount: int): void;
 }
 
 

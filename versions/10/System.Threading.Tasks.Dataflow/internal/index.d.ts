@@ -12,15 +12,17 @@ import type { IAsyncEnumerable_1, IEnumerable_1, IList_1 } from "../../System.Co
 import type { Task, Task_1, TaskScheduler } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Action_1, Boolean as ClrBoolean, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IObservable_1, IObserver_1, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, TimeSpan, Tuple_2, Tuple_3, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { Action_1, Boolean as ClrBoolean, ConsoleKeyInfo, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IObservable_1, IObserver_1, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, TimeSpan, Tuple_2, Tuple_3, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum DataflowMessageStatus {
-    Accepted = 0,
-    Declined = 1,
-    Postponed = 2,
-    NotAvailable = 3,
-    DecliningPermanently = 4
-}
+export type DataflowMessageStatus = number & { readonly __tsonic_type_System_Threading_Tasks_Dataflow_DataflowMessageStatus: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DataflowMessageStatus: {
+    readonly Accepted: DataflowMessageStatus;
+    readonly Declined: DataflowMessageStatus;
+    readonly Postponed: DataflowMessageStatus;
+    readonly NotAvailable: DataflowMessageStatus;
+    readonly DecliningPermanently: DataflowMessageStatus;
+};
 
 
 export interface IDataflowBlock$instance {
@@ -34,8 +36,11 @@ export interface IDataflowBlock$instance {
 
 export type IDataflowBlock = IDataflowBlock$instance;
 
-export interface IPropagatorBlock_2$instance<TInput extends unknown, TOutput extends unknown> extends ITargetBlock_1<TInput>, IDataflowBlock, ISourceBlock_1<TOutput> {
+export interface IPropagatorBlock_2$instance<TInput extends unknown, TOutput extends unknown> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IPropagatorBlock_2: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ITargetBlock_1: never;
 
     readonly Completion: Task;
     Complete(): void;
@@ -52,8 +57,10 @@ export interface IPropagatorBlock_2$instance<TInput extends unknown, TOutput ext
 
 export type IPropagatorBlock_2<TInput extends unknown, TOutput extends unknown> = IPropagatorBlock_2$instance<TInput, TOutput>;
 
-export interface IReceivableSourceBlock_1$instance<TOutput extends unknown> extends ISourceBlock_1<TOutput>, IDataflowBlock {
+export interface IReceivableSourceBlock_1$instance<TOutput extends unknown> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IReceivableSourceBlock_1: never;
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
 
     readonly Completion: Task;
     Complete(): void;
@@ -70,7 +77,8 @@ export interface IReceivableSourceBlock_1$instance<TOutput extends unknown> exte
 
 export type IReceivableSourceBlock_1<TOutput extends unknown> = IReceivableSourceBlock_1$instance<TOutput>;
 
-export interface ISourceBlock_1$instance<TOutput extends unknown> extends IDataflowBlock {
+export interface ISourceBlock_1$instance<TOutput extends unknown> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ISourceBlock_1: never;
 
     readonly Completion: Task;
@@ -87,7 +95,8 @@ export interface ISourceBlock_1$instance<TOutput extends unknown> extends IDataf
 
 export type ISourceBlock_1<TOutput extends unknown> = ISourceBlock_1$instance<TOutput>;
 
-export interface ITargetBlock_1$instance<TInput extends unknown> extends IDataflowBlock {
+export interface ITargetBlock_1$instance<TInput extends unknown> {
+    readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_ITargetBlock_1: never;
 
     readonly Completion: Task;
@@ -103,13 +112,14 @@ export type ITargetBlock_1<TInput extends unknown> = ITargetBlock_1$instance<TIn
 
 export interface DataflowMessageHeader$instance {
     readonly __tsonic_type_System_Threading_Tasks_Dataflow_DataflowMessageHeader: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Id: long;
     readonly IsValid: boolean;
-    Equals(other: DataflowMessageHeader): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(other: DataflowMessageHeader): boolean;
     GetHashCode(): int;
 }
 
@@ -129,7 +139,7 @@ export interface __DataflowMessageHeader$views {
 export type DataflowMessageHeader = DataflowMessageHeader$instance & __DataflowMessageHeader$views;
 
 
-export interface ActionBlock_1$instance<TInput extends unknown> extends ITargetBlock_1$instance<TInput> {
+export interface ActionBlock_1$instance<TInput extends unknown> {
     readonly __tsonic_type_System_Threading_Tasks_Dataflow_ActionBlock_1: never;
 
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
@@ -159,7 +169,7 @@ export interface __ActionBlock_1$views<TInput extends unknown> {
 export type ActionBlock_1<TInput extends unknown> = ActionBlock_1$instance<TInput> & __ActionBlock_1$views<TInput>;
 
 
-export interface BatchBlock_1$instance<T extends unknown> extends IPropagatorBlock_2$instance<T, T[]> {
+export interface BatchBlock_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Threading_Tasks_Dataflow_BatchBlock_1: never;
 
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
@@ -267,7 +277,7 @@ export interface __BatchedJoinBlock_3$views<T1 extends unknown, T2 extends unkno
 export type BatchedJoinBlock_3<T1 extends unknown, T2 extends unknown, T3 extends unknown> = BatchedJoinBlock_3$instance<T1, T2, T3> & __BatchedJoinBlock_3$views<T1, T2, T3>;
 
 
-export interface BroadcastBlock_1$instance<T extends unknown> extends IPropagatorBlock_2$instance<T, T>, IReceivableSourceBlock_1$instance<T> {
+export interface BroadcastBlock_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Threading_Tasks_Dataflow_BroadcastBlock_1: never;
 
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
@@ -300,7 +310,7 @@ export interface __BroadcastBlock_1$views<T extends unknown> {
 export type BroadcastBlock_1<T extends unknown> = BroadcastBlock_1$instance<T> & __BroadcastBlock_1$views<T>;
 
 
-export interface BufferBlock_1$instance<T extends unknown> extends IPropagatorBlock_2$instance<T, T>, IReceivableSourceBlock_1$instance<T> {
+export interface BufferBlock_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Threading_Tasks_Dataflow_BufferBlock_1: never;
 
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
@@ -371,7 +381,8 @@ export const DataflowLinkOptions: {
 
 export type DataflowLinkOptions = DataflowLinkOptions$instance;
 
-export interface ExecutionDataflowBlockOptions$instance extends DataflowBlockOptions {
+export interface ExecutionDataflowBlockOptions$instance extends DataflowBlockOptions$instance {
+    readonly __tsonic_type_System_Threading_Tasks_Dataflow_DataflowBlockOptions: never;
     readonly __tsonic_type_System_Threading_Tasks_Dataflow_ExecutionDataflowBlockOptions: never;
 
     MaxDegreeOfParallelism: int;
@@ -386,7 +397,8 @@ export const ExecutionDataflowBlockOptions: {
 
 export type ExecutionDataflowBlockOptions = ExecutionDataflowBlockOptions$instance;
 
-export interface GroupingDataflowBlockOptions$instance extends DataflowBlockOptions {
+export interface GroupingDataflowBlockOptions$instance extends DataflowBlockOptions$instance {
+    readonly __tsonic_type_System_Threading_Tasks_Dataflow_DataflowBlockOptions: never;
     readonly __tsonic_type_System_Threading_Tasks_Dataflow_GroupingDataflowBlockOptions: never;
 
     Greedy: boolean;
@@ -470,7 +482,7 @@ export interface __JoinBlock_3$views<T1 extends unknown, T2 extends unknown, T3 
 export type JoinBlock_3<T1 extends unknown, T2 extends unknown, T3 extends unknown> = JoinBlock_3$instance<T1, T2, T3> & __JoinBlock_3$views<T1, T2, T3>;
 
 
-export interface TransformBlock_2$instance<TInput extends unknown, TOutput extends unknown> extends IPropagatorBlock_2$instance<TInput, TOutput>, IReceivableSourceBlock_1$instance<TOutput> {
+export interface TransformBlock_2$instance<TInput extends unknown, TOutput extends unknown> {
     readonly __tsonic_type_System_Threading_Tasks_Dataflow_TransformBlock_2: never;
 
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
@@ -506,7 +518,7 @@ export interface __TransformBlock_2$views<TInput extends unknown, TOutput extend
 export type TransformBlock_2<TInput extends unknown, TOutput extends unknown> = TransformBlock_2$instance<TInput, TOutput> & __TransformBlock_2$views<TInput, TOutput>;
 
 
-export interface TransformManyBlock_2$instance<TInput extends unknown, TOutput extends unknown> extends IPropagatorBlock_2$instance<TInput, TOutput>, IReceivableSourceBlock_1$instance<TOutput> {
+export interface TransformManyBlock_2$instance<TInput extends unknown, TOutput extends unknown> {
     readonly __tsonic_type_System_Threading_Tasks_Dataflow_TransformManyBlock_2: never;
 
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;
@@ -542,7 +554,7 @@ export interface __TransformManyBlock_2$views<TInput extends unknown, TOutput ex
 export type TransformManyBlock_2<TInput extends unknown, TOutput extends unknown> = TransformManyBlock_2$instance<TInput, TOutput> & __TransformManyBlock_2$views<TInput, TOutput>;
 
 
-export interface WriteOnceBlock_1$instance<T extends unknown> extends IPropagatorBlock_2$instance<T, T>, IReceivableSourceBlock_1$instance<T> {
+export interface WriteOnceBlock_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Threading_Tasks_Dataflow_WriteOnceBlock_1: never;
 
     readonly __tsonic_iface_System_Threading_Tasks_Dataflow_IDataflowBlock: never;

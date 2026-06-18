@@ -19,490 +19,531 @@ import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Ser
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { Encoding } from "../../System.Text/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { ArraySegment_1, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, Func_2, Guid, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Version, Void } from "../../System/internal/index.js";
+import type { ArraySegment_1, Attribute, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, DateTime, Decimal, Double, Enum, Exception, Func_2, Guid, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Version, Void } from "../../System/internal/index.js";
 
-export enum ConstantTypeCode {
-    Invalid = 0,
-    Boolean = 2,
-    Char = 3,
-    SByte = 4,
-    Byte = 5,
-    Int16 = 6,
-    UInt16 = 7,
-    Int32 = 8,
-    UInt32 = 9,
-    Int64 = 10,
-    UInt64 = 11,
-    Single = 12,
-    Double = 13,
-    String = 14,
-    NullReference = 18
-}
+export type ConstantTypeCode = number & { readonly __tsonic_type_System_Reflection_Metadata_ConstantTypeCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum CustomAttributeNamedArgumentKind {
-    Field = 83,
-    Property = 84
-}
+export const ConstantTypeCode: {
+    readonly Invalid: ConstantTypeCode;
+    readonly Boolean: ConstantTypeCode;
+    readonly Char: ConstantTypeCode;
+    readonly SByte: ConstantTypeCode;
+    readonly Byte: ConstantTypeCode;
+    readonly Int16: ConstantTypeCode;
+    readonly UInt16: ConstantTypeCode;
+    readonly Int32: ConstantTypeCode;
+    readonly UInt32: ConstantTypeCode;
+    readonly Int64: ConstantTypeCode;
+    readonly UInt64: ConstantTypeCode;
+    readonly Single: ConstantTypeCode;
+    readonly Double: ConstantTypeCode;
+    readonly String: ConstantTypeCode;
+    readonly NullReference: ConstantTypeCode;
+};
 
 
-export enum ExceptionRegionKind {
-    Catch = 0,
-    Filter = 1,
-    Finally = 2,
-    Fault = 4
-}
+export type CustomAttributeNamedArgumentKind = number & { readonly __tsonic_type_System_Reflection_Metadata_CustomAttributeNamedArgumentKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CustomAttributeNamedArgumentKind: {
+    readonly Field: CustomAttributeNamedArgumentKind;
+    readonly Property: CustomAttributeNamedArgumentKind;
+};
 
 
-export enum HandleKind {
-    ModuleDefinition = 0,
-    TypeReference = 1,
-    TypeDefinition = 2,
-    FieldDefinition = 4,
-    MethodDefinition = 6,
-    Parameter = 8,
-    InterfaceImplementation = 9,
-    MemberReference = 10,
-    Constant = 11,
-    CustomAttribute = 12,
-    DeclarativeSecurityAttribute = 14,
-    StandaloneSignature = 17,
-    EventDefinition = 20,
-    PropertyDefinition = 23,
-    MethodImplementation = 25,
-    ModuleReference = 26,
-    TypeSpecification = 27,
-    AssemblyDefinition = 32,
-    AssemblyFile = 38,
-    AssemblyReference = 35,
-    ExportedType = 39,
-    GenericParameter = 42,
-    MethodSpecification = 43,
-    GenericParameterConstraint = 44,
-    ManifestResource = 40,
-    Document = 48,
-    MethodDebugInformation = 49,
-    LocalScope = 50,
-    LocalVariable = 51,
-    LocalConstant = 52,
-    ImportScope = 53,
-    CustomDebugInformation = 55,
-    NamespaceDefinition = 124,
-    UserString = 112,
-    String = 120,
-    Blob = 113,
-    Guid = 114
-}
+export type ExceptionRegionKind = number & { readonly __tsonic_type_System_Reflection_Metadata_ExceptionRegionKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ExceptionRegionKind: {
+    readonly Catch: ExceptionRegionKind;
+    readonly Filter: ExceptionRegionKind;
+    readonly Finally: ExceptionRegionKind;
+    readonly Fault: ExceptionRegionKind;
+};
 
 
-export enum ILOpCode {
-    Nop = 0,
-    Break = 1,
-    Ldarg_0 = 2,
-    Ldarg_1 = 3,
-    Ldarg_2 = 4,
-    Ldarg_3 = 5,
-    Ldloc_0 = 6,
-    Ldloc_1 = 7,
-    Ldloc_2 = 8,
-    Ldloc_3 = 9,
-    Stloc_0 = 10,
-    Stloc_1 = 11,
-    Stloc_2 = 12,
-    Stloc_3 = 13,
-    Ldarg_s = 14,
-    Ldarga_s = 15,
-    Starg_s = 16,
-    Ldloc_s = 17,
-    Ldloca_s = 18,
-    Stloc_s = 19,
-    Ldnull = 20,
-    Ldc_i4_m1 = 21,
-    Ldc_i4_0 = 22,
-    Ldc_i4_1 = 23,
-    Ldc_i4_2 = 24,
-    Ldc_i4_3 = 25,
-    Ldc_i4_4 = 26,
-    Ldc_i4_5 = 27,
-    Ldc_i4_6 = 28,
-    Ldc_i4_7 = 29,
-    Ldc_i4_8 = 30,
-    Ldc_i4_s = 31,
-    Ldc_i4 = 32,
-    Ldc_i8 = 33,
-    Ldc_r4 = 34,
-    Ldc_r8 = 35,
-    Dup = 37,
-    Pop = 38,
-    Jmp = 39,
-    Call = 40,
-    Calli = 41,
-    Ret = 42,
-    Br_s = 43,
-    Brfalse_s = 44,
-    Brtrue_s = 45,
-    Beq_s = 46,
-    Bge_s = 47,
-    Bgt_s = 48,
-    Ble_s = 49,
-    Blt_s = 50,
-    Bne_un_s = 51,
-    Bge_un_s = 52,
-    Bgt_un_s = 53,
-    Ble_un_s = 54,
-    Blt_un_s = 55,
-    Br = 56,
-    Brfalse = 57,
-    Brtrue = 58,
-    Beq = 59,
-    Bge = 60,
-    Bgt = 61,
-    Ble = 62,
-    Blt = 63,
-    Bne_un = 64,
-    Bge_un = 65,
-    Bgt_un = 66,
-    Ble_un = 67,
-    Blt_un = 68,
-    Switch = 69,
-    Ldind_i1 = 70,
-    Ldind_u1 = 71,
-    Ldind_i2 = 72,
-    Ldind_u2 = 73,
-    Ldind_i4 = 74,
-    Ldind_u4 = 75,
-    Ldind_i8 = 76,
-    Ldind_i = 77,
-    Ldind_r4 = 78,
-    Ldind_r8 = 79,
-    Ldind_ref = 80,
-    Stind_ref = 81,
-    Stind_i1 = 82,
-    Stind_i2 = 83,
-    Stind_i4 = 84,
-    Stind_i8 = 85,
-    Stind_r4 = 86,
-    Stind_r8 = 87,
-    Add = 88,
-    Sub = 89,
-    Mul = 90,
-    Div = 91,
-    Div_un = 92,
-    Rem = 93,
-    Rem_un = 94,
-    And = 95,
-    Or = 96,
-    Xor = 97,
-    Shl = 98,
-    Shr = 99,
-    Shr_un = 100,
-    Neg = 101,
-    Not = 102,
-    Conv_i1 = 103,
-    Conv_i2 = 104,
-    Conv_i4 = 105,
-    Conv_i8 = 106,
-    Conv_r4 = 107,
-    Conv_r8 = 108,
-    Conv_u4 = 109,
-    Conv_u8 = 110,
-    Callvirt = 111,
-    Cpobj = 112,
-    Ldobj = 113,
-    Ldstr = 114,
-    Newobj = 115,
-    Castclass = 116,
-    Isinst = 117,
-    Conv_r_un = 118,
-    Unbox = 121,
-    Throw = 122,
-    Ldfld = 123,
-    Ldflda = 124,
-    Stfld = 125,
-    Ldsfld = 126,
-    Ldsflda = 127,
-    Stsfld = 128,
-    Stobj = 129,
-    Conv_ovf_i1_un = 130,
-    Conv_ovf_i2_un = 131,
-    Conv_ovf_i4_un = 132,
-    Conv_ovf_i8_un = 133,
-    Conv_ovf_u1_un = 134,
-    Conv_ovf_u2_un = 135,
-    Conv_ovf_u4_un = 136,
-    Conv_ovf_u8_un = 137,
-    Conv_ovf_i_un = 138,
-    Conv_ovf_u_un = 139,
-    Box = 140,
-    Newarr = 141,
-    Ldlen = 142,
-    Ldelema = 143,
-    Ldelem_i1 = 144,
-    Ldelem_u1 = 145,
-    Ldelem_i2 = 146,
-    Ldelem_u2 = 147,
-    Ldelem_i4 = 148,
-    Ldelem_u4 = 149,
-    Ldelem_i8 = 150,
-    Ldelem_i = 151,
-    Ldelem_r4 = 152,
-    Ldelem_r8 = 153,
-    Ldelem_ref = 154,
-    Stelem_i = 155,
-    Stelem_i1 = 156,
-    Stelem_i2 = 157,
-    Stelem_i4 = 158,
-    Stelem_i8 = 159,
-    Stelem_r4 = 160,
-    Stelem_r8 = 161,
-    Stelem_ref = 162,
-    Ldelem = 163,
-    Stelem = 164,
-    Unbox_any = 165,
-    Conv_ovf_i1 = 179,
-    Conv_ovf_u1 = 180,
-    Conv_ovf_i2 = 181,
-    Conv_ovf_u2 = 182,
-    Conv_ovf_i4 = 183,
-    Conv_ovf_u4 = 184,
-    Conv_ovf_i8 = 185,
-    Conv_ovf_u8 = 186,
-    Refanyval = 194,
-    Ckfinite = 195,
-    Mkrefany = 198,
-    Ldtoken = 208,
-    Conv_u2 = 209,
-    Conv_u1 = 210,
-    Conv_i = 211,
-    Conv_ovf_i = 212,
-    Conv_ovf_u = 213,
-    Add_ovf = 214,
-    Add_ovf_un = 215,
-    Mul_ovf = 216,
-    Mul_ovf_un = 217,
-    Sub_ovf = 218,
-    Sub_ovf_un = 219,
-    Endfinally = 220,
-    Leave = 221,
-    Leave_s = 222,
-    Stind_i = 223,
-    Conv_u = 224,
-    Arglist = 65024,
-    Ceq = 65025,
-    Cgt = 65026,
-    Cgt_un = 65027,
-    Clt = 65028,
-    Clt_un = 65029,
-    Ldftn = 65030,
-    Ldvirtftn = 65031,
-    Ldarg = 65033,
-    Ldarga = 65034,
-    Starg = 65035,
-    Ldloc = 65036,
-    Ldloca = 65037,
-    Stloc = 65038,
-    Localloc = 65039,
-    Endfilter = 65041,
-    Unaligned = 65042,
-    Volatile = 65043,
-    Tail = 65044,
-    Initobj = 65045,
-    Constrained = 65046,
-    Cpblk = 65047,
-    Initblk = 65048,
-    Rethrow = 65050,
-    Sizeof = 65052,
-    Refanytype = 65053,
-    Readonly = 65054
-}
+export type HandleKind = number & { readonly __tsonic_type_System_Reflection_Metadata_HandleKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HandleKind: {
+    readonly ModuleDefinition: HandleKind;
+    readonly TypeReference: HandleKind;
+    readonly TypeDefinition: HandleKind;
+    readonly FieldDefinition: HandleKind;
+    readonly MethodDefinition: HandleKind;
+    readonly Parameter: HandleKind;
+    readonly InterfaceImplementation: HandleKind;
+    readonly MemberReference: HandleKind;
+    readonly Constant: HandleKind;
+    readonly CustomAttribute: HandleKind;
+    readonly DeclarativeSecurityAttribute: HandleKind;
+    readonly StandaloneSignature: HandleKind;
+    readonly EventDefinition: HandleKind;
+    readonly PropertyDefinition: HandleKind;
+    readonly MethodImplementation: HandleKind;
+    readonly ModuleReference: HandleKind;
+    readonly TypeSpecification: HandleKind;
+    readonly AssemblyDefinition: HandleKind;
+    readonly AssemblyFile: HandleKind;
+    readonly AssemblyReference: HandleKind;
+    readonly ExportedType: HandleKind;
+    readonly GenericParameter: HandleKind;
+    readonly MethodSpecification: HandleKind;
+    readonly GenericParameterConstraint: HandleKind;
+    readonly ManifestResource: HandleKind;
+    readonly Document: HandleKind;
+    readonly MethodDebugInformation: HandleKind;
+    readonly LocalScope: HandleKind;
+    readonly LocalVariable: HandleKind;
+    readonly LocalConstant: HandleKind;
+    readonly ImportScope: HandleKind;
+    readonly CustomDebugInformation: HandleKind;
+    readonly NamespaceDefinition: HandleKind;
+    readonly UserString: HandleKind;
+    readonly String: HandleKind;
+    readonly Blob: HandleKind;
+    readonly Guid: HandleKind;
+};
 
 
-export enum ImportDefinitionKind {
-    ImportNamespace = 1,
-    ImportAssemblyNamespace = 2,
-    ImportType = 3,
-    ImportXmlNamespace = 4,
-    ImportAssemblyReferenceAlias = 5,
-    AliasAssemblyReference = 6,
-    AliasNamespace = 7,
-    AliasAssemblyNamespace = 8,
-    AliasType = 9
-}
+export type ILOpCode = number & { readonly __tsonic_type_System_Reflection_Metadata_ILOpCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ILOpCode: {
+    readonly Nop: ILOpCode;
+    readonly Break: ILOpCode;
+    readonly Ldarg_0: ILOpCode;
+    readonly Ldarg_1: ILOpCode;
+    readonly Ldarg_2: ILOpCode;
+    readonly Ldarg_3: ILOpCode;
+    readonly Ldloc_0: ILOpCode;
+    readonly Ldloc_1: ILOpCode;
+    readonly Ldloc_2: ILOpCode;
+    readonly Ldloc_3: ILOpCode;
+    readonly Stloc_0: ILOpCode;
+    readonly Stloc_1: ILOpCode;
+    readonly Stloc_2: ILOpCode;
+    readonly Stloc_3: ILOpCode;
+    readonly Ldarg_s: ILOpCode;
+    readonly Ldarga_s: ILOpCode;
+    readonly Starg_s: ILOpCode;
+    readonly Ldloc_s: ILOpCode;
+    readonly Ldloca_s: ILOpCode;
+    readonly Stloc_s: ILOpCode;
+    readonly Ldnull: ILOpCode;
+    readonly Ldc_i4_m1: ILOpCode;
+    readonly Ldc_i4_0: ILOpCode;
+    readonly Ldc_i4_1: ILOpCode;
+    readonly Ldc_i4_2: ILOpCode;
+    readonly Ldc_i4_3: ILOpCode;
+    readonly Ldc_i4_4: ILOpCode;
+    readonly Ldc_i4_5: ILOpCode;
+    readonly Ldc_i4_6: ILOpCode;
+    readonly Ldc_i4_7: ILOpCode;
+    readonly Ldc_i4_8: ILOpCode;
+    readonly Ldc_i4_s: ILOpCode;
+    readonly Ldc_i4: ILOpCode;
+    readonly Ldc_i8: ILOpCode;
+    readonly Ldc_r4: ILOpCode;
+    readonly Ldc_r8: ILOpCode;
+    readonly Dup: ILOpCode;
+    readonly Pop: ILOpCode;
+    readonly Jmp: ILOpCode;
+    readonly Call: ILOpCode;
+    readonly Calli: ILOpCode;
+    readonly Ret: ILOpCode;
+    readonly Br_s: ILOpCode;
+    readonly Brfalse_s: ILOpCode;
+    readonly Brtrue_s: ILOpCode;
+    readonly Beq_s: ILOpCode;
+    readonly Bge_s: ILOpCode;
+    readonly Bgt_s: ILOpCode;
+    readonly Ble_s: ILOpCode;
+    readonly Blt_s: ILOpCode;
+    readonly Bne_un_s: ILOpCode;
+    readonly Bge_un_s: ILOpCode;
+    readonly Bgt_un_s: ILOpCode;
+    readonly Ble_un_s: ILOpCode;
+    readonly Blt_un_s: ILOpCode;
+    readonly Br: ILOpCode;
+    readonly Brfalse: ILOpCode;
+    readonly Brtrue: ILOpCode;
+    readonly Beq: ILOpCode;
+    readonly Bge: ILOpCode;
+    readonly Bgt: ILOpCode;
+    readonly Ble: ILOpCode;
+    readonly Blt: ILOpCode;
+    readonly Bne_un: ILOpCode;
+    readonly Bge_un: ILOpCode;
+    readonly Bgt_un: ILOpCode;
+    readonly Ble_un: ILOpCode;
+    readonly Blt_un: ILOpCode;
+    readonly Switch: ILOpCode;
+    readonly Ldind_i1: ILOpCode;
+    readonly Ldind_u1: ILOpCode;
+    readonly Ldind_i2: ILOpCode;
+    readonly Ldind_u2: ILOpCode;
+    readonly Ldind_i4: ILOpCode;
+    readonly Ldind_u4: ILOpCode;
+    readonly Ldind_i8: ILOpCode;
+    readonly Ldind_i: ILOpCode;
+    readonly Ldind_r4: ILOpCode;
+    readonly Ldind_r8: ILOpCode;
+    readonly Ldind_ref: ILOpCode;
+    readonly Stind_ref: ILOpCode;
+    readonly Stind_i1: ILOpCode;
+    readonly Stind_i2: ILOpCode;
+    readonly Stind_i4: ILOpCode;
+    readonly Stind_i8: ILOpCode;
+    readonly Stind_r4: ILOpCode;
+    readonly Stind_r8: ILOpCode;
+    readonly Add: ILOpCode;
+    readonly Sub: ILOpCode;
+    readonly Mul: ILOpCode;
+    readonly Div: ILOpCode;
+    readonly Div_un: ILOpCode;
+    readonly Rem: ILOpCode;
+    readonly Rem_un: ILOpCode;
+    readonly And: ILOpCode;
+    readonly Or: ILOpCode;
+    readonly Xor: ILOpCode;
+    readonly Shl: ILOpCode;
+    readonly Shr: ILOpCode;
+    readonly Shr_un: ILOpCode;
+    readonly Neg: ILOpCode;
+    readonly Not: ILOpCode;
+    readonly Conv_i1: ILOpCode;
+    readonly Conv_i2: ILOpCode;
+    readonly Conv_i4: ILOpCode;
+    readonly Conv_i8: ILOpCode;
+    readonly Conv_r4: ILOpCode;
+    readonly Conv_r8: ILOpCode;
+    readonly Conv_u4: ILOpCode;
+    readonly Conv_u8: ILOpCode;
+    readonly Callvirt: ILOpCode;
+    readonly Cpobj: ILOpCode;
+    readonly Ldobj: ILOpCode;
+    readonly Ldstr: ILOpCode;
+    readonly Newobj: ILOpCode;
+    readonly Castclass: ILOpCode;
+    readonly Isinst: ILOpCode;
+    readonly Conv_r_un: ILOpCode;
+    readonly Unbox: ILOpCode;
+    readonly Throw: ILOpCode;
+    readonly Ldfld: ILOpCode;
+    readonly Ldflda: ILOpCode;
+    readonly Stfld: ILOpCode;
+    readonly Ldsfld: ILOpCode;
+    readonly Ldsflda: ILOpCode;
+    readonly Stsfld: ILOpCode;
+    readonly Stobj: ILOpCode;
+    readonly Conv_ovf_i1_un: ILOpCode;
+    readonly Conv_ovf_i2_un: ILOpCode;
+    readonly Conv_ovf_i4_un: ILOpCode;
+    readonly Conv_ovf_i8_un: ILOpCode;
+    readonly Conv_ovf_u1_un: ILOpCode;
+    readonly Conv_ovf_u2_un: ILOpCode;
+    readonly Conv_ovf_u4_un: ILOpCode;
+    readonly Conv_ovf_u8_un: ILOpCode;
+    readonly Conv_ovf_i_un: ILOpCode;
+    readonly Conv_ovf_u_un: ILOpCode;
+    readonly Box: ILOpCode;
+    readonly Newarr: ILOpCode;
+    readonly Ldlen: ILOpCode;
+    readonly Ldelema: ILOpCode;
+    readonly Ldelem_i1: ILOpCode;
+    readonly Ldelem_u1: ILOpCode;
+    readonly Ldelem_i2: ILOpCode;
+    readonly Ldelem_u2: ILOpCode;
+    readonly Ldelem_i4: ILOpCode;
+    readonly Ldelem_u4: ILOpCode;
+    readonly Ldelem_i8: ILOpCode;
+    readonly Ldelem_i: ILOpCode;
+    readonly Ldelem_r4: ILOpCode;
+    readonly Ldelem_r8: ILOpCode;
+    readonly Ldelem_ref: ILOpCode;
+    readonly Stelem_i: ILOpCode;
+    readonly Stelem_i1: ILOpCode;
+    readonly Stelem_i2: ILOpCode;
+    readonly Stelem_i4: ILOpCode;
+    readonly Stelem_i8: ILOpCode;
+    readonly Stelem_r4: ILOpCode;
+    readonly Stelem_r8: ILOpCode;
+    readonly Stelem_ref: ILOpCode;
+    readonly Ldelem: ILOpCode;
+    readonly Stelem: ILOpCode;
+    readonly Unbox_any: ILOpCode;
+    readonly Conv_ovf_i1: ILOpCode;
+    readonly Conv_ovf_u1: ILOpCode;
+    readonly Conv_ovf_i2: ILOpCode;
+    readonly Conv_ovf_u2: ILOpCode;
+    readonly Conv_ovf_i4: ILOpCode;
+    readonly Conv_ovf_u4: ILOpCode;
+    readonly Conv_ovf_i8: ILOpCode;
+    readonly Conv_ovf_u8: ILOpCode;
+    readonly Refanyval: ILOpCode;
+    readonly Ckfinite: ILOpCode;
+    readonly Mkrefany: ILOpCode;
+    readonly Ldtoken: ILOpCode;
+    readonly Conv_u2: ILOpCode;
+    readonly Conv_u1: ILOpCode;
+    readonly Conv_i: ILOpCode;
+    readonly Conv_ovf_i: ILOpCode;
+    readonly Conv_ovf_u: ILOpCode;
+    readonly Add_ovf: ILOpCode;
+    readonly Add_ovf_un: ILOpCode;
+    readonly Mul_ovf: ILOpCode;
+    readonly Mul_ovf_un: ILOpCode;
+    readonly Sub_ovf: ILOpCode;
+    readonly Sub_ovf_un: ILOpCode;
+    readonly Endfinally: ILOpCode;
+    readonly Leave: ILOpCode;
+    readonly Leave_s: ILOpCode;
+    readonly Stind_i: ILOpCode;
+    readonly Conv_u: ILOpCode;
+    readonly Arglist: ILOpCode;
+    readonly Ceq: ILOpCode;
+    readonly Cgt: ILOpCode;
+    readonly Cgt_un: ILOpCode;
+    readonly Clt: ILOpCode;
+    readonly Clt_un: ILOpCode;
+    readonly Ldftn: ILOpCode;
+    readonly Ldvirtftn: ILOpCode;
+    readonly Ldarg: ILOpCode;
+    readonly Ldarga: ILOpCode;
+    readonly Starg: ILOpCode;
+    readonly Ldloc: ILOpCode;
+    readonly Ldloca: ILOpCode;
+    readonly Stloc: ILOpCode;
+    readonly Localloc: ILOpCode;
+    readonly Endfilter: ILOpCode;
+    readonly Unaligned: ILOpCode;
+    readonly Volatile: ILOpCode;
+    readonly Tail: ILOpCode;
+    readonly Initobj: ILOpCode;
+    readonly Constrained: ILOpCode;
+    readonly Cpblk: ILOpCode;
+    readonly Initblk: ILOpCode;
+    readonly Rethrow: ILOpCode;
+    readonly Sizeof: ILOpCode;
+    readonly Refanytype: ILOpCode;
+    readonly Readonly: ILOpCode;
+};
 
 
-export enum LocalVariableAttributes {
-    None = 0,
-    DebuggerHidden = 1
-}
+export type ImportDefinitionKind = number & { readonly __tsonic_type_System_Reflection_Metadata_ImportDefinitionKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ImportDefinitionKind: {
+    readonly ImportNamespace: ImportDefinitionKind;
+    readonly ImportAssemblyNamespace: ImportDefinitionKind;
+    readonly ImportType: ImportDefinitionKind;
+    readonly ImportXmlNamespace: ImportDefinitionKind;
+    readonly ImportAssemblyReferenceAlias: ImportDefinitionKind;
+    readonly AliasAssemblyReference: ImportDefinitionKind;
+    readonly AliasNamespace: ImportDefinitionKind;
+    readonly AliasAssemblyNamespace: ImportDefinitionKind;
+    readonly AliasType: ImportDefinitionKind;
+};
 
 
-export enum MemberReferenceKind {
-    Method = 0,
-    Field = 1
-}
+export type LocalVariableAttributes = number & { readonly __tsonic_type_System_Reflection_Metadata_LocalVariableAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const LocalVariableAttributes: {
+    readonly None: LocalVariableAttributes;
+    readonly DebuggerHidden: LocalVariableAttributes;
+};
 
 
-export enum MetadataKind {
-    Ecma335 = 0,
-    WindowsMetadata = 1,
-    ManagedWindowsMetadata = 2
-}
+export type MemberReferenceKind = number & { readonly __tsonic_type_System_Reflection_Metadata_MemberReferenceKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MemberReferenceKind: {
+    readonly Method: MemberReferenceKind;
+    readonly Field: MemberReferenceKind;
+};
 
 
-export enum MetadataReaderOptions {
-    None = 0,
-    Default = 1,
-    ApplyWindowsRuntimeProjections = 1
-}
+export type MetadataKind = number & { readonly __tsonic_type_System_Reflection_Metadata_MetadataKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MetadataKind: {
+    readonly Ecma335: MetadataKind;
+    readonly WindowsMetadata: MetadataKind;
+    readonly ManagedWindowsMetadata: MetadataKind;
+};
 
 
-export enum MetadataStreamOptions {
-    Default = 0,
-    LeaveOpen = 1,
-    PrefetchMetadata = 2
-}
+export type MetadataReaderOptions = number & { readonly __tsonic_type_System_Reflection_Metadata_MetadataReaderOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MetadataReaderOptions: {
+    readonly None: MetadataReaderOptions;
+    readonly Default: MetadataReaderOptions;
+    readonly ApplyWindowsRuntimeProjections: MetadataReaderOptions;
+};
 
 
-export enum PrimitiveSerializationTypeCode {
-    Boolean = 2,
-    Byte = 5,
-    SByte = 4,
-    Char = 3,
-    Int16 = 6,
-    UInt16 = 7,
-    Int32 = 8,
-    UInt32 = 9,
-    Int64 = 10,
-    UInt64 = 11,
-    Single = 12,
-    Double = 13,
-    String = 14
-}
+export type MetadataStreamOptions = number & { readonly __tsonic_type_System_Reflection_Metadata_MetadataStreamOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MetadataStreamOptions: {
+    readonly Default: MetadataStreamOptions;
+    readonly LeaveOpen: MetadataStreamOptions;
+    readonly PrefetchMetadata: MetadataStreamOptions;
+};
 
 
-export enum PrimitiveTypeCode {
-    Boolean = 2,
-    Byte = 5,
-    SByte = 4,
-    Char = 3,
-    Int16 = 6,
-    UInt16 = 7,
-    Int32 = 8,
-    UInt32 = 9,
-    Int64 = 10,
-    UInt64 = 11,
-    Single = 12,
-    Double = 13,
-    IntPtr = 24,
-    UIntPtr = 25,
-    Object = 28,
-    String = 14,
-    TypedReference = 22,
-    Void = 1
-}
+export type PrimitiveSerializationTypeCode = number & { readonly __tsonic_type_System_Reflection_Metadata_PrimitiveSerializationTypeCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PrimitiveSerializationTypeCode: {
+    readonly Boolean: PrimitiveSerializationTypeCode;
+    readonly Byte: PrimitiveSerializationTypeCode;
+    readonly SByte: PrimitiveSerializationTypeCode;
+    readonly Char: PrimitiveSerializationTypeCode;
+    readonly Int16: PrimitiveSerializationTypeCode;
+    readonly UInt16: PrimitiveSerializationTypeCode;
+    readonly Int32: PrimitiveSerializationTypeCode;
+    readonly UInt32: PrimitiveSerializationTypeCode;
+    readonly Int64: PrimitiveSerializationTypeCode;
+    readonly UInt64: PrimitiveSerializationTypeCode;
+    readonly Single: PrimitiveSerializationTypeCode;
+    readonly Double: PrimitiveSerializationTypeCode;
+    readonly String: PrimitiveSerializationTypeCode;
+};
 
 
-export enum SerializationTypeCode {
-    Invalid = 0,
-    Boolean = 2,
-    Char = 3,
-    SByte = 4,
-    Byte = 5,
-    Int16 = 6,
-    UInt16 = 7,
-    Int32 = 8,
-    UInt32 = 9,
-    Int64 = 10,
-    UInt64 = 11,
-    Single = 12,
-    Double = 13,
-    String = 14,
-    SZArray = 29,
-    Type = 80,
-    TaggedObject = 81,
-    Enum = 85
-}
+export type PrimitiveTypeCode = number & { readonly __tsonic_type_System_Reflection_Metadata_PrimitiveTypeCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PrimitiveTypeCode: {
+    readonly Boolean: PrimitiveTypeCode;
+    readonly Byte: PrimitiveTypeCode;
+    readonly SByte: PrimitiveTypeCode;
+    readonly Char: PrimitiveTypeCode;
+    readonly Int16: PrimitiveTypeCode;
+    readonly UInt16: PrimitiveTypeCode;
+    readonly Int32: PrimitiveTypeCode;
+    readonly UInt32: PrimitiveTypeCode;
+    readonly Int64: PrimitiveTypeCode;
+    readonly UInt64: PrimitiveTypeCode;
+    readonly Single: PrimitiveTypeCode;
+    readonly Double: PrimitiveTypeCode;
+    readonly IntPtr: PrimitiveTypeCode;
+    readonly UIntPtr: PrimitiveTypeCode;
+    readonly Object: PrimitiveTypeCode;
+    readonly String: PrimitiveTypeCode;
+    readonly TypedReference: PrimitiveTypeCode;
+    readonly Void: PrimitiveTypeCode;
+};
 
 
-export enum SignatureAttributes {
-    None = 0,
-    Generic = 16,
-    Instance = 32,
-    ExplicitThis = 64
-}
+export type SerializationTypeCode = number & { readonly __tsonic_type_System_Reflection_Metadata_SerializationTypeCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SerializationTypeCode: {
+    readonly Invalid: SerializationTypeCode;
+    readonly Boolean: SerializationTypeCode;
+    readonly Char: SerializationTypeCode;
+    readonly SByte: SerializationTypeCode;
+    readonly Byte: SerializationTypeCode;
+    readonly Int16: SerializationTypeCode;
+    readonly UInt16: SerializationTypeCode;
+    readonly Int32: SerializationTypeCode;
+    readonly UInt32: SerializationTypeCode;
+    readonly Int64: SerializationTypeCode;
+    readonly UInt64: SerializationTypeCode;
+    readonly Single: SerializationTypeCode;
+    readonly Double: SerializationTypeCode;
+    readonly String: SerializationTypeCode;
+    readonly SZArray: SerializationTypeCode;
+    readonly Type: SerializationTypeCode;
+    readonly TaggedObject: SerializationTypeCode;
+    readonly Enum: SerializationTypeCode;
+};
 
 
-export enum SignatureCallingConvention {
-    Default = 0,
-    CDecl = 1,
-    StdCall = 2,
-    ThisCall = 3,
-    FastCall = 4,
-    VarArgs = 5,
-    Unmanaged = 9
-}
+export type SignatureAttributes = number & { readonly __tsonic_type_System_Reflection_Metadata_SignatureAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SignatureAttributes: {
+    readonly None: SignatureAttributes;
+    readonly Generic: SignatureAttributes;
+    readonly Instance: SignatureAttributes;
+    readonly ExplicitThis: SignatureAttributes;
+};
 
 
-export enum SignatureKind {
-    Method = 0,
-    Field = 6,
-    LocalVariables = 7,
-    Property = 8,
-    MethodSpecification = 10
-}
+export type SignatureCallingConvention = number & { readonly __tsonic_type_System_Reflection_Metadata_SignatureCallingConvention: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SignatureCallingConvention: {
+    readonly Default: SignatureCallingConvention;
+    readonly CDecl: SignatureCallingConvention;
+    readonly StdCall: SignatureCallingConvention;
+    readonly ThisCall: SignatureCallingConvention;
+    readonly FastCall: SignatureCallingConvention;
+    readonly VarArgs: SignatureCallingConvention;
+    readonly Unmanaged: SignatureCallingConvention;
+};
 
 
-export enum SignatureTypeCode {
-    Invalid = 0,
-    Void = 1,
-    Boolean = 2,
-    Char = 3,
-    SByte = 4,
-    Byte = 5,
-    Int16 = 6,
-    UInt16 = 7,
-    Int32 = 8,
-    UInt32 = 9,
-    Int64 = 10,
-    UInt64 = 11,
-    Single = 12,
-    Double = 13,
-    String = 14,
-    Pointer = 15,
-    ByReference = 16,
-    GenericTypeParameter = 19,
-    Array = 20,
-    GenericTypeInstance = 21,
-    TypedReference = 22,
-    IntPtr = 24,
-    UIntPtr = 25,
-    FunctionPointer = 27,
-    Object = 28,
-    SZArray = 29,
-    GenericMethodParameter = 30,
-    RequiredModifier = 31,
-    OptionalModifier = 32,
-    TypeHandle = 64,
-    Sentinel = 65,
-    Pinned = 69
-}
+export type SignatureKind = number & { readonly __tsonic_type_System_Reflection_Metadata_SignatureKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SignatureKind: {
+    readonly Method: SignatureKind;
+    readonly Field: SignatureKind;
+    readonly LocalVariables: SignatureKind;
+    readonly Property: SignatureKind;
+    readonly MethodSpecification: SignatureKind;
+};
 
 
-export enum SignatureTypeKind {
-    Unknown = 0,
-    Class = 18,
-    ValueType = 17
-}
+export type SignatureTypeCode = number & { readonly __tsonic_type_System_Reflection_Metadata_SignatureTypeCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SignatureTypeCode: {
+    readonly Invalid: SignatureTypeCode;
+    readonly Void: SignatureTypeCode;
+    readonly Boolean: SignatureTypeCode;
+    readonly Char: SignatureTypeCode;
+    readonly SByte: SignatureTypeCode;
+    readonly Byte: SignatureTypeCode;
+    readonly Int16: SignatureTypeCode;
+    readonly UInt16: SignatureTypeCode;
+    readonly Int32: SignatureTypeCode;
+    readonly UInt32: SignatureTypeCode;
+    readonly Int64: SignatureTypeCode;
+    readonly UInt64: SignatureTypeCode;
+    readonly Single: SignatureTypeCode;
+    readonly Double: SignatureTypeCode;
+    readonly String: SignatureTypeCode;
+    readonly Pointer: SignatureTypeCode;
+    readonly ByReference: SignatureTypeCode;
+    readonly GenericTypeParameter: SignatureTypeCode;
+    readonly Array: SignatureTypeCode;
+    readonly GenericTypeInstance: SignatureTypeCode;
+    readonly TypedReference: SignatureTypeCode;
+    readonly IntPtr: SignatureTypeCode;
+    readonly UIntPtr: SignatureTypeCode;
+    readonly FunctionPointer: SignatureTypeCode;
+    readonly Object: SignatureTypeCode;
+    readonly SZArray: SignatureTypeCode;
+    readonly GenericMethodParameter: SignatureTypeCode;
+    readonly RequiredModifier: SignatureTypeCode;
+    readonly OptionalModifier: SignatureTypeCode;
+    readonly TypeHandle: SignatureTypeCode;
+    readonly Sentinel: SignatureTypeCode;
+    readonly Pinned: SignatureTypeCode;
+};
 
 
-export enum StandaloneSignatureKind {
-    Method = 0,
-    LocalVariables = 1
-}
+export type SignatureTypeKind = number & { readonly __tsonic_type_System_Reflection_Metadata_SignatureTypeKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SignatureTypeKind: {
+    readonly Unknown: SignatureTypeKind;
+    readonly Class: SignatureTypeKind;
+    readonly ValueType: SignatureTypeKind;
+};
 
 
-export interface IConstructedTypeProvider_1$instance<TType extends unknown> extends ISZArrayTypeProvider_1<TType> {
+export type StandaloneSignatureKind = number & { readonly __tsonic_type_System_Reflection_Metadata_StandaloneSignatureKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const StandaloneSignatureKind: {
+    readonly Method: StandaloneSignatureKind;
+    readonly LocalVariables: StandaloneSignatureKind;
+};
+
+
+export interface IConstructedTypeProvider_1$instance<TType extends unknown> {
     readonly __tsonic_iface_System_Reflection_Metadata_IConstructedTypeProvider_1: never;
+    readonly __tsonic_iface_System_Reflection_Metadata_ISZArrayTypeProvider_1: never;
 
     GetArrayType(elementType: TType, shape: ArrayShape): TType;
     GetByReferenceType(elementType: TType): TType;
@@ -515,8 +556,10 @@ export interface IConstructedTypeProvider_1$instance<TType extends unknown> exte
 
 export type IConstructedTypeProvider_1<TType extends unknown> = IConstructedTypeProvider_1$instance<TType>;
 
-export interface ICustomAttributeTypeProvider_1$instance<TType extends unknown> extends ISimpleTypeProvider_1<TType>, ISZArrayTypeProvider_1<TType> {
+export interface ICustomAttributeTypeProvider_1$instance<TType extends unknown> {
     readonly __tsonic_iface_System_Reflection_Metadata_ICustomAttributeTypeProvider_1: never;
+    readonly __tsonic_iface_System_Reflection_Metadata_ISZArrayTypeProvider_1: never;
+    readonly __tsonic_iface_System_Reflection_Metadata_ISimpleTypeProvider_1: never;
 
     GetPrimitiveType(typeCode: PrimitiveTypeCode): TType;
     GetSystemType(): TType;
@@ -533,8 +576,11 @@ export interface ICustomAttributeTypeProvider_1$instance<TType extends unknown> 
 
 export type ICustomAttributeTypeProvider_1<TType extends unknown> = ICustomAttributeTypeProvider_1$instance<TType>;
 
-export interface ISignatureTypeProvider_2$instance<TType extends unknown, TGenericContext extends unknown> extends ISimpleTypeProvider_1<TType>, IConstructedTypeProvider_1<TType>, ISZArrayTypeProvider_1<TType> {
+export interface ISignatureTypeProvider_2$instance<TType extends unknown, TGenericContext extends unknown> {
+    readonly __tsonic_iface_System_Reflection_Metadata_IConstructedTypeProvider_1: never;
+    readonly __tsonic_iface_System_Reflection_Metadata_ISZArrayTypeProvider_1: never;
     readonly __tsonic_iface_System_Reflection_Metadata_ISignatureTypeProvider_2: never;
+    readonly __tsonic_iface_System_Reflection_Metadata_ISimpleTypeProvider_1: never;
 
     GetArrayType(elementType: TType, shape: ArrayShape): TType;
     GetByReferenceType(elementType: TType): TType;
@@ -577,6 +623,7 @@ export type ISZArrayTypeProvider_1<TType extends unknown> = ISZArrayTypeProvider
 
 export interface ArrayShape$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ArrayShape: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly LowerBounds: ImmutableArray_1<System_Internal.Int32>;
     readonly Rank: int;
@@ -593,6 +640,7 @@ export type ArrayShape = ArrayShape$instance;
 
 export interface AssemblyDefinition$instance {
     readonly __tsonic_type_System_Reflection_Metadata_AssemblyDefinition: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Culture: StringHandle;
     readonly Flags: AssemblyFlags;
@@ -616,6 +664,7 @@ export type AssemblyDefinition = AssemblyDefinition$instance;
 
 export interface AssemblyDefinitionHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_AssemblyDefinitionHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -643,6 +692,7 @@ export type AssemblyDefinitionHandle = AssemblyDefinitionHandle$instance & __Ass
 
 export interface AssemblyFile$instance {
     readonly __tsonic_type_System_Reflection_Metadata_AssemblyFile: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly ContainsMetadata: boolean;
     readonly HashValue: BlobHandle;
@@ -660,6 +710,7 @@ export type AssemblyFile = AssemblyFile$instance;
 
 export interface AssemblyFileHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_AssemblyFileHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -687,6 +738,7 @@ export type AssemblyFileHandle = AssemblyFileHandle$instance & __AssemblyFileHan
 
 export interface AssemblyFileHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_AssemblyFileHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -711,8 +763,9 @@ export interface __AssemblyFileHandleCollection$views {
 export type AssemblyFileHandleCollection = AssemblyFileHandleCollection$instance & __AssemblyFileHandleCollection$views;
 
 
-export interface AssemblyFileHandleCollection_Enumerator$instance extends IEnumerator_1<AssemblyFileHandle> {
+export interface AssemblyFileHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<AssemblyFileHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_AssemblyFileHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -733,6 +786,7 @@ export type AssemblyFileHandleCollection_Enumerator = AssemblyFileHandleCollecti
 
 export interface AssemblyReference$instance {
     readonly __tsonic_type_System_Reflection_Metadata_AssemblyReference: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Culture: StringHandle;
     readonly Flags: AssemblyFlags;
@@ -755,6 +809,7 @@ export type AssemblyReference = AssemblyReference$instance;
 
 export interface AssemblyReferenceHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_AssemblyReferenceHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -782,6 +837,7 @@ export type AssemblyReferenceHandle = AssemblyReferenceHandle$instance & __Assem
 
 export interface AssemblyReferenceHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_AssemblyReferenceHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -806,8 +862,9 @@ export interface __AssemblyReferenceHandleCollection$views {
 export type AssemblyReferenceHandleCollection = AssemblyReferenceHandleCollection$instance & __AssemblyReferenceHandleCollection$views;
 
 
-export interface AssemblyReferenceHandleCollection_Enumerator$instance extends IEnumerator_1<AssemblyReferenceHandle> {
+export interface AssemblyReferenceHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<AssemblyReferenceHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_AssemblyReferenceHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -828,6 +885,7 @@ export type AssemblyReferenceHandleCollection_Enumerator = AssemblyReferenceHand
 
 export interface Blob$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Blob: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly IsDefault: boolean;
     readonly Length: int;
@@ -844,14 +902,15 @@ export type Blob = Blob$instance;
 
 export interface BlobContentId$instance {
     readonly __tsonic_type_System_Reflection_Metadata_BlobContentId: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Guid: Guid;
     readonly IsDefault: boolean;
     readonly Stamp: uint;
-    Equals(other: BlobContentId): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(other: BlobContentId): boolean;
     GetHashCode(): int;
 }
 
@@ -878,6 +937,7 @@ export type BlobContentId = BlobContentId$instance & __BlobContentId$views;
 
 export interface BlobHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_BlobHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -905,6 +965,7 @@ export type BlobHandle = BlobHandle$instance & __BlobHandle$views;
 
 export interface BlobReader$instance {
     readonly __tsonic_type_System_Reflection_Metadata_BlobReader: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly CurrentPointer: ptr<byte>;
     readonly Length: int;
@@ -956,6 +1017,7 @@ export type BlobReader = BlobReader$instance;
 
 export interface BlobWriter$instance {
     readonly __tsonic_type_System_Reflection_Metadata_BlobWriter: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Blob: Blob;
     readonly Length: int;
@@ -971,14 +1033,14 @@ export interface BlobWriter$instance {
     ToImmutableArray(start: int, byteCount: int): ImmutableArray_1<System_Internal.Byte>;
     WriteBoolean(value: boolean): void;
     WriteByte(value: byte): void;
-    WriteBytes(value: byte, byteCount: int): void;
-    WriteBytes(buffer: ptr<byte>, byteCount: int): void;
-    WriteBytes(source: BlobBuilder): void;
-    WriteBytes(source: Stream, byteCount: int): int;
     WriteBytes(buffer: ImmutableArray_1<System_Internal.Byte>): void;
     WriteBytes(buffer: ImmutableArray_1<System_Internal.Byte>, start: int, byteCount: int): void;
     WriteBytes(buffer: byte[]): void;
     WriteBytes(buffer: byte[], start: int, byteCount: int): void;
+    WriteBytes(buffer: ptr<byte>, byteCount: int): void;
+    WriteBytes(source: BlobBuilder): void;
+    WriteBytes(source: Stream, byteCount: int): int;
+    WriteBytes(value: byte, byteCount: int): void;
     WriteCompressedInteger(value: int): void;
     WriteCompressedSignedInteger(value: int): void;
     WriteConstant(value: unknown | null): void;
@@ -1019,6 +1081,7 @@ export type BlobWriter = BlobWriter$instance;
 
 export interface Constant$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Constant: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Parent: EntityHandle;
     readonly TypeCode: ConstantTypeCode;
@@ -1035,6 +1098,7 @@ export type Constant = Constant$instance;
 
 export interface ConstantHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ConstantHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1062,6 +1126,7 @@ export type ConstantHandle = ConstantHandle$instance & __ConstantHandle$views;
 
 export interface CustomAttribute$instance {
     readonly __tsonic_type_System_Reflection_Metadata_CustomAttribute: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Constructor: EntityHandle;
     readonly Parent: EntityHandle;
@@ -1079,6 +1144,7 @@ export type CustomAttribute = CustomAttribute$instance;
 
 export interface CustomAttributeHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_CustomAttributeHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1106,6 +1172,7 @@ export type CustomAttributeHandle = CustomAttributeHandle$instance & __CustomAtt
 
 export interface CustomAttributeHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_CustomAttributeHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1130,8 +1197,9 @@ export interface __CustomAttributeHandleCollection$views {
 export type CustomAttributeHandleCollection = CustomAttributeHandleCollection$instance & __CustomAttributeHandleCollection$views;
 
 
-export interface CustomAttributeHandleCollection_Enumerator$instance extends IEnumerator_1<CustomAttributeHandle> {
+export interface CustomAttributeHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<CustomAttributeHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_CustomAttributeHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -1152,6 +1220,7 @@ export type CustomAttributeHandleCollection_Enumerator = CustomAttributeHandleCo
 
 export interface CustomAttributeNamedArgument_1$instance<TType extends unknown> {
     readonly __tsonic_type_System_Reflection_Metadata_CustomAttributeNamedArgument_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Kind: CustomAttributeNamedArgumentKind;
     readonly Name: string | null;
@@ -1169,6 +1238,7 @@ export type CustomAttributeNamedArgument_1<TType extends unknown> = CustomAttrib
 
 export interface CustomAttributeTypedArgument_1$instance<TType extends unknown> {
     readonly __tsonic_type_System_Reflection_Metadata_CustomAttributeTypedArgument_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Type: TType;
     readonly Value: unknown | null;
@@ -1184,6 +1254,7 @@ export type CustomAttributeTypedArgument_1<TType extends unknown> = CustomAttrib
 
 export interface CustomAttributeValue_1$instance<TType extends unknown> {
     readonly __tsonic_type_System_Reflection_Metadata_CustomAttributeValue_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly FixedArguments: ImmutableArray_1<CustomAttributeTypedArgument_1<TType>>;
     readonly NamedArguments: ImmutableArray_1<CustomAttributeNamedArgument_1<TType>>;
@@ -1199,6 +1270,7 @@ export type CustomAttributeValue_1<TType extends unknown> = CustomAttributeValue
 
 export interface CustomDebugInformation$instance {
     readonly __tsonic_type_System_Reflection_Metadata_CustomDebugInformation: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Kind: GuidHandle;
     readonly Parent: EntityHandle;
@@ -1215,6 +1287,7 @@ export type CustomDebugInformation = CustomDebugInformation$instance;
 
 export interface CustomDebugInformationHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_CustomDebugInformationHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1242,6 +1315,7 @@ export type CustomDebugInformationHandle = CustomDebugInformationHandle$instance
 
 export interface CustomDebugInformationHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_CustomDebugInformationHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1266,8 +1340,9 @@ export interface __CustomDebugInformationHandleCollection$views {
 export type CustomDebugInformationHandleCollection = CustomDebugInformationHandleCollection$instance & __CustomDebugInformationHandleCollection$views;
 
 
-export interface CustomDebugInformationHandleCollection_Enumerator$instance extends IEnumerator_1<CustomDebugInformationHandle> {
+export interface CustomDebugInformationHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<CustomDebugInformationHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_CustomDebugInformationHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -1288,6 +1363,7 @@ export type CustomDebugInformationHandleCollection_Enumerator = CustomDebugInfor
 
 export interface DeclarativeSecurityAttribute$instance {
     readonly __tsonic_type_System_Reflection_Metadata_DeclarativeSecurityAttribute: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Action: DeclarativeSecurityAction;
     readonly Parent: EntityHandle;
@@ -1304,6 +1380,7 @@ export type DeclarativeSecurityAttribute = DeclarativeSecurityAttribute$instance
 
 export interface DeclarativeSecurityAttributeHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_DeclarativeSecurityAttributeHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1331,6 +1408,7 @@ export type DeclarativeSecurityAttributeHandle = DeclarativeSecurityAttributeHan
 
 export interface DeclarativeSecurityAttributeHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_DeclarativeSecurityAttributeHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1355,8 +1433,9 @@ export interface __DeclarativeSecurityAttributeHandleCollection$views {
 export type DeclarativeSecurityAttributeHandleCollection = DeclarativeSecurityAttributeHandleCollection$instance & __DeclarativeSecurityAttributeHandleCollection$views;
 
 
-export interface DeclarativeSecurityAttributeHandleCollection_Enumerator$instance extends IEnumerator_1<DeclarativeSecurityAttributeHandle> {
+export interface DeclarativeSecurityAttributeHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<DeclarativeSecurityAttributeHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_DeclarativeSecurityAttributeHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -1377,6 +1456,7 @@ export type DeclarativeSecurityAttributeHandleCollection_Enumerator = Declarativ
 
 export interface Document$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Document: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Hash: BlobHandle;
     readonly HashAlgorithm: GuidHandle;
@@ -1394,6 +1474,7 @@ export type Document = Document$instance;
 
 export interface DocumentHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_DocumentHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1421,6 +1502,7 @@ export type DocumentHandle = DocumentHandle$instance & __DocumentHandle$views;
 
 export interface DocumentHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_DocumentHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1445,8 +1527,9 @@ export interface __DocumentHandleCollection$views {
 export type DocumentHandleCollection = DocumentHandleCollection$instance & __DocumentHandleCollection$views;
 
 
-export interface DocumentHandleCollection_Enumerator$instance extends IEnumerator_1<DocumentHandle> {
+export interface DocumentHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<DocumentHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_DocumentHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -1467,6 +1550,7 @@ export type DocumentHandleCollection_Enumerator = DocumentHandleCollection_Enume
 
 export interface DocumentNameBlobHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_DocumentNameBlobHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1494,6 +1578,7 @@ export type DocumentNameBlobHandle = DocumentNameBlobHandle$instance & __Documen
 
 export interface EntityHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_EntityHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1524,6 +1609,7 @@ export type EntityHandle = EntityHandle$instance & __EntityHandle$views;
 
 export interface EventAccessors$instance {
     readonly __tsonic_type_System_Reflection_Metadata_EventAccessors: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Adder: MethodDefinitionHandle;
     readonly Others: ImmutableArray_1<MethodDefinitionHandle>;
@@ -1541,6 +1627,7 @@ export type EventAccessors = EventAccessors$instance;
 
 export interface EventDefinition$instance {
     readonly __tsonic_type_System_Reflection_Metadata_EventDefinition: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: EventAttributes;
     readonly Name: StringHandle;
@@ -1560,6 +1647,7 @@ export type EventDefinition = EventDefinition$instance;
 
 export interface EventDefinitionHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_EventDefinitionHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1587,6 +1675,7 @@ export type EventDefinitionHandle = EventDefinitionHandle$instance & __EventDefi
 
 export interface EventDefinitionHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_EventDefinitionHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1611,8 +1700,9 @@ export interface __EventDefinitionHandleCollection$views {
 export type EventDefinitionHandleCollection = EventDefinitionHandleCollection$instance & __EventDefinitionHandleCollection$views;
 
 
-export interface EventDefinitionHandleCollection_Enumerator$instance extends IEnumerator_1<EventDefinitionHandle> {
+export interface EventDefinitionHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<EventDefinitionHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_EventDefinitionHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -1633,6 +1723,7 @@ export type EventDefinitionHandleCollection_Enumerator = EventDefinitionHandleCo
 
 export interface ExceptionRegion$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ExceptionRegion: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly CatchType: EntityHandle;
     readonly FilterOffset: int;
@@ -1653,6 +1744,7 @@ export type ExceptionRegion = ExceptionRegion$instance;
 
 export interface ExportedType$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ExportedType: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: TypeAttributes;
     readonly Implementation: EntityHandle;
@@ -1673,6 +1765,7 @@ export type ExportedType = ExportedType$instance;
 
 export interface ExportedTypeHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ExportedTypeHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1700,6 +1793,7 @@ export type ExportedTypeHandle = ExportedTypeHandle$instance & __ExportedTypeHan
 
 export interface ExportedTypeHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ExportedTypeHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1724,8 +1818,9 @@ export interface __ExportedTypeHandleCollection$views {
 export type ExportedTypeHandleCollection = ExportedTypeHandleCollection$instance & __ExportedTypeHandleCollection$views;
 
 
-export interface ExportedTypeHandleCollection_Enumerator$instance extends IEnumerator_1<ExportedTypeHandle> {
+export interface ExportedTypeHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<ExportedTypeHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_ExportedTypeHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -1746,6 +1841,7 @@ export type ExportedTypeHandleCollection_Enumerator = ExportedTypeHandleCollecti
 
 export interface FieldDefinition$instance {
     readonly __tsonic_type_System_Reflection_Metadata_FieldDefinition: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: FieldAttributes;
     readonly Name: StringHandle;
@@ -1769,6 +1865,7 @@ export type FieldDefinition = FieldDefinition$instance;
 
 export interface FieldDefinitionHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_FieldDefinitionHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1796,6 +1893,7 @@ export type FieldDefinitionHandle = FieldDefinitionHandle$instance & __FieldDefi
 
 export interface FieldDefinitionHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_FieldDefinitionHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1820,8 +1918,9 @@ export interface __FieldDefinitionHandleCollection$views {
 export type FieldDefinitionHandleCollection = FieldDefinitionHandleCollection$instance & __FieldDefinitionHandleCollection$views;
 
 
-export interface FieldDefinitionHandleCollection_Enumerator$instance extends IEnumerator_1<FieldDefinitionHandle> {
+export interface FieldDefinitionHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<FieldDefinitionHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_FieldDefinitionHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -1842,6 +1941,7 @@ export type FieldDefinitionHandleCollection_Enumerator = FieldDefinitionHandleCo
 
 export interface GenericParameter$instance {
     readonly __tsonic_type_System_Reflection_Metadata_GenericParameter: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: GenericParameterAttributes;
     readonly Index: int;
@@ -1861,6 +1961,7 @@ export type GenericParameter = GenericParameter$instance;
 
 export interface GenericParameterConstraint$instance {
     readonly __tsonic_type_System_Reflection_Metadata_GenericParameterConstraint: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Parameter: GenericParameterHandle;
     readonly Type: EntityHandle;
@@ -1877,6 +1978,7 @@ export type GenericParameterConstraint = GenericParameterConstraint$instance;
 
 export interface GenericParameterConstraintHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_GenericParameterConstraintHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1904,6 +2006,7 @@ export type GenericParameterConstraintHandle = GenericParameterConstraintHandle$
 
 export interface GenericParameterConstraintHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_GenericParameterConstraintHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -1929,8 +2032,9 @@ export interface __GenericParameterConstraintHandleCollection$views {
 export type GenericParameterConstraintHandleCollection = GenericParameterConstraintHandleCollection$instance & __GenericParameterConstraintHandleCollection$views & { readonly [index: number]: GenericParameterConstraintHandle; };
 
 
-export interface GenericParameterConstraintHandleCollection_Enumerator$instance extends IEnumerator_1<GenericParameterConstraintHandle> {
+export interface GenericParameterConstraintHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<GenericParameterConstraintHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_GenericParameterConstraintHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -1951,6 +2055,7 @@ export type GenericParameterConstraintHandleCollection_Enumerator = GenericParam
 
 export interface GenericParameterHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_GenericParameterHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -1978,6 +2083,7 @@ export type GenericParameterHandle = GenericParameterHandle$instance & __Generic
 
 export interface GenericParameterHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_GenericParameterHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -2003,8 +2109,9 @@ export interface __GenericParameterHandleCollection$views {
 export type GenericParameterHandleCollection = GenericParameterHandleCollection$instance & __GenericParameterHandleCollection$views & { readonly [index: number]: GenericParameterHandle; };
 
 
-export interface GenericParameterHandleCollection_Enumerator$instance extends IEnumerator_1<GenericParameterHandle> {
+export interface GenericParameterHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<GenericParameterHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_GenericParameterHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2025,6 +2132,7 @@ export type GenericParameterHandleCollection_Enumerator = GenericParameterHandle
 
 export interface GuidHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_GuidHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2052,6 +2160,7 @@ export type GuidHandle = GuidHandle$instance & __GuidHandle$views;
 
 export interface Handle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Handle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2082,6 +2191,7 @@ export type Handle = Handle$instance & __Handle$views;
 
 export interface ImportDefinition$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ImportDefinition: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Alias: BlobHandle;
     readonly Kind: ImportDefinitionKind;
@@ -2100,6 +2210,7 @@ export type ImportDefinition = ImportDefinition$instance;
 
 export interface ImportDefinitionCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ImportDefinitionCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -2121,8 +2232,9 @@ export interface __ImportDefinitionCollection$views {
 export type ImportDefinitionCollection = ImportDefinitionCollection$instance & __ImportDefinitionCollection$views;
 
 
-export interface ImportDefinitionCollection_Enumerator$instance extends IEnumerator_1<ImportDefinition> {
+export interface ImportDefinitionCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<ImportDefinition> {
     readonly __tsonic_type_System_Reflection_Metadata_ImportDefinitionCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2143,6 +2255,7 @@ export type ImportDefinitionCollection_Enumerator = ImportDefinitionCollection_E
 
 export interface ImportScope$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ImportScope: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly ImportsBlob: BlobHandle;
     readonly Parent: ImportScopeHandle;
@@ -2159,6 +2272,7 @@ export type ImportScope = ImportScope$instance;
 
 export interface ImportScopeCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ImportScopeCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -2183,8 +2297,9 @@ export interface __ImportScopeCollection$views {
 export type ImportScopeCollection = ImportScopeCollection$instance & __ImportScopeCollection$views;
 
 
-export interface ImportScopeCollection_Enumerator$instance extends IEnumerator_1<ImportScopeHandle> {
+export interface ImportScopeCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<ImportScopeHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_ImportScopeCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2205,6 +2320,7 @@ export type ImportScopeCollection_Enumerator = ImportScopeCollection_Enumerator$
 
 export interface ImportScopeHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ImportScopeHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2232,6 +2348,7 @@ export type ImportScopeHandle = ImportScopeHandle$instance & __ImportScopeHandle
 
 export interface InterfaceImplementation$instance {
     readonly __tsonic_type_System_Reflection_Metadata_InterfaceImplementation: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Interface: EntityHandle;
     GetCustomAttributes(): CustomAttributeHandleCollection;
@@ -2247,6 +2364,7 @@ export type InterfaceImplementation = InterfaceImplementation$instance;
 
 export interface InterfaceImplementationHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_InterfaceImplementationHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2274,6 +2392,7 @@ export type InterfaceImplementationHandle = InterfaceImplementationHandle$instan
 
 export interface InterfaceImplementationHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_InterfaceImplementationHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -2298,8 +2417,9 @@ export interface __InterfaceImplementationHandleCollection$views {
 export type InterfaceImplementationHandleCollection = InterfaceImplementationHandleCollection$instance & __InterfaceImplementationHandleCollection$views;
 
 
-export interface InterfaceImplementationHandleCollection_Enumerator$instance extends IEnumerator_1<InterfaceImplementationHandle> {
+export interface InterfaceImplementationHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<InterfaceImplementationHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_InterfaceImplementationHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2320,6 +2440,7 @@ export type InterfaceImplementationHandleCollection_Enumerator = InterfaceImplem
 
 export interface LocalConstant$instance {
     readonly __tsonic_type_System_Reflection_Metadata_LocalConstant: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Name: StringHandle;
     readonly Signature: BlobHandle;
@@ -2335,6 +2456,7 @@ export type LocalConstant = LocalConstant$instance;
 
 export interface LocalConstantHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_LocalConstantHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2362,6 +2484,7 @@ export type LocalConstantHandle = LocalConstantHandle$instance & __LocalConstant
 
 export interface LocalConstantHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_LocalConstantHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -2386,8 +2509,9 @@ export interface __LocalConstantHandleCollection$views {
 export type LocalConstantHandleCollection = LocalConstantHandleCollection$instance & __LocalConstantHandleCollection$views;
 
 
-export interface LocalConstantHandleCollection_Enumerator$instance extends IEnumerator_1<LocalConstantHandle> {
+export interface LocalConstantHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<LocalConstantHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_LocalConstantHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2408,6 +2532,7 @@ export type LocalConstantHandleCollection_Enumerator = LocalConstantHandleCollec
 
 export interface LocalScope$instance {
     readonly __tsonic_type_System_Reflection_Metadata_LocalScope: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly EndOffset: int;
     readonly ImportScope: ImportScopeHandle;
@@ -2429,6 +2554,7 @@ export type LocalScope = LocalScope$instance;
 
 export interface LocalScopeHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_LocalScopeHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2456,6 +2582,7 @@ export type LocalScopeHandle = LocalScopeHandle$instance & __LocalScopeHandle$vi
 
 export interface LocalScopeHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_LocalScopeHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -2480,8 +2607,9 @@ export interface __LocalScopeHandleCollection$views {
 export type LocalScopeHandleCollection = LocalScopeHandleCollection$instance & __LocalScopeHandleCollection$views;
 
 
-export interface LocalScopeHandleCollection_ChildrenEnumerator$instance extends IEnumerator_1<LocalScopeHandle> {
+export interface LocalScopeHandleCollection_ChildrenEnumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<LocalScopeHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_LocalScopeHandleCollection_ChildrenEnumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2500,8 +2628,9 @@ export const LocalScopeHandleCollection_ChildrenEnumerator: {
 
 export type LocalScopeHandleCollection_ChildrenEnumerator = LocalScopeHandleCollection_ChildrenEnumerator$instance;
 
-export interface LocalScopeHandleCollection_Enumerator$instance extends IEnumerator_1<LocalScopeHandle> {
+export interface LocalScopeHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<LocalScopeHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_LocalScopeHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2522,6 +2651,7 @@ export type LocalScopeHandleCollection_Enumerator = LocalScopeHandleCollection_E
 
 export interface LocalVariable$instance {
     readonly __tsonic_type_System_Reflection_Metadata_LocalVariable: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: LocalVariableAttributes;
     readonly Index: int;
@@ -2538,6 +2668,7 @@ export type LocalVariable = LocalVariable$instance;
 
 export interface LocalVariableHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_LocalVariableHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2565,6 +2696,7 @@ export type LocalVariableHandle = LocalVariableHandle$instance & __LocalVariable
 
 export interface LocalVariableHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_LocalVariableHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -2589,8 +2721,9 @@ export interface __LocalVariableHandleCollection$views {
 export type LocalVariableHandleCollection = LocalVariableHandleCollection$instance & __LocalVariableHandleCollection$views;
 
 
-export interface LocalVariableHandleCollection_Enumerator$instance extends IEnumerator_1<LocalVariableHandle> {
+export interface LocalVariableHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<LocalVariableHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_LocalVariableHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2611,6 +2744,7 @@ export type LocalVariableHandleCollection_Enumerator = LocalVariableHandleCollec
 
 export interface ManifestResource$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ManifestResource: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: ManifestResourceAttributes;
     readonly Implementation: EntityHandle;
@@ -2629,6 +2763,7 @@ export type ManifestResource = ManifestResource$instance;
 
 export interface ManifestResourceHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ManifestResourceHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2656,6 +2791,7 @@ export type ManifestResourceHandle = ManifestResourceHandle$instance & __Manifes
 
 export interface ManifestResourceHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ManifestResourceHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -2680,8 +2816,9 @@ export interface __ManifestResourceHandleCollection$views {
 export type ManifestResourceHandleCollection = ManifestResourceHandleCollection$instance & __ManifestResourceHandleCollection$views;
 
 
-export interface ManifestResourceHandleCollection_Enumerator$instance extends IEnumerator_1<ManifestResourceHandle> {
+export interface ManifestResourceHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<ManifestResourceHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_ManifestResourceHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2702,6 +2839,7 @@ export type ManifestResourceHandleCollection_Enumerator = ManifestResourceHandle
 
 export interface MemberReference$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MemberReference: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Name: StringHandle;
     readonly Parent: EntityHandle;
@@ -2722,6 +2860,7 @@ export type MemberReference = MemberReference$instance;
 
 export interface MemberReferenceHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MemberReferenceHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2749,6 +2888,7 @@ export type MemberReferenceHandle = MemberReferenceHandle$instance & __MemberRef
 
 export interface MemberReferenceHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MemberReferenceHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -2773,8 +2913,9 @@ export interface __MemberReferenceHandleCollection$views {
 export type MemberReferenceHandleCollection = MemberReferenceHandleCollection$instance & __MemberReferenceHandleCollection$views;
 
 
-export interface MemberReferenceHandleCollection_Enumerator$instance extends IEnumerator_1<MemberReferenceHandle> {
+export interface MemberReferenceHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<MemberReferenceHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_MemberReferenceHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2795,13 +2936,14 @@ export type MemberReferenceHandleCollection_Enumerator = MemberReferenceHandleCo
 
 export interface MetadataStringComparer$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MetadataStringComparer: never;
+    readonly __tsonic_type_System_ValueType: never;
 
-    Equals(handle: StringHandle, value: string): boolean;
-    Equals(handle: StringHandle, value: string, ignoreCase: boolean): boolean;
-    Equals(handle: NamespaceDefinitionHandle, value: string): boolean;
-    Equals(handle: NamespaceDefinitionHandle, value: string, ignoreCase: boolean): boolean;
     Equals(handle: DocumentNameBlobHandle, value: string): boolean;
     Equals(handle: DocumentNameBlobHandle, value: string, ignoreCase: boolean): boolean;
+    Equals(handle: NamespaceDefinitionHandle, value: string): boolean;
+    Equals(handle: NamespaceDefinitionHandle, value: string, ignoreCase: boolean): boolean;
+    Equals(handle: StringHandle, value: string): boolean;
+    Equals(handle: StringHandle, value: string, ignoreCase: boolean): boolean;
     Equals(obj: unknown | null): boolean;
     StartsWith(handle: StringHandle, value: string): boolean;
     StartsWith(handle: StringHandle, value: string, ignoreCase: boolean): boolean;
@@ -2817,6 +2959,7 @@ export type MetadataStringComparer = MetadataStringComparer$instance;
 
 export interface MethodDebugInformation$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodDebugInformation: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Document: DocumentHandle;
     readonly LocalSignature: StandaloneSignatureHandle;
@@ -2835,6 +2978,7 @@ export type MethodDebugInformation = MethodDebugInformation$instance;
 
 export interface MethodDebugInformationHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodDebugInformationHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2863,6 +3007,7 @@ export type MethodDebugInformationHandle = MethodDebugInformationHandle$instance
 
 export interface MethodDebugInformationHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodDebugInformationHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -2887,8 +3032,9 @@ export interface __MethodDebugInformationHandleCollection$views {
 export type MethodDebugInformationHandleCollection = MethodDebugInformationHandleCollection$instance & __MethodDebugInformationHandleCollection$views;
 
 
-export interface MethodDebugInformationHandleCollection_Enumerator$instance extends IEnumerator_1<MethodDebugInformationHandle> {
+export interface MethodDebugInformationHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<MethodDebugInformationHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_MethodDebugInformationHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -2909,6 +3055,7 @@ export type MethodDebugInformationHandleCollection_Enumerator = MethodDebugInfor
 
 export interface MethodDefinition$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodDefinition: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: MethodAttributes;
     readonly ImplAttributes: MethodImplAttributes;
@@ -2934,6 +3081,7 @@ export type MethodDefinition = MethodDefinition$instance;
 
 export interface MethodDefinitionHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodDefinitionHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -2962,6 +3110,7 @@ export type MethodDefinitionHandle = MethodDefinitionHandle$instance & __MethodD
 
 export interface MethodDefinitionHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodDefinitionHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -2986,8 +3135,9 @@ export interface __MethodDefinitionHandleCollection$views {
 export type MethodDefinitionHandleCollection = MethodDefinitionHandleCollection$instance & __MethodDefinitionHandleCollection$views;
 
 
-export interface MethodDefinitionHandleCollection_Enumerator$instance extends IEnumerator_1<MethodDefinitionHandle> {
+export interface MethodDefinitionHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<MethodDefinitionHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_MethodDefinitionHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -3008,6 +3158,7 @@ export type MethodDefinitionHandleCollection_Enumerator = MethodDefinitionHandle
 
 export interface MethodImplementation$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodImplementation: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly MethodBody: EntityHandle;
     readonly MethodDeclaration: EntityHandle;
@@ -3025,6 +3176,7 @@ export type MethodImplementation = MethodImplementation$instance;
 
 export interface MethodImplementationHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodImplementationHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3052,6 +3204,7 @@ export type MethodImplementationHandle = MethodImplementationHandle$instance & _
 
 export interface MethodImplementationHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodImplementationHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -3076,8 +3229,9 @@ export interface __MethodImplementationHandleCollection$views {
 export type MethodImplementationHandleCollection = MethodImplementationHandleCollection$instance & __MethodImplementationHandleCollection$views;
 
 
-export interface MethodImplementationHandleCollection_Enumerator$instance extends IEnumerator_1<MethodImplementationHandle> {
+export interface MethodImplementationHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<MethodImplementationHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_MethodImplementationHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -3098,6 +3252,7 @@ export type MethodImplementationHandleCollection_Enumerator = MethodImplementati
 
 export interface MethodImport$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodImport: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: MethodImportAttributes;
     readonly Module: ModuleReferenceHandle;
@@ -3114,6 +3269,7 @@ export type MethodImport = MethodImport$instance;
 
 export interface MethodSignature_1$instance<TType extends unknown> {
     readonly __tsonic_type_System_Reflection_Metadata_MethodSignature_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly GenericParameterCount: int;
     readonly Header: SignatureHeader;
@@ -3132,6 +3288,7 @@ export type MethodSignature_1<TType extends unknown> = MethodSignature_1$instanc
 
 export interface MethodSpecification$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodSpecification: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Method: EntityHandle;
     readonly Signature: BlobHandle;
@@ -3149,6 +3306,7 @@ export type MethodSpecification = MethodSpecification$instance;
 
 export interface MethodSpecificationHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MethodSpecificationHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3176,6 +3334,7 @@ export type MethodSpecificationHandle = MethodSpecificationHandle$instance & __M
 
 export interface ModuleDefinition$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ModuleDefinition: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly BaseGenerationId: GuidHandle;
     readonly Generation: int;
@@ -3195,6 +3354,7 @@ export type ModuleDefinition = ModuleDefinition$instance;
 
 export interface ModuleDefinitionHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ModuleDefinitionHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3222,6 +3382,7 @@ export type ModuleDefinitionHandle = ModuleDefinitionHandle$instance & __ModuleD
 
 export interface ModuleReference$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ModuleReference: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Name: StringHandle;
     GetCustomAttributes(): CustomAttributeHandleCollection;
@@ -3237,6 +3398,7 @@ export type ModuleReference = ModuleReference$instance;
 
 export interface ModuleReferenceHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ModuleReferenceHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3264,6 +3426,7 @@ export type ModuleReferenceHandle = ModuleReferenceHandle$instance & __ModuleRef
 
 export interface NamespaceDefinition$instance {
     readonly __tsonic_type_System_Reflection_Metadata_NamespaceDefinition: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly ExportedTypes: ImmutableArray_1<ExportedTypeHandle>;
     readonly Name: StringHandle;
@@ -3282,6 +3445,7 @@ export type NamespaceDefinition = NamespaceDefinition$instance;
 
 export interface NamespaceDefinitionHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_NamespaceDefinitionHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3309,6 +3473,7 @@ export type NamespaceDefinitionHandle = NamespaceDefinitionHandle$instance & __N
 
 export interface Parameter$instance {
     readonly __tsonic_type_System_Reflection_Metadata_Parameter: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: ParameterAttributes;
     readonly Name: StringHandle;
@@ -3328,6 +3493,7 @@ export type Parameter = Parameter$instance;
 
 export interface ParameterHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ParameterHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3355,6 +3521,7 @@ export type ParameterHandle = ParameterHandle$instance & __ParameterHandle$views
 
 export interface ParameterHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_ParameterHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -3379,8 +3546,9 @@ export interface __ParameterHandleCollection$views {
 export type ParameterHandleCollection = ParameterHandleCollection$instance & __ParameterHandleCollection$views;
 
 
-export interface ParameterHandleCollection_Enumerator$instance extends IEnumerator_1<ParameterHandle> {
+export interface ParameterHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<ParameterHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_ParameterHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -3401,6 +3569,7 @@ export type ParameterHandleCollection_Enumerator = ParameterHandleCollection_Enu
 
 export interface PropertyAccessors$instance {
     readonly __tsonic_type_System_Reflection_Metadata_PropertyAccessors: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Getter: MethodDefinitionHandle;
     readonly Others: ImmutableArray_1<MethodDefinitionHandle>;
@@ -3417,6 +3586,7 @@ export type PropertyAccessors = PropertyAccessors$instance;
 
 export interface PropertyDefinition$instance {
     readonly __tsonic_type_System_Reflection_Metadata_PropertyDefinition: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: PropertyAttributes;
     readonly Name: StringHandle;
@@ -3438,6 +3608,7 @@ export type PropertyDefinition = PropertyDefinition$instance;
 
 export interface PropertyDefinitionHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_PropertyDefinitionHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3465,6 +3636,7 @@ export type PropertyDefinitionHandle = PropertyDefinitionHandle$instance & __Pro
 
 export interface PropertyDefinitionHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_PropertyDefinitionHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -3489,8 +3661,9 @@ export interface __PropertyDefinitionHandleCollection$views {
 export type PropertyDefinitionHandleCollection = PropertyDefinitionHandleCollection$instance & __PropertyDefinitionHandleCollection$views;
 
 
-export interface PropertyDefinitionHandleCollection_Enumerator$instance extends IEnumerator_1<PropertyDefinitionHandle> {
+export interface PropertyDefinitionHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<PropertyDefinitionHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_PropertyDefinitionHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -3509,8 +3682,9 @@ export const PropertyDefinitionHandleCollection_Enumerator: {
 
 export type PropertyDefinitionHandleCollection_Enumerator = PropertyDefinitionHandleCollection_Enumerator$instance;
 
-export interface ReservedBlob_1$instance<THandle extends NonNullable<unknown>> {
+export interface ReservedBlob_1$instance<THandle extends { readonly __tsonic_type_System_ValueType: never }> {
     readonly __tsonic_type_System_Reflection_Metadata_ReservedBlob_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Content: Blob;
     readonly Handle: THandle;
@@ -3519,14 +3693,15 @@ export interface ReservedBlob_1$instance<THandle extends NonNullable<unknown>> {
 
 
 export const ReservedBlob_1: {
-    new<THandle extends NonNullable<unknown>>(): ReservedBlob_1<THandle>;
+    new<THandle extends { readonly __tsonic_type_System_ValueType: never }>(): ReservedBlob_1<THandle>;
 };
 
 
-export type ReservedBlob_1<THandle extends NonNullable<unknown>> = ReservedBlob_1$instance<THandle>;
+export type ReservedBlob_1<THandle extends { readonly __tsonic_type_System_ValueType: never }> = ReservedBlob_1$instance<THandle>;
 
 export interface SequencePoint$instance {
     readonly __tsonic_type_System_Reflection_Metadata_SequencePoint: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3561,6 +3736,7 @@ export type SequencePoint = SequencePoint$instance & __SequencePoint$views;
 
 export interface SequencePointCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_SequencePointCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -3582,8 +3758,9 @@ export interface __SequencePointCollection$views {
 export type SequencePointCollection = SequencePointCollection$instance & __SequencePointCollection$views;
 
 
-export interface SequencePointCollection_Enumerator$instance extends IEnumerator_1<SequencePoint> {
+export interface SequencePointCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<SequencePoint> {
     readonly __tsonic_type_System_Reflection_Metadata_SequencePointCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -3604,6 +3781,7 @@ export type SequencePointCollection_Enumerator = SequencePointCollection_Enumera
 
 export interface SignatureHeader$instance {
     readonly __tsonic_type_System_Reflection_Metadata_SignatureHeader: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3640,6 +3818,7 @@ export type SignatureHeader = SignatureHeader$instance & __SignatureHeader$views
 
 export interface StandaloneSignature$instance {
     readonly __tsonic_type_System_Reflection_Metadata_StandaloneSignature: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Signature: BlobHandle;
     DecodeLocalSignature<TType extends unknown, TGenericContext extends unknown>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): ImmutableArray_1<TType>;
@@ -3658,6 +3837,7 @@ export type StandaloneSignature = StandaloneSignature$instance;
 
 export interface StandaloneSignatureHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_StandaloneSignatureHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3685,6 +3865,7 @@ export type StandaloneSignatureHandle = StandaloneSignatureHandle$instance & __S
 
 export interface StringHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_StringHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3712,6 +3893,7 @@ export type StringHandle = StringHandle$instance & __StringHandle$views;
 
 export interface TypeDefinition$instance {
     readonly __tsonic_type_System_Reflection_Metadata_TypeDefinition: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Attributes: TypeAttributes;
     readonly BaseType: EntityHandle;
@@ -3743,6 +3925,7 @@ export type TypeDefinition = TypeDefinition$instance;
 
 export interface TypeDefinitionHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_TypeDefinitionHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3770,6 +3953,7 @@ export type TypeDefinitionHandle = TypeDefinitionHandle$instance & __TypeDefinit
 
 export interface TypeDefinitionHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_TypeDefinitionHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -3794,8 +3978,9 @@ export interface __TypeDefinitionHandleCollection$views {
 export type TypeDefinitionHandleCollection = TypeDefinitionHandleCollection$instance & __TypeDefinitionHandleCollection$views;
 
 
-export interface TypeDefinitionHandleCollection_Enumerator$instance extends IEnumerator_1<TypeDefinitionHandle> {
+export interface TypeDefinitionHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<TypeDefinitionHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_TypeDefinitionHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -3816,6 +4001,7 @@ export type TypeDefinitionHandleCollection_Enumerator = TypeDefinitionHandleColl
 
 export interface TypeLayout$instance {
     readonly __tsonic_type_System_Reflection_Metadata_TypeLayout: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly IsDefault: boolean;
     readonly PackingSize: int;
@@ -3832,6 +4018,7 @@ export type TypeLayout = TypeLayout$instance;
 
 export interface TypeReference$instance {
     readonly __tsonic_type_System_Reflection_Metadata_TypeReference: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Name: StringHandle;
     readonly Namespace: StringHandle;
@@ -3848,6 +4035,7 @@ export type TypeReference = TypeReference$instance;
 
 export interface TypeReferenceHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_TypeReferenceHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3875,6 +4063,7 @@ export type TypeReferenceHandle = TypeReferenceHandle$instance & __TypeReference
 
 export interface TypeReferenceHandleCollection$instance {
     readonly __tsonic_type_System_Reflection_Metadata_TypeReferenceHandleCollection: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IReadOnlyCollection_1: never;
@@ -3899,8 +4088,9 @@ export interface __TypeReferenceHandleCollection$views {
 export type TypeReferenceHandleCollection = TypeReferenceHandleCollection$instance & __TypeReferenceHandleCollection$views;
 
 
-export interface TypeReferenceHandleCollection_Enumerator$instance extends IEnumerator_1<TypeReferenceHandle> {
+export interface TypeReferenceHandleCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<TypeReferenceHandle> {
     readonly __tsonic_type_System_Reflection_Metadata_TypeReferenceHandleCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -3921,6 +4111,7 @@ export type TypeReferenceHandleCollection_Enumerator = TypeReferenceHandleCollec
 
 export interface TypeSpecification$instance {
     readonly __tsonic_type_System_Reflection_Metadata_TypeSpecification: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Signature: BlobHandle;
     DecodeSignature<TType extends unknown, TGenericContext extends unknown>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): TType;
@@ -3937,6 +4128,7 @@ export type TypeSpecification = TypeSpecification$instance;
 
 export interface TypeSpecificationHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_TypeSpecificationHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -3964,6 +4156,7 @@ export type TypeSpecificationHandle = TypeSpecificationHandle$instance & __TypeS
 
 export interface UserStringHandle$instance {
     readonly __tsonic_type_System_Reflection_Metadata_UserStringHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -4032,18 +4225,18 @@ export interface BlobBuilder$instance {
     TryWriteBytes(source: Stream, byteCount: int): int;
     WriteBoolean(value: boolean): void;
     WriteByte(value: byte): void;
-    WriteBytes(value: byte, byteCount: int): void;
-    WriteBytes(buffer: ptr<byte>, byteCount: int): void;
     WriteBytes(buffer: ImmutableArray_1<System_Internal.Byte>): void;
     WriteBytes(buffer: ImmutableArray_1<System_Internal.Byte>, start: int, byteCount: int): void;
     WriteBytes(buffer: byte[]): void;
     WriteBytes(buffer: byte[], start: int, byteCount: int): void;
+    WriteBytes(buffer: ptr<byte>, byteCount: int): void;
+    WriteBytes(value: byte, byteCount: int): void;
     WriteCompressedInteger(value: int): void;
     WriteCompressedSignedInteger(value: int): void;
     WriteConstant(value: unknown | null): void;
-    WriteContentTo(destination: Stream): void;
-    WriteContentTo(destination: BlobWriter): void;
     WriteContentTo(destination: BlobBuilder): void;
+    WriteContentTo(destination: BlobWriter): void;
+    WriteContentTo(destination: Stream): void;
     WriteDateTime(value: DateTime): void;
     WriteDecimal(value: decimal): void;
     WriteDouble(value: double): void;
@@ -4076,8 +4269,9 @@ export const BlobBuilder: {
 
 export type BlobBuilder = BlobBuilder$instance;
 
-export interface BlobBuilder_Blobs$instance extends IEnumerator_1<Blob> {
+export interface BlobBuilder_Blobs$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<Blob> {
     readonly __tsonic_type_System_Reflection_Metadata_BlobBuilder_Blobs: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
@@ -4114,20 +4308,20 @@ export const DebugMetadataHeader: {
 
 export type DebugMetadataHeader = DebugMetadataHeader$instance;
 
-export interface HandleComparer$instance extends System_Collections_Generic_Internal.IComparer_1$instance<EntityHandle> {
+export interface HandleComparer$instance {
     readonly __tsonic_type_System_Reflection_Metadata_HandleComparer: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEqualityComparer_1: never;
 
-    Compare(x: Handle, y: Handle): int;
     Compare(x: EntityHandle, y: EntityHandle): int;
-    Equals(x: Handle, y: Handle): boolean;
-    Equals(x: EntityHandle, y: EntityHandle): boolean;
+    Compare(x: Handle, y: Handle): int;
     Equals(obj: unknown | null): boolean;
-    GetHashCode(obj: Handle): int;
-    GetHashCode(obj: EntityHandle): int;
+    Equals(x: EntityHandle, y: EntityHandle): boolean;
+    Equals(x: Handle, y: Handle): boolean;
     GetHashCode(): int;
+    GetHashCode(obj: EntityHandle): int;
+    GetHashCode(obj: Handle): int;
 }
 
 
@@ -4144,7 +4338,8 @@ export interface __HandleComparer$views {
 export type HandleComparer = HandleComparer$instance & __HandleComparer$views;
 
 
-export interface ImageFormatLimitationException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface ImageFormatLimitationException$instance extends System_Internal.Exception$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Reflection_Metadata_ImageFormatLimitationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -4222,8 +4417,8 @@ export interface MetadataReader$instance {
     GetInterfaceImplementation(handle: InterfaceImplementationHandle): InterfaceImplementation;
     GetLocalConstant(handle: LocalConstantHandle): LocalConstant;
     GetLocalScope(handle: LocalScopeHandle): LocalScope;
-    GetLocalScopes(handle: MethodDefinitionHandle): LocalScopeHandleCollection;
     GetLocalScopes(handle: MethodDebugInformationHandle): LocalScopeHandleCollection;
+    GetLocalScopes(handle: MethodDefinitionHandle): LocalScopeHandleCollection;
     GetLocalVariable(handle: LocalVariableHandle): LocalVariable;
     GetManifestResource(handle: ManifestResourceHandle): ManifestResource;
     GetMemberReference(handle: MemberReferenceHandle): MemberReference;
@@ -4239,9 +4434,9 @@ export interface MetadataReader$instance {
     GetParameter(handle: ParameterHandle): Parameter;
     GetPropertyDefinition(handle: PropertyDefinitionHandle): PropertyDefinition;
     GetStandaloneSignature(handle: StandaloneSignatureHandle): StandaloneSignature;
-    GetString(handle: StringHandle): string;
-    GetString(handle: NamespaceDefinitionHandle): string;
     GetString(handle: DocumentNameBlobHandle): string;
+    GetString(handle: NamespaceDefinitionHandle): string;
+    GetString(handle: StringHandle): string;
     GetTypeDefinition(handle: TypeDefinitionHandle): TypeDefinition;
     GetTypeReference(handle: TypeReferenceHandle): TypeReference;
     GetTypeSpecification(handle: TypeSpecificationHandle): TypeSpecification;
@@ -4259,7 +4454,7 @@ export const MetadataReader: {
 
 export type MetadataReader = MetadataReader$instance;
 
-export interface MetadataReaderProvider$instance extends System_Internal.IDisposable$instance {
+export interface MetadataReaderProvider$instance {
     readonly __tsonic_type_System_Reflection_Metadata_MetadataReaderProvider: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -4302,7 +4497,8 @@ export const MetadataStringDecoder: {
 
 export type MetadataStringDecoder = MetadataStringDecoder$instance;
 
-export interface MetadataUpdateHandlerAttribute$instance extends Attribute {
+export interface MetadataUpdateHandlerAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_Metadata_MetadataUpdateHandlerAttribute: never;
 
     readonly HandlerType: Type;

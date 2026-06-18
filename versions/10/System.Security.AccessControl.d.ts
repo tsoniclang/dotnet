@@ -10,7 +10,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 
 
 // Cross-namespace type imports for constraints
-import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';
+import type { ICollection, IDictionary, IEnumerable, IEnumerator, ReadOnlyCollectionBase } from './System.Collections/internal/index.js';
 import type { MethodBase, MethodInfo } from './System.Reflection/internal/index.js';
 import type { SafeHandle } from './System.Runtime.InteropServices/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
@@ -91,20 +91,20 @@ declare const __unspecified: unique symbol;
 export type __ = typeof __unspecified;
 
 export type AccessRule<
-  T1 extends NonNullable<unknown> | __ = __,
+  T1 extends { readonly __tsonic_type_System_ValueType: never } | __ = __,
 > =
   [T1] extends [__] ? Internal.AccessRule :
-  [T1] extends [NonNullable<unknown>] ? Internal.AccessRule_1<T1> : never;
+  [T1] extends [{ readonly __tsonic_type_System_ValueType: never }] ? Internal.AccessRule_1<T1> : never;
 
 export type AuditRule<
-  T1 extends NonNullable<unknown> | __ = __,
+  T1 extends { readonly __tsonic_type_System_ValueType: never } | __ = __,
 > =
   [T1] extends [__] ? Internal.AuditRule :
-  [T1] extends [NonNullable<unknown>] ? Internal.AuditRule_1<T1> : never;
+  [T1] extends [{ readonly __tsonic_type_System_ValueType: never }] ? Internal.AuditRule_1<T1> : never;
 
 export type ObjectSecurity<
-  T1 extends NonNullable<unknown> | __ = __,
+  T1 extends { readonly __tsonic_type_System_ValueType: never } | __ = __,
 > =
   [T1] extends [__] ? Internal.ObjectSecurity :
-  [T1] extends [NonNullable<unknown>] ? Internal.ObjectSecurity_1<T1> : never;
+  [T1] extends [{ readonly __tsonic_type_System_ValueType: never }] ? Internal.ObjectSecurity_1<T1> : never;
 

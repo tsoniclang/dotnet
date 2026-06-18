@@ -8,202 +8,237 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { ICollection, IEnumerator, IList } from "../../System.Collections/internal/index.js";
+import type { ICollection, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
-export enum AppWinStyle {
-    Hide = 0,
-    NormalFocus = 1,
-    MinimizedFocus = 2,
-    MaximizedFocus = 3,
-    NormalNoFocus = 4,
-    MinimizedNoFocus = 6
-}
+export type AppWinStyle = number & { readonly __tsonic_type_Microsoft_VisualBasic_AppWinStyle: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const AppWinStyle: {
+    readonly Hide: AppWinStyle;
+    readonly NormalFocus: AppWinStyle;
+    readonly MinimizedFocus: AppWinStyle;
+    readonly MaximizedFocus: AppWinStyle;
+    readonly NormalNoFocus: AppWinStyle;
+    readonly MinimizedNoFocus: AppWinStyle;
+};
 
 
-export enum CallType {
-    Method = 1,
-    Get = 2,
-    Let = 4,
-    Set = 8
-}
+export type CallType = number & { readonly __tsonic_type_Microsoft_VisualBasic_CallType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CallType: {
+    readonly Method: CallType;
+    readonly Get: CallType;
+    readonly Let: CallType;
+    readonly Set: CallType;
+};
 
 
-export enum CompareMethod {
-    Binary = 0,
-    Text = 1
-}
+export type CompareMethod = number & { readonly __tsonic_type_Microsoft_VisualBasic_CompareMethod: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CompareMethod: {
+    readonly Binary: CompareMethod;
+    readonly Text: CompareMethod;
+};
 
 
-export enum DateFormat {
-    GeneralDate = 0,
-    LongDate = 1,
-    ShortDate = 2,
-    LongTime = 3,
-    ShortTime = 4
-}
+export type DateFormat = number & { readonly __tsonic_type_Microsoft_VisualBasic_DateFormat: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DateFormat: {
+    readonly GeneralDate: DateFormat;
+    readonly LongDate: DateFormat;
+    readonly ShortDate: DateFormat;
+    readonly LongTime: DateFormat;
+    readonly ShortTime: DateFormat;
+};
 
 
-export enum DateInterval {
-    Year = 0,
-    Quarter = 1,
-    Month = 2,
-    DayOfYear = 3,
-    Day = 4,
-    WeekOfYear = 5,
-    Weekday = 6,
-    Hour = 7,
-    Minute = 8,
-    Second = 9
-}
+export type DateInterval = number & { readonly __tsonic_type_Microsoft_VisualBasic_DateInterval: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DateInterval: {
+    readonly Year: DateInterval;
+    readonly Quarter: DateInterval;
+    readonly Month: DateInterval;
+    readonly DayOfYear: DateInterval;
+    readonly Day: DateInterval;
+    readonly WeekOfYear: DateInterval;
+    readonly Weekday: DateInterval;
+    readonly Hour: DateInterval;
+    readonly Minute: DateInterval;
+    readonly Second: DateInterval;
+};
 
 
-export enum DueDate {
-    EndOfPeriod = 0,
-    BegOfPeriod = 1
-}
+export type DueDate = number & { readonly __tsonic_type_Microsoft_VisualBasic_DueDate: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DueDate: {
+    readonly EndOfPeriod: DueDate;
+    readonly BegOfPeriod: DueDate;
+};
 
 
-export enum FileAttribute {
-    Normal = 0,
-    ReadOnly = 1,
-    Hidden = 2,
-    System = 4,
-    Volume = 8,
-    Directory = 16,
-    Archive = 32
-}
+export type FileAttribute = number & { readonly __tsonic_type_Microsoft_VisualBasic_FileAttribute: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FileAttribute: {
+    readonly Normal: FileAttribute;
+    readonly ReadOnly: FileAttribute;
+    readonly Hidden: FileAttribute;
+    readonly System: FileAttribute;
+    readonly Volume: FileAttribute;
+    readonly Directory: FileAttribute;
+    readonly Archive: FileAttribute;
+};
 
 
-export enum FirstDayOfWeek {
-    System = 0,
-    Sunday = 1,
-    Monday = 2,
-    Tuesday = 3,
-    Wednesday = 4,
-    Thursday = 5,
-    Friday = 6,
-    Saturday = 7
-}
+export type FirstDayOfWeek = number & { readonly __tsonic_type_Microsoft_VisualBasic_FirstDayOfWeek: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FirstDayOfWeek: {
+    readonly System: FirstDayOfWeek;
+    readonly Sunday: FirstDayOfWeek;
+    readonly Monday: FirstDayOfWeek;
+    readonly Tuesday: FirstDayOfWeek;
+    readonly Wednesday: FirstDayOfWeek;
+    readonly Thursday: FirstDayOfWeek;
+    readonly Friday: FirstDayOfWeek;
+    readonly Saturday: FirstDayOfWeek;
+};
 
 
-export enum FirstWeekOfYear {
-    System = 0,
-    Jan1 = 1,
-    FirstFourDays = 2,
-    FirstFullWeek = 3
-}
+export type FirstWeekOfYear = number & { readonly __tsonic_type_Microsoft_VisualBasic_FirstWeekOfYear: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FirstWeekOfYear: {
+    readonly System: FirstWeekOfYear;
+    readonly Jan1: FirstWeekOfYear;
+    readonly FirstFourDays: FirstWeekOfYear;
+    readonly FirstFullWeek: FirstWeekOfYear;
+};
 
 
-export enum MsgBoxResult {
-    Ok = 1,
-    Cancel = 2,
-    Abort = 3,
-    Retry = 4,
-    Ignore = 5,
-    Yes = 6,
-    No = 7
-}
+export type MsgBoxResult = number & { readonly __tsonic_type_Microsoft_VisualBasic_MsgBoxResult: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MsgBoxResult: {
+    readonly Ok: MsgBoxResult;
+    readonly Cancel: MsgBoxResult;
+    readonly Abort: MsgBoxResult;
+    readonly Retry: MsgBoxResult;
+    readonly Ignore: MsgBoxResult;
+    readonly Yes: MsgBoxResult;
+    readonly No: MsgBoxResult;
+};
 
 
-export enum MsgBoxStyle {
-    OkOnly = 0,
-    OkCancel = 1,
-    AbortRetryIgnore = 2,
-    YesNoCancel = 3,
-    YesNo = 4,
-    RetryCancel = 5,
-    Critical = 16,
-    Question = 32,
-    Exclamation = 48,
-    Information = 64,
-    DefaultButton1 = 0,
-    DefaultButton2 = 256,
-    DefaultButton3 = 512,
-    ApplicationModal = 0,
-    SystemModal = 4096,
-    MsgBoxHelp = 16384,
-    MsgBoxRight = 524288,
-    MsgBoxRtlReading = 1048576,
-    MsgBoxSetForeground = 65536
-}
+export type MsgBoxStyle = number & { readonly __tsonic_type_Microsoft_VisualBasic_MsgBoxStyle: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MsgBoxStyle: {
+    readonly OkOnly: MsgBoxStyle;
+    readonly OkCancel: MsgBoxStyle;
+    readonly AbortRetryIgnore: MsgBoxStyle;
+    readonly YesNoCancel: MsgBoxStyle;
+    readonly YesNo: MsgBoxStyle;
+    readonly RetryCancel: MsgBoxStyle;
+    readonly Critical: MsgBoxStyle;
+    readonly Question: MsgBoxStyle;
+    readonly Exclamation: MsgBoxStyle;
+    readonly Information: MsgBoxStyle;
+    readonly DefaultButton1: MsgBoxStyle;
+    readonly DefaultButton2: MsgBoxStyle;
+    readonly DefaultButton3: MsgBoxStyle;
+    readonly ApplicationModal: MsgBoxStyle;
+    readonly SystemModal: MsgBoxStyle;
+    readonly MsgBoxHelp: MsgBoxStyle;
+    readonly MsgBoxRight: MsgBoxStyle;
+    readonly MsgBoxRtlReading: MsgBoxStyle;
+    readonly MsgBoxSetForeground: MsgBoxStyle;
+};
 
 
-export enum OpenAccess {
-    Default = -1,
-    Read = 1,
-    ReadWrite = 3,
-    Write = 2
-}
+export type OpenAccess = number & { readonly __tsonic_type_Microsoft_VisualBasic_OpenAccess: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const OpenAccess: {
+    readonly Default: OpenAccess;
+    readonly Read: OpenAccess;
+    readonly ReadWrite: OpenAccess;
+    readonly Write: OpenAccess;
+};
 
 
-export enum OpenMode {
-    Input = 1,
-    Output = 2,
-    Random = 4,
-    Append = 8,
-    Binary = 32
-}
+export type OpenMode = number & { readonly __tsonic_type_Microsoft_VisualBasic_OpenMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const OpenMode: {
+    readonly Input: OpenMode;
+    readonly Output: OpenMode;
+    readonly Random: OpenMode;
+    readonly Append: OpenMode;
+    readonly Binary: OpenMode;
+};
 
 
-export enum OpenShare {
-    Default = -1,
-    Shared = 3,
-    LockRead = 2,
-    LockReadWrite = 0,
-    LockWrite = 1
-}
+export type OpenShare = number & { readonly __tsonic_type_Microsoft_VisualBasic_OpenShare: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const OpenShare: {
+    readonly Default: OpenShare;
+    readonly Shared: OpenShare;
+    readonly LockRead: OpenShare;
+    readonly LockReadWrite: OpenShare;
+    readonly LockWrite: OpenShare;
+};
 
 
-export enum TriState {
-    False = 0,
-    True = -1,
-    UseDefault = -2
-}
+export type TriState = number & { readonly __tsonic_type_Microsoft_VisualBasic_TriState: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TriState: {
+    readonly False: TriState;
+    readonly True: TriState;
+    readonly UseDefault: TriState;
+};
 
 
-export enum VariantType {
-    Empty = 0,
-    Null = 1,
-    Short = 2,
-    Integer = 3,
-    Single = 4,
-    Double = 5,
-    Currency = 6,
-    Date = 7,
-    String = 8,
-    Object = 9,
-    Error = 10,
-    Boolean = 11,
-    Variant = 12,
-    DataObject = 13,
-    Decimal = 14,
-    Byte = 17,
-    Char = 18,
-    Long = 20,
-    UserDefinedType = 36,
-    Array = 8192
-}
+export type VariantType = number & { readonly __tsonic_type_Microsoft_VisualBasic_VariantType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const VariantType: {
+    readonly Empty: VariantType;
+    readonly Null: VariantType;
+    readonly Short: VariantType;
+    readonly Integer: VariantType;
+    readonly Single: VariantType;
+    readonly Double: VariantType;
+    readonly Currency: VariantType;
+    readonly Date: VariantType;
+    readonly String: VariantType;
+    readonly Object: VariantType;
+    readonly Error: VariantType;
+    readonly Boolean: VariantType;
+    readonly Variant: VariantType;
+    readonly DataObject: VariantType;
+    readonly Decimal: VariantType;
+    readonly Byte: VariantType;
+    readonly Char: VariantType;
+    readonly Long: VariantType;
+    readonly UserDefinedType: VariantType;
+    readonly Array: VariantType;
+};
 
 
-export enum VbStrConv {
-    None = 0,
-    Uppercase = 1,
-    Lowercase = 2,
-    ProperCase = 3,
-    Wide = 4,
-    Narrow = 8,
-    Katakana = 16,
-    Hiragana = 32,
-    SimplifiedChinese = 256,
-    TraditionalChinese = 512,
-    LinguisticCasing = 1024
-}
+export type VbStrConv = number & { readonly __tsonic_type_Microsoft_VisualBasic_VbStrConv: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const VbStrConv: {
+    readonly None: VbStrConv;
+    readonly Uppercase: VbStrConv;
+    readonly Lowercase: VbStrConv;
+    readonly ProperCase: VbStrConv;
+    readonly Wide: VbStrConv;
+    readonly Narrow: VbStrConv;
+    readonly Katakana: VbStrConv;
+    readonly Hiragana: VbStrConv;
+    readonly SimplifiedChinese: VbStrConv;
+    readonly TraditionalChinese: VbStrConv;
+    readonly LinguisticCasing: VbStrConv;
+};
 
 
 export interface SpcInfo$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_SpcInfo: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     Count: short;
 }
@@ -218,6 +253,7 @@ export type SpcInfo = SpcInfo$instance;
 
 export interface TabInfo$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_TabInfo: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     Column: short;
 }
@@ -242,11 +278,11 @@ export interface Collection$instance {
     Clear(): void;
     Contains(Key: string): boolean;
     get_Item(Index: int): unknown;
-    get_Item(Key: string): unknown;
     get_Item(Index: unknown): unknown;
+    get_Item(Key: string): unknown;
     GetEnumerator(): IEnumerator;
-    Remove(Key: string): void;
     Remove(Index: int): void;
+    Remove(Key: string): void;
 }
 
 
@@ -264,8 +300,9 @@ export interface __Collection$views {
 export type Collection = Collection$instance & __Collection$views;
 
 
-export interface ComClassAttribute$instance extends Attribute {
+export interface ComClassAttribute$instance extends System_Internal.Attribute$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_ComClassAttribute: never;
+    readonly __tsonic_type_System_Attribute: never;
 
     readonly ClassID: string;
     readonly EventID: string;
@@ -652,8 +689,9 @@ export const Financial: {
 
 export type Financial = Financial$instance;
 
-export interface HideModuleNameAttribute$instance extends Attribute {
+export interface HideModuleNameAttribute$instance extends System_Internal.Attribute$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_HideModuleNameAttribute: never;
+    readonly __tsonic_type_System_Attribute: never;
 
 }
 
@@ -726,8 +764,9 @@ export const Interaction: {
 
 export type Interaction = Interaction$instance;
 
-export interface MyGroupCollectionAttribute$instance extends Attribute {
+export interface MyGroupCollectionAttribute$instance extends System_Internal.Attribute$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_MyGroupCollectionAttribute: never;
+    readonly __tsonic_type_System_Attribute: never;
 
     readonly CreateMethod: string;
     readonly DefaultInstanceAlias: string;
@@ -812,8 +851,9 @@ export const Strings: {
 
 export type Strings = Strings$instance;
 
-export interface VBFixedArrayAttribute$instance extends Attribute {
+export interface VBFixedArrayAttribute$instance extends System_Internal.Attribute$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_VBFixedArrayAttribute: never;
+    readonly __tsonic_type_System_Attribute: never;
 
     readonly Bounds: int[];
     readonly Length: int;
@@ -828,8 +868,9 @@ export const VBFixedArrayAttribute: {
 
 export type VBFixedArrayAttribute = VBFixedArrayAttribute$instance;
 
-export interface VBFixedStringAttribute$instance extends Attribute {
+export interface VBFixedStringAttribute$instance extends System_Internal.Attribute$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_VBFixedStringAttribute: never;
+    readonly __tsonic_type_System_Attribute: never;
 
     readonly Length: int;
 }

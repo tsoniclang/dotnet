@@ -18,6 +18,7 @@ import type { Attribute, Boolean as ClrBoolean, Byte, Char, Enum, Exception, Gui
 // Public API exports (curated - no internal $instance/$views leakage)
 export { AnsiStringMarshaller$instance as AnsiStringMarshaller } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { AnsiStringMarshaller_ManagedToUnmanagedIn as AnsiStringMarshaller_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
+export { ArrayMarshaller_2_ManagedToUnmanagedIn as ArrayMarshaller_2_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { BStrStringMarshaller$instance as BStrStringMarshaller } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { BStrStringMarshaller_ManagedToUnmanagedIn as BStrStringMarshaller_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { ComVariant as ComVariant } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
@@ -27,6 +28,13 @@ export { CustomMarshallerAttribute_GenericPlaceholder as CustomMarshallerAttribu
 export { MarshalMode as MarshalMode } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { MarshalUsingAttribute as MarshalUsingAttribute } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { NativeMarshallingAttribute as NativeMarshallingAttribute } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
+export { PointerArrayMarshaller_2_ManagedToUnmanagedIn as PointerArrayMarshaller_2_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
+export { ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn as ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
+export { ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut as ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
+export { SafeHandleMarshaller_1_ManagedToUnmanagedIn as SafeHandleMarshaller_1_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
+export { SafeHandleMarshaller_1_ManagedToUnmanagedRef as SafeHandleMarshaller_1_ManagedToUnmanagedRef } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
+export { SafeHandleMarshaller_1_ManagedToUnmanagedOut as SafeHandleMarshaller_1_ManagedToUnmanagedOut } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
+export { SpanMarshaller_2_ManagedToUnmanagedIn as SpanMarshaller_2_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { Utf16StringMarshaller$instance as Utf16StringMarshaller } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { Utf8StringMarshaller$instance as Utf8StringMarshaller } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { Utf8StringMarshaller_ManagedToUnmanagedIn as Utf8StringMarshaller_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';

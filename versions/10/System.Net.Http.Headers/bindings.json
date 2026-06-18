@@ -1731,17 +1731,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Net.Http:System.Net.Http.Headers.ContentDispositionHeaderValue::.ctor(System.Net.Http.Headers.ContentDispositionHeaderValue):void",
-            "metadataToken": 100665796,
-            "canonicalSignature": "(System.Net.Http.Headers.ContentDispositionHeaderValue):void",
-            "normalizedSignature": "constructor|(System.Net.Http.Headers.ContentDispositionHeaderValue):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Http.Headers.ContentDispositionHeaderValue",
-            "ownerIdentity": "System.Net.Http"
-          },
-          {
             "stableId": "System.Net.Http:System.Net.Http.Headers.ContentDispositionHeaderValue::.ctor(System.String):void",
             "metadataToken": 100665797,
             "canonicalSignature": "(System.String):void",
@@ -2214,12 +2203,12 @@
             "targetName": "Tag",
             "metadataToken": 385876467,
             "canonicalSignature": ":System.String",
-            "normalizedSignature": "Tag|:System.String|static=false|accessor=getset",
+            "normalizedSignature": "Tag|:System.String|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -2233,12 +2222,12 @@
             "targetName": "IsWeak",
             "metadataToken": 385876468,
             "canonicalSignature": ":System.Boolean",
-            "normalizedSignature": "IsWeak|:System.Boolean|static=false|accessor=getset",
+            "normalizedSignature": "IsWeak|:System.Boolean|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -2902,19 +2891,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::.ctor():void",
-            "metadataToken": 100665976,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Http.Headers.HttpHeaders",
-            "ownerIdentity": "System.Net.Http"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaderValueCollection`1",
@@ -4703,17 +4680,6 @@
         "events": [],
         "constructors": [
           {
-            "stableId": "System.Net.Http:System.Net.Http.Headers.MediaTypeHeaderValue::.ctor(System.Net.Http.Headers.MediaTypeHeaderValue):void",
-            "metadataToken": 100666244,
-            "canonicalSignature": "(System.Net.Http.Headers.MediaTypeHeaderValue):void",
-            "normalizedSignature": "constructor|(System.Net.Http.Headers.MediaTypeHeaderValue):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Http.Headers.MediaTypeHeaderValue",
-            "ownerIdentity": "System.Net.Http"
-          },
-          {
             "stableId": "System.Net.Http:System.Net.Http.Headers.MediaTypeHeaderValue::.ctor(System.String):void",
             "metadataToken": 100666245,
             "canonicalSignature": "(System.String):void",
@@ -5089,17 +5055,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Net.Http.Headers.NameValueHeaderValue",
             "ownerIdentity": "System.Net.Http"
-          },
-          {
-            "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueHeaderValue::.ctor(System.Net.Http.Headers.NameValueHeaderValue):void",
-            "metadataToken": 100666271,
-            "canonicalSignature": "(System.Net.Http.Headers.NameValueHeaderValue):void",
-            "normalizedSignature": "constructor|(System.Net.Http.Headers.NameValueHeaderValue):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "ProtectedInternal",
-            "ownerQualifiedName": "System.Net.Http.Headers.NameValueHeaderValue",
-            "ownerIdentity": "System.Net.Http"
           }
         ]
       },
@@ -5296,17 +5251,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
-            "ownerIdentity": "System.Net.Http"
-          },
-          {
-            "stableId": "System.Net.Http:System.Net.Http.Headers.NameValueWithParametersHeaderValue::.ctor(System.Net.Http.Headers.NameValueWithParametersHeaderValue):void",
-            "metadataToken": 100666295,
-            "canonicalSignature": "(System.Net.Http.Headers.NameValueWithParametersHeaderValue):void",
-            "normalizedSignature": "constructor|(System.Net.Http.Headers.NameValueWithParametersHeaderValue):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Net.Http.Headers.NameValueWithParametersHeaderValue",
             "ownerIdentity": "System.Net.Http"
           }
@@ -6989,17 +6933,6 @@
         "fields": [],
         "events": [],
         "constructors": [
-          {
-            "stableId": "System.Net.Http:System.Net.Http.Headers.TransferCodingHeaderValue::.ctor(System.Net.Http.Headers.TransferCodingHeaderValue):void",
-            "metadataToken": 100666430,
-            "canonicalSignature": "(System.Net.Http.Headers.TransferCodingHeaderValue):void",
-            "normalizedSignature": "constructor|(System.Net.Http.Headers.TransferCodingHeaderValue):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Http.Headers.TransferCodingHeaderValue",
-            "ownerIdentity": "System.Net.Http"
-          },
           {
             "stableId": "System.Net.Http:System.Net.Http.Headers.TransferCodingHeaderValue::.ctor(System.String):void",
             "metadataToken": 100666431,

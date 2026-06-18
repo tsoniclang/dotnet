@@ -13,8 +13,9 @@ import type { IDeserializationCallback, ISerializable, SerializationInfo, Stream
 import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Boolean as ClrBoolean, Byte, ICloneable, Int32, Object as ClrObject, Single, String as ClrString, Type, ValueType, Void } from "../../System/internal/index.js";
 
-export interface ICollection$instance extends IEnumerable {
+export interface ICollection$instance {
     readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     readonly Count: int;
     readonly SyncRoot: unknown;
@@ -35,8 +36,10 @@ export interface IComparer$instance {
 
 export type IComparer = IComparer$instance;
 
-export interface IDictionary$instance extends ICollection, IEnumerable {
+export interface IDictionary$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IDictionary: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
 
     get Item(): unknown | null;
     set Item(value: unknown | null);
@@ -59,8 +62,9 @@ export interface IDictionary$instance extends ICollection, IEnumerable {
 
 export type IDictionary = IDictionary$instance;
 
-export interface IDictionaryEnumerator$instance extends IEnumerator {
+export interface IDictionaryEnumerator$instance {
     readonly __tsonic_iface_System_Collections_IDictionaryEnumerator: never;
+    readonly __tsonic_iface_System_Collections_IEnumerator: never;
 
     readonly Key: unknown;
     readonly Value: unknown | null;
@@ -112,7 +116,9 @@ export interface IHashCodeProvider$instance {
 
 export type IHashCodeProvider = IHashCodeProvider$instance;
 
-export interface IList$instance extends ICollection, IEnumerable {
+export interface IList$instance {
+    readonly __tsonic_iface_System_Collections_ICollection: never;
+    readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Collections_IList: never;
 
     readonly IsReadOnly: boolean;
@@ -154,6 +160,7 @@ export type IStructuralEquatable = IStructuralEquatable$instance;
 
 export interface DictionaryEntry$instance {
     readonly __tsonic_type_System_Collections_DictionaryEntry: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     Key: unknown;
     get Value(): unknown | null;
@@ -170,7 +177,7 @@ export const DictionaryEntry: {
 
 export type DictionaryEntry = DictionaryEntry$instance;
 
-export interface ArrayList$instance extends System_Internal.ICloneable$instance {
+export interface ArrayList$instance {
     readonly __tsonic_type_System_Collections_ArrayList: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -246,7 +253,7 @@ export interface __ArrayList$views {
 export type ArrayList = ArrayList$instance & __ArrayList$views & { [index: number]: unknown; };
 
 
-export interface BitArray$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface BitArray$instance {
     readonly __tsonic_type_System_Collections_BitArray: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -325,8 +332,8 @@ export interface CaseInsensitiveHashCodeProvider$instance {
 
     readonly __tsonic_iface_System_Collections_IHashCodeProvider: never;
 
-    GetHashCode(obj: unknown): int;
     GetHashCode(): int;
+    GetHashCode(obj: unknown): int;
 }
 
 
@@ -369,7 +376,7 @@ export interface CollectionBase$instance {
 }
 
 
-export const CollectionBase: (abstract new() => CollectionBase) & (abstract new(capacity: int) => CollectionBase) & {
+export const CollectionBase: {
 };
 
 
@@ -382,7 +389,7 @@ export interface __CollectionBase$views {
 export type CollectionBase = CollectionBase$instance & __CollectionBase$views;
 
 
-export interface Comparer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface Comparer$instance {
     readonly __tsonic_type_System_Collections_Comparer: never;
 
     readonly __tsonic_iface_System_Collections_IComparer: never;
@@ -432,7 +439,7 @@ export interface DictionaryBase$instance {
 }
 
 
-export const DictionaryBase: (abstract new() => DictionaryBase) & {
+export const DictionaryBase: {
 };
 
 
@@ -445,7 +452,7 @@ export interface __DictionaryBase$views {
 export type DictionaryBase = DictionaryBase$instance & __DictionaryBase$views;
 
 
-export interface Hashtable$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface Hashtable$instance {
     readonly __tsonic_type_System_Collections_Hashtable: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -551,7 +558,7 @@ export interface __ListDictionaryInternal$views {
 export type ListDictionaryInternal = ListDictionaryInternal$instance & __ListDictionaryInternal$views;
 
 
-export interface Queue$instance extends System_Internal.ICloneable$instance {
+export interface Queue$instance {
     readonly __tsonic_type_System_Collections_Queue: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -603,7 +610,7 @@ export interface ReadOnlyCollectionBase$instance {
 }
 
 
-export const ReadOnlyCollectionBase: (abstract new() => ReadOnlyCollectionBase) & {
+export const ReadOnlyCollectionBase: {
 };
 
 
@@ -615,7 +622,7 @@ export interface __ReadOnlyCollectionBase$views {
 export type ReadOnlyCollectionBase = ReadOnlyCollectionBase$instance & __ReadOnlyCollectionBase$views;
 
 
-export interface SortedList$instance extends System_Internal.ICloneable$instance {
+export interface SortedList$instance {
     readonly __tsonic_type_System_Collections_SortedList: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -675,7 +682,7 @@ export interface __SortedList$views {
 export type SortedList = SortedList$instance & __SortedList$views;
 
 
-export interface Stack$instance extends System_Internal.ICloneable$instance {
+export interface Stack$instance {
     readonly __tsonic_type_System_Collections_Stack: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;

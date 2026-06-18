@@ -28,7 +28,8 @@ export const ExceptionDispatchInfo: {
 
 export type ExceptionDispatchInfo = ExceptionDispatchInfo$instance;
 
-export interface FirstChanceExceptionEventArgs$instance extends EventArgs {
+export interface FirstChanceExceptionEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Runtime_ExceptionServices_FirstChanceExceptionEventArgs: never;
 
     readonly Exception: Exception;
@@ -42,7 +43,8 @@ export const FirstChanceExceptionEventArgs: {
 
 export type FirstChanceExceptionEventArgs = FirstChanceExceptionEventArgs$instance;
 
-export interface HandleProcessCorruptedStateExceptionsAttribute$instance extends Attribute {
+export interface HandleProcessCorruptedStateExceptionsAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_ExceptionServices_HandleProcessCorruptedStateExceptionsAttribute: never;
 
 }

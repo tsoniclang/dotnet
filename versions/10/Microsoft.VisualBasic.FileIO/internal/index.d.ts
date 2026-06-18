@@ -17,40 +17,52 @@ import type { Encoding } from "../../System.Text/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum DeleteDirectoryOption {
-    ThrowIfDirectoryNonEmpty = 4,
-    DeleteAllContents = 5
-}
+export type DeleteDirectoryOption = number & { readonly __tsonic_type_Microsoft_VisualBasic_FileIO_DeleteDirectoryOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DeleteDirectoryOption: {
+    readonly ThrowIfDirectoryNonEmpty: DeleteDirectoryOption;
+    readonly DeleteAllContents: DeleteDirectoryOption;
+};
 
 
-export enum FieldType {
-    Delimited = 0,
-    FixedWidth = 1
-}
+export type FieldType = number & { readonly __tsonic_type_Microsoft_VisualBasic_FileIO_FieldType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FieldType: {
+    readonly Delimited: FieldType;
+    readonly FixedWidth: FieldType;
+};
 
 
-export enum RecycleOption {
-    DeletePermanently = 2,
-    SendToRecycleBin = 3
-}
+export type RecycleOption = number & { readonly __tsonic_type_Microsoft_VisualBasic_FileIO_RecycleOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RecycleOption: {
+    readonly DeletePermanently: RecycleOption;
+    readonly SendToRecycleBin: RecycleOption;
+};
 
 
-export enum SearchOption {
-    SearchTopLevelOnly = 2,
-    SearchAllSubDirectories = 3
-}
+export type SearchOption = number & { readonly __tsonic_type_Microsoft_VisualBasic_FileIO_SearchOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SearchOption: {
+    readonly SearchTopLevelOnly: SearchOption;
+    readonly SearchAllSubDirectories: SearchOption;
+};
 
 
-export enum UICancelOption {
-    DoNothing = 2,
-    ThrowException = 3
-}
+export type UICancelOption = number & { readonly __tsonic_type_Microsoft_VisualBasic_FileIO_UICancelOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const UICancelOption: {
+    readonly DoNothing: UICancelOption;
+    readonly ThrowException: UICancelOption;
+};
 
 
-export enum UIOption {
-    OnlyErrorDialogs = 2,
-    AllDialogs = 3
-}
+export type UIOption = number & { readonly __tsonic_type_Microsoft_VisualBasic_FileIO_UIOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const UIOption: {
+    readonly OnlyErrorDialogs: UIOption;
+    readonly AllDialogs: UIOption;
+};
 
 
 export interface FileSystem$instance {
@@ -121,14 +133,15 @@ export const FileSystem: {
 
 export type FileSystem = FileSystem$instance;
 
-export interface MalformedLineException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface MalformedLineException$instance extends System_Internal.Exception$instance {
     readonly __tsonic_type_Microsoft_VisualBasic_FileIO_MalformedLineException: never;
+    readonly __tsonic_type_System_Exception: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     LineNumber: long;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    ToString(): string;
+    GetObjectData: System_Internal.Exception$instance["GetObjectData"] & ((info: SerializationInfo, context: StreamingContext) => void);
+    ToString: System_Internal.Exception$instance["ToString"] & (() => string);
 }
 
 

@@ -90,11 +90,11 @@ interface __TsonicExtMethods_System {
   AsSpan(this: string | null, range: System.Range): Rewrap<this, System.ReadOnlySpan_1<System_Internal.Char>>;
   AsSpan(this: string | null, start: int, length: int): Rewrap<this, System.ReadOnlySpan_1<System_Internal.Char>>;
   BinarySearch<T extends unknown>(this: System.ReadOnlySpan_1<T>, comparable: System.IComparable_1<T>): Rewrap<this, int>;
-  BinarySearch<T extends unknown, TComparable extends unknown & System.IComparable_1<T>>(this: System.ReadOnlySpan_1<T>, comparable: TComparable): Rewrap<this, int>;
-  BinarySearch<T extends unknown, TComparer extends unknown & System_Collections_Generic.IComparer_1<T>>(this: System.ReadOnlySpan_1<T>, value: T, comparer: TComparer): Rewrap<this, int>;
+  BinarySearch<T extends unknown, TComparable extends unknown & { readonly __tsonic_iface_System_IComparable_1: never }>(this: System.ReadOnlySpan_1<T>, comparable: TComparable): Rewrap<this, int>;
+  BinarySearch<T extends unknown, TComparer extends unknown & { readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never }>(this: System.ReadOnlySpan_1<T>, value: T, comparer: TComparer): Rewrap<this, int>;
   BinarySearch<T extends unknown>(this: System.Span_1<T>, comparable: System.IComparable_1<T>): Rewrap<this, int>;
-  BinarySearch<T extends unknown, TComparable extends unknown & System.IComparable_1<T>>(this: System.Span_1<T>, comparable: TComparable): Rewrap<this, int>;
-  BinarySearch<T extends unknown, TComparer extends unknown & System_Collections_Generic.IComparer_1<T>>(this: System.Span_1<T>, value: T, comparer: TComparer): Rewrap<this, int>;
+  BinarySearch<T extends unknown, TComparable extends unknown & { readonly __tsonic_iface_System_IComparable_1: never }>(this: System.Span_1<T>, comparable: TComparable): Rewrap<this, int>;
+  BinarySearch<T extends unknown, TComparer extends unknown & { readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never }>(this: System.Span_1<T>, value: T, comparer: TComparer): Rewrap<this, int>;
   CommonPrefixLength<T extends unknown>(this: System.ReadOnlySpan_1<T>, other: System.ReadOnlySpan_1<T>): Rewrap<this, int>;
   CommonPrefixLength<T extends unknown>(this: System.ReadOnlySpan_1<T>, other: System.ReadOnlySpan_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T> | null): Rewrap<this, int>;
   CommonPrefixLength<T extends unknown>(this: System.Span_1<T>, other: System.ReadOnlySpan_1<T>): Rewrap<this, int>;
@@ -278,10 +278,10 @@ interface __TsonicExtMethods_System {
   SequenceEqual<T extends unknown & (System.IEquatable_1<T> | number | string | boolean)>(this: System.Span_1<T>, other: System.ReadOnlySpan_1<T>): Rewrap<this, boolean>;
   SequenceEqual<T extends unknown>(this: System.Span_1<T>, other: System.ReadOnlySpan_1<T>, comparer?: System_Collections_Generic.IEqualityComparer_1<T> | null): Rewrap<this, boolean>;
   Sort<T extends unknown>(this: System.Span_1<T>): Rewrap<this, void>;
-  Sort<T extends unknown, TComparer extends unknown & System_Collections_Generic.IComparer_1<T>>(this: System.Span_1<T>, comparer: TComparer): Rewrap<this, void>;
+  Sort<T extends unknown, TComparer extends unknown & { readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never }>(this: System.Span_1<T>, comparer: TComparer): Rewrap<this, void>;
   Sort<T extends unknown>(this: System.Span_1<T>, comparison: System.Comparison_1<T>): Rewrap<this, void>;
   Sort<TKey extends unknown, TValue extends unknown>(this: System.Span_1<TKey>, items: System.Span_1<TValue>): Rewrap<this, void>;
-  Sort<TKey extends unknown, TValue extends unknown, TComparer extends unknown & System_Collections_Generic.IComparer_1<TKey>>(this: System.Span_1<TKey>, items: System.Span_1<TValue>, comparer: TComparer): Rewrap<this, void>;
+  Sort<TKey extends unknown, TValue extends unknown, TComparer extends unknown & { readonly __tsonic_iface_System_Collections_Generic_IComparer_1: never }>(this: System.Span_1<TKey>, items: System.Span_1<TValue>, comparer: TComparer): Rewrap<this, void>;
   Sort<TKey extends unknown, TValue extends unknown>(this: System.Span_1<TKey>, items: System.Span_1<TValue>, comparison: System.Comparison_1<TKey>): Rewrap<this, void>;
   Split<T extends unknown & (System.IEquatable_1<T> | number | string | boolean)>(this: System.ReadOnlySpan_1<T>, separator: T): Rewrap<this, System.MemoryExtensions_SpanSplitEnumerator_1<T>>;
   Split<T extends unknown & (System.IEquatable_1<T> | number | string | boolean)>(this: System.ReadOnlySpan_1<T>, separator: System.ReadOnlySpan_1<T>): Rewrap<this, System.MemoryExtensions_SpanSplitEnumerator_1<T>>;
@@ -507,15 +507,15 @@ export type ExtensionMethods_System_Collections_Immutable<TShape> =
 
 // Extension method table for namespace: System.Data
 interface __TsonicExtMethods_System_Data {
-  AsDataView<T extends unknown & System_Data.DataRow>(this: System_Data.EnumerableRowCollection_1<T>): Rewrap<this, System_Data.DataView>;
+  AsDataView<T extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }>(this: System_Data.EnumerableRowCollection_1<T>): Rewrap<this, System_Data.DataView>;
   AsDataView(this: System_Data.DataTable): Rewrap<this, System_Data.DataView>;
-  AsEnumerable<TRow extends unknown & System_Data.DataRow>(this: System_Data.TypedTableBase_1<TRow>): Rewrap<this, System_Data.EnumerableRowCollection_1<TRow>>;
+  AsEnumerable<TRow extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }>(this: System_Data.TypedTableBase_1<TRow>): Rewrap<this, System_Data.EnumerableRowCollection_1<TRow>>;
   AsEnumerable(this: System_Data.DataTable): Rewrap<this, System_Data.EnumerableRowCollection_1<System_Data.DataRow>>;
   Cast<TResult extends unknown>(this: System_Data.EnumerableRowCollection): Rewrap<this, System_Data.EnumerableRowCollection_1<TResult>>;
-  CopyToDataTable<T extends unknown & System_Data.DataRow>(this: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Data.DataTable>;
-  CopyToDataTable<T extends unknown & System_Data.DataRow>(this: System_Collections_Generic.IEnumerable_1<T>, table: System_Data.DataTable, options: System_Data.LoadOption): Rewrap<this, void>;
-  CopyToDataTable<T extends unknown & System_Data.DataRow>(this: System_Collections_Generic.IEnumerable_1<T>, table: System_Data.DataTable, options: System_Data.LoadOption, errorHandler: System_Data.FillErrorEventHandler | null): Rewrap<this, void>;
-  ElementAtOrDefault<TRow extends unknown & System_Data.DataRow>(this: System_Data.TypedTableBase_1<TRow>, index: int): Rewrap<this, TRow | null>;
+  CopyToDataTable<T extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }>(this: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Data.DataTable>;
+  CopyToDataTable<T extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }>(this: System_Collections_Generic.IEnumerable_1<T>, table: System_Data.DataTable, options: System_Data.LoadOption): Rewrap<this, void>;
+  CopyToDataTable<T extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }>(this: System_Collections_Generic.IEnumerable_1<T>, table: System_Data.DataTable, options: System_Data.LoadOption, errorHandler: System_Data.FillErrorEventHandler | null): Rewrap<this, void>;
+  ElementAtOrDefault<TRow extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }>(this: System_Data.TypedTableBase_1<TRow>, index: int): Rewrap<this, TRow | null>;
   Field<T extends unknown>(this: System_Data.DataRow, columnName: string): Rewrap<this, T | null>;
   Field<T extends unknown>(this: System_Data.DataRow, column: System_Data.DataColumn): Rewrap<this, T | null>;
   Field<T extends unknown>(this: System_Data.DataRow, columnIndex: int): Rewrap<this, T | null>;
@@ -550,14 +550,14 @@ interface __TsonicExtMethods_System_Data {
   IsDBNullAsync(this: System_Data_Common.DbDataReader, name: string, cancellationToken?: System_Threading.CancellationToken): Rewrap<this, System_Threading_Tasks.Task_1<System_Internal.Boolean>>;
   OrderBy<TRow extends unknown, TKey extends unknown>(this: System_Data.EnumerableRowCollection_1<TRow>, keySelector: System.Func_2<TRow, TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
   OrderBy<TRow extends unknown, TKey extends unknown>(this: System_Data.EnumerableRowCollection_1<TRow>, keySelector: System.Func_2<TRow, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
-  OrderBy<TRow extends unknown & System_Data.DataRow, TKey extends unknown>(this: System_Data.TypedTableBase_1<TRow>, keySelector: System.Func_2<TRow, TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
-  OrderBy<TRow extends unknown & System_Data.DataRow, TKey extends unknown>(this: System_Data.TypedTableBase_1<TRow>, keySelector: System.Func_2<TRow, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
+  OrderBy<TRow extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }, TKey extends unknown>(this: System_Data.TypedTableBase_1<TRow>, keySelector: System.Func_2<TRow, TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
+  OrderBy<TRow extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }, TKey extends unknown>(this: System_Data.TypedTableBase_1<TRow>, keySelector: System.Func_2<TRow, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
   OrderByDescending<TRow extends unknown, TKey extends unknown>(this: System_Data.EnumerableRowCollection_1<TRow>, keySelector: System.Func_2<TRow, TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
   OrderByDescending<TRow extends unknown, TKey extends unknown>(this: System_Data.EnumerableRowCollection_1<TRow>, keySelector: System.Func_2<TRow, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
-  OrderByDescending<TRow extends unknown & System_Data.DataRow, TKey extends unknown>(this: System_Data.TypedTableBase_1<TRow>, keySelector: System.Func_2<TRow, TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
-  OrderByDescending<TRow extends unknown & System_Data.DataRow, TKey extends unknown>(this: System_Data.TypedTableBase_1<TRow>, keySelector: System.Func_2<TRow, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
+  OrderByDescending<TRow extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }, TKey extends unknown>(this: System_Data.TypedTableBase_1<TRow>, keySelector: System.Func_2<TRow, TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
+  OrderByDescending<TRow extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }, TKey extends unknown>(this: System_Data.TypedTableBase_1<TRow>, keySelector: System.Func_2<TRow, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
   Select<TRow extends unknown, S extends unknown>(this: System_Data.EnumerableRowCollection_1<TRow>, selector: System.Func_2<TRow, S>): Rewrap<this, System_Data.EnumerableRowCollection_1<S>>;
-  Select<TRow extends unknown & System_Data.DataRow, S extends unknown>(this: System_Data.TypedTableBase_1<TRow>, selector: System.Func_2<TRow, S>): Rewrap<this, System_Data.EnumerableRowCollection_1<S>>;
+  Select<TRow extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }, S extends unknown>(this: System_Data.TypedTableBase_1<TRow>, selector: System.Func_2<TRow, S>): Rewrap<this, System_Data.EnumerableRowCollection_1<S>>;
   SetField<T extends unknown>(this: System_Data.DataRow, columnIndex: int, value: T | null): Rewrap<this, void>;
   SetField<T extends unknown>(this: System_Data.DataRow, columnName: string, value: T | null): Rewrap<this, void>;
   SetField<T extends unknown>(this: System_Data.DataRow, column: System_Data.DataColumn, value: T | null): Rewrap<this, void>;
@@ -566,7 +566,7 @@ interface __TsonicExtMethods_System_Data {
   ThenByDescending<TRow extends unknown, TKey extends unknown>(this: System_Data.OrderedEnumerableRowCollection_1<TRow>, keySelector: System.Func_2<TRow, TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
   ThenByDescending<TRow extends unknown, TKey extends unknown>(this: System_Data.OrderedEnumerableRowCollection_1<TRow>, keySelector: System.Func_2<TRow, TKey>, comparer: System_Collections_Generic.IComparer_1<TKey>): Rewrap<this, System_Data.OrderedEnumerableRowCollection_1<TRow>>;
   Where<TRow extends unknown>(this: System_Data.EnumerableRowCollection_1<TRow>, predicate: System.Func_2<TRow, System_Internal.Boolean>): Rewrap<this, System_Data.EnumerableRowCollection_1<TRow>>;
-  Where<TRow extends unknown & System_Data.DataRow>(this: System_Data.TypedTableBase_1<TRow>, predicate: System.Func_2<TRow, System_Internal.Boolean>): Rewrap<this, System_Data.EnumerableRowCollection_1<TRow>>;
+  Where<TRow extends unknown & { readonly __tsonic_type_System_Data_DataRow: never }>(this: System_Data.TypedTableBase_1<TRow>, predicate: System.Func_2<TRow, System_Internal.Boolean>): Rewrap<this, System_Data.EnumerableRowCollection_1<TRow>>;
 }
 
 // Generic helper type for extension methods in namespace: System.Data
@@ -1709,35 +1709,35 @@ interface __TsonicExtMethods_System_Reflection {
   GetConstructors(this: System.Type): Rewrap<this, System_Reflection.ConstructorInfo[]>;
   GetConstructors(this: System.Type, bindingAttr: System_Reflection.BindingFlags): Rewrap<this, System_Reflection.ConstructorInfo[]>;
   GetCustomAttribute(this: System_Reflection.Assembly, attributeType: System.Type): Rewrap<this, System.Attribute | null>;
-  GetCustomAttribute<T extends unknown & System.Attribute>(this: System_Reflection.Assembly): Rewrap<this, T | null>;
+  GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.Assembly): Rewrap<this, T | null>;
   GetCustomAttribute(this: System_Reflection.Module, attributeType: System.Type): Rewrap<this, System.Attribute | null>;
-  GetCustomAttribute<T extends unknown & System.Attribute>(this: System_Reflection.Module): Rewrap<this, T | null>;
+  GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.Module): Rewrap<this, T | null>;
   GetCustomAttribute(this: System_Reflection.ParameterInfo, attributeType: System.Type): Rewrap<this, System.Attribute | null>;
-  GetCustomAttribute<T extends unknown & System.Attribute>(this: System_Reflection.ParameterInfo): Rewrap<this, T | null>;
+  GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.ParameterInfo): Rewrap<this, T | null>;
   GetCustomAttribute(this: System_Reflection.ParameterInfo, attributeType: System.Type, inherit: boolean): Rewrap<this, System.Attribute | null>;
-  GetCustomAttribute<T extends unknown & System.Attribute>(this: System_Reflection.ParameterInfo, inherit: boolean): Rewrap<this, T | null>;
+  GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.ParameterInfo, inherit: boolean): Rewrap<this, T | null>;
   GetCustomAttribute(this: System_Reflection.MemberInfo, attributeType: System.Type): Rewrap<this, System.Attribute | null>;
-  GetCustomAttribute<T extends unknown & System.Attribute>(this: System_Reflection.MemberInfo): Rewrap<this, T | null>;
+  GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.MemberInfo): Rewrap<this, T | null>;
   GetCustomAttribute(this: System_Reflection.MemberInfo, attributeType: System.Type, inherit: boolean): Rewrap<this, System.Attribute | null>;
-  GetCustomAttribute<T extends unknown & System.Attribute>(this: System_Reflection.MemberInfo, inherit: boolean): Rewrap<this, T | null>;
+  GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.MemberInfo, inherit: boolean): Rewrap<this, T | null>;
   GetCustomAttributes(this: System_Reflection.Assembly): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
   GetCustomAttributes(this: System_Reflection.Assembly, attributeType: System.Type): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
-  GetCustomAttributes<T extends unknown & System.Attribute>(this: System_Reflection.Assembly): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.Assembly): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
   GetCustomAttributes(this: System_Reflection.Module): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
   GetCustomAttributes(this: System_Reflection.Module, attributeType: System.Type): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
-  GetCustomAttributes<T extends unknown & System.Attribute>(this: System_Reflection.Module): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.Module): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
   GetCustomAttributes(this: System_Reflection.ParameterInfo): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
   GetCustomAttributes(this: System_Reflection.ParameterInfo, inherit: boolean): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
   GetCustomAttributes(this: System_Reflection.ParameterInfo, attributeType: System.Type): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
-  GetCustomAttributes<T extends unknown & System.Attribute>(this: System_Reflection.ParameterInfo): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.ParameterInfo): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
   GetCustomAttributes(this: System_Reflection.ParameterInfo, attributeType: System.Type, inherit: boolean): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
-  GetCustomAttributes<T extends unknown & System.Attribute>(this: System_Reflection.ParameterInfo, inherit: boolean): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.ParameterInfo, inherit: boolean): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
   GetCustomAttributes(this: System_Reflection.MemberInfo): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
   GetCustomAttributes(this: System_Reflection.MemberInfo, inherit: boolean): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
   GetCustomAttributes(this: System_Reflection.MemberInfo, attributeType: System.Type): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
-  GetCustomAttributes<T extends unknown & System.Attribute>(this: System_Reflection.MemberInfo): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.MemberInfo): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
   GetCustomAttributes(this: System_Reflection.MemberInfo, attributeType: System.Type, inherit: boolean): Rewrap<this, System_Collections_Generic.IEnumerable_1<System.Attribute>>;
-  GetCustomAttributes<T extends unknown & System.Attribute>(this: System_Reflection.MemberInfo, inherit: boolean): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(this: System_Reflection.MemberInfo, inherit: boolean): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
   GetDefaultMembers(this: System.Type): Rewrap<this, System_Reflection.MemberInfo[]>;
   GetEvent(this: System.Type, name: string): Rewrap<this, System_Reflection.EventInfo | null>;
   GetEvent(this: System.Type, name: string, bindingAttr: System_Reflection.BindingFlags): Rewrap<this, System_Reflection.EventInfo | null>;
@@ -2272,24 +2272,24 @@ export type ExtensionMethods_System_Threading_Tasks_Dataflow<TShape> =
 
 // Extension method table for namespace: System.Xml.Linq
 interface __TsonicExtMethods_System_Xml_Linq {
-  Ancestors<T extends unknown & System_Xml_Linq.XNode>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
-  Ancestors<T extends unknown & System_Xml_Linq.XNode>(this: System_Collections_Generic.IEnumerable_1<T | null>, name: System_Xml_Linq.XName | null): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
+  Ancestors<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
+  Ancestors<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(this: System_Collections_Generic.IEnumerable_1<T | null>, name: System_Xml_Linq.XName | null): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
   AncestorsAndSelf(this: System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
   AncestorsAndSelf(this: System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement | null>, name: System_Xml_Linq.XName | null): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
   Attributes(this: System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XAttribute>>;
   Attributes(this: System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement | null>, name: System_Xml_Linq.XName | null): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XAttribute>>;
-  DescendantNodes<T extends unknown & System_Xml_Linq.XContainer>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XNode>>;
+  DescendantNodes<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XNode>>;
   DescendantNodesAndSelf(this: System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XNode>>;
-  Descendants<T extends unknown & System_Xml_Linq.XContainer>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
-  Descendants<T extends unknown & System_Xml_Linq.XContainer>(this: System_Collections_Generic.IEnumerable_1<T | null>, name: System_Xml_Linq.XName | null): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
+  Descendants<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
+  Descendants<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(this: System_Collections_Generic.IEnumerable_1<T | null>, name: System_Xml_Linq.XName | null): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
   DescendantsAndSelf(this: System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
   DescendantsAndSelf(this: System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement | null>, name: System_Xml_Linq.XName | null): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
-  Elements<T extends unknown & System_Xml_Linq.XContainer>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
-  Elements<T extends unknown & System_Xml_Linq.XContainer>(this: System_Collections_Generic.IEnumerable_1<T | null>, name: System_Xml_Linq.XName | null): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
-  InDocumentOrder<T extends unknown & System_Xml_Linq.XNode>(this: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
-  Nodes<T extends unknown & System_Xml_Linq.XContainer>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XNode>>;
+  Elements<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
+  Elements<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(this: System_Collections_Generic.IEnumerable_1<T | null>, name: System_Xml_Linq.XName | null): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XElement>>;
+  InDocumentOrder<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(this: System_Collections_Generic.IEnumerable_1<T>): Rewrap<this, System_Collections_Generic.IEnumerable_1<T>>;
+  Nodes<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XContainer: never } & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XNode>>;
   Remove(this: System_Collections_Generic.IEnumerable_1<System_Xml_Linq.XAttribute | null>): Rewrap<this, void>;
-  Remove<T extends unknown & System_Xml_Linq.XNode>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, void>;
+  Remove<T extends unknown & { readonly __tsonic_type_System_Xml_Linq_XNode: never } & { readonly __tsonic_type_System_Xml_Linq_XObject: never }>(this: System_Collections_Generic.IEnumerable_1<T | null>): Rewrap<this, void>;
 }
 
 // Generic helper type for extension methods in namespace: System.Xml.Linq

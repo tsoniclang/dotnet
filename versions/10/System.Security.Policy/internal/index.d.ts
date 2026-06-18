@@ -24,17 +24,17 @@ export interface Evidence$instance {
     Locked: boolean;
     readonly SyncRoot: unknown;
     AddAssembly(id: unknown): void;
-    AddAssemblyEvidence<T extends unknown & EvidenceBase>(evidence: T): void;
+    AddAssemblyEvidence<T extends unknown & { readonly __tsonic_type_System_Security_Policy_EvidenceBase: never }>(evidence: T): void;
     AddHost(id: unknown): void;
-    AddHostEvidence<T extends unknown & EvidenceBase>(evidence: T): void;
+    AddHostEvidence<T extends unknown & { readonly __tsonic_type_System_Security_Policy_EvidenceBase: never }>(evidence: T): void;
     Clear(): void;
     Clone(): Evidence | null;
     CopyTo(array: ClrArray, index: int): void;
     GetAssemblyEnumerator(): IEnumerator;
-    GetAssemblyEvidence<T extends unknown & EvidenceBase>(): T | null;
+    GetAssemblyEvidence<T extends unknown & { readonly __tsonic_type_System_Security_Policy_EvidenceBase: never }>(): T | null;
     GetEnumerator(): IEnumerator;
     GetHostEnumerator(): IEnumerator;
-    GetHostEvidence<T extends unknown & EvidenceBase>(): T | null;
+    GetHostEvidence<T extends unknown & { readonly __tsonic_type_System_Security_Policy_EvidenceBase: never }>(): T | null;
     Merge(evidence: Evidence): void;
     RemoveType(t: Type): void;
 }
@@ -63,7 +63,7 @@ export interface EvidenceBase$instance {
 }
 
 
-export const EvidenceBase: (abstract new() => EvidenceBase) & {
+export const EvidenceBase: {
 };
 
 

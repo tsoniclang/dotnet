@@ -13,57 +13,71 @@ import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Ser
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTime, Delegate, Enum, EventArgs, Exception, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, ConsoleKeyInfo, DateTime, Delegate, Enum, EventArgs, Exception, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum DependentCloneOption {
-    BlockCommitUntilComplete = 0,
-    RollbackIfNotComplete = 1
-}
+export type DependentCloneOption = number & { readonly __tsonic_type_System_Transactions_DependentCloneOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum EnlistmentOptions {
-    None = 0,
-    EnlistDuringPrepareRequired = 1
-}
+export const DependentCloneOption: {
+    readonly BlockCommitUntilComplete: DependentCloneOption;
+    readonly RollbackIfNotComplete: DependentCloneOption;
+};
 
 
-export enum EnterpriseServicesInteropOption {
-    None = 0,
-    Automatic = 1,
-    Full = 2
-}
+export type EnlistmentOptions = number & { readonly __tsonic_type_System_Transactions_EnlistmentOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EnlistmentOptions: {
+    readonly None: EnlistmentOptions;
+    readonly EnlistDuringPrepareRequired: EnlistmentOptions;
+};
 
 
-export enum IsolationLevel {
-    Serializable = 0,
-    RepeatableRead = 1,
-    ReadCommitted = 2,
-    ReadUncommitted = 3,
-    Snapshot = 4,
-    Chaos = 5,
-    Unspecified = 6
-}
+export type EnterpriseServicesInteropOption = number & { readonly __tsonic_type_System_Transactions_EnterpriseServicesInteropOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EnterpriseServicesInteropOption: {
+    readonly None: EnterpriseServicesInteropOption;
+    readonly Automatic: EnterpriseServicesInteropOption;
+    readonly Full: EnterpriseServicesInteropOption;
+};
 
 
-export enum TransactionScopeAsyncFlowOption {
-    Suppress = 0,
-    Enabled = 1
-}
+export type IsolationLevel = number & { readonly __tsonic_type_System_Transactions_IsolationLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const IsolationLevel: {
+    readonly Serializable: IsolationLevel;
+    readonly RepeatableRead: IsolationLevel;
+    readonly ReadCommitted: IsolationLevel;
+    readonly ReadUncommitted: IsolationLevel;
+    readonly Snapshot: IsolationLevel;
+    readonly Chaos: IsolationLevel;
+    readonly Unspecified: IsolationLevel;
+};
 
 
-export enum TransactionScopeOption {
-    Required = 0,
-    RequiresNew = 1,
-    Suppress = 2
-}
+export type TransactionScopeAsyncFlowOption = number & { readonly __tsonic_type_System_Transactions_TransactionScopeAsyncFlowOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TransactionScopeAsyncFlowOption: {
+    readonly Suppress: TransactionScopeAsyncFlowOption;
+    readonly Enabled: TransactionScopeAsyncFlowOption;
+};
 
 
-export enum TransactionStatus {
-    Active = 0,
-    Committed = 1,
-    Aborted = 2,
-    InDoubt = 3
-}
+export type TransactionScopeOption = number & { readonly __tsonic_type_System_Transactions_TransactionScopeOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TransactionScopeOption: {
+    readonly Required: TransactionScopeOption;
+    readonly RequiresNew: TransactionScopeOption;
+    readonly Suppress: TransactionScopeOption;
+};
+
+
+export type TransactionStatus = number & { readonly __tsonic_type_System_Transactions_TransactionStatus: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TransactionStatus: {
+    readonly Active: TransactionStatus;
+    readonly Committed: TransactionStatus;
+    readonly Aborted: TransactionStatus;
+    readonly InDoubt: TransactionStatus;
+};
 
 
 export type HostCurrentTransactionCallback = () => Transaction | null;
@@ -96,8 +110,9 @@ export interface IEnlistmentNotification$instance {
 
 export type IEnlistmentNotification = IEnlistmentNotification$instance;
 
-export interface IPromotableSinglePhaseNotification$instance extends ITransactionPromoter {
+export interface IPromotableSinglePhaseNotification$instance {
     readonly __tsonic_iface_System_Transactions_IPromotableSinglePhaseNotification: never;
+    readonly __tsonic_iface_System_Transactions_ITransactionPromoter: never;
 
     Initialize(): void;
     Promote(): byte[] | null;
@@ -109,8 +124,9 @@ export interface IPromotableSinglePhaseNotification$instance extends ITransactio
 
 export type IPromotableSinglePhaseNotification = IPromotableSinglePhaseNotification$instance;
 
-export interface ISimpleTransactionSuperior$instance extends ITransactionPromoter {
+export interface ISimpleTransactionSuperior$instance {
     readonly __tsonic_iface_System_Transactions_ISimpleTransactionSuperior: never;
+    readonly __tsonic_iface_System_Transactions_ITransactionPromoter: never;
 
     Promote(): byte[] | null;
     Rollback(): void;
@@ -121,7 +137,8 @@ export interface ISimpleTransactionSuperior$instance extends ITransactionPromote
 
 export type ISimpleTransactionSuperior = ISimpleTransactionSuperior$instance;
 
-export interface ISinglePhaseNotification$instance extends IEnlistmentNotification {
+export interface ISinglePhaseNotification$instance {
+    readonly __tsonic_iface_System_Transactions_IEnlistmentNotification: never;
     readonly __tsonic_iface_System_Transactions_ISinglePhaseNotification: never;
 
     Commit(enlistment: Enlistment): void;
@@ -145,6 +162,7 @@ export type ITransactionPromoter = ITransactionPromoter$instance;
 
 export interface TransactionOptions$instance {
     readonly __tsonic_type_System_Transactions_TransactionOptions: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -171,8 +189,9 @@ export interface __TransactionOptions$views {
 export type TransactionOptions = TransactionOptions$instance & __TransactionOptions$views;
 
 
-export interface CommittableTransaction$instance extends Transaction$instance, System_Internal.IAsyncResult$instance, System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface CommittableTransaction$instance extends Transaction$instance {
     readonly __tsonic_type_System_Transactions_CommittableTransaction: never;
+    readonly __tsonic_type_System_Transactions_Transaction: never;
 
     readonly __tsonic_iface_System_IAsyncResult: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -200,8 +219,9 @@ export interface __CommittableTransaction$views {
 export type CommittableTransaction = CommittableTransaction$instance & __CommittableTransaction$views;
 
 
-export interface DependentTransaction$instance extends Transaction$instance, System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface DependentTransaction$instance extends Transaction$instance {
     readonly __tsonic_type_System_Transactions_DependentTransaction: never;
+    readonly __tsonic_type_System_Transactions_Transaction: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -235,7 +255,8 @@ export const Enlistment: {
 
 export type Enlistment = Enlistment$instance;
 
-export interface PreparingEnlistment$instance extends Enlistment {
+export interface PreparingEnlistment$instance extends Enlistment$instance {
+    readonly __tsonic_type_System_Transactions_Enlistment: never;
     readonly __tsonic_type_System_Transactions_PreparingEnlistment: never;
 
     ForceRollback(): void;
@@ -251,7 +272,8 @@ export const PreparingEnlistment: {
 
 export type PreparingEnlistment = PreparingEnlistment$instance;
 
-export interface SinglePhaseEnlistment$instance extends Enlistment {
+export interface SinglePhaseEnlistment$instance extends Enlistment$instance {
+    readonly __tsonic_type_System_Transactions_Enlistment: never;
     readonly __tsonic_type_System_Transactions_SinglePhaseEnlistment: never;
 
     Aborted(): void;
@@ -268,8 +290,9 @@ export const SinglePhaseEnlistment: {
 
 export type SinglePhaseEnlistment = SinglePhaseEnlistment$instance;
 
-export interface SubordinateTransaction$instance extends Transaction$instance, System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SubordinateTransaction$instance extends Transaction$instance {
     readonly __tsonic_type_System_Transactions_SubordinateTransaction: never;
+    readonly __tsonic_type_System_Transactions_Transaction: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -290,7 +313,7 @@ export interface __SubordinateTransaction$views {
 export type SubordinateTransaction = SubordinateTransaction$instance & __SubordinateTransaction$views;
 
 
-export interface Transaction$instance extends System_Internal.IDisposable$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface Transaction$instance {
     readonly __tsonic_type_System_Transactions_Transaction: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -332,8 +355,11 @@ export interface __Transaction$views {
 export type Transaction = Transaction$instance & __Transaction$views;
 
 
-export interface TransactionAbortedException$instance extends TransactionException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface TransactionAbortedException$instance extends TransactionException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_SystemException: never;
     readonly __tsonic_type_System_Transactions_TransactionAbortedException: never;
+    readonly __tsonic_type_System_Transactions_TransactionException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -354,7 +380,8 @@ export interface __TransactionAbortedException$views {
 export type TransactionAbortedException = TransactionAbortedException$instance & __TransactionAbortedException$views;
 
 
-export interface TransactionEventArgs$instance extends EventArgs {
+export interface TransactionEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Transactions_TransactionEventArgs: never;
 
     readonly Transaction: Transaction | null;
@@ -368,7 +395,9 @@ export const TransactionEventArgs: {
 
 export type TransactionEventArgs = TransactionEventArgs$instance;
 
-export interface TransactionException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface TransactionException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_SystemException: never;
     readonly __tsonic_type_System_Transactions_TransactionException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -390,7 +419,10 @@ export interface __TransactionException$views {
 export type TransactionException = TransactionException$instance & __TransactionException$views;
 
 
-export interface TransactionInDoubtException$instance extends TransactionException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface TransactionInDoubtException$instance extends TransactionException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_SystemException: never;
+    readonly __tsonic_type_System_Transactions_TransactionException: never;
     readonly __tsonic_type_System_Transactions_TransactionInDoubtException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -428,7 +460,10 @@ export const TransactionInformation: {
 
 export type TransactionInformation = TransactionInformation$instance;
 
-export interface TransactionManagerCommunicationException$instance extends TransactionException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface TransactionManagerCommunicationException$instance extends TransactionException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_SystemException: never;
+    readonly __tsonic_type_System_Transactions_TransactionException: never;
     readonly __tsonic_type_System_Transactions_TransactionManagerCommunicationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -450,7 +485,10 @@ export interface __TransactionManagerCommunicationException$views {
 export type TransactionManagerCommunicationException = TransactionManagerCommunicationException$instance & __TransactionManagerCommunicationException$views;
 
 
-export interface TransactionPromotionException$instance extends TransactionException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface TransactionPromotionException$instance extends TransactionException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_SystemException: never;
+    readonly __tsonic_type_System_Transactions_TransactionException: never;
     readonly __tsonic_type_System_Transactions_TransactionPromotionException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -472,7 +510,7 @@ export interface __TransactionPromotionException$views {
 export type TransactionPromotionException = TransactionPromotionException$instance & __TransactionPromotionException$views;
 
 
-export interface TransactionScope$instance extends System_Internal.IDisposable$instance {
+export interface TransactionScope$instance {
     readonly __tsonic_type_System_Transactions_TransactionScope: never;
 
     readonly __tsonic_iface_System_IDisposable: never;

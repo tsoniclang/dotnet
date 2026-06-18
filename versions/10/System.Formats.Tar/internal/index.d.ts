@@ -14,39 +14,45 @@ import type { CancellationToken } from "../../System.Threading/internal/index.js
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, IAsyncDisposable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum TarEntryFormat {
-    Unknown = 0,
-    V7 = 1,
-    Ustar = 2,
-    Pax = 3,
-    Gnu = 4
-}
+export type TarEntryFormat = number & { readonly __tsonic_type_System_Formats_Tar_TarEntryFormat: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TarEntryFormat: {
+    readonly Unknown: TarEntryFormat;
+    readonly V7: TarEntryFormat;
+    readonly Ustar: TarEntryFormat;
+    readonly Pax: TarEntryFormat;
+    readonly Gnu: TarEntryFormat;
+};
 
 
-export enum TarEntryType {
-    RegularFile = 48,
-    HardLink = 49,
-    SymbolicLink = 50,
-    CharacterDevice = 51,
-    BlockDevice = 52,
-    Directory = 53,
-    Fifo = 54,
-    ContiguousFile = 55,
-    ExtendedAttributes = 120,
-    GlobalExtendedAttributes = 103,
-    DirectoryList = 68,
-    LongLink = 75,
-    LongPath = 76,
-    MultiVolume = 77,
-    V7RegularFile = 0,
-    RenamedOrSymlinked = 78,
-    SparseFile = 83,
-    TapeVolume = 86
-}
+export type TarEntryType = number & { readonly __tsonic_type_System_Formats_Tar_TarEntryType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TarEntryType: {
+    readonly RegularFile: TarEntryType;
+    readonly HardLink: TarEntryType;
+    readonly SymbolicLink: TarEntryType;
+    readonly CharacterDevice: TarEntryType;
+    readonly BlockDevice: TarEntryType;
+    readonly Directory: TarEntryType;
+    readonly Fifo: TarEntryType;
+    readonly ContiguousFile: TarEntryType;
+    readonly ExtendedAttributes: TarEntryType;
+    readonly GlobalExtendedAttributes: TarEntryType;
+    readonly DirectoryList: TarEntryType;
+    readonly LongLink: TarEntryType;
+    readonly LongPath: TarEntryType;
+    readonly MultiVolume: TarEntryType;
+    readonly V7RegularFile: TarEntryType;
+    readonly RenamedOrSymlinked: TarEntryType;
+    readonly SparseFile: TarEntryType;
+    readonly TapeVolume: TarEntryType;
+};
 
 
-export interface GnuTarEntry$instance extends PosixTarEntry {
+export interface GnuTarEntry$instance extends PosixTarEntry$instance {
     readonly __tsonic_type_System_Formats_Tar_GnuTarEntry: never;
+    readonly __tsonic_type_System_Formats_Tar_PosixTarEntry: never;
+    readonly __tsonic_type_System_Formats_Tar_TarEntry: never;
 
     AccessTime: DateTimeOffset;
     ChangeTime: DateTimeOffset;
@@ -61,8 +67,10 @@ export const GnuTarEntry: {
 
 export type GnuTarEntry = GnuTarEntry$instance;
 
-export interface PaxGlobalExtendedAttributesTarEntry$instance extends PosixTarEntry {
+export interface PaxGlobalExtendedAttributesTarEntry$instance extends PosixTarEntry$instance {
     readonly __tsonic_type_System_Formats_Tar_PaxGlobalExtendedAttributesTarEntry: never;
+    readonly __tsonic_type_System_Formats_Tar_PosixTarEntry: never;
+    readonly __tsonic_type_System_Formats_Tar_TarEntry: never;
 
     readonly GlobalExtendedAttributes: IReadOnlyDictionary_2<System_Internal.String, System_Internal.String>;
 }
@@ -75,8 +83,10 @@ export const PaxGlobalExtendedAttributesTarEntry: {
 
 export type PaxGlobalExtendedAttributesTarEntry = PaxGlobalExtendedAttributesTarEntry$instance;
 
-export interface PaxTarEntry$instance extends PosixTarEntry {
+export interface PaxTarEntry$instance extends PosixTarEntry$instance {
     readonly __tsonic_type_System_Formats_Tar_PaxTarEntry: never;
+    readonly __tsonic_type_System_Formats_Tar_PosixTarEntry: never;
+    readonly __tsonic_type_System_Formats_Tar_TarEntry: never;
 
     readonly ExtendedAttributes: IReadOnlyDictionary_2<System_Internal.String, System_Internal.String>;
 }
@@ -91,8 +101,9 @@ export const PaxTarEntry: {
 
 export type PaxTarEntry = PaxTarEntry$instance;
 
-export interface PosixTarEntry$instance extends TarEntry {
+export interface PosixTarEntry$instance extends TarEntry$instance {
     readonly __tsonic_type_System_Formats_Tar_PosixTarEntry: never;
+    readonly __tsonic_type_System_Formats_Tar_TarEntry: never;
 
     DeviceMajor: int;
     DeviceMinor: int;
@@ -135,7 +146,7 @@ export const TarEntry: {
 
 export type TarEntry = TarEntry$instance;
 
-export interface TarReader$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
+export interface TarReader$instance {
     readonly __tsonic_type_System_Formats_Tar_TarReader: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -161,7 +172,7 @@ export interface __TarReader$views {
 export type TarReader = TarReader$instance & __TarReader$views;
 
 
-export interface TarWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
+export interface TarWriter$instance {
     readonly __tsonic_type_System_Formats_Tar_TarWriter: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -170,10 +181,10 @@ export interface TarWriter$instance extends System_Internal.IAsyncDisposable$ins
     readonly Format: TarEntryFormat;
     Dispose(): void;
     DisposeAsync(): ValueTask;
-    WriteEntry(fileName: string, entryName: string | null): void;
     WriteEntry(entry: TarEntry): void;
-    WriteEntryAsync(fileName: string, entryName: string | null, cancellationToken?: CancellationToken): Task;
+    WriteEntry(fileName: string, entryName: string | null): void;
     WriteEntryAsync(entry: TarEntry, cancellationToken?: CancellationToken): Task;
+    WriteEntryAsync(fileName: string, entryName: string | null, cancellationToken?: CancellationToken): Task;
 }
 
 
@@ -192,7 +203,9 @@ export interface __TarWriter$views {
 export type TarWriter = TarWriter$instance & __TarWriter$views;
 
 
-export interface UstarTarEntry$instance extends PosixTarEntry {
+export interface UstarTarEntry$instance extends PosixTarEntry$instance {
+    readonly __tsonic_type_System_Formats_Tar_PosixTarEntry: never;
+    readonly __tsonic_type_System_Formats_Tar_TarEntry: never;
     readonly __tsonic_type_System_Formats_Tar_UstarTarEntry: never;
 
 }
@@ -206,7 +219,8 @@ export const UstarTarEntry: {
 
 export type UstarTarEntry = UstarTarEntry$instance;
 
-export interface V7TarEntry$instance extends TarEntry {
+export interface V7TarEntry$instance extends TarEntry$instance {
+    readonly __tsonic_type_System_Formats_Tar_TarEntry: never;
     readonly __tsonic_type_System_Formats_Tar_V7TarEntry: never;
 
 }

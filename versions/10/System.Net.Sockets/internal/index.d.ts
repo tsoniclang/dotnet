@@ -23,342 +23,373 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken, WaitHandle } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, EventArgs, EventHandler_1, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, ConsoleKeyInfo, Enum, EventArgs, EventHandler_1, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum AddressFamily {
-    Unknown = -1,
-    Unspecified = 0,
-    Unix = 1,
-    InterNetwork = 2,
-    ImpLink = 3,
-    Pup = 4,
-    Chaos = 5,
-    NS = 6,
-    Ipx = 6,
-    Iso = 7,
-    Osi = 7,
-    Ecma = 8,
-    DataKit = 9,
-    Ccitt = 10,
-    Sna = 11,
-    DecNet = 12,
-    DataLink = 13,
-    Lat = 14,
-    HyperChannel = 15,
-    AppleTalk = 16,
-    NetBios = 17,
-    VoiceView = 18,
-    FireFox = 19,
-    Banyan = 21,
-    Atm = 22,
-    InterNetworkV6 = 23,
-    Cluster = 24,
-    Ieee12844 = 25,
-    Irda = 26,
-    NetworkDesigners = 28,
-    Max = 29,
-    Packet = 65536,
-    ControllerAreaNetwork = 65537
-}
+export type AddressFamily = number & { readonly __tsonic_type_System_Net_Sockets_AddressFamily: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum IOControlCode {
-    AsyncIO = 2147772029,
-    NonBlockingIO = 2147772030,
-    DataToRead = 1074030207,
-    OobDataRead = 1074033415,
-    AssociateHandle = 2281701377,
-    EnableCircularQueuing = 671088642,
-    Flush = 671088644,
-    GetBroadcastAddress = 1207959557,
-    GetExtensionFunctionPointer = 3355443206,
-    GetQos = 3355443207,
-    GetGroupQos = 3355443208,
-    MultipointLoopback = 2281701385,
-    MulticastScope = 2281701386,
-    SetQos = 2281701387,
-    SetGroupQos = 2281701388,
-    TranslateHandle = 3355443213,
-    RoutingInterfaceQuery = 3355443220,
-    RoutingInterfaceChange = 2281701397,
-    AddressListQuery = 1207959574,
-    AddressListChange = 671088663,
-    QueryTargetPnpHandle = 1207959576,
-    NamespaceChange = 2281701401,
-    AddressListSort = 3355443225,
-    ReceiveAll = 2550136833,
-    ReceiveAllMulticast = 2550136834,
-    ReceiveAllIgmpMulticast = 2550136835,
-    KeepAliveValues = 2550136836,
-    AbsorbRouterAlert = 2550136837,
-    UnicastInterface = 2550136838,
-    LimitBroadcasts = 2550136839,
-    BindToInterface = 2550136840,
-    MulticastInterface = 2550136841,
-    AddMulticastGroupOnInterface = 2550136842,
-    DeleteMulticastGroupFromInterface = 2550136843
-}
+export const AddressFamily: {
+    readonly Unknown: AddressFamily;
+    readonly Unspecified: AddressFamily;
+    readonly Unix: AddressFamily;
+    readonly InterNetwork: AddressFamily;
+    readonly ImpLink: AddressFamily;
+    readonly Pup: AddressFamily;
+    readonly Chaos: AddressFamily;
+    readonly NS: AddressFamily;
+    readonly Ipx: AddressFamily;
+    readonly Iso: AddressFamily;
+    readonly Osi: AddressFamily;
+    readonly Ecma: AddressFamily;
+    readonly DataKit: AddressFamily;
+    readonly Ccitt: AddressFamily;
+    readonly Sna: AddressFamily;
+    readonly DecNet: AddressFamily;
+    readonly DataLink: AddressFamily;
+    readonly Lat: AddressFamily;
+    readonly HyperChannel: AddressFamily;
+    readonly AppleTalk: AddressFamily;
+    readonly NetBios: AddressFamily;
+    readonly VoiceView: AddressFamily;
+    readonly FireFox: AddressFamily;
+    readonly Banyan: AddressFamily;
+    readonly Atm: AddressFamily;
+    readonly InterNetworkV6: AddressFamily;
+    readonly Cluster: AddressFamily;
+    readonly Ieee12844: AddressFamily;
+    readonly Irda: AddressFamily;
+    readonly NetworkDesigners: AddressFamily;
+    readonly Max: AddressFamily;
+    readonly Packet: AddressFamily;
+    readonly ControllerAreaNetwork: AddressFamily;
+};
 
 
-export enum IPProtectionLevel {
-    Unspecified = -1,
-    Unrestricted = 10,
-    EdgeRestricted = 20,
-    Restricted = 30
-}
+export type IOControlCode = number & { readonly __tsonic_type_System_Net_Sockets_IOControlCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const IOControlCode: {
+    readonly AsyncIO: IOControlCode;
+    readonly NonBlockingIO: IOControlCode;
+    readonly DataToRead: IOControlCode;
+    readonly OobDataRead: IOControlCode;
+    readonly AssociateHandle: IOControlCode;
+    readonly EnableCircularQueuing: IOControlCode;
+    readonly Flush: IOControlCode;
+    readonly GetBroadcastAddress: IOControlCode;
+    readonly GetExtensionFunctionPointer: IOControlCode;
+    readonly GetQos: IOControlCode;
+    readonly GetGroupQos: IOControlCode;
+    readonly MultipointLoopback: IOControlCode;
+    readonly MulticastScope: IOControlCode;
+    readonly SetQos: IOControlCode;
+    readonly SetGroupQos: IOControlCode;
+    readonly TranslateHandle: IOControlCode;
+    readonly RoutingInterfaceQuery: IOControlCode;
+    readonly RoutingInterfaceChange: IOControlCode;
+    readonly AddressListQuery: IOControlCode;
+    readonly AddressListChange: IOControlCode;
+    readonly QueryTargetPnpHandle: IOControlCode;
+    readonly NamespaceChange: IOControlCode;
+    readonly AddressListSort: IOControlCode;
+    readonly ReceiveAll: IOControlCode;
+    readonly ReceiveAllMulticast: IOControlCode;
+    readonly ReceiveAllIgmpMulticast: IOControlCode;
+    readonly KeepAliveValues: IOControlCode;
+    readonly AbsorbRouterAlert: IOControlCode;
+    readonly UnicastInterface: IOControlCode;
+    readonly LimitBroadcasts: IOControlCode;
+    readonly BindToInterface: IOControlCode;
+    readonly MulticastInterface: IOControlCode;
+    readonly AddMulticastGroupOnInterface: IOControlCode;
+    readonly DeleteMulticastGroupFromInterface: IOControlCode;
+};
 
 
-export enum ProtocolFamily {
-    Unknown = -1,
-    Unspecified = 0,
-    Unix = 1,
-    InterNetwork = 2,
-    ImpLink = 3,
-    Pup = 4,
-    Chaos = 5,
-    NS = 6,
-    Ipx = 6,
-    Iso = 7,
-    Osi = 7,
-    Ecma = 8,
-    DataKit = 9,
-    Ccitt = 10,
-    Sna = 11,
-    DecNet = 12,
-    DataLink = 13,
-    Lat = 14,
-    HyperChannel = 15,
-    AppleTalk = 16,
-    NetBios = 17,
-    VoiceView = 18,
-    FireFox = 19,
-    Banyan = 21,
-    Atm = 22,
-    InterNetworkV6 = 23,
-    Cluster = 24,
-    Ieee12844 = 25,
-    Irda = 26,
-    NetworkDesigners = 28,
-    Max = 29,
-    Packet = 65536,
-    ControllerAreaNetwork = 65537
-}
+export type IPProtectionLevel = number & { readonly __tsonic_type_System_Net_Sockets_IPProtectionLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const IPProtectionLevel: {
+    readonly Unspecified: IPProtectionLevel;
+    readonly Unrestricted: IPProtectionLevel;
+    readonly EdgeRestricted: IPProtectionLevel;
+    readonly Restricted: IPProtectionLevel;
+};
 
 
-export enum ProtocolType {
-    IP = 0,
-    IPv6HopByHopOptions = 0,
-    Icmp = 1,
-    Igmp = 2,
-    Ggp = 3,
-    IPv4 = 4,
-    Tcp = 6,
-    Pup = 12,
-    Udp = 17,
-    Idp = 22,
-    IPv6 = 41,
-    IPv6RoutingHeader = 43,
-    IPv6FragmentHeader = 44,
-    IPSecEncapsulatingSecurityPayload = 50,
-    IPSecAuthenticationHeader = 51,
-    IcmpV6 = 58,
-    IPv6NoNextHeader = 59,
-    IPv6DestinationOptions = 60,
-    ND = 77,
-    Raw = 255,
-    Unspecified = 0,
-    Ipx = 1000,
-    Spx = 1256,
-    SpxII = 1257,
-    Unknown = -1
-}
+export type ProtocolFamily = number & { readonly __tsonic_type_System_Net_Sockets_ProtocolFamily: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ProtocolFamily: {
+    readonly Unknown: ProtocolFamily;
+    readonly Unspecified: ProtocolFamily;
+    readonly Unix: ProtocolFamily;
+    readonly InterNetwork: ProtocolFamily;
+    readonly ImpLink: ProtocolFamily;
+    readonly Pup: ProtocolFamily;
+    readonly Chaos: ProtocolFamily;
+    readonly NS: ProtocolFamily;
+    readonly Ipx: ProtocolFamily;
+    readonly Iso: ProtocolFamily;
+    readonly Osi: ProtocolFamily;
+    readonly Ecma: ProtocolFamily;
+    readonly DataKit: ProtocolFamily;
+    readonly Ccitt: ProtocolFamily;
+    readonly Sna: ProtocolFamily;
+    readonly DecNet: ProtocolFamily;
+    readonly DataLink: ProtocolFamily;
+    readonly Lat: ProtocolFamily;
+    readonly HyperChannel: ProtocolFamily;
+    readonly AppleTalk: ProtocolFamily;
+    readonly NetBios: ProtocolFamily;
+    readonly VoiceView: ProtocolFamily;
+    readonly FireFox: ProtocolFamily;
+    readonly Banyan: ProtocolFamily;
+    readonly Atm: ProtocolFamily;
+    readonly InterNetworkV6: ProtocolFamily;
+    readonly Cluster: ProtocolFamily;
+    readonly Ieee12844: ProtocolFamily;
+    readonly Irda: ProtocolFamily;
+    readonly NetworkDesigners: ProtocolFamily;
+    readonly Max: ProtocolFamily;
+    readonly Packet: ProtocolFamily;
+    readonly ControllerAreaNetwork: ProtocolFamily;
+};
 
 
-export enum SelectMode {
-    SelectRead = 0,
-    SelectWrite = 1,
-    SelectError = 2
-}
+export type ProtocolType = number & { readonly __tsonic_type_System_Net_Sockets_ProtocolType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ProtocolType: {
+    readonly IP: ProtocolType;
+    readonly IPv6HopByHopOptions: ProtocolType;
+    readonly Icmp: ProtocolType;
+    readonly Igmp: ProtocolType;
+    readonly Ggp: ProtocolType;
+    readonly IPv4: ProtocolType;
+    readonly Tcp: ProtocolType;
+    readonly Pup: ProtocolType;
+    readonly Udp: ProtocolType;
+    readonly Idp: ProtocolType;
+    readonly IPv6: ProtocolType;
+    readonly IPv6RoutingHeader: ProtocolType;
+    readonly IPv6FragmentHeader: ProtocolType;
+    readonly IPSecEncapsulatingSecurityPayload: ProtocolType;
+    readonly IPSecAuthenticationHeader: ProtocolType;
+    readonly IcmpV6: ProtocolType;
+    readonly IPv6NoNextHeader: ProtocolType;
+    readonly IPv6DestinationOptions: ProtocolType;
+    readonly ND: ProtocolType;
+    readonly Raw: ProtocolType;
+    readonly Unspecified: ProtocolType;
+    readonly Ipx: ProtocolType;
+    readonly Spx: ProtocolType;
+    readonly SpxII: ProtocolType;
+    readonly Unknown: ProtocolType;
+};
 
 
-export enum SocketAsyncOperation {
-    None = 0,
-    Accept = 1,
-    Connect = 2,
-    Disconnect = 3,
-    Receive = 4,
-    ReceiveFrom = 5,
-    ReceiveMessageFrom = 6,
-    Send = 7,
-    SendPackets = 8,
-    SendTo = 9
-}
+export type SelectMode = number & { readonly __tsonic_type_System_Net_Sockets_SelectMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SelectMode: {
+    readonly SelectRead: SelectMode;
+    readonly SelectWrite: SelectMode;
+    readonly SelectError: SelectMode;
+};
 
 
-export enum SocketError {
-    Success = 0,
-    SocketError = -1,
-    Interrupted = 10004,
-    AccessDenied = 10013,
-    Fault = 10014,
-    InvalidArgument = 10022,
-    TooManyOpenSockets = 10024,
-    WouldBlock = 10035,
-    InProgress = 10036,
-    AlreadyInProgress = 10037,
-    NotSocket = 10038,
-    DestinationAddressRequired = 10039,
-    MessageSize = 10040,
-    ProtocolType = 10041,
-    ProtocolOption = 10042,
-    ProtocolNotSupported = 10043,
-    SocketNotSupported = 10044,
-    OperationNotSupported = 10045,
-    ProtocolFamilyNotSupported = 10046,
-    AddressFamilyNotSupported = 10047,
-    AddressAlreadyInUse = 10048,
-    AddressNotAvailable = 10049,
-    NetworkDown = 10050,
-    NetworkUnreachable = 10051,
-    NetworkReset = 10052,
-    ConnectionAborted = 10053,
-    ConnectionReset = 10054,
-    NoBufferSpaceAvailable = 10055,
-    IsConnected = 10056,
-    NotConnected = 10057,
-    Shutdown = 10058,
-    TimedOut = 10060,
-    ConnectionRefused = 10061,
-    HostDown = 10064,
-    HostUnreachable = 10065,
-    ProcessLimit = 10067,
-    SystemNotReady = 10091,
-    VersionNotSupported = 10092,
-    NotInitialized = 10093,
-    Disconnecting = 10101,
-    TypeNotFound = 10109,
-    HostNotFound = 11001,
-    TryAgain = 11002,
-    NoRecovery = 11003,
-    NoData = 11004,
-    IOPending = 997,
-    OperationAborted = 995
-}
+export type SocketAsyncOperation = number & { readonly __tsonic_type_System_Net_Sockets_SocketAsyncOperation: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SocketAsyncOperation: {
+    readonly None: SocketAsyncOperation;
+    readonly Accept: SocketAsyncOperation;
+    readonly Connect: SocketAsyncOperation;
+    readonly Disconnect: SocketAsyncOperation;
+    readonly Receive: SocketAsyncOperation;
+    readonly ReceiveFrom: SocketAsyncOperation;
+    readonly ReceiveMessageFrom: SocketAsyncOperation;
+    readonly Send: SocketAsyncOperation;
+    readonly SendPackets: SocketAsyncOperation;
+    readonly SendTo: SocketAsyncOperation;
+};
 
 
-export enum SocketFlags {
-    None = 0,
-    OutOfBand = 1,
-    Peek = 2,
-    DontRoute = 4,
-    Truncated = 256,
-    ControlDataTruncated = 512,
-    Broadcast = 1024,
-    Multicast = 2048,
-    Partial = 32768
-}
+export type SocketError = number & { readonly __tsonic_type_System_Net_Sockets_SocketError: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SocketError: {
+    readonly Success: SocketError;
+    readonly SocketError: SocketError;
+    readonly Interrupted: SocketError;
+    readonly AccessDenied: SocketError;
+    readonly Fault: SocketError;
+    readonly InvalidArgument: SocketError;
+    readonly TooManyOpenSockets: SocketError;
+    readonly WouldBlock: SocketError;
+    readonly InProgress: SocketError;
+    readonly AlreadyInProgress: SocketError;
+    readonly NotSocket: SocketError;
+    readonly DestinationAddressRequired: SocketError;
+    readonly MessageSize: SocketError;
+    readonly ProtocolType: SocketError;
+    readonly ProtocolOption: SocketError;
+    readonly ProtocolNotSupported: SocketError;
+    readonly SocketNotSupported: SocketError;
+    readonly OperationNotSupported: SocketError;
+    readonly ProtocolFamilyNotSupported: SocketError;
+    readonly AddressFamilyNotSupported: SocketError;
+    readonly AddressAlreadyInUse: SocketError;
+    readonly AddressNotAvailable: SocketError;
+    readonly NetworkDown: SocketError;
+    readonly NetworkUnreachable: SocketError;
+    readonly NetworkReset: SocketError;
+    readonly ConnectionAborted: SocketError;
+    readonly ConnectionReset: SocketError;
+    readonly NoBufferSpaceAvailable: SocketError;
+    readonly IsConnected: SocketError;
+    readonly NotConnected: SocketError;
+    readonly Shutdown: SocketError;
+    readonly TimedOut: SocketError;
+    readonly ConnectionRefused: SocketError;
+    readonly HostDown: SocketError;
+    readonly HostUnreachable: SocketError;
+    readonly ProcessLimit: SocketError;
+    readonly SystemNotReady: SocketError;
+    readonly VersionNotSupported: SocketError;
+    readonly NotInitialized: SocketError;
+    readonly Disconnecting: SocketError;
+    readonly TypeNotFound: SocketError;
+    readonly HostNotFound: SocketError;
+    readonly TryAgain: SocketError;
+    readonly NoRecovery: SocketError;
+    readonly NoData: SocketError;
+    readonly IOPending: SocketError;
+    readonly OperationAborted: SocketError;
+};
 
 
-export enum SocketInformationOptions {
-    NonBlocking = 1,
-    Connected = 2,
-    Listening = 4,
-    UseOnlyOverlappedIO = 8
-}
+export type SocketFlags = number & { readonly __tsonic_type_System_Net_Sockets_SocketFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SocketFlags: {
+    readonly None: SocketFlags;
+    readonly OutOfBand: SocketFlags;
+    readonly Peek: SocketFlags;
+    readonly DontRoute: SocketFlags;
+    readonly Truncated: SocketFlags;
+    readonly ControlDataTruncated: SocketFlags;
+    readonly Broadcast: SocketFlags;
+    readonly Multicast: SocketFlags;
+    readonly Partial: SocketFlags;
+};
 
 
-export enum SocketOptionLevel {
-    Socket = 65535,
-    IP = 0,
-    IPv6 = 41,
-    Tcp = 6,
-    Udp = 17
-}
+export type SocketInformationOptions = number & { readonly __tsonic_type_System_Net_Sockets_SocketInformationOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SocketInformationOptions: {
+    readonly NonBlocking: SocketInformationOptions;
+    readonly Connected: SocketInformationOptions;
+    readonly Listening: SocketInformationOptions;
+    readonly UseOnlyOverlappedIO: SocketInformationOptions;
+};
 
 
-export enum SocketOptionName {
-    Debug = 1,
-    AcceptConnection = 2,
-    ReuseAddress = 4,
-    KeepAlive = 8,
-    DontRoute = 16,
-    Broadcast = 32,
-    UseLoopback = 64,
-    Linger = 128,
-    OutOfBandInline = 256,
-    DontLinger = -129,
-    ExclusiveAddressUse = -5,
-    SendBuffer = 4097,
-    ReceiveBuffer = 4098,
-    SendLowWater = 4099,
-    ReceiveLowWater = 4100,
-    SendTimeout = 4101,
-    ReceiveTimeout = 4102,
-    Error = 4103,
-    Type = 4104,
-    ReuseUnicastPort = 12295,
-    MaxConnections = 2147483647,
-    IPOptions = 1,
-    HeaderIncluded = 2,
-    TypeOfService = 3,
-    IpTimeToLive = 4,
-    MulticastInterface = 9,
-    MulticastTimeToLive = 10,
-    MulticastLoopback = 11,
-    AddMembership = 12,
-    DropMembership = 13,
-    DontFragment = 14,
-    AddSourceMembership = 15,
-    DropSourceMembership = 16,
-    BlockSource = 17,
-    UnblockSource = 18,
-    PacketInformation = 19,
-    HopLimit = 21,
-    IPProtectionLevel = 23,
-    IPv6Only = 27,
-    NoDelay = 1,
-    BsdUrgent = 2,
-    Expedited = 2,
-    FastOpen = 15,
-    TcpKeepAliveRetryCount = 16,
-    TcpKeepAliveTime = 3,
-    TcpKeepAliveInterval = 17,
-    NoChecksum = 1,
-    ChecksumCoverage = 20,
-    UpdateAcceptContext = 28683,
-    UpdateConnectContext = 28688
-}
+export type SocketOptionLevel = number & { readonly __tsonic_type_System_Net_Sockets_SocketOptionLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SocketOptionLevel: {
+    readonly Socket: SocketOptionLevel;
+    readonly IP: SocketOptionLevel;
+    readonly IPv6: SocketOptionLevel;
+    readonly Tcp: SocketOptionLevel;
+    readonly Udp: SocketOptionLevel;
+};
 
 
-export enum SocketShutdown {
-    Receive = 0,
-    Send = 1,
-    Both = 2
-}
+export type SocketOptionName = number & { readonly __tsonic_type_System_Net_Sockets_SocketOptionName: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SocketOptionName: {
+    readonly Debug: SocketOptionName;
+    readonly AcceptConnection: SocketOptionName;
+    readonly ReuseAddress: SocketOptionName;
+    readonly KeepAlive: SocketOptionName;
+    readonly DontRoute: SocketOptionName;
+    readonly Broadcast: SocketOptionName;
+    readonly UseLoopback: SocketOptionName;
+    readonly Linger: SocketOptionName;
+    readonly OutOfBandInline: SocketOptionName;
+    readonly DontLinger: SocketOptionName;
+    readonly ExclusiveAddressUse: SocketOptionName;
+    readonly SendBuffer: SocketOptionName;
+    readonly ReceiveBuffer: SocketOptionName;
+    readonly SendLowWater: SocketOptionName;
+    readonly ReceiveLowWater: SocketOptionName;
+    readonly SendTimeout: SocketOptionName;
+    readonly ReceiveTimeout: SocketOptionName;
+    readonly Error: SocketOptionName;
+    readonly Type: SocketOptionName;
+    readonly ReuseUnicastPort: SocketOptionName;
+    readonly MaxConnections: SocketOptionName;
+    readonly IPOptions: SocketOptionName;
+    readonly HeaderIncluded: SocketOptionName;
+    readonly TypeOfService: SocketOptionName;
+    readonly IpTimeToLive: SocketOptionName;
+    readonly MulticastInterface: SocketOptionName;
+    readonly MulticastTimeToLive: SocketOptionName;
+    readonly MulticastLoopback: SocketOptionName;
+    readonly AddMembership: SocketOptionName;
+    readonly DropMembership: SocketOptionName;
+    readonly DontFragment: SocketOptionName;
+    readonly AddSourceMembership: SocketOptionName;
+    readonly DropSourceMembership: SocketOptionName;
+    readonly BlockSource: SocketOptionName;
+    readonly UnblockSource: SocketOptionName;
+    readonly PacketInformation: SocketOptionName;
+    readonly HopLimit: SocketOptionName;
+    readonly IPProtectionLevel: SocketOptionName;
+    readonly IPv6Only: SocketOptionName;
+    readonly NoDelay: SocketOptionName;
+    readonly BsdUrgent: SocketOptionName;
+    readonly Expedited: SocketOptionName;
+    readonly FastOpen: SocketOptionName;
+    readonly TcpKeepAliveRetryCount: SocketOptionName;
+    readonly TcpKeepAliveTime: SocketOptionName;
+    readonly TcpKeepAliveInterval: SocketOptionName;
+    readonly NoChecksum: SocketOptionName;
+    readonly ChecksumCoverage: SocketOptionName;
+    readonly UpdateAcceptContext: SocketOptionName;
+    readonly UpdateConnectContext: SocketOptionName;
+};
 
 
-export enum SocketType {
-    Stream = 1,
-    Dgram = 2,
-    Raw = 3,
-    Rdm = 4,
-    Seqpacket = 5,
-    Unknown = -1
-}
+export type SocketShutdown = number & { readonly __tsonic_type_System_Net_Sockets_SocketShutdown: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SocketShutdown: {
+    readonly Receive: SocketShutdown;
+    readonly Send: SocketShutdown;
+    readonly Both: SocketShutdown;
+};
 
 
-export enum TransmitFileOptions {
-    UseDefaultWorkerThread = 0,
-    Disconnect = 1,
-    ReuseSocket = 2,
-    WriteBehind = 4,
-    UseSystemThread = 16,
-    UseKernelApc = 32
-}
+export type SocketType = number & { readonly __tsonic_type_System_Net_Sockets_SocketType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SocketType: {
+    readonly Stream: SocketType;
+    readonly Dgram: SocketType;
+    readonly Raw: SocketType;
+    readonly Rdm: SocketType;
+    readonly Seqpacket: SocketType;
+    readonly Unknown: SocketType;
+};
+
+
+export type TransmitFileOptions = number & { readonly __tsonic_type_System_Net_Sockets_TransmitFileOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TransmitFileOptions: {
+    readonly UseDefaultWorkerThread: TransmitFileOptions;
+    readonly Disconnect: TransmitFileOptions;
+    readonly ReuseSocket: TransmitFileOptions;
+    readonly WriteBehind: TransmitFileOptions;
+    readonly UseSystemThread: TransmitFileOptions;
+    readonly UseKernelApc: TransmitFileOptions;
+};
 
 
 export interface IPPacketInformation$instance {
     readonly __tsonic_type_System_Net_Sockets_IPPacketInformation: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -387,6 +418,7 @@ export type IPPacketInformation = IPPacketInformation$instance & __IPPacketInfor
 
 export interface SocketInformation$instance {
     readonly __tsonic_type_System_Net_Sockets_SocketInformation: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     Options: SocketInformationOptions;
     ProtocolInformation: byte[];
@@ -402,6 +434,7 @@ export type SocketInformation = SocketInformation$instance;
 
 export interface SocketReceiveFromResult$instance {
     readonly __tsonic_type_System_Net_Sockets_SocketReceiveFromResult: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     ReceivedBytes: int;
     RemoteEndPoint: EndPoint;
@@ -417,6 +450,7 @@ export type SocketReceiveFromResult = SocketReceiveFromResult$instance;
 
 export interface SocketReceiveMessageFromResult$instance {
     readonly __tsonic_type_System_Net_Sockets_SocketReceiveMessageFromResult: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     ReceivedBytes: int;
     SocketFlags: SocketFlags;
@@ -434,6 +468,7 @@ export type SocketReceiveMessageFromResult = SocketReceiveMessageFromResult$inst
 
 export interface UdpReceiveResult$instance {
     readonly __tsonic_type_System_Net_Sockets_UdpReceiveResult: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -512,49 +547,33 @@ export const MulticastOption: {
 
 export type MulticastOption = MulticastOption$instance;
 
-export interface NetworkStream$instance extends Stream, System_Internal.IAsyncDisposable$instance {
+export interface NetworkStream$instance extends System_IO_Internal.Stream$instance {
+    readonly __tsonic_type_System_IO_Stream: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Net_Sockets_NetworkStream: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly CanRead: boolean;
-    readonly CanSeek: boolean;
-    readonly CanTimeout: boolean;
-    readonly CanWrite: boolean;
     readonly DataAvailable: boolean;
-    readonly Length: long;
-    Position: long;
-    ReadTimeout: int;
     readonly Socket: Socket;
-    WriteTimeout: int;
-    BeginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    Close(timeout: int): void;
-    Close(timeout: TimeSpan): void;
-    Close(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    EndRead(asyncResult: IAsyncResult): int;
-    EndWrite(asyncResult: IAsyncResult): void;
+    BeginRead: System_IO_Internal.Stream$instance["BeginRead"] & ((buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    BeginWrite: System_IO_Internal.Stream$instance["BeginWrite"] & ((buffer: byte[], offset: int, count: int, callback: AsyncCallback | null, state: unknown | null) => IAsyncResult);
+    Close: System_IO_Internal.Stream$instance["Close"] & (() => void) & ((timeout: TimeSpan) => void) & ((timeout: int) => void);
+    Dispose: System_IO_Internal.Stream$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    EndRead: System_IO_Internal.Stream$instance["EndRead"] & ((asyncResult: IAsyncResult) => int);
+    EndWrite: System_IO_Internal.Stream$instance["EndWrite"] & ((asyncResult: IAsyncResult) => void);
     Finalize(): void;
-    Flush(): void;
-    FlushAsync(cancellationToken: CancellationToken): Task;
-    FlushAsync(): Task;
-    Read(buffer: byte[], offset: int, count: int): int;
-    Read(buffer: Span_1<System_Internal.Byte>): int;
-    ReadAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
-    ReadAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReadAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
-    ReadByte(): int;
-    Seek(offset: long, origin: SeekOrigin): long;
-    SetLength(value: long): void;
-    Write(buffer: byte[], offset: int, count: int): void;
-    Write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
-    WriteAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    WriteAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
-    WriteAsync(buffer: byte[], offset: int, count: int): Task;
-    WriteByte(value: byte): void;
+    Flush: System_IO_Internal.Stream$instance["Flush"] & (() => void);
+    FlushAsync: System_IO_Internal.Stream$instance["FlushAsync"] & (() => Task) & ((cancellationToken: CancellationToken) => Task);
+    Read: System_IO_Internal.Stream$instance["Read"] & ((buffer: Span_1<System_Internal.Byte>) => int) & ((buffer: byte[], offset: int, count: int) => int);
+    ReadAsync: System_IO_Internal.Stream$instance["ReadAsync"] & ((buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int) => Task_1<System_Internal.Int32>) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task_1<System_Internal.Int32>);
+    ReadByte: System_IO_Internal.Stream$instance["ReadByte"] & (() => int);
+    Seek: System_IO_Internal.Stream$instance["Seek"] & ((offset: long, origin: SeekOrigin) => long);
+    SetLength: System_IO_Internal.Stream$instance["SetLength"] & ((value: long) => void);
+    Write: System_IO_Internal.Stream$instance["Write"] & ((buffer: ReadOnlySpan_1<System_Internal.Byte>) => void) & ((buffer: byte[], offset: int, count: int) => void);
+    WriteAsync: System_IO_Internal.Stream$instance["WriteAsync"] & ((buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken) => ValueTask) & ((buffer: byte[], offset: int, count: int) => Task) & ((buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken) => Task);
+    WriteByte: System_IO_Internal.Stream$instance["WriteByte"] & ((value: byte) => void);
 }
 
 
@@ -574,13 +593,15 @@ export interface __NetworkStream$views {
 export type NetworkStream = NetworkStream$instance & __NetworkStream$views;
 
 
-export interface SafeSocketHandle$instance extends SafeHandleMinusOneIsInvalid {
+export interface SafeSocketHandle$instance extends Microsoft_Win32_SafeHandles_Internal.SafeHandleMinusOneIsInvalid$instance {
+    readonly __tsonic_type_Microsoft_Win32_SafeHandles_SafeHandleMinusOneIsInvalid: never;
     readonly __tsonic_type_System_Net_Sockets_SafeSocketHandle: never;
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_SafeHandle: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    readonly IsInvalid: boolean;
-    ReleaseHandle(): boolean;
+    ReleaseHandle: Microsoft_Win32_SafeHandles_Internal.SafeHandleMinusOneIsInvalid$instance["ReleaseHandle"] & (() => boolean);
 }
 
 
@@ -600,18 +621,14 @@ export type SafeSocketHandle = SafeSocketHandle$instance & __SafeSocketHandle$vi
 export interface SendPacketsElement$instance {
     readonly __tsonic_type_System_Net_Sockets_SendPacketsElement: never;
 
-    get Buffer(): byte[] | null;
-    set Buffer(value: byte[] | null);
-    Count: int;
-    EndOfPacket: boolean;
-    get FilePath(): string | null;
-    set FilePath(value: string | null);
-    get FileStream(): FileStream | null;
-    set FileStream(value: FileStream | null);
-    get MemoryBuffer(): Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>>;
-    set MemoryBuffer(value: Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>> | ReadOnlyMemory_1<System_Internal.Byte>);
+    readonly Buffer: byte[] | null;
+    readonly Count: int;
+    readonly EndOfPacket: boolean;
+    readonly FilePath: string | null;
+    readonly FileStream: FileStream | null;
+    readonly MemoryBuffer: Nullable_1<ReadOnlyMemory_1<System_Internal.Byte>>;
     readonly Offset: int;
-    OffsetLong: long;
+    readonly OffsetLong: long;
 }
 
 
@@ -665,18 +682,18 @@ export interface Socket$instance {
     Ttl: short;
     UseOnlyOverlappedIO: boolean;
     Accept(): Socket;
-    AcceptAsync(e: SocketAsyncEventArgs): boolean;
     AcceptAsync(): Task_1<Socket>;
-    AcceptAsync(cancellationToken: CancellationToken): ValueTask_1<Socket>;
     AcceptAsync(acceptSocket: Socket | null): Task_1<Socket>;
     AcceptAsync(acceptSocket: Socket | null, cancellationToken: CancellationToken): ValueTask_1<Socket>;
+    AcceptAsync(cancellationToken: CancellationToken): ValueTask_1<Socket>;
+    AcceptAsync(e: SocketAsyncEventArgs): boolean;
+    BeginAccept(acceptSocket: Socket | null, receiveSize: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     BeginAccept(callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     BeginAccept(receiveSize: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginAccept(acceptSocket: Socket | null, receiveSize: int, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginConnect(remoteEP: EndPoint, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginConnect(host: string, port: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     BeginConnect(address: IPAddress, port: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     BeginConnect(addresses: IPAddress[], port: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginConnect(host: string, port: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginConnect(remoteEP: EndPoint, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     BeginDisconnect(reuseSocket: boolean, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     BeginReceive(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, callback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     BeginReceive(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, errorCode: SocketError, callback: AsyncCallback | null, state: unknown | null): IAsyncResult | null;
@@ -694,24 +711,24 @@ export interface Socket$instance {
     Bind(localEP: EndPoint): void;
     Close(): void;
     Close(timeout: int): void;
-    Connect(remoteEP: EndPoint): void;
     Connect(address: IPAddress, port: int): void;
-    Connect(host: string, port: int): void;
     Connect(addresses: IPAddress[], port: int): void;
-    ConnectAsync(e: SocketAsyncEventArgs): boolean;
-    ConnectAsync(remoteEP: EndPoint): Task;
-    ConnectAsync(remoteEP: EndPoint, cancellationToken: CancellationToken): ValueTask;
+    Connect(host: string, port: int): void;
+    Connect(remoteEP: EndPoint): void;
     ConnectAsync(address: IPAddress, port: int): Task;
     ConnectAsync(address: IPAddress, port: int, cancellationToken: CancellationToken): ValueTask;
     ConnectAsync(addresses: IPAddress[], port: int): Task;
     ConnectAsync(addresses: IPAddress[], port: int, cancellationToken: CancellationToken): ValueTask;
+    ConnectAsync(e: SocketAsyncEventArgs): boolean;
     ConnectAsync(host: string, port: int): Task;
     ConnectAsync(host: string, port: int, cancellationToken: CancellationToken): ValueTask;
+    ConnectAsync(remoteEP: EndPoint): Task;
+    ConnectAsync(remoteEP: EndPoint, cancellationToken: CancellationToken): ValueTask;
     Disconnect(reuseSocket: boolean): void;
     DisconnectAsync(e: SocketAsyncEventArgs): boolean;
     DisconnectAsync(reuseSocket: boolean, cancellationToken?: CancellationToken): ValueTask;
-    Dispose(disposing: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     DuplicateAndClose(targetProcessId: int): SocketInformation;
     EndAccept(asyncResult: IAsyncResult): Socket;
     EndAccept(buffer: byte[], asyncResult: IAsyncResult): Socket;
@@ -729,94 +746,94 @@ export interface Socket$instance {
     Finalize(): void;
     GetRawSocketOption(optionLevel: int, optionName: int, optionValue: Span_1<System_Internal.Byte>): int;
     GetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName): unknown | null;
-    GetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: byte[]): void;
     GetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionLength: int): byte[];
-    IOControl(ioControlCode: int, optionInValue: byte[] | null, optionOutValue: byte[] | null): int;
+    GetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: byte[]): void;
     IOControl(ioControlCode: IOControlCode, optionInValue: byte[] | null, optionOutValue: byte[] | null): int;
+    IOControl(ioControlCode: int, optionInValue: byte[] | null, optionOutValue: byte[] | null): int;
     Listen(): void;
     Listen(backlog: int): void;
     Poll(microSeconds: int, mode: SelectMode): boolean;
     Poll(timeout: TimeSpan, mode: SelectMode): boolean;
-    Receive(buffer: byte[], size: int, socketFlags: SocketFlags): int;
-    Receive(buffer: byte[], socketFlags: SocketFlags): int;
-    Receive(buffer: byte[]): int;
-    Receive(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags): int;
-    Receive(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, errorCode: SocketError): int;
     Receive(buffer: Span_1<System_Internal.Byte>): int;
     Receive(buffer: Span_1<System_Internal.Byte>, socketFlags: SocketFlags): int;
     Receive(buffer: Span_1<System_Internal.Byte>, socketFlags: SocketFlags, errorCode: SocketError): int;
+    Receive(buffer: byte[]): int;
+    Receive(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags): int;
+    Receive(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, errorCode: SocketError): int;
+    Receive(buffer: byte[], size: int, socketFlags: SocketFlags): int;
+    Receive(buffer: byte[], socketFlags: SocketFlags): int;
     Receive(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>): int;
     Receive(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags): int;
     Receive(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, errorCode: SocketError): int;
-    ReceiveAsync(e: SocketAsyncEventArgs): boolean;
     ReceiveAsync(buffer: ArraySegment_1<System_Internal.Byte>): Task_1<System_Internal.Int32>;
     ReceiveAsync(buffer: ArraySegment_1<System_Internal.Byte>, socketFlags: SocketFlags): Task_1<System_Internal.Int32>;
     ReceiveAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReceiveAsync(buffer: Memory_1<System_Internal.Byte>, socketFlags: SocketFlags, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     ReceiveAsync(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>): Task_1<System_Internal.Int32>;
     ReceiveAsync(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags): Task_1<System_Internal.Int32>;
+    ReceiveAsync(e: SocketAsyncEventArgs): boolean;
+    ReceiveFrom(buffer: Span_1<System_Internal.Byte>, remoteEP: EndPoint): int;
+    ReceiveFrom(buffer: Span_1<System_Internal.Byte>, socketFlags: SocketFlags, receivedAddress: SocketAddress): int;
+    ReceiveFrom(buffer: Span_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEP: EndPoint): int;
     ReceiveFrom(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, remoteEP: EndPoint): int;
+    ReceiveFrom(buffer: byte[], remoteEP: EndPoint): int;
     ReceiveFrom(buffer: byte[], size: int, socketFlags: SocketFlags, remoteEP: EndPoint): int;
     ReceiveFrom(buffer: byte[], socketFlags: SocketFlags, remoteEP: EndPoint): int;
-    ReceiveFrom(buffer: byte[], remoteEP: EndPoint): int;
-    ReceiveFrom(buffer: Span_1<System_Internal.Byte>, remoteEP: EndPoint): int;
-    ReceiveFrom(buffer: Span_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEP: EndPoint): int;
-    ReceiveFrom(buffer: Span_1<System_Internal.Byte>, socketFlags: SocketFlags, receivedAddress: SocketAddress): int;
-    ReceiveFromAsync(e: SocketAsyncEventArgs): boolean;
     ReceiveFromAsync(buffer: ArraySegment_1<System_Internal.Byte>, remoteEndPoint: EndPoint): Task_1<SocketReceiveFromResult>;
     ReceiveFromAsync(buffer: ArraySegment_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEndPoint: EndPoint): Task_1<SocketReceiveFromResult>;
     ReceiveFromAsync(buffer: Memory_1<System_Internal.Byte>, remoteEndPoint: EndPoint, cancellationToken?: CancellationToken): ValueTask_1<SocketReceiveFromResult>;
-    ReceiveFromAsync(buffer: Memory_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEndPoint: EndPoint, cancellationToken?: CancellationToken): ValueTask_1<SocketReceiveFromResult>;
     ReceiveFromAsync(buffer: Memory_1<System_Internal.Byte>, socketFlags: SocketFlags, receivedAddress: SocketAddress, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    ReceiveMessageFrom(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, remoteEP: EndPoint, ipPacketInformation: IPPacketInformation): int;
+    ReceiveFromAsync(buffer: Memory_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEndPoint: EndPoint, cancellationToken?: CancellationToken): ValueTask_1<SocketReceiveFromResult>;
+    ReceiveFromAsync(e: SocketAsyncEventArgs): boolean;
     ReceiveMessageFrom(buffer: Span_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEP: EndPoint, ipPacketInformation: IPPacketInformation): int;
-    ReceiveMessageFromAsync(e: SocketAsyncEventArgs): boolean;
+    ReceiveMessageFrom(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, remoteEP: EndPoint, ipPacketInformation: IPPacketInformation): int;
     ReceiveMessageFromAsync(buffer: ArraySegment_1<System_Internal.Byte>, remoteEndPoint: EndPoint): Task_1<SocketReceiveMessageFromResult>;
     ReceiveMessageFromAsync(buffer: ArraySegment_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEndPoint: EndPoint): Task_1<SocketReceiveMessageFromResult>;
     ReceiveMessageFromAsync(buffer: Memory_1<System_Internal.Byte>, remoteEndPoint: EndPoint, cancellationToken?: CancellationToken): ValueTask_1<SocketReceiveMessageFromResult>;
     ReceiveMessageFromAsync(buffer: Memory_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEndPoint: EndPoint, cancellationToken?: CancellationToken): ValueTask_1<SocketReceiveMessageFromResult>;
-    Send(buffer: byte[], size: int, socketFlags: SocketFlags): int;
-    Send(buffer: byte[], socketFlags: SocketFlags): int;
-    Send(buffer: byte[]): int;
-    Send(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>): int;
-    Send(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags): int;
-    Send(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, errorCode: SocketError): int;
-    Send(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags): int;
-    Send(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, errorCode: SocketError): int;
+    ReceiveMessageFromAsync(e: SocketAsyncEventArgs): boolean;
     Send(buffer: ReadOnlySpan_1<System_Internal.Byte>): int;
     Send(buffer: ReadOnlySpan_1<System_Internal.Byte>, socketFlags: SocketFlags): int;
     Send(buffer: ReadOnlySpan_1<System_Internal.Byte>, socketFlags: SocketFlags, errorCode: SocketError): int;
-    SendAsync(e: SocketAsyncEventArgs): boolean;
+    Send(buffer: byte[]): int;
+    Send(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags): int;
+    Send(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, errorCode: SocketError): int;
+    Send(buffer: byte[], size: int, socketFlags: SocketFlags): int;
+    Send(buffer: byte[], socketFlags: SocketFlags): int;
+    Send(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>): int;
+    Send(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags): int;
+    Send(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, errorCode: SocketError): int;
     SendAsync(buffer: ArraySegment_1<System_Internal.Byte>): Task_1<System_Internal.Int32>;
     SendAsync(buffer: ArraySegment_1<System_Internal.Byte>, socketFlags: SocketFlags): Task_1<System_Internal.Int32>;
     SendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     SendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, socketFlags: SocketFlags, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     SendAsync(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>): Task_1<System_Internal.Int32>;
     SendAsync(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags): Task_1<System_Internal.Int32>;
+    SendAsync(e: SocketAsyncEventArgs): boolean;
     SendFile(fileName: string | null): void;
-    SendFile(fileName: string | null, preBuffer: byte[] | null, postBuffer: byte[] | null, flags: TransmitFileOptions): void;
     SendFile(fileName: string | null, preBuffer: ReadOnlySpan_1<System_Internal.Byte>, postBuffer: ReadOnlySpan_1<System_Internal.Byte>, flags: TransmitFileOptions): void;
+    SendFile(fileName: string | null, preBuffer: byte[] | null, postBuffer: byte[] | null, flags: TransmitFileOptions): void;
     SendFileAsync(fileName: string | null, cancellationToken?: CancellationToken): ValueTask;
     SendFileAsync(fileName: string | null, preBuffer: ReadOnlyMemory_1<System_Internal.Byte>, postBuffer: ReadOnlyMemory_1<System_Internal.Byte>, flags: TransmitFileOptions, cancellationToken?: CancellationToken): ValueTask;
     SendPacketsAsync(e: SocketAsyncEventArgs): boolean;
-    SendTo(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, remoteEP: EndPoint): int;
-    SendTo(buffer: byte[], size: int, socketFlags: SocketFlags, remoteEP: EndPoint): int;
-    SendTo(buffer: byte[], socketFlags: SocketFlags, remoteEP: EndPoint): int;
-    SendTo(buffer: byte[], remoteEP: EndPoint): int;
     SendTo(buffer: ReadOnlySpan_1<System_Internal.Byte>, remoteEP: EndPoint): int;
     SendTo(buffer: ReadOnlySpan_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEP: EndPoint): int;
     SendTo(buffer: ReadOnlySpan_1<System_Internal.Byte>, socketFlags: SocketFlags, socketAddress: SocketAddress): int;
-    SendToAsync(e: SocketAsyncEventArgs): boolean;
+    SendTo(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, remoteEP: EndPoint): int;
+    SendTo(buffer: byte[], remoteEP: EndPoint): int;
+    SendTo(buffer: byte[], size: int, socketFlags: SocketFlags, remoteEP: EndPoint): int;
+    SendTo(buffer: byte[], socketFlags: SocketFlags, remoteEP: EndPoint): int;
     SendToAsync(buffer: ArraySegment_1<System_Internal.Byte>, remoteEP: EndPoint): Task_1<System_Internal.Int32>;
     SendToAsync(buffer: ArraySegment_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEP: EndPoint): Task_1<System_Internal.Int32>;
     SendToAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, remoteEP: EndPoint, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     SendToAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, socketFlags: SocketFlags, remoteEP: EndPoint, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     SendToAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, socketFlags: SocketFlags, socketAddress: SocketAddress, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    SendToAsync(e: SocketAsyncEventArgs): boolean;
     SetIPProtectionLevel(level: IPProtectionLevel): void;
     SetRawSocketOption(optionLevel: int, optionName: int, optionValue: ReadOnlySpan_1<System_Internal.Byte>): void;
-    SetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: int): void;
-    SetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: byte[]): void;
     SetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: boolean): void;
+    SetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: byte[]): void;
+    SetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: int): void;
     SetSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: unknown): void;
     Shutdown(how: SocketShutdown): void;
 }
@@ -846,7 +863,8 @@ export interface __Socket$views {
 export type Socket = Socket$instance & __Socket$views;
 
 
-export interface SocketAsyncEventArgs$instance extends EventArgs, System_Internal.IDisposable$instance {
+export interface SocketAsyncEventArgs$instance extends System_Internal.EventArgs$instance {
+    readonly __tsonic_type_System_EventArgs: never;
     readonly __tsonic_type_System_Net_Sockets_SocketAsyncEventArgs: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -878,9 +896,9 @@ export interface SocketAsyncEventArgs$instance extends EventArgs, System_Interna
     Dispose(): void;
     Finalize(): void;
     OnCompleted(e: SocketAsyncEventArgs): void;
-    SetBuffer(offset: int, count: int): void;
-    SetBuffer(buffer: byte[] | null, offset: int, count: int): void;
     SetBuffer(buffer: Memory_1<System_Internal.Byte>): void;
+    SetBuffer(buffer: byte[] | null, offset: int, count: int): void;
+    SetBuffer(offset: int, count: int): void;
 }
 
 
@@ -897,13 +915,15 @@ export interface __SocketAsyncEventArgs$views {
 export type SocketAsyncEventArgs = SocketAsyncEventArgs$instance & __SocketAsyncEventArgs$views;
 
 
-export interface SocketException$instance extends Win32Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SocketException$instance extends System_ComponentModel_Internal.Win32Exception$instance {
+    readonly __tsonic_type_System_ComponentModel_Win32Exception: never;
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Net_Sockets_SocketException: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_ExternalException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly ErrorCode: int;
-    readonly Message: string;
     readonly SocketErrorCode: SocketError;
 }
 
@@ -939,23 +959,23 @@ export interface TcpClient$instance {
     SendBufferSize: int;
     SendTimeout: int;
     BeginConnect(address: IPAddress, port: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginConnect(host: string, port: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     BeginConnect(addresses: IPAddress[], port: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginConnect(host: string, port: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     Close(): void;
-    Connect(hostname: string, port: int): void;
     Connect(address: IPAddress, port: int): void;
-    Connect(remoteEP: IPEndPoint): void;
+    Connect(hostname: string, port: int): void;
     Connect(ipAddresses: IPAddress[], port: int): void;
+    Connect(remoteEP: IPEndPoint): void;
     ConnectAsync(address: IPAddress, port: int): Task;
-    ConnectAsync(host: string, port: int): Task;
-    ConnectAsync(addresses: IPAddress[], port: int): Task;
-    ConnectAsync(remoteEP: IPEndPoint): Task;
     ConnectAsync(address: IPAddress, port: int, cancellationToken: CancellationToken): ValueTask;
-    ConnectAsync(host: string, port: int, cancellationToken: CancellationToken): ValueTask;
+    ConnectAsync(addresses: IPAddress[], port: int): Task;
     ConnectAsync(addresses: IPAddress[], port: int, cancellationToken: CancellationToken): ValueTask;
+    ConnectAsync(host: string, port: int): Task;
+    ConnectAsync(host: string, port: int, cancellationToken: CancellationToken): ValueTask;
+    ConnectAsync(remoteEP: IPEndPoint): Task;
     ConnectAsync(remoteEP: IPEndPoint, cancellationToken: CancellationToken): ValueTask;
-    Dispose(disposing: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     EndConnect(asyncResult: IAsyncResult): void;
     Finalize(): void;
     GetStream(): NetworkStream;
@@ -977,7 +997,7 @@ export interface __TcpClient$views {
 export type TcpClient = TcpClient$instance & __TcpClient$views;
 
 
-export interface TcpListener$instance extends System_Internal.IDisposable$instance {
+export interface TcpListener$instance {
     readonly __tsonic_type_System_Net_Sockets_TcpListener: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1033,38 +1053,38 @@ export interface UdpClient$instance {
     Ttl: short;
     AllowNatTraversal(allowed: boolean): void;
     BeginReceive(requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginSend(datagram: byte[], bytes: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
-    BeginSend(datagram: byte[], bytes: int, hostname: string | null, port: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     BeginSend(datagram: byte[], bytes: int, endPoint: IPEndPoint | null, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginSend(datagram: byte[], bytes: int, hostname: string | null, port: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
+    BeginSend(datagram: byte[], bytes: int, requestCallback: AsyncCallback | null, state: unknown | null): IAsyncResult;
     Close(): void;
-    Connect(hostname: string, port: int): void;
     Connect(addr: IPAddress, port: int): void;
     Connect(endPoint: IPEndPoint): void;
+    Connect(hostname: string, port: int): void;
     Dispose(): void;
     Dispose(disposing: boolean): void;
     DropMulticastGroup(multicastAddr: IPAddress): void;
     DropMulticastGroup(multicastAddr: IPAddress, ifindex: int): void;
     EndReceive(asyncResult: IAsyncResult, remoteEP: IPEndPoint | null): byte[];
     EndSend(asyncResult: IAsyncResult): int;
+    JoinMulticastGroup(ifindex: int, multicastAddr: IPAddress): void;
     JoinMulticastGroup(multicastAddr: IPAddress): void;
     JoinMulticastGroup(multicastAddr: IPAddress, localAddress: IPAddress): void;
-    JoinMulticastGroup(ifindex: int, multicastAddr: IPAddress): void;
     JoinMulticastGroup(multicastAddr: IPAddress, timeToLive: int): void;
     Receive(remoteEP: IPEndPoint | null): byte[];
     ReceiveAsync(): Task_1<UdpReceiveResult>;
     ReceiveAsync(cancellationToken: CancellationToken): ValueTask_1<UdpReceiveResult>;
-    Send(dgram: byte[], bytes: int, endPoint: IPEndPoint | null): int;
+    Send(datagram: ReadOnlySpan_1<System_Internal.Byte>): int;
     Send(datagram: ReadOnlySpan_1<System_Internal.Byte>, endPoint: IPEndPoint | null): int;
-    Send(dgram: byte[], bytes: int, hostname: string | null, port: int): int;
     Send(datagram: ReadOnlySpan_1<System_Internal.Byte>, hostname: string | null, port: int): int;
     Send(dgram: byte[], bytes: int): int;
-    Send(datagram: ReadOnlySpan_1<System_Internal.Byte>): int;
-    SendAsync(datagram: byte[], bytes: int): Task_1<System_Internal.Int32>;
+    Send(dgram: byte[], bytes: int, endPoint: IPEndPoint | null): int;
+    Send(dgram: byte[], bytes: int, hostname: string | null, port: int): int;
     SendAsync(datagram: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    SendAsync(datagram: byte[], bytes: int, hostname: string | null, port: int): Task_1<System_Internal.Int32>;
-    SendAsync(datagram: ReadOnlyMemory_1<System_Internal.Byte>, hostname: string | null, port: int, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
-    SendAsync(datagram: byte[], bytes: int, endPoint: IPEndPoint | null): Task_1<System_Internal.Int32>;
     SendAsync(datagram: ReadOnlyMemory_1<System_Internal.Byte>, endPoint: IPEndPoint | null, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    SendAsync(datagram: ReadOnlyMemory_1<System_Internal.Byte>, hostname: string | null, port: int, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    SendAsync(datagram: byte[], bytes: int): Task_1<System_Internal.Int32>;
+    SendAsync(datagram: byte[], bytes: int, endPoint: IPEndPoint | null): Task_1<System_Internal.Int32>;
+    SendAsync(datagram: byte[], bytes: int, hostname: string | null, port: int): Task_1<System_Internal.Int32>;
 }
 
 
@@ -1085,14 +1105,14 @@ export interface __UdpClient$views {
 export type UdpClient = UdpClient$instance & __UdpClient$views;
 
 
-export interface UnixDomainSocketEndPoint$instance extends EndPoint {
+export interface UnixDomainSocketEndPoint$instance extends System_Net_Internal.EndPoint$instance {
+    readonly __tsonic_type_System_Net_EndPoint: never;
     readonly __tsonic_type_System_Net_Sockets_UnixDomainSocketEndPoint: never;
 
-    readonly AddressFamily: AddressFamily;
-    Create(socketAddress: SocketAddress): EndPoint;
+    Create: System_Net_Internal.EndPoint$instance["Create"] & ((socketAddress: SocketAddress) => EndPoint);
     Equals(obj: unknown | null): boolean;
     GetHashCode(): int;
-    Serialize(): SocketAddress;
+    Serialize: System_Net_Internal.EndPoint$instance["Serialize"] & (() => SocketAddress);
     ToString(): string;
 }
 

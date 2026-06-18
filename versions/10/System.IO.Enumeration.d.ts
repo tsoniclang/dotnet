@@ -22,4 +22,6 @@ import type { AsyncCallback, Boolean as ClrBoolean, Char, DateTimeOffset, Delega
 export { FileSystemEntry as FileSystemEntry } from './System.IO.Enumeration/internal/index.js';
 export { FileSystemEnumerator_1 as FileSystemEnumerator } from './System.IO.Enumeration/internal/index.js';
 export { FileSystemEnumerable_1 as FileSystemEnumerable } from './System.IO.Enumeration/internal/index.js';
+export type FileSystemEnumerable_1_FindPredicate<TResult extends unknown> = Internal.FileSystemEnumerable_1_FindPredicate<TResult>;
+export type FileSystemEnumerable_1_FindTransform<TResult extends unknown> = Internal.FileSystemEnumerable_1_FindTransform<TResult>;
 export { FileSystemName$instance as FileSystemName } from './System.IO.Enumeration/internal/index.js';

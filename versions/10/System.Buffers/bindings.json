@@ -1919,12 +1919,12 @@
             "targetName": "CurrentSpan",
             "metadataToken": 385875995,
             "canonicalSignature": ":ReadOnlySpan_1",
-            "normalizedSignature": "CurrentSpan|:ReadOnlySpan_1|static=false|accessor=getset",
+            "normalizedSignature": "CurrentSpan|:ReadOnlySpan_1|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -1938,12 +1938,12 @@
             "targetName": "CurrentSpanIndex",
             "metadataToken": 385875996,
             "canonicalSignature": ":System.Int32",
-            "normalizedSignature": "CurrentSpanIndex|:System.Int32|static=false|accessor=getset",
+            "normalizedSignature": "CurrentSpanIndex|:System.Int32|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -1976,12 +1976,12 @@
             "targetName": "Consumed",
             "metadataToken": 385875998,
             "canonicalSignature": ":System.Int64",
-            "normalizedSignature": "Consumed|:System.Int64|static=false|accessor=getset",
+            "normalizedSignature": "Consumed|:System.Int64|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -2799,19 +2799,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool`1::.ctor():void",
-            "metadataToken": 100677742,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Buffers.ArrayPool`1",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager`1",
@@ -2905,46 +2893,6 @@
             "isOverride": false,
             "isSealed": false,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Buffers.MemoryManager`1",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager`1::CreateMemory(System.Int32):Memory_1",
-            "targetName": "CreateMemory",
-            "metadataToken": 100677772,
-            "canonicalSignature": "(System.Int32):Memory_1",
-            "normalizedSignature": "CreateMemory|(System.Int32):Memory_1|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Buffers.MemoryManager`1",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager`1::CreateMemory(System.Int32,System.Int32):Memory_1",
-            "targetName": "CreateMemory",
-            "metadataToken": 100677773,
-            "canonicalSignature": "(System.Int32,System.Int32):Memory_1",
-            "normalizedSignature": "CreateMemory|(System.Int32,System.Int32):Memory_1|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 2,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Buffers.MemoryManager`1",
             "ownerIdentity": "System.Private.CoreLib",
             "isExtensionMethod": false
@@ -3102,19 +3050,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Buffers.MemoryManager`1::.ctor():void",
-            "metadataToken": 100677777,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Buffers.MemoryManager`1",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Memory:System.Buffers.MemoryPool`1",
@@ -3268,19 +3204,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Memory:System.Buffers.MemoryPool`1::.ctor():void",
-            "metadataToken": 100663369,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Buffers.MemoryPool`1",
-            "ownerIdentity": "System.Memory"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment`1",
@@ -3307,12 +3231,12 @@
             "targetName": "Memory",
             "metadataToken": 385875988,
             "canonicalSignature": ":ReadOnlyMemory_1",
-            "normalizedSignature": "Memory|:ReadOnlyMemory_1|static=false|accessor=getset",
+            "normalizedSignature": "Memory|:ReadOnlyMemory_1|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -3326,12 +3250,12 @@
             "targetName": "Next",
             "metadataToken": 385875989,
             "canonicalSignature": ":ReadOnlySequenceSegment_1",
-            "normalizedSignature": "Next|:ReadOnlySequenceSegment_1|static=false|accessor=getset",
+            "normalizedSignature": "Next|:ReadOnlySequenceSegment_1|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -3345,12 +3269,12 @@
             "targetName": "RunningIndex",
             "metadataToken": 385875990,
             "canonicalSignature": ":System.Int64",
-            "normalizedSignature": "RunningIndex|:System.Int64|static=false|accessor=getset",
+            "normalizedSignature": "RunningIndex|:System.Int64|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -3362,19 +3286,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Memory:System.Buffers.ReadOnlySequenceSegment`1::.ctor():void",
-            "metadataToken": 100663445,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Buffers.ReadOnlySequenceSegment`1",
-            "ownerIdentity": "System.Memory"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Buffers.SearchValues`1",

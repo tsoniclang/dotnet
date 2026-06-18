@@ -329,30 +329,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::.ctor():void",
-            "metadataToken": 100663356,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
-            "ownerIdentity": "System.Net.Primitives"
-          },
-          {
-            "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBinding::.ctor(System.Boolean):void",
-            "metadataToken": 100663357,
-            "canonicalSignature": "(System.Boolean):void",
-            "normalizedSignature": "constructor|(System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Authentication.ExtendedProtection.ChannelBinding",
-            "ownerIdentity": "System.Net.Primitives"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
@@ -559,17 +536,6 @@
             "isStatic": false,
             "parameterCount": 1,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
-            "ownerIdentity": "System.Net.Security"
-          },
-          {
-            "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100664785,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy",
             "ownerIdentity": "System.Net.Security"
           }

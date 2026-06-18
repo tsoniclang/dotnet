@@ -12994,17 +12994,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Data.SqlTypes.SqlTypeException",
             "ownerIdentity": "System.Data.Common"
-          },
-          {
-            "stableId": "System.Data.Common:System.Data.SqlTypes.SqlTypeException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100668026,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Data.SqlTypes.SqlTypeException",
-            "ownerIdentity": "System.Data.Common"
           }
         ]
       },

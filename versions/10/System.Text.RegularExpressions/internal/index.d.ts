@@ -10,7 +10,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
 import type { ICollection_1, IEnumerable_1, IEnumerator_1, IList_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, IReadOnlyList_1, KeyValuePair_2 } from "../../System.Collections.Generic/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { Hashtable, ICollection, IDictionary, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
+import type { ICollection, IDictionary, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import type { CustomAttributeBuilder } from "../../System.Reflection.Emit/internal/index.js";
 import type { AssemblyName, MethodBase, MethodInfo } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
@@ -18,55 +18,59 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { ArgumentException, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Char, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, Range, ReadOnlySpan_1, String as ClrString, TimeoutException, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum RegexOptions {
-    None = 0,
-    IgnoreCase = 1,
-    Multiline = 2,
-    ExplicitCapture = 4,
-    Compiled = 8,
-    Singleline = 16,
-    IgnorePatternWhitespace = 32,
-    RightToLeft = 64,
-    ECMAScript = 256,
-    CultureInvariant = 512,
-    NonBacktracking = 1024
-}
+export type RegexOptions = number & { readonly __tsonic_type_System_Text_RegularExpressions_RegexOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RegexOptions: {
+    readonly None: RegexOptions;
+    readonly IgnoreCase: RegexOptions;
+    readonly Multiline: RegexOptions;
+    readonly ExplicitCapture: RegexOptions;
+    readonly Compiled: RegexOptions;
+    readonly Singleline: RegexOptions;
+    readonly IgnorePatternWhitespace: RegexOptions;
+    readonly RightToLeft: RegexOptions;
+    readonly ECMAScript: RegexOptions;
+    readonly CultureInvariant: RegexOptions;
+    readonly NonBacktracking: RegexOptions;
+};
 
 
-export enum RegexParseError {
-    Unknown = 0,
-    AlternationHasTooManyConditions = 1,
-    AlternationHasMalformedCondition = 2,
-    InvalidUnicodePropertyEscape = 3,
-    MalformedUnicodePropertyEscape = 4,
-    UnrecognizedEscape = 5,
-    UnrecognizedControlCharacter = 6,
-    MissingControlCharacter = 7,
-    InsufficientOrInvalidHexDigits = 8,
-    QuantifierOrCaptureGroupOutOfRange = 9,
-    UndefinedNamedReference = 10,
-    UndefinedNumberedReference = 11,
-    MalformedNamedReference = 12,
-    UnescapedEndingBackslash = 13,
-    UnterminatedComment = 14,
-    InvalidGroupingConstruct = 15,
-    AlternationHasNamedCapture = 16,
-    AlternationHasComment = 17,
-    AlternationHasMalformedReference = 18,
-    AlternationHasUndefinedReference = 19,
-    CaptureGroupNameInvalid = 20,
-    CaptureGroupOfZero = 21,
-    UnterminatedBracket = 22,
-    ExclusionGroupNotLast = 23,
-    ReversedCharacterRange = 24,
-    ShorthandClassInCharacterRange = 25,
-    InsufficientClosingParentheses = 26,
-    ReversedQuantifierRange = 27,
-    NestedQuantifiersNotParenthesized = 28,
-    QuantifierAfterNothing = 29,
-    InsufficientOpeningParentheses = 30,
-    UnrecognizedUnicodeProperty = 31
-}
+export type RegexParseError = number & { readonly __tsonic_type_System_Text_RegularExpressions_RegexParseError: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const RegexParseError: {
+    readonly Unknown: RegexParseError;
+    readonly AlternationHasTooManyConditions: RegexParseError;
+    readonly AlternationHasMalformedCondition: RegexParseError;
+    readonly InvalidUnicodePropertyEscape: RegexParseError;
+    readonly MalformedUnicodePropertyEscape: RegexParseError;
+    readonly UnrecognizedEscape: RegexParseError;
+    readonly UnrecognizedControlCharacter: RegexParseError;
+    readonly MissingControlCharacter: RegexParseError;
+    readonly InsufficientOrInvalidHexDigits: RegexParseError;
+    readonly QuantifierOrCaptureGroupOutOfRange: RegexParseError;
+    readonly UndefinedNamedReference: RegexParseError;
+    readonly UndefinedNumberedReference: RegexParseError;
+    readonly MalformedNamedReference: RegexParseError;
+    readonly UnescapedEndingBackslash: RegexParseError;
+    readonly UnterminatedComment: RegexParseError;
+    readonly InvalidGroupingConstruct: RegexParseError;
+    readonly AlternationHasNamedCapture: RegexParseError;
+    readonly AlternationHasComment: RegexParseError;
+    readonly AlternationHasMalformedReference: RegexParseError;
+    readonly AlternationHasUndefinedReference: RegexParseError;
+    readonly CaptureGroupNameInvalid: RegexParseError;
+    readonly CaptureGroupOfZero: RegexParseError;
+    readonly UnterminatedBracket: RegexParseError;
+    readonly ExclusionGroupNotLast: RegexParseError;
+    readonly ReversedCharacterRange: RegexParseError;
+    readonly ShorthandClassInCharacterRange: RegexParseError;
+    readonly InsufficientClosingParentheses: RegexParseError;
+    readonly ReversedQuantifierRange: RegexParseError;
+    readonly NestedQuantifiersNotParenthesized: RegexParseError;
+    readonly QuantifierAfterNothing: RegexParseError;
+    readonly InsufficientOpeningParentheses: RegexParseError;
+    readonly UnrecognizedUnicodeProperty: RegexParseError;
+};
 
 
 export type MatchEvaluator = (match: Match) => string;
@@ -74,6 +78,7 @@ export type MatchEvaluator = (match: Match) => string;
 
 export interface ValueMatch$instance {
     readonly __tsonic_type_System_Text_RegularExpressions_ValueMatch: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Index: int;
     readonly Length: int;
@@ -90,8 +95,8 @@ export type ValueMatch = ValueMatch$instance;
 export interface Capture$instance {
     readonly __tsonic_type_System_Text_RegularExpressions_Capture: never;
 
-    Index: int;
-    Length: int;
+    readonly Index: int;
+    readonly Length: int;
     readonly Value: string;
     readonly ValueSpan: ReadOnlySpan_1<System_Internal.Char>;
     ToString(): string;
@@ -120,8 +125,8 @@ export interface CaptureCollection$instance {
     readonly IsReadOnly: boolean;
     readonly IsSynchronized: boolean;
     readonly SyncRoot: unknown;
-    CopyTo(array: ClrArray, arrayIndex: int): void;
     CopyTo(array: Capture[], arrayIndex: int): void;
+    CopyTo(array: ClrArray, arrayIndex: int): void;
     GetEnumerator(): IEnumerator;
 }
 
@@ -143,7 +148,8 @@ export interface __CaptureCollection$views {
 export type CaptureCollection = CaptureCollection$instance & __CaptureCollection$views & { readonly [i: number]: Capture; };
 
 
-export interface GeneratedRegexAttribute$instance extends Attribute {
+export interface GeneratedRegexAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Text_RegularExpressions_GeneratedRegexAttribute: never;
 
     readonly CultureName: string;
@@ -164,7 +170,8 @@ export const GeneratedRegexAttribute: {
 
 export type GeneratedRegexAttribute = GeneratedRegexAttribute$instance;
 
-export interface Group$instance extends Capture {
+export interface Group$instance extends Capture$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_Capture: never;
     readonly __tsonic_type_System_Text_RegularExpressions_Group: never;
 
     readonly Captures: CaptureCollection;
@@ -202,8 +209,8 @@ export interface GroupCollection$instance {
     ContainsKey(key: string): boolean;
     CopyTo(array: ClrArray, arrayIndex: int): void;
     CopyTo(array: Group[], arrayIndex: int): void;
-    get_Item(groupnum: int): Group;
     get_Item(groupname: string): Group;
+    get_Item(groupnum: int): Group;
     GetEnumerator(): IEnumerator;
     TryGetValue(key: string, value: Group | null): boolean;
 }
@@ -227,7 +234,9 @@ export interface __GroupCollection$views {
 export type GroupCollection = GroupCollection$instance & __GroupCollection$views;
 
 
-export interface Match$instance extends Group {
+export interface Match$instance extends Group$instance {
+    readonly __tsonic_type_System_Text_RegularExpressions_Capture: never;
+    readonly __tsonic_type_System_Text_RegularExpressions_Group: never;
     readonly __tsonic_type_System_Text_RegularExpressions_Match: never;
 
     readonly Groups: GroupCollection;
@@ -282,7 +291,7 @@ export interface __MatchCollection$views {
 export type MatchCollection = MatchCollection$instance & __MatchCollection$views & { readonly [i: number]: Match; };
 
 
-export interface Regex$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface Regex$instance {
     readonly __tsonic_type_System_Text_RegularExpressions_Regex: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -290,9 +299,9 @@ export interface Regex$instance extends System_Runtime_Serialization_Internal.IS
     readonly MatchTimeout: TimeSpan;
     readonly Options: RegexOptions;
     readonly RightToLeft: boolean;
-    Count(input: string): int;
     Count(input: ReadOnlySpan_1<System_Internal.Char>): int;
     Count(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): int;
+    Count(input: string): int;
     EnumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>): Regex_ValueMatchEnumerator;
     EnumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): Regex_ValueMatchEnumerator;
     EnumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>): Regex_ValueSplitEnumerator;
@@ -302,21 +311,21 @@ export interface Regex$instance extends System_Runtime_Serialization_Internal.IS
     GetGroupNumbers(): int[];
     GroupNameFromNumber(i: int): string;
     GroupNumberFromName(name: string): int;
-    IsMatch(input: string): boolean;
-    IsMatch(input: string, startat: int): boolean;
     IsMatch(input: ReadOnlySpan_1<System_Internal.Char>): boolean;
     IsMatch(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): boolean;
+    IsMatch(input: string): boolean;
+    IsMatch(input: string, startat: int): boolean;
     Match(input: string): Match;
-    Match(input: string, startat: int): Match;
     Match(input: string, beginning: int, length: int): Match;
+    Match(input: string, startat: int): Match;
     Matches(input: string): MatchCollection;
     Matches(input: string, startat: int): MatchCollection;
-    Replace(input: string, replacement: string): string;
-    Replace(input: string, replacement: string, count: int): string;
-    Replace(input: string, replacement: string, count: int, startat: int): string;
     Replace(input: string, evaluator: MatchEvaluator): string;
     Replace(input: string, evaluator: MatchEvaluator, count: int): string;
     Replace(input: string, evaluator: MatchEvaluator, count: int, startat: int): string;
+    Replace(input: string, replacement: string): string;
+    Replace(input: string, replacement: string, count: int): string;
+    Replace(input: string, replacement: string, count: int, startat: int): string;
     Split(input: string): string[];
     Split(input: string, count: int): string[];
     Split(input: string, count: int, startat: int): string[];
@@ -368,7 +377,6 @@ export const Regex: {
     Split(input: string, pattern: string, options: RegexOptions): string[];
     Split(input: string, pattern: string): string[];
     Unescape(str: string): string;
-    ValidateMatchTimeout(matchTimeout: TimeSpan): void;
 };
 
 
@@ -379,8 +387,9 @@ export interface __Regex$views {
 export type Regex = Regex$instance & __Regex$views;
 
 
-export interface Regex_ValueMatchEnumerator$instance extends IEnumerator_1<ValueMatch> {
+export interface Regex_ValueMatchEnumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<ValueMatch> {
     readonly __tsonic_type_System_Text_RegularExpressions_Regex_ValueMatchEnumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -400,8 +409,9 @@ export const Regex_ValueMatchEnumerator: {
 
 export type Regex_ValueMatchEnumerator = Regex_ValueMatchEnumerator$instance;
 
-export interface Regex_ValueSplitEnumerator$instance extends IEnumerator_1<Range> {
+export interface Regex_ValueSplitEnumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<Range> {
     readonly __tsonic_type_System_Text_RegularExpressions_Regex_ValueSplitEnumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -441,8 +451,11 @@ export const RegexCompilationInfo: {
 
 export type RegexCompilationInfo = RegexCompilationInfo$instance;
 
-export interface RegexMatchTimeoutException$instance extends TimeoutException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface RegexMatchTimeoutException$instance extends System_Internal.TimeoutException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_SystemException: never;
     readonly __tsonic_type_System_Text_RegularExpressions_RegexMatchTimeoutException: never;
+    readonly __tsonic_type_System_TimeoutException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -467,14 +480,17 @@ export interface __RegexMatchTimeoutException$views {
 export type RegexMatchTimeoutException = RegexMatchTimeoutException$instance & __RegexMatchTimeoutException$views;
 
 
-export interface RegexParseException$instance extends ArgumentException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface RegexParseException$instance extends System_Internal.ArgumentException$instance {
+    readonly __tsonic_type_System_ArgumentException: never;
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_SystemException: never;
     readonly __tsonic_type_System_Text_RegularExpressions_RegexParseException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly Error: RegexParseError;
     readonly Offset: int;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData: System_Internal.ArgumentException$instance["GetObjectData"] & ((info: SerializationInfo, context: StreamingContext) => void);
 }
 
 
@@ -499,9 +515,8 @@ export interface RegexRunner$instance {
 }
 
 
-export const RegexRunner: (abstract new() => RegexRunner) & {
+export const RegexRunner: {
     CharInClass(ch: char, charClass: string): boolean;
-    CharInSet(ch: char, set: string, category: string): boolean;
 };
 
 
@@ -514,7 +529,7 @@ export interface RegexRunnerFactory$instance {
 }
 
 
-export const RegexRunnerFactory: (abstract new() => RegexRunnerFactory) & {
+export const RegexRunnerFactory: {
 };
 
 

@@ -12,45 +12,50 @@ import type { Vector128_1, Vector64_1 } from "../../System.Runtime.Intrinsics/in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Double, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueTuple_2, ValueTuple_3, ValueTuple_4, Void } from "../../System/internal/index.js";
 
-export enum SveMaskPattern {
-    LargestPowerOf2 = 0,
-    VectorCount1 = 1,
-    VectorCount2 = 2,
-    VectorCount3 = 3,
-    VectorCount4 = 4,
-    VectorCount5 = 5,
-    VectorCount6 = 6,
-    VectorCount7 = 7,
-    VectorCount8 = 8,
-    VectorCount16 = 9,
-    VectorCount32 = 10,
-    VectorCount64 = 11,
-    VectorCount128 = 12,
-    VectorCount256 = 13,
-    LargestMultipleOf4 = 29,
-    LargestMultipleOf3 = 30,
-    All = 31
-}
+export type SveMaskPattern = number & { readonly __tsonic_type_System_Runtime_Intrinsics_Arm_SveMaskPattern: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SveMaskPattern: {
+    readonly LargestPowerOf2: SveMaskPattern;
+    readonly VectorCount1: SveMaskPattern;
+    readonly VectorCount2: SveMaskPattern;
+    readonly VectorCount3: SveMaskPattern;
+    readonly VectorCount4: SveMaskPattern;
+    readonly VectorCount5: SveMaskPattern;
+    readonly VectorCount6: SveMaskPattern;
+    readonly VectorCount7: SveMaskPattern;
+    readonly VectorCount8: SveMaskPattern;
+    readonly VectorCount16: SveMaskPattern;
+    readonly VectorCount32: SveMaskPattern;
+    readonly VectorCount64: SveMaskPattern;
+    readonly VectorCount128: SveMaskPattern;
+    readonly VectorCount256: SveMaskPattern;
+    readonly LargestMultipleOf4: SveMaskPattern;
+    readonly LargestMultipleOf3: SveMaskPattern;
+    readonly All: SveMaskPattern;
+};
 
 
-export enum SvePrefetchType {
-    LoadL1Temporal = 0,
-    LoadL1NonTemporal = 1,
-    LoadL2Temporal = 2,
-    LoadL2NonTemporal = 3,
-    LoadL3Temporal = 4,
-    LoadL3NonTemporal = 5,
-    StoreL1Temporal = 8,
-    StoreL1NonTemporal = 9,
-    StoreL2Temporal = 10,
-    StoreL2NonTemporal = 11,
-    StoreL3Temporal = 12,
-    StoreL3NonTemporal = 13
-}
+export type SvePrefetchType = number & { readonly __tsonic_type_System_Runtime_Intrinsics_Arm_SvePrefetchType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SvePrefetchType: {
+    readonly LoadL1Temporal: SvePrefetchType;
+    readonly LoadL1NonTemporal: SvePrefetchType;
+    readonly LoadL2Temporal: SvePrefetchType;
+    readonly LoadL2NonTemporal: SvePrefetchType;
+    readonly LoadL3Temporal: SvePrefetchType;
+    readonly LoadL3NonTemporal: SvePrefetchType;
+    readonly StoreL1Temporal: SvePrefetchType;
+    readonly StoreL1NonTemporal: SvePrefetchType;
+    readonly StoreL2Temporal: SvePrefetchType;
+    readonly StoreL2NonTemporal: SvePrefetchType;
+    readonly StoreL3Temporal: SvePrefetchType;
+    readonly StoreL3NonTemporal: SvePrefetchType;
+};
 
 
 export interface AdvSimd$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase: never;
 
 }
 
@@ -1832,8 +1837,9 @@ export const AdvSimd: {
 
 export type AdvSimd = AdvSimd$instance;
 
-export interface AdvSimd_Arm64$instance extends ArmBase_Arm64 {
+export interface AdvSimd_Arm64$instance extends ArmBase_Arm64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd_Arm64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase_Arm64: never;
 
 }
 
@@ -2704,6 +2710,7 @@ export type AdvSimd_Arm64 = AdvSimd_Arm64$instance;
 
 export interface Aes$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Aes: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase: never;
 
 }
 
@@ -2723,8 +2730,9 @@ export const Aes: {
 
 export type Aes = Aes$instance;
 
-export interface Aes_Arm64$instance extends ArmBase_Arm64 {
+export interface Aes_Arm64$instance extends ArmBase_Arm64$instance {
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Aes_Arm64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase_Arm64: never;
 
 }
 
@@ -2776,6 +2784,7 @@ export const ArmBase_Arm64: {
 export type ArmBase_Arm64 = ArmBase_Arm64$instance;
 
 export interface Crc32$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Crc32: never;
 
 }
@@ -2794,7 +2803,8 @@ export const Crc32: {
 
 export type Crc32 = Crc32$instance;
 
-export interface Crc32_Arm64$instance extends ArmBase_Arm64 {
+export interface Crc32_Arm64$instance extends ArmBase_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase_Arm64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Crc32_Arm64: never;
 
 }
@@ -2810,6 +2820,8 @@ export const Crc32_Arm64: {
 export type Crc32_Arm64 = Crc32_Arm64$instance;
 
 export interface Dp$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Dp: never;
 
 }
@@ -2834,7 +2846,9 @@ export const Dp: {
 
 export type Dp = Dp$instance;
 
-export interface Dp_Arm64$instance extends AdvSimd_Arm64 {
+export interface Dp_Arm64$instance extends AdvSimd_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd_Arm64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase_Arm64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Dp_Arm64: never;
 
 }
@@ -2848,6 +2862,8 @@ export const Dp_Arm64: {
 export type Dp_Arm64 = Dp_Arm64$instance;
 
 export interface Rdm$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Rdm: never;
 
 }
@@ -2884,7 +2900,9 @@ export const Rdm: {
 
 export type Rdm = Rdm$instance;
 
-export interface Rdm_Arm64$instance extends AdvSimd_Arm64 {
+export interface Rdm_Arm64$instance extends AdvSimd_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd_Arm64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase_Arm64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Rdm_Arm64: never;
 
 }
@@ -2910,6 +2928,7 @@ export const Rdm_Arm64: {
 export type Rdm_Arm64 = Rdm_Arm64$instance;
 
 export interface Sha1$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sha1: never;
 
 }
@@ -2928,7 +2947,8 @@ export const Sha1: {
 
 export type Sha1 = Sha1$instance;
 
-export interface Sha1_Arm64$instance extends ArmBase_Arm64 {
+export interface Sha1_Arm64$instance extends ArmBase_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase_Arm64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sha1_Arm64: never;
 
 }
@@ -2942,6 +2962,7 @@ export const Sha1_Arm64: {
 export type Sha1_Arm64 = Sha1_Arm64$instance;
 
 export interface Sha256$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sha256: never;
 
 }
@@ -2958,7 +2979,8 @@ export const Sha256: {
 
 export type Sha256 = Sha256$instance;
 
-export interface Sha256_Arm64$instance extends ArmBase_Arm64 {
+export interface Sha256_Arm64$instance extends ArmBase_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase_Arm64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sha256_Arm64: never;
 
 }
@@ -2972,6 +2994,8 @@ export const Sha256_Arm64: {
 export type Sha256_Arm64 = Sha256_Arm64$instance;
 
 export interface Sve$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve: never;
 
 }
@@ -4469,7 +4493,9 @@ export const Sve: {
 
 export type Sve = Sve$instance;
 
-export interface Sve_Arm64$instance extends AdvSimd_Arm64 {
+export interface Sve_Arm64$instance extends AdvSimd_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd_Arm64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase_Arm64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve_Arm64: never;
 
 }
@@ -4483,6 +4509,9 @@ export const Sve_Arm64: {
 export type Sve_Arm64 = Sve_Arm64$instance;
 
 export interface Sve2$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve2: never;
 
 }
@@ -5140,7 +5169,10 @@ export const Sve2: {
 
 export type Sve2 = Sve2$instance;
 
-export interface Sve2_Arm64$instance extends Sve_Arm64 {
+export interface Sve2_Arm64$instance extends Sve_Arm64$instance {
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_AdvSimd_Arm64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_ArmBase_Arm64: never;
+    readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve_Arm64: never;
     readonly __tsonic_type_System_Runtime_Intrinsics_Arm_Sve2_Arm64: never;
 
 }

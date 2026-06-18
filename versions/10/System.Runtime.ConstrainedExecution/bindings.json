@@ -236,19 +236,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.CriticalFinalizerObject::.ctor():void",
-            "metadataToken": 100682742,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Runtime.ConstrainedExecution.CriticalFinalizerObject",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute",

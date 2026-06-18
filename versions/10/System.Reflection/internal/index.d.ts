@@ -17,355 +17,407 @@ import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Ser
 import type { IDeserializationCallback, IObjectReference, ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import type { SecurityRuleSet } from "../../System.Security/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { ApplicationException, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Delegate, Enum, Exception, FormatException, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, ModuleHandle, MulticastDelegate, Object as ClrObject, ResolveEventArgs, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, Span_1, String as ClrString, SystemException, Type, TypeCode, TypedReference, UInt32, ValueType, Version, Void } from "../../System/internal/index.js";
+import type { ApplicationException, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, ConsoleKeyInfo, Delegate, Enum, Exception, FormatException, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, ModuleHandle, MulticastDelegate, Object as ClrObject, ResolveEventArgs, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, Span_1, String as ClrString, SystemException, Type, TypeCode, TypedReference, UInt32, ValueType, Version, Void } from "../../System/internal/index.js";
 
-export enum AssemblyContentType {
-    Default = 0,
-    WindowsRuntime = 1
-}
+export type AssemblyContentType = number & { readonly __tsonic_type_System_Reflection_AssemblyContentType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum AssemblyFlags {
-    PublicKey = 1,
-    Retargetable = 256,
-    WindowsRuntime = 512,
-    ContentTypeMask = 3584,
-    DisableJitCompileOptimizer = 16384,
-    EnableJitCompileTracking = 32768
-}
+export const AssemblyContentType: {
+    readonly Default: AssemblyContentType;
+    readonly WindowsRuntime: AssemblyContentType;
+};
 
 
-export enum AssemblyHashAlgorithm {
-    None = 0,
-    MD5 = 32771,
-    Sha1 = 32772,
-    Sha256 = 32780,
-    Sha384 = 32781,
-    Sha512 = 32782
-}
+export type AssemblyFlags = number & { readonly __tsonic_type_System_Reflection_AssemblyFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const AssemblyFlags: {
+    readonly PublicKey: AssemblyFlags;
+    readonly Retargetable: AssemblyFlags;
+    readonly WindowsRuntime: AssemblyFlags;
+    readonly ContentTypeMask: AssemblyFlags;
+    readonly DisableJitCompileOptimizer: AssemblyFlags;
+    readonly EnableJitCompileTracking: AssemblyFlags;
+};
 
 
-export enum AssemblyNameFlags {
-    None = 0,
-    PublicKey = 1,
-    EnableJITcompileOptimizer = 16384,
-    EnableJITcompileTracking = 32768,
-    Retargetable = 256
-}
+export type AssemblyHashAlgorithm = number & { readonly __tsonic_type_System_Reflection_AssemblyHashAlgorithm: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const AssemblyHashAlgorithm: {
+    readonly None: AssemblyHashAlgorithm;
+    readonly MD5: AssemblyHashAlgorithm;
+    readonly Sha1: AssemblyHashAlgorithm;
+    readonly Sha256: AssemblyHashAlgorithm;
+    readonly Sha384: AssemblyHashAlgorithm;
+    readonly Sha512: AssemblyHashAlgorithm;
+};
 
 
-export enum BindingFlags {
-    Default = 0,
-    IgnoreCase = 1,
-    DeclaredOnly = 2,
-    Instance = 4,
-    Static = 8,
-    Public = 16,
-    NonPublic = 32,
-    FlattenHierarchy = 64,
-    InvokeMethod = 256,
-    CreateInstance = 512,
-    GetField = 1024,
-    SetField = 2048,
-    GetProperty = 4096,
-    SetProperty = 8192,
-    PutDispProperty = 16384,
-    PutRefDispProperty = 32768,
-    ExactBinding = 65536,
-    SuppressChangeType = 131072,
-    OptionalParamBinding = 262144,
-    IgnoreReturn = 16777216,
-    DoNotWrapExceptions = 33554432
-}
+export type AssemblyNameFlags = number & { readonly __tsonic_type_System_Reflection_AssemblyNameFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const AssemblyNameFlags: {
+    readonly None: AssemblyNameFlags;
+    readonly PublicKey: AssemblyNameFlags;
+    readonly EnableJITcompileOptimizer: AssemblyNameFlags;
+    readonly EnableJITcompileTracking: AssemblyNameFlags;
+    readonly Retargetable: AssemblyNameFlags;
+};
 
 
-export enum CallingConventions {
-    Standard = 1,
-    VarArgs = 2,
-    Any = 3,
-    HasThis = 32,
-    ExplicitThis = 64
-}
+export type BindingFlags = number & { readonly __tsonic_type_System_Reflection_BindingFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const BindingFlags: {
+    readonly Default: BindingFlags;
+    readonly IgnoreCase: BindingFlags;
+    readonly DeclaredOnly: BindingFlags;
+    readonly Instance: BindingFlags;
+    readonly Static: BindingFlags;
+    readonly Public: BindingFlags;
+    readonly NonPublic: BindingFlags;
+    readonly FlattenHierarchy: BindingFlags;
+    readonly InvokeMethod: BindingFlags;
+    readonly CreateInstance: BindingFlags;
+    readonly GetField: BindingFlags;
+    readonly SetField: BindingFlags;
+    readonly GetProperty: BindingFlags;
+    readonly SetProperty: BindingFlags;
+    readonly PutDispProperty: BindingFlags;
+    readonly PutRefDispProperty: BindingFlags;
+    readonly ExactBinding: BindingFlags;
+    readonly SuppressChangeType: BindingFlags;
+    readonly OptionalParamBinding: BindingFlags;
+    readonly IgnoreReturn: BindingFlags;
+    readonly DoNotWrapExceptions: BindingFlags;
+};
 
 
-export enum DeclarativeSecurityAction {
-    None = 0,
-    Demand = 2,
-    Assert = 3,
-    Deny = 4,
-    PermitOnly = 5,
-    LinkDemand = 6,
-    InheritanceDemand = 7,
-    RequestMinimum = 8,
-    RequestOptional = 9,
-    RequestRefuse = 10
-}
+export type CallingConventions = number & { readonly __tsonic_type_System_Reflection_CallingConventions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CallingConventions: {
+    readonly Standard: CallingConventions;
+    readonly VarArgs: CallingConventions;
+    readonly Any: CallingConventions;
+    readonly HasThis: CallingConventions;
+    readonly ExplicitThis: CallingConventions;
+};
 
 
-export enum EventAttributes {
-    None = 0,
-    SpecialName = 512,
-    RTSpecialName = 1024,
-    ReservedMask = 1024
-}
+export type DeclarativeSecurityAction = number & { readonly __tsonic_type_System_Reflection_DeclarativeSecurityAction: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DeclarativeSecurityAction: {
+    readonly None: DeclarativeSecurityAction;
+    readonly Demand: DeclarativeSecurityAction;
+    readonly Assert: DeclarativeSecurityAction;
+    readonly Deny: DeclarativeSecurityAction;
+    readonly PermitOnly: DeclarativeSecurityAction;
+    readonly LinkDemand: DeclarativeSecurityAction;
+    readonly InheritanceDemand: DeclarativeSecurityAction;
+    readonly RequestMinimum: DeclarativeSecurityAction;
+    readonly RequestOptional: DeclarativeSecurityAction;
+    readonly RequestRefuse: DeclarativeSecurityAction;
+};
 
 
-export enum ExceptionHandlingClauseOptions {
-    Clause = 0,
-    Filter = 1,
-    Finally = 2,
-    Fault = 4
-}
+export type EventAttributes = number & { readonly __tsonic_type_System_Reflection_EventAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const EventAttributes: {
+    readonly None: EventAttributes;
+    readonly SpecialName: EventAttributes;
+    readonly RTSpecialName: EventAttributes;
+    readonly ReservedMask: EventAttributes;
+};
 
 
-export enum FieldAttributes {
-    FieldAccessMask = 7,
-    PrivateScope = 0,
-    Private = 1,
-    FamANDAssem = 2,
-    Assembly = 3,
-    Family = 4,
-    FamORAssem = 5,
-    Public = 6,
-    Static = 16,
-    InitOnly = 32,
-    Literal = 64,
-    NotSerialized = 128,
-    SpecialName = 512,
-    PinvokeImpl = 8192,
-    RTSpecialName = 1024,
-    HasFieldMarshal = 4096,
-    HasDefault = 32768,
-    HasFieldRVA = 256,
-    ReservedMask = 38144
-}
+export type ExceptionHandlingClauseOptions = number & { readonly __tsonic_type_System_Reflection_ExceptionHandlingClauseOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ExceptionHandlingClauseOptions: {
+    readonly Clause: ExceptionHandlingClauseOptions;
+    readonly Filter: ExceptionHandlingClauseOptions;
+    readonly Finally: ExceptionHandlingClauseOptions;
+    readonly Fault: ExceptionHandlingClauseOptions;
+};
 
 
-export enum GenericParameterAttributes {
-    None = 0,
-    VarianceMask = 3,
-    Covariant = 1,
-    Contravariant = 2,
-    SpecialConstraintMask = 28,
-    ReferenceTypeConstraint = 4,
-    NotNullableValueTypeConstraint = 8,
-    DefaultConstructorConstraint = 16,
-    AllowByRefLike = 32
-}
+export type FieldAttributes = number & { readonly __tsonic_type_System_Reflection_FieldAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const FieldAttributes: {
+    readonly FieldAccessMask: FieldAttributes;
+    readonly PrivateScope: FieldAttributes;
+    readonly Private: FieldAttributes;
+    readonly FamANDAssem: FieldAttributes;
+    readonly Assembly: FieldAttributes;
+    readonly Family: FieldAttributes;
+    readonly FamORAssem: FieldAttributes;
+    readonly Public: FieldAttributes;
+    readonly Static: FieldAttributes;
+    readonly InitOnly: FieldAttributes;
+    readonly Literal: FieldAttributes;
+    readonly NotSerialized: FieldAttributes;
+    readonly SpecialName: FieldAttributes;
+    readonly PinvokeImpl: FieldAttributes;
+    readonly RTSpecialName: FieldAttributes;
+    readonly HasFieldMarshal: FieldAttributes;
+    readonly HasDefault: FieldAttributes;
+    readonly HasFieldRVA: FieldAttributes;
+    readonly ReservedMask: FieldAttributes;
+};
 
 
-export enum ImageFileMachine {
-    I386 = 332,
-    IA64 = 512,
-    AMD64 = 34404,
-    ARM = 452
-}
+export type GenericParameterAttributes = number & { readonly __tsonic_type_System_Reflection_GenericParameterAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const GenericParameterAttributes: {
+    readonly None: GenericParameterAttributes;
+    readonly VarianceMask: GenericParameterAttributes;
+    readonly Covariant: GenericParameterAttributes;
+    readonly Contravariant: GenericParameterAttributes;
+    readonly SpecialConstraintMask: GenericParameterAttributes;
+    readonly ReferenceTypeConstraint: GenericParameterAttributes;
+    readonly NotNullableValueTypeConstraint: GenericParameterAttributes;
+    readonly DefaultConstructorConstraint: GenericParameterAttributes;
+    readonly AllowByRefLike: GenericParameterAttributes;
+};
 
 
-export enum ManifestResourceAttributes {
-    Public = 1,
-    Private = 2,
-    VisibilityMask = 7
-}
+export type ImageFileMachine = number & { readonly __tsonic_type_System_Reflection_ImageFileMachine: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ImageFileMachine: {
+    readonly I386: ImageFileMachine;
+    readonly IA64: ImageFileMachine;
+    readonly AMD64: ImageFileMachine;
+    readonly ARM: ImageFileMachine;
+};
 
 
-export enum MemberTypes {
-    Constructor = 1,
-    Event = 2,
-    Field = 4,
-    Method = 8,
-    Property = 16,
-    TypeInfo = 32,
-    Custom = 64,
-    NestedType = 128,
-    All = 191
-}
+export type ManifestResourceAttributes = number & { readonly __tsonic_type_System_Reflection_ManifestResourceAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ManifestResourceAttributes: {
+    readonly Public: ManifestResourceAttributes;
+    readonly Private: ManifestResourceAttributes;
+    readonly VisibilityMask: ManifestResourceAttributes;
+};
 
 
-export enum MethodAttributes {
-    MemberAccessMask = 7,
-    PrivateScope = 0,
-    Private = 1,
-    FamANDAssem = 2,
-    Assembly = 3,
-    Family = 4,
-    FamORAssem = 5,
-    Public = 6,
-    Static = 16,
-    Final = 32,
-    Virtual = 64,
-    HideBySig = 128,
-    CheckAccessOnOverride = 512,
-    VtableLayoutMask = 256,
-    ReuseSlot = 0,
-    NewSlot = 256,
-    Abstract = 1024,
-    SpecialName = 2048,
-    PinvokeImpl = 8192,
-    UnmanagedExport = 8,
-    RTSpecialName = 4096,
-    HasSecurity = 16384,
-    RequireSecObject = 32768,
-    ReservedMask = 53248
-}
+export type MemberTypes = number & { readonly __tsonic_type_System_Reflection_MemberTypes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MemberTypes: {
+    readonly Constructor: MemberTypes;
+    readonly Event: MemberTypes;
+    readonly Field: MemberTypes;
+    readonly Method: MemberTypes;
+    readonly Property: MemberTypes;
+    readonly TypeInfo: MemberTypes;
+    readonly Custom: MemberTypes;
+    readonly NestedType: MemberTypes;
+    readonly All: MemberTypes;
+};
 
 
-export enum MethodImplAttributes {
-    CodeTypeMask = 3,
-    IL = 0,
-    Native = 1,
-    OPTIL = 2,
-    Runtime = 3,
-    ManagedMask = 4,
-    Unmanaged = 4,
-    Managed = 0,
-    ForwardRef = 16,
-    PreserveSig = 128,
-    InternalCall = 4096,
-    Synchronized = 32,
-    NoInlining = 8,
-    AggressiveInlining = 256,
-    NoOptimization = 64,
-    AggressiveOptimization = 512,
-    Async = 8192,
-    MaxMethodImplVal = 65535
-}
+export type MethodAttributes = number & { readonly __tsonic_type_System_Reflection_MethodAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MethodAttributes: {
+    readonly MemberAccessMask: MethodAttributes;
+    readonly PrivateScope: MethodAttributes;
+    readonly Private: MethodAttributes;
+    readonly FamANDAssem: MethodAttributes;
+    readonly Assembly: MethodAttributes;
+    readonly Family: MethodAttributes;
+    readonly FamORAssem: MethodAttributes;
+    readonly Public: MethodAttributes;
+    readonly Static: MethodAttributes;
+    readonly Final: MethodAttributes;
+    readonly Virtual: MethodAttributes;
+    readonly HideBySig: MethodAttributes;
+    readonly CheckAccessOnOverride: MethodAttributes;
+    readonly VtableLayoutMask: MethodAttributes;
+    readonly ReuseSlot: MethodAttributes;
+    readonly NewSlot: MethodAttributes;
+    readonly Abstract: MethodAttributes;
+    readonly SpecialName: MethodAttributes;
+    readonly PinvokeImpl: MethodAttributes;
+    readonly UnmanagedExport: MethodAttributes;
+    readonly RTSpecialName: MethodAttributes;
+    readonly HasSecurity: MethodAttributes;
+    readonly RequireSecObject: MethodAttributes;
+    readonly ReservedMask: MethodAttributes;
+};
 
 
-export enum MethodImportAttributes {
-    None = 0,
-    ExactSpelling = 1,
-    BestFitMappingDisable = 32,
-    BestFitMappingEnable = 16,
-    BestFitMappingMask = 48,
-    CharSetAnsi = 2,
-    CharSetUnicode = 4,
-    CharSetAuto = 6,
-    CharSetMask = 6,
-    ThrowOnUnmappableCharEnable = 4096,
-    ThrowOnUnmappableCharDisable = 8192,
-    ThrowOnUnmappableCharMask = 12288,
-    SetLastError = 64,
-    CallingConventionWinApi = 256,
-    CallingConventionCDecl = 512,
-    CallingConventionStdCall = 768,
-    CallingConventionThisCall = 1024,
-    CallingConventionFastCall = 1280,
-    CallingConventionMask = 1792
-}
+export type MethodImplAttributes = number & { readonly __tsonic_type_System_Reflection_MethodImplAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MethodImplAttributes: {
+    readonly CodeTypeMask: MethodImplAttributes;
+    readonly IL: MethodImplAttributes;
+    readonly Native: MethodImplAttributes;
+    readonly OPTIL: MethodImplAttributes;
+    readonly Runtime: MethodImplAttributes;
+    readonly ManagedMask: MethodImplAttributes;
+    readonly Unmanaged: MethodImplAttributes;
+    readonly Managed: MethodImplAttributes;
+    readonly ForwardRef: MethodImplAttributes;
+    readonly PreserveSig: MethodImplAttributes;
+    readonly InternalCall: MethodImplAttributes;
+    readonly Synchronized: MethodImplAttributes;
+    readonly NoInlining: MethodImplAttributes;
+    readonly AggressiveInlining: MethodImplAttributes;
+    readonly NoOptimization: MethodImplAttributes;
+    readonly AggressiveOptimization: MethodImplAttributes;
+    readonly Async: MethodImplAttributes;
+    readonly MaxMethodImplVal: MethodImplAttributes;
+};
 
 
-export enum MethodSemanticsAttributes {
-    Setter = 1,
-    Getter = 2,
-    Other = 4,
-    Adder = 8,
-    Remover = 16,
-    Raiser = 32
-}
+export type MethodImportAttributes = number & { readonly __tsonic_type_System_Reflection_MethodImportAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MethodImportAttributes: {
+    readonly None: MethodImportAttributes;
+    readonly ExactSpelling: MethodImportAttributes;
+    readonly BestFitMappingDisable: MethodImportAttributes;
+    readonly BestFitMappingEnable: MethodImportAttributes;
+    readonly BestFitMappingMask: MethodImportAttributes;
+    readonly CharSetAnsi: MethodImportAttributes;
+    readonly CharSetUnicode: MethodImportAttributes;
+    readonly CharSetAuto: MethodImportAttributes;
+    readonly CharSetMask: MethodImportAttributes;
+    readonly ThrowOnUnmappableCharEnable: MethodImportAttributes;
+    readonly ThrowOnUnmappableCharDisable: MethodImportAttributes;
+    readonly ThrowOnUnmappableCharMask: MethodImportAttributes;
+    readonly SetLastError: MethodImportAttributes;
+    readonly CallingConventionWinApi: MethodImportAttributes;
+    readonly CallingConventionCDecl: MethodImportAttributes;
+    readonly CallingConventionStdCall: MethodImportAttributes;
+    readonly CallingConventionThisCall: MethodImportAttributes;
+    readonly CallingConventionFastCall: MethodImportAttributes;
+    readonly CallingConventionMask: MethodImportAttributes;
+};
 
 
-export enum NullabilityState {
-    Unknown = 0,
-    NotNull = 1,
-    Nullable = 2
-}
+export type MethodSemanticsAttributes = number & { readonly __tsonic_type_System_Reflection_MethodSemanticsAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MethodSemanticsAttributes: {
+    readonly Setter: MethodSemanticsAttributes;
+    readonly Getter: MethodSemanticsAttributes;
+    readonly Other: MethodSemanticsAttributes;
+    readonly Adder: MethodSemanticsAttributes;
+    readonly Remover: MethodSemanticsAttributes;
+    readonly Raiser: MethodSemanticsAttributes;
+};
 
 
-export enum ParameterAttributes {
-    None = 0,
-    In = 1,
-    Out = 2,
-    Lcid = 4,
-    Retval = 8,
-    Optional = 16,
-    HasDefault = 4096,
-    HasFieldMarshal = 8192,
-    Reserved3 = 16384,
-    Reserved4 = 32768,
-    ReservedMask = 61440
-}
+export type NullabilityState = number & { readonly __tsonic_type_System_Reflection_NullabilityState: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const NullabilityState: {
+    readonly Unknown: NullabilityState;
+    readonly NotNull: NullabilityState;
+    readonly Nullable: NullabilityState;
+};
 
 
-export enum PortableExecutableKinds {
-    NotAPortableExecutableImage = 0,
-    ILOnly = 1,
-    Required32Bit = 2,
-    PE32Plus = 4,
-    Unmanaged32Bit = 8,
-    Preferred32Bit = 16
-}
+export type ParameterAttributes = number & { readonly __tsonic_type_System_Reflection_ParameterAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ParameterAttributes: {
+    readonly None: ParameterAttributes;
+    readonly In: ParameterAttributes;
+    readonly Out: ParameterAttributes;
+    readonly Lcid: ParameterAttributes;
+    readonly Retval: ParameterAttributes;
+    readonly Optional: ParameterAttributes;
+    readonly HasDefault: ParameterAttributes;
+    readonly HasFieldMarshal: ParameterAttributes;
+    readonly Reserved3: ParameterAttributes;
+    readonly Reserved4: ParameterAttributes;
+    readonly ReservedMask: ParameterAttributes;
+};
 
 
-export enum ProcessorArchitecture {
-    None = 0,
-    MSIL = 1,
-    X86 = 2,
-    IA64 = 3,
-    Amd64 = 4,
-    Arm = 5
-}
+export type PortableExecutableKinds = number & { readonly __tsonic_type_System_Reflection_PortableExecutableKinds: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PortableExecutableKinds: {
+    readonly NotAPortableExecutableImage: PortableExecutableKinds;
+    readonly ILOnly: PortableExecutableKinds;
+    readonly Required32Bit: PortableExecutableKinds;
+    readonly PE32Plus: PortableExecutableKinds;
+    readonly Unmanaged32Bit: PortableExecutableKinds;
+    readonly Preferred32Bit: PortableExecutableKinds;
+};
 
 
-export enum PropertyAttributes {
-    None = 0,
-    SpecialName = 512,
-    RTSpecialName = 1024,
-    HasDefault = 4096,
-    Reserved2 = 8192,
-    Reserved3 = 16384,
-    Reserved4 = 32768,
-    ReservedMask = 62464
-}
+export type ProcessorArchitecture = number & { readonly __tsonic_type_System_Reflection_ProcessorArchitecture: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ProcessorArchitecture: {
+    readonly None: ProcessorArchitecture;
+    readonly MSIL: ProcessorArchitecture;
+    readonly X86: ProcessorArchitecture;
+    readonly IA64: ProcessorArchitecture;
+    readonly Amd64: ProcessorArchitecture;
+    readonly Arm: ProcessorArchitecture;
+};
 
 
-export enum ResourceAttributes {
-    Public = 1,
-    Private = 2
-}
+export type PropertyAttributes = number & { readonly __tsonic_type_System_Reflection_PropertyAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const PropertyAttributes: {
+    readonly None: PropertyAttributes;
+    readonly SpecialName: PropertyAttributes;
+    readonly RTSpecialName: PropertyAttributes;
+    readonly HasDefault: PropertyAttributes;
+    readonly Reserved2: PropertyAttributes;
+    readonly Reserved3: PropertyAttributes;
+    readonly Reserved4: PropertyAttributes;
+    readonly ReservedMask: PropertyAttributes;
+};
 
 
-export enum ResourceLocation {
-    ContainedInAnotherAssembly = 2,
-    ContainedInManifestFile = 4,
-    Embedded = 1
-}
+export type ResourceAttributes = number & { readonly __tsonic_type_System_Reflection_ResourceAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ResourceAttributes: {
+    readonly Public: ResourceAttributes;
+    readonly Private: ResourceAttributes;
+};
 
 
-export enum TypeAttributes {
-    VisibilityMask = 7,
-    NotPublic = 0,
-    Public = 1,
-    NestedPublic = 2,
-    NestedPrivate = 3,
-    NestedFamily = 4,
-    NestedAssembly = 5,
-    NestedFamANDAssem = 6,
-    NestedFamORAssem = 7,
-    LayoutMask = 24,
-    AutoLayout = 0,
-    SequentialLayout = 8,
-    ExplicitLayout = 16,
-    ClassSemanticsMask = 32,
-    Class = 0,
-    Interface = 32,
-    Abstract = 128,
-    Sealed = 256,
-    SpecialName = 1024,
-    Import = 4096,
-    Serializable = 8192,
-    WindowsRuntime = 16384,
-    StringFormatMask = 196608,
-    AnsiClass = 0,
-    UnicodeClass = 65536,
-    AutoClass = 131072,
-    CustomFormatClass = 196608,
-    CustomFormatMask = 12582912,
-    BeforeFieldInit = 1048576,
-    RTSpecialName = 2048,
-    HasSecurity = 262144,
-    ReservedMask = 264192
-}
+export type ResourceLocation = number & { readonly __tsonic_type_System_Reflection_ResourceLocation: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ResourceLocation: {
+    readonly ContainedInAnotherAssembly: ResourceLocation;
+    readonly ContainedInManifestFile: ResourceLocation;
+    readonly Embedded: ResourceLocation;
+};
+
+
+export type TypeAttributes = number & { readonly __tsonic_type_System_Reflection_TypeAttributes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TypeAttributes: {
+    readonly VisibilityMask: TypeAttributes;
+    readonly NotPublic: TypeAttributes;
+    readonly Public: TypeAttributes;
+    readonly NestedPublic: TypeAttributes;
+    readonly NestedPrivate: TypeAttributes;
+    readonly NestedFamily: TypeAttributes;
+    readonly NestedAssembly: TypeAttributes;
+    readonly NestedFamANDAssem: TypeAttributes;
+    readonly NestedFamORAssem: TypeAttributes;
+    readonly LayoutMask: TypeAttributes;
+    readonly AutoLayout: TypeAttributes;
+    readonly SequentialLayout: TypeAttributes;
+    readonly ExplicitLayout: TypeAttributes;
+    readonly ClassSemanticsMask: TypeAttributes;
+    readonly Class: TypeAttributes;
+    readonly Interface: TypeAttributes;
+    readonly Abstract: TypeAttributes;
+    readonly Sealed: TypeAttributes;
+    readonly SpecialName: TypeAttributes;
+    readonly Import: TypeAttributes;
+    readonly Serializable: TypeAttributes;
+    readonly WindowsRuntime: TypeAttributes;
+    readonly StringFormatMask: TypeAttributes;
+    readonly AnsiClass: TypeAttributes;
+    readonly UnicodeClass: TypeAttributes;
+    readonly AutoClass: TypeAttributes;
+    readonly CustomFormatClass: TypeAttributes;
+    readonly CustomFormatMask: TypeAttributes;
+    readonly BeforeFieldInit: TypeAttributes;
+    readonly RTSpecialName: TypeAttributes;
+    readonly HasSecurity: TypeAttributes;
+    readonly ReservedMask: TypeAttributes;
+};
 
 
 export type MemberFilter = (m: MemberInfo, filterCriteria: unknown | null) => boolean;
@@ -380,8 +432,8 @@ export type TypeFilter = (m: Type, filterCriteria: unknown | null) => boolean;
 export interface ICustomAttributeProvider$instance {
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
-    GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    GetCustomAttributes(inherit: boolean): unknown[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
 }
 
@@ -405,12 +457,12 @@ export interface IReflect$instance {
     GetFields(bindingAttr: BindingFlags): FieldInfo[];
     GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
     GetMembers(bindingAttr: BindingFlags): MemberInfo[];
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder | null, types: Type[], modifiers: ParameterModifier[] | null): MethodInfo | null;
     GetMethod(name: string, bindingAttr: BindingFlags): MethodInfo | null;
+    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder | null, types: Type[], modifiers: ParameterModifier[] | null): MethodInfo | null;
     GetMethods(bindingAttr: BindingFlags): MethodInfo[];
     GetProperties(bindingAttr: BindingFlags): PropertyInfo[];
-    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder | null, returnType: Type | null, types: Type[], modifiers: ParameterModifier[] | null): PropertyInfo | null;
     GetProperty(name: string, bindingAttr: BindingFlags): PropertyInfo | null;
+    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder | null, returnType: Type | null, types: Type[], modifiers: ParameterModifier[] | null): PropertyInfo | null;
     InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: unknown | null, args: (unknown | null)[] | null, modifiers: ParameterModifier[] | null, culture: CultureInfo | null, namedParameters: string[] | null): unknown | null;
 }
 
@@ -428,6 +480,7 @@ export type IReflectableType = IReflectableType$instance;
 
 export interface CustomAttributeNamedArgument$instance {
     readonly __tsonic_type_System_Reflection_CustomAttributeNamedArgument: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -460,6 +513,7 @@ export type CustomAttributeNamedArgument = CustomAttributeNamedArgument$instance
 
 export interface CustomAttributeTypedArgument$instance {
     readonly __tsonic_type_System_Reflection_CustomAttributeTypedArgument: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -490,6 +544,7 @@ export type CustomAttributeTypedArgument = CustomAttributeTypedArgument$instance
 
 export interface InterfaceMapping$instance {
     readonly __tsonic_type_System_Reflection_InterfaceMapping: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     TargetType: Type;
     InterfaceType: Type;
@@ -507,6 +562,7 @@ export type InterfaceMapping = InterfaceMapping$instance;
 
 export interface ParameterModifier$instance {
     readonly __tsonic_type_System_Reflection_ParameterModifier: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -518,8 +574,10 @@ export const ParameterModifier: {
 
 export type ParameterModifier = ParameterModifier$instance & { [index: number]: boolean; };
 
-export interface AmbiguousMatchException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface AmbiguousMatchException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Reflection_AmbiguousMatchException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -540,7 +598,7 @@ export interface __AmbiguousMatchException$views {
 export type AmbiguousMatchException = AmbiguousMatchException$instance & __AmbiguousMatchException$views;
 
 
-export interface Assembly$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface Assembly$instance {
     readonly __tsonic_type_System_Reflection_Assembly: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -568,8 +626,8 @@ export interface Assembly$instance extends ICustomAttributeProvider$instance, Sy
     CreateInstance(typeName: string, ignoreCase: boolean): unknown | null;
     CreateInstance(typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | null, args: unknown[] | null, culture: CultureInfo | null, activationAttributes: unknown[] | null): unknown | null;
     Equals(o: unknown | null): boolean;
-    GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributesData(): IList_1<CustomAttributeData>;
     GetExportedTypes(): Type[];
     GetFile(name: string): FileStream | null;
@@ -592,10 +650,10 @@ export interface Assembly$instance extends ICustomAttributeProvider$instance, Sy
     GetReferencedAssemblies(): AssemblyName[];
     GetSatelliteAssembly(culture: CultureInfo): Assembly;
     GetSatelliteAssembly(culture: CultureInfo, version: Version | null): Assembly;
+    GetType(): Type;
     GetType(name: string): Type | null;
     GetType(name: string, throwOnError: boolean): Type | null;
     GetType(name: string, throwOnError: boolean, ignoreCase: boolean): Type | null;
-    GetType(): Type;
     GetTypes(): Type[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
     LoadModule(moduleName: string, rawModule: byte[] | null): Module;
@@ -604,7 +662,7 @@ export interface Assembly$instance extends ICustomAttributeProvider$instance, Sy
 }
 
 
-export const Assembly: (abstract new() => Assembly) & {
+export const Assembly: {
     CreateQualifiedName(assemblyName: string | null, typeName: string | null): string;
     GetAssembly(type: Type): Assembly | null;
     GetCallingAssembly(): Assembly;
@@ -634,7 +692,8 @@ export interface __Assembly$views {
 export type Assembly = Assembly$instance & __Assembly$views;
 
 
-export interface AssemblyAlgorithmIdAttribute$instance extends Attribute {
+export interface AssemblyAlgorithmIdAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyAlgorithmIdAttribute: never;
 
     readonly AlgorithmId: uint;
@@ -649,7 +708,8 @@ export const AssemblyAlgorithmIdAttribute: {
 
 export type AssemblyAlgorithmIdAttribute = AssemblyAlgorithmIdAttribute$instance;
 
-export interface AssemblyCompanyAttribute$instance extends Attribute {
+export interface AssemblyCompanyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyCompanyAttribute: never;
 
     readonly Company: string;
@@ -663,7 +723,8 @@ export const AssemblyCompanyAttribute: {
 
 export type AssemblyCompanyAttribute = AssemblyCompanyAttribute$instance;
 
-export interface AssemblyConfigurationAttribute$instance extends Attribute {
+export interface AssemblyConfigurationAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyConfigurationAttribute: never;
 
     readonly Configuration: string;
@@ -677,7 +738,8 @@ export const AssemblyConfigurationAttribute: {
 
 export type AssemblyConfigurationAttribute = AssemblyConfigurationAttribute$instance;
 
-export interface AssemblyCopyrightAttribute$instance extends Attribute {
+export interface AssemblyCopyrightAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyCopyrightAttribute: never;
 
     readonly Copyright: string;
@@ -691,7 +753,8 @@ export const AssemblyCopyrightAttribute: {
 
 export type AssemblyCopyrightAttribute = AssemblyCopyrightAttribute$instance;
 
-export interface AssemblyCultureAttribute$instance extends Attribute {
+export interface AssemblyCultureAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyCultureAttribute: never;
 
     readonly Culture: string;
@@ -705,7 +768,8 @@ export const AssemblyCultureAttribute: {
 
 export type AssemblyCultureAttribute = AssemblyCultureAttribute$instance;
 
-export interface AssemblyDefaultAliasAttribute$instance extends Attribute {
+export interface AssemblyDefaultAliasAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyDefaultAliasAttribute: never;
 
     readonly DefaultAlias: string;
@@ -719,7 +783,8 @@ export const AssemblyDefaultAliasAttribute: {
 
 export type AssemblyDefaultAliasAttribute = AssemblyDefaultAliasAttribute$instance;
 
-export interface AssemblyDelaySignAttribute$instance extends Attribute {
+export interface AssemblyDelaySignAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyDelaySignAttribute: never;
 
     readonly DelaySign: boolean;
@@ -733,7 +798,8 @@ export const AssemblyDelaySignAttribute: {
 
 export type AssemblyDelaySignAttribute = AssemblyDelaySignAttribute$instance;
 
-export interface AssemblyDescriptionAttribute$instance extends Attribute {
+export interface AssemblyDescriptionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyDescriptionAttribute: never;
 
     readonly Description: string;
@@ -747,7 +813,8 @@ export const AssemblyDescriptionAttribute: {
 
 export type AssemblyDescriptionAttribute = AssemblyDescriptionAttribute$instance;
 
-export interface AssemblyFileVersionAttribute$instance extends Attribute {
+export interface AssemblyFileVersionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyFileVersionAttribute: never;
 
     readonly Version: string;
@@ -761,7 +828,8 @@ export const AssemblyFileVersionAttribute: {
 
 export type AssemblyFileVersionAttribute = AssemblyFileVersionAttribute$instance;
 
-export interface AssemblyFlagsAttribute$instance extends Attribute {
+export interface AssemblyFlagsAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyFlagsAttribute: never;
 
     readonly AssemblyFlags: int;
@@ -778,7 +846,8 @@ export const AssemblyFlagsAttribute: {
 
 export type AssemblyFlagsAttribute = AssemblyFlagsAttribute$instance;
 
-export interface AssemblyInformationalVersionAttribute$instance extends Attribute {
+export interface AssemblyInformationalVersionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyInformationalVersionAttribute: never;
 
     readonly InformationalVersion: string;
@@ -792,7 +861,8 @@ export const AssemblyInformationalVersionAttribute: {
 
 export type AssemblyInformationalVersionAttribute = AssemblyInformationalVersionAttribute$instance;
 
-export interface AssemblyKeyFileAttribute$instance extends Attribute {
+export interface AssemblyKeyFileAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyKeyFileAttribute: never;
 
     readonly KeyFile: string;
@@ -806,7 +876,8 @@ export const AssemblyKeyFileAttribute: {
 
 export type AssemblyKeyFileAttribute = AssemblyKeyFileAttribute$instance;
 
-export interface AssemblyKeyNameAttribute$instance extends Attribute {
+export interface AssemblyKeyNameAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyKeyNameAttribute: never;
 
     readonly KeyName: string;
@@ -820,7 +891,8 @@ export const AssemblyKeyNameAttribute: {
 
 export type AssemblyKeyNameAttribute = AssemblyKeyNameAttribute$instance;
 
-export interface AssemblyMetadataAttribute$instance extends Attribute {
+export interface AssemblyMetadataAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyMetadataAttribute: never;
 
     readonly Key: string;
@@ -835,7 +907,7 @@ export const AssemblyMetadataAttribute: {
 
 export type AssemblyMetadataAttribute = AssemblyMetadataAttribute$instance;
 
-export interface AssemblyName$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface AssemblyName$instance {
     readonly __tsonic_type_System_Reflection_AssemblyName: never;
 
     readonly __tsonic_iface_System_ICloneable: never;
@@ -889,7 +961,8 @@ export interface __AssemblyName$views {
 export type AssemblyName = AssemblyName$instance & __AssemblyName$views;
 
 
-export interface AssemblyNameProxy$instance extends MarshalByRefObject {
+export interface AssemblyNameProxy$instance extends System_Internal.MarshalByRefObject$instance {
+    readonly __tsonic_type_System_MarshalByRefObject: never;
     readonly __tsonic_type_System_Reflection_AssemblyNameProxy: never;
 
     GetAssemblyName(assemblyFile: string): AssemblyName;
@@ -903,7 +976,8 @@ export const AssemblyNameProxy: {
 
 export type AssemblyNameProxy = AssemblyNameProxy$instance;
 
-export interface AssemblyProductAttribute$instance extends Attribute {
+export interface AssemblyProductAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyProductAttribute: never;
 
     readonly Product: string;
@@ -917,7 +991,8 @@ export const AssemblyProductAttribute: {
 
 export type AssemblyProductAttribute = AssemblyProductAttribute$instance;
 
-export interface AssemblySignatureKeyAttribute$instance extends Attribute {
+export interface AssemblySignatureKeyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblySignatureKeyAttribute: never;
 
     readonly Countersignature: string;
@@ -932,7 +1007,8 @@ export const AssemblySignatureKeyAttribute: {
 
 export type AssemblySignatureKeyAttribute = AssemblySignatureKeyAttribute$instance;
 
-export interface AssemblyTitleAttribute$instance extends Attribute {
+export interface AssemblyTitleAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyTitleAttribute: never;
 
     readonly Title: string;
@@ -946,7 +1022,8 @@ export const AssemblyTitleAttribute: {
 
 export type AssemblyTitleAttribute = AssemblyTitleAttribute$instance;
 
-export interface AssemblyTrademarkAttribute$instance extends Attribute {
+export interface AssemblyTrademarkAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyTrademarkAttribute: never;
 
     readonly Trademark: string;
@@ -960,7 +1037,8 @@ export const AssemblyTrademarkAttribute: {
 
 export type AssemblyTrademarkAttribute = AssemblyTrademarkAttribute$instance;
 
-export interface AssemblyVersionAttribute$instance extends Attribute {
+export interface AssemblyVersionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_AssemblyVersionAttribute: never;
 
     readonly Version: string;
@@ -986,28 +1064,26 @@ export interface Binder$instance {
 }
 
 
-export const Binder: (abstract new() => Binder) & {
+export const Binder: {
 };
 
 
 export type Binder = Binder$instance;
 
-export interface ConstructorInfo$instance extends MethodBase$instance, ICustomAttributeProvider$instance {
+export interface ConstructorInfo$instance extends MethodBase$instance {
     readonly __tsonic_type_System_Reflection_ConstructorInfo: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
+    readonly __tsonic_type_System_Reflection_MethodBase: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
-    readonly MemberType: MemberTypes;
-    Equals(obj: unknown | null): boolean;
-    GetHashCode(): int;
-    Invoke(parameters: (unknown | null)[] | null): unknown;
-    Invoke(invokeAttr: BindingFlags, binder: Binder | null, parameters: (unknown | null)[] | null, culture: CultureInfo | null): unknown;
-    Invoke(obj: unknown | null, parameters: (unknown | null)[] | null): unknown | null;
-    Invoke(obj: unknown | null, invokeAttr: BindingFlags, binder: Binder | null, parameters: (unknown | null)[] | null, culture: CultureInfo | null): unknown | null;
+    Equals: MethodBase$instance["Equals"] & ((obj: unknown | null) => boolean);
+    GetHashCode: MethodBase$instance["GetHashCode"] & (() => int);
+    Invoke: MethodBase$instance["Invoke"] & ((invokeAttr: BindingFlags, binder: Binder | null, parameters: (unknown | null)[] | null, culture: CultureInfo | null) => unknown) & ((obj: unknown | null, invokeAttr: BindingFlags, binder: Binder | null, parameters: (unknown | null)[] | null, culture: CultureInfo | null) => unknown | null) & ((obj: unknown | null, parameters: (unknown | null)[] | null) => unknown | null) & ((parameters: (unknown | null)[] | null) => unknown);
 }
 
 
-export const ConstructorInfo: (abstract new() => ConstructorInfo) & {
+export const ConstructorInfo: {
     readonly ConstructorName: string;
     readonly TypeConstructorName: string;
 };
@@ -1050,7 +1126,7 @@ export interface CustomAttributeData$instance {
 }
 
 
-export const CustomAttributeData: (abstract new() => CustomAttributeData) & {
+export const CustomAttributeData: {
     GetCustomAttributes(target: Assembly): IList_1<CustomAttributeData>;
     GetCustomAttributes(target: MemberInfo): IList_1<CustomAttributeData>;
     GetCustomAttributes(target: Module): IList_1<CustomAttributeData>;
@@ -1060,8 +1136,11 @@ export const CustomAttributeData: (abstract new() => CustomAttributeData) & {
 
 export type CustomAttributeData = CustomAttributeData$instance;
 
-export interface CustomAttributeFormatException$instance extends FormatException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface CustomAttributeFormatException$instance extends System_Internal.FormatException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_FormatException: never;
     readonly __tsonic_type_System_Reflection_CustomAttributeFormatException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1082,7 +1161,8 @@ export interface __CustomAttributeFormatException$views {
 export type CustomAttributeFormatException = CustomAttributeFormatException$instance & __CustomAttributeFormatException$views;
 
 
-export interface DefaultMemberAttribute$instance extends Attribute {
+export interface DefaultMemberAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_DefaultMemberAttribute: never;
 
     readonly MemberName: string;
@@ -1103,16 +1183,17 @@ export interface DispatchProxy$instance {
 }
 
 
-export const DispatchProxy: (abstract new() => DispatchProxy) & {
-    Create<T extends unknown, TProxy extends unknown & DispatchProxy>(): T;
+export const DispatchProxy: {
+    Create<T extends unknown, TProxy extends unknown & { readonly __tsonic_type_System_Reflection_DispatchProxy: never }>(): T;
     Create(interfaceType: Type, proxyType: Type): unknown;
 };
 
 
 export type DispatchProxy = DispatchProxy$instance;
 
-export interface EventInfo$instance extends MemberInfo$instance, ICustomAttributeProvider$instance {
+export interface EventInfo$instance extends MemberInfo$instance {
     readonly __tsonic_type_System_Reflection_EventInfo: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
@@ -1121,14 +1202,13 @@ export interface EventInfo$instance extends MemberInfo$instance, ICustomAttribut
     readonly EventHandlerType: Type | null;
     readonly IsMulticast: boolean;
     readonly IsSpecialName: boolean;
-    readonly MemberType: MemberTypes;
     readonly RaiseMethod: MethodInfo | null;
     readonly RemoveMethod: MethodInfo | null;
     AddEventHandler(target: unknown | null, handler: Function | null): void;
-    Equals(obj: unknown | null): boolean;
+    Equals: MemberInfo$instance["Equals"] & ((obj: unknown | null) => boolean);
     GetAddMethod(): MethodInfo | null;
     GetAddMethod(nonPublic: boolean): MethodInfo | null;
-    GetHashCode(): int;
+    GetHashCode: MemberInfo$instance["GetHashCode"] & (() => int);
     GetOtherMethods(): MethodInfo[];
     GetOtherMethods(nonPublic: boolean): MethodInfo[];
     GetRaiseMethod(): MethodInfo | null;
@@ -1139,7 +1219,7 @@ export interface EventInfo$instance extends MemberInfo$instance, ICustomAttribut
 }
 
 
-export const EventInfo: (abstract new() => EventInfo) & {
+export const EventInfo: {
 };
 
 
@@ -1164,14 +1244,15 @@ export interface ExceptionHandlingClause$instance {
 }
 
 
-export const ExceptionHandlingClause: (abstract new() => ExceptionHandlingClause) & {
+export const ExceptionHandlingClause: {
 };
 
 
 export type ExceptionHandlingClause = ExceptionHandlingClause$instance;
 
-export interface FieldInfo$instance extends MemberInfo$instance, ICustomAttributeProvider$instance {
+export interface FieldInfo$instance extends MemberInfo$instance {
     readonly __tsonic_type_System_Reflection_FieldInfo: never;
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
@@ -1193,9 +1274,8 @@ export interface FieldInfo$instance extends MemberInfo$instance, ICustomAttribut
     readonly IsSecurityTransparent: boolean;
     readonly IsSpecialName: boolean;
     readonly IsStatic: boolean;
-    readonly MemberType: MemberTypes;
-    Equals(obj: unknown | null): boolean;
-    GetHashCode(): int;
+    Equals: MemberInfo$instance["Equals"] & ((obj: unknown | null) => boolean);
+    GetHashCode: MemberInfo$instance["GetHashCode"] & (() => int);
     GetModifiedFieldType(): Type;
     GetOptionalCustomModifiers(): Type[];
     GetRawConstantValue(): unknown | null;
@@ -1208,7 +1288,7 @@ export interface FieldInfo$instance extends MemberInfo$instance, ICustomAttribut
 }
 
 
-export const FieldInfo: (abstract new() => FieldInfo) & {
+export const FieldInfo: {
     GetFieldFromHandle(handle: RuntimeFieldHandle, declaringType: RuntimeTypeHandle): FieldInfo;
     GetFieldFromHandle(handle: RuntimeFieldHandle): FieldInfo;
 };
@@ -1221,7 +1301,9 @@ export interface __FieldInfo$views {
 export type FieldInfo = FieldInfo$instance & __FieldInfo$views;
 
 
-export interface InvalidFilterCriteriaException$instance extends ApplicationException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface InvalidFilterCriteriaException$instance extends System_Internal.ApplicationException$instance {
+    readonly __tsonic_type_System_ApplicationException: never;
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Reflection_InvalidFilterCriteriaException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1253,7 +1335,7 @@ export interface LocalVariableInfo$instance {
 }
 
 
-export const LocalVariableInfo: (abstract new() => LocalVariableInfo) & {
+export const LocalVariableInfo: {
 };
 
 
@@ -1275,7 +1357,7 @@ export const ManifestResourceInfo: {
 
 export type ManifestResourceInfo = ManifestResourceInfo$instance;
 
-export interface MemberInfo$instance extends ICustomAttributeProvider$instance {
+export interface MemberInfo$instance {
     readonly __tsonic_type_System_Reflection_MemberInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1289,8 +1371,8 @@ export interface MemberInfo$instance extends ICustomAttributeProvider$instance {
     readonly Name: string;
     readonly ReflectedType: Type | null;
     Equals(obj: unknown | null): boolean;
-    GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributesData(): IList_1<CustomAttributeData>;
     GetHashCode(): int;
     HasSameMetadataDefinitionAs(other: MemberInfo): boolean;
@@ -1298,7 +1380,7 @@ export interface MemberInfo$instance extends ICustomAttributeProvider$instance {
 }
 
 
-export const MemberInfo: (abstract new() => MemberInfo) & {
+export const MemberInfo: {
 };
 
 
@@ -1309,7 +1391,8 @@ export interface __MemberInfo$views {
 export type MemberInfo = MemberInfo$instance & __MemberInfo$views;
 
 
-export interface MethodBase$instance extends MemberInfo$instance, ICustomAttributeProvider$instance {
+export interface MethodBase$instance extends MemberInfo$instance {
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
     readonly __tsonic_type_System_Reflection_MethodBase: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1338,18 +1421,18 @@ export interface MethodBase$instance extends MemberInfo$instance, ICustomAttribu
     readonly IsVirtual: boolean;
     readonly MethodHandle: RuntimeMethodHandle;
     readonly MethodImplementationFlags: MethodImplAttributes;
-    Equals(obj: unknown | null): boolean;
+    Equals: MemberInfo$instance["Equals"] & ((obj: unknown | null) => boolean);
     GetGenericArguments(): Type[];
-    GetHashCode(): int;
+    GetHashCode: MemberInfo$instance["GetHashCode"] & (() => int);
     GetMethodBody(): MethodBody | null;
     GetMethodImplementationFlags(): MethodImplAttributes;
     GetParameters(): ParameterInfo[];
-    Invoke(obj: unknown | null, parameters: (unknown | null)[] | null): unknown | null;
     Invoke(obj: unknown | null, invokeAttr: BindingFlags, binder: Binder | null, parameters: (unknown | null)[] | null, culture: CultureInfo | null): unknown | null;
+    Invoke(obj: unknown | null, parameters: (unknown | null)[] | null): unknown | null;
 }
 
 
-export const MethodBase: (abstract new() => MethodBase) & {
+export const MethodBase: {
     GetCurrentMethod(): MethodBase | null;
     GetMethodFromHandle(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase | null;
     GetMethodFromHandle(handle: RuntimeMethodHandle): MethodBase | null;
@@ -1375,35 +1458,36 @@ export interface MethodBody$instance {
 }
 
 
-export const MethodBody: (abstract new() => MethodBody) & {
+export const MethodBody: {
 };
 
 
 export type MethodBody = MethodBody$instance;
 
-export interface MethodInfo$instance extends MethodBase$instance, ICustomAttributeProvider$instance {
+export interface MethodInfo$instance extends MethodBase$instance {
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
+    readonly __tsonic_type_System_Reflection_MethodBase: never;
     readonly __tsonic_type_System_Reflection_MethodInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
 
-    readonly MemberType: MemberTypes;
     readonly ReturnParameter: ParameterInfo;
     readonly ReturnType: Type;
     readonly ReturnTypeCustomAttributes: ICustomAttributeProvider;
     CreateDelegate(delegateType: Type): Function;
     CreateDelegate(delegateType: Type, target: unknown | null): Function;
-    CreateDelegate<T extends unknown & Function>(): T;
-    CreateDelegate<T extends unknown & Function>(target: unknown | null): T;
-    Equals(obj: unknown | null): boolean;
+    CreateDelegate<T extends unknown & { readonly __tsonic_type_System_Delegate: never }>(): T;
+    CreateDelegate<T extends unknown & { readonly __tsonic_type_System_Delegate: never }>(target: unknown | null): T;
+    Equals: MethodBase$instance["Equals"] & ((obj: unknown | null) => boolean);
     GetBaseDefinition(): MethodInfo;
-    GetGenericArguments(): Type[];
+    GetGenericArguments: MethodBase$instance["GetGenericArguments"] & (() => Type[]);
     GetGenericMethodDefinition(): MethodInfo;
-    GetHashCode(): int;
+    GetHashCode: MethodBase$instance["GetHashCode"] & (() => int);
     MakeGenericMethod(...typeArguments: Type[]): MethodInfo;
 }
 
 
-export const MethodInfo: (abstract new() => MethodInfo) & {
+export const MethodInfo: {
 };
 
 
@@ -1433,7 +1517,7 @@ export const MethodInvoker: {
 
 export type MethodInvoker = MethodInvoker$instance;
 
-export interface Missing$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface Missing$instance {
     readonly __tsonic_type_System_Reflection_Missing: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1453,7 +1537,7 @@ export interface __Missing$views {
 export type Missing = Missing$instance & __Missing$views;
 
 
-export interface Module$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface Module$instance {
     readonly __tsonic_type_System_Reflection_Module: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1470,8 +1554,8 @@ export interface Module$instance extends ICustomAttributeProvider$instance, Syst
     readonly ScopeName: string;
     Equals(o: unknown | null): boolean;
     FindTypes(filter: TypeFilter | null, filterCriteria: unknown | null): Type[];
-    GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributesData(): IList_1<CustomAttributeData>;
     GetField(name: string): FieldInfo | null;
     GetField(name: string, bindingAttr: BindingFlags): FieldInfo | null;
@@ -1479,17 +1563,17 @@ export interface Module$instance extends ICustomAttributeProvider$instance, Syst
     GetFields(bindingFlags: BindingFlags): FieldInfo[];
     GetHashCode(): int;
     GetMethod(name: string): MethodInfo | null;
-    GetMethod(name: string, types: Type[]): MethodInfo | null;
     GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[] | null): MethodInfo | null;
+    GetMethod(name: string, types: Type[]): MethodInfo | null;
     GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[] | null, modifiers: ParameterModifier[] | null): MethodInfo | null;
     GetMethods(): MethodInfo[];
     GetMethods(bindingFlags: BindingFlags): MethodInfo[];
     GetObjectData(info: SerializationInfo, context: StreamingContext): void;
     GetPEKind(peKind: PortableExecutableKinds, machine: ImageFileMachine): void;
+    GetType(): Type;
     GetType(className: string): Type | null;
     GetType(className: string, ignoreCase: boolean): Type | null;
     GetType(className: string, throwOnError: boolean, ignoreCase: boolean): Type | null;
-    GetType(): Type;
     GetTypes(): Type[];
     IsDefined(attributeType: Type, inherit: boolean): boolean;
     IsResource(): boolean;
@@ -1507,7 +1591,7 @@ export interface Module$instance extends ICustomAttributeProvider$instance, Syst
 }
 
 
-export const Module: (abstract new() => Module) & {
+export const Module: {
     readonly FilterTypeName: TypeFilter;
     readonly FilterTypeNameIgnoreCase: TypeFilter;
 };
@@ -1526,9 +1610,9 @@ export interface NullabilityInfo$instance {
 
     readonly ElementType: NullabilityInfo | null;
     readonly GenericTypeArguments: NullabilityInfo[];
-    ReadState: NullabilityState;
+    readonly ReadState: NullabilityState;
     readonly Type: Type;
-    WriteState: NullabilityState;
+    readonly WriteState: NullabilityState;
 }
 
 
@@ -1541,10 +1625,10 @@ export type NullabilityInfo = NullabilityInfo$instance;
 export interface NullabilityInfoContext$instance {
     readonly __tsonic_type_System_Reflection_NullabilityInfoContext: never;
 
-    Create(parameterInfo: ParameterInfo): NullabilityInfo;
-    Create(propertyInfo: PropertyInfo): NullabilityInfo;
     Create(eventInfo: EventInfo): NullabilityInfo;
     Create(fieldInfo: FieldInfo): NullabilityInfo;
+    Create(parameterInfo: ParameterInfo): NullabilityInfo;
+    Create(propertyInfo: PropertyInfo): NullabilityInfo;
 }
 
 
@@ -1555,7 +1639,8 @@ export const NullabilityInfoContext: {
 
 export type NullabilityInfoContext = NullabilityInfoContext$instance;
 
-export interface ObfuscateAssemblyAttribute$instance extends Attribute {
+export interface ObfuscateAssemblyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_ObfuscateAssemblyAttribute: never;
 
     readonly AssemblyIsPrivate: boolean;
@@ -1570,7 +1655,8 @@ export const ObfuscateAssemblyAttribute: {
 
 export type ObfuscateAssemblyAttribute = ObfuscateAssemblyAttribute$instance;
 
-export interface ObfuscationAttribute$instance extends Attribute {
+export interface ObfuscationAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Reflection_ObfuscationAttribute: never;
 
     ApplyToMembers: boolean;
@@ -1588,7 +1674,7 @@ export const ObfuscationAttribute: {
 
 export type ObfuscationAttribute = ObfuscationAttribute$instance;
 
-export interface ParameterInfo$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.IObjectReference$instance {
+export interface ParameterInfo$instance {
     readonly __tsonic_type_System_Reflection_ParameterInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1609,8 +1695,8 @@ export interface ParameterInfo$instance extends ICustomAttributeProvider$instanc
     readonly ParameterType: Type;
     readonly Position: int;
     readonly RawDefaultValue: unknown | null;
-    GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    GetCustomAttributes(inherit: boolean): unknown[];
     GetCustomAttributesData(): IList_1<CustomAttributeData>;
     GetModifiedParameterType(): Type;
     GetOptionalCustomModifiers(): Type[];
@@ -1621,7 +1707,7 @@ export interface ParameterInfo$instance extends ICustomAttributeProvider$instanc
 }
 
 
-export const ParameterInfo: (abstract new() => ParameterInfo) & {
+export const ParameterInfo: {
 };
 
 
@@ -1633,7 +1719,7 @@ export interface __ParameterInfo$views {
 export type ParameterInfo = ParameterInfo$instance & __ParameterInfo$views;
 
 
-export interface Pointer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface Pointer$instance {
     readonly __tsonic_type_System_Reflection_Pointer: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1656,7 +1742,8 @@ export interface __Pointer$views {
 export type Pointer = Pointer$instance & __Pointer$views;
 
 
-export interface PropertyInfo$instance extends MemberInfo$instance, ICustomAttributeProvider$instance {
+export interface PropertyInfo$instance extends MemberInfo$instance {
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
     readonly __tsonic_type_System_Reflection_PropertyInfo: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
@@ -1666,16 +1753,15 @@ export interface PropertyInfo$instance extends MemberInfo$instance, ICustomAttri
     readonly CanWrite: boolean;
     readonly GetMethod: MethodInfo | null;
     readonly IsSpecialName: boolean;
-    readonly MemberType: MemberTypes;
     readonly PropertyType: Type;
     readonly SetMethod: MethodInfo | null;
-    Equals(obj: unknown | null): boolean;
+    Equals: MemberInfo$instance["Equals"] & ((obj: unknown | null) => boolean);
     GetAccessors(): MethodInfo[];
     GetAccessors(nonPublic: boolean): MethodInfo[];
     GetConstantValue(): unknown | null;
     GetGetMethod(): MethodInfo | null;
     GetGetMethod(nonPublic: boolean): MethodInfo | null;
-    GetHashCode(): int;
+    GetHashCode: MemberInfo$instance["GetHashCode"] & (() => int);
     GetIndexParameters(): ParameterInfo[];
     GetModifiedPropertyType(): Type;
     GetOptionalCustomModifiers(): Type[];
@@ -1692,7 +1778,7 @@ export interface PropertyInfo$instance extends MemberInfo$instance, ICustomAttri
 }
 
 
-export const PropertyInfo: (abstract new() => PropertyInfo) & {
+export const PropertyInfo: {
 };
 
 
@@ -1712,22 +1798,23 @@ export interface ReflectionContext$instance {
 }
 
 
-export const ReflectionContext: (abstract new() => ReflectionContext) & {
+export const ReflectionContext: {
 };
 
 
 export type ReflectionContext = ReflectionContext$instance;
 
-export interface ReflectionTypeLoadException$instance extends SystemException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface ReflectionTypeLoadException$instance extends System_Internal.SystemException$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Reflection_ReflectionTypeLoadException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly LoaderExceptions: (Exception | null)[];
-    readonly Message: string;
     readonly Types: (Type | null)[];
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
-    ToString(): string;
+    GetObjectData: System_Internal.SystemException$instance["GetObjectData"] & ((info: SerializationInfo, context: StreamingContext) => void);
+    ToString: System_Internal.SystemException$instance["ToString"] & (() => string);
 }
 
 
@@ -1744,7 +1831,7 @@ export interface __ReflectionTypeLoadException$views {
 export type ReflectionTypeLoadException = ReflectionTypeLoadException$instance & __ReflectionTypeLoadException$views;
 
 
-export interface StrongNameKeyPair$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface StrongNameKeyPair$instance {
     readonly __tsonic_type_System_Reflection_StrongNameKeyPair: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_IDeserializationCallback: never;
@@ -1769,7 +1856,9 @@ export interface __StrongNameKeyPair$views {
 export type StrongNameKeyPair = StrongNameKeyPair$instance & __StrongNameKeyPair$views;
 
 
-export interface TargetException$instance extends ApplicationException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface TargetException$instance extends System_Internal.ApplicationException$instance {
+    readonly __tsonic_type_System_ApplicationException: never;
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Reflection_TargetException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1791,7 +1880,9 @@ export interface __TargetException$views {
 export type TargetException = TargetException$instance & __TargetException$views;
 
 
-export interface TargetInvocationException$instance extends ApplicationException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface TargetInvocationException$instance extends System_Internal.ApplicationException$instance {
+    readonly __tsonic_type_System_ApplicationException: never;
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Reflection_TargetInvocationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1812,7 +1903,9 @@ export interface __TargetInvocationException$views {
 export type TargetInvocationException = TargetInvocationException$instance & __TargetInvocationException$views;
 
 
-export interface TargetParameterCountException$instance extends ApplicationException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface TargetParameterCountException$instance extends System_Internal.ApplicationException$instance {
+    readonly __tsonic_type_System_ApplicationException: never;
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Reflection_TargetParameterCountException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -1834,87 +1927,51 @@ export interface __TargetParameterCountException$views {
 export type TargetParameterCountException = TargetParameterCountException$instance & __TargetParameterCountException$views;
 
 
-export interface TypeDelegator$instance extends TypeInfo$instance, ICustomAttributeProvider$instance, IReflectableType$instance {
+export interface TypeDelegator$instance extends TypeInfo$instance {
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
     readonly __tsonic_type_System_Reflection_TypeDelegator: never;
+    readonly __tsonic_type_System_Reflection_TypeInfo: never;
+    readonly __tsonic_type_System_Type: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
     readonly __tsonic_iface_System_Reflection_IReflectableType: never;
 
-    readonly Assembly: Assembly;
-    readonly AssemblyQualifiedName: string | null;
-    readonly BaseType: Type | null;
-    readonly FullName: string | null;
-    readonly GUID: Guid;
-    readonly IsByRefLike: boolean;
-    readonly IsCollectible: boolean;
-    readonly IsConstructedGenericType: boolean;
-    readonly IsFunctionPointer: boolean;
-    readonly IsGenericMethodParameter: boolean;
-    readonly IsGenericTypeParameter: boolean;
-    readonly IsSZArray: boolean;
-    readonly IsTypeDefinition: boolean;
-    readonly IsUnmanagedFunctionPointer: boolean;
-    readonly IsVariableBoundArray: boolean;
-    readonly MetadataToken: int;
-    readonly Module: Module;
-    readonly Name: string;
-    readonly Namespace: string | null;
-    readonly TypeHandle: RuntimeTypeHandle;
-    readonly UnderlyingSystemType: Type;
-    GetArrayRank(): int;
-    GetAttributeFlagsImpl(): TypeAttributes;
-    GetConstructorImpl(bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[] | null): ConstructorInfo | null;
-    GetConstructors(bindingAttr: BindingFlags): ConstructorInfo[];
-    GetConstructors(): ConstructorInfo[];
-    GetCustomAttributes(inherit: boolean): unknown[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    GetElementType(): Type | null;
-    GetEvent(name: string, bindingAttr: BindingFlags): EventInfo | null;
-    GetEvent(name: string): EventInfo | null;
-    GetEvents(): EventInfo[];
-    GetEvents(bindingAttr: BindingFlags): EventInfo[];
-    GetField(name: string, bindingAttr: BindingFlags): FieldInfo | null;
-    GetField(name: string): FieldInfo | null;
-    GetFields(bindingAttr: BindingFlags): FieldInfo[];
-    GetFields(): FieldInfo[];
-    GetFunctionPointerCallingConventions(): Type[];
-    GetFunctionPointerParameterTypes(): Type[];
-    GetFunctionPointerReturnType(): Type;
-    GetInterface(name: string, ignoreCase: boolean): Type | null;
-    GetInterface(name: string): Type | null;
-    GetInterfaceMap(interfaceType: Type): InterfaceMapping;
-    GetInterfaces(): Type[];
-    GetMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
-    GetMember(name: string): MemberInfo[];
-    GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
-    GetMembers(bindingAttr: BindingFlags): MemberInfo[];
-    GetMembers(): MemberInfo[];
-    GetMemberWithSameMetadataDefinitionAs(member: MemberInfo): MemberInfo;
-    GetMethodImpl(name: string, bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[] | null, modifiers: ParameterModifier[] | null): MethodInfo | null;
-    GetMethodImpl(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[] | null, modifiers: ParameterModifier[] | null): MethodInfo | null;
-    GetMethods(bindingAttr: BindingFlags): MethodInfo[];
-    GetMethods(): MethodInfo[];
-    GetNestedType(name: string, bindingAttr: BindingFlags): Type | null;
-    GetNestedType(name: string): Type | null;
-    GetNestedTypes(bindingAttr: BindingFlags): Type[];
-    GetNestedTypes(): Type[];
-    GetProperties(bindingAttr: BindingFlags): PropertyInfo[];
-    GetProperties(): PropertyInfo[];
-    GetPropertyImpl(name: string, bindingAttr: BindingFlags, binder: Binder | null, returnType: Type | null, types: Type[] | null, modifiers: ParameterModifier[] | null): PropertyInfo | null;
-    HasElementTypeImpl(): boolean;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: unknown | null, args: (unknown | null)[] | null, modifiers: ParameterModifier[] | null, culture: CultureInfo | null, namedParameters: string[] | null): unknown | null;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: unknown | null, args: (unknown | null)[] | null): unknown | null;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | null, target: unknown | null, args: (unknown | null)[] | null, culture: CultureInfo | null): unknown | null;
-    IsArrayImpl(): boolean;
-    IsAssignableFrom(typeInfo: TypeInfo | null): boolean;
-    IsAssignableFrom(c: Type | null): boolean;
-    IsByRefImpl(): boolean;
-    IsCOMObjectImpl(): boolean;
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
-    IsPointerImpl(): boolean;
-    IsPrimitiveImpl(): boolean;
-    IsValueTypeImpl(): boolean;
+    GetArrayRank: TypeInfo$instance["GetArrayRank"] & (() => int);
+    GetAttributeFlagsImpl: TypeInfo$instance["GetAttributeFlagsImpl"] & (() => TypeAttributes);
+    GetConstructorImpl: TypeInfo$instance["GetConstructorImpl"] & ((bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[] | null) => ConstructorInfo | null);
+    GetConstructors: TypeInfo$instance["GetConstructors"] & (() => ConstructorInfo[]) & ((bindingAttr: BindingFlags) => ConstructorInfo[]);
+    GetCustomAttributes: TypeInfo$instance["GetCustomAttributes"] & ((attributeType: Type, inherit: boolean) => unknown[]) & ((inherit: boolean) => unknown[]);
+    GetElementType: TypeInfo$instance["GetElementType"] & (() => Type | null);
+    GetEvent: TypeInfo$instance["GetEvent"] & ((name: string) => EventInfo | null) & ((name: string, bindingAttr: BindingFlags) => EventInfo | null);
+    GetEvents: TypeInfo$instance["GetEvents"] & (() => EventInfo[]) & ((bindingAttr: BindingFlags) => EventInfo[]);
+    GetField: TypeInfo$instance["GetField"] & ((name: string) => FieldInfo | null) & ((name: string, bindingAttr: BindingFlags) => FieldInfo | null);
+    GetFields: TypeInfo$instance["GetFields"] & (() => FieldInfo[]) & ((bindingAttr: BindingFlags) => FieldInfo[]);
+    GetFunctionPointerCallingConventions: TypeInfo$instance["GetFunctionPointerCallingConventions"] & (() => Type[]);
+    GetFunctionPointerParameterTypes: TypeInfo$instance["GetFunctionPointerParameterTypes"] & (() => Type[]);
+    GetFunctionPointerReturnType: TypeInfo$instance["GetFunctionPointerReturnType"] & (() => Type);
+    GetInterface: TypeInfo$instance["GetInterface"] & ((name: string) => Type | null) & ((name: string, ignoreCase: boolean) => Type | null);
+    GetInterfaceMap: TypeInfo$instance["GetInterfaceMap"] & ((interfaceType: Type) => InterfaceMapping);
+    GetInterfaces: TypeInfo$instance["GetInterfaces"] & (() => Type[]);
+    GetMember: TypeInfo$instance["GetMember"] & ((name: string) => MemberInfo[]) & ((name: string, bindingAttr: BindingFlags) => MemberInfo[]) & ((name: string, type: MemberTypes, bindingAttr: BindingFlags) => MemberInfo[]);
+    GetMembers: TypeInfo$instance["GetMembers"] & (() => MemberInfo[]) & ((bindingAttr: BindingFlags) => MemberInfo[]);
+    GetMemberWithSameMetadataDefinitionAs: TypeInfo$instance["GetMemberWithSameMetadataDefinitionAs"] & ((member: MemberInfo) => MemberInfo);
+    GetMethodImpl: TypeInfo$instance["GetMethodImpl"] & ((name: string, bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[] | null, modifiers: ParameterModifier[] | null) => MethodInfo | null) & ((name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder | null, callConvention: CallingConventions, types: Type[] | null, modifiers: ParameterModifier[] | null) => MethodInfo | null);
+    GetMethods: TypeInfo$instance["GetMethods"] & (() => MethodInfo[]) & ((bindingAttr: BindingFlags) => MethodInfo[]);
+    GetNestedType: TypeInfo$instance["GetNestedType"] & ((name: string) => Type | null) & ((name: string, bindingAttr: BindingFlags) => Type | null);
+    GetNestedTypes: TypeInfo$instance["GetNestedTypes"] & (() => Type[]) & ((bindingAttr: BindingFlags) => Type[]);
+    GetProperties: TypeInfo$instance["GetProperties"] & (() => PropertyInfo[]) & ((bindingAttr: BindingFlags) => PropertyInfo[]);
+    GetPropertyImpl: TypeInfo$instance["GetPropertyImpl"] & ((name: string, bindingAttr: BindingFlags, binder: Binder | null, returnType: Type | null, types: Type[] | null, modifiers: ParameterModifier[] | null) => PropertyInfo | null);
+    HasElementTypeImpl: TypeInfo$instance["HasElementTypeImpl"] & (() => boolean);
+    InvokeMember: TypeInfo$instance["InvokeMember"] & ((name: string, invokeAttr: BindingFlags, binder: Binder | null, target: unknown | null, args: (unknown | null)[] | null) => unknown | null) & ((name: string, invokeAttr: BindingFlags, binder: Binder | null, target: unknown | null, args: (unknown | null)[] | null, culture: CultureInfo | null) => unknown | null) & ((name: string, invokeAttr: BindingFlags, binder: Binder | null, target: unknown | null, args: (unknown | null)[] | null, modifiers: ParameterModifier[] | null, culture: CultureInfo | null, namedParameters: string[] | null) => unknown | null);
+    IsArrayImpl: TypeInfo$instance["IsArrayImpl"] & (() => boolean);
+    IsAssignableFrom: TypeInfo$instance["IsAssignableFrom"] & ((c: Type | null) => boolean) & ((typeInfo: TypeInfo | null) => boolean);
+    IsByRefImpl: TypeInfo$instance["IsByRefImpl"] & (() => boolean);
+    IsCOMObjectImpl: TypeInfo$instance["IsCOMObjectImpl"] & (() => boolean);
+    IsDefined: TypeInfo$instance["IsDefined"] & ((attributeType: Type, inherit: boolean) => boolean);
+    IsPointerImpl: TypeInfo$instance["IsPointerImpl"] & (() => boolean);
+    IsPrimitiveImpl: TypeInfo$instance["IsPrimitiveImpl"] & (() => boolean);
+    IsValueTypeImpl: TypeInfo$instance["IsValueTypeImpl"] & (() => boolean);
 }
 
 
@@ -1932,8 +1989,10 @@ export interface __TypeDelegator$views {
 export type TypeDelegator = TypeDelegator$instance & __TypeDelegator$views;
 
 
-export interface TypeInfo$instance extends Type, ICustomAttributeProvider$instance, IReflectableType$instance {
+export interface TypeInfo$instance extends System_Internal.Type$instance {
+    readonly __tsonic_type_System_Reflection_MemberInfo: never;
     readonly __tsonic_type_System_Reflection_TypeInfo: never;
+    readonly __tsonic_type_System_Type: never;
 
     readonly __tsonic_iface_System_Reflection_ICustomAttributeProvider: never;
     readonly __tsonic_iface_System_Reflection_IReflect: never;
@@ -1955,12 +2014,11 @@ export interface TypeInfo$instance extends Type, ICustomAttributeProvider$instan
     GetDeclaredMethods(name: string): IEnumerable_1<MethodInfo>;
     GetDeclaredNestedType(name: string): TypeInfo | null;
     GetDeclaredProperty(name: string): PropertyInfo | null;
-    IsAssignableFrom(typeInfo: TypeInfo | null): boolean;
-    IsAssignableFrom(c: Type | null): boolean;
+    IsAssignableFrom: System_Internal.Type$instance["IsAssignableFrom"] & ((c: Type | null) => boolean) & ((typeInfo: TypeInfo | null) => boolean);
 }
 
 
-export const TypeInfo: (abstract new() => TypeInfo) & {
+export const TypeInfo: {
 };
 
 
@@ -1984,34 +2042,34 @@ export type AssemblyExtensions = AssemblyExtensions$instance;
 
 export abstract class CustomAttributeExtensions$instance {
     static GetCustomAttribute(element: Assembly, attributeType: Type): Attribute | null;
-    static GetCustomAttribute<T extends unknown & Attribute>(element: Assembly): T | null;
-    static GetCustomAttribute<T extends unknown & Attribute>(element: MemberInfo, inherit: boolean): T | null;
+    static GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: Assembly): T | null;
+    static GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: MemberInfo, inherit: boolean): T | null;
     static GetCustomAttribute(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute | null;
     static GetCustomAttribute(element: MemberInfo, attributeType: Type): Attribute | null;
-    static GetCustomAttribute<T extends unknown & Attribute>(element: MemberInfo): T | null;
+    static GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: MemberInfo): T | null;
     static GetCustomAttribute(element: Module, attributeType: Type): Attribute | null;
-    static GetCustomAttribute<T extends unknown & Attribute>(element: Module): T | null;
-    static GetCustomAttribute<T extends unknown & Attribute>(element: ParameterInfo, inherit: boolean): T | null;
+    static GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: Module): T | null;
+    static GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: ParameterInfo, inherit: boolean): T | null;
     static GetCustomAttribute(element: ParameterInfo, attributeType: Type, inherit: boolean): Attribute | null;
     static GetCustomAttribute(element: ParameterInfo, attributeType: Type): Attribute | null;
-    static GetCustomAttribute<T extends unknown & Attribute>(element: ParameterInfo): T | null;
+    static GetCustomAttribute<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: ParameterInfo): T | null;
     static GetCustomAttributes(element: Assembly, attributeType: Type): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends unknown & Attribute>(element: Assembly): IEnumerable_1<T>;
+    static GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: Assembly): IEnumerable_1<T>;
     static GetCustomAttributes(element: Assembly): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends unknown & Attribute>(element: MemberInfo, inherit: boolean): IEnumerable_1<T>;
+    static GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: MemberInfo, inherit: boolean): IEnumerable_1<T>;
     static GetCustomAttributes(element: MemberInfo, inherit: boolean): IEnumerable_1<Attribute>;
     static GetCustomAttributes(element: MemberInfo, attributeType: Type, inherit: boolean): IEnumerable_1<Attribute>;
     static GetCustomAttributes(element: MemberInfo, attributeType: Type): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends unknown & Attribute>(element: MemberInfo): IEnumerable_1<T>;
+    static GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: MemberInfo): IEnumerable_1<T>;
     static GetCustomAttributes(element: MemberInfo): IEnumerable_1<Attribute>;
     static GetCustomAttributes(element: Module, attributeType: Type): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends unknown & Attribute>(element: Module): IEnumerable_1<T>;
+    static GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: Module): IEnumerable_1<T>;
     static GetCustomAttributes(element: Module): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends unknown & Attribute>(element: ParameterInfo, inherit: boolean): IEnumerable_1<T>;
+    static GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: ParameterInfo, inherit: boolean): IEnumerable_1<T>;
     static GetCustomAttributes(element: ParameterInfo, inherit: boolean): IEnumerable_1<Attribute>;
     static GetCustomAttributes(element: ParameterInfo, attributeType: Type, inherit: boolean): IEnumerable_1<Attribute>;
     static GetCustomAttributes(element: ParameterInfo, attributeType: Type): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends unknown & Attribute>(element: ParameterInfo): IEnumerable_1<T>;
+    static GetCustomAttributes<T extends unknown & { readonly __tsonic_type_System_Attribute: never }>(element: ParameterInfo): IEnumerable_1<T>;
     static GetCustomAttributes(element: ParameterInfo): IEnumerable_1<Attribute>;
     static IsDefined(element: Assembly, attributeType: Type): boolean;
     static IsDefined(element: MemberInfo, attributeType: Type, inherit: boolean): boolean;

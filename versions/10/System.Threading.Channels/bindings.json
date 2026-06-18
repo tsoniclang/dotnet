@@ -206,19 +206,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Threading.Channels:System.Threading.Channels.Channel`1::.ctor():void",
-            "metadataToken": 100663498,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Threading.Channels.Channel`1",
-            "ownerIdentity": "System.Threading.Channels"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Threading.Channels:System.Threading.Channels.Channel`2",
@@ -246,12 +234,12 @@
             "targetName": "Reader",
             "metadataToken": 385876014,
             "canonicalSignature": ":ChannelReader_1",
-            "normalizedSignature": "Reader|:ChannelReader_1|static=false|accessor=getset",
+            "normalizedSignature": "Reader|:ChannelReader_1|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -265,12 +253,12 @@
             "targetName": "Writer",
             "metadataToken": 385876015,
             "canonicalSignature": ":ChannelWriter_1",
-            "normalizedSignature": "Writer|:ChannelWriter_1|static=false|accessor=getset",
+            "normalizedSignature": "Writer|:ChannelWriter_1|static=false|accessor=get",
             "emitScope": "ClassSurface",
             "provenance": "Original",
             "isIndexer": false,
             "hasGetter": true,
-            "hasSetter": true,
+            "hasSetter": false,
             "isStatic": false,
             "isAbstract": false,
             "isVirtual": false,
@@ -282,19 +270,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Threading.Channels:System.Threading.Channels.Channel`2::.ctor():void",
-            "metadataToken": 100663505,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Threading.Channels.Channel`2",
-            "ownerIdentity": "System.Threading.Channels"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException",
@@ -387,17 +363,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Threading.Channels.ChannelClosedException",
             "ownerIdentity": "System.Threading.Channels"
-          },
-          {
-            "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelClosedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663433,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Threading.Channels.ChannelClosedException",
-            "ownerIdentity": "System.Threading.Channels"
           }
         ]
       },
@@ -478,19 +443,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelOptions::.ctor():void",
-            "metadataToken": 100663440,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Threading.Channels.ChannelOptions",
-            "ownerIdentity": "System.Threading.Channels"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader`1",
@@ -704,19 +657,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelReader`1::.ctor():void",
-            "metadataToken": 100663456,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Threading.Channels.ChannelReader`1",
-            "ownerIdentity": "System.Threading.Channels"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter`1",
@@ -841,19 +782,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Threading.Channels:System.Threading.Channels.ChannelWriter`1::.ctor():void",
-            "metadataToken": 100663495,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Threading.Channels.ChannelWriter`1",
-            "ownerIdentity": "System.Threading.Channels"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Threading.Channels:System.Threading.Channels.UnboundedChannelOptions",

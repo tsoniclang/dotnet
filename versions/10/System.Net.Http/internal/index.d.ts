@@ -27,47 +27,57 @@ import type { Encoding } from "../../System.Text/internal/index.js";
 import type { Task, Task_1, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, Exception, Func_3, Func_5, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from "../../System/internal/index.js";
+import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, Delegate, Enum, Exception, Func_3, Func_5, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from "../../System/internal/index.js";
 
-export enum ClientCertificateOption {
-    Manual = 0,
-    Automatic = 1
-}
+export type ClientCertificateOption = number & { readonly __tsonic_type_System_Net_Http_ClientCertificateOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum HttpCompletionOption {
-    ResponseContentRead = 0,
-    ResponseHeadersRead = 1
-}
+export const ClientCertificateOption: {
+    readonly Manual: ClientCertificateOption;
+    readonly Automatic: ClientCertificateOption;
+};
 
 
-export enum HttpKeepAlivePingPolicy {
-    WithActiveRequests = 0,
-    Always = 1
-}
+export type HttpCompletionOption = number & { readonly __tsonic_type_System_Net_Http_HttpCompletionOption: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HttpCompletionOption: {
+    readonly ResponseContentRead: HttpCompletionOption;
+    readonly ResponseHeadersRead: HttpCompletionOption;
+};
 
 
-export enum HttpRequestError {
-    Unknown = 0,
-    NameResolutionError = 1,
-    ConnectionError = 2,
-    SecureConnectionError = 3,
-    HttpProtocolError = 4,
-    ExtendedConnectNotSupported = 5,
-    VersionNegotiationError = 6,
-    UserAuthenticationError = 7,
-    ProxyTunnelError = 8,
-    InvalidResponse = 9,
-    ResponseEnded = 10,
-    ConfigurationLimitExceeded = 11
-}
+export type HttpKeepAlivePingPolicy = number & { readonly __tsonic_type_System_Net_Http_HttpKeepAlivePingPolicy: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HttpKeepAlivePingPolicy: {
+    readonly WithActiveRequests: HttpKeepAlivePingPolicy;
+    readonly Always: HttpKeepAlivePingPolicy;
+};
 
 
-export enum HttpVersionPolicy {
-    RequestVersionOrLower = 0,
-    RequestVersionOrHigher = 1,
-    RequestVersionExact = 2
-}
+export type HttpRequestError = number & { readonly __tsonic_type_System_Net_Http_HttpRequestError: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HttpRequestError: {
+    readonly Unknown: HttpRequestError;
+    readonly NameResolutionError: HttpRequestError;
+    readonly ConnectionError: HttpRequestError;
+    readonly SecureConnectionError: HttpRequestError;
+    readonly HttpProtocolError: HttpRequestError;
+    readonly ExtendedConnectNotSupported: HttpRequestError;
+    readonly VersionNegotiationError: HttpRequestError;
+    readonly UserAuthenticationError: HttpRequestError;
+    readonly ProxyTunnelError: HttpRequestError;
+    readonly InvalidResponse: HttpRequestError;
+    readonly ResponseEnded: HttpRequestError;
+    readonly ConfigurationLimitExceeded: HttpRequestError;
+};
+
+
+export type HttpVersionPolicy = number & { readonly __tsonic_type_System_Net_Http_HttpVersionPolicy: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const HttpVersionPolicy: {
+    readonly RequestVersionOrLower: HttpVersionPolicy;
+    readonly RequestVersionOrHigher: HttpVersionPolicy;
+    readonly RequestVersionExact: HttpVersionPolicy;
+};
 
 
 export type HeaderEncodingSelector_1<TContext extends unknown> = (headerName: string, context: TContext) => Encoding | null;
@@ -75,6 +85,7 @@ export type HeaderEncodingSelector_1<TContext extends unknown> = (headerName: st
 
 export interface HttpRequestOptionsKey_1$instance<TValue extends unknown> {
     readonly __tsonic_type_System_Net_Http_HttpRequestOptionsKey_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Key: string;
 }
@@ -89,16 +100,15 @@ export type HttpRequestOptionsKey_1<TValue extends unknown> = HttpRequestOptions
 
 export interface ByteArrayContent$instance extends HttpContent$instance {
     readonly __tsonic_type_System_Net_Http_ByteArrayContent: never;
+    readonly __tsonic_type_System_Net_Http_HttpContent: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    CreateContentReadStream(cancellationToken: CancellationToken): Stream;
-    CreateContentReadStreamAsync(): Task_1<Stream>;
-    CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
-    SerializeToStream(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): void;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null): Task;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): Task;
-    TryComputeLength(length: long): boolean;
+    CreateContentReadStream: HttpContent$instance["CreateContentReadStream"] & ((cancellationToken: CancellationToken) => Stream);
+    CreateContentReadStreamAsync: HttpContent$instance["CreateContentReadStreamAsync"] & (() => Task_1<Stream>) & ((cancellationToken: CancellationToken) => Task_1<Stream>);
+    SerializeToStream: HttpContent$instance["SerializeToStream"] & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => void);
+    SerializeToStreamAsync: HttpContent$instance["SerializeToStreamAsync"] & ((stream: Stream, context: TransportContext | null) => Task) & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => Task);
+    TryComputeLength: HttpContent$instance["TryComputeLength"] & ((length: long) => boolean);
 }
 
 
@@ -117,19 +127,19 @@ export type ByteArrayContent = ByteArrayContent$instance & __ByteArrayContent$vi
 
 export interface DelegatingHandler$instance extends HttpMessageHandler$instance {
     readonly __tsonic_type_System_Net_Http_DelegatingHandler: never;
+    readonly __tsonic_type_System_Net_Http_HttpMessageHandler: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     get InnerHandler(): HttpMessageHandler | null;
     set InnerHandler(value: HttpMessageHandler | null);
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
-    SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    Dispose: HttpMessageHandler$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    Send: HttpMessageHandler$instance["Send"] & ((request: HttpRequestMessage, cancellationToken: CancellationToken) => HttpResponseMessage);
+    SendAsync: HttpMessageHandler$instance["SendAsync"] & ((request: HttpRequestMessage, cancellationToken: CancellationToken) => Task_1<HttpResponseMessage>);
 }
 
 
-export const DelegatingHandler: (abstract new() => DelegatingHandler) & (abstract new(innerHandler: HttpMessageHandler) => DelegatingHandler) & {
+export const DelegatingHandler: {
 };
 
 
@@ -141,12 +151,13 @@ export type DelegatingHandler = DelegatingHandler$instance & __DelegatingHandler
 
 
 export interface FormUrlEncodedContent$instance extends ByteArrayContent$instance {
+    readonly __tsonic_type_System_Net_Http_ByteArrayContent: never;
     readonly __tsonic_type_System_Net_Http_FormUrlEncodedContent: never;
+    readonly __tsonic_type_System_Net_Http_HttpContent: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): Task;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null): Task;
+    SerializeToStreamAsync: ByteArrayContent$instance["SerializeToStreamAsync"] & ((stream: Stream, context: TransportContext | null) => Task) & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => Task);
 }
 
 
@@ -164,6 +175,7 @@ export type FormUrlEncodedContent = FormUrlEncodedContent$instance & __FormUrlEn
 
 export interface HttpClient$instance extends HttpMessageInvoker$instance {
     readonly __tsonic_type_System_Net_Http_HttpClient: never;
+    readonly __tsonic_type_System_Net_Http_HttpMessageInvoker: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -175,52 +187,45 @@ export interface HttpClient$instance extends HttpMessageInvoker$instance {
     MaxResponseContentBufferSize: long;
     Timeout: TimeSpan;
     CancelPendingRequests(): void;
-    DeleteAsync(requestUri: string | null): Task_1<HttpResponseMessage>;
     DeleteAsync(requestUri: Uri | null): Task_1<HttpResponseMessage>;
-    DeleteAsync(requestUri: string | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     DeleteAsync(requestUri: Uri | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    GetAsync(requestUri: string | null): Task_1<HttpResponseMessage>;
+    DeleteAsync(requestUri: string | null): Task_1<HttpResponseMessage>;
+    DeleteAsync(requestUri: string | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    Dispose: HttpMessageInvoker$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     GetAsync(requestUri: Uri | null): Task_1<HttpResponseMessage>;
-    GetAsync(requestUri: string | null, completionOption: HttpCompletionOption): Task_1<HttpResponseMessage>;
-    GetAsync(requestUri: Uri | null, completionOption: HttpCompletionOption): Task_1<HttpResponseMessage>;
-    GetAsync(requestUri: string | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     GetAsync(requestUri: Uri | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    GetAsync(requestUri: string | null, completionOption: HttpCompletionOption, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    GetAsync(requestUri: Uri | null, completionOption: HttpCompletionOption): Task_1<HttpResponseMessage>;
     GetAsync(requestUri: Uri | null, completionOption: HttpCompletionOption, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    GetByteArrayAsync(requestUri: string | null): Task_1<byte[]>;
+    GetAsync(requestUri: string | null): Task_1<HttpResponseMessage>;
+    GetAsync(requestUri: string | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    GetAsync(requestUri: string | null, completionOption: HttpCompletionOption): Task_1<HttpResponseMessage>;
+    GetAsync(requestUri: string | null, completionOption: HttpCompletionOption, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     GetByteArrayAsync(requestUri: Uri | null): Task_1<byte[]>;
-    GetByteArrayAsync(requestUri: string | null, cancellationToken: CancellationToken): Task_1<byte[]>;
     GetByteArrayAsync(requestUri: Uri | null, cancellationToken: CancellationToken): Task_1<byte[]>;
-    GetStreamAsync(requestUri: string | null): Task_1<Stream>;
-    GetStreamAsync(requestUri: string | null, cancellationToken: CancellationToken): Task_1<Stream>;
+    GetByteArrayAsync(requestUri: string | null): Task_1<byte[]>;
+    GetByteArrayAsync(requestUri: string | null, cancellationToken: CancellationToken): Task_1<byte[]>;
     GetStreamAsync(requestUri: Uri | null): Task_1<Stream>;
     GetStreamAsync(requestUri: Uri | null, cancellationToken: CancellationToken): Task_1<Stream>;
-    GetStringAsync(requestUri: string | null): Task_1<System_Internal.String>;
+    GetStreamAsync(requestUri: string | null): Task_1<Stream>;
+    GetStreamAsync(requestUri: string | null, cancellationToken: CancellationToken): Task_1<Stream>;
     GetStringAsync(requestUri: Uri | null): Task_1<System_Internal.String>;
-    GetStringAsync(requestUri: string | null, cancellationToken: CancellationToken): Task_1<System_Internal.String>;
     GetStringAsync(requestUri: Uri | null, cancellationToken: CancellationToken): Task_1<System_Internal.String>;
-    PatchAsync(requestUri: string | null, content: HttpContent | null): Task_1<HttpResponseMessage>;
+    GetStringAsync(requestUri: string | null): Task_1<System_Internal.String>;
+    GetStringAsync(requestUri: string | null, cancellationToken: CancellationToken): Task_1<System_Internal.String>;
     PatchAsync(requestUri: Uri | null, content: HttpContent | null): Task_1<HttpResponseMessage>;
-    PatchAsync(requestUri: string | null, content: HttpContent | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     PatchAsync(requestUri: Uri | null, content: HttpContent | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    PostAsync(requestUri: string | null, content: HttpContent | null): Task_1<HttpResponseMessage>;
+    PatchAsync(requestUri: string | null, content: HttpContent | null): Task_1<HttpResponseMessage>;
+    PatchAsync(requestUri: string | null, content: HttpContent | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     PostAsync(requestUri: Uri | null, content: HttpContent | null): Task_1<HttpResponseMessage>;
-    PostAsync(requestUri: string | null, content: HttpContent | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     PostAsync(requestUri: Uri | null, content: HttpContent | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    PutAsync(requestUri: string | null, content: HttpContent | null): Task_1<HttpResponseMessage>;
+    PostAsync(requestUri: string | null, content: HttpContent | null): Task_1<HttpResponseMessage>;
+    PostAsync(requestUri: string | null, content: HttpContent | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     PutAsync(requestUri: Uri | null, content: HttpContent | null): Task_1<HttpResponseMessage>;
-    PutAsync(requestUri: string | null, content: HttpContent | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     PutAsync(requestUri: Uri | null, content: HttpContent | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    Send(request: HttpRequestMessage): HttpResponseMessage;
-    Send(request: HttpRequestMessage, completionOption: HttpCompletionOption): HttpResponseMessage;
-    Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
-    Send(request: HttpRequestMessage, completionOption: HttpCompletionOption, cancellationToken: CancellationToken): HttpResponseMessage;
-    SendAsync(request: HttpRequestMessage): Task_1<HttpResponseMessage>;
-    SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    SendAsync(request: HttpRequestMessage, completionOption: HttpCompletionOption): Task_1<HttpResponseMessage>;
-    SendAsync(request: HttpRequestMessage, completionOption: HttpCompletionOption, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    PutAsync(requestUri: string | null, content: HttpContent | null): Task_1<HttpResponseMessage>;
+    PutAsync(requestUri: string | null, content: HttpContent | null, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    Send: HttpMessageInvoker$instance["Send"] & ((request: HttpRequestMessage) => HttpResponseMessage) & ((request: HttpRequestMessage, cancellationToken: CancellationToken) => HttpResponseMessage) & ((request: HttpRequestMessage, completionOption: HttpCompletionOption) => HttpResponseMessage) & ((request: HttpRequestMessage, completionOption: HttpCompletionOption, cancellationToken: CancellationToken) => HttpResponseMessage);
+    SendAsync: HttpMessageInvoker$instance["SendAsync"] & ((request: HttpRequestMessage) => Task_1<HttpResponseMessage>) & ((request: HttpRequestMessage, cancellationToken: CancellationToken) => Task_1<HttpResponseMessage>) & ((request: HttpRequestMessage, completionOption: HttpCompletionOption) => Task_1<HttpResponseMessage>) & ((request: HttpRequestMessage, completionOption: HttpCompletionOption, cancellationToken: CancellationToken) => Task_1<HttpResponseMessage>);
 }
 
 
@@ -241,6 +246,7 @@ export type HttpClient = HttpClient$instance & __HttpClient$views;
 
 export interface HttpClientHandler$instance extends HttpMessageHandler$instance {
     readonly __tsonic_type_System_Net_Http_HttpClientHandler: never;
+    readonly __tsonic_type_System_Net_Http_HttpMessageHandler: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -273,10 +279,9 @@ export interface HttpClientHandler$instance extends HttpMessageHandler$instance 
     UseCookies: boolean;
     UseDefaultCredentials: boolean;
     UseProxy: boolean;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
-    SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    Dispose: HttpMessageHandler$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    Send: HttpMessageHandler$instance["Send"] & ((request: HttpRequestMessage, cancellationToken: CancellationToken) => HttpResponseMessage);
+    SendAsync: HttpMessageHandler$instance["SendAsync"] & ((request: HttpRequestMessage, cancellationToken: CancellationToken) => Task_1<HttpResponseMessage>);
 }
 
 
@@ -307,11 +312,11 @@ export interface HttpContent$instance {
     CreateContentReadStream(cancellationToken: CancellationToken): Stream;
     CreateContentReadStreamAsync(): Task_1<Stream>;
     CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
-    Dispose(disposing: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     LoadIntoBufferAsync(): Task;
-    LoadIntoBufferAsync(maxBufferSize: long): Task;
     LoadIntoBufferAsync(cancellationToken: CancellationToken): Task;
+    LoadIntoBufferAsync(maxBufferSize: long): Task;
     LoadIntoBufferAsync(maxBufferSize: long, cancellationToken: CancellationToken): Task;
     ReadAsByteArrayAsync(): Task_1<byte[]>;
     ReadAsByteArrayAsync(cancellationToken: CancellationToken): Task_1<byte[]>;
@@ -328,7 +333,7 @@ export interface HttpContent$instance {
 }
 
 
-export const HttpContent: (abstract new() => HttpContent) & {
+export const HttpContent: {
 };
 
 
@@ -339,13 +344,15 @@ export interface __HttpContent$views {
 export type HttpContent = HttpContent$instance & __HttpContent$views;
 
 
-export interface HttpIOException$instance extends IOException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface HttpIOException$instance extends System_IO_Internal.IOException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_IO_IOException: never;
     readonly __tsonic_type_System_Net_Http_HttpIOException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly HttpRequestError: HttpRequestError;
-    readonly Message: string;
 }
 
 
@@ -366,14 +373,14 @@ export interface HttpMessageHandler$instance {
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Dispose(disposing: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
     SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
 }
 
 
-export const HttpMessageHandler: (abstract new() => HttpMessageHandler) & {
+export const HttpMessageHandler: {
 };
 
 
@@ -415,8 +422,8 @@ export interface HttpMethod$instance {
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     readonly Method: string;
-    Equals(other: HttpMethod | null): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(other: HttpMethod | null): boolean;
     GetHashCode(): int;
     ToString(): string;
 }
@@ -448,8 +455,12 @@ export interface __HttpMethod$views {
 export type HttpMethod = HttpMethod$instance & __HttpMethod$views;
 
 
-export interface HttpProtocolException$instance extends HttpIOException$instance, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface HttpProtocolException$instance extends HttpIOException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_IO_IOException: never;
+    readonly __tsonic_type_System_Net_Http_HttpIOException: never;
     readonly __tsonic_type_System_Net_Http_HttpProtocolException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -469,7 +480,8 @@ export interface __HttpProtocolException$views {
 export type HttpProtocolException = HttpProtocolException$instance & __HttpProtocolException$views;
 
 
-export interface HttpRequestException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface HttpRequestException$instance extends System_Internal.Exception$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Net_Http_HttpRequestException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -510,8 +522,8 @@ export interface HttpRequestMessage$instance {
     set RequestUri(value: Uri | null);
     Version: Version;
     VersionPolicy: HttpVersionPolicy;
-    Dispose(disposing: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     ToString(): string;
 }
 
@@ -577,8 +589,8 @@ export interface HttpResponseMessage$instance {
     StatusCode: HttpStatusCode;
     readonly TrailingHeaders: HttpResponseHeaders;
     Version: Version;
-    Dispose(disposing: boolean): void;
     Dispose(): void;
+    Dispose(disposing: boolean): void;
     EnsureSuccessStatusCode(): HttpResponseMessage;
     ToString(): string;
 }
@@ -598,18 +610,20 @@ export type HttpResponseMessage = HttpResponseMessage$instance & __HttpResponseM
 
 
 export interface MessageProcessingHandler$instance extends DelegatingHandler$instance {
+    readonly __tsonic_type_System_Net_Http_DelegatingHandler: never;
+    readonly __tsonic_type_System_Net_Http_HttpMessageHandler: never;
     readonly __tsonic_type_System_Net_Http_MessageProcessingHandler: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     ProcessRequest(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpRequestMessage;
     ProcessResponse(response: HttpResponseMessage, cancellationToken: CancellationToken): HttpResponseMessage;
-    Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
-    SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    Send: DelegatingHandler$instance["Send"] & ((request: HttpRequestMessage, cancellationToken: CancellationToken) => HttpResponseMessage);
+    SendAsync: DelegatingHandler$instance["SendAsync"] & ((request: HttpRequestMessage, cancellationToken: CancellationToken) => Task_1<HttpResponseMessage>);
 }
 
 
-export const MessageProcessingHandler: (abstract new() => MessageProcessingHandler) & (abstract new(innerHandler: HttpMessageHandler) => MessageProcessingHandler) & {
+export const MessageProcessingHandler: {
 };
 
 
@@ -621,6 +635,7 @@ export type MessageProcessingHandler = MessageProcessingHandler$instance & __Mes
 
 
 export interface MultipartContent$instance extends HttpContent$instance {
+    readonly __tsonic_type_System_Net_Http_HttpContent: never;
     readonly __tsonic_type_System_Net_Http_MultipartContent: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -630,16 +645,13 @@ export interface MultipartContent$instance extends HttpContent$instance {
     get HeaderEncodingSelector(): HeaderEncodingSelector_1<HttpContent> | null;
     set HeaderEncodingSelector(value: HeaderEncodingSelector_1<HttpContent> | null);
     Add(content: HttpContent): void;
-    CreateContentReadStream(cancellationToken: CancellationToken): Stream;
-    CreateContentReadStreamAsync(): Task_1<Stream>;
-    CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
+    CreateContentReadStream: HttpContent$instance["CreateContentReadStream"] & ((cancellationToken: CancellationToken) => Stream);
+    CreateContentReadStreamAsync: HttpContent$instance["CreateContentReadStreamAsync"] & (() => Task_1<Stream>) & ((cancellationToken: CancellationToken) => Task_1<Stream>);
+    Dispose: HttpContent$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     GetEnumerator(): IEnumerator_1<HttpContent>;
-    SerializeToStream(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): void;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null): Task;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): Task;
-    TryComputeLength(length: long): boolean;
+    SerializeToStream: HttpContent$instance["SerializeToStream"] & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => void);
+    SerializeToStreamAsync: HttpContent$instance["SerializeToStreamAsync"] & ((stream: Stream, context: TransportContext | null) => Task) & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => Task);
+    TryComputeLength: HttpContent$instance["TryComputeLength"] & ((length: long) => boolean);
 }
 
 
@@ -660,17 +672,16 @@ export type MultipartContent = MultipartContent$instance & __MultipartContent$vi
 
 
 export interface MultipartFormDataContent$instance extends MultipartContent$instance {
+    readonly __tsonic_type_System_Net_Http_HttpContent: never;
+    readonly __tsonic_type_System_Net_Http_MultipartContent: never;
     readonly __tsonic_type_System_Net_Http_MultipartFormDataContent: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Add(content: HttpContent): void;
-    Add(content: HttpContent, name: string): void;
-    Add(content: HttpContent, name: string, fileName: string): void;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): Task;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null): Task;
+    Add: MultipartContent$instance["Add"] & ((content: HttpContent) => void) & ((content: HttpContent, name: string) => void) & ((content: HttpContent, name: string, fileName: string) => void);
+    SerializeToStreamAsync: MultipartContent$instance["SerializeToStreamAsync"] & ((stream: Stream, context: TransportContext | null) => Task) & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => Task);
 }
 
 
@@ -690,17 +701,16 @@ export type MultipartFormDataContent = MultipartFormDataContent$instance & __Mul
 
 
 export interface ReadOnlyMemoryContent$instance extends HttpContent$instance {
+    readonly __tsonic_type_System_Net_Http_HttpContent: never;
     readonly __tsonic_type_System_Net_Http_ReadOnlyMemoryContent: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    CreateContentReadStream(cancellationToken: CancellationToken): Stream;
-    CreateContentReadStreamAsync(): Task_1<Stream>;
-    CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
-    SerializeToStream(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): void;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null): Task;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): Task;
-    TryComputeLength(length: long): boolean;
+    CreateContentReadStream: HttpContent$instance["CreateContentReadStream"] & ((cancellationToken: CancellationToken) => Stream);
+    CreateContentReadStreamAsync: HttpContent$instance["CreateContentReadStreamAsync"] & (() => Task_1<Stream>) & ((cancellationToken: CancellationToken) => Task_1<Stream>);
+    SerializeToStream: HttpContent$instance["SerializeToStream"] & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => void);
+    SerializeToStreamAsync: HttpContent$instance["SerializeToStreamAsync"] & ((stream: Stream, context: TransportContext | null) => Task) & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => Task);
+    TryComputeLength: HttpContent$instance["TryComputeLength"] & ((length: long) => boolean);
 }
 
 
@@ -731,6 +741,7 @@ export const SocketsHttpConnectionContext: {
 export type SocketsHttpConnectionContext = SocketsHttpConnectionContext$instance;
 
 export interface SocketsHttpHandler$instance extends HttpMessageHandler$instance {
+    readonly __tsonic_type_System_Net_Http_HttpMessageHandler: never;
     readonly __tsonic_type_System_Net_Http_SocketsHttpHandler: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -776,10 +787,9 @@ export interface SocketsHttpHandler$instance extends HttpMessageHandler$instance
     SslOptions: SslClientAuthenticationOptions;
     UseCookies: boolean;
     UseProxy: boolean;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    Send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
-    SendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    Dispose: HttpMessageHandler$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    Send: HttpMessageHandler$instance["Send"] & ((request: HttpRequestMessage, cancellationToken: CancellationToken) => HttpResponseMessage);
+    SendAsync: HttpMessageHandler$instance["SendAsync"] & ((request: HttpRequestMessage, cancellationToken: CancellationToken) => Task_1<HttpResponseMessage>);
 }
 
 
@@ -812,19 +822,17 @@ export const SocketsHttpPlaintextStreamFilterContext: {
 export type SocketsHttpPlaintextStreamFilterContext = SocketsHttpPlaintextStreamFilterContext$instance;
 
 export interface StreamContent$instance extends HttpContent$instance {
+    readonly __tsonic_type_System_Net_Http_HttpContent: never;
     readonly __tsonic_type_System_Net_Http_StreamContent: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    CreateContentReadStream(cancellationToken: CancellationToken): Stream;
-    CreateContentReadStreamAsync(): Task_1<Stream>;
-    CreateContentReadStreamAsync(cancellationToken: CancellationToken): Task_1<Stream>;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    SerializeToStream(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): void;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null): Task;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): Task;
-    TryComputeLength(length: long): boolean;
+    CreateContentReadStream: HttpContent$instance["CreateContentReadStream"] & ((cancellationToken: CancellationToken) => Stream);
+    CreateContentReadStreamAsync: HttpContent$instance["CreateContentReadStreamAsync"] & (() => Task_1<Stream>) & ((cancellationToken: CancellationToken) => Task_1<Stream>);
+    Dispose: HttpContent$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    SerializeToStream: HttpContent$instance["SerializeToStream"] & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => void);
+    SerializeToStreamAsync: HttpContent$instance["SerializeToStreamAsync"] & ((stream: Stream, context: TransportContext | null) => Task) & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => Task);
+    TryComputeLength: HttpContent$instance["TryComputeLength"] & ((length: long) => boolean);
 }
 
 
@@ -842,12 +850,13 @@ export type StreamContent = StreamContent$instance & __StreamContent$views;
 
 
 export interface StringContent$instance extends ByteArrayContent$instance {
+    readonly __tsonic_type_System_Net_Http_ByteArrayContent: never;
+    readonly __tsonic_type_System_Net_Http_HttpContent: never;
     readonly __tsonic_type_System_Net_Http_StringContent: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken): Task;
-    SerializeToStreamAsync(stream: Stream, context: TransportContext | null): Task;
+    SerializeToStreamAsync: ByteArrayContent$instance["SerializeToStreamAsync"] & ((stream: Stream, context: TransportContext | null) => Task) & ((stream: Stream, context: TransportContext | null, cancellationToken: CancellationToken) => Task);
 }
 
 

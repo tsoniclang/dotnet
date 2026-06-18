@@ -17,23 +17,28 @@ import type { CancellationToken } from "../../System.Threading/internal/index.js
 import * as System_Internal from "../../System/internal/index.js";
 import type { Action, Attribute, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
 
-export enum GCLargeObjectHeapCompactionMode {
-    Default = 1,
-    CompactOnce = 2
-}
+export type GCLargeObjectHeapCompactionMode = number & { readonly __tsonic_type_System_Runtime_GCLargeObjectHeapCompactionMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const GCLargeObjectHeapCompactionMode: {
+    readonly Default: GCLargeObjectHeapCompactionMode;
+    readonly CompactOnce: GCLargeObjectHeapCompactionMode;
+};
 
 
-export enum GCLatencyMode {
-    Batch = 0,
-    Interactive = 1,
-    LowLatency = 2,
-    SustainedLowLatency = 3,
-    NoGCRegion = 4
-}
+export type GCLatencyMode = number & { readonly __tsonic_type_System_Runtime_GCLatencyMode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const GCLatencyMode: {
+    readonly Batch: GCLatencyMode;
+    readonly Interactive: GCLatencyMode;
+    readonly LowLatency: GCLatencyMode;
+    readonly SustainedLowLatency: GCLatencyMode;
+    readonly NoGCRegion: GCLatencyMode;
+};
 
 
-export interface DependentHandle$instance extends System_Internal.IDisposable$instance {
+export interface DependentHandle$instance {
     readonly __tsonic_type_System_Runtime_DependentHandle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -59,7 +64,8 @@ export interface __DependentHandle$views {
 export type DependentHandle = DependentHandle$instance & __DependentHandle$views;
 
 
-export interface AmbiguousImplementationException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface AmbiguousImplementationException$instance extends System_Internal.Exception$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_AmbiguousImplementationException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
@@ -81,7 +87,8 @@ export interface __AmbiguousImplementationException$views {
 export type AmbiguousImplementationException = AmbiguousImplementationException$instance & __AmbiguousImplementationException$views;
 
 
-export interface AssemblyTargetedPatchBandAttribute$instance extends Attribute {
+export interface AssemblyTargetedPatchBandAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_AssemblyTargetedPatchBandAttribute: never;
 
     readonly TargetedPatchBand: string;
@@ -95,13 +102,14 @@ export const AssemblyTargetedPatchBandAttribute: {
 
 export type AssemblyTargetedPatchBandAttribute = AssemblyTargetedPatchBandAttribute$instance;
 
-export interface MemoryFailPoint$instance extends CriticalFinalizerObject, System_Internal.IDisposable$instance {
+export interface MemoryFailPoint$instance extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
+    readonly __tsonic_type_System_Runtime_ConstrainedExecution_CriticalFinalizerObject: never;
     readonly __tsonic_type_System_Runtime_MemoryFailPoint: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     Dispose(): void;
-    Finalize(): void;
+    Finalize: System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance["Finalize"] & (() => void);
 }
 
 
@@ -117,7 +125,8 @@ export interface __MemoryFailPoint$views {
 export type MemoryFailPoint = MemoryFailPoint$instance & __MemoryFailPoint$views;
 
 
-export interface TargetedPatchingOptOutAttribute$instance extends Attribute {
+export interface TargetedPatchingOptOutAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_TargetedPatchingOptOutAttribute: never;
 
     readonly Reason: string;

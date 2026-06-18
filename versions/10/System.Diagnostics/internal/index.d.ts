@@ -13,9 +13,9 @@ import type { ICollection_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IList_
 import type { Collection_1 } from "../../System.Collections.ObjectModel/internal/index.js";
 import type { StringDictionary } from "../../System.Collections.Specialized/internal/index.js";
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
-import type { ArrayList, ICollection, IDictionary, IEnumerable, IEnumerator, IList, ReadOnlyCollectionBase, Stack } from "../../System.Collections/internal/index.js";
+import type { ICollection, IDictionary, IEnumerable, IEnumerator, IList, ReadOnlyCollectionBase, Stack } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { Component, DescriptionAttribute, EventHandlerList, IComponent, IContainer, ISite, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
+import type { Component, DescriptionAttribute, IComponent, IContainer, ISite, ISynchronizeInvoke } from "../../System.ComponentModel/internal/index.js";
 import type { Stream, StreamReader, StreamWriter, TextWriter } from "../../System.IO/internal/index.js";
 import type { Assembly, MethodBase, MethodInfo } from "../../System.Reflection/internal/index.js";
 import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Serialization/internal/index.js";
@@ -25,155 +25,185 @@ import type { Encoding } from "../../System.Text/internal/index.js";
 import type { Task } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Action_1, Action_2, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Delegate, Enum, EventArgs, EventHandler, EventHandler_1, Exception, Func_1, Func_2, Func_4, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, IObservable_1, IObserver_1, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { Action_1, Action_2, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, DateTime, DateTimeOffset, Delegate, Enum, EventArgs, EventHandler, EventHandler_1, Exception, Func_1, Func_2, Func_4, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, IObservable_1, IObserver_1, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum ActivityIdFormat {
-    Unknown = 0,
-    Hierarchical = 1,
-    W3C = 2
-}
+export type ActivityIdFormat = number & { readonly __tsonic_type_System_Diagnostics_ActivityIdFormat: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
 
-
-export enum ActivityKind {
-    Internal = 0,
-    Server = 1,
-    Client = 2,
-    Producer = 3,
-    Consumer = 4
-}
+export const ActivityIdFormat: {
+    readonly Unknown: ActivityIdFormat;
+    readonly Hierarchical: ActivityIdFormat;
+    readonly W3C: ActivityIdFormat;
+};
 
 
-export enum ActivitySamplingResult {
-    None = 0,
-    PropagationData = 1,
-    AllData = 2,
-    AllDataAndRecorded = 3
-}
+export type ActivityKind = number & { readonly __tsonic_type_System_Diagnostics_ActivityKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ActivityKind: {
+    readonly Internal: ActivityKind;
+    readonly Server: ActivityKind;
+    readonly Client: ActivityKind;
+    readonly Producer: ActivityKind;
+    readonly Consumer: ActivityKind;
+};
 
 
-export enum ActivityStatusCode {
-    Unset = 0,
-    Ok = 1,
-    Error = 2
-}
+export type ActivitySamplingResult = number & { readonly __tsonic_type_System_Diagnostics_ActivitySamplingResult: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ActivitySamplingResult: {
+    readonly None: ActivitySamplingResult;
+    readonly PropagationData: ActivitySamplingResult;
+    readonly AllData: ActivitySamplingResult;
+    readonly AllDataAndRecorded: ActivitySamplingResult;
+};
 
 
-export enum ActivityTraceFlags {
-    None = 0,
-    Recorded = 1
-}
+export type ActivityStatusCode = number & { readonly __tsonic_type_System_Diagnostics_ActivityStatusCode: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ActivityStatusCode: {
+    readonly Unset: ActivityStatusCode;
+    readonly Ok: ActivityStatusCode;
+    readonly Error: ActivityStatusCode;
+};
 
 
-export enum DebuggerBrowsableState {
-    Never = 0,
-    Collapsed = 2,
-    RootHidden = 3
-}
+export type ActivityTraceFlags = number & { readonly __tsonic_type_System_Diagnostics_ActivityTraceFlags: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ActivityTraceFlags: {
+    readonly None: ActivityTraceFlags;
+    readonly Recorded: ActivityTraceFlags;
+};
 
 
-export enum ProcessPriorityClass {
-    Normal = 32,
-    Idle = 64,
-    High = 128,
-    RealTime = 256,
-    BelowNormal = 16384,
-    AboveNormal = 32768
-}
+export type DebuggerBrowsableState = number & { readonly __tsonic_type_System_Diagnostics_DebuggerBrowsableState: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DebuggerBrowsableState: {
+    readonly Never: DebuggerBrowsableState;
+    readonly Collapsed: DebuggerBrowsableState;
+    readonly RootHidden: DebuggerBrowsableState;
+};
 
 
-export enum ProcessWindowStyle {
-    Normal = 0,
-    Hidden = 1,
-    Minimized = 2,
-    Maximized = 3
-}
+export type ProcessPriorityClass = number & { readonly __tsonic_type_System_Diagnostics_ProcessPriorityClass: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ProcessPriorityClass: {
+    readonly Normal: ProcessPriorityClass;
+    readonly Idle: ProcessPriorityClass;
+    readonly High: ProcessPriorityClass;
+    readonly RealTime: ProcessPriorityClass;
+    readonly BelowNormal: ProcessPriorityClass;
+    readonly AboveNormal: ProcessPriorityClass;
+};
 
 
-export enum SourceLevels {
-    Off = 0,
-    Critical = 1,
-    Error = 3,
-    Warning = 7,
-    Information = 15,
-    Verbose = 31,
-    ActivityTracing = 65280,
-    All = -1
-}
+export type ProcessWindowStyle = number & { readonly __tsonic_type_System_Diagnostics_ProcessWindowStyle: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ProcessWindowStyle: {
+    readonly Normal: ProcessWindowStyle;
+    readonly Hidden: ProcessWindowStyle;
+    readonly Minimized: ProcessWindowStyle;
+    readonly Maximized: ProcessWindowStyle;
+};
 
 
-export enum ThreadPriorityLevel {
-    Idle = -15,
-    Lowest = -2,
-    BelowNormal = -1,
-    Normal = 0,
-    AboveNormal = 1,
-    Highest = 2,
-    TimeCritical = 15
-}
+export type SourceLevels = number & { readonly __tsonic_type_System_Diagnostics_SourceLevels: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SourceLevels: {
+    readonly Off: SourceLevels;
+    readonly Critical: SourceLevels;
+    readonly Error: SourceLevels;
+    readonly Warning: SourceLevels;
+    readonly Information: SourceLevels;
+    readonly Verbose: SourceLevels;
+    readonly ActivityTracing: SourceLevels;
+    readonly All: SourceLevels;
+};
 
 
-export enum ThreadState {
-    Initialized = 0,
-    Ready = 1,
-    Running = 2,
-    Standby = 3,
-    Terminated = 4,
-    Wait = 5,
-    Transition = 6,
-    Unknown = 7
-}
+export type ThreadPriorityLevel = number & { readonly __tsonic_type_System_Diagnostics_ThreadPriorityLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ThreadPriorityLevel: {
+    readonly Idle: ThreadPriorityLevel;
+    readonly Lowest: ThreadPriorityLevel;
+    readonly BelowNormal: ThreadPriorityLevel;
+    readonly Normal: ThreadPriorityLevel;
+    readonly AboveNormal: ThreadPriorityLevel;
+    readonly Highest: ThreadPriorityLevel;
+    readonly TimeCritical: ThreadPriorityLevel;
+};
 
 
-export enum ThreadWaitReason {
-    Executive = 0,
-    FreePage = 1,
-    PageIn = 2,
-    SystemAllocation = 3,
-    ExecutionDelay = 4,
-    Suspended = 5,
-    UserRequest = 6,
-    EventPairHigh = 7,
-    EventPairLow = 8,
-    LpcReceive = 9,
-    LpcReply = 10,
-    VirtualMemory = 11,
-    PageOut = 12,
-    Unknown = 13
-}
+export type ThreadState = number & { readonly __tsonic_type_System_Diagnostics_ThreadState: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ThreadState: {
+    readonly Initialized: ThreadState;
+    readonly Ready: ThreadState;
+    readonly Running: ThreadState;
+    readonly Standby: ThreadState;
+    readonly Terminated: ThreadState;
+    readonly Wait: ThreadState;
+    readonly Transition: ThreadState;
+    readonly Unknown: ThreadState;
+};
 
 
-export enum TraceEventType {
-    Critical = 1,
-    Error = 2,
-    Warning = 4,
-    Information = 8,
-    Verbose = 16,
-    Start = 256,
-    Stop = 512,
-    Suspend = 1024,
-    Resume = 2048,
-    Transfer = 4096
-}
+export type ThreadWaitReason = number & { readonly __tsonic_type_System_Diagnostics_ThreadWaitReason: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ThreadWaitReason: {
+    readonly Executive: ThreadWaitReason;
+    readonly FreePage: ThreadWaitReason;
+    readonly PageIn: ThreadWaitReason;
+    readonly SystemAllocation: ThreadWaitReason;
+    readonly ExecutionDelay: ThreadWaitReason;
+    readonly Suspended: ThreadWaitReason;
+    readonly UserRequest: ThreadWaitReason;
+    readonly EventPairHigh: ThreadWaitReason;
+    readonly EventPairLow: ThreadWaitReason;
+    readonly LpcReceive: ThreadWaitReason;
+    readonly LpcReply: ThreadWaitReason;
+    readonly VirtualMemory: ThreadWaitReason;
+    readonly PageOut: ThreadWaitReason;
+    readonly Unknown: ThreadWaitReason;
+};
 
 
-export enum TraceLevel {
-    Off = 0,
-    Error = 1,
-    Warning = 2,
-    Info = 3,
-    Verbose = 4
-}
+export type TraceEventType = number & { readonly __tsonic_type_System_Diagnostics_TraceEventType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TraceEventType: {
+    readonly Critical: TraceEventType;
+    readonly Error: TraceEventType;
+    readonly Warning: TraceEventType;
+    readonly Information: TraceEventType;
+    readonly Verbose: TraceEventType;
+    readonly Start: TraceEventType;
+    readonly Stop: TraceEventType;
+    readonly Suspend: TraceEventType;
+    readonly Resume: TraceEventType;
+    readonly Transfer: TraceEventType;
+};
 
 
-export enum TraceOptions {
-    None = 0,
-    LogicalOperationStack = 1,
-    DateTime = 2,
-    Timestamp = 4,
-    ProcessId = 8,
-    ThreadId = 16,
-    Callstack = 32
-}
+export type TraceLevel = number & { readonly __tsonic_type_System_Diagnostics_TraceLevel: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TraceLevel: {
+    readonly Off: TraceLevel;
+    readonly Error: TraceLevel;
+    readonly Warning: TraceLevel;
+    readonly Info: TraceLevel;
+    readonly Verbose: TraceLevel;
+};
+
+
+export type TraceOptions = number & { readonly __tsonic_type_System_Diagnostics_TraceOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const TraceOptions: {
+    readonly None: TraceOptions;
+    readonly LogicalOperationStack: TraceOptions;
+    readonly DateTime: TraceOptions;
+    readonly Timestamp: TraceOptions;
+    readonly ProcessId: TraceOptions;
+    readonly ThreadId: TraceOptions;
+    readonly Callstack: TraceOptions;
+};
 
 
 export type DataReceivedEventHandler = (sender: unknown, e: DataReceivedEventArgs) => void;
@@ -187,6 +217,7 @@ export type SampleActivity_1<T extends unknown> = (options: ActivityCreationOpti
 
 export interface ActivityChangedEventArgs$instance {
     readonly __tsonic_type_System_Diagnostics_ActivityChangedEventArgs: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     get Current(): Activity | null;
     set Current(value: Activity | null);
@@ -204,6 +235,7 @@ export type ActivityChangedEventArgs = ActivityChangedEventArgs$instance;
 
 export interface ActivityContext$instance {
     readonly __tsonic_type_System_Diagnostics_ActivityContext: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -212,8 +244,8 @@ export interface ActivityContext$instance {
     readonly TraceFlags: ActivityTraceFlags;
     readonly TraceId: ActivityTraceId;
     readonly TraceState: string | null;
-    Equals(value: ActivityContext): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(value: ActivityContext): boolean;
     GetHashCode(): int;
 }
 
@@ -238,6 +270,7 @@ export type ActivityContext = ActivityContext$instance & __ActivityContext$views
 
 export interface ActivityCreationOptions_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Diagnostics_ActivityCreationOptions_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Kind: ActivityKind;
     readonly Links: IEnumerable_1<ActivityLink> | null;
@@ -261,6 +294,7 @@ export type ActivityCreationOptions_1<T extends unknown> = ActivityCreationOptio
 
 export interface ActivityEvent$instance {
     readonly __tsonic_type_System_Diagnostics_ActivityEvent: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Name: string;
     readonly Tags: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
@@ -279,6 +313,7 @@ export type ActivityEvent = ActivityEvent$instance;
 
 export interface ActivityLink$instance {
     readonly __tsonic_type_System_Diagnostics_ActivityLink: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -308,12 +343,13 @@ export type ActivityLink = ActivityLink$instance & __ActivityLink$views;
 
 export interface ActivitySpanId$instance {
     readonly __tsonic_type_System_Diagnostics_ActivitySpanId: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     CopyTo(destination: Span_1<System_Internal.Byte>): void;
-    Equals(spanId: ActivitySpanId): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(spanId: ActivitySpanId): boolean;
     GetHashCode(): int;
     ToHexString(): string;
     ToString(): string;
@@ -341,12 +377,13 @@ export type ActivitySpanId = ActivitySpanId$instance & __ActivitySpanId$views;
 
 export interface ActivityTraceId$instance {
     readonly __tsonic_type_System_Diagnostics_ActivityTraceId: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
     CopyTo(destination: Span_1<System_Internal.Byte>): void;
-    Equals(traceId: ActivityTraceId): boolean;
     Equals(obj: unknown | null): boolean;
+    Equals(traceId: ActivityTraceId): boolean;
     GetHashCode(): int;
     ToHexString(): string;
     ToString(): string;
@@ -374,6 +411,7 @@ export type ActivityTraceId = ActivityTraceId$instance & __ActivityTraceId$views
 
 export interface TagList$instance {
     readonly __tsonic_type_System_Diagnostics_TagList: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_ICollection_1: never;
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -388,8 +426,8 @@ export interface TagList$instance {
     Add(tag: KeyValuePair_2<System_Internal.String, unknown>): void;
     Clear(): void;
     Contains(item: KeyValuePair_2<System_Internal.String, unknown>): boolean;
-    CopyTo(tags: Span_1<KeyValuePair_2<System_Internal.String, unknown>>): void;
     CopyTo(array: KeyValuePair_2<System_Internal.String, unknown>[], arrayIndex: int): void;
+    CopyTo(tags: Span_1<KeyValuePair_2<System_Internal.String, unknown>>): void;
     GetEnumerator(): IEnumerator_1<KeyValuePair_2<System_Internal.String, unknown>>;
     IndexOf(item: KeyValuePair_2<System_Internal.String, unknown>): int;
     Insert(index: int, item: KeyValuePair_2<System_Internal.String, unknown>): void;
@@ -414,8 +452,9 @@ export interface __TagList$views {
 export type TagList = TagList$instance & __TagList$views & { [index: number]: KeyValuePair_2<System_Internal.String, unknown>; };
 
 
-export interface TagList_Enumerator$instance extends IEnumerator_1<KeyValuePair_2<System_Internal.String, unknown>> {
+export interface TagList_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<System_Internal.String, unknown>> {
     readonly __tsonic_type_System_Diagnostics_TagList_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -444,25 +483,24 @@ export interface Activity$instance {
     readonly Baggage: IEnumerable_1<KeyValuePair_2<System_Internal.String, System_Internal.String>>;
     readonly Context: ActivityContext;
     DisplayName: string;
-    Duration: TimeSpan;
+    readonly Duration: TimeSpan;
     readonly Events: IEnumerable_1<ActivityEvent>;
-    HasRemoteParent: boolean;
+    readonly HasRemoteParent: boolean;
     readonly Id: string | null;
-    IdFormat: ActivityIdFormat;
+    readonly IdFormat: ActivityIdFormat;
     IsAllDataRequested: boolean;
-    IsStopped: boolean;
-    Kind: ActivityKind;
+    readonly IsStopped: boolean;
+    readonly Kind: ActivityKind;
     readonly Links: IEnumerable_1<ActivityLink>;
     readonly OperationName: string;
-    get Parent(): Activity | null;
-    set Parent(value: Activity | null);
+    readonly Parent: Activity | null;
     readonly ParentId: string | null;
     readonly ParentSpanId: ActivitySpanId;
     readonly Recorded: boolean;
     readonly RootId: string | null;
-    Source: ActivitySource;
+    readonly Source: ActivitySource;
     readonly SpanId: ActivitySpanId;
-    StartTimeUtc: DateTime;
+    readonly StartTimeUtc: DateTime;
     readonly Status: ActivityStatusCode;
     readonly StatusDescription: string | null;
     readonly TagObjects: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>>;
@@ -518,6 +556,7 @@ export type Activity = Activity$instance & __Activity$views;
 
 export interface Activity_Enumerator_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Diagnostics_Activity_Enumerator_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Current: T;
     GetEnumerator(): Activity_Enumerator_1<T>;
@@ -532,7 +571,7 @@ export const Activity_Enumerator_1: {
 
 export type Activity_Enumerator_1<T extends unknown> = Activity_Enumerator_1$instance<T>;
 
-export interface ActivityListener$instance extends System_Internal.IDisposable$instance {
+export interface ActivityListener$instance {
     readonly __tsonic_type_System_Diagnostics_ActivityListener: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -565,7 +604,7 @@ export interface __ActivityListener$views {
 export type ActivityListener = ActivityListener$instance & __ActivityListener$views;
 
 
-export interface ActivitySource$instance extends System_Internal.IDisposable$instance {
+export interface ActivitySource$instance {
     readonly __tsonic_type_System_Diagnostics_ActivitySource: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
@@ -579,10 +618,10 @@ export interface ActivitySource$instance extends System_Internal.IDisposable$ins
     CreateActivity(name: string, kind: ActivityKind, parentId: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, links?: IEnumerable_1<ActivityLink> | null, idFormat?: ActivityIdFormat): Activity | null;
     Dispose(): void;
     HasListeners(): boolean;
-    StartActivity(name?: string, kind?: ActivityKind): Activity | null;
+    StartActivity(kind: ActivityKind, parentContext?: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, links?: IEnumerable_1<ActivityLink> | null, startTime?: DateTimeOffset, name?: string): Activity | null;
     StartActivity(name: string, kind: ActivityKind, parentContext: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, links?: IEnumerable_1<ActivityLink> | null, startTime?: DateTimeOffset): Activity | null;
     StartActivity(name: string, kind: ActivityKind, parentId: string | null, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, links?: IEnumerable_1<ActivityLink> | null, startTime?: DateTimeOffset): Activity | null;
-    StartActivity(kind: ActivityKind, parentContext?: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<System_Internal.String, unknown>> | null, links?: IEnumerable_1<ActivityLink> | null, startTime?: DateTimeOffset, name?: string): Activity | null;
+    StartActivity(name?: string, kind?: ActivityKind): Activity | null;
 }
 
 
@@ -634,15 +673,15 @@ export interface ActivityTagsCollection$instance {
     readonly IsReadOnly: boolean;
     readonly Keys: ICollection_1<System_Internal.String>;
     readonly Values: ICollection_1<unknown | null>;
-    Add(key: string, value: unknown | null): void;
     Add(item: KeyValuePair_2<System_Internal.String, unknown>): void;
+    Add(key: string, value: unknown | null): void;
     Clear(): void;
     Contains(item: KeyValuePair_2<System_Internal.String, unknown>): boolean;
     ContainsKey(key: string): boolean;
     CopyTo(array: KeyValuePair_2<System_Internal.String, unknown>[], arrayIndex: int): void;
     GetEnumerator(): ActivityTagsCollection_Enumerator;
-    Remove(key: string): boolean;
     Remove(item: KeyValuePair_2<System_Internal.String, unknown>): boolean;
+    Remove(key: string): boolean;
     TryGetValue(key: string, value: unknown | null): boolean;
 }
 
@@ -663,8 +702,9 @@ export interface __ActivityTagsCollection$views {
 export type ActivityTagsCollection = ActivityTagsCollection$instance & __ActivityTagsCollection$views & { [key: string]: unknown | null; };
 
 
-export interface ActivityTagsCollection_Enumerator$instance extends IEnumerator_1<KeyValuePair_2<System_Internal.String, unknown>> {
+export interface ActivityTagsCollection_Enumerator$instance extends System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<System_Internal.String, unknown>> {
     readonly __tsonic_type_System_Diagnostics_ActivityTagsCollection_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerator_1: never;
     readonly __tsonic_iface_System_Collections_IEnumerator: never;
@@ -684,11 +724,12 @@ export const ActivityTagsCollection_Enumerator: {
 
 export type ActivityTagsCollection_Enumerator = ActivityTagsCollection_Enumerator$instance;
 
-export interface BooleanSwitch$instance extends Switch {
+export interface BooleanSwitch$instance extends Switch$instance {
     readonly __tsonic_type_System_Diagnostics_BooleanSwitch: never;
+    readonly __tsonic_type_System_Diagnostics_Switch: never;
 
     Enabled: boolean;
-    OnValueChanged(): void;
+    OnValueChanged: Switch$instance["OnValueChanged"] & (() => void);
 }
 
 
@@ -700,7 +741,8 @@ export const BooleanSwitch: {
 
 export type BooleanSwitch = BooleanSwitch$instance;
 
-export interface ConditionalAttribute$instance extends Attribute {
+export interface ConditionalAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_ConditionalAttribute: never;
 
     readonly ConditionString: string;
@@ -716,10 +758,13 @@ export type ConditionalAttribute = ConditionalAttribute$instance;
 
 export interface ConsoleTraceListener$instance extends TextWriterTraceListener$instance {
     readonly __tsonic_type_System_Diagnostics_ConsoleTraceListener: never;
+    readonly __tsonic_type_System_Diagnostics_TextWriterTraceListener: never;
+    readonly __tsonic_type_System_Diagnostics_TraceListener: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Close(): void;
+    Close: TextWriterTraceListener$instance["Close"] & (() => void);
 }
 
 
@@ -753,8 +798,9 @@ export const CorrelationManager: {
 
 export type CorrelationManager = CorrelationManager$instance;
 
-export interface DataReceivedEventArgs$instance extends EventArgs {
+export interface DataReceivedEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_Diagnostics_DataReceivedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Data: string | null;
 }
@@ -766,7 +812,8 @@ export const DataReceivedEventArgs: {
 
 export type DataReceivedEventArgs = DataReceivedEventArgs$instance;
 
-export interface DebuggableAttribute$instance extends Attribute {
+export interface DebuggableAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_DebuggableAttribute: never;
 
     readonly DebuggingFlags: DebuggableAttribute_DebuggingModes;
@@ -783,16 +830,19 @@ export const DebuggableAttribute: {
 
 export type DebuggableAttribute = DebuggableAttribute$instance;
 
-export enum DebuggableAttribute_DebuggingModes {
-    None = 0,
-    Default = 1,
-    DisableOptimizations = 256,
-    IgnoreSymbolStoreSequencePoints = 2,
-    EnableEditAndContinue = 4
-}
+export type DebuggableAttribute_DebuggingModes = number & { readonly __tsonic_type_System_Diagnostics_DebuggableAttribute_DebuggingModes: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const DebuggableAttribute_DebuggingModes: {
+    readonly None: DebuggableAttribute_DebuggingModes;
+    readonly Default: DebuggableAttribute_DebuggingModes;
+    readonly DisableOptimizations: DebuggableAttribute_DebuggingModes;
+    readonly IgnoreSymbolStoreSequencePoints: DebuggableAttribute_DebuggingModes;
+    readonly EnableEditAndContinue: DebuggableAttribute_DebuggingModes;
+};
 
 
-export interface DebuggerBrowsableAttribute$instance extends Attribute {
+export interface DebuggerBrowsableAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_DebuggerBrowsableAttribute: never;
 
     readonly State: DebuggerBrowsableState;
@@ -806,7 +856,8 @@ export const DebuggerBrowsableAttribute: {
 
 export type DebuggerBrowsableAttribute = DebuggerBrowsableAttribute$instance;
 
-export interface DebuggerDisableUserUnhandledExceptionsAttribute$instance extends Attribute {
+export interface DebuggerDisableUserUnhandledExceptionsAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_DebuggerDisableUserUnhandledExceptionsAttribute: never;
 
 }
@@ -819,7 +870,8 @@ export const DebuggerDisableUserUnhandledExceptionsAttribute: {
 
 export type DebuggerDisableUserUnhandledExceptionsAttribute = DebuggerDisableUserUnhandledExceptionsAttribute$instance;
 
-export interface DebuggerDisplayAttribute$instance extends Attribute {
+export interface DebuggerDisplayAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_DebuggerDisplayAttribute: never;
 
     get Name(): string | null;
@@ -841,7 +893,8 @@ export const DebuggerDisplayAttribute: {
 
 export type DebuggerDisplayAttribute = DebuggerDisplayAttribute$instance;
 
-export interface DebuggerHiddenAttribute$instance extends Attribute {
+export interface DebuggerHiddenAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_DebuggerHiddenAttribute: never;
 
 }
@@ -854,7 +907,8 @@ export const DebuggerHiddenAttribute: {
 
 export type DebuggerHiddenAttribute = DebuggerHiddenAttribute$instance;
 
-export interface DebuggerNonUserCodeAttribute$instance extends Attribute {
+export interface DebuggerNonUserCodeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_DebuggerNonUserCodeAttribute: never;
 
 }
@@ -867,7 +921,8 @@ export const DebuggerNonUserCodeAttribute: {
 
 export type DebuggerNonUserCodeAttribute = DebuggerNonUserCodeAttribute$instance;
 
-export interface DebuggerStepperBoundaryAttribute$instance extends Attribute {
+export interface DebuggerStepperBoundaryAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_DebuggerStepperBoundaryAttribute: never;
 
 }
@@ -880,7 +935,8 @@ export const DebuggerStepperBoundaryAttribute: {
 
 export type DebuggerStepperBoundaryAttribute = DebuggerStepperBoundaryAttribute$instance;
 
-export interface DebuggerStepThroughAttribute$instance extends Attribute {
+export interface DebuggerStepThroughAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_DebuggerStepThroughAttribute: never;
 
 }
@@ -893,7 +949,8 @@ export const DebuggerStepThroughAttribute: {
 
 export type DebuggerStepThroughAttribute = DebuggerStepThroughAttribute$instance;
 
-export interface DebuggerTypeProxyAttribute$instance extends Attribute {
+export interface DebuggerTypeProxyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_DebuggerTypeProxyAttribute: never;
 
     readonly ProxyTypeName: string;
@@ -912,7 +969,8 @@ export const DebuggerTypeProxyAttribute: {
 
 export type DebuggerTypeProxyAttribute = DebuggerTypeProxyAttribute$instance;
 
-export interface DebuggerVisualizerAttribute$instance extends Attribute {
+export interface DebuggerVisualizerAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_DebuggerVisualizerAttribute: never;
 
     get Description(): string | null;
@@ -960,22 +1018,17 @@ export type DebugProvider = DebugProvider$instance;
 
 export interface DefaultTraceListener$instance extends TraceListener$instance {
     readonly __tsonic_type_System_Diagnostics_DefaultTraceListener: never;
+    readonly __tsonic_type_System_Diagnostics_TraceListener: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     AssertUiEnabled: boolean;
     get LogFileName(): string | null;
     set LogFileName(value: string | null);
-    Fail(message: string | null): void;
-    Fail(message: string | null, detailMessage: string | null): void;
-    Write(message: string | null): void;
-    Write(o: unknown | null): void;
-    Write(message: string | null, category: string | null): void;
-    Write(o: unknown | null, category: string | null): void;
-    WriteLine(message: string | null): void;
-    WriteLine(o: unknown | null): void;
-    WriteLine(message: string | null, category: string | null): void;
-    WriteLine(o: unknown | null, category: string | null): void;
+    Fail: TraceListener$instance["Fail"] & ((message: string | null) => void) & ((message: string | null, detailMessage: string | null) => void);
+    Write: TraceListener$instance["Write"] & ((message: string | null) => void) & ((message: string | null, category: string | null) => void) & ((o: unknown | null) => void) & ((o: unknown | null, category: string | null) => void);
+    WriteLine: TraceListener$instance["WriteLine"] & ((message: string | null) => void) & ((message: string | null, category: string | null) => void) & ((o: unknown | null) => void) & ((o: unknown | null, category: string | null) => void);
 }
 
 
@@ -993,18 +1046,16 @@ export type DefaultTraceListener = DefaultTraceListener$instance & __DefaultTrac
 
 export interface DelimitedListTraceListener$instance extends TextWriterTraceListener$instance {
     readonly __tsonic_type_System_Diagnostics_DelimitedListTraceListener: never;
+    readonly __tsonic_type_System_Diagnostics_TextWriterTraceListener: never;
+    readonly __tsonic_type_System_Diagnostics_TraceListener: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     Delimiter: string;
-    GetSupportedAttributes(): string[];
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: unknown | null): void;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (unknown | null)[]): void;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: (unknown | null)[] | null): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (unknown | null)[]): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, args: (unknown | null)[] | null): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, message: string | null): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int): void;
+    GetSupportedAttributes: TextWriterTraceListener$instance["GetSupportedAttributes"] & (() => string[]);
+    TraceData: TextWriterTraceListener$instance["TraceData"] & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (unknown | null)[]) => void) & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: (unknown | null)[] | null) => void) & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: unknown | null) => void);
+    TraceEvent: TextWriterTraceListener$instance["TraceEvent"] & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int) => void) & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (unknown | null)[]) => void) & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, args: (unknown | null)[] | null) => void) & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, message: string | null) => void);
 }
 
 
@@ -1025,26 +1076,24 @@ export interface __DelimitedListTraceListener$views {
 export type DelimitedListTraceListener = DelimitedListTraceListener$instance & __DelimitedListTraceListener$views;
 
 
-export interface DiagnosticListener$instance extends DiagnosticSource, System_Internal.IDisposable$instance {
+export interface DiagnosticListener$instance extends DiagnosticSource$instance {
     readonly __tsonic_type_System_Diagnostics_DiagnosticListener: never;
+    readonly __tsonic_type_System_Diagnostics_DiagnosticSource: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
     readonly __tsonic_iface_System_IObservable_1: never;
 
     readonly Name: string;
     Dispose(): void;
-    IsEnabled(): boolean;
-    IsEnabled(name: string): boolean;
-    IsEnabled(name: string, arg1: unknown | null, arg2?: unknown | null): boolean;
-    OnActivityExport(activity: Activity, payload: unknown | null): void;
-    OnActivityImport(activity: Activity, payload: unknown | null): void;
+    IsEnabled: DiagnosticSource$instance["IsEnabled"] & (() => boolean) & ((name: string) => boolean) & ((name: string, arg1: unknown | null, arg2?: unknown | null) => boolean);
+    OnActivityExport: DiagnosticSource$instance["OnActivityExport"] & ((activity: Activity, payload: unknown | null) => void);
+    OnActivityImport: DiagnosticSource$instance["OnActivityImport"] & ((activity: Activity, payload: unknown | null) => void);
+    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, unknown>>): IDisposable;
+    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, unknown>>, isEnabled: Func_4<System_Internal.String, unknown | null, unknown | null, System_Internal.Boolean> | null): IDisposable;
     Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, unknown>>, isEnabled: Func_4<System_Internal.String, unknown | null, unknown | null, System_Internal.Boolean> | null, onActivityImport?: Action_2<Activity, unknown | null> | null, onActivityExport?: Action_2<Activity, unknown | null> | null): IDisposable;
     Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, unknown>>, isEnabled: Predicate_1<System_Internal.String> | null): IDisposable;
-    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, unknown>>, isEnabled: Func_4<System_Internal.String, unknown | null, unknown | null, System_Internal.Boolean> | null): IDisposable;
-    Subscribe(observer: IObserver_1<KeyValuePair_2<System_Internal.String, unknown>>): IDisposable;
     ToString(): string;
-    Write(name: string, value: unknown | null): void;
-    Write<T extends unknown>(name: string, value: T): void;
+    Write: DiagnosticSource$instance["Write"] & ((name: string, value: unknown | null) => void) & (<T extends unknown>(name: string, value: T) => void);
 }
 
 
@@ -1095,7 +1144,7 @@ export interface DiagnosticSource$instance {
 }
 
 
-export const DiagnosticSource: (abstract new() => DiagnosticSource) & {
+export const DiagnosticSource: {
 };
 
 
@@ -1111,7 +1160,7 @@ export interface DistributedContextPropagator$instance {
 }
 
 
-export const DistributedContextPropagator: (abstract new() => DistributedContextPropagator) & {
+export const DistributedContextPropagator: {
     Current: DistributedContextPropagator;
     CreateDefaultPropagator(): DistributedContextPropagator;
     CreateNoOutputPropagator(): DistributedContextPropagator;
@@ -1129,11 +1178,12 @@ export type DistributedContextPropagator_PropagatorGetterCallback = (carrier: un
 export type DistributedContextPropagator_PropagatorSetterCallback = (carrier: unknown | null, fieldName: string, fieldValue: string) => void;
 
 
-export interface EventTypeFilter$instance extends TraceFilter {
+export interface EventTypeFilter$instance extends TraceFilter$instance {
     readonly __tsonic_type_System_Diagnostics_EventTypeFilter: never;
+    readonly __tsonic_type_System_Diagnostics_TraceFilter: never;
 
     EventType: SourceLevels;
-    ShouldTrace(cache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, formatOrMessage: string | null, args: (unknown | null)[] | null, data1: unknown | null, data: (unknown | null)[] | null): boolean;
+    ShouldTrace: TraceFilter$instance["ShouldTrace"] & ((cache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, formatOrMessage: string | null, args: (unknown | null)[] | null, data1: unknown | null, data: (unknown | null)[] | null) => boolean);
 }
 
 
@@ -1185,8 +1235,9 @@ export const FileVersionInfo: {
 
 export type FileVersionInfo = FileVersionInfo$instance;
 
-export interface InitializingSwitchEventArgs$instance extends EventArgs {
+export interface InitializingSwitchEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_Diagnostics_InitializingSwitchEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Switch: Switch;
 }
@@ -1199,8 +1250,9 @@ export const InitializingSwitchEventArgs: {
 
 export type InitializingSwitchEventArgs = InitializingSwitchEventArgs$instance;
 
-export interface InitializingTraceSourceEventArgs$instance extends EventArgs {
+export interface InitializingTraceSourceEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_Diagnostics_InitializingTraceSourceEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly TraceSource: TraceSource;
     WasInitialized: boolean;
@@ -1214,10 +1266,11 @@ export const InitializingTraceSourceEventArgs: {
 
 export type InitializingTraceSourceEventArgs = InitializingTraceSourceEventArgs$instance;
 
-export interface MonitoringDescriptionAttribute$instance extends DescriptionAttribute {
+export interface MonitoringDescriptionAttribute$instance extends System_ComponentModel_Internal.DescriptionAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_ComponentModel_DescriptionAttribute: never;
     readonly __tsonic_type_System_Diagnostics_MonitoringDescriptionAttribute: never;
 
-    readonly Description: string;
 }
 
 
@@ -1228,8 +1281,10 @@ export const MonitoringDescriptionAttribute: {
 
 export type MonitoringDescriptionAttribute = MonitoringDescriptionAttribute$instance;
 
-export interface Process$instance extends Component {
+export interface Process$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
     readonly __tsonic_type_System_Diagnostics_Process: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1291,13 +1346,12 @@ export interface Process$instance extends Component {
     CancelOutputRead(): void;
     Close(): void;
     CloseMainWindow(): boolean;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
+    Dispose: System_ComponentModel_Internal.Component$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     Kill(): void;
     Kill(entireProcessTree: boolean): void;
     Refresh(): void;
     Start(): boolean;
-    ToString(): string;
+    ToString: System_ComponentModel_Internal.Component$instance["ToString"] & (() => string);
     WaitForExit(): void;
     WaitForExit(milliseconds: int): boolean;
     WaitForExit(timeout: TimeSpan): boolean;
@@ -1336,19 +1390,21 @@ export interface __Process$views {
 export type Process = Process$instance & __Process$views;
 
 
-export interface ProcessModule$instance extends Component {
+export interface ProcessModule$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
     readonly __tsonic_type_System_Diagnostics_ProcessModule: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
 
-    BaseAddress: nint;
-    EntryPointAddress: nint;
+    readonly BaseAddress: nint;
+    readonly EntryPointAddress: nint;
     readonly FileName: string;
     readonly FileVersionInfo: FileVersionInfo;
-    ModuleMemorySize: int;
+    readonly ModuleMemorySize: int;
     readonly ModuleName: string;
-    ToString(): string;
+    ToString: System_ComponentModel_Internal.Component$instance["ToString"] & (() => string);
 }
 
 
@@ -1364,7 +1420,8 @@ export interface __ProcessModule$views {
 export type ProcessModule = ProcessModule$instance & __ProcessModule$views;
 
 
-export interface ProcessModuleCollection$instance extends ReadOnlyCollectionBase {
+export interface ProcessModuleCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
+    readonly __tsonic_type_System_Collections_ReadOnlyCollectionBase: never;
     readonly __tsonic_type_System_Diagnostics_ProcessModuleCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -1436,8 +1493,10 @@ export const ProcessStartInfo: {
 
 export type ProcessStartInfo = ProcessStartInfo$instance;
 
-export interface ProcessThread$instance extends Component {
+export interface ProcessThread$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
     readonly __tsonic_type_System_Diagnostics_ProcessThread: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -1472,7 +1531,8 @@ export interface __ProcessThread$views {
 export type ProcessThread = ProcessThread$instance & __ProcessThread$views;
 
 
-export interface ProcessThreadCollection$instance extends ReadOnlyCollectionBase {
+export interface ProcessThreadCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
+    readonly __tsonic_type_System_Collections_ReadOnlyCollectionBase: never;
     readonly __tsonic_type_System_Diagnostics_ProcessThreadCollection: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
@@ -1500,11 +1560,12 @@ export interface __ProcessThreadCollection$views {
 export type ProcessThreadCollection = ProcessThreadCollection$instance & __ProcessThreadCollection$views & { readonly [index: number]: ProcessThread; };
 
 
-export interface SourceFilter$instance extends TraceFilter {
+export interface SourceFilter$instance extends TraceFilter$instance {
     readonly __tsonic_type_System_Diagnostics_SourceFilter: never;
+    readonly __tsonic_type_System_Diagnostics_TraceFilter: never;
 
     Source: string;
-    ShouldTrace(cache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, formatOrMessage: string | null, args: (unknown | null)[] | null, data1: unknown | null, data: (unknown | null)[] | null): boolean;
+    ShouldTrace: TraceFilter$instance["ShouldTrace"] & ((cache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, formatOrMessage: string | null, args: (unknown | null)[] | null, data1: unknown | null, data: (unknown | null)[] | null) => boolean);
 }
 
 
@@ -1515,11 +1576,12 @@ export const SourceFilter: {
 
 export type SourceFilter = SourceFilter$instance;
 
-export interface SourceSwitch$instance extends Switch {
+export interface SourceSwitch$instance extends Switch$instance {
     readonly __tsonic_type_System_Diagnostics_SourceSwitch: never;
+    readonly __tsonic_type_System_Diagnostics_Switch: never;
 
     Level: SourceLevels;
-    OnValueChanged(): void;
+    OnValueChanged: Switch$instance["OnValueChanged"] & (() => void);
     ShouldTrace(eventType: TraceEventType): boolean;
 }
 
@@ -1585,7 +1647,8 @@ export const StackTrace: {
 
 export type StackTrace = StackTrace$instance;
 
-export interface StackTraceHiddenAttribute$instance extends Attribute {
+export interface StackTraceHiddenAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_StackTraceHiddenAttribute: never;
 
 }
@@ -1641,13 +1704,14 @@ export interface Switch$instance {
 }
 
 
-export const Switch: (abstract new(displayName: string, description: string | null) => Switch) & (abstract new(displayName: string, description: string | null, defaultSwitchValue: string) => Switch) & {
+export const Switch: {
 };
 
 
 export type Switch = Switch$instance;
 
-export interface SwitchAttribute$instance extends Attribute {
+export interface SwitchAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_SwitchAttribute: never;
 
     get SwitchDescription(): string | null;
@@ -1665,7 +1729,8 @@ export const SwitchAttribute: {
 
 export type SwitchAttribute = SwitchAttribute$instance;
 
-export interface SwitchLevelAttribute$instance extends Attribute {
+export interface SwitchLevelAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Diagnostics_SwitchLevelAttribute: never;
 
     SwitchLevelType: Type;
@@ -1681,23 +1746,18 @@ export type SwitchLevelAttribute = SwitchLevelAttribute$instance;
 
 export interface TextWriterTraceListener$instance extends TraceListener$instance {
     readonly __tsonic_type_System_Diagnostics_TextWriterTraceListener: never;
+    readonly __tsonic_type_System_Diagnostics_TraceListener: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
     get Writer(): TextWriter | null;
     set Writer(value: TextWriter | null);
-    Close(): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
-    Flush(): void;
-    Write(message: string | null): void;
-    Write(o: unknown | null): void;
-    Write(message: string | null, category: string | null): void;
-    Write(o: unknown | null, category: string | null): void;
-    WriteLine(message: string | null): void;
-    WriteLine(o: unknown | null): void;
-    WriteLine(message: string | null, category: string | null): void;
-    WriteLine(o: unknown | null, category: string | null): void;
+    Close: TraceListener$instance["Close"] & (() => void);
+    Dispose: TraceListener$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
+    Flush: TraceListener$instance["Flush"] & (() => void);
+    Write: TraceListener$instance["Write"] & ((message: string | null) => void) & ((message: string | null, category: string | null) => void) & ((o: unknown | null) => void) & ((o: unknown | null, category: string | null) => void);
+    WriteLine: TraceListener$instance["WriteLine"] & ((message: string | null) => void) & ((message: string | null, category: string | null) => void) & ((o: unknown | null) => void) & ((o: unknown | null, category: string | null) => void);
 }
 
 
@@ -1798,14 +1858,15 @@ export interface TraceFilter$instance {
 }
 
 
-export const TraceFilter: (abstract new() => TraceFilter) & {
+export const TraceFilter: {
 };
 
 
 export type TraceFilter = TraceFilter$instance;
 
-export interface TraceListener$instance extends MarshalByRefObject {
+export interface TraceListener$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_Diagnostics_TraceListener: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
@@ -1824,27 +1885,27 @@ export interface TraceListener$instance extends MarshalByRefObject {
     Fail(message: string | null, detailMessage: string | null): void;
     Flush(): void;
     GetSupportedAttributes(): string[] | null;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: unknown | null): void;
     TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (unknown | null)[]): void;
     TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: (unknown | null)[] | null): void;
+    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: unknown | null): void;
     TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, message: string | null): void;
     TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (unknown | null)[]): void;
     TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, args: (unknown | null)[] | null): void;
+    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, message: string | null): void;
     TraceTransfer(eventCache: TraceEventCache | null, source: string, id: int, message: string | null, relatedActivityId: Guid): void;
     Write(message: string | null): void;
-    Write(o: unknown | null): void;
     Write(message: string | null, category: string | null): void;
+    Write(o: unknown | null): void;
     Write(o: unknown | null, category: string | null): void;
     WriteIndent(): void;
     WriteLine(message: string | null): void;
-    WriteLine(o: unknown | null): void;
     WriteLine(message: string | null, category: string | null): void;
+    WriteLine(o: unknown | null): void;
     WriteLine(o: unknown | null, category: string | null): void;
 }
 
 
-export const TraceListener: (abstract new() => TraceListener) & (abstract new(name: string | null) => TraceListener) & {
+export const TraceListener: {
 };
 
 
@@ -1864,8 +1925,8 @@ export interface TraceListenerCollection$instance {
 
     readonly Count: int;
     Add(listener: TraceListener): int;
-    AddRange(value: TraceListener[]): void;
     AddRange(value: TraceListenerCollection): void;
+    AddRange(value: TraceListener[]): void;
     Clear(): void;
     Contains(listener: TraceListener | null): boolean;
     CopyTo(listeners: TraceListener[], index: int): void;
@@ -1905,16 +1966,16 @@ export interface TraceSource$instance {
     Close(): void;
     Flush(): void;
     GetSupportedAttributes(): string[] | null;
-    TraceData(eventType: TraceEventType, id: int, data: unknown | null): void;
     TraceData(eventType: TraceEventType, id: int, ...data: (unknown | null)[]): void;
     TraceData(eventType: TraceEventType, id: int, data: (unknown | null)[] | null): void;
+    TraceData(eventType: TraceEventType, id: int, data: unknown | null): void;
     TraceEvent(eventType: TraceEventType, id: int): void;
-    TraceEvent(eventType: TraceEventType, id: int, message: string | null): void;
     TraceEvent(eventType: TraceEventType, id: int, format: string | null, ...args: (unknown | null)[]): void;
     TraceEvent(eventType: TraceEventType, id: int, format: string | null, args: (unknown | null)[] | null): void;
-    TraceInformation(message: string | null): void;
+    TraceEvent(eventType: TraceEventType, id: int, message: string | null): void;
     TraceInformation(format: string | null, ...args: (unknown | null)[]): void;
     TraceInformation(format: string | null, args: (unknown | null)[] | null): void;
+    TraceInformation(message: string | null): void;
     TraceTransfer(id: int, message: string | null, relatedActivityId: Guid): void;
 }
 
@@ -1927,7 +1988,8 @@ export const TraceSource: {
 
 export type TraceSource = TraceSource$instance;
 
-export interface TraceSwitch$instance extends Switch {
+export interface TraceSwitch$instance extends Switch$instance {
+    readonly __tsonic_type_System_Diagnostics_Switch: never;
     readonly __tsonic_type_System_Diagnostics_TraceSwitch: never;
 
     Level: TraceLevel;
@@ -1935,8 +1997,8 @@ export interface TraceSwitch$instance extends Switch {
     readonly TraceInfo: boolean;
     readonly TraceVerbose: boolean;
     readonly TraceWarning: boolean;
-    OnSwitchSettingChanged(): void;
-    OnValueChanged(): void;
+    OnSwitchSettingChanged: Switch$instance["OnSwitchSettingChanged"] & (() => void);
+    OnValueChanged: Switch$instance["OnValueChanged"] & (() => void);
 }
 
 
@@ -1948,8 +2010,9 @@ export const TraceSwitch: {
 
 export type TraceSwitch = TraceSwitch$instance;
 
-export interface UnreachableException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface UnreachableException$instance extends System_Internal.Exception$instance {
     readonly __tsonic_type_System_Diagnostics_UnreachableException: never;
+    readonly __tsonic_type_System_Exception: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -1971,29 +2034,20 @@ export type UnreachableException = UnreachableException$instance & __Unreachable
 
 
 export interface XmlWriterTraceListener$instance extends TextWriterTraceListener$instance {
+    readonly __tsonic_type_System_Diagnostics_TextWriterTraceListener: never;
+    readonly __tsonic_type_System_Diagnostics_TraceListener: never;
     readonly __tsonic_type_System_Diagnostics_XmlWriterTraceListener: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_IDisposable: never;
 
-    Close(): void;
-    Fail(message: string | null, detailMessage: string | null): void;
-    Fail(message: string | null): void;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: unknown | null): void;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (unknown | null)[]): void;
-    TraceData(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: (unknown | null)[] | null): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (unknown | null)[]): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, args: (unknown | null)[] | null): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, message: string | null): void;
-    TraceEvent(eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int): void;
-    TraceTransfer(eventCache: TraceEventCache | null, source: string, id: int, message: string | null, relatedActivityId: Guid): void;
-    Write(message: string | null): void;
-    Write(o: unknown | null): void;
-    Write(message: string | null, category: string | null): void;
-    Write(o: unknown | null, category: string | null): void;
-    WriteLine(message: string | null): void;
-    WriteLine(o: unknown | null): void;
-    WriteLine(message: string | null, category: string | null): void;
-    WriteLine(o: unknown | null, category: string | null): void;
+    Close: TextWriterTraceListener$instance["Close"] & (() => void);
+    Fail: TextWriterTraceListener$instance["Fail"] & ((message: string | null) => void) & ((message: string | null, detailMessage: string | null) => void);
+    TraceData: TextWriterTraceListener$instance["TraceData"] & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, ...data: (unknown | null)[]) => void) & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: (unknown | null)[] | null) => void) & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, data: unknown | null) => void);
+    TraceEvent: TextWriterTraceListener$instance["TraceEvent"] & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int) => void) & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, ...args: (unknown | null)[]) => void) & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, format: string | null, args: (unknown | null)[] | null) => void) & ((eventCache: TraceEventCache | null, source: string, eventType: TraceEventType, id: int, message: string | null) => void);
+    TraceTransfer: TextWriterTraceListener$instance["TraceTransfer"] & ((eventCache: TraceEventCache | null, source: string, id: int, message: string | null, relatedActivityId: Guid) => void);
+    Write: TextWriterTraceListener$instance["Write"] & ((message: string | null) => void) & ((message: string | null, category: string | null) => void) & ((o: unknown | null) => void) & ((o: unknown | null, category: string | null) => void);
+    WriteLine: TextWriterTraceListener$instance["WriteLine"] & ((message: string | null) => void) & ((message: string | null, category: string | null) => void) & ((o: unknown | null) => void) & ((o: unknown | null, category: string | null) => void);
 }
 
 
@@ -2061,16 +2115,17 @@ export type Debug = Debug$instance;
 
 export interface Debug_AssertInterpolatedStringHandler$instance {
     readonly __tsonic_type_System_Diagnostics_Debug_AssertInterpolatedStringHandler: never;
+    readonly __tsonic_type_System_ValueType: never;
 
-    AppendFormatted<T extends unknown>(value: T): void;
-    AppendFormatted<T extends unknown>(value: T, format: string | null): void;
-    AppendFormatted<T extends unknown>(value: T, alignment: int): void;
-    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): void;
     AppendFormatted(value: string | null): void;
     AppendFormatted(value: string | null, alignment?: int, format?: string | null): void;
     AppendFormatted(value: unknown | null, alignment?: int, format?: string | null): void;
+    AppendFormatted<T extends unknown>(value: T): void;
+    AppendFormatted<T extends unknown>(value: T, alignment: int): void;
+    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): void;
+    AppendFormatted<T extends unknown>(value: T, format: string | null): void;
     AppendLiteral(value: string): void;
 }
 
@@ -2084,16 +2139,17 @@ export type Debug_AssertInterpolatedStringHandler = Debug_AssertInterpolatedStri
 
 export interface Debug_WriteIfInterpolatedStringHandler$instance {
     readonly __tsonic_type_System_Diagnostics_Debug_WriteIfInterpolatedStringHandler: never;
+    readonly __tsonic_type_System_ValueType: never;
 
-    AppendFormatted<T extends unknown>(value: T): void;
-    AppendFormatted<T extends unknown>(value: T, format: string | null): void;
-    AppendFormatted<T extends unknown>(value: T, alignment: int): void;
-    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): void;
     AppendFormatted(value: string | null): void;
     AppendFormatted(value: string | null, alignment?: int, format?: string | null): void;
     AppendFormatted(value: unknown | null, alignment?: int, format?: string | null): void;
+    AppendFormatted<T extends unknown>(value: T): void;
+    AppendFormatted<T extends unknown>(value: T, alignment: int): void;
+    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): void;
+    AppendFormatted<T extends unknown>(value: T, format: string | null): void;
     AppendLiteral(value: string): void;
 }
 

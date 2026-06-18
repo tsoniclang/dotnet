@@ -13,7 +13,7 @@ import type { ReadOnlyCollection_1 } from "../../System.Collections.ObjectModel/
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
 import type { Hashtable, ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IList } from "../../System.Collections/internal/index.js";
 import * as System_ComponentModel_Internal from "../../System.ComponentModel/internal/index.js";
-import type { AttributeCollection, Component, EventDescriptor, EventDescriptorCollection, EventHandlerList, IComponent, IContainer, ICustomTypeDescriptor, ISite, PropertyDescriptor, PropertyDescriptorCollection, TypeConverter } from "../../System.ComponentModel/internal/index.js";
+import type { AttributeCollection, Component, EventDescriptor, EventDescriptorCollection, IComponent, IContainer, ICustomTypeDescriptor, ISite, PropertyDescriptor, PropertyDescriptorCollection, TypeConverter } from "../../System.ComponentModel/internal/index.js";
 import * as System_Data_Internal from "../../System.Data/internal/index.js";
 import type { CommandBehavior, CommandType, ConflictOption, ConnectionState, DataColumn, DataRow, DataRowVersion, DataSet, DataTable, DbType, FillErrorEventArgs, FillErrorEventHandler, IColumnMapping, IColumnMappingCollection, IDataAdapter, IDataParameter, IDataParameterCollection, IDataReader, IDataRecord, IDbCommand, IDbConnection, IDbDataAdapter, IDbDataParameter, IDbTransaction, IsolationLevel, ITableMapping, ITableMappingCollection, LoadOption, MissingMappingAction, MissingSchemaAction, ParameterDirection, SchemaType, StateChangeEventArgs, StateChangeEventHandler, StatementType, UpdateRowSource, UpdateStatus } from "../../System.Data/internal/index.js";
 import type { Stream, TextReader } from "../../System.IO/internal/index.js";
@@ -29,35 +29,43 @@ import type { Transaction } from "../../System.Transactions/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, EventArgs, Exception, Guid, IAsyncDisposable, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, MarshalByRefObject, Nullable_1, Object as ClrObject, Single, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum CatalogLocation {
-    Start = 1,
-    End = 2
-}
+export type CatalogLocation = number & { readonly __tsonic_type_System_Data_Common_CatalogLocation: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CatalogLocation: {
+    readonly Start: CatalogLocation;
+    readonly End: CatalogLocation;
+};
 
 
-export enum GroupByBehavior {
-    Unknown = 0,
-    NotSupported = 1,
-    Unrelated = 2,
-    MustContainAll = 3,
-    ExactMatch = 4
-}
+export type GroupByBehavior = number & { readonly __tsonic_type_System_Data_Common_GroupByBehavior: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const GroupByBehavior: {
+    readonly Unknown: GroupByBehavior;
+    readonly NotSupported: GroupByBehavior;
+    readonly Unrelated: GroupByBehavior;
+    readonly MustContainAll: GroupByBehavior;
+    readonly ExactMatch: GroupByBehavior;
+};
 
 
-export enum IdentifierCase {
-    Unknown = 0,
-    Insensitive = 1,
-    Sensitive = 2
-}
+export type IdentifierCase = number & { readonly __tsonic_type_System_Data_Common_IdentifierCase: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const IdentifierCase: {
+    readonly Unknown: IdentifierCase;
+    readonly Insensitive: IdentifierCase;
+    readonly Sensitive: IdentifierCase;
+};
 
 
-export enum SupportedJoinOperators {
-    None = 0,
-    Inner = 1,
-    LeftOuter = 2,
-    RightOuter = 4,
-    FullOuter = 8
-}
+export type SupportedJoinOperators = number & { readonly __tsonic_type_System_Data_Common_SupportedJoinOperators: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const SupportedJoinOperators: {
+    readonly None: SupportedJoinOperators;
+    readonly Inner: SupportedJoinOperators;
+    readonly LeftOuter: SupportedJoinOperators;
+    readonly RightOuter: SupportedJoinOperators;
+    readonly FullOuter: SupportedJoinOperators;
+};
 
 
 export interface IDbColumnSchemaGenerator$instance {
@@ -69,8 +77,10 @@ export interface IDbColumnSchemaGenerator$instance {
 
 export type IDbColumnSchemaGenerator = IDbColumnSchemaGenerator$instance;
 
-export interface DataAdapter$instance extends Component {
+export interface DataAdapter$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
     readonly __tsonic_type_System_Data_Common_DataAdapter: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDataAdapter: never;
@@ -86,8 +96,7 @@ export interface DataAdapter$instance extends Component {
     readonly TableMappings: DataTableMappingCollection;
     CloneInternals(): DataAdapter;
     CreateTableMappings(): DataTableMappingCollection;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
+    Dispose: System_ComponentModel_Internal.Component$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     Fill(dataSet: DataSet): int;
     Fill(dataSet: DataSet, srcTable: string, dataReader: IDataReader, startRecord: int, maxRecords: int): int;
     Fill(dataTable: DataTable, dataReader: IDataReader): int;
@@ -105,7 +114,7 @@ export interface DataAdapter$instance extends Component {
 }
 
 
-export const DataAdapter: (abstract new() => DataAdapter) & (abstract new(from: DataAdapter) => DataAdapter) & {
+export const DataAdapter: {
 };
 
 
@@ -118,8 +127,9 @@ export interface __DataAdapter$views {
 export type DataAdapter = DataAdapter$instance & __DataAdapter$views;
 
 
-export interface DataColumnMapping$instance extends MarshalByRefObject, System_Data_Internal.IColumnMapping$instance, System_Internal.ICloneable$instance {
+export interface DataColumnMapping$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_Data_Common_DataColumnMapping: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Data_IColumnMapping: never;
     readonly __tsonic_iface_System_ICloneable: never;
@@ -146,8 +156,9 @@ export interface __DataColumnMapping$views {
 export type DataColumnMapping = DataColumnMapping$instance & __DataColumnMapping$views;
 
 
-export interface DataColumnMappingCollection$instance extends MarshalByRefObject {
+export interface DataColumnMappingCollection$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_Data_Common_DataColumnMappingCollection: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -155,10 +166,10 @@ export interface DataColumnMappingCollection$instance extends MarshalByRefObject
     readonly __tsonic_iface_System_Data_IColumnMappingCollection: never;
 
     readonly Count: int;
-    Add(value: unknown | null): int;
     Add(sourceColumn: string | null, dataSetColumn: string | null): DataColumnMapping;
-    AddRange(values: DataColumnMapping[]): void;
+    Add(value: unknown | null): int;
     AddRange(values: ClrArray): void;
+    AddRange(values: DataColumnMapping[]): void;
     Clear(): void;
     Contains(value: string | null): boolean;
     Contains(value: unknown | null): boolean;
@@ -168,13 +179,13 @@ export interface DataColumnMappingCollection$instance extends MarshalByRefObject
     get_Item(sourceColumn: string): DataColumnMapping;
     GetByDataSetColumn(value: string): DataColumnMapping;
     GetEnumerator(): IEnumerator;
-    IndexOf(value: unknown | null): int;
     IndexOf(sourceColumn: string | null): int;
+    IndexOf(value: unknown | null): int;
     IndexOfDataSetColumn(dataSetColumn: string | null): int;
-    Insert(index: int, value: unknown | null): void;
     Insert(index: int, value: DataColumnMapping): void;
-    Remove(value: unknown | null): void;
+    Insert(index: int, value: unknown | null): void;
     Remove(value: DataColumnMapping): void;
+    Remove(value: unknown | null): void;
     RemoveAt(index: int): void;
     RemoveAt(sourceColumn: string): void;
     set_Item(index: int, value: DataColumnMapping): void;
@@ -199,8 +210,9 @@ export interface __DataColumnMappingCollection$views {
 export type DataColumnMappingCollection = DataColumnMappingCollection$instance & __DataColumnMappingCollection$views;
 
 
-export interface DataTableMapping$instance extends MarshalByRefObject, System_Internal.ICloneable$instance {
+export interface DataTableMapping$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_Data_Common_DataTableMapping: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Data_ITableMapping: never;
     readonly __tsonic_iface_System_ICloneable: never;
@@ -230,8 +242,9 @@ export interface __DataTableMapping$views {
 export type DataTableMapping = DataTableMapping$instance & __DataTableMapping$views;
 
 
-export interface DataTableMappingCollection$instance extends MarshalByRefObject {
+export interface DataTableMappingCollection$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_Data_Common_DataTableMappingCollection: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -239,10 +252,10 @@ export interface DataTableMappingCollection$instance extends MarshalByRefObject 
     readonly __tsonic_iface_System_Data_ITableMappingCollection: never;
 
     readonly Count: int;
-    Add(value: unknown | null): int;
     Add(sourceTable: string | null, dataSetTable: string | null): DataTableMapping;
-    AddRange(values: DataTableMapping[]): void;
+    Add(value: unknown | null): int;
     AddRange(values: ClrArray): void;
+    AddRange(values: DataTableMapping[]): void;
     Clear(): void;
     Contains(value: string | null): boolean;
     Contains(value: unknown | null): boolean;
@@ -252,13 +265,13 @@ export interface DataTableMappingCollection$instance extends MarshalByRefObject 
     get_Item(sourceTable: string): DataTableMapping;
     GetByDataSetTable(dataSetTable: string): DataTableMapping;
     GetEnumerator(): IEnumerator;
-    IndexOf(value: unknown | null): int;
     IndexOf(sourceTable: string | null): int;
+    IndexOf(value: unknown | null): int;
     IndexOfDataSetTable(dataSetTable: string | null): int;
-    Insert(index: int, value: unknown | null): void;
     Insert(index: int, value: DataTableMapping): void;
-    Remove(value: unknown | null): void;
+    Insert(index: int, value: unknown | null): void;
     Remove(value: DataTableMapping): void;
+    Remove(value: unknown | null): void;
     RemoveAt(index: int): void;
     RemoveAt(sourceTable: string): void;
     set_Item(index: int, value: DataTableMapping): void;
@@ -282,7 +295,7 @@ export interface __DataTableMappingCollection$views {
 export type DataTableMappingCollection = DataTableMappingCollection$instance & __DataTableMappingCollection$views;
 
 
-export interface DbBatch$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {
+export interface DbBatch$instance {
     readonly __tsonic_type_System_Data_Common_DbBatch: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -309,8 +322,8 @@ export interface DbBatch$instance extends System_Internal.IAsyncDisposable$insta
     ExecuteNonQuery(): int;
     ExecuteNonQueryAsync(cancellationToken?: CancellationToken): Task_1<System_Internal.Int32>;
     ExecuteReader(behavior?: CommandBehavior): DbDataReader;
-    ExecuteReaderAsync(cancellationToken?: CancellationToken): Task_1<DbDataReader>;
     ExecuteReaderAsync(behavior: CommandBehavior, cancellationToken?: CancellationToken): Task_1<DbDataReader>;
+    ExecuteReaderAsync(cancellationToken?: CancellationToken): Task_1<DbDataReader>;
     ExecuteScalar(): unknown | null;
     ExecuteScalarAsync(cancellationToken?: CancellationToken): Task_1<unknown | null>;
     Prepare(): void;
@@ -318,7 +331,7 @@ export interface DbBatch$instance extends System_Internal.IAsyncDisposable$insta
 }
 
 
-export const DbBatch: (abstract new() => DbBatch) & {
+export const DbBatch: {
 };
 
 
@@ -343,7 +356,7 @@ export interface DbBatchCommand$instance {
 }
 
 
-export const DbBatchCommand: (abstract new() => DbBatchCommand) & {
+export const DbBatchCommand: {
 };
 
 
@@ -373,7 +386,7 @@ export interface DbBatchCommandCollection$instance {
 }
 
 
-export const DbBatchCommandCollection: (abstract new() => DbBatchCommandCollection) & {
+export const DbBatchCommandCollection: {
 };
 
 
@@ -390,63 +403,43 @@ export type DbBatchCommandCollection = DbBatchCommandCollection$instance & __DbB
 export interface DbColumn$instance {
     readonly __tsonic_type_System_Data_Common_DbColumn: never;
 
-    get AllowDBNull(): Nullable_1<System_Internal.Boolean>;
-    set AllowDBNull(value: Nullable_1<System_Internal.Boolean> | boolean);
-    get BaseCatalogName(): string | null;
-    set BaseCatalogName(value: string | null);
-    get BaseColumnName(): string | null;
-    set BaseColumnName(value: string | null);
-    get BaseSchemaName(): string | null;
-    set BaseSchemaName(value: string | null);
-    get BaseServerName(): string | null;
-    set BaseServerName(value: string | null);
-    get BaseTableName(): string | null;
-    set BaseTableName(value: string | null);
-    ColumnName: string;
-    get ColumnOrdinal(): Nullable_1<System_Internal.Int32>;
-    set ColumnOrdinal(value: Nullable_1<System_Internal.Int32> | int);
-    get ColumnSize(): Nullable_1<System_Internal.Int32>;
-    set ColumnSize(value: Nullable_1<System_Internal.Int32> | int);
-    get DataType(): Type | null;
-    set DataType(value: Type | null);
-    get DataTypeName(): string | null;
-    set DataTypeName(value: string | null);
-    get IsAliased(): Nullable_1<System_Internal.Boolean>;
-    set IsAliased(value: Nullable_1<System_Internal.Boolean> | boolean);
-    get IsAutoIncrement(): Nullable_1<System_Internal.Boolean>;
-    set IsAutoIncrement(value: Nullable_1<System_Internal.Boolean> | boolean);
-    get IsExpression(): Nullable_1<System_Internal.Boolean>;
-    set IsExpression(value: Nullable_1<System_Internal.Boolean> | boolean);
-    get IsHidden(): Nullable_1<System_Internal.Boolean>;
-    set IsHidden(value: Nullable_1<System_Internal.Boolean> | boolean);
-    get IsIdentity(): Nullable_1<System_Internal.Boolean>;
-    set IsIdentity(value: Nullable_1<System_Internal.Boolean> | boolean);
-    get IsKey(): Nullable_1<System_Internal.Boolean>;
-    set IsKey(value: Nullable_1<System_Internal.Boolean> | boolean);
-    get IsLong(): Nullable_1<System_Internal.Boolean>;
-    set IsLong(value: Nullable_1<System_Internal.Boolean> | boolean);
-    get IsReadOnly(): Nullable_1<System_Internal.Boolean>;
-    set IsReadOnly(value: Nullable_1<System_Internal.Boolean> | boolean);
-    get IsUnique(): Nullable_1<System_Internal.Boolean>;
-    set IsUnique(value: Nullable_1<System_Internal.Boolean> | boolean);
+    readonly AllowDBNull: Nullable_1<System_Internal.Boolean>;
+    readonly BaseCatalogName: string | null;
+    readonly BaseColumnName: string | null;
+    readonly BaseSchemaName: string | null;
+    readonly BaseServerName: string | null;
+    readonly BaseTableName: string | null;
+    readonly ColumnName: string;
+    readonly ColumnOrdinal: Nullable_1<System_Internal.Int32>;
+    readonly ColumnSize: Nullable_1<System_Internal.Int32>;
+    readonly DataType: Type | null;
+    readonly DataTypeName: string | null;
+    readonly IsAliased: Nullable_1<System_Internal.Boolean>;
+    readonly IsAutoIncrement: Nullable_1<System_Internal.Boolean>;
+    readonly IsExpression: Nullable_1<System_Internal.Boolean>;
+    readonly IsHidden: Nullable_1<System_Internal.Boolean>;
+    readonly IsIdentity: Nullable_1<System_Internal.Boolean>;
+    readonly IsKey: Nullable_1<System_Internal.Boolean>;
+    readonly IsLong: Nullable_1<System_Internal.Boolean>;
+    readonly IsReadOnly: Nullable_1<System_Internal.Boolean>;
+    readonly IsUnique: Nullable_1<System_Internal.Boolean>;
     readonly Item: unknown | null;
-    get NumericPrecision(): Nullable_1<System_Internal.Int32>;
-    set NumericPrecision(value: Nullable_1<System_Internal.Int32> | int);
-    get NumericScale(): Nullable_1<System_Internal.Int32>;
-    set NumericScale(value: Nullable_1<System_Internal.Int32> | int);
-    get UdtAssemblyQualifiedName(): string | null;
-    set UdtAssemblyQualifiedName(value: string | null);
+    readonly NumericPrecision: Nullable_1<System_Internal.Int32>;
+    readonly NumericScale: Nullable_1<System_Internal.Int32>;
+    readonly UdtAssemblyQualifiedName: string | null;
 }
 
 
-export const DbColumn: (abstract new() => DbColumn) & {
+export const DbColumn: {
 };
 
 
 export type DbColumn = DbColumn$instance;
 
-export interface DbCommand$instance extends Component, System_Internal.IAsyncDisposable$instance {
+export interface DbCommand$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
     readonly __tsonic_type_System_Data_Common_DbCommand: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDbCommand: never;
@@ -480,9 +473,9 @@ export interface DbCommand$instance extends Component, System_Internal.IAsyncDis
     ExecuteReader(): DbDataReader;
     ExecuteReader(behavior: CommandBehavior): DbDataReader;
     ExecuteReaderAsync(): Task_1<DbDataReader>;
-    ExecuteReaderAsync(cancellationToken: CancellationToken): Task_1<DbDataReader>;
     ExecuteReaderAsync(behavior: CommandBehavior): Task_1<DbDataReader>;
     ExecuteReaderAsync(behavior: CommandBehavior, cancellationToken: CancellationToken): Task_1<DbDataReader>;
+    ExecuteReaderAsync(cancellationToken: CancellationToken): Task_1<DbDataReader>;
     ExecuteScalar(): unknown | null;
     ExecuteScalarAsync(): Task_1<unknown | null>;
     ExecuteScalarAsync(cancellationToken: CancellationToken): Task_1<unknown | null>;
@@ -491,7 +484,7 @@ export interface DbCommand$instance extends Component, System_Internal.IAsyncDis
 }
 
 
-export const DbCommand: (abstract new() => DbCommand) & {
+export const DbCommand: {
 };
 
 
@@ -505,8 +498,10 @@ export interface __DbCommand$views {
 export type DbCommand = DbCommand$instance & __DbCommand$views;
 
 
-export interface DbCommandBuilder$instance extends Component {
+export interface DbCommandBuilder$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
     readonly __tsonic_type_System_Data_Common_DbCommandBuilder: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_IDisposable: never;
@@ -521,14 +516,13 @@ export interface DbCommandBuilder$instance extends Component {
     SchemaSeparator: string;
     SetAllValues: boolean;
     ApplyParameterInfo(parameter: DbParameter, row: DataRow, statementType: StatementType, whereClause: boolean): void;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
+    Dispose: System_ComponentModel_Internal.Component$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     GetDeleteCommand(): DbCommand;
     GetDeleteCommand(useColumnsForParameterNames: boolean): DbCommand;
     GetInsertCommand(): DbCommand;
     GetInsertCommand(useColumnsForParameterNames: boolean): DbCommand;
-    GetParameterName(parameterOrdinal: int): string;
     GetParameterName(parameterName: string): string;
+    GetParameterName(parameterOrdinal: int): string;
     GetParameterPlaceholder(parameterOrdinal: int): string;
     GetSchemaTable(sourceCommand: DbCommand): DataTable | null;
     GetUpdateCommand(): DbCommand;
@@ -541,7 +535,7 @@ export interface DbCommandBuilder$instance extends Component {
 }
 
 
-export const DbCommandBuilder: (abstract new() => DbCommandBuilder) & {
+export const DbCommandBuilder: {
 };
 
 
@@ -553,8 +547,10 @@ export interface __DbCommandBuilder$views {
 export type DbCommandBuilder = DbCommandBuilder$instance & __DbCommandBuilder$views;
 
 
-export interface DbConnection$instance extends Component, System_Internal.IAsyncDisposable$instance {
+export interface DbConnection$instance extends System_ComponentModel_Internal.Component$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
     readonly __tsonic_type_System_Data_Common_DbConnection: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDbConnection: never;
@@ -598,7 +594,7 @@ export interface DbConnection$instance extends Component, System_Internal.IAsync
 }
 
 
-export const DbConnection: (abstract new() => DbConnection) & {
+export const DbConnection: {
 };
 
 
@@ -657,8 +653,11 @@ export interface __DbConnectionStringBuilder$views {
 export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __DbConnectionStringBuilder$views & { [keyword: string]: unknown; };
 
 
-export interface DbDataAdapter$instance extends DataAdapter$instance, System_Internal.ICloneable$instance {
+export interface DbDataAdapter$instance extends DataAdapter$instance {
+    readonly __tsonic_type_System_ComponentModel_Component: never;
+    readonly __tsonic_type_System_Data_Common_DataAdapter: never;
     readonly __tsonic_type_System_Data_Common_DbDataAdapter: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_ComponentModel_IComponent: never;
     readonly __tsonic_iface_System_Data_IDataAdapter: never;
@@ -679,43 +678,22 @@ export interface DbDataAdapter$instance extends DataAdapter$instance, System_Int
     ClearBatch(): void;
     CreateRowUpdatedEvent(dataRow: DataRow, command: IDbCommand | null, statementType: StatementType, tableMapping: DataTableMapping): RowUpdatedEventArgs;
     CreateRowUpdatingEvent(dataRow: DataRow, command: IDbCommand | null, statementType: StatementType, tableMapping: DataTableMapping): RowUpdatingEventArgs;
-    Dispose(disposing: boolean): void;
-    Dispose(): void;
+    Dispose: DataAdapter$instance["Dispose"] & (() => void) & ((disposing: boolean) => void);
     ExecuteBatch(): int;
-    Fill(dataSet: DataSet): int;
-    Fill(dataSet: DataSet, srcTable: string): int;
-    Fill(dataSet: DataSet, startRecord: int, maxRecords: int, srcTable: string): int;
-    Fill(dataSet: DataSet, startRecord: int, maxRecords: int, srcTable: string, command: IDbCommand, behavior: CommandBehavior): int;
-    Fill(dataTable: DataTable): int;
-    Fill(startRecord: int, maxRecords: int, ...dataTables: DataTable[]): int;
-    Fill(dataTable: DataTable, command: IDbCommand, behavior: CommandBehavior): int;
-    Fill(dataTables: DataTable[], startRecord: int, maxRecords: int, command: IDbCommand, behavior: CommandBehavior): int;
-    Fill(dataSet: DataSet, srcTable: string, dataReader: IDataReader, startRecord: int, maxRecords: int): int;
-    Fill(dataTable: DataTable, dataReader: IDataReader): int;
-    Fill(dataTables: DataTable[], dataReader: IDataReader, startRecord: int, maxRecords: int): int;
-    FillSchema(dataTable: DataTable, schemaType: SchemaType): DataTable | null;
-    FillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
-    FillSchema(dataSet: DataSet, schemaType: SchemaType, srcTable: string): DataTable[];
-    FillSchema(dataSet: DataSet, schemaType: SchemaType, command: IDbCommand, srcTable: string, behavior: CommandBehavior): DataTable[];
-    FillSchema(dataTable: DataTable, schemaType: SchemaType, command: IDbCommand, behavior: CommandBehavior): DataTable | null;
-    FillSchema(dataSet: DataSet, schemaType: SchemaType, srcTable: string, dataReader: IDataReader): DataTable[];
-    FillSchema(dataTable: DataTable, schemaType: SchemaType, dataReader: IDataReader): DataTable | null;
+    Fill: DataAdapter$instance["Fill"] & ((dataSet: DataSet) => int) & ((dataSet: DataSet, srcTable: string) => int) & ((dataSet: DataSet, srcTable: string, dataReader: IDataReader, startRecord: int, maxRecords: int) => int) & ((dataSet: DataSet, startRecord: int, maxRecords: int, srcTable: string) => int) & ((dataSet: DataSet, startRecord: int, maxRecords: int, srcTable: string, command: IDbCommand, behavior: CommandBehavior) => int) & ((dataTable: DataTable) => int) & ((dataTable: DataTable, command: IDbCommand, behavior: CommandBehavior) => int) & ((dataTable: DataTable, dataReader: IDataReader) => int) & ((dataTables: DataTable[], dataReader: IDataReader, startRecord: int, maxRecords: int) => int) & ((dataTables: DataTable[], startRecord: int, maxRecords: int, command: IDbCommand, behavior: CommandBehavior) => int) & ((startRecord: int, maxRecords: int, ...dataTables: DataTable[]) => int);
+    FillSchema: DataAdapter$instance["FillSchema"] & ((dataSet: DataSet, schemaType: SchemaType) => DataTable[]) & ((dataSet: DataSet, schemaType: SchemaType, command: IDbCommand, srcTable: string, behavior: CommandBehavior) => DataTable[]) & ((dataSet: DataSet, schemaType: SchemaType, srcTable: string) => DataTable[]) & ((dataSet: DataSet, schemaType: SchemaType, srcTable: string, dataReader: IDataReader) => DataTable[]) & ((dataTable: DataTable, schemaType: SchemaType) => DataTable | null) & ((dataTable: DataTable, schemaType: SchemaType, command: IDbCommand, behavior: CommandBehavior) => DataTable | null) & ((dataTable: DataTable, schemaType: SchemaType, dataReader: IDataReader) => DataTable | null);
     GetBatchedParameter(commandIdentifier: int, parameterIndex: int): IDataParameter;
     GetBatchedRecordsAffected(commandIdentifier: int, recordsAffected: int, error: Exception | null): boolean;
-    GetFillParameters(): IDataParameter[];
+    GetFillParameters: DataAdapter$instance["GetFillParameters"] & (() => IDataParameter[]);
     InitializeBatching(): void;
     OnRowUpdated(value: RowUpdatedEventArgs): void;
     OnRowUpdating(value: RowUpdatingEventArgs): void;
     TerminateBatching(): void;
-    Update(dataSet: DataSet): int;
-    Update(dataRows: DataRow[]): int;
-    Update(dataTable: DataTable): int;
-    Update(dataSet: DataSet, srcTable: string): int;
-    Update(dataRows: DataRow[], tableMapping: DataTableMapping): int;
+    Update: DataAdapter$instance["Update"] & ((dataRows: DataRow[]) => int) & ((dataRows: DataRow[], tableMapping: DataTableMapping) => int) & ((dataSet: DataSet) => int) & ((dataSet: DataSet, srcTable: string) => int) & ((dataTable: DataTable) => int);
 }
 
 
-export const DbDataAdapter: (abstract new() => DbDataAdapter) & (abstract new(adapter: DbDataAdapter) => DbDataAdapter) & {
+export const DbDataAdapter: {
     readonly DefaultSourceTableName: string;
 };
 
@@ -731,8 +709,9 @@ export interface __DbDataAdapter$views {
 export type DbDataAdapter = DbDataAdapter$instance & __DbDataAdapter$views;
 
 
-export interface DbDataReader$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
+export interface DbDataReader$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_Data_Common_DbDataReader: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
     readonly __tsonic_iface_System_Data_IDataReader: never;
@@ -751,8 +730,8 @@ export interface DbDataReader$instance extends MarshalByRefObject, System_Intern
     Dispose(): void;
     Dispose(disposing: boolean): void;
     DisposeAsync(): ValueTask;
-    get_Item(ordinal: int): unknown;
     get_Item(name: string): unknown;
+    get_Item(ordinal: int): unknown;
     GetBoolean(ordinal: int): boolean;
     GetByte(ordinal: int): byte;
     GetBytes(ordinal: int, dataOffset: long, buffer: byte[] | null, bufferOffset: int, length: int): long;
@@ -799,7 +778,7 @@ export interface DbDataReader$instance extends MarshalByRefObject, System_Intern
 }
 
 
-export const DbDataReader: (abstract new() => DbDataReader) & {
+export const DbDataReader: {
 };
 
 
@@ -814,7 +793,7 @@ export interface __DbDataReader$views {
 export type DbDataReader = DbDataReader$instance & __DbDataReader$views;
 
 
-export interface DbDataRecord$instance extends System_ComponentModel_Internal.ICustomTypeDescriptor$instance, System_Data_Internal.IDataRecord$instance {
+export interface DbDataRecord$instance {
     readonly __tsonic_type_System_Data_Common_DbDataRecord: never;
 
     readonly __tsonic_iface_System_ComponentModel_ICustomTypeDescriptor: never;
@@ -849,7 +828,7 @@ export interface DbDataRecord$instance extends System_ComponentModel_Internal.IC
 }
 
 
-export const DbDataRecord: (abstract new() => DbDataRecord) & {
+export const DbDataRecord: {
 };
 
 
@@ -861,7 +840,7 @@ export interface __DbDataRecord$views {
 export type DbDataRecord = DbDataRecord$instance & __DbDataRecord$views;
 
 
-export interface DbDataSource$instance extends System_Internal.IAsyncDisposable$instance {
+export interface DbDataSource$instance {
     readonly __tsonic_type_System_Data_Common_DbDataSource: never;
 
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -885,7 +864,7 @@ export interface DbDataSource$instance extends System_Internal.IAsyncDisposable$
 }
 
 
-export const DbDataSource: (abstract new() => DbDataSource) & {
+export const DbDataSource: {
 };
 
 
@@ -904,7 +883,7 @@ export interface DbDataSourceEnumerator$instance {
 }
 
 
-export const DbDataSourceEnumerator: (abstract new() => DbDataSourceEnumerator) & {
+export const DbDataSourceEnumerator: {
 };
 
 
@@ -936,8 +915,11 @@ export interface __DbEnumerator$views {
 export type DbEnumerator = DbEnumerator$instance & __DbEnumerator$views;
 
 
-export interface DbException$instance extends ExternalException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface DbException$instance extends System_Runtime_InteropServices_Internal.ExternalException$instance {
     readonly __tsonic_type_System_Data_Common_DbException: never;
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_Runtime_InteropServices_ExternalException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
@@ -948,7 +930,7 @@ export interface DbException$instance extends ExternalException, System_Runtime_
 }
 
 
-export const DbException: (abstract new() => DbException) & (abstract new(message: string | null) => DbException) & (abstract new(message: string | null, innerException: Exception | null) => DbException) & (abstract new(message: string | null, errorCode: int) => DbException) & (abstract new(info: SerializationInfo, context: StreamingContext) => DbException) & {
+export const DbException: {
 };
 
 
@@ -959,8 +941,9 @@ export interface __DbException$views {
 export type DbException = DbException$instance & __DbException$views;
 
 
-export interface DbParameter$instance extends MarshalByRefObject {
+export interface DbParameter$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_Data_Common_DbParameter: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Data_IDataParameter: never;
     readonly __tsonic_iface_System_Data_IDbDataParameter: never;
@@ -981,7 +964,7 @@ export interface DbParameter$instance extends MarshalByRefObject {
 }
 
 
-export const DbParameter: (abstract new() => DbParameter) & {
+export const DbParameter: {
 };
 
 
@@ -993,8 +976,9 @@ export interface __DbParameter$views {
 export type DbParameter = DbParameter$instance & __DbParameter$views;
 
 
-export interface DbParameterCollection$instance extends MarshalByRefObject {
+export interface DbParameterCollection$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_Data_Common_DbParameterCollection: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Collections_ICollection: never;
     readonly __tsonic_iface_System_Collections_IEnumerable: never;
@@ -1009,16 +993,16 @@ export interface DbParameterCollection$instance extends MarshalByRefObject {
     Add(value: unknown): int;
     AddRange(values: ClrArray): void;
     Clear(): void;
-    Contains(value: unknown): boolean;
     Contains(value: string): boolean;
+    Contains(value: unknown): boolean;
     CopyTo(array: ClrArray, index: int): void;
     get_Item(index: int): DbParameter;
     get_Item(parameterName: string): DbParameter;
     GetEnumerator(): IEnumerator;
     GetParameter(index: int): DbParameter;
     GetParameter(parameterName: string): DbParameter;
-    IndexOf(value: unknown): int;
     IndexOf(parameterName: string): int;
+    IndexOf(value: unknown): int;
     Insert(index: int, value: unknown): void;
     Remove(value: unknown): void;
     RemoveAt(index: int): void;
@@ -1030,7 +1014,7 @@ export interface DbParameterCollection$instance extends MarshalByRefObject {
 }
 
 
-export const DbParameterCollection: (abstract new() => DbParameterCollection) & {
+export const DbParameterCollection: {
 };
 
 
@@ -1064,13 +1048,14 @@ export interface DbProviderFactory$instance {
 }
 
 
-export const DbProviderFactory: (abstract new() => DbProviderFactory) & {
+export const DbProviderFactory: {
 };
 
 
 export type DbProviderFactory = DbProviderFactory$instance;
 
-export interface DbProviderSpecificTypePropertyAttribute$instance extends Attribute {
+export interface DbProviderSpecificTypePropertyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Data_Common_DbProviderSpecificTypePropertyAttribute: never;
 
     readonly IsProviderSpecificTypeProperty: boolean;
@@ -1084,8 +1069,9 @@ export const DbProviderSpecificTypePropertyAttribute: {
 
 export type DbProviderSpecificTypePropertyAttribute = DbProviderSpecificTypePropertyAttribute$instance;
 
-export interface DbTransaction$instance extends MarshalByRefObject, System_Internal.IAsyncDisposable$instance {
+export interface DbTransaction$instance extends System_Internal.MarshalByRefObject$instance {
     readonly __tsonic_type_System_Data_Common_DbTransaction: never;
+    readonly __tsonic_type_System_MarshalByRefObject: never;
 
     readonly __tsonic_iface_System_Data_IDbTransaction: never;
     readonly __tsonic_iface_System_IAsyncDisposable: never;
@@ -1111,7 +1097,7 @@ export interface DbTransaction$instance extends MarshalByRefObject, System_Inter
 }
 
 
-export const DbTransaction: (abstract new() => DbTransaction) & {
+export const DbTransaction: {
 };
 
 
@@ -1124,8 +1110,9 @@ export interface __DbTransaction$views {
 export type DbTransaction = DbTransaction$instance & __DbTransaction$views;
 
 
-export interface RowUpdatedEventArgs$instance extends EventArgs {
+export interface RowUpdatedEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_Data_Common_RowUpdatedEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     readonly Command: IDbCommand | null;
     get Errors(): Exception | null;
@@ -1148,8 +1135,9 @@ export const RowUpdatedEventArgs: {
 
 export type RowUpdatedEventArgs = RowUpdatedEventArgs$instance;
 
-export interface RowUpdatingEventArgs$instance extends EventArgs {
+export interface RowUpdatingEventArgs$instance extends System_Internal.EventArgs$instance {
     readonly __tsonic_type_System_Data_Common_RowUpdatingEventArgs: never;
+    readonly __tsonic_type_System_EventArgs: never;
 
     get BaseCommand(): IDbCommand | null;
     set BaseCommand(value: IDbCommand | null);

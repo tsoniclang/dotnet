@@ -27,6 +27,7 @@ export type IDuplexPipe = IDuplexPipe$instance;
 
 export interface FlushResult$instance {
     readonly __tsonic_type_System_IO_Pipelines_FlushResult: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly IsCanceled: boolean;
     readonly IsCompleted: boolean;
@@ -42,6 +43,7 @@ export type FlushResult = FlushResult$instance;
 
 export interface ReadResult$instance {
     readonly __tsonic_type_System_IO_Pipelines_ReadResult: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Buffer: ReadOnlySequence_1<System_Internal.Byte>;
     readonly IsCanceled: boolean;
@@ -113,7 +115,7 @@ export interface PipeReader$instance {
 }
 
 
-export const PipeReader: (abstract new() => PipeReader) & {
+export const PipeReader: {
     Create(sequence: ReadOnlySequence_1<System_Internal.Byte>): PipeReader;
     Create(stream: Stream, readerOptions?: StreamPipeReaderOptions | null): PipeReader;
 };
@@ -128,7 +130,7 @@ export interface PipeScheduler$instance {
 }
 
 
-export const PipeScheduler: (abstract new() => PipeScheduler) & {
+export const PipeScheduler: {
     readonly ThreadPool: PipeScheduler;
     readonly Inline: PipeScheduler;
 };
@@ -136,7 +138,7 @@ export const PipeScheduler: (abstract new() => PipeScheduler) & {
 
 export type PipeScheduler = PipeScheduler$instance;
 
-export interface PipeWriter$instance extends System_Buffers_Internal.IBufferWriter_1$instance<System_Internal.Byte> {
+export interface PipeWriter$instance {
     readonly __tsonic_type_System_IO_Pipelines_PipeWriter: never;
 
     readonly __tsonic_iface_System_Buffers_IBufferWriter_1: never;
@@ -157,7 +159,7 @@ export interface PipeWriter$instance extends System_Buffers_Internal.IBufferWrit
 }
 
 
-export const PipeWriter: (abstract new() => PipeWriter) & {
+export const PipeWriter: {
     Create(stream: Stream, writerOptions?: StreamPipeWriterOptions | null): PipeWriter;
 };
 

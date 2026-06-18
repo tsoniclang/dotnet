@@ -12,7 +12,7 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 // Cross-namespace type imports for constraints
 import type { ICollection_1, IComparer_1, IDictionary_2, IEnumerable_1, IEnumerator_1, IEqualityComparer_1, IList_1, IReadOnlyCollection_1, IReadOnlyDictionary_2, IReadOnlyList_1, IReadOnlySet_1, ISet_1, KeyValuePair_2 } from './System.Collections.Generic/internal/index.js';
 import type { ICollection, IComparer, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator, IEqualityComparer, IList, IStructuralComparable, IStructuralEquatable } from './System.Collections/internal/index.js';
-import type { Action_1, Array as ClrArray, Boolean as ClrBoolean, Comparison_1, Func_2, Func_3, IDisposable, IEquatable_1, Int32, Object as ClrObject, Predicate_1, Range, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
+import type { Action_1, Array as ClrArray, Boolean as ClrBoolean, Char, Comparison_1, ConsoleKeyInfo, Func_2, Func_3, IDisposable, IEquatable_1, Int32, Object as ClrObject, Predicate_1, Range, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export type IImmutableDictionary<TKey extends unknown, TValue extends unknown> = Internal.IImmutableDictionary_2<TKey, TValue>;
@@ -20,11 +20,25 @@ export type IImmutableList<T extends unknown> = Internal.IImmutableList_1<T>;
 export type IImmutableQueue<T extends unknown> = Internal.IImmutableQueue_1<T>;
 export type IImmutableSet<T extends unknown> = Internal.IImmutableSet_1<T>;
 export type IImmutableStack<T extends unknown> = Internal.IImmutableStack_1<T>;
+export { ImmutableHashSet_1_Builder as ImmutableHashSet_1_Builder } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableHashSet_1_Enumerator as ImmutableHashSet_1_Enumerator } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableArray_1_Builder as ImmutableArray_1_Builder } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableArray_1_Enumerator as ImmutableArray_1_Enumerator } from './System.Collections.Immutable/internal/index.js';
 export { ImmutableDictionary$instance as ImmutableDictionary_0 } from './System.Collections.Immutable/internal/index.js';
 export { ImmutableDictionary_2 as ImmutableDictionary } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableDictionary_2_Builder as ImmutableDictionary_2_Builder } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableDictionary_2_Enumerator as ImmutableDictionary_2_Enumerator } from './System.Collections.Immutable/internal/index.js';
 export { ImmutableInterlocked$instance as ImmutableInterlocked } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableList_1_Builder as ImmutableList_1_Builder } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableList_1_Enumerator as ImmutableList_1_Enumerator } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableQueue_1_Enumerator as ImmutableQueue_1_Enumerator } from './System.Collections.Immutable/internal/index.js';
 export { ImmutableSortedDictionary$instance as ImmutableSortedDictionary_0 } from './System.Collections.Immutable/internal/index.js';
 export { ImmutableSortedDictionary_2 as ImmutableSortedDictionary } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableSortedDictionary_2_Builder as ImmutableSortedDictionary_2_Builder } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableSortedDictionary_2_Enumerator as ImmutableSortedDictionary_2_Enumerator } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableSortedSet_1_Builder as ImmutableSortedSet_1_Builder } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableSortedSet_1_Enumerator as ImmutableSortedSet_1_Enumerator } from './System.Collections.Immutable/internal/index.js';
+export { ImmutableStack_1_Enumerator as ImmutableStack_1_Enumerator } from './System.Collections.Immutable/internal/index.js';
 
 // Multi-arity family value exports (arity-0 constructors/static namespaces)
 export const ImmutableArray: typeof Internal.ImmutableArray$instance;
@@ -42,37 +56,37 @@ export type ImmutableArray<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ImmutableArray :
-  [T1] extends [unknown] ? Internal.ImmutableArray_1<T1> : never;
+  Internal.ImmutableArray_1<T1>;
 
 export type ImmutableHashSet<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ImmutableHashSet :
-  [T1] extends [unknown] ? Internal.ImmutableHashSet_1<T1> : never;
+  Internal.ImmutableHashSet_1<T1>;
 
 export type ImmutableList<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ImmutableList :
-  [T1] extends [unknown] ? Internal.ImmutableList_1<T1> : never;
+  Internal.ImmutableList_1<T1>;
 
 export type ImmutableQueue<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ImmutableQueue :
-  [T1] extends [unknown] ? Internal.ImmutableQueue_1<T1> : never;
+  Internal.ImmutableQueue_1<T1>;
 
 export type ImmutableSortedSet<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ImmutableSortedSet :
-  [T1] extends [unknown] ? Internal.ImmutableSortedSet_1<T1> : never;
+  Internal.ImmutableSortedSet_1<T1>;
 
 export type ImmutableStack<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.ImmutableStack :
-  [T1] extends [unknown] ? Internal.ImmutableStack_1<T1> : never;
+  Internal.ImmutableStack_1<T1>;
 
 // Extension methods (C# using semantics)
 export type { ExtensionMethods_System_Collections_Immutable as ExtensionMethods } from './__internal/extensions/index.js';

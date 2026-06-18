@@ -14,7 +14,8 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, RuntimeMethodHandle, Span_1, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export interface ObjectiveCTrackedTypeAttribute$instance extends Attribute {
+export interface ObjectiveCTrackedTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_InteropServices_ObjectiveC_ObjectiveCTrackedTypeAttribute: never;
 
 }
@@ -37,13 +38,15 @@ export abstract class ObjectiveCMarshal$instance {
 
 export type ObjectiveCMarshal = ObjectiveCMarshal$instance;
 
-export enum ObjectiveCMarshal_MessageSendFunction {
-    MsgSend = 0,
-    MsgSendFpret = 1,
-    MsgSendStret = 2,
-    MsgSendSuper = 3,
-    MsgSendSuperStret = 4
-}
+export type ObjectiveCMarshal_MessageSendFunction = number & { readonly __tsonic_type_System_Runtime_InteropServices_ObjectiveC_ObjectiveCMarshal_MessageSendFunction: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const ObjectiveCMarshal_MessageSendFunction: {
+    readonly MsgSend: ObjectiveCMarshal_MessageSendFunction;
+    readonly MsgSendFpret: ObjectiveCMarshal_MessageSendFunction;
+    readonly MsgSendStret: ObjectiveCMarshal_MessageSendFunction;
+    readonly MsgSendSuper: ObjectiveCMarshal_MessageSendFunction;
+    readonly MsgSendSuperStret: ObjectiveCMarshal_MessageSendFunction;
+};
 
 
 export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = (exception: Exception, lastMethod: RuntimeMethodHandle, context: nint) => fnptr<[nint], void>;

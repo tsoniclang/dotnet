@@ -3964,19 +3964,7 @@
         "properties": [],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlNavigatorFilter::.ctor():void",
-            "metadataToken": 100676254,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Xml.Xsl.Runtime.XmlNavigatorFilter",
-            "ownerIdentity": "System.Private.Xml"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryContext",

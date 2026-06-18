@@ -13,189 +13,192 @@ import type { ITypeDescriptorContext, PropertyDescriptorCollection, TypeConverte
 import type { CultureInfo } from "../../System.Globalization/internal/index.js";
 import type { Vector2, Vector4 } from "../../System.Numerics/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Attribute, Boolean as ClrBoolean, Byte, Enum, Exception, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, Single, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
+import type { Attribute, Boolean as ClrBoolean, Byte, ConsoleKeyInfo, Enum, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, Single, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
-export enum KnownColor {
-    ActiveBorder = 1,
-    ActiveCaption = 2,
-    ActiveCaptionText = 3,
-    AppWorkspace = 4,
-    Control = 5,
-    ControlDark = 6,
-    ControlDarkDark = 7,
-    ControlLight = 8,
-    ControlLightLight = 9,
-    ControlText = 10,
-    Desktop = 11,
-    GrayText = 12,
-    Highlight = 13,
-    HighlightText = 14,
-    HotTrack = 15,
-    InactiveBorder = 16,
-    InactiveCaption = 17,
-    InactiveCaptionText = 18,
-    Info = 19,
-    InfoText = 20,
-    Menu = 21,
-    MenuText = 22,
-    ScrollBar = 23,
-    Window = 24,
-    WindowFrame = 25,
-    WindowText = 26,
-    Transparent = 27,
-    AliceBlue = 28,
-    AntiqueWhite = 29,
-    Aqua = 30,
-    Aquamarine = 31,
-    Azure = 32,
-    Beige = 33,
-    Bisque = 34,
-    Black = 35,
-    BlanchedAlmond = 36,
-    Blue = 37,
-    BlueViolet = 38,
-    Brown = 39,
-    BurlyWood = 40,
-    CadetBlue = 41,
-    Chartreuse = 42,
-    Chocolate = 43,
-    Coral = 44,
-    CornflowerBlue = 45,
-    Cornsilk = 46,
-    Crimson = 47,
-    Cyan = 48,
-    DarkBlue = 49,
-    DarkCyan = 50,
-    DarkGoldenrod = 51,
-    DarkGray = 52,
-    DarkGreen = 53,
-    DarkKhaki = 54,
-    DarkMagenta = 55,
-    DarkOliveGreen = 56,
-    DarkOrange = 57,
-    DarkOrchid = 58,
-    DarkRed = 59,
-    DarkSalmon = 60,
-    DarkSeaGreen = 61,
-    DarkSlateBlue = 62,
-    DarkSlateGray = 63,
-    DarkTurquoise = 64,
-    DarkViolet = 65,
-    DeepPink = 66,
-    DeepSkyBlue = 67,
-    DimGray = 68,
-    DodgerBlue = 69,
-    Firebrick = 70,
-    FloralWhite = 71,
-    ForestGreen = 72,
-    Fuchsia = 73,
-    Gainsboro = 74,
-    GhostWhite = 75,
-    Gold = 76,
-    Goldenrod = 77,
-    Gray = 78,
-    Green = 79,
-    GreenYellow = 80,
-    Honeydew = 81,
-    HotPink = 82,
-    IndianRed = 83,
-    Indigo = 84,
-    Ivory = 85,
-    Khaki = 86,
-    Lavender = 87,
-    LavenderBlush = 88,
-    LawnGreen = 89,
-    LemonChiffon = 90,
-    LightBlue = 91,
-    LightCoral = 92,
-    LightCyan = 93,
-    LightGoldenrodYellow = 94,
-    LightGray = 95,
-    LightGreen = 96,
-    LightPink = 97,
-    LightSalmon = 98,
-    LightSeaGreen = 99,
-    LightSkyBlue = 100,
-    LightSlateGray = 101,
-    LightSteelBlue = 102,
-    LightYellow = 103,
-    Lime = 104,
-    LimeGreen = 105,
-    Linen = 106,
-    Magenta = 107,
-    Maroon = 108,
-    MediumAquamarine = 109,
-    MediumBlue = 110,
-    MediumOrchid = 111,
-    MediumPurple = 112,
-    MediumSeaGreen = 113,
-    MediumSlateBlue = 114,
-    MediumSpringGreen = 115,
-    MediumTurquoise = 116,
-    MediumVioletRed = 117,
-    MidnightBlue = 118,
-    MintCream = 119,
-    MistyRose = 120,
-    Moccasin = 121,
-    NavajoWhite = 122,
-    Navy = 123,
-    OldLace = 124,
-    Olive = 125,
-    OliveDrab = 126,
-    Orange = 127,
-    OrangeRed = 128,
-    Orchid = 129,
-    PaleGoldenrod = 130,
-    PaleGreen = 131,
-    PaleTurquoise = 132,
-    PaleVioletRed = 133,
-    PapayaWhip = 134,
-    PeachPuff = 135,
-    Peru = 136,
-    Pink = 137,
-    Plum = 138,
-    PowderBlue = 139,
-    Purple = 140,
-    Red = 141,
-    RosyBrown = 142,
-    RoyalBlue = 143,
-    SaddleBrown = 144,
-    Salmon = 145,
-    SandyBrown = 146,
-    SeaGreen = 147,
-    SeaShell = 148,
-    Sienna = 149,
-    Silver = 150,
-    SkyBlue = 151,
-    SlateBlue = 152,
-    SlateGray = 153,
-    Snow = 154,
-    SpringGreen = 155,
-    SteelBlue = 156,
-    Tan = 157,
-    Teal = 158,
-    Thistle = 159,
-    Tomato = 160,
-    Turquoise = 161,
-    Violet = 162,
-    Wheat = 163,
-    White = 164,
-    WhiteSmoke = 165,
-    Yellow = 166,
-    YellowGreen = 167,
-    ButtonFace = 168,
-    ButtonHighlight = 169,
-    ButtonShadow = 170,
-    GradientActiveCaption = 171,
-    GradientInactiveCaption = 172,
-    MenuBar = 173,
-    MenuHighlight = 174,
-    RebeccaPurple = 175
-}
+export type KnownColor = number & { readonly __tsonic_type_System_Drawing_KnownColor: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const KnownColor: {
+    readonly ActiveBorder: KnownColor;
+    readonly ActiveCaption: KnownColor;
+    readonly ActiveCaptionText: KnownColor;
+    readonly AppWorkspace: KnownColor;
+    readonly Control: KnownColor;
+    readonly ControlDark: KnownColor;
+    readonly ControlDarkDark: KnownColor;
+    readonly ControlLight: KnownColor;
+    readonly ControlLightLight: KnownColor;
+    readonly ControlText: KnownColor;
+    readonly Desktop: KnownColor;
+    readonly GrayText: KnownColor;
+    readonly Highlight: KnownColor;
+    readonly HighlightText: KnownColor;
+    readonly HotTrack: KnownColor;
+    readonly InactiveBorder: KnownColor;
+    readonly InactiveCaption: KnownColor;
+    readonly InactiveCaptionText: KnownColor;
+    readonly Info: KnownColor;
+    readonly InfoText: KnownColor;
+    readonly Menu: KnownColor;
+    readonly MenuText: KnownColor;
+    readonly ScrollBar: KnownColor;
+    readonly Window: KnownColor;
+    readonly WindowFrame: KnownColor;
+    readonly WindowText: KnownColor;
+    readonly Transparent: KnownColor;
+    readonly AliceBlue: KnownColor;
+    readonly AntiqueWhite: KnownColor;
+    readonly Aqua: KnownColor;
+    readonly Aquamarine: KnownColor;
+    readonly Azure: KnownColor;
+    readonly Beige: KnownColor;
+    readonly Bisque: KnownColor;
+    readonly Black: KnownColor;
+    readonly BlanchedAlmond: KnownColor;
+    readonly Blue: KnownColor;
+    readonly BlueViolet: KnownColor;
+    readonly Brown: KnownColor;
+    readonly BurlyWood: KnownColor;
+    readonly CadetBlue: KnownColor;
+    readonly Chartreuse: KnownColor;
+    readonly Chocolate: KnownColor;
+    readonly Coral: KnownColor;
+    readonly CornflowerBlue: KnownColor;
+    readonly Cornsilk: KnownColor;
+    readonly Crimson: KnownColor;
+    readonly Cyan: KnownColor;
+    readonly DarkBlue: KnownColor;
+    readonly DarkCyan: KnownColor;
+    readonly DarkGoldenrod: KnownColor;
+    readonly DarkGray: KnownColor;
+    readonly DarkGreen: KnownColor;
+    readonly DarkKhaki: KnownColor;
+    readonly DarkMagenta: KnownColor;
+    readonly DarkOliveGreen: KnownColor;
+    readonly DarkOrange: KnownColor;
+    readonly DarkOrchid: KnownColor;
+    readonly DarkRed: KnownColor;
+    readonly DarkSalmon: KnownColor;
+    readonly DarkSeaGreen: KnownColor;
+    readonly DarkSlateBlue: KnownColor;
+    readonly DarkSlateGray: KnownColor;
+    readonly DarkTurquoise: KnownColor;
+    readonly DarkViolet: KnownColor;
+    readonly DeepPink: KnownColor;
+    readonly DeepSkyBlue: KnownColor;
+    readonly DimGray: KnownColor;
+    readonly DodgerBlue: KnownColor;
+    readonly Firebrick: KnownColor;
+    readonly FloralWhite: KnownColor;
+    readonly ForestGreen: KnownColor;
+    readonly Fuchsia: KnownColor;
+    readonly Gainsboro: KnownColor;
+    readonly GhostWhite: KnownColor;
+    readonly Gold: KnownColor;
+    readonly Goldenrod: KnownColor;
+    readonly Gray: KnownColor;
+    readonly Green: KnownColor;
+    readonly GreenYellow: KnownColor;
+    readonly Honeydew: KnownColor;
+    readonly HotPink: KnownColor;
+    readonly IndianRed: KnownColor;
+    readonly Indigo: KnownColor;
+    readonly Ivory: KnownColor;
+    readonly Khaki: KnownColor;
+    readonly Lavender: KnownColor;
+    readonly LavenderBlush: KnownColor;
+    readonly LawnGreen: KnownColor;
+    readonly LemonChiffon: KnownColor;
+    readonly LightBlue: KnownColor;
+    readonly LightCoral: KnownColor;
+    readonly LightCyan: KnownColor;
+    readonly LightGoldenrodYellow: KnownColor;
+    readonly LightGray: KnownColor;
+    readonly LightGreen: KnownColor;
+    readonly LightPink: KnownColor;
+    readonly LightSalmon: KnownColor;
+    readonly LightSeaGreen: KnownColor;
+    readonly LightSkyBlue: KnownColor;
+    readonly LightSlateGray: KnownColor;
+    readonly LightSteelBlue: KnownColor;
+    readonly LightYellow: KnownColor;
+    readonly Lime: KnownColor;
+    readonly LimeGreen: KnownColor;
+    readonly Linen: KnownColor;
+    readonly Magenta: KnownColor;
+    readonly Maroon: KnownColor;
+    readonly MediumAquamarine: KnownColor;
+    readonly MediumBlue: KnownColor;
+    readonly MediumOrchid: KnownColor;
+    readonly MediumPurple: KnownColor;
+    readonly MediumSeaGreen: KnownColor;
+    readonly MediumSlateBlue: KnownColor;
+    readonly MediumSpringGreen: KnownColor;
+    readonly MediumTurquoise: KnownColor;
+    readonly MediumVioletRed: KnownColor;
+    readonly MidnightBlue: KnownColor;
+    readonly MintCream: KnownColor;
+    readonly MistyRose: KnownColor;
+    readonly Moccasin: KnownColor;
+    readonly NavajoWhite: KnownColor;
+    readonly Navy: KnownColor;
+    readonly OldLace: KnownColor;
+    readonly Olive: KnownColor;
+    readonly OliveDrab: KnownColor;
+    readonly Orange: KnownColor;
+    readonly OrangeRed: KnownColor;
+    readonly Orchid: KnownColor;
+    readonly PaleGoldenrod: KnownColor;
+    readonly PaleGreen: KnownColor;
+    readonly PaleTurquoise: KnownColor;
+    readonly PaleVioletRed: KnownColor;
+    readonly PapayaWhip: KnownColor;
+    readonly PeachPuff: KnownColor;
+    readonly Peru: KnownColor;
+    readonly Pink: KnownColor;
+    readonly Plum: KnownColor;
+    readonly PowderBlue: KnownColor;
+    readonly Purple: KnownColor;
+    readonly Red: KnownColor;
+    readonly RosyBrown: KnownColor;
+    readonly RoyalBlue: KnownColor;
+    readonly SaddleBrown: KnownColor;
+    readonly Salmon: KnownColor;
+    readonly SandyBrown: KnownColor;
+    readonly SeaGreen: KnownColor;
+    readonly SeaShell: KnownColor;
+    readonly Sienna: KnownColor;
+    readonly Silver: KnownColor;
+    readonly SkyBlue: KnownColor;
+    readonly SlateBlue: KnownColor;
+    readonly SlateGray: KnownColor;
+    readonly Snow: KnownColor;
+    readonly SpringGreen: KnownColor;
+    readonly SteelBlue: KnownColor;
+    readonly Tan: KnownColor;
+    readonly Teal: KnownColor;
+    readonly Thistle: KnownColor;
+    readonly Tomato: KnownColor;
+    readonly Turquoise: KnownColor;
+    readonly Violet: KnownColor;
+    readonly Wheat: KnownColor;
+    readonly White: KnownColor;
+    readonly WhiteSmoke: KnownColor;
+    readonly Yellow: KnownColor;
+    readonly YellowGreen: KnownColor;
+    readonly ButtonFace: KnownColor;
+    readonly ButtonHighlight: KnownColor;
+    readonly ButtonShadow: KnownColor;
+    readonly GradientActiveCaption: KnownColor;
+    readonly GradientInactiveCaption: KnownColor;
+    readonly MenuBar: KnownColor;
+    readonly MenuHighlight: KnownColor;
+    readonly RebeccaPurple: KnownColor;
+};
 
 
 export interface Color$instance {
     readonly __tsonic_type_System_Drawing_Color: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -386,6 +389,7 @@ export type Color = Color$instance & __Color$views;
 
 export interface Point$instance {
     readonly __tsonic_type_System_Drawing_Point: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -426,6 +430,7 @@ export type Point = Point$instance & __Point$views;
 
 export interface PointF$instance {
     readonly __tsonic_type_System_Drawing_PointF: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -463,6 +468,7 @@ export type PointF = PointF$instance & __PointF$views;
 
 export interface Rectangle$instance {
     readonly __tsonic_type_System_Drawing_Rectangle: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -477,14 +483,14 @@ export interface Rectangle$instance {
     Width: int;
     X: int;
     Y: int;
-    Contains(x: int, y: int): boolean;
     Contains(pt: Point): boolean;
     Contains(rect: Rectangle): boolean;
+    Contains(x: int, y: int): boolean;
     Equals(obj: unknown | null): boolean;
     Equals(other: Rectangle): boolean;
     GetHashCode(): int;
-    Inflate(width: int, height: int): void;
     Inflate(size: Size): void;
+    Inflate(width: int, height: int): void;
     Intersect(rect: Rectangle): void;
     IntersectsWith(rect: Rectangle): boolean;
     Offset(pos: Point): void;
@@ -519,6 +525,7 @@ export type Rectangle = Rectangle$instance & __Rectangle$views;
 
 export interface RectangleF$instance {
     readonly __tsonic_type_System_Drawing_RectangleF: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -533,14 +540,14 @@ export interface RectangleF$instance {
     Width: float;
     X: float;
     Y: float;
-    Contains(x: float, y: float): boolean;
     Contains(pt: PointF): boolean;
     Contains(rect: RectangleF): boolean;
+    Contains(x: float, y: float): boolean;
     Equals(obj: unknown | null): boolean;
     Equals(other: RectangleF): boolean;
     GetHashCode(): int;
-    Inflate(x: float, y: float): void;
     Inflate(size: SizeF): void;
+    Inflate(x: float, y: float): void;
     Intersect(rect: RectangleF): void;
     IntersectsWith(rect: RectangleF): boolean;
     Offset(pos: PointF): void;
@@ -574,6 +581,7 @@ export type RectangleF = RectangleF$instance & __RectangleF$views;
 
 export interface Size$instance {
     readonly __tsonic_type_System_Drawing_Size: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -611,6 +619,7 @@ export type Size = Size$instance & __Size$views;
 
 export interface SizeF$instance {
     readonly __tsonic_type_System_Drawing_SizeF: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_IEquatable_1: never;
 
@@ -648,21 +657,16 @@ export interface __SizeF$views {
 export type SizeF = SizeF$instance & __SizeF$views;
 
 
-export interface ColorConverter$instance extends TypeConverter {
+export interface ColorConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
+    readonly __tsonic_type_System_ComponentModel_TypeConverter: never;
     readonly __tsonic_type_System_Drawing_ColorConverter: never;
 
-    CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
-    CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
-    ConvertFrom(value: unknown): unknown | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
-    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
-    GetStandardValues(context: ITypeDescriptorContext | null): TypeConverter_StandardValuesCollection;
-    GetStandardValues(): ICollection | null;
-    GetStandardValuesSupported(context: ITypeDescriptorContext | null): boolean;
-    GetStandardValuesSupported(): boolean;
+    CanConvertFrom: System_ComponentModel_Internal.TypeConverter$instance["CanConvertFrom"] & ((context: ITypeDescriptorContext | null, sourceType: Type) => boolean) & ((sourceType: Type) => boolean);
+    CanConvertTo: System_ComponentModel_Internal.TypeConverter$instance["CanConvertTo"] & ((context: ITypeDescriptorContext | null, destinationType: Type | null) => boolean) & ((destinationType: Type | null) => boolean);
+    ConvertFrom: System_ComponentModel_Internal.TypeConverter$instance["ConvertFrom"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown) => unknown | null) & ((value: unknown) => unknown | null);
+    ConvertTo: System_ComponentModel_Internal.TypeConverter$instance["ConvertTo"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type) => unknown | null) & ((value: unknown | null, destinationType: Type) => unknown | null);
+    GetStandardValues: System_ComponentModel_Internal.TypeConverter$instance["GetStandardValues"] & (() => ICollection | null) & ((context: ITypeDescriptorContext | null) => TypeConverter_StandardValuesCollection);
+    GetStandardValuesSupported: System_ComponentModel_Internal.TypeConverter$instance["GetStandardValuesSupported"] & (() => boolean) & ((context: ITypeDescriptorContext | null) => boolean);
 }
 
 
@@ -673,26 +677,18 @@ export const ColorConverter: {
 
 export type ColorConverter = ColorConverter$instance;
 
-export interface PointConverter$instance extends TypeConverter {
+export interface PointConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
+    readonly __tsonic_type_System_ComponentModel_TypeConverter: never;
     readonly __tsonic_type_System_Drawing_PointConverter: never;
 
-    CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
-    CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
-    ConvertFrom(value: unknown): unknown | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
-    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
-    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): unknown;
-    CreateInstance(propertyValues: IDictionary): unknown | null;
-    GetCreateInstanceSupported(context: ITypeDescriptorContext | null): boolean;
-    GetCreateInstanceSupported(): boolean;
-    GetProperties(context: ITypeDescriptorContext | null, value: unknown | null, attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
-    GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
-    GetPropertiesSupported(): boolean;
+    CanConvertFrom: System_ComponentModel_Internal.TypeConverter$instance["CanConvertFrom"] & ((context: ITypeDescriptorContext | null, sourceType: Type) => boolean) & ((sourceType: Type) => boolean);
+    CanConvertTo: System_ComponentModel_Internal.TypeConverter$instance["CanConvertTo"] & ((context: ITypeDescriptorContext | null, destinationType: Type | null) => boolean) & ((destinationType: Type | null) => boolean);
+    ConvertFrom: System_ComponentModel_Internal.TypeConverter$instance["ConvertFrom"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown) => unknown | null) & ((value: unknown) => unknown | null);
+    ConvertTo: System_ComponentModel_Internal.TypeConverter$instance["ConvertTo"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type) => unknown | null) & ((value: unknown | null, destinationType: Type) => unknown | null);
+    CreateInstance: System_ComponentModel_Internal.TypeConverter$instance["CreateInstance"] & ((context: ITypeDescriptorContext | null, propertyValues: IDictionary) => unknown) & ((propertyValues: IDictionary) => unknown | null);
+    GetCreateInstanceSupported: System_ComponentModel_Internal.TypeConverter$instance["GetCreateInstanceSupported"] & (() => boolean) & ((context: ITypeDescriptorContext | null) => boolean);
+    GetProperties: System_ComponentModel_Internal.TypeConverter$instance["GetProperties"] & ((context: ITypeDescriptorContext | null, value: unknown | null, attributes: Attribute[] | null) => PropertyDescriptorCollection) & ((context: ITypeDescriptorContext | null, value: unknown) => PropertyDescriptorCollection | null) & ((value: unknown) => PropertyDescriptorCollection | null);
+    GetPropertiesSupported: System_ComponentModel_Internal.TypeConverter$instance["GetPropertiesSupported"] & (() => boolean) & ((context: ITypeDescriptorContext | null) => boolean);
 }
 
 
@@ -703,26 +699,18 @@ export const PointConverter: {
 
 export type PointConverter = PointConverter$instance;
 
-export interface RectangleConverter$instance extends TypeConverter {
+export interface RectangleConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
+    readonly __tsonic_type_System_ComponentModel_TypeConverter: never;
     readonly __tsonic_type_System_Drawing_RectangleConverter: never;
 
-    CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
-    CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
-    ConvertFrom(value: unknown): unknown | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
-    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
-    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): unknown;
-    CreateInstance(propertyValues: IDictionary): unknown | null;
-    GetCreateInstanceSupported(context: ITypeDescriptorContext | null): boolean;
-    GetCreateInstanceSupported(): boolean;
-    GetProperties(context: ITypeDescriptorContext | null, value: unknown | null, attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
-    GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
-    GetPropertiesSupported(): boolean;
+    CanConvertFrom: System_ComponentModel_Internal.TypeConverter$instance["CanConvertFrom"] & ((context: ITypeDescriptorContext | null, sourceType: Type) => boolean) & ((sourceType: Type) => boolean);
+    CanConvertTo: System_ComponentModel_Internal.TypeConverter$instance["CanConvertTo"] & ((context: ITypeDescriptorContext | null, destinationType: Type | null) => boolean) & ((destinationType: Type | null) => boolean);
+    ConvertFrom: System_ComponentModel_Internal.TypeConverter$instance["ConvertFrom"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown) => unknown | null) & ((value: unknown) => unknown | null);
+    ConvertTo: System_ComponentModel_Internal.TypeConverter$instance["ConvertTo"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type) => unknown | null) & ((value: unknown | null, destinationType: Type) => unknown | null);
+    CreateInstance: System_ComponentModel_Internal.TypeConverter$instance["CreateInstance"] & ((context: ITypeDescriptorContext | null, propertyValues: IDictionary) => unknown) & ((propertyValues: IDictionary) => unknown | null);
+    GetCreateInstanceSupported: System_ComponentModel_Internal.TypeConverter$instance["GetCreateInstanceSupported"] & (() => boolean) & ((context: ITypeDescriptorContext | null) => boolean);
+    GetProperties: System_ComponentModel_Internal.TypeConverter$instance["GetProperties"] & ((context: ITypeDescriptorContext | null, value: unknown | null, attributes: Attribute[] | null) => PropertyDescriptorCollection) & ((context: ITypeDescriptorContext | null, value: unknown) => PropertyDescriptorCollection | null) & ((value: unknown) => PropertyDescriptorCollection | null);
+    GetPropertiesSupported: System_ComponentModel_Internal.TypeConverter$instance["GetPropertiesSupported"] & (() => boolean) & ((context: ITypeDescriptorContext | null) => boolean);
 }
 
 
@@ -733,26 +721,18 @@ export const RectangleConverter: {
 
 export type RectangleConverter = RectangleConverter$instance;
 
-export interface SizeConverter$instance extends TypeConverter {
+export interface SizeConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
+    readonly __tsonic_type_System_ComponentModel_TypeConverter: never;
     readonly __tsonic_type_System_Drawing_SizeConverter: never;
 
-    CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
-    CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
-    ConvertFrom(value: unknown): unknown | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
-    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
-    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): unknown;
-    CreateInstance(propertyValues: IDictionary): unknown | null;
-    GetCreateInstanceSupported(context: ITypeDescriptorContext | null): boolean;
-    GetCreateInstanceSupported(): boolean;
-    GetProperties(context: ITypeDescriptorContext | null, value: unknown, attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
-    GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
-    GetPropertiesSupported(): boolean;
+    CanConvertFrom: System_ComponentModel_Internal.TypeConverter$instance["CanConvertFrom"] & ((context: ITypeDescriptorContext | null, sourceType: Type) => boolean) & ((sourceType: Type) => boolean);
+    CanConvertTo: System_ComponentModel_Internal.TypeConverter$instance["CanConvertTo"] & ((context: ITypeDescriptorContext | null, destinationType: Type | null) => boolean) & ((destinationType: Type | null) => boolean);
+    ConvertFrom: System_ComponentModel_Internal.TypeConverter$instance["ConvertFrom"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown) => unknown | null) & ((value: unknown) => unknown | null);
+    ConvertTo: System_ComponentModel_Internal.TypeConverter$instance["ConvertTo"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type) => unknown | null) & ((value: unknown | null, destinationType: Type) => unknown | null);
+    CreateInstance: System_ComponentModel_Internal.TypeConverter$instance["CreateInstance"] & ((context: ITypeDescriptorContext | null, propertyValues: IDictionary) => unknown) & ((propertyValues: IDictionary) => unknown | null);
+    GetCreateInstanceSupported: System_ComponentModel_Internal.TypeConverter$instance["GetCreateInstanceSupported"] & (() => boolean) & ((context: ITypeDescriptorContext | null) => boolean);
+    GetProperties: System_ComponentModel_Internal.TypeConverter$instance["GetProperties"] & ((context: ITypeDescriptorContext | null, value: unknown) => PropertyDescriptorCollection | null) & ((context: ITypeDescriptorContext | null, value: unknown, attributes: Attribute[] | null) => PropertyDescriptorCollection) & ((value: unknown) => PropertyDescriptorCollection | null);
+    GetPropertiesSupported: System_ComponentModel_Internal.TypeConverter$instance["GetPropertiesSupported"] & (() => boolean) & ((context: ITypeDescriptorContext | null) => boolean);
 }
 
 
@@ -763,26 +743,18 @@ export const SizeConverter: {
 
 export type SizeConverter = SizeConverter$instance;
 
-export interface SizeFConverter$instance extends TypeConverter {
+export interface SizeFConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
+    readonly __tsonic_type_System_ComponentModel_TypeConverter: never;
     readonly __tsonic_type_System_Drawing_SizeFConverter: never;
 
-    CanConvertFrom(context: ITypeDescriptorContext | null, sourceType: Type): boolean;
-    CanConvertFrom(sourceType: Type): boolean;
-    CanConvertTo(context: ITypeDescriptorContext | null, destinationType: Type | null): boolean;
-    CanConvertTo(destinationType: Type | null): boolean;
-    ConvertFrom(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown): unknown | null;
-    ConvertFrom(value: unknown): unknown | null;
-    ConvertTo(context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type): unknown | null;
-    ConvertTo(value: unknown | null, destinationType: Type): unknown | null;
-    CreateInstance(context: ITypeDescriptorContext | null, propertyValues: IDictionary): unknown;
-    CreateInstance(propertyValues: IDictionary): unknown | null;
-    GetCreateInstanceSupported(context: ITypeDescriptorContext | null): boolean;
-    GetCreateInstanceSupported(): boolean;
-    GetProperties(context: ITypeDescriptorContext | null, value: unknown, attributes: Attribute[] | null): PropertyDescriptorCollection;
-    GetProperties(value: unknown): PropertyDescriptorCollection | null;
-    GetProperties(context: ITypeDescriptorContext | null, value: unknown): PropertyDescriptorCollection | null;
-    GetPropertiesSupported(context: ITypeDescriptorContext | null): boolean;
-    GetPropertiesSupported(): boolean;
+    CanConvertFrom: System_ComponentModel_Internal.TypeConverter$instance["CanConvertFrom"] & ((context: ITypeDescriptorContext | null, sourceType: Type) => boolean) & ((sourceType: Type) => boolean);
+    CanConvertTo: System_ComponentModel_Internal.TypeConverter$instance["CanConvertTo"] & ((context: ITypeDescriptorContext | null, destinationType: Type | null) => boolean) & ((destinationType: Type | null) => boolean);
+    ConvertFrom: System_ComponentModel_Internal.TypeConverter$instance["ConvertFrom"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown) => unknown | null) & ((value: unknown) => unknown | null);
+    ConvertTo: System_ComponentModel_Internal.TypeConverter$instance["ConvertTo"] & ((context: ITypeDescriptorContext | null, culture: CultureInfo | null, value: unknown | null, destinationType: Type) => unknown | null) & ((value: unknown | null, destinationType: Type) => unknown | null);
+    CreateInstance: System_ComponentModel_Internal.TypeConverter$instance["CreateInstance"] & ((context: ITypeDescriptorContext | null, propertyValues: IDictionary) => unknown) & ((propertyValues: IDictionary) => unknown | null);
+    GetCreateInstanceSupported: System_ComponentModel_Internal.TypeConverter$instance["GetCreateInstanceSupported"] & (() => boolean) & ((context: ITypeDescriptorContext | null) => boolean);
+    GetProperties: System_ComponentModel_Internal.TypeConverter$instance["GetProperties"] & ((context: ITypeDescriptorContext | null, value: unknown) => PropertyDescriptorCollection | null) & ((context: ITypeDescriptorContext | null, value: unknown, attributes: Attribute[] | null) => PropertyDescriptorCollection) & ((value: unknown) => PropertyDescriptorCollection | null);
+    GetPropertiesSupported: System_ComponentModel_Internal.TypeConverter$instance["GetPropertiesSupported"] & (() => boolean) & ((context: ITypeDescriptorContext | null) => boolean);
 }
 
 

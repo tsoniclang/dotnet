@@ -2220,17 +2220,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Security.Principal.GenericIdentity",
             "ownerIdentity": "System.Security.Claims"
-          },
-          {
-            "stableId": "System.Security.Claims:System.Security.Principal.GenericIdentity::.ctor(System.Security.Principal.GenericIdentity):void",
-            "metadataToken": 100663309,
-            "canonicalSignature": "(System.Security.Principal.GenericIdentity):void",
-            "normalizedSignature": "constructor|(System.Security.Principal.GenericIdentity):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Security.Principal.GenericIdentity",
-            "ownerIdentity": "System.Security.Claims"
           }
         ]
       },
@@ -4348,17 +4337,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Security.Principal.WindowsIdentity",
-            "ownerIdentity": "System.Security.Principal.Windows"
-          },
-          {
-            "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::.ctor(System.Security.Principal.WindowsIdentity):void",
-            "metadataToken": 100663399,
-            "canonicalSignature": "(System.Security.Principal.WindowsIdentity):void",
-            "normalizedSignature": "constructor|(System.Security.Principal.WindowsIdentity):void|static=false",
-            "isStatic": false,
-            "parameterCount": 1,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Security.Principal.WindowsIdentity",
             "ownerIdentity": "System.Security.Principal.Windows"
           },

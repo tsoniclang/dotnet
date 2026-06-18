@@ -88,19 +88,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.HtmlEncoder::.ctor():void",
-            "metadataToken": 100663545,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Encodings.Web.HtmlEncoder",
-            "ownerIdentity": "System.Text.Encodings.Web"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder",
@@ -201,19 +189,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::.ctor():void",
-            "metadataToken": 100663566,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Encodings.Web.JavaScriptEncoder",
-            "ownerIdentity": "System.Text.Encodings.Web"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder",
@@ -481,19 +457,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoder::.ctor():void",
-            "metadataToken": 100663587,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Encodings.Web.TextEncoder",
-            "ownerIdentity": "System.Text.Encodings.Web"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.TextEncoderSettings",
@@ -851,19 +815,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.UrlEncoder::.ctor():void",
-            "metadataToken": 100663616,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Text.Encodings.Web.UrlEncoder",
-            "ownerIdentity": "System.Text.Encodings.Web"
-          }
-        ]
+        "constructors": []
       }
     ]
   }

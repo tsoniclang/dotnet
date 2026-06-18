@@ -18,7 +18,7 @@ import type { PEReader } from './System.Reflection.PortableExecutable/internal/i
 import type { Assembly, AssemblyFlags, AssemblyHashAlgorithm, AssemblyName, AssemblyNameFlags, DeclarativeSecurityAction, EventAttributes, FieldAttributes, GenericParameterAttributes, ManifestResourceAttributes, MethodAttributes, MethodBase, MethodImplAttributes, MethodImportAttributes, ParameterAttributes, PropertyAttributes, TypeAttributes } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Encoding } from './System.Text/internal/index.js';
-import type { ArraySegment_1, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, Func_2, Guid, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Version, Void } from './System/internal/index.js';
+import type { ArraySegment_1, Attribute, Boolean as ClrBoolean, Byte, Char, ConsoleKeyInfo, DateTime, Decimal, Double, Enum, Exception, Func_2, Guid, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Version, Void } from './System/internal/index.js';
 
 // Public API exports (curated - no internal $instance/$views leakage)
 export { AssemblyExtensions$instance as AssemblyExtensions } from './System.Reflection.Metadata/internal/index.js';

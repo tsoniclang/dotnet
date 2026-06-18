@@ -438,17 +438,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
             "ownerIdentity": "Microsoft.CSharp"
-          },
-          {
-            "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.RuntimeBinderException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663668,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException",
-            "ownerIdentity": "Microsoft.CSharp"
           }
         ]
       },
@@ -530,17 +519,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException",
-            "ownerIdentity": "Microsoft.CSharp"
-          },
-          {
-            "stableId": "Microsoft.CSharp:Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100663681,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderInternalCompilerException",
             "ownerIdentity": "Microsoft.CSharp"
           }

@@ -10,19 +10,23 @@ import type { fnptr, ptr, sbyte, byte, short, ushort, int, uint, long, ulong, in
 import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-export enum Cer {
-    None = 0,
-    MayFail = 1,
-    Success = 2
-}
+export type Cer = number & { readonly __tsonic_type_System_Runtime_ConstrainedExecution_Cer: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const Cer: {
+    readonly None: Cer;
+    readonly MayFail: Cer;
+    readonly Success: Cer;
+};
 
 
-export enum Consistency {
-    MayCorruptProcess = 0,
-    MayCorruptAppDomain = 1,
-    MayCorruptInstance = 2,
-    WillNotCorruptState = 3
-}
+export type Consistency = number & { readonly __tsonic_type_System_Runtime_ConstrainedExecution_Consistency: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const Consistency: {
+    readonly MayCorruptProcess: Consistency;
+    readonly MayCorruptAppDomain: Consistency;
+    readonly MayCorruptInstance: Consistency;
+    readonly WillNotCorruptState: Consistency;
+};
 
 
 export interface CriticalFinalizerObject$instance {
@@ -32,13 +36,14 @@ export interface CriticalFinalizerObject$instance {
 }
 
 
-export const CriticalFinalizerObject: (abstract new() => CriticalFinalizerObject) & {
+export const CriticalFinalizerObject: {
 };
 
 
 export type CriticalFinalizerObject = CriticalFinalizerObject$instance;
 
-export interface PrePrepareMethodAttribute$instance extends Attribute {
+export interface PrePrepareMethodAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_ConstrainedExecution_PrePrepareMethodAttribute: never;
 
 }
@@ -51,7 +56,8 @@ export const PrePrepareMethodAttribute: {
 
 export type PrePrepareMethodAttribute = PrePrepareMethodAttribute$instance;
 
-export interface ReliabilityContractAttribute$instance extends Attribute {
+export interface ReliabilityContractAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_ConstrainedExecution_ReliabilityContractAttribute: never;
 
     readonly Cer: Cer;

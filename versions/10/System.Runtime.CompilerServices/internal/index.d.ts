@@ -23,47 +23,57 @@ import type { CancellationToken } from "../../System.Threading/internal/index.js
 import * as System_Internal from "../../System/internal/index.js";
 import type { Action, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, Decimal, Delegate, Enum, Exception, FormattableString, Func_2, Func_3, IAsyncResult, ICloneable, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, InvalidOperationException, ISpanFormattable, ModuleHandle, MulticastDelegate, Object as ClrObject, Range, ReadOnlySpan_1, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, Span_1, String as ClrString, Type, TypeCode, UInt32, UIntPtr, ValueType, Void } from "../../System/internal/index.js";
 
-export enum CompilationRelaxations {
-    NoStringInterning = 8
-}
+export type CompilationRelaxations = number & { readonly __tsonic_type_System_Runtime_CompilerServices_CompilationRelaxations: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const CompilationRelaxations: {
+    readonly NoStringInterning: CompilationRelaxations;
+};
 
 
-export enum LoadHint {
-    Default = 0,
-    Always = 1,
-    Sometimes = 2
-}
+export type LoadHint = number & { readonly __tsonic_type_System_Runtime_CompilerServices_LoadHint: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const LoadHint: {
+    readonly Default: LoadHint;
+    readonly Always: LoadHint;
+    readonly Sometimes: LoadHint;
+};
 
 
-export enum MethodCodeType {
-    IL = 0,
-    Native = 1,
-    OPTIL = 2,
-    Runtime = 3
-}
+export type MethodCodeType = number & { readonly __tsonic_type_System_Runtime_CompilerServices_MethodCodeType: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MethodCodeType: {
+    readonly IL: MethodCodeType;
+    readonly Native: MethodCodeType;
+    readonly OPTIL: MethodCodeType;
+    readonly Runtime: MethodCodeType;
+};
 
 
-export enum MethodImplOptions {
-    Unmanaged = 4,
-    NoInlining = 8,
-    ForwardRef = 16,
-    Synchronized = 32,
-    NoOptimization = 64,
-    PreserveSig = 128,
-    AggressiveInlining = 256,
-    AggressiveOptimization = 512,
-    Async = 8192,
-    InternalCall = 4096
-}
+export type MethodImplOptions = number & { readonly __tsonic_type_System_Runtime_CompilerServices_MethodImplOptions: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const MethodImplOptions: {
+    readonly Unmanaged: MethodImplOptions;
+    readonly NoInlining: MethodImplOptions;
+    readonly ForwardRef: MethodImplOptions;
+    readonly Synchronized: MethodImplOptions;
+    readonly NoOptimization: MethodImplOptions;
+    readonly PreserveSig: MethodImplOptions;
+    readonly AggressiveInlining: MethodImplOptions;
+    readonly AggressiveOptimization: MethodImplOptions;
+    readonly Async: MethodImplOptions;
+    readonly InternalCall: MethodImplOptions;
+};
 
 
-export enum UnsafeAccessorKind {
-    Constructor = 0,
-    Method = 1,
-    StaticMethod = 2,
-    Field = 3,
-    StaticField = 4
-}
+export type UnsafeAccessorKind = number & { readonly __tsonic_type_System_Runtime_CompilerServices_UnsafeAccessorKind: never } & { readonly __tsonic_type_System_Enum: never } & { readonly __tsonic_type_System_ValueType: never };
+
+export const UnsafeAccessorKind: {
+    readonly Constructor: UnsafeAccessorKind;
+    readonly Method: UnsafeAccessorKind;
+    readonly StaticMethod: UnsafeAccessorKind;
+    readonly Field: UnsafeAccessorKind;
+    readonly StaticField: UnsafeAccessorKind;
+};
 
 
 export interface IAsyncStateMachine$instance {
@@ -76,8 +86,9 @@ export interface IAsyncStateMachine$instance {
 
 export type IAsyncStateMachine = IAsyncStateMachine$instance;
 
-export interface ICriticalNotifyCompletion$instance extends INotifyCompletion {
+export interface ICriticalNotifyCompletion$instance {
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
+    readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
 
     UnsafeOnCompleted(continuation: Action): void;
     OnCompleted(continuation: Action): void;
@@ -127,11 +138,12 @@ export type ITuple = ITuple$instance & { readonly [index: number]: unknown | nul
 
 export interface AsyncIteratorMethodBuilder$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncIteratorMethodBuilder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
-    AwaitOnCompleted<TAwaiter extends unknown & INotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
-    AwaitUnsafeOnCompleted<TAwaiter extends unknown & ICriticalNotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitUnsafeOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
     Complete(): void;
-    MoveNext<TStateMachine extends unknown & IAsyncStateMachine>(stateMachine: TStateMachine): void;
+    MoveNext<TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(stateMachine: TStateMachine): void;
 }
 
 
@@ -145,14 +157,15 @@ export type AsyncIteratorMethodBuilder = AsyncIteratorMethodBuilder$instance;
 
 export interface AsyncTaskMethodBuilder$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncTaskMethodBuilder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Task: Task;
-    AwaitOnCompleted<TAwaiter extends unknown & INotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
-    AwaitUnsafeOnCompleted<TAwaiter extends unknown & ICriticalNotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitUnsafeOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
     SetException(exception: Exception): void;
     SetResult(): void;
     SetStateMachine(stateMachine: IAsyncStateMachine): void;
-    Start<TStateMachine extends unknown & IAsyncStateMachine>(stateMachine: TStateMachine): void;
+    Start<TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(stateMachine: TStateMachine): void;
 }
 
 
@@ -166,14 +179,15 @@ export type AsyncTaskMethodBuilder = AsyncTaskMethodBuilder$instance;
 
 export interface AsyncTaskMethodBuilder_1$instance<TResult extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Task: Task_1<TResult>;
-    AwaitOnCompleted<TAwaiter extends unknown & INotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
-    AwaitUnsafeOnCompleted<TAwaiter extends unknown & ICriticalNotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitUnsafeOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
     SetException(exception: Exception): void;
     SetResult(result: TResult): void;
     SetStateMachine(stateMachine: IAsyncStateMachine): void;
-    Start<TStateMachine extends unknown & IAsyncStateMachine>(stateMachine: TStateMachine): void;
+    Start<TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(stateMachine: TStateMachine): void;
 }
 
 
@@ -187,14 +201,15 @@ export type AsyncTaskMethodBuilder_1<TResult extends unknown> = AsyncTaskMethodB
 
 export interface AsyncValueTaskMethodBuilder$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncValueTaskMethodBuilder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Task: ValueTask;
-    AwaitOnCompleted<TAwaiter extends unknown & INotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
-    AwaitUnsafeOnCompleted<TAwaiter extends unknown & ICriticalNotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitUnsafeOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
     SetException(exception: Exception): void;
     SetResult(): void;
     SetStateMachine(stateMachine: IAsyncStateMachine): void;
-    Start<TStateMachine extends unknown & IAsyncStateMachine>(stateMachine: TStateMachine): void;
+    Start<TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(stateMachine: TStateMachine): void;
 }
 
 
@@ -208,14 +223,15 @@ export type AsyncValueTaskMethodBuilder = AsyncValueTaskMethodBuilder$instance;
 
 export interface AsyncValueTaskMethodBuilder_1$instance<TResult extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncValueTaskMethodBuilder_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Task: ValueTask_1<TResult>;
-    AwaitOnCompleted<TAwaiter extends unknown & INotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
-    AwaitUnsafeOnCompleted<TAwaiter extends unknown & ICriticalNotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitUnsafeOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
     SetException(exception: Exception): void;
     SetResult(result: TResult): void;
     SetStateMachine(stateMachine: IAsyncStateMachine): void;
-    Start<TStateMachine extends unknown & IAsyncStateMachine>(stateMachine: TStateMachine): void;
+    Start<TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(stateMachine: TStateMachine): void;
 }
 
 
@@ -229,13 +245,14 @@ export type AsyncValueTaskMethodBuilder_1<TResult extends unknown> = AsyncValueT
 
 export interface AsyncVoidMethodBuilder$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncVoidMethodBuilder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
-    AwaitOnCompleted<TAwaiter extends unknown & INotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
-    AwaitUnsafeOnCompleted<TAwaiter extends unknown & ICriticalNotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitUnsafeOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
     SetException(exception: Exception): void;
     SetResult(): void;
     SetStateMachine(stateMachine: IAsyncStateMachine): void;
-    Start<TStateMachine extends unknown & IAsyncStateMachine>(stateMachine: TStateMachine): void;
+    Start<TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(stateMachine: TStateMachine): void;
 }
 
 
@@ -249,6 +266,7 @@ export type AsyncVoidMethodBuilder = AsyncVoidMethodBuilder$instance;
 
 export interface ConfiguredAsyncDisposable$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredAsyncDisposable: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     DisposeAsync(): ConfiguredValueTaskAwaitable;
 }
@@ -263,6 +281,7 @@ export type ConfiguredAsyncDisposable = ConfiguredAsyncDisposable$instance;
 
 export interface ConfiguredCancelableAsyncEnumerable_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredCancelableAsyncEnumerable_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     ConfigureAwait(continueOnCapturedContext: boolean): ConfiguredCancelableAsyncEnumerable_1<T>;
     GetAsyncEnumerator(): ConfiguredCancelableAsyncEnumerable_1_Enumerator<T>;
@@ -279,6 +298,7 @@ export type ConfiguredCancelableAsyncEnumerable_1<T extends unknown> = Configure
 
 export interface ConfiguredCancelableAsyncEnumerable_1_Enumerator$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredCancelableAsyncEnumerable_1_Enumerator: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Current: T;
     DisposeAsync(): ConfiguredValueTaskAwaitable;
@@ -295,6 +315,7 @@ export type ConfiguredCancelableAsyncEnumerable_1_Enumerator<T extends unknown> 
 
 export interface ConfiguredTaskAwaitable$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredTaskAwaitable: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     GetAwaiter(): ConfiguredTaskAwaitable_ConfiguredTaskAwaiter;
 }
@@ -307,8 +328,9 @@ export const ConfiguredTaskAwaitable: {
 
 export type ConfiguredTaskAwaitable = ConfiguredTaskAwaitable$instance;
 
-export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends ICriticalNotifyCompletion {
+export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends ICriticalNotifyCompletion$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_IConfiguredTaskAwaiter: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
@@ -330,6 +352,7 @@ export type ConfiguredTaskAwaitable_ConfiguredTaskAwaiter = ConfiguredTaskAwaita
 
 export interface ConfiguredTaskAwaitable_1$instance<TResult extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     GetAwaiter(): ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult>;
 }
@@ -342,8 +365,9 @@ export const ConfiguredTaskAwaitable_1: {
 
 export type ConfiguredTaskAwaitable_1<TResult extends unknown> = ConfiguredTaskAwaitable_1$instance<TResult>;
 
-export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult extends unknown> extends ICriticalNotifyCompletion {
+export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult extends unknown> extends ICriticalNotifyCompletion$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_IConfiguredTaskAwaiter: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
@@ -365,6 +389,7 @@ export type ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult extends unkn
 
 export interface ConfiguredValueTaskAwaitable$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredValueTaskAwaitable: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     GetAwaiter(): ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter;
 }
@@ -377,8 +402,9 @@ export const ConfiguredValueTaskAwaitable: {
 
 export type ConfiguredValueTaskAwaitable = ConfiguredValueTaskAwaitable$instance;
 
-export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance extends ICriticalNotifyCompletion {
+export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance extends ICriticalNotifyCompletion$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
@@ -400,6 +426,7 @@ export type ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter = Configured
 
 export interface ConfiguredValueTaskAwaitable_1$instance<TResult extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredValueTaskAwaitable_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     GetAwaiter(): ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<TResult>;
 }
@@ -412,8 +439,9 @@ export const ConfiguredValueTaskAwaitable_1: {
 
 export type ConfiguredValueTaskAwaitable_1<TResult extends unknown> = ConfiguredValueTaskAwaitable_1$instance<TResult>;
 
-export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult extends unknown> extends ICriticalNotifyCompletion {
+export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult extends unknown> extends ICriticalNotifyCompletion$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
@@ -435,17 +463,18 @@ export type ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<TResult ex
 
 export interface DefaultInterpolatedStringHandler$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_DefaultInterpolatedStringHandler: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Text: ReadOnlySpan_1<System_Internal.Char>;
-    AppendFormatted<T extends unknown>(value: T): void;
-    AppendFormatted<T extends unknown>(value: T, format: string | null): void;
-    AppendFormatted<T extends unknown>(value: T, alignment: int): void;
-    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
     AppendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | null): void;
     AppendFormatted(value: string | null): void;
     AppendFormatted(value: string | null, alignment?: int, format?: string | null): void;
     AppendFormatted(value: unknown | null, alignment?: int, format?: string | null): void;
+    AppendFormatted<T extends unknown>(value: T): void;
+    AppendFormatted<T extends unknown>(value: T, alignment: int): void;
+    AppendFormatted<T extends unknown>(value: T, alignment: int, format: string | null): void;
+    AppendFormatted<T extends unknown>(value: T, format: string | null): void;
     AppendLiteral(value: string): void;
     Clear(): void;
     ToString(): string;
@@ -464,6 +493,7 @@ export type DefaultInterpolatedStringHandler = DefaultInterpolatedStringHandler$
 
 export interface InlineArray10_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray10_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -477,6 +507,7 @@ export type InlineArray10_1<T extends unknown> = InlineArray10_1$instance<T>;
 
 export interface InlineArray11_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray11_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -490,6 +521,7 @@ export type InlineArray11_1<T extends unknown> = InlineArray11_1$instance<T>;
 
 export interface InlineArray12_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray12_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -503,6 +535,7 @@ export type InlineArray12_1<T extends unknown> = InlineArray12_1$instance<T>;
 
 export interface InlineArray13_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray13_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -516,6 +549,7 @@ export type InlineArray13_1<T extends unknown> = InlineArray13_1$instance<T>;
 
 export interface InlineArray14_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray14_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -529,6 +563,7 @@ export type InlineArray14_1<T extends unknown> = InlineArray14_1$instance<T>;
 
 export interface InlineArray15_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray15_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -542,6 +577,7 @@ export type InlineArray15_1<T extends unknown> = InlineArray15_1$instance<T>;
 
 export interface InlineArray16_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray16_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -555,6 +591,7 @@ export type InlineArray16_1<T extends unknown> = InlineArray16_1$instance<T>;
 
 export interface InlineArray2_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray2_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -568,6 +605,7 @@ export type InlineArray2_1<T extends unknown> = InlineArray2_1$instance<T>;
 
 export interface InlineArray3_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray3_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -581,6 +619,7 @@ export type InlineArray3_1<T extends unknown> = InlineArray3_1$instance<T>;
 
 export interface InlineArray4_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray4_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -594,6 +633,7 @@ export type InlineArray4_1<T extends unknown> = InlineArray4_1$instance<T>;
 
 export interface InlineArray5_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray5_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -607,6 +647,7 @@ export type InlineArray5_1<T extends unknown> = InlineArray5_1$instance<T>;
 
 export interface InlineArray6_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray6_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -620,6 +661,7 @@ export type InlineArray6_1<T extends unknown> = InlineArray6_1$instance<T>;
 
 export interface InlineArray7_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray7_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -633,6 +675,7 @@ export type InlineArray7_1<T extends unknown> = InlineArray7_1$instance<T>;
 
 export interface InlineArray8_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray8_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -646,6 +689,7 @@ export type InlineArray8_1<T extends unknown> = InlineArray8_1$instance<T>;
 
 export interface InlineArray9_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArray9_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
 }
 
@@ -659,14 +703,15 @@ export type InlineArray9_1<T extends unknown> = InlineArray9_1$instance<T>;
 
 export interface PoolingAsyncValueTaskMethodBuilder$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_PoolingAsyncValueTaskMethodBuilder: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Task: ValueTask;
-    AwaitOnCompleted<TAwaiter extends unknown & INotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
-    AwaitUnsafeOnCompleted<TAwaiter extends unknown & ICriticalNotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitUnsafeOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
     SetException(exception: Exception): void;
     SetResult(): void;
     SetStateMachine(stateMachine: IAsyncStateMachine): void;
-    Start<TStateMachine extends unknown & IAsyncStateMachine>(stateMachine: TStateMachine): void;
+    Start<TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(stateMachine: TStateMachine): void;
 }
 
 
@@ -680,14 +725,15 @@ export type PoolingAsyncValueTaskMethodBuilder = PoolingAsyncValueTaskMethodBuil
 
 export interface PoolingAsyncValueTaskMethodBuilder_1$instance<TResult extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_PoolingAsyncValueTaskMethodBuilder_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly Task: ValueTask_1<TResult>;
-    AwaitOnCompleted<TAwaiter extends unknown & INotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
-    AwaitUnsafeOnCompleted<TAwaiter extends unknown & ICriticalNotifyCompletion, TStateMachine extends unknown & IAsyncStateMachine>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
+    AwaitUnsafeOnCompleted<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never }, TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(awaiter: TAwaiter, stateMachine: TStateMachine): void;
     SetException(exception: Exception): void;
     SetResult(result: TResult): void;
     SetStateMachine(stateMachine: IAsyncStateMachine): void;
-    Start<TStateMachine extends unknown & IAsyncStateMachine>(stateMachine: TStateMachine): void;
+    Start<TStateMachine extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_IAsyncStateMachine: never }>(stateMachine: TStateMachine): void;
 }
 
 
@@ -699,8 +745,9 @@ export const PoolingAsyncValueTaskMethodBuilder_1: {
 
 export type PoolingAsyncValueTaskMethodBuilder_1<TResult extends unknown> = PoolingAsyncValueTaskMethodBuilder_1$instance<TResult>;
 
-export interface TaskAwaiter$instance extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
+export interface TaskAwaiter$instance extends ICriticalNotifyCompletion$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_TaskAwaiter: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
@@ -724,8 +771,9 @@ export interface __TaskAwaiter$views {
 export type TaskAwaiter = TaskAwaiter$instance & __TaskAwaiter$views;
 
 
-export interface TaskAwaiter_1$instance<TResult extends unknown> extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
+export interface TaskAwaiter_1$instance<TResult extends unknown> extends ICriticalNotifyCompletion$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_TaskAwaiter_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
@@ -749,8 +797,9 @@ export interface __TaskAwaiter_1$views<TResult extends unknown> {
 export type TaskAwaiter_1<TResult extends unknown> = TaskAwaiter_1$instance<TResult> & __TaskAwaiter_1$views<TResult>;
 
 
-export interface ValueTaskAwaiter$instance extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
+export interface ValueTaskAwaiter$instance extends ICriticalNotifyCompletion$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_ValueTaskAwaiter: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
@@ -774,8 +823,9 @@ export interface __ValueTaskAwaiter$views {
 export type ValueTaskAwaiter = ValueTaskAwaiter$instance & __ValueTaskAwaiter$views;
 
 
-export interface ValueTaskAwaiter_1$instance<TResult extends unknown> extends ICriticalNotifyCompletion, ICriticalNotifyCompletion$instance {
+export interface ValueTaskAwaiter_1$instance<TResult extends unknown> extends ICriticalNotifyCompletion$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_ValueTaskAwaiter_1: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
@@ -801,6 +851,7 @@ export type ValueTaskAwaiter_1<TResult extends unknown> = ValueTaskAwaiter_1$ins
 
 export interface YieldAwaitable$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_YieldAwaitable: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     GetAwaiter(): YieldAwaitable_YieldAwaiter;
 }
@@ -813,8 +864,9 @@ export const YieldAwaitable: {
 
 export type YieldAwaitable = YieldAwaitable$instance;
 
-export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCompletion {
+export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCompletion$instance {
     readonly __tsonic_type_System_Runtime_CompilerServices_YieldAwaitable_YieldAwaiter: never;
+    readonly __tsonic_type_System_ValueType: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never;
     readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never;
@@ -834,7 +886,8 @@ export const YieldAwaitable_YieldAwaiter: {
 
 export type YieldAwaitable_YieldAwaiter = YieldAwaitable_YieldAwaiter$instance;
 
-export interface AccessedThroughPropertyAttribute$instance extends Attribute {
+export interface AccessedThroughPropertyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_AccessedThroughPropertyAttribute: never;
 
     readonly PropertyName: string;
@@ -848,8 +901,10 @@ export const AccessedThroughPropertyAttribute: {
 
 export type AccessedThroughPropertyAttribute = AccessedThroughPropertyAttribute$instance;
 
-export interface AsyncIteratorStateMachineAttribute$instance extends StateMachineAttribute {
+export interface AsyncIteratorStateMachineAttribute$instance extends StateMachineAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncIteratorStateMachineAttribute: never;
+    readonly __tsonic_type_System_Runtime_CompilerServices_StateMachineAttribute: never;
 
 }
 
@@ -861,7 +916,8 @@ export const AsyncIteratorStateMachineAttribute: {
 
 export type AsyncIteratorStateMachineAttribute = AsyncIteratorStateMachineAttribute$instance;
 
-export interface AsyncMethodBuilderAttribute$instance extends Attribute {
+export interface AsyncMethodBuilderAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncMethodBuilderAttribute: never;
 
     readonly BuilderType: Type;
@@ -875,8 +931,10 @@ export const AsyncMethodBuilderAttribute: {
 
 export type AsyncMethodBuilderAttribute = AsyncMethodBuilderAttribute$instance;
 
-export interface AsyncStateMachineAttribute$instance extends StateMachineAttribute {
+export interface AsyncStateMachineAttribute$instance extends StateMachineAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_AsyncStateMachineAttribute: never;
+    readonly __tsonic_type_System_Runtime_CompilerServices_StateMachineAttribute: never;
 
 }
 
@@ -979,7 +1037,8 @@ export const CallConvThiscall: {
 
 export type CallConvThiscall = CallConvThiscall$instance;
 
-export interface CallerArgumentExpressionAttribute$instance extends Attribute {
+export interface CallerArgumentExpressionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CallerArgumentExpressionAttribute: never;
 
     readonly ParameterName: string;
@@ -993,7 +1052,8 @@ export const CallerArgumentExpressionAttribute: {
 
 export type CallerArgumentExpressionAttribute = CallerArgumentExpressionAttribute$instance;
 
-export interface CallerFilePathAttribute$instance extends Attribute {
+export interface CallerFilePathAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CallerFilePathAttribute: never;
 
 }
@@ -1006,7 +1066,8 @@ export const CallerFilePathAttribute: {
 
 export type CallerFilePathAttribute = CallerFilePathAttribute$instance;
 
-export interface CallerLineNumberAttribute$instance extends Attribute {
+export interface CallerLineNumberAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CallerLineNumberAttribute: never;
 
 }
@@ -1019,7 +1080,8 @@ export const CallerLineNumberAttribute: {
 
 export type CallerLineNumberAttribute = CallerLineNumberAttribute$instance;
 
-export interface CallerMemberNameAttribute$instance extends Attribute {
+export interface CallerMemberNameAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CallerMemberNameAttribute: never;
 
 }
@@ -1046,7 +1108,8 @@ export const CallSite: {
 
 export type CallSite = CallSite$instance;
 
-export interface CallSite_1$instance<T extends (object | null)> extends CallSite {
+export interface CallSite_1$instance<T extends (object | null)> extends CallSite$instance {
+    readonly __tsonic_type_System_Runtime_CompilerServices_CallSite: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CallSite_1: never;
 
     Target: T;
@@ -1068,7 +1131,7 @@ export interface CallSiteBinder$instance {
 }
 
 
-export const CallSiteBinder: (abstract new() => CallSiteBinder) & {
+export const CallSiteBinder: {
     readonly UpdateLabel: LabelTarget;
 };
 
@@ -1090,7 +1153,8 @@ export const Closure: {
 
 export type Closure = Closure$instance;
 
-export interface CollectionBuilderAttribute$instance extends Attribute {
+export interface CollectionBuilderAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CollectionBuilderAttribute: never;
 
     readonly BuilderType: Type;
@@ -1105,7 +1169,8 @@ export const CollectionBuilderAttribute: {
 
 export type CollectionBuilderAttribute = CollectionBuilderAttribute$instance;
 
-export interface CompilationRelaxationsAttribute$instance extends Attribute {
+export interface CompilationRelaxationsAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CompilationRelaxationsAttribute: never;
 
     readonly CompilationRelaxations: int;
@@ -1120,7 +1185,8 @@ export const CompilationRelaxationsAttribute: {
 
 export type CompilationRelaxationsAttribute = CompilationRelaxationsAttribute$instance;
 
-export interface CompilerFeatureRequiredAttribute$instance extends Attribute {
+export interface CompilerFeatureRequiredAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CompilerFeatureRequiredAttribute: never;
 
     readonly FeatureName: string;
@@ -1137,7 +1203,8 @@ export const CompilerFeatureRequiredAttribute: {
 
 export type CompilerFeatureRequiredAttribute = CompilerFeatureRequiredAttribute$instance;
 
-export interface CompilerGeneratedAttribute$instance extends Attribute {
+export interface CompilerGeneratedAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CompilerGeneratedAttribute: never;
 
 }
@@ -1150,7 +1217,8 @@ export const CompilerGeneratedAttribute: {
 
 export type CompilerGeneratedAttribute = CompilerGeneratedAttribute$instance;
 
-export interface CompilerGlobalScopeAttribute$instance extends Attribute {
+export interface CompilerGlobalScopeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CompilerGlobalScopeAttribute: never;
 
 }
@@ -1163,7 +1231,8 @@ export const CompilerGlobalScopeAttribute: {
 
 export type CompilerGlobalScopeAttribute = CompilerGlobalScopeAttribute$instance;
 
-export interface CompilerLoweringPreserveAttribute$instance extends Attribute {
+export interface CompilerLoweringPreserveAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CompilerLoweringPreserveAttribute: never;
 
 }
@@ -1176,7 +1245,7 @@ export const CompilerLoweringPreserveAttribute: {
 
 export type CompilerLoweringPreserveAttribute = CompilerLoweringPreserveAttribute$instance;
 
-export interface ConditionalWeakTable_2$instance<TKey extends (object | null), TValue extends (object | null)> extends System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>> {
+export interface ConditionalWeakTable_2$instance<TKey extends (object | null), TValue extends (object | null)> {
     readonly __tsonic_type_System_Runtime_CompilerServices_ConditionalWeakTable_2: never;
 
     readonly __tsonic_iface_System_Collections_Generic_IEnumerable_1: never;
@@ -1213,7 +1282,8 @@ export type ConditionalWeakTable_2<TKey extends (object | null), TValue extends 
 export type ConditionalWeakTable_2_CreateValueCallback<TKey extends (object | null), TValue extends (object | null)> = (key: TKey) => TValue;
 
 
-export interface CppInlineNamespaceAttribute$instance extends Attribute {
+export interface CppInlineNamespaceAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CppInlineNamespaceAttribute: never;
 
 }
@@ -1226,7 +1296,8 @@ export const CppInlineNamespaceAttribute: {
 
 export type CppInlineNamespaceAttribute = CppInlineNamespaceAttribute$instance;
 
-export interface CreateNewOnMetadataUpdateAttribute$instance extends Attribute {
+export interface CreateNewOnMetadataUpdateAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CreateNewOnMetadataUpdateAttribute: never;
 
 }
@@ -1239,20 +1310,23 @@ export const CreateNewOnMetadataUpdateAttribute: {
 
 export type CreateNewOnMetadataUpdateAttribute = CreateNewOnMetadataUpdateAttribute$instance;
 
-export interface CustomConstantAttribute$instance extends Attribute {
+export interface CustomConstantAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_CustomConstantAttribute: never;
 
     readonly Value: unknown | unknown | null;
 }
 
 
-export const CustomConstantAttribute: (abstract new() => CustomConstantAttribute) & {
+export const CustomConstantAttribute: {
 };
 
 
 export type CustomConstantAttribute = CustomConstantAttribute$instance;
 
-export interface DateTimeConstantAttribute$instance extends CustomConstantAttribute {
+export interface DateTimeConstantAttribute$instance extends CustomConstantAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_Runtime_CompilerServices_CustomConstantAttribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_DateTimeConstantAttribute: never;
 
     readonly Value: unknown | unknown | null;
@@ -1273,14 +1347,15 @@ export interface DebugInfoGenerator$instance {
 }
 
 
-export const DebugInfoGenerator: (abstract new() => DebugInfoGenerator) & {
+export const DebugInfoGenerator: {
     CreatePdbGenerator(): DebugInfoGenerator;
 };
 
 
 export type DebugInfoGenerator = DebugInfoGenerator$instance;
 
-export interface DecimalConstantAttribute$instance extends Attribute {
+export interface DecimalConstantAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_DecimalConstantAttribute: never;
 
     readonly Value: decimal;
@@ -1295,7 +1370,8 @@ export const DecimalConstantAttribute: {
 
 export type DecimalConstantAttribute = DecimalConstantAttribute$instance;
 
-export interface DefaultDependencyAttribute$instance extends Attribute {
+export interface DefaultDependencyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_DefaultDependencyAttribute: never;
 
     readonly LoadHint: LoadHint;
@@ -1309,7 +1385,8 @@ export const DefaultDependencyAttribute: {
 
 export type DefaultDependencyAttribute = DefaultDependencyAttribute$instance;
 
-export interface DependencyAttribute$instance extends Attribute {
+export interface DependencyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_DependencyAttribute: never;
 
     readonly DependentAssembly: string;
@@ -1324,7 +1401,8 @@ export const DependencyAttribute: {
 
 export type DependencyAttribute = DependencyAttribute$instance;
 
-export interface DisablePrivateReflectionAttribute$instance extends Attribute {
+export interface DisablePrivateReflectionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_DisablePrivateReflectionAttribute: never;
 
 }
@@ -1337,7 +1415,8 @@ export const DisablePrivateReflectionAttribute: {
 
 export type DisablePrivateReflectionAttribute = DisablePrivateReflectionAttribute$instance;
 
-export interface DisableRuntimeMarshallingAttribute$instance extends Attribute {
+export interface DisableRuntimeMarshallingAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_DisableRuntimeMarshallingAttribute: never;
 
 }
@@ -1350,7 +1429,8 @@ export const DisableRuntimeMarshallingAttribute: {
 
 export type DisableRuntimeMarshallingAttribute = DisableRuntimeMarshallingAttribute$instance;
 
-export interface DiscardableAttribute$instance extends Attribute {
+export interface DiscardableAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_DiscardableAttribute: never;
 
 }
@@ -1363,7 +1443,8 @@ export const DiscardableAttribute: {
 
 export type DiscardableAttribute = DiscardableAttribute$instance;
 
-export interface DynamicAttribute$instance extends Attribute {
+export interface DynamicAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_DynamicAttribute: never;
 
     readonly TransformFlags: IList_1<System_Internal.Boolean>;
@@ -1378,7 +1459,8 @@ export const DynamicAttribute: {
 
 export type DynamicAttribute = DynamicAttribute$instance;
 
-export interface EnumeratorCancellationAttribute$instance extends Attribute {
+export interface EnumeratorCancellationAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_EnumeratorCancellationAttribute: never;
 
 }
@@ -1391,7 +1473,8 @@ export const EnumeratorCancellationAttribute: {
 
 export type EnumeratorCancellationAttribute = EnumeratorCancellationAttribute$instance;
 
-export interface ExtensionAttribute$instance extends Attribute {
+export interface ExtensionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_ExtensionAttribute: never;
 
 }
@@ -1404,7 +1487,8 @@ export const ExtensionAttribute: {
 
 export type ExtensionAttribute = ExtensionAttribute$instance;
 
-export interface ExtensionMarkerAttribute$instance extends Attribute {
+export interface ExtensionMarkerAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_ExtensionMarkerAttribute: never;
 
     readonly Name: string;
@@ -1418,7 +1502,8 @@ export const ExtensionMarkerAttribute: {
 
 export type ExtensionMarkerAttribute = ExtensionMarkerAttribute$instance;
 
-export interface FixedAddressValueTypeAttribute$instance extends Attribute {
+export interface FixedAddressValueTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_FixedAddressValueTypeAttribute: never;
 
 }
@@ -1431,7 +1516,8 @@ export const FixedAddressValueTypeAttribute: {
 
 export type FixedAddressValueTypeAttribute = FixedAddressValueTypeAttribute$instance;
 
-export interface FixedBufferAttribute$instance extends Attribute {
+export interface FixedBufferAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_FixedBufferAttribute: never;
 
     readonly ElementType: Type;
@@ -1446,7 +1532,8 @@ export const FixedBufferAttribute: {
 
 export type FixedBufferAttribute = FixedBufferAttribute$instance;
 
-export interface HasCopySemanticsAttribute$instance extends Attribute {
+export interface HasCopySemanticsAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_HasCopySemanticsAttribute: never;
 
 }
@@ -1459,7 +1546,9 @@ export const HasCopySemanticsAttribute: {
 
 export type HasCopySemanticsAttribute = HasCopySemanticsAttribute$instance;
 
-export interface IDispatchConstantAttribute$instance extends CustomConstantAttribute {
+export interface IDispatchConstantAttribute$instance extends CustomConstantAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_Runtime_CompilerServices_CustomConstantAttribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_IDispatchConstantAttribute: never;
 
     readonly Value: unknown | unknown | null;
@@ -1473,7 +1562,8 @@ export const IDispatchConstantAttribute: {
 
 export type IDispatchConstantAttribute = IDispatchConstantAttribute$instance;
 
-export interface IndexerNameAttribute$instance extends Attribute {
+export interface IndexerNameAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_IndexerNameAttribute: never;
 
 }
@@ -1486,7 +1576,8 @@ export const IndexerNameAttribute: {
 
 export type IndexerNameAttribute = IndexerNameAttribute$instance;
 
-export interface InlineArrayAttribute$instance extends Attribute {
+export interface InlineArrayAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_InlineArrayAttribute: never;
 
     readonly Length: int;
@@ -1500,7 +1591,8 @@ export const InlineArrayAttribute: {
 
 export type InlineArrayAttribute = InlineArrayAttribute$instance;
 
-export interface InternalsVisibleToAttribute$instance extends Attribute {
+export interface InternalsVisibleToAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_InternalsVisibleToAttribute: never;
 
     AllInternalsVisible: boolean;
@@ -1515,7 +1607,8 @@ export const InternalsVisibleToAttribute: {
 
 export type InternalsVisibleToAttribute = InternalsVisibleToAttribute$instance;
 
-export interface InterpolatedStringHandlerArgumentAttribute$instance extends Attribute {
+export interface InterpolatedStringHandlerArgumentAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_InterpolatedStringHandlerArgumentAttribute: never;
 
     readonly Arguments: string[];
@@ -1530,7 +1623,8 @@ export const InterpolatedStringHandlerArgumentAttribute: {
 
 export type InterpolatedStringHandlerArgumentAttribute = InterpolatedStringHandlerArgumentAttribute$instance;
 
-export interface InterpolatedStringHandlerAttribute$instance extends Attribute {
+export interface InterpolatedStringHandlerAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_InterpolatedStringHandlerAttribute: never;
 
 }
@@ -1543,7 +1637,8 @@ export const InterpolatedStringHandlerAttribute: {
 
 export type InterpolatedStringHandlerAttribute = InterpolatedStringHandlerAttribute$instance;
 
-export interface IsByRefLikeAttribute$instance extends Attribute {
+export interface IsByRefLikeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_IsByRefLikeAttribute: never;
 
 }
@@ -1556,7 +1651,8 @@ export const IsByRefLikeAttribute: {
 
 export type IsByRefLikeAttribute = IsByRefLikeAttribute$instance;
 
-export interface IsReadOnlyAttribute$instance extends Attribute {
+export interface IsReadOnlyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_IsReadOnlyAttribute: never;
 
 }
@@ -1569,7 +1665,8 @@ export const IsReadOnlyAttribute: {
 
 export type IsReadOnlyAttribute = IsReadOnlyAttribute$instance;
 
-export interface IsUnmanagedAttribute$instance extends Attribute {
+export interface IsUnmanagedAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_IsUnmanagedAttribute: never;
 
 }
@@ -1582,8 +1679,10 @@ export const IsUnmanagedAttribute: {
 
 export type IsUnmanagedAttribute = IsUnmanagedAttribute$instance;
 
-export interface IteratorStateMachineAttribute$instance extends StateMachineAttribute {
+export interface IteratorStateMachineAttribute$instance extends StateMachineAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_IteratorStateMachineAttribute: never;
+    readonly __tsonic_type_System_Runtime_CompilerServices_StateMachineAttribute: never;
 
 }
 
@@ -1595,7 +1694,9 @@ export const IteratorStateMachineAttribute: {
 
 export type IteratorStateMachineAttribute = IteratorStateMachineAttribute$instance;
 
-export interface IUnknownConstantAttribute$instance extends CustomConstantAttribute {
+export interface IUnknownConstantAttribute$instance extends CustomConstantAttribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
+    readonly __tsonic_type_System_Runtime_CompilerServices_CustomConstantAttribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_IUnknownConstantAttribute: never;
 
     readonly Value: unknown | unknown | null;
@@ -1609,7 +1710,8 @@ export const IUnknownConstantAttribute: {
 
 export type IUnknownConstantAttribute = IUnknownConstantAttribute$instance;
 
-export interface MetadataUpdateDeletedAttribute$instance extends Attribute {
+export interface MetadataUpdateDeletedAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_MetadataUpdateDeletedAttribute: never;
 
 }
@@ -1622,7 +1724,8 @@ export const MetadataUpdateDeletedAttribute: {
 
 export type MetadataUpdateDeletedAttribute = MetadataUpdateDeletedAttribute$instance;
 
-export interface MetadataUpdateOriginalTypeAttribute$instance extends Attribute {
+export interface MetadataUpdateOriginalTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_MetadataUpdateOriginalTypeAttribute: never;
 
     readonly OriginalType: Type;
@@ -1636,7 +1739,8 @@ export const MetadataUpdateOriginalTypeAttribute: {
 
 export type MetadataUpdateOriginalTypeAttribute = MetadataUpdateOriginalTypeAttribute$instance;
 
-export interface MethodImplAttribute$instance extends Attribute {
+export interface MethodImplAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_MethodImplAttribute: never;
 
     MethodCodeType: MethodCodeType;
@@ -1653,7 +1757,8 @@ export const MethodImplAttribute: {
 
 export type MethodImplAttribute = MethodImplAttribute$instance;
 
-export interface ModuleInitializerAttribute$instance extends Attribute {
+export interface ModuleInitializerAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_ModuleInitializerAttribute: never;
 
 }
@@ -1666,7 +1771,8 @@ export const ModuleInitializerAttribute: {
 
 export type ModuleInitializerAttribute = ModuleInitializerAttribute$instance;
 
-export interface NativeCppClassAttribute$instance extends Attribute {
+export interface NativeCppClassAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_NativeCppClassAttribute: never;
 
 }
@@ -1679,7 +1785,8 @@ export const NativeCppClassAttribute: {
 
 export type NativeCppClassAttribute = NativeCppClassAttribute$instance;
 
-export interface NullableAttribute$instance extends Attribute {
+export interface NullableAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_NullableAttribute: never;
 
     readonly NullableFlags: byte[];
@@ -1694,7 +1801,8 @@ export const NullableAttribute: {
 
 export type NullableAttribute = NullableAttribute$instance;
 
-export interface NullableContextAttribute$instance extends Attribute {
+export interface NullableContextAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_NullableContextAttribute: never;
 
     readonly Flag: byte;
@@ -1708,7 +1816,8 @@ export const NullableContextAttribute: {
 
 export type NullableContextAttribute = NullableContextAttribute$instance;
 
-export interface NullablePublicOnlyAttribute$instance extends Attribute {
+export interface NullablePublicOnlyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_NullablePublicOnlyAttribute: never;
 
     readonly IncludesInternals: boolean;
@@ -1722,7 +1831,8 @@ export const NullablePublicOnlyAttribute: {
 
 export type NullablePublicOnlyAttribute = NullablePublicOnlyAttribute$instance;
 
-export interface OverloadResolutionPriorityAttribute$instance extends Attribute {
+export interface OverloadResolutionPriorityAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_OverloadResolutionPriorityAttribute: never;
 
     readonly Priority: int;
@@ -1736,7 +1846,8 @@ export const OverloadResolutionPriorityAttribute: {
 
 export type OverloadResolutionPriorityAttribute = OverloadResolutionPriorityAttribute$instance;
 
-export interface ParamCollectionAttribute$instance extends Attribute {
+export interface ParamCollectionAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_ParamCollectionAttribute: never;
 
 }
@@ -1749,7 +1860,8 @@ export const ParamCollectionAttribute: {
 
 export type ParamCollectionAttribute = ParamCollectionAttribute$instance;
 
-export interface PreserveBaseOverridesAttribute$instance extends Attribute {
+export interface PreserveBaseOverridesAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_PreserveBaseOverridesAttribute: never;
 
 }
@@ -1809,7 +1921,8 @@ export interface __ReadOnlyCollectionBuilder_1$views<T extends unknown> {
 export type ReadOnlyCollectionBuilder_1<T extends unknown> = ReadOnlyCollectionBuilder_1$instance<T> & __ReadOnlyCollectionBuilder_1$views<T> & { [index: number]: T; };
 
 
-export interface ReferenceAssemblyAttribute$instance extends Attribute {
+export interface ReferenceAssemblyAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_ReferenceAssemblyAttribute: never;
 
     readonly Description: string | null;
@@ -1824,7 +1937,8 @@ export const ReferenceAssemblyAttribute: {
 
 export type ReferenceAssemblyAttribute = ReferenceAssemblyAttribute$instance;
 
-export interface RefSafetyRulesAttribute$instance extends Attribute {
+export interface RefSafetyRulesAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_RefSafetyRulesAttribute: never;
 
     readonly Version: int;
@@ -1838,7 +1952,8 @@ export const RefSafetyRulesAttribute: {
 
 export type RefSafetyRulesAttribute = RefSafetyRulesAttribute$instance;
 
-export interface RequiredAttributeAttribute$instance extends Attribute {
+export interface RequiredAttributeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_RequiredAttributeAttribute: never;
 
     readonly RequiredContract: Type;
@@ -1852,7 +1967,8 @@ export const RequiredAttributeAttribute: {
 
 export type RequiredAttributeAttribute = RequiredAttributeAttribute$instance;
 
-export interface RequiredMemberAttribute$instance extends Attribute {
+export interface RequiredMemberAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_RequiredMemberAttribute: never;
 
 }
@@ -1865,7 +1981,8 @@ export const RequiredMemberAttribute: {
 
 export type RequiredMemberAttribute = RequiredMemberAttribute$instance;
 
-export interface RequiresLocationAttribute$instance extends Attribute {
+export interface RequiresLocationAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_RequiresLocationAttribute: never;
 
 }
@@ -1890,7 +2007,8 @@ export const RuleCache_1: {
 
 export type RuleCache_1<T extends (object | null)> = RuleCache_1$instance<T>;
 
-export interface RuntimeCompatibilityAttribute$instance extends Attribute {
+export interface RuntimeCompatibilityAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_RuntimeCompatibilityAttribute: never;
 
     WrapNonExceptionThrows: boolean;
@@ -1904,13 +2022,14 @@ export const RuntimeCompatibilityAttribute: {
 
 export type RuntimeCompatibilityAttribute = RuntimeCompatibilityAttribute$instance;
 
-export interface RuntimeWrappedException$instance extends Exception, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface RuntimeWrappedException$instance extends System_Internal.Exception$instance {
+    readonly __tsonic_type_System_Exception: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_RuntimeWrappedException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
     readonly WrappedException: unknown;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData: System_Internal.Exception$instance["GetObjectData"] & ((info: SerializationInfo, context: StreamingContext) => void);
 }
 
 
@@ -1926,7 +2045,8 @@ export interface __RuntimeWrappedException$views {
 export type RuntimeWrappedException = RuntimeWrappedException$instance & __RuntimeWrappedException$views;
 
 
-export interface ScopedRefAttribute$instance extends Attribute {
+export interface ScopedRefAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_ScopedRefAttribute: never;
 
 }
@@ -1939,7 +2059,8 @@ export const ScopedRefAttribute: {
 
 export type ScopedRefAttribute = ScopedRefAttribute$instance;
 
-export interface ScopelessEnumAttribute$instance extends Attribute {
+export interface ScopelessEnumAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_ScopelessEnumAttribute: never;
 
 }
@@ -1952,7 +2073,8 @@ export const ScopelessEnumAttribute: {
 
 export type ScopelessEnumAttribute = ScopelessEnumAttribute$instance;
 
-export interface SkipLocalsInitAttribute$instance extends Attribute {
+export interface SkipLocalsInitAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_SkipLocalsInitAttribute: never;
 
 }
@@ -1965,7 +2087,8 @@ export const SkipLocalsInitAttribute: {
 
 export type SkipLocalsInitAttribute = SkipLocalsInitAttribute$instance;
 
-export interface SpecialNameAttribute$instance extends Attribute {
+export interface SpecialNameAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_SpecialNameAttribute: never;
 
 }
@@ -1978,7 +2101,8 @@ export const SpecialNameAttribute: {
 
 export type SpecialNameAttribute = SpecialNameAttribute$instance;
 
-export interface StateMachineAttribute$instance extends Attribute {
+export interface StateMachineAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_StateMachineAttribute: never;
 
     readonly StateMachineType: Type;
@@ -1992,7 +2116,8 @@ export const StateMachineAttribute: {
 
 export type StateMachineAttribute = StateMachineAttribute$instance;
 
-export interface StringFreezingAttribute$instance extends Attribute {
+export interface StringFreezingAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_StringFreezingAttribute: never;
 
 }
@@ -2005,7 +2130,7 @@ export const StringFreezingAttribute: {
 
 export type StringFreezingAttribute = StringFreezingAttribute$instance;
 
-export interface StrongBox_1$instance<T extends unknown> extends IStrongBox$instance {
+export interface StrongBox_1$instance<T extends unknown> {
     readonly __tsonic_type_System_Runtime_CompilerServices_StrongBox_1: never;
 
     readonly __tsonic_iface_System_Runtime_CompilerServices_IStrongBox: never;
@@ -2027,7 +2152,8 @@ export interface __StrongBox_1$views<T extends unknown> {
 export type StrongBox_1<T extends unknown> = StrongBox_1$instance<T> & __StrongBox_1$views<T>;
 
 
-export interface SuppressIldasmAttribute$instance extends Attribute {
+export interface SuppressIldasmAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_SuppressIldasmAttribute: never;
 
 }
@@ -2040,14 +2166,16 @@ export const SuppressIldasmAttribute: {
 
 export type SuppressIldasmAttribute = SuppressIldasmAttribute$instance;
 
-export interface SwitchExpressionException$instance extends InvalidOperationException, System_Runtime_Serialization_Internal.ISerializable$instance {
+export interface SwitchExpressionException$instance extends System_Internal.InvalidOperationException$instance {
+    readonly __tsonic_type_System_Exception: never;
+    readonly __tsonic_type_System_InvalidOperationException: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_SwitchExpressionException: never;
+    readonly __tsonic_type_System_SystemException: never;
 
     readonly __tsonic_iface_System_Runtime_Serialization_ISerializable: never;
 
-    readonly Message: string;
     readonly UnmatchedValue: unknown | null;
-    GetObjectData(info: SerializationInfo, context: StreamingContext): void;
+    GetObjectData: System_Internal.InvalidOperationException$instance["GetObjectData"] & ((info: SerializationInfo, context: StreamingContext) => void);
 }
 
 
@@ -2067,7 +2195,8 @@ export interface __SwitchExpressionException$views {
 export type SwitchExpressionException = SwitchExpressionException$instance & __SwitchExpressionException$views;
 
 
-export interface TupleElementNamesAttribute$instance extends Attribute {
+export interface TupleElementNamesAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_TupleElementNamesAttribute: never;
 
     readonly TransformNames: IList_1<string | null>;
@@ -2081,7 +2210,8 @@ export const TupleElementNamesAttribute: {
 
 export type TupleElementNamesAttribute = TupleElementNamesAttribute$instance;
 
-export interface TypeForwardedFromAttribute$instance extends Attribute {
+export interface TypeForwardedFromAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_TypeForwardedFromAttribute: never;
 
     readonly AssemblyFullName: string;
@@ -2095,7 +2225,8 @@ export const TypeForwardedFromAttribute: {
 
 export type TypeForwardedFromAttribute = TypeForwardedFromAttribute$instance;
 
-export interface TypeForwardedToAttribute$instance extends Attribute {
+export interface TypeForwardedToAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_TypeForwardedToAttribute: never;
 
     readonly Destination: Type;
@@ -2109,7 +2240,8 @@ export const TypeForwardedToAttribute: {
 
 export type TypeForwardedToAttribute = TypeForwardedToAttribute$instance;
 
-export interface UnsafeAccessorAttribute$instance extends Attribute {
+export interface UnsafeAccessorAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_UnsafeAccessorAttribute: never;
 
     readonly Kind: UnsafeAccessorKind;
@@ -2125,7 +2257,8 @@ export const UnsafeAccessorAttribute: {
 
 export type UnsafeAccessorAttribute = UnsafeAccessorAttribute$instance;
 
-export interface UnsafeAccessorTypeAttribute$instance extends Attribute {
+export interface UnsafeAccessorTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_UnsafeAccessorTypeAttribute: never;
 
     readonly TypeName: string;
@@ -2139,7 +2272,8 @@ export const UnsafeAccessorTypeAttribute: {
 
 export type UnsafeAccessorTypeAttribute = UnsafeAccessorTypeAttribute$instance;
 
-export interface UnsafeValueTypeAttribute$instance extends Attribute {
+export interface UnsafeValueTypeAttribute$instance extends System_Internal.Attribute$instance {
+    readonly __tsonic_type_System_Attribute: never;
     readonly __tsonic_type_System_Runtime_CompilerServices_UnsafeValueTypeAttribute: never;
 
 }
@@ -2161,8 +2295,8 @@ export abstract class AsyncHelpers$instance {
     static Await(task: ValueTask): void;
     static Await<T extends unknown>(task: Task_1<T>): T;
     static Await<T extends unknown>(task: ValueTask_1<T>): T;
-    static AwaitAwaiter<TAwaiter extends unknown & INotifyCompletion>(awaiter: TAwaiter): void;
-    static UnsafeAwaitAwaiter<TAwaiter extends unknown & ICriticalNotifyCompletion>(awaiter: TAwaiter): void;
+    static AwaitAwaiter<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_INotifyCompletion: never }>(awaiter: TAwaiter): void;
+    static UnsafeAwaitAwaiter<TAwaiter extends unknown & { readonly __tsonic_iface_System_Runtime_CompilerServices_ICriticalNotifyCompletion: never }>(awaiter: TAwaiter): void;
 }
 
 
@@ -2401,7 +2535,7 @@ export abstract class Unsafe$instance {
     static Subtract<T extends unknown>(source: T, elementOffset: nuint): T;
     static SubtractByteOffset<T extends unknown>(source: T, byteOffset: nint): T;
     static SubtractByteOffset<T extends unknown>(source: T, byteOffset: nuint): T;
-    static Unbox<T extends NonNullable<unknown>>(box: unknown): T;
+    static Unbox<T extends { readonly __tsonic_type_System_ValueType: never }>(box: unknown): T;
     static Write<T extends unknown>(destination: ptr<void>, value: T): void;
     static WriteUnaligned<T extends unknown>(destination: byte, value: T): void;
     static WriteUnaligned<T extends unknown>(destination: ptr<void>, value: T): void;

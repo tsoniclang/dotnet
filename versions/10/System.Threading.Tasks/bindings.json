@@ -5576,17 +5576,6 @@
             "visibility": "Public",
             "ownerQualifiedName": "System.Threading.Tasks.TaskCanceledException",
             "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskCanceledException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100680798,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Threading.Tasks.TaskCanceledException",
-            "ownerIdentity": "System.Private.CoreLib"
           }
         ]
       },
@@ -8775,26 +8764,6 @@
             "ownerQualifiedName": "System.Threading.Tasks.TaskScheduler",
             "ownerIdentity": "System.Private.CoreLib",
             "isExtensionMethod": false
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::TryExecuteTask(System.Threading.Tasks.Task):System.Boolean",
-            "targetName": "TryExecuteTask",
-            "metadataToken": 100681010,
-            "canonicalSignature": "(System.Threading.Tasks.Task):System.Boolean",
-            "normalizedSignature": "TryExecuteTask|(System.Threading.Tasks.Task):System.Boolean|static=false",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "arity": 0,
-            "parameterCount": 1,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "isSealed": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Threading.Tasks.TaskScheduler",
-            "ownerIdentity": "System.Private.CoreLib",
-            "isExtensionMethod": false
           }
         ],
         "properties": [
@@ -8888,19 +8857,7 @@
             "ownerIdentity": "System.Private.CoreLib"
           }
         ],
-        "constructors": [
-          {
-            "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::.ctor():void",
-            "metadataToken": 100681003,
-            "canonicalSignature": "():void",
-            "normalizedSignature": "constructor|():void|static=false",
-            "isStatic": false,
-            "parameterCount": 0,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Threading.Tasks.TaskScheduler",
-            "ownerIdentity": "System.Private.CoreLib"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskSchedulerException",
@@ -8991,17 +8948,6 @@
             "isStatic": false,
             "parameterCount": 2,
             "visibility": "Public",
-            "ownerQualifiedName": "System.Threading.Tasks.TaskSchedulerException",
-            "ownerIdentity": "System.Private.CoreLib"
-          },
-          {
-            "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskSchedulerException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "metadataToken": 100681037,
-            "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void",
-            "normalizedSignature": "constructor|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
             "ownerQualifiedName": "System.Threading.Tasks.TaskSchedulerException",
             "ownerIdentity": "System.Private.CoreLib"
           }

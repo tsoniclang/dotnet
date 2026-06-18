@@ -5563,25 +5563,6 @@
             "ownerIdentity": "System.Net.Security"
           },
           {
-            "stableId": "System.Net.Security:System.Net.Security.AuthenticatedStream::InnerStream:System.IO.Stream",
-            "targetName": "InnerStream",
-            "metadataToken": 385876140,
-            "canonicalSignature": ":System.IO.Stream",
-            "normalizedSignature": "InnerStream|:System.IO.Stream|static=false|accessor=get",
-            "emitScope": "ClassSurface",
-            "provenance": "Original",
-            "isIndexer": false,
-            "hasGetter": true,
-            "hasSetter": false,
-            "isStatic": false,
-            "isAbstract": false,
-            "isVirtual": false,
-            "isOverride": false,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Security.AuthenticatedStream",
-            "ownerIdentity": "System.Net.Security"
-          },
-          {
             "stableId": "System.Net.Security:System.Net.Security.AuthenticatedStream::IsAuthenticated:System.Boolean",
             "targetName": "IsAuthenticated",
             "metadataToken": 385876141,
@@ -5679,19 +5660,7 @@
         ],
         "fields": [],
         "events": [],
-        "constructors": [
-          {
-            "stableId": "System.Net.Security:System.Net.Security.AuthenticatedStream::.ctor(System.IO.Stream,System.Boolean):void",
-            "metadataToken": 100664065,
-            "canonicalSignature": "(System.IO.Stream,System.Boolean):void",
-            "normalizedSignature": "constructor|(System.IO.Stream,System.Boolean):void|static=false",
-            "isStatic": false,
-            "parameterCount": 2,
-            "visibility": "Protected",
-            "ownerQualifiedName": "System.Net.Security.AuthenticatedStream",
-            "ownerIdentity": "System.Net.Security"
-          }
-        ]
+        "constructors": []
       },
       {
         "stableId": "System.Net.Security:System.Net.Security.CipherSuitesPolicy",

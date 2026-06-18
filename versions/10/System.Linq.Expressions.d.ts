@@ -70,5 +70,5 @@ export type Expression<
   T1 extends unknown | __ = __,
 > =
   [T1] extends [__] ? Internal.Expression :
-  [T1] extends [unknown] ? Internal.Expression_1<T1> : never;
+  Internal.Expression_1<T1>;
 
